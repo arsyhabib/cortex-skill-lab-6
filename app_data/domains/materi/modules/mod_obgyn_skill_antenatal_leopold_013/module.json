@@ -254,7 +254,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi palpasi obstetri: kepala janin keras bulat melenting vs bokong lunak tidak simetris, tampilan cutaway uterus, label sederhana Bahasa Indonesia, gaya clean medical illustration.",
       "alt": "Ilustrasi perbandingan kepala janin yang keras, bulat, melenting dengan bokong yang lunak dan tidak simetris pada cutaway uterus, membantu interpretasi palpasi Leopold.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/kepala_bokong.png"
     },
     {
@@ -274,7 +274,7 @@
       "type": "table",
       "generation_prompt": "Poster template kesimpulan pemeriksaan obstetri: janin tunggal, letak, presentasi, punggung, TBJ, kepala 5/5, DJJ, his, rencana, desain premium untuk OSCE.",
       "alt": "Template kesimpulan obstetri terstruktur untuk OSCE - format: jumlah janin, letak, presentasi, punggung, TBJ, kepala X/5, DJJ, his, dan rencana tindak lanjut.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/kesimpulan_template.png"
     },
     {

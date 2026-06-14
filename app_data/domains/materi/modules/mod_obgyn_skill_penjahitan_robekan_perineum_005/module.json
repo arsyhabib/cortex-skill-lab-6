@@ -232,8 +232,8 @@
       "type": "diagram",
       "generation_prompt": "Clean medical diagram, perineal tear degree 1 2 3 4, cross-section schematic, Indonesian labels (kulit, otot perineum, sfingter ani, mukosa rektum), non-bloody, educational poster. Untuk bahan belajar OSCE.",
       "alt": "Diagram penampang melintang perineum wanita yang menunjukkan empat derajat robekan: derajat 1 (mukosa vagina/kulit perineum), derajat 2 (otot perineum, sfingter utuh), derajat 3 (sfingter ani ruptur), derajat 4 (sfingter ani ruptur dan mukosa rektum robek). Label struktur anatomi dalam Bahasa Indonesia.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/derajat_robekan_perineum.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/derajat_robekan_perineum.svg"
     },
     {
       "id": "visual_perineum_jahitan_berlapis_02",
@@ -242,7 +242,7 @@
       "type": "illustration",
       "generation_prompt": "Step-by-step medical illustration of second-degree perineal repair on simulation model, layers: vaginal mucosa, perineal muscle, subcutaneous tissue, skin, Indonesian labels, non-graphic. Gaya clean medical illustration.",
       "alt": "Ilustrasi langkah demi langkah penjahitan robekan perineum derajat 2 pada model simulasi: jahitan mukosa vagina (1 cm di atas apex), jahitan otot perineum, jahitan subkutis, dan jahitan kulit. Label setiap lapisan dalam Bahasa Indonesia.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/jahitan_berlapis.png"
     },
     {
@@ -252,8 +252,8 @@
       "type": "diagram",
       "generation_prompt": "Medical training diagram showing local anesthetic infiltration fan pattern along perineal tear edges, syringe, aspiration reminder (tidak ada darah kembali sebelum menyuntik), Indonesian labels. Gaya clean medical illustration.",
       "alt": "Diagram pelatihan medis yang menunjukkan pola infiltrasi anestesi lokal secara kipas (fan pattern) di sepanjang tepi robekan perineum, dengan spuit dan pengingat aspirasi (tidak ada darah kembali sebelum menyuntik). Label dalam Bahasa Indonesia.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/infiltrasi_lidokain_fan_pattern.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/infiltrasi_lidokain_fan_pattern.svg"
     },
     {
       "id": "visual_perineum_pemeriksaan_rektal_04",
@@ -262,7 +262,7 @@
       "type": "illustration",
       "generation_prompt": "Schematic medical illustration of gloved index finger performing rectal examination after perineal repair, Indonesian labels, non-graphic, clean style. Tujuannya untuk safety check akhir agar tidak ada jahitan menembus rektum.",
       "alt": "Skema ilustrasi medis jari telunjuk bersarung tangan melakukan pemeriksaan rektal setelah repair perineum sebagai safety check akhir untuk memastikan tidak ada jahitan menembus dinding rektum. Label dalam Bahasa Indonesia.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/pemeriksaan_rektal_akhir.png"
     },
     {
@@ -272,7 +272,7 @@
       "type": "anatomy_3d",
       "generation_prompt": "Clean medical cross-section of normal female perineal anatomy, labeled in Indonesian (vagina, uretra, otot perineum, sfingter ani, rektum), educational style, non-bloody. Untuk memahami struktur yang akan dijahit pada repair perineum.",
       "alt": "Diagram penampang melintang anatomi perineum wanita normal yang menunjukkan hubungan vagina, uretra, otot perineum, sfingter ani, dan rektum. Label dalam Bahasa Indonesia untuk membantu pemahaman struktur yang akan dijahit pada repair perineum.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/anatomi_perineum_normal.png"
     },
     {
@@ -282,7 +282,7 @@
       "type": "table",
       "generation_prompt": "Flat lay medical illustration of perineal repair instrument set: needle holder, anatomical forceps, surgical forceps, suture scissors, needle, absorbable suture (vicryl 2-0), sterile gauze, lidocaine 1% vial, 10 ml syringe, povidone iodine, sterile gloves, label Bahasa Indonesia. Clean medical photography style on a sterile blue drape.",
       "alt": "Tampak atas set instrumen repair perineum: needle holder, pinset anatomis, pinset chirurgis, gunting benang, jarum, benang absorbable (vicryl 2-0), kasa steril, vial lidokain 1%, spuit 10 ml, povidone iodine, sarung tangan steril. Label dalam Bahasa Indonesia di alas biru steril.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/set_instrumen_repair.png"
     }
   ],

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Deviasi Lidah N XII</title>
+  <desc>Tiga panel diagram lidah dijulurkan: normal, lesi LMN kiri, dan lesi UMN kanan.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="42" class="title" text-anchor="middle">Deviasi Lidah pada Pemeriksaan N. XII</text>
+  <text x="450" y="68" class="subtitle" text-anchor="middle">Lidah dijulurkan: arah deviasi, atrofi, dan fasikulasi membantu lokalisasi lesi</text>
+  <g transform="translate(35 105)">
+    <rect x="0" y="0" width="260" height="425" class="card"/>
+    <text x="130" y="32" class="label" text-anchor="middle">NORMAL</text>
+    <path d="M65 125 Q130 75 195 125 Q180 178 130 184 Q80 178 65 125Z" fill="#fee2e2" stroke="#c2410c" stroke-width="2.2"/>
+    <path d="M84 125 Q130 150 176 125" class="thin"/>
+    <path d="M98 172 C105 270 155 270 162 172 C150 215 110 215 98 172Z" fill="#fca5a5" stroke="#991b1b" stroke-width="2.4"/>
+    <line x1="130" y1="180" x2="130" y2="260" stroke="#991b1b" stroke-width="2" stroke-dasharray="6 5"/>
+    <path d="M130 285 L130 340" class="arrowCyan"/>
+    <text x="130" y="370" class="small" text-anchor="middle">Lidah tetap di garis tengah</text>
+    <text x="130" y="392" class="tiny" text-anchor="middle">Tidak ada atrofi/fasikulasi</text>
+  </g>
+  <g transform="translate(320 105)">
+    <rect x="0" y="0" width="260" height="425" class="card"/>
+    <text x="130" y="32" class="label" text-anchor="middle">LESI N XII KIRI</text>
+    <text x="130" y="55" class="small" text-anchor="middle">LMN kronis</text>
+    <path d="M65 125 Q130 75 195 125 Q180 178 130 184 Q80 178 65 125Z" fill="#fee2e2" stroke="#c2410c" stroke-width="2.2"/>
+    <path d="M84 125 Q130 150 176 125" class="thin"/>
+    <path d="M96 172 C82 243 120 279 157 172 C135 216 105 213 96 172Z" fill="#fca5a5" stroke="#991b1b" stroke-width="2.4"/>
+    <path d="M109 190 C96 202 94 222 107 235" stroke="#ef4444" stroke-width="2" fill="none"/>
+    <path d="M105 207 l-10 6 M113 220 l-12 7 M115 238 l-11 8" stroke="#ef4444" stroke-width="2"/>
+    <path d="M147 194 q8 18 2 36" stroke="#991b1b" stroke-width="1.5" fill="none"/>
+    <path d="M132 286 C112 294 95 315 82 340" class="arrowRed"/>
+    <text x="130" y="372" class="small" text-anchor="middle">Deviasi ke kiri</text>
+    <text x="130" y="394" class="tiny" text-anchor="middle">Atrofi + fasikulasi sisi kiri</text>
+  </g>
+  <g transform="translate(605 105)">
+    <rect x="0" y="0" width="260" height="425" class="card"/>
+    <text x="130" y="32" class="label" text-anchor="middle">LESI N XII KANAN</text>
+    <text x="130" y="55" class="small" text-anchor="middle">UMN / stroke</text>
+    <path d="M65 125 Q130 75 195 125 Q180 178 130 184 Q80 178 65 125Z" fill="#fee2e2" stroke="#c2410c" stroke-width="2.2"/>
+    <path d="M84 125 Q130 150 176 125" class="thin"/>
+    <path d="M103 172 C140 282 178 244 164 172 C154 216 124 216 103 172Z" fill="#fca5a5" stroke="#991b1b" stroke-width="2.4"/>
+    <line x1="135" y1="181" x2="154" y2="257" stroke="#991b1b" stroke-width="2" stroke-dasharray="6 5"/>
+    <path d="M132 286 C154 294 170 315 184 340" class="arrowRed"/>
+    <text x="130" y="372" class="small" text-anchor="middle">Deviasi ke kanan</text>
+    <text x="130" y="394" class="tiny" text-anchor="middle">Tanpa atrofi jelas</text>
+  </g>
+
+</svg>

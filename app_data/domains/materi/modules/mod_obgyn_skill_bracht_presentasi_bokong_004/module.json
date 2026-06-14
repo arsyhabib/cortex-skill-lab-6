@@ -253,7 +253,7 @@
       "type": "illustration",
       "generation_prompt": "Clean medical illustration of pregnant pelvis sagittal view, frank breech presentation, with labels in Indonesian: bokong, sakrum, serviks, jalan lahir. Gaya clean medical illustration, no blood, educational style, untuk bahan belajar mahasiswa kedokteran.",
       "alt": "Ilustrasi anatomi sagital pelvis ibu hamil dengan presentasi bokong frank. Bagian terbawah janin adalah bokong, kepala berada di fundus, dengan label Bahasa Indonesia: bokong, sakrum, serviks, dan jalan lahir.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/anatomi_bokong_frank.png"
     },
     {
@@ -273,8 +273,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart infographic Bahasa Indonesia: Bracht berhasil → IMD and kala III; Bracht gagal → klasik/Muller/Lovset/Mauriceau, call senior, neonatal resuscitation ready.",
       "alt": "Flowchart alur keputusan manuver Bracht: bila berhasil lanjut IMD dan manajemen kala III, bila gagal lanjut ke Klasik, Muller, Lovset, atau Mauriceau, panggil senior, dan siapkan resusitasi neonatal.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/alur_eskalasi_bracht.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/alur_eskalasi_bracht.svg"
     },
     {
       "id": "visual_bracht_timeline_8_menit_04",
@@ -283,8 +283,8 @@
       "type": "diagram",
       "generation_prompt": "Minimalist timeline poster: from umbilicus delivery to complete birth, alert at 8 minutes, obstetric emergency visual. Teks: 'Tali pusat lahir' → 0 menit, 'Bahu lahir' → 2 menit, 'Kepala lahir' → 8 menit (batas kritis). Gaya clean, Bahasa Indonesia, untuk bahan belajar OSCE persalinan sungsang.",
       "alt": "Timeline visual batas waktu 8 menit persalinan sungsang: tali pusat lahir di menit 0, bahu lahir di menit 2, kepala lahir di menit 8 (batas kritis), dengan tanda peringatan obstetric emergency.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/timeline_8_menit.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/timeline_8_menit.svg"
     },
     {
       "id": "visual_bracht_posisi_litotomi_05",
@@ -303,8 +303,8 @@
       "type": "diagram",
       "generation_prompt": "Infografik kala IV: TTV, kontraksi uterus, perdarahan, kandung kemih, plasenta, luka, dokumentasi. Gaya clean infographic, label Bahasa Indonesia, untuk bahan belajar OSCE.",
       "alt": "Infografik monitoring kala IV pascapersalinan sungsang: TTV ibu, kontraksi uterus, perdarahan, kandung kemih, plasenta, luka jalan lahir, dan dokumentasi SOAP dengan label Bahasa Indonesia.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/monitoring_kala_iv.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/monitoring_kala_iv.svg"
     }
   ],
   "ai_additions": [

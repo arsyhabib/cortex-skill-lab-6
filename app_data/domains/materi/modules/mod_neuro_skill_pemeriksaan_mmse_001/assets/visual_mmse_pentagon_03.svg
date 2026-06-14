@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Contoh Gambar Dua Pentagon Berpotongan</title>
+  <desc>Gambar dua pentagon berpotongan untuk sub-tes visuokonstruksi MMSE, dengan contoh benar dan salah.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="42" class="title" text-anchor="middle">MMSE: Dua Pentagon Berpotongan</text>
+  <text x="450" y="68" class="subtitle" text-anchor="middle">Standar visuokonstruksi: sisi lengkap, sudut utuh, area perpotongan quadrangular jelas</text>
+  <g transform="translate(42 95)">
+    <rect x="0" y="0" width="390" height="220" class="panel"/>
+    <text x="18" y="30" class="label" text-anchor="start">Panel A</text>
+    <text x="365" y="30" class="label" style="fill:#22c55e" text-anchor="end">BENAR (skor 1)</text>
+    <g transform="translate(68 60) scale(1.0)">
+      <polygon points="65,0 127,45 104,118 26,118 3,45" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+      <polygon points="135,0 197,45 174,118 96,118 73,45" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M73 45 L96 118 L104 118 L127 45 Z" fill="none" stroke="#111827" stroke-width="3"/>
+    </g>
+    <text x="195" y="198" class="small" text-anchor="middle">Dua segi lima saling memotong; seluruh sisi tertutup</text>
+  </g>
+  <g transform="translate(468 95)">
+    <rect x="0" y="0" width="390" height="220" class="panel"/>
+    <text x="18" y="30" class="label" text-anchor="start">Panel B</text>
+    <text x="365" y="30" class="label" style="fill:#ef4444" text-anchor="end">SALAH (skor 0)</text>
+    <g transform="translate(72 62)">
+      <polyline points="65,0 127,45 104,118 26,118" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+      <polygon points="135,0 197,45 174,118 96,118 73,45" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M73 45 L96 118" stroke="#111827" stroke-width="3" fill="none"/>
+    </g>
+    <text x="195" y="198" class="small" text-anchor="middle">Sisi kiri tidak lengkap; bangun tidak tertutup</text>
+  </g>
+  <g transform="translate(42 340)">
+    <rect x="0" y="0" width="390" height="220" class="panel"/>
+    <text x="18" y="30" class="label" text-anchor="start">Panel C</text>
+    <text x="365" y="30" class="label" style="fill:#ef4444" text-anchor="end">SALAH (skor 0)</text>
+    <g transform="translate(58 62)">
+      <polygon points="65,0 127,45 104,118 26,118 3,45" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+      <polygon points="190,0 252,45 229,118 151,118 128,45" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+      <line x1="136" y1="62" x2="146" y2="62" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="195" y="198" class="small" text-anchor="middle">Tidak ada area perpotongan di tengah</text>
+  </g>
+  <g transform="translate(468 340)">
+    <rect x="0" y="0" width="390" height="220" class="panel"/>
+    <text x="18" y="30" class="label" text-anchor="start">Panel D</text>
+    <text x="365" y="30" class="label" style="fill:#ef4444" text-anchor="end">SALAH (skor 0)</text>
+    <g transform="translate(72 62)">
+      <polyline points="65,0 118,30 104,118 30,104 3,45 65,0" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+      <polyline points="135,0 197,45 160,102 96,118 85,53 135,0" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+      <circle cx="116" cy="42" r="8" fill="none" stroke="#ef4444" stroke-width="3"/>
+      <circle cx="160" cy="102" r="8" fill="none" stroke="#ef4444" stroke-width="3"/>
+    </g>
+    <text x="195" y="198" class="small" text-anchor="middle">Sudut tidak utuh; bentuk tidak menyerupai pentagon</text>
+  </g>
+
+</svg>

@@ -268,7 +268,7 @@
       "type": "anatomy_3d",
       "generation_prompt": "Ilustrasi medis potongan sagital pelvis wanita dengan Copper T 380A IUD terpasang di fundus uteri dan benang keluar melalui serviks. Label Bahasa Indonesia: fundus uteri, kavum uteri, serviks, OUE, vagina, IUD, benang IUD. Gaya clean medical illustration, warna natural, untuk bahan belajar.",
       "alt": "Ilustrasi potongan sagital pelvis wanita menunjukkan posisi IUD Copper T 380A di fundus uteri dengan lengan horizontal dan benang vertikal keluar melalui orifisium uteri eksternum (OUE) ke vagina.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/anatomi_iud_fundus.png"
     },
     {
@@ -278,7 +278,7 @@
       "type": "illustration",
       "generation_prompt": "Infografik alat pemasangan IUD Copper T 380A di meja steril: spekulum Cusco, tenakulum, sonde uterus, inserter IUD dalam kemasan steril, gunting benang, kasa steril, larutan antiseptik, lampu sorot. Label Bahasa Indonesia untuk tiap alat. Gaya clean infographic, warna netral, label jelas.",
       "alt": "Infografik meja steril berisi alat-alat pemasangan IUD Copper T 380A: spekulum Cusco, tenakulum, sonde uterus, inserter steril, gunting benang, kasa, antiseptik, dan lampu sorot — lengkap dengan label Bahasa Indonesia.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/alat_pemasangan_iud.png"
     },
     {
@@ -288,8 +288,8 @@
       "type": "diagram",
       "generation_prompt": "Diagram no-touch technique pemasangan IUD pada model panggul, zona steril dan nonsteril, panah gerakan. Gaya clean medical diagram, warna kontras, label Bahasa Indonesia.",
       "alt": "Diagram teknik no-touch pada pemasangan IUD: sonde dan inserter dijaga tetap steril dengan tidak menyentuh dinding vagina atau bibir spekulum; ditunjukkan zona steril (inserter) versus zona non-steril (dinding vagina).",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/teknik_no_touch.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/teknik_no_touch.svg"
     },
     {
       "id": "visual_iud_withdrawal_04",
@@ -298,8 +298,8 @@
       "type": "flowchart",
       "generation_prompt": "Step-by-step 4 panel teknik withdrawal IUD Copper T 380A: Panel 1: inserter masuk sampai leher biru di serviks, pendorong dipegang. Panel 2: pendorong ditahan, tabung ditarik sampai pangkal pendorong. Panel 3: lengan IUD terbuka di fundus. Panel 4: benang keluar, dipotong 3-4 cm. Label Bahasa Indonesia. Gaya clean medical illustration, panah gerakan.",
       "alt": "Empat panel bertahap teknik withdrawal IUD: (1) inserter masuk dengan leher biru di serviks, (2) pendorong ditahan dan tabung ditarik, (3) lengan IUD terbuka di fundus uteri, (4) benang dipotong 3-4 cm dari OUE.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/teknik_withdrawal.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/teknik_withdrawal.svg"
     },
     {
       "id": "visual_iud_kartu_05",
@@ -308,7 +308,7 @@
       "type": "table",
       "generation_prompt": "Template kartu IUD yang akan diberikan kepada pasien: identitas, jenis IUD, tanggal pemasangan, panjang benang, jadwal kontrol, nama operator. Format kartu ukuran dompet.",
       "alt": "Template kartu IUD portabel berisi kolom identitas pasien, jenis IUD (Copper T 380A), tanggal pemasangan, panjang benang 3-4 cm, jadwal kontrol 1/3/12 bulan, dan nama operator.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/kartu_iud_template.png"
     },
     {
@@ -318,8 +318,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart keputusan seleksi klien IUD Copper T 380A: hamil? → ya → tunda; PID aktif? → ya → tunda/obati; kanker serviks? → ya → rujuk; anemia berat? → ya → tunda/tata; tidak ada → lanjut pemasangan. Kotak keputusan dengan panah Ya/Tidak, warna hijau untuk lanjut, kuning untuk tunda, merah untuk rujuk.",
       "alt": "Diagram alur keputusan seleksi klien IUD: pertanyaan hamil, PID, kanker serviks, anemia — masing-masing bercabang menjadi tunda, obati/rujuk, atau lanjut ke pemasangan, dengan kode warna hijau-kuning-merah.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/decision_flow_tunda_tolak.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/decision_flow_tunda_tolak.svg"
     }
   ],
   "ai_additions": [

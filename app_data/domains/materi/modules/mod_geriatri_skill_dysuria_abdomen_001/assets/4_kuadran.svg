@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Infografik 4 Kuadran Abdomen</title>
+  <desc>Empat kuadran abdomen dengan fokus suprapubik untuk nyeri BAK.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="40" class="title" text-anchor="middle">Pemeriksaan Abdomen: 4 Kuadran</text>
+  <text x="450" y="66" class="subtitle" text-anchor="middle">Fokus keluhan disuria: nyeri suprapubik / hipogastrium dan kandung kemih</text>
+  <g transform="translate(170 90)">
+    <path d="M125 30 C70 75 45 160 48 250 C50 350 105 440 280 455 C455 440 510 350 512 250 C515 160 490 75 435 30 C380 0 180 0 125 30Z" fill="url(#softBlue)" stroke="#64748b" stroke-width="3"/>
+    <line x1="280" y1="18" x2="280" y2="455" stroke="#1a1a2e" stroke-width="3" stroke-dasharray="9 7"/>
+    <line x1="62" y1="235" x2="498" y2="235" stroke="#1a1a2e" stroke-width="3" stroke-dasharray="9 7"/>
+    <rect x="75" y="65" width="185" height="145" rx="14" fill="#ecfdf5" stroke="#22c55e" stroke-width="2"/>
+    <rect x="300" y="65" width="185" height="145" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="75" y="263" width="185" height="145" rx="14" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+    <rect x="300" y="263" width="185" height="145" rx="14" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="168" y="95" class="label" text-anchor="middle">RUQ</text>
+    <text x="168" y="120" class="small" text-anchor="middle">Hati</text><text x="168" y="140" class="small" text-anchor="middle">Kandung empedu</text><text x="168" y="160" class="small" text-anchor="middle">Duodenum</text>
+    <text x="392" y="95" class="label" text-anchor="middle">LUQ</text>
+    <text x="392" y="120" class="small" text-anchor="middle">Lambung</text><text x="392" y="140" class="small" text-anchor="middle">Limpa</text><text x="392" y="160" class="small" text-anchor="middle">Pankreas</text>
+    <text x="168" y="293" class="label" text-anchor="middle">RLQ</text>
+    <text x="168" y="318" class="small" text-anchor="middle">Sekum</text><text x="168" y="338" class="small" text-anchor="middle">Apendiks</text><text x="168" y="358" class="small" text-anchor="middle">Ovarium kanan</text>
+    <text x="392" y="293" class="label" text-anchor="middle">LLQ</text>
+    <text x="392" y="318" class="small" text-anchor="middle">Sigmoid</text><text x="392" y="338" class="small" text-anchor="middle">Kolon desenden</text>
+    <ellipse cx="280" cy="385" rx="58" ry="38" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+    <path d="M252 382 C260 360 300 360 308 382" fill="none" stroke="#0284c7" stroke-width="2"/>
+    <rect x="205" y="435" width="150" height="42" rx="21" fill="#06b6d4"/>
+    <text x="280" y="462" class="label" style="fill:#ffffff" text-anchor="middle">SUPRAPUBIK</text>
+  </g>
+  <path d="M700 445 C650 430 620 415 592 385" class="arrowCyan"/>
+  <rect x="655" y="418" width="210" height="86" rx="16" fill="#f0fdfa" stroke="#06b6d4" stroke-width="2"/>
+  <text x="760" y="448" class="label" text-anchor="middle">Fokus disuria</text>
+  <text x="760" y="473" class="small" text-anchor="middle">Nyeri BAK sering</text>
+  <text x="760" y="493" class="small" text-anchor="middle">mengarah ke kandung kemih</text>
+
+</svg>

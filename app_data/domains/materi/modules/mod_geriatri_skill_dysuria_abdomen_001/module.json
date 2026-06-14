@@ -223,8 +223,8 @@
       "type": "flowchart",
       "generation_prompt": "Ilustrasi medis realistis dokter memeriksa abdomen pasien laki-laki usia 60 tahun, area perut terekspos secukupnya dan diselimuti bagian dada dan genital, dokter berdiri di sisi kanan pasien. Tampilkan 4 langkah urutan baku: (1) inspeksi dengan tangan di samping; (2) auskultasi dengan stetoskop di abdomen; (3) perkusi dengan jari mengetuk; (4) palpasi dengan kedua tangan menekan ringan. Gaya clean medical textbook, warna natural, label jelas untuk setiap langkah.",
       "alt": "Ilustrasi urutan baku pemeriksaan abdomen pada pasien geriatri: inspeksi, auskultasi, perkusi, palpasi.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/urutan_baku.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/urutan_baku.svg"
     },
     {
       "id": "visual_dysuria_abdo_4_kuadran_02",
@@ -233,8 +233,8 @@
       "type": "diagram",
       "generation_prompt": "Infografik 4 kuadran abdomen dengan label: RUQ (Right Upper Quadrant: hati, kandung empedu, bagian duodenum), LUQ (Left Upper Quadrant: lambung, limpa, pankreas), RLQ (Right Lower Quadrant: sekum, apendiks, ovarium kanan), LLQ (Left Lower Quadrant: sigmoid, kolon desenden). Highlight area suprapubik (hipogastrium) yang berisi kandung kemih sebagai fokus utama keluhan nyeri BAK. Garis horisontal dan vertikal membagi abdomen. Gaya clean medical textbook dengan label teks jelas.",
       "alt": "Infografik 4 kuadran abdomen dengan fokus suprapubik untuk nyeri BAK dan label organ utama tiap kuadran.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/4_kuadran.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/4_kuadran.svg"
     },
     {
       "id": "visual_dysuria_abdo_9_regio_03",
@@ -243,8 +243,8 @@
       "type": "diagram",
       "generation_prompt": "Infografik 9 region abdomen dengan label: hipokondrium kanan (hati, GB), epigastrium (lambung, pankreas), hipokondrium kiri (limpa, lambung); region lumbal kanan (ginjal kanan), umbilikus (usus halus), lumbal kiri (ginjal kiri); region iliaka/inguinal kanan (sekum, apendiks), hipogastrium/suprapubik (kandung kemih, uterus), iliaka kiri (sigmoid). Tampilkan garis midklavikula dan subkostal/intertuberkular. Gaya clean medical textbook dengan warna lembut.",
       "alt": "Infografik 9 region abdomen dengan label organ di setiap region dan garis khayal yang membagi.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/9_regio.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/9_regio.svg"
     },
     {
       "id": "visual_dysuria_cva_tenderness_04",
@@ -253,7 +253,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi pemeriksaan CVA tenderness pada pasien duduk atau berdiri membelakangi dokter. Dokter meletakkan satu tangan flat di area sudut kostovertebral (antara processus spinosus vertebrae dan arcus costae bagian bawah) dan mengetuk dengan kepalan tangan satunya. Tampilkan kedua sisi (kanan dan kiri) untuk evaluasi banding. Gaya clean medical textbook dengan label 'CVA Tenderness'.",
       "alt": "Ilustrasi pemeriksaan CVA tenderness dengan posisi tangan dan ketok pada sudut kostovertebral.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/cva_tenderness.png"
     },
     {
@@ -263,8 +263,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart algoritme triase dysuria pada laki-laki usia 60 tahun. Mulai dari kotak 'Dysuria pada laki-laki 60 tahun' bercabang: (1) Toksik/hipotensi/tidak bisa BAK → Rujuk emergensi; (2) Red flags (demam + nyeri pinggang, hematuria gross, retensi) → Kultur darah, fungsi ginjal, rujuk; (3) Gejala LUTS predominan → Urinalisis, kultur, IPSS, alfa blocker; (4) Gejala ISK predominan → Urinalisis, kultur, antibiotik empiris sesuai PPK. Warna merah untuk cabang rujuk, kuning untuk cabang waspada, hijau untuk cabang rawat jalan. Gaya clean medical textbook.",
       "alt": "Flowchart triase dysuria pada laki-laki usia lanjut dengan 4 cabang keputusan: emergensi, red flags, LUTS, ISK.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/decision_tree.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/decision_tree.svg"
     },
     {
       "id": "visual_dysuria_palpasi_hati_limpa_06",
@@ -273,7 +273,7 @@
       "type": "diagram",
       "generation_prompt": "Diagram teknik palpasi hati dan limpa. Tampilkan dua sisi: (1) Palpasi hati: tangan dokter dari RLQ (right lower quadrant) bergerak ke arah arcus costae kanan saat pasien inspirasi dalam, pasien supine; (2) Palpasi limpa: tangan dokter dari RLQ bergerak ke arah LUQ (left upper quadrant) saat pasien inspirasi dalam. Tampilkan panah arah gerakan dan sinkronisasi dengan napas. Gaya clean medical textbook dengan label langkah.",
       "alt": "Diagram palpasi hati dan limpa dengan panah arah gerakan dari RLQ menuju arcus costae/LUQ saat inspirasi.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/palpasi_hati_limpa.png"
     },
     {
@@ -283,7 +283,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi teknik palpasi bimanual ginjal (ballotement). Tampilkan posisi: pasien supine, dokter di sisi kanan pasien; satu tangan di belakang (posterior) di area sudut kostovertebral, tangan satunya di anterior perut; dokter menekan kedua tangan bersamaan untuk merasakan ballotement ginjal. Tampilkan kedua sisi (kanan dan kiri) untuk evaluasi. Gaya clean medical textbook dengan label 'Bimanual Ballotement'.",
       "alt": "Ilustrasi palpasi bimanual ginjal dengan satu tangan di posterior dan satu tangan di anterior abdomen.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/palpasi_ginjal.png"
     },
     {
@@ -293,7 +293,7 @@
       "type": "illustration",
       "generation_prompt": "Poster edukasi pasien ISK/BPH untuk lansia dengan bahasa sederhana. Tampilkan 5 poin utama dengan ikon: (1) Minum cukup 8 gelas/hari (ikon gelas); (2) Jangan menahan BAK (ikon jam); (3) Catat frekuensi BAK malam (ikon bulan); (4) Kontrol ulang 48-72 jam bila tidak membaik (ikon kalender); (5) Segera ke IGD bila demam, nyeri pinggang, tidak bisa BAK (ikon rumah sakit). Warna lembut, font besar dan jelas, bahasa Indonesia.",
       "alt": "Poster edukasi ISK/BPH untuk lansia dengan 5 poin utama: hidrasi, jangan menahan BAK, catat nokturia, kontrol ulang, tanda bahaya.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/edukasi_poster.png"
     }
   ],

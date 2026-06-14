@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Diagram Pemeriksaan Plasenta</title>
+  <desc>Diagram sisi maternal, sisi fetal, selaput, dan tali pusat tiga pembuluh darah.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="38" class="title" text-anchor="middle">Pemeriksaan Kelengkapan Plasenta</text>
+  <text x="450" y="64" class="subtitle" text-anchor="middle">Periksa sisi maternal, sisi fetal, selaput, dan tali pusat 3 pembuluh darah</text>
+  <g transform="translate(50 100)">
+    <rect x="0" y="0" width="385" height="405" rx="18" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="192" y="32" class="label" text-anchor="middle">Sisi maternal: kotiledon</text>
+    <circle cx="192" cy="205" r="112" fill="#fecaca" stroke="#991b1b" stroke-width="3"/>
+    <path d="M192 93 C172 130 172 170 192 205 C213 170 212 130 192 93Z" fill="#fca5a5" stroke="#b91c1c"/>
+    <path d="M192 317 C172 280 172 240 192 205 C213 240 212 280 192 317Z" fill="#fca5a5" stroke="#b91c1c"/>
+    <path d="M80 205 C118 185 156 185 192 205 C156 226 118 226 80 205Z" fill="#fca5a5" stroke="#b91c1c"/>
+    <path d="M304 205 C266 185 228 185 192 205 C228 226 266 226 304 205Z" fill="#fca5a5" stroke="#b91c1c"/>
+    <path d="M113 126 C150 137 172 160 192 205 C146 194 124 170 113 126Z" fill="#f87171" stroke="#b91c1c"/>
+    <path d="M272 284 C235 273 213 250 192 205 C238 216 260 240 272 284Z" fill="#f87171" stroke="#b91c1c"/>
+    <path d="M266 125 C238 150 220 174 192 205 C224 199 260 177 266 125Z" fill="#f87171" stroke="#b91c1c"/>
+    <path d="M115 285 C143 260 164 232 192 205 C155 211 120 237 115 285Z" fill="#f87171" stroke="#b91c1c"/>
+    <circle cx="290" cy="118" r="22" fill="#fff" stroke="#ef4444" stroke-width="3" stroke-dasharray="5 4"/>
+    <text x="192" y="356" class="small" text-anchor="middle">Lengkap: seluruh kotiledon tersusun utuh</text>
+    <text x="192" y="382" class="tiny" text-anchor="middle">Jika ada defek / cekungan kosong → curiga sisa plasenta</text>
+  </g>
+  <g transform="translate(465 100)">
+    <rect x="0" y="0" width="385" height="405" rx="18" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="192" y="32" class="label" text-anchor="middle">Sisi fetal + selaput</text>
+    <circle cx="192" cy="188" r="105" fill="#fde68a" stroke="#b45309" stroke-width="3"/>
+    <path d="M192 188 C220 150 245 120 290 105 M192 188 C160 150 136 122 92 108 M192 188 C230 205 270 222 306 254 M192 188 C148 210 116 236 82 270" class="thin" stroke="#92400e"/>
+    <path d="M192 188 C205 245 218 310 238 360" stroke="#8b5cf6" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M206 189 C218 246 230 309 250 358" stroke="#06b6d4" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M180 190 C194 246 204 310 225 360" stroke="#06b6d4" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="302" cy="330" r="34" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"/>
+    <circle cx="291" cy="330" r="7" fill="#ef4444"/><circle cx="313" cy="330" r="6" fill="#3b82f6"/><circle cx="302" cy="344" r="6" fill="#3b82f6"/>
+    <text x="302" y="382" class="tiny" text-anchor="middle">2 arteri + 1 vena</text>
+    <path d="M66 320 C100 360 150 386 206 386 C170 352 122 326 66 320Z" fill="none" stroke="#22c55e" stroke-width="3"/>
+    <path d="M58 352 C90 390 150 413 202 407" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="110" y="300" class="small" text-anchor="middle">Selaput lengkap</text>
+    <text x="100" y="430" class="small" style="fill:#ef4444" text-anchor="middle">Selaput tidak lengkap</text>
+  </g>
+
+</svg>

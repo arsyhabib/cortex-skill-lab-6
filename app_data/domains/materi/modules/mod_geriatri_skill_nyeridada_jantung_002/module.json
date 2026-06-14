@@ -242,7 +242,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi medis realistis dokter memeriksa jantung pasien laki-laki 68 tahun di IGD, posisi berbaring 30-45 derajat, ekspos dada sopan, stetoskop, sarung tangan, suasana IGD dengan monitor EKG, ekspresi tenang dan serius, clean realistic medical education style.",
       "alt": "Ilustrasi dokter sedang memeriksa jantung pasien geriatri (Tn. Habibi, 68 tahun) di IGD dengan posisi 30-45 derajat, dada terekspos sopan, menggunakan stetoskop untuk auskultasi.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/pemeriksaan_jantung.png"
     },
     {
@@ -252,8 +252,8 @@
       "type": "diagram",
       "generation_prompt": "Infografik thorax anterior dengan empat titik auskultasi katup jantung berlabel: Aortic (ICS 2 kanan sternal), Pulmonic (ICS 2 kiri sternal), Tricuspid (ICS 4-5 parasternal kiri), Mitral (ICS 5 midklavikula kiri); gaya clean medical textbook dengan label jelas dan warna berbeda untuk setiap katup.",
       "alt": "Infografik lokasi auskultasi empat katup jantung pada thorax anterior: Aortic di ICS 2 kanan sternal, Pulmonic di ICS 2 kiri sternal, Tricuspid di ICS 4-5 parasternal kiri, Mitral di ICS 5 linea midklavikula kiri.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/landmark_auskultasi.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/landmark_auskultasi.svg"
     },
     {
       "id": "visual_nyeridada_palpasi_03",
@@ -262,7 +262,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi dua tahap palpasi ictus cordis: (1) tangan dokter menggunakan 4 jari mencari area pulsasi di dinding dada; (2) transisi ke 1 jari melokalisasi ictus di ICS 5 linea midklavikula kiri, dengan panah penunjuk lokasi dan label '4 jari → 1 jari'. Gaya clean medical education.",
       "alt": "Ilustrasi teknik palpasi ictus cordis tahap 1: tangan dengan 4 jari mencari area pulsasi, tahap 2: 1 jari melokalisasi ictus cordis di ICS 5 linea midklavikula kiri.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/palpasi_ictus.png"
     },
     {
@@ -272,8 +272,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart algoritme tatalaksana ACS di IGD: mulai 'Pasien datang dengan nyeri dada' → 'Penilaian cepat (ABCDE)' → 'EKG 12 sadapan dalam 10 menit' → 'Curiga ACS?' → 'Troponin serial' → 'Aspirin loading 300 mg (bila aman)' → 'Oksigen (bila SpO2 <92%)' → 'Konsul jantung' → 'Observasi/PCI sesuai klasifikasi'. Warna: merah untuk emergensi, hijau untuk stabil, kuning untuk monitoring. Gaya clean flowchart klinis.",
       "alt": "Flowchart algoritme ACS di IGD: ABCDE → EKG 12 sadapan → troponin serial → aspirin loading → oksigen (bila hipoksia) → konsul jantung → observasi/PCI.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/alur_acs.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/alur_acs.svg"
     },
     {
       "id": "visual_nyeridada_diagnosis_banding_05",
@@ -282,7 +282,7 @@
       "type": "table",
       "generation_prompt": "Poster infografis diferensial nyeri dada dengan 9 kolom: ACS, Angina stabil/tidak stabil, Diseksi aorta, Emboli paru, Pneumotoraks, Perikarditis, Pneumonia, GERD, Muskuloskeletal. Setiap kolom berisi: gejala khas, temuan fisik utama, dan pembeda klinis utama. Layout grid 3x3, warna berbeda untuk setiap kondisi, ikon representatif.",
       "alt": "Poster diferensial nyeri dada dengan 9 diagnosis: ACS, angina, diseksi aorta, emboli paru, pneumotoraks, perikarditis, pneumonia, GERD, muskuloskeletal, masing-masing dengan gejala khas, temuan fisik, dan pembeda utama.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/diagnosis_banding.png"
     },
     {
@@ -292,7 +292,7 @@
       "type": "illustration",
       "generation_prompt": "Scene dokter menjelaskan kepada pasien lansia laki-laki (68 tahun) dan keluarganya di IGD dengan tenang, bahasa tubuh suportif, ekspresi empatik. Dokter menunjuk ke monitor EKG di latar belakang. Ada poster dinding 'Tanda Bahaya Nyeri Dada' dengan poin: nyeri memberat, sesak, keringat dingin, pingsan. Gaya clean realistic medical illustration.",
       "alt": "Ilustrasi dokter menjelaskan kepada pasien geriatri (Tn. Habibi) dan keluarganya tentang pentingnya observasi, EKG, dan troponin serial di IGD, dengan poster tanda bahaya nyeri dada di dinding.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/edukasi_keluarga.png"
     }
   ],

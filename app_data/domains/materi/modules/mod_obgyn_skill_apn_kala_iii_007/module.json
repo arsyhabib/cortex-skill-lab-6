@@ -201,8 +201,8 @@
       "type": "flowchart",
       "generation_prompt": "Infographic Bahasa Indonesia, active management of third stage of labour: clamp 5-10 cm, controlled cord traction, dorso-cranial pressure, placenta delivery, uterine massage, placenta check, monitoring. Gaya clean medical illustration, ikon sederhana, warna berbeda tiap tahap, label jelas.",
       "alt": "Diagram alur MAKA dalam 10 langkah: bayi lahir → oksitosin IM → jepit-potong tali pusat → IMD → pindahkan klem 5-10 cm → tangan di simfisis → CCT dengan dorso-kranial → plasenta lahir → putar selaput → masase fundus → monitoring kala IV.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/flowchart_maka_10_langkah.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/flowchart_maka_10_langkah.svg"
     },
     {
       "id": "visual_kala3_dorso_kranial_02",
@@ -211,7 +211,7 @@
       "type": "illustration",
       "generation_prompt": "Clean medical simulation illustration, one hand above symphysis pushing uterus dorsocranially while other applies controlled cord traction, arrows, Indonesian labels (tangan di simfisis, dorso-kranial, CCT, plasenta). Gaya clean medical illustration.",
       "alt": "Ilustrasi posisi operator saat CCT: satu tangan di atas simfisis pubis menekan uterus dorso-kranial, tangan lain memegang tali pusat dengan klem, bayi sudah lahir.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/dorso_kranial_cct.png"
     },
     {
@@ -221,8 +221,8 @@
       "type": "diagram",
       "generation_prompt": "Diagram sisi maternal (kotiledon) dan fetal plasenta, selaput lengkap/tidak lengkap, tali pusat 3 pembuluh darah. Label Bahasa Indonesia, gaya clean medical illustration, warna berbeda untuk tiap komponen.",
       "alt": "Diagram plasenta: sisi maternal dengan kotiledon (lengkap/tidak lengkap), sisi fetal dengan tali pusat 3 pembuluh darah, selaput amniokhorion lengkap atau tidak.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/pemeriksaan_plasenta.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/pemeriksaan_plasenta.svg"
     },
     {
       "id": "visual_kala3_monitoring_2jam_04",
@@ -231,7 +231,7 @@
       "type": "table",
       "generation_prompt": "Tabel minimalis Bahasa Indonesia jadwal monitoring postpartum 2 jam: 15 menit pertama, jam pertama, jam kedua, kontraksi, perdarahan, nadi, kandung kemih, suhu, bayi. Gaya clean medical infographic.",
       "alt": "Tabel jadwal monitoring kala IV: 15 menit pertama (2-3×/15 menit), jam pertama (tiap 15 menit), jam kedua (tiap 20-30 menit), suhu tiap jam, bayi tiap 15 menit.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/monitoring_2jam_postpartum.png"
     },
     {
@@ -241,7 +241,7 @@
       "type": "infographic",
       "generation_prompt": "Infografik Bahasa Indonesia urutan perawatan bayi baru lahir: IMD 1 jam, vitamin K1 1 mg IM paha kiri, salep mata, hepatitis B paha kanan. Gaya clean medical illustration, ikon sederhana, warna berbeda tiap langkah, label jelas dengan waktu.",
       "alt": "Infografik urutan perawatan BBL: IMD 1 jam → vitamin K1 1 mg IM paha kiri → salep mata tetrasiklin/eritromisin → hepatitis B paha kanan, dengan timestamp masing-masing.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/perawatan_bbl_urutan.png"
     },
     {
@@ -251,8 +251,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart Bahasa Indonesia alur tindakan kala IV: plasenta lahir → masase fundus → periksa plasenta → evaluasi laserasi → monitoring kala IV → edukasi. Gaya clean medical flowchart, ikon sederhana, label jelas.",
       "alt": "Diagram alur kala IV: plasenta lahir lengkap → masase fundus keras → periksa plasenta (kotiledon, selaput, tali pusat) → inspeksi jalan lahir → monitoring TTV 2 jam → edukasi tanda bahaya.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/alur_kala4.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/alur_kala4.svg"
     }
   ],
   "ai_additions": [],

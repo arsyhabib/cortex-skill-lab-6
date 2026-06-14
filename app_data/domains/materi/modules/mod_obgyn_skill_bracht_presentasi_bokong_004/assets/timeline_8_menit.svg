@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Timeline Batas Waktu 8 Menit</title>
+  <desc>Timeline persalinan sungsang: tali pusat lahir, bahu lahir, dan batas kritis kepala lahir.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="46" class="title" text-anchor="middle">Batas Waktu Kritis 8 Menit</text>
+  <text x="450" y="72" class="subtitle" text-anchor="middle">Persalinan sungsang: dari tali pusat lahir sampai bayi lahir lengkap</text>
+  <g transform="translate(80 155)">
+    <line x1="30" y1="210" x2="710" y2="210" stroke="#cbd5e1" stroke-width="10" stroke-linecap="round"/>
+    <line x1="30" y1="210" x2="210" y2="210" stroke="#22c55e" stroke-width="10" stroke-linecap="round"/>
+    <line x1="210" y1="210" x2="710" y2="210" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="30" cy="210" r="18" fill="#22c55e" stroke="#fff" stroke-width="4"/>
+    <circle cx="210" cy="210" r="18" fill="#3b82f6" stroke="#fff" stroke-width="4"/>
+    <circle cx="710" cy="210" r="24" fill="#ef4444" stroke="#fff" stroke-width="5"/>
+    <text x="30" y="260" class="label" text-anchor="middle">0 menit</text>
+    <text x="210" y="260" class="label" text-anchor="middle">2 menit</text>
+    <text x="710" y="265" class="label" style="fill:#ef4444" text-anchor="middle">8 menit</text>
+    <rect x="0" y="38" width="210" height="100" rx="18" fill="#ecfdf5" stroke="#22c55e" stroke-width="2"/>
+    <text x="105" y="73" class="label" text-anchor="middle">Tali pusat lahir</text>
+    <text x="105" y="100" class="small" text-anchor="middle">Mulai hitung waktu</text>
+    <path d="M105 138 L45 190" class="arrowCyan"/>
+    <rect x="138" y="315" width="210" height="100" rx="18" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="243" y="350" class="label" text-anchor="middle">Bahu lahir</text>
+    <text x="243" y="377" class="small" text-anchor="middle">Target sekitar 2 menit</text>
+    <path d="M243 315 L218 232" class="arrowCyan"/>
+    <rect x="580" y="28" width="260" height="122" rx="18" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="710" y="62" class="label" text-anchor="middle">Kepala lahir</text>
+    <text x="710" y="90" class="small" text-anchor="middle">8 menit = batas kritis</text>
+    <text x="710" y="116" class="small" style="fill:#ef4444" text-anchor="middle">OBSTETRIC EMERGENCY</text>
+    <path d="M710 150 L710 184" class="arrowRed"/>
+    <path d="M675 318 L710 278 L745 318 Z" fill="#f59e0b" stroke="#b45309" stroke-width="2"/>
+    <text x="710" y="307" font-size="30" font-weight="900" fill="#7c2d12" text-anchor="middle">!</text>
+    <text x="710" y="360" class="small" text-anchor="middle">Segera evaluasi tindakan bila bayi belum lahir lengkap</text>
+  </g>
+
+</svg>

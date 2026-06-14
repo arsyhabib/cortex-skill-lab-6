@@ -330,8 +330,8 @@
       "type": "diagram",
       "generation_prompt": "Diagram cardinal movements: engagement, descent, flexion, internal rotation, extension (kepala lahir di bawah simfisis), external rotation/restitution, expulsion (bahu anterior → posterior → badan). Tujuh tahap dengan panah, label Bahasa Indonesia dan Inggris. Gaya clean medical illustration.",
       "alt": "Diagram cardinal movements of labor: engagement, descent, flexion, internal rotation, extension, external rotation, expulsion, dengan panah dan label.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/cardinal_movements.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/cardinal_movements.svg"
     },
     {
       "id": "visual_apn_kala2_perlindungan_perineum_05",
@@ -360,8 +360,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart penanganan lilitan tali pusat: periksa leher bayi → longgar: lepaskan lewat kepala; ketat: klem dua tempat, potong di antara. Gaya clean medical flowchart dengan dua cabang keputusan, label Bahasa Indonesia.",
       "alt": "Flowchart penanganan lilitan tali pusat: longgar dilepas lewat kepala, ketat diklem dua tempat lalu dipotong.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/lilitan_tali_pusat.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/lilitan_tali_pusat.svg"
     },
     {
       "id": "visual_apn_kala2_imd_08",

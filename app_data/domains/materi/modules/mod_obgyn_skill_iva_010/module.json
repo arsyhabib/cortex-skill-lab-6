@@ -218,7 +218,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi medis serviks dengan label ektoserviks, endoserviks, ostium eksternum, sambungan skuamokolumnar, zona transformasi, Bahasa Indonesia. Gaya clean medical illustration, label jelas, warna netral.",
       "alt": "Diagram anatomi serviks yang menunjukkan ektoserviks, endoserviks, ostium eksternum, sambungan skuamokolumnar (SSK), dan zona transformasi.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/anatomi_serviks_ssk.png"
     },
     {
@@ -228,7 +228,7 @@
       "type": "illustration",
       "generation_prompt": "Manekin pasien di meja ginekologi dengan drape, pemeriksa duduk sejajar dengan introitus, lampu sorot diarahkan ke vulva. Gaya clean medical illustration, etis, tidak vulgar.",
       "alt": "Ilustrasi posisi ginekologis/litotomi dengan manekin, drape, lampu sorot, dan posisi pemeriksa duduk sejajar.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/posisi_litotomi.png"
     },
     {
@@ -238,7 +238,7 @@
       "type": "illustration",
       "generation_prompt": "Diagram 3 langkah memasukkan spekulum bi-valved secara gentle pada manekin: pegang, miringkan, buka. Gaya clean medical illustration, etis, label Bahasa Indonesia.",
       "alt": "Diagram 3 langkah pemasangan spekulum secara gentle pada manekin dengan posisi benar.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/cara_pasang_spekulum.png"
     },
     {
@@ -248,7 +248,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi serviks normal merah muda setelah aplikasi asam asetat 5%, tidak ada plak putih, SSK terlihat jelas. Gaya clean medical illustration, label 'IVA Negatif'.",
       "alt": "Ilustrasi serviks normal merah muda pasca aplikasi asam asetat 5% tanpa plak putih, menunjukkan IVA negatif.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/iva_negatif.png"
     },
     {
@@ -258,7 +258,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi serviks dengan area putih jelas (acetowhite) di zona transformasi/SSK setelah aplikasi asam asetat 5%. Label Bahasa Indonesia: acetowhite, zona transformasi, SSK, portio. Gaya clean medical illustration.",
       "alt": "Ilustrasi serviks dengan plak acetowhite tebal dan jelas di zona transformasi, menunjukkan IVA positif.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/iva_positif_acetowhite.png"
     },
     {
@@ -268,7 +268,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi medis non-grafis serviks dengan massa ulseratif mudah berdarah, discharge darah. Label Bahasa Indonesia: massa, ulkus, perdarahan, curiga kanker, rujuk. Gaya clean medical illustration, tidak vulgar.",
       "alt": "Ilustrasi serviks dengan lesi ulseratif dan massa yang mudah berdarah, menggambarkan curiga kanker serviks yang perlu rujuk segera.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/curiga_kanker_serviks.png"
     },
     {
@@ -278,7 +278,7 @@
       "type": "table",
       "generation_prompt": "Lembar rekam hasil IVA dengan sketsa jam serviks 12-3-6-9, kolom identitas pasien, hasil IVA, lokasi lesi, ukuran lesi, batas lesi, rencana tindak lanjut, tanda tangan pemeriksa. Gaya formulir medis profesional.",
       "alt": "Template dokumentasi IVA dengan sketsa jam serviks 12-3-6-9, kolom lokasi, ukuran, hasil, dan rencana tindak lanjut.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/template_dokumentasi_iva.png"
     }
   ],

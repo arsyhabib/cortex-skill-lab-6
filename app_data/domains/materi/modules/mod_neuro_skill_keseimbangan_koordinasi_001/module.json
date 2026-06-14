@@ -198,7 +198,7 @@
       "type": "illustration",
       "generation_prompt": "Buat ilustrasi medis edukatif gaya clean vector: pemeriksa berdiri di belakang pasien saat melakukan Romberg test. Pasien laki-laki 50 tahun berdiri dengan kaki rapat, lengan menyilang di dada, mata tertutup, pemeriksa siap menahan. Latar klinik sederhana, warna pastel, label 'Romberg test'.",
       "alt": "Ilustrasi prosedur Romberg test: pemeriksa berdiri di belakang pasien yang berdiri dengan kaki rapat, lengan menyilang di dada, mata tertutup, untuk menilai keseimbangan statis.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/prosedur_utama.png"
     },
     {
@@ -208,8 +208,8 @@
       "type": "flowchart",
       "generation_prompt": "Buat flowchart klinis horizontal dua cabang: 'Vertigo Perifer' (BPPV, neuritis vestibular) vs 'Vertigo Sentral' (stroke serebelum, tumor). Cantumkan red flags sentral: diplopia, disfagia, disartria, ataksia, nistagmus vertikal, onset akut. Gunakan warna hijau untuk perifer dan merah untuk sentral. Gaya clean medical infographic.",
       "alt": "Diagram alur diagnosis banding vertigo perifer (BPPV, neuritis vestibular) versus vertigo sentral (stroke serebelum) beserta red flags sentral: diplopia, disfagia, disartria, ataksia, nistagmus vertikal, dan onset akut.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/flowchart_vertigo.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/flowchart_vertigo.svg"
     },
     {
       "id": "visual_keseimbangan_cerebellar_exam_03",
@@ -218,7 +218,7 @@
       "type": "illustration",
       "generation_prompt": "Buat ilustrasi 4-panel gaya clean vector untuk cerebellar coordination exam. Panel 1: finger-to-nose test (pasien menyentuh hidung dengan telunjuk). Panel 2: finger-to-finger test (kedua telunjuk bertemu di tengah). Panel 3: rapid alternating movement (pronasi-supinasi cepat). Panel 4: heel-to-knee-to-toe test (tumit kaki kanan ke lutut kiri lalu digeser ke arah jari kaki). Tandai panel yang menunjukkan abnormal: dismetria dan disdiadokinesia dengan ikon silang merah.",
       "alt": "Ilustrasi empat panel cerebellar coordination exam: finger-to-nose, finger-to-finger, rapid alternating movement, dan heel-to-knee-to-toe, dengan tanda-tanda abnormal dismetria dan disdiadokinesia.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/cerebellar_exam.png"
     },
     {
@@ -228,7 +228,7 @@
       "type": "diagram",
       "generation_prompt": "Buat diagram posisi 4 tes keseimbangan: (1) Romberg - kaki rapat lengan menyilang, (2) Sharpened Romberg - posisi tandem tumit-jari kaki, (3) Fukuda stepping - jalan di tempat mata tertutup, (4) Tandem walking - tumit ke jari kaki pada garis lurus. Tampilkan pasien dari samping/depan dengan label pada masing-masing posisi. Gaya clean medical vector dengan latar netral.",
       "alt": "Diagram posisi empat tes keseimbangan: Romberg (kaki rapat), Sharpened Romberg (tandem tumit-jari kaki), Fukuda stepping (jalan di tempat), dan tandem walking (tumit ke jari kaki pada garis lurus).",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/posisi_tes.png"
     }
   ],

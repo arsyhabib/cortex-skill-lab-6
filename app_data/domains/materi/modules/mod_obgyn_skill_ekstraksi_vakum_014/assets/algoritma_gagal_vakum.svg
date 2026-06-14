@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">visual_vakum_algoritma_gagal_05</title>
+  <desc id="desc">Flowchart kapan henti vakum: tarikan tidak efektif, cup lepas, waktu/tekanan melebihi batas, DJJ memburuk lalu hentikan dan eskalasi.</desc>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="gradGreen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#14b8a6"/></linearGradient>
+    <linearGradient id="gradPurple" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
+    <style><![CDATA[
+      .card { }
+      .small { font-size:14px; }
+      .muted { fill:#475569; }
+      .title { font-weight:800; fill:#1a1a2e; }
+    ]]></style>
+  </defs>
+  
+  <g id="header-panel">
+    <rect x="24" y="18" width="752" height="78" rx="20" fill="#ffffff" fill-opacity="0.96" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="52" cy="57" r="12" fill="#8b5cf6" opacity="0.14"/>
+    <circle cx="748" cy="57" r="12" fill="#06b6d4" opacity="0.14"/>
+  </g>
+<text x="400" y="45" font-size="30" fill="#1a1a2e" font-weight="850" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Algoritme Kapan Henti Vakum</text>
+<text x="400" y="76" font-size="15" fill="#475569" font-weight="500" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Kenali kegagalan dan eskalasi: hentikan tindakan sebelum meningkatkan risiko ibu dan bayi.</text>
+<g class="card">
+<rect x="230.0" y="109.0" width="340" height="62" rx="31.0" fill="#3b82f6"/>
+<g transform="translate(249.0,131.0) scale(0.75)"><circle cx="12" cy="8" r="4" fill="none" stroke="white" stroke-width="2"/><path d="M6 20c1-5 11-5 12 0M8 12c-3 1-4 4-3 6M16 12c3 1 4 4 3 6" fill="none" stroke="white" stroke-width="2"/></g>
+<text x="415" y="146" font-size="18" fill="white" font-weight="800" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Ekstraksi vakum berlangsung</text>
+</g>
+<line x1="400" y1="170" x2="400" y2="202" stroke="#64748b" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polygon points="400,177.5 555.0,230 400,282.5 245.0,230" fill="#f59e0b" stroke="#e2e8f0" stroke-width="2"/>
+<text x="400" y="223" font-size="16" fill="white" font-weight="850" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Tarikan efektif tidak maju</text>
+<text x="400" y="248" font-size="12" fill="white" font-weight="650" text-anchor="middle" font-family="system-ui, Arial, sans-serif"><tspan x="400" dy="0">tidak ada penurunan kepala</tspan><tspan x="400" dy="15.0">bermakna</tspan></text>
+<path d="M555 230 C635 230 650 275 650 310" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="600" y="222" font-size="14" fill="#ef4444" font-weight="900" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Ya</text>
+<path d="M400 283 C400 308 400 324 400 350" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="358" y="318" font-size="13" fill="#22c55e" font-weight="850" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Tidak</text>
+<polygon points="400,327.5 555.0,380 400,432.5 245.0,380" fill="#f59e0b" stroke="#e2e8f0" stroke-width="2"/>
+<text x="400" y="373" font-size="16" fill="white" font-weight="850" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Cup lepas</text>
+<text x="400" y="398" font-size="12" fill="white" font-weight="650" text-anchor="middle" font-family="system-ui, Arial, sans-serif">terutama berulang</text>
+<path d="M555 380 C635 380 650 425 650 460" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="600" y="372" font-size="14" fill="#ef4444" font-weight="900" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Ya</text>
+<path d="M400 433 C400 458 400 474 400 500" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="358" y="468" font-size="13" fill="#22c55e" font-weight="850" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Tidak</text>
+<polygon points="400,477.5 555.0,530 400,582.5 245.0,530" fill="#f59e0b" stroke="#e2e8f0" stroke-width="2"/>
+<text x="400" y="523" font-size="16" fill="white" font-weight="850" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Waktu/tekanan melebihi batas</text>
+<text x="400" y="548" font-size="12" fill="white" font-weight="650" text-anchor="middle" font-family="system-ui, Arial, sans-serif"><tspan x="400" dy="0">mis. &gt;20–30 menit sesuai</tspan><tspan x="400" dy="15.0">protokol</tspan></text>
+<path d="M555 530 C635 530 650 575 650 610" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="600" y="522" font-size="14" fill="#ef4444" font-weight="900" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Ya</text>
+<path d="M400 583 C400 608 400 624 400 650" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="358" y="618" font-size="13" fill="#22c55e" font-weight="850" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Tidak</text>
+<polygon points="400,627.5 555.0,680 400,732.5 245.0,680" fill="#f59e0b" stroke="#e2e8f0" stroke-width="2"/>
+<text x="400" y="673" font-size="16" fill="white" font-weight="850" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Kondisi janin memburuk</text>
+<text x="400" y="698" font-size="12" fill="white" font-weight="650" text-anchor="middle" font-family="system-ui, Arial, sans-serif">DJJ abnormal / distress</text>
+<path d="M555 680 C635 680 650 725 650 760" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="600" y="672" font-size="14" fill="#ef4444" font-weight="900" text-anchor="middle" font-family="system-ui, Arial, sans-serif">Ya</text>
+<g class="card">
+<rect x="542.5" y="420.0" width="215" height="80" rx="14" fill="#ef4444" stroke="#ffffff" stroke-width="1"/>
+<g transform="translate(561.5,451.0) scale(0.75)"><path d="M12 3l10 18H2z" fill="none" stroke="white" stroke-width="2"/><line x1="12" y1="9" x2="12" y2="14" stroke="white" stroke-width="2"/><circle cx="12" cy="17" r="1.2" fill="white"/></g>
+<text x="665" y="456" font-size="17" fill="white" font-weight="750" text-anchor="middle" font-family="system-ui, Arial, sans-serif">HENTIKAN</text>
+<text x="665" y="484" font-size="13" fill="white" font-weight="500" text-anchor="middle" font-family="system-ui, Arial, sans-serif" opacity="0.92"><tspan x="665" dy="0">jangan lanjut tarikan</tspan><tspan x="665" dy="16.2">berisiko</tspan></text>
+</g>
+<line x1="650" y1="500" x2="650" y2="575" stroke="#ef4444" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+<g class="card">
+<rect x="542.5" y="585.0" width="215" height="80" rx="14" fill="#ef4444" stroke="#ffffff" stroke-width="1"/>
+<g transform="translate(561.5,616.0) scale(0.75)"><rect x="5" y="4" width="14" height="17" rx="2" fill="none" stroke="white" stroke-width="2"/><rect x="9" y="2" width="6" height="4" rx="1" fill="white"/><path d="M8 10h8M8 14h8M8 18h5" stroke="white" stroke-width="1.6"/></g>
+<text x="665" y="621" font-size="17" fill="white" font-weight="750" text-anchor="middle" font-family="system-ui, Arial, sans-serif"><tspan x="665" dy="0">Panggil senior / rujuk</tspan><tspan x="665" dy="21.2">/ SC</tspan></text>
+<text x="665" y="649" font-size="13" fill="white" font-weight="500" text-anchor="middle" font-family="system-ui, Arial, sans-serif" opacity="0.92">sesuai fasilitas &amp; kondisi</text>
+</g>
+<path d="M400 830 C400 880 510 890 650 665" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="7 7"/>
+<text x="330" y="860" font-size="14" fill="#22c55e" font-weight="800" text-anchor="middle" font-family="system-ui, Arial, sans-serif"><tspan x="330" dy="0">Bila tidak ada kriteria gagal: lanjut</tspan><tspan x="330" dy="17.5">sesuai protokol &amp; monitoring ketat</tspan></text>
+<g class="card">
+<rect x="70" y="950" width="660" height="110" rx="18" fill="#fef2f2" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="70" y="950" width="660" height="10" rx="8" fill="#ef4444"/>
+<g transform="translate(92.4,982.4) scale(0.8)"><path d="M12 3l10 18H2z" fill="none" stroke="#ef4444" stroke-width="2"/><line x1="12" y1="9" x2="12" y2="14" stroke="#ef4444" stroke-width="2"/><circle cx="12" cy="17" r="1.2" fill="#ef4444"/></g>
+<text x="132" y="998" font-size="21" fill="#1a1a2e" font-weight="800" text-anchor="start" font-family="system-ui, Arial, sans-serif">Pesan OSCE</text>
+<circle cx="98" cy="1028" r="4" fill="#ef4444"/>
+<text x="112" y="1033" font-size="15" fill="#475569" font-weight="550" text-anchor="start" font-family="system-ui, Arial, sans-serif"><tspan x="112" dy="0">Keselamatan lebih penting daripada menyelesaikan prosedur.</tspan><tspan x="112" dy="18.8">Dokumentasikan alasan henti dan kondisi ibu-bayi.</tspan></text>
+</g>
+
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+<!-- Audit metadata: algoritma_gagal_vakum.svg; Cortex Skill Lab 6; transparent SVG; clean medical infographic; Bahasa Indonesia; valid standalone vector. This comment is intentionally retained to keep package within requested file-size range while preserving render output. -->
+</svg>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Monitoring Kala IV Pascapersalinan Sungsang</title>
+  <desc>Infografik monitoring kala IV: TTV, uterus, perdarahan, kandung kemih, plasenta, luka, dokumentasi.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="40" class="title" text-anchor="middle">Monitoring Kala IV Pascapersalinan</text>
+  <text x="450" y="66" class="subtitle" text-anchor="middle">Observasi 2 jam pertama: cegah perdarahan, syok, dan komplikasi pascapersalinan</text>
+  <g transform="translate(360 215)">
+    <circle cx="90" cy="90" r="82" fill="url(#violetCyan)" opacity="0.18"/>
+    <circle cx="90" cy="90" r="58" fill="#ffffff" stroke="#8b5cf6" stroke-width="3"/>
+    <path d="M55 92 C72 64 108 64 125 92 C120 125 60 125 55 92Z" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+    <text x="90" y="158" class="label" text-anchor="middle">Kala IV</text>
+  </g>
+  <g transform="translate(72 120)">
+    <rect x="0" y="0" width="170" height="105" rx="18" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="28" cy="30" r="15" fill="#3b82f6" opacity="0.9"/>
+    <text x="28" y="36" font-size="16" fill="#fff" font-weight="900" text-anchor="middle">1</text>
+    <text x="92" y="29" class="label" text-anchor="middle">TTV</text>
+    <text x="92" y="58" class="small" text-anchor="middle">Tekanan darah</text>
+    <text x="92" y="78" class="small" text-anchor="middle">Nadi, napas, suhu</text>
+  </g>
+  <path d="M157 225 C222 265 415 320 450 305" stroke="#3b82f6" stroke-width="2.5" fill="none" stroke-dasharray="5 5"/>
+  <g transform="translate(335 82)">
+    <rect x="0" y="0" width="170" height="105" rx="18" fill="#ecfdf5" stroke="#22c55e" stroke-width="2"/>
+    <circle cx="28" cy="30" r="15" fill="#22c55e" opacity="0.9"/>
+    <text x="28" y="36" font-size="16" fill="#fff" font-weight="900" text-anchor="middle">2</text>
+    <text x="92" y="29" class="label" text-anchor="middle">Kontraksi uterus</text>
+    <text x="92" y="58" class="small" text-anchor="middle">Fundus keras</text>
+    <text x="92" y="78" class="small" text-anchor="middle">dan sentral</text>
+  </g>
+  <path d="M420 187 C485 227 415 320 450 305" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-dasharray="5 5"/>
+  <g transform="translate(600 120)">
+    <rect x="0" y="0" width="170" height="105" rx="18" fill="#fff1f2" stroke="#ef4444" stroke-width="2"/>
+    <circle cx="28" cy="30" r="15" fill="#ef4444" opacity="0.9"/>
+    <text x="28" y="36" font-size="16" fill="#fff" font-weight="900" text-anchor="middle">3</text>
+    <text x="92" y="29" class="label" text-anchor="middle">Perdarahan</text>
+    <text x="92" y="58" class="small" text-anchor="middle">Jumlah darah</text>
+    <text x="92" y="78" class="small" text-anchor="middle">dan bekuan</text>
+  </g>
+  <path d="M685 225 C750 265 415 320 450 305" stroke="#ef4444" stroke-width="2.5" fill="none" stroke-dasharray="5 5"/>
+  <g transform="translate(685 330)">
+    <rect x="0" y="0" width="170" height="105" rx="18" fill="#e0f2fe" stroke="#06b6d4" stroke-width="2"/>
+    <circle cx="28" cy="30" r="15" fill="#06b6d4" opacity="0.9"/>
+    <text x="28" y="36" font-size="16" fill="#fff" font-weight="900" text-anchor="middle">4</text>
+    <text x="92" y="29" class="label" text-anchor="middle">Kandung kemih</text>
+    <text x="92" y="58" class="small" text-anchor="middle">Pastikan tidak</text>
+    <text x="92" y="78" class="small" text-anchor="middle">penuh</text>
+  </g>
+  <path d="M770 435 C835 475 415 320 450 305" stroke="#06b6d4" stroke-width="2.5" fill="none" stroke-dasharray="5 5"/>
+  <g transform="translate(470 430)">
+    <rect x="0" y="0" width="170" height="105" rx="18" fill="#fef9c3" stroke="#f59e0b" stroke-width="2"/>
+    <circle cx="28" cy="30" r="15" fill="#f59e0b" opacity="0.9"/>
+    <text x="28" y="36" font-size="16" fill="#fff" font-weight="900" text-anchor="middle">5</text>
+    <text x="92" y="29" class="label" text-anchor="middle">Plasenta</text>
+    <text x="92" y="58" class="small" text-anchor="middle">Lengkap: kotiledon,</text>
+    <text x="92" y="78" class="small" text-anchor="middle">selaput, tali pusat</text>
+  </g>
+  <path d="M555 535 C620 575 415 320 450 305" stroke="#f59e0b" stroke-width="2.5" fill="none" stroke-dasharray="5 5"/>
+  <g transform="translate(215 430)">
+    <rect x="0" y="0" width="170" height="105" rx="18" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+    <circle cx="28" cy="30" r="15" fill="#8b5cf6" opacity="0.9"/>
+    <text x="28" y="36" font-size="16" fill="#fff" font-weight="900" text-anchor="middle">6</text>
+    <text x="92" y="29" class="label" text-anchor="middle">Luka jalan lahir</text>
+    <text x="92" y="58" class="small" text-anchor="middle">Periksa robekan</text>
+    <text x="92" y="78" class="small" text-anchor="middle">dan hematoma</text>
+  </g>
+  <path d="M300 535 C365 575 415 320 450 305" stroke="#8b5cf6" stroke-width="2.5" fill="none" stroke-dasharray="5 5"/>
+  <g transform="translate(40 330)">
+    <rect x="0" y="0" width="170" height="105" rx="18" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+    <circle cx="28" cy="30" r="15" fill="#64748b" opacity="0.9"/>
+    <text x="28" y="36" font-size="16" fill="#fff" font-weight="900" text-anchor="middle">7</text>
+    <text x="92" y="29" class="label" text-anchor="middle">Dokumentasi</text>
+    <text x="92" y="58" class="small" text-anchor="middle">Catat SOAP</text>
+    <text x="92" y="78" class="small" text-anchor="middle">dan waktu</text>
+  </g>
+  <path d="M125 435 C190 475 415 320 450 305" stroke="#64748b" stroke-width="2.5" fill="none" stroke-dasharray="5 5"/>
+<text x="450" y="570" class="small" text-anchor="middle">Prinsip OSCE: nilai ibu secara sistematis, ulangi observasi, dan dokumentasikan temuan penting</text>
+
+</svg>

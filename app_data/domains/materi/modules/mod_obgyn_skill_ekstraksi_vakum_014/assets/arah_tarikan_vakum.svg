@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Arah Tarikan Vakum</title>
+  <desc>Diagram tiga tahap arah traksi vakum mengikuti kurva jalan lahir.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="40" class="title" text-anchor="middle">Arah Traksi Vakum Ekstraksi</text>
+  <text x="450" y="66" class="subtitle" text-anchor="middle">Tarikan mengikuti sumbu jalan lahir: awal sejajar lantai, lalu melengkung ke atas saat crowning</text>
+  <g transform="translate(55 110)">
+    <rect x="0" y="0" width="790" height="395" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <path d="M120 275 C210 185 295 122 390 130 C455 135 485 185 485 230 C485 292 425 350 345 355 C260 360 185 330 120 275Z" fill="none" stroke="#64748b" stroke-width="4"/>
+    <path d="M115 284 C220 250 305 230 382 238 C450 245 518 286 577 340" stroke="#06b6d4" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="10 8"/>
+    <text x="360" y="116" class="small" text-anchor="middle">Kurva jalan lahir</text>
+    <circle cx="240" cy="268" r="70" fill="#fee2e2" stroke="#991b1b" stroke-width="3"/>
+    <ellipse cx="240" cy="245" rx="48" ry="18" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <line x1="240" y1="245" x2="100" y2="245" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+    <path d="M103 245 L32 245" class="arrow"/>
+    <text x="120" y="200" class="label" style="fill:#2563eb" text-anchor="middle">1. Kepala rendah</text>
+    <text x="120" y="222" class="small" text-anchor="middle">Tarik sejajar lantai</text>
+    <circle cx="405" cy="247" r="64" fill="#fee2e2" stroke="#991b1b" stroke-width="3"/>
+    <ellipse cx="405" cy="223" rx="45" ry="17" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <path d="M405 223 C370 240 350 255 330 280" class="arrowCyan"/>
+    <path d="M405 223 C435 250 460 275 485 307" class="arrowCyan"/>
+    <text x="405" y="180" class="label" style="fill:#0891b2" text-anchor="middle">2. Ikuti kurva</text>
+    <text x="405" y="202" class="small" text-anchor="middle">Traksi searah sumbu pelvis</text>
+    <circle cx="590" cy="230" r="58" fill="#fee2e2" stroke="#991b1b" stroke-width="3"/>
+    <ellipse cx="590" cy="207" rx="42" ry="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <path d="M590 207 C640 190 675 155 700 112" class="arrowWarn"/>
+    <text x="620" y="78" class="label" style="fill:#b45309" text-anchor="middle">3. Crowning</text>
+    <text x="620" y="100" class="small" text-anchor="middle">Arah ke atas saat</text>
+    <text x="620" y="120" class="small" text-anchor="middle">suboksiput di bawah simfisis</text>
+    <text x="395" y="370" class="small" text-anchor="middle">Hindari tarikan mendadak atau berlawanan sumbu untuk mengurangi trauma ibu dan bayi</text>
+  </g>
+
+</svg>

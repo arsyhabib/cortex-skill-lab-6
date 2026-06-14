@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Infografik 9 Regio Abdomen</title>
+  <desc>Sembilan regio abdomen dengan label organ dan garis khayal pembagi.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="40" class="title" text-anchor="middle">Pemeriksaan Abdomen: 9 Regio</text>
+  <text x="450" y="66" class="subtitle" text-anchor="middle">Garis midklavikula + subkostal/intertuberkular membagi regio abdomen</text>
+  <g>
+    <path d="M205 95 C155 145 135 235 138 315 C142 450 245 520 450 525 C655 520 758 450 762 315 C765 235 745 145 695 95 C630 65 270 65 205 95Z" fill="none" stroke="#64748b" stroke-width="3"/>
+    <rect x="130" y="105" width="200" height="125" rx="14" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="2"/><text x="230" y="143" class="label" text-anchor="middle">Hipokondrium kanan</text><text x="230" y="171" class="small" text-anchor="middle">Hati, GB</text><rect x="340" y="105" width="200" height="125" rx="14" fill="#eff6ff" stroke="#cbd5e1" stroke-width="2"/><text x="440" y="143" class="label" text-anchor="middle">Epigastrium</text><text x="440" y="171" class="small" text-anchor="middle">Lambung, pankreas</text><rect x="550" y="105" width="200" height="125" rx="14" fill="#f5f3ff" stroke="#cbd5e1" stroke-width="2"/><text x="650" y="143" class="label" text-anchor="middle">Hipokondrium kiri</text><text x="650" y="171" class="small" text-anchor="middle">Limpa, lambung</text><rect x="130" y="240" width="200" height="125" rx="14" fill="#f0fdfa" stroke="#cbd5e1" stroke-width="2"/><text x="230" y="278" class="label" text-anchor="middle">Lumbal kanan</text><text x="230" y="306" class="small" text-anchor="middle">Ginjal kanan</text><rect x="340" y="240" width="200" height="125" rx="14" fill="#fff7ed" stroke="#cbd5e1" stroke-width="2"/><text x="440" y="278" class="label" text-anchor="middle">Umbilikus</text><text x="440" y="306" class="small" text-anchor="middle">Usus halus</text><rect x="550" y="240" width="200" height="125" rx="14" fill="#f0fdfa" stroke="#cbd5e1" stroke-width="2"/><text x="650" y="278" class="label" text-anchor="middle">Lumbal kiri</text><text x="650" y="306" class="small" text-anchor="middle">Ginjal kiri</text><rect x="130" y="375" width="200" height="125" rx="14" fill="#fff1f2" stroke="#cbd5e1" stroke-width="2"/><text x="230" y="413" class="label" text-anchor="middle">Iliaka kanan</text><text x="230" y="441" class="small" text-anchor="middle">Sekum, apendiks</text><rect x="340" y="375" width="200" height="125" rx="14" fill="#e0f2fe" stroke="#cbd5e1" stroke-width="2"/><text x="440" y="413" class="label" text-anchor="middle">Hipogastrium</text><text x="440" y="441" class="small" text-anchor="middle">Kandung kemih, uterus</text><rect x="550" y="375" width="200" height="125" rx="14" fill="#fef9c3" stroke="#cbd5e1" stroke-width="2"/><text x="650" y="413" class="label" text-anchor="middle">Iliaka kiri</text><text x="650" y="441" class="small" text-anchor="middle">Sigmoid</text>
+    <line x1="340" y1="88" x2="340" y2="510" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="8 8"/>
+    <line x1="560" y1="88" x2="560" y2="510" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="8 8"/>
+    <line x1="122" y1="240" x2="778" y2="240" stroke="#06b6d4" stroke-width="3" stroke-dasharray="8 8"/>
+    <line x1="122" y1="375" x2="778" y2="375" stroke="#06b6d4" stroke-width="3" stroke-dasharray="8 8"/>
+    <text x="340" y="545" class="tiny" text-anchor="middle">Garis midklavikula kanan</text>
+    <text x="560" y="545" class="tiny" text-anchor="middle">Garis midklavikula kiri</text>
+    <text x="84" y="245" class="tiny" text-anchor="middle" transform="rotate(-90 84 245)">Subkostal</text>
+    <text x="84" y="383" class="tiny" text-anchor="middle" transform="rotate(-90 84 383)">Intertuberkular</text>
+  </g>
+  <g transform="translate(668 432)">
+    <rect x="0" y="0" width="180" height="70" rx="16" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="90" y="28" class="label" text-anchor="middle">Suprapubik</text>
+    <text x="90" y="52" class="small" text-anchor="middle">fokus kandung kemih</text>
+  </g>
+
+</svg>

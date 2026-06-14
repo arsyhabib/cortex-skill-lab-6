@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Derajat Robekan Perineum</title>
+  <desc>Diagram edukasi empat derajat robekan perineum tanpa darah dengan label struktur anatomi.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="38" class="title" text-anchor="middle">Derajat Robekan Perineum</text>
+  <text x="450" y="64" class="subtitle" text-anchor="middle">Skema penampang: derajat 1–4 berdasarkan struktur yang terkena</text>
+  <g transform="translate(42 95)">
+    <rect x="0" y="0" width="390" height="205" rx="18" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="195" y="30" class="label" text-anchor="middle">Derajat 1</text>
+    <text x="195" y="52" class="small" text-anchor="middle">Mukosa vagina / kulit perineum</text>
+    <ellipse cx="195" cy="132" rx="126" ry="50" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="86" ry="34" fill="#fed7aa" stroke="#c2410c" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="45" ry="22" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="19" ry="10" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/>
+    <line x1="195" y1="132" x2="195" y2="103.0" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="195" cy="132" r="4" fill="#ef4444"/>
+  </g>
+  <g transform="translate(462 95)">
+    <rect x="0" y="0" width="390" height="205" rx="18" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="195" y="30" class="label" text-anchor="middle">Derajat 2</text>
+    <text x="195" y="52" class="small" text-anchor="middle">Otot perineum, sfingter utuh</text>
+    <ellipse cx="195" cy="132" rx="126" ry="50" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="86" ry="34" fill="#fed7aa" stroke="#c2410c" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="45" ry="22" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="19" ry="10" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/>
+    <line x1="195" y1="132" x2="195" y2="85.0" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="195" cy="132" r="4" fill="#ef4444"/>
+  </g>
+  <g transform="translate(42 330)">
+    <rect x="0" y="0" width="390" height="205" rx="18" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="195" y="30" class="label" text-anchor="middle">Derajat 3</text>
+    <text x="195" y="52" class="small" text-anchor="middle">Sfingter ani ruptur</text>
+    <ellipse cx="195" cy="132" rx="126" ry="50" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="86" ry="34" fill="#fed7aa" stroke="#c2410c" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="45" ry="22" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="19" ry="10" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/>
+    <line x1="195" y1="132" x2="195" y2="65.0" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="195" cy="132" r="4" fill="#ef4444"/>
+  </g>
+  <g transform="translate(462 330)">
+    <rect x="0" y="0" width="390" height="205" rx="18" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="195" y="30" class="label" text-anchor="middle">Derajat 4</text>
+    <text x="195" y="52" class="small" text-anchor="middle">Sfingter + mukosa rektum</text>
+    <ellipse cx="195" cy="132" rx="126" ry="50" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="86" ry="34" fill="#fed7aa" stroke="#c2410c" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="45" ry="22" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+    <ellipse cx="195" cy="132" rx="19" ry="10" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/>
+    <line x1="195" y1="132" x2="195" y2="44.5" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="195" cy="132" r="4" fill="#ef4444"/>
+  </g>
+
+  <g transform="translate(290 540)">
+    <circle cx="0" cy="0" r="8" fill="#fce7f3" stroke="#be185d"/><text x="18" y="5" class="tiny" text-anchor="start">Kulit/mukosa vagina</text>
+    <circle cx="178" cy="0" r="8" fill="#fed7aa" stroke="#c2410c"/><text x="196" y="5" class="tiny" text-anchor="start">Otot perineum</text>
+    <circle cx="350" cy="0" r="8" fill="#ddd6fe" stroke="#7c3aed"/><text x="368" y="5" class="tiny" text-anchor="start">Sfingter ani</text>
+    <circle cx="485" cy="0" r="8" fill="#bfdbfe" stroke="#1d4ed8"/><text x="503" y="5" class="tiny" text-anchor="start">Mukosa rektum</text>
+  </g>
+
+</svg>

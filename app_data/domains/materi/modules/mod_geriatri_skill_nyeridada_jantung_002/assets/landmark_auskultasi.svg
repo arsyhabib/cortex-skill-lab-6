@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="system-ui, Arial, sans-serif" role="img">
+  <title>Landmark Auskultasi Katup Jantung</title>
+  <desc>Lokasi auskultasi empat katup jantung pada thorax anterior.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6"/></marker>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#06b6d4"/></marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker>
+    <linearGradient id="violetCyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="softBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0f2fe"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="softRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fee2e2"/><stop offset="100%" stop-color="#fff7ed"/></linearGradient>
+    
+  </defs>
+
+  <style>
+    .title{font-size:28px;font-weight:800;fill:#1a1a2e}
+    .subtitle{font-size:15px;fill:#475569;font-weight:500}
+    .label{font-size:16px;fill:#1a1a2e;font-weight:700}
+    .small{font-size:12.5px;fill:#475569;font-weight:600}
+    .tiny{font-size:11px;fill:#475569}
+    .card{fill:#f8fafc;stroke:#e2e8f0;stroke-width:2;rx:18}
+    .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2;rx:16}
+    .line{stroke:#1a1a2e;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .thin{stroke:#475569;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .arrow{stroke:#3b82f6;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+    .arrowCyan{stroke:#06b6d4;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowCyan)}
+    .arrowWarn{stroke:#f59e0b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowWarn)}
+    .arrowRed{stroke:#ef4444;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrowRed)}
+  </style>
+
+  <rect x="70" y="12" width="760" height="66" rx="20" fill="#ffffff" opacity="0.94" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="450" y="40" class="title" text-anchor="middle">Landmark Auskultasi Katup Jantung</text>
+  <text x="450" y="66" class="subtitle" text-anchor="middle">Thorax anterior: lokasi klasik auskultasi Aortic, Pulmonic, Tricuspid, dan Mitral</text>
+  <g transform="translate(230 95)">
+    <path d="M170 0 C80 55 45 165 55 310 C65 420 140 475 220 475 C300 475 375 420 385 310 C395 165 360 55 270 0 C245 20 195 20 170 0Z" fill="url(#softBlue)" stroke="#64748b" stroke-width="3"/>
+    <line x1="220" y1="58" x2="220" y2="445" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+    <path d="M120 110 C165 92 275 92 320 110 M105 150 C160 128 280 128 335 150 M95 190 C154 168 286 168 345 190 M90 232 C152 210 288 210 350 232 M95 276 C155 252 285 252 345 276" class="thin"/>
+    <line x1="75" y1="82" x2="365" y2="82" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="4 6"/><text x="45" y="87" class="tiny" text-anchor="end">ICS 2</text>
+    <line x1="75" y1="225" x2="365" y2="225" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="4 6"/><text x="45" y="230" class="tiny" text-anchor="end">ICS 4–5</text>
+    <line x1="75" y1="310" x2="365" y2="310" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="4 6"/><text x="45" y="315" class="tiny" text-anchor="end">ICS 5</text>
+    <line x1="132" y1="54" x2="132" y2="365" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="4 6"/><text x="132" y="388" class="tiny" text-anchor="middle">sternal kanan</text>
+    <line x1="308" y1="54" x2="308" y2="365" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="4 6"/><text x="308" y="388" class="tiny" text-anchor="middle">midklavikula kiri</text>
+    <circle cx="135" cy="82" r="13" fill="#ef4444" stroke="#fff" stroke-width="3"/><text x="135" y="87" font-size="12" fill="#fff" font-weight="800" text-anchor="middle">A</text>
+    <circle cx="256" cy="82" r="13" fill="#3b82f6" stroke="#fff" stroke-width="3"/><text x="256" y="87" font-size="12" fill="#fff" font-weight="800" text-anchor="middle">P</text>
+    <circle cx="205" cy="235" r="13" fill="#f59e0b" stroke="#fff" stroke-width="3"/><text x="205" y="240" font-size="12" fill="#fff" font-weight="800" text-anchor="middle">T</text>
+    <circle cx="308" cy="310" r="13" fill="#8b5cf6" stroke="#fff" stroke-width="3"/><text x="308" y="315" font-size="12" fill="#fff" font-weight="800" text-anchor="middle">M</text>
+  </g>
+  <g transform="translate(40 122)">
+    <rect x="0" y="0" width="235" height="92" rx="16" fill="#fff1f2" stroke="#ef4444" stroke-width="2"/>
+    <text x="20" y="28" class="label" style="fill:#ef4444" text-anchor="start">Aortic</text><text x="20" y="54" class="small" text-anchor="start">ICS 2 kanan sternal</text>
+  </g>
+  <g transform="translate(625 122)">
+    <rect x="0" y="0" width="235" height="92" rx="16" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="20" y="28" class="label" style="fill:#3b82f6" text-anchor="start">Pulmonic</text><text x="20" y="54" class="small" text-anchor="start">ICS 2 kiri sternal</text>
+  </g>
+  <g transform="translate(40 350)">
+    <rect x="0" y="0" width="235" height="92" rx="16" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+    <text x="20" y="28" class="label" style="fill:#b45309" text-anchor="start">Tricuspid</text><text x="20" y="54" class="small" text-anchor="start">ICS 4–5 parasternal kiri</text>
+  </g>
+  <g transform="translate(625 350)">
+    <rect x="0" y="0" width="235" height="92" rx="16" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="20" y="28" class="label" style="fill:#7c3aed" text-anchor="start">Mitral</text><text x="20" y="54" class="small" text-anchor="start">ICS 5 midklavikula kiri</text>
+  </g>
+
+</svg>

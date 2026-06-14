@@ -209,7 +209,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi medis posisi anak usia 3 tahun duduk di pangkuan ibu saat pemeriksaan tenggorok; dokter memakai sarung tangan, memegang senter di satu tangan dan tongue depressor di tangan lain; gaya clean medical textbook, warna lembut, ruang skills lab bersih, tanpa elemen menakutkan.",
       "alt": "Ilustrasi posisi anak di pangkuan ibu saat pemeriksaan tenggorok, dokter memakai sarung tangan, senter, dan tongue depressor.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/posisi_pasien.png"
     },
     {
@@ -219,7 +219,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi medis langkah rhinoskopi anterior pada anak usia 3 tahun; fokus pada spekulum hidung kecil dan sumber cahaya; dokter satu tangan menopang dahi anak, tangan lain memasukkan spekulum; gaya clean medical textbook.",
       "alt": "Ilustrasi langkah rhinoskopi anterior pada anak dengan spekulum kecil dan sumber cahaya.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/rhinoskopi_anak.png"
     },
     {
@@ -229,7 +229,7 @@
       "type": "illustration",
       "generation_prompt": "Infografik 4 panel tonsil grade T0 sampai T4 pada anak; masing-masing panel menampilkan mulut terbuka, tonsil kanan kiri, uvula di tengah; label T0, T1, T2, T3, T4 di bawah masing-masing panel; gaya clean medical textbook.",
       "alt": "Infografik 4 panel tonsil grade T0 sampai T4 pada anak dengan mulut terbuka dan uvula di tengah.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/tonsil_grading.png"
     },
     {
@@ -239,8 +239,8 @@
       "type": "flowchart",
       "generation_prompt": "Poster traffic light demam anak untuk triase; kolom merah (emergensi: kejang, sesak, penurunan kesadaran, kaku kuduk), kolom kuning (perlu evaluasi: dehidrasi, ruam perdarahan, demam >3 hari), kolom hijau (rawat jalan: demam ringan, ISPA atas tanpa red flag); gaya clean medical textbook.",
       "alt": "Poster traffic light demam anak untuk triase: merah emergensi, kuning evaluasi, hijau rawat jalan.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/red_flags_trafficlight.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/red_flags_trafficlight.svg"
     },
     {
       "id": "visual_demam_tht_termometer_aksila",
@@ -249,7 +249,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi langkah memasang termometer aksila pada anak; langkah 1 keringkan aksila, langkah 2 letakkan termometer, langkah 3 tunggu beberapa menit, langkah 4 baca hasil; gaya clean medical textbook.",
       "alt": "Ilustrasi langkah memasang termometer aksila pada anak: keringkan, letakkan, tunggu, baca hasil.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/termometer_aksila.png"
     },
     {
@@ -259,7 +259,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi pemilihan manset tekanan darah anak yang benar; perbandingan manset dewasa (terlalu besar, tidak valid) vs manset anak (sesuai lingkar lengan, posisi lengan setinggi jantung); gaya clean medical textbook.",
       "alt": "Ilustrasi pemilihan manset tekanan darah anak yang benar dibanding manset dewasa.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/manset_anak.png"
     },
     {
@@ -269,7 +269,7 @@
       "type": "illustration",
       "generation_prompt": "Perbandingan cavum oris normal (mukosa merah muda, tonsil T1, faring tidak hiperemis) vs faringitis akut (mukosa hiperemis, tonsil T2-T3 dengan eksudat, faring hiperemis, post-nasal drip); gaya clean medical textbook.",
       "alt": "Perbandingan cavum oris normal dan faringitis akut pada anak.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/cavum_oris.png"
     },
     {
@@ -279,7 +279,7 @@
       "type": "table",
       "generation_prompt": "Kartu edukasi ibu dalam format kartu lipat: poin cairan cukup, obat demam sesuai BB, istirahat, pantau tanda bahaya (sesak, kejang, ruam perdarahan, dehidrasi); gaya clean medical textbook, bahasa awam.",
       "alt": "Kartu edukasi ibu: cairan, obat, pantau tanda bahaya.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/skrip_edukasi.png"
     }
   ],

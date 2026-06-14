@@ -273,7 +273,7 @@
       "type": "anatomy_3d",
       "generation_prompt": "Infografik medis bahasa Indonesia, 12 nervus kranialis dari batang otak ke target organ. Tampilkan asal nukleus di otak tengah, pons, medulla oblongata, dan exit point foramen kranium. Label: N I Olfaktorius, N II Optikus, N III Okulomotorius, N IV Troklear, N V Trigeminus (V1/V2/V3), N VI Abdusen, N VII Fasialis, N VIII Vestibulokoklear, N IX Glossofaringeus, N X Vagus, N XI Aksesorius, N XII Hipoglosus. Gaya textbook modern, akurat secara medis, label bahasa Indonesia, tanpa teks berlebihan.",
       "alt": "Diagram 12 nervus kranialis dari batang otak ke target organ, menunjukkan asal nukleus, fungsi utama, dan titik keluarnya di basis kranii. Label dalam bahasa Indonesia.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/anatomi_nk_01.png"
     },
     {
@@ -283,7 +283,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi dokter memeriksa gerak bola mata pasien dengan pola huruf H. Tampilkan 6/8 arah gerakan: kanan, kiri, atas, bawah, dan dua diagonal. Label: N III (rektus superior/inferior/medial + obliquus inferior), N IV (obliquus superior), N VI (rektus lateral). Posisi kepala pasien diam, jari pemeriksa sebagai target fiksasi. Clean medical illustration, label bahasa Indonesia, gaya textbook modern.",
       "alt": "Ilustrasi pemeriksaan gerak bola mata pola huruf H untuk N III, IV, VI. Menunjukkan arah gerakan yang diperiksa dan otot-otot yang bertanggung jawab.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/h_test_02.png"
     },
     {
@@ -293,7 +293,7 @@
       "type": "diagram",
       "generation_prompt": "Side-by-side medical diagram perbandingan facial palsy sentral vs perifer. Sisi kiri: central facial palsy (forehead spared) — pasien lesi otak kiri, kelemahan wajah kanan BAWAH saja, dahi kanan masih bisa kerut, dengan label 'forehead sparing' dan 'lesi UMN (kortikal)'. Sisi kanan: peripheral facial palsy (Bell's palsy) — pasien Bell's palsy kiri, kelemahan SELURUH sisi kiri wajah termasuk dahi, mata tidak menutup, Bell's phenomenon, label 'lesi LMN (N VII perifer)'. Indonesian labels, akurat klinis, gaya textbook.",
       "alt": "Diagram perbandingan facial palsy sentral (forehead sparing, lesi UMN) vs perifer (seluruh sisi wajah lemah, lesi LMN). Penting untuk membedakan Bell's palsy dari stroke.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/facial_palsy_03.png"
     },
     {
@@ -303,7 +303,7 @@
       "type": "illustration",
       "generation_prompt": "Medical illustration mulut terbuka saat pasien mengucapkan 'aaa'. Tampilkan palatum mole (langit-langit lunak), uvula, dinding faring posterior. Dua panel: kiri = NORMAL (palatum elevasi simetris, uvula di tengah); kanan = LESI N IX/X UNILATERAL KANAN (palatum kiri terangkat, palatum kanan turun, uvula tertarik ke KIRI/sisi sehat). Indonesian labels, clean medical illustration.",
       "alt": "Ilustrasi pemeriksaan palatum dan uvula pada pasien yang mengucapkan 'aaa'. Menunjukkan elevasi palatum simetris (normal) vs uvula tertarik ke sisi sehat (lesi N IX/X unilateral).",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/palatum_uvula_04.png"
     },
     {
@@ -313,8 +313,8 @@
       "type": "diagram",
       "generation_prompt": "Tiga panel medical diagram lidah dijulurkan. Panel 1: NORMAL — lidah lurus ke depan, di tengah. Panel 2: LESI N XII KIRI (LMN kronis) — lidah deviasi ke KIRI saat dijulurkan, dengan atrofi dan fasikulasi di sisi kiri. Panel 3: LESI N XII KANAN (UMN/stroke) — lidah deviasi ke KANAN saat dijulurkan, tanpa atrofi. Indonesian labels, akurat klinis, gaya textbook.",
       "alt": "Tiga panel diagram lidah dijulurkan: normal (tengah), lesi LMN kiri (deviasi ke kiri, atrofi), lesi UMN kanan (deviasi ke kanan).",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/lidah_deviasi_05.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/lidah_deviasi_05.svg"
     },
     {
       "id": "visual_neuro_nk_setup_06",
@@ -323,7 +323,7 @@
       "type": "photo",
       "generation_prompt": "Foto atau ilustrasi meja alat OSCE pemeriksaan nervus kranialis. Tampilkan penataan alat di atas meja: penlight, kapas, bahan bau non-iritan (kopi, teh, kulit jeruk, vanili, sabun), spatel lidah, garpu tala 512 Hz, Snellen chart, refleks hammer, clip board, sarung tangan. Label setiap alat dengan nama. Clean medical photo style, label bahasa Indonesia.",
       "alt": "Penataan meja alat OSCE pemeriksaan nervus kranialis lengkap: penlight, kapas, bahan bau, spatel, garpu tala, Snellen chart, refleks hammer.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png"
     },
     {
@@ -333,8 +333,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart urutan pemeriksaan 12 nervus kranialis dalam format decision tree. Dimulai dari 'MULAI: Informed Consent & Hand Hygiene' → 'N I' → 'N II' → 'N III/IV/VI' → 'N V' → 'N VII' → 'N VIII' → 'N IX/X' → 'N XI' → 'N XII' → 'LAPOR HASIL SOAP'. Setiap node berisi langkah singkat. Warna berbeda untuk fase persiapan (biru), pemeriksaan (hijau), pelaporan (oranye). Indonesian labels, clean infographic style.",
       "alt": "Flowchart urutan pemeriksaan 12 nervus kranialis dari informed consent, N I, N II, N III/IV/VI, N V, N VII, N VIII, N IX/X, N XI, N XII, hingga pelaporan SOAP.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/prosedur_07.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/prosedur_07.svg"
     },
     {
       "id": "visual_neuro_nk_posisi_pasien_08",
@@ -343,7 +343,7 @@
       "type": "illustration",
       "generation_prompt": "Side-by-side ilustrasi posisi pasien. Panel kiri: posisi duduk tegak untuk pasien umum OSCE NK — pasien duduk di kursi dengan punggung tegak, tangan di pangkuan, pemeriksa di depan. Panel kanan: posisi berbaring elevasi kepala 30° untuk pasien stroke akut — pasien di bed dengan kepala elevasi 30°, monitoring di samping. Indonesian labels, clean medical illustration.",
       "alt": "Perbandingan posisi pasien duduk tegak (umum) vs berbaring elevasi 30° (stroke akut) untuk pemeriksaan nervus kranialis.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/posisi_pasien_08.png"
     }
   ],

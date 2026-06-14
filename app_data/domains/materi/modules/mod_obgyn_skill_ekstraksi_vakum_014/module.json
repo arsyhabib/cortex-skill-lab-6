@@ -306,8 +306,8 @@
       "type": "flowchart",
       "generation_prompt": "Infografik Bahasa Indonesia: syarat ekstraksi vakum sebelum tindakan, pembukaan lengkap, ketuban pecah, kepala rendah, presentasi kepala, posisi diketahui, tidak CPD, resusitasi bayi siap, gaya medical OSCE checklist.",
       "alt": "Infografik syarat vakum: pembukaan lengkap, presentasi kepala, Hodge IV, tidak CPD, ketuban pecah, kandung kemih kosong, resusitasi bayi siap.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/syarat_vakum.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/syarat_vakum.svg"
     },
     {
       "id": "visual_vakum_posisi_cup_02",
@@ -316,7 +316,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi medis potongan sagital panggul saat ekstraksi vakum, cup ditempelkan pada kepala janin, label vagina, serviks, kepala janin, sumbu tarikan, tidak vulgar, textbook style, clean medical illustration.",
       "alt": "Ilustrasi medis potongan sagital panggul: cup vakum menempel pada flexion point kepala janin, sumbu tarikan mengikuti jalan lahir.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/posisi_cup_vakum.png"
     },
     {
@@ -326,8 +326,8 @@
       "type": "diagram",
       "generation_prompt": "Diagram tiga tahap arah traksi vakum: sejajar lantai saat kepala rendah, lalu mengikuti kurva jalan lahir ke atas saat suboksiput di bawah simfisis, clean vector arrows, label Bahasa Indonesia.",
       "alt": "Diagram arah traksi: sejajar lantai saat kepala di Hodge IV, lalu ke atas mengikuti sumbu jalan lahir saat crowning, untuk mencegah trauma.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/arah_tarikan_vakum.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/arah_tarikan_vakum.svg"
     },
     {
       "id": "visual_vakum_komplikasi_bayi_04",
@@ -346,8 +346,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart OSCE: tarikan efektif tidak maju, cup lepas, waktu/tekanan melebihi batas, kondisi janin memburuk -> hentikan, panggil senior/rujuk/SC, Bahasa Indonesia. Clean flowchart, warna kontras untuk keterbacaan.",
       "alt": "Flowchart kapan henti vakum: tarikan tidak efektif, cup lepas, waktu >20-30 menit, DJJ memburuk → HENTIKAN, panggil senior/rujuk SC.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/algoritma_gagal_vakum.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/algoritma_gagal_vakum.svg"
     }
   ],
   "sections": [

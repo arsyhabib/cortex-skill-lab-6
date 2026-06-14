@@ -259,7 +259,7 @@
       "type": "photo",
       "generation_prompt": "Foto setup meja praktikum MMSE: kursi, meja, kertas kosong A4, pensil, arloji analog, kartu tulisan 'Mohon pejamkan mata Anda' (font besar), gambar dua pentagon berpotongan. Pencahayaan cukup, background netral, gaya bersih profesional medis.",
       "alt": "Foto alat-alat yang diperlukan untuk pemeriksaan MMSE di meja praktikum: kertas kosong, pensil, arloji, kartu tulisan 'Mohon pejamkan mata Anda', dan gambar dua pentagon berpotongan.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_persiapan_01.png"
     },
     {
@@ -269,8 +269,8 @@
       "type": "flowchart",
       "generation_prompt": "Flowchart 11 sub-tes MMSE berurutan dari atas ke bawah: 1) Orientasi waktu (5 poin), 2) Orientasi tempat (5 poin), 3) Registrasi (3 poin), 4) Atensi/Kalkulasi (5 poin), 5) Recall (3 poin), 6) Bahasa-Naming (2 poin), 7) Repetisi (1 poin), 8) 3-Stage Command (3 poin), 9) Membaca (1 poin), 10) Menulis (1 poin), 11) Visuokonstruksi (1 poin), diakhiri dengan total skor 30. Background putih, garis tegas, warna berbeda tiap sub-tes, label skor jelas.",
       "alt": "Flowchart urutan 11 sub-tes MMSE beserta skor per sub-tes dan total skor 30 poin di bagian akhir.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_prosedur_02.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_prosedur_02.svg"
     },
     {
       "id": "visual_mmse_pentagon_03",
@@ -279,8 +279,8 @@
       "type": "diagram",
       "generation_prompt": "Contoh gambar dua pentagon berpotongan sesuai modul asli halaman 55. Dua bangun segi lima (pentagon) yang sisi-sisinya saling berpotongan membentuk daerah perpotongan quadrangular. Garis hitam tegas, ukuran jelas, tanpa bayangan. Sertakan versi 'contoh benar' (skor 1) dan 'contoh salah' (skor 0) berdampingan.",
       "alt": "Gambar dua pentagon berpotongan untuk sub-tes visuokonstruksi MMSE, dengan semua sisi utuh dan area perpotongan quadrangular yang jelas.",
-      "status": "pending",
-      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_pentagon_03.png"
+      "status": "done",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_pentagon_03.svg"
     },
     {
       "id": "visual_mmse_kartu_04",
@@ -289,7 +289,7 @@
       "type": "illustration",
       "generation_prompt": "Kartu tulisan 'Mohon pejamkan mata Anda' dalam font sans-serif besar (minimal 24pt) di atas kertas/karton putih. Kontras tinggi, mudah dibaca lansia, tidak ada dekorasi.",
       "alt": "Kartu instruksi tulisan 'Mohon pejamkan mata Anda' dengan font besar untuk pasien geriatri.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_kartu_04.png"
     },
     {
@@ -299,7 +299,7 @@
       "type": "chart",
       "generation_prompt": "Heat map interpretasi skor MMSE dalam format kartu saku. Kotak warna hijau untuk ≥25 (normal), kuning untuk 21–24 (gangguan ringan), oranye untuk 10–20 (gangguan sedang), merah untuk ≤9 (gangguan berat). Sertakan catatan wajib: 'wajib mempertimbangkan usia, pendidikan, dan faktor perancu klinis'.",
       "alt": "Cheat sheet heat map interpretasi skor MMSE dengan empat kategori warna: hijau ≥25, kuning 21–24, oranye 10–20, merah ≤9.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_heat_map_05.png"
     },
     {
@@ -309,7 +309,7 @@
       "type": "illustration",
       "generation_prompt": "Infografik perbandingan empat kondisi: (1) Lupa normal, (2) Demensia, (3) Delirium, (4) Depresi. Empat kolom dengan ikon, gejala utama, onset, perjalanan, dan pendekatan klinis. Gaya bersih, bahasa Indonesia, cocok untuk mahasiswa kedokteran.",
       "alt": "Infografik perbandingan empat kondisi gangguan kognitif: lupa normal, demensia, delirium, dan depresi pada lansia, beserta onset, perjalanan, dan pendekatannya.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_inforgrafik_06.png"
     }
   ],
