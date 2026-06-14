@@ -1318,13 +1318,12 @@
   "source_atlas": {
     "page_files": [
       "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/anatomi_pelvis.png",
-      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/posisi_litotomi.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/spekulum_arah.svg",
       "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/leopold_4panel.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/lochia_involusi.png"
     ],
     "title": "Visual Referensi — Peta Besar Skill Lab Reproduksi",
-    "caption": "5 gambar referensi klinis untuk modul ini.",
+    "caption": "4 gambar referensi overview anatomi pelvis, spekulum, Leopold, dan involusi postpartum.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

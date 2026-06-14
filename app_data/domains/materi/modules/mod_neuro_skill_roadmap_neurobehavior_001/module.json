@@ -1752,5 +1752,17 @@
       "glossary_refs": [],
       "bilingual": "Visual pedagogy: 8 visual asset (GCS diagram, TRM poster, lokalisasi lesi, MSE template, BPPV vs stroke, SPIKES infographic, code stroke, Epley maneuver) mempercepat pemahaman pola hierarkis. Lampiran klinis: kontraindikasi rangsang nyeri/pungsi lumbal/Epley, masalah-respons, 4 mini-case OSCE, 7 kalimat pembuka station, 12 referensi (PERDOSSI 2022, PDSKJI 2022, AHA/ASA 2018 update 2021, NICE NG127, APA, Folstein 1975, Teasdale 1974, Baile SPIKES 2000)."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_prosedur_02.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_pentagon_03.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_heat_map_05.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png"
+    ],
+    "title": "Visual Referensi — Roadmap Neurobehavior",
+    "caption": "4 gambar referensi MMSE dan pemeriksaan neurobehavior.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

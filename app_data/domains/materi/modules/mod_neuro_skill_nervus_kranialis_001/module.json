@@ -1482,17 +1482,14 @@
   ],
   "source_atlas": {
     "page_files": [
-      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/anatomi_nk_01.png",
-      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/h_test_02.png",
-      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/facial_palsy_03.png",
-      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/palatum_uvula_04.png",
-      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/lidah_deviasi_05.svg",
       "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png",
-      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/prosedur_07.svg",
-      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/posisi_pasien_08.png"
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/palatum_uvula_04.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/palatum_uvula_pemeriksaan.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/lidah_deviasi_05.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/prosedur_07.svg"
     ],
     "title": "Visual Referensi — Pemeriksaan Nervus Kranialis",
-    "caption": "8 gambar referensi klinis untuk modul ini.",
+    "caption": "5 gambar referensi set alat, posisi pasien, dan pemeriksaan 12 nervus kranialis.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

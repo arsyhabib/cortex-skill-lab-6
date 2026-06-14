@@ -1884,17 +1884,12 @@
   ],
   "source_atlas": {
     "page_files": [
-      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/tanda_kala_ii.png",
-      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/set_persalinan_resusitasi.png",
-      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/posisi_meneran.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/cardinal_movements.svg",
-      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/perlindungan_perineum.png",
-      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/putaran_paksi_luar.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/lilitan_tali_pusat.svg",
-      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/imd_kontak_kulit.png"
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/putaran_paksi_luar_ilustrasi.png"
     ],
     "title": "Visual Referensi — APN Kala II",
-    "caption": "8 gambar referensi klinis untuk modul ini.",
+    "caption": "3 gambar referensi gerakan kardinal, putaran paksi luar, dan manajemen tali pusat.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

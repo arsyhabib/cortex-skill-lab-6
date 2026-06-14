@@ -1533,5 +1533,16 @@
       ],
       "bilingual": "Lampiran modul TRM: A (8 kontraindikasi), B (7 masalah & respons), C (3 mini-case: mudah/sedang/sulit), D (10 kalimat pembuka). 5 visual utama: flowchart urutan 7 tanda, ilustrasi Kaku Kuduk, perbandingan Kernig-Lasegue, Brudzinski I/II, flowchart diagnosis. 9 referensi klinis: modul FKIK UNJA, Lumbantobing, Mahar Marjono, KNI, IDSA 2004, PPNI 2018, AHA/ASA 2012, DeMyer's, Biller & Gruener."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/palatum_uvula_04.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/lidah_deviasi_05.svg"
+    ],
+    "title": "Visual Referensi — Pemeriksaan Tanda Rangsang Meningeal (TRM)",
+    "caption": "3 gambar referensi set alat dan teknik pemeriksaan neurologis.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

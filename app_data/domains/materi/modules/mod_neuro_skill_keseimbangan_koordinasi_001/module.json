@@ -1166,13 +1166,10 @@
   ],
   "source_atlas": {
     "page_files": [
-      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/posisi_tes.png",
-      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/prosedur_utama.png",
-      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/flowchart_vertigo.svg",
-      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/cerebellar_exam.png"
+      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/flowchart_vertigo.svg"
     ],
-    "title": "Visual Referensi — Pemeriksaan Gangguan Fungsi Keseimbangan dan Koordinasi",
-    "caption": "4 gambar referensi klinis untuk modul ini.",
+    "title": "Visual Referensi — Pemeriksaan Keseimbangan dan Koordinasi",
+    "caption": "1 flowchart alur diagnosis vertigo dan gangguan keseimbangan.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

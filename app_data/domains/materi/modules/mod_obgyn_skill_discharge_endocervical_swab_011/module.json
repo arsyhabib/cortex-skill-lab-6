@@ -1657,5 +1657,16 @@
       ],
       "bilingual": "Bagian ini berisi lampiran A-D, referensi, dan 7 saran visual. Mini-case Lampiran C sangat berguna untuk latihan mandiri 3 tingkat kesulitan."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/anatomi_pelvis.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/spekulum_arah.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/anatomi_serviks_ssk.png"
+    ],
+    "title": "Visual Referensi — Discharge, Endocervical Swab & Scraping",
+    "caption": "3 gambar referensi anatomi ginekologi dan orientasi serviks untuk pengambilan sampel.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

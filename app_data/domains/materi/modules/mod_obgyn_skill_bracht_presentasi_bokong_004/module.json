@@ -1358,14 +1358,13 @@
   "source_atlas": {
     "page_files": [
       "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/anatomi_bokong_frank.png",
-      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/pegangan_bracht_manekin.png",
-      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/timeline_8_menit.svg",
-      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/posisi_litotomi_persalinan_sungsang.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/anatomi_bokong_frank_breech.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/alur_eskalasi_bracht.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/timeline_8_menit.svg",
       "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/monitoring_kala_iv.svg"
     ],
-    "title": "Visual Referensi — Melahirkan Bayi Presentasi Bokong: Bracht",
-    "caption": "6 gambar referensi klinis untuk modul ini.",
+    "title": "Visual Referensi — Melahirkan Presentasi Bokong: Bracht",
+    "caption": "5 gambar referensi anatomi bokong, alur manuver Bracht, dan monitoring kala IV.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

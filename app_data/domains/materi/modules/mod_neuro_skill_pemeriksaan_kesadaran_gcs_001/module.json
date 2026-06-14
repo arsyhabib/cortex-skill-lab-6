@@ -1363,5 +1363,16 @@
       ],
       "bilingual": "Section ini memuat daftar 6 kebutuhan visual (tangga stimulus, tabel skor, posisi nyeri, diagram ARAS, flowchart OSCE, AEIOU-TIPS), 4 lampiran (A: Red Flags, B: Masalah & Respons, C: Mini-Case mudah/sedang/sulit, D: Kalimat Pembuka Station), dan 10 referensi klinis (Modul kampus, SKDI 4A, Teasdale & Jennett 1974, NICE NG51, AHA ACLS, PERDOSSI 2023, IDSA 2016, Geeky Medics, Physiopedia, WHO)."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/palatum_uvula_04.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_heat_map_05.png"
+    ],
+    "title": "Visual Referensi — Pemeriksaan Kesadaran GCS",
+    "caption": "3 gambar referensi set alat dan penilaian status neurologis.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

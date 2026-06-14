@@ -1871,5 +1871,16 @@
       ],
       "bilingual": "Visual: 5 saran gambar. Referensi: WHO ANC 2016, SKDI 4A. Lampiran A (kontraindikasi), Lampiran B (masalah prosedur), Lampiran C (4 mini-case), Lampiran D (10 kalimat verbal)."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/anatomi_pelvis.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/spekulum_arah.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/leopold_infographic.png"
+    ],
+    "title": "Visual Referensi — Antenatal Awal & Ginekologi <20 Minggu",
+    "caption": "3 gambar referensi anatomi pelvis, spekulum, dan orientasi janin awal.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

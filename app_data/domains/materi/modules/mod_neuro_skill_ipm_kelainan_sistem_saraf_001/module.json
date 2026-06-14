@@ -1018,5 +1018,17 @@
       "glossary_refs": [],
       "bilingual": "Section ini menyediakan visual, lampiran klinis, dan referensi. Gunakan mini-case (mudah-sedang-sulit) untuk latihan mandiri 3 hari, dan hafalkan kalimat pembuka dari Lampiran D."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/lidah_deviasi_05.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/prosedur_07.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_heat_map_05.png"
+    ],
+    "title": "Visual Referensi — IPM Kelainan Sistem Saraf",
+    "caption": "4 gambar referensi pemeriksaan neurologis komprehensif.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

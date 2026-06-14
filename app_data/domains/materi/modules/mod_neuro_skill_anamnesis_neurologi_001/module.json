@@ -1489,5 +1489,16 @@
       ],
       "bilingual": "Section ini menyediakan visual asset requirements (8 visual), lampiran klinis (A: kontraindikasi, B: masalah & respons, D: 8 kalimat pembuka), dan referensi lengkap AHA/ASA, IDSA, ICHD-3, ILAE, KKI, Bates, Merritt's Neurology."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_prosedur_02.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_heat_map_05.png"
+    ],
+    "title": "Visual Referensi — Anamnesis Neurologi",
+    "caption": "3 gambar referensi set alat dan prosedur pemeriksaan neurologis.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

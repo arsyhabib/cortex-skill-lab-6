@@ -1278,5 +1278,15 @@
       ],
       "bilingual": "REFERENSI LENGKAP: (1) PPDGJ III (1993); (2) Modul Keterampilan Klinis VI FKIK Universitas Jambi (2024/2025); (3) Kaplan & Sadock's Synopsis of Psychiatry; (4) NICE Guidelines for Psychosis (2014, update 2023); (5) APA Practice Guideline (2020); (6) DSM-5-TR (2022); (7) SKDI 2012; (8) Chien et al. (2013) Cochrane review on family intervention."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_prosedur_02.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_heat_map_05.png"
+    ],
+    "title": "Visual Referensi — Wawancara dan Pemeriksaan Psikiatri",
+    "caption": "2 gambar referensi prosedur wawancara dan penilaian status mental.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

@@ -1191,5 +1191,16 @@
       ],
       "bilingual": "Lampiran: istilah bilingual (ID-EN), daftar visual asset (7 item), referensi pustaka (6 sumber utama). Modul dirancang untuk belajar mandiri OSCE blok 6.3 Neurologi."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/palatum_uvula_04.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/flowchart_vertigo.svg"
+    ],
+    "title": "Visual Referensi — Pemeriksaan Refleks Regresi",
+    "caption": "3 gambar referensi set alat, posisi pasien, dan alur diferensial neurologis.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

@@ -1360,8 +1360,8 @@
       "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/palpasi_ginjal.png",
       "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/edukasi_poster.png"
     ],
-    "title": "Visual Referensi — MODUL OSCE 6.2 — Integrated Skill Geriatri: Nyeri Saat BAK / Nyeri Perut + Pemeriksaan Abdomen",
-    "caption": "8 gambar referensi klinis untuk modul ini.",
+    "title": "Visual Referensi — Integrated Skill Geriatri: Nyeri BAK & Abdomen",
+    "caption": "8 gambar referensi klinis pemeriksaan abdomen, perkusi CVA, dan edukasi ISK/BPH.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

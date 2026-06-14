@@ -1610,13 +1610,14 @@
     "page_files": [
       "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/flowchart_maka_10_langkah.svg",
       "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/dorso_kranial_cct.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/imd_skin_to_skin.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/perawatan_bbl_urutan.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/pemeriksaan_plasenta.svg",
       "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/monitoring_2jam_postpartum.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/alur_kala4.svg"
     ],
     "title": "Visual Referensi — APN Kala III",
-    "caption": "6 gambar referensi klinis untuk modul ini.",
+    "caption": "7 gambar referensi MAK III, CCT, IMD, perawatan BBL, dan monitoring postpartum.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

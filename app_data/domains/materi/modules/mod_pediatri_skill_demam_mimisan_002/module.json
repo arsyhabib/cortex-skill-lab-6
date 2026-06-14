@@ -1377,5 +1377,17 @@
       ],
       "bilingual": "Lampiran A: red flags (syok dengue, perdarahan masif, penurunan kesadaran). Lampiran B: respons aman saat prosedur. Lampiran C: 3 mini-case (Rangga-MUDAH, Laras-SEDANG, Galih-SULIT). Lampiran D: 10 kalimat pembuka siap ucap."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/termometer_aksila.png",
+      "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/manset_anak.png",
+      "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/red_flags_trafficlight.svg",
+      "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/skrip_edukasi.png"
+    ],
+    "title": "Visual Referensi — Integrated Skill Anak 2: Demam + Mimisan (Dengue)",
+    "caption": "4 gambar referensi vital signs anak, red flags, dan edukasi demam dengue.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

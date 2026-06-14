@@ -1318,5 +1318,17 @@
       ],
       "bilingual": "Visual: 6 saran (flowchart 4T, retensio, evakuasi manual, monitoring, kuretase, bundle MOTIVE). Referensi: WHO PPH 2025, RCOG 52, ACOG, SKDI 4A. Lampiran A: kontraindikasi (plasenta akreta curiga, syok berat, ruptur uteri, koagulopati, alergi uterotonika). Lampiran C: 4 mini-case (mudah, sedang, sulit, tambahan)."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/dorso_kranial_cct.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/pemeriksaan_plasenta.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/monitoring_2jam_postpartum.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/alur_kala4.svg"
+    ],
+    "title": "Visual Referensi — PPH Retensio/Sisa Plasenta",
+    "caption": "4 gambar referensi manajemen postpartum, pemeriksaan plasenta, dan monitoring kala IV.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

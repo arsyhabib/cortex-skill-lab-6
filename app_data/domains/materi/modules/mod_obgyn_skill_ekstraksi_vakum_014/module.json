@@ -1716,11 +1716,10 @@
       "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/syarat_vakum.svg",
       "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/posisi_cup_vakum.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/arah_tarikan_vakum.svg",
-      "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/komplikasi_bayi_vakum.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/algoritma_gagal_vakum.svg"
     ],
     "title": "Visual Referensi — Ekstraksi Vakum",
-    "caption": "5 gambar referensi klinis untuk modul ini.",
+    "caption": "4 gambar referensi syarat, posisi cup, arah tarikan, dan algoritma gagal vakum.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

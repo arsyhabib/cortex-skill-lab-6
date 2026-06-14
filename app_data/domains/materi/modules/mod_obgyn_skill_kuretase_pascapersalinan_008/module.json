@@ -1325,5 +1325,16 @@
       ],
       "bilingual": "Referensi: WHO PPH 2023, WHO Intrapartum Care 2018, SKDI 4A Obgyn, Checklist skill lab FKIK UNJA. 7 visual dengan prompt AI siap-pakai (anatomi, posisi, alat, arah, PPH bundle, syok, monitoring). Lampiran A-D: kontraindikasi, masalah prosedur, mini-case, checklist verbal."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/dorso_kranial_cct.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/monitoring_2jam_postpartum.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/pemeriksaan_plasenta.svg"
+    ],
+    "title": "Visual Referensi — Kuretase Pascapersalinan",
+    "caption": "3 gambar referensi prosedur uterus, pemeriksaan plasenta, dan monitoring postpartum.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

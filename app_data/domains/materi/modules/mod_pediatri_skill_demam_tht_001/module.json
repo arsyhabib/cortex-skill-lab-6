@@ -1237,10 +1237,11 @@
       "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/termometer_aksila.png",
       "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/manset_anak.png",
       "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/cavum_oris.png",
-      "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/skrip_edukasi.png"
+      "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/skrip_edukasi.png",
+      "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/pemeriksaan_tenggorokan_spatel.png"
     ],
-    "title": "Visual Referensi — MODUL OSCE 6.2 — Integrated Skill Anak: Demam Tinggi + Pemeriksaan Hidung dan Tenggorok",
-    "caption": "8 gambar referensi klinis untuk modul ini.",
+    "title": "Visual Referensi — Integrated Skill Anak: Demam Tinggi + THT",
+    "caption": "9 gambar referensi pemeriksaan THT anak, vital signs, dan edukasi demam.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

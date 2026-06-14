@@ -1278,8 +1278,8 @@
       "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/alur_acs.svg",
       "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/edukasi_keluarga.png"
     ],
-    "title": "Visual Referensi — MODUL OSCE 6.2 — Integrated Skill Geriatri 2: Nyeri Dada Kiri + Pemeriksaan Fisik Jantung",
-    "caption": "6 gambar referensi klinis untuk modul ini.",
+    "title": "Visual Referensi — Integrated Skill Geriatri: Nyeri Dada & Jantung",
+    "caption": "6 gambar referensi klinis pemeriksaan jantung, diagnosis banding, dan tata laksana ACS.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }

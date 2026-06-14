@@ -1242,15 +1242,13 @@
   "source_atlas": {
     "page_files": [
       "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/anatomi_serviks_ssk.png",
-      "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/posisi_litotomi.png",
-      "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/cara_pasang_spekulum.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/iva_negatif.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/iva_positif_acetowhite.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/curiga_kanker_serviks.png",
       "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/template_dokumentasi_iva.png"
     ],
     "title": "Visual Referensi — IVA (Inspeksi Visual Asam Asetat)",
-    "caption": "7 gambar referensi klinis untuk modul ini.",
+    "caption": "5 gambar referensi anatomi serviks, hasil IVA negatif/positif, dan template dokumentasi.",
     "source_kind": "visual_assets",
     "delivery_mode": "full_source_page_atlas"
   }
