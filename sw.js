@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cortex-shell-launch-v7';
+const CACHE_NAME = 'cortex-shell-launch-v8';
 const CORE_ASSETS = [
   './',
   './index.html',
