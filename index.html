@@ -3522,20 +3522,23 @@
         max-width: 108px;
       }
 
+      /* ── Library topbar: compact single-row on iPhone ────────────────────── */
       .cortex-library-topbar {
         padding-left: 12px !important;
         padding-right: 12px !important;
-        gap: 6px !important;
-        padding-bottom: 8px !important;
+        /* Remove the extra 10px above safe-area; use safe-area only */
+        padding-top: env(safe-area-inset-top) !important;
+        padding-bottom: 6px !important;
+        gap: 4px !important;
       }
 
       .cortex-library-topbar .cortex-wallpaper-toggle {
-        transform: scale(0.94);
+        transform: scale(0.9);
         transform-origin: right center;
       }
 
       .cortex-library-topbar .cortex-motion-sensor-control {
-        transform: scale(0.94);
+        transform: scale(0.9);
         transform-origin: right center;
       }
 
@@ -3544,23 +3547,34 @@
         white-space: nowrap;
       }
 
-      /* ── Module/page topbar (B1Topbar via B2PageShell): thinner on iPhone ─ */
-      /* B1Topbar renders as first-child of .cortex-page-shell.               */
-      /* Original: padding calc(6px + safe-area-inset-top) 18px 8px → too    */
-      /* tall on iPhone 16 (safe-area ≈ 59px → 73px+ of padding alone).      */
+      /* Library topbar title text: smaller on iPhone */
+      .cortex-library-topbar > div:first-child > div:first-child > div:first-child {
+        font-size: 12px !important;
+        line-height: 1.1 !important;
+      }
+
+      /* ── Module/page topbar (B1Topbar via B2PageShell): radical compact ── */
+      /* B1Topbar = first-child of .cortex-page-shell. Inline style is:      */
+      /* padding:calc(6px + env(safe-area-inset-top)) 18px 8px; minHeight:44 */
+      /* On iPhone 16 (safe-area ≈ 59px) that forces ≈ 104px of total height */
+      /* Fix: strip extra 6px and 8px → only safe-area + content + 3px.      */
       .cortex-page-shell > div:first-child {
         padding-top: env(safe-area-inset-top) !important;
-        padding-bottom: 5px !important;
-        min-height: 32px !important;
+        padding-bottom: 3px !important;
+        min-height: 0 !important;
         padding-left: 14px !important;
         padding-right: 14px !important;
       }
 
-      /* Subtitle inside topbar: smaller on iPhone to reclaim height */
+      /* Subtitle in module topbar: hide it — saves ≈ 12px vertical space */
       .cortex-page-shell > div:first-child > div:nth-child(2) > div:nth-child(2) {
-        font-size: 9px !important;
-        margin-top: 0 !important;
-        opacity: 0.7;
+        display: none !important;
+      }
+
+      /* Title in module topbar: slightly smaller */
+      .cortex-page-shell > div:first-child > div:nth-child(2) > div:first-child {
+        font-size: 13px !important;
+        line-height: 1.1 !important;
       }
 
       .b1-card {
@@ -4999,7 +5013,7 @@
 
   <script src="./cortex-app.js?v=2026-06-15-0050" onerror="document.title='ERR:CortexApp'" ></script>
 
-  <script src="./ai_workspace.local.js?v=20260615b"
+  <script src="./ai_workspace.local.js?v=20260615c"
     onerror="window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};"></script>
   <script>
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {

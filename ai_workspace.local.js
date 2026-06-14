@@ -1,57 +1,57 @@
 // AI Workspace Local Configuration fallback
 window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
 
-// ─── Source Atlas Viewer — Full Container Expansion Fix (v3) ─────────────────
-// Root causes identified:
-//   1. CSS Grid outer container: grid-row heights get "frozen" at ~60px before
-//      images load; grid rows do NOT auto-expand after lazy images finish loading.
-//   2. B1Card inline style: overflow:hidden clips the expanded image.
-//   3. Inner image-wrapper div: overflow:hidden clips further.
-//   4. loading="lazy" inside overflow:auto container: browser may not resolve
-//      intrinsic height before grid freezes row size.
-//
-// Fix strategy:
-//   a. Switch grid container from display:grid → display:block (eliminates
-//      frozen-row-height problem; block stacking always follows content height).
-//   b. CSS !important to override overflow on B1Cards that contain atlas images.
-//   c. JS: add class to grid, switch eager loading, reapply on image load event.
-//   d. MutationObserver to re-patch after every React re-render.
+// ─── Performance Mode: Auto-detect by device capability ──────────────────────
+// The app defaults to reducedMotion=true on ALL mobile devices (UA check).
+// iPhone/iPad have high-performance A-series GPUs that handle animations fine.
+// Fix: before React initialises the state, write '0' to localStorage for iOS
+// devices (unless the OS prefers-reduced-motion system setting is active, or
+// the user already made an explicit choice).
 // ─────────────────────────────────────────────────────────────────────────────
+(function autoPerformanceMode() {
+  'use strict';
+  var stored = null;
+  try { stored = window.localStorage && window.localStorage.getItem('cortex.reducedMotion'); } catch (e) {}
+  if (stored !== null) return; // user already made an explicit choice — respect it
+
+  var ua = (navigator.userAgent || '').toLowerCase();
+  var isIOS = /iphone|ipad|ipod/.test(ua);
+  var prefersReduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+
+  if (prefersReduced) return; // OS-level accessibility setting → let app honour it
+
+  if (isIOS) {
+    // iPhone/iPad: capable GPU, user hasn't opted-in to reduced motion → full animations
+    try { window.localStorage && window.localStorage.setItem('cortex.reducedMotion', '0'); } catch (e) {}
+  }
+})();
+
+// ─── Source Atlas Viewer — Full Container Expansion Fix (v3) ─────────────────
 (function patchSourceAtlasViewer() {
   'use strict';
 
-  // ── CSS overrides ─────────────────────────────────────────────────────────
   var CSS_RULES = [
-    /* Grid wrapper → block layout (no more frozen grid-row heights) */
     '.cortex-atlas-page-grid {',
     '  display: block !important;',
     '  max-height: none !important;',
     '  overflow: visible !important;',
     '}',
-
-    /* Cards in atlas: allow full content height */
     '.cortex-atlas-page-grid .b1-card {',
     '  overflow: visible !important;',
     '  height: auto !important;',
     '  display: block !important;',
     '  margin-bottom: 10px !important;',
     '}',
-
-    /* Inner image-wrapper div: do not clip */
     '.cortex-atlas-page-grid .b1-card > div:last-child {',
     '  overflow: visible !important;',
     '  height: auto !important;',
     '}',
-
-    /* Images: responsive — fill card width, auto height */
     '.cortex-atlas-page-grid img {',
     '  display: block !important;',
     '  width: 100% !important;',
     '  height: auto !important;',
     '  max-width: 100% !important;',
     '}',
-
-    /* Fallback for browsers without :has() — target via alt attribute directly */
     'img[alt*="Source page"] {',
     '  display: block !important;',
     '  width: 100% !important;',
@@ -59,148 +59,87 @@ window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
     '}',
   ].join('\n');
 
-  var styleEl = null;
-
   function injectStyle() {
     if (!document.getElementById('cortex-atlas-patch-v3')) {
-      styleEl = document.createElement('style');
-      styleEl.id = 'cortex-atlas-patch-v3';
-      styleEl.textContent = CSS_RULES;
-      (document.head || document.documentElement).appendChild(styleEl);
+      var s = document.createElement('style');
+      s.id = 'cortex-atlas-patch-v3';
+      s.textContent = CSS_RULES;
+      (document.head || document.documentElement).appendChild(s);
     }
   }
 
-  // ── DOM patcher ───────────────────────────────────────────────────────────
   function applyFix(img) {
-    // Switch lazy → eager so browser resolves intrinsic size immediately
-    if (img.getAttribute('loading') === 'lazy') {
-      img.setAttribute('loading', 'eager');
-    }
-
+    if (img.getAttribute('loading') === 'lazy') img.setAttribute('loading', 'eager');
     var card = img.closest ? img.closest('.b1-card') : null;
-
-    // Fix image-wrapper div (direct parent of img, inside B1Card)
     var wrapper = img.parentElement;
     if (wrapper && wrapper !== card) {
       wrapper.style.setProperty('overflow', 'visible', 'important');
       wrapper.style.setProperty('height', 'auto', 'important');
       wrapper.style.setProperty('maxHeight', 'none', 'important');
     }
-
-    // Fix B1Card
     if (card) {
       card.style.setProperty('overflow', 'visible', 'important');
       card.style.setProperty('height', 'auto', 'important');
-
-      // Fix outer grid container (parent of B1Card)
       var grid = card.parentElement;
       if (grid) {
         grid.style.setProperty('display', 'block', 'important');
         grid.style.setProperty('maxHeight', 'none', 'important');
         grid.style.setProperty('overflow', 'visible', 'important');
-        if (!grid.classList.contains('cortex-atlas-page-grid')) {
-          grid.classList.add('cortex-atlas-page-grid');
-        }
+        if (!grid.classList.contains('cortex-atlas-page-grid')) grid.classList.add('cortex-atlas-page-grid');
       }
     }
   }
 
   function applyFixOnLoad(img) {
-    // Also reapply fix after image load (in case reflow re-collapses containers)
     function afterLoad() {
       applyFix(img);
-      // Force reflow on the card
       var card = img.closest ? img.closest('.b1-card') : null;
       if (card) {
-        // Reading offsetHeight forces synchronous layout
-        // eslint-disable-next-line no-unused-expressions
-        card.offsetHeight;
+        card.offsetHeight; // eslint-disable-line no-unused-expressions
         card.style.setProperty('overflow', 'visible', 'important');
         card.style.setProperty('height', 'auto', 'important');
       }
     }
-
-    if (img.complete && img.naturalHeight > 0) {
-      afterLoad();
-    } else {
-      img.addEventListener('load', afterLoad, { once: true });
-    }
+    if (img.complete && img.naturalHeight > 0) { afterLoad(); }
+    else { img.addEventListener('load', afterLoad, { once: true }); }
   }
 
   function patchAll() {
     injectStyle();
-    var imgs = document.querySelectorAll('img[alt*="Source page"]');
-    imgs.forEach(function (img) {
-      applyFix(img);
-      applyFixOnLoad(img);
+    document.querySelectorAll('img[alt*="Source page"]').forEach(function (img) {
+      applyFix(img); applyFixOnLoad(img);
     });
   }
 
-  // ── MutationObserver: re-patch after every React render ──────────────────
   var rafPending = false;
   var mo = new MutationObserver(function () {
-    if (!rafPending) {
-      rafPending = true;
-      requestAnimationFrame(function () {
-        patchAll();
-        rafPending = false;
-      });
-    }
+    if (!rafPending) { rafPending = true; requestAnimationFrame(function () { patchAll(); rafPending = false; }); }
   });
 
-  function start() {
-    mo.observe(document.body, { childList: true, subtree: true });
-    patchAll();
-  }
-
-  if (document.body) {
-    start();
-  } else {
-    document.addEventListener('DOMContentLoaded', start);
-  }
-
-  // Safety timeouts: run at staggered intervals to catch any deferred renders
-  [200, 600, 1200, 2500, 5000].forEach(function (t) {
-    setTimeout(patchAll, t);
-  });
+  function start() { mo.observe(document.body, { childList: true, subtree: true }); patchAll(); }
+  if (document.body) { start(); } else { document.addEventListener('DOMContentLoaded', start); }
+  [200, 600, 1200, 2500, 5000].forEach(function (t) { setTimeout(patchAll, t); });
 })();
 
 // ─── AI Workspace Tab Scroll Fix ─────────────────────────────────────────────
-// Root cause: iOS Safari sometimes loses scroll-ability on a container after
-// React re-renders swap its content (tab switch: assistant → visual → audio).
-// The container keeps overflow:auto but iOS treats it as non-scrollable because
-// the compositing layer is stale.
-//
-// Fix: When the AI workspace scroll container changes (tab switch detected via
-// MutationObserver watching class changes), force a repaint cycle that makes
-// iOS re-composite the scroll layer:
-//   1. Temporarily remove overflowY so iOS drops the scroll layer.
-//   2. One rAF later, restore overflowY:'auto' with !important and call
-//      scrollTop = scrollTop to force a scroll-context rebuild.
-//   3. Also ensure -webkit-overflow-scrolling and touch-action are set.
+// iOS Safari loses scroll-ability on containers after React re-renders swap
+// content (tab switch). Fix: detect class change → repaint the scroll layer.
 // ─────────────────────────────────────────────────────────────────────────────
 (function patchAIWorkspaceTabScroll() {
   'use strict';
-
-  var WORKSPACE_SELECTOR = '[data-screen-label="P20-AIWorkspace"] .cortex-page-scroll';
-  var lastClassName = '';
+  var SELECTOR = '[data-screen-label="P20-AIWorkspace"] .cortex-page-scroll';
+  var lastClass = '';
   var fixScheduled = false;
 
   function forceScrollReset(el) {
     if (!el) return;
-    // Step 1: remove overflow so iOS releases the stale scroll layer
     el.style.setProperty('overflow-y', 'hidden', 'important');
     el.style.setProperty('-webkit-overflow-scrolling', 'touch', 'important');
     el.style.setProperty('touch-action', 'pan-y', 'important');
-
     requestAnimationFrame(function () {
-      // Step 2: restore scrollability in the next paint frame
       el.style.removeProperty('overflow-y');
       el.style.setProperty('overflow-y', 'auto', 'important');
-      // Step 3: nudge scrollTop to force iOS scroll-context rebuild
-      var prev = el.scrollTop;
-      el.scrollTop = prev + 1;
-      el.scrollTop = prev;
+      var prev = el.scrollTop; el.scrollTop = prev + 1; el.scrollTop = prev;
     });
   }
 
@@ -209,61 +148,199 @@ window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
     fixScheduled = true;
     requestAnimationFrame(function () {
       fixScheduled = false;
-      var el = document.querySelector(WORKSPACE_SELECTOR);
+      var el = document.querySelector(SELECTOR);
       if (!el) return;
-
-      var currentClass = el.className || '';
-      if (currentClass !== lastClassName) {
-        // Class changed → tab switched → repair scroll
-        lastClassName = currentClass;
-        forceScrollReset(el);
-      }
-
-      // Always ensure touch scrolling attributes on non-chat surfaces
-      // (chat surface manages its own layout with overflow:hidden)
-      if (!currentClass.includes('cortex-ai-chat-active')) {
+      var cur = el.className || '';
+      if (cur !== lastClass) { lastClass = cur; forceScrollReset(el); }
+      if (!cur.includes('cortex-ai-chat-active')) {
         el.style.setProperty('-webkit-overflow-scrolling', 'touch', 'important');
         el.style.setProperty('touch-action', 'pan-y', 'important');
-        // Ensure overflowY is auto if it was hidden (e.g. from chat surface CSS)
-        var computed = window.getComputedStyle(el);
-        if (computed.overflowY === 'hidden' && !el.classList.contains('cortex-ai-chat-active')) {
-          el.style.setProperty('overflow-y', 'auto', 'important');
-        }
       }
     });
   }
 
   function startScrollWatcher() {
-    var mo = new MutationObserver(function (mutations) {
-      for (var i = 0; i < mutations.length; i++) {
-        var t = mutations[i].target;
-        if (t && t.matches && t.matches(WORKSPACE_SELECTOR)) {
-          checkAndFix();
-          return;
-        }
-        // Also trigger on any child mutations inside the workspace screen
-        if (t && t.closest && t.closest('[data-screen-label="P20-AIWorkspace"]')) {
-          checkAndFix();
-          return;
-        }
+    var mo = new MutationObserver(function (muts) {
+      for (var i = 0; i < muts.length; i++) {
+        var t = muts[i].target;
+        if (t && t.closest && t.closest('[data-screen-label="P20-AIWorkspace"]')) { checkAndFix(); return; }
       }
     });
-
-    mo.observe(document.body, {
-      subtree: true,
-      childList: true,
-      attributes: true,
-      attributeFilter: ['class', 'style'],
-    });
-
-    // Run immediately and at startup intervals
+    mo.observe(document.body, { subtree: true, childList: true, attributes: true, attributeFilter: ['class', 'style'] });
     checkAndFix();
     [300, 800, 1500].forEach(function (t) { setTimeout(checkAndFix, t); });
   }
 
-  if (document.body) {
-    startScrollWatcher();
-  } else {
-    document.addEventListener('DOMContentLoaded', startScrollWatcher);
+  if (document.body) { startScrollWatcher(); }
+  else { document.addEventListener('DOMContentLoaded', startScrollWatcher); }
+})();
+
+// ─── Compact Topbar: JS belt-and-suspenders for inline style override ─────────
+// CSS !important in index.html already overrides B1Topbar's inline style, but
+// on some iOS WebKit builds the cascade doesn't fully apply env() in !important
+// overrides. This JS patch uses element.style.setProperty('prop','val','important')
+// which is always the strongest possible inline override.
+// ─────────────────────────────────────────────────────────────────────────────
+(function patchCompactTopbar() {
+  'use strict';
+
+  function isMobile() { return window.innerWidth <= 430; }
+
+  function compactTopbars() {
+    if (!isMobile()) return;
+
+    // B1Topbar = first child of .cortex-page-shell
+    document.querySelectorAll('.cortex-page-shell > div:first-child').forEach(function (tb) {
+      if (tb.dataset.cortexTopbarCompact) return; // already patched this element
+      tb.dataset.cortexTopbarCompact = '1';
+
+      tb.style.setProperty('padding-top', 'env(safe-area-inset-top)', 'important');
+      tb.style.setProperty('padding-bottom', '3px', 'important');
+      tb.style.setProperty('min-height', '0', 'important');
+      tb.style.setProperty('padding-left', '14px', 'important');
+      tb.style.setProperty('padding-right', '14px', 'important');
+
+      // Hide subtitle (second child of the centre div, which is second child of topbar)
+      var centre = tb.children[1];
+      if (centre && centre.children[1]) {
+        centre.children[1].style.setProperty('display', 'none', 'important');
+      }
+
+      // Compact title text
+      if (centre && centre.children[0]) {
+        centre.children[0].style.setProperty('font-size', '13px', 'important');
+        centre.children[0].style.setProperty('line-height', '1.1', 'important');
+      }
+    });
+
+    // Library topbar: reduce excess padding
+    document.querySelectorAll('.cortex-library-topbar').forEach(function (tb) {
+      if (tb.dataset.cortexLibTopbarCompact) return;
+      tb.dataset.cortexLibTopbarCompact = '1';
+      tb.style.setProperty('padding-top', 'env(safe-area-inset-top)', 'important');
+      tb.style.setProperty('padding-bottom', '6px', 'important');
+      tb.style.setProperty('gap', '4px', 'important');
+    });
   }
+
+  // Run on every React render cycle (MutationObserver)
+  var rafPending = false;
+  var mo = new MutationObserver(function () {
+    if (!rafPending) {
+      rafPending = true;
+      requestAnimationFrame(function () {
+        compactTopbars();
+        rafPending = false;
+      });
+    }
+  });
+
+  function start() {
+    mo.observe(document.body, { childList: true, subtree: true });
+    compactTopbars();
+  }
+
+  if (document.body) { start(); }
+  else { document.addEventListener('DOMContentLoaded', start); }
+  [100, 400, 1000, 2000].forEach(function (t) { setTimeout(compactTopbars, t); });
+})();
+
+// ─── Settings: Fix Reduced-Motion Toggle ─────────────────────────────────────
+// PageSettings has its own LOCAL reducedMotion state (useState(false)) that is
+// NOT connected to the global state or localStorage. So clicking the toggle has
+// no effect on the actual animations.
+//
+// Fix: intercept clicks on the toggle div inside the Settings page, detect the
+// new intended state from the thumb position, then immediately:
+//   1. Write to localStorage ('cortex.reducedMotion')
+//   2. Add/remove the 'cortex-reduced-motion' class on <html>
+//
+// Also: seed the toggle's VISUAL state to match localStorage on page open,
+// by dispatching a synthetic click if the stored value doesn't match the
+// toggle's default (false → no reduced motion).
+// ─────────────────────────────────────────────────────────────────────────────
+(function patchSettingsReducedMotionToggle() {
+  'use strict';
+
+  function getStoredReducedMotion() {
+    try { return window.localStorage && window.localStorage.getItem('cortex.reducedMotion'); }
+    catch (e) { return null; }
+  }
+
+  function applyReducedMotion(on) {
+    try { window.localStorage && window.localStorage.setItem('cortex.reducedMotion', on ? '1' : '0'); } catch (e) {}
+    if (on) { document.documentElement.classList.add('cortex-reduced-motion'); }
+    else { document.documentElement.classList.remove('cortex-reduced-motion'); }
+  }
+
+  // Is the toggle thumb currently in the ON position?
+  function isToggleOn(toggleOuterDiv) {
+    var thumb = toggleOuterDiv && toggleOuterDiv.querySelector(':scope > div');
+    if (!thumb) return false;
+    var t = thumb.style.transform || '';
+    return t.includes('20px') || t.includes('20 ');
+  }
+
+  var patchedSettings = false;
+
+  function patchSettingsPage() {
+    var page = document.querySelector('[data-screen-label="P7-Settings"]');
+    if (!page) { patchedSettings = false; return; }
+    if (patchedSettings) return;
+    patchedSettings = true;
+
+    // Find the Reduced Motion toggle by locating the card that contains that label text
+    var found = false;
+    var cards = page.querySelectorAll('.b1-card, .b1-toggle');
+    cards.forEach(function (el) {
+      if (found) return;
+      if (!el.textContent.includes('Reduced Motion')) return;
+
+      // Get the outer clickable div of the b1-toggle inside (or the toggle itself)
+      var toggleOuter = el.querySelector('.b1-toggle > div') ||
+        (el.classList.contains('b1-toggle') ? el.querySelector(':scope > div') : null);
+      if (!toggleOuter || toggleOuter.dataset.patchedRm) return;
+      toggleOuter.dataset.patchedRm = '1';
+      found = true;
+
+      // Seed the visual state: if localStorage says ON but toggle shows OFF, simulate click
+      var stored = getStoredReducedMotion();
+      var storedOn = stored === '1';
+      var visualOn = isToggleOn(toggleOuter);
+      if (storedOn !== visualOn) {
+        // Dispatch a click to let React flip the visual; then we'll intercept the next click
+        setTimeout(function () { toggleOuter.click(); }, 80);
+      }
+
+      // Intercept future clicks (capture phase — before React's synthetic event)
+      toggleOuter.addEventListener('click', function () {
+        var currentlyOn = isToggleOn(toggleOuter);
+        var willBeOn = !currentlyOn; // React hasn't flipped yet
+        setTimeout(function () { applyReducedMotion(willBeOn); }, 60);
+      }, true);
+    });
+  }
+
+  // Watch for Settings page to appear/disappear
+  var mo = new MutationObserver(function () {
+    var page = document.querySelector('[data-screen-label="P7-Settings"]');
+    if (!page) patchedSettings = false;
+    else patchSettingsPage();
+  });
+
+  function start() {
+    mo.observe(document.body, { childList: true, subtree: true });
+    patchSettingsPage();
+    // Also keep the html class in sync with localStorage on every navigation
+    [200, 600].forEach(function (t) {
+      setTimeout(function () {
+        var v = getStoredReducedMotion();
+        if (v === '1') document.documentElement.classList.add('cortex-reduced-motion');
+        else if (v === '0') document.documentElement.classList.remove('cortex-reduced-motion');
+      }, t);
+    });
+  }
+
+  if (document.body) { start(); }
+  else { document.addEventListener('DOMContentLoaded', start); }
 })();
