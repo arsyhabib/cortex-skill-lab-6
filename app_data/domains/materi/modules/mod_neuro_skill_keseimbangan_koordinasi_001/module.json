@@ -1163,5 +1163,17 @@
       ],
       "bilingual": "Section ini memuat 4 visual utama, lampiran A-D (kontraindikasi, masalah, mini-case, kalimat pembuka), dan 5 referensi modul."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/posisi_tes.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/prosedur_utama.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/flowchart_vertigo.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/cerebellar_exam.png"
+    ],
+    "title": "Visual Referensi — Pemeriksaan Gangguan Fungsi Keseimbangan dan Koordinasi",
+    "caption": "4 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

@@ -1348,5 +1348,21 @@
       ],
       "bilingual": "Section ini memuat kebutuhan visual untuk aplikasi, lampiran A-D (kontraindikasi/red flags, masalah prosedur, mini-case latihan, kalimat pembuka siap ucap), dan referensi ringkas NICE NG109 (2018), CDC UTI Basics (2024), Beers Criteria (2023), dan SKDI Kemenkes (2012)."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/urutan_baku.svg",
+      "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/4_kuadran.svg",
+      "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/9_regio.svg",
+      "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/cva_tenderness.png",
+      "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/decision_tree.svg",
+      "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/palpasi_hati_limpa.png",
+      "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/palpasi_ginjal.png",
+      "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/edukasi_poster.png"
+    ],
+    "title": "Visual Referensi — MODUL OSCE 6.2 — Integrated Skill Geriatri: Nyeri Saat BAK / Nyeri Perut + Pemeriksaan Abdomen",
+    "caption": "8 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

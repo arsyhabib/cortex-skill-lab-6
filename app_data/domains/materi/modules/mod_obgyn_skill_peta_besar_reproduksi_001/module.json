@@ -1314,5 +1314,18 @@
       ],
       "bilingual": "Section ini berisi 5 visual rekomendasi (anatomi pelvis, posisi litotomi, spekulum, Leopold 4-panel, lochia & involusi) dengan prompt AI, referensi ringkas, dan 4 lampiran untuk latihan mandiri."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/anatomi_pelvis.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/posisi_litotomi.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/spekulum_arah.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/leopold_4panel.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/lochia_involusi.png"
+    ],
+    "title": "Visual Referensi — Peta Besar Skill Lab Reproduksi",
+    "caption": "5 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

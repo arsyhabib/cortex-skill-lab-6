@@ -1383,5 +1383,19 @@
       ],
       "bilingual": "Lampiran A (kontraindikasi), Lampiran B (masalah prosedur), Lampiran C (mini-case), dan Lampiran D (checklist verbal) adalah komponen standarisasi OSCE IUD. 6 visual utama dan 4 prompt AI tersedia untuk produksi materi visual."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/anatomi_iud_fundus.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/alat_pemasangan_iud.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/teknik_no_touch.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/teknik_withdrawal.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/kartu_iud_template.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/decision_flow_tunda_tolak.svg"
+    ],
+    "title": "Visual Referensi — IUD Copper T 380A",
+    "caption": "6 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

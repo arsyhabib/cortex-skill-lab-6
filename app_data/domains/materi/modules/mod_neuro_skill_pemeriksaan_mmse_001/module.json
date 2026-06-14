@@ -1254,5 +1254,19 @@
       ],
       "bilingual": "Section s11 memuat lampiran klinis (red flags, mini-case, kalimat pembuka siap ucap) dan referensi berbasis bukti (Folstein 1975, NICE NG97, Alzheimer's Association 2024, PERDOSSI)."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_persiapan_01.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_prosedur_02.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_pentagon_03.svg",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_kartu_04.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_heat_map_05.png",
+      "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_inforgrafik_06.png"
+    ],
+    "title": "Visual Referensi — Pemeriksaan Mini Mental State Examination",
+    "caption": "6 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

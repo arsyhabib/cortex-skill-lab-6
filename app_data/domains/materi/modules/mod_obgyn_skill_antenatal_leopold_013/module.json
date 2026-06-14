@@ -1861,5 +1861,18 @@
       ],
       "bilingual": "Visual: 5 gambar (Leopold I-IV, kepala/bokong, lokasi DJJ, kesimpulan, red flags). Lampiran: A (kontraindikasi), B (masalah prosedur), C (mini-case), D (checklist verbal). Referensi: WHO ANC 2016, WHO Intrapartum 2018, SKDI 4A."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/leopold_infographic.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/kepala_bokong.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/djj_lokasi.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/kesimpulan_template.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/redflags_anc.png"
+    ],
+    "title": "Visual Referensi — Antenatal dan Leopold >24 Minggu",
+    "caption": "5 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

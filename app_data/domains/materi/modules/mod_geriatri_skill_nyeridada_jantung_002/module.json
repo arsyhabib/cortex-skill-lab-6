@@ -1268,5 +1268,19 @@
       ],
       "bilingual": "Lampiran A (kontraindikasi & red flags), Lampiran B (masalah prosedur & respons aman), Lampiran C (3 OSCE mini-case: Anwar/Hadi/Salim), Lampiran D (10 kalimat pembuka siap ucap)."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/landmark_auskultasi.svg",
+      "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/palpasi_ictus.png",
+      "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/pemeriksaan_jantung.png",
+      "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/diagnosis_banding.png",
+      "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/alur_acs.svg",
+      "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/edukasi_keluarga.png"
+    ],
+    "title": "Visual Referensi — MODUL OSCE 6.2 — Integrated Skill Geriatri 2: Nyeri Dada Kiri + Pemeriksaan Fisik Jantung",
+    "caption": "6 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

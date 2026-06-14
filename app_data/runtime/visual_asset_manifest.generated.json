@@ -612,7 +612,7 @@
       "description": "Infografik empat panel Leopold I, II, III, IV pada ibu hamil trimester tiga, posisi tangan dokter, label fundus, punggung, bagian terbawah, PAP. Berguna untuk menghafal posisi tangan Leopold.",
       "generation_prompt": "Infografik Bahasa Indonesia A4 portrait, empat panel Leopold I, II, III, IV pada ibu hamil trimester tiga, posisi tangan dokter, label fundus, punggung janin, bagian terbawah, PAP, gaya medical textbook clean.",
       "alt": "Infografik empat panel Leopold I-IV pada ibu hamil trimester tiga, menunjukkan posisi tangan pemeriksa untuk menentukan fundus, punggung, presentasi, dan engagement kepala dengan label dalam Bahasa Indonesia.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/leopold_infographic.png",
       "priority": "high",
       "use_case": "Primary study aid for OSCE - mengajarkan posisi tangan Leopold I-IV"
@@ -640,7 +640,7 @@
       "description": "Diagram kuadran abdomen ibu hamil yang menunjukkan lokasi auskultasi DJJ berdasarkan presentasi (kepala/bokong) dan posisi punggung (kiri/kanan).",
       "generation_prompt": "Diagram ibu hamil tampak depan, lokasi auskultasi DJJ berdasarkan punggung kiri/kanan dan presentasi kepala/bokong, clean clinical education.",
       "alt": "Diagram lokasi auskultasi DJJ pada empat kuadran abdomen ibu hamil sesuai presentasi dan posisi punggung janin - bawah umbilikus untuk presentasi kepala, atas umbilikus untuk presentasi bokong.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/djj_lokasi.png",
       "priority": "medium",
       "use_case": "Quick reference untuk lokasi peletakan doppler/Pinard saat auskultasi DJJ"
@@ -668,7 +668,7 @@
       "description": "Poster edukasi tanda bahaya kehamilan trimester 2-3 untuk pasien dan keluarga: perdarahan, sakit kepala, pandangan kabur, gerak janin berkurang, demam, KPD, sesak.",
       "generation_prompt": "Poster edukasi tanda bahaya kehamilan trimester 2-3 Bahasa Indonesia, perdarahan, sakit kepala, pandangan kabur, gerak janin berkurang, demam, ketuban pecah, sesak, gaya ramah pasien. Clean medical illustration, warna kontras untuk keterbacaan.",
       "alt": "Poster edukasi tanda bahaya kehamilan trimester 2-3 dalam Bahasa Indonesia: perdarahan, sakit kepala, pandangan kabur, gerak janin berkurang, demam, ketuban pecah, sesak - gaya ramah pasien.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/redflags_anc.png",
       "priority": "medium",
       "use_case": "Patient education material + safety net untuk edukasi di station OSCE"
@@ -680,7 +680,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi medis persalinan kala II: perineum menonjol, vulva membuka, tekanan rektum, posisi janin rendah, label Bahasa Indonesia: perineum menonjol, vulva membuka, anus membuka, presentasi kepala. Gaya clean medical illustration, label jelas.",
       "alt": "Ilustrasi medis tanda kala II: perineum menonjol, vulva membuka, anus membuka, presentasi kepala sudah rendah di jalan lahir.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/tanda_kala_ii.png"
     },
     {
@@ -690,7 +690,7 @@
       "type": "illustration",
       "generation_prompt": "Flat lay alat APN: partus set, oksitosin, spuit, handuk, balon sungkup, lampu pemanas, penghisap lendir, label Bahasa Indonesia. Gaya clean medical illustration, label jelas.",
       "alt": "Flat lay alat APN kala II: set persalinan, oksitosin 10 IU, spuit, handuk, balon sungkup, lampu pemanas, penghisap lendir.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/set_persalinan_resusitasi.png"
     },
     {
@@ -700,7 +700,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi beberapa posisi meneran aman: setengah duduk, miring kiri, jongkok dengan dukungan, hindari terlentang lama. Gaya clean medical illustration, label posisi dan catatan keamanan.",
       "alt": "Ilustrasi posisi meneran yang aman: setengah duduk, miring kiri, jongkok dengan dukungan. Hindari terlentang lama.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/posisi_meneran.png"
     },
     {
@@ -720,7 +720,7 @@
       "type": "illustration",
       "generation_prompt": "Diagram tangan penolong melindungi perineum dengan kain dan tangan lain mengontrol kepala bayi, label: perineum, kepala bayi, tangan kiri, tangan kanan, defleksi. Gaya clean medical illustration.",
       "alt": "Diagram teknik perlindungan perineum: satu tangan melindungi perineum dengan kain, tangan lain menahan defleksi kepala bayi.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/perlindungan_perineum.png"
     },
     {
@@ -730,7 +730,7 @@
       "type": "diagram",
       "generation_prompt": "Diagram kepala bayi setelah lahir melakukan rotasi eksternal (putaran paksi luar), panah rotasi, label posisi bahu anterior dan posterior, sumbu jalan lahir. Gaya clean medical illustration.",
       "alt": "Diagram putaran paksi luar: kepala bayi yang sudah lahir berotasi secara spontan; bahu anterior siap dilahirkan dengan traksi bawah.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/putaran_paksi_luar.png"
     },
     {
@@ -750,7 +750,7 @@
       "type": "illustration",
       "generation_prompt": "Ilustrasi ibu dengan bayi di dada, bayi diselimuti dan memakai topi, label IMD 1 jam, kontak kulit ke kulit, ASI eksklusif. Gaya clean medical illustration, warna hangat, edukatif.",
       "alt": "Ilustrasi IMD: bayi di dada ibu, kontak kulit ke kulit, bayi diselimuti dan memakai topi, label IMD 1 jam.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/imd_kontak_kulit.png"
     },
     {
@@ -872,7 +872,7 @@
       "description": "Ilustrasi pegangan tangan operator pada panggul bayi saat manuver Bracht di manekin obstetri. Kedua ibu jari sejajar paha bayi, punggung bayi didekatkan ke perut ibu dengan tanda panah hiperlordosis, label Bahasa Indonesia.",
       "generation_prompt": "Medical simulation photo-style illustration: hands holding fetal pelvis in Bracht maneuver on obstetric mannequin. Non-bloody, modest draping, arrows showing hyperlordosis toward maternal abdomen. Label Bahasa Indonesia: pegangan Bracht, panggul bayi, hiperlordosis, fundus. Untuk bahan belajar OSCE.",
       "alt_text": "Ilustrasi pegangan tangan operator pada panggul bayi saat manuver Bracht di manekin obstetri. Kedua ibu jari sejajar paha bayi, punggung bayi didekatkan ke perut ibu dengan tanda panah hiperlordosis, label Bahasa Indonesia.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/pegangan_bracht_manekin.png",
       "educational_purpose": "Latihan posisi tangan dan arah gerak hiperlordosis saat manuver Bracht.",
       "color_scheme": "medical simulation photo, soft neutral colors, arrows in red/orange",
@@ -938,7 +938,7 @@
       "description": "Ilustrasi posisi litotomi pada manekin persalinan dengan tim obstetri lengkap dan set resusitasi bayi siap di samping. Label Bahasa Indonesia untuk posisi ibu, asisten, dan peralatan.",
       "generation_prompt": "Ilustrasi skill lab manekin persalinan posisi litotomi, tim obstetri, set resusitasi bayi siap. Gaya clean medical illustration, modest draping, label Bahasa Indonesia: posisi litotomi, asisten, set resusitasi.",
       "alt_text": "Ilustrasi posisi litotomi pada manekin persalinan dengan tim obstetri lengkap dan set resusitasi bayi siap di samping. Label Bahasa Indonesia untuk posisi ibu, asisten, dan peralatan.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/posisi_litotomi_persalinan_sungsang.png",
       "educational_purpose": "Memahami posisi ibu dan penempatan tim serta alat saat persalinan sungsang.",
       "color_scheme": "clean medical illustration, posisi litotomi dengan warna standar OK",
@@ -1009,7 +1009,7 @@
       "type": "illustration",
       "generation_prompt": "Poster edukasi klinis: chignon/caput, cephalhematoma, warning subgaleal hemorrhage, monitoring bayi setelah vakum, gaya medis profesional, label Bahasa Indonesia.",
       "alt": "Poster komplikasi bayi pasca vakum: chignon (edem cup), cephalhematoma (perdarahan subperiosteal), perdarahan subgaleal (emergensi), label monitoring.",
-      "status": "pending",
+      "status": "done",
       "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/komplikasi_bayi_vakum.png"
     },
     {

@@ -1265,5 +1265,19 @@
       ],
       "bilingual": "Section ini memuat saran visual, prompt AI, Lampiran A-D, dan referensi ringkas. Empat skenario mini-case Lampiran C memberikan variasi mudah-sulit untuk latihan. Lampiran D adalah pola kalimat verbal pembuka yang harus dihafal dalam 60-90 detik pertama."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/derajat_robekan_perineum.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/jahitan_berlapis.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/infiltrasi_lidokain_fan_pattern.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/pemeriksaan_rektal_akhir.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/anatomi_perineum_normal.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/set_instrumen_repair.png"
+    ],
+    "title": "Visual Referensi — Penjahitan Robekan Perineum",
+    "caption": "6 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

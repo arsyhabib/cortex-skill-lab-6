@@ -1354,5 +1354,19 @@
       ],
       "bilingual": "Visual Bracht: 6 gambar (anatomi bokong, pegangan Bracht, alur eskalasi, timeline 8 menit, posisi litotomi, monitoring kala IV) + 3 prompt AI siap-pakai + 1 prompt mini-case generator. Referensi: Checklist FKIK UNJA, SKDI 4A, RCOG 20b, WHO Intrapartum Care 2018. Lampiran A (kontraindikasi SC), Lampiran B (15 masalah prosedur), Lampiran C (4 skenario), Lampiran D (10 kalimat verbal)."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/anatomi_bokong_frank.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/pegangan_bracht_manekin.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/timeline_8_menit.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/posisi_litotomi_persalinan_sungsang.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/alur_eskalasi_bracht.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_bracht_presentasi_bokong_004/assets/monitoring_kala_iv.svg"
+    ],
+    "title": "Visual Referensi — Melahirkan Bayi Presentasi Bokong: Bracht",
+    "caption": "6 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

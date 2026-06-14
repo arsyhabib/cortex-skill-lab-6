@@ -1710,5 +1710,18 @@
       ],
       "bilingual": "Visual: 5 gambar (syarat, posisi cup, arah tarikan, komplikasi bayi, algoritma gagal). Lampiran A: 13 kontraindikasi absolut. Lampiran B: 14 masalah prosedur + respons. Lampiran C: 4 mini-case (mudah, sedang, sulit, OASI). Lampiran D: 15 kalimat verbal checklist. Referensi: SKDI 4A, WHO Intrapartum 2018, RCOG GTG 26, WHO PPH 2023, ACOG."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/syarat_vakum.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/posisi_cup_vakum.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/arah_tarikan_vakum.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/komplikasi_bayi_vakum.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/algoritma_gagal_vakum.svg"
+    ],
+    "title": "Visual Referensi — Ekstraksi Vakum",
+    "caption": "5 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }

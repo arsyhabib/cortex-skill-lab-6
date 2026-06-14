@@ -1881,5 +1881,21 @@
       ],
       "bilingual": "Visual 7: tanda kala II, set persalinan + resusitasi BBL, posisi meneran, perlindungan perineum, putaran paksi luar, lilitan tali pusat, IMD. Referensi: WHO intrapartum 2018, SKDI 2012, POGI, CDC. Lampiran A: 16 kontraindikasi/red flags. Lampiran B: 17 masalah prosedur + respons. Lampiran C: 4 mini-case (mudah, sedang, sulit, prolaps). Lampiran D: 10 kalimat verbal pembuka."
     }
-  ]
+  ],
+  "source_atlas": {
+    "page_files": [
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/tanda_kala_ii.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/set_persalinan_resusitasi.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/posisi_meneran.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/cardinal_movements.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/perlindungan_perineum.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/putaran_paksi_luar.png",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/lilitan_tali_pusat.svg",
+      "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/imd_kontak_kulit.png"
+    ],
+    "title": "Visual Referensi — APN Kala II",
+    "caption": "8 gambar referensi klinis untuk modul ini.",
+    "source_kind": "visual_assets",
+    "delivery_mode": "full_source_page_atlas"
+  }
 }
