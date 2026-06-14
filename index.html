@@ -4761,7 +4761,7 @@
         if (typeof CortexLibraryShell === 'undefined') throw new Error('CortexLibraryShell not loaded');
         var rootEl = document.getElementById('root');
         if (!rootEl) throw new Error('Root element not found');
-        var Wrapper = typeof CortexErrorBoundary !== 'undefined' ? CortexErrorBoundary : React.Fragment;
+        var Wrapper = (function() { try { return CortexErrorBoundary; } catch(e) { return React.Fragment; } })();
         ReactDOM.createRoot(rootEl).render(
           React.createElement(Wrapper, null,
             React.createElement(CortexLibraryShell)
