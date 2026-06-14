@@ -2542,8 +2542,8 @@
       inset: 0;
       overflow: hidden;
       pointer-events: none;
-      background: #070718;
-      transition: filter 420ms cubic-bezier(0.16, 1, 0.3, 1);
+      background: var(--cortex-theme-bg, #070718);
+      transition: filter 420ms cubic-bezier(0.16, 1, 0.3, 1), background 420ms cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     .cortex-library-root[data-theme-id="monochrome"] .cortex-wallpaper-layer {
@@ -2564,6 +2564,18 @@
 
     .cortex-library-root[data-theme-id="aurora"] .cortex-wallpaper-layer {
       filter: hue-rotate(60deg) saturate(1.2) brightness(0.8);
+    }
+
+    .cortex-library-root[data-theme-id="ivory"] .cortex-wallpaper-layer {
+      filter: sepia(0.4) hue-rotate(-20deg) saturate(1.1) brightness(1.05) contrast(1.02);
+    }
+
+    .cortex-library-root[data-theme-id="mint"] .cortex-wallpaper-layer {
+      filter: hue-rotate(20deg) saturate(1.15) brightness(1.05) contrast(1.03);
+    }
+
+    .cortex-library-root[data-theme-id="lavender"] .cortex-wallpaper-layer {
+      filter: hue-rotate(270deg) saturate(1.1) brightness(1.05) contrast(1.02);
     }
 
     .cortex-wallpaper-layer[data-exhibition="false"] {
