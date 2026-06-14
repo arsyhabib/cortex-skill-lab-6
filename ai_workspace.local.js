@@ -1,113 +1,156 @@
 // AI Workspace Local Configuration fallback
 window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
 
-// ─── Source Atlas Viewer — Container Expansion Fix ───────────────────────────
-// Problem: B1Card has overflow:hidden (inline style + CSS class). The outer
-// grid container has maxHeight:480px;overflow:auto. Images inside use
-// loading="lazy" inside an overflow:auto container, so the browser may not
-// trigger lazy-load or compute intrinsic height before the card collapses.
-// Result: cards only show ~60px (header height) and clip the actual image.
+// ─── Source Atlas Viewer — Full Container Expansion Fix (v3) ─────────────────
+// Root causes identified:
+//   1. CSS Grid outer container: grid-row heights get "frozen" at ~60px before
+//      images load; grid rows do NOT auto-expand after lazy images finish loading.
+//   2. B1Card inline style: overflow:hidden clips the expanded image.
+//   3. Inner image-wrapper div: overflow:hidden clips further.
+//   4. loading="lazy" inside overflow:auto container: browser may not resolve
+//      intrinsic height before grid freezes row size.
 //
 // Fix strategy:
-//   1. CSS !important to override overflow on cards that contain source-page imgs
-//   2. JS MutationObserver to remove maxHeight from the grid wrapper and switch
-//      lazy → eager on source-page images after every React render
+//   a. Switch grid container from display:grid → display:block (eliminates
+//      frozen-row-height problem; block stacking always follows content height).
+//   b. CSS !important to override overflow on B1Cards that contain atlas images.
+//   c. JS: add class to grid, switch eager loading, reapply on image load event.
+//   d. MutationObserver to re-patch after every React re-render.
 // ─────────────────────────────────────────────────────────────────────────────
 (function patchSourceAtlasViewer() {
   'use strict';
 
-  // ── 1. Inject persistent CSS overrides ──────────────────────────────────
-  // !important in author stylesheet beats regular inline styles (no !important).
-  var style = document.createElement('style');
-  style.id = 'cortex-atlas-patch-v2';
-  style.textContent = [
-    /* Grid wrapper: let it grow as tall as its content */
-    '.cortex-atlas-page-grid { max-height: none !important; overflow: visible !important; }',
+  // ── CSS overrides ─────────────────────────────────────────────────────────
+  var CSS_RULES = [
+    /* Grid wrapper → block layout (no more frozen grid-row heights) */
+    '.cortex-atlas-page-grid {',
+    '  display: block !important;',
+    '  max-height: none !important;',
+    '  overflow: visible !important;',
+    '}',
 
-    /* B1Card containing a source-page image: allow full expansion */
-    '.b1-card:has(img[alt*="Source page"]) {',
+    /* Cards in atlas: allow full content height */
+    '.cortex-atlas-page-grid .b1-card {',
+    '  overflow: visible !important;',
+    '  height: auto !important;',
+    '  display: block !important;',
+    '  margin-bottom: 10px !important;',
+    '}',
+
+    /* Inner image-wrapper div: do not clip */
+    '.cortex-atlas-page-grid .b1-card > div:last-child {',
     '  overflow: visible !important;',
     '  height: auto !important;',
     '}',
 
-    /* Inner image wrapper div (direct child of B1Card, after header) */
-    '.b1-card:has(img[alt*="Source page"]) > div:last-child {',
-    '  overflow: visible !important;',
+    /* Images: responsive — fill card width, auto height */
+    '.cortex-atlas-page-grid img {',
+    '  display: block !important;',
+    '  width: 100% !important;',
     '  height: auto !important;',
+    '  max-width: 100% !important;',
     '}',
 
-    /* The images themselves */
+    /* Fallback for browsers without :has() — target via alt attribute directly */
     'img[alt*="Source page"] {',
     '  display: block !important;',
     '  width: 100% !important;',
     '  height: auto !important;',
-    '  min-height: 0 !important;',
     '}',
   ].join('\n');
 
+  var styleEl = null;
+
   function injectStyle() {
-    if (!document.getElementById('cortex-atlas-patch-v2')) {
-      (document.head || document.documentElement).appendChild(style);
+    if (!document.getElementById('cortex-atlas-patch-v3')) {
+      styleEl = document.createElement('style');
+      styleEl.id = 'cortex-atlas-patch-v3';
+      styleEl.textContent = CSS_RULES;
+      (document.head || document.documentElement).appendChild(styleEl);
     }
   }
-  injectStyle();
 
-  // ── 2. JS fixes: maxHeight removal + lazy→eager ──────────────────────────
-  function patchContainers() {
-    var imgs = document.querySelectorAll('img[alt*="Source page"]');
-    if (!imgs.length) return;
+  // ── DOM patcher ───────────────────────────────────────────────────────────
+  function applyFix(img) {
+    // Switch lazy → eager so browser resolves intrinsic size immediately
+    if (img.getAttribute('loading') === 'lazy') {
+      img.setAttribute('loading', 'eager');
+    }
 
-    imgs.forEach(function (img) {
-      // Switch lazy → eager so browser loads image and knows intrinsic size
-      if (img.getAttribute('loading') === 'lazy') {
-        img.setAttribute('loading', 'eager');
-      }
+    var card = img.closest ? img.closest('.b1-card') : null;
 
-      // Ensure the card containing this image has no overflow/height constraint
-      var card = img.closest ? img.closest('.b1-card') : null;
-      if (card) {
-        card.style.overflow = 'visible';
-        card.style.height = 'auto';
-      }
+    // Fix image-wrapper div (direct parent of img, inside B1Card)
+    var wrapper = img.parentElement;
+    if (wrapper && wrapper !== card) {
+      wrapper.style.setProperty('overflow', 'visible', 'important');
+      wrapper.style.setProperty('height', 'auto', 'important');
+      wrapper.style.setProperty('maxHeight', 'none', 'important');
+    }
 
-      // Ensure the inner image-wrapper div (parent of img) also expands
-      var wrapper = img.parentElement;
-      if (wrapper && wrapper !== card) {
-        wrapper.style.overflow = 'visible';
-        wrapper.style.height = 'auto';
-      }
+    // Fix B1Card
+    if (card) {
+      card.style.setProperty('overflow', 'visible', 'important');
+      card.style.setProperty('height', 'auto', 'important');
 
-      // Remove maxHeight from the grid container (parent of .b1-card)
-      if (card && card.parentElement) {
-        var grid = card.parentElement;
-        if (grid.style.maxHeight && grid.style.maxHeight !== 'none') {
-          grid.style.maxHeight = 'none';
-          grid.style.overflow = 'visible';
-          // Mark it so we can re-identify it cheaply
+      // Fix outer grid container (parent of B1Card)
+      var grid = card.parentElement;
+      if (grid) {
+        grid.style.setProperty('display', 'block', 'important');
+        grid.style.setProperty('maxHeight', 'none', 'important');
+        grid.style.setProperty('overflow', 'visible', 'important');
+        if (!grid.classList.contains('cortex-atlas-page-grid')) {
           grid.classList.add('cortex-atlas-page-grid');
         }
       }
-    });
-  }
-
-  // ── 3. MutationObserver: reapply after every React render ────────────────
-  var ticking = false;
-  function schedulePatc() {
-    if (!ticking) {
-      ticking = true;
-      requestAnimationFrame(function () {
-        injectStyle();
-        patchContainers();
-        ticking = false;
-      });
     }
   }
 
-  var mo = new MutationObserver(schedulePatc);
+  function applyFixOnLoad(img) {
+    // Also reapply fix after image load (in case reflow re-collapses containers)
+    function afterLoad() {
+      applyFix(img);
+      // Force reflow on the card
+      var card = img.closest ? img.closest('.b1-card') : null;
+      if (card) {
+        // Reading offsetHeight forces synchronous layout
+        // eslint-disable-next-line no-unused-expressions
+        card.offsetHeight;
+        card.style.setProperty('overflow', 'visible', 'important');
+        card.style.setProperty('height', 'auto', 'important');
+      }
+    }
+
+    if (img.complete && img.naturalHeight > 0) {
+      afterLoad();
+    } else {
+      img.addEventListener('load', afterLoad, { once: true });
+    }
+  }
+
+  function patchAll() {
+    injectStyle();
+    var imgs = document.querySelectorAll('img[alt*="Source page"]');
+    imgs.forEach(function (img) {
+      applyFix(img);
+      applyFixOnLoad(img);
+    });
+  }
+
+  // ── MutationObserver: re-patch after every React render ──────────────────
+  var rafPending = false;
+  var mo = new MutationObserver(function () {
+    if (!rafPending) {
+      rafPending = true;
+      requestAnimationFrame(function () {
+        patchAll();
+        rafPending = false;
+      });
+    }
+  });
 
   function start() {
-    mo.observe(document.body, { childList: true, subtree: true, attributes: false });
-    patchContainers();
+    mo.observe(document.body, { childList: true, subtree: true });
+    patchAll();
   }
 
   if (document.body) {
@@ -116,8 +159,8 @@ window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
     document.addEventListener('DOMContentLoaded', start);
   }
 
-  // Also run at key moments after initial load
-  [300, 800, 1500, 3000].forEach(function (t) {
-    setTimeout(patchContainers, t);
+  // Safety timeouts: run at staggered intervals to catch any deferred renders
+  [200, 600, 1200, 2500, 5000].forEach(function (t) {
+    setTimeout(patchAll, t);
   });
 })();
