@@ -249,102 +249,94 @@ window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
 
 // ─── Settings: Fix Reduced-Motion Toggle ─────────────────────────────────────
 // PageSettings has its own LOCAL reducedMotion state (useState(false)) that is
-// NOT connected to the global state or localStorage. So clicking the toggle has
-// no effect on the actual animations.
+// NOT connected to the global state or localStorage. The previous click-intercept
+// approach had a race condition: the seeding logic read localStorage BEFORE the
+// 60ms timeout wrote the new value, so it fired a synthetic "correction" click
+// that turned the toggle back OFF.
 //
-// Fix: intercept clicks on the toggle div inside the Settings page, detect the
-// new intended state from the thumb position, then immediately:
-//   1. Write to localStorage ('cortex.reducedMotion')
-//   2. Add/remove the 'cortex-reduced-motion' class on <html>
-//
-// Also: seed the toggle's VISUAL state to match localStorage on page open,
-// by dispatching a synthetic click if the stored value doesn't match the
-// toggle's default (false → no reduced motion).
+// New approach: watch the toggle THUMB's style attribute via MutationObserver.
+// When React updates the thumb's transform (after user click), sync IMMEDIATELY
+// to localStorage + html class + global React state. No timeouts, no synthetic
+// clicks, no seeding — eliminates the race condition entirely.
 // ─────────────────────────────────────────────────────────────────────────────
 (function patchSettingsReducedMotionToggle() {
   'use strict';
 
-  function getStoredReducedMotion() {
-    try { return window.localStorage && window.localStorage.getItem('cortex.reducedMotion'); }
-    catch (e) { return null; }
-  }
-
   function applyReducedMotion(on) {
     try {
       window.localStorage && window.localStorage.setItem('cortex.reducedMotion', on ? '1' : '0');
-      // Mark this as an explicit user choice so autoPerformanceMode respects it next load
       window.localStorage && window.localStorage.setItem('cortex.reducedMotionUserChoice', '1');
     } catch (e) {}
     if (on) { document.documentElement.classList.add('cortex-reduced-motion'); }
     else { document.documentElement.classList.remove('cortex-reduced-motion'); }
-    // Call the global React setter so inline-style driven animations update immediately
     try { if (typeof window.__cortexSetReducedMotion === 'function') window.__cortexSetReducedMotion(on); } catch (e) {}
   }
 
-  // Is the toggle thumb currently in the ON position?
-  function isToggleOn(toggleOuterDiv) {
-    var thumb = toggleOuterDiv && toggleOuterDiv.querySelector(':scope > div');
-    if (!thumb) return false;
-    var t = thumb.style.transform || '';
-    return t.includes('20px') || t.includes('20 ');
-  }
+  var thumbObserver = null;
+  var watchingThumb = null;
+  var lastApplied = null; // debounce: prevent re-firing for same state
 
-  var patchedSettings = false;
+  function attachThumbObserver(thumb) {
+    if (watchingThumb === thumb) return; // already watching this exact element
+    if (thumbObserver) thumbObserver.disconnect();
+    watchingThumb = thumb;
+    lastApplied = null; // reset — next change will always apply
 
-  function patchSettingsPage() {
-    var page = document.querySelector('[data-screen-label="P7-Settings"]');
-    if (!page) { patchedSettings = false; return; }
-    if (patchedSettings) return;
-    patchedSettings = true;
-
-    // Find the Reduced Motion toggle by locating the card that contains that label text
-    var found = false;
-    var cards = page.querySelectorAll('.b1-card, .b1-toggle');
-    cards.forEach(function (el) {
-      if (found) return;
-      if (!el.textContent.includes('Reduced Motion')) return;
-
-      // Get the outer clickable div of the b1-toggle inside (or the toggle itself)
-      var toggleOuter = el.querySelector('.b1-toggle > div') ||
-        (el.classList.contains('b1-toggle') ? el.querySelector(':scope > div') : null);
-      if (!toggleOuter || toggleOuter.dataset.patchedRm) return;
-      toggleOuter.dataset.patchedRm = '1';
-      found = true;
-
-      // Seed the visual state: if localStorage says ON but toggle shows OFF, simulate click
-      var stored = getStoredReducedMotion();
-      var storedOn = stored === '1';
-      var visualOn = isToggleOn(toggleOuter);
-      if (storedOn !== visualOn) {
-        // Dispatch a click to let React flip the visual; then we'll intercept the next click
-        setTimeout(function () { toggleOuter.click(); }, 80);
-      }
-
-      // Intercept future clicks (capture phase — before React's synthetic event)
-      toggleOuter.addEventListener('click', function () {
-        var currentlyOn = isToggleOn(toggleOuter);
-        var willBeOn = !currentlyOn; // React hasn't flipped yet
-        setTimeout(function () { applyReducedMotion(willBeOn); }, 60);
-      }, true);
+    thumbObserver = new MutationObserver(function () {
+      var on = (thumb.style.transform || '').includes('20px');
+      if (on === lastApplied) return; // same state — React re-applied same value, ignore
+      lastApplied = on;
+      applyReducedMotion(on);
     });
+    thumbObserver.observe(thumb, { attributes: true, attributeFilter: ['style'] });
   }
 
-  // Watch for Settings page to appear/disappear
-  var mo = new MutationObserver(function () {
+  function findReducedMotionThumb(page) {
+    var toggles = page.querySelectorAll('.b1-toggle');
+    for (var i = 0; i < toggles.length; i++) {
+      if (!toggles[i].textContent.includes('Reduced Motion')) continue;
+      // .b1-toggle children: [optional span label, div track]
+      // track children: [div thumb]
+      var children = toggles[i].children;
+      var track = children[children.length - 1]; // last child is always the track div
+      var thumb = track && track.children[0];
+      if (thumb) return thumb;
+    }
+    return null;
+  }
+
+  // Outer observer: watch for Settings page to appear / disappear / re-render
+  var outerMO = new MutationObserver(function () {
     var page = document.querySelector('[data-screen-label="P7-Settings"]');
-    if (!page) patchedSettings = false;
-    else patchSettingsPage();
+    if (!page) {
+      // Settings gone — disconnect thumb observer, reset state
+      if (thumbObserver) { thumbObserver.disconnect(); thumbObserver = null; }
+      watchingThumb = null;
+      lastApplied = null;
+      return;
+    }
+    var thumb = findReducedMotionThumb(page);
+    if (thumb && thumb !== watchingThumb) attachThumbObserver(thumb);
   });
 
   function start() {
-    mo.observe(document.body, { childList: true, subtree: true });
-    patchSettingsPage();
-    // Also keep the html class in sync with localStorage on every navigation
-    [200, 600].forEach(function (t) {
+    outerMO.observe(document.body, { childList: true, subtree: true });
+
+    // Initial page check
+    var page = document.querySelector('[data-screen-label="P7-Settings"]');
+    if (page) {
+      var thumb = findReducedMotionThumb(page);
+      if (thumb) attachThumbObserver(thumb);
+    }
+
+    // Sync html class with localStorage on startup and navigation
+    [0, 300, 800].forEach(function (t) {
       setTimeout(function () {
-        var v = getStoredReducedMotion();
-        if (v === '1') document.documentElement.classList.add('cortex-reduced-motion');
-        else if (v === '0') document.documentElement.classList.remove('cortex-reduced-motion');
+        try {
+          var v = window.localStorage && window.localStorage.getItem('cortex.reducedMotion');
+          if (v === '1') document.documentElement.classList.add('cortex-reduced-motion');
+          else if (v === '0') document.documentElement.classList.remove('cortex-reduced-motion');
+        } catch (e) {}
       }, t);
     });
   }
