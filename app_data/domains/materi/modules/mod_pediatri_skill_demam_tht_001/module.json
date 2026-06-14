@@ -1,0 +1,1231 @@
+{
+  "id": "mod_pediatri_skill_demam_tht_001",
+  "title": "MODUL OSCE 6.2 — Integrated Skill Anak: Demam Tinggi + Pemeriksaan Hidung dan Tenggorok",
+  "subtitle": "Anamnesis, pemeriksaan TTV, hidung, tenggorok, diagnosis banding, dan tatalaksana awal demam anak",
+  "domain": "pediatri_skill",
+  "batch_id": "batch_1",
+  "source_pdf": "OSCE_6.2_Batch1_Anak_Demam_THT (1).docx",
+  "source_filename": "OSCE_6.2_Batch1_Anak_Demam_THT (1).docx",
+  "topicTags": [
+    "osce_6_2",
+    "pediatri",
+    "demam_anak",
+    "ispa",
+    "pemeriksaan_tht",
+    "rhinoskopi_anterior",
+    "tonsil_grading",
+    "antipiretik_anak",
+    "dosis_mg_kgbb",
+    "integrated_skill_anak"
+  ],
+  "summary": [
+    "Modul ini membimbing mahasiswa menghadapi station OSCE Integrated Skill pada Anak bertema demam tinggi + pemeriksaan hidung dan tenggorok, dengan skenario An. Dewi (perempuan, 3 tahun, BB 13 kg).",
+    "Pola anamnesis inti adalah D-FEVER + THT + RED FLAGS untuk membedakan ISPA atas/faringitis viral dari kemungkinan infeksi bakteri atau sistemik (GAS, pneumonia, dengue).",
+    "Pemeriksaan dilakukan dengan urutan kurang invasif (TTV, observasi) → kontak (palpasi) → paling tidak nyaman (tenggorok, telinga), dengan nilai normal TTV spesifik usia 3 tahun (HR 90–140, RR 20–30, TD 80–110, suhu 36.5–37.5°C).",
+    "Dosis paracetamol dihitung per BB: 10–15 mg/kgBB/dosis tiap 4–6 jam; untuk An. Dewi BB 13 kg → 130–195 mg per dosis, sirup 120 mg/5 mL → 5–8 mL per dosis.",
+    "Antibiotik TIDAK diberikan otomatis hanya karena demam atau faring hiperemis; indikasi didasarkan pada skor Centor/McIsaac dan/atau hasil rapid test/kultur.",
+    "Verbalisasi setiap tindakan WAJIB dilakukan agar penguji mendengar, tidak hanya mengerjakan secara diam-diam.",
+    "Edukasi safety net kepada ibu (sesak, kejang, ruam perdarahan, dehidrasi berat) wajib disampaikan sebelum pasien pulang.",
+    "Dokumentasi SOAP lengkap dengan kode ICD-10 (J06.9 untuk ISPA atas akut tidak spesifik) merupakan bukti rekam medis yang ditindaklanjuti klinisi lain."
+  ],
+  "exam_focus": [
+    "Hafal urutan checklist 22 poin dan nilai normal TTV anak usia 3 tahun",
+    "Kuasai pola anamnesis D-FEVER + THT + RED FLAGS",
+    "Hitung dosis paracetamol per BB (10–15 mg/kgBB/dosis)",
+    "Bedakan faringitis viral dan bakterial (Centor/McIsaac)",
+    "Tulis resep anak dengan mencantumkan BB",
+    "Jelaskan prosedur dan minta izin sebelum memeriksa anak",
+    "Cuci tangan sebelum dan sesudah kontak pasien",
+    "Sampaikan diagnosis kerja dan edukasi safety net",
+    "Dokumentasikan SOAP dengan ICD-10 yang sesuai",
+    "Verbalisasi setiap tindakan agar penguji mendengar"
+  ],
+  "glossary": [
+    {
+      "id": "gls_demam_tht_sambung_rasa",
+      "term": "Sambung rasa",
+      "def": "Proses komunikasi awal dokter dengan pasien/keluarga yang bertujuan membangun kepercayaan, kenyamanan, dan keterbukaan. Cara dokter menyapa dan membuat pasien merasa aman.",
+      "type": "procedure",
+      "aliases": [
+        "rapport",
+        "empati",
+        "komunikasi terapeutik"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_red_flags",
+      "term": "Red flags",
+      "def": "Gejala atau temuan fisik yang menunjukkan kemungkinan kondisi serius dan membutuhkan evaluasi atau rujukan segera. Sinyal bahaya pada pasien.",
+      "type": "clinical",
+      "aliases": [
+        "warning signs",
+        "tanda bahaya",
+        "triage emergensi"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_pat",
+      "term": "Pediatric Assessment Triangle (PAT)",
+      "def": "Kerangka evaluasi anak berdasarkan appearance, work of breathing, dan circulation untuk menentukan tingkat kegawatan dalam <60 detik. Cara kilat menilai kondisi anak.",
+      "type": "score",
+      "aliases": [
+        "PAT",
+        "triase pediatri",
+        "appearance-work of breathing-circulation"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_rhinoskopi",
+      "term": "Rhinoskopi anterior",
+      "def": "Inspeksi mukosa, konka, septum, dan sekret hidung dengan pencahayaan/spekulum untuk menilai rongga hidung anterior.",
+      "type": "procedure",
+      "aliases": [
+        "pemeriksaan rongga hidung",
+        "THT",
+        "hidung"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_tonsil",
+      "term": "Tonsil grading",
+      "def": "Sistem klasifikasi ukuran tonsil T0 (sudah diangkat) hingga T4 (hampir menyentuh uvula) untuk menilai pembesaran tonsil.",
+      "type": "score",
+      "aliases": [
+        "ukuran amandel",
+        "T0-T4",
+        "tonsilitis"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_dfever",
+      "term": "D-FEVER",
+      "def": "Pola anamnesis demam anak yang mencakup Durasi, Fokus infeksi, Efek pada anak, Vaksinasi, Exposure, Riwayat/obat. Akronim untuk mengingat pertanyaan demam anak.",
+      "type": "procedure",
+      "aliases": [
+        "anamnesis demam",
+        "RPS demam anak"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_centor",
+      "term": "Centor/McIsaac",
+      "def": "Sistem skor untuk memprediksi kemungkinan faringitis streptokokus berdasarkan demam, eksudat, KGB, dan tidak ada batuk. Alat bantu dokter memutuskan perlu tidaknya antibiotik.",
+      "type": "score",
+      "aliases": [
+        "skor Centor",
+        "skor McIsaac",
+        "GAS"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_handhygiene",
+      "term": "Hand hygiene",
+      "def": "Praktik cuci tangan dengan sabun atau handrub alkohol untuk mencegah transmisi patogen. Mencuci tangan sebelum dan sesudah memeriksa pasien.",
+      "type": "procedure",
+      "aliases": [
+        "cuci tangan",
+        "5 momen hand hygiene",
+        "APD"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_dosisbb",
+      "term": "Dosis per BB",
+      "def": "Dosis obat anak dihitung dengan mg/kgBB untuk menyesuaikan dengan metabolisme dan luas permukaan tubuh. Hitung obat anak pakai berat badan.",
+      "type": "drug",
+      "aliases": [
+        "dosis mg/kgBB",
+        "farmakologi anak",
+        "paracetamol sirup"
+      ]
+    },
+    {
+      "id": "gls_demam_tht_soap",
+      "term": "SOAP",
+      "def": "Subjective, Objective, Assessment, Plan — format standar rekam medis pasien. Cara menulis catatan medis pasien.",
+      "type": "procedure",
+      "aliases": [
+        "rekam medis",
+        "dokumentasi",
+        "ICD-10"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_demam_tht_01",
+      "term_id": "Demam",
+      "term_en": "Fever",
+      "context": "Suhu aksila ≥38°C; pada anak perlu triase untuk menyingkirkan infeksi serius."
+    },
+    {
+      "id": "bil_demam_tht_02",
+      "term_id": "ISPA atas",
+      "term_en": "Upper respiratory tract infection (URI)",
+      "context": "Infeksi virus pada hidung, faring, atau laring; penyebab paling umum demam pada anak."
+    },
+    {
+      "id": "bil_demam_tht_03",
+      "term_id": "Tonsilofaringitis",
+      "term_en": "Tonsillopharyngitis",
+      "context": "Peradangan tonsil dan faring, dapat viral atau bakterial."
+    },
+    {
+      "id": "bil_demam_tht_04",
+      "term_id": "Antipiretik",
+      "term_en": "Antipyretic",
+      "context": "Obat penurun demam; paracetamol lini pertama pada anak."
+    },
+    {
+      "id": "bil_demam_tht_05",
+      "term_id": "Rinitis",
+      "term_en": "Rhinitis",
+      "context": "Peradangan mukosa hidung; pada anak biasanya karena virus."
+    },
+    {
+      "id": "bil_demam_tht_06",
+      "term_id": "Otoskop",
+      "term_en": "Otoscope",
+      "context": "Alat untuk memeriksa telinga dan kadang digunakan untuk rhinoskopi anterior."
+    },
+    {
+      "id": "bil_demam_tht_07",
+      "term_id": "Manset tekanan darah",
+      "term_en": "Blood pressure cuff",
+      "context": "Pilih ukuran sesuai lingkar lengan anak."
+    },
+    {
+      "id": "bil_demam_tht_08",
+      "term_id": "Safety net",
+      "term_en": "Jaring pengaman",
+      "context": "Instruksi kapan pasien/keluarga harus kembali segera."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_demam_tht_posisi_pasien",
+      "module_id": "mod_pediatri_skill_demam_tht_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis posisi anak usia 3 tahun duduk di pangkuan ibu saat pemeriksaan tenggorok; dokter memakai sarung tangan, memegang senter di satu tangan dan tongue depressor di tangan lain; gaya clean medical textbook, warna lembut, ruang skills lab bersih, tanpa elemen menakutkan.",
+      "alt": "Ilustrasi posisi anak di pangkuan ibu saat pemeriksaan tenggorok, dokter memakai sarung tangan, senter, dan tongue depressor.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/posisi_pasien.png"
+    },
+    {
+      "id": "visual_demam_tht_rhinoskopi_anak",
+      "module_id": "mod_pediatri_skill_demam_tht_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis langkah rhinoskopi anterior pada anak usia 3 tahun; fokus pada spekulum hidung kecil dan sumber cahaya; dokter satu tangan menopang dahi anak, tangan lain memasukkan spekulum; gaya clean medical textbook.",
+      "alt": "Ilustrasi langkah rhinoskopi anterior pada anak dengan spekulum kecil dan sumber cahaya.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/rhinoskopi_anak.png"
+    },
+    {
+      "id": "visual_demam_tht_tonsil_grading",
+      "module_id": "mod_pediatri_skill_demam_tht_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Infografik 4 panel tonsil grade T0 sampai T4 pada anak; masing-masing panel menampilkan mulut terbuka, tonsil kanan kiri, uvula di tengah; label T0, T1, T2, T3, T4 di bawah masing-masing panel; gaya clean medical textbook.",
+      "alt": "Infografik 4 panel tonsil grade T0 sampai T4 pada anak dengan mulut terbuka dan uvula di tengah.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/tonsil_grading.png"
+    },
+    {
+      "id": "visual_demam_tht_red_flags_trafficlight",
+      "module_id": "mod_pediatri_skill_demam_tht_001",
+      "section_id": "s11",
+      "type": "flowchart",
+      "generation_prompt": "Poster traffic light demam anak untuk triase; kolom merah (emergensi: kejang, sesak, penurunan kesadaran, kaku kuduk), kolom kuning (perlu evaluasi: dehidrasi, ruam perdarahan, demam >3 hari), kolom hijau (rawat jalan: demam ringan, ISPA atas tanpa red flag); gaya clean medical textbook.",
+      "alt": "Poster traffic light demam anak untuk triase: merah emergensi, kuning evaluasi, hijau rawat jalan.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/red_flags_trafficlight.png"
+    },
+    {
+      "id": "visual_demam_tht_termometer_aksila",
+      "module_id": "mod_pediatri_skill_demam_tht_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi langkah memasang termometer aksila pada anak; langkah 1 keringkan aksila, langkah 2 letakkan termometer, langkah 3 tunggu beberapa menit, langkah 4 baca hasil; gaya clean medical textbook.",
+      "alt": "Ilustrasi langkah memasang termometer aksila pada anak: keringkan, letakkan, tunggu, baca hasil.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/termometer_aksila.png"
+    },
+    {
+      "id": "visual_demam_tht_manset_anak",
+      "module_id": "mod_pediatri_skill_demam_tht_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi pemilihan manset tekanan darah anak yang benar; perbandingan manset dewasa (terlalu besar, tidak valid) vs manset anak (sesuai lingkar lengan, posisi lengan setinggi jantung); gaya clean medical textbook.",
+      "alt": "Ilustrasi pemilihan manset tekanan darah anak yang benar dibanding manset dewasa.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/manset_anak.png"
+    },
+    {
+      "id": "visual_demam_tht_cavum_oris",
+      "module_id": "mod_pediatri_skill_demam_tht_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Perbandingan cavum oris normal (mukosa merah muda, tonsil T1, faring tidak hiperemis) vs faringitis akut (mukosa hiperemis, tonsil T2-T3 dengan eksudat, faring hiperemis, post-nasal drip); gaya clean medical textbook.",
+      "alt": "Perbandingan cavum oris normal dan faringitis akut pada anak.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/cavum_oris.png"
+    },
+    {
+      "id": "visual_demam_tht_skrip_edukasi",
+      "module_id": "mod_pediatri_skill_demam_tht_001",
+      "section_id": "s11",
+      "type": "table",
+      "generation_prompt": "Kartu edukasi ibu dalam format kartu lipat: poin cairan cukup, obat demam sesuai BB, istirahat, pantau tanda bahaya (sesak, kejang, ruam perdarahan, dehidrasi); gaya clean medical textbook, bahasa awam.",
+      "alt": "Kartu edukasi ibu: cairan, obat, pantau tanda bahaya.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_tht_001/assets/skrip_edukasi.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s00",
+      "type": "metadata",
+      "source_query": "Standarisasi dokumen asli ke format shell cortex-shell-reusable v2.0",
+      "source_reference": "PROMPT_MASTER_STAGE2.md dan PROMPT_DOMAIN2_AnakGeriatri_S2.md",
+      "confidence": "high",
+      "note": "Bagian METADATA MODUL, OVERVIEW, LEARNING GOALS, KEY POINTS mengikuti format shell cortex-shell-reusable v2.0."
+    },
+    {
+      "section_id": "s02",
+      "type": "content",
+      "source_query": "Tabel 5 kolom pada s02 dengan 22 baris item checklist",
+      "source_reference": "Dokumen asli §3 checklist OSCE halaman 4",
+      "confidence": "high",
+      "note": "Tabel 5 kolom pada s02 dengan 22 baris item checklist lengkap (sama dengan jumlah item di dokumen asli §3)."
+    },
+    {
+      "section_id": "s04",
+      "type": "content",
+      "source_query": "Pediatric Assessment Triangle (PAT) pada s04",
+      "source_reference": "Domain 2 attachment (PROMPT_DOMAIN2_AnakGeriatri_S2.md)",
+      "confidence": "high",
+      "note": "H2 Pediatric Assessment Triangle pada s04 mengikuti panduan Domain 2 attachment."
+    },
+    {
+      "section_id": "s03",
+      "type": "content",
+      "source_query": "6 callout danger pada s03 untuk red flags",
+      "source_reference": "Standar minimum callout danger untuk topik red flags pediatri",
+      "confidence": "high",
+      "note": "6 callout danger pada s03 (memenuhi standar minimum 4) — kejang, sesak, dehidrasi berat, ruam perdarahan, demam >3 hari, anak toksik/imunokompromi."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Tabel SOAP pada s08 dengan data skenario nyata An. Dewi",
+      "source_reference": "Skenario An. Dewi (3 tahun, BB 13 kg) dari dokumen asli",
+      "confidence": "high",
+      "note": "Tabel SOAP pada s08 dengan data skenario nyata An. Dewi: identitas, RPS, TTV, hidung, tonsil T2, ICD-10 J06.9, resep paracetamol sirup 6 mL tiap 6 jam."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "8 callout danger pada s10 untuk kesalahan fatal",
+      "source_reference": "Kesalahan fatal OSCE standar",
+      "confidence": "high",
+      "note": "8 callout danger pada s10 untuk kesalahan fatal (melebihi standar minimum 6) — tidak cuci tangan, resep tanpa BB, tidak tanya alergi, tidak edukasi safety net, periksa tanpa izin, RR saat menangis."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Tabel diagnosis banding dan pembedaan cepat pada s06",
+      "source_reference": "Domain 2 attachment — diagnosis banding demam anak",
+      "confidence": "high",
+      "note": "Tabel diagnosis banding 10 penyakit (ISPA atas, faringitis, influenza, OMA, pneumonia, dengue, campak, kejang demam, ISK, tifoid) dan tabel pembedaan cepat viral vs GAS."
+    },
+    {
+      "section_id": "s12",
+      "type": "glossary",
+      "source_query": "9 istilah pada GLOSSARY",
+      "source_reference": "Standar minimum glossary 8 entri",
+      "confidence": "high",
+      "note": "9 istilah pada GLOSSARY (memenuhi standar minimum 8): Sambung rasa, Red flags, PAT, Rhinoskopi anterior, Tonsil grading, D-FEVER, Centor/McIsaac, Hand hygiene, Dosis per BB, SOAP (10 entri total)."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber, skenario klinis An. Dewi usia 3 tahun, dan komponen yang paling sering dinilai penguji pada station OSCE integrated skill anak.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini disusun berdasarkan 'PDF Integrated Skill pada Anak 1, halaman 1–4' yang menjadi sumber file utama. Halaman 2 menjelaskan tujuan integrated skill, yaitu menggabungkan anamnesis, pemeriksaan fisik, diagnosis, terapi termasuk resep, dan edukasi. Halaman 3 memuat kasus An. Dewi, anak perempuan usia 3 tahun dengan BB 13 kg, keluhan utama demam tinggi. Halaman 4 memuat checklist 22 poin yang menilai kemampuan mahasiswa dari sambung rasa sampai pencatatan sistematis.",
+          "tone": "narrative",
+          "source": "§1 Ringkasan File Sumber; PDF Integrated Skill pada Anak 1 halaman 1-4"
+        },
+        {
+          "text": "Prioritas belajar bukan hanya menghafal penyakit, tetapi mampu menjalankan checklist dengan urutan rapi sambil tetap berpikir klinis: anak dengan demam tinggi perlu ditapis apakah hanya infeksi saluran napas atas ringan atau ada tanda bahaya sistemik. Cuplikan asli kasus halaman 3 dan checklist halaman 4 sudah tertanam di awal modul sebagai referensi visual.",
+          "tone": "narrative",
+          "source": "§1 Ringkasan File Sumber"
+        },
+        {
+          "text": "Yang paling sering dinilai di station ini adalah urutan pemeriksaan THT yang sistematis, kemampuan membedakan infeksi virus versus bakteri, perhitungan dosis antipiretik per BB, dan edukasi tanda bahaya kepada ibu. Strategi membaca 3 hari sebelum OSCE: hafalkan urutan checklist → pahami alasan klinis → latih skrip 7 menit → ulang dengan timer.",
+          "tone": "clinical",
+          "source": "§1 Ringkasan File Sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE:",
+          "sub": [
+            "Sambung rasa dan komunikasi dengan ibu serta anak",
+            "Anamnesis terarah (RPS, RPD, RPK, kebiasaan, red flags)",
+            "Pemeriksaan TTV lengkap (nadi, RR, suhu, TD)",
+            "Pemeriksaan hidung (inspeksi, palpasi, rhinoskopi anterior)",
+            "Pemeriksaan mulut, tonsil, dan faring",
+            "Clinical reasoning dan diagnosis banding",
+            "Tatalaksana dan resep sesuai BB",
+            "Edukasi ibu dan safety net",
+            "Dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "§1 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi 3 hari sebelum OSCE",
+          "text": "Hafalkan urutan checklist → pahami alasan klinis → latih skrip 7 menit → ulang dengan timer.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tip paling penting station ini",
+          "text": "UCAPKAN setiap tindakan. Penguji hanya bisa menilai apa yang Anda katakan, bukan yang Anda pikirkan.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_sambung_rasa",
+        "gls_demam_tht_red_flags",
+        "gls_demam_tht_rhinoskopi",
+        "gls_demam_tht_tonsil",
+        "gls_demam_tht_soap"
+      ],
+      "bilingual": "Skenario: An. Dewi, 3 tahun, BB 13 kg, demam tinggi. Fokus OSCE: integrated skill anak dengan THT examination."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Langkah-langkah OSCE dari masuk station sampai keluar, termasuk checklist 22 poin lengkap beserta kalimat yang diucapkan dan kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur praktis OSCE anak dimulai dengan komunikasi dan perizinan, dilanjutkan anamnesis terarah, TTV lengkap, pemeriksaan hidung dan tenggorok, interpretasi, hingga dokumentasi. Kunci nilai tinggi adalah verbalisasi: setiap tindakan harus terdengar oleh penguji. Jangan melakukan secara diam-diam; ucapkan apa yang Anda nilai, jelaskan alasannya secara singkat, lalu simpulkan.",
+          "tone": "narrative",
+          "source": "§2 Alur Besar OSCE"
+        },
+        {
+          "text": "Sambung rasa dibuka dengan sapaan kepada ibu dan anak, perkenalan diri, dan konfirmasi identitas. Anamnesis menggali demam, gejala THT, red flags, riwayat imunisasi, obat, alergi, dan lingkungan. Cross check mengulang ringkasan untuk membuktikan pemahaman. TTV lengkap mencakup nadi, respirasi, suhu aksila, dan tekanan darah sesuai usia. Pemeriksaan hidung dan tenggorok dilakukan pada posisi anak aman dengan pencahayaan baik. Diagnosis kerja, rencana penunjang, terapi, resep, edukasi, dan dokumentasi SOAP disampaikan secara sistematis.",
+          "tone": "narrative",
+          "source": "§2 Alur Besar OSCE"
+        },
+        {
+          "text": "Seluruh checklist 22 poin dari halaman 4 PDF sumber dimuat utuh pada tabel di bawah ini tanpa ada item yang dihilangkan atau digabung. Tabel memuat nomor item, item checklist, cara melakukan agar skor maksimal, kalimat yang dapat diucapkan, dan kesalahan yang menurunkan nilai.",
+          "tone": "clinical",
+          "source": "§3 Checklist OSCE halaman 4"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE:",
+          "sub": [
+            "1. Membina sambung rasa dengan ibu dan anak",
+            "2. Menanyakan identitas pasien (nama, usia, BB)",
+            "3. Menanyakan dan memastikan keluhan utama",
+            "4. Menggali RPS, RPD, RPK, kebiasaan, dan lingkungan",
+            "5. Cross check ringkasan keluhan",
+            "6. Menjelaskan prosedur dan meminta izin",
+            "7. Cuci tangan",
+            "8. Mempersiapkan posisi pasien",
+            "9. Pemeriksaan nadi",
+            "10. Pemeriksaan respirasi",
+            "11. Pemeriksaan suhu aksila",
+            "12. Pemeriksaan tekanan darah",
+            "13. Interpretasi tanda vital",
+            "14. Inspeksi hidung luar",
+            "15. Palpasi dorsum dan ala nasi",
+            "16. Rhinoskopi anterior",
+            "17. Inspeksi cavum oris",
+            "18. Inspeksi dan palpasi tonsil",
+            "19. Inspeksi faring",
+            "20. Interpretasi hidung dan tenggorok",
+            "21. Memberi saran (terapi, edukasi)",
+            "22. Mencatat sistematis (SOAP)"
+          ],
+          "bold": true,
+          "source": "§2 Alur Besar OSCE"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Pelanggaran etik: periksa tanpa consent",
+          "text": "Jangan langsung melakukan tindakan tanpa menjelaskan prosedur dan meminta izin ibu. Pemeriksaan pada anak tanpa consent = pelanggaran etik.",
+          "answer_evidence": "Prinsip etik kedokteran; Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station paling efektif",
+          "text": "Selamat pagi Bu Yanti, saya dokter muda ... Saya akan membantu memeriksa An. Dewi.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_sambung_rasa",
+        "gls_demam_tht_handhygiene",
+        "gls_demam_tht_rhinoskopi",
+        "gls_demam_tht_tonsil"
+      ],
+      "bilingual": "Checklist 22 poin harus dijalankan berurutan dengan verbalisasi pada setiap langkah. Urutan kurang invasif → kontak → paling tidak nyaman untuk anak."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis demam anak dengan pola D-FEVER + THT + RED FLAGS, termasuk 6 red flags yang wajib ditanyakan atau dicari.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis adalah fondasi station ini. Pada kasus An. Dewi yang datang dengan keluhan 'demam tinggi', Anda tidak boleh berhenti di keluhan utama saja; gunakan pola 'D-FEVER + THT + RED FLAGS' agar tidak tersesat. Tujuannya agar Anda tidak keliru mengelola ISPA ringan sebagai penyakit berbahaya, atau sebaliknya melewatkan tanda bahaya sistemik. Anamnesis terarah memungkinkan diagnosis banding yang akurat dan rencana pemeriksaan yang efisien.",
+          "tone": "narrative",
+          "source": "§4 Anamnesis Demam Anak"
+        },
+        {
+          "text": "Lima pertanyaan kunci yang tidak boleh terlewat: (1) Sejak kapan demam dan berapa suhu tertinggi? (2) Apakah ada gejala THT/lokal lain (batuk, pilek, nyeri menelan)? (3) Apakah ada red flags (kejang, sesak, ruam perdarahan, dehidrasi)? (4) Bagaimana kondisi umum anak (aktif, mau minum, BAK cukup)? (5) Riwayat imunisasi dan alergi obat. Konfirmasi alergi SEBELUM menulis resep. Selalu tanyakan kontak sakit di rumah/PAUD dan paparan lingkungan (DBD, campak, asap rokok). Pada kasus dengan kontak DBD di lingkungan, waspadai perjalanan demam hari 1-5. Untuk setiap pertanyaan, pikirkan alasan klinis dan tindakan bila ada temuan bermasalah.",
+          "tone": "clinical",
+          "source": "§4 Anamnesis Demam Anak"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci 1: Demam (onset, suhu, pola, menggigil, keringat, obat yang sudah diberikan)",
+          "source": "§4 Anamnesis Demam Anak"
+        },
+        {
+          "text": "Pertanyaan kunci 2: Gejala lokal THT (batuk, pilek, nyeri menelan, suara serak, sesak)",
+          "source": "§4 Anamnesis Demam Anak"
+        },
+        {
+          "text": "Pertanyaan kunci 3: Gejala sistemik (muntah, diare, ruam, kejang, BAK, intake, aktivitas)",
+          "source": "§4 Anamnesis Demam Anak"
+        },
+        {
+          "text": "Pertanyaan kunci 4: Riwayat (imunisasi, alergi, opname, kejang demam, obat rutin)",
+          "source": "§4 Anamnesis Demam Anak"
+        },
+        {
+          "text": "Pertanyaan kunci 5: Lingkungan (PAUD, kontak sakit, asap rokok, DBD, campak, perjalanan)",
+          "source": "§4 Anamnesis Demam Anak"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag neurologis: kejang, penurunan kesadaran, kaku kuduk",
+          "text": "Kejang, penurunan kesadaran, kaku kuduk, muntah proyektil, atau sakit kepala berat → rujuk segera ke IGD, jangan tunggu di puskesmas.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013); NICE NG143 (2021)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag respirasi: sesak, retraksi, sianosis",
+          "text": "Sesak napas, retraksi, sianosis, napas cuping hidung, saturasi rendah → rujuk emergensi.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag hidrasi: dehidrasi berat",
+          "text": "Tanda dehidrasi berat (tidak mau minum, mata cekung, BAK sangat berkurang, letargis) → rehidrasi agresif dan rujuk.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013); NICE NG143 (2021)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag perdarahan: curiga dengue atau kondisi bedah",
+          "text": "Ruam tidak memucat, perdarahan (mimisan/gusi berdarah), nyeri perut hebat, muntah terus → curiga dengue, demam berdarah, atau kondisi bedah; rujuk.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Demam menetap >3 hari: evaluasi ulang dan rujuk",
+          "text": "Demam menetap >3 hari atau memburuk, terutama di area risiko dengue/campak/tifoid → evaluasi ulang dan rujuk.",
+          "answer_evidence": "NICE NG143 Fever in under 5s (2021)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Anak toksik atau imunokompromi: early recognition sepsis",
+          "text": "Bayi sangat kecil, imunokompromi, atau anak tampak toksik → early recognition sepsis, rujuk emergensi.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_dfever",
+        "gls_demam_tht_red_flags"
+      ],
+      "bilingual": "Pola anamnesis: D-FEVER (Durasi, Fokus infeksi, Efek pada anak, Vaksinasi, Exposure, Riwayat) + THT + RED FLAGS."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan TTV anak usia 3 tahun (nilai normal per usia), Pediatric Assessment Triangle, dan urutan pemeriksaan hidung, mulut, tonsil, faring.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik dilakukan dengan urutan dari yang kurang invasif ke yang paling tidak nyaman untuk anak. Dimulai dengan tanda vital (nadi, respirasi, suhu aksila, tekanan darah), kemudian Pediatric Assessment Triangle untuk menilai appearance, work of breathing, dan circulation. Setelah itu inspeksi umum hidung, mulut, dan tenggorok, dan diakhiri dengan palpasi/inspeksi yang memerlukan kontak lebih dekat.",
+          "tone": "narrative",
+          "source": "§5 Pemeriksaan TTV Anak Usia 3 Tahun"
+        },
+        {
+          "text": "Pada anak 3 tahun, gunakan nilai normal spesifik usia: HR 90–140 x/mnt, RR 20–30 x/mnt, TD sistolik 80–110 mmHg, suhu aksila 36.5–37.5°C. Demam didefinisikan suhu aksila ≥38°C. Interpretasi TTV harus langsung dikaitkan dengan status klinis: pada anak dengan demam tinggi tetapi aktif, minum cukup, dan napas nyaman, diagnosis condong ke ISPA ringan; pada anak dengan sesak, letargis, dehidrasi, kejang, atau ruam perdarahan, jangan tunda rujukan.",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan TTV Anak Usia 3 Tahun"
+        },
+        {
+          "text": "Pada pemeriksaan hidung, inspeksi dorsum nasi, palpasi lembut untuk nyeri, dan rhinoskopi anterior dengan pencahayaan; pada anak lakukan lembut dan singkat. Cavum oris diperiksa dengan depresor lidah; tonsil dinilai ukuran, hiperemis, eksudat; faring posterior dinilai hiperemis, granul, post-nasal drop. Landmark anatomi yang harus disebutkan saat pemeriksaan: mukosa, konka, septum, sekret, ukuran tonsil, uvula, faring posterior.",
+          "tone": "clinical",
+          "source": "§6 Pemeriksaan Hidung dan Tenggorok"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda Vital Anak — Nilai Normal per Usia:",
+          "sub": [
+            "Neonatus: HR 120-160, RR 40-60, TD 60-90, suhu 36.5-37.5°C",
+            "Bayi <1 tahun: HR 100-150, RR 30-40, TD 70-100",
+            "1-5 tahun: HR 90-140, RR 20-30, TD 80-110",
+            "6-12 tahun: HR 70-110, RR 16-22, TD 90-120"
+          ],
+          "bold": true,
+          "source": "§5 TTV per Usia"
+        },
+        {
+          "text": "Penilaian Umum Anak (Pediatric Assessment Triangle):",
+          "sub": [
+            "Appearance (tonus, interaksi, tangisan)",
+            "Work of breathing (retraksi, cuping hidung)",
+            "Circulation (warna kulit, capillary refill)"
+          ],
+          "source": "Pediatric Assessment Triangle (PAT)"
+        },
+        {
+          "text": "Pemeriksaan Hidung:",
+          "sub": [
+            "Inspeksi luar (dorsum, sekret, cuping hidung)",
+            "Palpasi dorsum/ala nasi",
+            "Rhinoskopi anterior (mukosa, konka, septum, sekret)"
+          ],
+          "source": "§6 Pemeriksaan Hidung"
+        },
+        {
+          "text": "Pemeriksaan Tenggorok, Tonsil, dan Faring:",
+          "sub": [
+            "Inspeksi cavum oris dengan depresor lidah",
+            "Tonsil (ukuran T0-T4, hiperemis, eksudat)",
+            "Faring posterior (hiperemis, granul, post-nasal drip)"
+          ],
+          "source": "§6 Pemeriksaan Tenggorok"
+        },
+        {
+          "text": "Pemeriksaan Leher (KGB, kaku kuduk):",
+          "sub": [
+            "Palpasi kelenjar getah bening leher anterior/posterior",
+            "Uji kaku kuduk bila curiga meningitis"
+          ],
+          "source": "§6 Pemeriksaan Leher"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips teknis yang sering dilupakan",
+          "text": "Hitung RR saat anak TENANG (bukan saat menangis), gunakan manset anak yang sesuai, dan keringkan aksila sebelum termometer.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pemeriksaan dan rujukan dini untuk anak risiko tinggi",
+          "text": "Anak dengan kondisi immunocompromised, kejang berulang, atau tampak toksik perlu pemeriksaan lebih cepat dan rujukan dini.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_pat",
+        "gls_demam_tht_rhinoskopi",
+        "gls_demam_tht_tonsil"
+      ],
+      "bilingual": "Nilai normal TTV anak 3 tahun: HR 90-140, RR 20-30, TD 80-110 mmHg, suhu aksila 36.5-37.5°C. Demam bila suhu aksila ≥38°C."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat, posisi pasien ideal, dan tiga fase pemeriksaan THT (persiapan, pelaksanaan, evaluasi) pada anak usia 3 tahun.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "'Prosedur utama' pada station ini adalah urutan pemeriksaan THT yang sistematis, bukan tindakan invasif. Tujuannya agar anak kooperatif, ibu tenang, dan penguji melihat alur yang terstruktur. Persiapan dimulai dengan alat yang lengkap dan posisi anak yang aman di pangkuan ibu. Pelaksanaan dilakukan dari yang kurang invasif (TTV, observasi umum) ke yang lebih memerlukan kontak (palpasi, auskultasi) hingga paling akhir yang paling tidak nyaman untuk anak (tenggorok, telinga).",
+          "tone": "narrative",
+          "source": "§6 Alat dan §7 Prosedur Utama"
+        },
+        {
+          "text": "Evaluasi dan konfirmasi mencakup interpretasi temuan, kesimpulan sistematis, dan rencana selanjutnya. Pada anak, seluruh pemeriksaan harus dijelaskan dengan bahasa yang ramah dan libatkan ibu untuk memenangkan kooperasi anak. Posisi anak paling ideal: duduk di pangkuan ibu, kepala disangga, pencahayaan cukup (senter). Pada bayi/anak sangat gelisah, dokter dapat meminta ibu memeluk dengan posisi tegak dan tangan ibu menahan kepala anak.",
+          "tone": "narrative",
+          "source": "§7 Prosedur Utama"
+        },
+        {
+          "text": "Semua alat harus disebutkan di awal; gunakan sarung tangan dan masker sesuai kewaspadaan transmisi droplet untuk ISPA atas.",
+          "tone": "clinical",
+          "source": "§6 Alat"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT:",
+          "sub": [
+            "Termometer aksila",
+            "Stetoskop pediatric",
+            "Senter/otoskop",
+            "Depresor lidah (spatel)",
+            "Spekulum hidung kecil (bila tersedia)",
+            "Manset tekanan darah anak (ukuran sesuai lengan)",
+            "Sarung tangan, masker",
+            "Tisu, tempat sampah",
+            "Lembar dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "§6 Alat"
+        },
+        {
+          "text": "FASE PERSIAPAN:",
+          "sub": [
+            "1. Cuci tangan dan pakai APD (sarung tangan, masker)",
+            "2. Sapa ibu dan anak, perkenalkan diri",
+            "3. Konfirmasi identitas dan keluhan utama",
+            "4. Jelaskan prosedur yang akan dilakukan",
+            "5. Minta izin ibu",
+            "6. Siapkan alat di meja dekat posisi anak",
+            "7. Atur posisi anak di pangkuan ibu dengan pencahayaan baik"
+          ],
+          "source": "§7 Prosedur Utama"
+        },
+        {
+          "text": "FASE PELAKSANAAN:",
+          "sub": [
+            "1. Pemeriksaan nadi (radial/brachial 30-60 detik)",
+            "2. Pemeriksaan respirasi (hitung 1 menit saat anak tenang, lihat retraksi/cuping hidung)",
+            "3. Pemeriksaan suhu aksila (keringkan, letakkan termometer)",
+            "4. Pemeriksaan tekanan darah (manset anak, posisi lengan setinggi jantung)",
+            "5. Inspeksi hidung luar (dorsum nasi, sekret, cuping hidung)",
+            "6. Palpasi dorsum dan ala nasi",
+            "7. Rhinoskopi anterior (mukosa, konka, septum, sekret)",
+            "8. Inspeksi cavum oris (depresor lidah)",
+            "9. Inspeksi dan palpasi tonsil (ukuran, hiperemis, eksudat)",
+            "10. Inspeksi faring posterior",
+            "11. Interpretasi temuan hidung dan tenggorok"
+          ],
+          "source": "§7 Prosedur Utama"
+        },
+        {
+          "text": "FASE EVALUASI:",
+          "sub": [
+            "1. Simpulkan diagnosis kerja",
+            "2. Sampaikan rencana pemeriksaan penunjang bila perlu",
+            "3. Beri terapi simtomatik (antipiretik, nasal saline, cairan)",
+            "4. Edukasi ibu tentang tanda bahaya",
+            "5. Tentukan jadwal kontrol",
+            "6. Dokumentasi SOAP"
+          ],
+          "source": "§7 Prosedur Utama"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan pasien di setiap fase",
+          "text": "Pastikan anak tidak jatuh dari pangkuan ibu, gunakan alat dengan lembut pada mukosa hidung, dan jangan memaksakan pemeriksaan bila anak sangat gelisah.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Stop prosedur dan stabilisasi bila emergensi",
+          "text": "Hentikan prosedur dan prioritaskan stabilisasi bila anak menunjukkan: kejang, apnea, sianosis, penurunan kesadaran, atau perdarahan aktif.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013)"
+        }
+      ],
+      "visual_refs": [
+        "visual_demam_tht_posisi_pasien",
+        "visual_demam_tht_rhinoskopi_anak",
+        "visual_demam_tht_tonsil_grading"
+      ],
+      "glossary_refs": [
+        "gls_demam_tht_handhygiene",
+        "gls_demam_tht_rhinoskopi",
+        "gls_demam_tht_tonsil"
+      ],
+      "bilingual": "Urutan: kurang invasif (TTV, observasi) → kontak (palpasi) → paling tidak nyaman (tenggorok, telinga)."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan setelah prosedur, ringkasan hasil kepada ibu, dan pendekatan diagnosis banding demam anak (viral vs bakterial) dengan 10 diagnosis utama.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan selesai, langkah pertama adalah menyampaikan ringkasan hasil kepada ibu dan menarik kesimpulan diagnosis kerja. Pada kasus An. Dewi dengan demam tinggi, TTV masih dalam batas wajar sesuai usia, hidung hiperemis dengan sekret serosa, tonsil T2 hiperemis tanpa eksudat, dan faring hiperemis, maka diagnosis kerja yang paling mungkin adalah ISPA atas/faringitis akut yang kemungkinan besar viral.",
+          "tone": "narrative",
+          "source": "§7 Clinical Reasoning"
+        },
+        {
+          "text": "Namun, clinical reasoning mengharuskan Anda menyingkirkan penyakit demam berbahaya yang sering muncul pada anak Indonesia: demam dengue, pneumonia, ISK, otitis media, campak, kejang demam, dan tifoid. Algoritme triase memutuskan apakah pasien dapat ditangani di puskesmas atau harus dirujuk ke IGD/RS. Tabel diagnosis banding di bawah ini membantu memetakan gejala khas, temuan fisik, dan pembeda utama. Pembedaan cepat viral vs curiga bacterial tonsilofaringitis sangat penting karena antibiotik tidak boleh diberikan otomatis. Selalu tanyakan warning signs dengue pada anak dengan demam di area endemis.",
+          "tone": "clinical",
+          "source": "§7 Diagnosis Banding"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca prosedur:",
+          "sub": [
+            "Rangkum hasil pemeriksaan kepada ibu",
+            "Sampaikan diagnosis kerja dan differential diagnosis",
+            "Beri resep sesuai BB (paracetamol, nasal saline)",
+            "Edukasi tanda bahaya dan kontrol ulang",
+            "Tutup station dengan sopan dan ucapkan terima kasih pada ibu",
+            "Dokumentasi SOAP lengkap"
+          ],
+          "source": "§7 Pasca Prosedur"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS merujuk segera",
+          "text": "Kejang, penurunan kesadaran, kaku kuduk, sesak, sianosis, dehidrasi berat, ruam perdarahan, mimisan/gusi berdarah, nyeri perut hebat, muntah terus, demam menetap >3 hari, atau anak tampak toksik.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013); NICE NG143 (2021)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_centor",
+        "gls_demam_tht_red_flags"
+      ],
+      "bilingual": "Algoritme triase: tampak toksik/kejang/sesak → rujuk emergensi. Ada red flags → rujuk. Demam >3 hari tanpa fokus → lab. Fokus jelas (THT/ISPA atas) → tatalaksana simtomatik."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan berdasarkan indikasi dan prinsip tatalaksana demam anak, termasuk dosis paracetamol spesifik BB.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Tidak semua kasus demam anak memerlukan pemeriksaan penunjang. Pada anak yang tampak baik, fokus ISPA atas jelas, tidak ada red flags, dan dapat follow-up 24-48 jam, pemeriksaan penunjang invasif biasanya tidak diperlukan. Namun, beberapa situasi memerlukan laboratorium/imaging: (1) curiga faringitis streptokokus → rapid test/kultur; (2) demam >3 hari tanpa fokus → darah rutin, CRP, urinalisis; (3) curiga dengue di area endemis → NS1, IgM, darah rutin serial; (4) batuk + takipnea/retraksi → foto toraks; (5) demam tanpa fokus pada anak kecil → urinalisis.",
+          "tone": "narrative",
+          "source": "§8 Pemeriksaan Penunjang"
+        },
+        {
+          "text": "Pada anak, hasil rapid test negatif untuk GAS sering memerlukan kultur konfirmasi sesuai pedoman internasional. Prinsip tatalaksana demam anak: (1) nilai berat-ringan kondisi; (2) beri antipiretik sesuai BB bila anak tidak nyaman; (3) jaga cairan; (4) edukasi tanda bahaya; (5) antibiotik HANYA bila ada indikasi kuat. Dosis paracetamol dihitung per BB: 10-15 mg/kgBB/dosis tiap 4-6 jam, untuk An. Dewi BB 13 kg → 130-195 mg per dosis. Sediaan syrup 120 mg/5 mL → berikan 5-8 mL per dosis.",
+          "tone": "clinical",
+          "source": "§9 Tatalaksana"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Prinsip tatalaksana:",
+          "sub": [
+            "Antipiretik: paracetamol 10-15 mg/kgBB/dosis tiap 4-6 jam",
+            "Hidrasi: ASI/makanan/minum tetap ditawarkan sedikit tapi sering",
+            "Hidung tersumbat: saline nasal drop/spray",
+            "Antibiotik: hanya bila ada indikasi kuat/hasil tes bakteri",
+            "Rujuk emergensi: sesak, kejang, dehidrasi berat, ruam perdarahan"
+          ],
+          "bold": true,
+          "source": "§9 Tatalaksana"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Yang WAJIB disebutkan meski tidak tersedia di station",
+          "text": "Konfirmasi alergi sebelum menulis resep, cek BB sebelum hitung dosis, dan nilai status hidrasi.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Dosis paracetamol pada anak (sitasi)",
+          "text": "Paracetamol dosis 10-15 mg/kgBB/dosis tiap 4-6 jam direkomendasikan oleh WHO Pocket Book of Hospital Care for Children (2013) dan NICE NG143 (2021) sebagai antipiretik lini pertama pada anak.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013); NICE NG143 (2021)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_dosisbb",
+        "gls_demam_tht_centor"
+      ],
+      "bilingual": "Dosis paracetamol: 10-15 mg/kgBB/dosis tiap 4-6 jam. An. Dewi 13 kg → 130-195 mg/dosis, sirup 120 mg/5 mL → 5-8 mL per dosis."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi ibu pasien, safety net, dan contoh SOAP lengkap untuk An. Dewi dengan kode ICD-10.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi kepada ibu harus dilakukan dengan bahasa yang jelas, tidak menggurui, dan dapat diulang-ulang (teach-back). Tujuan edukasi: ibu memahami diagnosis, tindakan yang dilakukan, obat yang diberikan (dosis, aturan pakai, efek samping), dan tanda bahaya yang memerlukan kunjungan ulang. Pada kasus An. Dewi, sampaikan bahwa sebagian besar ISPA atas pada anak disebabkan virus sehingga antibiotik tidak selalu diperlukan; yang utama adalah cairan cukup, obat demam sesuai BB, istirahat, dan pemantauan tanda bahaya. Selalu minta ibu mengulangi penjelasan (teach-back) untuk memastikan pemahaman.",
+          "tone": "narrative",
+          "source": "§10 Edukasi"
+        },
+        {
+          "text": "Untuk dokumentasi SOAP, gunakan data skenario nyata (bukan template kosong) sehingga rekam medis dapat ditindaklanjuti oleh klinisi lain. Pada akhir kunjungan, kode ICD-10 untuk diagnosis utama dicantumkan agar sesuai standar rekam medis elektronik.",
+          "tone": "clinical",
+          "source": "§11 Format Dokumentasi SOAP"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin edukasi:",
+          "sub": [
+            "Diagnosis dan penyebab paling mungkin (virus, ISPA atas)",
+            "Dosis paracetamol sesuai BB (jangan berlebihan, hentikan bila demam turun)",
+            "Hidrasi: minum cukup, sedikit tapi sering",
+            "Hidung tersumbat: saline nasal drop",
+            "Jangan memberi antibiotik sisa atau obat dewasa",
+            "Kontrol 24-48 jam atau lebih cepat bila memburuk",
+            "Imunisasi catch-up sesuai jadwal"
+          ],
+          "source": "§10 Edukasi"
+        },
+        {
+          "text": "Safety net (kapan kembali segera):",
+          "sub": [
+            "Sesak napas atau sianosis",
+            "Kejang atau penurunan kesadaran",
+            "Sangat lemas, tidak mau minum",
+            "BAK sangat berkurang",
+            "Ruam perdarahan",
+            "Muntah terus atau nyeri perut hebat",
+            "Demam tidak membaik >3 hari"
+          ],
+          "bold": true,
+          "source": "§10 Safety Net"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk diagnosis utama",
+          "text": "J06.9 (Infeksi saluran pernapasan atas akut, tidak spesifik). Cantumkan kode ini di akhir baris A pada SOAP.",
+          "answer_evidence": "ICD-10 WHO 2019; Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi yang paling sering dilupakan",
+          "text": "Jangan memaksa makan, prioritaskan minum dan tanda hidrasi. Ibu sering memaksa makan sehingga anak makin rewel.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_soap"
+      ],
+      "bilingual": "SOAP = Subjective, Objective, Assessment, Plan. Diagnosis utama: ICD-10 J06.9 (ISPA atas akut tidak spesifik)."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Penyakit SKDI 4A yang relevan dan dialog mini-skrip OSCE dari pembukaan sampai penutupan untuk station demam anak + THT.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Standar Kompetensi Dokter Indonesia (SKDI) level 4A adalah kemampuan dokter lulusan yang harus dikuasai secara mandiri tanpa supervisi. Pada topik demam anak dengan pemeriksaan THT, beberapa diagnosis level 4A yang relevan untuk station ini adalah ISPA atas, tonsilofaringitis akut, otitis media akut, faringitis, dan diare akut. Sementara itu, kondisi yang memerlukan rujukan (level 3B) meliputi pneumonia, demam dengue dengan warning signs, dan kejang demam berulang.",
+          "tone": "narrative",
+          "source": "§12 SKDI 4A"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE membantu mahasiswa berlatih dialog dengan penguji/standarized patient. Kalimat harus terdengar natural, sopan, dan informatif. Kalimat kritis yang TIDAK BOLEH dilewatkan: konfirmasi identitas dan BB, menanyakan alergi, menjelaskan prosedur, meminta izin, dan edukasi tanda bahaya. Pada fase penutupan, selalu tutup dengan sopan dan ucapkan terima kasih kepada ibu atas waktu dan kerja samanya.",
+          "tone": "clinical",
+          "source": "§12 Mini-Skrip"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kalimat pembuka: Selamat pagi Bu Yanti, saya dokter muda yang akan membantu memeriksa An. Dewi hari ini. Boleh saya konfirmasi identitas dan keluhan utamanya?",
+          "source": "§12 Mini-Skrip"
+        },
+        {
+          "text": "Kalimat anamnesis: Demamnya sudah berapa hari? Suhu tertinggi diukur berapa? Ada batuk, pilek, atau nyeri menelan? Ada ruam, kejang, atau sesak? Anak masih mau minum dan BAK cukup?",
+          "source": "§12 Mini-Skrip"
+        },
+        {
+          "text": "Kalimat pemeriksaan: Sekarang saya akan mengukur tanda vital, lalu melihat hidung dan tenggorok. Saya cuci tangan dulu ya.",
+          "source": "§12 Mini-Skrip"
+        },
+        {
+          "text": "Kalimat diagnosis: Dari cerita dan pemeriksaan, kemungkinan besar Dewi mengalami infeksi saluran napas atas yang disebabkan virus. Antibiotik biasanya tidak diperlukan karena penyebabnya virus.",
+          "source": "§12 Mini-Skrip"
+        },
+        {
+          "text": "Kalimat edukasi: Yang penting adalah cairan cukup, obat demam sesuai berat badan, dan memantau tanda bahaya. Segera kembali ke IGD bila ada sesak, kejang, ruam perdarahan, atau tidak mau minum.",
+          "source": "§12 Mini-Skrip"
+        },
+        {
+          "text": "Kalimat penutupan: Terima kasih Bu atas kerja samanya. Semoga Dewi cepat sembuh. Jangan ragu menghubungi bila ada keluhan.",
+          "source": "§12 Mini-Skrip"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH dilewatkan (fatal bila lupa)",
+          "text": "(1) konfirmasi BB sebelum menulis resep; (2) tanyakan alergi sebelum memberi obat; (3) edukasi tanda bahaya sebelum pasien pulang; (4) dokumentasi SOAP lengkap.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara membuka station paling efektif",
+          "text": "Panggil ibu dengan sapaan, sebut nama anak, sebut identitas diri, dan tanya keluhan utama dalam satu kalimat natural.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_soap"
+      ],
+      "bilingual": "SKDI 4A: ISPA atas (J06.9), Tonsilofaringitis (J03.9), Otitis Media Akut (H66.0), Faringitis (J02.9), Dengue (A91)."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri (label TINGGI/SEDANG), rencana belajar 3 hari, dan 8 kesalahan fatal OSCE yang menurunkan skor.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Latihan mandiri adalah bagian integral dari persiapan OSCE. Gunakan checklist di bawah ini sebagai panduan self-assessment: tandai tiap item TINGGI/SEDANG sesuai prioritas belajar. TINGGI berarti wajib dikuasai dalam 3 hari; SEDANG berarti cukup dipahami secara konsep. Rencana belajar 3 hari disusun dengan target spesifik, durasi, aktivitas, dan kriteria kelulusan per hari.",
+          "tone": "narrative",
+          "source": "§16 Latihan Mandiri"
+        },
+        {
+          "text": "Hari 1 fokus hafalan urutan checklist dan nilai normal TTV anak; Hari 2 fokus anamnesis, red flags, dan clinical reasoning; Hari 3 fokus latihan roleplay dengan timer 7 menit. Kriteria 'siap OSCE' adalah mampu menjalankan seluruh checklist 22 poin dalam 7 menit tanpa melihat catatan, dengan verbalisasi yang jelas dan empatik.",
+          "tone": "clinical",
+          "source": "§17 Rencana 3 Hari"
+        },
+        {
+          "text": "Kesalahan fatal OSCE adalah yang menurunkan nilai secara signifikan atau bahkan menggugurkan kelulusan: tidak cuci tangan, tidak minta izin, tidak menanyakan alergi, menghitung dosis tanpa BB, dan tidak memberi edukasi safety net.",
+          "tone": "clinical",
+          "source": "§18 Kesalahan Fatal"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist latihan mandiri (label TINGGI/SEDANG):",
+          "sub": [
+            "[TINGGI] Sambung rasa dengan ibu dan anak",
+            "[TINGGI] Konfirmasi identitas (nama, usia, BB)",
+            "[TINGGI] Konfirmasi keluhan utama",
+            "[TINGGI] Anamnesis RPS (pola D-FEVER)",
+            "[TINGGI] Anamnesis RPD (alergi, imunisasi, kejang)",
+            "[TINGGI] Anamnesis RPK dan lingkungan",
+            "[TINGGI] Cross check ringkasan",
+            "[TINGGI] Menjelaskan prosedur dan minta izin",
+            "[TINGGI] Cuci tangan",
+            "[TINGGI] Pemeriksaan nadi",
+            "[TINGGI] Pemeriksaan respirasi",
+            "[TINGGI] Pemeriksaan suhu aksila",
+            "[TINGGI] Pemeriksaan tekanan darah (manset anak)",
+            "[TINGGI] Interpretasi TTV sesuai usia",
+            "[TINGGI] Inspeksi hidung luar",
+            "[TINGGI] Palpasi dorsum nasi",
+            "[TINGGI] Rhinoskopi anterior",
+            "[TINGGI] Inspeksi cavum oris dengan depresor lidah",
+            "[TINGGI] Inspeksi tonsil",
+            "[TINGGI] Inspeksi faring",
+            "[TINGGI] Interpretasi hidung dan tenggorok",
+            "[TINGGI] Perhitungan dosis paracetamol per BB",
+            "[SEDANG] Membedakan viral vs bakterial",
+            "[SEDANG] Indikasi rapid test/kultur",
+            "[SEDANG] Alergi obat dan alternatif",
+            "[SEDANG] Edukasi safety net",
+            "[SEDANG] Dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "§16 Latihan Mandiri"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak cuci tangan sebelum kontak pasien/alat",
+          "text": "Penyebab utama transmisi infeksi nosokomial — selalu cuci tangan dengan handrub atau sabun.",
+          "answer_evidence": "WHO 5 Moments of Hand Hygiene; Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Menulis resep tanpa konfirmasi BB",
+          "text": "Dosis menjadi tidak aman, risiko toksisitas — selalu tanyakan BB terakhir dan hitung ulang.",
+          "answer_evidence": "WHO Pocket Book of Hospital Care for Children (2013)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak menanyakan alergi obat sebelum menulis resep",
+          "text": "Risiko anafilaksis — selalu tanyakan alergi eksplisit.",
+          "answer_evidence": "Prinsip patient safety; Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak memberi edukasi tanda bahaya sebelum pasien pulang",
+          "text": "Mengabaikan patient safety — selalu tutup dengan safety net.",
+          "answer_evidence": "NICE NG143 Fever in under 5s (2021)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Memeriksa anak tanpa izin/penjelasan ibu",
+          "text": "Pelanggaran etik dan consent — selalu minta izin dan libatkan ibu.",
+          "answer_evidence": "Prinsip etik kedokteran"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Menghitung RR saat anak menangis tanpa koreksi",
+          "text": "Nilai RR tidak valid — tunggu anak tenang 1-2 menit atau catat kondisi.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak menyebutkan lokasi termometer",
+          "text": "Interpretasi suhu bisa keliru jika tidak menyebut aksila/rektal/timpani.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Manset dewasa pada anak",
+          "text": "Hasil TD tidak valid jika menggunakan manset dewasa pada anak.",
+          "answer_evidence": "Pedoman pengukuran TD pediatri"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak membedakan tonsil dan faring",
+          "text": "Diagnosis banding kurang tajam jika tidak membedakan tonsil dan faring posterior.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_tht_handhygiene",
+        "gls_demam_tht_dosisbb"
+      ],
+      "bilingual": "Kriteria siap OSCE: jalankan 22 poin checklist dalam 7 menit tanpa catatan, verbalisasi jelas dan empatik."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Kebutuhan 8 visual, lampiran A-D (kontraindikasi, masalah prosedur, mini-case, kalimat pembuka), dan referensi standar internasional.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Bagian ini merangkum kebutuhan visual untuk aplikasi, lampiran A-D, dan referensi ringkas. Visual diperlukan untuk memperjelas konsep posisi pemeriksaan, landmark anatomi, dan algoritme triase. Lampiran A memuat kontraindikasi dan red flags, Lampiran B memuat masalah saat prosedur dan respons aman, Lampiran C memuat 3 OSCE mini-case untuk latihan cepat, dan Lampiran D memuat kalimat pembuka station siap ucap.",
+          "tone": "narrative",
+          "source": "§19 Visual, Lampiran & Referensi"
+        },
+        {
+          "text": "Referensi ringkas disusun dari dokumen asli (PDF kampus) dan standar internasional (WHO, NICE, CDC) untuk menjaga keselamatan klinis. Semua visual menggunakan gaya clean medical textbook tanpa elemen menakutkan untuk menjaga kenyamanan pembaca.",
+          "tone": "narrative",
+          "source": "§19 Referensi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Visual yang perlu dibuat:",
+          "sub": [
+            "Anak di pangkuan ibu saat pemeriksaan tenggorok",
+            "Rhinoskopi anterior pada anak",
+            "Tonsil grading 0-4",
+            "Red flags demam anak (traffic light)",
+            "Cara ukur suhu aksila",
+            "Manset tekanan darah anak",
+            "Cavum oris normal vs faringitis",
+            "Skrip edukasi ibu (kartu edukasi)"
+          ],
+          "source": "§19 Visual"
+        },
+        {
+          "text": "Lampiran A: Kontraindikasi dan red flags",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "Lampiran B: Masalah saat prosedur dan respons aman",
+          "source": "Lampiran B"
+        },
+        {
+          "text": "Lampiran C: OSCE mini-case latihan",
+          "source": "Lampiran C"
+        },
+        {
+          "text": "Lampiran D: Kalimat pembuka station siap ucap",
+          "source": "Lampiran D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk membuat visual",
+          "text": "Tersedia di §12 asli: Ilustrasi medis realistis dokter memeriksa anak di pangkuan ibunya, ruang skills lab bersih, gaya clean medical textbook.",
+          "answer_evidence": "Modul OSCE 6.2 FKIK UNJA TA 2024-2025"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Standar internasional yang menjadi acuan",
+          "text": "WHO Pocket Book of Hospital Care for Children (2013), NICE NG143 Fever in under 5s (2021), CDC Clinical Guidance for Group A Streptococcal Pharyngitis (2025).",
+          "answer_evidence": "WHO 2013; NICE NG143 2021; CDC 2025"
+        }
+      ],
+      "visual_refs": [
+        "visual_demam_tht_red_flags_trafficlight",
+        "visual_demam_tht_termometer_aksila",
+        "visual_demam_tht_manset_anak",
+        "visual_demam_tht_cavum_oris",
+        "visual_demam_tht_skrip_edukasi"
+      ],
+      "glossary_refs": [],
+      "bilingual": "Standar acuan: WHO 2013, NICE NG143 2021, CDC GAS Pharyngitis 2025, SKDI Kemenkes 2012, IDAI 2020."
+    }
+  ]
+}

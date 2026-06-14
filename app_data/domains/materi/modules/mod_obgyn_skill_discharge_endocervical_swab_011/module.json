@@ -1,0 +1,1661 @@
+{
+  "id": "mod_obgyn_skill_discharge_endocervical_swab_011",
+  "title": "Discharge, Endocervical Swab, dan Scraping",
+  "subtitle": "Pendekatan diagnostik keputihan dan pengambilan sampel serviks (endocervical swab dan Pap smear).",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_3",
+  "source_pdf": "Batch3_6.1_Modul_4_Discharge_Endocervical_Swab_Scraping.docx",
+  "source_filename": "Batch3_6.1_Modul_4_Discharge_Endocervical_Swab_Scraping.docx",
+  "topicTags": [
+    "osce_6_1",
+    "vaginal_discharge",
+    "keputihan",
+    "endocervical_swab",
+    "pap_smear",
+    "bacterial_vaginosis",
+    "kandidiasis",
+    "trikomoniasis",
+    "ims",
+    "sitologi_serviks"
+  ],
+  "summary": [
+    "Skill ini menguji koordinasi antara pemeriksaan ginekologis dan pengambilan sampel (discharge assessment, swab endoserviks, dan scraping/Pap smear) untuk membedakan vaginitis, cervicitis, IMS, atau infeksi campuran pada keluhan keputihan.",
+    "Prinsip utama modul: \"Ambil sampel gentle, jangan kontaminasi, dan pulaskan/fiksasi sesuai jenis pemeriksaan\" — selalu ingat urutan spatula Ayre 360° searah jarum jam, cytobrush 180° berlawanan, lalu lidi kapas + KOH untuk preparat basah.",
+    "Lima etiologi utama discharge yang harus dibedakan: BV (abu-abu amis, pH>4,5, clue cells), kandidiasis (putih kental bergumpal, pH normal, hifa), trikomoniasis (kuning-hijau berbusa, trichomonad motil, IMS), servisitis (mukopurulen, IMS), dan PID (nyeri panggul, CMT+, rujuk).",
+    "Komunikasi netral dan tidak menghakimi tentang riwayat seksual; informed consent wajib sebelum prosedur karena keluhan genital bersifat sensitif. Edukasi pasangan dan abstinensi 7 hari wajib untuk IMS (trikomoniasis, servisitis gonore/klamidia); BV tidak perlu terapi pasangan.",
+    "Hafalkan alat berdasarkan fungsi — membuka (spekulum S/M/L), mengambil (spatula Ayre, cytobrush, lidi kapas), menaruh (objek glass + kaca penutup), memfiksasi (alkohol 96%), memeriksa (KOH 10%, mikroskop). Sampel harus segera dipulaskan atau difiksasi agar layak baca.",
+    "KOH 10% untuk whiff test (BV) dan melihat hifa pseudohifa/budding yeast (kandidiasis); trichomonad bergerak dan clue cells hanya terlihat di wet mount. NAAT/PCR untuk konfirmasi gonore/klamidia; Pap smear untuk skrining kelainan serviks.",
+    "Cuci tangan dan APD (sarung tangan, masker) wajib; alat direndam klorin 0,5% 10 menit pasca-prosedur; dokumentasi SOAP lengkap memuat lokasi sampel, jenis pemeriksaan, dan temuan klinis.",
+    "Kompetensi SKDI 4A (mandiri) untuk discharge, vaginitis, BV, kandidiasis, trikomoniasis, servisitis sederhana. Rujuk (3B) untuk PID, IMS dengan komplikasi, curiga kanker serviks, HIV — pada kasus ini cukup sampling discharge saja tidak boleh mengabaikan biopsi/kolposkopi."
+  ],
+  "exam_focus": [
+    "[FATAL] Informed consent wajib; tidak menghakimi riwayat seksual. Lewatkan = skor hangus untuk etika dan komunikasi.",
+    "[FATAL] Portio harus terlihat jelas sebelum mengambil sampel. Sampling tanpa visualisasi serviks = skor hangus untuk teknik.",
+    "[FATAL] Cytobrush diputar 180° berlawanan arah jarum jam (bukan 360°). Putaran berlebihan menyebabkan perdarahan dan nyeri, skor hangus.",
+    "[FATAL] Sampel harus segera dipulaskan dan difiksasi alkohol 96% agar layak baca. Tidak difiksasi = skor hangus untuk dokumentasi.",
+    "[FATAL] Cuci tangan dan dekontaminasi alat (rendam klorin 0,5% 10 menit) wajib. Lewatkan = skor hangus untuk asepsis.",
+    "[FATAL] Mengenali curiga kanker serviks (lesi massa, ulkus, mudah berdarah) — rujuk untuk biopsi/kolposkopi, jangan hanya sampling discharge.",
+    "[PENGURANGAN BESAR] Sebutkan diagnosis kerja spesifik (BV/kandidiasis/trichomonas/servisitis/PID) dan kode ICD-10 — bukan \"keputihan = jamur\".",
+    "[PENGURANGAN BESAR] Sebutkan KOH prep / whiff test dan jelaskan 5 etiologi discharge beserta ciri khasnya (warna, bau, pH, temuan mikroskopik).",
+    "[PENGURANGAN BESAR] Edukasi IMS, pasangan, abstinensi 7 hari pasca-terapi pada trikomoniasis dan servisitis; BV tidak perlu terapi pasangan.",
+    "Recovery move: bila menyadari langkah terlewat, ucapkan self-correction dengan sopan — penguji menghargai koreksi diri dibanding diam atau mengarang."
+  ],
+  "glossary": [
+    {
+      "id": "gls_dischswab_discharge_01",
+      "term": "Vaginal Discharge (Duh Genital)",
+      "def": "Sekret vagina yang keluar dari liang vagina. Bersifat fisiologis (bening/lendir serviks, tidak berbau, tidak gatal) atau patologis (perubahan warna, bau, konsistensi, atau gejala penyerta). Perubahan karakter discharge mengarahkan pada etiologi tertentu.",
+      "type": "clinical",
+      "aliases": [
+        "duh genital",
+        "keputihan",
+        "fluor albus"
+      ]
+    },
+    {
+      "id": "gls_dischswab_bv_02",
+      "term": "Bacterial Vaginosis (BV)",
+      "def": "Vaginosis bakterialis: gangguan flora vagina dengan dominansi Gardnerella vaginalis dan bakteri anaerob, ditandai discharge tipis abu-abu homogen, bau amis (whiff test positif dengan KOH 10%), pH vagina >4,5, dan clue cells pada mikroskop.",
+      "type": "clinical",
+      "aliases": [
+        "BV",
+        "vaginosis bakterialis"
+      ]
+    },
+    {
+      "id": "gls_dischswab_endocervswab_03",
+      "term": "Endocervical Swab",
+      "def": "Prosedur pengambilan sampel sekret/selsel dari kanal endoserviks dengan cytobrush, diputar 180° berlawanan arah jarum jam, kemudian dipulaskan pada gelas objek dan difiksasi alkohol 96% untuk pemeriksaan NAAT/kultur atau sitologi.",
+      "type": "procedure",
+      "aliases": [
+        "swab endoserviks",
+        "cytobrush swab"
+      ]
+    },
+    {
+      "id": "gls_dischswab_papsmear_04",
+      "term": "Pap Smear",
+      "def": "Pemeriksaan sitologi serviks untuk skrining kelainan pra-kanker/kanker serviks. Sampel ektoserviks diambil dengan spatula Ayre (putar 360° searah jarum jam) dan sampel endoserviks dengan cytobrush, kemudian difiksasi alkohol 96% pada gelas objek.",
+      "type": "procedure",
+      "aliases": [
+        "sitologi serviks",
+        "Papanicolaou smear",
+        "Pap test"
+      ]
+    },
+    {
+      "id": "gls_dischswab_cluecells_05",
+      "term": "Clue Cells",
+      "def": "Sel-sel epitel skuamosa vagina yang permukaannya tertutup oleh kokobasil (terutama Gardnerella vaginalis) sehingga batas sel menjadi kabur/punkat pada pemeriksaan mikroskopik basah. Merupakan salah satu kriteria Amsel untuk diagnosis bacterial vaginosis.",
+      "type": "clinical",
+      "aliases": [
+        "sel clue",
+        "sel petunjuk"
+      ]
+    },
+    {
+      "id": "gls_dischswab_whiff_06",
+      "term": "Amine Test (Whiff Test)",
+      "def": "Uji sederhana pada discharge vagina dengan meneteskan KOH 10%: bau amis/fishy odor yang muncul karena pelepasan amin volatil oleh bakteri anaerob menunjukkan hasil positif, mendukung diagnosis bacterial vaginosis.",
+      "type": "clinical",
+      "aliases": [
+        "whiff test",
+        "uji amin",
+        "uji KOH",
+        "sniff test"
+      ]
+    },
+    {
+      "id": "gls_dischswab_litotomi_07",
+      "term": "Posisi Litotomi",
+      "def": "Posisi pasien berbaring telentang dengan tungkai diletakkan pada penyangga/footrest, paha difleksi dan diabduksi sehingga area genital/perineum dapat diakses untuk pemeriksaan ginekologis atau prosedur vaginal.",
+      "type": "procedure",
+      "aliases": [
+        "lithotomy position",
+        "posisi ginekologis"
+      ]
+    },
+    {
+      "id": "gls_dischswab_informed_08",
+      "term": "Informed Consent",
+      "def": "Persetujuan tindakan medis yang diberikan pasien secara sukarela setelah penjelasan diagnosis, prosedur, manfaat, risiko, dan alternatif. Wajib pada prosedur sensitif termasuk endocervical swab dan Pap smear karena berkaitan dengan keluhan genital dan kemungkinan IMS.",
+      "type": "procedure",
+      "aliases": [
+        "persetujuan informed",
+        "persetujuan setelah penjelasan"
+      ]
+    },
+    {
+      "id": "gls_dischswab_apd_09",
+      "term": "APD (Alat Pelindung Diri)",
+      "def": "Perlengkapan yang dipakai pemeriksa untuk mencegah pajanan darah/cairan tubuh, minimal sarung tangan dan masker; ditambah apron dan kacamata pelindung bila ada risiko percikan.",
+      "type": "procedure",
+      "aliases": [
+        "PPE",
+        "personal protective equipment"
+      ]
+    },
+    {
+      "id": "gls_dischswab_kandidiasis_10",
+      "term": "Kandidiasis Vulvovaginal",
+      "def": "Infeksi vagina oleh Candida albicans (atau non-albicans) ditandai discharge putih kental bergumpal seperti keju cottage, gatal hebat, vulva eritem, pH normal <4,5, dan hifa/pseudohifa/budding yeast terlihat pada preparat KOH 10%.",
+      "type": "clinical",
+      "aliases": [
+        "kandidiasis vagina",
+        "vaginal thrush",
+        "keputihan jamur"
+      ]
+    },
+    {
+      "id": "gls_dischswab_trikomonas_11",
+      "term": "Trikomoniasis",
+      "def": "Infeksi menular seksual (IMS) oleh Trichomonas vaginalis ditandai discharge kuning-hijau berbusa, bau busuk, pH >4,5, strawberry cervix (colpitis macularis), dan trichomonad motil terlihat pada wet mount/KOH. Wajib terapi pasangan.",
+      "type": "clinical",
+      "aliases": [
+        "trichomoniasis",
+        "T. vaginalis"
+      ]
+    },
+    {
+      "id": "gls_dischswab_ims_12",
+      "term": "IMS (Infeksi Menular Seksual)",
+      "def": "Infeksi yang ditularkan melalui kontak seksual, meliputi gonore, klamidia, trikomoniasis, sifilis, HIV, hepatitis B. Diagnosis sering memerlukan skrining pasangan dan abstinensi 7 hari pasca-terapi.",
+      "type": "clinical",
+      "aliases": [
+        "PMS (Penyakit Menular Seksual)",
+        "STI",
+        "STD"
+      ]
+    },
+    {
+      "id": "gls_dischswab_servisitis_13",
+      "term": "Servisitis",
+      "def": "Peradangan serviks yang ditandai serviks mukopurulen, mudah berdarah saat swab, dan discharge serviks. Paling sering disebabkan oleh Chlamydia trachomatis dan Neisseria gonorrhoeae; memerlukan terapi pasangan.",
+      "type": "clinical",
+      "aliases": [
+        "cervicitis",
+        "radang leher rahim"
+      ]
+    },
+    {
+      "id": "gls_dischswab_pid_14",
+      "term": "PID (Pelvic Inflammatory Disease)",
+      "def": "Infeksi saluran reproduksi atas (uterus, tuba, ovarium) yang biasanya merupakan komplikasi servisitis/klamidia/gonore yang tidak tertangani. Ditandai nyeri panggul bilateral, demam, CMT positif, nyeri adneksa. Tatalaksana rawat inap atau rawat jalan sesuai fasilitas.",
+      "type": "clinical",
+      "aliases": [
+        "penyakit radang panggul",
+        "salpingitis"
+      ]
+    },
+    {
+      "id": "gls_dischswab_spatula_15",
+      "term": "Spatula Ayre",
+      "def": "Alat kayu/plastik berbentuk huruf V asimetris untuk pengambilan sampel ektoserviks dan area mulut serviks (ektoserviks diputar 360° searah jarum jam), kemudian sampel dipulaskan pada gelas objek untuk Pap smear.",
+      "type": "procedure",
+      "aliases": [
+        "Ayre spatula",
+        "spatula kayu"
+      ]
+    },
+    {
+      "id": "gls_dischswab_cytobrush_16",
+      "term": "Cytobrush",
+      "def": "Sikat kecil dengan bulu halus untuk pengambilan sampel endoserviks. Diputar 180° berlawanan arah jarum jam (jangan berlebihan, >180° meningkatkan risiko perdarahan), kemudian sampel dipulaskan dan difiksasi alkohol 96%.",
+      "type": "procedure",
+      "aliases": [
+        "endocervical brush",
+        "sikat endoserviks"
+      ]
+    },
+    {
+      "id": "gls_dischswab_spekulum_17",
+      "term": "Spekulum",
+      "def": "Alat dari logam/plastik untuk membuka liang vagina agar serviks dan dinding vagina dapat divisualisasikan. Tersedia ukuran S, M, L; harus dipakai gentle dan ukuran sesuai untuk mencegah cedera.",
+      "type": "procedure",
+      "aliases": [
+        "cocor bebek",
+        "vaginal speculum"
+      ]
+    },
+    {
+      "id": "gls_dischswab_cmt_18",
+      "term": "CMT (Cervical Motion Tenderness)",
+      "def": "Nyeri yang muncul saat serviks digerakkan/didorong pada pemeriksaan bimanual. Merupakan salah satu tanda klinis PID/salpingitis. Disebut juga chandelier sign bila nyeri sangat hebat.",
+      "type": "clinical",
+      "aliases": [
+        "chandelier sign",
+        "nyeri gerak serviks"
+      ]
+    },
+    {
+      "id": "gls_dischswab_strawberry_19",
+      "term": "Strawberry Cervix (Colpitis Macularis)",
+      "def": "Tampilan serviks dengan erosi multipel berwarna merah pada epitel kolumna sehingga tampak seperti permukaan stroberi. Khas untuk trikomoniasis dan disebabkan oleh reaksi inflamasi kapiler di bawah epitel.",
+      "type": "clinical",
+      "aliases": [
+        "colpitis macularis",
+        "serviks stroberi"
+      ]
+    },
+    {
+      "id": "gls_dischswab_koh_20",
+      "term": "KOH 10%",
+      "def": "Larutan kalium hidroksida 10% yang digunakan untuk preparat basah discharge vagina. KOH melisiskan sel-sel inflamasi dan debris sehingga hifa Candida lebih mudah terlihat; juga digunakan untuk whiff test.",
+      "type": "drug",
+      "aliases": [
+        "kalium hidroksida",
+        "potassium hydroxide"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_dischswab_01",
+      "term_id": "Vaginal discharge / duh genital",
+      "term_en": "Vaginal discharge",
+      "context": "Sekret vagina; normal (bening/lendir serviks) atau patologis (BV, kandidiasis, trikomoniasis, servisitis)."
+    },
+    {
+      "id": "bil_dischswab_02",
+      "term_id": "Bacterial vaginosis / vaginosis bakterialis",
+      "term_en": "Bacterial vaginosis (BV)",
+      "context": "Discharge tipis abu-abu homogen, amis (KOH+), pH>4,5, clue cells."
+    },
+    {
+      "id": "bil_dischswab_03",
+      "term_id": "Endocervical swab / swab endoserviks",
+      "term_en": "Endocervical swab",
+      "context": "Sampel endoserviks dengan cytobrush diputar 180° berlawanan jarum jam."
+    },
+    {
+      "id": "bil_dischswab_04",
+      "term_id": "Pap smear / sitologi serviks",
+      "term_en": "Pap smear (Papanicolaou smear)",
+      "context": "Skrining kelainan serviks dengan spatula Ayre (ektoserviks) + cytobrush (endoserviks) + fiksasi alkohol 96%."
+    },
+    {
+      "id": "bil_dischswab_05",
+      "term_id": "Clue cells / sel clue",
+      "term_en": "Clue cells",
+      "context": "Sel epitel skuamosa vagina dengan kokobasil menempel — kriteria Amsel untuk BV."
+    },
+    {
+      "id": "bil_dischswab_06",
+      "term_id": "Amine test / whiff test / uji amin",
+      "term_en": "Whiff test (amine test)",
+      "context": "KOH 10% pada discharge — bau amis menyokong BV."
+    },
+    {
+      "id": "bil_dischswab_07",
+      "term_id": "Posisi litotomi / posisi ginekologis",
+      "term_en": "Lithotomy position",
+      "context": "Pasien telentang, tungkai di footrest, paha difleksi-diabduksi untuk akses genital."
+    },
+    {
+      "id": "bil_dischswab_08",
+      "term_id": "Informed consent / persetujuan setelah penjelasan",
+      "term_en": "Informed consent",
+      "context": "Persetujuan sukarela pasien setelah penjelasan diagnosis, prosedur, risiko, dan alternatif."
+    },
+    {
+      "id": "bil_dischswab_09",
+      "term_id": "APD / alat pelindung diri",
+      "term_en": "Personal protective equipment (PPE)",
+      "context": "Sarung tangan, masker, apron, kacamata pelindung untuk mencegah pajanan darah/cairan tubuh."
+    },
+    {
+      "id": "bil_dischswab_10",
+      "term_id": "Kandidiasis vulvovaginal",
+      "term_en": "Vulvovaginal candidiasis",
+      "context": "Discharge putih kental bergumpal, gatal hebat, hifa pada KOH."
+    },
+    {
+      "id": "bil_dischswab_11",
+      "term_id": "Trikomoniasis",
+      "term_en": "Trichomoniasis",
+      "context": "IMS oleh Trichomonas vaginalis; kuning-hijau berbusa, strawberry cervix, IMS → wajib terapi pasangan."
+    },
+    {
+      "id": "bil_dischswab_12",
+      "term_id": "IMS / infeksi menular seksual",
+      "term_en": "Sexually transmitted infection (STI)",
+      "context": "Gonore, klamidia, trikomoniasis, sifilis, HIV; skrining pasangan dan abstinensi 7 hari pasca-terapi."
+    },
+    {
+      "id": "bil_dischswab_13",
+      "term_id": "Servisitis / cervicitis",
+      "term_en": "Cervicitis",
+      "context": "Serviks mukopurulen/mudah berdarah; curiga gonore/klamidia; terapi pasangan sesuai pedoman."
+    },
+    {
+      "id": "bil_dischswab_14",
+      "term_id": "PID / penyakit radang panggul",
+      "term_en": "Pelvic inflammatory disease (PID)",
+      "context": "Nyeri panggul bilateral, demam, CMT+, nyeri adneksa; rujuk/terapi empiris sesuai fasilitas."
+    },
+    {
+      "id": "bil_dischswab_15",
+      "term_id": "Spatula Ayre",
+      "term_en": "Ayre spatula",
+      "context": "Alat kayu/plastik V asimetris untuk sampel ektoserviks, diputar 360° searah jarum jam."
+    },
+    {
+      "id": "bil_dischswab_16",
+      "term_id": "Cytobrush",
+      "term_en": "Cytobrush / endocervical brush",
+      "context": "Sikat halus untuk sampel endoserviks, diputar 180° berlawanan jarum jam, fiksasi alkohol 96%."
+    },
+    {
+      "id": "bil_dischswab_17",
+      "term_id": "Spekulum / cocor bebek",
+      "term_en": "Vaginal speculum",
+      "context": "Alat membuka liang vagina; ukuran S/M/L; harus dipakai gentle untuk mencegah cedera."
+    },
+    {
+      "id": "bil_dischswab_18",
+      "term_id": "Strawberry cervix / colpitis macularis",
+      "term_en": "Strawberry cervix (colpitis macularis)",
+      "context": "Serviks dengan erosi multipel merah seperti permukaan stroberi — khas trikomoniasis."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_dischswab_samplemap_01",
+      "module_id": "mod_obgyn_skill_discharge_endocervical_swab_011",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi serviks dengan label ektoserviks, endoserviks, zona transformasi, lokasi spatula Ayre (ektoserviks, putar 360° searah jarum jam) dan cytobrush (endoserviks, putar 180° berlawanan). Gaya manekin/clean medical illustration, warna alami, label dalam Bahasa Indonesia.",
+      "alt": "Diagram lokasi sampling serviks: spatula Ayre di ektoserviks, cytobrush di endoserviks, dengan penanda zona transformasi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_discharge_endocervical_swab_011/assets/samplemap.png"
+    },
+    {
+      "id": "visual_dischswab_tools_02",
+      "module_id": "mod_obgyn_skill_discharge_endocervical_swab_011",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Flat lay alat swab dan Pap smear di atas meja: spekulum S/M/L, objek glass, kaca penutup, spatula Ayre, cytobrush, kapas lidi, botol KOH 10%, botol alkohol 96%, gentian violet, label dalam Bahasa Indonesia. Gaya clean medical illustration, tata letak rapi.",
+      "alt": "Tataletak alat-alat untuk prosedur swab endoserviks dan Pap smear: spekulum, objek glass, spatula Ayre, cytobrush, lidi kapas, KOH, alkohol 96%, gentian violet.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_discharge_endocervical_swab_011/assets/tools.png"
+    },
+    {
+      "id": "visual_dischswab_spatulatechnique_03",
+      "module_id": "mod_obgyn_skill_discharge_endocervical_swab_011",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Diagram spatula Ayre menempel di mulut serviks dan berputar 360° searah jarum jam. Tampilan manekin/diagram anatomi, label 'putar 360° searah jarum jam', 'ektoserviks', 'gentle'. Gaya clean medical illustration, Bahasa Indonesia.",
+      "alt": "Diagram teknik spatula Ayre: posisi di mulut serviks, arah putaran 360° searah jarum jam, label gentle.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_discharge_endocervical_swab_011/assets/spatulatechnique.png"
+    },
+    {
+      "id": "visual_dischswab_cytobrushtechnique_04",
+      "module_id": "mod_obgyn_skill_discharge_endocervical_swab_011",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Diagram cytobrush masuk ringan ke endoserviks dan diputar 180° berlawanan jarum jam. Tampilan manekin, label 'putar 180° berlawanan', 'endoserviks', 'gentle no over-rotation'. Gaya clean medical illustration, Bahasa Indonesia.",
+      "alt": "Diagram teknik cytobrush: posisi masuk endoserviks, arah putaran 180° berlawanan jarum jam, label gentle no over-rotation.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_discharge_endocervical_swab_011/assets/cytobrushtechnique.png"
+    },
+    {
+      "id": "visual_dischswab_dischargetypes_05",
+      "module_id": "mod_obgyn_skill_discharge_endocervical_swab_011",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Infografik perbandingan 4 jenis discharge: (1) BV — tipis abu-abu, bau amis, pH>4,5, clue cells; (2) Kandidiasis — putih kental bergumpal seperti keju cottage, pH normal, hifa; (3) Trikomoniasis — kuning-hijau berbusa, bau busuk, trichomonad motil; (4) Servisitis — mukopurulen, serviks mudah berdarah. Tata letak 2x2, label dalam Bahasa Indonesia, gaya clean medical illustration, warna alami.",
+      "alt": "Infografik perbandingan BV, kandidiasis, trikomoniasis, dan servisitis: warna, bau, pH, dan temuan mikroskopik.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_discharge_endocervical_swab_011/assets/dischargetypes.png"
+    },
+    {
+      "id": "visual_dischswab_kohpreparat_06",
+      "module_id": "mod_obgyn_skill_discharge_endocervical_swab_011",
+      "section_id": "s11",
+      "type": "microscopy",
+      "generation_prompt": "Ilustrasi mikroskopik edukatif hifa Candida pada preparat KOH 10%, label pseudohifa/budding yeast. Tampilan seperti preparat mikroskopik sungguhan, warna alami, label Bahasa Indonesia. Gaya clean medical illustration.",
+      "alt": "Gambaran mikroskopik hifa pseudohifa dan budding yeast Candida albicans pada preparat KOH 10%.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_discharge_endocervical_swab_011/assets/kohpreparat.png"
+    },
+    {
+      "id": "visual_dischswab_algorithm_07",
+      "module_id": "mod_obgyn_skill_discharge_endocervical_swab_011",
+      "section_id": "s11",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart algoritma pasien discharge: mulai dari anamnesis (warna, bau, onset) → spekulum (discharge, serviks) → pH/KOH/wet mount/NAAT bila tersedia → red flags PID → terapi empiris sesuai etiologi → rujuk bila perlu. Bahasa Indonesia, gaya clean medical illustration, warna-warna netral, box terhubung panah.",
+      "alt": "Flowchart algoritma keputihan: anamnesis → spekulum → laboratorium → identifikasi red flags PID → terapi atau rujuk sesuai etiologi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_discharge_endocervical_swab_011/assets/algorithm.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Jadwal tindak lanjut prosedur discharge dan IMS",
+      "source_reference": "CDC STI Guidelines 2021",
+      "confidence": "high",
+      "note": "Jadwal kontrol (1-7 hari hasil lab, 1-2 minggu follow-up terapi, 3 bulan skrining ulang IMS) ditambahkan untuk kelengkapan pasca-prosedur."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Tatalaksana berdasarkan hasil laboratorium discharge",
+      "source_reference": "CDC STI Treatment Guidelines 2021",
+      "confidence": "high",
+      "note": "Tatalaksana spesifik (metronidazol, fluconazole, ceftriaxone, doxycycline) mengikuti standar CDC untuk konsistensi dengan guideline internasional."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Format SOAP untuk prosedur ginekologis",
+      "source_reference": "Standar RS pendidikan",
+      "confidence": "high",
+      "note": "Format SOAP dan kode ICD-10 (N76.0, N72, B37.3, A59.0, dll.) ditambahkan untuk kelengkapan dokumentasi klinis."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "Pola komunikasi OSCE ginekologi FKIK Universitas Jambi",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Mini-skrip komunikasi 4 fase (informed consent, saat prosedur, penutup/edukasi, dan catatan perbedaan situasi) ditambahkan untuk konsistensi modul OSCE."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Skenario mini-case untuk latihan OSCE discharge",
+      "source_reference": "CDC STI Guidelines 2021",
+      "confidence": "high",
+      "note": "Tambahan prompt generator mini-case untuk latihan mandiri dan variasi skenario OSCE (BV, trikomoniasis, servisitis gonore, curiga kanker serviks)."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Memperkenalkan skenario fiktif Ny. Wati, target OSCE, peta cepat modul, dan prinsip utama yang dinilai penguji.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Sumber dokumen utama modul ini adalah PDF Penuntun Belajar Genitalia discharge, endocervical swab dan scrapping (FKIK Universitas Jambi), yang diperkaya dengan SKDI 4A Obgyn dan CDC STI Guidelines. Skill ini menguji koordinasi antara pemeriksaan ginekologis dan pengambilan sampel — penguji akan menilai apakah Anda mampu menyiapkan kaca objek, mengambil sampel dari lokasi benar, memutar spatula/cytobrush sesuai checklist, melakukan fiksasi, dan menutup pemeriksaan secara sopan.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Skenario klinis utama yang digunakan konsisten di modul ini: Ny. Wati, 28 tahun, dating dengan keluhan keputihan berbau 2 minggu. Discharge tipis abu-abu, homogen, amis. Tidak hamil, riwayat seksual aktif dengan satu pasangan. Informed consent verbal sudah diberikan. Identitas ini dipakai di §1, §9, §13, §15, dan Lampiran C untuk konsistensi latihan.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Target OSCE: kemampuan mengambil sampel dari serviks/endoserviks dan sekret vagina untuk pemeriksaan sitologi/mikroskopik pada keluhan discharge atau skrining serviks. Masalah yang dicari meliputi duh genital, servisitis, vaginitis, BV, kandidiasis, trikomoniasis, gonore/klamidia, dan kelainan serviks. Alat-alat kunci: objek glass, kaca penutup, spatula Ayre, cytobrush, kapas lidi, alkohol 96%, KOH, gentian violet, mikroskop.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Prinsip utama dari file sumber: \"Ambil sampel gentle, jangan kontaminasi, dan pulaskan/fiksasi sesuai jenis pemeriksaan.\" Pada pasien nyata, prosedur ini juga memerlukan konseling sensitif karena berkaitan dengan keluhan genital dan kemungkinan IMS — hindari bahasa menghakimi dan jaga privasi pasien. Batas penggunaan modul: bahan belajar dan simulasi; tindakan klinis nyata wajib dalam supervisi dan sesuai SOP fasilitas.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Peta cepat satu halaman: prioritas OSCE adalah persetujuan, posisi ginekologis, alat lengkap, pasang spekulum, tampakkan portio, ambil sampel dengan spatula Ayre (ektoserviks 360° searah), cytobrush (endoserviks 180° berlawanan + fiksasi alkohol 96%), kapas lidi + KOH (preparat basah), bersihkan, dekontaminasi, dokumentasi. Hafalkan alat berdasarkan fungsi: membuka, mengambil, menaruh, memfiksasi, memeriksa.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Lima komponen yang harus muncul saat OSCE:",
+          "sub": [
+            "Definisi sederhana: skill mengambil sampel dari serviks/endoserviks dan sekret vagina untuk pemeriksaan sitologi/mikroskopik.",
+            "Masalah yang dicari: duh genital, servisitis, vaginitis, BV, kandidiasis, trikomoniasis, gonore/klamidia, kelainan serviks.",
+            "Prioritas OSCE: persetujuan → posisi ginekologis → alat → spekulum → portio → spatula/cytobrush/lidi+KOH → fiksasi → dekontaminasi → dokumentasi.",
+            "Kata kunci alat: objek glass, kaca penutup, spatula Ayre, cytobrush, kapas lidi, alkohol 96%, KOH, gentian violet, mikroskop.",
+            "Kalimat kunci: \"Ambil sampel gentle, jangan kontaminasi, dan pulaskan/fiksasi sesuai jenis pemeriksaan.\""
+          ],
+          "bold": true,
+          "source": "§1"
+        },
+        {
+          "text": "Mengapa modul ini penting:",
+          "sub": [
+            "Keluhan keputihan tidak boleh langsung dianggap jamur — karakter discharge, riwayat seksual, spekulum, dan laboratorium sederhana membedakan vaginitis, cervicitis, IMS, atau infeksi campuran.",
+            "Pemeriksaan memerlukan konseling sensitif; gunakan bahasa netral, tidak menghakimi, dan menjaga privasi."
+          ],
+          "bold": false,
+          "source": "§1"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip utama modul",
+          "text": "Ambil sampel gentle, jangan kontaminasi, dan pulaskan/fiksasi sesuai jenis pemeriksaan. Ini adalah kalimat yang harus muncul verbatim di OSCE.",
+          "answer_evidence": "File sumber §1 dan §2"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Karakter unik modul 011",
+          "text": "Modul ini mencakup 3 prosedur dalam satu: discharge assessment, swab endoserviks, dan scraping/Pap smear. Hafalkan ketiga teknik (spatula Ayre 360° searah, cytobrush 180° berlawanan, lidi kapas + KOH) secara berurutan.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md modul 011"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Mengapa penting",
+          "text": "Pada pasien nyata, tindakan ini juga memerlukan konseling sensitif karena berkaitan dengan keluhan genital dan kemungkinan IMS. Hindari bahasa menghakimi.",
+          "answer_evidence": "File sumber §1"
+        }
+      ],
+      "visual_refs": [
+        "visual_dischswab_samplemap_01"
+      ],
+      "glossary_refs": [
+        "gls_dischswab_discharge_01",
+        "gls_dischswab_litotomi_07",
+        "gls_dischswab_informed_08"
+      ],
+      "bilingual": "Bagian ini memperkenalkan skenario fiktif Ny. Wati yang konsisten dipakai di seluruh modul. Fokus: orientasi awal dan target OSCE."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Alur umum 10 langkah OSCE dari persetujuan hingga dokumentasi, serta checklist 12 item dengan kalimat yang harus diucapkan dan kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur umum OSCE yang harus dihafalkan: 1) Persetujuan (sapa, perkenalkan diri, jelaskan diagnosis dan prosedur, kemungkinan rasa tidak nyaman, minta persetujuan); 2) Persiapan alat (spekulum, objek glass, spatula Ayre, cytobrush, lidi kapas, alkohol 96%, KOH, gentian violet, mikroskop); 3) Posisi ginekologis dengan masker dan drape; 4) Bersihkan area anterior→posterior satu kali usapan; 5) Pasang spekulum, tampakkan portio; 6) Siapkan 2 gelas objek berlabel; 7) Spatula Ayre: putar 360° searah jarum jam, pulaskan; 8) Cytobrush: putar 180° berlawanan, pulaskan, fiksasi alkohol 96%; 9) Lidi kapas + KOH: ambil lendir, pulaskan, teteskan KOH, tutup kaca penutup; 10) Penutup: bersihkan, lepas spekulum gentle, rendam klorin, dokumentasi SOAP.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Checklist OSCE yang diterjemahkan menjadi langkah praktis terdiri dari 12 item yang dinilai penguji. Setiap item memiliki cara melakukan untuk skor maksimal, kalimat yang harus diucapkan dengan suara keras, dan kesalahan yang menurunkan nilai. Kolom 'kalimat yang dapat diucapkan' adalah pola yang harus diucapkan verbal — bukan hanya diingat dalam hati.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Tips nilai tinggi dari file sumber: (1) hafalkan alat berdasarkan fungsi — membuka, mengambil, menaruh, memfiksasi, memeriksa; (2) ambil sampel gentle — putar spatula/cytobrush sesuai checklist; (3) sampel segera dipulaskan atau difiksasi — agar layak baca; (4) bicara netral — bukan menghakimi tentang riwayat seksual; (5) dokumentasi memuat lokasi sampel, jenis pemeriksaan, temuan klinis.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Pesan kunci: \"Ambil sampel gentle, jangan kontaminasi, dan pulaskan/fiksasi sesuai jenis pemeriksaan.\" Pada setiap fase, selalu ucapkan dengan suara keras apa yang sedang dilakukan, apa yang dilihat, dan apa yang akan dilakukan selanjutnya — ini komunikasi intra-prosedural yang dinilai OSCE.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Item checklist TINGGI (harus dikuasai):",
+          "sub": [
+            "1. Persetujuan: sapa, identitas, jelaskan diagnosis & prosedur, rasa tidak nyaman, minta persetujuan.",
+            "2. Persiapan alat lengkap: spekulum S/M/L, objek glass, kaca penutup, spatula Ayre, cytobrush, lidi kapas, alkohol 96%, KOH, gentian violet, mikroskop.",
+            "3. Posisi ginekologis dengan privasi, drape, masker, pandangan lurus.",
+            "4. Bersihkan vulva anterior→posterior satu kali usapan (cegah kontaminasi anus).",
+            "5. Spekulum masuk, tampakkan portio jelas.",
+            "6. Siapkan 2 gelas objek berlabel, spatula, cytobrush, lidi kapas.",
+            "7. Spatula Ayre: swab ektoserviks, putar 360° searah jarum jam, pulaskan.",
+            "8. Cytobrush: swab endoserviks, putar 180° berlawanan, pulaskan, fiksasi alkohol 96%.",
+            "9. Lidi kapas + KOH: ambil lendir, pulaskan, teteskan KOH, tutup dengan kaca penutup.",
+            "10. Penutup: bersihkan vagina/mulut serviks, lepas spekulum gentle, rendam klorin, dokumentasi SOAP.",
+            "11. Dekontaminasi, cuci tangan, edukasi keluarga, observasi.",
+            "12. Penutup station: salam, kesiapan ibu, kontrol."
+          ],
+          "bold": true,
+          "source": "§3"
+        },
+        {
+          "text": "Kesalahan yang menurunkan nilai:",
+          "sub": [
+            "Tidak minta persetujuan, lupa alat, tidak jaga privasi, salah arah usapan, serviks tidak terlihat, bahan tidak disiapkan, tidak sistematis, memutar berlebihan, tidak tutup dengan KOH, tidak dokumentasi, tidak dekontaminasi, tutup tanpa salam."
+          ],
+          "bold": false,
+          "source": "§3"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "5 tips nilai tinggi",
+          "text": "(1) Hafal alat berdasarkan fungsi; (2) ambil sampel gentle; (3) sampel segera dipulaskan/difiksasi; (4) bicara netral; (5) dokumentasi lokasi sampel, jenis pemeriksaan, temuan klinis.",
+          "answer_evidence": "File sumber §2"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL komunikasi",
+          "text": "Menggunakan istilah menghakimi saat bertanya riwayat seksual = skor hangus untuk komunikasi.",
+          "answer_evidence": "File sumber §18"
+        }
+      ],
+      "visual_refs": [
+        "visual_dischswab_algorithm_07"
+      ],
+      "glossary_refs": [
+        "gls_dischswab_spekulum_17",
+        "gls_dischswab_spatula_15",
+        "gls_dischswab_cytobrush_16",
+        "gls_dischswab_koh_20"
+      ],
+      "bilingual": "Hafalkan alur 10 langkah dan checklist 12 item secara berurutan; penguji menilai urutan, bukan hanya kelengkapan."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis sebagai konfirmasi identitas, asesmen discharge/IMS, informed consent, dan persiapan alat. Termasuk 4 pertanyaan kunci yang tidak boleh terlewat dan red flags yang wajib ditanyakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station discharge, endocervical swab, dan scraping berfungsi sebagai: (1) konfirmasi identitas; (2) asesmen discharge/IMS; (3) informed consent; (4) persiapan alat. Prinsip utama anamnesis: (1) apa karakter discharge? (warna, bau, jumlah, konsistensi, onset); (2) apa gejala lain? (gatal, nyeri, disuria, perdarahan); (3) apa riwayat seksual? (pasangan, risiko, IMS sebelumnya); (4) apa HPHT dan kemungkinan hamil?",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Pertanyaan anamnesis wajib dan alasan klinisnya: bau amis mengarah BV; putih kental mengarah kandidiasis; berbusa mengarah trikomoniasis; mukopurulen mengarah servisitis. Perdarahan pasca koitus → curiga lesi serviks. Multipartner/tanpa kondom → konseling dan skrining IMS. Hamil → tunda/tata hati-hati. IUD dapat mengubah discharge. Alergi antiseptik/antibiotik harus ditanyakan. DM/HIV memodifikasi risiko IMS.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Cara berpikir praktis: 4 pertanyaan kunci yang tidak boleh terlewat — (1) apa karakter discharge? (2) apa riwayat seksual/IMS? (3) apakah hamil? (4) apakah ada alergi obat? Pada pasien dengan temuan mengarah IMS, tanyakan juga status pasangan dan obat/jamu yang sedang diminum untuk mencegah interaksi (antibiotik baru → tunggu 2-4 minggu).",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Red flags yang wajib ditanyakan atau dicari: nyeri panggul, demam, CMT, atau nyeri adneksa (curiga PID); kehamilan dengan perdarahan, nyeri perut, atau discharge berbau busuk; serviks tampak massa, ulkus, mudah berdarah, discharge darah (curiga kanker serviks); pasien tampak toksik/syok/nyeri berat; dugaan kekerasan seksual atau pasien anak/remaja dengan temuan genital mencurigakan; discharge persisten setelah terapi (curiga resistensi atau diagnosis lain); riwayat kontak seksual dengan pasangan yang memiliki IMS.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tabel pertanyaan anamnesis wajib (item, alasan klinis, tindakan):",
+          "sub": [
+            "Identitas & keluhan utama: konfirmasi pasien, onset/karakter discharge; onset akut → prioritaskan.",
+            "Karakter discharge (warna, bau, jumlah, konsistensi, durasi): membedakan etiologi BV/kandidiasis/trikomoniasis/servisitis.",
+            "Gejala lain (gatal, nyeri panggul, disuria, perdarahan pasca koitus): mendukung diagnosis IMS/PID/keganasan.",
+            "Riwayat seksual (pasangan, pasangan baru, kondom, IMS sebelumnya): faktor risiko IMS.",
+            "HPHT & kemungkinan hamil: tes kehamilan bila diperlukan; hamil → tunda/tata hati-hati.",
+            "Riwayat KB (IUD, pil, kondom): IUD dapat mengubah discharge.",
+            "Riwayat alergi obat (antiseptik, antibiotik): mencegah reaksi alergi.",
+            "Riwayat penyakit kronis (DM, HIV): modifikasi risiko IMS.",
+            "Riwayat IMS/PID sebelumnya: faktor risiko kekambuhan.",
+            "Status pasangan (pengobatan): penting untuk terapi IMS.",
+            "Obat/jamu yang sedang diminum: mencegah interaksi."
+          ],
+          "bold": false,
+          "source": "§4"
+        },
+        {
+          "text": "Red flags yang wajib ditanyakan:",
+          "sub": [
+            "Nyeri panggul, demam, CMT, atau nyeri adneksa → curiga PID/salpingitis.",
+            "Kehamilan dengan perdarahan, nyeri perut, atau discharge berbau busuk.",
+            "Serviks tampak massa, ulkus, mudah berdarah, discharge darah, atau curiga kanker serviks.",
+            "Pasien tampak toksik, syok, atau nyeri berat.",
+            "Dugaan kekerasan seksual atau pasien anak/remaja dengan temuan genital mencurigakan.",
+            "Discharge persisten setelah terapi → curiga resistensi atau diagnosis lain.",
+            "Riwayat kontak seksual dengan pasangan yang memiliki IMS."
+          ],
+          "bold": false,
+          "source": "§4"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Red flag yang tidak boleh diabaikan",
+          "text": "Serviks tampak massa, ulkus, mudah berdarah, atau discharge darah → curiga kanker serviks. Pada kasus ini cukup sampling discharge saja tidak boleh; pasien WAJIB dirujuk untuk biopsi/kolposkopi.",
+          "answer_evidence": "File sumber §4 Red Flags & SKDI 4A"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "4 pertanyaan wajib anamnesis",
+          "text": "(1) Apa karakter discharge? (2) Apa riwayat seksual/IMS? (3) Apakah hamil? (4) Apakah ada alergi obat? — tidak boleh terlewat.",
+          "answer_evidence": "File sumber §4"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dischswab_discharge_01",
+        "gls_dischswab_informed_08",
+        "gls_dischswab_ims_12"
+      ],
+      "bilingual": "Anamnesis harus singkat, terstruktur, dan sensitif. Selalu tanyakan karakter discharge, riwayat seksual, kemungkinan hamil, dan alergi obat."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan tanda vital dan umum, abdomen, inspekulo (KRITIS untuk modul ini), dan bimanual. Termasuk tabel pembedaan 4 jenis discharge patologis.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan tanda vital dan umum: TD, nadi, suhu, pernapasan, SpO2, kesadaran, konjungtiva. Nilai normal: TD <140/90 mmHg, nadi 60-100, suhu 36,0-37,5°C, RR 12-20, SpO2 ≥95%; konjungtiva merah muda. Interpretasi bila abnormal: suhu >38°C curiga PID; nadi >120, hipotensi curiga syok sepsis; pucat anemia/kronis. Kalimat OSCE: \"TD 110/70, N 80, S 36,5°C. Konjungtiva tidak pucat, tanda vital dalam batas normal.\"",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Pemeriksaan abdomen: inspeksi, palpasi (suprapubik, perut kuadran). Nilai normal: abdomen supel, tidak ada nyeri tekan, tidak ada massa. Interpretasi bila abnormal: nyeri tekan suprapubik curiga ISK; nyeri tekan pelvis bilateral + demam curiga PID; defense/board-like curiga peritonitis (emergency). Kalimat OSCE: \"Abdomen supel, tidak ada nyeri tekan suprapubik atau pelvis.\"",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Pemeriksaan inspekulo (KRITIS untuk modul ini): posisi litotomi/ginekologis dengan privasi, cuci tangan, pakai sarung tangan, masukkan spekulum gentle, tampakkan portio. Amati discharge: warna, bau, jumlah, konsistensi, lokasi (vagina/serviks/uretra). Amati serviks: warna, mudah berdarah, lesi, massa, mukopurulen. Ambil sampel sesuai algoritme (spatula Ayre, cytobrush, lidi kapas). Lepas spekulum gentle. Nilai normal: sedikit discharge bening/lendir serviks fisiologis, serviks merah muda tidak mudah berdarah.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Pemeriksaan bimanual (bila indikasi): tangan di abdomen (suprapubik), tangan di vagina. Nilai CMT (cervical motion tenderness), ukuran/arah uterus, nyeri adneksa, massa. Nilai normal: tidak ada CMT, uterus ukuran normal, tidak ada massa atau nyeri adneksa. Interpretasi bila abnormal: CMT positif curiga PID; nyeri adneksa bilateral curiga PID; massa curiga kista/mioma/abses. Kalimat OSCE: \"Bimanual: CMT negatif, uterus ukuran normal, tidak ada nyeri adneksa, tidak ada massa.\"",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tabel pembedaan discharge patologis (WAJIB dihafal):",
+          "sub": [
+            "Normal: bening/putih, tidak berbau, tidak gatal, lendir serviks fisiologis, pH 3,8-4,5.",
+            "Bacterial vaginosis: tipis, abu-abu, homogen, bau amis (KOH+), pH >4,5, clue cells pada mikroskopik.",
+            "Kandidiasis: tebal, putih, kental bergumpal seperti keju cottage, gatal hebat, vulva merah, pH <4,5, hifa/pseudohifa pada KOH.",
+            "Trikomoniasis: kuning-hijau, berbusa, bau busuk, pH >4,5, strawberry cervix, trichomonad motil pada KOH/wet mount.",
+            "Servisitis: mukopurulen, serviks mudah berdarah, discharge serviks — curiga gonore/klamidia.",
+            "Bloody/purulent, friable cervix: curiga IMS/keganasan."
+          ],
+          "bold": true,
+          "source": "§5 + §9"
+        },
+        {
+          "text": "Interpretasi temuan inspekulo:",
+          "sub": [
+            "Thin, gray, homogen, fishy odor (KOH+): bacterial vaginosis (BV).",
+            "Thick, white, cottage cheese: kandidiasis.",
+            "Yellow-green, frothy: trikomoniasis.",
+            "Mucopurulent cervix: servisitis (gonore/klamidia).",
+            "Bloody/purulent, friable cervix: curiga IMS/keganasan."
+          ],
+          "bold": false,
+          "source": "§5"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Yang hanya terlihat di wet mount/KOH",
+          "text": "Clue cells (BV), hifa pseudohifa/budding yeast (kandida), dan trichomonad bergerak (trikomonas) — ketiganya hanya terlihat pada pemeriksaan mikroskopik preparat basah, bukan pada inspeksi visual serviks.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md modul 011"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag serviks",
+          "text": "Serviks tampak massa, ulkus, mudah berdarah, atau discharge darah → curiga kanker serviks. Jangan hanya sampling discharge, rujuk untuk biopsi/kolposkopi.",
+          "answer_evidence": "File sumber §4 & §18"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "CMT positif",
+          "text": "Cervical motion tenderness positif pada pemeriksaan bimanual → curiga PID/salpingitis. Tes kehamilan wajib untuk menyingkirkan ektopik, lalu rujuk/terapi empiris sesuai fasilitas.",
+          "answer_evidence": "File sumber §5"
+        }
+      ],
+      "visual_refs": [
+        "visual_dischswab_dischargetypes_05"
+      ],
+      "glossary_refs": [
+        "gls_dischswab_discharge_01",
+        "gls_dischswab_bv_02",
+        "gls_dischswab_kandidiasis_10",
+        "gls_dischswab_trikomonas_11",
+        "gls_dischswab_cluecells_05",
+        "gls_dischswab_cmt_18",
+        "gls_dischswab_strawberry_19",
+        "gls_dischswab_spekulum_17",
+        "gls_dischswab_litotomi_07"
+      ],
+      "bilingual": "Inspekulo adalah komponen kritis modul ini. Amati discharge (warna, bau, konsistensi) dan serviks (warna, mudah berdarah, lesi) lalu bandingkan dengan tabel etiologi."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat lengkap (dengan fungsi), APD, persiapan pasien, dan prosedur utama 4 fase (persiapan, inspekulo, 3 jenis pengambilan sampel, penutupan) untuk discharge assessment, swab endoserviks, dan Pap smear.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Alat yang harus disebutkan minimal 5, tetapi idealnya seluruhnya: kasa steril, sarung tangan (DTT/steril), larutan klorin 0,5%, tampon tang, spekulum ukuran S/M/L, objek glass, kaca penutup, spatula Ayre, cytobrush, kapas lidi, alkohol 96%, KOH 10%, gentian violet, mikroskop, safety box, kantong kuning, masker. APD: sarung tangan wajib, masker, apron, kacamata pelindung (bila ada). Momen cuci tangan sesuai WHO: sebelum kontak pasien, sebelum tindakan aseptik, setelah paparan cairan tubuh, setelah kontak pasien, setelah kontak lingkungan.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Cara mempersiapkan pasien: posisi ginekologis — pasien berbaring di meja ginekologi; privasi — gunakan kain penutup, tutup area yang tidak dikerjakan; penjelasan — informed consent dengan bahasa awam, netral; pendampingan — tawarkan pendamping perempuan; pengosongan kandung kemih — minta BAK sebelum prosedur. Catatan klinis: hafalkan alat berdasarkan fungsi — membuka, mengambil, menaruh, memfiksasi, memeriksa.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Fase persiapan prosedur: salam, identitas, informed consent bahasa awam netral; anamnesis singkat tentang discharge, riwayat seksual, IMS; TTV evaluasi stabilitas; persiapan alat (spekulum, objek glass, spatula, cytobrush, lidi, KOH, alkohol 96%, sarung tangan, lampu, mikroskop); posisi ginekologis dengan privasi dan drape; cuci tangan dan APD lengkap; kosongkan kandung kemih bila perlu; siapkan 2 gelas objek berlabel (nama pasien, jenis sampel). Keselamatan pasien: informed consent, privasi, komunikasi netral.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Fase pelaksanaan inspekulo dan persiapan: masukkan spekulum gentle (ukuran sesuai, jangan melukai), tampakkan portio jelas (merah muda, utuh), amati discharge (warna, bau, jumlah, konsistensi), amati serviks (warna, mudah berdarah, lesi, massa, mukopurulen), bersihkan lendir/sekret dengan kasa steril (bila perlu). Keselamatan: jangan lanjut jika serviks tidak terlihat.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Fase pelaksanaan — 3 jenis pengambilan sampel. A. Spatula Ayre (sampel ektoserviks): masukkan spatula lembut ke mulut serviks, putar 360° searah jarum jam gentle, pulaskan ke gelas objek pertama (sisi 1) dengan gerakan satu arah, segera fiksasi atau sesuai protokol. B. Cytobrush (sampel endoserviks): masukkan cytobrush ke kanal endoserviks gentle, putar 180° berlawanan arah jarum jam (1/2 putaran — jangan berlebihan), pulaskan ke gelas objek pertama (sisi 2) atau gelas kedua, segera fiksasi dengan alkohol 96%. C. Lidi kapas + KOH (preparat basah/whiff test): ambil lendir serviks/vagina dengan lidi kapas, pulaskan pada gelas objek kedua, teteskan KOH 10% (1-2 tetes) untuk whiff test (bau amis = BV) atau lihat hifa (kandidiasis), tutup dengan kaca penutup, periksa di bawah mikroskop (bila diminta) untuk hifa, clue cells, trichomonas, leukosit.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Fase penutupan dan konfirmasi: lepas spekulum gentle, bersihkan area (kasa dan antiseptik), dekontaminasi alat (spekulum, spatula, cytobrush di klorin 0,5% 10 menit; habis pakai di safety box/kantong kuning), cuci tangan ulang, dokumentasi SOAP lengkap dengan lokasi sampel, jenis pemeriksaan, temuan klinis, edukasi keluarga (hasil, terapi jika relevan, pasangan, tanda bahaya), rujukan (bila curiga kanker, IMS dengan komplikasi, atau red flags), penutup station (salam, kesiapan ibu, kontrol).",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Prinsip utama prosedur (dari file sumber):",
+          "sub": [
+            "Ambil sampel gentle — jangan memaksakan.",
+            "Jangan kontaminasi — penggunaan alat steril, hindari kontak dengan anus.",
+            "Sampel segera dipulaskan atau difiksasi — agar layak baca.",
+            "Spatula untuk ektoserviks, cytobrush untuk endoserviks, lidi untuk lendir.",
+            "Spatula/cytobrush putar sesuai aturan, jangan berlebihan (cytobrush >180° bisa perdarahan)."
+          ],
+          "bold": true,
+          "source": "§7"
+        },
+        {
+          "text": "Posisi litotomi dan privasi:",
+          "sub": [
+            "Pasien berbaring di meja ginekologi; tungkai di footrest; paha difleksi-diabduksi.",
+            "Drape menutupi area yang tidak dikerjakan; pintu station tertutup; hanya pemeriksa dan asisten yang ada di ruangan.",
+            "Tawarkan pendamping perempuan bila pasien inginkan.",
+            "Pemeriksa duduk dengan pandangan lurus, masker dipakai."
+          ],
+          "bold": false,
+          "source": "§6 + §7"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Hafal alat berdasarkan fungsi",
+          "text": "Membuka (spekulum) → Mengambil (spatula Ayre, cytobrush, lidi kapas) → Menaruh (objek glass + kaca penutup) → Memfiksasi (alkohol 96%) → Memeriksa (KOH 10%, mikroskop).",
+          "answer_evidence": "File sumber §6"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: cytobrush >180°",
+          "text": "Memutar cytobrush terlalu dalam/terlalu keras (>180°) → risiko perdarahan dan nyeri. Selalu putar 180° berlawanan arah jarum jam, jangan berlebihan.",
+          "answer_evidence": "File sumber §18"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: portio belum terlihat",
+          "text": "Portio belum terlihat jelas tetapi tetap mengambil sampel = skor hangus untuk teknik. Selalu pastikan spekulum membuka cukup dan portio visible sebelum sampling.",
+          "answer_evidence": "File sumber §18"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cuci tangan 5 momen WHO",
+          "text": "Sebelum kontak pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak pasien; setelah kontak lingkungan. Lewatkan = skor hangus untuk asepsis.",
+          "answer_evidence": "WHO Hand Hygiene"
+        }
+      ],
+      "visual_refs": [
+        "visual_dischswab_tools_02",
+        "visual_dischswab_spatulatechnique_03",
+        "visual_dischswab_cytobrushtechnique_04"
+      ],
+      "glossary_refs": [
+        "gls_dischswab_spekulum_17",
+        "gls_dischswab_spatula_15",
+        "gls_dischswab_cytobrush_16",
+        "gls_dischswab_koh_20",
+        "gls_dischswab_apd_09",
+        "gls_dischswab_litotomi_07"
+      ],
+      "bilingual": "Bagian terpadat modul. Hafalkan urutan: persiapan → inspekulo → 3 sampel (spatula 360° searah, cytobrush 180° berlawanan, lidi+KOH) → penutupan."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-prosedur (dekontaminasi, dokumentasi, edukasi), prosedur terkait, dan clinical reasoning diagnosis banding discharge (BV, kandidiasis, trikomoniasis, servisitis, PID).",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-prosedur: dekontaminasi alat (rendam dalam klorin 0,5% 10 menit); buang habis pakai (safety box untuk jarum, kantong kuning untuk lidi/kasa); lepas APD (sarung tangan, masker, apron); cuci tangan 6 langkah; dokumentasi SOAP (lokasi sampel, jenis pemeriksaan, temuan klinis); edukasi keluarga (hasil, terapi, pasangan, tanda bahaya); penutup (salam, kesiapan ibu, kontrol). Cara evaluasi keberhasilan prosedur: sampel layak baca (fiksasi adekuat, tidak kontaminasi), lokasi sampel jelas, discharge dan serviks terdokumentasi, ibu memahami hasil dan tindak lanjut.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Prosedur terkait/varian: Pap smear (sitologi serviks), IVA (skrining visual), Tes HPV DNA (skrining molekuler), NAAT/PCR untuk gonore/klamidia (konfirmasi IMS), Kultur discharge (identifikasi organisme), Biopsi serviks (konfirmasi histopatologi lesi), Kolposkopi (evaluasi lesi serviks). Jadwal kontrol pasca-tindakan: hasil lab keluar 1-7 hari (tergantung fasilitas); follow-up terapi 1-2 minggu; skrining ulang sesuai program; kapan saja bila ada tanda bahaya (demam, nyeri perut, discharge memberat).",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Clinical reasoning pada station discharge, endocervical swab, dan scraping berfokus pada diagnosis etiologi discharge dan menentukan terapi empiris. Alur pikir klinis discharge: pertanyaan 1 — apa karakter discharge? (BV, kandidiasis, trikomoniasis, servisitis); pertanyaan 2 — apakah ada tanda IMS? (skrining IMS, terapi pasangan); pertanyaan 3 — apakah ada tanda PID? (stabilisasi, rujuk); pertanyaan 4 — apakah curiga lesi/keganasan? (inspeksi, rujuk).",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Tabel diagnosis banding discharge: Bacterial Vaginosis (BV) — tipis, abu-abu, homogen, bau amis (KOH+), pH >4,5, clue cells — metronidazol 500 mg PO 2×/hari 7 hari ATAU gel 0,75% intravaginal 5 g 1×/hari 5 hari ATAU tinidazol 2 g PO single dose. Kandidiasis vulvovaginal — putih kental keju cottage, gatal, vulva merah, pH <4,5, hifa pada KOH — fluconazole 150 mg PO single dose ATAU miconazole/clotrimazole krim intravaginal. Trikomoniasis — kuning-hijau, berbusa, bau busuk, pH >4,5, strawberry cervix — metronidazol 2 g PO single dose ATAU tinidazol 2 g PO single dose, TERAPI PASANGAN. Servisitis (gonore/klamidia) — mukopurulen, serviks mudah berdarah — ceftriaxone 250 mg IM single dose (gonore) + azithromycin 1 g PO single dose (klamidia) ATAU doxycycline 100 mg 2×/hari 7 hari, TERAPI PASANGAN. PID/salpingitis — nyeri panggul, CMT, demam, discharge purulen — antibiotik rawat inap atau rawat jalan sesuai fasilitas, rujuk.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Tabel pembedaan cepat BV vs Kandidiasis vs Trikomoniasis. BV: warna abu-abu tipis, bau amis (KOH+), pH >4,5, mikroskop clue cells + kokobasil, gatal minimal, pembeda utama whiff test (+) + clue cells. Kandidiasis: putih kental, tidak amis, pH <4,5, mikroskop hifa + budding yeast, gatal berat, pembeda utama hifa pada KOH. Trikomoniasis: kuning-hijau berbusa, busuk, pH >4,5, mikroskop trichomonas motil, gatal sedang, pembeda utama trichomonas motil pada KOH/wet mount.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Kapan harus merujuk: segera (emergency) untuk PID berat, sepsis, syok, curiga kanker serviks; same day untuk servisitis berulang, IMS dengan komplikasi, discharge persisten; rutin untuk kontrol pasca-terapi dan skrining IMS berkala; tunda elektif tidak relevan untuk keluhan discharge aktif.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pembedaan cepat BV vs Kandidiasis vs Trikomoniasis:",
+          "sub": [
+            "BV: abu-abu tipis, amis (KOH+), pH>4,5, clue cells, kokobasil, gatal minimal; pembeda whiff test (+) + clue cells.",
+            "Kandidiasis: putih kental, tidak amis, pH<4,5, hifa, budding yeast, gatal berat; pembeda hifa pada KOH.",
+            "Trikomoniasis: kuning-hijau berbusa, busuk, pH>4,5, trichomonas motil, strawberry cervix; pembeda trichomonas motil."
+          ],
+          "bold": true,
+          "source": "§9"
+        },
+        {
+          "text": "Prosedur terkait/varian pasca-sampling:",
+          "sub": [
+            "Pap smear — sitologi serviks.",
+            "IVA — skrining visual dengan asam asetat.",
+            "Tes HPV DNA — skrining molekuler.",
+            "NAAT/PCR untuk gonore/klamidia — konfirmasi IMS.",
+            "Kultur discharge — identifikasi organisme.",
+            "Biopsi serviks — konfirmasi histopatologi lesi.",
+            "Kolposkopi — evaluasi lesi serviks."
+          ],
+          "bold": false,
+          "source": "§8"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: mengabaikan curiga kanker serviks",
+          "text": "Lesi massa/ulkus/berdarah tidak dirujuk = skor hangus. Pada pasien curiga kanker serviks, sampling discharge saja tidak cukup — rujuk untuk biopsi/kolposkopi.",
+          "answer_evidence": "File sumber §18"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Trikomoniasis IMS",
+          "text": "Trikomoniasis = IMS → wajib terapi pasangan (metronidazol/tinidazol 2 g single dose) + abstinensi 7 hari + skrining IMS lain (HIV, sifilis, hepatitis B).",
+          "answer_evidence": "File sumber §9 + §11"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "BV bukan sekadar kurang bersih",
+          "text": "Vaginosis bakterialis bukan karena higiene buruk; edukasi pasien untuk menghindari douching karena mengganggu flora normal. Terapi metronidazol/tinidazol sesuai regimen.",
+          "answer_evidence": "File sumber §9"
+        }
+      ],
+      "visual_refs": [
+        "visual_dischswab_algorithm_07"
+      ],
+      "glossary_refs": [
+        "gls_dischswab_bv_02",
+        "gls_dischswab_kandidiasis_10",
+        "gls_dischswab_trikomonas_11",
+        "gls_dischswab_servisitis_13",
+        "gls_dischswab_pid_14",
+        "gls_dischswab_cluecells_05",
+        "gls_dischswab_whiff_06",
+        "gls_dischswab_strawberry_19",
+        "gls_dischswab_ims_12",
+        "gls_dischswab_cmt_18"
+      ],
+      "bilingual": "Clinical reasoning utama: bedakan BV (amis, pH>4,5, clue cells), kandidiasis (putih kental, hifa), trikomoniasis (kuning-hijau berbusa, IMS), servisitis (mukopurulen, IMS), PID (nyeri panggul, CMT)."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang (preparat basah KOH/normal saline, pH, whiff test, pengecatan Gram, NAAT/PCR, kultur, tes kehamilan, darah lengkap, CRP/LED, tes IMS, Pap smear) dan tatalaksana klinis berdasarkan hasil, komplikasi intraprosedural, dan jadwal tindak lanjut.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang: preparat basah (KOH/normal saline) untuk discharge abnormal, curiga BV/kandidiasis/trichomonas (tersedia di puskesmas & RS); pH vagina (normal 3,8-4,5) untuk discharge abnormal (tersedia di puskesmas); whiff test (KOH + discharge) untuk curiga BV (negatif/amis BV) di puskesmas; pengecatan Gram untuk curiga BV (clue cells, kokobasil) dan gonore (diplokokus Gram-negatif intrasel) di RS dengan lab; NAAT/PCR gonore/klamidia untuk konfirmasi servisitis di RS; kultur discharge untuk identifikasi organisme di RS; tes kehamilan (urin/serum) untuk discharge + amenore di puskesmas; darah lengkap (Hb, leukosit) untuk curiga infeksi sistemik (Hb ≥12 g/dL, leukosit normal) di puskesmas & RS; CRP/LED untuk curiga PID/infeksi di RS; tes IMS (HIV, sifilis, hepatitis B) untuk skrining rutin bila curiga IMS di puskesmas & RS; Pap smear untuk skrining serviks; mikroskop untuk pemeriksaan preparat basah/Gram di puskesmas & RS.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: tes imunofluoresensi langsung, kultur anaerob, resistensi antibiotik (kultur + sensitivitas). Catatan penting: pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Tatalaksana berdasarkan hasil laboratorium. Normal flora → observasi, edukasi hygiene, evaluasi ulang bila perlu, rujuk bila discharge persisten. BV → metronidazol/tinidazol (lihat regimen §9), edukasi pasangan tidak perlu, hindari douching. Kandidiasis → fluconazole/miconazole, skrining DM bila berulang. Trikomoniasis → metronidazol 2 g single dose, WAJIB terapi pasangan dan skrining IMS lain. Servisitis (gonore/klamidia) → ceftriaxone + azithromycin/doxycycline, WAJIB terapi pasangan, skrining IMS lain, abstinensi 7 hari. Curiga lesi/keganasan → rujuk untuk biopsi/kolposkopi, jangan tunda. PID curiga → antibiotik rawat inap/jalan sesuai fasilitas, rujuk; emergency bila sepsis.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Manajemen komplikasi intraprosedural: perdarahan dari serviks (cytobrush menyebabkan perdarahan — tekan dengan kasa, evaluasi, dokumentasi); nyeri hebat (pasien meringis kesakitan — stop, komunikasi, pertimbangkan analgesik/antispasmodik); sinkop vasovagal (pusing, pucat, keringat dingin — stop, posisi Trendelenburg, observasi TTV); kontaminasi sampel (sampel terkontaminasi tinja/urine — ulangi sampling dengan teknik benar); cedera dinding vagina (luka kecil dari spekulum — kompres, evaluasi); reaksi alergi antiseptik (gatal, kemerahan — hentikan, antihistamin); spasme serviks (nyeri, sulit sampling — tunggu relaksasi, analgesik); serviks tidak terlihat (spekulum tidak cukup membuka — ganti ukuran, posisi); lidah tidak bisa dinilai (mikroskop tidak tersedia — kirim sampel ke lab rujukan); pasien menolak (mengatakan tidak mau — berhenti, tenangkan, jelaskan).",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Jadwal tindak lanjut: hasil lab keluar 1-7 hari; follow-up terapi 1-2 minggu; skrining ulang IMS 3 bulan pasca-terapi; skrining IMS rutin tahunan atau sesuai risiko; kapan saja bila ada tanda bahaya (demam, nyeri perut, discharge memberat). Tatalaksana mengikuti standar CDC STI Guidelines 2021 dan SOP fasilitas.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang, indikasi, ketersediaan:",
+          "sub": [
+            "Preparat basah (KOH/normal saline): discharge abnormal, curiga BV/kandidiasis/trichomonas; puskesmas & RS.",
+            "pH vagina: discharge abnormal; pH normal 3,8-4,5; puskesmas.",
+            "Whiff test: curiga BV; negatif/amis; puskesmas.",
+            "Pengecatan Gram: BV (clue cells, kokobasil), gonore (diplokokus Gram-negatif intrasel); RS dengan lab.",
+            "NAAT/PCR gonore/klamidia: konfirmasi servisitis; RS.",
+            "Kultur discharge: identifikasi organisme; RS.",
+            "Tes kehamilan (urin/serum): discharge, amenore; puskesmas.",
+            "Darah lengkap (Hb, leukosit): curiga infeksi sistemik; puskesmas & RS.",
+            "CRP/LED: curiga PID/infeksi; RS.",
+            "Tes IMS (HIV, sifilis, hepatitis B): skrining rutin; puskesmas & RS.",
+            "Pap smear: skrining serviks; puskesmas & RS.",
+            "Mikroskop: pemeriksaan preparat basah/Gram; puskesmas & RS."
+          ],
+          "bold": false,
+          "source": "§10"
+        },
+        {
+          "text": "Tatalaksana berdasarkan hasil:",
+          "sub": [
+            "Normal flora: observasi, edukasi hygiene, evaluasi ulang; rujuk bila persisten.",
+            "BV: metronidazol/tinidazol; edukasi pasangan tidak perlu, hindari douching.",
+            "Kandidiasis: fluconazole/miconazole; skrining DM bila berulang.",
+            "Trikomoniasis: metronidazol 2 g single dose; WAJIB terapi pasangan + skrining IMS lain.",
+            "Servisitis: ceftriaxone + azithromycin/doxycycline; WAJIB terapi pasangan + skrining IMS lain + abstinensi 7 hari.",
+            "Curiga lesi/keganasan: rujuk biopsi/kolposkopi, jangan tunda.",
+            "PID curiga: antibiotik rawat inap/jalan sesuai fasilitas; emergency bila sepsis."
+          ],
+          "bold": true,
+          "source": "§11"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Jangan mengarang hasil lab",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Cukup deskripsikan apa yang akan diminta dan bagaimana interpretasinya.",
+          "answer_evidence": "File sumber §10"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Rawat inap PID",
+          "text": "Rawat inap PID bila: suhu >38°C, mual/muntah, tidak bisa oral, abses tubo-ovarium, kehamilan, atau tidak membaik dalam 48-72 jam.",
+          "answer_evidence": "Lampiran C + §11"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Regimen tatalaksana IMS",
+          "text": "Trikomoniasis: metronidazol 2 g PO single dose ATAU tinidazol 2 g PO single dose. Servisitis gonore: ceftriaxone 250 mg IM single dose; klamidia: azithromycin 1 g PO single dose ATAU doxycycline 100 mg 2×/hari 7 hari. BV: metronidazol 500 mg PO 2×/hari 7 hari ATAU gel intravaginal ATAU tinidazol 2 g PO single dose.",
+          "answer_evidence": "CDC STI Guidelines 2021"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dischswab_koh_20",
+        "gls_dischswab_whiff_06",
+        "gls_dischswab_bv_02",
+        "gls_dischswab_kandidiasis_10",
+        "gls_dischswab_trikomonas_11",
+        "gls_dischswab_servisitis_13",
+        "gls_dischswab_pid_14",
+        "gls_dischswab_ims_12"
+      ],
+      "bilingual": "Selalu padukan hasil laboratorium dengan diagnosis klinis. Tatalaksana mengikuti CDC STI Guidelines 2021 dan SOP fasilitas."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi spesifik (8 poin), safety net (6 kondisi kembali segera), cara edukasi yang benar, dan contoh dokumentasi SOAP lengkap dengan kode ICD-10.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pada keluhan discharge adalah komponen penting. Penguji menilai apakah Anda bicara netral, tidak menghakimi, dan edukasi IMS, pasangan, serta safety-net. Poin edukasi spesifik (minimal 6, diadaptasi dari file sumber): (1) Karakter discharge bisa berbagai penyebab (BV, kandidiasis, trikomoniasis, servisitis) dan perlu konfirmasi lab. (2) Hindari douching/pembersihan berlebihan — mengganggu flora normal. (3) Kebersihan area genital — basuh depan ke belakang. (4) IMS bisa tanpa gejala pada pasangan, perlu terapi pasangan. (5) Terapi sesuai etiologi — metronidazol/fluconazole/antibiotik sesuai penyebab. (6) Abstinensi seksual — selama terapi dan 7 hari setelah selesai (IMS). (7) Kondom — mencegah IMS. (8) Kontrol bila demam, nyeri perut, discharge memberat, atau tidak membaik dalam 1-2 minggu.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Safety net — kapan harus kembali segera atau ke IGD (minimal 4): (1) Demam curiga PID; (2) Nyeri panggul yang memberat curiga PID atau abses; (3) Perdarahan pervaginam banyak di luar haid curiga komplikasi; (4) Mual/muntah berat curiga sepsis; (5) Tidak membaik dalam 1-2 minggu pasca-terapi evaluasi ulang; (6) Tanda IMS pada pasangan perlu terapi bersama.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE: bahasa awam — \"Ibu, keputihan yang berbau bisa berbagai penyebab, perlu konfirmasi lab. Setelah hasil keluar, kita tata sesuai penyebabnya. Penting untuk suami/pasangan juga diobati agar tidak bolak-balik.\" Minta keluarga mengulang — \"Bisa tolong ulangi, Bu, kapan harus kembali?\" Berikan waktu bertanya — \"Ada pertanyaan lagi, Bu?\" Tidak menghakimi — bicara netral tentang riwayat seksual. Contoh kalimat edukasi spesifik: \"Ibu, keputihan yang Ibu alami bisa berbagai penyebab. Setelah hasil lab keluar, kita tata sesuai penyebab. Penting untuk menjaga area genital tetap bersih, basuh dari depan ke belakang. Bila ada suami/pasangan, perlu diobati juga agar tidak berulang. Segera kontrol bila ada demam, nyeri perut, atau keputihan memberat.\"",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Contoh SOAP skenario Ny. Wati, 28 tahun, discharge tipis abu-abu berbau amis 2 minggu, swab endoserviks dan KOH prep dilakukan. S (Subjective): keluhan utama keputihan berbau 2 minggu. Karakter tipis, abu-abu, homogen, amis. Gejala lain tidak ada nyeri panggul, tidak ada demam, tidak ada perdarahan pasca koitus. Riwayat seksual aktif, 1 pasangan, tanpa kondom. HPHT 2 minggu lalu, kemungkinan hamil rendah. Informed consent verbal sudah diberikan.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "O (Objective): TTV TD 110/70, N 80, S 36,5°C. Konjungtiva tidak pucat. Abdomen supel, tidak ada nyeri tekan. Inspekulo: discharge tipis abu-abu homogen, bau amis, serviks merah muda, tidak mudah berdarah, tidak ada lesi. Bimanual: CMT negatif, uterus ukuran normal, tidak ada nyeri adneksa. Sampel: swab endoserviks (cytobrush, fiksasi alkohol 96%), preparat KOH (lendir vagina, KOH 10%, kaca penutup) — bau amis (+).",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "A (Assessment): G0P0A0, discharge abnormal curiga bacterial vaginosis (sindrom duh genital), dengan IMS curiga untuk dikonfirmasi. P (Plan): (1) Dekontaminasi alat, cuci tangan. (2) Dokumentasi SOAP + lokasi sampel. (3) Edukasi — discharge, terapi sesuai hasil, hindari douching. (4) Tanda bahaya — demam, nyeri panggul, perdarahan. (5) Skrining IMS — HIV, sifilis, hepatitis B (bila hasil mendukung). (6) Terapi pasangan — sesuai hasil. (7) Follow-up — 1-2 minggu.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Kode ICD-10 yang relevan: N76.0 acute vaginitis; N76.1 subacute and chronic vaginitis; N77.1 vaginitis, vulvitis, dan vulvovaginitis pada penyakit yang diklasifikasikan di tempat lain; B37.3 candidiasis of vulva and vagina; A59.0 urogenital trichomoniasis; N72 inflammatory disease of cervix uteri (servisitis); A54.x gonococcal infection; A56.x other sexually transmitted chlamydial diseases; N73.x inflammatory diseases of uterus (PID); Z11.3 special screening examination for sexually transmitted diseases; Z00.00 encounter for general adult medical examination.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Dokumen/kartu khusus: lembar informed consent (bila diperlukan); catatan discharge dan sampel (lokasi, jenis, hasil); kartu IMS (bila ada); surat rujukan untuk PID, curiga kanker, atau perlu SpOG; hasil laboratorium (KOH prep, NAAT, pengecatan Gram). Cara mendokumentasikan prosedur: tanggal dan jam tindakan; identitas pasien; informed consent; anamnesis singkat; TTV, status lokalis; discharge (warna, bau, konsistensi, lokasi); serviks (warna, mudah berdarah, lesi); sampel (lokasi, jenis, fiksasi); hasil KOH prep (bila ada); diagnosis kerja, rencana, edukasi; tanda tangan pemeriksa. Format SOAP mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin edukasi spesifik (8 poin):",
+          "sub": [
+            "Karakter discharge bisa berbagai penyebab (BV, kandidiasis, trikomoniasis, servisitis), perlu konfirmasi lab.",
+            "Hindari douching/pembersihan berlebihan — mengganggu flora normal.",
+            "Kebersihan area genital — basuh depan ke belakang.",
+            "IMS bisa tanpa gejala pada pasangan, perlu terapi pasangan.",
+            "Terapi sesuai etiologi — metronidazol/fluconazole/antibiotik sesuai penyebab.",
+            "Abstinensi seksual — selama terapi dan 7 hari setelah selesai (IMS).",
+            "Kondom — mencegah IMS.",
+            "Kontrol bila demam, nyeri perut, discharge memberat, atau tidak membaik dalam 1-2 minggu."
+          ],
+          "bold": true,
+          "source": "§12"
+        },
+        {
+          "text": "Safety net — kembalilah segera atau ke IGD bila:",
+          "sub": [
+            "Demam — curiga PID.",
+            "Nyeri panggul yang memberat — curiga PID atau abses.",
+            "Perdarahan pervaginam banyak di luar haid — curiga komplikasi.",
+            "Mual/muntah berat — curiga sepsis.",
+            "Tidak membaik dalam 1-2 minggu pasca-terapi — evaluasi ulang.",
+            "Tanda IMS pada pasangan — perlu terapi bersama."
+          ],
+          "bold": false,
+          "source": "§12"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: tidak informed consent",
+          "text": "Tidak melakukan informed consent untuk IMS/PID = skor hangus untuk etika. Selalu jelaskan diagnosis, prosedur, risiko, dan alternatif sebelum memulai.",
+          "answer_evidence": "File sumber §18"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Minta keluarga mengulang",
+          "text": "Minta keluarga mengulang kembali poin edukasi (\"Bisa tolong ulangi, Bu, kapan harus kembali?\") untuk menilai pemahaman dan memberi waktu bertanya.",
+          "answer_evidence": "File sumber §12"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 wajib",
+          "text": "[PENGURANGAN BESAR] Tidak menyebut kode ICD-10 = skor turun. Kode yang relevan: N76.0, N76.1, N77.1, B37.3, A59.0, N72, A54.x, A56.x, N73.x, Z11.3, Z00.00.",
+          "answer_evidence": "File sumber §18 + §13"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dischswab_discharge_01",
+        "gls_dischswab_bv_02",
+        "gls_dischswab_kandidiasis_10",
+        "gls_dischswab_trikomonas_11",
+        "gls_dischswab_servisitis_13",
+        "gls_dischswab_ims_12",
+        "gls_dischswab_informed_08"
+      ],
+      "bilingual": "Edukasi wajib singkat, netral, dan tidak menghakimi. Dokumentasi SOAP lengkap dengan kode ICD-10 dan lokasi sampel."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Tabel 10 penyakit SKDI 4A dengan kode ICD-10 dan relevansi modul, batas kompetensi dokter umum, dan mini-skrip komunikasi 4 fase (pembukaan, informed consent, prosedur, penutup/edukasi).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan penyakit SKDI 4A dengan modul ini: Sindrom duh/discharge genital (gonore dan non-gonore) — N72/N76.x/A54/A56, level SKDI 4A (3B bila PID). Swab endoserviks dapat membantu menilai cervicitis/IMS. Tanyakan pasangan, risiko seksual, disuria, perdarahan pascakoitus, nyeri panggul.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Vaginitis (N76.0) — SKDI 4A. Sekret vagina diperiksa untuk membedakan kandida, trikomonas, iritan, atau infeksi campuran. Gatal berat dan discharge putih kental mengarah kandida; berbusa kuning-hijau mengarah trikomonas. Vaginosis bakterialis (N76.0/N77.1) — SKDI 4A. Discharge tipis homogen bau amis; KOH dapat memunculkan bau amis pada whiff test. BV bukan sekadar kurang bersih; edukasi hindari douching.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Servisitis (N72) — SKDI 4A (3B bila PMS). Serviks mukopurulen atau mudah berdarah saat swab dapat mengarah ke cervicitis. Waspada gonore/klamidia, terapi pasangan sesuai pedoman. PID/salpingitis (N73.x) — SKDI 3B (Rujuk rawat inap). Jika ada nyeri panggul, demam, CMT, nyeri adneksa, kasus bukan discharge sederhana. Tes kehamilan, rujuk/terapi empiris sesuai fasilitas. Lesi serviks/kanker serviks (C53.x/N87.x) — SKDI 3B (Rujuk). Jika portio tampak massa/ulkus/berdarah, jangan hanya ambil swab discharge. Rujuk untuk evaluasi lesi serviks.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Kandidiasis vulvovaginal (B37.3) — SKDI 4A. Discharge putih kental, gatal, KOH menunjukkan hifa. Trikomoniasis (A59.0) — SKDI 4A. Discharge kuning-hijau berbusa, strawberry cervix, KOH/wet mount menunjukkan trichomonas motil, WAJIB terapi pasangan. HIV/AIDS (B20.x/Z21) — SKDI 3B (Rujuk). Faktor risiko IMS, perlu skrining rutin. Sifilis (A51.x/A52.x) — SKDI 3B (Rujuk). Skrining rutin bila curiga IMS.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Batas kompetensi dokter umum: 4A (mandiri) untuk discharge, vaginitis, BV, kandidiasis, trikomoniasis, servisitis sederhana; 3B (merujuk) untuk PID, IMS dengan komplikasi, curiga kanker, HIV; 2 (merujuk ke spesialis) untuk kanker serviks, HIV stadium lanjut, sifilis tersier. Catatan diagnosis yang harus dirujuk segera (SKDI 3B): PID dengan tanda sepsis, servisitis berulang atau persisten, curiga kanker serviks, HIV positif, sifilis positif, abses tubo-ovarium, kekerasan seksual, discharge persisten pasca-terapi adekuat.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE — Pembukaan Station (Informed Consent): \"Selamat pagi, Ibu Wati. Saya dokter muda yang akan menangani keluhan Ibu. Saya akan memastikan identitas Ibu, menjelaskan prosedur, kemudian meminta izin sebelum memulai. Tindakan ini mungkin menimbulkan rasa tidak nyaman. Ibu boleh memberi tahu saya kapan pun bila nyeri, pusing, atau ingin berhenti.\" \"Saya akan melakukan pemeriksaan dalam dengan spekulum dan mengambil sedikit sampel dari leher rahim dan lendir untuk diperiksa di bawah mikroskop. Ini membantu menemukan penyebab keputihan. Saya akan menjaga privasi Ibu.\"",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Saat prosedur (Pengambilan Sampel): \"Ibu, saya akan masukkan alat spekulum perlahan. Mungkin terasa kurang nyaman. Boleh bilang kalau terasa nyeri.\" Setelah spekulum masuk dan portio terlihat: \"Serviks terlihat jelas. Saya lihat ada discharge. Saya bersihkan dulu, lalu saya ambil sampel ektoserviks dengan spatula, putar 360° searah jarum jam.\" \"Sekarang saya ambil sampel endoserviks dengan cytobrush, putar 180° berlawanan, lalu difiksasi alkohol 96%.\" \"Terakhir, saya ambil lendir dengan lidi kapas, pulaskan, teteskan KOH, tutup dengan kaca penutup. Bau amis: positif untuk BV curiga.\" \"Selesai, Bu. Saya lepas spekulum perlahan. Hasil lab akan saya kabari.\"",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Penutup Station (Edukasi): \"Ibu, tindakan sudah selesai. Saya dokumentasikan hasil. Saya edukasi: jaga kebersihan, basuh depan ke belakang, hindari douching. Tanda bahaya: demam, nyeri perut, discharge memberat. Segera kontrol ya, Bu.\" \"Sama-sama, Bu. Saya doakan Ibu cepat pulih. Ada pertanyaan?\" Catatan perbedaan antara situasi: discharge rutin — komunikasi suportif, singkat; curiga IMS — bicara netral, tidak menghakimi, edukasi pasangan dan abstinensi; PID curiga — komunikasi lebih serius, evaluasi segera, rujuk.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tabel 10 penyakit SKDI 4A yang relevan:",
+          "sub": [
+            "Sindrom duh/discharge genital (N72/N76.x/A54/A56) — 4A (3B bila PID): swab endoserviks menilai cervicitis/IMS.",
+            "Vaginitis (N76.0) — 4A: sekret vagina untuk kandida, trikomonas, iritan, infeksi campuran.",
+            "Vaginosis bakterialis (N76.0/N77.1) — 4A: discharge tipis homogen bau amis, KOH whiff test, edukasi hindari douching.",
+            "Servisitis (N72) — 4A (3B bila PMS): serviks mukopurulen/mudah berdarah, terapi pasangan.",
+            "PID/salpingitis (N73.x) — 3B (rawat inap): nyeri panggul, demam, CMT, adneksa.",
+            "Lesi serviks/kanker serviks (C53.x/N87.x) — 3B: rujuk untuk evaluasi lesi.",
+            "Kandidiasis vulvovaginal (B37.3) — 4A: discharge putih kental, hifa pada KOH.",
+            "Trikomoniasis (A59.0) — 4A: kuning-hijau berbusa, strawberry cervix, terapi pasangan.",
+            "HIV/AIDS (B20.x/Z21) — 3B: faktor risiko IMS, skrining rutin.",
+            "Sifilis (A51.x/A52.x) — 3B: skrining rutin bila curiga IMS."
+          ],
+          "bold": true,
+          "source": "§14"
+        },
+        {
+          "text": "Batas kompetensi dokter umum:",
+          "sub": [
+            "4A (mandiri): discharge, vaginitis, BV, kandidiasis, trikomoniasis, servisitis sederhana.",
+            "3B (merujuk): PID, IMS dengan komplikasi, curiga kanker, HIV.",
+            "2 (merujuk ke spesialis): kanker serviks, HIV stadium lanjut, sifilis tersier."
+          ],
+          "bold": false,
+          "source": "§14"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE (4 fase):",
+          "sub": [
+            "Pembukaan: salam, perkenalkan diri, identitas, jelaskan prosedur, minta izin.",
+            "Informed consent: bahasa awam, netral, tawarkan pendamping perempuan, dokumentasi.",
+            "Saat prosedur: verbalisasi setiap langkah (spekulum, spatula 360° searah, cytobrush 180° berlawanan, lidi+KOH).",
+            "Penutup: edukasi singkat, safety net, salam penutup."
+          ],
+          "bold": false,
+          "source": "§15"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Mini-skrip OSCE FKIK Universitas Jambi",
+          "text": "Kalimat di atas adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario.",
+          "answer_evidence": "File sumber §15 + Lampiran D"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: tidak informed consent IMS",
+          "text": "Tidak melakukan informed consent untuk IMS/PID = skor hangus untuk etika. Pada curiga IMS, sampaikan secara netral, tidak menghakimi, dan edukasi pasangan.",
+          "answer_evidence": "File sumber §18"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dischswab_bv_02",
+        "gls_dischswab_kandidiasis_10",
+        "gls_dischswab_trikomonas_11",
+        "gls_dischswab_servisitis_13",
+        "gls_dischswab_pid_14",
+        "gls_dischswab_ims_12",
+        "gls_dischswab_strawberry_19",
+        "gls_dischswab_cluecells_05"
+      ],
+      "bilingual": "Hafalkan tabel SKDI 4A dan 3B untuk membedakan kasus mandiri vs rujuk. Mini-skrip 4 fase digunakan konsisten untuk semua station."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri 22 item, rencana belajar 3 hari, 12 kesalahan fatal, 5 pengurangan besar, dan recovery move untuk mengoreksi kesalahan di tengah station.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Checklist latihan mandiri 22 item dengan bobot TINGGI/SEDANG: salam-perkenalkan diri-identifikasi pasien (TINGGI); jelaskan diagnosis dan prosedur (TINGGI); informed consent (TINGGI); persiapan alat lengkap (TINGGI); posisi ginekologis dengan privasi dan drape (TINGGI); pemeriksa duduk-pandangan lurus-masker (TINGGI); cuci tangan dan APD lengkap (TINGGI); bersihkan vulva anterior→posterior (TINGGI); spekulum masuk-tampakkan portio jelas (TINGGI); amati discharge dan serviks secara visual (TINGGI); spatula Ayre swab ektoserviks-putar 360° searah jarum jam-pulaskan (TINGGI); cytobrush swab endoserviks-putar 180° berlawanan-pulaskan-fiksasi alkohol 96% (TINGGI); lidi kapas + KOH ambil lendir-pulaskan-teteskan KOH-tutup kaca penutup (TINGGI); jangan kontaminasi sampel (TINGGI); lepas spekulum gentle-dekontaminasi-cuci tangan (TINGGI); dokumentasi SOAP lokasi sampel-jenis-temuan klinis (TINGGI); edukasi keluarga discharge-terapi-pasangan-tanda bahaya (TINGGI); mengenali tanda IMS/PID curiga-pasangan-abstinensi-rujuk (TINGGI); mengenali curiga kanker serviks-lesi-ulkus-mudah berdarah (TINGGI); rujuk bila curiga lesi/keganasan-IMS dengan komplikasi-red flags (TINGGI); penutup station yang sopan (SEDANG); menyebut kode ICD-10 (SEDANG). Kriteria siap OSCE: minimal 20 dari 22 item tercentang, dan semua item TINGGI sudah dikuasai.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Rencana belajar 3 hari. Hari 1 (H-3) — Orientasi dan Pemahaman Dasar (60 menit): pahami konsep discharge, IMS, dan perbedaan etiologi (§1); hafal urutan alur tindakan (§2) dan checklist utama (§3); baca §4-§6 (anamnesis, pemeriksaan, persiapan) sekali penuh. Aktivitas: baca §1 untuk konteks; tulis ulang 10 langkah alur dari ingatan tanpa melihat; hafalkan alat-alat utama (§6) dan fungsinya; pahami 5 etiologi discharge (BV, kandidiasis, trikomoniasis, servisitis, PID). Sumber tambahan: CDC STI Guidelines 2021, Modul FKIK Universitas Jambi, Video YouTube swab endoserviks. Kriteria selesai: bisa menyebutkan 10 langkah alur dan alat-alat utama tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Hari 2 (H-2) — Latihan Urutan Checklist dengan Timer (90 menit): hafal langkah spatula Ayre (putar 360° searah), cytobrush (putar 180° berlawanan), lidi kapas + KOH; latihan mini-skrip komunikasi (§15). Aktivitas: latihan di manekin sambil mengucapkan langkah-langkah dengan suara keras; praktik urutan persiapan (APD, alat, posisi); praktik urutan inspekulo (spekulum, identifikasi discharge/serviks); praktik urutan pengambilan sampel (3 jenis: spatula, cytobrush, lidi); tulis SOAP untuk skenario dari §13; simulasikan skenario dari Lampiran C dengan teman sebagai \"pasien\" atau \"penguji\". Sumber tambahan: Modul FKIK Universitas Jambi, rekam suara sendiri, review kecepatan bicara. Kriteria selesai: dapat menyelesaikan urutan tindakan (verbalized) dalam 7-8 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Hari 3 (H-1) — Simulasi OSCE Penuh (60 menit): run-through penuh station (mulai informed consent sampai penutup); identifikasi celah terakhir; simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: timer 10 menit, simulasi lengkap dari masuk station sampai keluar; review §18 (kesalahan fatal) — pastikan tidak ada yang terlewat; praktik skenario alternatif dari Lampiran C; bisa menyebutkan 5 kesalahan fatal dan 5 tanda bahaya; tidur cukup malam sebelumnya, OSCE bukan dihafal semalam. Sumber tambahan: teman sebagai \"penguji\" (feedback jujur), rekam video latihan (review postur dan kontak mata). Kriteria siap OSCE: bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi; tidak melewatkan item checklist §16 (minimal 20 dari 22); bisa menjawab 1-2 pertanyaan penguji (misal: \"Apa beda spatula dan cytobrush?\", \"Kapan Anda rujuk?\") dengan baik; merasa cukup percaya diri — bukan sempurna, tapi yakin dengan alur.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Kategori FATAL (dari file sumber + analisis klinis): (1) menggunakan istilah menghakimi saat bertanya riwayat seksual → skor hangus untuk komunikasi; (2) tidak menyiapkan objek glass dan fiksatif sebelum mengambil sampel → skor hangus untuk persiapan; (3) portio belum terlihat jelas tetapi tetap mengambil sampel → skor hangus untuk teknik; (4) memutar cytobrush terlalu dalam/terlalu keras → risiko perdarahan dan nyeri, skor hangus; (5) sampel tidak segera dipulaskan atau tidak difiksasi sehingga tidak layak baca → skor hangus untuk dokumentasi; (6) tidak menilai karakter discharge dan serviks secara visual → skor hangus untuk clinical reasoning; (7) tidak memberikan edukasi pasangan/IMS saat curiga cervicitis → skor hangus untuk edukasi; (8) tidak cuci tangan → skor hangus untuk asepsis; (9) tidak melakukan dekontaminasi → skor hangus untuk asepsis; (10) mengabaikan curiga kanker serviks — lesi tidak dirujuk → skor hangus; (11) tidak informed consent → skor hangus untuk etika; (12) tidak melakukan informed consent untuk IMS/PID → skor hangus.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Kategori PENGURANGAN BESAR (skor turun signifikan tapi tidak nol): (1) tidak menyebut diagnosis kerja (BV/kandidiasis/trichomonas/servisitis) → skor turun; (2) tidak membedakan etiologi discharge (5 etiologi) → skor turun untuk clinical reasoning; (3) tidak menyebut KOH prep / whiff test → skor turun; (4) tidak edukasi tentang IMS, pasangan, abstinensi → skor turun; (5) tidak menyebut kode ICD-10 → skor turun.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Recovery Move (bila menyadari sudah membuat kesalahan di tengah station): saat informed consent — \"Mohon maaf, Bu, saya akan mengulang penjelasan dengan bahasa yang lebih netral\" (tetap sopan); saat prosedur — \"Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang\" (penguji menghargai self-correction); saat interpretasi — \"Ibu, satu hal penting: hasil KOH prep positif amis curiga BV, perlu terapi sesuai\" (tambahkan poin); saat dokumentasi — \"Saya akan menuliskan [poin yang terlewat] di rekam medis.\" Yang penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Rencana 3 hari — fokus utama:",
+          "sub": [
+            "Hari 1 (H-3): orientasi, konsep discharge, IMS, 5 etiologi, hafal 10 langkah alur dan alat.",
+            "Hari 2 (H-2): latih urutan checklist dengan timer 7-8 menit, mini-skrip komunikasi, tulis SOAP 5 menit.",
+            "Hari 3 (H-1): simulasi penuh 10 menit, review 5 kesalahan fatal dan 5 tanda bahaya, tidur cukup."
+          ],
+          "bold": true,
+          "source": "§17"
+        },
+        {
+          "text": "5 kesalahan pengurangan besar:",
+          "sub": [
+            "Tidak menyebut diagnosis kerja spesifik (BV/kandidiasis/trichomonas/servisitis/PID).",
+            "Tidak membedakan etiologi discharge (5 etiologi).",
+            "Tidak menyebut KOH prep / whiff test.",
+            "Tidak edukasi IMS, pasangan, abstinensi 7 hari.",
+            "Tidak menyebut kode ICD-10."
+          ],
+          "bold": false,
+          "source": "§18"
+        },
+        {
+          "text": "Recovery move:",
+          "sub": [
+            "Saat informed consent: ulangi penjelasan dengan bahasa netral.",
+            "Saat prosedur: akui langkah terlewat dan lakukan sekarang.",
+            "Saat interpretasi: tambahkan poin KOH whiff test.",
+            "Saat dokumentasi: tulis poin terlewat di rekam medis.",
+            "Yang penting: jangan panik dan jangan asal jawab saat ditegur."
+          ],
+          "bold": false,
+          "source": "§18"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "12 kesalahan fatal (FATAL)",
+          "text": "Menghakimi riwayat seksual, tidak menyiapkan objek glass, portio belum terlihat, cytobrush berlebihan, sampel tidak difiksasi, tidak menilai visual, tidak edukasi pasangan/IMS, tidak cuci tangan, tidak dekontaminasi, mengabaikan curiga kanker, tidak informed consent.",
+          "answer_evidence": "File sumber §18"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "5 pengurangan besar",
+          "text": "Tidak menyebut diagnosis kerja, tidak membedakan etiologi, tidak menyebut KOH whiff test, tidak edukasi pasangan/abstinensi, tidak menyebut ICD-10.",
+          "answer_evidence": "File sumber §18"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery move",
+          "text": "Penguji menghargai self-correction. Bila menyadari langkah terlewat, ucapkan: \"Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.\" Jangan panik, jangan asal jawab.",
+          "answer_evidence": "File sumber §18"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dischswab_bv_02",
+        "gls_dischswab_kandidiasis_10",
+        "gls_dischswab_trikomonas_11",
+        "gls_dischswab_servisitis_13",
+        "gls_dischswab_pid_14",
+        "gls_dischswab_ims_12"
+      ],
+      "bilingual": "Fokus pada urutan dan konsistensi, bukan kesempurnaan. Mini-CEx (Lampiran C) untuk latihan 3 skenario tingkat mudah-sedang-sulit."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Saran visual 7 aset + 3 prompt AI siap-pakai, referensi ringkas, Lampiran A (kontraindikasi 12 kondisi), Lampiran B (masalah prosedur 11 item), Lampiran C (4 skenario mini-case), dan Lampiran D (checklist verbal 10 kalimat).",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Cara pakai prompt visual dari file sumber: jangan menampilkan bagian genital nyata secara vulgar; gunakan gaya ilustrasi medis, manekin, atau diagram anatomi profesional. Tujuh visual utama: (1) Peta lokasi sampel — ilustrasi serviks dengan label ektoserviks, endoserviks, zona transformasi, lokasi spatula Ayre dan cytobrush, untuk membedakan lokasi sampling; (2) Alat swab dan Pap smear — flat lay alat (spekulum, objek glass, kaca penutup, spatula Ayre, cytobrush, kapas lidi, KOH, alkohol 96%, gentian violet), untuk hafalan alat; (3) Teknik spatula Ayre — diagram spatula Ayre menempel di mulut serviks dan berputar 360° searah jarum jam, gaya manekin, untuk teknik ektoserviks; (4) Teknik cytobrush — diagram cytobrush masuk ringan ke endoserviks dan diputar 180°, label gentle no over-rotation, untuk teknik endoserviks; (5) Jenis discharge — infografik perbandingan BV (abu tipis amis), kandidiasis (putih kental), trikomoniasis (kuning hijau berbusa), servisitis (mukopurulen), untuk diagnosis banding; (6) Preparat KOH — ilustrasi mikroskopik edukatif hifa Candida pada preparat KOH, label pseudohifa/budding yeast, untuk interpretasi dasar; (7) Algoritma keputihan OSCE — flowchart pasien discharge dari anamnesis, spekulum, pH/KOH/wet mount/NAAT, red flags PID, terapi/rujuk, untuk alur reasoning.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Prompt AI siap-pakai (3 prompt). Prompt 1 — Peta lokasi sampel: \"Ilustrasi serviks dengan label ektoserviks, endoserviks, zona transformasi, lokasi spatula Ayre (ektoserviks, putar 360°) dan cytobrush (endoserviks, putar 180°), gaya manekin, Bahasa Indonesia. Gaya clean medical illustration.\" Prompt 2 — Algoritma keputihan OSCE: \"Flowchart pasien discharge: anamnesis (warna, bau, onset), spekulum (discharge, serviks), pH/KOH/wet mount/NAAT bila ada, red flags PID, terapi empiris sesuai etiologi, rujuk bila perlu. Bahasa Indonesia. Gaya clean medical illustration.\" Prompt 3 — Preparat KOH: \"Ilustrasi mikroskopik edukatif hifa candida pada preparat KOH 10%, label pseudohifa/budding yeast, Bahasa Indonesia. Gaya clean medical illustration, warna alami.\"",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Prompt tambahan — kasus latihan (mini-case generator): \"Buatkan 3 skenario OSCE discharge, endocervical swab, dan scraping tingkat mudah, sedang, sulit. Setiap skenario berisi: identitas pasien fiktif, keluhan discharge, data klinis (onset, warna, bau, riwayat seksual), pertanyaan pemandu, dan kunci jawaban. Berikan variasi skenario (misalnya: BV curiga, trikomoniasis, servisitis gonore, atau curiga kanker serviks).\"",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Referensi ringkas: Checklist skill lab Blok 6.1 FKIK Universitas Jambi sesuai file PDF yang diberikan pengguna; SKDI 2012 tingkat kemampuan 4A dipakai sebagai peta penyakit relevan pada domain Obstetri dan Ginekologi; WHO Intrapartum care for a positive childbirth experience (2018); WHO Recommendations on the assessment of postpartum blood loss and use of a treatment bundle for postpartum haemorrhage (2023); WHO Guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, second edition (2021); CDC Sexually Transmitted Infections Treatment Guidelines — urethritis, cervicitis, vaginitis, BV, gonorrhoea, chlamydia (2021, website updated by CDC). Catatan penting: keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi, Red Flags, dan Kondisi Khusus. Modul ini adalah prosedur diagnostik (pengambilan sampel), sehingga 'kontraindikasi' lebih banyak merujuk pada kondisi yang menunda atau membatalkan tindakan (perlu evaluasi dulu). Hamil — prosedur dapat dilakukan dengan hati-hati, tapi tunda elektif; tunda, evaluasi risiko-manfaat. Menstruasi aktif — darah mengaburkan visualisasi; tunda, evaluasi setelah haid. Servisitis akut dengan perdarahan banyak — sampel kontaminasi darah; tata servisitis, sampling setelah sembuh. Alergi antiseptik — reaksi lokal; ganti antiseptik. Serviks tidak terlihat — sampling tidak sah; ganti ukuran, posisi, evaluasi. Stenosis serviks — sulit sampling endoserviks; evaluasi lebih lanjut. Pasien menolak — hak pasien; informed consent, diskusi risiko, dokumentasi. Infeksi panggul akut — risiko komplikasi; tata PID dulu, sampling setelah perbaikan. Keganasan serviks curiga — sampling bukan prioritas; rujuk untuk biopsi/kolposkopi. Kekerasan seksual curiga — perlu penanganan sensitif; rujuk ke tim forensik/psikolog. Fasilitas tidak memadai — sampling perlu lab dan alat steril; rujuk ke RS dengan fasilitas. Anak/remaja — perlu informed consent khusus; libatkan orang tua/wali.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Lampiran B — Masalah Saat Prosedur dan Respons Aman. Perdarahan dari serviks (cytobrush menyebabkan perdarahan) — tekan dengan kasa, evaluasi, dokumentasi; hentikan bila tidak berhenti. Nyeri hebat (pasien meringis kesakitan) — stop, komunikasi, pertimbangkan analgesik; hentikan bila pasien tidak mau lanjut. Sinkop vasovagal (pusing, pucat, keringat dingin) — stop, posisi Trendelenburg, observasi TTV; selalu hentikan. Kontaminasi sampel (sampel terkontaminasi tinja/urine) — ulangi sampling dengan teknik benar; selalu hentikan. Cedera dinding vagina (luka kecil dari spekulum) — kompres, evaluasi. Reaksi alergi antiseptik (gatal, kemerahan) — hentikan, antihistamin; selalu hentikan. Spasme serviks (nyeri, sulit sampling) — tunggu relaksasi, analgesik. Serviks tidak terlihat (spekulum tidak cukup membuka) — ganti ukuran, posisi; selalu upayakan visualisasi. Lidi tidak bisa dinilai (mikroskop tidak tersedia) — kirim sampel ke lab rujukan. Pasien menolak (mengatakan tidak mau) — berhenti, tenangkan, jelaskan; selalu hentikan. Sampel tidak layak baca (fiksasi tidak adekuat) — ulangi sampling, dokumentasi.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Lampiran C — OSCE Mini-Case untuk Latihan Cepat. Skenario mudah (BV curiga pada ibu muda) — Ny. Wati, 28 tahun, dating dengan keputihan berbau 2 minggu, discharge tipis abu-abu homogen amis, tidak hamil, riwayat seksual aktif dengan satu pasangan, informed consent verbal sudah diberikan. Diagnosis curiga bacterial vaginosis (BV). Urutan: informed consent → alat → posisi ginekologis → APD → bersihkan vulva → spekulum → identifikasi discharge → spatula Ayre (ektoserviks) → cytobrush (endoserviks) → lidi kapas + KOH (preparat basah, whiff test) → lepas spekulum → dekontaminasi → dokumentasi. Interpretasi: bau amis pada KOH = whiff test (+), curiga BV. Edukasi: BV, hindari douching, terapi metronidazol/tinidazol, observasi; pasangan tidak perlu diterapi pada BV, tapi edukasi hygiene. Jebakan nilai: tidak menghitung arah swab, lupa fiksasi, menghakimi riwayat seksual.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Skenario sedang (trikomoniasis dengan edukasi pasangan) — Ny. Wati, 28 tahun, dating dengan keputihan berbau busuk 1 minggu, discharge kuning-hijau berbusa, serviks tampak strawberry (berbintik merah), punya pasangan tetap tidak menggunakan kondom, tidak hamil. Diagnosis curiga trikomoniasis. Strawberry cervix (colpitis macularis) — kolumna epitel serviks mengalami erosi multipel sehingga serviks tampak berbintik merah. Tatalaksana: metronidazol 2 g PO single dose ATAU tinidazol 2 g PO single dose. Pasangan perlu diterapi — trikomoniasis adalah IMS, sehingga pasangan juga perlu diterapi untuk mencegah reinfeksi. Abstinensi 7 hari pasca-terapi. Skrining IMS lain — HIV, sifilis, hepatitis B. Jebakan nilai: lupa edukasi pasangan, tidak skrining IMS lain, tidak abstinensi.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Skenario sulit (servisitis gonore + curiga PID) — Ny. Wati, 28 tahun, dating dengan keputihan kuning 5 hari + nyeri panggul bawah bilateral + demam 2 hari. Discharge mukopurulen, serviks mudah berdarah. CMT positif, nyeri adneksa bilateral. Diagnosis PID/salpingitis curiga, curiga servisitis gonore/klamidia. Tatalaksana awal: tes kehamilan menyingkirkan ektopik; sampel endoserviks (NAAT untuk gonore/klamidia); antibiotik empiris rawat jalan: ceftriaxone 250 mg IM single dose + doxycycline 100 mg 2×/hari 14 hari + metronidazol 500 mg 2×/hari 14 hari. Rawat inap bila: suhu >38, mual/muntah, tidak bisa oral, abses tubo-ovarium, kehamilan, atau tidak membaik dalam 48-72 jam. Pasangan perlu diterapi — IMS. Abstinensi 7 hari pasca-terapi. Skrining IMS lain (HIV, sifilis, hepatitis B). Jebakan nilai: tidak mengenali PID, tidak rawat inap, tidak edukasi pasangan.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Skenario tambahan curiga kanker serviks — Ny. Wati, 45 tahun, dating dengan keputihan darah + perdarahan pasca koitus 3 bulan. Serviks tampak massa ulseratif, mudah berdarah, discharge darah/berbau busuk. Diagnosis paling curiga: kanker serviks. Tidak cukup sampling discharge saja — perlu biopsi dan histopatologi. Langkah selanjutnya: rujuk segera ke SpOG/onko untuk kolposkopi dan biopsi. Informed consent: jelaskan kemungkinan kanker, rujukan, jangan tunda. Skrining IMS lain. Jebakan nilai: menganggap cukup sampling discharge, tidak merujuk, terlambat.",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Lampiran D — Checklist Verbal Sebelum Mulai Tindakan. Kalimat-kalimat di bawah ini adalah pola yang harus diucapkan dalam 60-90 detik pertama di station. (1) Salam, perkenalkan diri, identitas, jelaskan prosedur, rasa tidak nyaman, hak pasien untuk berhenti. (2) Jelaskan pemeriksaan spekulum dan pengambilan sampel leher rahim/lendir untuk mikroskop; menjaga privasi. (3) Apakah Ibu sudah memahami penjelasan saya dan bersedia? Mohon tanda tangan di lembar persetujuan. (4) Ibu, saya posisikan litotomi dengan drape. Saya pakai sarung tangan steril, masker, dan siapkan alat. (5) Saya bersihkan vulva dari depan ke belakang. Saya masukkan spekulum perlahan. Serviks terlihat jelas. Saya lihat [discharge mukopurulen, serviks mudah berdarah]. (6) Saya ambil sampel ektoserviks dengan spatula Ayre, putar 360° searah jarum jam, pulaskan ke gelas objek. (7) Saya ambil sampel endoserviks dengan cytobrush, putar 180° berlawanan, pulaskan, fiksasi alkohol 96%. (8) Saya ambil lendir dengan lidi kapas, pulaskan, teteskan KOH, tutup dengan kaca penutup. Bau amis: positif whiff test, curiga BV. (9) Selesai, Bu. Saya lepas spekulum perlahan, alat direndam klorin, saya cuci tangan. Saya dokumentasikan SOAP. (10) Terima kasih, Bu. Saya doakan Ibu cepat pulih. Ada pertanyaan?",
+          "tone": "narrative",
+          "source": ""
+        },
+        {
+          "text": "Prinsip komunikasi: pada discharge, IMS, dan PMS, urutan persiapan → spekulum → 3 sampel (spatula, cytobrush, lidi+KOH) → dekontaminasi → edukasi adalah yang paling penting. Bicara netral, tidak menghakimi tentang riwayat seksual. Kalimat di atas adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario.",
+          "tone": "narrative",
+          "source": ""
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Lampiran A — 12 kontraindikasi/kondisi khusus:",
+          "sub": [
+            "Hamil: prosedur hati-hati, tunda elektif.",
+            "Menstruasi aktif: darah mengaburkan visualisasi.",
+            "Servisitis akut dengan perdarahan banyak: sampel kontaminasi darah.",
+            "Alergi antiseptik: ganti antiseptik.",
+            "Serviks tidak terlihat: ganti ukuran, posisi, evaluasi.",
+            "Stenosis serviks: sulit sampling endoserviks.",
+            "Pasien menolak: informed consent, diskusi risiko, dokumentasi.",
+            "Infeksi panggul akut: tata PID dulu.",
+            "Keganasan serviks curiga: rujuk biopsi/kolposkopi.",
+            "Kekerasan seksual curiga: rujuk tim forensik/psikolog.",
+            "Fasilitas tidak memadai: rujuk ke RS dengan fasilitas.",
+            "Anak/remaja: libatkan orang tua/wali."
+          ],
+          "bold": false,
+          "source": "Lampiran A"
+        },
+        {
+          "text": "Lampiran B — 11 masalah prosedur dan respons aman:",
+          "sub": [
+            "Perdarahan dari serviks: tekan kasa, evaluasi, dokumentasi.",
+            "Nyeri hebat: stop, komunikasi, analgesik.",
+            "Sinkop vasovagal: stop, posisi Trendelenburg, observasi TTV.",
+            "Kontaminasi sampel: ulangi sampling dengan teknik benar.",
+            "Cedera dinding vagina: kompres, evaluasi.",
+            "Reaksi alergi antiseptik: hentikan, antihistamin.",
+            "Spasme serviks: tunggu relaksasi, analgesik.",
+            "Serviks tidak terlihat: ganti ukuran, posisi; selalu upayakan visualisasi.",
+            "Lidi tidak bisa dinilai: kirim sampel ke lab rujukan.",
+            "Pasien menolak: berhenti, tenangkan, jelaskan.",
+            "Sampel tidak layak baca: ulangi sampling, dokumentasi."
+          ],
+          "bold": false,
+          "source": "Lampiran B"
+        },
+        {
+          "text": "Lampiran C — 4 skenario mini-case:",
+          "sub": [
+            "Mudah: BV curiga pada ibu muda (Ny. Wati 28 th, discharge amis 2 minggu).",
+            "Sedang: Trikomoniasis dengan edukasi pasangan (strawberry cervix, IMS).",
+            "Sulit: Servisitis gonore + curiga PID (CMT+, rawat inap, terapi pasangan).",
+            "Tambahan: Curiga kanker serviks (massa ulseratif, rujuk biopsi/kolposkopi)."
+          ],
+          "bold": false,
+          "source": "Lampiran C"
+        },
+        {
+          "text": "Lampiran D — 10 kalimat checklist verbal:",
+          "sub": [
+            "Salam, perkenalkan diri, identitas, jelaskan prosedur.",
+            "Jelaskan pemeriksaan spekulum dan sampel, privasi terjaga.",
+            "Minta tanda tangan informed consent.",
+            "Posisi litotomi dengan drape, APD lengkap.",
+            "Bersihkan vulva anterior→posterior, masukkan spekulum, identifikasi.",
+            "Spatula Ayre 360° searah jarum jam ke gelas objek.",
+            "Cytobrush 180° berlawanan + fiksasi alkohol 96%.",
+            "Lidi kapas + KOH + kaca penutup, whiff test.",
+            "Lepas spekulum, dekontaminasi klorin, cuci tangan, dokumentasi SOAP.",
+            "Terima kasih, keselamatan ibu, salam penutup."
+          ],
+          "bold": false,
+          "source": "Lampiran D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara pakai prompt visual",
+          "text": "Jangan menampilkan bagian genital nyata secara vulgar; gunakan gaya ilustrasi medis, manekin, atau diagram anatomi profesional. Bahasa Indonesia pada label.",
+          "answer_evidence": "File sumber §19"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Modul ini prosedur diagnostik",
+          "text": "'Kontraindikasi' di sini lebih banyak merujuk pada kondisi yang menunda atau membatalkan tindakan (perlu evaluasi dulu) — bukan kontraindikasi absolut seperti pada obat.",
+          "answer_evidence": "Lampiran A"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Referensi utama",
+          "text": "CDC STI Treatment Guidelines 2021; WHO Intrapartum Care 2018; WHO Postpartum Haemorrhage 2023; WHO Cervical Pre-Cancer 2021; SKDI 2012; Checklist skill lab Blok 6.1 FKIK Universitas Jambi.",
+          "answer_evidence": "REFERENSI RINGKAS"
+        }
+      ],
+      "visual_refs": [
+        "visual_dischswab_samplemap_01",
+        "visual_dischswab_tools_02",
+        "visual_dischswab_spatulatechnique_03",
+        "visual_dischswab_cytobrushtechnique_04",
+        "visual_dischswab_dischargetypes_05",
+        "visual_dischswab_kohpreparat_06",
+        "visual_dischswab_algorithm_07"
+      ],
+      "glossary_refs": [
+        "gls_dischswab_bv_02",
+        "gls_dischswab_kandidiasis_10",
+        "gls_dischswab_trikomonas_11",
+        "gls_dischswab_servisitis_13",
+        "gls_dischswab_pid_14",
+        "gls_dischswab_ims_12",
+        "gls_dischswab_cluecells_05",
+        "gls_dischswab_whiff_06",
+        "gls_dischswab_strawberry_19",
+        "gls_dischswab_spatula_15",
+        "gls_dischswab_cytobrush_16",
+        "gls_dischswab_koh_20"
+      ],
+      "bilingual": "Bagian ini berisi lampiran A-D, referensi, dan 7 saran visual. Mini-case Lampiran C sangat berguna untuk latihan mandiri 3 tingkat kesulitan."
+    }
+  ]
+}

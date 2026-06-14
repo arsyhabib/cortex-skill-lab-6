@@ -1,0 +1,845 @@
+{
+  "id": "sken_obgyn_003",
+  "title": "Stasiun 3 — Pasien Bersalin dengan Kebutuhan Asuhan Persalinan dan Evaluasi Perineum",
+  "subtitle": "Skenario Asuhan Persalinan Normal (APN) Kala II–III dengan ruptur perineum derajat 2: menguji pimpin mengejan, APN Kala III, klasifikasi robekan perineum, dan prinsip penjahitan derajat 1–2.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_2",
+  "source_files": ["SOAL_03_PESERTA_BUTA.md", "SOAL_03_PENDAMPING.md", "SOAL_03_BLUEPRINT.md"],
+  "topicTags": ["osce_skenario", "obgyn", "apn", "kala_ii", "kala_iii", "robekan_perineum", "penjahitan", "persalinan_normal", "manajemen_aktif", "partograf"],
+  "summary": [
+    "Situasi klinis: Ny. Dewi Lestari, 24 tahun G1P0A0 hamil 39 minggu, inpartu kala II dengan presentasi kepala, pembukaan lengkap; merasa ingin mengejan.",
+    "Skill utama: APN Kala II (pimpin mengejan, proteksi perineum, lahirkan kepala-bahu-badan), penilaian bayi, APN Kala III (manajemen aktif, PTT), klasifikasi robekan perineum, dan penjahitan ruptur derajat 1–2.",
+    "Anamnesis kritis: kontraksi, KPD, perdarahan, gerak janin, riwayat ANC, Hb, alergi, dan keinginan pendamping.",
+    "Pemeriksaan fisik kunci: TTV stabil, kontraksi adekuat, DJJ 140 x/menit reguler, pembukaan lengkap, kepala Hodge III–IV, APGAR 8/9, plasenta lengkap, robekan derajat 2 dengan sfingter ani utuh.",
+    "Diagnosis kerja: persalinan normal kala II–kala III dengan ruptur perineum derajat 2 pascapersalinan; tidak ada PPH; bayi stabil.",
+    "Tatalaksana: pimpin mengejan sesuai His, APN Kala III dengan manajemen aktif (oksitosin 10 IU IM, PTT, masase uterus), periksa plasenta, klasifikasi robekan, jahit lapis mukosa–otot–kulit dengan asepsis dan analgesia, pemeriksaan rektal untuk menyingkirkan OASI.",
+    "Critical error: memimpin mengejan sebelum pembukaan lengkap; salah mengklasifikasikan robekan derajat 3–4 sebagai derajat 2; menjahit tanpa analgesia/asepsis/izin; tidak memeriksa kelengkapan plasenta.",
+    "Total 100 poin — komponen terbesar: APN Kala II (18), APN Kala III (16), penjahitan prinsip (12), dan penilaian awal ibu–janin (12)."
+  ],
+  "exam_focus": [
+    "Selalu pimpin mengejan SETELAH pembukaan lengkap, posisi kepala Hodge III/IV, dan kandung kemih kosong; jangan memimpin mengejan terlalu dini.",
+    "Proteksi perineum dengan tangan dominan saat kepala crowning; pimpin lahirkan kepala, bahu, dan badan secara HAT; cek lilitan tali pusat.",
+    "Manajemen aktif kala III: oksitosin 10 IU IM dalam 1 menit pasca-lahir, PTT setelah tanda pelepasan plasenta, masase uterus, periksa kelengkapan plasenta dan selaput.",
+    "Klasifikasi robekan perineum: derajat 1 (mukosa saja), derajat 2 (mukosa + otot, sfingter utuh), derajat 3 (sfingter ani terkena; 3a <50%, 3b >50%, 3c keseluruhan), derajat 4 (mukosa rektum).",
+    "Prinsip penjahitan: asepsis, analgesia/anestesi lokal, identifikasi apeks, jahit lapis mukosa–otot–kulit, lakukan pemeriksaan rektal sebelum/sesudah repair untuk menyingkirkan OASI.",
+    "Critical error: menjahit robekan derajat 3–4 tanpa keahlian akan menyebabkan fistula atau inkontinensia; RUJUK.",
+    "APGAR dinilai pada 1 dan 5 menit; inisiasi menyusu dini dan kontak kulit jika bayi stabil.",
+    "Edukasi postpartum: luka, perdarahan, demam, BAK/BAB, mobilisasi, tanda bahaya PPH, dan kontrol nifas."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_apn_kala_ii_01",
+      "term": "Asuhan Persalinan Normal Kala II",
+      "def": "Asuhan ibu pada fase pengeluaran bayi (pembukaan lengkap sampai bayi lahir). Komponen: persiapan ibu, posisi nyaman, kandung kemih kosong, pimpin mengejan saat His, dukungan emosional, proteksi perineum, kelahiran kepala (dengan cek lilitan), bahu, dan badan, penilaian bayi awal (APGAR, kehangatan, kontak kulit).",
+      "type": "procedure",
+      "aliases": ["APN Kala II"]
+    },
+    {
+      "id": "gls_sken_apn_kala_iii_02",
+      "term": "Asuhan Persalinan Normal Kala III (Manajemen Aktif)",
+      "def": "Asuhan pada fase pengeluaran plasenta dengan 4 langkah: (1) uterotonik profilaksis (oksitosin 10 IU IM dalam 1 menit pasca-bayi lahir), (2) PTT (Penegangan Tali Pusat Terkendali) setelah tanda pelepasan plasenta, (3) masase uterus, (4) inspeksi kelengkapan plasenta dan selaput. Tujuannya mengurangi risiko PPH dan memperpendek kala III.",
+      "type": "procedure",
+      "aliases": ["APN Kala III", "AMTSL", "active management of third stage of labor"]
+    },
+    {
+      "id": "gls_sken_apn_robekan_03",
+      "term": "Robekan Perineum Derajat 1–2 (First/Second Degree Perineal Tear)",
+      "def": "Derajat 1: robekan kulit perineum dan/atau mukosa vagina saja, tidak mencapai otot. Derajat 2: robekan mencapai otot-otot perineum (m. bulbocavernosus, m. transversus perinei), sfingter ani utuh. Klasifikasi penting karena derajat 3–4 (OASI) memerlukan perbaikan di kamar operasi dengan anestesi.",
+      "type": "clinical",
+      "aliases": ["perineal laceration grade 1-2", "ruptur perineum"]
+    },
+    {
+      "id": "gls_sken_apn_oasi_04",
+      "term": "OASI (Obstetric Anal Sphincter Injuries) — Robekan Derajat 3–4",
+      "def": "Robekan perineum yang melibatkan sfingter ani (derajat 3a <50%, 3b >50%, 3c keseluruhan sfingter) atau mukosa rektum/anus (derajat 4). Merupakan komplikasi serius dengan risiko inkontinensia alvi dan fistula rektovaginal; harus diperbaiki di kamar operasi oleh operator terlatih dengan anestesi umum/regional.",
+      "type": "clinical",
+      "aliases": ["OASI", "third/fourth degree perineal tear"]
+    },
+    {
+      "id": "gls_sken_apn_apgar_05",
+      "term": "Skor APGAR",
+      "def": "Penilaian kondisi bayi baru lahir pada 1 dan 5 menit dengan 5 komponen: Appearance (warna kulit, 0-2), Pulse (nadi, 0-2), Grimace (refleks/respons terhadap stimulasi, 0-2), Activity (tonus otot, 0-2), Respiratory effort (usaha napas, 0-2). Total 0-10; 7-10 normal, 4-6 asfiksia sedang, 0-3 asfiksia berat.",
+      "type": "score",
+      "aliases": ["APGAR score"]
+    },
+    {
+      "id": "gls_sken_apn_partograf_06",
+      "term": "Partograf (Friedman Curve Modifikasi WHO)",
+      "def": "Alat pemantauan kemajuan persalinan dengan grafik pembukaan serviks, penurunan presentasi, kontraksi, DJJ, TTV ibu, dan obat. Garis waspada dan garis tindakan membantu deteksi kala I memanjang atau partus macet. Partograf wajib diisi di setiap persalinan.",
+      "type": "score",
+      "aliases": ["partograph"]
+    },
+    {
+      "id": "gls_sken_apn_oksitosin_07",
+      "term": "Oksitosin",
+      "def": "Uterotonik yang digunakan untuk induksi/percepatan persalinan dan profilaksis PPH. Dosis profilaksis kala III: 10 IU IM dalam 1 menit pasca-bayi lahir. Dosis terapi PPH: 20-40 IU dalam 500-1000 mL cairan infus, atau 10 IU IM. Kontraindikasi: alergi, hipertonia uterus, ruptura uteri iminens, plasenta previa total.",
+      "type": "drug",
+      "aliases": ["oxytocin", "Syntocinon"]
+    },
+    {
+      "id": "gls_sken_apn_hodge_08",
+      "term": "Hodge Plane (Bidang Hodge I–IV)",
+      "def": "Sistem empat bidang imajiner untuk menentukan seberapa jauh kepala turun di panggul: Hodge I (atas simfisis, Hodge II (sejajar spina ischiadica), Hodge III (sejajar spina ischiadica, lebih rendah), Hodge IV (dasar panggul/kedalaman). Station +1 sampai +5 umumnya dipakai setara Hodge III–IV saat presentasi di dasar panggul.",
+      "type": "anatomy",
+      "aliases": ["Hodge I-IV"]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis yang diterima peserta dan daftar tugas yang harus diselesaikan dalam stasiun ini.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Seorang pasien di ruang bersalin berada pada fase akhir persalinan. Anda diminta melakukan penilaian dan asuhan sesuai kondisi pasien, menjaga keselamatan ibu-bayi, serta memberikan edukasi setelah tindakan.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Lakukan penilaian klinis terarah, pemeriksaan fisik/penunjang yang relevan, diagnosis kerja, tatalaksana awal, edukasi, dan rencana tindak lanjut.",
+          "tone": "clinical",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Lakukan komunikasi awal, cek kesiapan ibu, dan lakukan penilaian singkat sebelum tindakan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Lakukan/uraikan asuhan persalinan pada fase yang sedang berlangsung sesuai prinsip keselamatan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Lakukan penilaian ibu-bayi setelah lahir, lanjutkan manajemen kala berikutnya, dan minta data objektif yang diperlukan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Evaluasi jalan lahir/perineum, tentukan derajat robekan bila ada, dan jelaskan prinsip penanganan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 5: Sampaikan edukasi postpartum, tanda bahaya, dan rencana pemantauan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Gunakan komunikasi klinik nyata: sapa, perkenalkan diri, konfirmasi identitas, jelaskan tujuan, minta izin, dan jaga privasi. Data tidak diberikan otomatis — gali dari probandus atau minta spesifik ke pendamping. Untuk tindakan simulasi (pimpin mengejan, PTT, penjahitan), ucapkan indikasi, kontraindikasi, dan prinsip asepsis/analgesia.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_kala_ii_01", "gls_sken_apn_kala_iii_02"],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting stasiun, durasi, skill yang diuji, dan distribusi poin penilaian.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Stasiun ini berlangsung di ruang bersalin simulasi dengan manekin persalinan normal. Total durasi 21 menit: 1 menit membaca soal, 15 menit performa, dan 5 menit feedback. Peserta dinilai menggunakan rubrik 100 poin dengan skor proporsional per item. Durasi lebih panjang karena integrasi multi-kompetensi (Kala II, Kala III, klasifikasi robekan, penjahitan).",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skill yang diuji di stasiun ini:",
+          "sub": [
+            "Komunikasi dan kesiapan persalinan (sapa, izin, dukungan, privasi, pendamping, APD)",
+            "Penilaian awal ibu-janin (TTV, kontraksi, DJJ, kandung kemih, pembukaan/station)",
+            "APN Kala II: pimpin mengejan, proteksi perineum, lahirkan kepala-bahu-badan, cek lilitan, keselamatan bayi",
+            "Penilaian bayi awal (APGAR, tangis, tonus, kehangatan, kontak kulit)",
+            "APN Kala III: uterotonik profilaksis, PTT, tanda pelepasan plasenta, masase uterus, inspeksi plasenta",
+            "Evaluasi perdarahan dan kontraksi uterus (4T: tone-trauma-tissue-thrombin)",
+            "Klasifikasi robekan perineum derajat 1–4; pemeriksaan rektal untuk OASI",
+            "Prinsip penjahitan robekan derajat 1–2 (asepsis, analgesia, identifikasi apeks, lapis jahitan, evaluasi akhir)",
+            "Pemantauan 2 jam postpartum dan edukasi tanda bahaya nifas"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1 menit baca → 4-5 menit penilaian awal & komunikasi → 4 menit APN Kala II → 4 menit APN Kala III → 3 menit klasifikasi & penjahitan → 2-3 menit edukasi. Pada setiap fase, ucapkan urutan langkah; penguji tidak bisa menilai prosedur yang tidak Anda ucapkan.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggunakan file pendamping, naskah pembuka probandus, dan poin anamnesis yang tersedia.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Perankan pasien sesuai naskah. Jangan memberi informasi tersembunyi kecuali peserta menanyakannya dengan relevan. Saat bertindak sebagai penguji, berikan data objektif hanya bila peserta meminta pemeriksaan/penunjang spesifik. Jika peserta melakukan urutan benar, beri respons positif; jika ada kesalahan fatal, catat dan lanjutkan sampai waktu selesai. Gunakan rubrik 100 poin untuk feedback — fokus pada clinical reasoning dan keselamatan.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus (Ny. Dewi Lestari, 24 tahun, G1P0A0, hamil 39 minggu): \"Dok, rasanya ingin mengejan terus. Tolong bantu saya.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kontraksi: teratur sejak 8 jam, kini kuat setiap 2-3 menit, durasi 45-60 detik.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Ketuban: pecah spontan 1 jam lalu, cairan jernih.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Perdarahan: lendir darah sedikit, tidak ada perdarahan banyak (bukan plasenta previa/abrupsio).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gerak janin: sebelum masuk kala II masih terasa.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat ANC: rutin, tidak ada hipertensi/diabetes, Hb terakhir 11,4 g/dL.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Alergi/obat: tidak ada alergi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Keinginan pasien: ingin didampingi suami/keluarga bila memungkinkan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_kala_ii_01", "gls_sken_apn_partograf_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV dan temuan pemeriksaan fisik yang tersedia untuk diberikan kepada peserta bila diminta.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ yang diperiksa. Peserta dinilai dari relevansi permintaan dan kemampuan interpretasi, bukan dari permintaan buta semua data.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital ibu: TD 118/76 mmHg | Nadi 92 x/menit | RR 22 x/menit saat nyeri | Suhu 36,9°C | SpO2 99% RA | Nyeri 8/10 saat kontraksi | Compos mentis.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Head-to-toe: tidak pucat berat, tidak sesak, jantung paru normal, edema tungkai minimal, refleks normal. Kandung kemih tidak penuh.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Abdomen/kontraksi: kontraksi 4x/10 menit durasi 45-60 detik, TFU sesuai cukup bulan, janin tunggal memanjang.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "DJJ: 140 x/menit reguler sebelum mengejan; pantau berkala.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan dalam (bila diminta): pembukaan lengkap, penipisan 100%, ketuban sudah pecah jernih, kepala Hodge III–IV/station +2, UUK anterior, molase minimal.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Bayi setelah lahir: menangis kuat, tonus baik, warna membaik; APGAR simulasi 8/9.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Kala III: tanda pelepasan plasenta positif; plasenta lahir lengkap setelah manajemen aktif. Uterus teraba keras setelah masase.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Perineum: robekan dari mukosa vagina hingga otot perineum, sfingter ani utuh. Tidak ada robekan rektum. DERAJAT 2. Perdarahan lokal ringan-terkontrol.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_robekan_03", "gls_sken_apn_oasi_04", "gls_sken_apn_hodge_08", "gls_sken_apn_apgar_05"],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Data penunjang yang tersedia beserta interpretasinya, diberikan bila peserta meminta secara spesifik.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Penunjang berikut diberikan hanya bila peserta meminta secara spesifik. Peserta dinilai dari relevansi permintaan dan kemampuan interpretasi klinis, bukan dari jumlah penunjang yang diminta. Pada Kala II/III aktif, fokus penunjang adalah Hb terakhir, golongan darah, dan monitoring klinis — bukan laboratorium darurat.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Partograf: kemajuan sesuai; tidak ada tanda kala II lama. Garis waspada dan tindakan belum dilampaui.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Hb terakhir: 11,4 g/dL (cukup, risiko PPH lebih rendah).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Golongan darah: B Rh positif; sudah tercatat di buku KIA.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Urine protein saat ANC/masuk: negatif (menyingkirkan preeklamsia).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "GDS: dalam batas normal bila ditanyakan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Estimasi perdarahan: sekitar 250-300 mL setelah plasenta, tidak memenuhi PPH (≥500 mL untuk pervaginam).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan plasenta: kotiledon lengkap, selaput lengkap, tali pusat normal.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan rektal: sfingter ani dan mukosa rektum utuh; dilakukan sebelum/sesudah repair bila ragu — menyingkirkan robekan derajat 3–4 (OASI).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "Pada persalinan kala II–III normal, laboratorium darurat (PT, aPTT, fibrinogen) tidak perlu diminta. CTG intrapartum tidak rutin pada kala II tanpa gawat janin. USG postpartum tidak relevan bila plasenta lahir lengkap dan perdarahan terkontrol. Fokus pada monitoring klinis dan partograf.",
+          "answer_evidence": "POGI; WHO safe motherhood"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "JANGAN Salah Klasifikasi OASI",
+          "text": "Robekan yang sebenarnya derajat 3 (sfingter ani terkena) TIDAK BOLEH diklasifikasikan sebagai derajat 2. Selalu lakukan pemeriksaan rektal untuk menilai integritas sfingter dan mukosa rektum. Bila ragu atau OASI, rujuk ke operator terlatih (SpOG) untuk perbaikan di kamar operasi dengan anestesi — jangan dijahit derajat 1–2 di ruang bersalin tanpa skill.",
+          "answer_evidence": "RCOG Green-top Guideline No. 29"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_oasi_04", "gls_sken_apn_partograf_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Kunci diagnosis rahasia, diagnosis banding utama, dan alasan klinis mendukung/menentang.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Persalinan normal kala II–kala III dengan ruptur perineum derajat 2 pascapersalinan. Ibu stabil (TD 118/76, nadi 92, perdarahan 250-300 mL < 500 mL). Bayi stabil (APGAR 8/9). Plasenta lahir lengkap. Diagnosis derajat 2 ditegakkan dari robekan mukosa vagina + otot perineum dengan sfingter ani utuh, dikonfirmasi dengan pemeriksaan rektal.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Ruptur perineum derajat 1 — mendukung: ada robekan mukosa. Menentang: robekan mencapai otot perineum sesuai derajat 2.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Ruptur perineum derajat 3–4 (OASI) — mendukung: robekan cukup luas. Menentang: pemeriksaan rektal menunjukkan sfingter ani dan mukosa rektum utuh; klasifikasi derajat 2.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Robekan serviks/vagina tinggi — mendukung: perdarahan lokal. Menentang: perdarahan 250-300 mL, uterus keras, plasenta lengkap; inspeksi serviks/vagina tidak menunjukkan robekan aktif yang menjelaskan perdarahan.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: Hematoma vulvovaginal — mendukung: robekan perineum. Menentang: tidak ada massa kebiruan/membesar, nyeri lokal proporsional, perdarahan minimal.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: PPH karena atonia/trauma/tissue/thrombin — mendukung: pasca-persalinan. Menentang: uterus keras setelah masase, plasenta lengkap, perdarahan 250-300 mL tidak memenuhi PPH; evaluasi 4T mendukung perdarahan derajat 1 (<500 mL) oleh robekan lokal.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Mnemonik 4T untuk Evaluasi PPH",
+          "text": "Tone (atonia uteri — uterus lembek), Trauma (robekan jalan lahir/serviks), Tissue (sisa plasenta), Thrombin (gangguan koagulasi). Pada skenario ini: Tone baik (uterus keras), Trauma ada (robekan derajat 2 tapi lokal), Tissue lengkap, Thrombin belum tentu; sehingga sumber utama perdarahan adalah trauma derajat 2 yang akan ditangani dengan penjahitan.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_robekan_03", "gls_sken_apn_oasi_04"],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana non-farmakologi dan farmakologi yang diharapkan dari peserta di stasiun ini.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pendekatan tatalaksana: APN Kala II (pimpin mengejan + proteksi perineum), APN Kala III (manajemen aktif dengan oksitosin profilaksis), inspeksi plasenta, klasifikasi robekan perineum, dan penjahitan derajat 2 dengan asepsis-analgesia-lapis. Pemantauan 2 jam postpartum dan edukasi tanda bahaya melengkapi alur.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kala II: dukung ibu, posisi nyaman (setengah duduk, miring kiri, atau sesuai pilihan), pimpin mengejan saat kontraksi BILA pembukaan lengkap dan kepala sudah Hodge III/IV, kandung kemih kosong, proteksi perineum, lahirkan kepala, cek lilitan tali pusat, lahirkan bahu (hantar bawah-atas sesuai kurva Carus), lahirkan badan.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Penilaian bayi awal: APGAR 1 dan 5 menit; kehangatan (keringkan, hangatkan), kontak kulit, inisiasi menyusu dini bila stabil, profilaksis mata dan vitamin K sesuai program.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Kala III: berikan Oksitosin 10 IU IM dalam 1 menit pasca-bayi lahir; klem tali pusat 2-3 cm dari umbilikus; setelah tanda pelepasan plasenta (perubahan panjang tali pusat, globus, darah keluar tiba-tiba), lakukan PTT (penegangan tali pusat terkendali) dengan satu tangan di atas simfisis menahan uterus; masase uterus setelah plasenta lahir.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Inspeksi plasenta: periksa kotiledon lengkap, selaput lengkap, tali pusat (panjang, insersi, lilitan), periksa kemungkinan plasenta suksenturiata.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Perineum: jelaskan tindakan penjahitan, minta izin, berikan analgesia/anestesi lokal (lidokain 1% sampai 20 mL), asepsis area, identifikasi apeks robekan, jahit lapis mukosa vagina (benang absorbable 2-0/3-0), otot perineum, dan kulit dengan jahitan interrupted/continuous; hindari menjahit sfingter bila tidak terlatih.",
+          "sub": [
+            "Lakukan pemeriksaan rektal sebelum dan sesudah repair untuk menyingkirkan OASI.",
+            "Dokumentasikan jenis benang, jumlah jahitan, dan temuan akhir."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemantauan 2 jam postpartum (postpartum surveillance): TTV tiap 15 menit, kontraksi uterus, TFU, perdarahan/lokia, kandung kemih, nyeri, luka jahitan, kondisi bayi, dan inisiasi menyusu.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi: kebersihan luka, ganti pembalut, analgesik oral sesuai anjuran, mobilisasi dini, nutrisi, ASI eksklusif, dan tanda bahaya (perdarahan banyak, demam, nyeri makin berat, bau busuk, sulit BAK/BAB, inkontinensia).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi / Jangan Dilakukan",
+          "text": "JANGAN memimpin mengejan sebelum pembukaan lengkap/station sesuai. JANGAN lalai memantau DJJ/kondisi ibu saat kala II. JANGAN menjahit robekan tanpa analgesia/asepsis/izin. JANGAN klasifikasikan robekan derajat 3–4 (OASI) sebagai derajat 2; bila OASI, rujuk ke SpOG untuk perbaikan di kamar operasi. JANGAN lalai periksa kelengkapan plasenta.",
+          "answer_evidence": "RCOG Green-top; POGI APN guidelines"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_kala_ii_01", "gls_sken_apn_kala_iii_02", "gls_sken_apn_oksitosin_07", "gls_sken_apn_robekan_03"],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk pasien/keluarga, tanda bahaya yang harus disebutkan, dan contoh SOAP.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario ini:\n\nS: G1P0A0 hamil 39 minggu inpartu kala II; merasa ingin mengejan. Kontraksi kuat 2-3 menit, KPD jernih 1 jam, lendir darah sedikit. Tidak ada perdarahan banyak, tidak demam, gerak janin baik. Hb 11,4 g/dL, ANC rutin.\nO: TTV TD 118/76, nadi 92, RR 22 saat nyeri, suhu 36,9, SpO2 99%. Kontraksi 4x/10 menit, DJJ 140 x/menit reguler. Pembukaan lengkap, kepala Hodge III–IV. Bayi lahir spontan, APGAR 8/9. Manajemen aktif kala III, plasenta lengkap. Perineum: robekan derajat 2 dengan sfingter utuh, perdarahan 250-300 mL, uterus keras. Dijahit lapis dengan lidokain 1% asepsis. Pemeriksaan rektal: sfingter dan mukosa rektum utuh.\nA: Persalinan normal kala II–kala III dengan ruptur perineum derajat 2; ibu dan bayi stabil.\nP: Pemantauan 2 jam postpartum, edukasi tanda bahaya, kontrol nifas 6 jam/6 hari/6 minggu. Lanjutkan ASI eksklusif, tablet besi, vitamin A. Kontrol luka jahitan bila ada keluhan.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi luka jahitan: jaga kebersihan, ganti pembalut 3-4x/hari, bilas dengan air bersih setelah BAK/BAB, jangan gunakan sabun antiseptik keras, keringkan dengan cara ditepuk.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi ASI: inisiasi menyusu dini dalam 1 jam pertama, ASI eksklusif 6 bulan, posisi dan perlekatan yang benar, tangani puting lecet dengan benar.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi mobilisasi dan nutrisi: mobilisasi dini 6-8 jam pasca-persalinan normal, nutrisi tinggi protein dan zat besi, cukup cairan, tablet besi lanjut sesuai program.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera bila: perdarahan banyak (≥1 pembalut penuh/jam atau gumpalan besar).",
+          "sub": [
+            "Demam, menggigil, atau bau tidak enak dari lokia/luka.",
+            "Nyeri perut makin berat, bengkak, atau keluar nanah dari luka jahitan.",
+            "Sulit BAK atau tidak BAK dalam 6-8 jam.",
+            "Inkontinensia alvi atau sulit menahan BAB (tanda OASI terlewat).",
+            "Bayi kuning, lemas, atau tidak mau menyusu."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_oasi_04", "gls_sken_apn_apgar_05"],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian penuh 100 poin yang digunakan penguji — semua item wajib ada.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Total penilaian: 100 poin. Komponen utama: komunikasi/kesiapan persalinan (8), penilaian awal ibu–janin (12), APN Kala II (18), penilaian bayi awal (8), APN Kala III (16), evaluasi perdarahan/uterus (8), klasifikasi robekan perineum (10), teknik penjahitan prinsip (12), edukasi postpartum (6), dokumentasi (2). Skor proporsional; <60 = belum aman, 60-74 cukup, 75-84 baik, ≥85 sangat baik.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komunikasi dan kesiapan persalinan (8 poin)",
+          "sub": [
+            "Sapa, izin, dukungan, privasi, pendamping, APD (8/8).",
+            "Lupa salam/identifikasi atau APD tidak lengkap → potong 2-3 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penilaian awal ibu-janin (12 poin)",
+          "sub": [
+            "TTV, kontraksi, DJJ, kandung kemih, pembukaan/station bila diminta (12/12).",
+            "Lupa TTV atau kandung kemih → potong 3-4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "APN kala II (18 poin)",
+          "sub": [
+            "Pimpin mengejan, proteksi perineum, lahirkan kepala-bahu-badan, cek lilitan, keselamatan bayi (18/18).",
+            "Lupa proteksi perineum atau cek lilitan → potong 4-6 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penilaian bayi awal (8 poin)",
+          "sub": [
+            "Menilai tangis/napas/tonus, kehangatan, kontak kulit bila stabil (8/8).",
+            "Tidak menilai APGAR atau tidak mengeringkan→ potong 3-4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "APN kala III (16 poin)",
+          "sub": [
+            "Uterotonik, PTT benar, tanda pelepasan, masase uterus, inspeksi plasenta (16/16).",
+            "Lupa uterotonik profilaksis atau tidak inspeksi plasenta → potong 5-6 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Evaluasi perdarahan/uterus (8 poin)",
+          "sub": [
+            "Estimasi darah, kontraksi uterus, PPH red flags (4T) (8/8).",
+            "Tidak menyebut evaluasi 4T → potong 3-4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Klasifikasi robekan perineum (10 poin)",
+          "sub": [
+            "Membedakan derajat 1-2 vs 3-4; pemeriksaan rektal bila perlu (10/10).",
+            "Salah klasifikasi OASI sebagai derajat 2 → critical error, potong 8-10 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Teknik penjahitan prinsip (12 poin)",
+          "sub": [
+            "Asepsis, analgesia, identifikasi apeks, lapis jahitan, evaluasi akhir (12/12).",
+            "Jahit tanpa analgesia/asepsis/izin → critical error, potong 8-10 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Edukasi postpartum (6 poin)",
+          "sub": [
+            "Luka, perdarahan, demam, BAK/BAB, kontrol (6/6).",
+            "Hanya menyebut 2-3 aspek → potong 2-3 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Dokumentasi (2 poin)",
+          "sub": [
+            "Partograf/SOAP/kondisi ibu-bayi (2/2).",
+            "Tanpa dokumentasi → 0; seadanya → 1."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Skor proporsional per item. Skor <60 = belum aman (perbaikan besar), 60-74 cukup, 75-84 baik, ≥85 sangat baik. Komponen APN Kala II, Kala III, dan penjahitan total 46 poin — pelajari urutan prosedur dengan baik, termasuk uterotonik profilaksis dan inspeksi plasenta.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE adalah tindakan atau kelalaian yang menyebabkan pemotongan nilai besar atau kegagalan stasiun. Kenali setiap critical error berikut dan pelajari cara menghindari atau memulihkannya.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Memimpin mengejan sebelum memastikan pembukaan lengkap/station sesuai.",
+          "sub": [
+            "Kenapa critical: Mengejan prematur menyebabkan kelelahan ibu, edema serviks, dan risiko ruptura serviks; pada bokong atau CPD, meningkatkan distosia.",
+            "Recovery move: Hentikan mengejan, minta ibu teknik napas (pursed-lip), tunggu His kuat, dan konfirmasi pembukaan lengkap + station Hodge III/IV sebelum memimpin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Tidak memantau DJJ/kondisi ibu saat kala II.",
+          "sub": [
+            "Kenapa critical: Kala II memanjang dapat menyebabkan gawat janin dan ruptura uteri; tanpa monitoring, morbiditas tidak terdeteksi.",
+            "Recovery move: Pantau DJJ setiap 5-15 menit (atau kontinu bila memungkinkan); observasi His, penurunan kepala, dan kondisi ibu; siapkan resusitasi neonatal."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Tidak memeriksa kelengkapan plasenta atau kontraksi uterus.",
+          "sub": [
+            "Kenapa critical: Sisa plasenta adalah salah satu penyebab utama PPH; tanpa inspeksi, sisa jaringan meningkatkan risiko perdarahan dan infeksi.",
+            "Recovery move: Lakukan inspeksi plasenta sistematis (permukaan maternal/fetal, selaput, tali pusat), masase uterus, dan pertimbangkan eksplorasi/kuretase bila tidak lengkap."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Salah mengklasifikasikan robekan derajat 3-4 (OASI) sebagai derajat 2.",
+          "sub": [
+            "Kenapa critical: Penjahitan derajat 2 saja tidak cukup untuk OASI; pasien akan mengalami inkontinensia alvi dan perlu re-operasi.",
+            "Recovery move: Selalu lakukan pemeriksaan rektal untuk menilai sfingter dan mukosa rektum; bila OASI, rujuk ke SpOG untuk perbaikan di kamar operasi dengan anestesi."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 5: Menjahit tanpa analgesia/asepsis/izin.",
+          "sub": [
+            "Kenapa critical: Pelanggaran etika dan keselamatan; risiko infeksi luka dan nyeri berkepanjangan.",
+            "Recovery move: Hentikan, minta izin, berikan anestesi lokal (lidokain 1% uji alergi), asepsis, dan jahit lapis dengan benang absorbable."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Lupa memberikan oksitosin 10 IU IM dalam 1 menit pasca-bayi lahir adalah error yang paling sering dilakukan. Selalu sebut uterotonik profilaksis sebelum atau bersamaan dengan PTT. Error kedua yang sering: tidak melakukan pemeriksaan rektal pada robekan luas — jangan sampai salah klasifikasi OASI.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_kala_iii_02", "gls_sken_apn_oasi_04", "gls_sken_apn_oksitosin_07"],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji lengkap, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Naskah pembuka probandus (Ny. Dewi Lestari, 24 tahun, G1P0A0, hamil 39 minggu, guru honorer): \"Dok, rasanya ingin mengejan terus. Tolong bantu saya.\"\n\nRespons sesuai anamnesis (hanya bila ditanya dengan relevan):\n- Kontraksi: teratur sejak 8 jam, kini kuat 2-3 menit, durasi 45-60 detik.\n- Ketuban: pecah spontan 1 jam lalu, jernih.\n- Perdarahan: lendir darah sedikit, tidak banyak.\n- Gerak janin: sebelum kala II masih terasa.\n- ANC: rutin, tidak ada hipertensi/diabetes, Hb 11,4 g/dL.\n- Alergi: tidak ada.\n- Keinginan: ingin didampingi suami/keluarga bila memungkinkan.\n\nSikap: kesakitan saat kontraksi, cemas, membutuhkan instruksi singkat dan dukungan. Akan lebih kooperatif bila peserta memberi arahan jelas dan tidak menghakimi.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji:",
+          "sub": [
+            "Berikan TTV dan head-to-toe hanya bila peserta meminta parameter spesifik.",
+            "Berikan DJJ, kontraksi, dan TFU hanya bila peserta meminta pemeriksaan abdomen.",
+            "Berikan pembukaan/station hanya bila peserta menyebut pemeriksaan dalam dengan indikasi.",
+            "Berikan data bayi (APGAR) setelah peserta menyebut kelahiran; beri waktu untuk penilaian.",
+            "Berikan robekan derajat 2 (bukan 1 atau OASI) sesuai naskah; bila peserta menyebut klasifikasi lain, koreksi sesuai temuan.",
+            "Pemeriksaan rektal harus dilakukan/disebutkan oleh peserta; bila peserta tidak menyebut, ingatkan 'pemeriksaan rektal diperlukan untuk menyingkirkan robekan derajat 3–4'.",
+            "Bila peserta menyebutkan menjahit OASI di ruang bersalin → ingatkan bahwa perbaikan OASI harus di kamar operasi dengan anestesi."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pertanyaan feedback setelah latihan:",
+          "sub": [
+            "Data apa yang paling menentukan diagnosis kerja?",
+            "Pemeriksaan/penunjang apa yang seharusnya diminta rutin pada kasus ini?",
+            "Red flag apa yang harus membuat peserta berhenti dan melakukan eskalasi/rujukan?",
+            "Apakah tindakan yang dipilih aman untuk kondisi pasien saat itu?",
+            "Apa edukasi paling penting yang harus dipahami pasien sebelum pulang/rujuk?"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "Kementerian Kesehatan RI — Asuhan Persalinan Normal (APN) dan Buku Acuan Persalinan Normal.",
+            "POGI — Pedoman APN dan penatalaksanaan ruptur perineum.",
+            "Royal College of Obstetricians and Gynaecologists (RCOG) — Green-top Guideline No. 29: The Management of Third- and Fourth-Degree Perineal Tears.",
+            "American College of Obstetricians and Gynecologists (ACOG) — Practice Bulletin on Operative Vaginal Delivery dan Postpartum Hemorrhage.",
+            "WHO — Safe Motherhood; AMTSL (Active Management of Third Stage of Labor).",
+            "Modul OSCE 6.1 — APN Kala II; APN Kala III; Penjahitan Robekan Perineum Derajat 1–2."
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Data objektif dan diagnosis kunci diberikan hanya bila peserta meminta spesifik.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_apn_kala_ii_01", "gls_sken_apn_kala_iii_02", "gls_sken_apn_robekan_03", "gls_sken_apn_oasi_04", "gls_sken_apn_apgar_05", "gls_sken_apn_partograf_06", "gls_sken_apn_oksitosin_07", "gls_sken_apn_hodge_08"],
+      "bilingual": ""
+    }
+  ]
+}

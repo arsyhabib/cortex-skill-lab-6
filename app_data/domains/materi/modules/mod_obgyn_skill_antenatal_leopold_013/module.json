@@ -1,0 +1,1865 @@
+{
+  "id": "mod_obgyn_skill_antenatal_leopold_013",
+  "title": "Antenatal dan Leopold >24 Minggu",
+  "subtitle": "Pemeriksaan ANC lengkap trimester 2-3 dengan manuver Leopold 1-4.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_4",
+  "source_pdf": "Batch4_6.1_Modul_2_Antenatal_dan_Leopold.docx",
+  "source_filename": "Batch4_6.1_Modul_2_Antenatal_dan_Leopold.docx",
+  "topicTags": [
+    "osce_6_1",
+    "antenatal_care",
+    "leopold",
+    "tfu_mcdonald",
+    "djj",
+    "trimester_2_3",
+    "engagement_kepala",
+    "makrosomia",
+    "iugr",
+    "pemeriksaan_kehamilan"
+  ],
+  "summary": [
+    "Pemeriksaan antenatal kehamilan >24 minggu mencakup komunikasi, anamnesis, status generalis, inspeksi abdomen, palpasi Leopold I-IV, auskultasi DJJ 60 detik, dan kesimpulan obstetri terstruktur.",
+    "Leopold adalah palpasi abdomen sistematis untuk menentukan tinggi fundus, bagian di fundus, letak punggung, bagian terbawah, dan derajat engagement kepala ke panggul.",
+    "Tinggi fundus uteri (TFU) pada trimester 2-3 mendekati usia kehamilan dalam minggu (McDonald), dengan deviasi TFU dari usia gestasi memicu kecurigaan IUGR, makrosomia, oligo/polihidramnion, atau kehamilan ganda.",
+    "DJJ normal 110-160 kali per menit, dihitung 60 detik penuh menggunakan doppler atau fetoskop (Laennec/Pinard) di sisi punggung janin; jika tidak terdengar, evaluasi alat dan posisi, jangan langsung nyatakan IUFD.",
+    "Malpresentasi (sungsang/lintang), TFU tidak sesuai usia, DJJ abnormal, dan tanda bahaya (perdarahan, preeklampsia, KPD, gerak janin berkurang) merupakan indikasi kolaborasi atau rujukan SpOG.",
+    "Modul ini paling sering diujikan di OSCE blok 6.1 - Leopold adalah skill ikonik - sehingga urutan tindakan, komunikasi, dan kesimpulan obstetri terstruktur menentukan kelulusan station.",
+    "Suplemen Fe 60 mg/hari, asam folat 400 mikrogram/hari, dan kalsium 1-1,5 g/hari diberikan rutin; jadwal kunjungan ANC trimester 2 setiap 4 minggu, trimester 3 setiap 2-4 minggu, dan setiap minggu mulai minggu ke-36.",
+    "Red flags trimester 2-3: sakit kepala hebat, pandangan kabur, bengkak wajah/tangan, perdarahan, kontraksi prematur, KPD, gerak janin berkurang, dan demam - pasien harus kembali segera atau ke IGD."
+  ],
+  "exam_focus": [
+    "Jangan langsung pegang perut pasien - mulai dari salam, izin, dan privasi.",
+    "Hangatkan tangan sebelum palpasi - tangan dingin membuat uterus tegang dan mengganggu interpretasi.",
+    "Hitung DJJ 60 detik penuh - bukan 10-15 detik, ini fatal jika disingkat.",
+    "Akhiri dengan kesimpulan obstetri terformat: janin tunggal, letak, presentasi, punggung, TBJ, kepala 5/5 atau X/5, DJJ, his, rencana.",
+    "Bingung membedakan Leopold II (sisi/punggung) dan Leopold III (bawah/presentasi) - fatal karena kesimpulan punggung dan presentasi bisa salah.",
+    "Tidak menyebut kolaborasi atau rujukan bila malpresentasi, riwayat SC, preeklampsia, solusio, atau KPD - fatal.",
+    "Tidak mencuci tangan sebelum palpasi - fatal untuk skor asepsis.",
+    "Tidak melakukan status generalis (TD, konjungtiva, edema) - fatal untuk skor keselamatan.",
+    "Salah posisi pemeriksa pada Leopold (harus menghadap kepala ibu untuk L1-III, menghadap kaki ibu untuk L4) - fatal untuk teknik.",
+    "Tidak menyebut rumus Johnson-Toshach untuk taksiran berat janin (TBJ) dan rumus Naegele untuk usia kehamilan dan taksiran persalinan."
+  ],
+  "glossary": [
+    {
+      "id": "gls_obgyn_antenatal_leopold_proc_01",
+      "term": "Leopold (procedure)",
+      "def": "Palpasi abdomen sistematis pada kehamilan lanjut (>24 minggu) untuk menentukan tinggi fundus, bagian janin di fundus, letak punggung, bagian terbawah, dan sejauh mana bagian terbawah masuk ke pintu atas panggul (PAP). Terdiri dari empat manuver (Leopold I-IV) yang dilakukan secara berurutan dengan posisi tangan tertentu.",
+      "type": "procedure",
+      "aliases": [
+        "Manuver Leopold",
+        "Leopold I-IV",
+        "Palpasi Leopold"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_02",
+      "term": "TFU (clinical)",
+      "def": "Tinggi Fundus Uteri - jarak dari tepi atas simfisis pubis ke puncak fundus uteri yang diukur dengan pita ukur (dalam cm) saat kandung kemih kosong. Pada trimester 2-3, TFU mendekati usia kehamilan dalam minggu (metode McDonald), dengan deviasi lebih dari 2-3 cm memicu evaluasi pertumbuhan janin.",
+      "type": "clinical",
+      "aliases": [
+        "Tinggi Fundus Uteri",
+        "Fundal Height",
+        "TFU"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_03",
+      "term": "DJJ (clinical)",
+      "def": "Denyut Jantung Janin - frekuensi denyut jantung fetus yang didengarkan menggunakan fetoskop (Laennec/Pinard) atau doppler pada sisi punggung janin, dihitung 60 detik penuh. Nilai normal 110-160 kali per menit, reguler. Lokasi auskultasi berbeda sesuai presentasi dan posisi punggung.",
+      "type": "clinical",
+      "aliases": [
+        "Denyut Jantung Janin",
+        "Fetal Heart Rate",
+        "FHR",
+        "DJJ"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_04",
+      "term": "engagement (clinical)",
+      "def": "Keadaan saat bagian terbawah janin (biasanya kepala) sudah melewati pintu atas panggul (PAP). Dinilai dengan Leopold IV - divergen (kedua tangan pemeriksa tidak bertemu saat menekan ke bawah) menandakan kepala sudah masuk PAP, dengan derajat 5/5 (belum), 4/5, 3/5, 2/5, 1/5, hingga 0/5 (sangat dalam).",
+      "type": "clinical",
+      "aliases": [
+        "Engagement",
+        "Penurunan kepala",
+        "Station"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_05",
+      "term": "McDonald method (clinical)",
+      "def": "Metode pengukuran tinggi fundus uteri (TFU) dengan pita ukur dari tepi atas simfisis pubis ke puncak fundus, dilakukan saat kandung kemih kosong. Nilai TFU dalam sentimeter mendekati usia kehamilan dalam minggu pada trimester 2-3 (dengan deviasi ± 2 cm); rumus taksiran berat janin Johnson-Toshach: TBJ (gram) = (TFU - n) x 155, dengan n=12 bila kepala belum masuk, n=11 bila sudah masuk PAP.",
+      "type": "clinical",
+      "aliases": [
+        "Metode McDonald",
+        "Pengukuran TFU",
+        "Johnson-Toshach"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_06",
+      "term": "makrosomia (clinical)",
+      "def": "Kondisi berat badan lahir bayi yang berlebihan, umumnya >4000 gram. Curiga bila TFU lebih besar dari usia kehamilan, ibu dengan diabetes mellitus/gestasional, obesitas, atau riwayat bayi besar. Perlu konfirmasi USG untuk biometri janin dan rencana persalinan.",
+      "type": "clinical",
+      "aliases": [
+        "Macrosomia",
+        "Bayi besar",
+        "Makrosomia"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_07",
+      "term": "presentasi (clinical)",
+      "def": "Bagian janin yang terbawah dan menjadi bagian yang akan lahir pertama kali pada persalinan. Presentasi normal adalah presentasi kepala (kepala di bawah), sedangkan malpresentasi mencakup presentasi bokong/sungsang (frank, complete, incomplete) dan presentasi letak lintang/miring.",
+      "type": "clinical",
+      "aliases": [
+        "Presentasi janin",
+        "Fetal presentation"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_anat_08",
+      "term": "PAP (anatomy)",
+      "def": "Pintu Atas Panggul - batas atas rongga panggul yang menjadi acuan dalam penilaian engagement kepala janin pada Leopold IV. Derajat engagement kepala melewati PAP dinyatakan dalam pecahan 5/5 (belum masuk) hingga 0/5 (sangat dalam).",
+      "type": "anatomy",
+      "aliases": [
+        "Pintu Atas Panggul",
+        "Pelvic inlet"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_09",
+      "term": "IUGR (clinical)",
+      "def": "Intrauterine Growth Restriction - kondisi pertumbuhan janin yang terhambat sehingga berat janin lebih kecil dari seharusnya untuk usia gestasi. Curiga bila TFU lebih kecil dari usia kehamilan (lebih dari 2-3 cm deviasi) atau DJJ/gerak janin berkurang; perlu evaluasi USG biometri, doppler arteri umbilikalis, dan rujukan SpOG.",
+      "type": "clinical",
+      "aliases": [
+        "Intrauterine Growth Restriction",
+        "Pertumbuhan janin terhambat",
+        "IUGR"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_proc_10",
+      "term": "informed consent (procedure)",
+      "def": "Proses persetujuan tindakan medis setelah pasien mendapat penjelasan lengkap tentang tujuan, prosedur, manfaat, risiko, dan alternatif. Dilakukan secara verbal (dan tertulis bila tindakan invasif) sebelum pemeriksaan Leopold, palpasi abdomen, atau tindakan obstetri lainnya. Pasien berhak menolak atau membatalkan kapan saja.",
+      "type": "procedure",
+      "aliases": [
+        "Persetujuan Tindakan Medis",
+        "Informed Consent"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_proc_11",
+      "term": "APD (procedure)",
+      "def": "Alat Pelindung Diri - perlengkapan yang dipakai oleh tenaga kesehatan untuk melindungi diri dari paparan cairan tubuh atau risiko infeksi, mencakup sarung tangan, masker, apron, dan kacamata pelindung. Pada pemeriksaan Leopold, APD minimal berupa sarung tangan bila ada kemungkinan kontak dengan cairan; APD tambahan digunakan sesuai prosedur invasif.",
+      "type": "procedure",
+      "aliases": [
+        "Alat Pelindung Diri",
+        "Personal Protective Equipment",
+        "APD"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_12",
+      "term": "ANC (clinical)",
+      "def": "Antenatal Care - pelayanan kesehatan kehamilan rutin untuk memantau kesehatan ibu dan janin, mendeteksi dini faktor risiko/komplikasi, dan memberikan edukasi. Jadwal kunjungan WHO 2016: minimal 8 kunjungan, trimester 2 setiap 4 minggu, trimester 3 setiap 2-4 minggu, dan setiap minggu mulai minggu ke-36.",
+      "type": "clinical",
+      "aliases": [
+        "Antenatal Care",
+        "Pemeriksaan kehamilan",
+        "ANC"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_13",
+      "term": "trimester (clinical)",
+      "def": "Pembagian usia kehamilan menjadi tiga periode: trimester 1 (minggu 0-13), trimester 2 (minggu 14-27), dan trimester 3 (minggu 28-40). Modul Leopold difokuskan pada kehamilan >24 minggu (akhir trimester 2 hingga trimester 3) saat bagian-bagian janin sudah dapat dipalpasi dengan jelas.",
+      "type": "clinical",
+      "aliases": [
+        "Trimester kehamilan"
+      ]
+    },
+    {
+      "id": "gls_obgyn_antenatal_leopold_clin_14",
+      "term": "KPD (clinical)",
+      "def": "Ketuban Pecah Dini - pecahnya selaput ketuban sebelum waktu persalinan dimulai, ditandai dengan keluarnya cairan jernih/busa/hijau dari vagina, dapat berbau amis. Risiko infeksi, prolaps tali pusat, dan persalinan prematur; perlu observasi, antibiotik profilaksis, dan rujukan sesuai usia gestasi.",
+      "type": "clinical",
+      "aliases": [
+        "Ketuban Pecah Dini",
+        "Premature Rupture of Membranes",
+        "KPD"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_antenatal_leopold_01",
+      "term_id": "Pemeriksaan antenatal",
+      "term_en": "Antenatal Care (ANC)",
+      "context": "Pelayanan kesehatan kehamilan rutin untuk memantau kesehatan ibu dan janin."
+    },
+    {
+      "id": "bil_antenatal_leopold_02",
+      "term_id": "Manuver Leopold",
+      "term_en": "Leopold's Maneuver",
+      "context": "Palpasi abdomen sistematis pada kehamilan >24 minggu untuk menentukan presentasi, letak, punggung, dan engagement."
+    },
+    {
+      "id": "bil_antenatal_leopold_03",
+      "term_id": "Tinggi Fundus Uteri (TFU)",
+      "term_en": "Fundal Height (FH)",
+      "context": "Pengukuran jarak simfisis-fundus dalam cm untuk memperkirakan usia kehamilan dan pertumbuhan janin (metode McDonald)."
+    },
+    {
+      "id": "bil_antenatal_leopold_04",
+      "term_id": "Denyut Jantung Janin (DJJ)",
+      "term_en": "Fetal Heart Rate (FHR)",
+      "context": "Frekuensi denyut jantung janin 110-160 kali per menit, dihitung 60 detik penuh."
+    },
+    {
+      "id": "bil_antenatal_leopold_05",
+      "term_id": "Ketuban Pecah Dini (KPD)",
+      "term_en": "Premature Rupture of Membranes (PROM)",
+      "context": "Pecahnya selaput ketuban sebelum waktunya, risiko infeksi dan prolaps tali pusat."
+    },
+    {
+      "id": "bil_antenatal_leopold_06",
+      "term_id": "Persalinan prematur",
+      "term_en": "Preterm Labor",
+      "context": "Kontraksi teratur dan kuat sebelum usia kehamilan 37 minggu."
+    },
+    {
+      "id": "bil_antenatal_leopold_07",
+      "term_id": "Pintu Atas Panggul (PAP)",
+      "term_en": "Pelvic Inlet",
+      "context": "Batas atas rongga panggul yang menjadi acuan derajat engagement kepala janin."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_antenatal_leopold_leopold_infographic_01",
+      "module_id": "mod_obgyn_skill_antenatal_leopold_013",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Infografik Bahasa Indonesia A4 portrait, empat panel Leopold I, II, III, IV pada ibu hamil trimester tiga, posisi tangan dokter, label fundus, punggung janin, bagian terbawah, PAP, gaya medical textbook clean.",
+      "alt": "Infografik empat panel Leopold I-IV pada ibu hamil trimester tiga, menunjukkan posisi tangan pemeriksa untuk menentukan fundus, punggung, presentasi, dan engagement kepala dengan label dalam Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/leopold_infographic.png"
+    },
+    {
+      "id": "visual_antenatal_leopold_kepala_bokong_02",
+      "module_id": "mod_obgyn_skill_antenatal_leopold_013",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi palpasi obstetri: kepala janin keras bulat melenting vs bokong lunak tidak simetris, tampilan cutaway uterus, label sederhana Bahasa Indonesia, gaya clean medical illustration.",
+      "alt": "Ilustrasi perbandingan kepala janin yang keras, bulat, melenting dengan bokong yang lunak dan tidak simetris pada cutaway uterus, membantu interpretasi palpasi Leopold.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/kepala_bokong.png"
+    },
+    {
+      "id": "visual_antenatal_leopold_djj_lokasi_03",
+      "module_id": "mod_obgyn_skill_antenatal_leopold_013",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Diagram ibu hamil tampak depan, lokasi auskultasi DJJ berdasarkan punggung kiri/kanan dan presentasi kepala/bokong, clean clinical education.",
+      "alt": "Diagram lokasi auskultasi DJJ pada empat kuadran abdomen ibu hamil sesuai presentasi dan posisi punggung janin - bawah umbilikus untuk presentasi kepala, atas umbilikus untuk presentasi bokong.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/djj_lokasi.png"
+    },
+    {
+      "id": "visual_antenatal_leopold_kesimpulan_04",
+      "module_id": "mod_obgyn_skill_antenatal_leopold_013",
+      "section_id": "s11",
+      "type": "table",
+      "generation_prompt": "Poster template kesimpulan pemeriksaan obstetri: janin tunggal, letak, presentasi, punggung, TBJ, kepala 5/5, DJJ, his, rencana, desain premium untuk OSCE.",
+      "alt": "Template kesimpulan obstetri terstruktur untuk OSCE - format: jumlah janin, letak, presentasi, punggung, TBJ, kepala X/5, DJJ, his, dan rencana tindak lanjut.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/kesimpulan_template.png"
+    },
+    {
+      "id": "visual_antenatal_leopold_redflags_05",
+      "module_id": "mod_obgyn_skill_antenatal_leopold_013",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Poster edukasi tanda bahaya kehamilan trimester 2-3 Bahasa Indonesia, perdarahan, sakit kepala, pandangan kabur, gerak janin berkurang, demam, ketuban pecah, sesak, gaya ramah pasien. Clean medical illustration, warna kontras untuk keterbacaan.",
+      "alt": "Poster edukasi tanda bahaya kehamilan trimester 2-3 dalam Bahasa Indonesia: perdarahan, sakit kepala, pandangan kabur, gerak janin berkurang, demam, ketuban pecah, sesak - gaya ramah pasien.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_leopold_013/assets/redflags_anc.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Standar jadwal kunjungan ANC trimester 2 dan 3 sesuai WHO ANC 2016",
+      "source_reference": "WHO ANC 2016 - Recommendations on antenatal care for a positive pregnancy experience",
+      "confidence": "high",
+      "note": "Konten jadwal kontrol pasca-ANC di §8 dan §11 menggunakan standar WHO ANC 2016 (4 minggu sekali TM2, 2-4 minggu sekali TM3, setiap minggu >36 minggu) yang ditandai [DITAMBAHKAN SAAT STANDARDISASI]."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Format SOAP dan kode ICD-10 yang relevan untuk kunjungan antenatal",
+      "source_reference": "Standar RS pendidikan dan ICD-10",
+      "confidence": "high",
+      "note": "Format SOAP di §13 dan daftar kode ICD-10 (Z34.9, O09.90, O32.1, O14.x, dll.) ditambahkan saat standardisasi untuk kelengkapan dokumentasi OSCE."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Daftar pemeriksaan penunjang yang relevan untuk ANC lanjut",
+      "source_reference": "WHO ANC 2016, Modul FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Tabel pemeriksaan penunjang di §10 dan daftar tatalaksana komplikasi di §11 mengikuti standar WHO ANC 2016 dan modul FKIK Universitas Jambi."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "Pola komunikasi OSCE untuk pemeriksaan antenatal dan Leopold",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Mini-skrip komunikasi di §15 dan checklist verbal di Lampiran D mengikuti pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi, ditandai [DITAMBAHKAN SAAT STANDARDISASI]."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Prompt AI untuk generate visual Leopold dan red flags ANC",
+      "source_reference": "Modul ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "5 prompt AI di §19 disiapkan untuk generate visual infografik Leopold, perbedaan kepala/bokong, lokasi DJJ, template kesimpulan, dan poster red flags."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Modul ini membahas pemeriksaan antenatal kehamilan >24 minggu dengan fokus pada manuver Leopold I-IV, pengukuran TFU, dan auskultasi DJJ. Leopold adalah skill ikonik blok 6.1 yang paling sering diujikan di OSCE.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Sumber dokumen utama: PDF Batch 4 File 2: Penuntun Belajar Pemeriksaan Antenatal dan Leopold (FKIK Universitas Jambi), diperkaya dengan SKDI 4A Obgyn, WHO ANC 2016, dan WHO Intrapartum Care 2018. Fokus utama modul ini adalah checklist penilaian OSCE dari PDF kampus, dijelaskan ulang untuk mahasiswa awam.",
+          "tone": "narrative",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Identitas skill dan target OSCE: nama skill adalah Pemeriksaan antenatal dan Leopold pada kehamilan >24 minggu. Fokus checklist mencakup salam, identitas, anamnesis, usia kehamilan/TP, status generalis, inspeksi abdomen, Leopold I-IV, TFU/TBJ, DJJ 60 detik, pemeriksaan tambahan, dan kesimpulan. Makna Leopold adalah palpasi abdomen sistematis untuk menentukan tinggi fundus, bagian janin di fundus, letak punggung, bagian terbawah, dan sejauh mana bagian terbawah masuk panggul. Kesalahan fatal OSCE pada modul ini antara lain tidak menjelaskan prosedur, tangan dingin/kasar, salah posisi pemeriksa, lupa DJJ 60 detik, tidak membuat kesimpulan obstetri, dan tidak menyebut rujukan bila malpresentasi/risiko tinggi.",
+          "tone": "clinical",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Cara memakai modul: prioritas tertinggi adalah checklist penilaian dari file kampus - hafalkan urutan besar tindakan, lalu pahami alasan klinis setiap langkah. Bahasa dibuat sengaja sederhana untuk mahasiswa baru kedokteran. Bagian 'wajib lulus station' berisi hal yang paling mungkin dinilai penguji: komunikasi, keselamatan, teknik inti, interpretasi, dan edukasi. Bagian penyakit terkait mengaitkan skill dengan SKDI 4A Obgyn agar dapat menjawab pertanyaan diagnosis, pemeriksaan penunjang, tatalaksana, edukasi, dan rujukan.",
+          "tone": "narrative",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Urutan berpikir klinis pada ANC lanjut: (1) Pastikan ibu stabil - keadaan umum dan tanda vital; (2) Tentukan usia kehamilan dan TP - usia kehamilan menentukan apakah TFU, DJJ, dan posisi janin sesuai; (3) Inspeksi abdomen - bentuk, simetri, striae, linea nigra, bekas operasi, gerak janin; (4) Palpasi Leopold I-IV secara lembut dan sistematis; (5) Auskultasi DJJ pada sisi punggung janin selama 60 detik; (6) Buat kesimpulan lengkap - janin tunggal/gemeli, letak, presentasi, punggung, TBJ, kepala masuk/tidak, DJJ, his, risiko.",
+          "tone": "clinical",
+          "source": "§1 file sumber - Urutan Berpikir"
+        },
+        {
+          "text": "Skenario klinis utama (digunakan konsisten di seluruh modul): Ny. Sari, 28 tahun, G2P1A0, hamil 32 minggu menurut HPHT, dating untuk ANC. Tidak ada keluhan, gerak janin aktif. Informed consent verbal sudah diberikan. Bekas SC transversal 1 kali. Identitas ini digunakan di §1, §9, §13, §15, dan Lampiran C sebagai skenario latihan.",
+          "tone": "narrative",
+          "source": "§1 file sumber - Skenario Klinis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Leopold adalah palpasi abdomen sistematis untuk menentukan tinggi fundus, bagian janin di fundus, letak punggung, bagian terbawah, dan sejauh mana bagian terbawah masuk panggul.",
+          "sub": [
+            "Fundus",
+            "Punggung",
+            "Presentasi",
+            "Engagement"
+          ],
+          "bold": true,
+          "source": "§1 Prinsip utama"
+        },
+        {
+          "text": "Penguji sangat memperhatikan apakah Anda menyelesaikan dengan kesimpulan obstetri yang terstruktur.",
+          "bold": true,
+          "source": "§1 Prinsip utama"
+        },
+        {
+          "text": "Prioritas tertinggi: hafalkan urutan besar tindakan, lalu pahami alasan klinis setiap langkah.",
+          "sub": [
+            "Komunikasi",
+            "Keselamatan",
+            "Teknik inti",
+            "Interpretasi",
+            "Edukasi"
+          ],
+          "source": "§1 Cara memakai modul"
+        },
+        {
+          "text": "Enam langkah urutan berpikir klinis pada ANC lanjut.",
+          "sub": [
+            "Stabilitas ibu",
+            "Usia kehamilan dan TP",
+            "Inspeksi abdomen",
+            "Leopold I-IV",
+            "DJJ 60 detik",
+            "Kesimpulan terstruktur"
+          ],
+          "source": "§1 Urutan berpikir"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Leopold adalah skill ikonik blok 6.1",
+          "text": "Modul ini paling sering diujikan di OSCE - Leopold adalah skill ikonik blok 6.1. Penguji menilai urutan tindakan, komunikasi, dan kesimpulan obstetri terstruktur. Kunci kelulusan station adalah memulai dari izin dan privasi, menghangatkan tangan, menghitung DJJ 60 detik penuh, dan menutup dengan kesimpulan obstetri yang terformat.",
+          "answer_evidence": "Modul OSCE ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Batas Penggunaan",
+          "text": "Bahan belajar dan simulasi. Tindakan klinis nyata wajib dalam supervisi dan sesuai SOP fasilitas. Leopold adalah teknik bedside yang aman bila dilakukan lembut dan dengan informed consent.",
+          "answer_evidence": "YAML frontmatter dan §1 file sumber"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Standar referensi modul",
+          "text": "Modul ini berbasis: (1) PDF Batch 4 File 2: Penuntun Belajar Pemeriksaan Antenatal dan Leopold (FKIK Universitas Jambi), (2) SKDI 4A Obgyn, (3) WHO ANC 2016, (4) WHO Intrapartum Care 2018.",
+          "answer_evidence": "COVER TABLE Metadata Modul - Sumber File Utama"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_proc_01",
+        "gls_obgyn_antenatal_leopold_clin_02",
+        "gls_obgyn_antenatal_leopold_clin_03",
+        "gls_obgyn_antenatal_leopold_clin_04",
+        "gls_obgyn_antenatal_leopold_clin_12"
+      ],
+      "bilingual": "Skenario utama: Ny. Sari, 28 tahun, G2P1A0, hamil 32 minggu dengan bekas SC transversal. Fokus Leopold: fundus, punggung, presentasi, dan engagement. Penguji menilai urutan, komunikasi, dan kesimpulan obstetri terstruktur."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Alur OSCE mencakup 10 langkah utama dari komunikasi hingga dokumentasi SOAP. Checklist penilaian mencakup komunikasi, anamnesis, status generalis, inspeksi, Leopold I-IV, DJJ, dan kesimpulan obstetri.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur besar OSCE pemeriksaan antenatal dan Leopold dalam satu napas: (1) Komunikasi - salam, perkenalan, identitas, izin, privasi, pendamping; (2) Anamnesis - riwayat haid, obstetri, penyakit ibu, obat/kebiasaan, keluhan; (3) Hitung usia kehamilan dan TP (Naegele: HPHT + 7 hari - 3 bulan + 1 tahun); (4) Status generalis - KU, TB/BB, konjungtiva, sklera, kloasma, edema, TTV, jantung-paru, hati-limpa; (5) Inspeksi abdomen - bentuk, simetri, striae, linea nigra, bekas operasi, gerak janin; (6) Leopold I-IV - palpasi sistematis fundus, punggung, bagian terbawah, penurunan; (7) Auskultasi DJJ 60 detik pada sisi punggung janin; (8) Pemeriksaan tambahan bila indikasi - VT, USG bedside, palpasi panggul; (9) Kesimpulan obstetri terstruktur; (10) Edukasi dan dokumentasi SOAP.",
+          "tone": "clinical",
+          "source": "§2 file sumber - Alur Besar"
+        },
+        {
+          "text": "Checklist OSCE 9 item utama dengan penjelasan: (1-4) Komunikasi, identitas, anamnesis, usia kehamilan/TP - bangun kepercayaan, konfirmasi data, hitung usia gestasi. (5) Status generalis - cari anemia, hipertensi, edema, preeklampsia, status gizi. (6) Inspeksi abdomen - bentuk, simetri, striae, linea nigra, bekas operasi, gerak janin. Leopold I - menentukan tinggi fundus dan bagian di fundus, pemeriksa menghadap kepala ibu. Leopold II - menentukan punggung dan bagian kecil, punggung rata memanjang, ekstremitas benjol kecil. Leopold III - menentukan bagian terbawah, keras bulat homogen = kepala, lunak = bokong. Leopold IV - menilai penurunan bagian terbawah, pemeriksa menghadap kaki ibu. Auskultasi DJJ - dengar di punggung janin selama 60 detik, normal 110-160 x/menit. (7-9) Pemeriksaan tambahan dan kesimpulan obstetri terstruktur.",
+          "tone": "clinical",
+          "source": "§3 file sumber - Checklist OSCE"
+        },
+        {
+          "text": "Cara OSCE pada setiap item: jangan langsung pegang perut pasien - mulai dari izin dan privasi. Status generalis disebutkan dengan kalimat aktif dan nilai. Inspeksi buka area seperlunya, tetap jaga privasi. Pemeriksa menghadap kepala ibu untuk Leopold I, II, dan III. Pemeriksa menghadap kaki ibu untuk Leopold IV. Auskultasi DJJ 60 detik penuh dengan doppler/Pinard. Kesimpulan obstetri berformat: janin tunggal, letak, presentasi, punggung, TBJ, DJJ, his, rencana.",
+          "tone": "narrative",
+          "source": "§3 file sumber - Cara OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "10 langkah alur besar OSCE dalam satu napas",
+          "sub": [
+            "Komunikasi dan identitas",
+            "Anamnesis",
+            "Hitung usia kehamilan dan TP (Naegele)",
+            "Status generalis",
+            "Inspeksi abdomen",
+            "Leopold I-IV",
+            "Auskultasi DJJ 60 detik",
+            "Pemeriksaan tambahan",
+            "Kesimpulan obstetri terstruktur",
+            "Edukasi dan dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "§2 Alur Besar"
+        },
+        {
+          "text": "9 item checklist OSCE utama",
+          "sub": [
+            "Komunikasi, identitas, anamnesis, usia kehamilan/TP",
+            "Status generalis",
+            "Inspeksi abdomen",
+            "Leopold I - fundus",
+            "Leopold II - punggung dan bagian kecil",
+            "Leopold III - bagian terbawah",
+            "Leopold IV - engagement",
+            "Auskultasi DJJ 60 detik",
+            "Pemeriksaan tambahan dan kesimpulan"
+          ],
+          "source": "§3 Checklist"
+        },
+        {
+          "text": "Lima tips nilai tinggi pada OSCE",
+          "sub": [
+            "Jangan langsung pegang perut - mulai dari izin dan privasi",
+            "Hangatkan tangan sebelum palpasi",
+            "Hitung DJJ 60 detik penuh",
+            "Akhiri dengan kesimpulan berformat",
+            "Verbalisasi setiap langkah dengan nada jelas"
+          ],
+          "source": "§2 Tips nilai tinggi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "5 Tips nilai tinggi di station Leopold",
+          "text": "(1) Jangan langsung pegang perut pasien - mulai dari izin dan privasi. (2) Hangatkan tangan sebelum palpasi - uterus tegang bila tangan dingin. (3) Hitung DJJ 60 detik penuh - bukan 10-15 detik. (4) Akhiri dengan kesimpulan berformat: janin tunggal, letak, presentasi, punggung, TBJ, DJJ, his, rencana. (5) Verbalisasi setiap langkah dengan nada jelas.",
+          "answer_evidence": "§2 file sumber - Tips nilai tinggi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Fokus utama pada kehamilan >24 minggu",
+          "text": "Pada kehamilan >24 minggu, Leopold I-IV adalah fokus utama. Pemahaman akan posisi tangan dan interpretasi lebih penting dari rumus TBJ. DJJ dihitung 60 detik penuh sesuai checklist.",
+          "answer_evidence": "§3 file sumber - Catatan"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pesan kunci penguji",
+          "text": "Penguji sangat memperhatikan apakah Anda menyelesaikan dengan kesimpulan obstetri yang terstruktur dan menyebut red flags serta rujukan bila malpresentasi/risiko tinggi.",
+          "answer_evidence": "§2 file sumber - Pesan kunci"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_proc_01",
+        "gls_obgyn_antenatal_leopold_clin_03",
+        "gls_obgyn_antenatal_leopold_clin_05"
+      ],
+      "bilingual": "Alur OSCE 10 langkah: Salam -> Anamnesis -> Usia kehamilan -> Status generalis -> Inspeksi -> Leopold I-IV -> DJJ 60 detik -> Pemeriksaan tambahan -> Kesimpulan -> Edukasi dan SOAP. Verbalisasi setiap langkah dengan nada jelas."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis pada station antenatal lanjut berfungsi untuk konfirmasi identitas, konfirmasi kehamilan, deteksi faktor risiko, dan persiapan pemeriksaan. Empat pertanyaan kunci yang tidak boleh terlewat: HPHT, faktor risiko, tanda bahaya, alergi obat.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station antenatal lanjut berfungsi sebagai empat hal: (1) konfirmasi identitas, (2) konfirmasi kehamilan, (3) deteksi faktor risiko, (4) persiapan pemeriksaan. Prinsip utama anamnesis: konfirmasi kehamilan (HPHT, usia gestasi, gerak janin), riwayat haid/perkawinan/IMS/KB, riwayat kehamilan/persalinan sebelumnya, penyakit ibu/alergi/obat/kebiasaan.",
+          "tone": "clinical",
+          "source": "§4 file sumber - Prinsip utama"
+        },
+        {
+          "text": "Tabel pertanyaan anamnesis wajib: (1) Identitas dan obstetri dasar - usia, pekerjaan, alamat, G/P/A, usia kehamilan menurut HPHT, keluhan utama. Usia <20 atau >35, paritas tinggi, jarak kehamilan dekat, riwayat obstetri buruk menaikkan risiko. (2) Riwayat haid dan HPHT - HPHT valid bila siklus teratur. (3) Gerak janin - kapan mulai terasa, frekuensi 24 jam terakhir, perubahan. Berkurang = red flag. (4) Keluhan kehamilan lanjut - perdarahan, kontraksi, KPD, pusing, sakit kepala, bengkak, pandangan kabur, nyeri ulu hati. Perdarahan = curiga solusio/plasenta previa. Sakit kepala + bengkak = preeklampsia. (5) Riwayat kehamilan/persalinan - abortus, prematur, SC, PPH, preeklampsia, bayi kecil/besar, kematian janin/neonatal. Bekas SC perlu perhatian khusus. (6) Penyakit ibu - hipertensi, diabetes, jantung, ginjal, asma, epilepsi, TB, HIV, anemia, alergi obat. (7) Kebiasaan dan paparan - rokok, alkohol, obat bebas, jamu, hewan peliharaan, paparan infeksi, pekerjaan berat. (8) Status ginekologis - keputihan, nyeri panggul, perdarahan pascakoitus, IMS sebelumnya. (9) Status pernikahan dan keluarga - status suami/keluarga, kehamilan diinginkan/tidak. (10) Vaksinasi - TT, hepatitis B, COVID-19, HPV. (11) Riwayat kontrasepsi - KB sebelumnya, jenis, lama, efek samping.",
+          "tone": "clinical",
+          "source": "§4 file sumber - Tabel Pertanyaan Anamnesis"
+        },
+        {
+          "text": "Cara berpikir praktis - 4 pertanyaan kunci yang tidak boleh terlewat: (1) Apakah HPHT valid dan usia gestasi sudah pasti? (2) Apa faktor risiko ibu-janin (riwayat SC, PPH, preeklampsia, DM)? (3) Apa tanda bahaya (perdarahan, kontraksi, KPD, sakit kepala, bengkak, gerak janin berkurang)? (4) Apa alergi obat dan obat yang sedang diminum?",
+          "tone": "narrative",
+          "source": "§4 file sumber - Cara berpikir praktis"
+        },
+        {
+          "text": "Red flags yang wajib ditanyakan atau dicari: Perdarahan pervaginam banyak, pusing, sinkop, takikardia, hipotensi - kegawatdaruratan (solusio plasenta, plasenta previa, ruptura uteri). Nyeri perut hebat, konstan, dengan atau tanpa perdarahan - solusio, ruptura uteri (khususnya riwayat SC), atau abdomen akut. Kontraksi teratur dan kuat sebelum 37 minggu - persalinan prematur. Ketuban pecah dini (KPD) - keluar cairan jernih/busa/hijau dari vagina, bau amis. Sakit kepala hebat, pandangan kabur, kejang, TD tinggi - preeklampsia/eklampsia. Bengkak wajah/tangan, nyeri ulu hati hebat - preeklampsia. Gerak janin berkurang atau tidak terasa - gawat janin, IUFD. Demam, menggigil, secret berbau busuk - infeksi/korioamnionitis. Sesak, pucat berat, pingsan - anemia berat, syok.",
+          "tone": "clinical",
+          "source": "§4 file sumber - Red Flags"
+        },
+        {
+          "text": "Red flags tambahan: Letak lintang/sungsang aterm, gemeli, bekas SC dengan keluhan nyeri/perdarahan - risiko ruptur uteri, malpresentasi. Hipertensi kronik dengan TD tidak terkontrol - risiko superimposed preeklampsia. Pertumbuhan janin tidak sesuai usia - curiga IUGR/makrosomia, perlu USG. Riwayat SC klasik (vertikal) atau robekan uteri sebelumnya - kontraindikasi persalinan pervaginam.",
+          "tone": "clinical",
+          "source": "§4 file sumber - Red Flags Tambahan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "4 fungsi anamnesis pada station antenatal lanjut",
+          "sub": [
+            "Konfirmasi identitas",
+            "Konfirmasi kehamilan",
+            "Deteksi faktor risiko",
+            "Persiapan pemeriksaan"
+          ],
+          "bold": true,
+          "source": "§4 Prinsip utama"
+        },
+        {
+          "text": "11 domain pertanyaan anamnesis wajib",
+          "sub": [
+            "Identitas dan obstetri dasar",
+            "Riwayat haid dan HPHT",
+            "Gerak janin",
+            "Keluhan kehamilan lanjut",
+            "Riwayat kehamilan/persalinan",
+            "Penyakit ibu",
+            "Kebiasaan dan paparan",
+            "Status ginekologis",
+            "Status pernikahan dan keluarga",
+            "Vaksinasi",
+            "Riwayat kontrasepsi"
+          ],
+          "source": "§4 Tabel Pertanyaan Anamnesis"
+        },
+        {
+          "text": "4 pertanyaan kunci yang tidak boleh terlewat",
+          "sub": [
+            "Apakah HPHT valid dan usia gestasi sudah pasti?",
+            "Apa faktor risiko ibu-janin?",
+            "Apa tanda bahaya yang muncul?",
+            "Apa alergi obat dan obat yang sedang diminum?"
+          ],
+          "bold": true,
+          "source": "§4 Cara berpikir praktis"
+        },
+        {
+          "text": "Red flags wajib ditanyakan: perdarahan banyak, nyeri perut hebat, kontraksi prematur, KPD, sakit kepala hebat dengan pandangan kabur, bengkak wajah/tangan, gerak janin berkurang, demam, sesak/pucat/pingsan.",
+          "source": "§4 Red Flags"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Red Flag: sakit kepala + pandangan kabur + bengkak",
+          "text": "Sakit kepala hebat, pandangan kabur, kejang, TD tinggi - curiga preeklampsia/eklampsia. Bengkak wajah/tangan, nyeri ulu hati hebat - preeklampsia. Selalu ukur TD dan evaluasi proteinuria. Selalu rujuk.",
+          "answer_evidence": "§4 Red Flags dan §11 Manajemen Komplikasi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flag: perdarahan pervaginam banyak",
+          "text": "Perdarahan pervaginam banyak, pusing, sinkop, takikardia, hipotensi - kegawatdaruratan (solusio plasenta, plasenta previa, ruptura uteri). Jangan tunggu, stabilisasi dan rujuk emergensi.",
+          "answer_evidence": "§4 Red Flags dan SKDI 4A/3B"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Riwayat SC klasik/vertikal = kontraindikasi persalinan pervaginam",
+          "text": "Riwayat SC klasik (vertikal) atau robekan uteri sebelumnya merupakan kontraindikasi persalinan pervaginam. Pertimbangkan SC elektif dan rujuk SpOG untuk rencana persalinan.",
+          "answer_evidence": "§4 Red Flags dan §11 Tindak Lanjut"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_clin_14",
+        "gls_obgyn_antenatal_leopold_clin_09",
+        "gls_obgyn_antenatal_leopold_clin_12"
+      ],
+      "bilingual": "Anamnesis ANC lanjut: 4 fungsi (konfirmasi identitas, kehamilan, deteksi risiko, persiapan). 4 pertanyaan kunci: HPHT valid, faktor risiko, tanda bahaya, alergi obat. Red flags: perdarahan, sakit kepala + pandangan kabur, gerak janin berkurang, KPD."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan fisik ANC lanjut mencakup tanda vital, status generalis, inspeksi abdomen, palpasi Leopold I-IV (skill ikonik), auskultasi DJJ 60 detik, dan pemeriksaan jantung-paru, hati-limpa, serta ekstremitas. Leopold IV menilai engagement kepala ke panggul.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan tanda vital dan umum: TD, nadi, suhu, pernapasan, SpO2; kesadaran, tampak sakit/tidak; TB, BB, IMT (jika tersedia); konjungtiva, sklera, kloasma, edema. Nilai normal ibu hamil: TD <140/90 mmHg, nadi 60-100, suhu 36,0-37,5 derajat C, RR 12-20, SpO2 >=95%. Konjungtiva merah muda, sklera tidak ikterik. Kloasma/hiperpigmentasi dapat muncul (normal). Edema fisiologis dapat muncul (ringan). Interpretasi bila abnormal: TD >=140/90 curiga hipertensi/preeklampsia; nadi >120 curiga perdarahan/syok; suhu >38 derajat C curiga infeksi/korioamnionitis; konjungtiva pucat anemia; ikterus penyakit hati/hemolisis; edema wajah/tangan + hipertensi preeklampsia.",
+          "tone": "clinical",
+          "source": "§5 file sumber - Pemeriksaan Tanda Vital dan Umum"
+        },
+        {
+          "text": "Kalimat OSCE untuk tanda vital: 'TD 110/70 mmHg, nadi 80, suhu 36,8 derajat C. Konjungtiva tidak pucat, sklera tidak ikterik, kloasma (+), edema (-). Tanda vital dalam batas normal untuk ibu hamil.'",
+          "tone": "narrative",
+          "source": "§5 file sumber - Kalimat OSCE Tanda Vital"
+        },
+        {
+          "text": "Inspeksi abdomen: lihat bentuk, simetri, striae, linea nigra, bekas operasi, gerak janin, kelainan dinding perut. Nilai normal: bentuk memanjang (kepala di bawah), simetri, striae gravidarum dapat muncul, linea nigra (+) di trimester lanjut, bekas operasi SC transversal di suprapubik (bila ada). Interpretasi bila abnormal: bentuk melebar/asimetris curiga kehamilan gemeli, polihidramnion, mioma, plasenta previa. Bekas SC vertikal/klasik risiko ruptur uteri. Linea nigra kuat + ukuran besar curiga molar (namun biasanya perdarahan). Gerak janin tidak terlihat curiga oligohidramnion, IUFD, IUGR. Kalimat OSCE: 'Abdomen membesar memanjang, simetris, striae (+), linea nigra (+), bekas SC transversal di suprapubik, gerak janin terlihat.'",
+          "tone": "clinical",
+          "source": "§5 file sumber - Inspeksi Abdomen"
+        },
+        {
+          "text": "Leopold I - Tinggi fundus dan bagian di fundus: posisi pemeriksa menghadap kepala ibu. Teknik: kedua telapak tangan di fundus, tekan lembut dan geser bergantian. Temuan: Kepala di fundus - keras, bulat, homogen, melenting (bisa ballotement). Bokong di fundus - lunak, tidak bulat sempurna, tidak melenting. TFU diukur dari tepi atas simfisis pubis ke puncak fundus dengan pita ukur (kandung kemih kosong). TFU sesuai usia gestasi, perkiraan TBJ dengan rumus Johnson-Toshach: TBJ = (TFU - n) x 155 gram (nilai n mengikuti kebijakan skill lab; n=12 bila kepala belum masuk, n=11 bila kepala sudah masuk).",
+          "tone": "clinical",
+          "source": "§5 file sumber - Leopold I"
+        },
+        {
+          "text": "Leopold II - Punggung dan bagian kecil: posisi pemeriksa menghadap kepala ibu. Teknik: kedua tangan di sisi lateral uterus, tekan bergantian dari atas ke bawah. Temuan: Punggung - permukaan rata memanjang dan resisten. Ekstremitas (tangan/kaki) - tonjolan kecil tidak rata, bergerak (ballotement). DJJ paling jelas terdengar di sisi punggung.",
+          "tone": "clinical",
+          "source": "§5 file sumber - Leopold II"
+        },
+        {
+          "text": "Leopold III - Bagian terbawah: posisi pemeriksa menghadap kepala ibu. Teknik: satu tangan di atas simfisis, palpasi bagian terbawah. Temuan: Kepala - keras, bulat, homogen. Bokong - lunak, tidak bulat sempurna. Bisa digoyangkan (ballotement) = belum engaged. Tidak bisa digoyang = sudah engaged.",
+          "tone": "clinical",
+          "source": "§5 file sumber - Leopold III"
+        },
+        {
+          "text": "Leopold IV - Penurunan bagian terbawah (engagement): posisi pemeriksa menghadap kaki ibu. Teknik: kedua tangan di bawah uterus, di atas simfisis, tekan ke arah pintu atas panggul. Temuan: Jari konvergen (kedua tangan menyatu saat menekan ke bawah) = bagian terbawah belum masuk PAP. Jari divergen (kedua tangan tidak bertemu) = bagian terbawah sudah masuk PAP (engaged). Derajat engagement: proporsi kepala yang sudah melewati PAP (5/5, 4/5, 3/5, 2/5, 1/5, 0/5).",
+          "tone": "clinical",
+          "source": "§5 file sumber - Leopold IV"
+        },
+        {
+          "text": "Auskultasi DJJ (Kritis): Letakkan doppler/Pinard pada sisi punggung janin. Hitung 60 detik penuh - bukan 10-15 detik. Catat frekuensi, regularitas, lokasi. Lokasi auskultasi DJJ: presentasi kepala punggung kiri - DJJ terdengar di kuadran kiri bawah, di bawah umbilikus. Presentasi kepala punggung kanan - DJJ terdengar di kuadran kanan bawah. Presentasi bokong - DJJ terdengar di atas umbilikus. Nilai normal: DJJ 110-160 x/menit, reguler. Interpretasi bila abnormal: DJJ <110 atau >160 x/menit curiga gawat janin. DJJ tidak terdengar - evaluasi lebih lanjut, jangan langsung diagnosis IUFD (periksa alat, posisi, gemeli). Kalimat OSCE: 'DJJ terdengar di kuadran kiri bawah umbilikus, 140 x/menit, reguler, dengan doppler.'",
+          "tone": "clinical",
+          "source": "§5 file sumber - Auskultasi DJJ"
+        },
+        {
+          "text": "Pemeriksaan jantung-paru dan hati-limpa: Auskultasi jantung (murmur, irama), paru (ronki, wheezing), palpasi hati dan limpa (bila diperlukan). Nilai normal: irama regular, tidak ada murmur patologis, paru bersih, hati/limpa tidak membesar. Interpretasi bila abnormal: curiga penyakit jantung, paru, hati/limpa yang memengaruhi kehamilan. Kalimat OSCE: 'Jantung: irama regular, tidak ada murmur patologis. Paru: vesikuler normal, tidak ada ronki atau wheezing. Hati dan limpa tidak teraba membesar.'",
+          "tone": "clinical",
+          "source": "§5 file sumber - Jantung-Paru dan Hati-Limpa"
+        },
+        {
+          "text": "Pemeriksaan ekstremitas (bila relevan): Lihat edema pretibial/dorsum pedis, varises, tanda DVT (nyeri betis unilateral, bengkak, kemerahan). Nilai normal: tidak ada edema, varises minimal, tidak ada tanda DVT. Interpretasi bila abnormal: edema pretibial + hipertensi preeklampsia; edema unilateral + nyeri DVT curiga; varises besar edukasi, kompresi, rujuk. Kalimat OSCE: 'Ekstremitas: edema pretibial (-), varises (-), tidak ada tanda DVT.'",
+          "tone": "clinical",
+          "source": "§5 file sumber - Ekstremitas"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Leopold I - Tinggi fundus dan bagian di fundus",
+          "sub": [
+            "Posisi pemeriksa: menghadap kepala ibu",
+            "Teknik: kedua telapak tangan di fundus, tekan lembut dan geser bergantian",
+            "Kepala di fundus: keras, bulat, homogen, melenting (ballotement)",
+            "Bokong di fundus: lunak, tidak bulat sempurna, tidak melenting",
+            "TFU: dari tepi atas simfisis ke puncak fundus dengan pita ukur (kandung kemih kosong)"
+          ],
+          "bold": true,
+          "source": "§5 Leopold I"
+        },
+        {
+          "text": "Leopold II - Punggung dan bagian kecil",
+          "sub": [
+            "Posisi pemeriksa: menghadap kepala ibu",
+            "Teknik: kedua tangan di sisi lateral uterus, tekan bergantian dari atas ke bawah",
+            "Punggung: permukaan rata memanjang dan resisten",
+            "Ekstremitas: tonjolan kecil tidak rata, bergerak (ballotement)",
+            "DJJ paling jelas terdengar di sisi punggung"
+          ],
+          "bold": true,
+          "source": "§5 Leopold II"
+        },
+        {
+          "text": "Leopold III - Bagian terbawah",
+          "sub": [
+            "Posisi pemeriksa: menghadap kepala ibu",
+            "Teknik: satu tangan di atas simfisis, palpasi bagian terbawah",
+            "Kepala: keras, bulat, homogen",
+            "Bokong: lunak, tidak bulat sempurna",
+            "Bisa digoyangkan (ballotement): belum engaged",
+            "Tidak bisa digoyang: sudah engaged"
+          ],
+          "bold": true,
+          "source": "§5 Leopold III"
+        },
+        {
+          "text": "Leopold IV - Penurunan bagian terbawah (engagement)",
+          "sub": [
+            "Posisi pemeriksa: menghadap kaki ibu",
+            "Teknik: kedua tangan di bawah uterus, di atas simfisis, tekan ke arah PAP",
+            "Jari konvergen: bagian terbawah belum masuk PAP",
+            "Jari divergen: bagian terbawah sudah masuk PAP (engaged)",
+            "Derajat engagement: 5/5, 4/5, 3/5, 2/5, 1/5, 0/5"
+          ],
+          "bold": true,
+          "source": "§5 Leopold IV"
+        },
+        {
+          "text": "Auskultasi DJJ (Kritis)",
+          "sub": [
+            "Letakkan doppler/Pinard pada sisi punggung janin",
+            "Hitung 60 detik penuh, bukan 10-15 detik",
+            "Catat frekuensi, regularitas, lokasi",
+            "Presentasi kepala, punggung kiri: kuadran kiri bawah umbilikus",
+            "Presentasi kepala, punggung kanan: kuadran kanan bawah",
+            "Presentasi bokong: di atas umbilikus",
+            "Nilai normal 110-160 x/menit, reguler"
+          ],
+          "source": "§5 Auskultasi DJJ"
+        },
+        {
+          "text": "Temuan Leopold dan artinya (ringkasan tabel)",
+          "sub": [
+            "Leopold I - Apa di fundus? Berapa TFU? - Kepala: keras bulat; Bokong: lunak",
+            "Leopold II - Punggung di kiri/kanan? - Punggung: rata; Ekstremitas: benjol",
+            "Leopold III - Kepala atau bokong di bawah? - Kepala: keras; Bokong: lunak",
+            "Leopold IV - Sudah masuk PAP? - Konvergen: belum; Divergen: sudah"
+          ],
+          "source": "§5 Tabel Leopold"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "TFU (cm) mendekati usia kehamilan dalam minggu (McDonald)",
+          "text": "Metode McDonald: Tinggi Fundus Uteri (TFU) dalam sentimeter mendekati usia kehamilan dalam minggu pada trimester 2-3, dengan deviasi lebih dari 2-3 cm memicu kecurigaan IUGR, makrosomia, oligo/polihidramnion, atau kehamilan ganda. Rumus Johnson-Toshach: TBJ (gram) = (TFU - n) x 155, dengan n=12 bila kepala belum masuk, n=11 bila sudah masuk PAP.",
+          "answer_evidence": "§5 Leopold I dan Modul ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "DJJ tidak terdengar - jangan langsung diagnosis IUFD",
+          "text": "DJJ tidak terdengar belum tentu IUFD. Periksa alat (doppler/Pinard), ganti posisi pemeriksaan, curiga gemeli. Jika setelah evaluasi tetap tidak terdengar, USG segera dan jangan langsung nyatakan IUFD. DJJ <110 atau >160 x/menit curiga gawat janin, perlu evaluasi lebih lanjut.",
+          "answer_evidence": "§5 Auskultasi DJJ dan §11 Manajemen Komplikasi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Posisi pemeriksa berbeda tiap Leopold",
+          "text": "Leopold I, II, III pemeriksa menghadap kepala ibu. Leopold IV pemeriksa menghadap kaki ibu. Salah posisi pemeriksa = fatal untuk skor teknik.",
+          "answer_evidence": "§5 Leopold I-IV dan §18 Kesalahan Fatal"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Nilai normal ibu hamil",
+          "text": "TD <140/90 mmHg, nadi 60-100, suhu 36,0-37,5 derajat C, RR 12-20, SpO2 >=95%. DJJ 110-160 x/menit reguler. Konjungtiva merah muda, sklera tidak ikterik, edema fisiologis ringan dapat muncul normal.",
+          "answer_evidence": "§5 Tanda Vital Umum dan Auskultasi DJJ"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_leopold_leopold_infographic_01",
+        "visual_antenatal_leopold_kepala_bokong_02",
+        "visual_antenatal_leopold_djj_lokasi_03"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_proc_01",
+        "gls_obgyn_antenatal_leopold_clin_02",
+        "gls_obgyn_antenatal_leopold_clin_03",
+        "gls_obgyn_antenatal_leopold_clin_04",
+        "gls_obgyn_antenatal_leopold_clin_05",
+        "gls_obgyn_antenatal_leopold_clin_07",
+        "gls_obgyn_antenatal_leopold_anat_08"
+      ],
+      "bilingual": "Pemeriksaan fisik ANC: Leopold I-IV (skill ikonik) - fundus, punggung, presentasi, engagement. Auskultasi DJJ 60 detik pada sisi punggung. TFU = usia gestasi (McDonald). Posisi pemeriksa: kepala ibu (L1-III), kaki ibu (L4)."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat yang perlu disiapkan mencakup meja periksa, tensimeter, stetoskop/doppler, pita ukur, sarung tangan, dan buku KIA. Prosedur utama: salam -> informed consent -> anamnesis -> status generalis -> inspeksi -> Leopold I-IV -> DJJ 60 detik -> kesimpulan terstruktur.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Alat yang harus disebutkan (minimum 5): Meja periksa/ranjang - pasien posisi supine. Tensimeter - pengukuran TD. Stetoskop/alat Doppler/Laennec/Pinard - auskultasi DJJ. Pita ukur (meteran) - pengukuran TFU. Sarung tangan (bila VT/pemeriksaan dalam) - DTT/steril. Tissue/kain - membersihkan perut (bila perlu). Klorin 0,5% - dekontaminasi pasca-tindakan (bila alat non-disposable). Buku KIA/kartu ibu - dokumentasi kunjungan. Lampu - penerangan adekuat.",
+          "tone": "clinical",
+          "source": "§6 file sumber - Alat"
+        },
+        {
+          "text": "APD: Sarung tangan (bila perlu kontak dengan cairan); masker, apron, kacamata pelindung (bila tersedia). Cara mempersiapkan pasien: (1) Jelaskan bahwa dokter akan melakukan palpasi abdomen - mungkin tidak nyaman, tapi lembut dan dengan izin. (2) Minta izin eksplisit, tawarkan pendamping perempuan, siapkan privasi. (3) Pasien posisi supine dengan bantal di bawah kepala, lutut sedikit fleksi (rilekskan otot abdomen). (4) Hangatkan tangan sebelum palpasi - penting untuk mencegah kontraksi/ketegangan abdomen. (5) Buka area abdomen yang diperlukan saja, tetap jaga privasi. (6) Inspeksi dulu, baru palpasi. (7) Palpasi lembut dan sistematis - Leopold I -> II -> III -> IV. (8) Auskultasi DJJ 60 detik. (9) Buat kesimpulan obstetri terstruktur. (10) Setelah selesai: rapikan pasien, dokumentasi, edukasi, salam penutup.",
+          "tone": "clinical",
+          "source": "§6 file sumber - Cara Mempersiapkan Pasien"
+        },
+        {
+          "text": "Momen cuci tangan (sesuai WHO): Sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien.",
+          "tone": "evidence",
+          "source": "§6 file sumber - Momen Cuci Tangan WHO"
+        },
+        {
+          "text": "Fase Persiapan prosedur utama: (1) Salam, perkenalan, identitas - bangun kepercayaan, konfirmasi data. (2) Informed consent - bahasa awam, jelaskan prosedur, rasa tidak nyaman. (3) Anamnesis - lengkap, dengan bahasa netral. (4) Hitung usia kehamilan dan TP (Naegele: HPHT + 7 hari - 3 bulan + 1 tahun). (5) Persiapan alat - tensimeter, stetoskop/doppler, pita ukur, sarung tangan, klorin. (6) Cuci tangan dan APD sesuai kebutuhan. (7) Hangatkan tangan sebelum palpasi. Keselamatan pasien: Consent, privasi, komunikasi netral, tangan hangat.",
+          "tone": "clinical",
+          "source": "§7 file sumber - Fase Persiapan"
+        },
+        {
+          "text": "Fase Pelaksanaan - Status Generalis: (1) KU, TB/BB, IMT (jika tersedia). (2) Konjungtiva, sklera, kloasma, edema. (3) TTV - TD, nadi, suhu, pernapasan, SpO2. (4) Auskultasi jantung-paru. (5) Palpasi hati-limpa (bila diperlukan). (6) Pemeriksaan ekstremitas - edema, varises, tanda DVT. Keselamatan pasien: Cari anemia, hipertensi, edema, preeklampsia, gawat janin.",
+          "tone": "clinical",
+          "source": "§7 file sumber - Fase Pelaksanaan Status Generalis"
+        },
+        {
+          "text": "Fase Pelaksanaan - Inspeksi dan Palpasi Abdomen (Leopold I-IV): (1) Inspeksi abdomen - bentuk, simetri, striae, linea nigra, bekas operasi, gerak janin. (2) Leopold I - fundus: bagian yang ada, TFU. (3) Leopold II - punggung dan bagian kecil. (4) Leopold III - bagian terbawah (kepala/bokong), ballotement. (5) Leopold IV - penurunan (engagement), derajat kepala. Keselamatan pasien: Palpasi lembut, hindari tekanan berlebihan, komunikasi setiap langkah.",
+          "tone": "clinical",
+          "source": "§7 file sumber - Fase Palpasi Leopold"
+        },
+        {
+          "text": "Fase Pelaksanaan - Auskultasi DJJ: (1) Letakkan doppler/Pinard pada sisi punggung janin (di bawah umbilikus untuk presentasi kepala, di atas umbilikus untuk sungsang). (2) Hitung 60 detik penuh. (3) Catat frekuensi, regularitas, lokasi. Keselamatan pasien: DJJ abnormal -> evaluasi lebih lanjut, jangan tunggu lama.",
+          "tone": "clinical",
+          "source": "§7 file sumber - Fase Auskultasi DJJ"
+        },
+        {
+          "text": "Fase Penutupan dan Kesimpulan: (1) Pemeriksaan tambahan (bila indikasi): VT, USG bedside, palpasi panggul. (2) Buat kesimpulan obstetri - format: janin tunggal/gemeli, letak, presentasi, punggung, TFU, TBJ, DJJ, kepala 5/5 atau X/5, his, risiko, rencana. (3) Dokumentasi SOAP - lengkap. (4) Edukasi keluarga - tanda bahaya, suplemen, ANC, nutrisi. (5) Rujukan - bila faktor risiko/curiga patologi/malpresentasi. (6) Penutup station - salam, kesiapan ibu, kontrol. Keselamatan pasien: Dokumentasi, edukasi safety-net, rujukan tepat waktu.",
+          "tone": "clinical",
+          "source": "§7 file sumber - Fase Penutupan dan Kesimpulan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "9 alat yang harus disiapkan untuk station antenatal lanjut",
+          "sub": [
+            "Meja periksa/ranjang",
+            "Tensimeter",
+            "Stetoskop/Doppler/Laennec/Pinard",
+            "Pita ukur (meteran)",
+            "Sarung tangan (bila VT)",
+            "Tissue/kain",
+            "Klorin 0,5%",
+            "Buku KIA/kartu ibu",
+            "Lampu"
+          ],
+          "bold": true,
+          "source": "§6 Alat"
+        },
+        {
+          "text": "10 langkah mempersiapkan pasien",
+          "sub": [
+            "Jelaskan palpasi abdomen akan dilakukan",
+            "Minta izin eksplisit, tawarkan pendamping",
+            "Pasien posisi supine dengan lutut fleksi",
+            "Hangatkan tangan sebelum palpasi",
+            "Buka area abdomen seperlunya, jaga privasi",
+            "Inspeksi dulu, baru palpasi",
+            "Palpasi lembut Leopold I -> II -> III -> IV",
+            "Auskultasi DJJ 60 detik",
+            "Buat kesimpulan obstetri terstruktur",
+            "Rapikan pasien, dokumentasi, edukasi, salam"
+          ],
+          "source": "§6 Cara Mempersiapkan Pasien"
+        },
+        {
+          "text": "5 fase prosedur utama pemeriksaan antenatal",
+          "sub": [
+            "Fase Persiapan: salam -> informed consent -> anamnesis -> usia kehamilan -> alat -> cuci tangan",
+            "Fase Status Generalis: KU, TTV, konjungtiva, jantung-paru, ekstremitas",
+            "Fase Inspeksi dan Leopold I-IV: fundus, punggung, presentasi, engagement",
+            "Fase Auskultasi DJJ: 60 detik di sisi punggung",
+            "Fase Penutupan: kesimpulan, dokumentasi, edukasi, rujukan"
+          ],
+          "bold": true,
+          "source": "§7 Prosedur Utama"
+        },
+        {
+          "text": "5 momen cuci tangan sesuai WHO",
+          "sub": [
+            "Sebelum kontak dengan pasien",
+            "Sebelum tindakan aseptik",
+            "Setelah paparan cairan tubuh",
+            "Setelah kontak dengan pasien",
+            "Setelah kontak dengan lingkungan pasien"
+          ],
+          "source": "§6 Momen Cuci Tangan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Hangatkan tangan sebelum palpasi",
+          "text": "Hangatkan tangan sebelum palpasi. Inspeksi dulu, baru palpasi. Hitung DJJ 60 detik penuh. Akhiri dengan kesimpulan obstetri yang terstruktur. Tangan dingin membuat uterus tegang dan mengganggu interpretasi palpasi Leopold.",
+          "answer_evidence": "§6 Catatan Klinis dan §2 Tips Nilai Tinggi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kontraindikasi dan kondisi khusus (Lampiran A)",
+          "text": "Kondisi yang menunda/membatalkan tindakan: Perdarahan aktif, KPD, preeklampsia/eklampsia, solusio plasenta curiga, plasenta previa curiga, persalinan prematur aktif, ruptura uteri curiga, hiperemesis gravidarum berat, keganasan ginekologi, kekerasan seksual curiga, pasien menolak, fasilitas tidak memadai, riwayat SC klasik/vertikal, gemeli komplikata. Tindakan: stabilisasi, rujuk emergensi untuk kondisi gawat.",
+          "answer_evidence": "Lampiran A file sumber"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Momen cuci tangan WHO",
+          "text": "5 momen cuci tangan WHO: (1) Sebelum kontak dengan pasien; (2) Sebelum tindakan aseptik; (3) Setelah paparan cairan tubuh; (4) Setelah kontak dengan pasien; (5) Setelah kontak dengan lingkungan pasien. Cuci tangan adalah komponen asepsis yang dinilai di OSCE.",
+          "answer_evidence": "WHO Hand Hygiene dan §6 file sumber"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_leopold_leopold_infographic_01"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_proc_10",
+        "gls_obgyn_antenatal_leopold_proc_11",
+        "gls_obgyn_antenatal_leopold_proc_01",
+        "gls_obgyn_antenatal_leopold_clin_14"
+      ],
+      "bilingual": "Persiapan alat: tensimeter, Doppler, pita ukur, sarung tangan, Buku KIA. 5 fase prosedur: Persiapan -> Status Generalis -> Inspeksi+Leopold -> DJJ -> Penutupan. Hangatkan tangan sebelum palpasi. 5 momen cuci tangan WHO."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-prosedur: rapikan pasien, beri tahu hasil, dekontaminasi alat, cuci tangan, dokumentasi SOAP, edukasi, penutup. Clinical reasoning: 5 pertanyaan klinis dan format kesimpulan obstetri terstruktur beserta diagnosis banding.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-tindakan: (1) Rapikan pasien - bantu turun dari meja, selimuti. (2) Beri tahu hasil - kesimpulan obstetri, risiko, rencana. (3) Dekontaminasi alat - klorin 0,5% 10 menit (bila perlu). (4) Cuci tangan - 6 langkah. (5) Dokumentasi SOAP - lengkap. (6) Edukasi keluarga - tanda bahaya, suplemen, ANC, nutrisi. (7) Penutup - salam, kesiapan ibu, kontrol.",
+          "tone": "clinical",
+          "source": "§8 file sumber - Tindakan Pasca"
+        },
+        {
+          "text": "Cara evaluasi keberhasilan prosedur: Status generalis terdokumentasi (KU, TTV, konjungtiva, edema, jantung-paru). Usia kehamilan dan TP terkonfirmasi. TFU terukur dan TBJ ditaksir. Leopold I-IV lengkap (fundus, punggung, presentasi, engagement). DJJ terdengar dan dihitung 60 detik. Kesimpulan obstetri terstruktur. Ibu memahami hasil dan edukasi.",
+          "tone": "clinical",
+          "source": "§8 file sumber - Evaluasi Keberhasilan"
+        },
+        {
+          "text": "Prosedur terkait/varian: Pemeriksaan Leopold lengkap - fokus utama modul ini. Auskultasi DJJ dengan doppler/Pinard - kesejahteraan janin. Pengukuran TFU dan taksiran TBJ - usia gestasi, pertumbuhan. Pemeriksaan dalam (VT) - bila indikasi (curiga pembukaan, perdarahan, KPD, persalinan mulai). Pemeriksaan panggul (pelvimetri klinis) - untuk kasus risiko tinggi atau bekas SC. USG obstetri - konfirmasi presentasi, letak, biometri, plasenta, kondisi janin. Kardiotokografi (CTG) - bila gawat janin curiga atau persalinan akan dimulai. Pemeriksaan penunjang - darah lengkap, urinalisis, USG.",
+          "tone": "clinical",
+          "source": "§8 file sumber - Prosedur Terkait"
+        },
+        {
+          "text": "Jadwal kontrol pasca-ANC: Trimester 2 (minggu 13-27): kunjungan setiap 4 minggu. Trimester 3 (minggu 28-36): kunjungan setiap 2-4 minggu. Trimester 3 lanjut (minggu 36+): kunjungan setiap minggu, persiapan persalinan. Kapan saja: bila ada tanda bahaya (perdarahan, kontraksi, KPD, sakit kepala, bengkak, gerak janin berkurang, demam). [DITAMBAHKAN SAAT STANDARDISASI] - Jadwal mengikuti standar WHO ANC 2016 dan SOP fasilitas.",
+          "tone": "evidence",
+          "source": "§8 file sumber - Jadwal Kontrol [DITAMBAHKAN SAAT STANDARDISASI]"
+        },
+        {
+          "text": "Clinical reasoning pada station antenatal lanjut berfokus pada kesimpulan obstetri terstruktur dan mengenali risiko/patologi yang memerlukan rujukan. Alur pikir klinis: Pertanyaan 1 - Apakah ibu stabil? -> TTV, status generalis. Pertanyaan 2 - Apakah kehamilan sesuai usia? -> HPHT, TFU, USG dating. Pertanyaan 3 - Apakah presentasi dan letak sesuai? -> Leopold III/IV, USG. Pertanyaan 4 - Apakah janin sehat? -> DJJ 60 detik, gerak janin, USG. Pertanyaan 5 - Apakah ada faktor risiko? -> Anamnesis mendalam, status generalis.",
+          "tone": "clinical",
+          "source": "§9 file sumber - Alur Pikir Klinis"
+        },
+        {
+          "text": "Format kesimpulan obstetri (kriteria 'lulus station'): Jumlah janin - 'Janin tunggal intrauterin.' Letak - 'Letak memanjang.' / 'Letak lintang, perlu evaluasi dan rujukan.' Presentasi - 'Presentasi kepala.' / 'Presentasi bokong.' Punggung - 'Punggung kiri/kanan.' Bagian terbawah - 'Kepala belum masuk PAP, teraba 5/5.' / 'Kepala sudah masuk 3/5.' TBJ - 'TBJ sekitar ... gram, sesuai/tidak sesuai usia kehamilan.' DJJ - 'DJJ positif, reguler, ... kali per menit.' His - 'His tidak ada/ada ... kali dalam 10 menit.' Rencana - 'Lanjut ANC rutin, edukasi tanda bahaya, rujuk bila ditemukan risiko tinggi.'",
+          "tone": "clinical",
+          "source": "§9 file sumber - Format Kesimpulan Obstetri"
+        },
+        {
+          "text": "Tabel diagnosis banding - kondisi yang perlu dikonfirmasi: Kehamilan normal (TTV stabil, TFU sesuai, DJJ normal, presentasi kepala menjelang aterm -> ANC rutin, suplemen, edukasi tanda bahaya, rencana persalinan). Anemia defisiensi besi (konjungtiva pucat, lemah, Hb rendah -> darah rutin/Hb, terapi besi, edukasi minum tablet besi). Malpresentasi sungsang/lintang (Leopold III teraba bokong di bawah atau kepala di fundus -> konfirmasi USG, rujuk/kolaborasi terutama aterm). Kehamilan risiko tinggi (hipertensi, edema wajah/tangan, riwayat SC/PPH/preeklampsia, gemeli, TFU tidak sesuai -> identifikasi risiko, edukasi, rujuk sesuai kegawatan).",
+          "tone": "clinical",
+          "source": "§9 file sumber - Diagnosis Banding"
+        },
+        {
+          "text": "Diagnosis banding tambahan: IUGR (TFU/TBJ lebih kecil dari usia gestasi, gerak janin berkurang -> evaluasi ulang usia gestasi, USG pertumbuhan, rujuk). Makrosomia (TFU/TBJ lebih besar dari usia gestasi, ibu DM/obesitas -> evaluasi, USG, rujuk untuk rencana persalinan). Preeklampsia (TD >=140/90, proteinuria, edema, sakit kepala, pandangan kabur -> evaluasi proteinuria, antihipertensi, MgSO4, rujuk). Solusio plasenta (perdarahan, nyeri perut, TFU meningkat, DJJ memburuk -> stabilisasi, rujuk emergensi). Plasenta previa (perdarahan tanpa nyeri, TFU sesuai -> USG, jangan VT, rujuk). KPD (keluar cairan dari vagina, tidak ada his -> observasi, antibiotik profilaksis, rujuk). Kehamilan ganda (TFU lebih besar dari usia, teraba 2 kutub besar, 2 DJJ -> USG, rujuk). Polihidramnion (TFU lebih besar, abdomen tegang, gerak janin tidak jelas -> USG, evaluasi penyebab, rujuk). Oligohidramnion (TFU lebih kecil, gerak janin tidak nyaman, DJJ sulit -> USG, evaluasi penyebab, rujuk).",
+          "tone": "clinical",
+          "source": "§9 file sumber - Diagnosis Banding Tambahan"
+        },
+        {
+          "text": "Pembedaan cepat presentasi normal vs malpresentasi: Presentasi Kepala Normal - Leopold III keras, bulat, homogen; Leopold IV divergen (sudah masuk PAP); DJJ di bawah umbilikus; VT kepala teraba, fontanel/belakang kepala; tatalaksana lanjut ANC, persalinan pervaginam; pembeda utama Leopold III keras bulat. Presentasi Bokong - Leopold III lunak, tidak bulat; Leopold IV sering konvergen (belum masuk); DJJ di atas umbilikus; VT bokong teraba; tatalaksana rujuk USG, kolaborasi; pembeda utama Leopold III lunak. Letak Lintang - Leopold III tidak teraba jelas, kosong di bawah; Leopold IV tidak teraba; DJJ bisa tidak jelas; VT bahu/tangan teraba; tatalaksana rujuk/kolaborasi; pembeda utama Leopold III kosong.",
+          "tone": "clinical",
+          "source": "§9 file sumber - Pembedaan Cepat"
+        },
+        {
+          "text": "Kapan HARUS merujuk: Segera (emergency) - perdarahan banyak, syok, preeklampsia, solusio, KPD dengan persalinan, gawat janin, ruptura uteri curiga. Same day - preeklampsia ringan, anemia berat, gerak janin berkurang, KPD tanpa his. Rutin - ANC, malpresentasi cukup bulan (untuk kolaborasi), riwayat SC dengan nyeri. Tunda elektif - tidak relevan untuk kondisi emergensi.",
+          "tone": "clinical",
+          "source": "§9 file sumber - Kapan Harus Merujuk"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "7 langkah tindakan pasca-tindakan",
+          "sub": [
+            "Rapikan pasien - bantu turun dari meja, selimuti",
+            "Beri tahu hasil - kesimpulan obstetri, risiko, rencana",
+            "Dekontaminasi alat - klorin 0,5% 10 menit (bila perlu)",
+            "Cuci tangan - 6 langkah",
+            "Dokumentasi SOAP - lengkap",
+            "Edukasi keluarga - tanda bahaya, suplemen, ANC, nutrisi",
+            "Penutup - salam, kesiapan ibu, kontrol"
+          ],
+          "source": "§8 Tindakan Pasca"
+        },
+        {
+          "text": "9 komponen kesimpulan obstetri (kriteria 'lulus station')",
+          "sub": [
+            "Jumlah janin (tunggal/gemeli)",
+            "Letak (memanjang/melintang)",
+            "Presentasi (kepala/bokong)",
+            "Punggung (kiri/kanan)",
+            "Bagian terbawah + derajat kepala (5/5, 3/5, dll.)",
+            "TBJ (gram, sesuai/tidak)",
+            "DJJ (frekuensi, regularitas)",
+            "His (frekuensi, kekuatan)",
+            "Rencana (ANC, kolaborasi, rujukan)"
+          ],
+          "bold": true,
+          "source": "§9 Format Kesimpulan"
+        },
+        {
+          "text": "13 diagnosis banding utama ANC lanjut",
+          "sub": [
+            "Kehamilan normal",
+            "Anemia defisiensi besi",
+            "Malpresentasi (sungsang/lintang)",
+            "Kehamilan risiko tinggi",
+            "IUGR",
+            "Makrosomia",
+            "Preeklampsia",
+            "Solusio plasenta",
+            "Plasenta previa",
+            "KPD",
+            "Kehamilan ganda (gemeli)",
+            "Polihidramnion",
+            "Oligohidramnion"
+          ],
+          "source": "§9 Tabel Diagnosis Banding"
+        },
+        {
+          "text": "5 pertanyaan clinical reasoning",
+          "sub": [
+            "Apakah ibu stabil? (TTV, status generalis)",
+            "Apakah kehamilan sesuai usia? (HPHT, TFU, USG)",
+            "Apakah presentasi dan letak sesuai? (Leopold III/IV, USG)",
+            "Apakah janin sehat? (DJJ 60 detik, gerak janin, USG)",
+            "Apakah ada faktor risiko? (Anamnesis mendalam, status generalis)"
+          ],
+          "source": "§9 Alur Pikir Klinis"
+        },
+        {
+          "text": "Jadwal kontrol pasca-ANC (standar WHO ANC 2016)",
+          "sub": [
+            "Trimester 2 (minggu 13-27): setiap 4 minggu",
+            "Trimester 3 (minggu 28-36): setiap 2-4 minggu",
+            "Trimester 3 lanjut (minggu 36+): setiap minggu",
+            "Kapan saja: bila ada tanda bahaya"
+          ],
+          "source": "§8 Jadwal Kontrol [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Format kesimpulan obstetri = kunci kelulusan station",
+          "text": "Format kelulusan: (1) Jumlah janin, (2) Letak, (3) Presentasi, (4) Punggung, (5) Kepala 5/5 atau X/5, (6) TBJ, (7) DJJ, (8) His, (9) Rencana. Penguji sangat menilai kesimpulan yang profesional. Tidak membuat kesimpulan obstetri = fatal untuk skor.",
+          "answer_evidence": "§9 Format Kesimpulan dan §18 Kesalahan Fatal"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "TFU tidak sesuai usia = curiga patologi",
+          "text": "TFU lebih besar dari usia gestasi curiga: makrosomia, polihidramnion, gemeli, mioma. TFU lebih kecil curiga: IUGR, oligohidramnion, IUFD. Deviasi lebih dari 2-3 cm dari usia kehamilan memicu evaluasi USG dan kemungkinan rujukan.",
+          "answer_evidence": "§9 Diagnosis Banding dan Modul ObGyn FKIK"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Rujukan emergensi vs rutin",
+          "text": "EMERGENCY (rujuk segera): perdarahan banyak, syok, preeklampsia, solusio, KPD dengan persalinan, gawat janin, ruptura uteri curiga. SAME DAY: preeklampsia ringan, anemia berat, gerak janin berkurang, KPD tanpa his. RUTIN: ANC, malpresentasi cukup bulan (kolaborasi), riwayat SC dengan nyeri.",
+          "answer_evidence": "§9 Kapan Harus Merujuk dan SKDI 4A/3B"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_leopold_kesimpulan_04"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_clin_06",
+        "gls_obgyn_antenatal_leopold_clin_07",
+        "gls_obgyn_antenatal_leopold_clin_09",
+        "gls_obgyn_antenatal_leopold_clin_14"
+      ],
+      "bilingual": "Pasca-tindakan: rapikan, dekontaminasi, cuci tangan, SOAP, edukasi. Clinical reasoning: 5 pertanyaan (ibu stabil, kehamilan sesuai usia, presentasi sesuai, janin sehat, faktor risiko). Format kesimpulan: jumlah, letak, presentasi, punggung, kepala, TBJ, DJJ, his, rencana."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang ANC lanjut mencakup darah lengkap, golongan darah, gula darah, urinalisis, tes IMS, USG obstetri, CTG, dan doppler umbilikalis. Tatalaksana mencakup suplementasi, jadwal ANC, dan manajemen komplikasi (perdarahan, preeklampsia, solusio, KPD, gawat janin, anemia).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang untuk ANC lanjut: Darah lengkap (Hb, leukosit, trombosit) - indikasi anemia, infeksi, pra-tindakan; nilai normal Hb >=11 g/dL (ibu hamil); tersedia di Puskesmas dan RS. Golongan darah + Rh - ANC rutin, persiapan transfusi; catat; tersedia di Puskesmas dan RS. Gula darah - DM gestasional, riwayat DM; puasa <95 mg/dL, sewaktu <140 mg/dL; tersedia di Puskesmas dan RS. Urinalisis - ISK, proteinuria (preeklampsia); negatif atau trace; tersedia di Puskesmas.",
+          "tone": "clinical",
+          "source": "§10 file sumber - Pemeriksaan Penunjang"
+        },
+        {
+          "text": "Pemeriksaan penunjang tambahan: Tes IMS (HIV, sifilis, hepatitis B) - skrining pranatal; non-reaktif; tersedia di Puskesmas dan RS. USG obstetri (dating, biometri, presentasi, plasenta) - konfirmasi usia, presentasi, letak plasenta, pertumbuhan; janin intrauterin, sesuai usia, presentasi kepala; tersedia di RS/klinik USG. Kardiotokografi (CTG) - gawat janin curiga, persalinan mulai; reaktif, variabel normal; tersedia di RS. Doppler arteri umbilikalis - curiga IUGR, pertumbuhan janin kurang; resistensi normal; tersedia di RS.",
+          "tone": "clinical",
+          "source": "§10 file sumber - Pemeriksaan Penunjang Tambahan"
+        },
+        {
+          "text": "Pemeriksaan khusus: Tes non-stress (NST) - gawat janin curiga, persalinan mulai; reaktif; tersedia di RS. Tes stres oksitosin (CST) - kontraindikasi riwayat SC, plasenta previa; negatif; tersedia di RS. EKG - penyakit jantung, usia >40; irama normal; tersedia di RS. Fungsi hati/ginjal - preeklampsia, penyakit hati/ginjal; sesuai nilai lab; tersedia di RS. LDH, asam urat - preeklampsia, HELLP curiga; sesuai nilai lab; tersedia di RS.",
+          "tone": "clinical",
+          "source": "§10 file sumber - Pemeriksaan Khusus"
+        },
+        {
+          "text": "Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: USG tingkat lanjut (doppler, anomaly scan, fetal echocardiography). Lab metabolik (asam-basa, laktat). MRI pelvis. Catatan penting: Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab.",
+          "tone": "clinical",
+          "source": "§10 file sumber - Catatan",
+          "_original_content_tone": "note"
+        },
+        {
+          "text": "Tindak lanjut dan ANC: ANC rutin - Trimester 2: 4 minggu sekali. Trimester 3: 2-4 minggu sekali. 36+: setiap minggu. Suplemen - Fe 60 mg/hari + asam folat 400 mikrogram/hari, kalsium 1-1,5 g/hari, sesuai program. Nutrisi - Diet seimbang, kenaikan BB sesuai IMT. Imunisasi - TT, hepatitis B (bila belum), vaksin influenza (bila musim). Skrining - HIV, sifilis, hepatitis B, gula darah, urinalisis. USG - Anomaly scan (20-24 minggu), pertumbuhan (28-32 minggu), presentasi (>=36 minggu). Konseling - Tanda bahaya, KB pascasalin, IMD, ASI eksklusif, rencana persalinan. Rencana persalinan - Tempat persalinan, penolong, transportasi, donor darah.",
+          "tone": "clinical",
+          "source": "§11 file sumber - Tindak Lanjut dan ANC"
+        },
+        {
+          "text": "Manajemen komplikasi (tanda bahaya): Perdarahan pervaginam - tanda/gejala perdarahan merah, banyak/dikit; tatalaksana awal stabilisasi, akses IV, RL, evaluasi; kapan rujuk selalu rujuk. Preeklampsia/eklampsia - tanda/gejala TD >=140/90, proteinuria, sakit kepala, kejang; tatalaksana awal stabilisasi, antihipertensi (nifedipine 10 mg oral atau labetalol IV), MgSO4 (loading 4 g IV, maintenance 1 g/jam); kapan rujuk selalu rujuk. Solusio plasenta - tanda/gejala perdarahan + nyeri perut, TFU meningkat, DJJ memburuk; tatalaksana awal stabilisasi, rujuk emergensi; kapan rujuk selalu rujuk. Plasenta previa - tanda/gejala perdarahan tanpa nyeri, jangan VT; tatalaksana awal USG, jangan periksa dalam, rujuk; kapan rujuk selalu rujuk.",
+          "tone": "clinical",
+          "source": "§11 file sumber - Manajemen Komplikasi 1"
+        },
+        {
+          "text": "Manajemen komplikasi lanjutan: KPD - tanda/gejala keluar cairan, tidak ada his; tatalaksana awal observasi, antibiotik profilaksis (eritromisin), rujuk; kapan rujuk sesuai usia gestasi. Gawat janin - tanda/gejala DJJ <110 atau >160, gerak janin berkurang; tatalaksana awal posisi kiri miring, oksigen, rujuk; kapan rujuk rujuk. Kehamilan ganda - tanda/gejala TFU besar, 2 DJJ, teraba banyak bagian; tatalaksana awal USG, rujuk untuk persalinan; kapan rujuk rujuk. Malpresentasi aterm - tanda/gejala sungsang/lintang >=37 minggu; tatalaksana awal USG, rujuk untuk kolaborasi/SC; kapan rujuk rujuk. Infeksi/korioamnionitis - tanda/gejala demam, secret berbau, nyeri perut; tatalaksana awal antibiotik, rujuk; kapan rujuk rujuk. Anemia berat - tanda/gejala Hb <7 g/dL, pucat, lemah, takikardia; tatalaksana awal transfusi PRC, Fe, asam folat; kapan rujuk rujuk. Sinkop/collapse - tanda/gejala kehilangan kesadaran, pucat; tatalaksana awal posisi aman, akses IV, evaluasi; kapan rujuk rujuk.",
+          "tone": "clinical",
+          "source": "§11 file sumber - Manajemen Komplikasi 2"
+        },
+        {
+          "text": "Jadwal tindak lanjut: Trimester 2 (minggu 13-27) - kunjungan setiap 4 minggu, suplemen Fe+asam folat, USG anomaly scan. Trimester 3 (minggu 28-36) - kunjungan setiap 2-4 minggu, evaluasi presentasi, persiapan persalinan. Trimester 3 lanjut (minggu 36+) - kunjungan setiap minggu, rencana persalinan, IMD/ASI. Kapan saja: bila ada tanda bahaya. [DITAMBAHKAN SAAT STANDARDISASI] - Jadwal mengikuti standar WHO ANC 2016.",
+          "tone": "evidence",
+          "source": "§11 file sumber - Jadwal Tindak Lanjut [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "13 pemeriksaan penunjang ANC lanjut",
+          "sub": [
+            "Darah lengkap (Hb, leukosit, trombosit)",
+            "Golongan darah + Rh",
+            "Gula darah",
+            "Urinalisis",
+            "Tes IMS (HIV, sifilis, hepatitis B)",
+            "USG obstetri (dating, biometri, presentasi, plasenta)",
+            "Kardiotokografi (CTG)",
+            "Doppler arteri umbilikalis",
+            "Tes non-stress (NST)",
+            "Tes stres oksitosin (CST)",
+            "EKG",
+            "Fungsi hati/ginjal",
+            "LDH, asam urat"
+          ],
+          "source": "§10 Pemeriksaan Penunjang"
+        },
+        {
+          "text": "8 aspek tindak lanjut ANC",
+          "sub": [
+            "ANC rutin (4 minggu TM2, 2-4 minggu TM3, setiap minggu >36)",
+            "Suplemen (Fe 60 mg/hari + asam folat 400 mikrogram/hari + kalsium 1-1,5 g/hari)",
+            "Nutrisi (diet seimbang, kenaikan BB sesuai IMT)",
+            "Imunisasi (TT, hepatitis B, influenza)",
+            "Skrining (HIV, sifilis, hepatitis B, gula darah, urinalisis)",
+            "USG (anomaly scan 20-24 minggu, pertumbuhan 28-32 minggu, presentasi >=36 minggu)",
+            "Konseling (tanda bahaya, KB pascasalin, IMD, ASI, rencana persalinan)",
+            "Rencana persalinan (tempat, penolong, transportasi, donor darah)"
+          ],
+          "source": "§11 Tindak Lanjut dan ANC"
+        },
+        {
+          "text": "11 komplikasi kehamilan dan tatalaksananya",
+          "sub": [
+            "Perdarahan pervaginam -> stabilisasi, IV, rujuk",
+            "Preeklampsia/eklampsia -> antihipertensi, MgSO4, rujuk",
+            "Solusio plasenta -> stabilisasi, rujuk emergensi",
+            "Plasenta previa -> USG, jangan VT, rujuk",
+            "KPD -> observasi, antibiotik profilaksis, rujuk",
+            "Gawat janin -> kiri miring, oksigen, rujuk",
+            "Kehamilan ganda -> USG, rujuk",
+            "Malpresentasi aterm -> USG, rujuk kolaborasi/SC",
+            "Infeksi/korioamnionitis -> antibiotik, rujuk",
+            "Anemia berat -> transfusi PRC, Fe, asam folat, rujuk",
+            "Sinkop/collapse -> posisi aman, IV, evaluasi, rujuk"
+          ],
+          "bold": true,
+          "source": "§11 Manajemen Komplikasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Preeklampsia/eklampsia - dosis emergensi",
+          "text": "Preeklampsia/eklampsia: Stabilisasi, antihipertensi (nifedipine 10 mg oral atau labetalol IV), MgSO4 (loading 4 g IV dalam 15-20 menit, maintenance 1 g/jam). Selalu rujuk. Jangan tunda rujukan - risiko eklampsia, IUGR, solusio.",
+          "answer_evidence": "§11 Manajemen Komplikasi dan WHO ANC 2016"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Plasenta previa - JANGAN lakukan VT",
+          "text": "Plasenta previa: perdarahan tanpa nyeri. Tatalaksana: USG, jangan periksa dalam (VT), rujuk. Pemeriksaan dalam pada plasenta previa dapat memicu perdarahan masif. Ini kontraindikasi mutlak.",
+          "answer_evidence": "§11 Manajemen Komplikasi dan SKDI 3B"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Pada OSCE, jangan mengarang hasil lab",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Sebutkan hanya pemeriksaan yang relevan dengan skenario dan indikasinya.",
+          "answer_evidence": "§10 Catatan Penting"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_clin_06",
+        "gls_obgyn_antenatal_leopold_clin_09",
+        "gls_obgyn_antenatal_leopold_clin_12",
+        "gls_obgyn_antenatal_leopold_clin_14"
+      ],
+      "bilingual": "Pemeriksaan penunjang: darah lengkap, golongan darah, gula darah, urinalisis, tes IMS, USG, CTG, doppler. Tatalaksana: Fe 60 mg + asam folat 400 mikrogram + kalsium. Komplikasi: preeklampsia->MgSO4 loading 4 g; plasenta previa->jangan VT."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Edukasi ANC lanjut mencakup 11 poin (ANC rutin, tanda bahaya, nutrisi, hindari teratogen, aktivitas, hubungan seksual, KB pascasalin, IMD/ASI, tanda bahaya TM2-3, vaksinasi, persiapan persalinan). Dokumentasi SOAP lengkap dengan kode ICD-10 Z34.9, O09.90, O32.1, O32.2, O36.5, O14.x, dll.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pada ANC lanjut berfokus pada tanda bahaya, nutrisi, persiapan persalinan, dan konseling KB. Poin edukasi spesifik (minimal 6): (1) Kehamilan perlu pemeriksaan rutin - ANC 4 minggu sekali trimester 2, 2-4 minggu sekali trimester 3, setiap minggu >36 minggu. (2) Tanda bahaya - perdarahan, kontraksi, KPD, sakit kepala, pandangan kabur, bengkak, gerak janin berkurang, demam. (3) Nutrisi - diet seimbang, Fe, asam folat, kalsium. (4) Hindari rokok, alkohol, obat bebas, jamu - risiko teratogen, gangguan pertumbuhan. (5) Aktivitas fisik - boleh, hindari kelelahan/berat. (6) Hubungan seksual - boleh, kecuali ada keluhan (perdarahan, kontraksi, KPD). (7) Konseling KB pascasalin - di akhir kehamilan. (8) IMD dan ASI eksklusif - menyusui 6 bulan. (9) Tanda bahaya khusus trimester 2-3 - preeklampsia, solusio, KPD, gawat janin. (10) Vaksinasi - TT, hepatitis B, sesuai program. (11) Persiapan persalinan - tempat, penolong, transportasi, donor darah, biaya.",
+          "tone": "clinical",
+          "source": "§12 file sumber - Poin Edukasi"
+        },
+        {
+          "text": "Safety net - kapan harus kembali segera atau ke IGD (minimal 4): (1) Perdarahan pervaginam - solusio, plasenta previa, ruptura uteri. (2) Kontraksi teratur dan kuat sebelum 37 minggu - persalinan prematur. (3) Sakit kepala hebat, pandangan kabur, kejang, TD tinggi - preeklampsia/eklampsia. (4) Bengkak wajah/tangan, nyeri ulu hati hebat - preeklampsia. (5) Gerak janin berkurang atau tidak terasa - gawat janin, IUFD. (6) Ketuban pecah (keluar cairan dari vagina) - KPD. (7) Demam, menggigil, secret berbau busuk - infeksi. (8) Sesak, pucat berat, pingsan - anemia berat, syok.",
+          "tone": "clinical",
+          "source": "§12 file sumber - Safety Net"
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE: Bahasa awam - 'Ibu, kehamilan perlu pemeriksaan rutin. Suplemen Fe dan asam folat diminum setiap hari. Tanda bahaya: perdarahan, kontraksi, sakit kepala, pandangan kabur, gerak janin berkurang. Segera kontrol ya, Bu.' Minta keluarga mengulang - 'Bisa tolong ulangi, Bu, kapan harus kembali?' Berikan waktu bertanya - 'Ada pertanyaan lagi, Bu?' Tunjukkan sikap suportif: tidak menghakimi, tidak menakut-nakuti.",
+          "tone": "narrative",
+          "source": "§12 file sumber - Cara Edukasi"
+        },
+        {
+          "text": "Contoh kalimat edukasi spesifik: 'Ibu, kehamilan perlu pemeriksaan rutin setiap bulan sampai 28 minggu, lalu lebih sering. Ibu minum tablet Fe dan asam folat setiap hari. Tanda bahaya: perdarahan, kontraksi, sakit kepala, pandangan kabur, bengkak, atau gerak janin berkurang. Segera kontrol ya, Bu.'",
+          "tone": "narrative",
+          "source": "§12 file sumber - Contoh Kalimat Edukasi"
+        },
+        {
+          "text": "Contoh SOAP - skenario Ny. Sari, 28 tahun, G2P1A0, hamil 32 minggu ANC. S (Subjective): Tidak ada keluhan, gerak janin aktif. HPHT 32 minggu lalu (dihitung Naegele: TP ~8 minggu lagi). Riwayat: P1 SC transversal 2 tahun lalu, tidak ada PPH/preeklampsia, tidak ada hipertensi/DM. Alergi: tidak ada. O (Objective): TTV TD 110/70, N 80, S 36,8 derajat C, RR 18, SpO2 98%. Konjungtiva tidak pucat, kloasma (+), edema (-). Jantung irama regular, tidak ada murmur. Paru vesikuler normal. Abdomen membesar memanjang, simetris, striae (+), linea nigra (+), bekas SC transversal di suprapubik, gerak janin terlihat. Leopold I TFU 28 cm, fundus teraba bokong. Leopold II punggung kanan, bagian kecil kiri. Leopold III bagian terbawah kepala, ballotement (-). Leopold IV divergen, kepala sudah masuk PAP 3/5. DJJ 140 x/menit di kuadran kanan bawah umbilikus, reguler. His (-). Ekstremitas edema (-), varises (-).",
+          "tone": "clinical",
+          "source": "§13 file sumber - SOAP Subjective dan Objective"
+        },
+        {
+          "text": "Lanjutan SOAP - A (Assessment): G2P1A0, hamil 32 minggu, janin tunggal intrauterin, letak memanjang, presentasi kepala, punggung kanan, kepala sudah masuk PAP 3/5, TBJ ~2480 gram (Johnson-Toshach: (28-12)x155 = 2480 g), DJJ 140 x/menit, his (-). Risiko bekas SC - kolaborasi SpOG untuk rencana persalinan. P (Plan): 1) ANC rutin lanjut. 2) Suplemen Fe 60 mg/hari + asam folat 400 mikrogram/hari. 3) Skrining darah lengkap, golongan darah, HIV/sifilis/hepatitis B, urinalisis, gula darah. 4) USG pertumbuhan dan presentasi - konfirmasi presentasi kepala, plasenta, biometri. 5) Konsultasi SpOG untuk bekas SC - rencana persalinan (VBAC atau SC berulang). 6) Edukasi - tanda bahaya, nutrisi, hindari teratogen, IMD, ASI. 7) Kontrol 2 minggu (minggu 34).",
+          "tone": "clinical",
+          "source": "§13 file sumber - SOAP Assessment dan Plan"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan: Z34.9 - Encounter for supervision of normal pregnancy, unspecified. Z34.0 - Encounter for supervision of normal first pregnancy. O09.90 - Supervision of high-risk pregnancy, unspecified trimester. O09.1 - Supervision of pregnancy with history of insufficient antenatal care. O75.7 - Vaginal delivery following previous caesarean section (untuk VBAC). O80 - Single spontaneous delivery (untuk kehamilan cukup bulan). O32.1 - Maternal care for breech presentation (sungsang). O32.2 - Maternal care for transverse and oblique lie (lintang). O36.5 - Maternal care for poor fetal growth (IUGR). O14.x - Preeklampsia. O45.x - Premature separation of placenta (solusio). O44.x - Placenta previa. O42.x - Premature rupture of membranes (KPD). O60.x - Preterm labor (persalinan prematur).",
+          "tone": "evidence",
+          "source": "§13 file sumber - Kode ICD-10 [DITAMBAHKAN SAAT STANDARDISASI]"
+        },
+        {
+          "text": "Dokumen/kartu khusus: Buku KIA (Kesehatan Ibu dan Anak) - kartu kunjungan ANC. Kartu ibu - identitas, HPHT, TP, kunjungan, hasil lab. Lembar informed consent (bila tindakan). Surat rujukan - bila perlu. Hasil laboratorium - darah lengkap, IMS, dll. Hasil USG - biometri, presentasi, plasenta.",
+          "tone": "clinical",
+          "source": "§13 file sumber - Dokumen Khusus"
+        },
+        {
+          "text": "Cara mendokumentasikan ANC lanjut: Tanggal dan jam kunjungan. Identitas pasien. Anamnesis (HPHT, keluhan, gerak janin, riwayat). Usia kehamilan dan TP (Naegele). TTV, status generalis, inspeksi abdomen. Leopold I-IV (fundus, punggung, presentasi, engagement). TFU dan taksiran TBJ. DJJ (frekuensi, lokasi, regularitas). His (frekuensi, kekuatan). Pemeriksaan penunjang. Kesimpulan obstetri. Diagnosis kerja. Tatalaksana (suplemen, skrining, edukasi, rujukan). Tanda tangan dokter/bidan. [DITAMBAHKAN SAAT STANDARDISASI] - Format SOAP mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§13 file sumber - Cara Dokumentasi [DITAMBAHKAN SAAT STANDARDISASI]",
+          "_original_content_tone": "note"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "11 poin edukasi spesifik ANC lanjut",
+          "sub": [
+            "Kehamilan perlu pemeriksaan rutin (4 minggu TM2, 2-4 minggu TM3, setiap minggu >36)",
+            "Tanda bahaya (perdarahan, kontraksi, KPD, sakit kepala, pandangan kabur, bengkak, gerak janin berkurang, demam)",
+            "Nutrisi (diet seimbang, Fe, asam folat, kalsium)",
+            "Hindari rokok, alkohol, obat bebas, jamu",
+            "Aktivitas fisik (boleh, hindari kelelahan/berat)",
+            "Hubungan seksual (boleh, kecuali ada keluhan)",
+            "Konseling KB pascasalin",
+            "IMD dan ASI eksklusif (menyusui 6 bulan)",
+            "Tanda bahaya khusus trimester 2-3",
+            "Vaksinasi (TT, hepatitis B, sesuai program)",
+            "Persiapan persalinan (tempat, penolong, transportasi, donor darah, biaya)"
+          ],
+          "source": "§12 Poin Edukasi"
+        },
+        {
+          "text": "8 safety net - kapan harus kembali segera atau ke IGD",
+          "sub": [
+            "Perdarahan pervaginam",
+            "Kontraksi teratur dan kuat sebelum 37 minggu",
+            "Sakit kepala hebat, pandangan kabur, kejang, TD tinggi",
+            "Bengkak wajah/tangan, nyeri ulu hati hebat",
+            "Gerak janin berkurang atau tidak terasa",
+            "Ketuban pecah (keluar cairan dari vagina)",
+            "Demam, menggigil, secret berbau busuk",
+            "Sesak, pucat berat, pingsan"
+          ],
+          "bold": true,
+          "source": "§12 Safety Net"
+        },
+        {
+          "text": "4 cara edukasi yang benar di OSCE",
+          "sub": [
+            "Bahasa awam (tidak menghakimi, tidak menakut-nakuti)",
+            "Minta keluarga mengulang",
+            "Berikan waktu bertanya",
+            "Tunjukkan sikap suportif"
+          ],
+          "source": "§12 Cara Edukasi"
+        },
+        {
+          "text": "14 kode ICD-10 yang relevan untuk ANC lanjut",
+          "sub": [
+            "Z34.9/Z34.0 - Kehamilan normal",
+            "O09.90/O09.1 - Kehamilan risiko tinggi/ANC tak cukup",
+            "O75.7 - VBAC",
+            "O80 - Persalinan spontan",
+            "O32.1 - Presentasi bokong",
+            "O32.2 - Letak lintang",
+            "O36.5 - IUGR",
+            "O14.x - Preeklampsia",
+            "O45.x - Solusio plasenta",
+            "O44.x - Plasenta previa",
+            "O42.x - KPD",
+            "O60.x - Persalinan prematur"
+          ],
+          "source": "§13 Kode ICD-10"
+        },
+        {
+          "text": "6 dokumen/kartu khusus untuk dokumentasi ANC",
+          "sub": [
+            "Buku KIA",
+            "Kartu ibu",
+            "Lembar informed consent",
+            "Surat rujukan",
+            "Hasil laboratorium",
+            "Hasil USG"
+          ],
+          "source": "§13 Dokumen Khusus"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara edukasi yang benar di OSCE",
+          "text": "Bahasa awam, minta keluarga mengulang, beri waktu bertanya, sikap suportif. Contoh: 'Ibu, kehamilan perlu pemeriksaan rutin. Suplemen Fe dan asam folat diminum setiap hari. Tanda bahaya: perdarahan, kontraksi, sakit kepala, pandangan kabur, gerak janin berkurang. Segera kontrol ya, Bu.'",
+          "answer_evidence": "§12 Cara Edukasi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Safety net wajib - 8 tanda bahaya kembali ke IGD",
+          "text": "(1) Perdarahan pervaginam, (2) Kontraksi teratur <37 minggu, (3) Sakit kepala hebat + pandangan kabur + TD tinggi, (4) Bengkak wajah/tangan, (5) Gerak janin berkurang, (6) KPD, (7) Demam + secret berbau, (8) Sesak/pucat/pingsan. Semua harus disampaikan ke pasien dan keluarga sebagai safety net.",
+          "answer_evidence": "§12 Safety Net dan §4 Red Flags"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Format SOAP mengikuti standar RS pendidikan",
+          "text": "Format SOAP mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas. Pada station OSCE, gunakan format Subjective-Objective-Assessment-Plan dengan kode ICD-10 yang relevan.",
+          "answer_evidence": "§13 Catatan [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_leopold_redflags_05"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_clin_12",
+        "gls_obgyn_antenatal_leopold_clin_14"
+      ],
+      "bilingual": "Edukasi: 11 poin (ANC, tanda bahaya, nutrisi, hindari teratogen, IMD/ASI, dll). SOAP: Subjective, Objective, Assessment, Plan. Kode ICD-10: Z34.9, O09.90, O32.1, O14.x, O42.x. Safety net: 8 tanda bahaya kembali ke IGD."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "SKDI 4A mencakup kehamilan normal, anemia, malpresentasi, risiko tinggi, IUGR, makrosomia, KPD, polihidramnion, oligohidramnion. SKDI 3B (rujuk) mencakup preeklampsia, solusio, plasenta previa, persalinan prematur, gemeli. Mini-skrip komunikasi mencakup 5 fase station OSCE.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan penyakit SKDI 4A: Kehamilan normal (Z34.9/O80) - 4A - TFU sesuai, presentasi kepala, DJJ baik. ANC, suplemen, edukasi tanda bahaya, rencana persalinan. Anemia defisiensi besi pada kehamilan (O99.0/D64.9) - 4A - Konjungtiva pucat, Hb rendah. Darah rutin, terapi besi, edukasi. Malpresentasi sungsang/lintang (O32.1/O32.2) - 4A (3B bila aterm) - Leopold III bokong/lintang. Konfirmasi USG, rujuk. Kehamilan risiko tinggi (O09.90) - 4A (3B sesuai risiko) - Hipertensi, diabetes, riwayat SC/PPH/preeklampsia. Identifikasi, edukasi, rujuk.",
+          "tone": "clinical",
+          "source": "§14 file sumber - Kaitan Penyakit SKDI 4A 1"
+        },
+        {
+          "text": "Kaitan penyakit SKDI 4A lanjutan: IUGR (O36.5) - 4A (3B bila berat) - TFU/TBJ lebih kecil dari usia. USG pertumbuhan, rujuk. Makrosomia (O36.6) - 4A (3B bila perlu SC) - TFU/TBJ lebih besar dari usia. USG, rujuk. Preeklampsia (O14.x) - 3B (Rujuk) - TD >=140/90, proteinuria, edema. Evaluasi, antihipertensi, MgSO4, rujuk. Solusio plasenta (O45.x) - 3B (Rujuk) - Perdarahan, nyeri perut, TFU meningkat. Stabilisasi, rujuk emergensi. Plasenta previa (O44.x) - 3B (Rujuk) - Perdarahan tanpa nyeri. USG, jangan VT, rujuk. KPD (O42.x) - 4A (3B bila preterm) - Keluar cairan, tidak ada his. Observasi, antibiotik profilaksis, rujuk.",
+          "tone": "clinical",
+          "source": "§14 file sumber - Kaitan Penyakit SKDI 4A 2"
+        },
+        {
+          "text": "Kaitan penyakit SKDI 4A tambahan: Kehamilan ganda (O30.x) - 3B (Rujuk) - TFU besar, 2 DJJ. USG, rujuk. Polihidramnion (O40.x) - 4A (3B bila berat) - TFU besar, abdomen tegang. USG, evaluasi penyebab, rujuk. Oligohidramnion (O41.0) - 4A (3B bila berat) - TFU kecil, gerak janin tidak nyaman. USG, evaluasi, rujuk. Persalinan prematur (O60.x) - 3B (Rujuk) - Kontraksi <37 minggu. Tokolisis, kortikosteroid, rujuk. Anemia defisiensi besi (D64.9) - 4A - Sama dengan di atas. HIV pada kehamilan (O98.7/B20) - 3B (Rujuk) - Skrining, terapi ARV, rujuk. Sifilis pada kehamilan (O98.1/A51.x) - 3B (Rujuk) - Skrining, terapi penisilin, rujuk. Hepatitis B pada kehamilan (O98.4/B18.1) - 3B (Rujuk) - Skrining, imunoprofilaksis bayi, rujuk.",
+          "tone": "clinical",
+          "source": "§14 file sumber - Kaitan Penyakit SKDI 4A 3"
+        },
+        {
+          "text": "Batas kompetensi dokter umum: 4A (mandiri) - ANC normal, anemia, ISK, keputihan, presentasi kepala cukup bulan. 3B (merujuk) - preeklampsia, solusio, plasenta previa, KPD preterm, malpresentasi aterm, gemeli, IUGR berat, riwayat SC dengan komplikasi. Catatan diagnosis yang harus dirujuk segera (SKDI 3B): Preeklampsia/eklampsia, Solusio plasenta, Plasenta previa, KPD preterm, Persalinan prematur, Gawat janin akut, Malpresentasi aterm (sungsang/lintang), Kehamilan ganda, IUGR berat, Makrosomia besar, Ruptura uteri curiga, HIV/sifilis/hepatitis B positif, Perdarahan banyak, Syok.",
+          "tone": "clinical",
+          "source": "§14 file sumber - Batas Kompetensi"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE - Pembukaan Station (30 detik): [DOKTER]: 'Selamat pagi/siang Ibu Sari, saya dokter muda ... Saya akan melakukan pemeriksaan antenatal dan Leopold. Sebelum mulai saya akan konfirmasi identitas dan menjelaskan prosedurnya.' [PASIEN]: 'Baik, Dok.' [DOKTER]: 'Pemeriksaan ini mungkin sedikit tidak nyaman saat saya palpasi perut, tetapi saya akan melakukannya perlahan dengan tangan hangat. Ibu boleh meminta saya berhenti kapan saja. Apakah Ibu sudah memahami penjelasan saya dan bersedia dilakukan pemeriksaan?' [PASIEN]: 'Ya, Dok, saya bersedia.'",
+          "tone": "narrative",
+          "source": "§15 file sumber - Pembukaan Station"
+        },
+        {
+          "text": "Mini-skrip - Saat Anamnesis: [DOKTER]: 'Ibu, kapan hari pertama haid terakhir?' [PASIEN]: '8 bulan lalu, Dok.' [DOKTER]: 'Baik. Ini berarti Ibu hamil sekitar 32 minggu, dengan taksiran persalinan sekitar 8 minggu lagi. Ada keluhan? Perdarahan, kontraksi, gerak janin?' [PASIEN]: 'Tidak ada, Dok. Gerak janin aktif.' [DOKTER]: 'Riwayat persalinan sebelumnya? Bekas SC, PPH, hipertensi, kencing manis? Alergi obat?' [PASIEN]: 'P1 SC 2 tahun lalu, tidak ada komplikasi, Dok.' [DOKTER]: 'Baik, Bu. Saya akan periksa Ibu secara umum dan Leopold.'",
+          "tone": "narrative",
+          "source": "§15 file sumber - Anamnesis"
+        },
+        {
+          "text": "Mini-skrip - Saat Pemeriksaan Status Generalis: [DOKTER]: 'Ibu, saya ukur tekanan darah dulu.' [TD 110/70, N 80, S 36,8 derajat C]. [DOKTER]: 'Tekanan darah 110/70, nadi 80, suhu 36,8 derajat C. Tanda vital dalam batas normal untuk ibu hamil.' [Lihat konjungtiva, kloasma, edema]. [DOKTER]: 'Konjungtiva tidak pucat, kloasma (+), edema (-). Status generalis baik.' [Inspeksi abdomen]. [DOKTER]: 'Abdomen membesar memanjang, simetris, striae (+), linea nigra (+), bekas SC transversal, gerak janin terlihat.'",
+          "tone": "narrative",
+          "source": "§15 file sumber - Status Generalis"
+        },
+        {
+          "text": "Mini-skrip - Saat Palpasi Leopold: [Hangatkan tangan, palpasi lembut]. [DOKTER]: 'Ibu, saya palpasi perut secara lembut. Bilang ya kalau nyeri.' [DOKTER]: 'Leopold I: di fundus teraba bokong, lunak. Tinggi fundus 28 cm. Leopold II: punggung kanan, bagian kecil kiri. Leopold III: bagian terbawah kepala, keras bulat. Leopold IV: divergen, kepala sudah masuk panggul 3/5. Presentasi kepala, punggung kanan, TFU sesuai usia.'",
+          "tone": "narrative",
+          "source": "§15 file sumber - Palpasi Leopold"
+        },
+        {
+          "text": "Mini-skrip - Saat Auskultasi DJJ: [DOKTER]: 'Saya dengar denyut jantung bayi, ya, Bu.' [Doppler di kuadran kanan bawah umbilikus]. [DOKTER]: 'Denyut jantung bayi 140 kali per menit, reguler. Bayi sehat.' Penutup Station (Kesimpulan + Edukasi): [DOKTER]: 'Pemeriksaan selesai. Kesimpulan: Ibu hamil 32 minggu, janin tunggal, letak memanjang, presentasi kepala, punggung kanan, kepala sudah masuk panggul 3/5, taksiran berat janin ~2480 gram, DJJ 140 kali per menit, his tidak ada. Ibu minum tablet Fe dan asam folat setiap hari. Tanda bahaya: perdarahan, kontraksi, sakit kepala, pandangan kabur, gerak janin berkurang. Segera kontrol ya, Bu. Karena ada bekas SC, kita perlu konsultasi SpOG untuk rencana persalinan.' [PASIEN]: 'Baik, Dok. Terima kasih.' [DOKTER]: 'Sama-sama, Bu. Saya doakan Ibu dan bayi sehat selalu. Ada pertanyaan?'",
+          "tone": "narrative",
+          "source": "§15 file sumber - Auskultasi DJJ dan Penutup"
+        },
+        {
+          "text": "Catatan perbedaan antara situasi: ANC normal - komunikasi suportif, edukasi, planning. Risiko tinggi (bekas SC, preeklampsia) - komunikasi lebih serius, rujukan, kolaborasi. Curiga patologi (perdarahan, gawat janin) - emergency, stabilisasi, rujuk. [DITAMBAHKAN SAAT STANDARDISASI] - Kalimat di atas adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario.",
+          "tone": "clinical",
+          "source": "§15 file sumber - Catatan Perbedaan [DITAMBAHKAN SAAT STANDARDISASI]",
+          "_original_content_tone": "note"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "12 kode ICD-10 dan level SKDI utama",
+          "sub": [
+            "Z34.9/O80 - Kehamilan normal - 4A",
+            "O99.0/D64.9 - Anemia - 4A",
+            "O32.1 - Presentasi bokong - 4A (3B aterm)",
+            "O32.2 - Letak lintang - 4A (3B aterm)",
+            "O09.90 - Kehamilan risiko tinggi - 4A (3B sesuai risiko)",
+            "O36.5 - IUGR - 4A (3B berat)",
+            "O36.6 - Makrosomia - 4A (3B perlu SC)",
+            "O14.x - Preeklampsia - 3B (Rujuk)",
+            "O45.x - Solusio plasenta - 3B (Rujuk)",
+            "O44.x - Plasenta previa - 3B (Rujuk)",
+            "O42.x - KPD - 4A (3B preterm)",
+            "O30.x - Kehamilan ganda - 3B (Rujuk)"
+          ],
+          "source": "§14 Kaitan Penyakit SKDI"
+        },
+        {
+          "text": "Batas kompetensi dokter umum",
+          "sub": [
+            "4A (mandiri): ANC normal, anemia, ISK, keputihan, presentasi kepala cukup bulan",
+            "3B (merujuk): preeklampsia, solusio, plasenta previa, KPD preterm, malpresentasi aterm, gemeli, IUGR berat, riwayat SC dengan komplikasi"
+          ],
+          "bold": true,
+          "source": "§14 Batas Kompetensi"
+        },
+        {
+          "text": "5 fase mini-skrip komunikasi OSCE",
+          "sub": [
+            "Pembukaan Station (30 detik): salam, perkenalan, izin, privasi",
+            "Saat Anamnesis: HPHT, keluhan, gerak janin, riwayat, alergi",
+            "Saat Pemeriksaan Status Generalis: TTV, konjungtiva, inspeksi",
+            "Saat Palpasi Leopold: L1-L4, TFU, presentasi, punggung, engagement",
+            "Saat Auskultasi DJJ + Penutup: kesimpulan + edukasi safety net"
+          ],
+          "bold": true,
+          "source": "§15 Mini-Skrip"
+        },
+        {
+          "text": "15 diagnosis yang harus dirujuk segera (SKDI 3B)",
+          "sub": [
+            "Preeklampsia/eklampsia",
+            "Solusio plasenta",
+            "Plasenta previa",
+            "KPD preterm",
+            "Persalinan prematur",
+            "Gawat janin akut",
+            "Malpresentasi aterm (sungsang/lintang)",
+            "Kehamilan ganda",
+            "IUGR berat",
+            "Makrosomia besar",
+            "Ruptura uteri curiga",
+            "HIV/sifilis/hepatitis B positif",
+            "Perdarahan banyak",
+            "Syok"
+          ],
+          "source": "§14 Catatan Rujuk"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station (30 detik pertama)",
+          "text": "'Selamat pagi/siang Ibu Sari, saya dokter muda ... Saya akan melakukan pemeriksaan antenatal dan Leopold. Sebelum mulai saya akan konfirmasi identitas dan menjelaskan prosedurnya.' Kalimat ini harus keluar dengan nada jelas dan percaya dalam 30 detik pertama station.",
+          "answer_evidence": "§15 Mini-Skrip - Pembukaan Station dan Lampiran D"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "3 situasi komunikasi yang berbeda",
+          "text": "ANC normal: komunikasi suportif, edukasi, planning. Risiko tinggi (bekas SC, preeklampsia): komunikasi lebih serius, rujukan, kolaborasi. Curiga patologi (perdarahan, gawat janin): emergency, stabilisasi, rujuk. Sesuaikan nada dan isi komunikasi dengan situasi klinis.",
+          "answer_evidence": "§15 Catatan Perbedaan"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Pola komunikasi konsisten dengan modul FKIK",
+          "text": "Kalimat di atas adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario pasien.",
+          "answer_evidence": "§15 Catatan [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_clin_06",
+        "gls_obgyn_antenatal_leopold_clin_09",
+        "gls_obgyn_antenatal_leopold_clin_14"
+      ],
+      "bilingual": "SKDI 4A (mandiri): kehamilan normal, anemia, malpresentasi, IUGR, KPD. SKDI 3B (rujuk): preeklampsia, solusio, plasenta previa, persalinan prematur, gemeli. Mini-skrip: Pembukaan -> Anamnesis -> Status generalis -> Leopold -> DJJ + Penutup."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Latihan mandiri: 24 item checklist dengan bobot TINGGI/SEDANG. Rencana belajar 3 hari: H-3 orientasi, H-2 latihan dengan timer, H-1 simulasi penuh. Kesalahan fatal: 10 kategori FATAL + 8 PENGURANGAN BESAR + 5 Recovery Move.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Checklist latihan mandiri 24 item dengan bobot TINGGI/SEDANG: (1) Salam, perkenalan, identitas - TINGGI. (2) Jelaskan tujuan dan prosedur palpasi - TINGGI. (3) Informed consent (verbal/tertulis) - TINGGI. (4) Anamnesis lengkap (HPHT, riwayat, keluhan, gerak janin, obat, alergi) - TINGGI. (5) Hitung usia kehamilan dan TP (Naegele) - TINGGI. (6) Status generalis - KU, TB/BB, konjungtiva, kloasma, edema - TINGGI. (7) TTV - TD, nadi, suhu, RR, SpO2 - TINGGI. (8) Jantung-paru, palpasi hati-limpa, ekstremitas - TINGGI. (9) Inspeksi abdomen - bentuk, simetri, striae, linea nigra, bekas operasi, gerak janin - TINGGI. (10) Leopold I - fundus, TFU, bagian di fundus - TINGGI. (11) Leopold II - punggung, bagian kecil - TINGGI. (12) Leopold III - bagian terbawah (kepala/bokong), ballotement - TINGGI.",
+          "tone": "clinical",
+          "source": "§16 file sumber - Checklist Latihan"
+        },
+        {
+          "text": "Checklist lanjutan: (13) Leopold IV - engagement (konvergen/divergen), derajat - TINGGI. (14) Auskultasi DJJ 60 detik pada sisi punggung - TINGGI. (15) Hitung TFU dan taksir TBJ (rumus Johnson-Toshach) - TINGGI. (16) Kesimpulan obstetri terstruktur (jumlah, letak, presentasi, punggung, TBJ, DJJ, his, kepala, rencana) - TINGGI. (17) Hangatkan tangan sebelum palpasi - TINGGI. (18) Cuci tangan dan APD sesuai kebutuhan - TINGGI. (19) Dokumentasi SOAP - lengkap, dengan kode ICD-10 - TINGGI. (20) Edukasi keluarga - tanda bahaya, suplemen, ANC - TINGGI. (21) Mengenali tanda bahaya - perdarahan, kontraksi, sakit kepala, gerak janin berkurang - TINGGI. (22) Rujuk bila malpresentasi, riwayat SC, preeklampsia, solusio, KPD - TINGGI. (23) Penutup station yang sopan - SEDANG. (24) Menyebut kode ICD-10 - SEDANG. Kriteria 'Siap OSCE': Minimal 22 dari 24 item tercentang, dan semua item TINGGI sudah dikuasai.",
+          "tone": "clinical",
+          "source": "§16 file sumber - Checklist Lanjutan"
+        },
+        {
+          "text": "Rencana belajar Hari 1 (H-3) - Orientasi dan Pemahaman Dasar (60 menit). Target: Pahami konsep ANC lanjut dan Leopold (§1). Hafal urutan alur tindakan (§2) dan checklist utama (§3). Baca §4-§6 (anamnesis, pemeriksaan, persiapan) sekali penuh. Aktivitas: Baca §1 untuk konteks. Tulis ulang 10 langkah alur dari ingatan tanpa melihat. Hafalkan rumus Naegele: HPHT + 7 - 3 bulan + 1 tahun. Hafalkan rumus Johnson-Toshach: TBJ = (TFU - n) x 155 g. Pahami Leopold I-IV: fundus, punggung, presentasi, engagement. Sumber tambahan: WHO ANC 2016. Modul FKIK Universitas Jambi. Video YouTube Leopold maneuver. Kriteria selesai: Bisa menyebutkan 10 langkah alur, posisi tangan Leopold, dan rumus Naegele/Johnson-Toshach tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": "§17 file sumber - Hari 1"
+        },
+        {
+          "text": "Rencana belajar Hari 2 (H-2) - Latihan Urutan Checklist dengan Timer (90 menit). Target: Hafal langkah Leopold I-IV dengan posisi tangan benar. Latihan mini-skrip komunikasi (§15). Praktik pengukuran TFU dan taksiran TBJ. Aktivitas: Latihan dengan manekin atau teman (peran sebagai pasien) sambil mengucapkan langkah-langkah dengan suara keras. Praktik urutan Leopold I (fundus), II (punggung), III (bawah), IV (engagement). Praktik pengukuran TFU dengan pita ukur. Tulis SOAP untuk skenario dari §13. Simulasikan skenario dari Lampiran C dengan teman sebagai 'pasien' atau 'penguji'. Sumber tambahan: Modul Leopold FKIK Universitas Jambi. Rekam suara sendiri, review kecepatan bicara. Video demonstrasi Leopold. Kriteria selesai: Dapat menyelesaikan urutan tindakan (verbalized) dalam 8-9 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 file sumber - Hari 2"
+        },
+        {
+          "text": "Rencana belajar Hari 3 (H-1) - Simulasi OSCE Penuh (60 menit). Target: Run-through penuh station (mulai informed consent sampai kesimpulan + penutup). Identifikasi celah terakhir. Simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: Timer 10 menit, simulasi lengkap dari masuk station sampai keluar. Review §18 (kesalahan fatal) - pastikan tidak ada yang terlewat. Praktik skenario alternatif dari Lampiran C. Bisa menyebutkan 5 kesalahan fatal dan 7 tanda bahaya. Tidur cukup malam sebelumnya; OSCE bukan dihafal semalam. Sumber tambahan: Teman sebagai 'penguji' - feedback jujur. Rekam video latihan, review postur dan kontak mata. Kriteria 'siap OSCE': Bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi. Tidak melewatkan item checklist §16 (minimal 22 dari 24). Bisa menjawab 1-2 pertanyaan penguji (misal: 'Apa beda presentasi kepala dan bokong?', 'Kapan Anda rujuk?') dengan baik. Merasa cukup percaya diri - bukan sempurna, tapi yakin dengan alur.",
+          "tone": "narrative",
+          "source": "§17 file sumber - Hari 3"
+        },
+        {
+          "text": "Kategori FATAL (dari file sumber + analisis klinis): (1) Tidak menjelaskan prosedur palpasi -> Skor hangus untuk komunikasi. (2) Tidak menjaga privasi pasien saat membuka abdomen -> Skor hangus untuk etika. (3) Tangan dingin/menekan terlalu keras -> pasien tidak nyaman, uterus tegang -> Skor hangus untuk teknik. (4) Salah posisi pemeriksa (Leopold I-IV tidak sesuai posisi menghadap) -> Skor hangus untuk teknik. (5) DJJ dihitung terlalu singkat (kurang dari 60 detik) -> data tidak akurat -> Skor hangus untuk interpretasi. (6) Tidak membuat kesimpulan obstetri -> skill terlihat seperti potongan tanpa clinical reasoning -> Skor hangus. (7) Bingung Leopold II dan III (sisi vs bawah) -> kesimpulan punggung/presentasi salah -> Skor hangus. (8) Tidak menyebut rujukan bila malpresentasi/risiko tinggi -> Skor hangus. (9) Tidak mencuci tangan sebelum palpasi -> Skor hangus untuk asepsis. (10) Tidak melakukan status generalis (TD, konjungtiva, edema) -> Skor hangus untuk keselamatan.",
+          "tone": "clinical",
+          "source": "§18 file sumber - Kategori FATAL",
+          "_original_content_tone": "danger"
+        },
+        {
+          "text": "Kategori PENGURANGAN BESAR (skor turun signifikan tapi tidak nol): (1) Tidak menyebut diagnosis kerja (kehamilan normal, anemia, dll.) -> Skor turun. (2) Tidak menyebut kode ICD-10 -> Skor turun. (3) Tidak menyebut rencana ANC (kontrol, suplemen, USG) -> Skor turun. (4) Tidak edukasi tentang tanda bahaya trimester 2-3 -> Skor turun. (5) Tidak menghitung usia kehamilan dan TP dari HPHT -> Skor turun. (6) Tidak menghitung TFU dan TBJ -> Skor turun. (7) Tidak membedakan presentasi kepala dan bokong -> Skor turun. (8) Tidak menyebut lokasi auskultasi DJJ -> Skor turun.",
+          "tone": "clinical",
+          "source": "§18 file sumber - Kategori PENGURANGAN BESAR",
+          "_original_content_tone": "caution"
+        },
+        {
+          "text": "Recovery Move (bila menyadari sudah membuat kesalahan di tengah station): Saat informed consent - 'Mohon maaf, Bu, saya akan mengulang penjelasan prosedur.' -> tetap sopan. Saat palpasi - 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.' -> penguji menghargai self-correction. Saat auskultasi DJJ - 'Ibu, satu hal penting yang harus saya tambahkan: DJJ harus dihitung 60 detik penuh untuk akurasi.' -> tambahkan poin. Saat kesimpulan - 'Saya akan membuat kesimpulan obstetri terstruktur: [sebut format].' -> tambahkan format. Saat dokumentasi - 'Saya akan menuliskan [poin yang terlewat] di rekam medis.' Yang penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "tone": "clinical",
+          "source": "§18 file sumber - Recovery Move",
+          "_original_content_tone": "pearl"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "10 kesalahan FATAL yang menurunkan skor OSCE",
+          "sub": [
+            "Tidak menjelaskan prosedur palpasi",
+            "Tidak menjaga privasi saat membuka abdomen",
+            "Tangan dingin/menekan terlalu keras",
+            "Salah posisi pemeriksa pada Leopold",
+            "DJJ dihitung terlalu singkat",
+            "Tidak membuat kesimpulan obstetri",
+            "Bingung Leopold II dan III (sisi vs bawah)",
+            "Tidak menyebut rujukan",
+            "Tidak mencuci tangan sebelum palpasi",
+            "Tidak melakukan status generalis"
+          ],
+          "bold": true,
+          "source": "§18 Kategori FATAL"
+        },
+        {
+          "text": "8 kesalahan PENGURANGAN BESAR",
+          "sub": [
+            "Tidak menyebut diagnosis kerja",
+            "Tidak menyebut kode ICD-10",
+            "Tidak menyebut rencana ANC",
+            "Tidak edukasi tanda bahaya TM2-3",
+            "Tidak menghitung usia kehamilan dan TP dari HPHT",
+            "Tidak menghitung TFU dan TBJ",
+            "Tidak membedakan presentasi kepala dan bokong",
+            "Tidak menyebut lokasi auskultasi DJJ"
+          ],
+          "source": "§18 Kategori PENGURANGAN BESAR"
+        },
+        {
+          "text": "5 Recovery Move bila membuat kesalahan di tengah station",
+          "sub": [
+            "Saat informed consent: 'Mohon maaf, Bu, saya akan mengulang penjelasan prosedur.'",
+            "Saat palpasi: 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.'",
+            "Saat auskultasi DJJ: 'Ibu, satu hal penting yang harus saya tambahkan: DJJ harus dihitung 60 detik penuh untuk akurasi.'",
+            "Saat kesimpulan: 'Saya akan membuat kesimpulan obstetri terstruktur: [sebut format].'",
+            "Saat dokumentasi: 'Saya akan menuliskan [poin yang terlewat] di rekam medis.'"
+          ],
+          "source": "§18 Recovery Move"
+        },
+        {
+          "text": "Rencana belajar 3 hari",
+          "sub": [
+            "Hari 1 (H-3): Orientasi dan Pemahaman Dasar (60 menit) - pahami konsep, hafal alur",
+            "Hari 2 (H-2): Latihan Urutan Checklist dengan Timer (90 menit) - praktik Leopold + mini-skrip",
+            "Hari 3 (H-1): Simulasi OSCE Penuh (60 menit) - run-through dengan timer, identifikasi celah"
+          ],
+          "source": "§17 Rencana Belajar"
+        },
+        {
+          "text": "Kriteria 'Siap OSCE'",
+          "sub": [
+            "Minimal 22 dari 24 item checklist tercentang",
+            "Semua item TINGGI sudah dikuasai",
+            "Menyelesaikan station dalam batas waktu",
+            "Bisa menjawab 1-2 pertanyaan penguji",
+            "Merasa cukup percaya diri"
+          ],
+          "source": "§16 dan §17 Kriteria Siap"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "10 Kesalahan FATAL di station Leopold",
+          "text": "(1) Tidak menjelaskan prosedur, (2) Tidak menjaga privasi, (3) Tangan dingin/kasar, (4) Salah posisi pemeriksa, (5) DJJ terlalu singkat, (6) Tidak membuat kesimpulan obstetri, (7) Bingung Leopold II dan III, (8) Tidak menyebut rujukan, (9) Tidak cuci tangan, (10) Tidak status generalis. Semua FATAL = skor hangus.",
+          "answer_evidence": "§18 Kategori FATAL"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "8 Kesalahan PENGURANGAN BESAR",
+          "text": "Tidak menyebut diagnosis kerja, kode ICD-10, rencana ANC, edukasi tanda bahaya TM2-3, usia kehamilan/TP, TFU/TBJ, beda presentasi kepala/bokong, lokasi DJJ. Semua PENGURANGAN BESAR = skor turun signifikan.",
+          "answer_evidence": "§18 Kategori PENGURANGAN BESAR"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "5 Recovery Move untuk self-correction",
+          "text": "(1) Informed consent: 'Mohon maaf, Bu, saya akan mengulang penjelasan prosedur.' (2) Palpasi: 'Saya menyadari melewatkan langkah ... Saya akan melakukannya sekarang.' (3) DJJ: 'DJJ harus dihitung 60 detik penuh untuk akurasi.' (4) Kesimpulan: 'Saya akan membuat kesimpulan obstetri terstruktur: [sebut format].' (5) Dokumentasi: 'Saya akan menuliskan [poin yang terlewat] di rekam medis.' Penguji menghargai self-correction.",
+          "answer_evidence": "§18 Recovery Move"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_proc_01",
+        "gls_obgyn_antenatal_leopold_clin_05"
+      ],
+      "bilingual": "Latihan: 24 item checklist (20 TINGGI + 4 SEDANG). Belajar 3 hari: H-3 orientasi, H-2 latihan timer, H-1 simulasi penuh. 10 FATAL + 8 PENGURANGAN BESAR + 5 Recovery Move. Kriteria siap: minimal 22/24 item, semua TINGGI dikuasai."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "5 visual utama: Leopold I-IV, perbedaan kepala/bokong, lokasi DJJ, template kesimpulan, red flags ANC. 4 Lampiran (A-D): kontraindikasi, masalah prosedur, mini-case, checklist verbal. Referensi utama: WHO ANC 2016, WHO Intrapartum Care 2018, SKDI 4A.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Saran visual dan prompt AI: Cara pakai prompt visual dari file sumber - jaga agar gambar bersifat anatomi/edukatif, bukan vulgar, dan gunakan gaya 'medical education illustration'. Tabel visual: (1) Leopold I-IV satu halaman - menghafal posisi tangan. (2) Perbedaan kepala dan bokong - memahami interpretasi palpasi. (3) Lokasi DJJ - memudahkan mencari DJJ. (4) Kesimpulan Leopold - melatih verbal report. (5) Red flags ANC - edukasi pasien.",
+          "tone": "evidence",
+          "source": "§19 file sumber - Saran Visual"
+        },
+        {
+          "text": "Prompt AI siap-pakai 3 prompt: Prompt 1 - Leopold I-IV satu halaman: 'Infografik Bahasa Indonesia A4 portrait, empat panel Leopold I, II, III, IV pada ibu hamil trimester tiga, posisi tangan dokter, label fundus, punggung janin, bagian terbawah, PAP, gaya medical textbook clean.' Prompt 2 - Perbedaan kepala dan bokong: 'Ilustrasi palpasi obstetri: kepala janin keras bulat melenting vs bokong lunak tidak simetris, tampilan cutaway uterus, label sederhana Bahasa Indonesia, gaya clean medical illustration.' Prompt 3 - Red flags ANC: 'Poster edukasi tanda bahaya kehamilan trimester 2-3 Bahasa Indonesia, perdarahan, sakit kepala, pandangan kabur, gerak janin berkurang, demam, ketuban pecah, sesak, gaya ramah pasien. Clean medical illustration, warna kontras untuk keterbacaan.'",
+          "tone": "evidence",
+          "source": "§19 file sumber - Prompt AI"
+        },
+        {
+          "text": "Prompt tambahan - kasus latihan (mini-case generator): 'Buatkan 3 skenario OSCE pemeriksaan antenatal dan Leopold tingkat mudah, sedang, sulit. Setiap skenario berisi: identitas pasien fiktif, keluhan, data klinis (HPHT, G/P/A, riwayat, TTV, Leopold, TFU, DJJ), pertanyaan pemandu, dan kunci jawaban. Berikan variasi skenario (misalnya: presentasi kepala normal, presentasi bokong, atau letak lintang).'",
+          "tone": "evidence",
+          "source": "§19 file sumber - Prompt Mini-Case"
+        },
+        {
+          "text": "Referensi ringkas: PDF Batch 4 File 2: Penuntun Belajar Pemeriksaan Antenatal dan Leopold - Sumber utama checklist OSCE kampus. SKDI 2012 - Pemetaan 4A Obstetri-Ginekologi - Rujukan penyakit 4A dan diagnosis banding. WHO. Recommendations on antenatal care for a positive pregnancy experience. 2016. - https://www.who.int/publications/i/item/9789241549912/. WHO. Intrapartum care for a positive childbirth experience. 2018. - https://www.who.int/publications/i/item/9789241550215. Catatan penting: Keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "evidence",
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "Lampiran A - Kontraindikasi, Red Flags, dan Kondisi Khusus. Catatan: Modul ini adalah prosedur diagnostik (ANC lanjut). 'Kontraindikasi' di sini lebih banyak merujuk pada kondisi yang menunda atau membatalkan tindakan (perlu evaluasi dulu). Tabel 14 kondisi: (1) Perdarahan aktif - Risiko solusio, plasenta previa, ruptura uteri -> Jangan palpasi berlebihan, stabilisasi, rujuk. (2) KPD - Risiko infeksi, prolaps tali pusat -> Observasi, antibiotik profilaksis, rujuk. (3) Preeklampsia/eklampsia - Risiko kejang, perdarahan otak -> Stabilisasi, antihipertensi, MgSO4, rujuk. (4) Solusio plasenta curiga - Risiko syok, gawat janin -> Stabilisasi, rujuk emergensi. (5) Plasenta previa curiga - Perdarahan bisa memburuk dengan palpasi -> USG, jangan VT, rujuk. (6) Persalinan prematur aktif - Kontraksi kuat, pembukaan berlanjut -> Tokolisis, kortikosteroid, rujuk. (7) Ruptura uteri curiga - Nyeri perut, perdarahan, TD turun -> Stabilisasi, rujuk emergensi.",
+          "tone": "clinical",
+          "source": "Lampiran A file sumber - Kontraindikasi"
+        },
+        {
+          "text": "Lampiran A lanjutan: (8) Hiperemesis gravidarum berat - Dehidrasi, ketosis -> Rawat inap/darah. (9) Keganasan ginekologi - Risiko komplikasi -> Rujuk. (10) Kekerasan seksual curiga - Sensitif, perlu tim forensik -> Rujuk. (11) Pasien menolak - Hak pasien -> Informed consent, diskusi, dokumentasi. (12) Fasilitas tidak memadai - ANC butuh alat dan ruangan -> Rujuk. (13) Riwayat SC klasik/vertikal - Risiko ruptur uteri -> Pertimbangkan SC elektif, rujuk SpOG. (14) Gemeli komplikata - Persalinan risiko tinggi -> Rujuk.",
+          "tone": "clinical",
+          "source": "Lampiran A file sumber - Kontraindikasi Lanjutan"
+        },
+        {
+          "text": "Lampiran B - Masalah Saat Prosedur dan Respons Aman. 10 masalah dan respons: (1) Pasien tidak nyaman/nyeri - Pasien meringis kesakitan -> Stop, komunikasi, palpasi lebih lembut. Kapan hentikan: bila pasien tidak mau lanjut. (2) Uterus tegang/braxton hicks berlebihan - Abdomen kaku -> Tunggu relaksasi, hangatkan tangan, komunikasi. Kapan hentikan: tidak ada. (3) Sinkop vasovagal - Pusing, pucat, keringat dingin -> Stop, posisi miring kiri, observasi TTV. Kapan hentikan: selalu. (4) DJJ tidak terdengar - Perlu cek alat, posisi, gemeli curiga -> Ganti posisi doppler, USG segera, jangan langsung diagnosis IUFD. Kapan hentikan: selalu. (5) Gerakan janin berlebihan - Pasien mengeluh tidak nyaman -> Tunggu relaksasi, lanjut palpasi lembut. Kapan hentikan: tidak ada. (6) Pasien pingsan - Kehilangan kesadaran -> Posisi aman, akses IV, observasi TTV, rujuk. Kapan hentikan: selalu. (7) Reaksi alergi (pada perekam/pita) - Gatal, kemerahan -> Hentikan, antihistamin. Kapan hentikan: selalu. (8) Cedera dinding perut/perineum - Nyeri, perdarahan -> Kompres, evaluasi. Kapan hentikan: tidak ada. (9) Gangguan cemas berat - Panik, takikardia -> Komunikasi, tenangkan. Kapan hentikan: tidak ada. (10) Pasien menolak lanjut - Mengatakan tidak mau -> Berhenti, tenangkan, jelaskan. Kapan hentikan: selalu.",
+          "tone": "clinical",
+          "source": "Lampiran B file sumber - Masalah Prosedur",
+          "_original_content_tone": "caution"
+        },
+        {
+          "text": "Lampiran C - OSCE Mini-Case untuk Latihan Cepat. Skenario Mudah (ANC Normal pada Kehamilan 32 Minggu): Kasus Ny. Sari, 28 tahun, G2P1A0, hamil 32 minggu ANC. Tidak ada keluhan, gerak janin aktif. Bekas SC transversal 2 tahun lalu. Tidak ada riwayat PPH/preeklampsia. Pertanyaan pemandu: Apa diagnosis? Bagaimana urutan tindakan? Apa usia kehamilan dan TP? Bagaimana kesimpulan Leopold? Apa rencana ANC? Apa edukasi pasien? Kunci jawaban: Diagnosis G2P1A0, hamil 32 minggu, bekas SC transversal, presentasi kepala. Urutan: salam -> informed consent -> anamnesis -> usia kehamilan (Naegele) -> status generalis -> inspeksi abdomen -> Leopold I-IV -> DJJ 60 detik -> kesimpulan. Usia kehamilan: 32 minggu, TP (Naegele). Leopold: I bokong di fundus, TFU 28 cm. II punggung kanan. III kepala di bawah, ballotement (-). IV divergen, 3/5. DJJ 140 x/menit. TBJ: (28-12) x 155 = 2480 gram. Kesimpulan: Janin tunggal intrauterin, letak memanjang, presentasi kepala, punggung kanan, TFU sesuai, TBJ ~2480 g, kepala 3/5, DJJ 140 x/menit, his (-). Risiko bekas SC - kolaborasi SpOG. Rencana: ANC 2 minggu, suplemen Fe + asam folat, USG konfirmasi presentasi, konsultasi SpOG untuk rencana persalinan (VBAC vs SC berulang), edukasi tanda bahaya. Jebakan nilai: Tidak menghitung usia kehamilan, lupa kesimpulan obstetri, tidak menyebut kolaborasi SpOG untuk bekas SC.",
+          "tone": "narrative",
+          "source": "Lampiran C - Skenario Mudah"
+        },
+        {
+          "text": "Lampiran C - Skenario Sedang (Presentasi Bokong pada 36 Minggu): Kasus Ny. Sari, 30 tahun, G1P0A0, hamil 36 minggu. Keluhan: gerak janin di bawah. Konjungtiva tidak pucat, TD 120/80. Leopold I: kepala di fundus (keras, bulat). Leopold II: punggung kanan. Leopold III: bokong di bawah (lunak). Leopold IV: konvergen. DJJ 140 x/menit di atas umbilikus. Kunci jawaban: Diagnosis presentasi bokong pada 36 minggu. Temuan Leopold: kepala di fundus, bokong di bawah, DJJ di atas umbilikus (khas presentasi bokong). Interpretasi: presentasi bokong - perlu konfirmasi USG, kolaborasi SpOG. Tatalaksana: USG konfirmasi presentasi dan posisi (Frank, complete, incomplete breech), rujuk SpOG untuk rencana persalinan (version, persalinan pervaginam dengan bokong, atau SC). Rujuk: untuk kolaborasi SpOG, terutama bila aterm. Jebakan nilai: Menganggap presentasi bokong normal, tidak konfirmasi USG, tidak rujuk.",
+          "tone": "narrative",
+          "source": "Lampiran C - Skenario Sedang"
+        },
+        {
+          "text": "Lampiran C - Skenario Sulit (Letak Lintang dengan Preeklampsia): Kasus Ny. Sari, 35 tahun, G3P2A0, hamil 34 minggu. Keluhan: sakit kepala, pandangan kabur, bengkak wajah dan tangan. TD 160/110, proteinuria +2. Leopold I: TFU 32 cm, teraba kepala atau bokong (tidak jelas). Leopold II: sulit dinilai. Leopold III: tidak teraba bagian terbawah. Leopold IV: tidak teraba. DJJ 130 x/menit, sulit terdengar. Kunci jawaban: Diagnosis preeklampsia berat + suspect letak lintang. Temuan: TD 160/110 (hipertensi berat), proteinuria, edema, sakit kepala, pandangan kabur (red flag eklampsia). Leopold sulit dinilai. Tatalaksana awal: (1) Stabilisasi - akses IV (2 jalur), RL. (2) Antihipertensi - nifedipine 10 mg oral atau labetalol IV. (3) MgSO4 loading 4 g IV dalam 15-20 menit, maintenance 1 g/jam. (4) Konsultasi SpOG - emergensi, kemungkinan SC. (5) Monitoring TTV, DJJ, urin, gejala eklampsia. Rujuk: emergency ke RS dengan NICU dan SpOG. JANGAN tunda rujukan - risiko eklampsia, IUGR, solusio. Jebakan nilai: Tidak mengenali preeklampsia berat, tidak memberi MgSO4, terlambat rujuk.",
+          "tone": "narrative",
+          "source": "Lampiran C - Skenario Sulit"
+        },
+        {
+          "text": "Lampiran C - Skenario Tambahan: Solusio Plasenta. Kasus Ny. Sari, 32 tahun, G2P1A0, hamil 35 minggu. Keluhan: nyeri perut hebat sejak 2 jam, perdarahan gelap, gerak janin berkurang. TD 90/60, N 120, pucat, akral dingin. TFU meningkat dari pengukuran sebelumnya, uterus keras seperti papan. Kunci jawaban: Diagnosis solusio plasenta dengan syok hipovolemik curiga. Temuan: nyeri perut, perdarahan, TFU meningkat, uterus keras (tetani), gawat janin (DJJ memburuk), tanda syok. Tatalaksana awal: (1) Stabilisasi - akses IV 2 jalur, RL hangat, golongan darah cross-match. (2) Oksigen - nasal kanul 4 L/menit. (3) Darah - siapkan transfusi PRC. (4) Konsultasi SpOG - emergensi, kemungkinan SC. (5) Monitoring TTV, DJJ, perdarahan, urine output. Rujuk: emergency, fasilitas dengan operator dan bank darah. JANGAN tunggu USG dulu - klinis sudah jelas, rujuk langsung. Jebakan nilai: Tidak mengenali syok, terlambat rujukan, USG dulu.",
+          "tone": "narrative",
+          "source": "Lampiran C - Skenario Tambahan"
+        },
+        {
+          "text": "Lampiran D - Checklist Verbal Sebelum Mulai Tindakan. 12 kalimat pola yang harus diucapkan dalam 60-90 detik pertama di station. (1) Salam, perkenalan, konfirmasi identitas, jelaskan prosedur. (2) Jelaskan ketidaknyamanan, hak pasien, minta izin. (3) Minta tanda tangan informed consent, mulai. (4) Anamnesis: HPHT, keluhan, gerak janin, riwayat, alergi. (5) Hitung usia kehamilan dengan Naegele, taksiran persalinan. (6) Status generalis: TD, nadi, suhu, konjungtiva, kloasma, edema. (7) Inspeksi perut: bentuk, simetri, striae, linea nigra, bekas operasi, gerak janin. (8) Palpasi dengan tangan hangat: Leopold I-IV lengkap. (9) Auskultasi DJJ 60 detik di sisi punggung. (10) Kesimpulan obstetri terstruktur + rencana kolaborasi bila bekas SC. (11) Edukasi: suplemen, tanda bahaya, segera kontrol. (12) Penutup: rapikan alat, dokumentasi, ada pertanyaan?",
+          "tone": "narrative",
+          "source": "Lampiran D - Checklist Verbal"
+        },
+        {
+          "text": "Prinsip: Pada ANC lanjut, urutan komunikasi -> anamnesis -> status generalis -> inspeksi -> Leopold I-IV -> DJJ 60 detik -> kesimpulan terstruktur -> edukasi adalah yang paling penting. Kesimpulan obstetri terstruktur dan tanda bahaya adalah nilai tambah terbesar. [DITAMBAHKAN SAAT STANDARDISASI] - Kalimat di atas adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario.",
+          "tone": "clinical",
+          "source": "Lampiran D - Prinsip [DITAMBAHKAN SAAT STANDARDISASI]",
+          "_original_content_tone": "note"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "5 visual utama untuk station antenatal lanjut",
+          "sub": [
+            "Leopold I-IV satu halaman (menghafal posisi tangan)",
+            "Perbedaan kepala dan bokong (memahami interpretasi palpasi)",
+            "Lokasi DJJ (memudahkan mencari DJJ)",
+            "Kesimpulan Leopold (melatih verbal report)",
+            "Red flags ANC (edukasi pasien)"
+          ],
+          "source": "§19 Saran Visual"
+        },
+        {
+          "text": "4 Lampiran dalam modul",
+          "sub": [
+            "Lampiran A: Kontraindikasi, Red Flags, dan Kondisi Khusus (14 kondisi)",
+            "Lampiran B: Masalah Saat Prosedur dan Respons Aman (10 masalah)",
+            "Lampiran C: OSCE Mini-Case untuk Latihan Cepat (4 skenario)",
+            "Lampiran D: Checklist Verbal Sebelum Mulai Tindakan (12 kalimat)"
+          ],
+          "source": "Lampiran file sumber"
+        },
+        {
+          "text": "4 referensi utama modul",
+          "sub": [
+            "PDF Batch 4 File 2: Penuntun Belajar Pemeriksaan Antenatal dan Leopold (FKIK Universitas Jambi)",
+            "SKDI 2012 - Pemetaan 4A Obstetri-Ginekologi",
+            "WHO. Recommendations on antenatal care for a positive pregnancy experience. 2016",
+            "WHO. Intrapartum care for a positive childbirth experience. 2018"
+          ],
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "4 skenario mini-case Lampiran C",
+          "sub": [
+            "Skenario Mudah: ANC Normal pada Kehamilan 32 Minggu (Ny. Sari, G2P1A0, presentasi kepala)",
+            "Skenario Sedang: Presentasi Bokong pada 36 Minggu (Ny. Sari, G1P0A0, sungsang)",
+            "Skenario Sulit: Letak Lintang dengan Preeklampsia (TD 160/110, proteinuria +2)",
+            "Skenario Tambahan: Solusio Plasenta (TD 90/60, N 120, syok)"
+          ],
+          "source": "Lampiran C - Mini-Case"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lampiran A - 14 Kontraindikasi dan kondisi khusus",
+          "text": "Perdarahan aktif, KPD, preeklampsia/eklampsia, solusio plasenta curiga, plasenta previa curiga, persalinan prematur aktif, ruptura uteri curiga, hiperemesis gravidarum berat, keganasan ginekologi, kekerasan seksual curiga, pasien menolak, fasilitas tidak memadai, riwayat SC klasik/vertikal, gemeli komplikata. Tindakan: stabilisasi, rujuk emergensi untuk kondisi gawat.",
+          "answer_evidence": "Lampiran A file sumber"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Lampiran B - DJJ tidak terdengar: ganti posisi dulu",
+          "text": "DJJ tidak terdengar: ganti posisi doppler, periksa alat, USG segera, JANGAN langsung diagnosis IUFD. Curiga gemeli. Selalu evaluasi alat dan posisi sebelum menarik kesimpulan IUFD.",
+          "answer_evidence": "Lampiran B file sumber dan §5 Auskultasi DJJ"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "12 Checklist Verbal Lampiran D",
+          "text": "12 kalimat pola yang harus diucapkan dalam 60-90 detik pertama di station: Salam -> Informed consent -> Anamnesis -> Naegele -> Status generalis -> Inspeksi -> Leopold I-IV -> DJJ 60 detik -> Kesimpulan -> Edukasi -> Penutup. Pola konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi.",
+          "answer_evidence": "Lampiran D file sumber"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_leopold_leopold_infographic_01",
+        "visual_antenatal_leopold_kepala_bokong_02",
+        "visual_antenatal_leopold_djj_lokasi_03",
+        "visual_antenatal_leopold_kesimpulan_04",
+        "visual_antenatal_leopold_redflags_05"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_antenatal_leopold_proc_01",
+        "gls_obgyn_antenatal_leopold_clin_07",
+        "gls_obgyn_antenatal_leopold_clin_12",
+        "gls_obgyn_antenatal_leopold_clin_14"
+      ],
+      "bilingual": "Visual: 5 gambar (Leopold I-IV, kepala/bokong, lokasi DJJ, kesimpulan, red flags). Lampiran: A (kontraindikasi), B (masalah prosedur), C (mini-case), D (checklist verbal). Referensi: WHO ANC 2016, WHO Intrapartum 2018, SKDI 4A."
+    }
+  ]
+}

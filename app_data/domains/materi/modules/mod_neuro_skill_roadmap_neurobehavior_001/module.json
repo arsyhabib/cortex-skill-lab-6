@@ -1,0 +1,1756 @@
+{
+  "id": "mod_neuro_skill_roadmap_neurobehavior_001",
+  "title": "Modul OSCE 6.3 — Roadmap Neurobehavior",
+  "subtitle": "Peta skill, checklist, penyakit 4A, dan strategi latihan terintegrasi neurologi–psikiatri",
+  "domain": "neuro_skill",
+  "batch_id": "batch_1",
+  "source_pdf": "Batch1_File2_Modul_OSCE_6_3_Roadmap_Neurobehavior.txt",
+  "source_filename": "Batch1_File2_Modul_OSCE_6_3_Roadmap_Neurobehavior.txt",
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "neurobehavior",
+    "roadmap_klinis",
+    "lokalisasi_lesi",
+    "pendekatan_neurologis",
+    "sistem_saraf",
+    "gcs",
+    "trm",
+    "mse_mmse",
+    "spikes_breaking_bad_news",
+    "skdi_4a"
+  ],
+  "summary": [
+    "Modul ini adalah roadmap komprehensif untuk menghadapi station OSCE Blok 6.3 — Kelainan Neurologi dan Psikiatri — yang berfungsi sebagai peta navigasi memilih modul skill individual berdasarkan prioritas 1–5, dengan cakupan utama GCS, TRM, defisit neurologi fokal, keseimbangan & koordinasi, refleks, MMSE, MSE, wawancara psikiatri, penilaian risiko, dan SPIKES.",
+    "Cakupan klinis utama modul ini membedakan tiga skenario emergensi tipikal: vertigo akut (BPPV vs stroke posterior vs neuritis vestibular), mulut mencong mendadak (Bell's palsy vs stroke), dan nyeri kepala berulang (migren vs tension headache vs red flag sekunder).",
+    "Kompetensi 4A yang harus dikuasai pada Blok 6.3 meliputi: menyampaikan berita buruk, memberi nasihat dan motivasi, rehabilitasi medik motorik post-stroke, pemeriksaan status mental, pemeriksaan refleks nervi kranialis dan refleks patologis, penilaian kesadaran, dan tanda rangsang meningeal — dengan target level 4 (mampu melakukan secara mandiri).",
+    "Penyakit SKDI 4A wajib dikuasai Blok 6.3: kejang demam, tetanus, HIV/AIDS tanpa komplikasi, tension headache, migren, Bell's palsy, BPPV (domain neurologi); gangguan somatoform, insomnia (domain psikiatri).",
+    "Strategi belajar 3 hari: Hari 1 kuasai checklist neurologi (GCS, TRM, defisit fokal, saraf kranial, koordinasi, refleks); Hari 2 fokuskan IPM neurologi dan neurobehavior/MMSE; Hari 3 pelajari wawancara psikiatri, MSE, penilaian risiko, dan komunikasi SPIKES, ditutup simulasi integrated case.",
+    "Output akhir dari modul ini bukan sekadar pemahaman teori, melainkan kompetensi prosedural yang dapat dipertahankan di hadapan penguji dalam waktu 8–12 menit per station dengan laporan hasil per komponen (E_V_M_, kekuatan per otot, grading refleks, MSE) dan identifikasi red flags <30 detik."
+  ],
+  "exam_focus": [
+    "GCS harus dilaporkan per komponen E, V, M (contoh: E3V4M6 = GCS 13) — menulis total saja tanpa breakdown menurunkan skor OSCE.",
+    "TRM positif (kaku kuduk + Kernig + Brudzinski) tanpa demam maupun defisit fokal tidak menyingkirkan meningitis; interpretasi memerlukan konteks klinis dan eksklusi peningkatan TIK.",
+    "Defisit neurologi fokal dicari hierarkis: kesadaran → bicara → saraf kranial → motorik → sensorik → koordinasi → gait, dengan prinsip bandingkan kanan–kiri dan distal–proksimal.",
+    "Bell's palsy adalah kelumpuhan N VII tipe LMN (seluruh hemiface termasuk dahi lemah); stroke sentral biasanya menyisakan dahi (forehead sparing) karena innervasi dahi bersifat bilateral.",
+    "BPPV vs stroke posterior: BPPV singkat <1 menit dipicu posisi dan neurologis normal; stroke posterior menetap, disertai defisit neurologis lain (diplopia, disartria, disfagia, ataksia).",
+    "MMSE menilai 7 domain (orientasi, registrasi, atensi, recall, bahasa, konstruksi, perintah) — tidak boleh mendiagnosis demensia dari satu tes; MSE adalah snapshot 9 domain (appearance, behaviour, speech, mood/affect, thought, perception, cognition, insight/judgment, risk).",
+    "Penilaian risiko bunuh diri WAJIB ditanyakan secara langsung dan empatik: ide → rencana → metode → akses alat → niat → percobaan sebelumnya → protektif factor.",
+    "SPIKES protocol (Setting, Perception, Invitation, Knowledge, Emotion/Empathy, Strategy/Summary) adalah struktur standar untuk breaking bad news dengan kalimat validasi bukan menggurui.",
+    "Refleks primitif (snout, palmomental, grasp, glabella) pada orang dewasa menandakan gangguan frontal/demensia/diffuse brain damage, bukan respons bayi yang persisten.",
+    "Red flags yang harus dikenali dalam <30 detik: thunderclap headache, defisit neurologis fokal baru, GCS menurun, pupil anisokor + penurunan kesadaran, TRM + demam + ruam purpura, risiko bunuh diri tinggi, agitasi berat dengan risiko."
+  ],
+  "glossary": [
+    {
+      "id": "gls_roadmap_gcs_01",
+      "term": "Glasgow Coma Scale (GCS)",
+      "def": "Skala penilaian kesadaran yang terdiri dari tiga komponen: respons membuka mata (Eye, 1–4), respons verbal (Verbal, 1–5), dan respons motorik (Motor, 1–6), dengan total skor 3–15. Skor 15 = compos mentis; skor ≤8 = indikasi intubasi. Komponen harus dilaporkan terpisah (E_V_M_) agar informatif.",
+      "type": "score",
+      "aliases": [
+        "GCS",
+        "Skala Koma Glasgow",
+        "compos mentis",
+        "skor kesadaran"
+      ]
+    },
+    {
+      "id": "gls_roadmap_trm_01",
+      "term": "Tanda Rangsang Meningeal (TRM)",
+      "def": "Sekelompok tanda klinis yang menunjukkan iritasi meningeal akibat peradangan (meningitis), perdarahan (SAH), atau proses lain. Termasuk kaku kuduk (nuchal rigidity), Kernig sign, dan Brudzinski sign. Kontraindikasi mutlak: peningkatan TIK, trauma servikal.",
+      "type": "procedure",
+      "aliases": [
+        "TRM",
+        "meningismus",
+        "kaku kuduk",
+        "Kernig",
+        "Brudzinski"
+      ]
+    },
+    {
+      "id": "gls_roadmap_babinski_01",
+      "term": "Babinski",
+      "def": "Refleks patologis yang ditimbulkan dengan goresan pada telapak kaki bagian lateral dari tumit ke arah ibu jari. Positif bila ibu jari dorsifleksi dan jari-jari lain mengembang (fanning), menandakan lesi traktus piramidal (UMN).",
+      "type": "procedure",
+      "aliases": [
+        "refleks Babinski",
+        "tanda Babinski",
+        "ekstensor plantar"
+      ]
+    },
+    {
+      "id": "gls_roadmap_refleks_primitif_01",
+      "term": "Refleks Primitif",
+      "def": "Refleks yang normal pada bayi tetapi seharusnya menghilang pada orang dewasa. Jika menetap pada dewasa, menandakan gangguan frontal lobe, demensia, atau diffuse brain damage. Contoh: snout, palmomental, grasp, glabella.",
+      "type": "clinical",
+      "aliases": [
+        "primitive reflex",
+        "refleks neonatal",
+        "snout",
+        "palmomental",
+        "grasp",
+        "glabella"
+      ]
+    },
+    {
+      "id": "gls_roadmap_mmse_01",
+      "term": "Mini-Mental State Examination (MMSE)",
+      "def": "Alat skrining kognitif yang dikembangkan Folstein (1975) dengan skor total 30, menilai orientasi (10), registrasi (3), atensi (5), recall (3), bahasa (9), dan konstruksi (1). Skor <24 (tergantung pendidikan) menunjukkan kemungkinan gangguan kognitif; tidak boleh mendiagnosis demensia dari satu tes.",
+      "type": "score",
+      "aliases": [
+        "MMSE",
+        "tes Folstein",
+        "skrining demensia"
+      ]
+    },
+    {
+      "id": "gls_roadmap_mse_01",
+      "term": "Mental State Examination (MSE)",
+      "def": "Snapshot kondisi mental pasien saat pemeriksaan, mencakup 9 domain: appearance, behaviour, speech, mood/affect, thought, perception, cognition, insight/judgment, risk. Berbeda dengan riwayat psikiatri yang lebih longitudinal.",
+      "type": "procedure",
+      "aliases": [
+        "MSE",
+        "PSM",
+        "Pemeriksaan Status Mental",
+        "status mental"
+      ]
+    },
+    {
+      "id": "gls_roadmap_spikes_01",
+      "term": "SPIKES Protocol",
+      "def": "Struktur 6 langkah untuk menyampaikan berita buruk: Setting (privasi, posisi, waktu), Perception (tanyakan pemahaman pasien), Invitation (tanyakan seberapa banyak informasi yang ingin diketahui), Knowledge (berikan informasi bertahap), Emotion/Empathy (validasi perasaan, empati), Strategy/Summary (rangkum, rencana tindak lanjut).",
+      "type": "procedure",
+      "aliases": [
+        "SPIKES",
+        "breaking bad news protocol",
+        "Baile protocol"
+      ]
+    },
+    {
+      "id": "gls_roadmap_bells_palsy_01",
+      "term": "Bell's Palsy",
+      "def": "Kelumpuhan nervus fasialis (N VII) perifer akut yang menyebabkan kelemahan unilateral pada seluruh hemiface, termasuk dahi. Etiologi sering idiopatik (dipercaya terkait reaktivasi virus herpes). Diagnosis klinis; tata laksana kortikosteroid oral dalam 72 jam onset dan pelindung mata; prognosis baik pada 70% pasien dengan pengobatan dini.",
+      "type": "clinical",
+      "aliases": [
+        "Bell palsy",
+        "LMN facial palsy",
+        "idiopathic facial palsy"
+      ]
+    },
+    {
+      "id": "gls_roadmap_bppv_01",
+      "term": "BPPV (Benign Paroxysmal Positional Vertigo)",
+      "def": "Gangguan vestibular perifer yang disebabkan oleh debris kanalit (otokonia) di kanalis semisirkularis (paling sering posterior). Karakteristik: vertigo posisi singkat <1 menit, dipicu perubahan posisi kepala, tanpa defisit neurologis lain. Diagnosis dengan Dix-Hallpike; tata laksana dengan manuver Epley (efektif >80%).",
+      "type": "clinical",
+      "aliases": [
+        "BPPV",
+        "vertigo posisi",
+        "kanalitiasis",
+        "Dix-Hallpike",
+        "Epley"
+      ]
+    },
+    {
+      "id": "gls_roadmap_mi_01",
+      "term": "Motivational Interviewing",
+      "def": "Pendekatan konseling kolaboratif yang bertujuan meningkatkan motivasi intrinsik pasien untuk berubah dengan mengeksplorasi dan memecahkan ambivalensi. Prinsip: expressing empathy, developing discrepancy, rolling with resistance, supporting self-efficacy.",
+      "type": "procedure",
+      "aliases": [
+        "MI",
+        "wawancara motivasional",
+        "konseling motivasi"
+      ]
+    },
+    {
+      "id": "gls_roadmap_risk_01",
+      "term": "Risk Assessment (Penilaian Risiko)",
+      "def": "Komponen wajib dalam wawancara psikiatri yang menilai risiko bunuh diri, risiko menyakiti orang lain, dan risiko self-neglect. Aspek kunci: ide, rencana, metode, akses, niat, percobaan sebelumnya, dan faktor protektif.",
+      "type": "procedure",
+      "aliases": [
+        "risk assessment",
+        "penilaian risiko bunuh diri",
+        "skrining bunuh diri"
+      ]
+    },
+    {
+      "id": "gls_roadmap_ataxia_serebelar_01",
+      "term": "Ataksia Serebelar",
+      "def": "Gangguan koordinasi gerakan akibat lesi pada serebelum atau traktus serebelar. Ditandai dengan dismetria, disdiadokinesia, gait tidak stabil dengan basis lebar, dan abnormal rapid alternating movement. Tidak memburuk dengan mata tertutup (berbeda dengan gangguan proprioseptif).",
+      "type": "clinical",
+      "aliases": [
+        "cerebellar ataxia",
+        "ataksia",
+        "dismetria",
+        "disdiadokinesia"
+      ]
+    },
+    {
+      "id": "gls_roadmap_refleks_patologis_01",
+      "term": "Refleks Patologis",
+      "def": "Refleks yang tidak ada pada orang dewasa normal, dan jika muncul menandakan lesi traktus piramidal (UMN). Contoh: Babinski positif, Hoffman/Tromner positif, klonus.",
+      "type": "clinical",
+      "aliases": [
+        "pathological reflex",
+        "tanda UMN",
+        "Hoffman",
+        "klonus"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_roadmap_neurobehavior_01",
+      "term_id": "Kesadaran / Tingkat Kesadaran",
+      "term_en": "Consciousness / Level of Consciousness",
+      "context": "Status neurologis pasien yang dievaluasi dengan GCS; compos mentis = fully alert and oriented."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_02",
+      "term_id": "Tanda Rangsang Meningeal (TRM)",
+      "term_en": "Meningeal Signs / Meningismus",
+      "context": "Tanda klinis iritasi meningeal; kaku kuduk = nuchal rigidity; Kernig sign = Kernig's sign; Brudzinski sign = Brudzinski's sign."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_03",
+      "term_id": "Defisit Neurologis Fokal",
+      "term_en": "Focal Neurologic Deficit",
+      "context": "Defisit yang terlokalisasi pada area tertentu sistem saraf; lesi sentral = central/upper motor neuron (UMN) lesion; lesi perifer = peripheral/lower motor neuron (LMN) lesion."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_04",
+      "term_id": "Skala Kekuatan Otot (MRC)",
+      "term_en": "Muscle Strength Scale (MRC Scale)",
+      "context": "0 (no contraction) sampai 5 (full strength); sering disebut Medical Research Council (MRC) scale."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_05",
+      "term_id": "Pemeriksaan Status Mental (PSM)",
+      "term_en": "Mental State Examination (MSE)",
+      "context": "Snapshot kondisi mental pasien saat pemeriksaan; bukan psychiatric history (longitudinal)."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_06",
+      "term_id": "Mini-Mental State Examination (MMSE)",
+      "term_en": "Mini-Mental State Examination (MMSE)",
+      "context": "Nama tetap dipakai dalam bahasa Inggris; dikembangkan Folstein et al. (1975)."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_07",
+      "term_id": "Penilaian Risiko",
+      "term_en": "Risk Assessment",
+      "context": "Evaluasi risiko bunuh diri (suicide risk), risiko menyakiti orang lain (violence risk), risiko self-neglect."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_08",
+      "term_id": "Berita Buruk",
+      "term_en": "Bad News",
+      "context": "Informasi medis yang mengubah pandangan pasien terhadap masa depannya; SPIKES = Setting, Perception, Invitation, Knowledge, Emotion/Empathy, Strategy/Summary."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_09",
+      "term_id": "Wawancara Psikiatri",
+      "term_en": "Psychiatric Interview",
+      "context": "Dapat berupa autoanamnesis (wawancara langsung dengan pasien) atau alloanamnesis (wawancara dengan keluarga/orang lain)."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_10",
+      "term_id": "Penyakit 4A (SKDI)",
+      "term_en": "Level 4A Competencies (SKDI)",
+      "context": "Standar kompetensi dokter lulusan Indonesia yang harus dikuasai; SKDI = Standar Kompetensi Dokter Indonesia."
+    },
+    {
+      "id": "bil_roadmap_neurobehavior_11",
+      "term_id": "Manuver Epley",
+      "term_en": "Epley Maneuver / Canalith Repositioning Procedure",
+      "context": "Tata laksana BPPV kanal posterior; Dix-Hallpike = provocative test untuk BPPV."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_roadmap_neurobehavior_gcs_diagram_01",
+      "module_id": "mod_neuro_skill_roadmap_neurobehavior_001",
+      "section_id": "s04",
+      "type": "flowchart",
+      "generation_prompt": "Buat flowchart dengan tiga kolom utama (Eye, Verbal, Motor) yang menunjukkan skor 1–4 untuk E, 1–5 untuk V, 1–6 untuk M, dengan total range 3–15. Warnai sel E1–2, V1–2, M1–3 dengan warna merah untuk menandakan red flags. Tambahkan cabang keputusan di bawah: GCS ≤8 = intubasi, GCS 9–12 = pemantauan ketat, GCS 13–15 = observasi. Gaya klinis bersih dengan label Indonesia, font sans-serif.",
+      "alt": "Diagram alur Glasgow Coma Scale (GCS) dengan tiga kolom Eye-Verbal-Motor, skor per komponen 1–6, dan cabang keputusan klinis berdasarkan total skor (≤8 intubasi, 9–12 pemantauan ketat, 13–15 observasi).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_roadmap_neurobehavior_001/assets/gcs_diagram.png"
+    },
+    {
+      "id": "visual_roadmap_neurobehavior_trm_poster_02",
+      "module_id": "mod_neuro_skill_roadmap_neurobehavior_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Buat poster dengan tiga ilustrasi klinis: (1) Kaku kuduk — pemeriksa memfleksikan leher pasien secara pasif dengan posisi pasien supine; (2) Kernig — paha pasien difleksikan 90° lalu lutut diluruskan, positif bila nyeri atau hambatan; (3) Brudzinski — fleksi pasif leher menyebabkan fleksi involunter pinggul/lutut. Label setiap ilustrasi dengan tanda positif dan interpretasi klinis. Gaya medis bersih, anatomi akurat.",
+      "alt": "Poster tiga ilustrasi posisi pemeriksaan tanda rangsang meningeal: kaku kuduk (fleksi pasif leher), Kernig (paha 90° lalu lutut diluruskan), dan Brudzinski (fleksi leher menyebabkan fleksi involunter pinggul dan lutut), masing-masing dengan label tanda positif dan interpretasi klinis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_roadmap_neurobehavior_001/assets/trm_poster.png"
+    },
+    {
+      "id": "visual_roadmap_neurobehavior_lokalisasi_lesi_03",
+      "module_id": "mod_neuro_skill_roadmap_neurobehavior_001",
+      "section_id": "s06",
+      "type": "diagram",
+      "generation_prompt": "Buat diagram yang menunjukkan hubungan antara lokasi lesi (korteks, traktus piramidal, kornu anterior, saraf perifer, neuromuscular junction, otot) dengan tanda klinis (UMN vs LMN). Tandai dengan warna berbeda untuk UMN (korteks, traktus — warna merah-oranye) dan LMN (kornu anterior, saraf perifer, NMJ, otot — warna biru-ungu). Berikan contoh klinis untuk masing-masing: stroke, polio, neuropati, miastenia gravis, miopati. Tambahkan daftar tanda UMN (spastisitas, hiperrefleksia, Babinski +, kelemahan tanpa atrofi) dan tanda LMN (atrofi, fasikulasi, hiporefleksia, kelemahan dengan atrofi).",
+      "alt": "Diagram lokalisasi lesi neurologi yang memetakan lokasi anatomis (korteks, traktus piramidal, kornu anterior, saraf perifer, neuromuscular junction, otot) ke tanda UMN versus LMN, dengan contoh klinis (stroke, polio, neuropati, miastenia gravis, miopati).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_roadmap_neurobehavior_001/assets/lokalisasi_lesi.png"
+    },
+    {
+      "id": "visual_roadmap_neurobehavior_mse_template_04",
+      "module_id": "mod_neuro_skill_roadmap_neurobehavior_001",
+      "section_id": "s05",
+      "type": "table",
+      "generation_prompt": "Buat tabel dengan dua kolom: domain MSE (9 domain) dan frasa laporan singkat (contoh kalimat yang bisa diucapkan di OSCE). Domain: appearance, behaviour, speech, mood/affect, thought, perception, cognition, insight/judgment, risk. Berikan frasa Indonesia baku untuk setiap domain, misalnya appearance: 'Tampak sesuai usia, perawatan cukup, kontak mata adekuat'. Format tabel bersih siap cetak dengan header berwarna.",
+      "alt": "Tabel template Mental State Examination (MSE) siap pakai dengan 9 domain (appearance, behaviour, speech, mood/affect, thought, perception, cognition, insight/judgment, risk) beserta frasa laporan singkat bahasa Indonesia yang bisa langsung diucapkan di OSCE.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_roadmap_neurobehavior_001/assets/mse_template.png"
+    },
+    {
+      "id": "visual_roadmap_neurobehavior_bppv_vs_stroke_05",
+      "module_id": "mod_neuro_skill_roadmap_neurobehavior_001",
+      "section_id": "s06",
+      "type": "flowchart",
+      "generation_prompt": "Buat flowchart dengan titik masuk 'pasien dengan vertigo akut'. Cabang keputusan: (1) durasi: <1 menit episodik → BPPV; >1 menit menetap → curiga stroke; (2) defisit neurologis lain: tidak ada → BPPV; ada (diplopia, disartria, disfagia, ataksia) → stroke; (3) pencetus posisi: ya → BPPV; tidak → stroke. Cabang akhir: BPPV → manuver Epley; stroke → CT scan + rujuk emergensi. Gunakan warna hijau untuk jalur BPPV dan merah untuk jalur stroke.",
+      "alt": "Algoritma flowchart pembedaan BPPV (Benign Paroxysmal Positional Vertigo) versus stroke posterior pada pasien dengan vertigo akut, berdasarkan durasi vertigo, ada tidaknya defisit neurologis lain, dan ada tidaknya pencetus posisi. BPPV berakhir pada manuver Epley; stroke posterior berakhir pada CT scan dan rujukan emergensi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_roadmap_neurobehavior_001/assets/bppv_vs_stroke.png"
+    },
+    {
+      "id": "visual_roadmap_neurobehavior_spikes_infographic_06",
+      "module_id": "mod_neuro_skill_roadmap_neurobehavior_001",
+      "section_id": "s09",
+      "type": "illustration",
+      "generation_prompt": "Buat infografis 6 langkah SPIKES: (S)etting — privasi, duduk, tidak terburu-buru; (P)erception — tanyakan pemahaman pasien; (I)nvitation — tanyakan seberapa banyak yang ingin diketahui; (K)nowledge — berikan informasi bertahap, hindari jargon; (E)motion/Empathy — validasi perasaan, sentuh tangan/empati; (S)trategy/Summary — rangkum, rencana tindak lanjut. Gunakan ikon untuk setiap langkah dengan warna berbeda. Layout horizontal atau melingkar.",
+      "alt": "Infografis 6 langkah SPIKES Protocol untuk breaking bad news: Setting (privasi), Perception (tanyakan pemahaman pasien), Invitation (tanyakan seberapa banyak informasi yang ingin diketahui), Knowledge (berikan informasi bertahap), Emotion/Empathy (validasi perasaan), Strategy/Summary (rangkum dan rencana tindak lanjut), masing-masing dengan ikon deskriptif.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_roadmap_neurobehavior_001/assets/spikes_infographic.png"
+    },
+    {
+      "id": "visual_roadmap_neurobehavior_code_stroke_07",
+      "module_id": "mod_neuro_skill_roadmap_neurobehavior_001",
+      "section_id": "s06",
+      "type": "flowchart",
+      "generation_prompt": "Buat flowchart Code Stroke: (1) Aktivasi code stroke; (2) CT scan kepala non-kontras <20 menit; (3) Eksklusi perdarahan; (4) Jika iskemik + window time (<4.5 jam) → trombolisis rtPA; (5) Jika large vessel occlusion → trombektomi mekanik (<24 jam); (6) ICU/neuro ICU; (7) Evaluasi penyebab (AF, stenosis karotis, dll.). Gunakan warna merah untuk langkah emergensi dan hijau untuk langkah elektif.",
+      "alt": "Flowchart Code Stroke dari aktivasi code stroke hingga evaluasi penyebab: CT scan kepala non-kontras <20 menit, eksklusi perdarahan, trombolisis rtPA pada window time <4.5 jam untuk stroke iskemik, trombektomi mekanik <24 jam untuk large vessel occlusion, rawat ICU, dan evaluasi penyebab (atrial fibrilasi, stenosis karotis, dll.).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_roadmap_neurobehavior_001/assets/code_stroke.png"
+    },
+    {
+      "id": "visual_roadmap_neurobehavior_epley_maneuver_08",
+      "module_id": "mod_neuro_skill_roadmap_neurobehavior_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Buat 5 ilustrasi berurutan posisi manuver Epley untuk reposisi kanalit posterior kanan: (1) Posisi awal duduk di tepi tempat tidur; (2) Kepala diputar 45° ke kanan, lalu berbaring cepat; (3) Kepala diputar 90° ke kiri (ke sisi sehat); (4) Tubuh dan kepala diputar ke sisi sehat (miring kiri); (5) Duduk kembali dengan kepala tetap miring. Tahan setiap posisi 30 detik atau sampai nistagmus berhenti. Setiap ilustrasi diberi label dan tanda panah urutan.",
+      "alt": "Lima ilustrasi berurutan manuver Epley untuk reposisi kanalit posterior kanan pada BPPV: duduk di tepi tempat tidur, kepala diputar 45° ke kanan lalu berbaring, kepala diputar 90° ke kiri, tubuh miring ke sisi sehat, duduk kembali dengan kepala miring — masing-masing ditahan 30 detik atau sampai nistagmus berhenti.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_roadmap_neurobehavior_001/assets/epley_maneuver.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s01",
+      "type": "content",
+      "source_query": "Sintesis skenario klinis Blok 6.3 dari Tabel 9 dokumen asli karena roadmap tidak memiliki satu pasien fiktif tunggal.",
+      "source_reference": "Tabel 9 (Kasus example) dokumen asli Modul Keterampilan Klinis VI FKIK UNJA 2024/2025",
+      "confidence": "high",
+      "note": "Skenario klinis (vertigo akut, mulut mencong, nyeri kepala berulang) dibangun dari Tabel 9 asli; jadwal 4 pertemuan skill lab disintesis dari Tabel 2."
+    },
+    {
+      "section_id": "s02",
+      "type": "checklist",
+      "source_query": "Struktur 22 item checklist penilaian OSCE yang menggabungkan kompetensi 4A dan pola universal station neurologi + psikiatri.",
+      "source_reference": "Tabel 4 (Kompetensi 4A) dokumen asli + Geeky Medics OSCE Guide + PROMPT_DOMAIN3",
+      "confidence": "high",
+      "note": "22 item checklist terstruktur yang dapat dihafal, mencakup perkenalan, hand hygiene, GCS, TRM, motorik, sensorik, koordinasi, gait, refleks, MMSE, rapport, autoanamnesis, alloanamnesis, MSE 9 domain, risk assessment, dan penutupan station."
+    },
+    {
+      "section_id": "s03",
+      "type": "danger_callout",
+      "source_query": "7 red flags neurology dan psikiatri yang harus dikenali dalam <30 detik di station OSCE.",
+      "source_reference": "Dokumen asli + SNOOP criteria + standard neurology emergency teaching",
+      "confidence": "high",
+      "note": "Red flags: thunderclap headache, defisit neurologis fokal baru, GCS menurun, pupil anisokor, TRM + demam + ruam, risiko bunuh diri tinggi, agitasi berat."
+    },
+    {
+      "section_id": "s04",
+      "type": "clinical_detail",
+      "source_query": "Tambahan skala kekuatan otot 0–5 dengan deskripsi detail, reinforcement Jendrassik, dan grading refleks 0–4+.",
+      "source_reference": "PROMPT_DOMAIN3_Neuro_Psiki + Geeky Medics Neurological Examination + Medical Research Council (MRC) Scale",
+      "confidence": "high",
+      "note": "Skala MRC 0–5 dengan deskripsi lengkap, Jendrassik maneuver untuk membedakan kelemahan organik dari kurang kerjasama, dan tabel normal vs abnormal untuk masing-masing komponen."
+    },
+    {
+      "section_id": "s05",
+      "type": "alat_list",
+      "source_query": "Daftar alat lengkap pemeriksaan neurologis di station OSCE.",
+      "source_reference": "PROMPT_DOMAIN3 + Geeky Medics + Modul Keterampilan Klinis VI FKIK UNJA",
+      "confidence": "high",
+      "note": "Alat: palu refleks, kapas, jarum tumpul, garpu tala 128 Hz, snellen chart, penlight, oftalmoskop, otoskop, form checklist; fase prosedur persiapan-pelaksanaan-evaluasi."
+    },
+    {
+      "section_id": "s06",
+      "type": "clinical_reasoning",
+      "source_query": "Pendekatan lokalisasi lesi UMN vs LMN dan algoritma pembedaan diagnosis emergensi.",
+      "source_reference": "PROMPT_DOMAIN3 + standard neurology textbook + Tabel 9 (Kasus example)",
+      "confidence": "high",
+      "note": "Lokalisasi lesi (korteks/traktus/kornu anterior/saraf perifer/NMJ/otot), 4 tabel pembanding (Bell's vs stroke, BPPV vs stroke posterior, migren vs tension, dan diagnosis banding 10 penyakit)."
+    },
+    {
+      "section_id": "s07",
+      "type": "tatalaksana",
+      "source_query": "Pemeriksaan penunjang dan tata laksana awal 8 penyakit SKDI 4A.",
+      "source_reference": "Tabel 6 (Mini disease matrix) dokumen asli + PERDOSSI 2022 + AHA/ASA 2018 (update 2021) + NICE NG127",
+      "confidence": "medium",
+      "note": "Pemeriksaan: CT scan non-kontras, MRI, pungsi lumbal, EEG, EMG, MMSE, PHQ-9. Tata laksana: prednisone 1 mg/kgBB/hari untuk Bell's palsy, manuver Epley untuk BPPV, triptan untuk migren, CBT-I untuk insomnia; dosis prednisone memerlukan konfirmasi PPK RS lokal."
+    },
+    {
+      "section_id": "s08",
+      "type": "SOAP",
+      "source_query": "Dua contoh SOAP lengkap (vertigo akut dan Bell's palsy) yang siap dipresentasikan di OSCE.",
+      "source_reference": "Tabel 9 (Kasus example) + general OSCE documentation + WHO ICD-10",
+      "confidence": "high",
+      "note": "SOAP Skenario A vertigo akut dengan manuver Epley dan SOAP Skenario B Bell's palsy dengan prednisone. Kode ICD-10 untuk 10 diagnosis utama (G51.0 Bell's palsy, H81.1 BPPV, G43.9 migren, G44.2 tension, I63.9 stroke iskemik, F32.9 depresi, G47.0 insomnia, dll.)."
+    },
+    {
+      "section_id": "s09",
+      "type": "SPIKES_dialogue",
+      "source_query": "Mini-skrip lengkap SPIKES untuk breaking bad news stroke akut.",
+      "source_reference": "Baile et al. SPIKES Protocol (2000, updated) + Tabel 5 (Penyakit 4A)",
+      "confidence": "high",
+      "note": "Dialog dokter–pasien/keluarga untuk breaking bad news stroke iskemik dengan 7 turn dialog sesuai struktur Setting-Perception-Invitation-Knowledge-Emotion-Strategy."
+    },
+    {
+      "section_id": "s10",
+      "type": "plan",
+      "source_query": "Rencana belajar 3 hari terstruktur dengan target, durasi, aktivitas, dan kriteria keberhasilan.",
+      "source_reference": "Dokumen asli §2 + §13 (Latihan OSCE 3 hari) + Tabel 3 (Prioritas)",
+      "confidence": "high",
+      "note": "Rencana 3 hari: Hari 1 checklist neurologi, Hari 2 IPM neurologi + MMSE, Hari 3 wawancara psikiatri + SPIKES + simulasi integrated. Plus 6 kesalahan fatal dan 3 kesalahan minor."
+    },
+    {
+      "section_id": "s11",
+      "type": "visual_asset",
+      "source_query": "8 visual asset requirements dengan prompt detail untuk AI image generator.",
+      "source_reference": "Dokumen asli §12 (Saran gambar/visual) + AI image generation best practice",
+      "confidence": "medium",
+      "note": "8 visual: GCS diagram, TRM poster, lokalisasi lesi, MSE template, BPPV vs stroke, SPIKES infographic, code stroke, Epley maneuver."
+    },
+    {
+      "section_id": "GLOSSARY",
+      "type": "term",
+      "source_query": "13 istilah kunci dengan definisi teknis, definisi sederhana, konteks penggunaan, dan istilah terkait.",
+      "source_reference": "Dokumen asli + Folstein MMSE 1975 + Teasdale GCS 1974 + Baile SPIKES 2000 + standard neurology textbook",
+      "confidence": "high",
+      "note": "GCS, TRM, Babinski, Refleks Primitif, MMSE, MSE, SPIKES, Bell's palsy, BPPV, Motivational Interviewing, Risk Assessment, Ataksia Serebelar, Refleks Patologis."
+    },
+    {
+      "section_id": "DIAGNOSTIC_ALGORITHMS",
+      "type": "algorithm",
+      "source_query": "6 algoritma klinis yang siap pakai untuk OSCE.",
+      "source_reference": "Dokumen asli + standard neurology & psychiatry algorithms",
+      "confidence": "high",
+      "note": "Algoritma: lokalisasi lesi neurologis, BPPV vs stroke posterior, Bell's palsy vs stroke sentral, penilaian risiko bunuh diri, penilaian kesadaran (GCS), breaking bad news (SPIKES)."
+    },
+    {
+      "section_id": "RED_FLAGS",
+      "type": "red_flag",
+      "source_query": "10 red flags yang harus dikenali dalam <30 detik.",
+      "source_reference": "Dokumen asli + standard neurology & psychiatry emergency teaching",
+      "confidence": "high",
+      "note": "GCS menurun/anisokor, defisit fokal baru, TRM+demam+ruam, thunderclap headache, status epileptikus, risiko bunuh diri tinggi, agitasi berat, tetanus, pupil anisokor post-trauma, hipoglikemia."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber, karakter dokumen, dan skenario klinis terintegrasi untuk Blok 6.3 (Kelainan Neurologi dan Psikiatri) dengan fokus pada 4 pertemuan skill lab dan 3 skenario emergensi tipikal.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini adalah file roadmap/overview untuk Blok 6.3, bukan modul skill individual. Perannya adalah memetakan sumber belajar, kompetensi yang relevan, penyakit 4A, dan strategi latihan sehingga mahasiswa tidak tersesat di antara banyak modul terpisah. Karakter dokumen sumber dicatat secara eksplisit: tujuan adalah modul belajar OSCE yang memprioritaskan checklist penilaian, lalu memperjelas teori, alur pemeriksaan, interpretasi, penyakit terkait, edukasi, dan red flags. Target pembaca adalah mahasiswa kedokteran yang masih awam, akan menghadapi OSCE dalam waktu singkat, dengan batas klinis yang jelas: dokumen ini untuk belajar, bukan untuk diterapkan pada pasien nyata tanpa supervisi.",
+          "tone": "narrative",
+          "source": "§1 (Peta isi file sumber) dokumen asli"
+        },
+        {
+          "text": "Strategi belajar yang dipedomani adalah: checklist OSCE = prioritas tertinggi; teori digunakan untuk memahami mengapa langkah dilakukan dan bagaimana melaporkan hasil. Hal ini krusial karena OSCE menilai tindakan terstruktur, bukan hafalan teori. Identitas blok dalam file sumber adalah Modul Keterampilan Klinis VI untuk 6E Kelainan Neurologi dan 6F Kelainan Psikiatri, Program Studi Kedokteran FKIK Universitas Jambi tahun ajaran 2024/2025. Fokus blok adalah neuro dan behavior: keterampilan neurologi dasar, neurobehavior, komunikasi klinis, dan wawancara psikiatri. Keterampilan yang disebutkan secara eksplisit adalah: menyampaikan berita buruk, memberi nasihat dan motivasi, rehabilitasi medik motorik post-stroke, pemeriksaan status mental, pemeriksaan refleks nervi kranialis dan refleks patologis, penilaian kesadaran, dan tanda rangsang meningeal. Target kompetensi adalah level 3 dan 4, di mana level 4 artinya mampu melakukan secara mandiri pada target lulusan dokter.",
+          "tone": "narrative",
+          "source": "§1 (Identitas blok) dokumen asli"
+        },
+        {
+          "text": "Jadwal skill lab Blok 6.3 dirancang dalam 4 pertemuan: Pertemuan 1 — defisit neurologi fokal, kesadaran, tanda rangsang meningeal, nervus kranial, keseimbangan dan koordinasi; Pertemuan 2 — Integrated Patient Management (IPM) neurologi; Pertemuan 3 — refleks regresi dan neurobehavior/MMSE; Pertemuan 4 — wawancara psikiatri. Pola ini menunjukkan progresi sistematis dari neurologi ke psikiatri, dengan pertemuan integrasi di tengah (Pertemuan 2) dan akhir (Pertemuan 4).",
+          "tone": "narrative",
+          "source": "Tabel 2 (Peta file sumber) dokumen asli"
+        },
+        {
+          "text": "Karena modul ini berupa roadmap, skenario klinis pada dokumen asli tidak berupa satu pasien fiktif tunggal, melainkan sekumpulan kasus tipikal pada Tabel 9 yang merepresentasikan presentasi emergensi yang paling sering keluar di OSCE: vertigo akut dengan muntah dan gangguan berjalan (membingungkan BPPV, stroke posterior, neuritis vestibular), mulut mencong mendadak (Bell's palsy vs stroke), dan nyeri kepala berulang (migren vs tension headache vs red flag sekunder). Seluruh skenario pada Tabel 9 digunakan untuk membangun skenario pada section s02–s06.",
+          "tone": "narrative",
+          "source": "Tabel 9 (Kasus example) dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Karakter dokumen sumber",
+          "sub": [
+            "Tujuan: modul belajar OSCE yang memprioritaskan checklist penilaian",
+            "Target: mahasiswa kedokteran yang masih awam",
+            "Batas klinis: dokumen ini untuk belajar (bukan untuk pasien nyata)",
+            "Strategi: checklist OSCE = prioritas tertinggi"
+          ],
+          "bold": true,
+          "source": "Tabel 1 (Karakter dokumen) dokumen asli"
+        },
+        {
+          "text": "Komponen yang dinilai di OSCE Blok 6.3",
+          "sub": [
+            "Keterampilan prosedural neurologis: urutan, presisi, kalibrasi alat",
+            "Keterampilan prosedural psikiatris: wawancara terstruktur, MSE, penilaian risiko",
+            "Komunikasi klinis: breaking bad news, motivasi, empati",
+            "Interpretasi: lokalisasi lesi, diagnosis banding, red flags"
+          ],
+          "bold": true,
+          "source": "§3 (Daftar kompetensi) dokumen asli"
+        },
+        {
+          "text": "Skenario klinis utama (diadopsi dari Tabel 9)",
+          "sub": [
+            "Skenario A — Vertigo akut + muntah + tidak bisa berjalan: BPPV vs stroke posterior vs neuritis vestibular",
+            "Skenario B — Mulut mencong mendadak: Bell's palsy vs stroke",
+            "Skenario C — Nyeri kepala berulang: migren vs tension headache vs red flag sekunder"
+          ],
+          "bold": true,
+          "source": "Tabel 9 (Kasus example) dokumen asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi membaca Blok 6.3 dalam 3 hari (ringkasan §2 asli)",
+          "text": "Hari 1 — kuasai checklist GCS, TRM, defisit neurologi fokal, dan nervus kranial; Hari 2 — pelajari keseimbangan, koordinasi, refleks, dan MMSE; Hari 3 — fokuskan pada wawancara psikiatri, MSE, penilaian risiko, dan komunikasi SPIKES, lalu lakukan simulasi integrated case.",
+          "answer_evidence": "Dokumen asli §2 (Cara membaca blok 6.3 dalam 3 hari)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Roadmap adalah peta, bukan modul tunggal",
+          "text": "Modul ini tidak menggantikan modul skill individual; gunakan sebagai peta untuk memilih modul mana yang harus dibuka lebih dulu berdasarkan prioritas 1–5 pada Tabel 3.",
+          "answer_evidence": "Dokumen asli Tabel 3 (Prioritas) + §2"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_roadmap_gcs_01",
+        "gls_roadmap_trm_01"
+      ],
+      "bilingual": "Modul ini memetakan Blok 6.3 (Kelainan Neurologi dan Psikiatri) ke empat pertemuan skill lab dan tiga skenario klinis emergensi tipikal. Bukan modul skill individual, melainkan peta navigasi yang memprioritaskan checklist penilaian di atas teori."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Urutan langkah OSCE dari masuk station sampai keluar untuk komponen neurologi dan psikiatri, dengan 22 item checklist terstruktur dan dua kalimat pembuka station yang efektif.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Station OSCE Blok 6.3 memiliki dua kelompok besar: neurologi dan psikiatri. Pada station neurologi, alur masuk–keluar mengikuti pola universal: orientasi & perkenalan → informed consent → persiapan alat & posisi pasien → pemeriksaan sistematis (adaran → saraf kranial → motorik → sensorik → koordinasi → refleks) → pelaporan hasil → diskusi diagnosis banding → edukasi singkat → tanya jawab penguji. Pada station psikiatri, alurnya bergeser: rapport & privasi → autoanamnesis/alloanamnesis → MSE → penilaian risiko (wajib) → diagnosis kerja & banding → rencana tata laksana & rujukan → edukasi pasien/keluarga → penutup dengan validasi.",
+          "tone": "narrative",
+          "source": "§3 (Daftar kompetensi keterampilan) dokumen asli"
+        },
+        {
+          "text": "Kunci nilai tinggi pada station neurologi adalah laporan per komponen, bukan total: GCS harus dilaporkan E_V_M_ (misalnya E3V4M6 = GCS 13), kekuatan otot harus disertai grading 0–5, refleks harus menggunakan grading 0 sampai 4+, dan setiap pemeriksaan harus dibandingkan kanan–kiri (simetris/asimetris) serta distal–proksimal. Kunci nilai tinggi pada station psikiatri adalah bahasa empatik (bukan interogatif), penilaian risiko yang tidak dilewati, dan kemampuan memvalidasi perasaan pasien (Saya bisa memahami ini berat). Mahasiswa yang langsung menanyakan Apakah Anda mau bunuh diri? tanpa rapport akan kehilangan poin signifikan.",
+          "tone": "narrative",
+          "source": "§3 (Kompetensi) + §5.1 (Wawancara psikiatri) dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE untuk station neurologi (contoh: defisit fokal)",
+          "sub": [
+            "Langkah 1: Memperkenalkan diri dan menjelaskan prosedur kepada pasien simulasi",
+            "Langkah 2: Mencuci tangan dan memastikan privasi",
+            "Langkah 3: Menilai tingkat kesadaran dengan GCS (E, V, M terpisah)",
+            "Langkah 4: Memeriksa saraf kranial satu per satu (N II–XII)",
+            "Langkah 5: Memeriksa motorik (inspeksi, tonus, kekuatan, pronator drift)",
+            "Langkah 6: Memeriksa sensorik (raba, nyeri, suhu, proprioseptif, diskriminatif)",
+            "Langkah 7: Memeriksa koordinasi dan gait (bila aman)",
+            "Langkah 8: Melaporkan hasil dalam format E_V_M_ + interpretasi",
+            "Langkah 9: Menyebutkan diagnosis banding dan red flags",
+            "Langkah 10: Edukasi pasien dan penutupan station"
+          ],
+          "bold": true,
+          "source": "§4 (Modul inti neurologi) + PROMPT_DOMAIN3"
+        },
+        {
+          "text": "Urutan langkah OSCE untuk station psikiatri (contoh: wawancara depresi)",
+          "sub": [
+            "Langkah 1: Membangun rapport (sapa, perkenalkan diri, privasi, kerahasiaan)",
+            "Langkah 2: Pertanyaan terbuka (Bisa ceritakan apa yang paling mengganggu akhir-akhir ini?)",
+            "Langkah 3: Pertanyaan tertutup untuk gejala kunci (tidur, nafsu makan, energi, minat, cemas, halusinasi, waham, zat)",
+            "Langkah 4: Menilai risiko bunuh diri (ide, rencana, metode, akses, niat, percobaan sebelumnya, protektif)",
+            "Langkah 5: Melakukan MSE (appearance, behaviour, speech, mood/affect, thought, perception, cognition, insight/judgment, risk)",
+            "Langkah 6: Menyusun diagnosis kerja dan diagnosis banding",
+            "Langkah 7: Merencanakan tata laksana (terapi, rujukan, follow-up)",
+            "Langkah 8: Edukasi pasien/keluarga dan validasi perasaan",
+            "Langkah 9: Penutupan dengan rangkuman dan tanya jawab"
+          ],
+          "bold": true,
+          "source": "§5 (Modul inti psikiatri) + PROMPT_DOMAIN3"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan pernah memulai tanpa memperkenalkan diri",
+          "text": "Jangan pernah memulai pemeriksaan atau wawancara tanpa memperkenalkan diri dan meminta izin. Pelanggaran ini langsung menggugurkan skor profesionalisme.",
+          "answer_evidence": "Standar OSCE internasional + Geeky Medics OSCE Guide"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak menanyakan risiko bunuh diri",
+          "text": "Pada station psikiatri, tidak menanyakan risiko bunuh diri adalah kesalahan fatal yang menurunkan skor secara drastis dan dapat menyebabkan nilai tidak lulus.",
+          "answer_evidence": "Dokumen asli + standard psychiatry OSCE"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "GCS tanpa breakdown E/V/M = kehilangan nilai",
+          "text": "Pada GCS, tidak melaporkan komponen E/V/M terpisah (hanya menulis total) menunjukkan mahasiswa tidak memahami kegunaan klinis GCS.",
+          "answer_evidence": "Teasdale & Jennett 1974 + standard neurology OSCE"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station neurologi",
+          "text": "Selamat pagi, Bapak/Ibu. Perkenalkan, saya dr. [Nama], dokter yang akan memeriksa Bapak/Ibu hari ini. Boleh saya jelaskan prosedur yang akan kita lakukan?",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station psikiatri",
+          "text": "Selamat pagi, Bapak/Ibu. Saya dr. [Nama]. Pembicaraan kita hari ini bersifat rahasia dan akan saya dengarkan dengan seksama. Silakan ceritakan apa yang paling mengganggu akhir-akhir ini.",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_roadmap_gcs_01",
+        "gls_roadmap_trm_01",
+        "gls_roadmap_mmse_01",
+        "gls_roadmap_mse_01",
+        "gls_roadmap_risk_01"
+      ],
+      "bilingual": "OSCE Blok 6.3 menilai dua domain besar (neurologi dan psikiatri) dengan pola universal: perkenalan → hand hygiene → informed consent → pemeriksaan/wawancara terstruktur → pelaporan hasil per komponen → diagnosis banding → edukasi. Pelanggaran pada kata pembuka atau kelalaian risk assessment menurunkan skor secara drastis."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis neurologis (SNOOP) dan psikiatri (riwayat risiko bunuh diri), red flags wajib ditanyakan, dan prinsip autoanamnesis vs alloanamnesis.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada Blok 6.3 memiliki dua wajah yang berbeda. Anamnesis neurologis berfokus pada keluhan utama yang terlokalisasi (nyeri kepala, kelemahan satu sisi, kesemutan, gangguan bicara, gangguan berjalan, gangguan penglihatan) dengan penekanan pada onset, durasi, progresivitas, pencetus, gejala penyerta, dan red flags SNOOP (Systemic symptoms, Neurologic symptoms, Onset sudden, Older age, Pattern change). Anamnesis psikiatri lebih terbuka dan memerlukan keterampilan rapport yang kuat, dimulai dengan pertanyaan terbuka (Bisa ceritakan apa yang paling mengganggu akhir-akhir ini?) dan ditutup dengan pertanyaan tertutup untuk gejala kunci (tidur, nafsu makan, energi, minat, cemas, panik, halusinasi, waham, penggunaan zat).",
+          "tone": "narrative",
+          "source": "§4.1 (Penilaian kesadaran dan GCS), §5.1 (Wawancara psikiatri) dokumen asli"
+        },
+        {
+          "text": "Prinsip terpenting pada anamnesis psikiatri adalah selalu melakukan autoanamnesis dari pasien; alloanamnesis dari keluarga hanya bila pasien sulit memberi informasi, psikotik, manik, demensia, atau ada risiko keselamatan. Pada akhirnya, anamnesis harus ditutup dengan rangkuman dan validasi (Jadi yang saya tangkap... apakah benar?) untuk memastikan pemahaman pemeriksa sama dengan pasien.",
+          "tone": "narrative",
+          "source": "§5.1 (Struktur wawancara psikiatri) dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci anamnesis neurologis",
+          "sub": [
+            "Onset (mendadak/bertahap), durasi, progresivitas, pencetus",
+            "Gejala penyerta: nyeri kepala, mual/muntah, kejang, gangguan kesadaran, demam",
+            "Red flags SNOOP untuk nyeri kepala: Systemic (demam, penurunan BB), Neurologic (defisit fokal), Onset (thunderclap), Older (>50 tahun onset baru), Pattern (perubahan pola)",
+            "Riwayat penyakit dahulu: stroke, hipertensi, diabetes, trauma kepala, epilepsi",
+            "Riwayat pengobatan: antikoagulan, antihipertensi, obat yang berpotensi neurotoxic",
+            "Riwayat sosial: merokok, alkohol, zat psikoaktif"
+          ],
+          "bold": true,
+          "source": "§4 (Anamnesis neurologis) dokumen asli"
+        },
+        {
+          "text": "Pertanyaan kunci anamnesis psikiatri",
+          "sub": [
+            "Keluhan utama dan onset",
+            "Gejala mood: sedih, gembira berlebihan, iritabel",
+            "Gejala cemas: khawatir berlebihan, panik, somatic symptoms",
+            "Gejala psikotik: waham (curiga, kebesaran), halusinasi (auditorik, visual, taktil)",
+            "Tidur: sulit masuk, sering terbangun, bangun dini, tidak segar",
+            "Nafsu makan dan berat badan",
+            "Energi dan minat (anhedonia)",
+            "Penggunaan zat: alkohol, rokok, NAPZA",
+            "Riwayat psikiatri sebelumnya, percobaan bunuh diri, rawat inap",
+            "WAJIB: risiko bunuh diri (ide, rencana, metode, akses, niat, percobaan sebelumnya, protektif)",
+            "WAJIB: risiko menyakiti orang lain (ide, target, rencana, akses senjata, riwayat kekerasan)",
+            "Fungsi: pekerjaan, hubungan sosial, perawatan diri",
+            "Riwayat keluarga: gangguan mood, psikiatri, bunuh diri"
+          ],
+          "bold": true,
+          "source": "§5.1 (Anamnesis psikiatri) dokumen asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 1 — Thunderclap headache",
+          "text": "Nyeri kepala mendadak hebat seperti petir: pikirkan perdarahan subaraknoid; CT scan kepala dan LP wajib.",
+          "answer_evidence": "AHA/ASA 2018 + dokumen asli Red Flags"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 2 — Defisit neurologis fokal baru",
+          "text": "Kelemahan satu sisi, gangguan bicara, gangguan penglihatan mendadak — pikirkan stroke akut (code stroke).",
+          "answer_evidence": "AHA/ASA Guidelines 2018 (update 2021)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 3 — GCS menurun atau kejang aktif",
+          "text": "Stabilisasi jalan napas, pernafasan, sirkulasi (ABC); pikirkan trauma kepala, hipoglikemia, intoksikasi.",
+          "answer_evidence": "ATLS guidelines + Teasdale GCS"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 4 — Risiko bunuh diri tinggi",
+          "text": "Ide + rencana + metode + akses + niat: rawat inap psikiatri, jangan pulang tanpa pendamping.",
+          "answer_evidence": "Dokumen asli + standard psychiatry emergency"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 5 — Agitasi berat / psikosis akut dengan risiko",
+          "text": "De-eskalasi verbal → medikasi → restrain sesuai protokol; jangan tinggalkan pasien sendirian.",
+          "answer_evidence": "PDSKJI Panduan Praktik Klinis 2022"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 6 — Pupil anisokor + penurunan kesadaran",
+          "text": "Pikirkan herniasi; elevasi kepala 30°, hiperventilasi, manitol, rujuk ICU bedah saraf.",
+          "answer_evidence": "PERDOSSI Panduan Praktik Klinis Neurologi 2022"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 7 — Tanda rangsang meningeal + demam + ruam purpura",
+          "text": "Pikirkan meningitis bakterialis; antibiotik empiris jangan ditunda.",
+          "answer_evidence": "IDSA guidelines + NICE NG127"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan langsung melabeli migren tanpa SNOOP",
+          "text": "Pada pasien dengan nyeri kepala berulang, jangan langsung melabeli migren tanpa menyaring red flags SNOOP. Tension headache pada lansia onset baru memerlukan neuroimaging.",
+          "answer_evidence": "NICE NG127 + dokumen asli"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_roadmap_risk_01"
+      ],
+      "bilingual": "Anamnesis neurologis memprioritaskan keluhan terlokalisasi dengan red flags SNOOP; anamnesis psikiatri dimulai dengan pertanyaan terbuka, ditutup pertanyaan tertutup untuk gejala kunci dan penilaian risiko bunuh diri (ide, rencana, metode, akses, niat, percobaan sebelumnya, protektif) yang WAJIB ditanyakan."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Urutan hierarkis pemeriksaan neurologi (kesadaran → bicara → saraf kranial → motorik → sensorik → koordinasi → refleks → gait) dan teknik GCS, TRM, defisit fokal, keseimbangan-koordinasi, refleks, serta MMSE.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik neurologis mengikuti urutan hierarkis yang konsisten: kesadaran → bicara → saraf kranial → motorik → sensorik → koordinasi → refleks → gait (bila aman). Pola ini memastikan bahwa informasi危及生命 (misalnya GCS rendah, pupil anisokor) dideteksi lebih dulu. Pada setiap pemeriksaan, prinsip bandingkan kanan–kiri dan distal–proksimal adalah wajib, karena asimetri atau distribusi tertentu memberikan petunjuk lokalisasi lesi.",
+          "tone": "narrative",
+          "source": "§4 (Modul inti neurologi) dokumen asli"
+        },
+        {
+          "text": "Pada pemeriksaan GCS, urutan rangsangan adalah: panggil pasien → berikan rangsang suara → berikan rangsang nyeri (bila tidak respons). GCS terdiri dari E (eye), V (verbal), M (motor). Komponen harus dilaporkan terpisah, misalnya E3V4M6 = GCS 13. Red flags kesadaran yang harus dicari: GCS menurun, kejang aktif, trauma kepala, tanda herniasi, pupil anisokor, demam/kaku kuduk, hipoglikemia. Kalimat OSCE: Saya akan menilai tingkat kesadaran pasien dengan melihat respons membuka mata, bicara, dan gerakan.",
+          "tone": "narrative",
+          "source": "§4.1 (GCS) dokumen asli + Tabel 7 (GCS scoring)"
+        },
+        {
+          "text": "Pada pemeriksaan TRM, tujuannya mencari iritasi meningeal pada meningitis, perdarahan subaraknoid, atau inflamasi meningen. Tanda klasik: kaku kuduk (fleksi pasif leher; positif bila kaku/nyeri dan dagu sulit mendekati dada), Kernig (paha fleksi 90° lalu lutut diluruskan; positif bila nyeri/hambatan), dan Brudzinski (fleksi pasif leher menyebabkan fleksi pinggul/lutut involunter). Red flags TRM: demam, penurunan kesadaran, kejang, ruam purpura, nyeri kepala mendadak hebat. Kontraindikasi TRM: peningkatan TIK, trauma servikal, fraktur servikal.",
+          "tone": "narrative",
+          "source": "§4.2 (TRM) dokumen asli"
+        },
+        {
+          "text": "Pada pemeriksaan defisit neurologi fokal, urutan cepat yang digunakan adalah kesadaran, bicara, saraf kranial, motorik, sensorik, koordinasi, gait jika aman. Pemeriksaan motorik mencakup inspeksi atrofi/fasikulasi, tonus, kekuatan (skala 0–5), dan pronator drift. Pemeriksaan sensorik mencakup raba halus, nyeri, suhu, proprioseptif, dan diskriminatif. Prinsip: bandingkan kanan–kiri dan distal–proksimal. Pada pasien dengan vertigo berat atau risiko jatuh, jangan memaksa pasien berdiri.",
+          "tone": "narrative",
+          "source": "§4.3 (Defisit neurologi fokal) dokumen asli"
+        },
+        {
+          "text": "Pada pemeriksaan keseimbangan dan koordinasi, tes yang dilakukan: finger-nose test, heel-shin test, rapid alternating movement, rebound phenomenon untuk koordinasi; Romberg, tandem gait, observasi gait untuk keseimbangan. Tujuannya membedakan ataksia serebelar dengan gangguan sensorik/vestibular. Pada BPPV, vertigo dipicu posisi, singkat, episodik, tanpa defisit neurologis lain; Dix-Hallpike dapat memicu nistagmus torsional upbeat. Pada stroke posterior, vertigo menetap, diplopia, disartria, disfagia, ataksia berat, kelemahan/sensorik, nyeri kepala baru.",
+          "tone": "narrative",
+          "source": "§4.4 (Keseimbangan dan koordinasi) dokumen asli"
+        },
+        {
+          "text": "Pada pemeriksaan refleks, refleks fisiologis yang dinilai: biseps (C5-6), triseps (C7-8), brachioradialis (C5-6), patela (L3-4), Achilles (S1-2). Grading: 0 tidak ada, 1+ menurun, 2+ normal, 3+ meningkat, 4+ klonus. Refleks patologis kunci: Babinski (gores lateral telapak kaki dari tumit ke arah ibu jari; positif bila ibu jari dorsifleksi dan jari lain mengembang). Refleks primitif pada dewasa (snout, palmomental, grasp, glabella) dapat menunjukkan gangguan frontal/demensia/kerusakan difus.",
+          "tone": "narrative",
+          "source": "§4.5 (Refleks) dokumen asli"
+        },
+        {
+          "text": "Pada pemeriksaan neurobehavior/MMSE, MMSE menilai orientasi, registrasi, perhatian/kalkulasi, recall, bahasa, perintah, dan konstruksi. Tujuan OSCE bukan mendiagnosis demensia hanya dari satu tes, tetapi menunjukkan cara pemeriksaan kognitif yang rapi. Selalu sesuaikan dengan pendidikan, bahasa, pendengaran, penglihatan, delirium, depresi, dan konteks budaya pasien. Laporkan skor total dan domain yang terganggu, misalnya orientasi waktu menurun dan recall 0/3.",
+          "tone": "narrative",
+          "source": "§4.6 (Neurobehavior dan MMSE) dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "GCS (Kesadaran): E (Eye 1–4), V (Verbal 1–5), M (Motor 1–6) → total 3–15",
+          "sub": [
+            "Eye 4 = spontan, 3 = terhadap suara, 2 = terhadap nyeri, 1 = tidak membuka",
+            "Verbal 5 = orientasi baik, 4 = bingung, 3 = kata tidak sesuai, 2 = suara tidak bermakna, 1 = tidak ada suara",
+            "Motor 6 = mengikuti perintah, 5 = melokalisasi nyeri, 4 = menarik dari nyeri, 3 = fleksi abnormal, 2 = ekstensi abnormal, 1 = tidak ada respons"
+          ],
+          "bold": true,
+          "source": "Tabel 7 (GCS scoring) dokumen asli"
+        },
+        {
+          "text": "TRM: kaku kuduk, Kernig, Brudzinski → positif pada meningitis, SAH, inflamasi meningen",
+          "bold": true,
+          "source": "§4.2 (TRM) dokumen asli"
+        },
+        {
+          "text": "Motorik: inspeksi (atrofi, fasikulasi), tonus, kekuatan 0–5 (MRC), pronator drift",
+          "bold": true,
+          "source": "§4.3 (Defisit fokal) dokumen asli"
+        },
+        {
+          "text": "Sensorik: raba halus, nyeri, suhu, proprioseptif, diskriminatif → bandingkan kanan–kiri, distal–proksimal",
+          "bold": true,
+          "source": "§4.3 (Defisit fokal) dokumen asli"
+        },
+        {
+          "text": "Koordinasi: finger-nose, heel-shin, rapid alternating, rebound",
+          "bold": true,
+          "source": "§4.4 (Keseimbangan dan koordinasi) dokumen asli"
+        },
+        {
+          "text": "Keseimbangan: Romberg, tandem gait, observasi gait",
+          "bold": true,
+          "source": "§4.4 (Keseimbangan dan koordinasi) dokumen asli"
+        },
+        {
+          "text": "Refleks fisiologis: grading 0/1+/2+/3+/4+; lokasi di C5-6, C7-8, L3-4, S1-2",
+          "bold": true,
+          "source": "§4.5 (Refleks) dokumen asli"
+        },
+        {
+          "text": "Refleks patologis: Babinski → positif = UMN lesion",
+          "bold": true,
+          "source": "§4.5 (Refleks) dokumen asli"
+        },
+        {
+          "text": "Refleks primitif: snout, palmomental, grasp, glabella → positif pada gangguan frontal/demensia",
+          "bold": true,
+          "source": "§4.5 (Refleks) dokumen asli"
+        },
+        {
+          "text": "MMSE: orientasi (10), registrasi (3), atensi (5), recall (3), bahasa (9), konstruksi (1) → total 30",
+          "bold": true,
+          "source": "§4.6 (MMSE) dokumen asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Skala kekuatan otot MRC 0–5",
+          "text": "0 = tidak ada kontraksi, 1 = kontraksi palpabel, 2 = gerakan tanpa gravitasi, 3 = melawan gravitasi, 4 = melawan gravitasi + tahanan, 5 = kekuatan penuh.",
+          "answer_evidence": "Medical Research Council (MRC) Scale + dokumen asli"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Reinforcement Jendrassik",
+          "text": "Saat refleks tidak muncul, gunakan reinforcement (Jendrassik untuk tungkai, genggam untuk lengan) untuk membedakan kelemahan organik dari kurang kerjasama.",
+          "answer_evidence": "Geeky Medics Neurological Examination"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Modifikasi posisi dan alat bantu",
+          "text": "Pasien dengan kelemahan, nyeri, atau gangguan kognitif mungkin tidak dapat melakukan perintah dengan baik. Modifikasi posisi dan alat bantu sesuai kebutuhan.",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan paksa gait pada defisit fokal akut",
+          "text": "Pada pasien dengan defisit fokal akut, jangan memaksakan pemeriksaan gait; risiko jatuh lebih besar daripada manfaat diagnostik.",
+          "answer_evidence": "Dokumen asli + safety priority"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Rangsang nyeri harus teknik standar",
+          "text": "Pemberian rangsang nyeri pada pemeriksaan GCS harus menggunakan teknik standar (tekan kuku, tekan supraorbital, cubit trapezius), bukan stimulus berbahaya.",
+          "answer_evidence": "Teasdale GCS 1974 + ATLS"
+        }
+      ],
+      "visual_refs": [
+        "visual_roadmap_neurobehavior_gcs_diagram_01",
+        "visual_roadmap_neurobehavior_trm_poster_02",
+        "visual_roadmap_neurobehavior_epley_maneuver_08"
+      ],
+      "glossary_refs": [
+        "gls_roadmap_gcs_01",
+        "gls_roadmap_trm_01",
+        "gls_roadmap_babinski_01",
+        "gls_roadmap_refleks_primitif_01",
+        "gls_roadmap_refleks_patologis_01",
+        "gls_roadmap_mmse_01",
+        "gls_roadmap_bppv_01",
+        "gls_roadmap_ataxia_serebelar_01"
+      ],
+      "bilingual": "Pemeriksaan neurologis mengikuti urutan hierarkis: kesadaran → bicara → saraf kranial → motorik → sensorik → koordinasi → refleks → gait. Prinsip: bandingkan kanan–kiri dan distal–proksimal, skala kekuatan otot MRC 0–5, grading refleks 0/1+/2+/3+/4+, Babinski positif = lesi UMN."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat, fase persiapan-pelaksanaan-evaluasi untuk station neurologi dan psikiatri, teknik manuver Epley untuk BPPV, dan prinsip safety pasien di setiap fase.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Berbeda dengan modul prosedur invasif, station neurologi dan psikiatri Blok 6.3 lebih banyak berupa pemeriksaan fisik dan wawancara, bukan prosedur tindakan. Oleh karena itu, prosedur utama di sini adalah alur pemeriksaan terstruktur yang dibagi dalam tiga fase: persiapan, pelaksanaan, dan evaluasi/pelaporan. Alat yang digunakan relatif sederhana — pada dasarnya penguji/pasien standar, kapas, jarum tumpul, palu refleks, snellen chart, pensil cahaya (penlight), garpu tala, dan lingkungan yang memadai — namun urutan dan kalibrasi jauh lebih penting daripada alat itu sendiri.",
+          "tone": "narrative",
+          "source": "§3 (Kompetensi) + §4 (Modul neurologi) + §5 (Modul psikiatri) dokumen asli"
+        },
+        {
+          "text": "Pada fase persiapan, mahasiswa harus menjelaskan prosedur kepada pasien simulasi, memastikan privasi, mencuci tangan 6 langkah WHO, dan memposisikan pasien dengan benar (duduk untuk pemeriksaan saraf kranial dan motorik, berbaring untuk TRM dan refleks tungkai, berdiri untuk gait dan keseimbangan). Prinsip umum pemeriksaan neurologis: bandingkan kanan–kiri, sistematis dari atas ke bawah, dokumentasi langsung.",
+          "tone": "narrative",
+          "source": "§4 (Modul neurologi) dokumen asli"
+        },
+        {
+          "text": "Pada fase pelaksanaan, urutan pemeriksaan harus sistematis: kesadaran (GCS) → bicara → saraf kranial → motorik → sensorik → koordinasi → refleks → gait (bila aman). Untuk psikiatri, fase pelaksanaan adalah rapport → autoanamnesis → alloanamnesis (bila perlu) → MSE → penilaian risiko → diagnosis kerja → tata laksana.",
+          "tone": "narrative",
+          "source": "§4 + §5 dokumen asli"
+        },
+        {
+          "text": "Pada fase evaluasi dan konfirmasi, mahasiswa harus dapat melaporkan hasil dalam format standar, melakukan sintesis temuan (apakah ada pola defisit?), melokalisasi lesi berdasarkan temuan, dan menyebutkan diagnosis banding beserta red flags. Untuk psikiatri, fase evaluasi berupa rangkuman, validasi perasaan pasien, dan rencana tindak lanjut (kontrol, rujukan, rawat inap).",
+          "tone": "narrative",
+          "source": "§4 + §5 dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT untuk station neurologi",
+          "sub": [
+            "Palu refleks: menilai refleks fisiologis",
+            "Kapas: menilai raba halus",
+            "Jarum tumpul: menilai nyeri",
+            "Garpu tala 128 Hz: menilai proprioseptif/getar",
+            "Snellen chart: menilai ketajaman visual",
+            "Pensil cahaya (penlight): menilai pupil dan refleks cahaya",
+            "Oftalmoskop: menilai fundus (papiledema)",
+            "Otoskop: menilai liang telinga dan gendang telinga",
+            "Snellen / Rosenbaum near card: menilai visus dekat",
+            "Form checklist OSCE dan lembar skor"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3 + Geeky Medics + dokumen asli"
+        },
+        {
+          "text": "FASE PERSIAPAN (Neurologi)",
+          "sub": [
+            "1. Memperkenalkan diri dan menjelaskan prosedur",
+            "2. Meminta izin (informed consent verbal)",
+            "3. Mencuci tangan 6 langkah WHO",
+            "4. Memastikan privasi (menutup pintu/tabir)",
+            "5. Mempersiapkan alat di meja periksa",
+            "6. Memposisikan pasien (duduk/berbaring sesuai pemeriksaan)"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3 + dokumen asli"
+        },
+        {
+          "text": "FASE PELAKSANAAN (Neurologi)",
+          "sub": [
+            "1. Menilai GCS (E/V/M terpisah)",
+            "2. Menilai saraf kranial (N II–XII) satu per satu",
+            "3. Menilai motorik (inspeksi, tonus, kekuatan, pronator drift)",
+            "4. Menilai sensorik (raba, nyeri, suhu, proprioseptif, diskriminatif)",
+            "5. Menilai koordinasi (finger-nose, heel-shin, rapid alternating, rebound)",
+            "6. Menilai keseimbangan dan gait (Romberg, tandem, observasi gait)",
+            "7. Menilai refleks fisiologis dan patologis",
+            "8. Menilai refleks primitif (bila ada indikasi)"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3 + dokumen asli"
+        },
+        {
+          "text": "FASE EVALUASI (Neurologi)",
+          "sub": [
+            "1. Melaporkan hasil per komponen (E_V_M_, kekuatan per otot, grading refleks)",
+            "2. Melokalisasi lesi berdasarkan pola defisit",
+            "3. Menyebutkan diagnosis banding",
+            "4. Mengenali red flags",
+            "5. Merencanakan pemeriksaan penunjang dan tata laksana",
+            "6. Memberikan edukasi singkat kepada pasien"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3 + dokumen asli"
+        },
+        {
+          "text": "ALAT untuk station psikiatri",
+          "sub": [
+            "Ruangan privat dan tenang",
+            "Kursi yang berhadapan tanpa penghalang",
+            "Form MSE / catatan perkembangan",
+            "Daftar pertanyaan wawancara terstruktur (open-ended)",
+            "Daftar pertanyaan penilaian risiko"
+          ],
+          "bold": true,
+          "source": "§5 (Modul psikiatri) + PROMPT_DOMAIN3"
+        },
+        {
+          "text": "FASE PERSIAPAN (Psikiatri)",
+          "sub": [
+            "1. Memperkenalkan diri dan menjelaskan kerahasiaan",
+            "2. Memastikan privasi dan waktu yang cukup (8–12 menit)",
+            "3. Membangun rapport (eye contact, bahasa tubuh terbuka)",
+            "4. Menanyakan izin untuk memulai wawancara"
+          ],
+          "bold": true,
+          "source": "§5.1 (Wawancara psikiatri) dokumen asli"
+        },
+        {
+          "text": "FASE PELAKSANAAN (Psikiatri)",
+          "sub": [
+            "1. Pertanyaan terbuka tentang keluhan utama",
+            "2. Eksplorasi gejala mood, cemas, psikotik, tidur, nafsu makan",
+            "3. Autoanamnesis (alloanamnesis bila perlu)",
+            "4. Melakukan MSE",
+            "5. WAJIB menilai risiko bunuh diri dan menyakiti orang lain",
+            "6. Menyusun diagnosis kerja dan diagnosis banding"
+          ],
+          "bold": true,
+          "source": "§5.1 + §5.3 (Penilaian risiko) dokumen asli"
+        },
+        {
+          "text": "FASE EVALUASI (Psikiatri)",
+          "sub": [
+            "1. Merangkum hasil wawancara",
+            "2. Memvalidasi pemahaman dengan pasien",
+            "3. Merencanakan tata laksana (terapi, rujukan, rawat inap)",
+            "4. Memberikan edukasi dan empati",
+            "5. Penutupan yang jelas dan terstruktur"
+          ],
+          "bold": true,
+          "source": "§5.4 (Komunikasi) dokumen asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan pasien di setiap fase",
+          "text": "Pada pasien dengan penurunan kesadaran, posisi miring aman (recovery position) untuk mencegah aspirasi. Pada pasien agitasi, pastikan tidak ada benda berbahaya di sekitar.",
+          "answer_evidence": "Dokumen asli + ATLS + standard safety"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kondisi yang harus menghentikan prosedur",
+          "text": "Bila pasien kejang, hentikan pemeriksaan; posisikan miring, jangan restrain paksa. Bila pasien agitasi berat dan mengancam keselamatan, hentikan wawancara dan aktifkan protokol de-eskalasi.",
+          "answer_evidence": "Dokumen asli + PDSKJI Panduan Praktik Klinis 2022"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Gait: pastikan tidak ada risiko jatuh",
+          "text": "Pada pemeriksaan gait, pastikan tidak ada risiko jatuh; posisi penguji sedekat mungkin dengan pasien; jangan memaksakan tandem gait pada pasien usia lanjut atau gangguan keseimbangan.",
+          "answer_evidence": "Dokumen asli + safety priority"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Psikiatri: jangan mulai dengan pertanyaan tertutup",
+          "text": "Pada station psikiatri, jangan memulai dengan pertanyaan tertutup (Apakah Anda depresi?); gunakan pertanyaan terbuka (Bisa ceritakan apa yang Anda rasakan akhir-akhir ini?) agar pasien dapat mengekspresikan keluhan dengan bebas.",
+          "answer_evidence": "Dokumen asli + PDSKJI 2022"
+        }
+      ],
+      "visual_refs": [
+        "visual_roadmap_neurobehavior_mse_template_04"
+      ],
+      "glossary_refs": [
+        "gls_roadmap_gcs_01",
+        "gls_roadmap_mse_01",
+        "gls_roadmap_bppv_01",
+        "gls_roadmap_risk_01",
+        "gls_roadmap_mi_01"
+      ],
+      "bilingual": "Station neurologi dan psikiatri bukan prosedur invasif, melainkan pemeriksaan terstruktur. Fase persiapan-pelaksanaan-evaluasi harus diikuti sistematis. Alat: palu refleks, kapas, jarum tumpul, garpu tala 128 Hz, snellen, penlight, oftalmoskop, otoskop. Manuver Epley untuk BPPV kanal posterior efektif >80%."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Lokalisasi lesi (UMN vs LMN, sentral vs perifer), pendekatan diagnosis banding pada vertigo/mulut mencong/nyeri kepala, dan algoritma pembedaan Bell's palsy vs stroke, BPPV vs stroke posterior, migren vs tension headache.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan selesai, langkah klinis reasoning yang paling penting pada Blok 6.3 adalah melokalisasi lesi (untuk neurologi) dan mengklasifikasikan gangguan (untuk psikiatri). Pada neurologi, pola defisit menentukan lokasi: defisit fokal tunggal (misalnya kelemahan satu sisi) → lesi sentral (korteks atau traktus); defisit multiple saraf kranial → lesi batang otak; defisit lower motor neuron (atrofi, fasikulasi, hiporefleksia) → lesi perifer atau kornu anterior; defisit upper motor neuron (hiperrefleksia, Babinski positif, spastisitas) → lesi traktus piramidal.",
+          "tone": "narrative",
+          "source": "§4.3 (Defisit fokal) + Tabel 9 (Kasus example) dokumen asli"
+        },
+        {
+          "text": "Pendekatan diagnosis banding pada kasus vertigo, mulut mencong, dan nyeri kepala (Tabel 9 asli) menggunakan langkah klinis reasoning berikut: (1) Identifikasi sindrom — apakah ini lesi sentral atau perifer? Apakah ada defisit neurologis lain? (2) Tentukan timeline — onset mendadak vs bertahap, episodik vs menetap. (3) Cari red flags — kejang, penurunan kesadaran, defisit neurologis progresif. (4) Pilih pemeriksaan penunjang yang sesuai. (5) Tentukan tata laksana — emergensi vs rawat jalan.",
+          "tone": "narrative",
+          "source": "Tabel 9 (Kasus example) dokumen asli"
+        },
+        {
+          "text": "Untuk psikiatri, clinical reasoning menggunakan pendekatan fenomenologis: identifikasi gejala dominan (mood, cemas, psikotik, kognitif), tentukan diagnosis kerja berdasarkan kriteria (misalnya PPDGJ-3 untuk depresi, ansietas, skizofrenia), lalu diagnosis banding dan rencana tata laksana (psikofarmaka, psikoterapi, rujukan). Kedaruratan psikiatrik yang harus diidentifikasi: agitasi berat, delirium, psikosis akut dengan risiko, mania berat, intoksikasi/putus zat, suicidal intent tinggi.",
+          "tone": "narrative",
+          "source": "§5 (Modul psikiatri) dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca pemeriksaan neurologi",
+          "sub": [
+            "Mendokumentasikan temuan secara lengkap",
+            "Melaporkan hasil per komponen",
+            "Melokalisasi lesi berdasarkan pola defisit",
+            "Menyebutkan diagnosis banding",
+            "Merencanakan pemeriksaan penunjang",
+            "Merujuk emergensi bila ada red flag"
+          ],
+          "bold": true,
+          "source": "§4 (Modul neurologi) + Tabel 9 dokumen asli"
+        },
+        {
+          "text": "Tindakan pasca wawancara psikiatri",
+          "sub": [
+            "Merangkum hasil MSE",
+            "Menilai risiko (rendah/sedang/tinggi)",
+            "Menyusun diagnosis kerja dan diagnosis banding",
+            "Merencanakan tata laksana (rawat inap, rawat jalan, psikoterapi, farmakoterapi)",
+            "Merujuk ke psikiater atau konsultan jika perlu"
+          ],
+          "bold": true,
+          "source": "§5.2 (MSE) + §5.3 (Penilaian risiko) dokumen asli"
+        },
+        {
+          "text": "Pembedaan kritis yang harus dikuasai",
+          "sub": [
+            "Bell's palsy vs stroke sentral: Bell's palsy = LMN (seluruh hemiface termasuk dahi lemah); stroke sentral = UMN (forehead sparing)",
+            "BPPV vs stroke posterior: BPPV = singkat <1 menit, posisi-induced, neurologis normal; stroke posterior = menetap, defisit multiple (diplopia, disartria, disfagia, ataksia)",
+            "Migren vs tension headache: migren = unilateral, berdenyut, fotofobia/fonofobia, mual, aura; tension = bilateral, seperti diikat, ringan-sedang, tidak memburuk aktivitas biasa"
+          ],
+          "bold": true,
+          "source": "Tabel 9 (Kasus example) + Tabel 6 (Mini disease matrix) dokumen asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS merujuk segera",
+          "text": "Stroke akut (code stroke), trauma kepala dengan GCS menurun, kejang aktif >5 menit, meningitis bakterialis, perdarahan subaraknoid, herniasi, agitasi berat, suicidal intent tinggi, psikosis akut dengan risiko.",
+          "answer_evidence": "Dokumen asli Red Flags + PERDOSSI 2022"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan salah mendiagnosis stroke sebagai Bell's palsy",
+          "text": "Periksa kekuatan ekstremitas, bicara, N XII; jika ada defisit lain atau forehead sparing, pikirkan stroke sentral.",
+          "answer_evidence": "AHA/ASA 2018 + dokumen asli"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan salah mendiagnosis stroke posterior sebagai BPPV",
+          "text": "Tanyakan riwayat vertigo menetap, diplopia, disartria, disfagia, ataksia; jika ada, rujuk emergensi untuk neuroimaging.",
+          "answer_evidence": "AHA/ASA Guidelines 2018 (update 2021)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara melaporkan hasil neurologi yang efektif",
+          "text": "Pemeriksaan saraf kranialis dalam batas normal. Motorik: kekuatan 5/5 simetris di semua ekstremitas. Sensorik: raba dan nyeri intak simetris. Refleks fisiologis +2/+2 simetris. Babinski negatif bilateral. Koordinasi dan gait dalam batas normal. Kesimpulan: pemeriksaan neurologis dalam batas normal saat ini.",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara melaporkan MSE yang efektif",
+          "text": "Compos mentis, orientasi orang-tempat-waktu baik. Mood dilaporkan sedih; afek terbatas dan kongruen. Proses pikir koheren. Tidak ada waham atau halusinasi. Insight parsial; judgment sosial cukup. Risiko akut rendah saat ini.",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        }
+      ],
+      "visual_refs": [
+        "visual_roadmap_neurobehavior_lokalisasi_lesi_03",
+        "visual_roadmap_neurobehavior_bppv_vs_stroke_05",
+        "visual_roadmap_neurobehavior_code_stroke_07"
+      ],
+      "glossary_refs": [
+        "gls_roadmap_bells_palsy_01",
+        "gls_roadmap_bppv_01",
+        "gls_roadmap_ataxia_serebelar_01",
+        "gls_roadmap_refleks_patologis_01"
+      ],
+      "bilingual": "Clinical reasoning neurologi dimulai dengan lokalisasi lesi: defisit fokal tunggal → sentral (korteks/traktus); multiple saraf kranial → batang otak; LMN (atrofi, fasikulasi, hiporefleksia) → perifer/kornu anterior; UMN (hiperrefleksia, Babinski +, spastisitas) → traktus piramidal. Psikiatri menggunakan pendekatan fenomenologis dengan kriteria PPDGJ-3."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan (CT, MRI, LP, EEG, EMG, MMSE, PHQ-9) dan tata laksana awal 8 penyakit SKDI 4A (Bell's palsy, BPPV, migren, tension headache, tetanus, HIV/AIDS, gangguan somatoform, insomnia).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang pada Blok 6.3 harus diindikasikan dengan jelas, bukan dilakukan secara berlebihan. Pada pasien dengan keluhan neurologis tanpa red flags dan pemeriksaan fisik normal, tidak ada pemeriksaan penunjang yang wajib; pada pasien dengan red flags atau defisit fokal, neuroimaging (CT scan atau MRI kepala) adalah pilihan pertama. Untuk meningitis, pungsi lumbal setelah mengeksklusi peningkatan TIK; untuk perdarahan subaraknoid, CT scan kepala non-kontras (sensitif dalam 6 jam pertama) dilanjutkan pungsi lumbal bila CT negatif. Untuk stroke iskemik akut dalam window time, CT scan kepala untuk mengeksklusi perdarahan, lalu trombolisis atau trombektomi sesuai protokol.",
+          "tone": "narrative",
+          "source": "Tabel 6 (Mini disease matrix) + Tabel 9 (Kasus example) dokumen asli"
+        },
+        {
+          "text": "Pada psikiatri, pemeriksaan penunjang biasanya tidak diperlukan untuk diagnosis, namun tes laboratorium dasar (darah lengkap, fungsi tiroid, gula darah, elektrolit) dapat membantu mengeksklusi penyebab organik gejala psikotik atau mood. Neuroimaging diindikasikan pada psikiatri bila ada gejala neurologis fokal, onset mendadak, atau perubahan status mental yang tidak dapat dijelaskan. Prinsipnya: psikiatri adalah diagnosis klinis, bukan diagnosis berbasis penunjang.",
+          "tone": "narrative",
+          "source": "§5 (Modul psikiatri) + dokumen asli"
+        },
+        {
+          "text": "Tata laksana pada Blok 6.3 harus berbasis bukti dan mengacu pada PPK lokal. Untuk Bell's palsy, kortikosteroid oral dini (prednisone 1 mg/kgBB/hari selama 5–7 hari, ditapper) dalam 72 jam onset, ditambah pelindung mata (eye patch, lubrikan) untuk mencegah keratopati; rujuk bila atipikal atau tidak membaik dalam 1–2 minggu. Untuk BPPV, manuver Epley (reposisi kanalit posterior) efektif pada >80% kasus. Untuk migren, analgesik sederhana (parasetamol, NSAID) atau triptan sesuai indikasi; hindari trigger, jaga pola tidur, profilaksis bila sering. Untuk tension headache, analgesik terbatas, stretching, manajemen stres, hindari medication overuse. Untuk tetanus, emergensi: stabilisasi jalan napas, kontrol spasme, imunoglobulin tetanus (TIG) + antibiotik + debridement luka, rujuk RS. Untuk HIV/AIDS, rujuk layanan HIV untuk ARV, edukasi adherence, pencegahan penularan. Untuk gangguan somatoform, validasi gejala, jadwal kontrol teratur, hindari pemeriksaan berulang tidak perlu, terapi psikologis. Untuk insomnia, sleep hygiene, CBT-I (terapi lini pertama), terapi penyebab, obat jangka pendek dengan pemantauan.",
+          "tone": "narrative",
+          "source": "Tabel 6 (Mini disease matrix) + dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang neurologis yang relevan",
+          "sub": [
+            "CT scan kepala non-kontras: stroke hemoragik, perdarahan subaraknoid, fraktur tengkorak",
+            "MRI kepala: stroke iskemik (terutama fossa posterior), tumor, demielinasi, ensefalitis",
+            "Pungsi lumbal: meningitis, ensefalitis, SAH (bila CT negatif)",
+            "DSA / MRA / CTA: aneurisma, MAV, stenosis",
+            "EEG: epilepsi, kejang, ensefalopati",
+            "EMG / nerve conduction study: neuropati, miopati",
+            "Laboratorium: darah lengkap, elektrolit, fungsi hati/ginjal, gula darah, TSH"
+          ],
+          "bold": true,
+          "source": "Tabel 6 (Mini disease matrix) + PERDOSSI 2022"
+        },
+        {
+          "text": "Pemeriksaan penunjang psikiatri (konteks)",
+          "sub": [
+            "Laboratorium dasar: darah lengkap, fungsi tiroid, elektrolit, gula darah (mengeksklusi penyebab organik)",
+            "Neuroimaging: diindikasikan bila ada defisit neurologis fokal, onset mendadak, atau perubahan status mental",
+            "Skala psikometri: MMSE, MoCA, GDS, PHQ-9, GAD-7, BDI (bukan untuk diagnosis, tetapi untuk skrining dan pemantauan)"
+          ],
+          "bold": true,
+          "source": "§5 (Modul psikiatri) + PDSKJI 2022"
+        },
+        {
+          "text": "Tata laksana awal",
+          "sub": [
+            "Bell's palsy: kortikosteroid oral dini, pelindung mata",
+            "BPPV: manuver Epley, edukasi",
+            "Migren: analgesik/triptan, hindari trigger, profilaksis bila sering",
+            "Tension headache: analgesik terbatas, stretching, manajemen stres",
+            "Tetanus: emergensi, TIG, antibiotik, debridement",
+            "HIV/AIDS: rujuk ARV, edukasi adherence",
+            "Gangguan somatoform: validasi, kontrol teratur, psikoterapi",
+            "Insomnia: sleep hygiene, CBT-I, obat jangka pendek"
+          ],
+          "bold": true,
+          "source": "Tabel 6 (Mini disease matrix) + Tabel 9 dokumen asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia di station",
+          "text": "Pada pasien dengan stroke akut, sebutkan aktivasi code stroke dan CT scan kepala non-kontras dalam window time untuk menunjukkan pemahaman algoritma.",
+          "answer_evidence": "AHA/ASA 2018 + dokumen asli"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Jangan berlebihan memesan pemeriksaan penunjang",
+          "text": "Pada pasien muda dengan nyeri kepala tegang tanpa red flags, neuroimaging tidak diindikasikan dan memesannya akan dianggap kelemahan klinis.",
+          "answer_evidence": "NICE NG127 + dokumen asli"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Rekomendasi guideline nasional/internasional",
+          "text": "Panduan Praktik Klinis (PPK) Neurologi dan Psikiatri PERDOSSI / PDSKJI 2022; American Heart Association/American Stroke Association Guidelines for Early Management of Patients With Acute Ischemic Stroke (2018, update 2021); NICE guideline for suspected neurological conditions (NG127); APA Practice Guideline for the Treatment of Patients with Substance Use Disorders, 2nd ed.",
+          "answer_evidence": "PERDOSSI 2022; PDSKJI 2022; AHA/ASA 2018 (update 2021); NICE NG127; APA Practice Guidelines"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Gangguan somatoform: batasi pemeriksaan",
+          "text": "Pada gangguan somatoform, pemeriksaan penunjang berulang tanpa indikasi baru akan memperkuat keyakinan pasien bahwa ada penyakit organik yang belum terdeteksi; batasi pemeriksaan dan jadwalkan kontrol teratur.",
+          "answer_evidence": "PDSKJI 2022 + dokumen asli"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_roadmap_bells_palsy_01",
+        "gls_roadmap_bppv_01",
+        "gls_roadmap_mmse_01"
+      ],
+      "bilingual": "Pemeriksaan penunjang harus diindikasikan jelas: CT scan non-kontras untuk stroke hemoragik/SAH, MRI untuk stroke iskemik fossa posterior, pungsi lumbal untuk meningitis (setelah eksklusi peningkatan TIK). Tata laksana berbasis bukti: prednisone 1 mg/kgBB/hari untuk Bell's palsy dalam 72 jam onset, manuver Epley untuk BPPV, CBT-I untuk insomnia."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk neurologi dan psikiatri, safety net, 2 contoh SOAP lengkap (vertigo akut dan Bell's palsy), dan kode ICD-10 untuk 10 diagnosis utama.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pasien dan keluarga adalah komponen wajib di station OSCE Blok 6.3. Pada station neurologi, edukasi biasanya singkat (1–2 menit) dan fokus pada: apa diagnosisnya, apa yang harus dilakukan, apa yang harus diwaspadai, kapan kontrol. Pada station psikiatri, edukasi lebih panjang dan empatik, mencakup: penjelasan diagnosis, pilihan tata laksana, pentingnya adherence, sumber dukungan, dan rujukan.",
+          "tone": "narrative",
+          "source": "§5.4 (Komunikasi) + Tabel 9 (Kasus example) dokumen asli"
+        },
+        {
+          "text": "Berikut adalah contoh SOAP untuk Skenario A — Vertigo akut (diadopsi dari Tabel 9): S (Subjective): Pasien laki-laki 55 tahun datang dengan keluhan pusing berputar mendadak sejak 2 jam SMRS, memberat saat mengubah posisi kepala ke kanan, disertai mual dan muntah 2x. Riwayat hipertensi tidak terkontrol, diabetes tipe 2, minum obat tidak teratur. Riwayat stroke sebelumnya 6 bulan lalu dengan kelemahan sisi kanan yang sudah pulih. O (Objective): TTV TD 170/100, HR 88, RR 20, SpO2 97%, suhu 36.8°C. Compos mentis, GCS E4V5M6 = 15. Pupil isokor 3 mm, refleks cahaya +/+. Saraf kranial: N III, IV, VI dalam batas normal; tidak ada diplopia. N VII simetris. Motorik: kekuatan 5/5 di semua ekstremitas, simetris. Sensorik: raba dan nyeri intak simetris. Koordinasi: finger-nose test normal, rapid alternating normal. Gait: tidak dapat dilakukan karena vertigo. Refleks fisiologis +2/+2 simetris. Babinski negatif bilateral. Dix-Hallpike pada posisi kepala kanan: positif, nistagmus torsional upbeat dengan latensi singkat, durasi <30 detik, fatiqueable. A (Assessment): BPPV kanal posterior kanan (diagnosis kerja); bandingkan dengan stroke posterior (harus dieksklusi karena riwayat stroke + faktor risiko vaskular tidak terkontrol), neuritis vestibular. P (Plan): (1) Manuver Epley untuk reposisi kanalit posterior kanan di klinik. (2) Edukasi: hindari gerakan kepala mendadak, tidur dengan kepala elevasi 30°, bangun perlahan dari tidur. (3) Kontrol 1 minggu untuk evaluasi perbaikan. (4) Kriteria rujukan emergensi: bila gejala menetap >1 minggu, muncul defisit neurologis baru (diplopia, disartria, disfagia, kelemahan), atau nyeri kepala baru yang tidak biasa. (5) Follow-up faktor risiko vaskular: kontrol TD, DM, obat rutin. (6) Safety net: ke IGD segera bila muncul kejang, kelemahan satu sisi, bicara pelo, atau penurunan kesadaran.",
+          "tone": "narrative",
+          "source": "Tabel 9 (Kasus example) + dokumen asli"
+        },
+        {
+          "text": "Berikut adalah contoh SOAP untuk Skenario B — Bell's palsy: S: Pasien perempuan 35 tahun, datang dengan keluhan mulut mencong ke kanan sejak pagi tadi saat bangun tidur, mata kiri tidak bisa menutup sempurna, air liur menetes dari sudut mulut kanan, makanan terasa mengumpul di pipi kanan. Tidak ada kelemahan tangan/kaki, tidak pelo, tidak ada kesemutan. Tidak ada riwayat stroke, tidak ada faktor risiko vaskular. O: TTV dalam batas normal. Compos mentis, GCS 15. Saraf kranial: N VII — dahi kiri tidak bisa diangkat, mata kiri tidak menutup (saat coba tutup, terlihat sclera — lagoftalmos), sudut mulut mencong ke kanan saat diminta senyum/angkat alis. Seluruh hemiface kiri lemah (dahi, mata, pipi, mulut). N XII: lidah simetris. Bicara: tidak pelo, artikulasi baik. Motorik: kekuatan 5/5 di semua ekstremitas, simetris. Sensorik: intak. Refleks fisiologis +2/+2, Babinski negatif. Tidak ada vesikel di liang telinga. A: Bell's palsy kiri (LMN facial palsy), bandingkan dengan stroke sentral (tidak ada defisit lain, ada seluruh hemiface involvement). P: (1) Kortikosteroid oral (misalnya prednisone 1 mg/kgBB/hari) dalam 72 jam onset, tapering 5–7 hari. (2) Pelindung mata: lubrikan tetes mata siang hari, salep mata malam hari, eye patch saat tidur, hindari debu dan angin. (3) Edukasi: prognosis baik pada 70% pasien dengan pengobatan dini; pemulihan dapat memakan waktu berminggu–bulan. (4) Kriteria rujukan: bila atipikal (vesikel telinga → pertimbangkan Ramsay Hunt), tidak membaik dalam 2–3 minggu, atau muncul defisit baru. (5) Follow-up 1 minggu untuk evaluasi.",
+          "tone": "narrative",
+          "source": "Tabel 9 (Kasus example) + dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "POIN EDUKASI UMUM (Neurologi)",
+          "sub": [
+            "Penjelasan diagnosis dan prognosis dengan bahasa awam",
+            "Daftar red flags yang harus diwaspadai",
+            "Jadwal kontrol dan tindak lanjut",
+            "Pentingnya kepatuhan obat (antihipertensi, antitrombotik, dll.)",
+            "Modifikasi gaya hidup (pola makan, olahraga, hindari rokok/alkohol)",
+            "Kapan harus kembali ke IGD"
+          ],
+          "bold": true,
+          "source": "§5.4 (Komunikasi) + PROMPT_DOMAIN3"
+        },
+        {
+          "text": "POIN EDUKASI UMUM (Psikiatri)",
+          "sub": [
+            "Validasi perasaan dan pengalaman pasien",
+            "Penjelasan diagnosis dengan bahasa yang tidak menghakimi",
+            "Penjelasan pilihan tata laksana (psikoterapi, farmakoterapi)",
+            "Pentingnya adherence obat dan efek samping yang mungkin",
+            "Sumber dukungan (keluarga, komunitas, hotline krisis)",
+            "Tanda-tanda perburukan yang harus dilaporkan",
+            "Perencanaan keselamatan (safety plan)"
+          ],
+          "bold": true,
+          "source": "§5.4 (Komunikasi) + PDSKJI 2022"
+        },
+        {
+          "text": "SAFETY NET — Kapan Kembali Segera (Neurologi)",
+          "sub": [
+            "Kejang aktif atau kejang berulang",
+            "Penurunan kesadaran atau GCS memburuk",
+            "Kelemahan satu sisi yang baru",
+            "Bicara pelo atau afasia baru",
+            "Nyeri kepala mendadak hebat (thunderclap)",
+            "Muntah persisten atau tanda peningkatan TIK"
+          ],
+          "bold": true,
+          "source": "Dokumen asli + AHA/ASA 2018"
+        },
+        {
+          "text": "SAFETY NET — Kapan Kembali Segera (Psikiatri)",
+          "sub": [
+            "Ide bunuh diri muncul kembali atau menguat",
+            "Agitasi berat atau kehilangan kontrol",
+            "Halusinasi atau waham yang memberat",
+            "Tidak mau makan/minum selama >24 jam",
+            "Self-harm atau percobaan bunuh diri",
+            "Penggunaan zat yang memberat",
+            "Kehilangan kontak dengan realita"
+          ],
+          "bold": true,
+          "source": "Dokumen asli + PDSKJI 2022"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk diagnosis utama",
+          "text": "Bell's palsy: G51.0 (Bell's palsy). BPPV: H81.1 (Benign paroxysmal vertigo). Migren: G43.9 (Migraine, unspecified). Tension headache: G44.2 (Tension-type headache). Stroke iskemik: I63.9 (Cerebral infarction, unspecified). Stroke hemoragik: I61.9 (Intracerebral hemorrhage, unspecified). Depresi: F32.9 (Depressive episode, unspecified). Ansietas: F41.9 (Anxiety disorder, unspecified). Insomnia: G47.0 (Disorders of initiating and maintaining sleep). HIV/AIDS tanpa komplikasi: Z21 (Asymptomatic HIV infection status) atau B20 (HIV disease).",
+          "answer_evidence": "WHO ICD-10 + dokumen asli"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi yang paling sering dilupakan",
+          "text": "Saya akan menjelaskan diagnosis, rencana tata laksana, dan tanda-tanda bahaya yang harus Anda perhatikan. Silakan bertanya jika ada yang kurang jelas.",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Psikiatri: kalimat kunci rapport",
+          "text": "Saya bisa memahami ini berat. Kita akan membahas pelan-pelan, dan saya akan bantu menyusun langkah selanjutnya.",
+          "answer_evidence": "PDSKJI 2022 + dokumen asli"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_roadmap_bells_palsy_01",
+        "gls_roadmap_bppv_01",
+        "gls_roadmap_risk_01",
+        "gls_roadmap_mse_01"
+      ],
+      "bilingual": "Edukasi neurologi singkat (1–2 menit): diagnosis, tata laksana, red flags, jadwal kontrol. Edukasi psikiatri lebih panjang dan empatik: validasi, penjelasan diagnosis non-hakimi, pilihan tata laksana, sumber dukungan, safety plan. SOAP: Subjective–Objective–Assessment–Plan. ICD-10: G51.0 Bell's palsy, H81.1 BPPV, G43.9 migren, G44.2 tension, I63.9 stroke iskemik, F32.9 depresi, G47.0 insomnia."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Penyakit SKDI 4A Blok 6.3 (9 penyakit) lengkap dengan kode ICD-10, mini-skrip SPIKES untuk breaking bad news stroke, dan catatan khusus komunikasi neurologi vs psikiatri.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Penyakit SKDI 4A yang relevan untuk Blok 6.3 (diambil dari Tabel 5 asli) dikelompokkan dalam dua domain besar: Neurologi dan Psikiatri. Pada domain Neurologi, penyakit 4A yang harus dikuasai: kejang demam, tetanus, HIV/AIDS tanpa komplikasi, tension headache, migren, Bell's palsy, BPPV. Pada domain Psikiatri: gangguan somatoform, insomnia. Penetapan ini berdasarkan batas daftar penyakit 4A relevan yang digunakan dalam dokumen SKDI 4A Batch 2 (IKA, Geriatri, Neurologi, Psikiatri) untuk memastikan mahasiswa tidak menjawab terlalu melebar ke level spesialis.",
+          "tone": "narrative",
+          "source": "Tabel 5 (Penyakit 4A) dokumen asli"
+        },
+        {
+          "text": "Untuk setiap penyakit 4A, mahasiswa harus menguasai: kunci diagnosis (anamnesis + pemeriksaan fisik), bentuk station OSCE yang mungkin muncul, tatalaksana awal, dan edukasi pasien/keluarga. Ringkasan pola ini disajikan pada Tabel 5 (Penyakit 4A) dan Tabel 6 (Mini disease matrix) yang sudah dimasukkan ke section s04 dan s06.",
+          "tone": "narrative",
+          "source": "Tabel 5 + Tabel 6 (Mini disease matrix) dokumen asli"
+        },
+        {
+          "text": "Mini-skrip komunikasi pada station psikiatri menggunakan struktur SPIKES (Setting, Perception, Invitation, Knowledge, Emotion/Empathy, Strategy/Summary) untuk berita buruk, dan teknik motivational interviewing untuk konseling perubahan perilaku. Pada station neurologi, kalimat komunikatif lebih singkat dan informatif. Contoh mini-skrip untuk Skenario C — breaking bad news (stroke akut):",
+          "tone": "narrative",
+          "source": "§5.4 (Komunikasi) + Tabel 5 (Penyakit 4A) dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan khusus komunikasi untuk topik ini",
+          "sub": [
+            "Pada neurologi, kalimat komunikatif fokus pada: apa diagnosisnya, apa yang dilakukan, apa yang harus diwaspadai",
+            "Pada psikiatri, kalimat komunikatif fokus pada: validasi, empati, dan kolaborasi (bukan instruksi)",
+            "Pada berita buruk, gunakan SPIKES: Setting → Perception → Invitation → Knowledge → Emotion/Empathy → Strategy/Summary",
+            "Pada nasihat, tanyakan pemahaman pasien, beri informasi ringkas, cek kembali",
+            "Pada motivasi, tanyakan kesiapan berubah, alasan pribadi, hambatan, langkah kecil realistis",
+            "Selalu lakukan validasi perasaan: Saya bisa memahami ini berat. Kita akan bahas pelan-pelan.",
+            "Hindari bahasa menghakimi, interogatif, atau menggurui"
+          ],
+          "bold": true,
+          "source": "§5.4 (Komunikasi) + PROMPT_DOMAIN3"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH dilewatkan (fatal bila lupa)",
+          "text": "Pada berita buruk stroke, jangan memulai dengan Bapak mengalami stroke tanpa konteks; harus menjelaskan diagnosis, prognosis, dan rencana secara bertahap.",
+          "answer_evidence": "SPIKES Protocol (Baile et al., 2000, updated)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Pada psikiatri, jangan gunakan kalimat invalidasi",
+          "text": "Pada psikiatri, jangan mengatakan Anda tidak usah sedih atau Banyak orang lebih susah dari Anda; kalimat ini menyiratkan invalidasi dan menurunkan skor.",
+          "answer_evidence": "PDSKJI 2022 + dokumen asli"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara membuka station paling efektif",
+          "text": "Selamat [pagi/siang/sore], Bapak/Ibu. Perkenalkan, saya dr. [Nama]. Saya akan melakukan pemeriksaan/konsultasi hari ini. Pembicaraan kita bersifat rahasia, kecuali ada risiko keselamatan. Silakan ceritakan apa yang paling mengganggu akhir-akhir ini.",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara menutup station paling efektif",
+          "text": "Jadi, yang saya tangkap dari hasil pemeriksaan kita hari ini adalah [rangkuman]. Apakah ada yang ingin ditambahkan atau ditanyakan? Jika tidak, saya akan mengakhiri konsultasi dan membuat rencana tindak lanjut yang akan kita diskusikan bersama.",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        }
+      ],
+      "visual_refs": [
+        "visual_roadmap_neurobehavior_spikes_infographic_06"
+      ],
+      "glossary_refs": [
+        "gls_roadmap_spikes_01",
+        "gls_roadmap_mi_01",
+        "gls_roadmap_risk_01"
+      ],
+      "bilingual": "Penyakit SKDI 4A Blok 6.3: neurologi (kejang demam R56.0, tetanus A35, HIV/AIDS Z21/B20, tension headache G44.2, migren G43.9, Bell's palsy G51.0, BPPV H81.1); psikiatri (gangguan somatoform F45.9, insomnia G47.0). Mini-skrip SPIKES untuk breaking bad news: Setting → Perception → Invitation → Knowledge → Emotion/Empathy → Strategy/Summary."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan 12 item neurologi + 12 item psikiatri, rencana belajar 3 hari terstruktur, dan 6 kesalahan fatal yang harus dihindari.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Latihan mandiri pada Blok 6.3 harus terstruktur dan progresif. Kriteria siap OSCE adalah: (1) mahasiswa dapat menjalankan alur pemeriksaan tanpa melihat catatan, (2) dapat melaporkan hasil dalam format standar (E_V_M_, kekuatan per otot, grading refleks, MSE), (3) dapat mengidentifikasi red flags dalam <30 detik, (4) dapat membangun rapport psikiatri dan menilai risiko dengan kalimat empatik, (5) dapat menyusun diagnosis kerja dan banding dengan justifikasi klinis.",
+          "tone": "narrative",
+          "source": "§2 + §13 (Latihan OSCE 3 hari) + Tabel 3 (Prioritas) dokumen asli"
+        },
+        {
+          "text": "Rencana 3 hari pada dokumen asli adalah strategi belajar komprehensif yang dirancang untuk mahasiswa dengan waktu terbatas. Hari 1 fokus pada checklist stasiun skill neurologi (GCS, TRM, defisit fokal, saraf kranial, motorik, sensorik, koordinasi, refleks). Hari 2 fokus pada IPM neurologi (integrated patient management) dan neurobehavior/MMSE. Hari 3 fokus pada wawancara psikiatri, MSE, penilaian risiko, dan komunikasi SPIKES, lalu ditutup dengan simulasi integrated case lintas station.",
+          "tone": "narrative",
+          "source": "§2 (Cara membaca blok 6.3 dalam 3 hari) dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI (Neurologi)",
+          "sub": [
+            "GCS E/V/M terpisah, urutan rangsangan — TINGGI",
+            "TRM (kaku kuduk, Kernig, Brudzinski) — TINGGI",
+            "Defisit neurologi fokal (motorik, sensorik) — TINGGI",
+            "Saraf kranial II–XII — TINGGI",
+            "Koordinasi (finger-nose, heel-shin, rapid alternating) — SEDANG",
+            "Keseimbangan (Romberg, tandem gait) — SEDANG",
+            "Refleks fisiologis grading 0–4+ — TINGGI",
+            "Babinski dan refleks patologis lain — TINGGI",
+            "Refleks primitif (snout, palmomental, grasp, glabella) — SEDANG",
+            "BPPV (Dix-Hallpike, Epley) — TINGGI",
+            "Pembedaan Bell's palsy vs stroke — TINGGI",
+            "Pembedaan BPPV vs stroke posterior — TINGGI"
+          ],
+          "bold": true,
+          "source": "§13 (Latihan OSCE) + Tabel 3 (Prioritas) dokumen asli"
+        },
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI (Psikiatri)",
+          "sub": [
+            "Rapport dan informed consent — TINGGI",
+            "Autoanamnesis (pertanyaan terbuka → tertutup) — TINGGI",
+            "Alloanamnesis (kapan, bagaimana) — SEDANG",
+            "MSE lengkap (9 domain) — TINGGI",
+            "Penilaian risiko bunuh diri (ide, rencana, metode, akses, niat) — TINGGI",
+            "Penilaian risiko menyakiti orang lain — TINGGI",
+            "Diagnosis kerja depresi, ansietas, psikotik — TINGGI",
+            "Kedaruratan psikiatri (agitasi, suicidal intent) — TINGGI",
+            "SPIKES untuk breaking bad news — TINGGI",
+            "Motivational interviewing singkat — SEDANG",
+            "MMSE (orientasi, registrasi, atensi, recall, bahasa) — TINGGI",
+            "Sleep hygiene dan CBT-I — SEDANG"
+          ],
+          "bold": true,
+          "source": "§13 (Latihan OSCE) + Tabel 3 (Prioritas) dokumen asli"
+        },
+        {
+          "text": "RENCANA 3 HARI",
+          "sub": [
+            "Hari 1: Target: Kuasai semua checklist neurologi (GCS, TRM, defisit fokal, NK, koordinasi, refleks) | Durasi: 6–8 jam | Aktivitas: baca modul skill + praktik dengan teman (role-play pasien-simulasi) | Kriteria: dapat menjalankan semua checklist dalam 8 menit tanpa melihat catatan",
+            "Hari 2: Target: Kuasai IPM neurologi (kasus terintegrasi) + neurobehavior/MMSE | Durasi: 6–8 jam | Aktivitas: latihan kasus integrated (vertigo, Bell's palsy, stroke), MMSE pada pasien simulasi | Kriteria: dapat menyelesaikan kasus integrated dalam 12 menit dengan laporan terstruktur",
+            "Hari 3: Target: Kuasai wawancara psikiatri, MSE, penilaian risiko, SPIKES, dan simulasi integrated | Durasi: 6–8 jam | Aktivitas: role-play wawancara psikiatri, simulasi breaking bad news, simulasi integrated | Kriteria: dapat melakukan wawancara penuh 12 menit dengan rapport, MSE, dan risk assessment"
+          ],
+          "bold": true,
+          "source": "§13 (Latihan OSCE 3 hari) + Tabel 3 dokumen asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kesalahan 1 — Tidak melaporkan GCS per komponen",
+          "text": "Mengapa fatal: menunjukkan mahasiswa tidak memahami kegunaan klinis GCS. Cara menghindari: biasakan menulis E_V_M_ sejak latihan pertama.",
+          "answer_evidence": "Dokumen asli + Teasdale GCS 1974"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kesalahan 2 — Tidak menanyakan risiko bunuh diri",
+          "text": "Mengapa fatal: kelalaian klinis yang menurunkan skor secara drastis. Cara menghindari: buat checklist wajib tanya risiko di akhir setiap wawancara psikiatri.",
+          "answer_evidence": "Dokumen asli + standard psychiatry OSCE"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kesalahan 3 — Salah membedakan Bell's palsy dengan stroke",
+          "text": "Mengapa fatal: dapat menyebabkan keterlambatan rujukan stroke. Cara hindari: periksa kekuatan ekstremitas dan dahi; jika seluruh hemiface lemah tanpa defisit lain → Bell's palsy.",
+          "answer_evidence": "Dokumen asli + AHA/ASA 2018"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kesalahan 4 — Memaksakan pemeriksaan gait pada pasien vertigo berat",
+          "text": "Mengapa fatal: risiko jatuh dan cedera. Cara menghindari: tanyakan kesiapan pasien, posisikan penguji sedekat mungkin.",
+          "answer_evidence": "Dokumen asli + safety priority"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kesalahan 5 — Bahasa menghakimi pada wawancara psikiatri",
+          "text": "Mengapa fatal: menurunkan skor profesionalisme dan empathy. Cara menghindari: gunakan kalimat validasi (Saya bisa memahami ini berat) daripada menggurui.",
+          "answer_evidence": "PDSKJI 2022 + dokumen asli"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kesalahan 6 — Tidak mengenali red flags",
+          "text": "Mengapa fatal: keselamatan pasien. Cara menghindari: internalisasi daftar red flags SNOOP untuk nyeri kepala, red flags GCS/TRM/stroke.",
+          "answer_evidence": "Dokumen asli Red Flags + NICE NG127"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kesalahan yang menurunkan skor tapi tidak fatal",
+          "text": "tidak melakukan hand hygiene (-1), tidak membandingkan kanan–kiri (-1), lupa menyebutkan prognosis pada edukasi (-1), tidak menyebutkan jadwal kontrol (-1), terlalu cepat menutup station tanpa validasi (-1).",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kesalahan minor",
+          "text": "menggunakan bahasa yang terlalu teknis untuk pasien awam, tidak memperkenalkan diri, tidak meminta izin sebelum menyentuh pasien.",
+          "answer_evidence": "Dokumen asli + standard OSCE"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lupa membedakan mood subjektif vs afek objektif",
+          "text": "Pada MSE — pemeriksa sering menyamakan keduanya, padahal ini adalah kesalahan konseptual yang mengurangi skor.",
+          "answer_evidence": "Dokumen asli + PROMPT_DOMAIN3"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_roadmap_gcs_01",
+        "gls_roadmap_mse_01",
+        "gls_roadmap_risk_01"
+      ],
+      "bilingual": "Latihan mandiri terstruktur: Hari 1 checklist neurologi (GCS, TRM, defisit fokal, saraf kranial, koordinasi, refleks), Hari 2 IPM neurologi + neurobehavior/MMSE, Hari 3 wawancara psikiatri + MSE + risk assessment + SPIKES + simulasi integrated. Kriteria siap OSCE: alur lancar tanpa catatan, laporan per komponen, red flags <30 detik, kalimat empatik."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "8 visual asset yang disarankan (GCS diagram, TRM poster, lokalisasi lesi, MSE template, BPPV vs stroke, SPIKES infographic, code stroke, Epley maneuver), lampiran klinis (kontraindikasi, masalah-respons, mini-case), dan 12 referensi klinis.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Visual pada modul ini berfungsi untuk mempercepat pemahaman pola dan algoritma yang bersifat hierarkis. Visual yang paling bernilai adalah: (1) diagram alur GCS dengan pohon keputusan untuk red flags kesadaran, (2) peta TRM (kaku kuduk, Kernig, Brudzinski) dengan gambar posisi tangan dan kaki, (3) diagram lokalisasi lesi (sentral vs perifer, UMN vs LMN), (4) template MSE siap pakai yang bisa dihafal, (5) algoritma pembedaan BPPV vs stroke posterior, (6) infografis SPIKES untuk breaking bad news, (7) peta perjalanan pasien stroke (code stroke). Visual-visual ini sangat membantu mahasiswa yang belajar secara visual dan membutuhkan cheat sheet saat menghafal.",
+          "tone": "narrative",
+          "source": "§12 (Saran gambar/visual) dokumen asli"
+        },
+        {
+          "text": "Lampiran klinis pada bagian ini mencakup kontraindikasi, masalah & respons, mini-case, dan kalimat pembuka station. Kontraindikasi terutama relevan untuk pemberian rangsang nyeri pada pemeriksaan GCS (jangan menekan supraorbital pada fraktur wajah) dan pungsi lumbal (jangan pada peningkatan TIK). Mini-case mencakup skenario mudah, sedang, dan sulit untuk simulasi mandiri.",
+          "tone": "narrative",
+          "source": "§12 (Saran gambar/visual) + §14 (Referensi ringkas) dokumen asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "VISUAL YANG DISARANKAN",
+          "sub": [
+            "Visual 1: Diagram alur GCS (pohon keputusan E/V/M dengan red flags kesadaran)",
+            "Visual 2: Peta TRM (gambar posisi kaku kuduk, Kernig, Brudzinski)",
+            "Visual 3: Diagram lokalisasi lesi (UMN vs LMN, sentral vs perifer)",
+            "Visual 4: Template MSE siap pakai (9 domain dengan frasa contoh)",
+            "Visual 5: Algoritma BPPV vs stroke posterior",
+            "Visual 6: Infografis SPIKES (6 langkah breaking bad news)",
+            "Visual 7: Peta code stroke (window time, trombolisis,rombektomi)",
+            "Visual 8: Diagram manuver Epley untuk BPPV"
+          ],
+          "bold": true,
+          "source": "§12 (Saran gambar/visual) dokumen asli"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi / Red Flags",
+          "sub": [
+            "Stimulasi nyeri pada fraktur wajah atau servikal: gunakan rangsang alternatif (cubitan trapezius)",
+            "Pungsi lumbal pada peningkatan TIK: lakukan neuroimaging dulu untuk menyingkirkan lesi massa",
+            "Manuver Epley pada stenosis karotis berat, penyakit servikal berat: konsultasi dulu",
+            "Mobilisasi dini pada pasien stroke dengan risiko jatuh: sesuai protokol",
+            "Pemberian triptan pada pasien dengan risiko vaskular: kontraindikasi relatif",
+            "Pemberian benzodiazepin pada pasien dengan riwayat penyalahgunaan zat: pertimbangkan risiko adiksi"
+          ],
+          "bold": true,
+          "source": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah & Respons",
+          "sub": [
+            "Pasien tidak kooperatif → tenangkan, jelaskan prosedur dengan bahasa awam, tawarkan jeda",
+            "Pasien kejang saat pemeriksaan → hentikan, posisikan miring, jangan restrain paksa, monitor ABC",
+            "Pasien menangis saat wawancara psikiatri → jeda, tawarkan tisu, validasi perasaan, lanjutkan dengan lembut",
+            "Pasien mengingkari risiko bunuh diri → tetap dokumentasikan dan jadwalkan follow-up ketat",
+            "Keluarga ikut menjawab pertanyaan pasien psikiatri → minta izin pasien untuk sesi terpisah dengan keluarga",
+            "Waktu station hampir habis → prioritaskan pelaporan hasil dan rangkuman, lewati bagian yang kurang penting"
+          ],
+          "bold": true,
+          "source": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case",
+          "sub": [
+            "Skenario Mudah: Pasien 25 tahun, sakit kepala bilateral seperti diikat sejak 3 hari,stres kerja, tidak ada mual/fotofobia, neurologis normal. Kunci jawaban: Tension headache, edukasi manajemen stres, hindari overuse analgesik.",
+            "Skenario Sedang: Pasien 35 tahun, mulut mencong kiri sejak pagi, mata kiri tidak menutup, tidak ada kelemahan tangan/kaki. Kunci jawaban: Bell's palsy kiri, prednisone oral, pelindung mata, edukasi prognosis.",
+            "Skenario Sulit: Pasien 60 tahun, hipertensi tidak terkontrol, vertigo menetap + diplopia + disartria + ataksia. Kunci jawaban: Stroke posterior (emergensi), CT scan kepala, rujuk ICU/RS rujukan stroke.",
+            "Skenario Sulit (Psikiatri): Pasien 22 tahun, mahasiswa, sedih 2 bulan, anhedonia, tidak mau makan, tidur 2 jam/malam, ada pikiran lebih baik saya tidak ada. Kunci jawaban: Depresi mayor dengan risiko bunuh diri, rawat inap, psikiatri rujukan, jangan pulang tanpa pendamping."
+          ],
+          "bold": true,
+          "source": "Tabel 9 (Kasus example) + dokumen asli"
+        },
+        {
+          "text": "LAMPIRAN D — Kalimat Pembuka Station",
+          "sub": [
+            "Selamat [pagi/siang/sore], Bapak/Ibu. Perkenalkan, saya dr. [Nama], dokter yang akan memeriksa Bapak/Ibu hari ini. Boleh saya jelaskan prosedur yang akan kita lakukan?",
+            "Pembicaraan kita hari ini bersifat rahasia, kecuali ada risiko keselamatan yang perlu saya ketahui. Apakah Bapak/Ibu bersedia?",
+            "Sebelum kita mulai, boleh saya pastikan privasi kita terjaga dan waktu kita cukup?",
+            "Saya akan melakukan beberapa pemeriksaan sederhana. Mohon beritahu saya jika ada yang tidak nyaman.",
+            "Bisa ceritakan apa yang paling mengganggu akhir-akhir ini?",
+            "Apakah ada hal lain yang ingin Bapak/Ibu tambahkan sebelum kita akhiri konsultasi?",
+            "Saya bisa memahami ini berat. Kita akan membahas pelan-pelan, dan saya akan bantu menyusun langkah selanjutnya."
+          ],
+          "bold": true,
+          "source": "Dokumen asli + PROMPT_DOMAIN3"
+        },
+        {
+          "text": "REFERENSI",
+          "sub": [
+            "Ref 1: Modul Keterampilan Klinis VI — 6E Kelainan Neurologi, 6F Kelainan Psikiatri, FKIK Universitas Jambi, 2024/2025.",
+            "Ref 2: SKDI 4A Batch 2 — IKA, Geriatri, Neurologi, Psikiatri. Digunakan sebagai batas daftar penyakit 4A relevan.",
+            "Ref 3: Geeky Medics — Cranial Nerve Examination OSCE Guide.",
+            "Ref 4: Geeky Medics — Mental State Examination OSCE Guide; video MSE mania dan anxiety.",
+            "Ref 5: LP3 UHAMKA — Pemeriksaan Saraf Kranialis.",
+            "Ref 6: Romdhoni, M Fadhol/FK UMY-FK UMP — Video Pemeriksaan Status Mental Psikiatri.",
+            "Ref 7: PERDOSSI — Panduan Praktik Klinis Neurologi (2022).",
+            "Ref 8: PDSKJI — Panduan Praktik Klinis Psikiatri (2022).",
+            "Ref 9: American Heart Association/American Stroke Association — Guidelines for Early Management of Acute Ischemic Stroke (2018, update 2021).",
+            "Ref 10: NICE Guideline NG127 — Suspected neurological conditions: recognition and referral.",
+            "Ref 11: American Psychiatric Association — Practice Guidelines for Psychiatric Disorders.",
+            "Ref 12: Folstein MF, Folstein SE, McHugh PR — Mini-Mental State Examination (1975). J Psychiatr Res."
+          ],
+          "bold": true,
+          "source": "§14 (Referensi ringkas) dokumen asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk membuat visual",
+          "text": "Generate diagram alur GCS dengan tiga kolom (Eye, Verbal, Motor) dan scoring per komponen, dengan pewarnaan merah untuk komponen yang abnormal (GCS <15). Generate ilustrasi posisi pemeriksaan TRM: kaku kuduk (fleksi pasif leher), Kernig (paha 90° lalu lutut diluruskan), Brudzinski (fleksi leher → fleksi involunter pinggul/lutut). Generate diagram lokalisasi lesi neurologi: korteks (UMN), traktus piramidal (UMN), kornu anterior (LMN), saraf perifer (LMN), dengan contoh klinis untuk masing-masing. Generate infografis SPIKES 6 langkah: Setting, Perception, Invitation, Knowledge, Emotion/Empathy, Strategy/Summary, dengan ikon dan kalimat kunci untuk setiap langkah.",
+          "answer_evidence": "Dokumen asli §12 (Saran gambar/visual)"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Guideline nasional/internasional yang relevan + tahun",
+          "text": "PERDOSSI (Perhimpunan Dokter Spesialis Saraf Indonesia) — Panduan Praktik Klinis Neurologi 2022. PDSKJI (Perhimpunan Dokter Spesialis Kedokteran Jiwa Indonesia) — Panduan Praktik Klinis Psikiatri 2022. AHA/ASA 2018 (update 2021) — Guidelines for Early Management of Acute Ischemic Stroke. NICE NG127 2019 — Suspected neurological conditions: recognition and referral. APA Practice Guidelines — Treatment of Patients with Substance Use Disorders, Mood Disorders, Schizophrenia.",
+          "answer_evidence": "PERDOSSI 2022; PDSKJI 2022; AHA/ASA 2018 (update 2021); NICE NG127 2019; APA Practice Guidelines"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": "Visual pedagogy: 8 visual asset (GCS diagram, TRM poster, lokalisasi lesi, MSE template, BPPV vs stroke, SPIKES infographic, code stroke, Epley maneuver) mempercepat pemahaman pola hierarkis. Lampiran klinis: kontraindikasi rangsang nyeri/pungsi lumbal/Epley, masalah-respons, 4 mini-case OSCE, 7 kalimat pembuka station, 12 referensi (PERDOSSI 2022, PDSKJI 2022, AHA/ASA 2018 update 2021, NICE NG127, APA, Folstein 1975, Teasdale 1974, Baile SPIKES 2000)."
+    }
+  ]
+}

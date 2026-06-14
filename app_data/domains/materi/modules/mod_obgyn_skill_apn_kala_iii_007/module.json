@@ -1,0 +1,1609 @@
+{
+  "id": "mod_obgyn_skill_apn_kala_iii_007",
+  "title": "APN Kala III",
+  "subtitle": "Manajemen aktif kala III (MAKA) dari bayi lahir hingga plasenta lahir dengan urutan waktu-kritis.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_2",
+  "source_pdf": "Batch2_6.1_Modul_4_APN_Kala_III.docx",
+  "source_filename": "Batch2_6.1_Modul_4_APN_Kala_III.docx",
+  "topicTags": [
+    "osce_6_1",
+    "kala_iii",
+    "manajemen_aktif_kala_iii",
+    "maka",
+    "oksitosin",
+    "penegangan_tali_pusat",
+    "masase_uterus",
+    "plasenta_lahir",
+    "asuhan_persalinan_normal"
+  ],
+  "summary": [
+    "Kala III adalah fase dari bayi lahir sampai plasenta lahir; manajemen aktif kala III (MAKA) bertujuan mempercepat pelepasan plasenta secara aman, mencegah inversio uteri, dan menurunkan risiko perdarahan postpartum.",
+    "Tiga kegiatan besar MAKA: (1) Penegangan tali pusat terkendali (CCT) dengan dorso-kranial, (2) Melahirkan plasenta dan memeriksa kelengkapannya, (3) Masase uterus dan pemantauan perdarahan.",
+    "Urutan waktu-kritis setelah bayi lahir: oksitosin 10 IU IM dalam 1 menit → jepit-potong tali pusat → IMD → CCT (pindahkan klem 5-10 cm, tangan di simfisis, dorso-kranial) → plasenta lahir → putar selaput terpilin → masase fundus 15 detik.",
+    "Dorso-kranial adalah kunci mencegah inversio uteri; tangan diletakkan di atas simfisis (bukan di fundus), dan tarikan tali pusat hanya dilakukan saat his dengan tekanan konstan.",
+    "Batas waktu: jika plasenta belum lahir 30 menit atau ada perdarahan aktif, lakukan plasenta manual sesuai kompetensi/SOP; pertimbangkan plasenta akreta pada riwayat SC.",
+    "Jangan lupa bayi: IMD minimal 1 jam, vitamin K1 1 mg IM paha kiri (setelah IMD 1 jam), salep mata setelah menyusu, hepatitis B paha kanan setelah 1 jam vitamin K.",
+    "Monitoring kala IV (2 jam postpartum) sesuai jadwal: 2-3×/15 menit pertama, tiap 15 menit jam pertama, tiap 20-30 menit jam kedua; suhu ibu tiap jam, bayi tiap 15 menit.",
+    "Bahaya utama yang harus diwaspadai: perdarahan postpartum, atonia uteri, retensio plasenta, inversio uteri, sisa selaput/plasenta, serta asfiksia BBL dan hipotermia."
+  ],
+  "exam_focus": [
+    "[FATAL] Jangan lakukan PTT/CCT sebelum kontraksi uterus terasa (risiko inversio uteri).",
+    "[FATAL] Tarik tali pusat hanya saat his, lalu hentikan 30-40 detik bila plasenta tidak lahir — jangan menarik terus-menerus.",
+    "[FATAL] Suntik oksitosin 10 IU IM dalam 1 menit pasca bayi lahir — standar pencegahan PPH.",
+    "[FATAL] Pindahkan klem tali pusat 5-10 cm dari vulva sebelum mulai CCT.",
+    "[FATAL] Tangan harus di atas simfisis (mencegah inversio), bukan di fundus; dorso-kranial = dorong uterus ke arah kranial.",
+    "[FATAL] Segera masase uterus sampai fundus keras setelah plasenta lahir.",
+    "[FATAL] Periksa kelengkapan plasenta (kotiledon, selaput, 3 pembuluh darah tali pusat) — selaput putus tertinggal berisiko.",
+    "[FATAL] Jangan memaksa melepas plasenta pada kecurigaan plasenta akreta (riwayat SC, plasenta sulit lepas, perdarahan masif).",
+    "[FATAL] IMD, vitamin K1 1 mg IM paha kiri, salep mata, dan hepatitis B paha kanan harus dilakukan pada urutan yang benar.",
+    "[FATAL] Monitoring 2 jam postpartum (kala IV) dengan TTV, perdarahan, kontraksi, dan dokumentasi partograf adalah item wajib."
+  ],
+  "glossary": [
+    {
+      "id": "gls_kala3_maka_01",
+      "term": "MAKA (Manajemen Aktif Kala III)",
+      "def": "Serangkaian tindakan aktif yang dilakukan segera setelah bayi lahir untuk mempercepat pelepasan plasenta, mencegah atonia uteri, dan menurunkan risiko perdarahan postpartum. Komponen: injeksi oksitosin, penegangan tali pusat terkendali (CCT) dengan dorso-kranial, dan masase uterus.",
+      "type": "procedure",
+      "aliases": [
+        "Active Management of Third Stage of Labour",
+        "AMTSL"
+      ]
+    },
+    {
+      "id": "gls_kala3_oksitosin_02",
+      "term": "Oksitosin",
+      "def": "Uterotonik lini pertama yang diberikan 10 IU IM dalam 1 menit pasca bayi lahir untuk mencegah atonia uteri dan PPH. Bekerja dengan merangsang kontraksi otot polos uterus. Kontraindikasi relatif pada alergi dan hipertensi berat (pada pemberian metilergometrin).",
+      "type": "drug",
+      "aliases": [
+        "oxytocin",
+        "Pitocin"
+      ]
+    },
+    {
+      "id": "gls_kala3_ptt_03",
+      "term": "PTT (Penegangan Tali Pusat Terkendali)",
+      "def": "Teknik menarik tali pusat dengan tekanan terkendali sambil tangan lain menahan uterus dorso-kranial untuk mencegah inversio uteri. Dilakukan saat his; dihentikan 30-40 detik bila plasenta tidak lahir, dan diulang pada his berikutnya.",
+      "type": "procedure",
+      "aliases": [
+        "CCT",
+        "Controlled Cord Traction"
+      ]
+    },
+    {
+      "id": "gls_kala3_masase_04",
+      "term": "Masase uterus",
+      "def": "Pijatan melingkar pada fundus uteri yang dilakukan segera setelah plasenta lahir untuk mempertahankan kontraksi uterus dan mencegah perdarahan. Tujuannya agar fundus tetap keras; dilakukan sampai kontraksi adekuat.",
+      "type": "procedure",
+      "aliases": [
+        "uterine massage",
+        "fundal massage"
+      ]
+    },
+    {
+      "id": "gls_kala3_schultze_duncan_05",
+      "term": "Tanda Schultze/Duncan",
+      "def": "Dua cara pelepasan plasenta dari dinding uterus. Tanda Schultze: plasenta lahir dengan sisi fetal (mengkilap/licin) muncul lebih dulu, perdarahan sedikit, merupakan cara yang lebih umum. Tanda Duncan: plasenta lahir dengan sisi maternal (berdarah, kotiledon) muncul lebih dulu, perdarahan lebih banyak.",
+      "type": "clinical",
+      "aliases": [
+        "Schultze mechanism",
+        "Duncan mechanism"
+      ]
+    },
+    {
+      "id": "gls_kala3_litotomi_06",
+      "term": "Posisi litotomi",
+      "def": "Posisi pasien berbaring telentang dengan tungkai diletakkan di penyangga sehingga bokong di tepi meja dan tungkai dalam fleksi-abduksi. Digunakan untuk prosedur ginekologi dan persalinan termasuk kala III agar operator mendapat akses optimal ke jalan lahir.",
+      "type": "anatomy",
+      "aliases": [
+        "lithotomy position",
+        "dorsal recumbent with stirrups"
+      ]
+    },
+    {
+      "id": "gls_kala3_informed_consent_07",
+      "term": "Informed consent",
+      "def": "Persetujuan yang diberikan pasien (atau keluarganya) setelah menerima penjelasan lengkap mengenai tujuan, prosedur, risiko, manfaat, dan alternatif tindakan. Pada APN kala III, informed consent verbal harus didokumentasikan sebelum tindakan invasif seperti plasenta manual.",
+      "type": "clinical",
+      "aliases": [
+        "persetujuan informed",
+        "informed consent"
+      ]
+    },
+    {
+      "id": "gls_kala3_apd_08",
+      "term": "APD (Alat Pelindung Diri)",
+      "def": "Perlengkapan yang dipakai penolong untuk mencegah transmisi infeksi: sarung tangan steril (ganti 2-3 kali sesuai fase), apron, masker, kacamata pelindung. Wajib dipakai pada semua prosedur APN kala III sesuai momen cuci tangan WHO.",
+      "type": "procedure",
+      "aliases": [
+        "Personal Protective Equipment",
+        "PPE"
+      ]
+    },
+    {
+      "id": "gls_kala3_kala3_09",
+      "term": "Kala III",
+      "def": "Fase persalinan yang dimulai segera setelah bayi lahir hingga plasenta lahir. Normalnya berlangsung <30 menit dengan MAKA. Fase berikutnya adalah kala IV (2 jam postpartum) dengan pemantauan ketat.",
+      "type": "clinical",
+      "aliases": [
+        "third stage of labour",
+        "kala uri"
+      ]
+    },
+    {
+      "id": "gls_kala3_plasenta_10",
+      "term": "Plasenta",
+      "def": "Organ yang terbentuk selama kehamilan, melekat pada dinding uterus, memberikan pertukaran nutrisi dan oksigen antara ibu dan janin. Setelah bayi lahir, plasenta harus lahir lengkap dengan kotiledon, selaput, dan tali pusat (3 pembuluh darah).",
+      "type": "anatomy",
+      "aliases": [
+        "ari-ari",
+        "placenta"
+      ]
+    },
+    {
+      "id": "gls_kala3_dorso_kranial_11",
+      "term": "Dorso-kranial",
+      "def": "Arah tekanan pada uterus dari operator: dorong uterus ke arah kepala (kranial) melalui tangan yang diletakkan di atas simfisis pubis, untuk mencegah inversio uteri saat melakukan CCT. Tangan di simfisis juga berfungsi mendeteksi kontraksi uterus.",
+      "type": "procedure",
+      "aliases": [
+        "dorsocranial pressure",
+        "dorso-kranial"
+      ]
+    },
+    {
+      "id": "gls_kala3_imd_12",
+      "term": "IMD (Inisiasi Menyusu Dini)",
+      "def": "Proses meletakkan bayi baru lahir di dada ibu dengan kontak kulit ke kulit dalam 1 jam pertama kehidupan, untuk memulai menyusu, menjaga kehangatan bayi, dan bonding. Dilakukan segera setelah bayi lahir dan tali pusat dipotong.",
+      "type": "procedure",
+      "aliases": [
+        "early initiation of breastfeeding",
+        "inisiasi menyusu dini"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_kala3_01",
+      "term_id": "Kala III",
+      "term_en": "Third stage of labour",
+      "context": "Fase persalinan dari bayi lahir sampai plasenta lahir; target MAKA adalah menyelesaikannya dalam <30 menit."
+    },
+    {
+      "id": "bil_kala3_02",
+      "term_id": "Penegangan Tali Pusat Terkendali (PTT)",
+      "term_en": "Controlled Cord Traction (CCT)",
+      "context": "Tarikan tali pusat dengan tekanan terkendali dan dorso-kranial, hanya saat his."
+    },
+    {
+      "id": "bil_kala3_03",
+      "term_id": "Manajemen Aktif Kala III (MAKA)",
+      "term_en": "Active Management of Third Stage of Labour (AMTSL)",
+      "context": "Paket intervensi: oksitosin 10 IU IM, CCT dengan dorso-kranial, masase uterus."
+    },
+    {
+      "id": "bil_kala3_04",
+      "term_id": "Dorso-kranial",
+      "term_en": "Dorso-cranial pressure",
+      "context": "Arah dorongan uterus ke kranial (kepala) untuk mencegah inversio uteri saat CCT."
+    },
+    {
+      "id": "bil_kala3_05",
+      "term_id": "Masase uterus",
+      "term_en": "Uterine (fundal) massage",
+      "context": "Pijatan melingkar pada fundus untuk mempertahankan kontraksi setelah plasenta lahir."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_kala3_flowchart_01",
+      "module_id": "mod_obgyn_skill_apn_kala_iii_007",
+      "section_id": "s01",
+      "type": "flowchart",
+      "generation_prompt": "Infographic Bahasa Indonesia, active management of third stage of labour: clamp 5-10 cm, controlled cord traction, dorso-cranial pressure, placenta delivery, uterine massage, placenta check, monitoring. Gaya clean medical illustration, ikon sederhana, warna berbeda tiap tahap, label jelas.",
+      "alt": "Diagram alur MAKA dalam 10 langkah: bayi lahir → oksitosin IM → jepit-potong tali pusat → IMD → pindahkan klem 5-10 cm → tangan di simfisis → CCT dengan dorso-kranial → plasenta lahir → putar selaput → masase fundus → monitoring kala IV.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/flowchart_maka_10_langkah.png"
+    },
+    {
+      "id": "visual_kala3_dorso_kranial_02",
+      "module_id": "mod_obgyn_skill_apn_kala_iii_007",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Clean medical simulation illustration, one hand above symphysis pushing uterus dorsocranially while other applies controlled cord traction, arrows, Indonesian labels (tangan di simfisis, dorso-kranial, CCT, plasenta). Gaya clean medical illustration.",
+      "alt": "Ilustrasi posisi operator saat CCT: satu tangan di atas simfisis pubis menekan uterus dorso-kranial, tangan lain memegang tali pusat dengan klem, bayi sudah lahir.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/dorso_kranial_cct.png"
+    },
+    {
+      "id": "visual_kala3_pemeriksaan_plasenta_03",
+      "module_id": "mod_obgyn_skill_apn_kala_iii_007",
+      "section_id": "s06",
+      "type": "diagram",
+      "generation_prompt": "Diagram sisi maternal (kotiledon) dan fetal plasenta, selaput lengkap/tidak lengkap, tali pusat 3 pembuluh darah. Label Bahasa Indonesia, gaya clean medical illustration, warna berbeda untuk tiap komponen.",
+      "alt": "Diagram plasenta: sisi maternal dengan kotiledon (lengkap/tidak lengkap), sisi fetal dengan tali pusat 3 pembuluh darah, selaput amniokhorion lengkap atau tidak.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/pemeriksaan_plasenta.png"
+    },
+    {
+      "id": "visual_kala3_monitoring_2jam_04",
+      "module_id": "mod_obgyn_skill_apn_kala_iii_007",
+      "section_id": "s06",
+      "type": "table",
+      "generation_prompt": "Tabel minimalis Bahasa Indonesia jadwal monitoring postpartum 2 jam: 15 menit pertama, jam pertama, jam kedua, kontraksi, perdarahan, nadi, kandung kemih, suhu, bayi. Gaya clean medical infographic.",
+      "alt": "Tabel jadwal monitoring kala IV: 15 menit pertama (2-3×/15 menit), jam pertama (tiap 15 menit), jam kedua (tiap 20-30 menit), suhu tiap jam, bayi tiap 15 menit.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/monitoring_2jam_postpartum.png"
+    },
+    {
+      "id": "visual_kala3_perawatan_bbl_05",
+      "module_id": "mod_obgyn_skill_apn_kala_iii_007",
+      "section_id": "s05",
+      "type": "infographic",
+      "generation_prompt": "Infografik Bahasa Indonesia urutan perawatan bayi baru lahir: IMD 1 jam, vitamin K1 1 mg IM paha kiri, salep mata, hepatitis B paha kanan. Gaya clean medical illustration, ikon sederhana, warna berbeda tiap langkah, label jelas dengan waktu.",
+      "alt": "Infografik urutan perawatan BBL: IMD 1 jam → vitamin K1 1 mg IM paha kiri → salep mata tetrasiklin/eritromisin → hepatitis B paha kanan, dengan timestamp masing-masing.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/perawatan_bbl_urutan.png"
+    },
+    {
+      "id": "visual_kala3_alur_kala4_06",
+      "module_id": "mod_obgyn_skill_apn_kala_iii_007",
+      "section_id": "s06",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart Bahasa Indonesia alur tindakan kala IV: plasenta lahir → masase fundus → periksa plasenta → evaluasi laserasi → monitoring kala IV → edukasi. Gaya clean medical flowchart, ikon sederhana, label jelas.",
+      "alt": "Diagram alur kala IV: plasenta lahir lengkap → masase fundus keras → periksa plasenta (kotiledon, selaput, tali pusat) → inspeksi jalan lahir → monitoring TTV 2 jam → edukasi tanda bahaya.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_iii_007/assets/alur_kala4.png"
+    }
+  ],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Pengenalan modul APN Kala III, skenario fiktif Ny. Maya, dan alur besar MAKA dalam 10 langkah untuk menghadapi OSCE skill lab.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Sumber dokumen utama modul ini adalah checklist PDF berjudul 'Penuntun Belajar Asuhan Persalinan Normal Kala III' (FKIK Universitas Jambi) yang diperkaya dengan prinsip manajemen aktif kala III, penilaian perdarahan, masase uterus, IMD, pemantauan ibu-bayi, dan pencegahan perdarahan postpartum. Inti satu kalimat: Kala III adalah fase setelah bayi lahir sampai plasenta lahir; MAKA bertujuan mempercepat pelepasan plasenta secara aman, mencegah inversio uteri, dan menurunkan risiko PPH.",
+          "tone": "narrative",
+          "source": "§1 file sumber / Ringkasan File Sumber"
+        },
+        {
+          "text": "Modul ini bukan hanya tentang 'menunggu plasenta lahir' — yang dinilai di OSCE adalah manajemen aktif (CCT + dorso-kranial), masase uterus, IMD, vitamin K, salep mata, hepatitis B, monitoring 2 jam postpartum, dan edukasi. Tiga kegiatan besar: (1) Penegangan tali pusat terkendali dengan dorso-kranial (counter-pressure), (2) Melahirkan plasenta dan memeriksa kelengkapannya, (3) Masase uterus dan pemantauan perdarahan.",
+          "tone": "clinical",
+          "source": "§1 file sumber / Tiga kegiatan besar"
+        },
+        {
+          "text": "Skenario klinis utama yang digunakan konsisten di seluruh modul: Ny. Maya, 28 tahun, G2P1A0, hamil 39 minggu, baru saja melahirkan bayi perempuan 3.000 gram secara spontan, Apgar 9/10, plasenta belum lahir. Kontraksi uterus adekuat, TTV ibu stabil, bayi menangis kuat, IMD sudah dimulai. Tim lengkap (penolong, asisten, perawat). Identitas fiktif ini muncul di §1, §9, §13, §15, dan Lampiran C.",
+          "tone": "narrative",
+          "source": "§1 file sumber / Skenario klinis"
+        },
+        {
+          "text": "Alur cepat MAKA dalam 10 langkah: (1) Jelaskan prosedur & risiko, (2) Pindahkan klem tali pusat 5-10 cm dari vulva, (3) Satu tangan di atas simfisis + tangan lain menegangkan tali pusat, (4) Saat his, tegangkan tali pusat ke bawah + dorso-kranial; hentikan 30-40 detik bila plasenta tidak lahir, (5) Saat plasenta lepas, ibu meneran + tarik tali pusat sejajar lantai lalu ke atas mengikuti poros jalan lahir, (6) Plasenta belum lahir 15 menit: oksitosin ulang + kateterisasi; 30 menit/perdarahan → plasenta manual, (7) Saat plasenta muncul, putar sampai selaput terpilin, (8) Masase uterus + periksa plasenta & selaput + evaluasi laserasi, (9) IMD + perawatan BBL + monitoring 2 jam, (10) Dekontaminasi + cuci tangan + partograf + edukasi.",
+          "tone": "clinical",
+          "source": "§2 file sumber / Alur Cepat MAKA 10 Langkah"
+        },
+        {
+          "text": "Bahaya utama yang harus diwaspadai: perdarahan postpartum (PPH), atonia uteri, retensio plasenta, inversio uteri, dan sisa selaput/plasenta. Poin OSCE yang sering jadi item nilai: jarak klem 5-10 cm dari vulva, tekanan dorso-kranial (mencegah inversio uteri), putar plasenta agar selaput terpilin, dan pemantauan 2 jam postpartum (kala IV).",
+          "tone": "clinical",
+          "source": "§1 file sumber / Bahaya utama & poin OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tiga kegiatan besar MAKA yang wajib dihafal: (1) Penegangan tali pusat terkendali + dorso-kranial, (2) Melahirkan plasenta dan memeriksa kelengkapannya, (3) Masase uterus dan pemantauan perdarahan.",
+          "sub": [
+            "CCT + dorso-kranial",
+            "Plasenta + periksa kelengkapan",
+            "Masase uterus + monitoring"
+          ],
+          "bold": true,
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Bahaya utama yang harus diwaspadai saat MAKA:",
+          "sub": [
+            "Perdarahan postpartum (PPH)",
+            "Atonia uteri",
+            "Retensio plasenta",
+            "Inversio uteri",
+            "Sisa selaput/plasenta"
+          ],
+          "bold": false,
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Poin bayi yang tidak boleh dilupakan saat MAKA:",
+          "sub": [
+            "IMD minimal 1 jam",
+            "Jaga suhu bayi",
+            "Nilai napas, suhu, warna",
+            "Vitamin K 1 mg IM paha kiri (setelah IMD 1 jam)",
+            "Profilaksis mata setelah menyusu 1 jam",
+            "Hepatitis B paha kanan setelah 1 jam vitamin K"
+          ],
+          "bold": true,
+          "source": "§1 file sumber / Poin bayi"
+        },
+        {
+          "text": "Poin OSCE yang sering menjadi item nilai (kecil tapi menentukan):",
+          "sub": [
+            "Jarak klem 5-10 cm dari vulva",
+            "Tekanan dorso-kranial (mencegah inversio uteri)",
+            "Putar plasenta agar selaput terpilin",
+            "Pemantauan 2 jam postpartum (kala IV) sesuai jadwal"
+          ],
+          "bold": true,
+          "source": "§1 file sumber / Poin OSCE"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip utama MAKA",
+          "text": "Dorso-kranial = kunci mencegah inversio uteri. Fundus keras = kontraksi baik. Ini sering terlupakan padahal sangat OSCE.",
+          "answer_evidence": "Sumber: Checklist Skill Lab FKIK Universitas Jambi: Asuhan Persalinan Normal Kala III"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips nilai tinggi OSCE",
+          "text": "Selalu pindahkan klem 5-10 cm, dorso-kranial di setiap langkah, jangan menarik terus-menerus, putar plasenta agar selaput terpilin, masase segera setelah plasenta lahir, IMD 1 jam + vitamin K + salep mata + hepatitis B sesuai urutan, monitoring 2 jam postpartum sesuai jadwal.",
+          "answer_evidence": "Sumber: Checklist Skill Lab FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Batas keselamatan klinis",
+          "text": "Materi ini untuk simulasi OSCE dan belajar. Pada pasien nyata, tindakan obstetri harus dilakukan oleh operator kompeten, dengan informed consent, monitoring ibu-janin, kesiapan resusitasi, SOP fasilitas, dan supervisi klinis.",
+          "answer_evidence": "Sumber: Strategi Membaca modul, COVER TABLE"
+        }
+      ],
+      "visual_refs": [
+        "visual_kala3_flowchart_01"
+      ],
+      "glossary_refs": [
+        "gls_kala3_maka_01",
+        "gls_kala3_kala3_09",
+        "gls_kala3_imd_12"
+      ],
+      "bilingual": "Skenario klinis utama modul ini adalah Ny. Maya, 28 tahun, G2P1A0, hamil 39 minggu, postpartum spontan dengan plasenta belum lahir. Fokus OSCE: manajemen aktif kala III, urutan waktu-kritis, dan integrasi perawatan BBL."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Checklist 25-26 item OSCE yang diterjemahkan menjadi langkah praktis, mencakup kalimat yang dapat diucapkan dan kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Checklist OSCE APN Kala III mencakup 25-26 item yang dibagi ke dalam enam blok: (1) Komunikasi & informed consent, (2) Manajemen aktif kala III (CCT, dorso-kranial, plasenta), (3) Perawatan BBL awal, (4) Pemantauan kala IV, (5) Dekontaminasi & dokumentasi, (6) Edukasi keluarga. Setiap item dilengkapi dengan cara melakukan agar skor maksimal, kalimat yang dapat diucapkan, dan kesalahan yang menurunkan nilai.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Struktur checklist"
+        },
+        {
+          "text": "Empat item penting yang harus dilakukan di awal tindakan: (1) Jelaskan prosedur kala III aktif dan risiko kepada ibu, (2) Pindahkan klem tali pusat 5-10 cm dari vulva, (3) Satu tangan di atas simfisis (bukan fundus) untuk mendeteksi kontraksi dan mencegah inversio uteri, (4) Tangan lain menegangkan tali pusat. Pelanggaran pada keempat item ini akan langsung menurunkan skor OSCE secara signifikan.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Item 1-4"
+        },
+        {
+          "text": "Tindakan kritis saat kontraksi: saat his, tegangkan tali pusat ke bawah sambil tangan lain mendorong uterus dorso-kranial. Dorso-kranial = dorong uterus ke arah kepala (kranial) untuk mencegah inversio. Jika 30-40 detik tidak lahir, hentikan tarik dan tunggu his berikutnya. Saat plasenta lepas, minta ibu meneran, tarik tali pusat sejajar lantai lalu ke atas mengikuti poros jalan lahir. Saat plasenta muncul, pegang dengan dua tangan dan putar sampai selaput terpilin; keluarkan lengkap.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Item 5-8"
+        },
+        {
+          "text": "Tindakan segera setelah plasenta lahir: (1) Masase uterus sampai fundus keras, (2) Periksa plasenta dan selaput (sisi maternal & fetal), (3) Evaluasi laserasi vagina/perineum dan jahit bila perdarahan aktif, (4) Oksitosin 10 IU IM dalam 1 menit pasca bayi lahir. Setiap langkah ini memiliki kalimat OSCE spesifik yang dapat diucapkan di station untuk menunjukkan kompetensi.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Item 9-12"
+        },
+        {
+          "text": "Perawatan bayi baru lahir awal: IMD minimal 1 jam, vitamin K1 1 mg IM paha kiri setelah IMD 1 jam, salep mata (profilaksis) setelah menyusu 1 jam, hepatitis B paha kanan setelah 1 jam vitamin K1. Pemantauan kala IV: 2-3×/15 menit pertama, tiap 15 menit jam pertama, tiap 20-30 menit jam kedua; suhu ibu tiap jam; bayi tiap 15 menit.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Item 13-21"
+        },
+        {
+          "text": "Tindakan penutup station: dekontaminasi alat & tempat, buang bahan habis pakai, bersihkan ibu, cuci tangan 6 langkah, lengkapi partograf dan rekam medis, edukasi keluarga (masase fundus, tanda bahaya), penutup station dengan salam dan safety-net.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Item 22-26"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Item-item kritis yang menentukan skor OSCE APN Kala III:",
+          "sub": [
+            "Jelaskan prosedur & risiko (item 1)",
+            "Pindahkan klem 5-10 cm dari vulva (item 2)",
+            "Tangan di simfisis, bukan fundus (item 3)",
+            "Tangan lain menegangkan tali pusat (item 4)",
+            "Tarik saat his + dorso-kranial (item 5)",
+            "Hentikan 30-40 detik bila plasenta tidak lahir (item 6)",
+            "Putar plasenta sampai selaput terpilin (item 8)",
+            "Masase fundus keras (item 9)",
+            "Periksa plasenta & selaput (item 10)",
+            "Oksitosin 10 IU IM dalam 1 menit (item 12)"
+          ],
+          "bold": true,
+          "source": "§3 file sumber / Checklist 25-26 item"
+        },
+        {
+          "text": "Kalimat kunci OSCE yang sering menjadi penanda verbalisasi:",
+          "sub": [
+            "'Saya pindahkan klem tali pusat 5-10 cm dari vulva.'",
+            "'Satu tangan saya letakkan di atas simfisis untuk mendeteksi kontraksi dan mencegah inversio uteri.'",
+            "'Saat kontraksi, tegangkan tali pusat ke bawah sambil dorong uterus dorso-kranial.'",
+            "'Plasenta belum lahir, saya hentikan tarik dan tunggu kontraksi berikutnya.'",
+            "'Saya putar plasenta sampai selaput terpilin, lalu keluarkan.'",
+            "'Saya periksa plasenta: 3 kotiledon lengkap, selaput lengkap, 3 pembuluh darah tali pusat.'"
+          ],
+          "bold": false,
+          "source": "§3 file sumber / Kalimat yang dapat diucapkan"
+        },
+        {
+          "text": "Kesalahan yang menurunkan nilai (wajib dihindari):",
+          "sub": [
+            "Tidak jelaskan prosedur atau tidak informed consent",
+            "Tidak pindahkan klem",
+            "Tangan di fundus (salah)",
+            "Menarik terlalu kuat atau terus-menerus",
+            "Tarik langsung ke atas tanpa mengikuti poros jalan lahir",
+            "Tarik tanpa putar (selaput putus)",
+            "Tidak masase uterus",
+            "Tidak periksa plasenta dan selaput",
+            "Tidak evaluasi laserasi",
+            "Tidak suntik oksitosin dalam 1 menit",
+            "IMD terlalu cepat atau dipisahkan",
+            "Tidak vitamin K, salep mata, hepatitis B",
+            "Tidak monitoring kala IV",
+            "Tidak dokumentasi partograf",
+            "Tutup station tanpa salam"
+          ],
+          "bold": true,
+          "source": "§3 file sumber / Kesalahan menurunkan nilai"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Adaptasi kalimat OSCE",
+          "text": "Kalimat di kolom 'Kalimat yang Dapat Diucapkan' berasal dari pola bahasa Indonesia yang awam-friendly. Adaptasi sesuai skenario station masing-masing.",
+          "answer_evidence": "Sumber: §3 Catatan"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan penting dari file sumber",
+          "text": "Jarak klem 5-10 cm, tekanan dorso-kranial, putar plasenta agar selaput terpilin, dan pemantauan 2 jam postpartum sering menjadi item nilai. Penguji menghargai self-correction yang verbal.",
+          "answer_evidence": "Sumber: §6 Catatan klinis + §18 Recovery Move"
+        }
+      ],
+      "visual_refs": [
+        "visual_kala3_flowchart_01"
+      ],
+      "glossary_refs": [
+        "gls_kala3_maka_01",
+        "gls_kala3_ptt_03",
+        "gls_kala3_masase_04"
+      ],
+      "bilingual": "Checklist OSCE APN Kala III menekankan urutan verbalisasi yang konsisten: jelaskan prosedur → pindahkan klem → tangan di simfisis → CCT saat his → plasenta lahir → putar selaput → masase → periksa plasenta → injeksi oksitosin → IMD → vitamin K → salep mata → hepatitis B → monitoring kala IV → dokumentasi."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis pada station APN Kala III berfungsi sebagai konfirmasi identitas ibu, asesmen plasenta, edukasi singkat, dan persiapan IMD.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station APN kala III berfungsi sebagai empat hal: (1) konfirmasi identitas dan kondisi ibu, (2) asesmen plasenta, (3) edukasi singkat, (4) persiapan IMD. Prinsip utama: tanyakan kapan bayi lahir, apakah plasenta sudah lahir dan lengkap, riwayat alergi dan hipertensi (untuk uterotonika), riwayat SC/operasi rahim sebelumnya (risiko plasenta akreta).",
+          "tone": "clinical",
+          "source": "§4 file sumber / Prinsip anamnesis"
+        },
+        {
+          "text": "Pertanyaan anamnesis wajib mencakup: identitas dan kondisi ibu, kapan bayi lahir & kondisi bayi, HPHT/paritas/cara persalinan, alergi obat (oksitosin dll.), riwayat hipertensi (kontraindikasi metilergometrin), riwayat perdarahan postpartum sebelumnya, riwayat koagulopati/antikoagulan, kemampuan bayi menyusu, keluarga yang mendampingi, dan pilihan KB pascasalin. Setiap pertanyaan memiliki alasan klinis dan tindakan spesifik bila jawabannya bermasalah.",
+          "tone": "clinical",
+          "source": "§4 file sumber / Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Pada skenario Ny. Maya, G2P1A0 hamil 39 minggu postpartum spontan, riwayat obstetri: G2P1A0 dengan persalinan sebelumnya normal. Informed consent verbal sudah diberikan untuk tindakan MAKA. Bayi perempuan BB 3.000 gram Apgar 9/10, plasenta belum lahir, IMD sudah dimulai. TTV ibu stabil, fundus keras, perdarahan ±300 mL.",
+          "tone": "narrative",
+          "source": "§4 file sumber / Skenario klinis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tabel pertanyaan anamnesis wajib APN Kala III:",
+          "sub": [
+            "Identitas & kondisi ibu → konfirmasi pasien, kestabilan → anomali identitas → cek ulang",
+            "Kapan bayi lahir, kondisi bayi → awal kala III, IMD siap → bayi asfiksia → resusitasi",
+            "HPHT, paritas, cara persalinan → faktor risiko PPH, plasenta akreta → riwayat SC → waspadai plasenta akreta",
+            "Alergi obat (oksitosin, dll) → mencegah reaksi alergi → alergi → ganti uterotonika",
+            "Riwayat hipertensi → kontraindikasi metilergometrin → hipertensi → hindari metilergometrin",
+            "Riwayat perdarahan postpartum sebelumnya → faktor risiko PPH berulang → riwayat → persiapan darah, uterotonika",
+            "Riwayat koagulopati/antikoagulan → risiko perdarahan berlanjut → koagulopati → konsultasikan",
+            "Kemampuan bayi menyusu, IMD → dukungan laktasi → bayi tidak bisa IMD → tunda/cari alternatif",
+            "Keluarga yang mendampingi → dukungan emosional → tidak ada → konsultasikan",
+            "Pilihan KB pascasalin → mulai diskusi KB → diskusi di kontrol nifas"
+          ],
+          "bold": false,
+          "source": "§4 file sumber / Tabel anamnesis"
+        },
+        {
+          "text": "Kontraindikasi uterotonika yang perlu ditanyakan:",
+          "sub": [
+            "Metilergometrin: kontraindikasi pada hipertensi (meningkatkan TD)",
+            "Karboprost: kontraindikasi pada asma",
+            "Oksitosin: reaksi alergi → ganti uterotonika sesuai SOP"
+          ],
+          "bold": true,
+          "source": "§4 + Lampiran A"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kontraindikasi uterotonika",
+          "text": "Hipertensi → hindari metilergometrin (meningkatkan TD). Asma → hindari karboprost. Alergi uterotonika → ganti sesuai SOP. Selalu tanyakan sebelum menyuntik.",
+          "answer_evidence": "Sumber: §4 Anamnesis + Lampiran A"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Riwayat SC = curiga plasenta akreta",
+          "text": "Pasien dengan riwayat SC klasik memiliki risiko plasenta akreta spectrum. Jika plasenta sulit dilepas, JANGAN paksa — rujuk ke tim SpOG untuk penanganan plasenta akreta.",
+          "answer_evidence": "Sumber: Lampiran A + Lampiran C skenario sulit"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kala3_informed_consent_07",
+        "gls_kala3_oksitosin_02"
+      ],
+      "bilingual": "Anamnesis singkat pada APN Kala III: identitas → bayi lahir? → plasenta? → alergi/hipertensi → riwayat SC → informed consent verbal → edukasi singkat."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan ibu (TTV, fundus, perdarahan) dan bayi baru lahir (nafas, suhu, warna, tonus, menyusu) pada kala III/IV dengan nilai normal dan interpretasi abnormal.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan ibu pada kala III-IV mencakup: TD, nadi, suhu, pernapasan, SpO2; kontraksi uterus (keras/lembek); tinggi fundus uteri (TFU 2 jari di bawah pusat atau sesuai); estimasi perdarahan (kasa, beku darah); kandung kemih (penuh/kosong); inspeksi jalan lahir (laserasi). Nilai normal postpartum: TD <140/90 mmHg, nadi 60-100, suhu 36,0-37,5°C, RR 12-20, SpO2 ≥95%, fundus keras teraba 1-2 jari di bawah pusat, perdarahan <500 mL.",
+          "tone": "clinical",
+          "source": "§5 file sumber / Pemeriksaan Ibu (TTV, Fundus, Perdarahan)"
+        },
+        {
+          "text": "Pemeriksaan bayi baru lahir mencakup: napas 40-60 x/menit reguler, suhu 36,5-37,5°C (axilla) — pertahankan kehangatan, warna kemerahan (tidak sianosis), tonus aktif fleksi, kemampuan menyusu dalam 1 jam pertama, dan pemeriksaan fisik lengkap (kepala, mata, mulut, dada, abdomen, punggung, ekstremitas, anus). Nilai normal: Apgar 7-10.",
+          "tone": "clinical",
+          "source": "§5 file sumber / Pemeriksaan Bayi Baru Lahir"
+        },
+        {
+          "text": "Interpretasi bila abnormal pada ibu: TD <90/60, nadi >120, pucat, akral dingin → syok/PPH; fundus lembek → atonia uteri; perdarahan >500 mL → PPH; kandung kemih penuh → mengganggu kontraksi. Interpretasi bila abnormal pada bayi: napas cepat (>60) + retraksi + merintih → gangguan napas; hipotermia (<36,5°C) → segera hangatkan; sianosis → evaluasi jantung/paru; bayi lemas/tonus jelek → evaluasi asfiksia; Apgar <7 → resusitasi sesuai algoritme.",
+          "tone": "clinical",
+          "source": "§5 file sumber / Interpretasi abnormal"
+        },
+        {
+          "text": "Kalimat OSCE pemeriksaan: Ibu stabil → 'TD 110/70, nadi 88, suhu 36,5°C. TFU 2 jari di bawah pusat, kontraksi keras, perdarahan ±200 mL, kandung kemih kosong. Ibu stabil.' Bayi stabil → 'Bayi perempuan, BB 3.000 gram, PB 49 cm. Napas 50 x/menit, suhu 36,8°C, warna kemerahan, tonus aktif, menangis kuat. Apgar 9/10.'",
+          "tone": "narrative",
+          "source": "§5 file sumber / Kalimat OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan Ibu — TTV, fundus, perdarahan:",
+          "sub": [
+            "TD, nadi, suhu, pernapasan, SpO2",
+            "Kontraksi uterus (keras/lembek), TFU 2 jari di bawah pusat",
+            "Estimasi perdarahan (kasa, beku darah)",
+            "Kandung kemih (penuh/kosong)",
+            "Inspeksi jalan lahir (laserasi)"
+          ],
+          "bold": true,
+          "source": "§5 file sumber / Pemeriksaan Ibu"
+        },
+        {
+          "text": "Pemeriksaan Bayi Baru Lahir:",
+          "sub": [
+            "Napas: 40-60 x/menit, reguler, tidak ada retraksi",
+            "Suhu: 36,5-37,5°C (axilla), pertahankan kehangatan",
+            "Warna: kemerahan, tidak sianosis",
+            "Tonus: aktif, fleksi",
+            "Kemampuan menyusu: dalam 1 jam pertama",
+            "Pemeriksaan fisik lengkap: kepala, mata, mulut, dada, abdomen, punggung, ekstremitas, anus"
+          ],
+          "bold": true,
+          "source": "§5 file sumber / Pemeriksaan Bayi"
+        },
+        {
+          "text": "Nilai normal postpartum (konsultasi rujukan):",
+          "sub": [
+            "TD <140/90 mmHg",
+            "Nadi 60-100 x/menit",
+            "Suhu 36,0-37,5°C",
+            "RR 12-20 x/menit",
+            "SpO2 ≥95%",
+            "Fundus keras, 1-2 jari di bawah pusat",
+            "Perdarahan <500 mL (normal kala III)",
+            "Apgar 7-10"
+          ],
+          "bold": false,
+          "source": "§5 file sumber / Nilai normal"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tanda syok postpartum",
+          "text": "TD <90/60, nadi >120, pucat, akral dingin → syok, PPH. Tangani segera dengan resusitasi agresif, akses IV 2 jalur, uterotonika, dan rujuk emergensi.",
+          "answer_evidence": "Sumber: §5 file sumber / Interpretasi abnormal"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kandung kemih penuh mengganggu kontraksi",
+          "text": "Kandung kemih penuh menghambat kontraksi uterus dan meningkatkan risiko perdarahan. Kateterisasi bila perlu sebelum MAKA berakhir.",
+          "answer_evidence": "Sumber: §5 + Lampiran C skenario sedang"
+        }
+      ],
+      "visual_refs": [
+        "visual_kala3_monitoring_2jam_04"
+      ],
+      "glossary_refs": [
+        "gls_kala3_litotomi_06",
+        "gls_kala3_kala3_09"
+      ],
+      "bilingual": "Pemeriksaan fisik kala III: ibu (TTV, fundus, perdarahan, kandung kemih, jalan lahir) + bayi (Apgar, napas, suhu, warna, tonus, menyusu)."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat yang harus disiapkan, posisi pasien, fase persiapan, fase pelaksanaan CCT dengan dorso-kranial, plasenta manual, masase & periksa plasenta, perawatan BBL, dan evaluasi.",
+      "estimated_time_minutes": 35,
+      "content": [
+        {
+          "text": "Alat yang harus disiapkan (minimum): set persalinan (gunting, klem, kasa, mangkok, handuk), oksitosin 10 IU (atau uterotonika lain), 2 klem tali pusat (5-10 cm dan di sisi bayi), gunting tali pusat steril, sarung tangan steril (ganti 2-3 kali sesuai fase), alat resusitasi BBL (penghisap lendir, balon sungkup, masker bayi, lampu pemanas), kain untuk BBL, vitamin K1 1 mg, salep mata, vaksin Hepatitis B, kasa untuk estimasi perdarahan, klorin 0,5% untuk dekontaminasi. APD: sarung tangan steril, apron, masker, kacamata pelindung.",
+          "tone": "clinical",
+          "source": "§6 file sumber / Alat"
+        },
+        {
+          "text": "Cara mempersiapkan ibu dan bayi: posisi ibu litotomi atau dorsal recumbent (sesuai kala III), kain bersih di bawah bokong untuk menampung plasenta, bayi dikeringkan dengan handuk, topi, selimuti, IMD kontak kulit ke kulit di dada ibu, penjelasan tindakan (informed consent), privasi dan pendampingan (suami/keluarga boleh mendampingi). Momen cuci tangan sesuai WHO: sebelum kontak dengan pasien, sebelum tindakan aseptik, setelah paparan cairan tubuh, setelah kontak dengan pasien, setelah kontak dengan lingkungan pasien.",
+          "tone": "clinical",
+          "source": "§6 file sumber / Cara mempersiapkan"
+        },
+        {
+          "text": "FASE PERSIAPAN MAKA (8 langkah): (1) Bayi sudah lahir (kondisi baik, Apgar baik). (2) Oksitosin 10 IU IM dalam 1 menit pasca bayi lahir (atau IV per protokol). (3) Jepit-potong tali pusat — klem 2 tempat (5-10 cm dan di sisi bayi), potong di antara keduanya. (4) Keringkan bayi, ganti kain basah, selimuti dan topi. (5) IMD — kontak kulit ke kulit, selimuti. (6) Informed consent verbal. (7) Penolong pakai sarung tangan steril. (8) Posisikan ibu — dorsal recumbent atau litotomi, kain bersih di bawah bokong. Keselamatan: oksitosin segera setelah bayi lahir, IMD awal, jepit-potong tali pusat.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Fase Persiapan"
+        },
+        {
+          "text": "FASE PELAKSANAAN — Penegangan Tali Pusat Terkendali (CCT) 8 langkah: (1) Pindahkan klem tali pusat 5-10 cm dari vulva — longgarkan, geser, klem kembali. (2) Tangan kiri/kiri penolong di atas simfisis (bukan fundus) — untuk mendeteksi kontraksi dan mencegah inversio uteri. (3) Tangan kanan/kanan penolong memegang tali pusat dengan klem. (4) Tunggu his (kontraksi uterus) — bisa dirasakan tangan kiri sebagai fundus mengeras. (5) Saat his, tegangkan tali pusat ke bawah — dengan tekanan konstan, tangan kiri mendorong uterus dorso-kranial (mencegah inversio). (6) Jika 30-40 detik tidak lahir — hentikan, tunggu his berikutnya. (7) Saat plasenta lepas (terasa lepas di fundus) — minta ibu meneran, tarik tali pusat sejajar lantai lalu ke atas mengikuti poros jalan lahir. (8) Setelah plasenta muncul — pegang kedua telapak tangan, putar plasenta searah jarum jam sampai selaput terpilin, keluarkan lengkap.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Fase CCT"
+        },
+        {
+          "text": "Prinsip utama CCT: (1) Dorso-kranial = dorong uterus ke arah kranial (kepala) untuk mencegah inversio. (2) Tangan di atas simfisis, bukan di fundus (di fundus bisa mendorong plasenta ke dalam rongga). (3) Jangan menarik terus-menerus — berhenti 30-40 detik, tunggu his berikutnya. (4) Putar plasenta agar selaput terpilin (mencegah selaput putus dan tertinggal). Keselamatan: dorso-kranial mencegah inversio uteri, tidak menarik terlalu kuat, pikirkan plasenta akreta pada riwayat SC.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Prinsip CCT"
+        },
+        {
+          "text": "FASE PELAKSANAAN — Plasenta Manual (bila perlu). Indikasi: plasenta belum lepas >30 menit, atau ada perdarahan aktif. Langkah: (1) Informed consent (bila emergensi, verbal). (2) Anestesi (umum atau sedasi sesuai fasilitas). (3) Posisi litotomi, antiseptik. (4) Tangan kiri menahan fundus. (5) Tangan kanan masuk obstetrik mengikuti tali pusat. (6) Cari bidang plasenta-dinding, lepas tumpul bertahap. (7) Keluarkan plasenta, periksa kelengkapan. (8) Pertimbangkan plasenta akreta — jangan memaksa. Catatan: prosedur operator terlatih (SpOG); pada OSCE cukup sebutkan indikasi dan prinsip, atau panggil senior.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Fase Plasenta Manual"
+        },
+        {
+          "text": "FASE PELAKSANAAN — Masase Uterus dan Periksa Plasenta. Langkah: (1) Segera masase uterus setelah plasenta lahir — fundus harus keras. (2) Periksa plasenta (sisi maternal): kotiledon lengkap? Berapa? Sisi fetal: tali pusat berapa pembuluh? (3) Periksa selaput — lengkap atau tidak. (4) Estimasi darah yang keluar. Tanda plasenta tidak lengkap: kotiledon hilang → curiga sisa plasenta; selaput tidak lengkap → curiga sisa selaput; tali pusat <3 pembuluh darah → curiga kelainan kongenital. Tatalaksana sisa plasenta/selaput: eksplorasi, kuretase (lihat modul kuretase pascapersalinan), uterotonika.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Masase & Periksa Plasenta"
+        },
+        {
+          "text": "FASE PELAKSANAAN — Perawatan Bayi Baru Lahir. Langkah: (1) IMD minimal 1 jam — kontak kulit ke kulit di dada ibu. (2) Vitamin K1 1 mg IM paha kiri — setelah IMD 1 jam. (3) Salep mata (profilaksis) — tetrasiklin atau eritromisin, setelah menyusu 1 jam. (4) Hepatitis B (vaksin) — paha kanan, setelah 1 jam vitamin K1. (5) Pemeriksaan fisik BBL — lengkap, dokumentasi. (6) Pantau bayi — napas, suhu, warna, tonus, kemampuan menyusu. Keselamatan: IMD benar, vitamin K benar (mencegah perdarahan BBL), salep mata, hepatitis B, monitoring.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Perawatan BBL"
+        },
+        {
+          "text": "FASE EVALUASI DAN KONFIRMASI. Konfirmasi keberhasilan: plasenta lahir lengkap; perdarahan <500 mL; fundus keras; IMD dimulai; bayi stabil. Evaluasi kondisi ibu — TTV stabil, kontraksi keras. Monitoring kala IV (2 jam) — sesuai jadwal. Dekontaminasi — klorin, safety box, lepas sarung tangan, cuci tangan. Dokumentasi — partograf, SOAP. Edukasi keluarga — masase, tanda bahaya, IMD, ASI. Keselamatan: monitoring kala IV ketat, dokumentasi, edukasi safety-net.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Evaluasi & Konfirmasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan waktu-kritis MAKA setelah bayi lahir:",
+          "sub": [
+            "Nilai DJJ → bayi lahir → nilai janin ke-2? → oksitosin 10 IU IM dalam 1 menit",
+            "Jepit-potong tali pusat",
+            "PTT (Penegangan Tali Pusat Terkendali) dengan dorso-kranial",
+            "Plasenta lahir → putar selaput terpilin",
+            "Masase fundus 15 detik"
+          ],
+          "bold": true,
+          "source": "Karakter Modul 007"
+        },
+        {
+          "text": "Fase persiapan — 8 langkah:",
+          "sub": [
+            "Bayi sudah lahir (kondisi baik, Apgar baik)",
+            "Oksitosin 10 IU IM dalam 1 menit pasca bayi lahir",
+            "Jepit-potong tali pusat — 2 klem, potong di antaranya",
+            "Keringkan bayi, ganti kain basah, selimuti dan topi",
+            "IMD — kontak kulit ke kulit, selimuti",
+            "Informed consent verbal",
+            "Penolong pakai sarung tangan steril",
+            "Posisikan ibu — dorsal recumbent atau litotomi"
+          ],
+          "bold": false,
+          "source": "§7 file sumber / Fase Persiapan"
+        },
+        {
+          "text": "Fase CCT — 8 langkah dengan dorso-kranial:",
+          "sub": [
+            "Pindahkan klem tali pusat 5-10 cm dari vulva",
+            "Tangan kiri di atas simfisis (bukan fundus)",
+            "Tangan kanan memegang tali pusat dengan klem",
+            "Tunggu his (kontraksi uterus)",
+            "Saat his, tegangkan tali pusat ke bawah + dorso-kranial",
+            "Hentikan 30-40 detik bila plasenta tidak lahir",
+            "Saat plasenta lepas: ibu meneran, tarik sejajar lantai lalu ke atas",
+            "Putar plasenta searah jarum jam sampai selaput terpilin"
+          ],
+          "bold": true,
+          "source": "§7 file sumber / Fase CCT"
+        },
+        {
+          "text": "Perawatan BBL awal (urutan waktu):",
+          "sub": [
+            "IMD minimal 1 jam (kontak kulit ke kulit)",
+            "Vitamin K1 1 mg IM paha kiri (setelah IMD 1 jam)",
+            "Salep mata tetrasiklin/eritromisin (setelah menyusu 1 jam)",
+            "Hepatitis B paha kanan (setelah 1 jam vitamin K)",
+            "Pemeriksaan fisik BBL lengkap + dokumentasi",
+            "Pantau bayi: napas, suhu, warna, tonus, menyusu"
+          ],
+          "bold": true,
+          "source": "§7 file sumber / Perawatan BBL"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan lakukan PTT sebelum kontraksi terasa",
+          "text": "Lakukan PTT/CCT hanya saat his (kontraksi uterus terasa). Tarik tali pusat sebelum kontraksi berisiko inversio uteri, syok, dan perdarahan masif. Tangan harus di atas simfisis, bukan di fundus.",
+          "answer_evidence": "Sumber: §3 + §7 + §18 FATAL + PROMPT_DOMAIN1 Modul 007"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tanda plasenta sudah lepas — Schultze vs Duncan",
+          "text": "Tanda Schultze: plasenta lahir dengan sisi fetal (mengkilap/licin) muncul lebih dulu, perdarahan sedikit, cara yang lebih umum. Tanda Duncan: plasenta lahir dengan sisi maternal (berdarah, kotiledon) muncul lebih dulu, perdarahan lebih banyak.",
+          "answer_evidence": "Sumber: PROMPT_DOMAIN1 Modul 007 + Lampiran B"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan memaksa melepas plasenta pada plasenta akreta",
+          "text": "Pada kecurigaan plasenta akreta (riwayat SC, plasenta sulit lepas, perdarahan masif), JANGAN paksa lepas plasenta. Rujuk ke tim SpOG untuk penanganan plasenta akreta spectrum (mungkin perlu histerektomi).",
+          "answer_evidence": "Sumber: Lampiran A + Lampiran C skenario sulit + §18 FATAL"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip CCT — dorso-kranial",
+          "text": "Dorso-kranial = dorong uterus ke arah kranial (kepala) melalui tangan di simfisis untuk mencegah inversio uteri. Tangan di simfisis juga berfungsi mendeteksi kontraksi uterus.",
+          "answer_evidence": "Sumber: §7 Prinsip CCT + Glossary dorso-kranial"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Plasenta manual adalah prosedur operator terlatih",
+          "text": "Plasenta manual adalah prosedur SpOG; pada OSCE cukup sebutkan indikasi dan prinsip, atau panggil senior. Jangan memaksa masuknya tangan jika tidak yakin plasenta lepas.",
+          "answer_evidence": "Sumber: §7 Fase Plasenta Manual"
+        }
+      ],
+      "visual_refs": [
+        "visual_kala3_dorso_kranial_02",
+        "visual_kala3_perawatan_bbl_05"
+      ],
+      "glossary_refs": [
+        "gls_kala3_maka_01",
+        "gls_kala3_oksitosin_02",
+        "gls_kala3_ptt_03",
+        "gls_kala3_masase_04",
+        "gls_kala3_schultze_duncan_05",
+        "gls_kala3_dorso_kranial_11",
+        "gls_kala3_imd_12",
+        "gls_kala3_litotomi_06",
+        "gls_kala3_apd_08",
+        "gls_kala3_informed_consent_07"
+      ],
+      "bilingual": "Urutan kritis APN Kala III: oksitosin 10 IU IM dalam 1 menit → jepit-potong tali pusat → IMD → pindahkan klem 5-10 cm → CCT dengan dorso-kranial → plasenta lahir → putar selaput → masase fundus → periksa plasenta → evaluasi laserasi → IMD 1 jam + vitamin K + salep mata + hepatitis B → monitoring kala IV."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Monitoring 2 jam postpartum (kala IV), cara evaluasi keberhasilan, prosedur terkait, dan tabel interpretasi temuan klinis kala III/IV dengan respons OSCE.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-tindakan: monitoring 2 jam postpartum (kala IV). Jadwal: 15 menit pertama → 2-3×/15 menit kontraksi & perdarahan. Jam pertama → tiap 15 menit TTV, perdarahan, kandung kemih. Jam kedua → tiap 20-30 menit TTV, perdarahan. Suhu ibu tiap jam. Bayi tiap 15 menit (napas, suhu, warna, menyusu).",
+          "tone": "clinical",
+          "source": "§8 file sumber / Tabel monitoring kala IV"
+        },
+        {
+          "text": "Cara evaluasi keberhasilan prosedur: (1) Plasenta lahir lengkap — dikonfirmasi dengan pemeriksaan plasenta, (2) Perdarahan <500 mL — dalam batas normal kala III, (3) Fundus keras — kontraktilitas baik, (4) IMD dimulai — menyusu dalam 1 jam, (5) Bayi stabil — napas 40-60, suhu 36,5-37,5, warna baik, tonus aktif. Prosedur terkait/varian: plasenta manual (untuk retensio), kuretase pascapersalinan (untuk sisa plasenta), kompresi bimanual (untuk atonia), histerektomi emergensi (untuk perdarahan tidak terkontrol), IMD perpanjangan sesuai protokol.",
+          "tone": "clinical",
+          "source": "§8 file sumber / Evaluasi keberhasilan"
+        },
+        {
+          "text": "Clinical reasoning pada station APN kala III berfokus pada interpretasi temuan kala III/IV dan pengenalan komplikasi. Alur pikir klinis: Pertanyaan 1: Apakah plasenta lahir lengkap? → Cek plasenta. Pertanyaan 2: Apakah uterus berkontraksi keras? → Masase bila lembek. Pertanyaan 3: Apakah perdarahan dalam batas normal? → Evaluasi 4T bila tidak. Pertanyaan 4: Apakah bayi stabil? → IMD, vitamin K, salep mata, hepatitis B.",
+          "tone": "clinical",
+          "source": "§9 file sumber / Alur pikir klinis"
+        },
+        {
+          "text": "Tabel interpretasi temuan kala III/IV: (1) Fundus keras, perdarahan minimal → Kala III/IV berjalan baik → Lanjut pemantauan sesuai jadwal. (2) Fundus lembek, perdarahan banyak → Atonia uteri → Masase uterus, uterotonika, minta bantuan, tata laksana PPH. (3) Fundus keras, perdarahan tetap banyak → Trauma jalan lahir atau gangguan koagulasi → Inspeksi serviks/vagina/perineum, jahit/rujuk sesuai temuan. (4) Plasenta/selaput tidak lengkap → Sisa plasenta/selaput → Eksplorasi sesuai kompetensi/SOP, pantau perdarahan, eskalasi. (5) Plasenta belum lahir 30 menit atau perdarahan → Retensio plasenta → Siapkan plasenta manual/rujukan sesuai fasilitas dan kondisi ibu. (6) Tali pusat <3 pembuluh darah → Kelainan kongenital → Dokumentasi, evaluasi lanjutan. (7) Bayi tidak menangis / tonus jelek → Asfiksia BBL → Resusitasi sesuai algoritme. (8) Suhu bayi <36,5°C → Hipotermia → Segera hangatkan, IMD, kontak kulit.",
+          "tone": "clinical",
+          "source": "§9 file sumber / Tabel interpretasi temuan"
+        },
+        {
+          "text": "Kapan HARUS merujuk: Segera (emergency) → PPH mayor, syok, plasenta akreta, bayi asfiksia berat, ruptura uteri. Same day → sisa plasenta, robekan luas, kondisi ibu/bayi tidak stabil. Rutin → kontrol nifas, masalah laktasi. Tunda elektif → tidak relevan untuk APN kala III.",
+          "tone": "clinical",
+          "source": "§9 file sumber / Kapan rujuk"
+        },
+        {
+          "text": "Pada skenario Ny. Maya (konteks sukses): plasenta lahir lengkap 8 menit dengan CCT + dorso-kranial. IMD sudah dimulai. TTV ibu stabil (TD 110/70, N 88, S 36,5°C, RR 18, SpO2 98%), fundus keras, perdarahan ±300 mL. Genitalia: plasenta lahir lengkap, selaput lengkap, 3 kotiledon, tali pusat 3 pembuluh darah. Laserasi tidak ada. Bayi perempuan, BB 3.000 gram, PB 49 cm, Apgar 9/10, IMD sudah dimulai.",
+          "tone": "narrative",
+          "source": "§8 + §13 + §15"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Jadwal monitoring kala IV (2 jam postpartum):",
+          "sub": [
+            "15 menit pertama: 2-3×/15 menit — kontraksi, perdarahan",
+            "Jam pertama: tiap 15 menit — TTV, perdarahan, kandung kemih",
+            "Jam kedua: tiap 20-30 menit — TTV, perdarahan",
+            "Suhu ibu: tiap jam",
+            "Bayi: tiap 15 menit — napas, suhu, warna, menyusu"
+          ],
+          "bold": true,
+          "source": "§8 file sumber / Tabel monitoring"
+        },
+        {
+          "text": "Kriteria keberhasilan prosedur APN Kala III:",
+          "sub": [
+            "Plasenta lahir lengkap (dikonfirmasi pemeriksaan plasenta)",
+            "Perdarahan <500 mL",
+            "Fundus keras (kontraktilitas baik)",
+            "IMD dimulai dalam 1 jam pertama",
+            "Bayi stabil: napas 40-60, suhu 36,5-37,5, warna baik, tonus aktif"
+          ],
+          "bold": true,
+          "source": "§8 file sumber / Evaluasi keberhasilan"
+        },
+        {
+          "text": "Prosedur terkait/varian kala III-IV:",
+          "sub": [
+            "Plasenta manual — untuk retensio",
+            "Kuretase pascapersalinan — untuk sisa plasenta",
+            "Kompresi bimanual — untuk atonia",
+            "Histerektomi emergensi — untuk perdarahan tidak terkontrol",
+            "IMD perpanjangan — sesuai protokol"
+          ],
+          "bold": false,
+          "source": "§8 file sumber / Prosedur terkait"
+        },
+        {
+          "text": "Jadwal kontrol pasca-APN:",
+          "sub": [
+            "1 minggu — kontrol nifas, evaluasi luka, laktasi",
+            "2 minggu (bila ada keluhan) — evaluasi lanjutan",
+            "6 minggu — kontrol nifas akhir, KB pascasalin",
+            "Kapan saja — bila ada tanda bahaya"
+          ],
+          "bold": false,
+          "source": "§8 file sumber / Jadwal kontrol"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Atonia uteri = fundus lembek + perdarahan banyak",
+          "text": "Fundus lembek dengan perdarahan banyak adalah tanda atonia uteri. Tangani dengan masase uterus, uterotonika, minta bantuan, dan tata laksana PPH. Rujuk emergensi bila tidak terkontrol.",
+          "answer_evidence": "Sumber: §9 Tabel interpretasi temuan + Lampiran A"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Plasenta belum lahir 30 menit = retensio plasenta",
+          "text": "Batas waktu plasenta: 30 menit postpartum. Siapkan plasenta manual atau rujuk sesuai fasilitas dan kondisi ibu. Pertimbangkan plasenta akreta pada riwayat SC.",
+          "answer_evidence": "Sumber: §9 + Lampiran A + Lampiran C skenario sedang"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Fundus keras + perdarahan tetap banyak",
+          "text": "Jika fundus keras tapi perdarahan tetap banyak, curiga trauma jalan lahir (laserasi serviks/vagina/perineum) atau gangguan koagulasi. Inspeksi jalan lahir dan jahit bila perdarahan aktif.",
+          "answer_evidence": "Sumber: §9 Tabel interpretasi temuan"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tali pusat <3 pembuluh darah",
+          "text": "Tali pusat <3 pembuluh darah (normal 3: 2 arteri, 1 vena) adalah tanda kelainan kongenital. Dokumentasikan dan evaluasi lanjutan.",
+          "answer_evidence": "Sumber: §9 Tabel interpretasi temuan"
+        }
+      ],
+      "visual_refs": [
+        "visual_kala3_pemeriksaan_plasenta_03",
+        "visual_kala3_monitoring_2jam_04",
+        "visual_kala3_alur_kala4_06"
+      ],
+      "glossary_refs": [
+        "gls_kala3_schultze_duncan_05",
+        "gls_kala3_masase_04",
+        "gls_kala3_plasenta_10",
+        "gls_kala3_kala3_09"
+      ],
+      "bilingual": "Pasca-MAKA: monitoring kala IV sesuai jadwal → evaluasi keberhasilan (plasenta lengkap, fundus keras, perdarahan <500 mL) → clinical reasoning: identifikasi komplikasi (atonia, trauma, sisa plasenta) → rujuk emergensi bila perlu."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan, manajemen komplikasi intraprosedural & pasca-prosedur, dan jadwal tindak lanjut.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang yang relevan untuk APN Kala III: darah lengkap (Hb, leukosit, trombosit) — Hb ≥11 g/dL ibu nifas normal, indikasi perdarahan banyak/gejala anemia. Golongan darah + Rh — persiapan transfusi PPH. Cross-match — PPH mayor. Koagulasi (PT, aPTT, fibrinogen) — curiga DIC/koagulopati; PT/aPTT normal, fibrinogen >200. USG ginekologi — sisa plasenta curiga, evaluasi kavum uteri. Gula darah bayi — bayi dari ibu diabetes, BBL besar/kecil; normal >40 mg/dL cukup bulan. Bilirubin bayi — kuning >24 jam, curiga hiperbilirubinemia; <12 mg/dL minggu pertama. Apgar scoring — saat lahir; 7-10 normal, 4-6 asfiksia sedang, 0-3 asfiksia berat.",
+          "tone": "clinical",
+          "source": "§10 file sumber / Tabel pemeriksaan penunjang"
+        },
+        {
+          "text": "Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: tanda Rh (resusitasi新生儿) — untuk profilaksis anti-D immunoglobulin; skrining GBS (Group B Streptococcus) intrapartum; lab metabolik BBL. Catatan penting: pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab.",
+          "tone": "clinical",
+          "source": "§10 file sumber / Catatan penting"
+        },
+        {
+          "text": "Manajemen komplikasi intraprosedural APN Kala III: (1) Atonia uteri (uterus lembek, perdarahan banyak) → Masase, uterotonika, minta bantuan. (2) Inversio uteri (fundus tidak teraba, syok, tali pusat tertarik) → Jangan lepas plasenta; reposisi manual (Johnson maneuver). (3) Retensio plasenta (plasenta belum lahir >30 menit) → Plasenta manual atau rujuk. (4) Plasenta akreta (plasenta sulit lepas, perdarahan masif) → Jangan memaksa; rujuk ke tim ahli. (5) Sisa plasenta/selaput (plasenta/selaput tidak lengkap, perdarahan) → Eksplorasi, kuretase. (6) Robekan jalan lahir (uterus keras, perdarahan tetap) → Inspeksi, jahit. (7) Syok hemoragik (tanda syok) → Resusitasi agresif, transfusi, rujuk. (8) Asfiksia BBL (bayi tidak menangis/tonus jelek) → Resusitasi sesuai algoritme.",
+          "tone": "clinical",
+          "source": "§11 file sumber / Komplikasi intraprosedural"
+        },
+        {
+          "text": "Manajemen komplikasi pasca-prosedur: (1) PPH lanjutan (kala IV-24 jam, perdarahan banyak, uterus lembek) → Masase, uterotonika, transfusi, rujuk → RS dengan bank darah. (2) Sisa plasenta (24-72 jam, perdarahan, lochia banyak, uterus tidak mengecil) → USG, kuretase → Rujuk. (3) Infeksi nifas (24-72 jam, demam, nyeri perut, lochia bau) → Antibiotik, evaluasi → Rujuk. (4) Syok/DIC (segera, perdarahan sulit berhenti, darah tidak membeku) → FFP, trombosit, rujuk → ICU. (5) Asfiksia BBL lanjutan (2-6 jam, napas cepat, retraksi, sianosis) → Oksigen, rujuk NICU. (6) Hipotermia BBL (segera, suhu <36,5°C) → Hangatkan, IMD, kontak kulit → Inkubator. (7) Hiperbilirubinemia (2-3 hari, kuning kulit/sklera) → Fototerapi sesuai kadar → Rujuk. (8) Gangguan laktasi (minggu 1) → Koreksi latch, konseling, rujuk konselor laktasi → Rutin. (9) Depresi postpartum (minggu 2-4) → Skrining, konseling, tatalaksana → Rujuk psikiater.",
+          "tone": "clinical",
+          "source": "§11 file sumber / Komplikasi pasca-prosedur"
+        },
+        {
+          "text": "Jadwal tindak lanjut: Observasi kala IV (1-2 jam) — TTV, perdarahan, kontraksi, kesadaran. Kontrol nifas 1 minggu — evaluasi luka, laktasi, perdarahan, tanda bahaya. Kontrol nifas 2 minggu — bila ada keluhan. Kontrol nifas 6 minggu — evaluasi akhir, KB pascasalin. Kunjungan neonatal 1 minggu — evaluasi BBL, laktasi, vitamin K, salep mata, hepatitis B. Kapan saja — bila ada tanda bahaya.",
+          "tone": "clinical",
+          "source": "§11 file sumber / Jadwal tindak lanjut"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang APN Kala III:",
+          "sub": [
+            "Darah lengkap (Hb, leukosit, trombosit) — Hb ≥11 g/dL normal ibu nifas",
+            "Golongan darah + Rh — persiapan transfusi PPH",
+            "Cross-match — PPH mayor (RS)",
+            "Koagulasi (PT, aPTT, fibrinogen) — curiga DIC/koagulopati (RS)",
+            "USG ginekologi — sisa plasenta curiga, evaluasi kavum uteri (RS)",
+            "Gula darah bayi — bayi dari ibu diabetes, BBL besar/kecil; >40 mg/dL cukup bulan",
+            "Bilirubin bayi — kuning >24 jam; <12 mg/dL minggu pertama",
+            "Apgar scoring — saat lahir; 7-10 normal"
+          ],
+          "bold": false,
+          "source": "§10 file sumber / Pemeriksaan penunjang"
+        },
+        {
+          "text": "Manajemen komplikasi intraprosedural:",
+          "sub": [
+            "Atonia uteri → Masase, uterotonika, minta bantuan",
+            "Inversio uteri → Jangan lepas plasenta; reposisi manual (Johnson maneuver)",
+            "Retensio plasenta >30 menit → Plasenta manual atau rujuk",
+            "Plasenta akreta → Jangan memaksa; rujuk ke tim ahli",
+            "Sisa plasenta/selaput → Eksplorasi, kuretase",
+            "Robekan jalan lahir → Inspeksi, jahit",
+            "Syok hemoragik → Resusitasi agresif, transfusi, rujuk",
+            "Asfiksia BBL → Resusitasi sesuai algoritme"
+          ],
+          "bold": true,
+          "source": "§11 file sumber / Komplikasi intraprosedural"
+        },
+        {
+          "text": "Manajemen komplikasi pasca-prosedur:",
+          "sub": [
+            "PPH lanjutan (kala IV-24 jam) → Masase, uterotonika, transfusi, rujuk RS bank darah",
+            "Sisa plasenta (24-72 jam) → USG, kuretase, rujuk",
+            "Infeksi nifas (24-72 jam) → Antibiotik, evaluasi, rujuk",
+            "Syok/DIC (segera) → FFP, trombosit, rujuk ICU",
+            "Asfiksia BBL lanjutan (2-6 jam) → Oksigen, rujuk NICU",
+            "Hipotermia BBL (segere) → Hangatkan, IMD, kontak kulit, inkubator",
+            "Hiperbilirubinemia (2-3 hari) → Fototerapi, rujuk",
+            "Gangguan laktasi (minggu 1) → Koreksi latch, konseling, rujuk konselor laktasi",
+            "Depresi postpartum (minggu 2-4) → Skrining, konseling, rujuk psikiater"
+          ],
+          "bold": false,
+          "source": "§11 file sumber / Komplikasi pasca-prosedur"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Inversio uteri: jangan lepas plasenta",
+          "text": "Pada inversio uteri (fundus tidak teraba, syok, tali pusat tertarik), JANGAN lepas plasenta. Reposisi manual (Johnson maneuver) dulu, uterotonika, dan rujuk. Lepas plasenta saat inversio dapat memperparah syok.",
+          "answer_evidence": "Sumber: Lampiran A + Lampiran B + §11"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan mengarang hasil lab di OSCE",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Sebutkan jenis pemeriksaan yang relevan dan nilai normalnya saja.",
+          "answer_evidence": "Sumber: §10 Catatan penting"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Manajemen mengikuti WHO, POGI, SOP standar Indonesia",
+          "text": "Manajemen di atas mengikuti rekomendasi WHO, POGI, dan SOP standar Indonesia. Pada pasien nyata, sesuaikan dengan SOP fasilitas dan kondisi pasien individual.",
+          "answer_evidence": "Sumber: [DITAMBAHKAN SAAT STANDARDISASI] §11"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kala3_oksitosin_02",
+        "gls_kala3_maka_01"
+      ],
+      "bilingual": "Pemeriksaan penunjang relevan: DPL, golongan darah, cross-match, koagulasi, USG (RS). Tatalaksana komplikasi intraprosedural (atonia, inversio, retensio, plasenta akreta) dan pasca-prosedural (PPH lanjutan, sisa plasenta, infeksi nifas, asfiksia, hipotermia)."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi spesifik untuk ibu/keluarga, safety-net kapan kembali ke IGD, dan contoh dokumentasi SOAP lengkap dengan kode ICD-10.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pada APN kala III berfokus pada peran ibu/keluarga dalam monitoring dan tanda bahaya kala IV. Poin edukasi spesifik (minimal 6): (1) Masase uterus — cara meraba fundus dan masase lembut. (2) Tanda bahaya perdarahan — perdarahan banyak, pusing, lemas, pucat. (3) Tanda bahaya nifas — perdarahan, demam, bau busuk, nyeri perut. (4) Tanda bahaya bayi — tidak mau menyusu, kuning, napas cepat, dingin. (5) ASI eksklusif 6 bulan — IMD 1 jam, posisi dan latch benar. (6) Nutrisi dan istirahat — makan bergizi, cukup istirahat. (7) KB pascasalin — diskusi di kontrol nifas. (8) Kontrol nifas — 1 minggu, 2 minggu (bila perlu), 6 minggu.",
+          "tone": "clinical",
+          "source": "§12 file sumber / Poin edukasi spesifik"
+        },
+        {
+          "text": "Safety net — kapan harus kembali segera atau ke IGD (minimal 4): (1) Perdarahan banyak — >2 softek per jam, atau perdarahan aktif. (2) Pusing, lemas, pucat, atau hampir pingsan — tanda syok/anemia. (3) Demam ≥38°C — terutama dalam 72 jam postpartum. (4) Nyeri perut hebat atau bau busuk — curiga infeksi. (5) Bayi tidak mau menyusu, kuning >2 minggu, napas cepat, atau dingin. (6) Tali pusat bayi berdarah atau bernanah. (7) Ibu tidak bisa BAK atau nyeri hebat saat BAK.",
+          "tone": "clinical",
+          "source": "§12 file sumber / Safety net"
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE: Bahasa awam → 'Ibu, rahim perlu tetap keras agar perdarahan tidak banyak. Saya akan ajarkan cara meraba bagian atas rahim. Bila terasa lembek atau darah keluar banyak, segera panggil petugas.' Minta keluarga mengulang → 'Bisa tolong ulangi, tanda bahaya yang harus diwaspadai?' Berikan waktu bertanya → 'Ada pertanyaan lagi, Bu/Pak?' Tunjukkan sikap empati: tidak menggurui, tidak menghakimi.",
+          "tone": "narrative",
+          "source": "§12 file sumber / Cara edukasi"
+        },
+        {
+          "text": "Contoh SOAP skenario Ny. Maya: S (Subjective) → Keluhan utama: HIS sudah selesai, bayi sudah lahir. HPHT: 9 bulan lalu (usia kehamilan 39 minggu). Riwayat obstetri: G2P1A0, persalinan sebelumnya normal. Informed consent verbal sudah diberikan. O (Objective) → TTV: TD 110/70 mmHg, N 88 x/menit, S 36,5°C, RR 18 x/menit, SpO2 98%. Kesadaran: kompos mentis. Konjungtiva tidak pucat. Abdomen: TFU 2 jari di bawah pusat, kontraksi keras, perdarahan ±300 mL. Genitalia: plasenta lahir lengkap, selaput lengkap, 3 kotiledon, tali pusat 3 pembuluh darah. Laserasi: tidak ada. Bayi: perempuan, BB 3.000 gram, PB 49 cm, Apgar 9/10, IMD sudah dimulai. A (Assessment) → G2P1A0, postpartum 8 menit, kala III selesai spontan dengan CCT + dorso-kranial. Plasenta lahir lengkap, IMD sudah dimulai, bayi stabil. Kala IV dalam monitoring. P (Plan) → (1) IMD minimal 1 jam. (2) Vitamin K1 1 mg IM paha kiri setelah IMD 1 jam. (3) Salep mata setelah menyusu 1 jam. (4) Hepatitis B paha kanan setelah 1 jam vitamin K1. (5) Monitoring kala IV sesuai jadwal. (6) Ajarakan masase fundus kepada ibu. (7) Partograf lengkapi kala I-IV. (8) Dekontaminasi, cuci tangan, edukasi keluarga.",
+          "tone": "clinical",
+          "source": "§13 file sumber / Contoh SOAP"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan: O80 — Single spontaneous delivery. O72.0 — Third-stage hemorrhage (kalau ada PPH). O72.1 — Other immediate postpartum hemorrhage. Z39.0 — Encounter for care and examination of mother immediately after delivery. Z37.0 — Single live birth. Z38.0 — Single liveborn infant, born in hospital. Dokumen/kartu khusus: Partograf (kala I-IV), surat kelahiran, kartu ibu nifas, Buku KIA, surat rujukan (bila perlu).",
+          "tone": "clinical",
+          "source": "§13 file sumber / Kode ICD-10 & dokumen"
+        },
+        {
+          "text": "Cara mendokumentasikan prosedur APN kala III: tanggal dan jam bayi lahir, plasenta lahir; cara persalinan, jenis persalinan; Apgar menit 1 dan 5; jenis manajemen aktif kala III; obat yang diberikan (oksitosin, dll); plasenta: lengkap/tidak, jumlah kotiledon, selaput; perdarahan (estimasi); tanda vital kala IV; IMD, vitamin K, salep mata, hepatitis B; tanda tangan dokter dan bidan/perawat.",
+          "tone": "clinical",
+          "source": "§13 file sumber / Cara dokumentasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin edukasi spesifik untuk ibu/keluarga:",
+          "sub": [
+            "Masase uterus — cara meraba fundus dan masase lembut",
+            "Tanda bahaya perdarahan — perdarahan banyak, pusing, lemas, pucat",
+            "Tanda bahaya nifas — perdarahan, demam, bau busuk, nyeri perut",
+            "Tanda bahaya bayi — tidak mau menyusu, kuning, napas cepat, dingin",
+            "ASI eksklusif 6 bulan — IMD 1 jam, posisi dan latch benar",
+            "Nutrisi dan istirahat — makan bergizi, cukup istirahat",
+            "KB pascasalin — diskusi di kontrol nifas",
+            "Kontrol nifas — 1 minggu, 2 minggu (bila perlu), 6 minggu"
+          ],
+          "bold": true,
+          "source": "§12 file sumber / Poin edukasi"
+        },
+        {
+          "text": "Safety net — kapan kembali segera atau ke IGD:",
+          "sub": [
+            "Perdarahan banyak — >2 softek per jam, atau perdarahan aktif",
+            "Pusing, lemas, pucat, atau hampir pingsan — tanda syok/anemia",
+            "Demam ≥38°C — terutama dalam 72 jam postpartum",
+            "Nyeri perut hebat atau bau busuk — curiga infeksi",
+            "Bayi tidak mau menyusu, kuning >2 minggu, napas cepat, atau dingin",
+            "Tali pusat bayi berdarah atau bernanah",
+            "Ibu tidak bisa BAK atau nyeri hebat saat BAK"
+          ],
+          "bold": true,
+          "source": "§12 file sumber / Safety net"
+        },
+        {
+          "text": "Komponen SOAP skenario APN Kala III (contoh Ny. Maya):",
+          "sub": [
+            "S: HIS selesai, bayi lahir, HPHT 9 bln lalu (UK 39 mgu), G2P1A0, persalinan lalu normal, informed consent verbal",
+            "O: TD 110/70, N 88, S 36,5°C, RR 18, SpO2 98%; kesadaran CM; konjungtiva tak pucat; TFU 2 jari bawah pusat, kontraksi keras, perdarahan ±300 mL",
+            "O (genitalia): plasenta lahir lengkap, selaput lengkap, 3 kotiledon, tali pusat 3 pembuluh darah; laserasi tidak ada",
+            "O (bayi): perempuan, BB 3.000 g, PB 49 cm, Apgar 9/10, IMD dimulai",
+            "A: G2P1A0, postpartum 8 menit, kala III selesai spontan dengan CCT + dorso-kranial; kala IV dalam monitoring",
+            "P: (1) IMD minimal 1 jam, (2) Vitamin K1 1 mg IM paha kiri, (3) Salep mata, (4) Hepatitis B paha kanan, (5) Monitoring kala IV, (6) Edukasi masase fundus, (7) Partograf, (8) Dekontaminasi, cuci tangan, edukasi keluarga"
+          ],
+          "bold": false,
+          "source": "§13 file sumber / Contoh SOAP"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi spesifik",
+          "text": "'Ibu, rahim perlu tetap keras agar perdarahan tidak banyak. Saya akan ajarkan cara meraba bagian atas rahim. Bila terasa lembek atau darah keluar banyak, segera panggil petugas. Jangan memijat keras tanpa arahan; cukup ikuti instruksi petugas.'",
+          "answer_evidence": "Sumber: §12 Contoh kalimat edukasi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Format SOAP mengikuti standar RS pendidikan",
+          "text": "Format SOAP di atas mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas. Kalimat edukasi final harus disesuaikan dengan skenario OSCE.",
+          "answer_evidence": "Sumber: [DITAMBAHKAN SAAT STANDARDISASI] §12 + §13"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Rekomendasi: IMD 1 jam + vitamin K + salep mata + hepatitis B",
+          "text": "IMD minimal 1 jam dikuti vitamin K1 1 mg IM paha kiri, salep mata tetrasiklin/eritromisin, dan hepatitis B paha kanan setelah 1 jam vitamin K adalah rekomendasi WHO dan POGI untuk pencegahan perdarahan BBL, oftalmia neonatorum, dan transmisi perinatal hepatitis B.",
+          "answer_evidence": "Sumber: WHO recommendations on newborn health + POGI"
+        }
+      ],
+      "visual_refs": [
+        "visual_kala3_perawatan_bbl_05"
+      ],
+      "glossary_refs": [
+        "gls_kala3_imd_12",
+        "gls_kala3_informed_consent_07"
+      ],
+      "bilingual": "Edukasi pasca-MAKA: masase fundus oleh keluarga, tanda bahaya (perdarahan, pusing, demam, bayi tidak menyusu), ASI eksklusif 6 bulan, kontrol nifas 1/2/6 minggu. Dokumentasi SOAP + kode ICD-10 (O80, O72, Z39, Z37, Z38)."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Kaitan penyakit SKDI 4A untuk APN Kala III, batas kompetensi dokter umum, dan mini-skrip komunikasi OSCE di 5 fase tindakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan penyakit SKDI 4A untuk APN Kala III: Kehamilan/persalinan normal (O80/Z34.9, Level 4A) — Kala III bagian rutin APN. Urutan aktif kala III, IMD, pemantauan ibu-bayi. Perdarahan postpartum (O72.x, Level 3B Rujuk) — Komplikasi utama yang dicegah; kontraksi uterus, jumlah darah, 4T, eskalasi. Retensio plasenta/sisa plasenta (O73.0/O73.1, Level 3B Rujuk) — Batas 15-30 menit pada checklist, persiapan rujukan/manual. Atonia uteri (O62.0/O62.1, Level 3B Rujuk) — Uterus tidak keras setelah plasenta lahir; masase, uterotonika, PPH bundle.",
+          "tone": "clinical",
+          "source": "§14 file sumber / Kaitan SKDI 4A"
+        },
+        {
+          "text": "Kaitan SKDI lanjutan: Ruptur perineum/laserasi (O70.x, 4A atau 3B bila luas) — Dinilai bila perdarahan aktif; jahit bila perdarahan, rujuk derajat 3-4. Inversio uteri (O71.2, Level 3B Emergency) — Komplikasi CCT; reposisi manual, uterotonika, rujuk. Syok hemoragik (O75.1/R57.1, Level 3B Rujuk emergensi) — Komplikasi PPH; resusitasi, transfusi, rujuk. Asfiksia BBL (P21.x, Level 3B Rujuk NICU) — Resusitasi sesuai algoritme, NICU. Hipotermia BBL (P80.x, Level 4A) — Pencegahan dengan IMD, kontak kulit, hangatkan. Infeksi nifas/endometritis (O86.0/O85, 4A atau 3B bila sepsis). Hiperbilirubinemia (P59.x, Level 3B Rujuk). Anemia defisiensi besi (D64.9/O99.0, Level 4A).",
+          "tone": "clinical",
+          "source": "§14 file sumber / Kaitan SKDI 4A"
+        },
+        {
+          "text": "Batas kompetensi dokter umum untuk setiap diagnosis: 4A (mandiri) — dokter umum boleh menangani sendiri di layanan primer. 3B (merujuk) — dokter umum boleh melakukan stabilisasi dan tatalaksana awal, WAJIB merujuk ke SpOG. 2 (merujuk ke spesialis) — hanya spesialis yang menangani; dokter umum hanya boleh melakukan deteksi dini dan rujukan. Catatan diagnosis yang harus dirujuk segera (SKDI 3B): PPH mayor, retensio plasenta >30 menit atau dengan perdarahan, plasenta akreta spectrum, inversio uteri, atonia uteri dengan perdarahan tidak terkontrol, asfiksia BBL, hipotermia BBL berat, sepsis nifas, hiperbilirubinemia berat.",
+          "tone": "clinical",
+          "source": "§14 file sumber / Batas kompetensi"
+        },
+        {
+          "text": "Mini-skrip OSCE: Pembukaan tindakan (bayi sudah lahir, plasenta akan dilahirkan). Dokter: 'Selamat, Ibu! Bayi sudah lahir dan sehat. Sekarang plasenta akan saya lahirkan dengan teknik terkendali. Saya akan menarik tali pusat saat ada his. Ibu boleh rileks, tarik napas dalam.' Pasien: 'Baik, Dok. Saya terasa mulas lagi.' Dokter: 'Bagus, Bu. Saat his, saya akan menarik tali pusat. Ibu boleh meneran jika terasa ada dorongan. Saya akan menjaga bayi tetap di dada Ibu.'",
+          "tone": "narrative",
+          "source": "§15 file sumber / Mini-skrip Pembukaan"
+        },
+        {
+          "text": "Mini-skrip saat CCT (Controlled Cord Traction). Dokter: 'Ibu, saya merasakan his. Saya pindahkan klem tali pusat 5-10 cm dari vulva, dan satu tangan saya letakkan di atas simfisis untuk mencegah rahim terbalik. Saat his, saya akan menarik tali pusat sambil tangan lain mendorong rahim ke atas.' Saat plasenta lepas: 'Plasenta sudah lepas. Saya minta ibu meneran. Saya tarik tali pusat sejajar lantai, lalu ke atas mengikuti poros jalan lahir. Plasenta sudah keluar.'",
+          "tone": "narrative",
+          "source": "§15 file sumber / Mini-skrip CCT"
+        },
+        {
+          "text": "Mini-skrip saat masase dan periksa plasenta. Dokter: 'Plasenta sudah keluar. Saya masase rahim agar tetap keras dan perdarahan tidak banyak. Saya periksa plasenta: kotiledon lengkap, selaput lengkap, tali pusat 3 pembuluh darah. Plasenta lengkap, Bu.' Pasien: 'Alhamdulillah, Dok. Bayi saya boleh tetap di dada?' Dokter: 'Ya, Bu. IMD minimal 1 jam, ya. Bayi harus kontak kulit dengan Ibu dan disusui sesering mungkin.'",
+          "tone": "narrative",
+          "source": "§15 file sumber / Mini-skrip Masase"
+        },
+        {
+          "text": "Mini-skrip perawatan bayi. Dokter: 'Setelah 1 jam menyusu, saya berikan vitamin K1 1 mg IM di paha kiri untuk mencegah perdarahan otak, salep mata untuk mencegah infeksi mata, dan hepatitis B di paha kanan. Bayi Ibu sehat, BB 3.000 gram, Apgar 9/10.'",
+          "tone": "narrative",
+          "source": "§15 file sumber / Mini-skrip Perawatan Bayi"
+        },
+        {
+          "text": "Mini-skrip penutup tindakan (monitoring kala IV). Dokter: 'Ibu, plasenta sudah lahir lengkap, perdarahan normal ±300 mL. Saya akan observasi Ibu 2 jam. Tiap 15 menit saya cek TTV, perdarahan, kontraksi rahim. Saya ajarkan Ibu dan keluarga cara meraba fundus dan masase ringan.' Dokter: 'Tanda bahaya: perdarahan makin banyak, pusing, lemas, demam, atau bayi tidak mau menyusu. Segera panggil petugas.' Pasien: 'Baik, Dok. Terima kasih.' Dokter: 'Sama-sama, Bu. Saya doakan Ibu dan bayi sehat selalu.'",
+          "tone": "narrative",
+          "source": "§15 file sumber / Mini-skrip Penutup"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kaitan penyakit SKDI 4A untuk APN Kala III:",
+          "sub": [
+            "Kehamilan/persalinan normal (O80/Z34.9) — 4A",
+            "Perdarahan postpartum (O72.x) — 3B Rujuk",
+            "Retensio plasenta/sisa plasenta (O73.0/O73.1) — 3B Rujuk",
+            "Atonia uteri (O62.0/O62.1) — 3B Rujuk",
+            "Ruptur perineum/laserasi (O70.x) — 4A (3B bila luas)",
+            "Inversio uteri (O71.2) — 3B Emergency",
+            "Syok hemoragik (O75.1/R57.1) — 3B Rujuk emergensi",
+            "Asfiksia BBL (P21.x) — 3B Rujuk NICU",
+            "Hipotermia BBL (P80.x) — 4A",
+            "Infeksi nifas/endometritis (O86.0/O85) — 4A (3B bila sepsis)",
+            "Hiperbilirubinemia (P59.x) — 3B Rujuk",
+            "Anemia defisiensi besi (D64.9/O99.0) — 4A"
+          ],
+          "bold": false,
+          "source": "§14 file sumber / Kaitan SKDI"
+        },
+        {
+          "text": "Batas kompetensi dokter umum (SKDI):",
+          "sub": [
+            "4A (mandiri) — dokter umum boleh menangani sendiri di layanan primer",
+            "3B (merujuk) — dokter umum boleh melakukan stabilisasi dan tatalaksana awal, WAJIB merujuk ke SpOG",
+            "2 (merujuk ke spesialis) — hanya spesialis yang menangani; dokter umum hanya boleh melakukan deteksi dini dan rujukan"
+          ],
+          "bold": true,
+          "source": "§14 file sumber / Batas kompetensi"
+        },
+        {
+          "text": "Checklist verbal 60-90 detik pertama station APN Kala III (Lampiran D):",
+          "sub": [
+            "'Selamat, Bu! Bayi sudah lahir dan sehat. Sekarang plasenta akan saya lahirkan dengan teknik terkendali.'",
+            "'Saya pindahkan klem tali pusat 5-10 cm dari vulva, dan satu tangan saya letakkan di atas simfisis untuk mencegah rahim terbalik.'",
+            "'Saat his, saya tegangkan tali pusat ke bawah sambil tangan lain mendorong rahim ke atas (dorso-kranial). Ini kunci mencegah rahim terbalik.'",
+            "'Plasenta sudah lepas. Saya minta ibu meneran, tarik tali pusat sejajar lantai, lalu ke atas mengikuti poros jalan lahir.'",
+            "'Plasenta sudah keluar. Saya masase rahim agar tetap keras, periksa plasenta: kotiledon lengkap, selaput lengkap, tali pusat 3 pembuluh.'",
+            "'Saya evaluasi jalan lahir: tidak ada robekan aktif. Saya suntik oksitosin 10 IU IM, sudah dilakukan.'",
+            "'Bayi tetap di dada Ibu (IMD minimal 1 jam). Setelah 1 jam menyusu, saya berikan vitamin K1 1 mg IM paha kiri, salep mata, dan hepatitis B paha kanan.'",
+            "'Ibu, plasenta sudah lahir lengkap, perdarahan normal. Saya observasi 2 jam, tiap 15 menit saya cek TTV, perdarahan, kontraksi.'",
+            "'Saya ajarkan Ibu dan keluarga cara meraba fundus. Tanda bahaya: perdarahan makin banyak, pusing, demam, atau bayi tidak mau menyusu.'",
+            "'Terima kasih, Bu. Saya doakan Ibu dan bayi sehat selalu.'"
+          ],
+          "bold": false,
+          "source": "Lampiran D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Adaptasi komunikasi sesuai situasi",
+          "text": "Persalinan normal → komunikasi tenang, suportif. Persalinan dengan komplikasi (atonia, retensio) → komunikasi lebih serius, libatkan keluarga. Persalinan preterm/BBL kecil → perlu penjelasan tentang kondisi bayi.",
+          "answer_evidence": "Sumber: §15 Catatan perbedaan"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Nada komunikasi berubah setelah bayi lahir",
+          "text": "Pada APN kala III, nada komunikasi berubah dari tegang (kala I-II) menjadi suportif (kala III/IV) karena bayi sudah lahir. Penguji menilai kemampuan adaptasi komunikasi.",
+          "answer_evidence": "Sumber: Lampiran D Prinsip"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Diagnosis yang harus dirujuk segera",
+          "text": "SKDI 3B: PPH mayor, retensio plasenta >30 menit atau dengan perdarahan, plasenta akreta spectrum, inversio uteri, atonia uteri dengan perdarahan tidak terkontrol, asfiksia BBL, hipotermia BBL berat, sepsis nifas, hiperbilirubinemia berat.",
+          "answer_evidence": "Sumber: §14 + SKDI 4A"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kala3_informed_consent_07",
+        "gls_kala3_maka_01"
+      ],
+      "bilingual": "SKDI: 4A mandiri (kehamilan normal, hipotermia BBL, anemia, ruptur perineum derajat 1-2). 3B rujuk (PPH, retensio, plasenta akreta, inversio, asfiksia BBL, hiperbilirubinemia). Mini-skrip: pembukaan → CCT → masase → perawatan bayi → penutup."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "30 item checklist latihan mandiri, rencana belajar 3 hari, dan kesalahan fatal (FATAL/PENGURANGAN BESAR) yang menurunkan skor OSCE.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Checklist latihan mandiri APN Kala III terdiri dari 30 item, semuanya berbobot TINGGI kecuali penutup station (SEDANG). Kriteria 'Siap OSCE': minimal 27 dari 30 item tercentang, dan semua item TINGGI sudah dikuasai. Item-item kunci: jelaskan prosedur, oksitosin dalam 1 menit, jepit-potong tali pusat, IMD 1 jam, pindahkan klem 5-10 cm, satu tangan di simfisis, dorso-kranial, hentikan tarik 30-40 detik, putar plasenta, masase fundus, periksa plasenta, evaluasi laserasi, vitamin K, salep mata, hepatitis B, monitoring kala IV, edukasi masase, pantau bayi, dekontaminasi, cuci tangan, partograf, edukasi keluarga, mengenali inversio uteri, mengenali retensio plasenta, mengenali plasenta akreta, mengenali atonia uteri, penutup station.",
+          "tone": "clinical",
+          "source": "§16 file sumber / Checklist latihan mandiri"
+        },
+        {
+          "text": "Rencana Belajar Hari 1 — Orientasi dan Pemahaman Dasar (60 menit). Target: pahami konsep APN kala III dan 3 kegiatan besar, hafal urutan alur MAKA 10 langkah, baca §4-§6 sekali penuh. Aktivitas: tulis ulang 10 langkah alur dari ingatan, hafal istilah CCT, dorso-kranial, IMD, vitamin K, salep mata, hepatitis B, pahami batas waktu 30 menit. Kriteria selesai: bisa menyebutkan 10 langkah alur dan prinsip CCT tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": "§17 file sumber / Hari 1"
+        },
+        {
+          "text": "Rencana Belajar Hari 2 — Latihan Teknis dan Verbal (90 menit). Target: hafal langkah CCT dengan dorso-kranial, hafal urutan perawatan bayi baru lahir, latihan mini-skrip komunikasi. Aktivitas: latihan di manekin sambil mengucapkan langkah dengan suara keras, praktik urutan CCT, praktik urutan perawatan bayi, tulis SOAP untuk skenario, simulasikan skenario dari Lampiran C. Kriteria selesai: dapat menyelesaikan APN kala III verbalized dalam 7-8 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 file sumber / Hari 2"
+        },
+        {
+          "text": "Rencana Belajar Hari 3 — Simulasi Penuh dan Evaluasi (60 menit). Target: run-through penuh station, identifikasi celah terakhir, simulasi skenario berbeda. Aktivitas: timer 10 menit simulasi lengkap, review §18 kesalahan fatal, praktik skenario alternatif Lampiran C, tidur cukup malam sebelumnya. Kriteria 'siap OSCE': bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dokumentasi; tidak melewatkan item checklist §16 (minimal 27 dari 30); bisa menjawab 1-2 pertanyaan penguji; merasa cukup percaya diri.",
+          "tone": "narrative",
+          "source": "§17 file sumber / Hari 3"
+        },
+        {
+          "text": "Kesalahan fatal (CRITICAL FAIL) yang menurunkan skor walau langkah lain hafal: (1) Menarik tali pusat tanpa kontraksi atau tanpa dorso-kranial → risiko inversio uteri. (2) Tidak menghentikan penegangan bila plasenta tidak lahir dalam 30-40 detik. (3) Tidak melakukan masase uterus setelah plasenta lahir. (4) Tidak memeriksa kelengkapan plasenta dan selaput. (5) Tidak mengevaluasi laserasi jalan lahir saat perdarahan. (6) Tidak melakukan monitoring 2 jam postpartum dan tidak melengkapi partograf/catatan medis.",
+          "tone": "clinical",
+          "source": "§18 file sumber / Critical Fail"
+        },
+        {
+          "text": "Kategori FATAL (skor hangus/nol untuk station) — 14 item: (1) Menarik tali pusat tanpa kontraksi atau tanpa dorso-kranial → inversio uteri. (2) Tidak melakukan dorso-kranial sama sekali — tangan tidak di simfisis. (3) Menarik terus-menerus — tidak berhenti 30-40 detik. (4) Tidak memindahkan klem 5-10 cm. (5) Tidak suntik oksitosin dalam 1 menit. (6) Tidak melakukan masase uterus setelah plasenta lahir. (7) Tidak memeriksa kelengkapan plasenta. (8) Tidak mengevaluasi laserasi saat perdarahan tetap. (9) Tidak melakukan monitoring 2 jam postpartum. (10) Tidak melakukan IMD, vitamin K, salep mata, hepatitis B. (11) Tidak mengenali inversio uteri. (12) Tidak mengenali plasenta akreta. (13) Memaksa melepas plasenta akreta → perdarahan masif. (14) Tidak dokumentasi (partograf, SOAP, surat kelahiran).",
+          "tone": "clinical",
+          "source": "§18 file sumber / FATAL 14 item"
+        },
+        {
+          "text": "Kategori PENGURANGAN BESAR (skor turun signifikan tapi tidak nol): (1) Tidak menyebut 3 kegiatan besar (CCT, plasenta, masase). (2) Tidak menyebut 4T sebagai pendekatan diagnostik. (3) Tidak menyebutkan batas waktu 30 menit untuk plasenta. (4) Tidak menyebut jadwal monitoring kala IV. (5) Tidak menyebut Apgar menit 1 dan 5. (6) Tidak menyebut kode ICD-10.",
+          "tone": "clinical",
+          "source": "§18 file sumber / Pengurangan Besar"
+        },
+        {
+          "text": "Recovery Move (bila menyadari sudah membuat kesalahan di tengah station): Saat CCT → 'Ibu, saya lupa sebutkan — saya pindahkan klem 5-10 cm dulu.' Saat masase → 'Ibu, saya masase fundus sampai keras.' Saat bayi → 'Setelah 1 jam menyusu, saya berikan vitamin K1 1 mg IM paha kiri.' Saat dokumentasi → 'Saya akan menuliskan [poin yang terlewat] di partograf.' Prinsip: jangan panik dan jangan asal jawab saat ditegur.",
+          "tone": "clinical",
+          "source": "§18 file sumber / Recovery Move"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "30 item checklist latihan mandiri APN Kala III (semua bobot TINGGI):",
+          "sub": [
+            "1-5: Jelaskan prosedur, oksitosin 10 IU IM dalam 1 menit, jepit-potong tali pusat (2 klem), keringkan bayi + selimuti, IMD 1 jam",
+            "6-10: Pindahkan klem 5-10 cm, tangan di simfisis, tangan lain menegangkan tali pusat, tarik saat his + dorso-kranial, hentikan 30-40 detik",
+            "11-15: Tarik sejajar lantai lalu ke atas, putar plasenta, masase fundus keras, periksa plasenta (maternal, fetal, selaput), evaluasi laserasi",
+            "16-20: Vitamin K1 1 mg IM paha kiri, salep mata, hepatitis B paha kanan, monitoring kala IV, edukasi masase fundus",
+            "21-25: Pantau bayi tiap 15 menit kala IV, dekontaminasi, cuci tangan, lengkapi partograf, edukasi keluarga",
+            "26-30: Mengenali inversio uteri, mengenali retensio plasenta (batas 30 menit), mengenali plasenta akreta, mengenali atonia uteri, penutup station"
+          ],
+          "bold": true,
+          "source": "§16 file sumber / 30 item"
+        },
+        {
+          "text": "Rencana Belajar 3 Hari menjelang OSCE:",
+          "sub": [
+            "Hari 1 (60 menit) — Orientasi & pemahaman dasar; tulis ulang 10 langkah dari ingatan; hafal istilah",
+            "Hari 2 (90 menit) — Latihan teknis & verbal; latihan di manekin; tulis SOAP 1 skenario; simulasi Lampiran C",
+            "Hari 3 (60 menit) — Simulasi penuh & evaluasi; timer 10 menit run-through; review §18; tidur cukup"
+          ],
+          "bold": true,
+          "source": "§17 file sumber / 3 hari"
+        },
+        {
+          "text": "Kriteria 'Siap OSCE':",
+          "sub": [
+            "Minimal 27 dari 30 item checklist tercentang, semua item TINGGI dikuasai",
+            "Bisa menyelesaikan APN kala III (verbalized) dalam 7-8 menit tanpa terhenti",
+            "Menulis SOAP lengkap untuk 1 skenario dalam 5 menit",
+            "Tidak melewatkan keselamatan, komunikasi, dokumentasi",
+            "Bisa menjawab 1-2 pertanyaan penguji (misal: beda CCT dan tarik biasa, kapan plasenta manual)",
+            "Merasa cukup percaya diri — bukan sempurna, tapi yakin dengan alur"
+          ],
+          "bold": true,
+          "source": "§17 file sumber / Kriteria siap OSCE"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL #1 — Tarik tanpa kontraksi atau tanpa dorso-kranial",
+          "text": "Menarik tali pusat tanpa kontraksi atau tanpa dorso-kranial berisiko inversio uteri. Skor hangus untuk keselamatan pasien.",
+          "answer_evidence": "Sumber: §18 FATAL #1 + Lampiran A inversio uteri"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL #2 — Tidak melakukan dorso-kranial",
+          "text": "Tidak melakukan dorso-kranial sama sekali (tangan tidak di simfisis) → skor hangus untuk keselamatan. Dorso-kranial = kunci mencegah inversio uteri.",
+          "answer_evidence": "Sumber: §18 FATAL #2"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL #5 — Tidak suntik oksitosin dalam 1 menit",
+          "text": "Tidak suntik oksitosin dalam 1 menit pasca bayi lahir → standar PPH prevention tidak terpenuhi → skor hangus.",
+          "answer_evidence": "Sumber: §18 FATAL #5 + WHO uterotonics for PPH prevention"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL #11-13 — Tidak mengenali/menangani inversio, plasenta akreta",
+          "text": "Tidak mengenali inversio uteri (tali pusat tertarik, fundus tidak teraba), tidak mengenali plasenta akreta (sulit lepas, riwayat SC, perdarahan), atau memaksa melepas plasenta akreta → skor hangus.",
+          "answer_evidence": "Sumber: §18 FATAL #11-13"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "PENGURANGAN BESAR — Tidak menyebut 3 kegiatan besar atau 4T",
+          "text": "Tidak menyebut 3 kegiatan besar (CCT, plasenta, masase) atau 4T sebagai pendekatan diagnostik → skor turun signifikan.",
+          "answer_evidence": "Sumber: §18 PENGURANGAN BESAR"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery Move — Self-correction yang baik",
+          "text": "Bila menyadari sudah membuat kesalahan di tengah station, lakukan self-correction verbal: 'Ibu, saya lupa sebutkan — saya pindahkan klem 5-10 cm dulu.' Penguji menghargai self-correction. Jangan panik dan jangan asal jawab saat ditegur.",
+          "answer_evidence": "Sumber: §18 Recovery Move"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kala3_maka_01",
+        "gls_kala3_ptt_03",
+        "gls_kala3_dorso_kranial_11"
+      ],
+      "bilingual": "Latihan mandiri: 30 item checklist (minimal 27 tercentang). Rencana 3 hari: Hari 1 orientasi (60 mnt), Hari 2 teknis + verbal (90 mnt), Hari 3 simulasi penuh (60 mnt). Kesalahan fatal: tarik tanpa kontraksi, tanpa dorso-kranial, tanpa oksitosin 1 menit, tanpa masase, tanpa periksa plasenta, tanpa monitoring kala IV."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Saran visual (6 visual + 3 prompt AI), referensi ringkas, Lampiran A (kontraindikasi/red flags), Lampiran B (masalah prosedur & respons), dan Lampiran C (4 mini-case OSCE).",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Saran visual dan prompt AI untuk APN Kala III mencakup 6 visual: (1) Flowchart kala III aktif — Infografik Bahasa Indonesia untuk menghafal urutan inti. (2) Dorso-kranial pressure — Ilustrasi tangan di simfisis + CCT dengan panah. (3) Pemeriksaan plasenta — Diagram sisi maternal, fetal, dan selaput. (4) Jadwal monitoring postpartum 2 jam — Tabel minimalis Bahasa Indonesia. (5) Perawatan bayi baru lahir — Infografik IMD, vitamin K, salep mata, hepatitis B. (6) Alur tindakan kala IV — Flowchart integrasi klinis.",
+          "tone": "clinical",
+          "source": "§19 file sumber / 6 visual"
+        },
+        {
+          "text": "Prompt AI siap-pakai (3 prompt): (1) Flowchart kala III aktif → 'Infographic Bahasa Indonesia, active management of third stage of labour: clamp 5-10 cm, controlled cord traction, dorso-cranial pressure, placenta delivery, uterine massage, placenta check, monitoring. Gaya clean medical illustration, ikon sederhana, warna berbeda tiap tahap, label jelas.' (2) Dorso-kranial pressure → 'Clean medical simulation illustration, one hand above symphysis pushing uterus dorsocranially while other applies controlled cord traction, arrows, Indonesian labels.' (3) Perawatan bayi baru lahir → 'Infografik Bahasa Indonesia, bayi baru lahir: IMD 1 jam, vitamin K1 1 mg IM paha kiri, salep mata, hepatitis B paha kanan.'",
+          "tone": "narrative",
+          "source": "§19 file sumber / Prompt AI"
+        },
+        {
+          "text": "REFERENSI RINGKAS: Checklist Skill Lab FKIK Universitas Jambi: Asuhan Persalinan Normal Kala III. WHO recommendations: uterotonics for prevention of postpartum haemorrhage. WHO consolidated PPH guideline. 2025. SKDI 4A Obstetri-Ginekologi: kehamilan normal, persalinan/nifas, ruptur perineum 1-2, red flags perdarahan. Catatan penting: keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "evidence",
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi, Red Flags, dan Kondisi Khusus APN Kala III. Catatan: modul ini adalah prosedur APN kala III (esensial). 'Kontraindikasi' lebih banyak merujuk pada kondisi yang menunda atau membatalkan manajemen aktif (perlu rujukan). Daftar 16 kondisi: atonia uteri (uterus tidak kontraksi; risiko PPH mayor → masase, uterotonika, eskalasi), retensio plasenta (plasenta belum lahir >30 menit → plasenta manual atau rujuk), plasenta akreta (sulit lepas, perdarahan masif → jangan memaksa; rujuk), inversio uteri (tali pusat tertarik, fundus tidak teraba → jangan lepas plasenta; reposisi manual), sisa plasenta (plasenta/selaput tidak lengkap → eksplorasi, kuretase), syok hemoragik (resusitasi agresif, transfusi, rujuk), koagulopati/DIC (FFP, trombosit, rujuk), riwayat SC klasik (risiko plasenta akreta → waspadai, rujuk), hipertensi (kontraindikasi metilergometrin → hindari, ganti misoprostol), asma (kontraindikasi karboprost → hindari), alergi uterotonika (reaksi alergi → ganti sesuai SOP), asfiksia BBL (resusitasi sesuai algoritme), hipotermia BBL (hangatkan, IMD, kontak kulit), hiperbilirubinemia (fototerapi, rujuk), fasilitas tidak memadai (rujuk ke RS lebih lengkap), pasien menolak tindakan (informed consent, dokumentasi).",
+          "tone": "clinical",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah Saat Prosedur dan Respons Aman APN Kala III. Daftar 15 masalah + respons: (1) Atonia uteri → masase, uterotonika, minta bantuan, hentikan bila tidak terkontrol. (2) Inversio uteri → jangan lepas plasenta; reposisi manual; selalu. (3) Plasenta akreta → jangan memaksa; rujuk ke tim ahli; selalu. (4) Sisa plasenta → eksplorasi, kuretase. (5) Robekan jalan lahir → inspeksi, jahit. (6) Syok hemoragik → resusitasi agresif, transfusi, rujuk; selalu. (7) Asfiksia BBL → resusitasi sesuai algoritme; selalu. (8) Hipotermia BBL → hangatkan, IMD, kontak kulit; selalu. (9) Tali pusat pendek / putus saat CCT → pertimbangkan plasenta manual atau rujuk. (10) Plasenta keluar tapi selaput tidak lengkap → eksplorasi, kuretase. (11) Cairan ketuban hijau kental (mekonium) → siap resusitasi, isap lendir; selalu. (12) Histerektomi emergensi → rujuk ke operator terlatih. (13) Spasme serviks / ostium menutup → tunggu relaksasi, sedasi, atau rujuk. (14) Gangguan koagulasi (HELLP, DIC) → FFP, trombosit, rujuk; selalu. (15) Emboli air ketuban → resusitasi, ICU; selalu. Prinsip utama: Keselamatan pasien > kelengkapan prosedur. Pada plasenta akreta, jangan memaksakan lepas plasenta.",
+          "tone": "clinical",
+          "source": "Lampiran B"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case untuk Latihan Cepat APN Kala III. Skenario Mudah (APN Kala III Normal — Ny. Maya, postpartum spontan, plasenta belum lahir, TTV stabil, IMD dimulai): Konteks persalinan normal kala III. Langkah awal: jelaskan prosedur, pindahkan klem 5-10 cm, oksitosin 10 IU IM. CCT: tangan kiri di simfisis, dorso-kranial, tarik saat his. Masase fundus, periksa plasenta, evaluasi laserasi. IMD 1 jam, vitamin K, salep mata, hepatitis B. Monitoring kala IV sesuai jadwal. Jebakan nilai: tidak dorso-kranial, lupa IMD, lupa vitamin K, tidak monitoring.",
+          "tone": "narrative",
+          "source": "Lampiran C / Skenario Mudah"
+        },
+        {
+          "text": "Skenario Sedang (Plasenta Sulit Lepas / Retensio Awal — Ny. Maya, postpartum 15 menit, plasenta belum lahir, perdarahan 400 mL, fundus lembek, TD 100/70, N 100, kontraksi tidak adekuat, tali pusat menjuntai). Diagnosis: kala III memanjang (>15 menit), curiga retensio, curiga atonia. Batas plasenta: 30 menit postpartum. Tatalaksana: oksitosin ulang (atau drip), kateterisasi kandung kemih, masase fundus, evaluasi perdarahan. Plasenta manual bila >30 menit atau perdarahan aktif. Konsultasi SpOG sejak awal. Jebakan nilai: tidak evaluasi perdarahan, terlambat bertindak, lupa uterotonika.",
+          "tone": "narrative",
+          "source": "Lampiran C / Skenario Sedang"
+        },
+        {
+          "text": "Skenario Sulit (Plasenta Akreta + Perdarahan Masif — Ny. Maya, G2P1A0, riwayat SC 1 tahun lalu, postpartum 20 menit, plasenta sulit dilepas dengan CCT, perdarahan 1000 mL, TD 80/50, N 130, pucat, akral dingin, tali pusat putus saat tarik). Diagnosis: plasenta akreta spectrum curiga (riwayat SC + plasenta sulit lepas + perdarahan masif). JANGAN memaksa melepas plasenta — risiko perdarahan masif. Tatalaksana: resusitasi agresif (IV 2 jalur, RL, transfusi, uterotonika), panggil tim (SpOG, anestesi, bedah), rujuk emergensi. Histerektomi emergensi mungkin diperlukan. Informed consent: jelaskan kemungkinan histerektomi. Jebakan nilai: memaksakan pelepasan plasenta, terlambat rujuk, tidak mengenali plasenta akreta.",
+          "tone": "narrative",
+          "source": "Lampiran C / Skenario Sulit"
+        },
+        {
+          "text": "Skenario Tambahan: Atonia Uteri Pasca Plasenta (Ny. Maya, plasenta lahir lengkap 10 menit postpartum, perdarahan 700 mL, fundus lembek setelah masase awal, TD 95/60, N 115, pucat, tali pusat sudah dipotong, ibu masih sadar). Diagnosis: PPH karena atonia uteri. Tatalaksana awal: masase bimanual, uterotonika (oksitosin drip, metilergometrin 0,2 mg IM, misoprostol 800 μg rektal). Cari sumber lain — inspeksi jalan lahir (trauma), periksa plasenta (sisa). Akses IV 2 jalur, persiapan darah. Kompresi bimanual sambil menunggu uterotonika. Rujuk ke RS dengan bank darah dan SpOG. Jebakan nilai: lupa uterotonika kedua, tidak cari sumber lain, terlambat rujuk.",
+          "tone": "narrative",
+          "source": "Lampiran C / Skenario Tambahan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Saran visual dan prompt AI (6 visual):",
+          "sub": [
+            "Visual 1: Flowchart kala III aktif (flowchart)",
+            "Visual 2: Dorso-kranial pressure (illustration)",
+            "Visual 3: Pemeriksaan plasenta (diagram)",
+            "Visual 4: Jadwal monitoring postpartum 2 jam (table)",
+            "Visual 5: Perawatan bayi baru lahir (infographic)",
+            "Visual 6: Alur tindakan kala IV (flowchart)"
+          ],
+          "bold": true,
+          "source": "§19 file sumber / 6 visual"
+        },
+        {
+          "text": "Cara pakai prompt visual:",
+          "sub": [
+            "Gaya medical illustration, clean, non-bloody, mannequin/simulation",
+            "Label Bahasa Indonesia",
+            "Hindari visual vulgar atau terlalu realistis berdarah",
+            "Tetap nyaman dipakai belajar bersama teman"
+          ],
+          "bold": false,
+          "source": "§19 file sumber / Cara pakai"
+        },
+        {
+          "text": "Referensi ringkas APN Kala III:",
+          "sub": [
+            "Checklist Skill Lab FKIK Universitas Jambi: Asuhan Persalinan Normal Kala III",
+            "WHO recommendations: uterotonics for prevention of postpartum haemorrhage",
+            "WHO consolidated PPH guideline, 2025",
+            "SKDI 4A Obstetri-Ginekologi: kehamilan normal, persalinan/nifas, ruptur perineum 1-2, red flags perdarahan"
+          ],
+          "bold": true,
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi/Red Flags/Kondisi Khusus (16 kondisi):",
+          "sub": [
+            "Atonia uteri, retensio plasenta, plasenta akreta, inversio uteri, sisa plasenta",
+            "Syok hemoragik, koagulopati/DIC, riwayat SC klasik",
+            "Hipertensi (kontraindikasi metilergometrin), asma (kontraindikasi karboprost), alergi uterotonika",
+            "Asfiksia BBL, hipotermia BBL, hiperbilirubinemia",
+            "Fasilitas tidak memadai, pasien menolak tindakan"
+          ],
+          "bold": false,
+          "source": "Lampiran A"
+        },
+        {
+          "text": "Lampiran B — Masalah prosedur & respons aman (15 masalah):",
+          "sub": [
+            "Atonia uteri, inversio uteri, plasenta akreta, sisa plasenta, robekan jalan lahir",
+            "Syok hemoragik, asfiksia BBL, hipotermia BBL",
+            "Tali pusat pendek / putus saat CCT, selaput tidak lengkap",
+            "Cairan ketuban hijau kental (mekonium), histerektomi emergensi",
+            "Spasme serviks / ostium menutup, gangguan koagulasi (HELLP, DIC)",
+            "Emboli air ketuban"
+          ],
+          "bold": false,
+          "source": "Lampiran B"
+        },
+        {
+          "text": "Lampiran C — 4 Mini-Case OSCE APN Kala III:",
+          "sub": [
+            "Skenario Mudah: APN Kala III Normal (Ny. Maya, plasenta belum lahir, TTV stabil, IMD dimulai)",
+            "Skenario Sedang: Plasenta Sulit Lepas / Retensio Awal (postpartum 15 menit, plasenta belum lahir, perdarahan 400 mL)",
+            "Skenario Sulit: Plasenta Akreta + Perdarahan Masif (riwayat SC, plasenta sulit dilepas, perdarahan 1000 mL)",
+            "Skenario Tambahan: Atonia Uteri Pasca Plasenta (plasenta lahir lengkap 10 menit, perdarahan 700 mL, fundus lembek)"
+          ],
+          "bold": true,
+          "source": "Lampiran C"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lampiran A — Hipertensi & asma",
+          "text": "Hipertensi → hindari metilergometrin (meningkatkan TD), ganti misoprostol. Asma → hindari karboprost. Selalu tanyakan riwayat alergi dan komorbid sebelum menyuntik uterotonika.",
+          "answer_evidence": "Sumber: Lampiran A"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Lampiran A — Plasenta akreta spectrum",
+          "text": "Pada plasenta akreta, jangan memaksakan lepas plasenta. Resiko perdarahan masif, ruptura uteri, dan syok. Rujuk ke tim SpOG untuk penanganan plasenta akreta spectrum (mungkin perlu histerektomi).",
+          "answer_evidence": "Sumber: Lampiran A + Lampiran B + Lampiran C skenario sulit"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prinsip utama Lampiran B",
+          "text": "Keselamatan pasien > kelengkapan prosedur. Pada plasenta akreta, jangan memaksakan lepas plasenta. Pada inversio uteri, jangan lepas plasenta sebelum reposisi. Pada syok hemoragik, resusitasi agresif dan rujuk emergensi.",
+          "answer_evidence": "Sumber: Lampiran B Prinsip utama"
+        }
+      ],
+      "visual_refs": [
+        "visual_kala3_flowchart_01",
+        "visual_kala3_dorso_kranial_02",
+        "visual_kala3_pemeriksaan_plasenta_03",
+        "visual_kala3_monitoring_2jam_04",
+        "visual_kala3_perawatan_bbl_05",
+        "visual_kala3_alur_kala4_06"
+      ],
+      "glossary_refs": [
+        "gls_kala3_maka_01",
+        "gls_kala3_oksitosin_02",
+        "gls_kala3_ptt_03",
+        "gls_kala3_masase_04",
+        "gls_kala3_schultze_duncan_05",
+        "gls_kala3_litotomi_06",
+        "gls_kala3_informed_consent_07",
+        "gls_kala3_apd_08",
+        "gls_kala3_kala3_09",
+        "gls_kala3_plasenta_10",
+        "gls_kala3_dorso_kranial_11",
+        "gls_kala3_imd_12"
+      ],
+      "bilingual": "Visual: 6 aset (flowchart MAKA, dorso-kranial, plasenta, monitoring 2 jam, perawatan BBL, alur kala IV). Referensi: Checklist FKIK UNJA, WHO uterotonics, WHO PPH 2025, SKDI 4A. Lampiran A: 16 kontraindikasi/red flags. Lampiran B: 15 masalah prosedur. Lampiran C: 4 mini-case OSCE."
+    }
+  ]
+}

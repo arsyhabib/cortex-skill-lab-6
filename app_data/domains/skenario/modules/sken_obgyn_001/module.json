@@ -1,0 +1,851 @@
+{
+  "id": "sken_obgyn_001",
+  "title": "Stasiun 1 — Pasien dengan Keluhan Area Genital dan Konsultasi Kesehatan Reproduksi",
+  "subtitle": "Skenario sindrom duh genital/cervicitis dengan bacterial vaginosis: menguji anamnesis IMS/kontrasepsi, pemeriksaan spekulum-bimanual dengan privasi, triase IVA/IUD, dan konseling metode sementara.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_1",
+  "source_files": ["SOAL_01_PESERTA_BUTA.md", "SOAL_01_PENDAMPING.md", "SOAL_01_BLUEPRINT.md"],
+  "topicTags": ["osce_skenario", "obgyn", "ginekologi", "keputihan", "vaginosis", "cervicitis", "iud", "iva", "kb", "discharge_genital"],
+  "summary": [
+    "Situasi klinis: Ny. Rina Wulandari, 32 tahun, P2A0, datang ke poli KIA/KB dengan keluhan keputihan 2 minggu, bau amis, dan permintaan konseling KB IUD jangka panjang.",
+    "Skill utama: komunikasi sensitif area genital, anamnesis IMS dan reproduksi, pemeriksaan spekulum-bimanual dengan privasi, triase IVA/IUD, dan konseling metode sementara.",
+    "Komponen anamnesis kritis: onset, warna, bau, konsistensi duh, gejala penyerta, riwayat seksual, HPHT/kehamilan, KB, paritas, dan riwayat IMS.",
+    "Pemeriksaan fisik kunci: TTV stabil, genital eritema ringan, spekulum duh homogen keabu-abuan mukopurulen, servisitis ringan, bimanual tanpa CMT/nyeri adneksa.",
+    "Diagnosis kerja: sindrom duh genital/cervicitis dengan bacterial vaginosis (kriteria Amsel terpenuhi), tanpa tanda PID. IUD Copper T 380A DITUNDA; IVA dijadwalkan ulang.",
+    "Tatalaksana: terapi BV sesuai PPK, antisipasi servisitis IMS, evaluasi pasangan, abstinensia/kondom, IUD ditunda, IVA dijadwalkan setelah inflamasi mereda, kontrol 1-2 minggu.",
+    "Critical error paling penting: melakukan pemasangan IUD tanpa menyingkirkan kehamilan dan infeksi serviks aktif; tidak menawarkan privasi/chaperone; menghakimi pasien saat anamnesis seksual.",
+    "Total 100 poin — komponen terbesar: penunjang (14), anamnesis keluhan discharge (12), anamnesis seksual/reproduksi (12), dan pemeriksaan fisik (12)."
+  ],
+  "exam_focus": [
+    "Selalu triase salam-introduksi-izin-chaperone sebelum mengekspos area genital; privasi adalah hak pasien dan titik penilaian pertama.",
+    "Tanyakan onset, durasi, warna, bau, konsistensi, pruritus, disuria, dan nyeri panggul pada setiap keluhan keputihan untuk membedakan BV, kandidiasis, dan trikomoniasis.",
+    "Wajib konfirmasi HPHT dan tes kehamilan sebelum prosedur intrauterin; kehamilan adalah kontraindikasi absolut IUD dan IVA di tengah inflamasi.",
+    "Pakai kriteria Amsel (pH >4,5, whiff test positif, clue cells, discharge homogen) untuk diagnosis BV; tambahkan NAAT gonore/klamidia bila ada risiko cervicitis IMS.",
+    "Tunda IUD bila ada duh abnormal aktif, servisitis, atau PID; tawarkan metode sementara (kondom, progestin-only) sampai evaluasi ulang.",
+    "Critical error: melakukan pemasangan IUD pada kondisi infeksi aktif adalah pelanggaran keselamatan yang langsung menggugurkan nilai besar.",
+    "Jangan menjadwalkan IVA saat inflamasi aktif — hasilnya tidak valid; tunda 1-2 siklus sampai epitel serviks bersih.",
+    "Konseling KB harus inklusif: jelaskan efektivitas, efek samping, waktu kontrol, dan kebutuhan kunjungan bila ada tanda bahaya."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_disch_duh_genital_01",
+      "term": "Sindrom Duh Genital / Cervicitis",
+      "def": "Kumpulan gejala duh abnormal pada vagina/serviks yang dapat disebabkan oleh vaginosis bakterialis, trikomoniasis, kandidiasis, atau infeksi serviks oleh gonore/klamidia. Pada OSCE ini, sindrom duh genital/cervicitis dengan BV adalah diagnosis kerja, dengan kemungkinan ikut serta servisitis IMS yang perlu dieksklusi.",
+      "type": "clinical",
+      "aliases": ["vaginal discharge syndrome", "servisitis"]
+    },
+    {
+      "id": "gls_sken_disch_bv_02",
+      "term": "Bacterial Vaginosis (BV) / Vaginosis Bakterialis",
+      "def": "Disbiosis flora vagina dengan dominasi Gardnerella vaginalis dan bakteri anaerob lain, kehilangan Lactobacillus. Diagnosis dengan kriteria Amsel: discharge homogen tipis, pH >4,5, whiff test positif, dan clue cells pada wet mount NaCl (≥3 dari 4).",
+      "type": "clinical",
+      "aliases": ["BV", "vaginosis bakterialis"]
+    },
+    {
+      "id": "gls_sken_disch_iva_03",
+      "term": "Inspeksi Visual Asam Asetat (IVA)",
+      "def": "Skrining kanker serviks dengan aplikasi asam asetat 3-5% pada serviks lalu inspeksi visual apakah muncul area acetowhite. IVA positif memerlukan triase ke klinik serviks/Pap smear/kolposkopi. Tunda IVA saat inflamasi aktif agar interpretasi tidak false positive.",
+      "type": "procedure",
+      "aliases": ["VIA", "visual inspection with acetic acid"]
+    },
+    {
+      "id": "gls_sken_disch_iud_04",
+      "term": "IUD Copper T 380A",
+      "def": "Alat kontrasepsi intrauterin berisi tembaga dengan efektivitas ≥10 tahun. Indikasi: wanita usia reproduksi yang ingin kontrasepsi jangka panjang dan tidak memiliki kontraindikasi (kehamilan, PID aktif, servisitis, perdarahan abnormal yang belum dievaluasi, keganasan serviks/uterus).",
+      "type": "procedure",
+      "aliases": ["IUD CuT-380A", "AKDR tembaga"]
+    },
+    {
+      "id": "gls_sken_disch_amsel_05",
+      "term": "Kriteria Amsel",
+      "def": "Empat kriteria diagnosis BV yang membutuhkan ≥3 terpenuhi: (1) discharge homogen tipis keabu-abuan; (2) pH vagina >4,5; (3) whiff test positif dengan KOH 10%; (4) clue cells ≥20% pada mikroskop. Whiff test positif dan pH >4,5 adalah dua yang paling sering diminta di OSCE.",
+      "type": "score",
+      "aliases": ["Amsel criteria"]
+    },
+    {
+      "id": "gls_sken_disch_pid_06",
+      "term": "Pelvic Inflammatory Disease (PID) / Salpingitis",
+      "def": "Infeksi traktus genitalia atas yang ditandai nyeri panggul bilateral, CMT, nyeri adneksa, demam, dan/atau discharge purulen. Merupakan red flag pada keluhan duh genital; bila dicurigai, tunda IUD, mulai antibiotik sesuai PPK, dan kolaborasi/rujuk.",
+      "type": "clinical",
+      "aliases": ["PID", "salpingitis", "radang panggul"]
+    },
+    {
+      "id": "gls_sken_disch_spekulum_07",
+      "term": "Pemeriksaan Spekulum & Bimanual",
+      "def": "Pemeriksaan ginekologi terstruktur: spekulum untuk melihat dinding vagina dan serviks (discharge, lesi, friabilitas), dilanjutkan bimanual untuk menilai uterus, adneksa, dan CMT. Selalu dengan informed consent, chaperone, dan privasi.",
+      "type": "procedure",
+      "aliases": ["vaginal examination with speculum"]
+    },
+    {
+      "id": "gls_sken_disch_metronidazol_08",
+      "term": "Metronidazol",
+      "def": "Antibiotik nitroimidazol lini pertama untuk BV dan trikomoniasis. Dosis oral 500 mg 2x/hari selama 7 hari, atau 2 g single dose; gel intravaginal 0,75% 5 g 1x/hari 5 hari. Hindari alkohol sampai 48 jam setelah dosis terakhir (efek disulfiram-like).",
+      "type": "drug",
+      "aliases": ["Flagyl", "metronidazole"]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis yang diterima peserta dan daftar tugas yang harus diselesaikan dalam stasiun ini.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Seorang perempuan dewasa datang ke fasilitas layanan primer dengan keluhan pada area genital dan ingin berkonsultasi mengenai kesehatan reproduksi. Anda diminta melakukan konsultasi klinis secara terarah, meminta data pemeriksaan yang diperlukan, dan menjelaskan rencana awal yang aman.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Lakukan penilaian klinis terarah, pemeriksaan fisik/penunjang yang relevan, diagnosis kerja, tatalaksana awal, edukasi, dan rencana tindak lanjut.",
+          "tone": "clinical",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Lakukan komunikasi awal, konfirmasi identitas, minta izin, jaga privasi, dan tawarkan pendamping/chaperone untuk pemeriksaan area genital.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Gali keluhan utama dan faktor risiko secara sensitif tanpa menghakimi (riwayat seksual, pasangan, KB, IMS sebelumnya, alergi).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Tentukan pemeriksaan fisik dan penunjang yang perlu diminta atau dilakukan secara rutin sesuai keluhan (TTV, abdomen, spekulum, bimanual, tes kehamilan, pH, whiff, wet mount).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Sampaikan diagnosis kerja, diagnosis banding penting, rencana tatalaksana awal, tindak lanjut, serta edukasi pasien.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 5: Bila pasien menanyakan pilihan tindakan/kontrasepsi/screening, lakukan konseling kelayakan dan keselamatan sebelum memutuskan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Gunakan komunikasi klinik nyata: sapa, perkenalkan diri, konfirmasi identitas, jelaskan tujuan, minta izin, dan jaga privasi. Data tidak diberikan otomatis — gali dari probandus atau minta spesifik ke pendamping. Untuk tindakan simulasi (IUD, IVA, swab), ucapkan indikasi, kontraindikasi, langkah keselamatan, batas gagal, dan edukasi pasca-tindakan.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_duh_genital_01"],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting stasiun, durasi, skill yang diuji, dan distribusi poin penilaian.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Stasiun ini berlangsung di Poli KIA/KB atau poli umum puskesmas dengan meja ginekologi simulasi. Total durasi 16 menit: 1 menit membaca soal di depan pintu, 12 menit performa, dan 3 menit feedback dari penguji. Peserta dinilai menggunakan rubrik 100 poin dengan skor proporsional per item.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skill yang diuji di stasiun ini:",
+          "sub": [
+            "Komunikasi klinik untuk keluhan genital (salam, izin, privasi, chaperone)",
+            "Anamnesis IMS dan kesehatan reproduksi (termasuk riwayat seksual non-judgemental)",
+            "Pemeriksaan fisik sistematis (TTV, abdomen, genital eksterna, spekulum, bimanual) dengan indikasi dan privasi",
+            "Pemilihan dan interpretasi penunjang (pH, whiff, wet mount, tes kehamilan, NAAT bila tersedia)",
+            "Clinical reasoning sindrom duh genital — membedakan BV, kandidiasis, trikomoniasis, cervicitis IMS, dan PID",
+            "Triase prosedur: menunda IUD pada infeksi aktif, menjadwalkan IVA setelah inflamasi mereda, menawarkan metode sementara",
+            "Komunikasi edukasi, safety net, dan dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1 menit baca soal → 8 menit pertama fokus anamnesis & triase privasi → 3-4 menit pemeriksaan & penunjang → 2-3 menit tatalaksana & edukasi. Jangan habiskan >3 menit pada satu pemeriksaan; jika tidak yakin, minta data spesifik pada pendamping.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggunakan file pendamping, naskah pembuka probandus, dan poin anamnesis yang tersedia.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Perankan pasien sesuai naskah. Jangan memberi informasi tersembunyi kecuali peserta menanyakannya dengan relevan. Saat bertindak sebagai penguji, berikan data objektif hanya bila peserta meminta pemeriksaan/penunjang spesifik. Jika peserta melakukan urutan benar, beri respons positif; jika ada kesalahan fatal, catat dan lanjutkan sampai waktu selesai. Gunakan rubrik 100 poin untuk feedback — fokus pada clinical reasoning dan keselamatan.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus (Ny. Rina Wulandari, 32 tahun, P2A0): \"Dok, saya keputihan sudah agak lama dan baunya tidak enak. Saya juga ingin tanya KB yang jangka panjang.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Onset & kronologi: keputihan sejak 2 minggu, makin terasa setelah berhubungan dan setelah haid.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Karakteristik duh: cair, putih-keabu-abuan, kadang agak kekuningan, bau amis; bukan gumpalan susu (menyingkirkan kandidiasis).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gejala penyerta: gatal ringan, disuria eksternal kadang ada. Tidak demam, tidak nyeri perut bawah berat, tidak mual muntah (menyingkirkan PID).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Perdarahan: kadang flek pascasanggama 1-2 kali, tidak banyak (tanda servisitis ringan).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat seksual: suami sering bekerja luar kota; pasien tidak yakin suami punya pasangan lain; kondom jarang dipakai (risiko IMS).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "HPHT/kehamilan: HPHT 10 hari lalu, haid biasa, tes kehamilan belum dilakukan (wajib diminta sebelum IUD).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "KB: pil tidak teratur; ingin IUD karena tidak perlu mengingat harian.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat IMS/PID: tidak pernah didiagnosis IMS; tidak ada nyeri panggul berat sebelumnya.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Alergi/obat: tidak ada alergi yang diketahui.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Skrining serviks: belum pernah IVA/Pap smear (kandidat IVA setelah infeksi teratasi).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_duh_genital_01", "gls_sken_disch_iud_04"],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV dan temuan pemeriksaan fisik yang tersedia untuk diberikan kepada peserta bila diminta.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ yang diperiksa. Peserta dinilai dari relevansi permintaan dan kemampuan interpretasi, bukan dari permintaan buta semua data.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital: TD 112/74 mmHg | Nadi 84 x/menit | RR 18 x/menit | Suhu 36,8°C | SpO2 99% RA | Nyeri 1-2/10 (perih lokal).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status generalis/head-to-toe: konjungtiva tidak pucat, sklera tidak ikterik, mukosa lembap. Jantung paru dalam batas normal. Abdomen datar, supel, nyeri tekan suprapubik minimal, tidak ada defans/rebound, tidak ada CVA tenderness. Ekstremitas hangat, perfusi baik.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Genital eksterna: eritema vulva ringan, tidak ada ulkus/vesikel/kutil, tidak ada abses.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan spekulum: discharge tipis homogen keabu-abuan bercampur mukopurulen ringan di endoserviks. Serviks sedikit friable saat disentuh swab. Tidak tampak massa.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan bimanual: uterus ukuran normal, anteversi. Tidak ada cervical motion tenderness (CMT) bermakna, tidak ada nyeri adneksa, tidak teraba massa — konsisten dengan tidak ada PID.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "IVA pada kondisi inflamasi: bila dipaksa dilakukan saat inflamasi aktif, hasil tidak dinilai definitif (ada eritema/inflamasi serviks) — peserta idealnya menunda IVA sampai infeksi tertangani.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Seleksi IUD: TIDAK LAYAK pemasangan IUD hari ini karena dugaan cervicitis/vaginosis aktif; perlu terapi dan evaluasi ulang 1-2 minggu.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_spekulum_07", "gls_sken_disch_pid_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Data penunjang yang tersedia beserta interpretasinya, diberikan bila peserta meminta secara spesifik.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Penunjang berikut diberikan hanya bila peserta meminta secara spesifik. Peserta dinilai dari relevansi permintaan dan kemampuan interpretasi klinis, bukan dari jumlah penunjang yang diminta.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tes kehamilan urin (UPT): negatif. WAJIB diminta sebelum prosedur kontrasepsi intrauterin.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Urinalisis: leukosit trace, nitrit negatif, eritrosit negatif — lebih mendukung iritasi/keluhan genital daripada ISK bawah.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "pH vagina: >4,5 (konsisten dengan BV, menyingkirkan kandidiasis yang pH <4,5).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Whiff test KOH 10%: positif bau amis (khas BV).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Wet mount NaCl: clue cells positif, leukosit meningkat ringan; tidak tampak trichomonad bergerak (menyingkirkan trikomoniasis).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "KOH 10%: tidak tampak pseudohifa/yeast dominan (menyingkirkan kandidiasis).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gram/NAAT gonore & klamidia serviks: NAAT dianjurkan karena risiko servisitis dengan pasangan berisiko; hasil tidak selalu tersedia saat OSCE.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Skrining HIV/sifilis/HBsAg: ditawarkan sesuai risiko dan kebijakan fasilitas.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "IVA/Pap/HPV: dijadwalkan ulang setelah inflamasi/infeksi tertangani; belum menjadi hasil final hari ini.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "Pada skenario ini, kultur jamur atau tes PCR HPV tidak perlu diminta sebagai lini pertama — gunakan kriteria Amsel dan tatalaksana empiris. Skrining IVA tidak boleh dilakukan hari ini karena inflamasi aktif; tunda sampai epitel serviks bersih untuk menghindari false positive.",
+          "answer_evidence": "Pedoman duh genital Kemenkes; WHO BV guideline"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "JANGAN Pasang IUD Hari Ini",
+          "text": "Kontraindikasi prosedur hari ini: (1) kehamilan belum disingkirkan (UPT wajib negatif), (2) servisitis aktif, (3) duh abnormal persisten tanpa evaluasi. Peserta yang memaksa pemasangan IUD pada kondisi ini akan kehilangan poin besar dan berisiko safety violation.",
+          "answer_evidence": "WHO MEC category 4 untuk IUD pada PID/servisitis aktif"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_amsel_05", "gls_sken_disch_metronidazol_08"],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Kunci diagnosis rahasia, diagnosis banding utama, dan alasan klinis mendukung/menentang.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Sindrom duh genital/cervicitis dengan bacterial vaginosis; tanpa tanda PID. Kontrasepsi IUD ditunda sampai infeksi tertangani. Diagnosis BV ditegakkan dengan kriteria Amsel (discharge homogen tipis, pH >4,5, whiff test positif, clue cells) — pada probandus ini, ≥3 kriteria terpenuhi. Komponen servisitis ringan tampak dari friabilitas serviks dan duh mukopurulen endoserviks, sehingga evaluasi IMS (NAAT gonore/klamidia) wajib ditawarkan.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Vaginitis kandidiasis — mendukung: pruritus ringan. Menentang: tidak ada gumpalan susu, KOH negatif pseudohifa, pH tidak rendah.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Trikomoniasis — mendukung: bau tidak enak, pruritus. Menentang: whiff test khas BV, tidak tampak trichomonad bergerak di wet mount NaCl.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Gonore/klamidia cervicitis — mendukung: duh mukopurulen endoserviks, friabilitas, pasangan sering外出. Perlu konfirmasi NAAT; tidak dapat disingkirkan hanya dari klinis.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: ISK bawah — mendukung: disuria. Menentang: urinalisis nitrit negatif, eritrosit negatif, keluhan lebih sesuai iritasi genital.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: PID/salpingitis awal — mendukung: duh mukopurulen. Menentang: tidak ada CMT bermakna, tidak ada nyeri adneksa, tidak demam, tidak nyeri perut bawah berat — keseluruhan menyingkirkan PID.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 6: Servisitis noninfeksi/iritan — mendukung: friabilitas. Menentang: ada discharge homogen khas BV dan faktor risiko IMS, sehingga servisitis infeksius lebih mungkin.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Mnemonik Pendekatan DD",
+          "text": "Gunakan kerangka 4P: Pregnancy (selalu saring), Pathogen (BV vs kandidiasis vs trichomonas vs IMS), Pelvis (PID?), dan Procedure (apakah IUD/IVA aman?). Bila ada salah satu positif merah (kehamilan, PID, servisitis aktif), tunda prosedur elektif dan stabilkan dulu.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_duh_genital_01", "gls_sken_disch_bv_02", "gls_sken_disch_pid_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana non-farmakologi dan farmakologi yang diharapkan dari peserta di stasiun ini.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pendekatan tatalaksana dimulai dari konseling dan stabilisasi, lalu terapi etiologis sesuai PPK/PNPK lokal, dan hanya pada kunjungan ulang yang bebas infeksi dilakukan pemasangan IUD serta penjadwalan IVA. Peserta tidak boleh menulis regimen pasti jika fasilitas memiliki formularium sendiri — gunakan prinsip terapi BV dan antisipasi servisitis IMS sesuai panduan setempat.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Langkah 1: Jelaskan diagnosis kerja dengan bahasa awam — bahwa ada perubahan flora vagina dan kemungkinan infeksi ringan di serviks yang perlu diobati sebelum pemasangan IUD.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 2: Terapi BV lini pertama — Metronidazol 500 mg oral 2x/hari selama 7 hari, ATAU Metronidazol gel 0,75% intravaginal 5 g 1x/hari selama 5 hari, ATAU Tinidazol 2 g oral single dose (alternatif). Hindari alkohol sampai 48 jam setelah dosis terakhir.",
+          "sub": [
+            "Pada ibu menyusui, pertimbangkan Metronidazol gel intravaginal atau Tinidazol.",
+            "Pada kecurigaan servisitis IMS, klinik dapat menambahkan terapi empiris sesuai PPK lokal, terutama bila follow-up tidak terjamin."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 3: Anjurkan abstinensia atau konsisten kondom sampai selesai terapi dan gejala membaik; pasangan perlu dievaluasi/diobati bila IMS dicurigai atau terbukti.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 4: Tunda pemasangan IUD sampai infeksi teratasi dan evaluasi ulang 1-2 minggu; tawarkan metode sementara (kondom, progestin-only, atau sesuai kelayakan).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 5: Jadwalkan IVA 1-2 siklus setelah inflamasi mereda atau Pap smear/kolposkopi bila fasilitas tidak melakukan IVA. Tunda IVA saat inflamasi aktif untuk menghindari false positive.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 6: Kontrol 1-2 minggu untuk evaluasi klinis, hasil lab/NAAT, dan rencana pemasangan IUD bila sudah layak. Edukasi red flags dan follow-up.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi / Jangan Dilakukan",
+          "text": "JANGAN pasang IUD hari ini (kehamilan harus disingkirkan, servisitis aktif, BV aktif). JANGAN lakukan IVA saat inflamasi aktif. JANGAN menghakimi pasien saat anamnesis seksual — pertanyaan harus non-judgemental dan rahasia. JANGAN menunda rujukan bila ada tanda PID atau kehamilan positif.",
+          "answer_evidence": "WHO MEC; pedoman duh genital Kemenkes"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_metronidazol_08", "gls_sken_disch_iud_04", "gls_sken_disch_iva_03"],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk pasien/keluarga, tanda bahaya yang harus disebutkan, dan contoh SOAP.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario ini:\n\nS: Perempuan 32 tahun P2A0, keputihan 2 minggu, bau amis, makin terasa pascasanggama dan pascahaid; ingin KB IUD. Riwayat seksual: suami sering外出, kondom jarang. Tidak demam, tidak nyeri panggul berat.\nO: TTV stabil, genital eritema ringan, spekulum discharge homogen keabu-abuan mukopurulen endoserviks, serviks sedikit friable, bimanual tanpa CMT/nyeri adneksa. pH >4,5; whiff (+); clue cells (+); KOH negatif pseudohifa; UPT negatif.\nA: Sindrom duh genital/cervicitis dengan bacterial vaginosis (kriteria Amsel); tanpa tanda PID. Kontrasepsi IUD ditunda.\nP: Terapi BV Metronidazol, evaluasi pasangan, abstinensia/kondom, jadwalkan IVA 1-2 siklus setelah inflamasi mereda, kontrol 1-2 minggu untuk evaluasi kelayakan IUD. Edukasi red flags.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi: jelaskan bahwa kondisi ini umum dan dapat diobati, bukan karena kebersihan buruk, dan tidak perlu malu. Jelaskan regimen obat, cara pakai, dan mengapa pasangan juga perlu dievaluasi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi kontrasepsi: jelaskan bahwa IUD adalah pilihan yang sangat efektif untuk jangka panjang, namun pemasangan perlu ditunda sampai infeksi teratasi; sementara itu gunakan kondom atau metode non-intrauterin lain.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi skrining IVA: jelaskan bahwa IVA adalah skrining sederhana dan tidak nyeri, namun hasilnya tidak valid saat inflamasi; jadwalkan 1-2 siklus setelah keluhan hilang.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera bila: demam atau menggigil.",
+          "sub": [
+            "Nyeri panggul berat atau nyeri perut bawah memberat.",
+            "Perdarahan banyak atau berbau busuk.",
+            "Mual/muntah berat atau tanda reaksi obat (ruam, kesemutan, bingung).",
+            "Gejala tidak membaik dalam 3-5 hari setelah terapi.",
+            "Tes kehamilan positif atau kecurigaan hamil."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_iud_04", "gls_sken_disch_iva_03"],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian penuh 100 poin yang digunakan penguji — semua item wajib ada.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Total penilaian: 100 poin. Komponen utama: komunikasi/privasi/consent/chaperone (10), anamnesis keluhan discharge (12), anamnesis seksual/reproduksi (12), pemeriksaan fisik (12), penunjang (14), clinical reasoning (12), keputusan IUD/IVA (10), tatalaksana/follow-up (10), edukasi red flags (5), profesionalisme/dokumentasi (3). Skor proporsional; <60 = belum aman, 60-74 cukup, 75-84 baik, ≥85 sangat baik.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komunikasi, privasi, consent, chaperone (10 poin)",
+          "sub": [
+            "Sapa, identifikasi, bahasa sopan untuk keluhan genital, izin pemeriksaan, dan tawarkan chaperone (10/10).",
+            "Lupa salam/identifikasi atau tidak meminta izin (0 poin parsial)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Anamnesis keluhan discharge (12 poin)",
+          "sub": [
+            "Onset, warna, bau, gatal, nyeri, disuria, perdarahan, nyeri panggul, demam (12/12).",
+            "Sebagian pertanyaan krusial dilewatkan → poin proporsional."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Anamnesis seksual dan reproduksi (12 poin)",
+          "sub": [
+            "HPHT/kehamilan, KB, paritas, risiko IMS, pasangan, riwayat IMS, alergi (12/12).",
+            "Tidak menyebut pasangan atau riwayat IMS → potong 4-6 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Pemeriksaan fisik sistematis (12 poin)",
+          "sub": [
+            "TTV, abdomen, genital eksterna, spekulum, bimanual dengan indikasi dan privasi (12/12).",
+            "Lupa spekulum/bimanual atau tidak menyebut CMT → potong 4-6 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penunjang rutin dan relevan (14 poin)",
+          "sub": [
+            "UPT, urinalisis, pH, whiff, wet mount/KOH, Gram/NAAT bila tersedia, skrining IMS (14/14).",
+            "Tidak minta UPT sebelum IUD → potong 4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Clinical reasoning (12 poin)",
+          "sub": [
+            "Membedakan BV/vaginitis/cervicitis/ISK/PID; tidak melewatkan PID/ektopik (12/12).",
+            "Tidak menyebut PID sebagai DD atau tidak menyinggung ektopik pada risiko kehamilan → potong 4-6 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Keputusan IUD/IVA (10 poin)",
+          "sub": [
+            "Menunda IUD bila infeksi aktif; menjadwalkan IVA setelah kondisi layak; konseling metode sementara (10/10).",
+            "Memaksakan IUD hari ini → potong 8-10 poin (potential critical error)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Tatalaksana dan follow-up (10 poin)",
+          "sub": [
+            "Terapi sesuai PPK, pasangan, abstinensia/kondom, kontrol hasil (10/10).",
+            "Tidak menyebut evaluasi pasangan atau kontrol → potong 3-4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Edukasi red flags (5 poin)",
+          "sub": [
+            "Demam, nyeri panggul, perdarahan, hamil, gejala memburuk (5/5).",
+            "Hanya menyebut 1-2 red flags → potong 2 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Profesionalisme dan dokumentasi (3 poin)",
+          "sub": [
+            "Ringkas SOAP dan menjaga kerahasiaan (3/3).",
+            "Tanpa dokumentasi → 0; dokumentasi seadanya → 1-2."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Skor proporsional per item. Skor <60 = belum aman (perbaikan besar), 60-74 cukup, 75-84 baik, ≥85 sangat baik. Pesan utama: kategori komunikasi/privasi dan clinical reasoning sering menjadi 'tie-breaker' antar kandidat dengan skor mirip.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE adalah tindakan atau kelalaian yang menyebabkan pemotongan nilai besar atau kegagalan stasiun. Kenali setiap critical error berikut dan pelajari cara menghindari atau memulihkannya.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Melakukan pemasangan IUD tanpa menyingkirkan kehamilan dan infeksi serviks aktif.",
+          "sub": [
+            "Kenapa critical: Risiko PID iatrogenik, perforasi, kehamilan yang tidak terdeteksi, dan kegagalan sterilisasi prosedur.",
+            "Recovery move: Tarik kembali rencana IUD, minta UPT dan evaluasi IMS, tunda pemasangan, dan jadwalkan evaluasi 1-2 minggu. Tawarkan metode sementara."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Tidak menawarkan privasi/chaperone sebelum pemeriksaan genital.",
+          "sub": [
+            "Kenapa critical: Pelanggaran hak pasien, kerentanan pada klaim, dan menurunkan kualitas pelayanan.",
+            "Recovery move: Berhenti sebelum membuka area genital, minta izin, tawarkan chaperone, jelaskan tiap langkah, dan dokumentasikan persetujuan."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Mendiagnosis BV saja tanpa menilai risiko cervicitis/PID.",
+          "sub": [
+            "Kenapa critical: melewatkan IMS/kehamilan ektopik/PID yang memiliki morbiditas besar; terapi BV saja tidak akan menyembuhkan penyebab sebenarnya.",
+            "Recovery move: Tambahkan DD cervicitis IMS (NAAT gonore/klamidia), evaluasi CMT dan nyeri adneksa, dan tatalaksana sesuai PPK bila DD positif."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Menghakimi pasien saat anamnesis seksual.",
+          "sub": [
+            "Kenapa critical: merusak komunikasi, menurunkan akurasi anamnesis, dan melanggar profesionalisme.",
+            "Recovery move: Beralih ke bahasa netral (\"kami menanyakan ini kepada semua pasien\"), jelaskan kerahasiaan, dan akhiri dengan pertanyaan terbuka yang aman."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Memasang IUD pada kondisi duh abnormal aktif atau tidak meminta UPT adalah error paling sering dilakukan pada stasiun ini. Selalu triase 'kehamilan + infeksi + persetujuan' sebelum melakukan prosedur intrauterin.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_iud_04", "gls_sken_disch_pid_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji lengkap, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Naskah pembuka probandus (Ny. Rina Wulandari, 32 tahun, P2A0, pegawai toko, menikah): \"Dok, saya keputihan sudah agak lama dan baunya tidak enak. Saya juga ingin tanya KB yang jangka panjang.\"\n\nRespons sesuai anamnesis (hanya bila ditanya dengan relevan):\n- Onset: 2 minggu, makin terasa pascasanggama dan pascahaid.\n- Karakter: cair, putih-keabu-abuan, kadang kekuningan, bau amis, bukan gumpalan susu.\n- Gejala penyerta: gatal ringan, disuria eksternal kadang. Tidak demam, tidak nyeri perut bawah berat, tidak mual muntah.\n- Perdarahan: flek pascasanggama 1-2 kali, tidak banyak.\n- Riwayat seksual: suami外出 kerja, pasien tidak yakin pasangan punya pasangan lain, kondom jarang.\n- HPHT/kehamilan: HPHT 10 hari lalu, haid biasa, UPT belum dilakukan.\n- KB: pil tidak teratur, ingin IUD.\n- IMS/PID: tidak pernah didiagnosis IMS; tidak ada nyeri panggul berat.\n- Alergi: tidak ada.\n- Skrining serviks: belum pernah IVA/Pap.\n\nSikap: cemas, agak malu. Menjawab singkat bila pertanyaan menghakimi; lebih kooperatif bila peserta menjaga privasi dan bahasa sopan.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji:",
+          "sub": [
+            "Berikan TTV dan head-to-toe hanya bila peserta meminta parameter spesifik.",
+            "Berikan temuan genital/speskulum/bimanual hanya bila peserta meminta pemeriksaan lokalis yang relevan.",
+            "Berikan penunjang hanya bila peserta meminta spesifik; UPT, pH, whiff, wet mount adalah paket wajib yang harus ditanyakan peserta.",
+            "Bila peserta menyebut IVA pada kondisi inflamasi → respons: \"saat inflamasi hasilnya tidak valid, peserta idealnya menunda\".",
+            "Bila peserta bertanya kelayakan IUD → respons: \"tidak layak hari ini karena infeksi aktif; perlu terapi dan evaluasi ulang\".",
+            "Bila peserta menanyakan tentang pasangan → respons: \"suami外出 kerja, tidak yakin pasangan punya pasangan lain\"; tanyakan apakah perlu dievaluasi → \"perlu dievaluasi bila IMS terbukti\".",
+            "Bila peserta menghakimi → perlambat alur dan dokumentasikan; tetap lanjutkan sampai waktu selesai."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pertanyaan feedback setelah latihan:",
+          "sub": [
+            "Data apa yang paling menentukan diagnosis kerja?",
+            "Pemeriksaan/penunjang apa yang seharusnya diminta rutin pada kasus ini?",
+            "Red flag apa yang harus membuat peserta berhenti dan melakukan eskalasi/rujukan?",
+            "Apakah tindakan yang dipilih aman untuk kondisi pasien saat itu?",
+            "Apa edukasi paling penting yang harus dipahami pasien sebelum pulang/rujuk?"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "WHO Medical Eligibility Criteria (MEC) for contraceptive use — kategori 4 untuk IUD pada kehamilan dan PID/servisitis aktif.",
+            "Kementerian Kesehatan RI — Pedoman Nasional Penanganan Sindrom Duh Genital (IMS).",
+            "Workowski KA et al. CDC Sexually Transmitted Infections Treatment Guidelines — bagian BV, trichomoniasis, dan cervicitis.",
+            "American College of Obstetricians and Gynecologists (ACOG) — Practice Bulletin on vaginitis.",
+            "Modul OSCE 6.1 — Peta Besar Reproduksi Obgyn; Genitalia Discharge/Endocervical Swab/Scraping; IVA; IUD Copper T 380A; Antenatal Awal dan Ginekologi."
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Data objektif dan diagnosis kunci diberikan hanya bila peserta meminta spesifik.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_disch_duh_genital_01", "gls_sken_disch_bv_02", "gls_sken_disch_amsel_05", "gls_sken_disch_metronidazol_08", "gls_sken_disch_iva_03", "gls_sken_disch_iud_04", "gls_sken_disch_pid_06", "gls_sken_disch_spekulum_07"],
+      "bilingual": ""
+    }
+  ]
+}

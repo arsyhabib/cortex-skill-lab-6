@@ -1,0 +1,1401 @@
+{
+  "id": "mod_obgyn_skill_presentasi_bokong_manual_aid_003",
+  "title": "Melahirkan Bayi Presentasi Bokong: Manual Aid",
+  "subtitle": "Persalinan presentasi bokong dengan teknik manual aid untuk kegawatan obstetri.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_1",
+  "source_pdf": "Batch1_6.1_Modul_3_Presentasi_Bokong_Manual_Aid (1).docx",
+  "source_filename": "Batch1_6.1_Modul_3_Presentasi_Bokong_Manual_Aid (1).docx",
+  "topicTags": [
+    "osce_6_1",
+    "persalinan_bokong",
+    "manual_aid",
+    "manuver_lovset",
+    "aftercoming_head",
+    "mauriceau_smellie_veit",
+    "kegawatan_obstetri",
+    "keselamatan_neonatus",
+    "kala_ii_bokong"
+  ],
+  "summary": [
+    "Melahirkan bayi presentasi bokong (sungsang) per vaginam merupakan kompetensi level 3 Blok 6.1 yang harus dikerjakan dengan tim lengkap (dokter anak dan anestesi), informed consent 8 poin, dan persiapan alat emergensi.",
+    "Urutan manuver kritis: biarkan bokong lahir spontan → manuver bahu/lengan (Klasik, Muller, atau Lovset sesuai masalah) → lahirkan kepala aftercoming dengan Mauriceau (menjaga fleksi kepala); Piper forceps sebagai eskalasi bila Mauriceau gagal.",
+    "Prinsip utama keselamatan: jangan menarik bayi secara kasar, jangan menarik leher bayi saat Mauriceau, dan batasi waktu sejak tali pusat lahir hingga bayi lahir tidak lebih dari 8 menit untuk mencegah asfiksia neonatal.",
+    "Kontraindikasi persalinan per vaginam mencakup plasenta previa total, panggul sempit, riwayat SC klasik/vertikal, prolaps tali pusat, dan presentasi majemuk — semuanya memerlukan seksio sesarea.",
+    "Setelah bayi lahir, ibu tetap harus dipantau ketat pada kala IV: TTV, kontraksi uterus, perdarahan, kandung kemih, kesadaran, nyeri, dan dokumentasi SOAP lengkap — PPH adalah komplikasi utama yang harus diantisipasi.",
+    "Apgar menit 1 dan 5 wajib dinilai; resusitasi BBL sesuai algoritme (hangatkan, posisi, bersihkan jalan napas, keringkan, stimulasi, ventilasi) harus siap karena bayi sungsang lebih berisiko asfiksia.",
+    "Pada OSCE, penguji memberi skor hangus bila mahasiswa melupakan informed consent, kesiapan tim neonatal, antisepsis, atau menarik bayi secara kasar — keselamatan adalah bobot terbesar."
+  ],
+  "exam_focus": [
+    "FATAL: Informed consent 8 poin harus dilakukan verbal + tertulis; tanpa ini skor hangus.",
+    "FATAL: Selalu panggil dokter anak dan anestesi sebelum mulai — sungsang bukan pekerjaan satu operator.",
+    "FATAL: Jangan menarik leher bayi saat Mauriceau; jari tengah masuk mulut bayi hanya untuk menjaga fleksi kepala.",
+    "FATAL: Batas waktu tali pusat lahir hingga bayi lahir tidak boleh lebih dari 8 menit untuk mencegah asfiksia.",
+    "FATAL: Menarik bayi secara kasar atau memutar leher saat Lovset (rotasi harus pada badan bayi) menyebabkan cedera fatal.",
+    "Manuver Lovset spesifik untuk lengan menjungkit/nuchal arm; putar badan bayi 180 derajat ke arah lengan menjungkit, lalu putar balik 180 derajat berlawanan.",
+    "Klasik melahirkan bahu belakang dulu, Muller melahirkan bahu depan dulu — penukaran keduanya menurunkan skor untuk clinical reasoning.",
+    "Posisi litotomi, kandung kemih kosong, dan antiseptik perineum adalah baku asepsis — kelalaian salah satunya = skor hangus untuk asepsis.",
+    "Kala IV dipantau ketat 1–2 jam pasca persalinan: TTV, kontraksi uterus, perdarahan, kandung kemih, kesadaran, nyeri; PPH adalah risiko utama.",
+    "Setelah bayi lahir, jangan berhenti — plasenta, jahit luka, kala IV, dekontaminasi, dokumentasi SOAP, dan edukasi keluarga wajib dilakukan berurutan."
+  ],
+  "glossary": [
+    {
+      "id": "gls_presentasi_bokong_01",
+      "term": "presentasi bokong",
+      "def": "Keadaan di mana bagian terbawah janin yang pertama kali masuk panggul adalah bokong, bukan kepala. Terbagi menjadi frank breech (kaki tertekuk di sendi paha), complete breech (kaki tertekuk di paha dan lutut), dan footling breech (satu atau kedua kaki lebih rendah dari bokong).",
+      "type": "clinical",
+      "aliases": [
+        "sungsang",
+        "breech presentation"
+      ]
+    },
+    {
+      "id": "gls_manuver_lovset_02",
+      "term": "Manuver Lovset",
+      "def": "Manuver rotasi 180 derajat pada badan bayi (bukan leher/kepala) untuk melahirkan lengan yang menjungkit di belakang kepala (nuchal arm). Pegang badan bayi, putar 180 derajat ke arah lengan menjungkit, lalu putar balik 180 derajat berlawanan sampai bahu/lengan dapat dilahirkan.",
+      "type": "procedure",
+      "aliases": [
+        "Lovset maneuver",
+        "rotasi Lovset"
+      ]
+    },
+    {
+      "id": "gls_aftercoming_head_03",
+      "term": "aftercoming head",
+      "def": "Kepala janin yang lahir paling akhir pada persalinan sungsang, setelah badan bayi lahir. Merupakan bagian paling kritis karena kepala adalah bagian terbesar dan harus dijaga fleksinya untuk melewati panggul.",
+      "type": "clinical",
+      "aliases": [
+        "kepala aftercoming",
+        "kepala yang lahir terakhir"
+      ]
+    },
+    {
+      "id": "gls_mauriceau_smellie_veit_04",
+      "term": "Mauriceau-Smellie-Veit",
+      "def": "Manuver untuk melahirkan kepala aftercoming pada persalinan sungsang. Badan bayi ditunggangkan pada lengan sesuai posisi punggung, jari tengah masuk ke mulut bayi untuk menjaga fleksi, jari telunjuk dan jari keempat menekan fossa kanina/maksila, tangan lain memegang bahu-tengkuk, asisten menekan fundus; tarik sesuai sumbu jalan lahir lalu elevasi ketika suboksiput tampak.",
+      "type": "procedure",
+      "aliases": [
+        "Mauriceau maneuver",
+        "MSV",
+        "manuver Mauriceau"
+      ]
+    },
+    {
+      "id": "gls_skor_apgar_05",
+      "term": "skor Apgar",
+      "def": "Sistem skor untuk menilai kondisi bayi baru lahir pada menit 1 dan 5 setelah lahir berdasarkan lima kriteria: Appearance (warna kulit), Pulse (frekuensi jantung), Grimace (refleks irritabilitas), Activity (tonus otot), dan Respiration (pernapasan). Setiap kriteria dinilai 0–2, total maksimal 10.",
+      "type": "score",
+      "aliases": [
+        "Apgar score",
+        "nilai Apgar"
+      ]
+    },
+    {
+      "id": "gls_posisi_litotomi_06",
+      "term": "posisi litotomi",
+      "def": "Posisi pasien berbaring telentang dengan tungkai diangkat dan ditopang pada penyangga, lutut ditekuk dan paha dibuka lebar. Merupakan posisi standar untuk prosedur obstetri-ginekologi termasuk persalinan sungsang.",
+      "type": "procedure",
+      "aliases": [
+        "lithotomy position",
+        "litotomi"
+      ]
+    },
+    {
+      "id": "gls_informed_consent_07",
+      "term": "informed consent",
+      "def": "Persetujuan tindakan medis yang diberikan pasien/keluarga setelah menerima penjelasan lengkap mengenai diagnosis, rencana tindakan, risiko yang diduga maupun tidak diduga, dan kesempatan bertanya. Pada persalinan sungsang, kerangka 8 poin mencakup sapa, diagnosis, rencana, risiko, tenangkan, pastikan paham, kesempatan tanya, dan persetujuan tertulis.",
+      "type": "procedure",
+      "aliases": [
+        "persetujuan tindakan medis",
+        "persetujuan informed"
+      ]
+    },
+    {
+      "id": "gls_apd_08",
+      "term": "APD",
+      "def": "Alat Pelindung Diri yang dipakai oleh penolong medis, terdiri dari baju tindakan, alas kaki, masker, kacamata pelindung, sarung tangan steril/DTT, handuk steril, dan kain penutup steril. Wajib dipakai lengkap saat menolong persalinan sungsang.",
+      "type": "procedure",
+      "aliases": [
+        "Alat Pelindung Diri",
+        "personal protective equipment",
+        "PPE"
+      ]
+    },
+    {
+      "id": "gls_episiotomi_09",
+      "term": "episiotomi",
+      "def": "Tindakan sayatan pada perineum untuk memperbesar jalan lahir saat persalinan, dilakukan saat perineum tipis dan bagian terbawah janin membuka vulva. Episiotomi mediolateral lebih umum karena risiko robekan derajat 3-4 lebih rendah dibanding median.",
+      "type": "procedure",
+      "aliases": [
+        "episiotomy",
+        "sayatan perineum"
+      ]
+    },
+    {
+      "id": "gls_ekstraksi_kaki_10",
+      "term": "ekstraksi kaki",
+      "def": "Tindakan obstetri untuk melahirkan kaki bayi terlebih dahulu pada presentasi bokong dengan indikasi kala II tidak maju atau keadaan janin/ibu yang mengharuskan bayi segera dilahirkan. Tangan masuk secara obstetrik menelusuri bokong-pangkal paha-lutut, lakukan fleksi-abduksi paha, pegang pergelangan kaki dengan dua jari, tuntun keluar sesuai sumbu.",
+      "type": "procedure",
+      "aliases": [
+        "foot extraction",
+        "ekstraksi kaki pada sungsang"
+      ]
+    },
+    {
+      "id": "gls_leopold_11",
+      "term": "pemeriksaan Leopold",
+      "def": "Pemeriksaan fisik obstetri pada abdomen untuk menentukan presentasi, posisi, dan penurunan janin, terdiri dari empat manuver: Leopold I (fundus), Leopold II (sisi abdomen untuk punggung dan bagian kecil), Leopold III (supra simfisis untuk bagian terbawah), dan Leopold IV (konfirmasi engagement ke PAP).",
+      "type": "procedure",
+      "aliases": [
+        "Leopold maneuvers",
+        "manuver Leopold"
+      ]
+    },
+    {
+      "id": "gls_oksitosin_12",
+      "term": "oksitosin",
+      "def": "Hormon peptida yang diproduksi hipotalamus dan digunakan sebagai uterotonik untuk merangsang kontraksi uterus. Dosis profilaksis standar adalah 10 IU IM yang diberikan dalam 1 menit setelah bayi lahir untuk mencegah perdarahan postpartum.",
+      "type": "drug",
+      "aliases": [
+        "oxytocin",
+        "Pitocin",
+        "Syntocinon"
+      ]
+    },
+    {
+      "id": "gls_kala_iv_13",
+      "term": "kala IV",
+      "def": "Periode 1-2 jam setelah plasenta lahir, di mana ibu dipantau ketat untuk mendeteksi komplikasi pascapersalinan seperti perdarahan postpartum, atonia uteri, dan syok. Pemantauan mencakup TTV, kontraksi uterus, perdarahan, kandung kemih, kesadaran, dan nyeri.",
+      "type": "clinical",
+      "aliases": [
+        "fourth stage of labor",
+        "kala empat persalinan"
+      ]
+    },
+    {
+      "id": "gls_kompresi_bimanual_14",
+      "term": "kompresi bimanual",
+      "def": "Tindakan mekanik untuk mengendalikan perdarahan postpartum akibat atonia uteri dengan menekan uterus menggunakan dua tangan: satu tangan di dalam kavum uteri membentuk kepalan dan tangan lain di luar abdomen menekan fundus, mempertemukan kedua permukaan untuk merangsang kontraksi.",
+      "type": "procedure",
+      "aliases": [
+        "bimanual compression",
+        "kompresi uterus bimanual"
+      ]
+    },
+    {
+      "id": "gls_persalinan_sungsang_15",
+      "term": "persalinan sungsang",
+      "def": "Persalinan pervaginam di mana janin lahir dalam presentasi bokong. Dibantu dengan manuver khusus seperti Bracht, Klasik, Muller, Lovset (untuk bahu/lengan), Mauriceau-Smellie-Veit (untuk kepala), atau Piper forceps (eskalasi). Memerlukan seleksi ketat karena risiko lebih tinggi dari persalinan normal.",
+      "type": "clinical",
+      "aliases": [
+        "breech delivery",
+        "persalinan presentasi bokong"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_presentasi_bokong_01",
+      "term_id": "presentasi bokong",
+      "term_en": "breech presentation",
+      "context": "Bagian terbawah janin adalah bokong, bukan kepala. Terbagi atas frank, complete, dan footling breech."
+    },
+    {
+      "id": "bil_manuver_lovset_02",
+      "term_id": "Manuver Lovset",
+      "term_en": "Lovset maneuver",
+      "context": "Rotasi 180 derajat pada badan bayi untuk melahirkan lengan menjungkit/nuchal arm."
+    },
+    {
+      "id": "bil_aftercoming_head_03",
+      "term_id": "kepala aftercoming",
+      "term_en": "aftercoming head",
+      "context": "Kepala janin yang lahir paling akhir pada persalinan sungsang; bagian paling kritis yang harus dijaga fleksinya."
+    },
+    {
+      "id": "bil_mauriceau_04",
+      "term_id": "Mauriceau-Smellie-Veit",
+      "term_en": "Mauriceau-Smellie-Veit maneuver",
+      "context": "Manuver melahirkan kepala aftercoming dengan menjaga fleksi kepala; jari di mulut bayi, tangan pada tengkuk."
+    },
+    {
+      "id": "bil_skor_apgar_05",
+      "term_id": "skor Apgar",
+      "term_en": "Apgar score",
+      "context": "Sistem skor penilaian bayi baru lahir pada menit 1 dan 5 berdasarkan Appearance, Pulse, Grimace, Activity, Respiration."
+    },
+    {
+      "id": "bil_posisi_litotomi_06",
+      "term_id": "posisi litotomi",
+      "term_en": "lithotomy position",
+      "context": "Posisi berbaring telentang dengan tungkai ditopang pada penyangga; standar untuk prosedur obstetri-ginekologi."
+    },
+    {
+      "id": "bil_informed_consent_07",
+      "term_id": "informed consent",
+      "term_en": "informed consent",
+      "context": "Persetujuan tindakan medis yang diberikan setelah penjelasan diagnosis, rencana, risiko, dan kesempatan bertanya."
+    },
+    {
+      "id": "bil_apd_08",
+      "term_id": "APD",
+      "term_en": "personal protective equipment (PPE)",
+      "context": "Alat Pelindung Diri: baju tindakan, masker, kacamata, sarung tangan steril yang dipakai oleh penolong medis."
+    },
+    {
+      "id": "bil_episiotomi_09",
+      "term_id": "episiotomi",
+      "term_en": "episiotomy",
+      "context": "Sayatan pada perineum untuk memperbesar jalan lahir saat persalinan."
+    },
+    {
+      "id": "bil_ekstraksi_kaki_10",
+      "term_id": "ekstraksi kaki",
+      "term_en": "foot extraction / breech extraction",
+      "context": "Tindakan melahirkan kaki bayi terlebih dahulu pada presentasi bokong ketika kala II tidak maju atau ada kegawatan."
+    },
+    {
+      "id": "bil_persalinan_sungsang_11",
+      "term_id": "persalinan sungsang",
+      "term_en": "breech delivery",
+      "context": "Persalinan pervaginam dengan janin presentasi bokong, memerlukan manuver khusus dan seleksi ketat."
+    },
+    {
+      "id": "bil_kala_iv_12",
+      "term_id": "kala IV",
+      "term_en": "fourth stage of labor",
+      "context": "Periode 1-2 jam setelah plasenta lahir dengan pemantauan TTV, kontraksi, perdarahan, dan kesadaran."
+    },
+    {
+      "id": "bil_oksitosin_13",
+      "term_id": "oksitosin",
+      "term_en": "oxytocin",
+      "context": "Uterotonik yang diberikan 10 IU IM dalam 1 menit setelah bayi lahir untuk mencegah perdarahan."
+    },
+    {
+      "id": "bil_kompresi_bimanual_14",
+      "term_id": "kompresi bimanual",
+      "term_en": "bimanual compression",
+      "context": "Tindakan mengendalikan perdarahan postpartum dengan menekan uterus dari dalam dan luar secara bersamaan."
+    },
+    {
+      "id": "bil_pipa_piper_15",
+      "term_id": "forceps Piper",
+      "term_en": "Piper forceps",
+      "context": "Forceps khusus untuk melahirkan kepala aftercoming bila Mauriceau gagal; dipasang saat badan bayi diangkat/dibungkus steril."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_bokong_jenis_presentasi_01",
+      "module_id": "mod_obgyn_skill_presentasi_bokong_manual_aid_003",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Infografik medis tiga jenis presentasi bokong janin: frank breech (kaki tertekuk di paha), complete breech (kaki tertekuk di paha dan lutut), footling breech (kaki lebih rendah dari bokong). Label Bahasa Indonesia, gaya clean medical illustration, warna natural.",
+      "alt": "Infografik tiga jenis presentasi bokong: frank breech dengan kaki tertekuk di sendi paha, complete breech dengan kaki tertekuk di paha dan lutut, dan footling breech dengan kaki lebih rendah dari bokong.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_presentasi_bokong_manual_aid_003/assets/bokong_jenis_presentasi.png"
+    },
+    {
+      "id": "visual_bokong_posisi_litotomi_02",
+      "module_id": "mod_obgyn_skill_presentasi_bokong_manual_aid_003",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi skill lab manekin persalinan posisi litotomi, tim obstetri, set resusitasi bayi siap. Label Bahasa Indonesia: litotomi, operator, dokter anak, anestesi, set resusitasi.",
+      "alt": "Ilustrasi posisi litotomi di kamar bersalin untuk persalinan sungsang, dengan tim obstetri lengkap (operator, dokter anak, anestesi) dan set resusitasi bayi yang siap.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_presentasi_bokong_manual_aid_003/assets/bokong_posisi_litotomi.png"
+    },
+    {
+      "id": "visual_bokong_lovset_03",
+      "module_id": "mod_obgyn_skill_presentasi_bokong_manual_aid_003",
+      "section_id": "s05",
+      "type": "diagram",
+      "generation_prompt": "Diagram 4 panel manuver Lovset pada manekin bayi sungsang. Panel 1: posisi awal, bayi di lengan operator. Panel 2: rotasi 180 derajat ke arah lengan menjungkit. Panel 3: rotasi balik 180 derajat berlawanan. Panel 4: bahu/lengan lahir. Label Bahasa Indonesia, panah rotasi, gaya edukatif non-realistis.",
+      "alt": "Diagram empat panel manuver Lovset: panel 1 posisi awal, panel 2 rotasi 180 derajat ke arah lengan menjungkit, panel 3 rotasi balik 180 derajat berlawanan, panel 4 bahu dan lengan bayi lahir.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_presentasi_bokong_manual_aid_003/assets/bokong_lovset.png"
+    },
+    {
+      "id": "visual_bokong_mauriceau_04",
+      "module_id": "mod_obgyn_skill_presentasi_bokong_manual_aid_003",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis manuver Mauriceau untuk kepala aftercoming pada persalinan sungsang. Tampak: bayi ditunggangkan pada lengan, jari tengah masuk mulut bayi (fleksi), jari telunjuk dan jari keempat menekan fossa kanina, tangan lain memegang bahu-tengkuk. Label Bahasa Indonesia: mulut, fossa kanina, bahu, tengkuk, arah tarikan. Gaya clean medical illustration.",
+      "alt": "Ilustrasi manuver Mauriceau untuk melahirkan kepala aftercoming: bayi ditunggangkan pada lengan, jari tengah masuk mulut bayi untuk menjaga fleksi, jari telunjuk dan jari keempat menekan fossa kanina, tangan lain memegang bahu dan tengkuk.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_presentasi_bokong_manual_aid_003/assets/bokong_mauriceau.png"
+    },
+    {
+      "id": "visual_bokong_kala_iv_05",
+      "module_id": "mod_obgyn_skill_presentasi_bokong_manual_aid_003",
+      "section_id": "s11",
+      "type": "flowchart",
+      "generation_prompt": "Infografik kala IV: TTV, kontraksi uterus, perdarahan, kandung kemih, plasenta, luka, dokumentasi. Gaya flowchart dengan ikon visual untuk setiap komponen pemantauan.",
+      "alt": "Infografik flowchart pemantauan kala IV: TTV, kontraksi uterus, perdarahan, kandung kemih, plasenta, luka, dan dokumentasi SOAP.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_presentasi_bokong_manual_aid_003/assets/bokong_kala_iv.png"
+    },
+    {
+      "id": "visual_bokong_manuver_table_06",
+      "module_id": "mod_obgyn_skill_presentasi_bokong_manual_aid_003",
+      "section_id": "s11",
+      "type": "table",
+      "generation_prompt": "Tabel visual perbandingan manuver Klasik, Muller, Lovset, Mauriceau, dan Piper. Kolom: manuver, yang dilahirkan dulu, gerakan utama, bahaya. Gaya infografik tabel dengan ikon tangan/manuver.",
+      "alt": "Tabel perbandingan lima manuver: Klasik (bahu belakang dulu), Muller (bahu depan dulu), Lovset (rotasi 180 derajat untuk lengan menjungkit), Mauriceau (kepala aftercoming dengan menjaga fleksi), dan Piper (forceps khusus untuk kepala aftercoming gagal Mauriceau).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_presentasi_bokong_manual_aid_003/assets/bokong_manuver_table.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s06",
+      "type": "note",
+      "source_query": "Penanda [DITAMBAHKAN SAAT STANDARDISASI] pada §8 modul presentasi bokong manual aid",
+      "source_reference": "Modul OSCE FKIK Universitas Jambi / RCOG Green-top Guideline No. 20b",
+      "confidence": "high",
+      "note": "Catatan bahwa panduan Bracht, Klasik, Muller, Lovset, Mauriceau, dan Piper adalah teknik pelengkap yang saling melengkapi; pemilihan teknik sangat bergantung pada situasi klinis dan kompetensi operator; pada pasien nyata, gunakan SOP fasilitas."
+    },
+    {
+      "section_id": "s07",
+      "type": "note",
+      "source_query": "Penanda [DITAMBAHKAN SAAT STANDARDISASI] pada §11 manajemen klinis",
+      "source_reference": "POGI, RCOG Green-top Guideline No. 20b, WHO Intrapartum Care 2018",
+      "confidence": "high",
+      "note": "Manajemen komplikasi pascaprosedural mengikuti rekomendasi POGI, RCOG Green-top Guideline No. 20b, dan WHO Intrapartum Care 2018."
+    },
+    {
+      "section_id": "s08",
+      "type": "note",
+      "source_query": "Penanda [DITAMBAHKAN SAAT STANDARDISASI] pada §13 dokumentasi SOAP",
+      "source_reference": "Standar RS pendidikan Indonesia",
+      "confidence": "high",
+      "note": "Format SOAP mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas."
+    },
+    {
+      "section_id": "s09",
+      "type": "note",
+      "source_query": "Penanda [DITAMBAHKAN SAAT STANDARDISASI] pada Lampiran D checklist verbal",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Kalimat-kalimat checklist verbal adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi; pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario pasien."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Skenario utama: Ny. Aminah, 28 tahun G2P1A0, hamil 38 minggu, kala II, presentasi bokong frank dengan bokong di dasar panggul. Target OSCE adalah kemampuan menolong persalinan sungsang per vaginam dengan aman sesuai kompetensi level 3.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Sumber dokumen utama adalah Penuntun Belajar Praktek Keterampilan Klinik Melahirkan Bayi Presentasi Bokong Secara Manual Aid yang diberikan kepada mahasiswa, diperkuat dengan Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi yang mencantumkan menolong persalinan presentasi bokong sebagai kompetensi level 3 (bukan 4A) dan terkait erat dengan APN serta perawatan nifas. Dalam daftar kompetensi Blok 6.1, 'menolong persalinan dengan presentasi bokong' tercantum sebagai level 3, bukan 4A.",
+          "tone": "narrative",
+          "source": "§1 Ringkasan File Sumber"
+        },
+        {
+          "text": "Untuk mahasiswa, fokus OSCE adalah memahami, mendemonstrasikan pada manekin/simulasi, dan tahu kapan harus meminta bantuan/rujukan. Pada pasien nyata, persalinan sungsang harus ditangani oleh tim terlatih dengan fasilitas lengkap, kesiapan neonatal, dan anestesi bila perlu. Modul ini menjadi output 3 dari 3 batch 1 ObGyn dengan fokus pada persetujuan, persiapan, teknik klasik/Muller/Lovset/ekstraksi, Mauriceau, dan pascatindakan.",
+          "tone": "narrative",
+          "source": "§1 Ringkasan File Sumber"
+        },
+        {
+          "text": "Skenario klinis utama yang digunakan konsisten di seluruh modul: Ny. Aminah, 28 tahun, G2P1A0, hamil 38 minggu, dating dalam persalinan kala II. Pemeriksaan dalam: pembukaan lengkap, presentasi bokong, bokong sudah turun di dasar panggul. Kontraksi adekuat, DJJ 140 x/menit. Identitas ini digunakan di §1, §9, §13, §15, dan Lampiran C.",
+          "tone": "narrative",
+          "source": "§1 Skenario Klinis"
+        },
+        {
+          "text": "Prinsip utama modul: jangan menarik bayi secara kasar. Banyak manuver bertujuan menjaga fleksi kepala, mencegah trauma lengan/leher, dan mempercepat kelahiran bila sudah saatnya. Yang paling sering dinilai di OSCE mencakup: informed consent (kerangka 8 poin) — banyak penguji memberi skor hangus jika ini dilewati; kesiapan tim (dokter anak + anestesi) — bukan detail kecil, ini keselamatan; antisepsis dan posisi litotomi — asepsis dasar; urutan manuver — saat bokong lahir bayi tidak boleh ditarik sembarangan, saat kepala aftercoming Mauriceau dengan menjaga fleksi kepala; kala IV dan monitoring pasca-tindakan — bayi tidak sendirian, ibu juga harus dipantau; verbalisasi setiap langkah — penguji menilai yang diucapkan.",
+          "tone": "clinical",
+          "source": "§1 Prinsip Utama"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kompetensi level 3: mahasiswa fokus pada pemahaman, demonstrasi manekin, dan kemampuan rujukan, bukan pertolongan pasien nyata tanpa supervisi.",
+          "bold": true,
+          "source": "§1 Catatan Kompetensi"
+        },
+        {
+          "text": "Strategi membaca modul: mulai dari konsep dasar (§1), alur OSCE (§2), persetujuan (§3), dan persiapan (§4). Fokus utama adalah §6 (manuver bahu dan lengan) dan §8 (melahirkan kepala).",
+          "source": "§1 Strategi Membaca"
+        },
+        {
+          "text": "Sumber file utama: Penuntun Belajar Praktek Keterampilan Klinik, Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi, RCOG Green-top Guideline No. 20b, dan WHO Intrapartum Care 2018.",
+          "source": "§1 Sumber File"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan level kompetensi dan keselamatan",
+          "text": "Dalam daftar kompetensi Blok 6.1, 'menolong persalinan dengan presentasi bokong' tercantum sebagai level 3, bukan 4A. Untuk mahasiswa, fokus OSCE adalah memahami, mendemonstrasikan pada manekin/simulasi, dan tahu kapan harus meminta bantuan/rujukan.",
+          "answer_evidence": "Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Batas Keselamatan Klinis",
+          "text": "Materi ini untuk simulasi OSCE dan belajar. Pada pasien nyata, tindakan obstetri-ginekologi harus mengikuti informed consent, supervisi klinis, SOP fasilitas, ketersediaan alat, kompetensi operator, dan kondisi pasien. Persalinan sungsang pada pasien nyata wajib ditangani oleh tim terlatih.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip utama",
+          "text": "Jangan menarik bayi secara kasar. Banyak manuver bertujuan menjaga fleksi kepala, mencegah trauma lengan/leher, dan mempercepat kelahiran bila sudah saatnya.",
+          "answer_evidence": "Penuntun Belajar Praktek Keterampilan Klinik FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_presentasi_bokong_01",
+        "gls_persalinan_sungsang_15"
+      ],
+      "bilingual": "Skenario utama modul ini adalah Ny. Aminah 28 tahun G2P1A0 hamil 38 minggu dengan presentasi bokong frank di kala II. Target OSCE adalah demonstrasi manual aid pada manekin dengan kemampuan rujukan yang tepat."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Checklist 21-item yang menerjemahkan langkah OSCE menjadi kalimat verbal siap pakai, mencakup informed consent, persiapan pasien/alat/penolong, urutan manuver, penilaian BBL, kala IV, dan edukasi keluarga.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Checklist OSCE untuk persalinan sungsang terdiri dari 21 item utama yang menerjemahkan tindakan klinis menjadi kalimat verbal siap pakai. Setiap item memiliki: cara melakukan agar skor maksimal, kalimat yang dapat diucapkan, dan kesalahan yang menurunkan nilai. Pola kalimat telah disesuaikan dengan bahasa Indonesia awam-friendly untuk adaptasi sesuai skenario.",
+          "tone": "clinical",
+          "source": "§3 Checklist OSCE"
+        },
+        {
+          "text": "Alur besar OSCE dalam satu napas mencakup 7 langkah utama: (1) persetujuan tindakan medis, (2) tinjau riwayat dan hasil pemeriksaan, (3) persiapan pasien posisi litotomi, (4) persiapan alat, (5) persiapan penolong dengan APD lengkap, (6) tindakan pemeriksaan dalam dan manuver sesuai masalah, (7) setelah bayi lahir lahirkan plasenta, jahit, awasi kala IV, dekontaminasi, dokumentasi, dan edukasi.",
+          "tone": "clinical",
+          "source": "§2 Alur Besar OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Item 1: Persetujuan tindakan medis (8 poin) — sapa, diagnosis, rencana, risiko, tenangkan, pastikan paham, kesempatan tanya, persetujuan tertulis. Langsung bertindak tanpa informed consent = skor hangus.",
+          "bold": true,
+          "source": "§3 Checklist"
+        },
+        {
+          "text": "Item 2-3: Tinjau riwayat dan posisi litotomi. Konfirmasi pembukaan lengkap, posisi, penurunan, kondisi ibu-janin, kontraksi adekuat, DJJ normal.",
+          "source": "§3 Checklist"
+        },
+        {
+          "text": "Item 4-5: Persiapan alat lengkap (persalinan, resusitasi bayi, uterotonika, anestesi lokal, Piper, infus, antiseptik, episiotomi/jahit) dan panggil dokter anak serta tim anestesi sebelum mulai.",
+          "source": "§3 Checklist"
+        },
+        {
+          "text": "Item 6: APD penolong lengkap dan cuci tangan steril sampai siku.",
+          "source": "§3 Checklist"
+        },
+        {
+          "text": "Item 7-9: Pemeriksaan dalam terakhir, instruksi meneran yang benar (tarik napas dalam, tutup mulut, dagu ke dada, tangan merangkul paha, meneran ke bawah seperti BAB), dan episiotomi mediolateral saat bokong membuka vulva.",
+          "source": "§3 Checklist"
+        },
+        {
+          "text": "Item 10-13: Saat bokong lahir pertahankan posisi spontan (jangan menarik), pilih manuver bahu sesuai masalah (Klasik untuk bahu belakang, Muller untuk bahu depan, Lovset untuk lengan menjungkit), lahirkan kepala dengan Mauriceau menjaga fleksi, dan panggil operator terlatih untuk Piper bila Mauriceau gagal.",
+          "bold": true,
+          "source": "§3 Checklist"
+        },
+        {
+          "text": "Item 14-16: Penilaian Apgar BBL, lahirkan plasenta dan periksa kelengkapan, jahit luka episiotomi atau robekan derajat 1-2 (derajat 3-4 rujuk).",
+          "source": "§3 Checklist"
+        },
+        {
+          "text": "Item 17-21: Observasi kala IV (TTV, kontraksi uterus, perdarahan, kandung kemih, kesadaran, nyeri), dekontaminasi alat dengan klorin 0,5%, cuci tangan ulang, dokumentasi SOAP, dan edukasi keluarga.",
+          "source": "§3 Checklist"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips nilai tinggi: 4 poin utama",
+          "text": "1) Selalu sebutkan kesiapan tim (dokter anak dan anestesi). Sungsang bukan pekerjaan sendiri. 2) Verbalisasi informed consent dengan bahasa awam — terutama risiko (perdarahan, robekan, bayi perlu resusitasi, atau tindakan tambahan). 3) Jangan menarik bayi sembarangan — manuver harus dipilih sesuai masalah. 4) Setelah bayi lahir, jangan berhenti — plasenta, jahit, kala IV, monitoring ibu.",
+          "answer_evidence": "Modul OSCE Blok 6.1 FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pesan kunci informed consent",
+          "text": "Risiko dapat berupa perdarahan, robekan jalan lahir, bayi sulit lahir, bayi perlu resusitasi, atau tindakan tambahan. Pesan ini WAJIB disampaikan verbal kepada pasien/keluarga sebelum tindakan.",
+          "answer_evidence": "Panduan Skill Lab Blok 6.1"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Adaptasi kalimat verbal",
+          "text": "Kolom 'Kalimat yang Dapat Diucapkan' berasal dari pola bahasa Indonesia yang awam-friendly. Adaptasi sesuai skenario dan kondisi pasien pada pelaksanaan OSCE.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_informed_consent_07",
+        "gls_posisi_litotomi_06",
+        "gls_apd_08"
+      ],
+      "bilingual": "Checklist 21-item OSCE mencakup informed consent, persiapan, manuver, penilaian BBL, kala IV, dekontaminasi, dan edukasi. Setiap item memiliki kalimat verbal siap pakai yang adaptif."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis memiliki dua fungsi: seleksi klien untuk menentukan apakah pasien bisa ditolong per vaginam, dan informed consent karena tindakan ini lebih berisiko. 4 pertanyaan kunci wajib ditanyakan: diagnosis sungsang terkonfirmasi, pembukaan lengkap, fasilitas siap, dan tidak ada kontraindikasi pervaginam.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station presentasi bokong memiliki dua fungsi utama: (1) seleksi klien untuk menentukan apakah pasien bisa ditolong per vaginam, dan (2) informed consent karena tindakan ini lebih berisiko dari persalinan normal dan pasien/keluarga harus paham risikonya. Kerangka informed consent 8 poin dari file sumber mencakup sapa pasien, jelaskan diagnosis, informasikan risiko, tenangkan pasien, pastikan paham, minta persetujuan tertulis, tinjau riwayat, dan catat kembalikan catatan medis.",
+          "tone": "clinical",
+          "source": "§4 Anamnesis dan Seleksi Klien"
+        },
+        {
+          "text": "Cara berpikir praktis — 4 pertanyaan kunci yang tidak boleh terlewat untuk topik persalinan sungsang: (1) Apakah diagnosis sungsang jelas dan terkonfirmasi? (Leopold, USG, atau periksa dalam). (2) Apakah pembukaan lengkap dan bokong sudah di dasar panggul? (3) Apakah fasilitas dan tim neonatal/anestesi siap? (4) Apakah ada kontraindikasi pervaginam (plasenta previa, panggul sempit, dll.)?",
+          "tone": "clinical",
+          "source": "§4 Pertanyaan Kunci"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin 1 informed consent: Sapa pasien/keluarga dan perkenalkan diri. Contoh: 'Ibu/Bapak, saya ... yang akan membantu tindakan persalinan ini bersama tim.'",
+          "source": "§4 Informed Consent"
+        },
+        {
+          "text": "Poin 2: Jelaskan diagnosis dan penatalaksanaan presentasi bokong. 'Posisi bayi saat ini bokong di bawah, sehingga persalinan lebih berisiko dan mungkin perlu bantuan manuver.'",
+          "source": "§4 Informed Consent"
+        },
+        {
+          "text": "Poin 3: Informasikan risiko yang diduga maupun tidak diduga. 'Risiko dapat berupa perdarahan, robekan jalan lahir, bayi sulit lahir, bayi perlu resusitasi, atau tindakan tambahan.'",
+          "source": "§4 Informed Consent"
+        },
+        {
+          "text": "Poin 4: Tenangkan pasien bila takut/gelisah — gunakan nada tenang; jangan menyalahkan pasien.",
+          "source": "§4 Informed Consent"
+        },
+        {
+          "text": "Poin 5: Pastikan pasien/keluarga mengerti dan beri kesempatan penjelasan ulang. Minta pasien mengulang inti pemahaman bila perlu.",
+          "source": "§4 Informed Consent"
+        },
+        {
+          "text": "Poin 6: Minta persetujuan tertulis dan masukkan ke rekam medis. Dalam OSCE, sebutkan bahwa persetujuan tertulis diminta bila kondisi memungkinkan.",
+          "source": "§4 Informed Consent"
+        },
+        {
+          "text": "Poin 7: Tinjau kembali riwayat, hasil pemeriksaan, dan instruksi. Mencegah tindakan pada pasien yang tidak memenuhi syarat atau belum siap.",
+          "source": "§4 Informed Consent"
+        },
+        {
+          "text": "Poin 8: Catat dan kembalikan catatan medis. Simpan consent di rekam medis pasien.",
+          "source": "§4 Informed Consent"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flags yang Wajib Ditanyakan / Dicari",
+          "text": "Tanda bahaya ibu: perdarahan, hipertensi/eklampsia, syok, bekas SC/kontraksi luka. Tanda bahaya janin: DJJ <110 atau >160, gawat janin, KPD lama, mekonium. Kontraindikasi pervaginam: plasenta previa total, panggul sempit, riwayat SC klasik, tumor jalan lahir. Prolaps tali pusat saat ketuban pecah = emergency. Presentasi majemuk perlu keputusan SC. Eklampsia/impending eklampsia: MgSO4 dulu, lalu rujuk. Fasilitas tidak memadai (tanpa dokter anak, tanpa anestesi, tanpa bank darah) = rujuk.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_informed_consent_07",
+        "gls_presentasi_bokong_01"
+      ],
+      "bilingual": "Anamnesis pada sungsang berfungsi ganda: seleksi klien untuk kelahiran per vaginam dan informed consent karena risiko lebih tinggi. Empat pertanyaan kunci wajib: diagnosis terkonfirmasi, pembukaan lengkap, tim siap, tidak ada kontraindikasi pervaginam."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan fisik pada presentasi bokong mencakup: tanda vital dan umum, pemeriksaan abdomen (Leopold 1-4), pemeriksaan DJJ, dan pemeriksaan dalam untuk konfirmasi pembukaan, presentasi, dan deteksi prolaps tali pusat.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan tanda vital dan umum dilakukan dengan mengukur TD, nadi, suhu, pernapasan, SpO2; menilai kesadaran (GCS atau alert-verbal-pain-unresponsive); memeriksa konjungtiva (anemia), edema (preeklampsia), dan status gizi. Nilai normal ibu hamil: TD <140/90 mmHg, nadi 60-100, suhu 36,0-37,5°C, RR 12-20, SpO2 ≥95%, konjungtiva merah muda.",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Tanda Vital"
+        },
+        {
+          "text": "Pemeriksaan abdomen dengan Leopold 1-4 untuk menentukan presentasi, posisi, dan penurunan. Leopold I fundus untuk menentukan bagian yang di fundus (kepala keras bulat ballotement; bokong tidak keras tidak bulat). Leopold II kedua sisi abdomen untuk menentukan punggung (keras, datar, seperti papan) dan bagian kecil. Leopold III supra simfisis untuk menentukan bagian terbawah (presentasi). Leopold IV apakah bagian terbawah sudah masuk PAP (engagement).",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Leopold"
+        },
+        {
+          "text": "Pemeriksaan DJJ menggunakan Doppler/Pinard dengan lokasi sesuai presentasi (pada sungsang, DJJ biasanya setinggi pusat atau sedikit di atas); hitung 60 detik atau 6 detik × 10. Nilai normal DJJ 110-160 x/menit, reguler. Interpretasi abnormal: DJJ <110 atau >160 curiga gawat janin, DJJ tidak terdengar = emergency resusitasi, variabilitas hilang curiga gawat janin.",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan DJJ"
+        },
+        {
+          "text": "Pemeriksaan dalam dilakukan dengan sarung tangan steril, menilai pembukaan, penipisan, posisi, presentasi, penurunan, ketuban, kemungkinan prolaps tali pusat. Pada sungsang: bokong teraba, lubang anus/genital, mungkin kaki teraba (pada footling). Nilai normal: pembukaan lengkap saat masuk fase aktif kala II, bokong sudah di dasar panggul, ketuban utuh atau baru pecah.",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Dalam"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Interpretasi tanda vital abnormal: TD ≥140/90 curiga preeklampsia cek proteinuria; nadi >120 curiga perdarahan/syok; suhu >38°C curiga infeksi/korioamnionitis; kesadaran menurun = emergency.",
+          "source": "§5 Tanda Vital"
+        },
+        {
+          "text": "Interpretasi Leopold: Leopold 1 kepala di fundus (keras, bulat) + bokong di bawah = presentasi bokong; Leopold 3 bokong teraba, tidak di atas PAP = presentasi bokong.",
+          "source": "§5 Leopold"
+        },
+        {
+          "text": "Interpretasi pemeriksaan dalam abnormal: pembukaan tidak lengkap = kala II belum waktunya; ketuban pecah lama, air ketuban hijau (mekonium) = kemungkinan gawat janin; prolaps tali pusat = emergency.",
+          "source": "§5 Periksa Dalam"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat OSCE Leopold",
+          "text": "Leopold I: bokong di fundus. Leopold II: punggung di kiri. Leopold III: presentasi bokong. Leopold IV: bokong sudah masuk PAP. Kalimat ini sering diminta penguji saat station pemeriksaan fisik obstetri.",
+          "answer_evidence": "Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat OSCE pemeriksaan dalam",
+          "text": "Pemeriksaan dalam: pembukaan lengkap, effacement 100%, ketuban baru pecah jernih, presentasi bokong sudah di dasar panggul, tidak ada prolaps tali pusat. Kala II.",
+          "answer_evidence": "Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Tanda gawat janin",
+          "text": "DJJ <110 atau >160 x/menit, variabilitas hilang, mekonium kental, atau DJJ tidak terdengar = tanda gawat janin yang memerlukan tindakan segera (resusitasi intrauterin atau emergensi SC).",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b; WHO Intrapartum Care 2018"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_leopold_11",
+        "gls_presentasi_bokong_01"
+      ],
+      "bilingual": "Pemeriksaan fisik pada presentasi bokong mencakup empat komponen: tanda vital dan umum, Leopold 1-4 untuk konfirmasi presentasi abdomen, DJJ (pada sungsang setinggi pusat), dan pemeriksaan dalam untuk menilai pembukaan, presentasi, serta prolaps tali pusat."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Fase persiapan mencakup 6 langkah termasuk informed consent, posisi litotomi, persiapan alat dan tim. Fase pelaksanaan mencakup pemeriksaan dalam, instruksi meneran, manuver bahu dan lengan (Klasik/Muller/Lovset), ekstraksi kaki/bokong, Mauriceau untuk kepala aftercoming, dan Piper sebagai eskalasi.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Fase Persiapan prosedur utama terdiri dari 6 langkah: (1) Informed consent 8 poin, (2) Tinjau riwayat dan hasil pemeriksaan, (3) Posisikan litotomi, kosongkan kandung kemih, antiseptik perineum, (4) Persiapan alat lengkap dan tim (dokter anak, anestesi), (5) APD penolong lengkap, cuci tangan sampai siku, sarung tangan steril, (6) Pemeriksaan dalam terakhir untuk pastikan pembukaan lengkap, bokong di dasar panggul, tidak ada prolaps tali pusat. Keselamatan pasien di fase ini: Consent, kesiapan tim, dan verifikasi indikasi pervaginam. Pada presentasi bokong, kontraindikasi pervaginam harus disingkirkan dulu.",
+          "tone": "clinical",
+          "source": "§7 Fase Persiapan"
+        },
+        {
+          "text": "Pemeriksaan dalam dan instruksi meneran dilakukan sebagai langkah pertama fase pelaksanaan. Lakukan pemeriksaan dalam terakhir untuk konfirmasi pembukaan lengkap, posisi, penurunan, ketuban. Instruksi meneran yang benar: 'Saat kontraksi datang, tarik napas dalam, tutup mulut, arahkan tenaga ke abdomen dan anus, kedua tangan merangkul pangkal paha, kepala ditundukkan melihat pusar.' Prinsip: tarik napas dalam, tutup mulut, dagu ke dada (mencegah kepala mendongak), tangan merangkul paha (memperkuat dorongan), tenaga ke bawah (ke arah anus). Episiotomi dilakukan saat bokong membuka vulva dan perineum tipis, bila ada indikasi atau diinstruksikan.",
+          "tone": "clinical",
+          "source": "§7 Pemeriksaan Dalam dan Meneran"
+        },
+        {
+          "text": "Manuver bahu dan lengan terdiri dari 3 teknik: Klasik (melahirkan bahu belakang lebih dahulu, jika Bracht gagal), Muller (melahirkan bahu depan lebih dahulu, jika Bracht gagal dan dipilih teknik bahu depan), dan Lovset (rotasi 180 derajat untuk lengan menjungkit/nuchal arm). Langkah Klasik: setelah bokong dan kaki lahir, kendorkan tali pusat; tarik kaki sesuai arah untuk melahirkan bahu belakang; masukkan dua jari sejajar lengan untuk melahirkan lengan belakang; lalu lahirkan bahu/lengan depan. Bahaya: jangan menarik lengan tegak lurus yang dapat mencederai humerus/pleksus. Langkah Muller: tarik kedua kaki curam ke bawah kontralateral untuk melahirkan bahu depan; setelah bahu/lengan depan lahir, lanjutkan bahu/lengan belakang. Bahaya: jangan lupa lanjutkan bahu belakang setelah bahu depan lahir.",
+          "tone": "clinical",
+          "source": "§7 Manuver Bahu dan Lengan"
+        },
+        {
+          "text": "Manuver Lovset: Pegang badan bayi dengan kedua tangan. Putar 180 derajat ke arah lengan yang menjungkit. Lalu putar balik 180 derajat berlawanan sampai bahu/lengan tidak menjungkit dan dapat dilahirkan. Bahaya: jangan memutar leher/kepala; rotasi pada badan bayi dengan kontrol. Ekstraksi Kaki dilakukan bila kala II tidak maju atau keadaan janin/ibu mengharuskan bayi segera dilahirkan. Tangan masuk secara obstetrik menelusuri bokong – pangkal paha – lutut. Fleksi-abduksi paha, pegang pergelangan kaki dengan dua jari. Tuntunkan keluar, tarik sesuai sumbu dan lanjutkan manuver bahu. Ekstraksi Bokong: jari penunjuk mengait lipatan paha/krista iliaka bagian depan dan menarik curam ke bawah. Lebih sulit dari ekstraksi kaki, sehingga perlu kehati-hatian dan manuver yang sesuai.",
+          "tone": "clinical",
+          "source": "§7 Manuver Lovset dan Ekstraksi"
+        },
+        {
+          "text": "Melahirkan kepala bayi dengan Mauriceau dan Piper. Kepala adalah bagian paling kritis pada persalinan sungsang. Tujuan manuver adalah menjaga fleksi kepala dan melahirkan kepala mengikuti sumbu jalan lahir. Jangan menarik leher bayi. Mauriceau: Badan bayi ditunggangkan pada lengan sesuai posisi punggung. Jari tengah masuk ke mulut, jari telunjuk dan jari keempat menekan fossa kanina/maksila. Tangan lain memegang bahu-tengkuk. Asisten menekan fundus. Tarik ke bawah sesuai sumbu jalan lahir lalu elevasi ketika suboksiput tampak. Catatan keselamatan: fokus pada fleksi kepala, traksi terkendali, dan bantuan asisten. Pada OSCE verbalize arah tarikan dan hipomoklion suboksiput.",
+          "tone": "clinical",
+          "source": "§7 Mauriceau dan Piper"
+        },
+        {
+          "text": "Piper Forceps dipakai bila Bracht/Mauriceau gagal. Badan bayi dibungkus kain steril dan diangkat. Forceps Piper dipasang untuk kepala lalu ditarik sesuai teknik. Catatan: ini tindakan operator terlatih. Pada OSCE cukup sebut indikasi, alat, dan perlu bantuan ahli. Teknik khusus obstetri: jangan menarik bayi (prinsip manuver adalah menuntun, bukan menarik paksa); jaga fleksi kepala (pada Mauriceau, jari di mulut bayi menjaga fleksi, mencegah kepala ekstensi yang bisa menyangkut); asisten menekan fundus membantu dorongan ke bawah; traksi sesuai sumbu jalan lahir bukan traksi lurus horizontal.",
+          "tone": "clinical",
+          "source": "§7 Piper Forceps"
+        },
+        {
+          "text": "Fase Evaluasi dan Konfirmasi: (1) Penilaian bayi baru lahir (Apgar menit 1 dan 5), (2) Lahirkan plasenta, (3) Jahit luka episiotomi atau robekan sesuai derajat (derajat 1-2 jahit sendiri, derajat 3-4 rujuk), (4) Berikan obat sesuai keperluan (uterotonika, analgesik, antibiotik profilaksis), (5) Awasi kala IV, (6) Pemeriksaan nifas, (7) Dekontaminasi, (8) Dokumentasi SOAP, (9) Edukasi keluarga. Keselamatan pasien: Apgar, kala IV, monitoring ibu, dan dokumentasi. Jangan abaikan ibu setelah bayi lahir.",
+          "tone": "clinical",
+          "source": "§7 Fase Evaluasi"
+        },
+        {
+          "text": "Alat yang harus disebutkan (minimum 5): set persalinan (forceps, gunting, klem, kasa, handuk, mangkok) alat utama; set resusitasi bayi (alat pengisap lendir, balon resusitasi, masker bayi, tabung oksigen) kesiapan neonatal; uterotonika (oksitosin 10 IU, metilergometrin 0,2 mg) manajemen kala III dan PPH; anestesi lokal (lidokain 1-2%) untuk episiotomi/jahit; cunam Piper untuk kepala aftercoming yang gagal dengan Mauriceau; alat infus (abocath, IV line, cairan kristaloid) akses IV untuk situasi darurat; povidone iodine antiseptik; set episiotomi dan jahit (gunting, jarum, benang, klem); sarung tangan steril/DTT, handuk steril, drape, APD lengkap.",
+          "tone": "clinical",
+          "source": "§6 Alat dan Persiapan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Momen cuci tangan (sesuai WHO): sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien.",
+          "source": "§6 Momen Cuci Tangan"
+        },
+        {
+          "text": "APD penolong: baju tindakan, alas kaki, masker, kacamata; cuci tangan sampai siku dengan antiseptik; handuk steril, sarung tangan steril, kain penutup steril.",
+          "source": "§6 APD"
+        },
+        {
+          "text": "Cara mempersiapkan pasien: posisi litotomi di tempat tidur persalinan; kosongkan kandung kemih (BAK spontan atau kateter); bersihkan perineum dengan antiseptik (povidone iodine); penjelasan informed consent; privasi dan pendampingan (suami/keluarga boleh mendampingi sesuai SOP).",
+          "source": "§6 Mempersiapkan Pasien"
+        },
+        {
+          "text": "Catatan klinis persiapan: 'Sungsang butuh persiapan emergensi; jangan mulai jika alat vital belum siap. Karena bayi mungkin perlu resusitasi dan ibu mungkin perlu tindakan tambahan.'",
+          "source": "§6 Catatan Klinis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Batas waktu kritis",
+          "text": "Sejak tali pusat lahir sampai bayi lahir tidak boleh lebih dari 8 menit. Ini adalah batas waktu kritis yang mencegah asfiksia neonatal. Penguji menilai apakah mahasiswa menyadari batasan ini.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan menarik leher bayi (Mauriceau)",
+          "text": "Pada Mauriceau, jari di mulut bayi hanya untuk menjaga fleksi kepala. Menarik leher bayi saat Mauriceau adalah tindakan fatal yang menyebabkan cedera serius pada bayi.",
+          "answer_evidence": "Penuntun Belajar Praktek Keterampilan Klinik FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan memutar leher (Lovset)",
+          "text": "Saat Lovset, rotasi harus pada badan bayi, bukan pada leher/kepala. Memutar leher/kepala bayi saat Lovset menyebabkan cedera leher dan berisiko fatal.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip semua manuver",
+          "text": "Jangan menarik bayi secara kasar. Prinsip manuver adalah menuntun, bukan menarik paksa. Pilih manuver sesuai masalah (bahu/lengan/kepala punya manuver berbeda). Verbalisasi pilihan — sebutkan alasan memilih manuver. Eskalasi: bila manuver gagal, panggil operator terlatih (SpOG).",
+          "answer_evidence": "Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_bokong_posisi_litotomi_02",
+        "visual_bokong_lovset_03",
+        "visual_bokong_mauriceau_04"
+      ],
+      "glossary_refs": [
+        "gls_manuver_lovset_02",
+        "gls_mauriceau_smellie_veit_04",
+        "gls_aftercoming_head_03",
+        "gls_ekstraksi_kaki_10",
+        "gls_episiotomi_09",
+        "gls_posisi_litotomi_06",
+        "gls_oksitosin_12"
+      ],
+      "bilingual": "Persiapan wajib: informed consent 8 poin, posisi litotomi, alat lengkap (set persalinan, resusitasi bayi, uterotonika, anestesi lokal, Piper, infus, antiseptik, set jahit), APD penolong, dan tim dokter anak serta anestesi yang sudah siap."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-prosedur mencakup 9 langkah (plasenta, jahit, obat, kala IV, nifas, dekontaminasi, dokumentasi, edukasi). Clinical reasoning mencakup 3 pertanyaan utama: diagnosis, seleksi cara lahir, dan pemilihan manuver. Pembedaan Bracht vs Manual Aid vs PiperForceps wajib dipahami.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-persalinan mencakup 9 langkah: (1) Lahirkan plasenta spontan atau manual bila ada indikasi, (2) Jahit luka episiotomi atau robekan perineum sesuai derajat dan kompetensi (derajat 3-4 rujuk), (3) Berikan obat sesuai keperluan dan SOP termasuk uterotonika bila diindikasikan, (4) Awasi kala IV: TTV, kontraksi uterus, perdarahan, kandung kemih, kesadaran, nyeri, (5) Pemeriksaan dan pengawasan nifas (fundus, lochia, luka, laktasi), (6) Dekontaminasi bahan dan alat dengan klorin 0,5%, buang bahan habis pakai, bersihkan area tercemar, lepas sarung tangan terbalik, cuci tangan, (7) Dokumentasikan kondisi pascatindakan, laporan tindakan, instruksi pengobatan, hal yang perlu pengawasan ketat, (8) Edukasi keluarga bahwa tindakan selesai tetapi ibu dan bayi masih perlu observasi.",
+          "tone": "clinical",
+          "source": "§8 Tindakan Pasca-Prosedur"
+        },
+        {
+          "text": "Cara evaluasi keberhasilan prosedur: Bayi: Apgar baik, menangis, tonus aktif, warna kemerahan. Ibu: plasenta lahir lengkap, kontraksi uterus keras, perdarahan <500 mL, TD stabil. Luka: episiotomi/robekan derajat 1-2 sudah dijahit, tidak ada laserasi luas. Kala IV stabil.",
+          "tone": "clinical",
+          "source": "§8 Evaluasi Keberhasilan"
+        },
+        {
+          "text": "Prosedur terkait/varian: Bracht (lihat modul terpisah, dipakai untuk persalinan sungsang pervaginam yang memenuhi syarat, bayi lahir dengan bantuan minimal, prinsip menuntun badan bayi mengikuti kelengkungan jalan lahir); Klasik, Muller, Lovset (dipilih bila Bracht gagal - lihat §7 Fase Pelaksanaan dan Lampiran B); Ekstraksi kaki/bokong (untuk kala II tidak maju atau gawat janin/ibu); Piper (untuk kepala aftercoming yang gagal dengan Mauriceau); Kompresi bimanual (untuk atonia uteri); Eskalasi ke SC (bila pervaginam tidak memungkinkan).",
+          "tone": "clinical",
+          "source": "§8 Prosedur Terkait"
+        },
+        {
+          "text": "Clinical reasoning untuk presentasi bokong melibatkan 3 pertanyaan utama: (1) Diagnosis: apakah presentasi bokong ini terkonfirmasi dan bagaimana jenisnya (frank, complete, footling)? (2) Seleksi cara lahir: apakah pervaginam aman, atau perlu seksio sesarea? (3) Pemilihan manuver: teknik mana yang sesuai dengan masalah (bahu, lengan, kepala)?",
+          "tone": "clinical",
+          "source": "§9 Clinical Reasoning"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Presentasi bokong frank (bokong murni): Kedua tungkai tertekuk di sendi paha, kaki di samping badan. Pervaginam bisa dilakukan (Bracht/manual aid) pada seleksi kasus yang tepat.",
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "Presentasi bokong complete: Kedua tungkai tertekuk di paha dan lutut, seperti jongkok. Pervaginam bisa dilakukan dengan hati-hati.",
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "Presentasi bokong footling (kaki menumbung): Satu atau kedua kaki lebih rendah dari bokong. Risiko prolaps tali pusat dan tali pusat menumbung - kontroversial, banyak panduan menyarankan SC.",
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "Presentasi kepala: Kepala di bagian terbawah. Persalinan normal.",
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "Presentasi lintang: Sumbu panjang janin melintang. SC di hampir semua kasus.",
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "Presentasi majemuk (compound): Tangan atau kaki menumbung bersama kepala/bokong. Evaluasi ulang; sering perlu SC.",
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "Pembedaan Bracht: kapan digunakan - persalinan sungsang yang memenuhi syarat, bayi lahir dengan bantuan minimal; prinsip - menuntun badan bayi mengikuti kelengkungan jalan lahir tanpa tarikan kasar; indikator keberhasilan - bayi lahir utuh dengan hiperlordosis; operator - dokter umum terlatih (level 3 di Blok 6.1, supervisi); pembeda utama - spontan/semi-spontan.",
+          "source": "§9 Pembedaan Bracht"
+        },
+        {
+          "text": "Pembedaan Manual Aid: kapan digunakan - Bracht gagal atau kesulitan manuver; prinsip - melahirkan bahu, lengan, atau kepala bayi dengan manuver khusus; indikator - bahu/lengan/kepala bayi lahir sesuai urutan; operator - dokter terlatih, butuh supervisi; pembeda utama - aktif (manuver dipilih sesuai masalah).",
+          "source": "§9 Pembedaan Manual Aid"
+        },
+        {
+          "text": "Pembedaan Piper Forceps: kapan digunakan - kepala aftercoming gagal dengan Mauriceau; prinsip - forceps khusus untuk menarik kepala bayi; indikator - kepala bayi lahir dengan forsep; operator - operator sangat terlatih (SpOG); pembeda utama - instrumentasi khusus.",
+          "source": "§9 Pembedaan Piper"
+        },
+        {
+          "text": "Kapan HARUS merujuk segera (emergency): prolaps tali pusat, gawat janin, perdarahan banyak, syok, eklampsia, ruptura uteri, presentasi lintang, plasenta previa total.",
+          "source": "§9 Kapan Merujuk"
+        },
+        {
+          "text": "Kapan merujuk same day: kala II macet, bayi tidak turun.",
+          "source": "§9 Kapan Merujuk"
+        },
+        {
+          "text": "Kapan merujuk rutin: skrining antenatal, rujukan untuk presentasi bokong terdiagnosis antenatal (untuk evaluasi external cephalic version / SC).",
+          "source": "§9 Kapan Merujuk"
+        },
+        {
+          "text": "Tunda elektif: ibu dengan komorbiditas yang perlu stabilisasi dulu.",
+          "source": "§9 Kapan Merujuk"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan AI - komplementer manuver",
+          "text": "Panduan Bracht, Klasik, Muller, Lovset, Mauriceau, dan Piper adalah teknik pelengkap yang saling melengkapi; pemilihan teknik sangat bergantung pada situasi klinis dan kompetensi operator. Pada pasien nyata, gunakan SOP fasilitas.",
+          "answer_evidence": "Penuntun Belajar Praktek Keterampilan Klinik FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Footling breech - kontroversial",
+          "text": "Presentasi bokong footling (kaki menumbung) memiliki risiko prolaps tali pusat dan tali pusat menumbung. Banyak panduan menyarankan SC untuk jenis presentasi ini. Pada pasien nyata, konsultasikan dengan SpOG.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_oksitosin_12",
+        "gls_kala_iv_13",
+        "gls_presentasi_bokong_01",
+        "gls_persalinan_sungsang_15"
+      ],
+      "bilingual": "Clinical reasoning pada sungsang: (1) diagnosis tipe presentasi, (2) seleksi cara lahir (pervaginam vs SC), (3) pemilihan manuver sesuai masalah. Bracht, Manual Aid, dan Piper adalah pelengkap; gunakan sesuai situasi klinis dan kompetensi operator."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang mencakup USG obstetri, CTG/DJJ, darah lengkap, golongan darah, proteinuria, dan tes IMS. Tatalaksana fokus pada manajemen komplikasi intraprosedural (asfiksia BBL, kepala terjebak, prolaps tali pusat, ruptura uteri) dan pasca-prosedural (PPH, robekan luas, endometritis).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang pada presentasi bokong: USG obstetri (konfirmasi presentasi, taksiran berat janin, letak plasenta, jumlah air ketuban; nilai normal: frank/complete/footling breech, TBJ sesuai usia kehamilan, plasenta tidak menutupi OUE; ketersediaan: RS/klinik dengan USG). CTG/DJJ dengan doppler (gawat janin intrapartum, evaluasi DJJ; nilai normal: DJJ 110-160, variabilitas adekuat, tanpa deselerasi lambat; ketersediaan: RS). Darah lengkap (anemia, infeksi, pra-tindakan; nilai normal: Hb ≥11 g/dL untuk ibu hamil; ketersediaan: Puskesmas dan RS). Golongan darah + Rh (ibu hamil, perdarahan, pra-transfusi; ketersediaan: Puskesmas dan RS).",
+          "tone": "clinical",
+          "source": "§10 Pemeriksaan Penunjang"
+        },
+        {
+          "text": "Pemeriksaan penunjang lain: Tes kehamilan (bila curiga hamil; ketersediaan: Puskesmas). Proteinuria (preeklampsia; nilai normal: negatif atau trace; ketersediaan: Puskesmas). Tes IMS HIV, sifilis, hepatitis B (skrining pranatal; nilai normal: non-reaktif; ketersediaan: Puskesmas dan RS dengan lab). Kultur darah (sepsis curiga; nilai normal: negatif; ketersediaan: RS). Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: tes fungsi hati/ginjal preoperatif (bila SC direncanakan), biopsi placenta (bila indikasi), skrining GBS (Group B Streptococcus) intrapartum.",
+          "tone": "clinical",
+          "source": "§10 Pemeriksaan Penunjang"
+        },
+        {
+          "text": "Karena modul ini adalah prosedur persalinan sungsang, tatalaksana berfokus pada manajemen komplikasi (intraprosedural dan pasca-prosedur) dan tindak lanjut. Manajemen komplikasi intraprosedural mencakup: Asfiksia BBL (tanda: bayi tidak menangis, tonus lemah, DJJ <100; respons: langkah awal BBL hangatkan, posisi, bersihkan jalan napas, keringkan, stimulasi; resusitasi sesuai algoritme). Kepala terjebak (tanda: kepala aftercoming tidak lahir; respons: Mauriceau dengan menjaga fleksi; Piper oleh operator terlatih). Trauma lengan/leher seperti cedera pleksus brakialis, fraktur (tanda: lengan bayi tidak bergerak simetris; respons: evaluasi bayi, dokumentasi, konsultasi neonatal). Prolaps tali pusat (tanda: tali pusat menumbung saat ketuban pecah; respons: emergency, posisi Trendelenburg/knee-chest, dorong presentasi untuk mengurangi kompresi, SC emergensi).",
+          "tone": "clinical",
+          "source": "§11 Manajemen Komplikasi Intraprosedural"
+        },
+        {
+          "text": "Manajemen komplikasi intraprosedural (lanjutan): Perdarahan intrapartum (tanda: perdarahan >500 mL saat prosedur; respons: masase uterus, uterotonika, kompresi bimanual, cari laserasi, eskalasi). Lahirnya bahu tertahan/shoulder dystocia (tanda: kepala sudah lahir, bahu tidak; respons: manuver McRobert, suprapubik, episiotomi lebar, manuver delivre). Cairan ketuban hijau kental/mekonium (tanda: ketuban hijau kental saat ketuban pecah; respons: siap resusitasi, isap lendir di bawah pita suara oleh neonatologis). Ruptura uteri (tanda: nyeri perut hebat, perdarahan, syok, bagian janin teraba di abdomen; respons: emergency stabilkan, rujuk untuk laparotomi).",
+          "tone": "clinical",
+          "source": "§11 Manajemen Komplikasi Intraprosedural"
+        },
+        {
+          "text": "Manajemen komplikasi pasca-prosedur: Perdarahan postpartum/atonia uteri (onset segera-24 jam; tanda: perdarahan banyak, uterus lembek; tatalaksana awal: masase bimanual, uterotonika/oksitosin → metilergometrin → misoprostol, kompresi bimanual, cari laserasi; rujuk: RS dengan bank darah). Robekan perineum luas/derajat 3-4 (onset segera; tanda: inkontinensia flatus/feses, robekan sampai sfingter; tatalaksana awal: klasifikasi derajat, jahit 1-2 sendiri, derajat 3-4 rujuk; rujuk: SpOG). Infeksi nifas/endometritis (onset 24-72 jam; tanda: demam, nyeri perut, lochia berbau, uterus nyeri tekan; tatalaksana awal: antibiotik ampisilin + gentamisin + metronidazol, evaluasi luka; rujuk: SpOG).",
+          "tone": "clinical",
+          "source": "§11 Manajemen Komplikasi Pasca-Prosedur"
+        },
+        {
+          "text": "Manajemen komplikasi pasca-prosedur (lanjutan): Hematoma vulva/vagina (onset segera; tanda: nyeri hebat, bengkak, massa kebiruan; tatalaksana awal: evaluasi, kompres, rujuk untuk eksisi/drainase; rujuk: RS). Retensio plasenta/sisa plasenta (onset 30-60 menit pasca persalinan; tanda: plasenta tidak lahir >30 menit, atau lahir tidak lengkap; tatalaksana awal: manual plasenta, kuretase, uterotonika; rujuk: RS dengan operator). Inverted uterus (onset kala III; tanda: fundus tidak teraba, syok; tatalaksana awal: jangan lepas plasenta, reposisi manual/Johnson maneuver, uterotonika; rujuk: emergency rujuk). Asfiksia BBL (onset saat/d setelah lahir; tanda: Apgar rendah; tatalaksana awal: resusitasi sesuai algoritme, NICU; rujuk: NICU). Cedera neonatus (onset saat/d setelah lahir; tanda: fraktur, palsi brakialis, trauma kepala; tatalaksana awal: evaluasi neonatal, rujuk; rujuk: SpA).",
+          "tone": "clinical",
+          "source": "§11 Manajemen Komplikasi Pasca-Prosedur"
+        },
+        {
+          "text": "Jadwal tindak lanjut: Observasi kala IV (1-2 jam pasca persalinan): TTV, kontraksi uterus, perdarahan, kandung kemih, kesadaran. Nifas: kunjungan 1 minggu, 2 minggu, 6 minggu postpartum. Laktasi: dukungan IMD, ASI eksklusif 6 bulan. KB pascasalin: dimulai 6 minggu postpartum (atau 6 bulan untuk ASI eksklusif dengan mini pil/implan/IUD). Bayi: observasi ketat 2-6 jam, ASI dini, kunjungan neonatal 1 minggu. Tanda bahaya edukasi: perdarahan banyak, demam, nyeri hebat, bayi kuning >2 minggu, dll.",
+          "tone": "clinical",
+          "source": "§11 Tindak Lanjut"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan penting: Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab.",
+          "source": "§10 Catatan Penting"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Prolaps tali pusat = emergency",
+          "text": "Tanda: tali pusat menumbung saat ketuban pecah. Respons: emergency, posisi Trendelenburg/knee-chest, dorong presentasi untuk mengurangi kompresi, SC emergensi. Setiap detik sangat berharga.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b; WHO Intrapartum Care 2018"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Ruptura uteri = emergency",
+          "text": "Tanda: nyeri perut hebat, perdarahan, syok, bagian janin teraba di abdomen. Respons: emergency stabilkan, rujuk untuk laparotomi. Jangan coba tindakan pervaginam.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Inverted uterus",
+          "text": "Saat kala III, fundus tidak teraba dan syok terjadi. Jangan lepas plasenta! Lakukan reposisi manual (Johnson maneuver) dan uterotonika. Emergency rujuk ke SpOG.",
+          "answer_evidence": "POGI; RCOG Green-top Guideline No. 20b"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan AI - sumber manajemen",
+          "text": "Manajemen komplikasi pascaprosedural mengikuti rekomendasi POGI, RCOG Green-top Guideline No. 20b, dan WHO Intrapartum Care 2018.",
+          "answer_evidence": "POGI, RCOG Green-top Guideline No. 20b, WHO Intrapartum Care 2018"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kompresi_bimanual_14",
+        "gls_oksitosin_12",
+        "gls_skor_apgar_05"
+      ],
+      "bilingual": "Pemeriksaan penunjang: USG obstetri, CTG/DJJ, darah lengkap, golongan darah, proteinuria, tes IMS. Tatalaksana fokus pada manajemen komplikasi intraprosedural (asfiksia BBL, kepala terjebak, prolaps tali pusat, ruptura uteri) dan pasca-prosedural (PPH, robekan luas, endometritis)."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Edukasi pasien mencakup 8 poin spesifik tentang kondisi bayi, rencana, risiko, tanda bahaya kala IV/nifas/bayi, laktasi, dan KB. Dokumentasi SOAP menggunakan skenario Ny. Aminah 28 tahun G2P1A0 hamil 38 minggu presentasi bokong frank dengan kode ICD-10 O32.1.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Poin edukasi spesifik (minimal 6): (1) Kondisi bayi presentasi bokong - posisi bayi bokong di bawah, sehingga persalinan lebih berisiko. (2) Rencana tindakan - pertolongan persalinan sungsang dengan tim lengkap, kemungkinan manuver, atau SC bila gagal. (3) Risiko - perdarahan, robekan jalan lahir, bayi sulit lahir, bayi perlu resusitasi, atau tindakan tambahan. (4) Tanda bahaya kala IV - perdarahan banyak, pusing, kesadaran menurun. (5) Tanda bahaya nifas - perdarahan, demam, bau busuk, nyeri perut, ASI tidak lancar. (6) Tanda bahaya bayi - tidak mau menyusu, muntah proyektil, kejang, kuning >2 minggu, napas cepat. (7) Laktasi - IMD dalam 1 jam, ASI eksklusif 6 bulan. (8) KB pascasalin - pilihan metode KB yang aman untuk menyusui.",
+          "tone": "clinical",
+          "source": "§12 Edukasi Pasien"
+        },
+        {
+          "text": "Safety net - kapan harus kembali segera atau ke IGD (minimal 4): (1) Perdarahan banyak - >2 softek per jam, atau perdarahan yang tidak berhenti. (2) Demam ≥38°C - terutama dalam 72 jam pascapersalinan. (3) Nyeri perut hebat atau bau busuk dari vagina. (4) Kesadaran menurun, pusing hebat, atau syok. (5) Bayi tidak mau menyusu, muntah proyektil, kejang, kuning >2 minggu, atau napas cepat. (6) Tali pusat bayi berdarah atau tidak mau berhenti. (7) Ibu tidak bisa BAK atau nyeri hebat saat BAK.",
+          "tone": "clinical",
+          "source": "§12 Safety Net"
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE: bahasa awam - 'Ibu, perdarahan banyak, demam, atau bayi tidak mau menyusu adalah tanda bahaya. Kalau ada, langsung ke IGD ya, Bu.' Minta keluarga mengulang: 'Bisa tolong ulangi, tanda bahaya yang harus diwaspadai?' Berikan waktu bertanya: 'Ada pertanyaan lagi, Pak/Bu?' Tunjukkan sikap empati: tidak menggurui, tidak menghakimi.",
+          "tone": "clinical",
+          "source": "§12 Cara Edukasi"
+        },
+        {
+          "text": "Contoh SOAP untuk skenario Ny. Aminah 28 tahun G2P1A0 hamil 38 minggu, dating dalam persalinan kala II. Pembukaan lengkap, presentasi bokong frank, bokong sudah di dasar panggul. DJJ 140 x/menit, kontraksi adekuat. Dilakukan persalinan sungsang per vaginam dengan manual aid.",
+          "tone": "narrative",
+          "source": "§13 Dokumentasi SOAP"
+        },
+        {
+          "text": "S (Subjective): Keluhan utama: HIS semakin kuat dan sering, keluar darah lendir, meneran. HPHT: 9 bulan lalu (usia kehamilan 38 minggu). Riwayat obstetri: G2P1A0, persalinan sebelumnya normal. Riwayat penyakit: tidak ada alergi, tidak ada hipertensi/kencing manis. Informed consent sudah diberikan dan ditandatangani suami.",
+          "tone": "narrative",
+          "source": "§13 SOAP"
+        },
+        {
+          "text": "O (Objective): TTV: TD 120/80 mmHg, N 88 x/menit, S 36,8°C, RR 20 x/menit, SpO2 98%. Kesadaran: kompos mentis. Konjungtiva tidak pucat, edema (-). Abdomen: Leopold I bokong di fundus, Leopold II punggung kiri, Leopold III presentasi bokong, Leopold IV bokong sudah masuk PAP. DJJ 140 x/menit, reguler. Kontraksi: 4×/10 menit, durasi 45 detik, kuat. Genitalia: pembukaan lengkap, effacement 100%, ketuban baru pecah jernih, presentasi bokong frank, tidak ada prolaps tali pusat, bokong di hodge IV.",
+          "tone": "narrative",
+          "source": "§13 SOAP"
+        },
+        {
+          "text": "A (Assessment): G2P1A0, hamil 38 minggu, kala II, presentasi bokong frank, janin hidup, fetal heart rate normal. Persalinan sungsang per vaginam dengan manual aid.",
+          "tone": "narrative",
+          "source": "§13 SOAP"
+        },
+        {
+          "text": "P (Plan): (1) Lanjutkan persalinan per vaginam dengan manual aid. (2) Informed consent sudah diberikan. (3) Persiapan tim lengkap: dokter anak, anestesi, perawat. (4) Alat: set persalinan, resusitasi bayi, oksitosin 10 IU IM, lidokain, forceps Piper, infus, antiseptik, set episiotomi/jahit. (5) APD lengkap, cuci tangan steril, sarung tangan steril. (6) Posisi litotomi, antiseptik perineum. (7) Episiotomi mediolateral kanan saat bokong membuka vulva. (8) Injeksi oksitosin 10 IU IM setelah bayi lahir. (9) Lahirkan bahu dengan teknik klasik (bahu belakang dulu), lalu kepala dengan Mauriceau. (10) Lahirkan plasenta, jahit luka episiotomi, observasi kala IV 1-2 jam. (11) Dokumentasi dan edukasi keluarga.",
+          "tone": "narrative",
+          "source": "§13 SOAP"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan: O32.1 - Maternal care for breech presentation; O80 - Single spontaneous delivery (untuk persalinan normal); O83.0 - Breech extraction; O83.1 - Other assisted single delivery; O70.1 - Second degree perineal laceration during delivery (bila ada robekan derajat 2); O72.1 - Other immediate postpartum hemorrhage (bila PPH); Z37.0 - Single live birth.",
+          "tone": "clinical",
+          "source": "§13 Kode ICD-10"
+        },
+        {
+          "text": "Dokumen/kartu khusus: Partograf - kala I, kala II, kala III, kala IV. Lembar informed consent - khusus untuk sungsang (risiko lebih tinggi). Surat kelahiran - identitas bayi, jenis kelamin, BB, PB, Apgar, waktu lahir, penolong. Surat rujukan - bila perlu. Cara mendokumentasikan prosedur manual aid: tanggal dan jam tindakan; indikasi (presentasi bokong, kala II, dll.); informed consent (tertulis, ditandatangani); tim yang terlibat (operator, asisten, dokter anak, anestesi); manuver yang dilakukan (klasik, Muller, Lovset, Mauriceau, Piper); hasil (bayi lahir hidup, Apgar, jenis kelamin, BB); komplikasi intraprosedural (tidak ada/ada jelaskan); tatalaksana lanjutan (plasenta, jahit, kala IV); tanda tangan dokter dan perawat.",
+          "tone": "clinical",
+          "source": "§13 Dokumen Khusus"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Contoh kalimat edukasi spesifik: 'Ibu, posisi bayi saat ini bokong di bawah. Persalinan seperti ini lebih berisiko sehingga kami perlu melakukan bantuan persalinan dengan tim lengkap. Saya akan menjelaskan tindakan, risiko, dan meminta persetujuan Ibu/keluarga.'",
+          "source": "§12 Kalimat Edukasi"
+        },
+        {
+          "text": "Contoh kalimat edukasi spesifik: 'Bayi sudah lahir dan akan dinilai oleh tim bayi. Ibu masih perlu pemantauan ketat untuk perdarahan, kontraksi rahim, tekanan darah, dan luka jalan lahir.'",
+          "source": "§12 Kalimat Edukasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tanda bahaya ibu",
+          "text": "Perdarahan banyak >2 softek per jam, demam ≥38°C dalam 72 jam, nyeri perut hebat, bau busuk dari vagina, kesadaran menurun, pusing hebat, atau syok. Semua ini = rujuk IGD segera.",
+          "answer_evidence": "POGI; WHO Intrapartum Care 2018"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tanda bahaya bayi",
+          "text": "Bayi tidak mau menyusu, muntah proyektil, kejang, kuning >2 minggu, napas cepat, atau tali pusat bayi berdarah/tidak mau berhenti. Semua ini = rujuk SpA/NICU segera.",
+          "answer_evidence": "WHO Intrapartum Care 2018"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan AI - format SOAP",
+          "text": "Format SOAP mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas.",
+          "answer_evidence": "Standar RS pendidikan Indonesia"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_informed_consent_07",
+        "gls_skor_apgar_05"
+      ],
+      "bilingual": "Edukasi 8 poin: kondisi bayi, rencana, risiko, tanda bahaya kala IV/nifas/bayi, laktasi, KB. Dokumentasi SOAP untuk Ny. Aminah G2P1A0 hamil 38 minggu presentasi bokong frank dengan kode ICD-10 O32.1."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "SKDI 4A mencakup kehamilan normal, ruptur perineum 1-2, anemia kehamilan, dan nifas. SKDI 3B mencakup presentasi bokong (rujuk), PPH, asfiksia, preeklampsia. Mini-skrip komunikasi mencakup 4 fase: pembukaan, meneran, manuver, dan penutup pasca bayi lahir.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan Penyakit SKDI 4A: Kehamilan normal dan ANC (Z34.9, 4A) - letak/presentasi dikenali saat ANC, persalinan adalah kelanjutan ANC. Malpresentasi/presentasi bokong (O32.1, 3B - Rujuk untuk pertolongan persalinan) - skill utama modul ini, seleksi kasus dan persiapan tim. Ruptur perineum derajat 1-2 (O70.0/O70.1, 4A, 3B bila derajat 3-4) - jahit derajat 1-2, rujuk derajat 3-4. Perdarahan postpartum/atonia uteri (O72.x, 3B Rujuk emergensi) - risiko meningkat pada persalinan sulit, awasi kala IV. Asfiksia bayi baru lahir (P21.x, 3B Rujuk NICU) - bayi sungsang lebih berisiko, siapkan resusitasi.",
+          "tone": "clinical",
+          "source": "§14 Kaitan SKDI 4A"
+        },
+        {
+          "text": "Kaitan Penyakit SKDI 4A (lanjutan): Preeklampsia/eklampsia (O14.x/O15.x, 3B Rujuk) - TD, proteinuria, MgSO4, rujuk. Kehamilan ektopik (O00.x, 3B Rujuk emergensi) - curiga pada persalinan darurat dengan riwayat ektopik. Nifas dan laktasi (Z39.x, 4A) - pemantauan nifas, IMD, ASI eksklusif. Anemia defisiensi besi pada kehamilan (O99.0/D64.9, 4A) - ANC, pucat, Hb, edukasi tablet besi. Syok (perdarahan, sepsis) (R57.x, 3B Rujuk emergensi) - akses IV, cairan, uterotonika, rujuk.",
+          "tone": "clinical",
+          "source": "§14 Kaitan SKDI 4A"
+        },
+        {
+          "text": "Batas kompetensi dokter umum untuk setiap diagnosis: 4A (mandiri) - dokter umum boleh menangani sendiri di layanan primer. 3B (merujuk) - dokter umum boleh melakukan stabilisasi dan tatalaksana awal, wajib merujuk ke SpOG. 2 (merawak ke spesialis) - hanya spesialis yang menangani, dokter umum hanya boleh melakukan deteksi dini dan rujukan. Catatan diagnosis yang harus dirujuk segera (SKDI 3B): Presentasi bokong dengan fasilitas terbatas (tanpa dokter anak, tanpa anestesi), Prolaps tali pusat, Gawat janin/DJJ abnormal, Perdarahan postpartum banyak, Preeklampsia berat/eklampsia, Kehamilan ektopik, Ruptura uteri curiga, Cedera neonatus berat.",
+          "tone": "clinical",
+          "source": "§14 Batas Kompetensi"
+        },
+        {
+          "text": "Mini-Skrip Komunikasi OSCE - Pembukaan Tindakan: [DOKTER]: 'Ibu Aminah, dari pemeriksaan, posisi bayi saat ini bokong berada di bawah. Persalinan seperti ini lebih berisiko sehingga kami perlu melakukan bantuan persalinan dengan tim lengkap. Saya akan menjelaskan tindakan, risiko, dan meminta persetujuan Ibu/keluarga bila kondisi memungkinkan.' [PASIEN]: 'Baik, Dok. Saya mau tanya dulu, ini bahaya tidak?' [DOKTER]: 'Risiko yang mungkin terjadi: perdarahan, robekan jalan lahir, bayi mungkin perlu resusitasi, atau ada kemungkinan tindakan tambahan. Tapi tim kami lengkap, dokter anak dan anestesi sudah siap. Apakah Ibu bersedia?' [PASIEN/KELUARGA]: 'Saya bersedia, Dok.' [DOKTER]: 'Baik, saya mulai dengan posisi litotomi dan persiapan.'",
+          "tone": "narrative",
+          "source": "§15 Mini-Skrip"
+        },
+        {
+          "text": "Mini-Skrip Komunikasi OSCE - Saat Meneran (Inisiasi Kala II): [DOKTER]: 'Ibu, saat kontraksi datang, tarik napas dalam, tutup mulut, dagu ke dada melihat pusar, kedua tangan merangkul paha, dan meneran ke arah bawah seperti BAB. Saya akan membantu perlahan sesuai kontraksi.' [PASIEN]: [Meneran]. [DOKTER]: 'Bagus, Bu. Lanjutkan seperti itu. Bayi sudah turun.'",
+          "tone": "narrative",
+          "source": "§15 Mini-Skrip Meneran"
+        },
+        {
+          "text": "Mini-Skrip Komunikasi OSCE - Saat Manuver: [DOKTER]: 'Bu, bokong bayi sudah lahir. Saya akan melihat posisi bahu dan lengan bayi.' [Pemeriksaan posisi bahu] [DOKTER]: 'Bahu belakang akan saya lahirkan lebih dulu. Saya kendorkan tali pusat dan menarik kaki perlahan. Ada sedikit tarikan, tapi tidak boleh saya paksakan. Lanjutkan menarik napas, Bu.' [Setelah bahu/lengan lahir] [DOKTER]: 'Bahu dan lengan sudah lahir. Sekarang kepala bayi. Saya gunakan Mauriceau - bayi ditunggangkan, jari menjaga fleksi kepala, tangan pada tengkuk, tarik sesuai sumbu jalan lahir. Bu, mari terus menarik napas.' [Jika gagal] [DOKTER]: 'Mauriceau gagal, saya akan panggil dokter SpOG untuk Piper.'",
+          "tone": "narrative",
+          "source": "§15 Mini-Skrip Manuver"
+        },
+        {
+          "text": "Mini-Skrip Komunikasi OSCE - Penutup Tindakan (Bayi Sudah Lahir): [DOKTER]: 'Selamat, Bu! Bayi sudah lahir dan akan dinilai oleh tim bayi. Ibu masih perlu pemantauan ketat untuk perdarahan, kontraksi rahim, tekanan darah, dan luka jalan lahir. Saya akan menjahit luka dan memberikan obat.' [PASIEN]: 'Terima kasih, Dok.' [DOKTER]: 'Ibu perlu observasi 1-2 jam. Saya jelaskan tanda bahaya: perdarahan banyak, pusing, demam, atau nyeri perut. Kalau ada, langsung panggil kami. Bayi akan dipantau oleh tim anak.'",
+          "tone": "narrative",
+          "source": "§15 Mini-Skrip Penutup"
+        },
+        {
+          "text": "Catatan perbedaan antara pasien awam vs pasien kooperatif: Pasien awam - bahasa lebih sederhana, jelaskan setiap langkah sebelum dilakukan, minta persetujuan verbal lebih sering. Pasien kooperatif - bisa lebih ringkas, tetapi tetap verbalisasi temuan dan edukasi. Pasien dengan gawat darurat - komunikasi lebih singkat, prioritaskan tatalaksana.",
+          "tone": "clinical",
+          "source": "§15 Catatan Pasien"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist Verbal Sebelum Mulai Tindakan (10 kalimat): (1) Sapa dan perkenalkan diri, (2) Jelaskan posisi bayi bokong, (3) Informasikan risiko, (4) Tanya persetujuan, (5) Mulai posisi litotomi, (6) APD lengkap dan cuci tangan, (7) Alat lengkap siap, (8) Pemeriksaan dalam terakhir, (9) Instruksi meneran, (10) Episiotomi dan oksitosin setelah bayi lahir.",
+          "source": "Lampiran D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip mini-skrip",
+          "text": "Setiap kalimat di Lampiran D adalah poin yang biasa dinilai. Berhenti sejenak setelah informed consent - penguji sering menilai apakah Anda benar-benar menunggu persetujuan atau langsung bergerak.",
+          "answer_evidence": "Modul OSCE ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan AI - checklist verbal",
+          "text": "Kalimat-kalimat checklist verbal adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi; pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario pasien.",
+          "answer_evidence": "Modul OSCE ObGyn FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_informed_consent_07",
+        "gls_presentasi_bokong_01"
+      ],
+      "bilingual": "SKDI 4A: kehamilan normal, ruptur perineum 1-2, anemia kehamilan, nifas. SKDI 3B: presentasi bokong (rujuk), PPH, asfiksia, preeklampsia. Mini-skrip 4 fase: pembukaan, meneran, manuver, penutup pasca bayi lahir."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri 30 item dengan bobot TINGGI/SEDANG. Kriteria 'Siap OSCE': minimal 27 dari 30 item tercentang, dan semua item TINGGI sudah dikuasai. Rencana belajar 3 hari: orientasi, latihan teknis dan verbal, simulasi penuh.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Checklist Latihan Mandiri terdiri dari 30 item latihan. Kriteria 'Siap OSCE': minimal 27 dari 30 item tercentang, dan semua item TINGGI sudah dikuasai. Item TINGGI mencakup: informed consent 8 poin, persiapan pasien, persiapan alat, persiapan penolong, panggil dokter anak dan anestesi, pemeriksaan dalam terakhir, instruksi meneran benar saat his, episiotomi mediolateral, injeksi oksitosin 10 IU IM setelah bayi lahir, teknik Klasik, Muller, Lovset, ekstraksi kaki, ekstraksi bokong, Mauriceau, Piper, penilaian Apgar, lahirkan plasenta dan periksa kelengkapan, jahit episiotomi/robekan derajat 1-2, observasi kala IV (1-2 jam), dekontaminasi alat, cuci tangan ulang, dokumentasi SOAP, edukasi keluarga, mengenali kapan harus merujuk, menjelaskan alasan memilih manuver, menjelaskan prinsip 'jangan menarik bayi'.",
+          "tone": "clinical",
+          "source": "§16 Checklist Latihan"
+        },
+        {
+          "text": "Item SEDANG: minta suami/keluarga mengulang tanda bahaya, penutup station yang sopan, menyebutkan kode ICD-10. Kesalahan Fatal yang Sering Menurunkan Skor - Kategori FATAL (skor hangus/nol untuk station): Melupakan informed consent tertulis; Tidak menyebut kesiapan dokter anak dan anestesi; Tidak mengosongkan kandung kemih dan tidak melakukan antisepsis perineum; Menarik bayi secara kasar; Menarik leher bayi saat Mauriceau; Memutar leher/kepala bayi saat Lovset; Tidak memantau waktu (8 menit tali pusat ke bayi lahir); Melupakan pemantauan kala IV; Salah manuver (Klasik dan Muller tertukar); Lupa bahwa Lovset spesifik untuk lengan menjungkit; Setelah bayi lahir langsung selesai.",
+          "tone": "clinical",
+          "source": "§18 Kesalahan Fatal"
+        },
+        {
+          "text": "Kategori PENGURANGAN BESAR (skor turun signifikan tapi tidak nol): Tidak menyebutkan Apgar bayi baru lahir; Tidak menjelaskan alasan memilih manuver tertentu; Tidak menyebut kode ICD-10 diagnosis utama; Tidak minta suami/keluarga mengulang tanda bahaya; Tidak menyebut batas waktu 8 menit (tali pusat lahir ke bayi lahir).",
+          "tone": "clinical",
+          "source": "§18 Pengurangan Besar"
+        },
+        {
+          "text": "Recovery Move (bila menyadari sudah membuat kesalahan di tengah station): Saat informed consent - 'Mohon maaf, Bu/Pak, saya akan mengulang penjelasan risiko tindakan.' (tetap sopan, tidak panik). Saat manuver - 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.' (penguji menghargai self-correction). Saat kala IV - 'Ibu, satu hal penting yang harus saya tambahkan: observasi perdarahan pascapersalinan.' (tambahkan poin yang lupa). Saat dokumentasi - 'Saya akan menuliskan [poin yang terlewat] di rekam medis.'",
+          "tone": "clinical",
+          "source": "§18 Recovery Move"
+        },
+        {
+          "text": "Rencana Belajar 3 Hari - Hari 1 Orientasi dan Pemahaman Dasar (60 menit): Pahami konsep presentasi bokong dan prinsip manual aid (§1, §2). Hafal 8 poin informed consent (§4) dan urutan persiapan (§6). Baca §3 (checklist) sekali penuh. Aktivitas: Baca §1 untuk konteks; Tulis ulang alur §2 dari ingatan tanpa melihat; Tulis ulang 8 poin informed consent; Tulis ulang urutan alat di §6; Pahami perbedaan Klasik, Muller, Lovset, Mauriceau (lihat Lampiran B). Sumber tambahan: RCOG Green-top Guideline No. 20b - Management of Breech Presentation; Video YouTube pertolongan persalinan sungsang (POGI, RCOG, dll.). Kriteria selesai: Bisa menyebutkan alur §2 dan 8 poin informed consent tanpa melihat catatan.",
+          "tone": "clinical",
+          "source": "§17 Rencana Belajar"
+        },
+        {
+          "text": "Hari 2 Latihan Teknis dan Verbal (90 menit): Hafal langkah manuver Klasik, Muller, Lovset, Mauriceau, Piper. Latihan mini-skrip komunikasi (§15). Latihan SOAP (§13) untuk 2 skenario. Aktivitas: Latihan di manekin sambil mengucapkan langkah-langkah dengan suara keras; Praktik urutan persiapan (APD, alat, tim); Praktik urutan manuver di manekin bayi; Tulis SOAP untuk skenario dari §13; Simulasikan skenario dari Lampiran C dengan teman sebagai 'pasien' atau 'penguji'. Sumber tambahan: Modul manual aid FKIK Universitas Jambi; Rekam suara sendiri, review kecepatan bicara. Kriteria selesai: Dapat menyelesaikan urutan manuver (verbalized) dalam 7-8 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "clinical",
+          "source": "§17 Rencana Belajar"
+        },
+        {
+          "text": "Hari 3 Simulasi Penuh dan Evaluasi (60 menit): Run-through penuh station (mulai informed consent sampai penutup). Identifikasi celah terakhir. Simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: Timer 10-12 menit, simulasi lengkap dari masuk station sampai keluar; Review §18 (kesalahan fatal) - pastikan tidak ada yang terlewat; Praktik skenario alternatif dari Lampiran C; Tidur cukup malam sebelumnya; OSCE bukan dihafal semalam. Sumber tambahan: Teman sebagai 'penguji' - feedback jujur; Rekam video latihan, review postur dan kontak mata.",
+          "tone": "clinical",
+          "source": "§17 Rencana Belajar"
+        },
+        {
+          "text": "Kriteria 'siap OSCE': Bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi. Tidak melewatkan item checklist §16 (minimal 27 dari 30). Bisa menjawab 1-2 pertanyaan penguji (misal: 'Kapan Bracht ke Klasik?', 'Apa beda Mauriceau dan Piper?') dengan baik. Merasa cukup percaya diri - bukan sempurna, tapi yakin dengan alur.",
+          "tone": "clinical",
+          "source": "§17 Kriteria Siap"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Yang penting: jangan panik dan jangan asal jawab saat ditegur oleh penguji.",
+          "source": "§18 Recovery"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL #1: Informed consent tertulis",
+          "text": "Melupakan informed consent tertulis - padahal file memulai checklist dengan persetujuan tindakan medis. Skor hangus.",
+          "answer_evidence": "Panduan Skill Lab Blok 6.1"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL #2: Kesiapan tim",
+          "text": "Tidak menyebut kesiapan dokter anak dan anestesi - pada sungsang, ini bukan detail kecil, melainkan keselamatan. Skor hangus.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL #3: Asepsis",
+          "text": "Tidak mengosongkan kandung kemih dan tidak melakukan antisepsis perineum. Skor hangus untuk asepsis.",
+          "answer_evidence": "WHO Intrapartum Care 2018"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL #4-7: Manuver salah",
+          "text": "Menarik bayi secara kasar; Menarik leher bayi saat Mauriceau; Memutar leher/kepala bayi saat Lovset (rotasi harus pada badan bayi); Tidak memantau waktu 8 menit. Semua = risiko cedera bayi, skor hangus.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pengurangan besar: Apgar",
+          "text": "Tidak menyebutkan Apgar bayi baru lahir. Skor turun untuk penilaian BBL. Selalu nilai napas, tonus, warna, frekuensi jantung bayi baru lahir.",
+          "answer_evidence": "Panduan Skill Lab Blok 6.1"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery move: Self-correction",
+          "text": "Saat manuver: 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.' Penguji menghargai self-correction. Yang penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "answer_evidence": "Modul OSCE FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_manuver_lovset_02",
+        "gls_mauriceau_smellie_veit_04",
+        "gls_ekstraksi_kaki_10"
+      ],
+      "bilingual": "Latihan mandiri 30 item; kriteria 'Siap OSCE' = 27/30 item tercentang + semua item TINGGI dikuasai. Rencana 3 hari: orientasi, latihan teknis+verbal, simulasi penuh. Jangan panik; self-correction dihargai penguji."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Lampiran A mencakup kontraindikasi pervaginam dan kondisi darurat. Lampiran B membandingkan 7 manuver. Lampiran C berisi 4 mini-case (mudah, sedang, sulit, PPH). Lampiran D berisi 10 kalimat checklist verbal. Referensi: RCOG, WHO, SKDI 2012.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "REFERENSI RINGKAS: Penuntun Belajar Praktek Keterampilan Klinik Melahirkan Bayi Presentasi Bokong Secara Manual Aid yang diberikan pengguna. Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi: menolong persalinan presentasi bokong tercantum sebagai kompetensi level 3 dan terkait APN/perawatan nifas. SKDI 2012 dan pemetaan SKDI 4A Obgyn yang diberikan pengguna: kehamilan normal, ruptur perineum 1-2, anemia kehamilan, perawatan nifas, red flags rujukan. RCOG. Management of Breech Presentation. Green-top Guideline No. 20b. WHO. Recommendations: intrapartum care for a positive childbirth experience. 2018.",
+          "tone": "narrative",
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "LAMPIRAN A - Kontraindikasi, Red Flags, dan Kondisi Khusus. Karena modul ini adalah prosedur persalinan sungsang, 'kontraindikasi' di sini lebih banyak merujuk pada kondisi yang menjadi kontraindikasi persalinan per vaginam (perlu SC) atau kondisi darurat yang perlu stabilisasi sebelum tindakan.",
+          "tone": "clinical",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "Kontraindikasi persalinan per vaginam: Plasenta previa total (plasenta menutupi OUE; persalinan per vaginam tidak mungkin, SC, jangan lakukan pervaginam). Panggul sempit (bagian terbesar/kepala tidak bisa melewati panggul, evaluasi pelvimetri, SC jika tidak memungkinkan). Riwayat SC klasik/T/vertikal (risiko ruptura uteri, SC terencana, hindari persalinan per vaginam). Prolaps tali pusat (kompresi tali pusat → gawat janin cepat, emergency SC atau reposisi di fasilitas dengan anestesi).",
+          "tone": "clinical",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "Kontraindikasi lain: Kehamilan preterm + presentasi bokong (risiko kompresi kepala, pertimbangkan SC terutama pada preterm <32 minggu). DJJ <110 atau >160 (gawat janin, tanda janin tidak sehat, stabilkan resusitasi intrauterin atau emergensi SC). Cairan ketuban hijau kental/mekonium (tanda gawat janin, risiko aspirasi mekonium, siap resusitasi BBL observasi ketat). Ibu dengan preeklampsia/eklampsia (risiko kejang perdarahan, stabilkan MgSO4 lalu rujuk). Ibu dengan syok/perdarahan aktif (tidak stabil untuk prosedur elektif, stabilkan rujuk).",
+          "tone": "clinical",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "Kontraindikasi lain (lanjutan): Fasilitas tidak lengkap (tanpa dokter anak, tanpa anestesi, tanpa bank darah) - risiko pada bayi dan ibu tidak tertangani, rujuk ke fasilitas yang lebih lengkap. Riwayat rupture uteri (risiko rupture berulang, SC, kontraindikasi absolut VBAC pada riwayat ruptur). Panggul android/android-platypelloid (ukuran panggul tidak memungkinkan kepala bayi lahir, SC pertimbangkan pelvimetri klinis). Tumor jalan lahir (mioma besar, kista ovarium) - menghalangi jalan lahir, evaluasi SC atau pengangkatan tumor. Presentasi majemuk/compound (tangan/kaki menumbung bersama presentasi utama, evaluasi ulang sering perlu SC).",
+          "tone": "clinical",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "Catatan tambahan: Banyak kondisi di Lampiran A yang sebenarnya kontraindikasi mutlak persalinan per vaginam, bukan kontraindikasi mutlak pertolongan persalinan sungsang secara umum. Mahasiswa OSCE cukup menyebutkan kapan harus rujuk atau SC, tidak perlu menguasai semua indikasi SC.",
+          "tone": "clinical",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "LAMPIRAN B - Perbandingan Manuver yang Sering Tertukar. Klasik: melahirkan bahu/lengan belakang; gerakan utama tarik kaki ke arah atas kontralateral untuk membuka bahu belakang, keluarkan lengan belakang dengan jari sejajar lengan; jangan sampai salah - jangan menarik lengan tegak lurus yang dapat mencederai humerus/pleksus. Muller: melahirkan bahu/lengan depan; gerakan utama tarik kedua kaki curam ke bawah kontralateral dari letak bahu depan; jangan sampai salah - jangan lupa lanjutkan bahu belakang setelah bahu depan lahir. Lovset: melahirkan kedua bahu/lengan melalui rotasi; gerakan utama pegang badan bayi rotasi 180 derajat ke arah lengan menjungkit lalu balik 180 derajat; jangan sampai salah - jangan memutar leher/kepala, rotasi pada badan bayi dengan kontrol.",
+          "tone": "clinical",
+          "source": "Lampiran B"
+        },
+        {
+          "text": "Lampiran B (lanjutan): Ekstraksi Kaki: melahirkan kaki (bila kala II macet/gawat); gerakan utama tangan masuk menelusuri bokong-paha-lutut, fleksi-abduksi, tuntun pergelangan kaki keluar; jangan sampai salah - jangan menarik sebelum waktu, pastikan kedua kaki sudah dipegang. Ekstraksi Bokong: melahirkan bokong (pada bokong murni yang sudah turun); gerakan utama jari penunjuk mengait lipatan paha/krista iliaka bagian depan, menarik curam ke bawah; jangan sampai salah - lebih sulit dari ekstraksi kaki, jangan memaksa. Mauriceau: melahirkan kepala aftercoming; gerakan utama bayi ditunggangkan pada lengan, jari menjaga fleksi, tangan lain pada bahu/tengkuk, tarik sesuai sumbu; jangan sampai salah - jangan menarik leher, fokus fleksi dan sumbu jalan lahir.",
+          "tone": "clinical",
+          "source": "Lampiran B"
+        },
+        {
+          "text": "Lampiran B (lanjutan): Piper: melahirkan kepala aftercoming bila metode manual gagal; gerakan utama forceps khusus dipasang saat badan bayi diangkat/dibungkus steril; jangan sampai salah - ini perlu operator terlatih, dalam OSCE sebut panggil bantuan. Bracht (lihat modul terkait): melahirkan badan bayi spontan, kepala lahir dengan hiperlordosis; gerakan utama pegang panggul bayi, longgarkan tali pusat, dorongan fundus + hiperlordosis saat angulus skapula inferior tampak; jangan sampai salah - jangan menarik, prinsip menuntun bukan menarik.",
+          "tone": "clinical",
+          "source": "Lampiran B"
+        },
+        {
+          "text": "Prinsip umum semua manuver: (1) Jangan menarik bayi secara kasar - prinsip menuntun, bukan menarik. (2) Pilih manuver sesuai masalah - bahu/lengan/kepala punya manuver berbeda. (3) Verbalisasi pilihan - sebutkan alasan memilih manuver. (4) Eskalasi - bila manuver gagal, panggil operator terlatih (SpOG).",
+          "tone": "clinical",
+          "source": "Lampiran B"
+        },
+        {
+          "text": "LAMPIRAN C - OSCE Mini-Case untuk Latihan Cepat. Skenario Mudah (Persalinan Sungsang dengan Bracht Berhasil): Kasus - Ny. Aminah, 28 tahun, G2P1A0, hamil 38 minggu. Kala II, presentasi bokong frank, bokong sudah di dasar panggul. Kontraksi adekuat, DJJ 140 x/menit. Ibu sudah informed consent. Tim lengkap. Pertanyaan pemandu: Apa diagnosis kerja? Langkah awal apa yang harus dilakukan? Manuver apa yang akan dipilih bila bokong lahir spontan? Bagaimana monitoring pasca-tindakan? Kunci jawaban: Diagnosis - G2P1A0, hamil 38 minggu, kala II, presentasi bokong frank, fetus hidup. Langkah awal - informed consent (sudah), persiapan alat + tim, posisi litotomi, antiseptik perineum, episiotomi mediolateral, oksitosin setelah bayi lahir. Manuver - Bracht (lihat modul Bracht) hiperlordosis, ibu tidak menarik, kepala lahir dengan fleksi. Monitoring - Apgar BBL, plasenta, kala IV (TTV, kontraksi, perdarahan), laktasi/IMD, edukasi. Jebakan nilai: Lupa informed consent, lupa panggil dokter anak, menarik bayi.",
+          "tone": "narrative",
+          "source": "Lampiran C Skenario 1"
+        },
+        {
+          "text": "Skenario Sedang (Bahu Tertahan - Bracht Gagal): Kasus - Ny. Aminah, 28 tahun, presentasi bokong frank, kala II. Setelah bokong lahir, bahu bayi tidak lahir. DJJ 130 x/menit. Tim lengkap. Pertanyaan pemandu: Apakah bokong sudah lahir? Apa diagnosis masalahnya? Manuver apa yang akan dipilih? Bagaimana urutannya? Kunci jawaban: Bokong sudah lahir, badan bayi lahir sampai pusar/di atas. Diagnosis - bahu tertahan (shoulder dystocia pada sungsang). Manuver: Klasik (bahu belakang dulu) pilihan utama, Muller (bahu depan dulu) alternatif, Lovset (bila lengan menjungkit/nuchal arm) spesifik. Urutan - kendorkan tali pusat → tarik kaki sesuai arah → lahirkan bahu/lengan belakang → lahirkan bahu/lengan depan → lanjutkan Mauriceau untuk kepala. Jebakan nilai: Menarik bayi, salah manuver, lupa eskalasi.",
+          "tone": "narrative",
+          "source": "Lampiran C Skenario 2"
+        },
+        {
+          "text": "Skenario Sulit (Kepala Aftercoming + Asfiksia BBL): Kasus - Ny. Aminah, 28 tahun, presentasi bokong frank. Setelah bahu dan lengan lahir dengan Klasik, kepala bayi tidak turun. Tali pusat sudah lahir 5 menit. DJJ turun menjadi 90 x/menit. Pertanyaan pemandu: Apa diagnosisnya? Apa langkah pertama? Manuver apa yang akan dipilih? Apa eskalasi yang tepat? Bagaimana monitoring BBL? Kunci jawaban: Diagnosis - kepala aftercoming tertahan + gawat janin. Langkah pertama - jangan panik, jangan menarik bayi, Mauriceau dengan menjaga fleksi kepala. Manuver - Mauriceau (jari di mulut bayi untuk menjaga fleksi, tangan pada tengkuk, tarik sesuai sumbu jalan lahir). Eskalasi - bila Mauriceau gagal, panggil SpOG untuk Piper forceps, sambil menunggu pertahankan posisi bayi (jangan lepas). Monitoring BBL - setelah bayi lahir, tim neonatus menilai Apgar, resusitasi sesuai algoritme (hangatkan, posisi, bersihkan, stimulasi, ventilasi), aspirasi mekonium bila perlu. Jebakan nilai: Menarik leher bayi, tidak memanggil SpOG, terlambat resusitasi, tidak menyebut batas waktu 8 menit.",
+          "tone": "narrative",
+          "source": "Lampiran C Skenario 3"
+        },
+        {
+          "text": "Skenario Tambahan - PPH Pasca-Persalinan Sungsang: Kasus - Ny. Aminah, 28 tahun, post persalinan sungsang dengan Bracht + manual aid. Plasenta lahir lengkap 10 menit kemudian. Perdarahan mulai banyak, uterus teraba lembek. TTV: TD 90/60, N 120, pucat. Pertanyaan pemandu: Apa diagnosisnya? Langkah pertama apa? Tatalaksana awal apa? Kapan harus rujuk? Kunci jawaban: Diagnosis - Perdarahan postpartum (PPH) karena atonia uteri. Langkah pertama - panggil bantuan, akses IV 2 jalur, oksigen, infus kristaloid. Tatalaksana awal: masase uterus bimanual, uterotonika (oksitosin 10 IU IM/IV → metilergometrin 0,2 mg IM/IV (kontraindikasi hipertensi) → misoprostol 800 μg rektal), kompresi bimanual (kalau perlu), cari laserasi jalan lahir. Rujuk - ke RS dengan bank darah, segera. Jebakan nilai: Lupa uterotonika, lupa masase bimanual, terlambat rujuk.",
+          "tone": "narrative",
+          "source": "Lampiran C Skenario 4"
+        },
+        {
+          "text": "LAMPIRAN D - Checklist Verbal Sebelum Mulai Tindakan (10 kalimat siap pakai): (1) 'Selamat pagi, Ibu Aminah. Saya dokter muda yang akan membantu persalinan ini bersama tim. Saya akan menjelaskan diagnosis, rencana, dan risiko tindakan.' (2) 'Posisi bayi saat ini bokong di bawah. Persalinan seperti ini lebih berisiko sehingga kami perlu melakukan bantuan persalinan dengan tim lengkap.' (3) 'Risiko yang mungkin terjadi: perdarahan, robekan jalan lahir, bayi sulit lahir, bayi perlu resusitasi, atau tindakan tambahan. Tim kami lengkap, dokter anak dan anestesi sudah siap.' (4) 'Apakah Ibu dan keluarga ada pertanyaan? Apakah Ibu bersedia? Mohon tanda tangan di lembar persetujuan.' (5) 'Ibu, kita mulai dengan posisi litotomi. Saya kosongkan kandung kemih dan bersihkan perineum dengan antiseptik.'",
+          "tone": "narrative",
+          "source": "Lampiran D"
+        },
+        {
+          "text": "Lampiran D (lanjutan): (6) 'Saya pakai sarung tangan steril dan APD lengkap. Saya cuci tangan sampai siku dengan antiseptik.' (7) 'Alat sudah lengkap: set persalinan, resusitasi bayi, oksitosin, lidokain, forceps Piper, infus, antiseptik, set episiotomi/jahit.' (8) 'Saya lakukan pemeriksaan dalam terakhir. Pembukaan lengkap, bokong sudah di dasar panggul, ketuban baru pecah jernih, tidak ada prolaps tali pusat.' (9) 'Saat kontraksi: tarik napas dalam, tutup mulut, dagu ke dada, tangan merangkul paha, meneran ke bawah seperti BAB.' (10) 'Saya lakukan episiotomi mediolateral. Setelah bayi lahir, saya berikan oksitosin 10 IU IM. Saya pantau kala IV ketat.'",
+          "tone": "narrative",
+          "source": "Lampiran D"
+        },
+        {
+          "text": "Saran Visual dan Prompt AI: (1) Jenis presentasi bokong - Infografik tiga jenis presentasi bokong: frank breech, complete breech, footling breech. Tujuan: Membedakan frank/complete/footling breech. (2) Posisi litotomi persalinan sungsang - Ilustrasi skill lab manekin persalinan posisi litotomi, tim obstetri, set resusitasi bayi siap. Tujuan: Memahami posisi ibu dan tim. (3) Manuver Lovset - Diagram 4 panel manuver Lovset pada manekin bayi sungsang, panah rotasi 180 derajat. Tujuan: Memahami rotasi 180 derajat. (4) Manuver Mauriceau-Smellie-Veit - Ilustrasi medis Mauriceau untuk kepala aftercoming, label tangan, arah tarikan. Tujuan: Memahami fleksi kepala dan posisi tangan. (5) Alur pascatindakan kala IV - Infografik kala IV: TTV, kontraksi uterus, perdarahan, kandung kemih, plasenta, luka, dokumentasi. Tujuan: Menghafal monitoring setelah bayi lahir. (6) Perbandingan manuver - Tabel visual perbandingan Klasik, Muller, Lovset, Mauriceau, Piper. Tujuan: Menghafal perbedaan manuver.",
+          "tone": "clinical",
+          "source": "§19 Saran Visual"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Prompt AI 1 (Jenis presentasi bokong): 'Infografik medis tiga jenis presentasi bokong janin: frank breech (kaki tertekuk di paha), complete breech (kaki tertekuk di paha dan lutut), footling breech (kaki lebih rendah dari bokong). Label Bahasa Indonesia, gaya clean medical illustration, warna natural.'",
+          "source": "§19 Prompt AI"
+        },
+        {
+          "text": "Prompt AI 2 (Manuver Lovset): 'Diagram 4 panel manuver Lovset pada manekin bayi sungsang. Panel 1: posisi awal, bayi di lengan operator. Panel 2: rotasi 180 derajat ke arah lengan menjungkit. Panel 3: rotasi balik 180 derajat berlawanan. Panel 4: bahu/lengan lahir. Label Bahasa Indonesia, panah rotasi, gaya edukatif non-realistis.'",
+          "source": "§19 Prompt AI"
+        },
+        {
+          "text": "Prompt AI 3 (Mauriceau): 'Ilustrasi medis manuver Mauriceau untuk kepala aftercoming pada persalinan sungsang. Tampak: bayi ditunggangkan pada lengan, jari tengah masuk mulut bayi (fleksi), jari telunjuk dan jari keempat menekan fossa kanina, tangan lain memegang bahu-tengkuk. Label Bahasa Indonesia: mulut, fossa kanina, bahu, tengkuk, arah tarikan. Gaya clean medical illustration.'",
+          "source": "§19 Prompt AI"
+        },
+        {
+          "text": "Prompt tambahan (mini-case generator): 'Buatkan 3 skenario OSCE persalinan presentasi bokong tingkat mudah, sedang, sulit. Setiap skenario berisi: identitas pasien fiktif, keluhan utama, data klinis (HPHT, paritas, pembukaan, presentasi, DJJ), pertanyaan pemandu, dan kunci jawaban. Berikan variasi skenario (misalnya: bokong frank dengan bokong di dasar panggul, presentasi majemuk, atau komplikasi kala IV).'",
+          "source": "§19 Prompt Tambahan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Catatan tambahan Lampiran A",
+          "text": "Banyak kondisi di Lampiran A yang sebenarnya kontraindikasi mutlak persalinan per vaginam, bukan kontraindikasi mutlak pertolongan persalinan sungsang secara umum. Mahasiswa OSCE cukup menyebutkan kapan harus rujuk atau SC, tidak perlu menguasai semua indikasi SC.",
+          "answer_evidence": "Penuntun Belajar Praktek Keterampilan Klinik FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan penting referensi",
+          "text": "Keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual. Modul ini adalah panduan belajar, bukan protokol tetap pada pasien nyata.",
+          "answer_evidence": "RCOG Green-top Guideline No. 20b; WHO Intrapartum Care 2018"
+        }
+      ],
+      "visual_refs": [
+        "visual_bokong_jenis_presentasi_01",
+        "visual_bokong_kala_iv_05",
+        "visual_bokong_manuver_table_06"
+      ],
+      "glossary_refs": [
+        "gls_presentasi_bokong_01",
+        "gls_manuver_lovset_02",
+        "gls_mauriceau_smellie_veit_04",
+        "gls_aftercoming_head_03",
+        "gls_persalinan_sungsang_15"
+      ],
+      "bilingual": "Lampiran A: kontraindikasi pervaginam (plasenta previa, panggul sempit, riwayat SC klasik). Lampiran B: perbandingan 7 manuver. Lampiran C: 4 mini-case (mudah, sedang, sulit, PPH). Lampiran D: 10 kalimat checklist verbal. Referensi: RCOG, WHO, SKDI 2012."
+    }
+  ]
+}

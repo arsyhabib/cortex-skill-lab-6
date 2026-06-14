@@ -1,0 +1,1034 @@
+{
+  "id": "sken_neuropsiki_004",
+  "title": "Stasiun 4 — Sulit Tidur dan Mudah Lelah",
+  "subtitle": "Skenario insomnia kronik dengan faktor perilaku tidur buruk dan kecemasan situasional ringan pada perempuan 56 tahun: menguji wawancara psikiatri (MSE), skrining risiko bunuh diri/mania/zat, penilaian kognitif MMSE, sleep hygiene/CBT-I, dan edukasi safety net.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_2",
+  "source_files": [
+    "SOAL_04_INSOMNIA_PESERTA_BUTA.md",
+    "SOAL_04_INSOMNIA_PENDAMPING.md",
+    "SOAL_04_INSOMNIA_BLUEPRINT.md"
+  ],
+  "topicTags": [
+    "osce_skenario",
+    "psikiatri",
+    "insomnia",
+    "neurobehavior",
+    "sleep_history",
+    "cbti",
+    "skrining_depresi",
+    "skrining_anxietas",
+    "sleep_hygiene",
+    "farmakologi_insomnia_hati_hati"
+  ],
+  "summary": [
+    "Situasi klinis: Ibu Mira, 56 tahun, pedagang, datang ke poliklinik umum/psikiatri dasar dengan keluhan sulit tidur 4 bulan, tidur 4-5 jam/malam 4-5 malam per minggu, siang lelah, mudah marah, konsentrasi menurun. Minum kopi sore/malam, main HP di tempat tidur sampai larut. Keluhan pelupa subjektif; aktivitas harian masih mandiri. Tidak ada pikiran bunuh diri, maniak/psikosis, OSA, atau penggunaan zat.",
+    "Skill utama yang diuji: wawancara psikiatri (MSE), skrining risiko bunuh diri/mania/zat, penilaian kognitif (MMSE bila relevan), sleep history terstruktur, sleep hygiene/CBT-I, dan komunikasi empatik non-judgmental.",
+    "Komponen anamnesis kritis: onset, durasi, tipe insomnia (onset/maintenance/early awakening), frekuensi, total sleep time, dampak siang, faktor perilaku (kafein, layar, olahraga), faktor medis/obat/zat, dan skrining mood/ansietas/trauma.",
+    "Pemeriksaan fisik kunci: TTV, BMI, inspeksi tiroid, neurologis kasar, MSE (penampilan, perilaku, mood/afek, proses/isi pikir, persepsi, kognisi, insight), dan MMSE 29/30 yang menyingkirkan demensia. Refleks regresi negatif menyingkirkan frontal release signs patologis.",
+    "Diagnosis kerja: Insomnia kronik dengan faktor perilaku tidur buruk (kafein sore/malam, layar di tempat tidur) dan kecemasan situasional ringan. DD utama: gangguan cemas, depresi, hipertiroid, OSA, restless legs syndrome, efek obat/kafein, gangguan neurokognitif, gangguan bipolar/mania.",
+    "Tatalaksana yang diharapkan: CBT-I sebagai terapi utama (sleep hygiene, stimulus control, pembatasan waktu di tempat tidur, relaksasi), modifikasi perilaku (hentikan kafein sore/malam, hindari layar di tempat tidur), manajemen stres. Hindari hipnotik jangka panjang; follow-up 2-4 minggu dengan sleep diary.",
+    "Critical error paling penting: tidak menanyakan ide bunuh diri/mania/psikosis; langsung meresepkan hipnotik jangka panjang tanpa evaluasi penyebab; meremehkan keluhan 'hanya stres' tanpa MSE; tidak skrining OSA/medis/obat/zat.",
+    "Total 100 poin — komponen terbesar: anamnesis tidur lengkap 18 poin, wawancara psikiatri dan risiko 18 poin, dan tatalaksana/edukasi 14 poin."
+  ],
+  "exam_focus": [
+    "Lakukan sleep history terstruktur: onset, durasi, sleep onset insomnia vs sleep maintenance vs early morning awakening, frekuensi per minggu, total sleep time, dampak siang hari (fatigue, mood, kognisi), dan sleep diary.",
+    "Wajib skrining ide bunuh diri, rencana, percobaan, self-harm, ide kekerasan, mania/hipomania, psikosis, dan penggunaan zat/alkohol pada setiap pasien dengan gangguan tidur bermakna.",
+    "CBT-I (Cognitive Behavioral Therapy for Insomnia) adalah first-line untuk insomnia kronik — komponen: sleep hygiene, stimulus control, sleep restriction, cognitive therapy, relaksasi. Bukan obat tidur.",
+    "Hipnotik (benzodiazepin, Z-drugs) BUKAN terapi utama insomnia kronik; hanya jangka pendek dengan evaluasi risiko. Hindari benzodiazepin jangka panjang tanpa indikasi kuat (risiko toleransi, dependensi, jatuh pada lansia).",
+    "Skrining penyebab sekunder insomnia: depresi (PHQ-9), ansietas (GAD-7), OSA (dengkur keras, henti napas, kantuk siang), restless legs syndrome, nyeri kronik, GERD, nokturia, hipertiroid, efek obat (steroid, stimulant, beta-agonis, dekongestan, antidepresan).",
+    "Faktor perilaku yang mempertahankan insomnia: kafein sore/malam, alkohol, nikotin, layar elektronik di tempat tidur, olahraga malam, tidur siang lama, jadwal tidur tidak konsisten, menggunakan kasur untuk aktivitas selain tidur.",
+    "Sleep hygiene (dasar): jadwal tidur-bangun konsisten, kasur hanya untuk tidur, kamar gelap/sejuk/tenang, hindari kafein setelah siang, hindari alkohol dekat tidur, olahraga teratur tapi tidak dekat tidur, hindari layar 1 jam sebelum tidur.",
+    "Red flags psikiatri yang harus selalu diskrining pada insomnia: pikiran bunuh diri, perilaku sangat berenergi tanpa tidur (mania), halusinasi, depresi berat dengan anhedonia, mendengkur keras dengan henti napas, penurunan fungsi berat — semua memerlukan evaluasi/rujukan."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_insomnia_definition_01",
+      "term": "Insomnia Kronik",
+      "def": "Kesulitan memulai tidur, mempertahankan tidur, atau bangun terlalu pagi dengan dampak siang hari (fatigue, mood, kognisi) yang terjadi minimal 3 malam per minggu selama ≥3 bulan, meskipun ada kesempatan tidur yang cukup. Bukan semata-mata gejala gangguan lain (depresi, ansietas) dan menyebabkan distress/kemunduran fungsi.",
+      "type": "clinical",
+      "aliases": [
+        "Chronic insomnia disorder",
+        "Insomnia persisten"
+      ]
+    },
+    {
+      "id": "gls_sken_insomnia_procedure_02",
+      "term": "Mental Status Examination (MSE)",
+      "def": "Penilaian status mental terstruktur: Appearance, Behavior, Speech, Mood (subjektif), Affect (objektif), Thought process, Thought content (waham, obsesi, ide bunuh diri), Perception (halusinasi), Cognition (orientasi, atensi, memori, abstraksi), Insight, Judgement. Wajib dilakukan pada setiap pasien psikiatri.",
+      "type": "procedure",
+      "aliases": [
+        "MSE",
+        "Pemeriksaan status mental"
+      ]
+    },
+    {
+      "id": "gls_sken_insomnia_procedure_03",
+      "term": "Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+      "def": "Terapi non-farmakologi first-line untuk insomnia kronik. Komponen: sleep hygiene, stimulus control (kasur hanya untuk tidur), sleep restriction, cognitive therapy (mengubah pikiran maladaptif tentang tidur), dan relaksasi. Efektif dalam 4-8 minggu, bertahan lebih lama daripada obat tidur.",
+      "type": "procedure",
+      "aliases": [
+        "CBT-I",
+        "Terapi kognitif perilaku insomnia"
+      ]
+    },
+    {
+      "id": "gls_sken_insomnia_score_04",
+      "term": "MMSE (Mini-Mental State Examination)",
+      "def": "Skrining kognitif 30 poin: orientasi (10), registrasi (3), atensi/kalkulasi (5), recall (3), bahasa & konstruksi (9). Skor 24-30 normal, 18-23 gangguan kognitif ringan-sedang, <18 berat. Pada skenario ini, MMSE 29/30 menyingkirkan gangguan neurokognitif mayor; keluhan lupa mungkin terkait kurang tidur/ansietas.",
+      "type": "score",
+      "aliases": [
+        "MMSE",
+        "Mini-Mental State Examination"
+      ]
+    },
+    {
+      "id": "gls_sken_insomnia_score_05",
+      "term": "PHQ-9 & GAD-7",
+      "def": "Skrining standar untuk depresi (PHQ-9, 9 item, skor 0-27) dan ansietas (GAD-7, 7 item, skor 0-21). Skor ≥10 menandakan gejala sedang. Pada insomnia, PHQ-9 dan GAD-7 membantu menyingkirkan komorbid mood/ansietas yang memerlukan tata laksana spesifik.",
+      "type": "score",
+      "aliases": [
+        "PHQ-9",
+        "GAD-7",
+        "Skrining depresi dan ansietas"
+      ]
+    },
+    {
+      "id": "gls_sken_insomnia_drug_06",
+      "term": "Hipnotik (Benzodiazepin & Z-Drugs)",
+      "def": "Obat yang menekan sistem saraf pusat untuk induksi tidur. Benzodiazepin (contoh: lorazepam, diazepam) bekerja pada reseptor GABA-A. Z-drugs (zolpidem, zaleplon, eszopiclone) lebih selektif reseptor BZ1. Pada insomnia kronik, penggunaan jangka panjang tidak direkomendasikan karena risiko toleransi, dependensi, jatuh (terutama lansia), dan rebound insomnia.",
+      "type": "drug",
+      "aliases": [
+        "Hipnotik",
+        "Obat tidur",
+        "BZDs",
+        "Z-drugs"
+      ]
+    },
+    {
+      "id": "gls_sken_insomnia_dd_07",
+      "term": "Obstructive Sleep Apnea (OSA)",
+      "def": "Gangguan napas saat tidur dengan episode berulang kolaps jalan napas atas, menyebabkan dengkur keras, henti napas witnessed, hipersomnia siang, dan sering terbangun. Komorbid insomnia cukup sering. Diagnosis dengan polysomnography. Tatalaksana: CPAP, penurunan berat badan, posisi tidur.",
+      "type": "clinical",
+      "aliases": [
+        "OSA",
+        "Sleep apnea",
+        "Henti napas saat tidur"
+      ]
+    },
+    {
+      "id": "gls_sken_insomnia_dd_08",
+      "term": "Restless Legs Syndrome (RLS)",
+      "def": "Gangguan sensorimotor dengan dorongan tidak nyaman untuk menggerakkan tungkai, memburuk saat istirahat/malam, membaik dengan gerakan. Sering menyebabkan sleep onset insomnia. Diagnosis klinis; tatalaksana: cek ferritin (target >75 ng/mL), dopamin agonis (pramipexole, ropinirole), gabapentin.",
+      "type": "clinical",
+      "aliases": [
+        "RLS",
+        "Sindrom kaki gelisah",
+        "Willis-Ekbom disease"
+      ]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis yang diterima peserta dan daftar tugas yang harus diselesaikan dalam 12 menit stasiun insomnia.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Seorang pasien dewasa datang ke poliklinik umum/psikiatri dasar dengan keluhan sulit tidur dan mudah lelah yang mengganggu aktivitas harian. Peserta berperan sebagai dokter muda yang menerima pasien pertama kali. Durasi 12 menit. Peserta harus melakukan wawancara klinis terarah, pemeriksaan status mental dan pemeriksaan lain yang dianggap relevan, meminta data penunjang bila diperlukan, lalu menyampaikan diagnosis kerja, diagnosis banding, tatalaksana awal, dan edukasi. Peserta dijaga untuk tetap empati, menjaga privasi, tidak menghakimi, dan menyaring penyebab medis, psikiatrik, penggunaan zat/obat, serta risiko keselamatan.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Wawancara klinis terarah (keluhan utama, sleep history, faktor perilaku, skrining psikiatri dan risiko)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Pemeriksaan status mental (MSE) dan pemeriksaan fisik relevan (TTV, BMI, tiroid, neurologis kasar)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Penilaian kognitif (MMSE) dan refleks regresi bila relevan",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Minta penunjang spesifik dengan alasan klinis, sampaikan diagnosis kerja, DD, tatalaksana (CBT-I + sleep hygiene), edukasi, dan tanda bahaya",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Jaga empati, privasi, dan keselamatan. Jangan menghakimi keluhan pasien. Saring penyebab medis, psikiatrik, penggunaan zat/obat, dan risiko keselamatan. Hasil pemeriksaan kognitif/fisik akan diberikan penguji bila diminta dan dilakukan dengan instruksi yang benar.",
+          "answer_evidence": null
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Komunikasi Empatik & Privasi",
+          "text": "Sebelum bertanya tentang pikiran bunuh diri, penggunaan zat, atau pikiran menyakiti orang lain, jelaskan bahwa pertanyaan ini rutin dan penting untuk keselamatan pasien. Jaga non-judgmental dan validasi keluhannya.",
+          "answer_evidence": "BLUEPRINT — Pembukaan, privasi, empati (10 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_definition_01",
+        "gls_sken_insomnia_procedure_02"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting, durasi, skill yang diuji, dan distribusi 100 poin penilaian untuk stasiun insomnia.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Stasiun berlangsung 12 menit di poliklinik umum/psikiatri dasar. Peserta menerima soal buta saat masuk, 1 menit membaca, 10-11 menit performa, dan 1-2 menit untuk rangkum/feedback. Penguji memberikan data TTV, pemeriksaan fisik, dan penunjang hanya bila peserta meminta atau menyebutkan prosedur dengan benar. Total 100 poin dengan 9 kategori utama. Critical error dapat menggugurkan kelulusan meski skor angka cukup.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skill yang diuji di stasiun ini:",
+          "sub": [
+            "Wawancara dan Pemeriksaan Psikiatri (MSE)",
+            "Pemeriksaan MMSE (skrining kognitif)",
+            "Pemeriksaan Refleks Regresi (skrining neurokognitif)",
+            "Roadmap Neurobehavior",
+            "IPM: TTV, head-to-toe, penunjang, edukasi"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Komponen penilaian 100 poin:",
+          "sub": [
+            "Pembukaan, privasi, empati: 10",
+            "Anamnesis tidur lengkap: 18",
+            "Faktor perilaku, zat, obat, medis: 14",
+            "Wawancara psikiatri dan risiko: 18",
+            "MSE: 12",
+            "TTV, head-to-toe, neurologis singkat: 8",
+            "MMSE dan refleks regresi bila relevan: 10",
+            "Penunjang rasional: 6",
+            "Diagnosis, tatalaksana, edukasi: 14"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1 menit baca soal (fokus: sulit tidur + mudah lelah pada perempuan 56 tahun) → 1-2 menit pembukaan empatik + informed consent + jelaskan pertanyaan sensitif → 5-6 menit anamnesis tidur + skrining psikiatri + risiko → 2-3 menit MSE + TTV + MMSE/refleks regresi → 1-2 menit tatalaksana (CBT-I + sleep hygiene) + edukasi + rangkum. Skrining risiko bunuh diri/mania/zat HARUS dilakukan meskipun waktunya terbatas.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_definition_01",
+        "gls_sken_insomnia_score_04"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggunakan file pendamping, naskah pembuka probandus, dan poin anamnesis tidur/psikiatri yang tersedia.",
+      "estimated_time_minutes": 6,
+      "content": [
+        {
+          "text": "Satu orang pendamping dapat merangkap sebagai probandus dan penguji. Saat berperan sebagai probandus, berikan informasi hanya bila ditanya peserta; jangan membocorkan diagnosis. Saat berperan sebagai penguji, berikan hasil TTV, pemeriksaan fisik, dan penunjang hanya bila peserta meminta atau menyebutkan prosedur dengan benar. Gunakan checklist 100 poin untuk memberi skor objektif. Critical error dapat membuat peserta tidak lulus station meskipun skor angka cukup.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus: \"Dok, saya susah tidur sudah beberapa bulan. Siang jadi lemas dan gampang lupa.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Identitas: Ibu Mira, 56 tahun, pedagang, datang sendiri. Kooperatif, cemas ringan, tampak lelah. Jangan langsung mengaku minum kopi malam atau main HP di tempat tidur kecuali ditanya. Bila ditanya bunuh diri, jawab jujur TIDAK ada. Keluhan pelupa hanya subjektif; aktivitas harian masih mandiri.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pola tidur: sulit mulai tidur dan sering terbangun. Tidur sekitar 4-5 jam/malam, 4-5 malam per minggu, selama 4 bulan",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Dampak siang: lelah, mudah marah, konsentrasi menurun saat berdagang, tetapi masih mandiri mengurus keuangan dan rumah",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Faktor pencetus: banyak pikiran tentang anak dan usaha. Sering minum kopi sore/malam. Sering menonton HP di tempat tidur sampai larut",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Mood dan cemas: merasa khawatir, tetapi TIDAK kehilangan minat berat, TIDAK merasa tidak berharga berat. Nafsu makan cukup",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Risiko: TIDAK ada pikiran bunuh diri, menyakiti orang lain, halusinasi, waham, episode sangat berenergi tanpa tidur, perilaku impulsif, atau penggunaan narkoba. Alkohol disangkal",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "OSA/medis: TIDAK mendengkur keras menurut keluarga, TIDAK tersedak saat tidur, TIDAK mengantuk sampai tertidur saat berkendara. TIDAK nyeri dada/sesak malam. TIDAK ada gejala hipertiroid mencolok",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Obat: kadang minum obat flu yang dibeli sendiri. Belum minum obat tidur dokter",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Skrining Risiko Wajib",
+          "text": "Peserta yang TIDAK menanyakan pikiran bunuh diri, rencana, percobaan, atau pikiran menyakiti orang lain kehilangan poin besar di Wawancara Psikiatri dan Risiko (18 poin) — dan ini adalah critical error #1. Skrining ini tetap harus dilakukan pada pasien 56 tahun dengan insomnia kronik.",
+          "answer_evidence": "BLUEPRINT — Wawancara psikiatri dan risiko (18 poin) + Critical Error 1"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_definition_01",
+        "gls_sken_insomnia_procedure_02",
+        "gls_sken_insomnia_dd_07"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV, MSE, dan temuan pemeriksaan kognitif yang tersedia untuk diberikan kepada peserta bila diminta secara spesifik.",
+      "estimated_time_minutes": 4,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau prosedur yang diperiksa. Penguji tidak memberikan data spontan — peserta harus menunjukkan inisiatif dan kemampuan melakukan/merinci prosedur dengan benar.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital: TD 126/78 mmHg | Nadi 86 x/menit | RR 18 x/menit | Suhu 36,6°C | SpO2 99% RA | BMI 23 kg/m² (normal)",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Head-to-toe: konjungtiva tidak pucat nyata, tidak tremor halus, tidak eksoftalmus, tiroid tidak membesar, jantung-paru normal, abdomen normal, tidak ada nyeri muskuloskeletal berat, tidak ada edema",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status neurologis awal: GCS 15, orientasi baik, motorik-sensorik kasar normal, gait normal",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan status mental (MSE) — bila diminta:",
+          "sub": [
+            "Penampilan: rapi",
+            "Kontak mata: cukup",
+            "Psikomotor: normal",
+            "Bicara: koheren",
+            "Mood (subjektif): 'cemas dan lelah'",
+            "Afect (objektif): cemas ringan, kongruen",
+            "Proses pikir: logis",
+            "Isi pikir: kekhawatiran realistis, TIDAK ada waham/obsersi berat",
+            "Persepsi: TIDAK ada halusinasi",
+            "Kognisi: tampak baik",
+            "Insight: cukup",
+            "Judgement: cukup",
+            "Impuls: baik"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Risiko bunuh diri/kekerasan (wajib ditanya):",
+          "sub": [
+            "Ide bunuh diri: TIDAK ADA",
+            "Rencana: TIDAK ADA",
+            "Percobaan sebelumnya: TIDAK ADA",
+            "Self-harm: TIDAK ADA",
+            "Ide kekerasan: TIDAK ADA",
+            "Faktor protektif: keluarga, agama, tanggung jawab usaha"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "MMSE (bila diminta): skor 29/30. Orientasi 10/10, registrasi 3/3, atensi 5/5, recall 2/3, bahasa dan konstruksi 9/9. Interpretasi: TIDAK mendukung demensia; keluhan lupa mungkin terkait kurang tidur/cemas, tetap follow-up",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Refleks regresi (bila diminta): glabella habituasi normal; snout negatif; sucking negatif; grasp negatif bilateral; palmomental negatif. TIDAK ada frontal release signs patologis",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "MMSE & Refleks Regresi Wajib Bila Curiga Neurokognitif",
+          "text": "Pada pasien >50 tahun dengan keluhan pelupa, MMSE adalah komponen penting untuk menyingkirkan gangguan neurokognitif. Refleks regresi (frontal release signs) ditambahkan bila curiga demensia frontotemporal atau gangguan neurologis lain. Peserta yang TIDAK melakukan/MENYEBUT MMSE kehilangan poin besar.",
+          "answer_evidence": "BLUEPRINT — MMSE dan refleks regresi bila relevan (10 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_procedure_02",
+        "gls_sken_insomnia_score_04"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Data penunjang yang tersedia beserta interpretasinya, diberikan bila peserta meminta secara spesifik dengan alasan klinis.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang di bawah ini diberikan HANYA bila peserta meminta secara spesifik. Peserta dinilai dari relevansi permintaan, urutan rasional, dan kemampuan interpretasi. Pada insomnia kronik tanpa red flags, penggunaan PSG/lab luas tanpa indikasi akan kehilangan poin.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Sleep diary 1-2 minggu: alat bantu diagnostik dan monitoring terapi insomnia; minta pasien mencatat waktu tidur, waktu bangun, durasi tidur, kualitas, kafein, dan aktivitas siang",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Insomnia Severity Index (ISI) bila tersedia: kuesioner singkat 7 item untuk menilai berat insomnia dan monitoring terapi",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "PHQ-9 untuk depresi: skrining komorbid depresi; pada pasien ini gejala depresi minimal",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "GAD-7 untuk ansietas: skrining komorbid ansietas; pada pasien ini ansietas ringan situasional",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Evaluasi obat/kafein/nikotin/alkohol: bagian dari anamnesis, bukan laboratorium — tetapi dapat dikonfirmasi lewat skrining dan catatan pasien",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Lab sesuai indikasi: darah rutin (curiga anemia), TSH (gejala tiroid), gula darah/HbA1c (risiko metabolik), fungsi ginjal/hati (komorbid/obat)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Polysomnography (PSG) TIDAK rutin. Indikasi: curiga OSA, periodic limb movement, parasomnia berbahaya, narcolepsy, atau insomnia refrakter dengan diagnosis tidak jelas",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "PSG, EEG, dan laboratorium luas tidak perlu diminta pada insomnia kronik tanpa curiga OSA, RLS, atau penyebab organik. Peserta yang meminta PSG/EEG tanpa indikasi akan kehilangan poin Penunjang Rasional (6).",
+          "answer_evidence": "BLUEPRINT — Penunjang rasional (6 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_score_05",
+        "gls_sken_insomnia_dd_07"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Kunci diagnosis kerja, diagnosis banding utama, dan alasan klinis mendukung/menentang.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Insomnia kronik dengan faktor perilaku tidur buruk (kafein sore/malam, layar di tempat tidur) dan kecemasan situasional ringan. Anamnesis mendukung: sulit mulai tidur dan sering terbangun, durasi 4 bulan (≥3 bulan), 4-5 malam/minggu (≥3 malam), tidur 4-5 jam/malam, dampak siang (lelah, mudah marah, konsentrasi menurun), faktor perilaku (kopi sore/malam, HP di tempat tidur), kecemasan situasional. Pemeriksaan mendukung: MSE dalam batas normal, MMSE 29/30 menyingkirkan demensia, refleks regresi negatif, TTV dan fisik dalam batas normal, TIDAK ada pikiran bunuh diri/mania/psikosis/zat.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Gangguan cemas (generalized anxiety) — mendukung bila kekhawatiran berlebihan pada banyak hal, restless, sulit konsentrasi, gejala otonom; menentang karena kecemasan masih dalam batas situasional dan fungsi masih baik",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Depresi — mendukung bila anhedonia, mood depresif, perasaan tidak berharga, gangguan nafsu makan/tidur; menentang pada kasus ini karena mood tidak depresif berat, tidak ada anhedonia, nafsu makan cukup",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Hipertiroid — mendukung bila tremor, takikardia, penurunan berat badan, diare, eksoftalmus; menentang karena TTV normal, tidak ada tremor/eksoftalmus, tiroid tidak membesar",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: OSA — mendukung bila dengkur keras, henti napas witnessed, kantuk berat siang; menentang karena TIDAK dengkur keras menurut keluarga, TIDAK henti napas, TIDAK mengantuk berat",
+          "sub": [],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Restless legs syndrome — mendukung bila dorongan menggerakkan tungkai saat istirahat, memburuk malam; menentang karena tidak ada keluhan RLS pada anamnesis",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 6: Efek obat/kafein — mendukung bila konsumsi kafein sore/malam; pada kasus ini sangat relevan dan menjadi faktor perilaku yang harus dimodifikasi",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 7: Gangguan neurokognitif (demensia) — mendukung pada usia >50 dengan keluhan lupa; menentang karena MMSE 29/30 dan refleks regresi negatif, aktivitas harian masih mandiri",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 8: Gangguan bipolar/mania — mendukung bila episode berenergi tanpa tidur, perilaku impulsif, pikiran grandiositas; menentang karena TIDAK ada episode tersebut",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Framework 3P Insomnia (Spielman)",
+          "text": "Predisposing (kerentanan biologis/psikologis), Precipitating (stresor pencetus — banyak pikiran tentang anak dan usaha), Perpetuating (kebiasaan yang mempertahankan — kafein sore, layar di tempat tidur, tidur siang, kekhawatiran tentang tidur). Tatalaksana terutama menargetkan faktor Perpetuating (CBT-I + sleep hygiene) untuk memutus lingkaran setan insomnia.",
+          "answer_evidence": "BLUEPRINT — Diagnosis, tatalaksana, edukasi (14 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_definition_01",
+        "gls_sken_insomnia_dd_07",
+        "gls_sken_insomnia_dd_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana non-farmakologi (CBT-I) dan farmakologi yang diharapkan untuk skenario insomnia kronik.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pendekatan tatalaksana insomnia kronik: (1) CBT-I sebagai terapi utama — sleep hygiene, stimulus control, sleep restriction, cognitive therapy, relaksasi; (2) modifikasi perilaku (hentikan kafein sore/malam, hindari layar di tempat tidur, olahraga siang, jadwalkan waktu khawatir); (3) manajemen stres dan dukungan keluarga; (4) obat hipnotik BUKAN terapi utama, hanya jangka pendek dengan evaluasi risiko, hindari benzodiazepin jangka panjang; (5) follow-up 2-4 minggu dengan sleep diary dan skrining mood/ansietas.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CBT-I prinsip dasar (komponen utama):",
+          "sub": [
+            "Sleep hygiene: jadwal konsisten, kasur hanya untuk tidur, kamar gelap/sejuk/tenang",
+            "Stimulus control: bangun bila tidak tidur setelah ±20 menit, kembali saat mengantuk, hindari layar di tempat tidur",
+            "Sleep restriction: batasi waktu di tempat tidur sesuai total sleep time aktual, tambah perlahan",
+            "Cognitive therapy: identifikasi dan ubah pikiran maladaptif tentang tidur ('mesti tidur 8 jam', 'besok pasti tidak bisa kerja')",
+            "Relaksasi: napas dalam, progressive muscle relaxation, mindfulness"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Modifikasi perilaku spesifik:",
+          "sub": [
+            "Hentikan kafein setelah siang hari",
+            "Hindari layar (HP/laptop/TV) 1 jam sebelum tidur atau di tempat tidur",
+            "Gunakan kasur hanya untuk tidur dan aktivitas intim",
+            "Bangun bila tidak tertidur setelah ±20 menit dan kembali ke kasur saat mengantuk",
+            "Hindari tidur siang lama (maks 20-30 menit, sebelum jam 15.00)",
+            "Olahraga teratur di pagi/siang hari, hindari malam hari"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Manajemen stres:",
+          "sub": [
+            "Jadwalkan 'worry time' 30 menit di sore hari untuk menulis kekhawatiran",
+            "Aktivitas fisik siang hari",
+            "Dukungan keluarga dan waktu berkualitas",
+            "Mindfulness atau relaksasi teratur"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Obat hipnotik — JANGAN terapi utama, hanya jangka pendek dengan evaluasi risiko:",
+          "sub": [
+            "Boleh dipertimbangkan bila insomnia berat dan CBT-I belum efektif",
+            "Contoh: zolpidem 5-10 mg atau antihistamin sedatif (doksilamin)",
+            "Hindari benzodiazepin jangka panjang (risiko toleransi, dependensi, jatuh pada lansia)",
+            "Pada lansia, hindari Z-drugs dan BZDs bila memungkinkan"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Follow-up 2-4 minggu dengan sleep diary dan skrining ulang mood/ansietas. Rujuk psikiatri/spesialis tidur bila tidak membaik, ada depresi/ansietas berat, atau ada komorbid yang memerlukan tata laksana spesifik",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Hindari Hipnotik Jangka Panjang",
+          "text": "Langsung meresepkan benzodiazepin/Z-drugs jangka panjang tanpa evaluasi penyebab dan edukasi perilaku adalah critical error #2. CBT-I adalah first-line untuk insomnia kronik; obat hanya terapi tambahan jangka pendek dengan evaluasi risiko.",
+          "answer_evidence": "BLUEPRINT — Critical Error 2: 'Langsung memberikan obat tidur jangka panjang tanpa evaluasi penyebab dan edukasi perilaku'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_procedure_03",
+        "gls_sken_insomnia_drug_06"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk pasien, tanda bahaya yang harus disebutkan, dan contoh SOAP untuk skenario insomnia.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario insomnia:\n\nS: Pasien merasakan sulit tidur 4 bulan, terutama sulit mulai tidur dan sering terbangun. Tidur 4-5 jam/malam, 4-5 malam per minggu. Siang lelah, mudah marah, konsentrasi menurun, aktivitas harian masih mandiri. Keluhan pelupa subjektif. Banyak pikiran tentang anak dan usaha. Sering minum kopi sore/malam, menonton HP di tempat tidur. Tidak ada pikiran bunuh diri, mania, psikosis, penggunaan zat, mendengkur keras, atau henti napas.\n\nO: TD 126/78, N 86, RR 18, S 36,6°C, SpO2 99%, BMI 23. Konjungtiva tidak pucat, tidak tremor, tiroid tidak membesar, kardiopulmoner normal, neurologis kasar normal. MSE: penampilan rapi, mood cemas, afek kongruen, pikir logis, TIDAK waham/halusinasi, insight cukup. MMSE 29/30. Refleks regresi negatif.\n\nA: Insomnia kronik dengan faktor perilaku tidur buruk (kafein sore/malam, layar di tempat tidur) dan kecemasan situasional ringan. DD: gangguan cemas (ringan), depresi (disingkirkan), hipertiroid (tidak ada gejala), OSA (tidak ada gejala), RLS (tidak ada keluhan), gangguan neurokognitif (MMSE normal), gangguan bipolar (tidak ada episode).\n\nP: CBT-I (sleep hygiene, stimulus control, sleep restriction, relaksasi), modifikasi perilaku (hentikan kafein sore, hindari layar di tempat tidur), sleep diary, evaluasi PHQ-9/GAD-7, follow-up 2-4 minggu. Hindari hipnotik jangka panjang. Safety net untuk red flags psikiatri dan OSA.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi: insomnia sering dipertahankan oleh kebiasaan tidur dan kekhawatiran; perbaikan butuh konsistensi beberapa minggu (4-8 minggu untuk CBT-I)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi sleep hygiene (rinci):",
+          "sub": [
+            "Jadwalkan waktu bangun yang konsisten (termasuk weekend) — anchor circadian rhythm",
+            "Hindari kafein setelah jam 14.00",
+            "Hindari alkohol 3 jam sebelum tidur",
+            "Olahraga teratur, jangan 2-3 jam sebelum tidur",
+            "Hindari layar 1 jam sebelum tidur atau gunakan filter blue-light",
+            "Gunakan kasur hanya untuk tidur dan aktivitas intim",
+            "Kamar gelap, sejuk, tenang"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera/ke IGD bila:",
+          "sub": [
+            "Pikiran bunuh diri atau menyakiti diri/orang lain",
+            "Depresi berat atau kehilangan minat total",
+            "Perilaku sangat berenergi tanpa tidur (mania)",
+            "Halusinasi atau waham",
+            "Mendengkur keras dengan henti napas witnessed (curiga OSA)",
+            "Mengantuk berat saat menyetir/berkendara",
+            "Penurunan fungsi berat yang mengganggu kerja/rumah"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi obat: jangan menambah dosis obat tidur sendiri atau membeli obat sedatif tanpa evaluasi dokter",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_procedure_03",
+        "gls_sken_insomnia_dd_07"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian penuh 100 poin yang digunakan penguji — semua item wajib ada.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Total penilaian 100 poin dengan 9 kategori utama. Komponen terbesar: anamnesis tidur lengkap (18 poin) dan wawancara psikiatri/risiko (18 poin). Peserta dinilai dari kelengkapan sleep history, kemampuan skrining risiko psikiatri, MSE, dan kualitas edukasi CBT-I/sleep hygiene. Critical error tidak memiliki poin langsung tetapi dapat menggugurkan kelulusan.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pembukaan, privasi, empati (10 poin)",
+          "sub": [
+            "Sapa pasien dan perkenalkan diri (1)",
+            "Konfirmasi identitas pasien (1)",
+            "Validasi keluhan ('saya paham ini mengganggu Anda') (2)",
+            "Jaga non-judgmental (1)",
+            "Jelaskan bahwa akan ada pertanyaan sensitif tentang pikiran bunuh diri, zat, atau pikiran menyakiti orang lain (2)",
+            "Minta izin untuk wawancara (1)",
+            "Jaga privasi ruangan (1)",
+            "Hand hygiene (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Anamnesis tidur lengkap (18 poin)",
+          "sub": [
+            "Onset insomnia (kapan mulai) (2)",
+            "Durasi (berapa bulan) (2)",
+            "Tipe: sleep onset vs maintenance vs early awakening (3)",
+            "Frekuensi (berapa malam per minggu) (2)",
+            "Total sleep time (jam per malam) (2)",
+            "Dampak siang (fatigue, mood, konsentrasi, fungsi) (3)",
+            "Jadwal tidur-bangun (kapan tidur, kapan bangun) (2)",
+            "Tidur siang (kapan, berapa lama) (1)",
+            "Sleep diary (menyarankan untuk dibuat) (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Faktor perilaku, zat, obat, medis (14 poin)",
+          "sub": [
+            "Kafein (kapan minum, berapa) (2)",
+            "Nikotin (rokok) (1)",
+            "Alkohol (jumlah, waktu) (2)",
+            "Layar elektronik di tempat tidur (HP, laptop, TV) (2)",
+            "Olahraga (kapan, jenis) (1)",
+            "Nyeri kronik (1)",
+            "Nokturia / sering BAK malam (1)",
+            "GERD / gangguan pencernaan (1)",
+            "Obat yang diminum (flu, steroid, stimulan) (1)",
+            "Gejala tiroid (tremor, takikardia, keringat) (1)",
+            "Gejala OSA (dengkur, henti napas) (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Wawancara psikiatri dan risiko (8 poin)",
+          "sub": [
+            "Mood (merasa sedih, hampa, tertekan) (2)",
+            "Anhedonia (kehilangan minat/kesenangan) (2)",
+            "Cemas (kekhawatiran berlebihan) (2)",
+            "Trauma / kejadian berat baru-baru ini (1)",
+            "Mania/hipomania (episode berenergi tanpa tidur) (3)",
+            "Psikosis (halusinasi, waham) (2)",
+            "Pikiran bunuh diri (ide) (2)",
+            "Rencana bunuh diri (1)",
+            "Percobaan bunuh diri sebelumnya (1)",
+            "Pikiran menyakiti orang lain / self-harm (1)",
+            "Fungsi sosial, kerja, dan support keluarga (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "MSE (12 poin)",
+          "sub": [
+            "Penampilan dan perawatan diri (1)",
+            "Perilaku dan kontak mata (1)",
+            "Bicara (koheren, spontan, volume) (1)",
+            "Mood subjektif (1)",
+            "Afect objektif (1)",
+            "Proses pikir (logis, terarah) (1)",
+            "Isi pikir (waham, obsesi, pikiran bunuh diri) (2)",
+            "Persepsi (halusinasi) (2)",
+            "Kognisi (orientasi, atensi) (1)",
+            "Insight (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "TTV, head-to-toe, neurologis singkat (8 poin)",
+          "sub": [
+            "TTV (TD, N, RR, S, SpO2) (2)",
+            "BMI (1)",
+            "Inspeksi tiroid (1)",
+            "Tanda anemia (konjungtiva) (1)",
+            "Kardiopulmoner (1)",
+            "Neurologis kasar (motorik, sensorik, gait) (1)",
+            "Tanda penyebab organik (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "MMSE dan refleks regresi bila relevan (10 poin)",
+          "sub": [
+            "Melakukan/menyebut MMSE untuk keluhan lupa (4)",
+            "Orientasi 10/10 (1)",
+            "Registrasi 3/3 dan recall (2)",
+            "Atensi 5/5 (1)",
+            "Bahasa dan konstruksi (1)",
+            "Refleks regresi pada kecurigaan neurokognitif (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penunjang rasional (6 poin)",
+          "sub": [
+            "Sleep diary (1)",
+            "ISI (Insomnia Severity Index) (1)",
+            "PHQ-9 dan GAD-7 (1)",
+            "Evaluasi kafein/alkohol/obat (anamnesis) (1)",
+            "Lab terarah (TSH, darah rutin, GDS) sesuai indikasi (1)",
+            "TIDAK PSG rutin tanpa indikasi (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Diagnosis, tatalaksana, edukasi (14 poin)",
+          "sub": [
+            "Menyebut diagnosis insomnia kronik (1)",
+            "Menyebut DD (cemas, depresi, hipertiroid, OSA, RLS, neurokognitif, bipolar) (2)",
+            "Sleep hygiene (1)",
+            "Stimulus control (1)",
+            "Sleep restriction (1)",
+            "Cognitive therapy / relaksasi (1)",
+            "Modifikasi perilaku (kafein, layar, olahraga) (2)",
+            "Menghindari hipnotik jangka panjang (1)",
+            "Sleep diary dan follow-up 2-4 minggu (1)",
+            "Edukasi red flags (bunuh diri, mania, OSA) (2)",
+            "Komunikasi empatik (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Poin diberikan per sub-item secara parsial. Critical error (lihat s10) tidak memiliki poin langsung tetapi dapat menggugurkan kelulusan meskipun skor angka cukup.",
+          "answer_evidence": "BLUEPRINT — Total poin 110/100, sistem partial credit"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE adalah tindakan atau kelalaian yang menyebabkan pemotongan nilai besar atau kegagalan stasiun meskipun skor angka terlihat cukup. Pada insomnia kronik, critical error terutama terkait skrining risiko psikiatri, tatalaksana rasional, dan evaluasi penyebab sekunder.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Tidak menanyakan ide bunuh diri atau gejala mania/psikosis pada pasien dengan gangguan tidur bermakna",
+          "sub": [
+            "Kenapa critical: insomnia dapat menjadi gejala awal depresi, mania, atau psikosis; kelalaian menyaring pikiran bunuh diri adalah risiko keselamatan pasien tertinggi",
+            "Recovery move: selalu lakukan skrining pikiran bunuh diri (ide, rencana, percobaan, self-harm) dan gejala mania/hipomania (episode berenergi tanpa tidur, perilaku impulsif) serta psikosis (halusinasi, waham) — dan faktor risiko/kekhawatiran utama tetap ada walau skrining awal negatif"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Langsung memberikan obat tidur jangka panjang tanpa evaluasi penyebab dan edukasi perilaku",
+          "sub": [
+            "Kenapa critical: hipnotik jangka panjang untuk insomnia kronik tidak direkomendasikan karena risiko toleransi, dependensi, jatuh (terutama lansia), rebound insomnia; tanpa evaluasi penyebab dan edukasi perilaku, obat hanya menutupi masalah",
+            "Recovery move: CBT-I (sleep hygiene, stimulus control, sleep restriction, cognitive therapy, relaksasi) adalah first-line; hipnotik hanya tambahan jangka pendek dengan evaluasi risiko; selalu selidiki penyebab sekunder (depresi, cemas, OSA, RLS, medis, obat, kafein)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Menganggap keluhan 'hanya stres' secara meremehkan tanpa pemeriksaan status mental",
+          "sub": [
+            "Kenapa critical: keluhan pasien harus selalu divalidasi dan dievaluasi objektif; meremehkan 'hanya stres' menyebabkan kelalaian skrining psikiatri, MSE, dan identifikasi komorbid",
+            "Recovery move: selalu lakukan MSE terstruktur (appearance, behavior, speech, mood, affect, thought, perception, cognition, insight, judgement) untuk menilai status mental objektif, dan konfirmasi dengan PHQ-9/GAD-7"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Tidak menyaring OSA/penyakit medis/obat/zat pada insomnia kronik",
+          "sub": [
+            "Kenapa critical: OSA, hipertiroid, GERD, nokturia, nyeri kronik, efek obat (steroid, stimulan, dekongestan), dan penggunaan kafein/alkohol/zat adalah penyebab sekunder umum yang memerlukan tata laksana spesifik",
+            "Recovery move: tanyakan gejala OSA (dengkur keras, henti napas witnessed, kantuk siang), gejala tiroid (tremor, takikardia, penurunan berat badan), penggunaan kafein/alkohol, dan obat yang diminum — semua skrining ini harus eksplisit"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Tidak menanyakan pikiran bunuh diri/mania adalah error paling fatal di stasiun insomnia. Peserta yang langsung fokus pada 'tidur' dan lupa skrining psikiatri sering melewatkan risiko keselamatan pasien.",
+          "answer_evidence": "BLUEPRINT — Critical Error 1"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_procedure_02",
+        "gls_sken_insomnia_dd_07",
+        "gls_sken_insomnia_drug_06"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji lengkap, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "NASKAH PROBANDUS LENGKAP — Ibu Mira, 56 tahun, pedagang, datang sendiri. Kalimat pembuka: 'Dok, saya susah tidur sudah beberapa bulan. Siang jadi lemas dan gampang lupa.' Kooperatif, cemas ringan, tampak lelah. Jangan langsung mengaku minum kopi malam atau main HP di tempat tidur kecuali ditanya. Bila ditanya bunuh diri, jawab jujur TIDAK ada. Keluhan pelupa hanya subjektif; aktivitas harian masih mandiri. Bila peserta bertanya: pola tidur sulit mulai tidur dan sering terbangun, 4-5 jam/malam, 4-5 malam per minggu, 4 bulan; dampak siang lelah, mudah marah, konsentrasi menurun saat berdagang, masih mandiri; banyak pikiran tentang anak dan usaha, sering minum kopi sore/malam, sering menonton HP di tempat tidur sampai larut; merasa khawatir, TIDAK kehilangan minat berat, TIDAK merasa tidak berharga berat, nafsu makan cukup; TIDAK ada pikiran bunuh diri, menyakiti orang lain, halusinasi, waham, episode sangat berenergi tanpa tidur, perilaku impulsif, atau penggunaan narkoba, alkohol disangkal; TIDAK mendengkur keras, TIDAK tersedak saat tidur, TIDAK mengantuk sampai tertidur saat berkendara, TIDAK nyeri dada/sesak malam, TIDAK ada gejala hipertiroid mencolok; kadang minum obat flu yang dibeli sendiri, belum minum obat tidur dokter.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji:",
+          "sub": [
+            "Berikan informasi HANYA bila peserta bertanya atau menyebutkan pemeriksaan dengan benar — jangan membocorkan data spontan",
+            "Jawab 'tidak' untuk semua pertanyaan risiko (pikiran bunuh diri, rencana, percobaan, self-harm, kekerasan, halusinasi, waham, maniak episode, penggunaan zat)",
+            "Peserta yang bertanya skrining sleep history (onset, durasi, tipe, frekuensi, total sleep time, dampak siang) dengan benar → jawab sesuai tabel",
+            "Peserta yang melakukan MSE terstruktur → jawab sesuai komponen (penampilan rapi, mood cemas, insight cukup, dll.)",
+            "Peserta yang meminta MMSE → jawab 'skor 29/30, interpretasi tidak mendukung demensia'",
+            "Peserta yang meminta refleks regresi → jawab 'semua negatif, tidak ada frontal release signs patologis'",
+            "Peserta yang langsung meresepkan BZD/hipnotik jangka panjang → pertegas 'CBT-I adalah first-line, obat hanya tambahan jangka pendek'",
+            "Peserta yang menyepelekan 'hanya stres' → pertegas perlunya MSE dan identifikasi komorbid",
+            "Catat urutan dan kelengkapan tindakan peserta pada lembar observasi untuk skoring"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Global rating (referensi):",
+          "sub": [
+            "Excellent: alur sistematis, aman, diagnosis kuat, penunjang rasional, komunikasi empatik, edukasi jelas",
+            "Pass: mayoritas komponen inti dilakukan, tidak ada critical error, diagnosis/tatalaksana cukup aman",
+            "Borderline: ada lubang pada anamnesis/pemeriksaan/edukasi, tetapi tidak membahayakan secara langsung",
+            "Fail: critical error, tidak mengenali red flags, atau diagnosis/tatalaksana tidak aman"
+          ],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "American Academy of Sleep Medicine — Clinical Practice Guidelines for Chronic Insomnia (2021)",
+            "European Sleep Research Society — Insomnia Guideline",
+            "PDSKJI (Perhimpunan Dokter Spesialis Kedokteran Jiwa Indonesia) — Panduan Tatalaksana Insomnia",
+            "Riemann D et al. The European insomnia guideline: A diagnostic and treatment algorithm. J Sleep Res 2017",
+            "Spielman AJ, Glovinsky PB. The varied nature of insomnia: a conceptual model. In: Case Studies in Insomnia (1986)"
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Diagnosis kerja dan distribusi poin hanya untuk objektivitas penilaian.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_insomnia_definition_01",
+        "gls_sken_insomnia_procedure_02",
+        "gls_sken_insomnia_procedure_03",
+        "gls_sken_insomnia_score_04"
+      ],
+      "bilingual": ""
+    }
+  ]
+}

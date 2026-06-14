@@ -1,0 +1,1329 @@
+{
+  "id": "mod_obgyn_skill_kuretase_pascapersalinan_008",
+  "title": "Kuretase Pascapersalinan",
+  "subtitle": "Kuretase untuk evakuasi sisa plasenta/jaringan setelah persalinan dengan informed consent ketat.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_3",
+  "source_pdf": "Batch3_6.1_Modul_1_Kuretase_Pascapersalinan.docx",
+  "source_filename": "Batch3_6.1_Modul_1_Kuretase_Pascapersalinan.docx",
+  "topicTags": [
+    "osce_6_1",
+    "kuretase",
+    "sisa_plasenta",
+    "dilatasi_serviks",
+    "evakuasi_kavum_uteri",
+    "komplikasi_kuretase",
+    "perforasi_uterus",
+    "pasca_persalinan"
+  ],
+  "summary": [
+    "Kuretase pascapersalinan adalah tindakan invasif mengeluarkan sisa jaringan plasenta atau produk konsepsi dari kavum uteri setelah persalinan untuk menghentikan perdarahan atau membersihkan uterus yang tidak berkontraksi baik.",
+    "Prioritas OSCE: informed consent, persiapan resusitasi dan infus 2 jalur, posisi litotomi, antisepsis, kosongkan kandung kemih, pemeriksaan bimanual, visualisasi serviks, klem porsio, kuret sistematis, dan monitoring pascatindakan.",
+    "Pesan kunci yang harus selalu diucapkan: tindakan ini berisiko perdarahan, infeksi, perforasi uterus, nyeri, dan memerlukan pemantauan ketat.",
+    "Penyebab utama indikasi adalah PPH karena sisa plasenta/retensio, atonia sekunder, atau kavum uteri yang belum bersih; pada pasien nyata harus dilakukan oleh tenaga terlatih dengan fasilitas resusitasi, akses IV, uterotonik, dan darah.",
+    "Komplikasi paling serius yang harus dikenali adalah perforasi uterus (nyeri tajam, hilangnya tahanan, perdarahan tiba-tiba banyak) — hentikan tindakan, evaluasi, dan rujuk segera.",
+    "Bundle PPH yang wajib diketahui: Massage, Oxytocin, TXA (1 g IV dalam 10 menit dalam 3 jam postpartum), IV fluids, Examination, Escalation.",
+    "Kuretase pascapersalinan berbeda dari plasenta manual: kuretase dilakukan setelah plasenta lahir dengan sendok kuret, sedangkan plasenta manual dilakukan saat plasenta belum lahir dengan tangan.",
+    "Pada curiga plasenta akreta spectrum (riwayat SC, plasenta sulit lepas) jangan paksa kuretase — risiko perforasi dan perdarahan masif; rujuk ke SpOG."
+  ],
+  "exam_focus": [
+    "[FATAL] Tidak menjelaskan risiko dan tidak meminta informed consent menurunkan skor hangus.",
+    "[FATAL] Tidak menilai tanda syok sebelum tindakan membuat skor hangus untuk stabilisasi.",
+    "[FATAL] Melupakan akses IV 2 jalur, oksigen, uterotonik, dan kesiapan resusitasi menurunkan skor hangus untuk keselamatan.",
+    "[FATAL] Tidak mengosongkan kandung kemih atau tidak melakukan bimanual untuk arah uterus meningkatkan risiko perforasi.",
+    "[FATAL] Tidak menahan fundus saat memasukkan kuret meningkatkan risiko perforasi uterus.",
+    "[FATAL] Tidak mengenali tanda perforasi uteri (nyeri tajam, hilangnya tahanan, perdarahan tiba-tiba) membuat skor hangus.",
+    "[FATAL] Plasenta akreta dipaksa dikuretase menyebabkan perdarahan masif dan skor hangus.",
+    "[PENGURANGAN BESAR] Tidak menyebut diagnosis kerja PPH karena sisa plasenta dan kerangka 4T (Tone, Tissue, Trauma, Thrombin).",
+    "[PENGURANGAN BESAR] Tidak menyebut bundle PPH (Massage, Oxytocin, TXA, IV, Examination, Escalation) atau TXA 1 g IV dalam 10 menit.",
+    "[PENGURANGAN BESAR] Tidak edukasi keluarga tentang tanda bahaya (perdarahan makin banyak, pusing, demam, nyeri perut) dan kontrol 1 minggu."
+  ],
+  "glossary": [
+    {
+      "id": "gls_kuretase_kuretase_01",
+      "term": "Kuretase Pascapersalinan",
+      "def": "Tindakan invasif mengeluarkan sisa jaringan plasenta atau produk konsepsi dari kavum uteri menggunakan sendok kuret pascapersalinan (large blunt curette) setelah plasenta lahir dan terbukti tidak lengkap, untuk menghentikan perdarahan dan membersihkan uterus.",
+      "type": "procedure",
+      "aliases": [
+        "kuretase postpartum",
+        "evakuasi kavum uteri"
+      ]
+    },
+    {
+      "id": "gls_kuretase_dilatasi_serviks_02",
+      "term": "Dilatasi Serviks",
+      "def": "Prosedur pembukaan serviks secara mekanis atau bertahap menggunakan dilator Hegar untuk memungkinkan instrumen kuret melewati kanalis servikalis. Pada kuretase pascapersalinan, serviks biasanya sudah terbuka dan dilatasi tambahan jarang diperlukan.",
+      "type": "procedure",
+      "aliases": [
+        "dilatasi kanalis servikalis",
+        "pembukaan serviks"
+      ]
+    },
+    {
+      "id": "gls_kuretase_perforasi_uterus_03",
+      "term": "Perforasi Uterus",
+      "def": "Komplikasi serius kuretase berupa robekan dinding uterus oleh instrumen kuret. Ditandai dengan nyeri tajam tiba-tiba, hilangnya tahanan saat kuret masuk terlalu dalam, dan perdarahan mendadak banyak. Memerlukan penghentian tindakan segera, evaluasi, dan rujukan untuk kemungkinan laparotomi.",
+      "type": "clinical",
+      "aliases": [
+        "perforasi uteri",
+        "robekan dinding uterus"
+      ]
+    },
+    {
+      "id": "gls_kuretase_kuret_tumpul_tajam_04",
+      "term": "Kuret Tumpul vs Tajam",
+      "def": "Kuret tumpul (blunt/sendok kuret pascapersalinan, large blunt curette) digunakan untuk kuretase pascapersalinan karena dinding uterus postpartum masih lembut; kuret tajam (sharp curette) lebih agresif dan umumnya dipakai untuk kuretase ginekologi non-obstetri. Pada kuretase pascapersalinan, kuret tumpul lebih aman untuk mengurangi risiko perforasi.",
+      "type": "anatomy",
+      "aliases": [
+        "blunt curette",
+        "sharp curette",
+        "sendok kuret"
+      ]
+    },
+    {
+      "id": "gls_kuretase_posisi_litotomi_05",
+      "term": "Posisi Litotomi",
+      "def": "Posisi pasien telentang dengan bokong sedikit melewati tepi meja dan tungkai difleksikan-abduksikan, standar untuk semua prosedur ginekologi invasif termasuk kuretase. Memudahkan akses ke serviks dan visualisasi jalan lahir.",
+      "type": "procedure",
+      "aliases": [
+        "dorsal lithotomy position"
+      ]
+    },
+    {
+      "id": "gls_kuretase_informed_consent_06",
+      "term": "Informed Consent",
+      "def": "Persetujuan tertulis dari pasien setelah penjelasan diagnosis, tujuan, prosedur, risiko (perdarahan, infeksi, perforasi uterus), dan alternatif tindakan. Merupakan komponen wajib sebelum prosedur invasif seperti kuretase pascapersalinan dan menjadi item penilaian pertama di OSCE.",
+      "type": "procedure",
+      "aliases": [
+        "persetujuan tindakan medis",
+        "lembar persetujuan"
+      ]
+    },
+    {
+      "id": "gls_kuretase_apd_07",
+      "term": "Alat Pelindung Diri (APD)",
+      "def": "Perlengkapan wajib yang dipakai tenaga kesehatan saat melakukan prosedur invasif: sarung tangan steril/DTT, masker, kacamata pelindung, apron plastik, dan baju tindakan. Pada kuretase pascapersalinan APD melindungi dari percikan darah dan cairan tubuh.",
+      "type": "procedure",
+      "aliases": [
+        "personal protective equipment",
+        "PPE"
+      ]
+    },
+    {
+      "id": "gls_kuretase_sisa_plasenta_08",
+      "term": "Sisa Plasenta (Retained Products of Conception)",
+      "def": "Jaringan plasenta atau selaput yang masih tertinggal di kavum uteri setelah persalinan, biasanya karena plasenta lahir tidak lengkap (kotiledon hilang). Menyebabkan perdarahan pascapersalinan, atonia sekunder, dan infeksi; menjadi indikasi utama kuretase pascapersalinan.",
+      "type": "clinical",
+      "aliases": [
+        "retensio sisa plasenta",
+        "retained placental tissue",
+        "O73.1"
+      ]
+    },
+    {
+      "id": "gls_kuretase_bundle_pph_09",
+      "term": "Bundle PPH (MOTIVE)",
+      "def": "Paket tatalaksana terintegrasi perdarahan pascapersalinan: Massage (masase uterus), Oxytocin (oksitosin 10 IU IV/IM atau 20 IU dalam 500 mL RL drip), TXA (asam traneksamat 1 g IV dalam 10 menit dalam 3 jam postpartum), IV fluids (cairan kristaloid 2 jalur, 1-2 L cepat pada syok), Examination (periksa sumber perdarahan 4T), Escalation (rujuk).",
+      "type": "procedure",
+      "aliases": [
+        "MOTIVE bundle",
+        "PPH treatment bundle",
+        "WHO PPH bundle 2023"
+      ]
+    },
+    {
+      "id": "gls_kuretase_pemeriksaan_bimanual_10",
+      "term": "Pemeriksaan Bimanual",
+      "def": "Pemeriksaan ginekologi dengan satu tangan di abdomen menahan fundus uteri dan tangan lain (telunjuk dan tengah) di vagina untuk menentukan arah uterus (anteversi/retroversi), ukuran, posisi serviks, pembukaan, dan ada/tidaknya massa adneksa. Wajib dilakukan sebelum kuretase untuk mencegah perforasi.",
+      "type": "procedure",
+      "aliases": [
+        "bimanual examination"
+      ]
+    },
+    {
+      "id": "gls_kuretase_kerangka_4T_11",
+      "term": "Kerangka 4T (PPH)",
+      "def": "Pendekatan diagnostik sumber perdarahan pascapersalinan: Tone (atonia uteri), Tissue (sisa plasenta/retensio), Trauma (robekan jalan lahir), Thrombin (koagulopati/DIC). Menjadi alat clinical reasoning wajib saat PPH dan menentukan arah tatalaksana.",
+      "type": "clinical",
+      "aliases": [
+        "4T PPH",
+        "tone tissue trauma thrombin"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_kuretase_01",
+      "term_id": "Kuretase Pascapersalinan",
+      "term_en": "Postpartum Curettage / Postpartum Evacuation",
+      "context": "Tindakan invasif evakuasi sisa jaringan plasenta dari kavum uteri setelah persalinan, menggunakan sendok kuret tumpul (blunt curette)."
+    },
+    {
+      "id": "bil_kuretase_02",
+      "term_id": "Sisa Plasenta",
+      "term_en": "Retained Products of Conception (RPOC)",
+      "context": "Jaringan plasenta/selaput yang masih tertinggal di kavum uteri setelah persalinan, menyebabkan perdarahan pascapersalinan."
+    },
+    {
+      "id": "bil_kuretase_03",
+      "term_id": "Perforasi Uterus",
+      "term_en": "Uterine Perforation",
+      "context": "Komplikasi serius kuretase berupa robekan dinding uterus oleh instrumen; tanda: nyeri tajam, hilangnya tahanan, perdarahan mendadak."
+    },
+    {
+      "id": "bil_kuretase_04",
+      "term_id": "Bundle PPH",
+      "term_en": "PPH Treatment Bundle (WHO 2023)",
+      "context": "Massage, Oxytocin, TXA, IV fluids, Examination, Escalation — paket tatalaksana terintegrasi PPH."
+    },
+    {
+      "id": "bil_kuretase_05",
+      "term_id": "Kerangka 4T",
+      "term_en": "4T Framework (Tone, Tissue, Trauma, Thrombin)",
+      "context": "Pendekatan diagnostik sumber perdarahan pascapersalinan: atonia, sisa plasenta, robekan, koagulopati."
+    },
+    {
+      "id": "bil_kuretase_06",
+      "term_id": "Posisi Litotomi",
+      "term_en": "Lithotomy Position",
+      "context": "Posisi telentang dengan bokong di tepi meja dan tungkai fleksi-abduksi, standar untuk prosedur ginekologi invasif."
+    },
+    {
+      "id": "bil_kuretase_07",
+      "term_id": "Informed Consent",
+      "term_en": "Informed Consent",
+      "context": "Persetujuan tertulis setelah penjelasan diagnosis, tujuan, prosedur, risiko, dan alternatif tindakan medis."
+    },
+    {
+      "id": "bil_kuretase_08",
+      "term_id": "Plasenta Akreta Spectrum",
+      "term_en": "Placenta Accreta Spectrum (PAS)",
+      "context": "Kondisi plasenta melekat abnormal pada miometrium (akreta/inkreta/perkreta); riwayat SC adalah faktor risiko utama. Kontraindikasi kuretase paksa."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_kuretase_anatomi_uterus_01",
+      "module_id": "mod_obgyn_skill_kuretase_pascapersalinan_008",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis uterus postpartum, serviks terbuka, sisa plasenta di kavum uteri, label Bahasa Indonesia: fundus, kavum uteri, serviks, vagina, gaya textbook bersih. Gaya clean medical illustration, warna lembut, label anatomis jelas dan akurat secara klinis.",
+      "alt": "Ilustrasi anatomi uterus postpartum dengan sisa plasenta di kavum uteri dan label fundus, kavum uteri, serviks, dan vagina.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_kuretase_pascapersalinan_008/assets/anatomi_uterus_postpartum.png"
+    },
+    {
+      "id": "visual_kuretase_posisi_litotomi_02",
+      "module_id": "mod_obgyn_skill_kuretase_pascapersalinan_008",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Manekin ibu postpartum posisi litotomi di meja tindakan, draping steril menutupi perut dan kaki, privasi terjaga, lampu sorot di atas, alas bokong menampung darah. Gaya clean medical illustration, OSCE setting.",
+      "alt": "Manekin ibu postpartum pada posisi litotomi dengan drape steril, privasi terjaga, di ruang tindakan OSCE.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_kuretase_pascapersalinan_008/assets/posisi_litotomi.png"
+    },
+    {
+      "id": "visual_kuretase_alat_instrumen_03",
+      "module_id": "mod_obgyn_skill_kuretase_pascapersalinan_008",
+      "section_id": "s11",
+      "type": "photo",
+      "generation_prompt": "Flat lay instrumen kuretase postpartum: spekulum Sim, klem ovum/tenakulum, sendok kuret pascapersalinan (large blunt curette), kateter Foley, antiseptik povidone iodine, sarung tangan steril, kain penutup steril berlubang. Label tiap alat. Gaya klinis bersih.",
+      "alt": "Flat lay instrumen kuretase postpartum lengkap dengan label tiap alat utama (spekulum, klem ovum, sendok kuret, kateter, antiseptik).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_kuretase_pascapersalinan_008/assets/alat_kuretase.png"
+    },
+    {
+      "id": "visual_kuretase_arah_kuret_04",
+      "module_id": "mod_obgyn_skill_kuretase_pascapersalinan_008",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Diagram uterus dilihat sagital, sendok kuret mengikuti lengkung kavum, panah searah jarum jam dinding depan, panah 180° dinding belakang, tangan luar menahan fundus, label Bahasa Indonesia. Gaya clean medical illustration, infografis OSCE.",
+      "alt": "Diagram uterus sagital yang menunjukkan arah sendok kuret searah jarum jam dinding depan, putar 180° dinding belakang, dengan tangan luar menahan fundus.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_kuretase_pascapersalinan_008/assets/arah_kuret_sistematis.png"
+    },
+    {
+      "id": "visual_kuretase_pph_bundle_05",
+      "module_id": "mod_obgyn_skill_kuretase_pascapersalinan_008",
+      "section_id": "s11",
+      "type": "infographic",
+      "generation_prompt": "Infografik PPH bundle versi Indonesia: massage (masase uterus), oxytocin (oksitosin 10 IU), TXA (asam traneksamat 1 g IV), IV fluids (cairan kristaloid 2 jalur), examination (periksa 4T), escalation (rujuk). Gaya clean medical illustration, ikon sederhana, warna berbeda untuk setiap komponen, label jelas dalam Bahasa Indonesia.",
+      "alt": "Infografik PPH bundle enam komponen: massage, oxytocin, TXA, IV fluids, examination, escalation dengan label Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_kuretase_pascapersalinan_008/assets/pph_bundle.png"
+    },
+    {
+      "id": "visual_kuretase_tanda_syok_06",
+      "module_id": "mod_obgyn_skill_kuretase_pascapersalinan_008",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi pasien postpartum pucat, nadi cepat, tekanan darah turun, perdarahan banyak, akral dingin, label red flags dalam Bahasa Indonesia. Gaya clean medical illustration, kontras warna untuk kondisi darurat.",
+      "alt": "Ilustrasi tanda syok obstetri pada pasien postpartum: pucat, takikardia, hipotensi, perdarahan masif, dengan label tanda bahaya.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_kuretase_pascapersalinan_008/assets/tanda_syok_obstetri.png"
+    },
+    {
+      "id": "visual_kuretase_monitoring_07",
+      "module_id": "mod_obgyn_skill_kuretase_pascapersalinan_008",
+      "section_id": "s11",
+      "type": "table",
+      "generation_prompt": "Template lembar pemantauan pascatindakan: kolom waktu serial, TTV (TD, nadi, suhu, RR, SpO2), perdarahan (estimasi mL), kontraksi uterus, nyeri, Hb/Ht, tindakan. Gaya clean medical documentation, format tabel rapi.",
+      "alt": "Template tabel monitoring pascatindakan kuretase dengan kolom TTV serial, perdarahan, kontraksi, nyeri, dan Hb/Ht.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_kuretase_pascapersalinan_008/assets/lembar_monitoring.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s08",
+      "type": "soap_template",
+      "source_query": "Format SOAP dan kode ICD-10 untuk kuretase pascapersalinan dengan skenario Ny. Rina 28 tahun postpartum 4 jam perdarahan 500 mL.",
+      "source_reference": "Standar RS pendidikan, ICD-10 WHO, WHO PPH 2023",
+      "confidence": "high",
+      "note": "Konten SOAP dan daftar kode ICD-10 ditambahkan saat standardisasi untuk konsistensi dengan modul ObGyn lain dan kelengkapan dokumentasi OSCE."
+    },
+    {
+      "section_id": "s07",
+      "type": "complication_table",
+      "source_query": "Tabel komplikasi intraprosedural dan pascaprosedur kuretase pascapersalinan lengkap dengan onset, tanda, tatalaksana, dan kapan rujuk.",
+      "source_reference": "WHO PPH 2023, RCOG, ACOG guideline",
+      "confidence": "high",
+      "note": "Daftar komplikasi intraprosedural dan pascaprosedur ditambahkan saat standardisasi untuk memberikan referensi klinis lengkap bagi mahasiswa."
+    },
+    {
+      "section_id": "s11",
+      "type": "ai_visual_prompts",
+      "source_query": "Prompt AI siap-pakai untuk generate visual pembelajaran kuretase pascapersalinan (anatomi, posisi, alat, arah, PPH bundle, syok, monitoring).",
+      "source_reference": "Modul OSCE FKIK Universitas Jambi, dokumen Stage 1",
+      "confidence": "high",
+      "note": "3 prompt AI siap-pakai ditambahkan untuk konsistensi dengan modul ObGyn lain dan mendukung generasi visual."
+    },
+    {
+      "section_id": "s07",
+      "type": "followup_schedule",
+      "source_query": "Jadwal tindak lanjut pascatindakan kuretase pascapersalinan yang sesuai standar FKIK Universitas Jambi dan SOP fasilitas.",
+      "source_reference": "FKIK Universitas Jambi, Standar RS Pendidikan",
+      "confidence": "high",
+      "note": "Jadwal tindak lanjut kala IV 1-2 jam, Hb/Ht 6-12 jam, 24-48 jam, 1 minggu, 6 minggu ditambahkan untuk kelengkapan modul."
+    },
+    {
+      "section_id": "s10",
+      "type": "mini_case_4th",
+      "source_query": "Mini-case OSCE skenario perforasi uteri intraprosedural untuk latihan respons aman.",
+      "source_reference": "Modul ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Skenario keempat perforasi uteri intraprosedural ditambahkan untuk memperkuat pengenalan komplikasi fatal."
+    },
+    {
+      "section_id": "s12",
+      "type": "education_safety_net",
+      "source_query": "Kalimat edukasi spesifik dan safety-net pascatindakan kuretase dalam situasi emergensi.",
+      "source_reference": "Komunikasi klinis FKIK Universitas Jambi, standar konseling emergensi",
+      "confidence": "high",
+      "note": "Kalimat edukasi spesifik dan safety-net 6 poin ditambahkan untuk panduan komunikasi OSCE."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Modul ini menyajikan peta cepat kuretase pascapersalinan, alur OSCE 15 langkah, dan skenario klinis utama Ny. Rina 28 tahun postpartum 4 jam dengan PPH karena sisa plasenta. Target OSCE adalah evakuasi sisa jaringan plasenta/produk konsepsi secara sistematis dengan informed consent, persiapan resusitasi, asepsis, dan monitoring pascatindakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Sumber dokumen utama adalah PDF Penuntun Belajar Keterampilan Klinik Kuretase Pascapersalinan FKIK Universitas Jambi, diperkaya dengan SKDI 4A Obgyn dan WHO PPH 2023. Fokus utama dari file sumber adalah checklist penilaian OSCE yang dijelaskan ulang untuk mahasiswa awam dengan level bahasa mahasiswa baru kedokteran: konsep dibuat runtut, praktis, dan tidak meloncat. Batas penggunaan: bahan belajar dan simulasi; tindakan klinis nyata wajib dalam supervisi dan sesuai SOP fasilitas.",
+          "tone": "narrative",
+          "source": "§1 file sumber / halaman awal"
+        },
+        {
+          "text": "Definisi sederhana kuretase pascapersalinan adalah tindakan mengeluarkan sisa jaringan plasenta/produk konsepsi dari kavum uteri setelah persalinan, bila masih ada jaringan yang menyebabkan perdarahan atau uterus tidak bersih. Masalah utama adalah perdarahan pascapersalinan karena retensio/sisa plasenta, atonia sekunder, atau kavum uteri yang belum bersih. Prioritas OSCE meliputi informed consent, siapkan resusitasi dan infus, posisi litotomi, antisepsis, kosongkan kandung kemih, pemeriksaan bimanual, visualisasi serviks, klem porsio, kuret sistematis, dan monitoring pascatindakan. Kalimat kunci yang harus selalu muncul: Tindakan ini berisiko perdarahan, infeksi, perforasi uterus, nyeri, dan memerlukan pemantauan ketat. Batas aman: tindakan invasif ini pada pasien nyata harus dilakukan oleh tenaga terlatih dengan fasilitas resusitasi, akses IV, obat uterotonik, darah bila perlu, dan SOP setempat.",
+          "tone": "narrative",
+          "source": "§1 Peta Cepat Satu Halaman"
+        },
+        {
+          "text": "Cara berpikir klinis yang menjadi landasan modul ini: Komunikasi dan informed consent membuka stasiun, persiapan alat membuktikan kesiapan, asepsis melindungi pasien, langkah inti menentukan skor teknis, dan monitoring-dokumentasi menutup tindakan. Skenario klinis utama yang digunakan konsisten di seluruh modul adalah Ny. Rina, 28 tahun, G2P1A0, postpartum 4 jam. Plasenta lahir 30 menit postpartum, tidak lengkap (1 kotiledon hilang). Perdarahan aktif 500 mL, fundus teraba lembek. TTV: TD 90/60, N 120, pucat, akral dingin. Ibu cemas, suami mendampingi. Informed consent verbal sudah diberikan. Identitas ini digunakan di §1, §9, §13, §15, dan Lampiran C.",
+          "tone": "narrative",
+          "source": "§1 Skenario Klinis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Prinsip utama yang harus selalu ditegaskan saat OSCE: nilai besar justru berada pada keselamatan — memastikan kondisi hemodinamik, menyiapkan oksigen/infus/obat, mengosongkan kandung kemih, menahan fundus, dan mengawasi perdarahan setelah tindakan.",
+          "sub": [],
+          "bold": true,
+          "source": "§1 Prinsip Utama"
+        },
+        {
+          "text": "Pesan kunci yang harus selalu diucapkan mahasiswa saat OSCE: Kuretase bertujuan mengeluarkan sisa jaringan plasenta/produk konsepsi untuk menghentikan perdarahan; risiko tindakan adalah perdarahan, infeksi, perforasi uterus, nyeri, dan memerlukan pemantauan ketat.",
+          "sub": [
+            "Tujuan: hentikan perdarahan dan kosongkan kavum",
+            "Risiko utama: perdarahan, infeksi, perforasi",
+            "Komponen wajib: monitoring ketat dan edukasi"
+          ],
+          "bold": true,
+          "source": "§2 Pesan Kunci"
+        },
+        {
+          "text": "Lima tips nilai tinggi dari file sumber: (1) Komunikasi dan informed consent membuka station, (2) Persiapan alat membuktikan kesiapan, (3) Asepsis melindungi pasien, (4) Langkah inti menentukan skor teknis, (5) Monitoring-dokumentasi menutup tindakan.",
+          "sub": [],
+          "bold": false,
+          "source": "§2 Tips Nilai Tinggi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara berpikir klinis (Prinsip Utama)",
+          "text": "Komunikasi dan informed consent membuka stasiun, persiapan alat membuktikan kesiapan, asepsis melindungi pasien, langkah inti menentukan skor teknis, dan monitoring-dokumentasi menutup tindakan. Hafalkan alur checklist dulu, baru pahami alasan klinisnya.",
+          "answer_evidence": "Modul OSCE Kuretase Pascapersalinan FKIK Universitas Jambi, 2026"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Batas Aman Tindakan Invasif",
+          "text": "Ini tindakan invasif. Pada pasien nyata harus dilakukan oleh tenaga terlatih dengan fasilitas resusitasi, akses IV, obat uterotonik, darah bila perlu, dan SOP setempat. Pada OSCE nilai sering hilang bukan karena tidak tahu teori, tetapi karena urutan, komunikasi, asepsis, dan dokumentasi tidak lengkap.",
+          "answer_evidence": "Batas penggunaan modul FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_kuretase_anatomi_uterus_01"
+      ],
+      "glossary_refs": [
+        "gls_kuretase_kuretase_01",
+        "gls_kuretase_sisa_plasenta_08"
+      ],
+      "bilingual": "Skenario klinis utama modul ini adalah Ny. Rina 28 tahun G2P1A0 postpartum 4 jam dengan PPH karena sisa plasenta. Fokus OSCE: evakuasi jaringan sisa dengan informed consent, persiapan resusitasi, dan monitoring ketat."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Alur OSCE 15 langkah dan checklist penilaian 20 item mulai dari sapa pasien sampai penutup station. Mahasiswa harus menghafal urutan, dapat mengucapkan kalimat kunci di setiap langkah, dan mengenali kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur umum OSCE kuretase pascapersalinan dalam 15 langkah: (1) Komunikasi dan informed consent; (2) Nilai status umum; (3) Akses IV, resusitasi; (4) Posisi litotomi, privasi, drape; (5) APD lengkap dan cuci tangan sampai siku; (6) Kosongkan kandung kemih dengan kateter, lalu bimanual; (7) Spekulum Sims/L, tampilkan porsio, bersihkan dengan antiseptik; (8) Klem porsio jam 12 dengan klem ovum/tenakulum; (9) Masukkan sendok kuret sampai fundus dengan tangan luar menahan fundus; (10) Kuret dinding depan searah jarum jam, putar 180° untuk dinding belakang, keluarkan jaringan; (11) Evaluasi perdarahan, kontraksi uterus, tanda perforasi; (12) Lepaskan alat, bersihkan area, dekontaminasi, cuci tangan, catat tindakan; (13) Monitoring ketat pascatindakan; (14) Dokumentasi SOAP dan instruksi monitoring; (15) Edukasi keluarga dan penutup station.",
+          "tone": "clinical",
+          "source": "§2 Alur Besar OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Item checklist 1-5: Sapa pasien dan perkenalkan diri; jelaskan diagnosis kerja PPH karena sisa plasenta/retensio; jelaskan tujuan, prosedur, rasa tidak nyaman, risiko, alternatif; minta persetujuan tertulis; nilai status umum termasuk TTV, kesadaran, pucat, tanda syok, nyeri.",
+          "sub": [
+            "Kalimat pembuka: Selamat pagi, Ibu Rina. Saya dokter muda yang akan menangani Ibu.",
+            "Diagnosis: Ibu, perdarahan terjadi karena sisa plasenta masih di dalam rahim. Kami akan mengeluarkannya.",
+            "Risiko: Tujuan tindakan menghentikan perdarahan; risiko perdarahan, infeksi, atau perforasi rahim."
+          ],
+          "bold": true,
+          "source": "§3 Checklist item 1-5"
+        },
+        {
+          "text": "Item checklist 6-9: Pastikan infus terpasang, sampel darah, uterotonik, analgesik/sedasi, oksigen; posisi litotomi jaga privasi drape; cuci tangan sampai siku dengan antiseptik APD lengkap; kosongkan kandung kemih dengan kateter lalu bimanual untuk besar uterus arah pembukaan serviks.",
+          "sub": [
+            "Infus: IV line 2 jalur, kristaloid, oksitosin, darah standby.",
+            "APD: 6 langkah cuci tangan siku, sarung tangan DTT/steril, masker, kacamata.",
+            "Bimanual: Kateter Foley, palpasi abdomen dan vagina."
+          ],
+          "bold": true,
+          "source": "§3 Checklist item 6-9"
+        },
+        {
+          "text": "Item checklist 10-13: Pasang spekulum Sims/L, tampilkan porsio, bersihkan vagina dan serviks dengan antiseptik; klem porsio jam 12 dengan klem ovum/tenakulum; masukkan sendok kuret sampai fundus dengan tangan luar menahan fundus; kuret dinding depan searah jarum jam putar 180° untuk dinding belakang, keluarkan jaringan.",
+          "sub": [
+            "Spekulum: Spekulum Sims, kasa antiseptik povidone iodine 10%.",
+            "Klem porsio: Jepit porsio pada posisi aman jam 12 atau 6.",
+            "Kuret: Sistematis, lembut, keluarkan jaringan; tahan fundus."
+          ],
+          "bold": true,
+          "source": "§3 Checklist item 10-13"
+        },
+        {
+          "text": "Item checklist 14-17: Evaluasi perdarahan, kontraksi uterus, tanda perforasi (nyeri hebat, hilang tahanan); lepaskan klem dan spekulum, lepas kain penutup, bersihkan darah/jaringan; dekontaminasi alat dalam klorin 0,5% buang bahan habis pakai cuci tangan periksa TTV catat tindakan buat instruksi pemantauan; monitoring pascatindakan TTV perdarahan kontraksi Hb/Ht kasa/jaringan yang dikeluarkan.",
+          "sub": [],
+          "bold": true,
+          "source": "§3 Checklist item 14-17"
+        },
+        {
+          "text": "Item checklist 18-20: Dokumentasi SOAP lengkap; edukasi keluarga observasi ketat tanda bahaya kontrol; penutup station salam kesiapan ibu kesiapan rujukan.",
+          "sub": [
+            "Edukasi: Ibu perlu observasi ketat; tanda bahaya: perdarahan makin banyak, pusing, lemas, demam, atau nyeri perut; kontrol 1 minggu.",
+            "Penutup: Terima kasih, Bu. Saya doakan Ibu cepat pulih. Ada pertanyaan?"
+          ],
+          "bold": true,
+          "source": "§3 Checklist item 18-20"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips Nilai Tinggi — Verbalisasi Keras",
+          "text": "Lima tips nilai tinggi: (1) Komunikasi dan informed consent membuka station; (2) Persiapan alat membuktikan kesiapan — sebutkan semua alat lengkap; (3) Asepsis melindungi pasien — cuci tangan sampai siku, sarung tangan steril, antiseptik; (4) Langkah inti menentukan skor teknis — kuret sistematis, tahan fundus, evaluasi perforasi; (5) Monitoring-dokumentasi menutup tindakan — TTV serial, SOAP lengkap, edukasi.",
+          "answer_evidence": "§2 Tips Nilai Tinggi modul FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Verbalisasi (dari file sumber)",
+          "text": "Kolom 'Kalimat yang Dapat Diucapkan' adalah pola yang harus diucapkan dengan suara keras, bukan hanya di kepala. Pada kegawatdaruratan, beberapa item seperti informed consent tertulis dan edukasi keluarga mungkin disederhanakan.",
+          "answer_evidence": "§3 Catatan Kalimat yang Dapat Diucapkan"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kuretase_informed_consent_06",
+        "gls_kuretase_apd_07"
+      ],
+      "bilingual": "Lima tips nilai tinggi modul: komunikasi membuka station, persiapan alat, asepsis, langkah inti, dan monitoring-dokumentasi. Semua kalimat pola harus diucapkan dengan suara keras."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis pada station kuretase pascapersalinan berfungsi untuk konfirmasi identitas dan kegawatdaruratan, asesmen plasenta dan perdarahan, informed consent, dan persiapan tindakan. Empat pertanyaan kunci yang tidak boleh terlewat adalah kelengkapan plasenta, tanda syok, riwayat hipertensi/alergi, dan kesiapan darah.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station kuretase pascapersalinan berfungsi sebagai empat hal: (1) konfirmasi identitas dan kondisi kegawatdaruratan, (2) asesmen plasenta dan perdarahan, (3) informed consent, (4) persiapan tindakan. Prinsip utama anamnesis kuretase pascapersalinan yang diadaptasi dari file sumber: (1) Kapan plasenta lahir dan lengkap? (2) Berapa jumlah perdarahan (estimasi)? (3) Apa tanda syok? (4) Apa riwayat alergi, hipertensi, asma, koagulopati?",
+          "tone": "clinical",
+          "source": "§4 Prinsip Anamnesis"
+        },
+        {
+          "text": "Tabel pertanyaan anamnesis wajib mencakup: identitas dan keluhan (konfirmasi pasien, ada/tidak keluhan tambahan, anomali identitas → cek ulang); riwayat persalinan cara, lama, paritas, komplikasi (faktor risiko robekan, SC, plasenta akreta, curiga plasenta akreta → evaluasi lebih teliti, rujuk); kapan plasenta lahir lengkap (diagnosis retensio/sisa plasenta, belum lahir/tidak lengkap → manual/kuretase); jumlah perdarahan estimasi (derajat PPH, mayor → resusitasi agresif); tanda syok pusing lemas keringat dingin penurunan kesadaran (hemodinamik, syok → resusitasi segera); riwayat alergi obat (mencegah reaksi alergi, alergi → ganti obat); riwayat hipertensi (kontraindikasi metilergometrin, metilergometrin meningkatkan TD, hipertensi → hindari metilergometrin); riwayat asma (karboprost bisa memicu bronkospasme, asma → hindari karboprost); riwayat koagulopati/perdarahan postpartum sebelumnya (faktor risiko PPH berulang, riwayat → persiapan darah uterotonika); riwayat SC miomektomi atau operasi uterus sebelumnya (curiga plasenta akreta, riwayat → rujuk); golongan darah Hb terakhir (persiapan transfusi, Hb rendah/golongan darah jarang → cross-match lebih awal).",
+          "tone": "clinical",
+          "source": "§4 Tabel Pertanyaan Wajib"
+        },
+        {
+          "text": "Cara berpikir praktis — empat pertanyaan kunci yang tidak boleh terlewat: (1) Apakah plasenta sudah lahir? Lengkap? (2) Apa tanda syok dan berapa jumlah perdarahan? (3) Apa riwayat hipertensi atau alergi obat? (4) Apakah akses IV dan persediaan darah siap?",
+          "tone": "clinical",
+          "source": "§4 Cara Berpikir Praktis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Red Flags yang wajib ditanyakan atau dicari saat anamnesis kuretase pascapersalinan.",
+          "sub": [
+            "Syok hemoragik — kegawatdaruratan, resusitasi agresif.",
+            "Perdarahan masif >1000 mL — PPH mayor.",
+            "Plasenta tidak lengkap (kotiledon hilang) — sisa plasenta, indikasi kuretase.",
+            "Plasenta akreta spectrum curiga (riwayat SC, plasenta sulit lepas) — rujuk.",
+            "Tanda perforasi curiga (nyeri hebat, hilangnya tahanan, perdarahan tiba-tiba) — emergency.",
+            "Atonia uteri menyertai (uterus lembek) — kombinasi dengan sisa plasenta.",
+            "Koagulopati / gangguan pembekuan — eskalasi.",
+            "Tidak ada akses IV / persediaan darah — emergency, rujuk.",
+            "Demam tinggi / curiga sepsis — tunda elektif, kecuali emergensi.",
+            "Infeksi panggul aktif — risiko memperburuk; tata dulu."
+          ],
+          "bold": true,
+          "source": "§4 Red Flags"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Seleksi Pasien — Kontraindikasi Rujukan",
+          "text": "Plasenta akreta spectrum curiga (riwayat SC, plasenta sulit lepas) → JANGAN kuretase paksa, rujuk ke SpOG karena risiko perforasi dan perdarahan masif. Fasilitas tidak memadai → stabilisasi dulu, rujuk. Pasien menolak → informed consent, diskusi risiko, dokumentasi.",
+          "answer_evidence": "Lampiran A — Kontraindikasi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Seleksi Obat — Riwayat Hipertensi dan Asma",
+          "text": "Hipertensi merupakan kontraindikasi metilergometrin (meningkatkan TD) → ganti misoprostol/oksitosin. Asma merupakan kontraindikasi karboprost (prostaglandin F2α bisa memicu bronkospasme) → ganti uterotonika lain. Selalu tanyakan riwayat alergi obat sebelum memberikan uterotonika.",
+          "answer_evidence": "§4 Tabel Pertanyaan Wajib"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tepat Skrining untuk Sisa Plasenta",
+          "text": "Tepat: kapan plasenta lahir? lengkap? berapa estimasi perdarahan? tanda syok? riwayat hipertensi/alergi/asma/koagulopati? riwayat SC atau operasi uterus? golongan darah dan Hb?",
+          "answer_evidence": "§4 Cara Berpikir Praktis"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kuretase_informed_consent_06",
+        "gls_kuretase_sisa_plasenta_08",
+        "gls_kuretase_kerangka_4T_11"
+      ],
+      "bilingual": "Anamnesis fokus pada 4 pertanyaan kunci: kelengkapan plasenta, tanda syok dan jumlah perdarahan, riwayat hipertensi/alergi, dan kesiapan darah/IV. Riwayat SC meningkatkan kecurigaan plasenta akreta spectrum yang merupakan kontraindikasi kuretase paksa."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan fisik pada kuretase pascapersalinan terdiri dari empat komponen: tanda vital dan umum, pemeriksaan abdomen (fundus dan kontraksi), pemeriksaan bimanual pra-prosedur, dan pemeriksaan jalan lahir dengan spekulum. Bimanual wajib untuk menentukan arah, ukuran, dan posisi uterus sebelum kuretase.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan tanda vital dan umum: TD, nadi, suhu, pernapasan, SpO2; kesadaran (GCS, alert-verbal-pain-unresponsive); konjungtiva (pucat → anemia); akral, capillary refill; estimasi jumlah perdarahan. Nilai normal ibu postpartum: TD <140/90 mmHg, nadi 60–100, suhu 36,0–37,5°C, RR 12–20, SpO2 ≥95%. Konjungtiva merah muda, akral hangat. Interpretasi bila abnormal: TD <90/60 + nadi >120 → syok kelas II-III, resusitasi agresif. Pucat + akral dingin → anemia akut, transfusi. Suhu >38°C → curiga infeksi. Penurunan kesadaran → syok berat, emergency. Kalimat OSCE: TD 90/60, nadi 120, suhu 36,5°C, akral dingin, pucat. Tanda syok awal, perlu resusitasi.",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Tanda Vital"
+        },
+        {
+          "text": "Pemeriksaan abdomen (fundus, kontraksi): inspeksi tinggi fundus, perdarahan pervaginam; palpasi kontraksi uterus, tinggi fundus. Nilai normal postpartum: fundus keras, 1-2 jari di bawah pusat. Interpretasi bila abnormal: fundus lembek → atonia uteri; fundus tinggi → curiga sisa plasenta; fundus keras tapi perdarahan tetap → curiga trauma. Kalimat OSCE: TFU 2 jari di bawah pusat, kontraksi lembek, perdarahan 500 mL. Curiga atonia + sisa plasenta.",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Abdomen"
+        },
+        {
+          "text": "Pemeriksaan bimanual pra-prosedur: tangan di abdomen (menahan fundus), tangan di vagina (telunjuk + tengah); tentukan arah uterus, ukuran, posisi/arah serviks, pembukaan; tentukan kavum uteri: kedalaman, kelainan. Nilai normal: uterus anteversi, ukuran mengecil, serviks terbuka beberapa cm, kavum bersih. Interpretasi bila abnormal: cavum uteri tidak bersih → sisa plasenta; uterus tidak kontraksi → atonia; serviks menutup → ostium menutup; massa adneksa → kista, ektopik, mioma. Kalimat OSCE: Bimanual: uterus anteversi, ukuran sesuai postpartum, serviks terbuka 2-3 cm, tidak ada massa abnormal, cavum uteri perlu evaluasi lebih lanjut (curiga sisa plasenta).",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Bimanual"
+        },
+        {
+          "text": "Pemeriksaan jalan lahir (inspeksi + spekulum): posisi litotomi, lampu sorot; inspeksi vulva, vagina, serviks (dengan spekulum); identifikasi robekan, perdarahan aktif, jaringan di OUE; antisepsis. Nilai normal: serviks utuh, tidak ada jaringan di OUE, tidak ada perdarahan aktif dari robekan. Interpretasi bila abnormal: plasenta/sisa jaringan di OUE → ambil dengan klem; serviks mudah berdarah → servisitis/keganasan; robekan luas → rujuk atau jahit. Kalimat OSCE: Spekulum: serviks terbuka 2-3 cm, tidak ada robekan luas, tidak ada jaringan di OUE, vagina bersih, antiseptik diberikan.",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Jalan Lahir"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda abnormal yang harus segera diresusitasi: TD <90/60 + nadi >120 (syok kelas II-III), pucat + akral dingin (anemia akut), suhu >38°C (curiga infeksi), penurunan kesadaran (syok berat emergency).",
+          "sub": [],
+          "bold": true,
+          "source": "§5 Tanda Vital Abnormal"
+        },
+        {
+          "text": "Tanda abdomen abnormal: fundus lembek → atonia uteri; fundus tinggi → curiga sisa plasenta; fundus keras tapi perdarahan tetap → curiga trauma.",
+          "sub": [],
+          "bold": false,
+          "source": "§5 Abdomen Abnormal"
+        },
+        {
+          "text": "Tanda bimanual abnormal: cavum uteri tidak bersih → sisa plasenta; uterus tidak kontraksi → atonia; serviks menutup → ostium menutup; massa adneksa → kista, ektopik, mioma.",
+          "sub": [],
+          "bold": false,
+          "source": "§5 Bimanual Abnormal"
+        },
+        {
+          "text": "Tanda spekulum abnormal: plasenta/sisa jaringan di OUE → ambil dengan klem; serviks mudah berdarah → servisitis/keganasan; robekan luas → rujuk atau jahit.",
+          "sub": [],
+          "bold": false,
+          "source": "§5 Spekulum Abnormal"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Wajib Bimanual Pra-Prosedur",
+          "text": "Pemeriksaan bimanual WAJIB dilakukan sebelum kuretase untuk menentukan arah uterus, ukuran, posisi serviks, dan pembukaan. Ini mencegah perforasi karena kuret diarahkan sesuai sumbu uterus. Selalu kosongkan kandung kemih dengan kateter Foley terlebih dahulu karena kandung kemih penuh mengganggu akses dan palpasi.",
+          "answer_evidence": "§5 Pemeriksaan Bimanual & §6 Posisi Litotomi"
+        }
+      ],
+      "visual_refs": [
+        "visual_kuretase_anatomi_uterus_01"
+      ],
+      "glossary_refs": [
+        "gls_kuretase_pemeriksaan_bimanual_10",
+        "gls_kuretase_posisi_litotomi_05"
+      ],
+      "bilingual": "Empat komponen pemeriksaan fisik: tanda vital & umum, abdomen (fundus & kontraksi), bimanual pra-prosedur, dan jalan lahir dengan spekulum. Bimanual menentukan arah, ukuran, dan posisi uterus untuk mencegah perforasi saat kuretase."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat minimum yang harus disebutkan lengkap, APD wajib, dan prosedur utama dalam lima fase (persiapan, visualisasi serviks, klem porsio, kuretase sistematis, evaluasi dan konfirmasi). Prinsip utama kuretase: pegangan fundus dan arah sistematis mencegah perforasi; jangan terlalu agresif; evaluasi tanda perforasi setiap saat.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Alat yang harus disebutkan (minimum 5, dari file sumber): cunam tampon untuk visualisasi; klem ovum untuk menjepit porsio; sendok kuret pascapersalinan (large blunt curette) sebagai alat utama; spekulum Sim/L untuk visualisasi serviks; kateter Foley untuk kandung kemih; jarum suntik + spuit untuk lidokain/analgesik; antiseptik povidone iodine 10% untuk antiseptik serviks/vagina; sarung tangan steril/DTT wajib; kain penutup steril berlubang (drape); baju tindakan, masker, kacamata pelindung (APD); infus set + jarum besar + RL/NaCl untuk akses IV; uterotonika (oksitosin 10 IU, metilergometrin 0,2 mg, misoprostol 800 μg); alat resusitasi (oksigen, balon sungkup, suction); larutan klorin 0,5% untuk dekontaminasi; safety box untuk pembuangan jarum. APD: sarung tangan steril (wajib), masker dan kacamata pelindung, apron plastik, baju tindakan.",
+          "tone": "clinical",
+          "source": "§6 Alat dan APD"
+        },
+        {
+          "text": "Cara mempersiapkan pasien: posisi litotomi dengan bokong sedikit melewati tepi meja; kain steril berlubang menutupi perut bawah dan kaki; alas bokong untuk menampung darah/cairan; antisepsis perineum dengan povidone iodine; penjelasan tindakan (informed consent); privasi dengan drape menutupi area yang tidak dikerjakan. Momen cuci tangan sesuai WHO: sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien.",
+          "tone": "clinical",
+          "source": "§6 Cara Mempersiapkan Pasien"
+        },
+        {
+          "text": "Fase persiapan: (1) Informed consent; (2) Nilai status umum (TTV, kesadaran, perdarahan, tanda syok); (3) Akses IV pastikan 2 jalur kristaloid; (4) Sampel darah (golongan darah, cross-match, Hb/Ht, koagulasi); (5) Persiapan darah standby; (6) Oksigen sesuai SpO2; (7) Uterotonika (oksitosin 10 IU IV, metilergometrin 0,2 mg IM bila bukan hipertensi); (8) Posisi litotomi, drape steril; (9) Antisepsis perineum povidone iodine; (10) Kateterisasi kandung kemih kateter Foley; (11) APD lengkap, cuci tangan sampai siku, sarung tangan steril; (12) Bimanual — besar uterus, arah, posisi serviks. Keselamatan pasien: resusitasi, uterotonika, akses IV, darah. Tanpa stabilisasi, jangan langsung ke prosedur invasif.",
+          "tone": "clinical",
+          "source": "§7 Fase Persiapan"
+        },
+        {
+          "text": "Fase pelaksanaan — visualisasi serviks: (1) Pasang spekulum Sims/L untuk visualisasi serviks; (2) Tampak porsio yaitu serviks dan OUE; (3) Bersihkan vagina dan serviks dengan antiseptik povidone iodine 10%; (4) Identifikasi porsio untuk tentukan lokasi jepit klem. Keselamatan: jangan melakukan tindakan buta tanpa visualisasi dan antisepsis.",
+          "tone": "clinical",
+          "source": "§7 Fase Visualisasi"
+        },
+        {
+          "text": "Fase pelaksanaan — klem porsio: (1) Klem porsio jam 12 dengan klem ovum/tenakulum; (2) Jepit cukup kuat untuk menahan, tidak berlebihan; (3) Tarik lembut untuk melihat OUE. Keselamatan: jangan terlalu kuat (risiko robekan porsio).",
+          "tone": "clinical",
+          "source": "§7 Fase Klem Porsio"
+        },
+        {
+          "text": "Fase pelaksanaan — kuretase sistematis: (1) Tangan luar menahan fundus (tangan kiri di abdomen) agar arah kuret terasa; (2) Masukkan sendok kuret mengikuti arah kavum sampai fundus; (3) Kuret dinding depan searah jarum jam, lembut, sistematis; (4) Putar 180° untuk dinding belakang, lanjutkan; (5) Kuret dinding lateral dan fundus, pastikan semua bagian; (6) Keluarkan jaringan, evaluasi apakah sudah bersih; (7) Evaluasi perdarahan, kontraksi, tanda perforasi selama tindakan.",
+          "tone": "clinical",
+          "source": "§7 Fase Kuretase Sistematis"
+        },
+        {
+          "text": "Prinsip utama kuretase: pegangan fundus dan arah sistematis mencegah perforasi dan memastikan kavum bersih; jangan terlalu agresif karena dinding uterus postpartum masih lembut; tangan luar menahan fundus — jangan biarkan kuret mendorong uterus berlebihan; evaluasi perforasi — nyeri hebat, hilangnya tahanan, perdarahan tiba-tiba banyak. Keselamatan: tahan fundus, jangan memaksa, waspadai perforasi.",
+          "tone": "clinical",
+          "source": "§7 Prinsip Utama Kuretase"
+        },
+        {
+          "text": "Fase evaluasi dan konfirmasi: (1) Konfirmasi keberhasilan: jaringan sisa keluar, perdarahan berkurang, uterus keras; (2) Evaluasi kondisi ibu (TTV stabil); (3) Monitoring ketat TTV serial 15 menit; (4) Hb/Ht serial evaluasi kebutuhan transfusi; (5) Dekontaminasi (klorin 0,5%, buang habis pakai, lepas sarung tangan, cuci tangan); (6) Dokumentasi SOAP lengkap; (7) Edukasi keluarga (observasi ketat, tanda bahaya); (8) Rujukan bila fasilitas tidak memadai atau perdarahan berlanjut; (9) Penutup station (salam, kesiapan ibu, kontrol). Keselamatan: monitoring ketat, dokumentasi, edukasi safety-net, rujukan tepat waktu.",
+          "tone": "clinical",
+          "source": "§7 Fase Evaluasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "APD wajib lengkap: sarung tangan steril, masker, kacamata pelindung, apron plastik, baju tindakan. Cuci tangan 6 langkah sampai siku sesuai WHO.",
+          "sub": [
+            "Momen cuci tangan WHO: sebelum kontak pasien, sebelum tindakan aseptik, setelah paparan cairan tubuh, setelah kontak pasien, setelah kontak lingkungan.",
+            "APD bukan formalitas; ini tindakan dengan risiko darah dan cairan tubuh."
+          ],
+          "bold": true,
+          "source": "§6 APD"
+        },
+        {
+          "text": "Tujuh prinsip utama kuretase pascapersalinan.",
+          "sub": [
+            "Pegangan fundus dan arah sistematis mencegah perforasi dan memastikan kavum bersih.",
+            "Jangan terlalu agresif — dinding uterus postpartum masih lembut.",
+            "Tangan luar menahan fundus — jangan biarkan kuret mendorong uterus berlebihan.",
+            "Evaluasi perforasi — nyeri hebat, hilangnya tahanan, perdarahan tiba-tiba banyak.",
+            "Sendok kuret tumpul (blunt) lebih aman untuk dinding uterus postpartum.",
+            "Antisepsis menyeluruh (povidone iodine 10%) pada vagina dan serviks sebelum tindakan.",
+            "Klem porsio jam 12 cukup kuat untuk menahan, tidak berlebihan (risiko robekan)."
+          ],
+          "bold": true,
+          "source": "§7 Prinsip Utama Kuretase"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Tanda Perforasi Uterus — Emergency",
+          "text": "Nyeri tajam tiba-tiba, hilangnya tahanan saat kuret masuk terlalu dalam, dan perdarahan mendadak banyak. RESPONS: HENTIKAN kuretase segera, evaluasi TTV dan tanda perdarahan intraabdomen, panggil SpOG/operator terlatih, lanjutkan infus dan uterotonika, persiapan darah, antibiotik profilaksis (risiko peritonitis), rujuk emergensi untuk laparotomi evaluasi. Jangan lanjutkan kuretase.",
+          "answer_evidence": "§11 Komplikasi Intraprosedural & Lampiran B"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Plasenta Akreta Spectrum — Jangan Paksa",
+          "text": "Pada plasenta akreta spectrum curiga (riwayat SC, plasenta sulit lepas) JANGAN kuretase paksa — risiko perforasi dan perdarahan masif. Rujuk ke SpOG untuk laparotomi/histerektomi emergensi. Panggil tim (SpOG, anestesi, bedah), infus 2 jalur, transfusi, uterotonika.",
+          "answer_evidence": "§11 Komplikasi & Lampiran A"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Klinis — Kehilangan Nilai di OSCE",
+          "text": "Kehilangan nilai sering terjadi karena alat tidak disebut lengkap. APD bukan formalitas; ini tindakan dengan risiko darah dan cairan tubuh. Sebutkan semua alat lengkap (cunam tampon, klem ovum, sendok kuret, spekulum, kateter, jarum suntik, antiseptik, sarung tangan steril, drape, infus set, uterotonika, alat resusitasi, klorin 0,5%, safety box).",
+          "answer_evidence": "§6 Catatan Klinis"
+        }
+      ],
+      "visual_refs": [
+        "visual_kuretase_posisi_litotomi_02",
+        "visual_kuretase_alat_instrumen_03",
+        "visual_kuretase_arah_kuret_04"
+      ],
+      "glossary_refs": [
+        "gls_kuretase_kuretase_01",
+        "gls_kuretase_dilatasi_serviks_02",
+        "gls_kuretase_kuret_tumpul_tajam_04",
+        "gls_kuretase_perforasi_uterus_03",
+        "gls_kuretase_posisi_litotomi_05",
+        "gls_kuretase_apd_07"
+      ],
+      "bilingual": "Lima fase prosedur: persiapan (informed consent, IV 2 jalur, uterotonika, posisi litotomi), visualisasi serviks (spekulum + antiseptik), klem porsio (jam 12 dengan klem ovum), kuretase sistematis (tahan fundus, searah jarum jam, putar 180°), dan evaluasi (perdarahan, kontraksi, tanda perforasi)."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-prosedur 10 langkah, evaluasi keberhasilan, prosedur terkait/varian, dan clinical reasoning dengan kerangka 4T (Tone, Tissue, Trauma, Thrombin) untuk membedakan sumber perdarahan postpartum. Pembedaan cepat kuretase pascapersalinan vs plasenta manual.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-prosedur (dari file sumber): (1) Dekontaminasi alat — rendam dalam klorin 0,5% 10 menit; (2) Buang bahan habis pakai — safety box untuk jarum, kantong kuning untuk kasa; (3) Lepas APD — sarung tangan terbalik, masker, apron; (4) Cuci tangan 6 langkah; (5) Periksa TTV — TD, nadi, suhu, pernapasan, SpO2; (6) Catat tindakan — SOAP lengkap; (7) Buat instruksi pemantauan — TTV serial, perdarahan, Hb/Ht; (8) Edukasi keluarga — observasi, tanda bahaya, kontrol; (9) Monitoring pascatindakan — TTV, perdarahan, kontraksi; (10) Rujuk bila perlu.",
+          "tone": "clinical",
+          "source": "§8 Tindakan Pasca-Prosedur"
+        },
+        {
+          "text": "Cara evaluasi keberhasilan prosedur: jaringan sisa/kotiledon keluar (dikonfirmasi), perdarahan berkurang (evaluasi klinis), uterus keras (fundus kontraksi baik), tanda vital stabil (TD >90/60, nadi <120), Hb stabil atau meningkat setelah transfusi (bila perlu).",
+          "tone": "clinical",
+          "source": "§8 Evaluasi Keberhasilan"
+        },
+        {
+          "text": "Prosedur terkait/varian: plasenta manual (untuk retensio plasenta); kuretase vakum (suction curettage) — alternatif modern di beberapa fasilitas; tampon uterin/balon intrauterin — sebagai bridge; kompresi bimanual — untuk atonia; histerektomi postpartum — sebagai救命; embolisasi arteri uterina — di RS dengan fasilitas radiologi intervensi.",
+          "tone": "clinical",
+          "source": "§8 Prosedur Terkait"
+        },
+        {
+          "text": "Jadwal kontrol pasca-tindakan: observasi kala IV (1-2 jam) — TTV, perdarahan, kontraksi; Hb/Ht 6-12 jam pasca — evaluasi kebutuhan transfusi; 24-48 jam — evaluasi lanjutan, tanda infeksi; 1 minggu (kontrol nifas) — evaluasi keseluruhan; 6 minggu (kontrol nifas) — evaluasi akhir, KB pascasalin; kapan saja — bila ada tanda bahaya. [DITAMBAHKAN SAAT STANDARDISASI] Jadwal mengikuti standar FKIK Universitas Jambi; pada pasien nyata, jadwal mengikuti SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§8 Jadwal Kontrol"
+        },
+        {
+          "text": "Clinical reasoning pada station kuretase pascapersalinan berfokus pada diagnosis kerja PPH, asesmen sumber perdarahan (4T), dan menentukan apakah perlu rujukan. Alur pikir klinis: Pertanyaan 1: Apakah ini PPH? → Ya, perdarahan >500 mL atau tanda syok. Pertanyaan 2: Apa sumber perdarahan (4T)? → Tone, Tissue, Trauma, Thrombin. Pertanyaan 3: Apakah fasilitas memadai? → Resusitasi, uterotonika, darah, SpOG. Pertanyaan 4: Apakah ada kontraindikasi tindakan? → Plasenta akreta, ruptura uteri, koagulopati berat.",
+          "tone": "clinical",
+          "source": "§9 Clinical Reasoning"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tabel diagnosis banding sumber perdarahan postpartum dengan 7 diagnosis utama.",
+          "sub": [
+            "Sisa plasenta (tissue): plasenta lahir tidak lengkap, perdarahan aktif → kuretase (fokus utama modul).",
+            "Retensio plasenta: plasenta belum lahir >30 menit → plasenta manual/kuretase.",
+            "Atonia uteri (tone): uterus lembek, perdarahan banyak → masase, uterotonika, kompresi bimanual.",
+            "Robekan jalan lahir (trauma): uterus keras, perdarahan tetap → inspeksi, jahit.",
+            "Koagulopati (thrombin): darah sulit membeku, riwayat koagulopati → FFP, trombosit, rujuk.",
+            "Inversio uteri: fundus tidak teraba, syok → reposisi manual.",
+            "Plasenta akreta spectrum: riwayat SC, plasenta sulit lepas → rujuk ke SpOG, jangan kuretase paksa."
+          ],
+          "bold": true,
+          "source": "§9 Tabel Diagnosis Banding"
+        },
+        {
+          "text": "Pembedaan cepat kuretase pascapersalinan vs plasenta manual.",
+          "sub": [
+            "Kapan: kuretase setelah plasenta lahir tidak lengkap; plasenta manual sebelum plasenta lahir.",
+            "Alat utama: kuretase menggunakan sendok kuret (large blunt); plasenta manual menggunakan tangan obstetrik.",
+            "Indikasi: kuretase untuk sisa plasenta/selaput; plasenta manual untuk retensio plasenta.",
+            "Risiko utama: kuretase (perforasi, perdarahan, infeksi); plasenta manual (inversio uteri, perdarahan).",
+            "Operator: kuretase dokter umum terlatih (4A) atau SpOG; plasenta manual SpOG atau terlatih (3B).",
+            "Pembeda utama: kuretase setelah plasenta lahir, plasenta manual sebelum plasenta lahir."
+          ],
+          "bold": true,
+          "source": "§9 Pembedaan Cepat"
+        },
+        {
+          "text": "Kapan harus merujuk.",
+          "sub": [
+            "Segera (emergency): syok tidak stabil, plasenta akreta spectrum curiga, perforasi uteri, ruptura uteri.",
+            "Same day: PPH mayor, koagulopati curiga, sisa plasenta besar dengan perdarahan.",
+            "Rutin: kontrol pasca-kuretase, anemia pasca-perdarahan.",
+            "Tunda elektif: tidak relevan untuk emergensi."
+          ],
+          "bold": false,
+          "source": "§9 Kapan Merujuk"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Perforasi Uteri Intraprosedural — Stop, Evaluasi, Rujuk",
+          "text": "Tanda: nyeri tajam, hilangnya tahanan, perdarahan tiba-tiba. Respons aman: hentikan kuretase, evaluasi (TTV, tanda perdarahan intraabdomen), panggil SpOG/operator terlatih, infus lanjut, uterotonika, persiapan darah, antibiotik profilaksis (risiko peritonitis), rujuk emergensi untuk laparotomi evaluasi. Selalu hentikan.",
+          "answer_evidence": "Lampiran B — Masalah Saat Prosedur"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Plasenta Akreta — Jangan Kuretase Paksa",
+          "text": "Pada plasenta akreta curiga (riwayat SC, plasenta sulit lepas, perdarahan masif) JANGAN paksa kuretase/dilepas. Rujuk ke SpOG untuk histerektomi emergensi. Panggil tim lengkap (SpOG, anestesi, bedah), stabilisasi agresif (IV 2 jalur, transfusi, uterotonika).",
+          "answer_evidence": "§9 Tabel Diagnosis Banding & Lampiran A"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara Bedakan Kuretase Pascapersalinan vs Plasenta Manual",
+          "text": "Kuretase pascapersalinan dilakukan SETELAH plasenta lahir (sisa plasenta, sendok kuret). Plasenta manual dilakukan SEBELUM plasenta lahir (retensio plasenta, tangan obstetrik). Ini pembeda utama yang menentukan alat dan risiko.",
+          "answer_evidence": "§9 Pembedaan Cepat"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kuretase_perforasi_uterus_03",
+        "gls_kuretase_kerangka_4T_11",
+        "gls_kuretase_sisa_plasenta_08"
+      ],
+      "bilingual": "Clinical reasoning PPH menggunakan kerangka 4T (Tone, Tissue, Trauma, Thrombin). Pembedaan kunci kuretase vs plasenta manual: kuretase setelah plasenta lahir, plasenta manual sebelum plasenta lahir. Plasenta akreta spectrum = rujuk, jangan paksa."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan (DPL, golongan darah, cross-match, koagulasi, USG), bundle PPH versi WHO 2023, dan manajemen komplikasi intraprosedural dan pascaprosedur. Bundle PPH: Massage, Oxytocin, TXA, IV fluids, Examination, Escalation.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang untuk kuretase pascapersalinan. Darah lengkap (Hb, leukosit, trombosit): indikasi PPH, pra-tindakan, anemia. Nilai normal Hb ≥11 g/dL (ibu nifas normal). Tersedia di Puskesmas & RS. Golongan darah + Rh: indikasi PPH, persiapan transfusi. Catat golongan darah. Tersedia di Puskesmas & RS. Cross-match: indikasi PPH mayor, persiapan transfusi. Sesuai golongan darah. Tersedia di RS. Koagulasi (PT, aPTT, fibrinogen, D-dimer): indikasi curiga DIC, koagulopati. PT/aPTT normal, fibrinogen >200 mg/dL. Tersedia di RS. USG ginekologi: indikasi sisa plasenta, evaluasi kavum uteri. Konfirmasi jaringan dalam kavum. Tersedia di RS. Tes kehamilan: indikasi evaluasi kehamilan, ektopik. Negatif (postpartum). Tersedia di Puskesmas. EKG: indikasi syok berkepanjangan, usia >40, riwayat jantung. Ritme normal. Tersedia di RS. Kultur darah: indikasi sepsis curiga, demam tinggi. Steril atau pertumbuhan. Tersedia di RS.",
+          "tone": "clinical",
+          "source": "§10 Pemeriksaan Penunjang"
+        },
+        {
+          "text": "Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: TEE (transesophageal echo) untuk evaluasi syok; lab metabolik (asam-basa, laktat) untuk syok berat; CT scan untuk curiga perforasi. Catatan penting: Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab.",
+          "tone": "clinical",
+          "source": "§10 Catatan OSCE"
+        },
+        {
+          "text": "Bundle PPH (diadaptasi dari file sumber + WHO 2023): Massage (masase uterus bimanual); Oxytocin (10 IU IV/IM, atau 20 IU dalam 500 mL RL drip); Tranexamic acid/TXA (1 g IV dalam 10 menit, dalam 3 jam postpartum); IV fluids (2 jalur, kristaloid hangat, syok → 1-2 L cepat); Examination (periksa sumber perdarahan lain/4T); Escalation (rujuk, operator terlatih, histerektomi emergensi bila perlu).",
+          "tone": "clinical",
+          "source": "§11 Bundle PPH"
+        },
+        {
+          "text": "Manajemen komplikasi intraprosedural: Perforasi uteri (nyeri tajam, hilangnya tahanan, perdarahan tiba-tiba) → hentikan, evaluasi, rujuk. Perdarahan hebat (>500 mL atau tidak terkontrol) → uterotonika tambahan, transfusi, rujuk. Plasenta akreta spectrum curiga (riwayat SC, plasenta sulit lepas) → jangan memaksa, rujuk. Emboli udara (sesak napas, sianosis, syok mendadak) → posisi lateral kiri, rujuk ICU. Reaksi alergi uterotonika (gatal, bengkak, sesak) → hentikan, antihistamin/adrenalin. Sinkop vasovagal (pusing, pucat, keringat dingin) → hentikan, posisi Trendelenburg. Cairan ketuban hijau kental (tanda gawat janin sebelumnya) → resusitasi BBL siap. Histerektomi emergensi (indikasi perdarahan tidak terkontrol) → rujuk ke operator terlatih.",
+          "tone": "clinical",
+          "source": "§11 Komplikasi Intraprosedural"
+        },
+        {
+          "text": "Manajemen komplikasi pascaprosedur: Sepsis/endometritis (onset 24-72 jam, demam, nyeri perut, lochia bau → antibiotik ampisilin + gentamisin + metronidazol, rujuk). Anemia berat (onset segera, pucat, lemas, Hb <7 → transfusi PRC, suplementasi besi, rujuk). Syok/DIC (onset segera, tanda syok, perdarahan sulit berhenti → resusitasi agresif, FFP, trombosit, rujuk ICU). Perforasi uteri tertunda (onset segera-24 jam, nyeri perut, perdarahan, demam → evaluasi, rujuk untuk laparotomi). Sisa plasenta berulang (onset 24-72 jam, perdarahan, lochia banyak → USG, kuretase ulang atau rujuk). Asherman syndrome (onset berminggu-mulan, amenore, infertilitas → evaluasi dengan histeroskopi, rujuk). Inkontinensia/fistula (onset berminggu-mulan, flatus/feses dari vagina → evaluasi, rujuk SpOG). Depresi postpartum (onset berminggu-mulan, mood rendah, anhedonia → skrining, konseling, tatalaksana, rujuk psikiater).",
+          "tone": "clinical",
+          "source": "§11 Komplikasi Pascaprosedur"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Enam komponen Bundle PPH versi WHO 2023.",
+          "sub": [
+            "Massage: masase uterus bimanual.",
+            "Oxytocin: 10 IU IV/IM, atau 20 IU dalam 500 mL RL drip.",
+            "Tranexamic acid (TXA): 1 g IV dalam 10 menit, dalam 3 jam postpartum.",
+            "IV fluids: 2 jalur, kristaloid hangat, syok → 1-2 L cepat.",
+            "Examination: periksa sumber perdarahan lain (4T).",
+            "Escalation: rujuk, operator terlatih, histerektomi emergensi bila perlu."
+          ],
+          "bold": true,
+          "source": "§11 Bundle PPH"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "TXA 1 g IV dalam 10 Menit",
+          "text": "Tranexamic acid (TXA) 1 g IV dalam 10 menit, diberikan dalam 3 jam postpartum. TXA adalah komponen bundle PPH WHO 2023 yang menurunkan kematian akibat PPH. Selalu sebutkan TXA pada OSCE karena masuk kategori PENGURANGAN BESAR jika tidak disebut.",
+          "answer_evidence": "§11 Bundle PPH WHO 2023"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan Mengarang Hasil Lab",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Pemeriksaan penunjang yang relevan: DPL, golongan darah + Rh, cross-match, koagulasi, USG ginekologi, tes kehamilan, EKG, kultur darah.",
+          "answer_evidence": "§10 Catatan Penting"
+        }
+      ],
+      "visual_refs": [
+        "visual_kuretase_pph_bundle_05"
+      ],
+      "glossary_refs": [
+        "gls_kuretase_bundle_pph_09",
+        "gls_kuretase_kerangka_4T_11"
+      ],
+      "bilingual": "Bundle PPH WHO 2023: Massage, Oxytocin, TXA (1 g IV dalam 10 menit dalam 3 jam postpartum), IV fluids (2 jalur, 1-2 L cepat pada syok), Examination (4T), Escalation (rujuk). Selalu sebutkan TXA — masuk PENGURANGAN BESAR jika terlewat."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Edukasi pasien dan keluarga (8 poin spesifik, safety-net 6 poin) dan dokumentasi SOAP lengkap untuk skenario Ny. Rina beserta kode ICD-10 yang relevan. Pada situasi emergensi, edukasi mungkin disederhanakan tetapi safety-net tetap wajib.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pada kuretase pascapersalinan adalah komponen penting, meskipun sering disederhanakan karena emergensi. Penguji menilai apakah Anda tetap mengomunikasikan kondisi dan menjelaskan tanda bahaya meskipun situasi genting. Poin edukasi spesifik (minimal 6, diadaptasi dari file sumber): (1) Kondisi kegawatdaruratan — perdarahan pascapersalinan dapat mengancam nyawa; (2) Tindakan yang dilakukan — pengeluaran sisa jaringan dengan sendok kuret; (3) Risiko — perdarahan makin banyak, infeksi, perforasi rahim, atau perlu operasi; (4) Observasi ketat — TTV serial, perdarahan, kontraksi; (5) Tanda bahaya — perdarahan makin banyak, pusing/lemas, demam, nyeri perut, bau busuk; (6) Kontrol 1 minggu atau lebih cepat bila ada keluhan; (7) Laktasi — dukungan IMD dan ASI eksklusif; (8) KB pascasalin — diskusi di kontrol nifas.",
+          "tone": "clinical",
+          "source": "§12 Poin Edukasi"
+        },
+        {
+          "text": "Safety net — kapan harus kembali segera atau ke IGD (minimal 4): (1) Perdarahan makin banyak — ganti pembalut >2/jam atau perdarahan aktif; (2) Pusing, lemas, pandangan kabur — tanda syok/anemia; (3) Demam ≥38°C — terutama dalam 72 jam pascapersalinan; (4) Nyeri perut hebat — curiga perforasi atau infeksi; (5) Lokia berbau busuk — curiga infeksi nifas; (6) Tidak bisa BAK atau nyeri hebat saat BAK.",
+          "tone": "clinical",
+          "source": "§12 Safety Net"
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE (situasi emergensi): komunikasi tenang, hindari kepanikan; bahasa awam, jelaskan secara singkat, tidak berurutan seperti non-emergensi; minta keluarga membantu (suami/keluarga bisa membantu ibu); tanda bahaya ditegaskan — meskipun edukasi singkat, safety-net tetap wajib. Contoh kalimat edukasi spesifik: Ibu, saat ini perdarahan masih banyak dan rahim masih lembek, sehingga kami perlu mengeluarkan sisa jaringan dengan alat khusus. Ibu akan diberi obat anestesi agar tidak terlalu nyeri. Risiko: perdarahan makin banyak, infeksi, atau perforasi rahim. Setelah selesai, ibu perlu observasi ketat dan kontrol 1 minggu. [DITAMBAHKAN SAAT STANDARDISASI] Pada situasi emergensi, edukasi mungkin disederhanakan; penguji tetap menilai apakah Anda menyebutkan safety-net dan rencana observasi.",
+          "tone": "clinical",
+          "source": "§12 Cara Edukasi OSCE"
+        },
+        {
+          "text": "Contoh SOAP — skenario: Ny. Rina, 28 tahun, G2P1A0, postpartum 4 jam. Plasenta lahir tidak lengkap, perdarahan 500 mL, tanda syok awal. Dilakukan kuretase pascapersalinan dengan sendok kuret, jaringan sisa keluar. S (Subjective): Keluhan utama perdarahan dari jalan lahir, pusing, lemas. Riwayat persalinan G2P1A0, persalinan spontan 4 jam lalu, plasenta lahir 30 menit postpartum, tidak lengkap. Informed consent verbal sudah diberikan.",
+          "tone": "narrative",
+          "source": "§13 SOAP Subjektif"
+        },
+        {
+          "text": "O (Objective): TTV TD 90/60 mmHg, N 120 x/menit, S 36,5°C, RR 22 x/menit, SpO2 95%. Kesadaran kompos mentis, gelisah. Konjungtiva pucat. Akral dingin, capillary refill 3 detik. Abdomen: TFU 2 jari di bawah pusat, kontraksi lembek, perdarahan aktif 500 mL. Bimanual: uterus anteversi, kavum uteri perlu evaluasi. Spekulum: serviks terbuka 2-3 cm, tidak ada robekan luas, antiseptik diberikan. Kuretase: jaringan sisa plasenta (±50 g) keluar, perdarahan berkurang, uterus mulai keras. Tidak ada tanda perforasi. Akses IV 2 jalur terpasang, RL jalan.",
+          "tone": "narrative",
+          "source": "§13 SOAP Objektif"
+        },
+        {
+          "text": "A (Assessment): G2P1A0, postpartum 4 jam, PPH karena sisa plasenta (tissue), tanda syok awal kelas II-III. P (Plan): (1) Informed consent verbal (sudah); (2) Stabilisasi — akses IV 2 jalur, RL cepat, oksigen, posisi Trendelenburg; (3) Sampel darah — golongan darah, cross-match, Hb/Ht, koagulasi; (4) Persiapan darah — PRC 1-2 kolf standby; (5) Uterotonika — oksitosin 20 IU dalam 500 mL RL drip, metilergometrin 0,2 mg IM; (6) Kuretase — sudah dilakukan, jaringan sisa keluar; (7) Evaluasi — perdarahan minimal, uterus keras, tidak ada tanda perforasi; (8) Monitoring ketat — TTV serial, perdarahan, Hb/Ht; (9) Transfusi sesuai Hb; (10) Dekontaminasi, dokumentasi, edukasi keluarga.",
+          "tone": "narrative",
+          "source": "§13 SOAP Assessment & Plan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kode ICD-10 yang relevan untuk kuretase pascapersalinan.",
+          "sub": [
+            "O72.0 — Third-stage hemorrhage.",
+            "O72.1 — Other immediate postpartum hemorrhage.",
+            "O72.2 — Delayed and secondary postpartum hemorrhage.",
+            "O73.0 — Retained placenta without hemorrhage.",
+            "O73.1 — Retained portions of placenta and membranes, without hemorrhage.",
+            "O62.2 — Other uterine inertia (atonia).",
+            "D65 — Disseminated intravascular coagulation.",
+            "O75.1 — Shock during or following labor and delivery.",
+            "O71.0 — Rupture of uterus before onset of labor.",
+            "O71.1 — Rupture of uterus during labor.",
+            "N73.x — Inflammatory diseases of uterus (sepsis nifas).",
+            "O86.0 — Infection of obstetric surgical wound.",
+            "Z39.0 — Encounter for care and examination of mother immediately after delivery."
+          ],
+          "bold": false,
+          "source": "§13 Kode ICD-10"
+        },
+        {
+          "text": "Cara mendokumentasikan prosedur kuretase: tanggal dan jam tindakan; diagnosis (PPH karena sisa plasenta, dll.); tatalaksana (resusitasi, uterotonika, kuretase); jumlah perdarahan (estimasi); jenis jaringan yang dikeluarkan; komplikasi intraprosedural: tidak ada/ada; transfusi (jenis dan jumlah); Hb/Ht sebelum dan sesudah; tanda tangan dokter dan perawat.",
+          "sub": [],
+          "bold": false,
+          "source": "§13 Cara Dokumentasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Safety-Net Tetap Wajib di Emergensi",
+          "text": "Pada situasi emergensi, edukasi mungkin disederhanakan tetapi penguji tetap menilai apakah Anda menyebutkan safety-net dan rencana observasi. Safety-net minimal 4: perdarahan makin banyak, pusing/lemas, demam ≥38°C, nyeri perut hebat. Minta keluarga mengulang tanda bahaya.",
+          "answer_evidence": "§12 Cara Edukasi OSCE"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Selalu Sebutkan Kode ICD-10",
+          "text": "Sebutkan kode ICD-10 yang relevan (O72.x, O73.0/O73.1, O62.2, D65, O75.1) untuk memperlihat kelengkapan dokumentasi medis. Masuk PENGURANGAN BESAR jika tidak disebut.",
+          "answer_evidence": "§18 Kesalahan Fatal — PENGURANGAN BESAR"
+        }
+      ],
+      "visual_refs": [
+        "visual_kuretase_monitoring_07"
+      ],
+      "glossary_refs": [
+        "gls_kuretase_informed_consent_06",
+        "gls_kuretase_sisa_plasenta_08"
+      ],
+      "bilingual": "Pada kuretase emergensi, edukasi disederhanakan tetapi safety-net tetap wajib: perdarahan makin banyak, pusing/lemas, demam ≥38°C, nyeri perut hebat, lokia berbau, tidak bisa BAK. SOAP lengkap dengan kode ICD-10 (O72.x, O73.x) wajib didokumentasikan."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Kaitan penyakit SKDI 4A dan 3B untuk kuretase pascapersalinan beserta batas kompetensi dokter umum, dan mini-skrip komunikasi OSCE 4 fase (pembukaan/informed consent, stabilisasi, tindakan inti, penutup).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan penyakit SKDI 4A untuk kuretase pascapersalinan. Perdarahan pascapersalinan (PPH) kode O72.x level 3B (Rujuk): kuretase dapat muncul pada PPH akibat sisa plasenta; PPH membutuhkan penilaian cepat jumlah darah, kontraksi uterus, TTV, dan syok. Retensio plasenta/sisa plasenta kode O73.0/O73.1 level 3B (Rujuk): jaringan plasenta tertinggal membuat uterus tidak dapat kontraksi optimal; pemeriksaan plasenta lengkap atau tidak, eksplorasi/evakuasi sesuai indikasi. Atonia uteri kode O62.x level 3B (Rujuk): bisa bersamaan dengan sisa plasenta; uterus lembek dan perdarahan banyak; masase uterus, uterotonik, kompresi bimanual bila perlu, rujuk.",
+          "tone": "clinical",
+          "source": "§14 Kaitan SKDI"
+        },
+        {
+          "text": "Kaitan penyakit SKDI tambahan. Anemia defisiensi besi pada kehamilan/nifas kode O99.0/D64.9 level 4A: perdarahan memperburuk anemia dan membuat pasien lebih mudah syok; periksa pucat, Hb/Ht, edukasi tablet besi dan kontrol. Infeksi nifas/sepsis puerperal kode O86.x/O85 level 4A (3B bila sepsis): tindakan intrauterin dan jaringan tertinggal meningkatkan risiko infeksi; waspada demam, nyeri uterus, lokia bau, takikardia, tampak toksik. Plasenta akreta spectrum kode O43.2x level 3B (Rujuk): jika plasenta sulit lepas dan perdarahan berat, jangan memaksa; rujuk/operasi oleh tim ahli. Ruptur uteri kode O71.0/O71.1 level 3B (Rujuk emergensi): komplikasi intrapartum atau intraprosedural. Syok hemoragik kode O75.1/R57.1 level 3B (Rujuk emergensi): komplikasi PPH; resusitasi, transfusi, rujuk. Gangguan koagulasi/DIC kode D65/O72.3 level 3B (Rujuk): perdarahan masif dengan darah sulit membeku. Hematoma vulva/vagina kode O71.7 level 3B (Rujuk): nyeri berat, benjolan kebiruan, syok.",
+          "tone": "clinical",
+          "source": "§14 Kaitan SKDI Tambahan"
+        },
+        {
+          "text": "Batas kompetensi dokter umum untuk setiap diagnosis. 4A (mandiri): dokter umum boleh menangani sendiri di layanan primer. 3B (merujuk): dokter umum boleh melakukan stabilisasi dan tatalaksana awal, wajib merujuk ke SpOG. 2 (merujuk ke spesialis): hanya spesialis yang menangani; dokter umum hanya boleh melakukan deteksi dini dan rujukan.",
+          "tone": "clinical",
+          "source": "§14 Batas Kompetensi"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE — Pembukaan/Informed Consent (kondisi cemas karena emergensi). [DOKTER]: Selamat pagi, Ibu Rina. Saya dokter muda yang akan menangani Ibu. Saya akan memastikan identitas Ibu, menjelaskan tindakan, kemudian meminta izin sebelum memulai. Tindakan ini mungkin menimbulkan rasa tidak nyaman. Ibu boleh memberi tahu saya kapan pun bila nyeri, pusing, atau ingin berhenti. [PASIEN]: Baik, Dok. Tindakannya apa? [DOKTER]: Tujuan tindakan ini membantu menilai dan menangani perdarahan Ibu. Saya akan membersihkan area, memasukkan alat kecil ke dalam rahim untuk mengeluarkan sisa jaringan yang menyebabkan perdarahan. Saya akan menjaga privasi Ibu, memakai alat steril atau DTT, dan melakukan tindakan selembut mungkin. Setelah selesai, saya akan menjelaskan hasil, tanda bahaya, dan rencana berikutnya.",
+          "tone": "narrative",
+          "source": "§15 Mini-Skrip Pembukaan"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE — Saat Prosedur (Stabilisasi dan Persiapan). [DOKTER]: Ibu, kami pasang infus 2 jalur untuk memberikan cairan dan obat. Saya berikan oksigen dan suntik obat agar rahim berkontraksi. Saya kirim sampel darah untuk transfusi bila perlu. Ibu tidak sendirian, tim kami lengkap. Saya akan jelaskan setiap langkah sebelum melakukannya.",
+          "tone": "narrative",
+          "source": "§15 Mini-Skrip Stabilisasi"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE — Saat Tindakan Inti (Kuretase Sistematis). [DOKTER]: Ibu, saya bersihkan area. Saya pasang spekulum untuk melihat serviks. Saya jepit porsio dengan lembut. Sekarang saya masukkan sendok kuret. Mungkin terasa kram, tapi saya lakukan perlahan. Tangan kiri saya menahan rahim dari perut. Saya bersihkan dinding rahim secara sistematis. Beri tahu saya kalau ada rasa nyeri. [Saat jaringan dikeluarkan] [DOKTER]: Sisa jaringan sudah keluar. Saya evaluasi perdarahan, kontraksi, dan tanda bahaya. Alhamdulillah, perdarahan sudah berkurang, rahim mulai keras.",
+          "tone": "narrative",
+          "source": "§15 Mini-Skrip Tindakan Inti"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE — Penutup Tindakan (Monitoring dan Edukasi). [DOKTER]: Ibu, tindakan sudah selesai. Saat ini yang perlu dipantau adalah perdarahan, nyeri, demam, pusing, atau keluhan lain. Saya akan mencatat hasil tindakan di rekam medis dan melapor kepada petugas penanggung jawab. Tanda bahaya: perdarahan makin banyak, pusing, lemas, demam, atau nyeri perut. Kontrol 1 minggu. [PASIEN]: Baik, Dok. Terima kasih. [DOKTER]: Sama-sama, Bu. Saya doakan Ibu cepat pulih. Ada pertanyaan?",
+          "tone": "narrative",
+          "source": "§15 Mini-Skrip Penutup"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan perbedaan situasi komunikasi untuk kuretase pascapersalinan.",
+          "sub": [
+            "Pasien sadar dan cemas: komunikasi tenang, tenangkan, libatkan keluarga.",
+            "Pasien syok/penurunan kesadaran: komunikasi lebih singkat, fokus pada tatalaksana; komunikasi dengan keluarga.",
+            "Keluarga panik: libatkan perawat atau dokter senior, jelaskan dengan tenang."
+          ],
+          "bold": false,
+          "source": "§15 Catatan Perbedaan"
+        },
+        {
+          "text": "Catatan diagnosis yang harus dirujuk segera (SKDI 3B) pada kuretase pascapersalinan.",
+          "sub": [
+            "PPH mayor (perdarahan >1000 mL atau syok).",
+            "Retensio/sisa plasenta dengan perdarahan tidak terkontrol.",
+            "Plasenta akreta spectrum.",
+            "Koagulopati/DIC.",
+            "Ruptur uteri.",
+            "Perforasi uteri intraprosedural.",
+            "Sepsis nifas berat.",
+            "Fasilitas tidak memadai."
+          ],
+          "bold": true,
+          "source": "§14 Catatan Diagnosis 3B"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Verbalisasi Keras Wajib",
+          "text": "Pada kuretase emergensi, urutan stabilisasi → uterotonika → kuretase → monitoring adalah yang paling penting. Informed consent verbal harus tetap diupayakan. Semua kalimat pola di mini-skrip harus diucapkan dengan suara keras, bukan hanya di kepala. Pola komunikasi konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi.",
+          "answer_evidence": "§15 & Lampiran D — Prinsip Verbalisasi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_kuretase_informed_consent_06"
+      ],
+      "bilingual": "Penyakit terkait SKDI 4A: anemia defisiensi besi pada nifas, infeksi nifas (3B bila sepsis). SKDI 3B wajib rujuk: PPH mayor, retensio/sisa plasenta dengan perdarahan, plasenta akreta spectrum, koagulopati, ruptur uteri, perforasi uteri, sepsis nifas berat. Verbalisasi mini-skrip wajib keras."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri 29 item (kriteria siap OSCE: minimal 26 dari 29 dengan semua item TINGGI dikuasai), rencana belajar 3 hari (H-3 orientasi, H-2 latihan urutan, H-1 simulasi penuh), dan kesalahan fatal serta recovery move untuk respons saat menyadari kesalahan di tengah station.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Checklist latihan mandiri 29 item dengan bobot TINGGI/SEDANG: 1) Sapa pasien/keluarga, perkenalkan diri (TINGGI); 2) Jelaskan diagnosis PPH karena sisa plasenta (TINGGI); 3) Jelaskan tujuan, prosedur, rasa tidak nyaman, risiko, alternatif (TINGGI); 4) Minta persetujuan tertulis (TINGGI); 5) Nilai status umum — TTV, kesadaran, perdarahan, tanda syok (TINGGI); 6) Pastikan infus terpasang (2 jalur) dan persiapan darah (TINGGI); 7) Persiapkan uterotonika, analgesik/sedasi, alat resusitasi (TINGGI); 8) Posisi litotomi, jaga privasi, drape steril (TINGGI); 9) Cuci tangan sampai siku dan APD lengkap (TINGGI); 10) Kosongkan kandung kemih dengan kateter (TINGGI); 11) Bimanual untuk besar uterus, arah, posisi serviks (TINGGI); 12) Pasang spekulum, tampilkan porsio, bersihkan antiseptik (TINGGI); 13) Klem porsio jam 12 dengan klem ovum (TINGGI).",
+          "tone": "clinical",
+          "source": "§16 Checklist Latihan"
+        },
+        {
+          "text": "Lanjutan checklist latihan mandiri: 14) Masukkan sendok kuret dengan tangan luar menahan fundus (TINGGI); 15) Kuret dinding depan searah jarum jam, putar 180° untuk dinding belakang (TINGGI); 16) Keluarkan jaringan dan evaluasi (TINGGI); 17) Evaluasi perdarahan, kontraksi, tanda perforasi (TINGGI); 18) Lepaskan alat, bersihkan area, dekontaminasi, cuci tangan (TINGGI); 19) Monitoring TTV serial, perdarahan, Hb/Ht (TINGGI); 20) Dokumentasi SOAP lengkap (TINGGI); 21) Edukasi keluarga — observasi, tanda bahaya, kontrol 1 minggu (TINGGI); 22) Mengenali tanda perforasi — nyeri tajam, hilangnya tahanan, perdarahan tiba-tiba (TINGGI); 23) Plasenta akreta — jangan memaksa, rujuk (TINGGI); 24) Bundle PPH (Massage, Oxytocin, TXA, IV, Examination, Escalation) (TINGGI); 25) TXA (1 g IV dalam 10 menit, dalam 3 jam postpartum) (TINGGI); 26) Rujukan tepat waktu (bila fasilitas tidak memadai) (TINGGI); 27) Minta keluarga mengulang tanda bahaya (SEDANG); 28) Penutup station yang sopan (SEDANG); 29) Menyebut kode ICD-10 (SEDANG). Kriteria Siap OSCE: Minimal 26 dari 29 item tercentang, dan semua item TINGGI sudah dikuasai.",
+          "tone": "clinical",
+          "source": "§16 Kriteria Siap OSCE"
+        },
+        {
+          "text": "Rencana belajar 3 hari. Hari 1 (H-3) — Orientasi dan Pemahaman Dasar (60 menit). Target: pahami konsep kuretase pascapersalinan dan tujuannya (§1); hafal urutan alur tindakan (§2) dan checklist utama (§3); baca §4–§6 (anamnesis, pemeriksaan, persiapan) sekali penuh. Aktivitas: baca §1 untuk konteks; tulis ulang 15 langkah alur dari ingatan tanpa melihat; hafalkan alat-alat utama (§6); pahami bundle PPH (Massage, Oxytocin, TXA, IV, Examination, Escalation). Sumber tambahan: Modul FKIK Universitas Jambi, WHO PPH 2023, Video YouTube kuretase pascapersalinan. Kriteria selesai: bisa menyebutkan 15 langkah alur dan alat-alat utama tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": "§17 Hari 1"
+        },
+        {
+          "text": "Hari 2 (H-2) — Latihan Urutan Checklist dengan Timer (90 menit). Target: hafal langkah stabilisasi (ABCDE + uterotonika); hafal urutan tindakan (persiapan → visualisasi → kuretase → evaluasi); latihan mini-skrip komunikasi (§15). Aktivitas: latihan di manekin sambil mengucapkan langkah-langkah dengan suara keras; praktik urutan persiapan (APD, alat, posisi, kandung kemih); praktik urutan visualisasi (spekulum, antiseptik, klem porsio); praktik urutan kuretase sistematis (tahan fundus, searah jarum jam, evaluasi); tulis SOAP untuk skenario dari §13; simulasi skenario dari Lampiran C dengan teman sebagai pasien atau penguji. Kriteria selesai: dapat menyelesaikan urutan tindakan (verbalized) dalam 7-8 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 Hari 2"
+        },
+        {
+          "text": "Hari 3 (H-1) — Simulasi OSCE Penuh (60 menit). Target: run-through penuh station (mulai informed consent sampai penutup); identifikasi celah terakhir; simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: timer 10 menit, simulasi lengkap dari masuk station sampai keluar; review §18 (kesalahan fatal) — pastikan tidak ada yang terlewat; praktik skenario alternatif dari Lampiran C; bisa menyebutkan 5 kesalahan fatal dan 5 tanda bahaya; tidur cukup malam sebelumnya; OSCE bukan dihafal semalam. Kriteria siap OSCE: bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, resusitasi, dan dokumentasi; tidak melewatkan item checklist §16 (minimal 26 dari 29); bisa menjawab 1-2 pertanyaan penguji dengan baik; merasa cukup percaya diri.",
+          "tone": "narrative",
+          "source": "§17 Hari 3"
+        },
+        {
+          "text": "Kesalahan fatal yang sering menurunkan skor — Kategori FATAL (dari file sumber + analisis klinis). 1) Tidak menjelaskan risiko dan tidak meminta informed consent → Skor hangus. 2) Tidak menilai tanda syok sebelum tindakan → Skor hangus untuk stabilisasi. 3) Melupakan akses IV, oksigen, uterotonik, dan kesiapan resusitasi → Skor hangus untuk keselamatan. 4) Tidak mengosongkan kandung kemih atau tidak melakukan bimanual untuk arah uterus → Risiko perforasi. 5) Tidak menahan fundus saat memasukkan kuret → Risiko perforasi. 6) Tidak melakukan dekontaminasi dan cuci tangan pascatindakan → Skor hangus untuk asepsis. 7) Tidak mencatat tindakan dan tidak membuat instruksi monitoring → Skor hangus untuk dokumentasi. 8) Plasenta akreta dipaksa dilepas/dikuretase → Perdarahan masif, skor hangus. 9) Tidak mengenali perforasi uteri (nyeri tajam, hilangnya tahanan, perdarahan tiba-tiba) → Skor hangus. 10) Terlambat merujuk pada fasilitas tidak memadai → Skor hangus.",
+          "tone": "clinical",
+          "source": "§18 FATAL"
+        },
+        {
+          "text": "Kategori PENGURANGAN BESAR (skor turun signifikan tapi tidak nol). 1) Tidak menyebut diagnosis kerja (PPH karena sisa plasenta) → Skor turun. 2) Tidak menyebut kerangka 4T sebagai pendekatan diagnostik → Skor turun. 3) Tidak menyebut bundle PPH (Massage, Oxytocin, TXA, IV, Examination, Escalation) → Skor turun. 4) Tidak evaluasi sumber perdarahan lain (4T) → Skor turun untuk clinical reasoning. 5) Tidak menyebut TXA (1 g IV dalam 10 menit) → Skor turun. 6) Tidak edukasi keluarga meskipun singkat → Skor turun. 7) Tidak menyebut kode ICD-10 → Skor turun.",
+          "tone": "clinical",
+          "source": "§18 PENGURANGAN BESAR"
+        },
+        {
+          "text": "Recovery Move (bila menyadari sudah membuat kesalahan di tengah station). Saat informed consent: Mohon maaf, Bu, saya akan mengulang penjelasan risiko tindakan → tetap sopan, tidak panik. Saat tindakan: Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang → penguji menghargai self-correction. Saat monitoring: Ibu, satu hal penting yang harus saya tambahkan: monitoring TTV serial → tambahkan poin. Saat dokumentasi: Saya akan menuliskan [poin yang terlewat] di rekam medis. Yang penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "tone": "narrative",
+          "source": "§18 Recovery Move"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Mini-case skenario Sulit — Plasenta Akreta + Perdarahan Masif.",
+          "sub": [
+            "Kasus: Ny. Rina 28 tahun G2P1A0 riwayat SC 1 tahun lalu, postpartum 5 jam, plasenta sulit dilepas manual di RS sebelumnya, perdarahan 1500 mL, TTV TD 70/40 N 140, pucat, akral dingin, penurunan kesadaran awal, fundus lembek.",
+            "Diagnosis paling curiga: plasenta akreta spectrum (riwayat SC + plasenta sulit lepas + perdarahan masif).",
+            "Yang TIDAK boleh dilakukan: JANGAN kuretase paksa — risiko perforasi dan perdarahan masif.",
+            "Tatalaksana awal: stabilisasi agresif (IV 2 jalur, RL cepat, transfusi, uterotonika); panggil tim (SpOG, anestesi, bedah); rujuk emergensi ke RS dengan tim operasi dan bank darah.",
+            "Histerektomi emergensi mungkin救命. Informed consent jelaskan kemungkinan histerektomi.",
+            "Jebakan nilai: kuretase paksa, tidak mengenali plasenta akreta, terlambat rujuk."
+          ],
+          "bold": true,
+          "source": "Lampiran C Skenario Sulit"
+        },
+        {
+          "text": "Mini-case skenario Perforasi Uteri Intraprosedural.",
+          "sub": [
+            "Kasus: Ny. Rina 28 tahun postpartum 6 jam, plasenta tidak lengkap, perdarahan 600 mL. Saat kuretase oleh operator, tiba-tiba sendok kuret masuk lebih dalam dari fundus, pasien meringis kesakitan, dan perdarahan meningkat 200 mL dalam 1 menit. TTV TD 100/60 N 110.",
+            "Diagnosis: perforasi uteri intraprosedural.",
+            "Respons aman: hentikan kuretase segera; evaluasi periksa TTV ada tanda perdarahan intraabdomen; panggil SpOG/operator terlatih; infus lanjut, uterotonika, persiapan darah; antibiotik profilaksis (risiko infeksi peritonitis); rujuk emergensi untuk laparotomi evaluasi.",
+            "Jebakan nilai: lanjut kuretase, tidak evaluasi, terlambat rujuk."
+          ],
+          "bold": true,
+          "source": "Lampiran C Skenario Perforasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "10 Kesalahan Fatal Skor Hangus",
+          "text": "(1) Tidak informed consent; (2) Tidak nilai tanda syok; (3) Lupa akses IV/oksigen/uterotonik; (4) Tidak kateterisasi/bimanual; (5) Tidak tahan fundus; (6) Tidak dekontaminasi/cuci tangan; (7) Tidak dokumentasi/instruksi monitoring; (8) Plasenta akreta dipaksa; (9) Tidak kenali perforasi uteri; (10) Terlambat merujuk. Semua FATAL = skor hangus.",
+          "answer_evidence": "§18 Kesalahan Fatal FATAL"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "7 Pengurangan Besar Skor Turun Signifikan",
+          "text": "(1) Tidak sebut diagnosis kerja; (2) Tidak sebut kerangka 4T; (3) Tidak sebut bundle PPH; (4) Tidak evaluasi 4T; (5) Tidak sebut TXA; (6) Tidak edukasi keluarga; (7) Tidak sebut kode ICD-10. Semua PENGURANGAN BESAR = skor turun signifikan tapi tidak nol.",
+          "answer_evidence": "§18 Kesalahan Fatal PENGURANGAN BESAR"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery Move Saat Sadar Kesalahan",
+          "text": "Jangan panik dan jangan asal jawab saat ditegur. Akui kesalahan, minta izin mengulang/self-correction: Saat informed consent: Mohon maaf, Bu, saya akan mengulang penjelasan risiko. Saat tindakan: Saya menyadari saya melewatkan langkah ... saya akan melakukannya sekarang. Penguji menghargai self-correction.",
+          "answer_evidence": "§18 Recovery Move"
+        }
+      ],
+      "visual_refs": [
+        "visual_kuretase_tanda_syok_06"
+      ],
+      "glossary_refs": [
+        "gls_kuretase_perforasi_uterus_03",
+        "gls_kuretase_bundle_pph_09",
+        "gls_kuretase_kerangka_4T_11"
+      ],
+      "bilingual": "Latihan 3 hari: H-3 orientasi + hafal alur, H-2 latihan urutan dengan timer + manekin, H-1 simulasi OSCE penuh. 10 FATAL (skor hangus) dan 7 PENGURANGAN BESAR. Recovery move: akui kesalahan, self-correction dengan sopan."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Saran visual dan prompt AI untuk kuretase pascapersalinan (7 visual + 3 prompt AI), referensi ringkas, dan lampiran A-D (kontraindikasi, masalah saat prosedur, mini-case latihan, checklist verbal).",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Saran visual untuk kuretase pascapersalinan. (1) Anatomi uterus postpartum — ilustrasi medis uterus postpartum, serviks terbuka, sisa plasenta di kavum uteri. Tujuan: memahami letak jaringan sisa. (2) Posisi litotomi aman — manekin ibu postpartum posisi litotomi di meja tindakan, draping steril, privasi terjaga. Tujuan: latihan setting pasien. (3) Alat kuretase — flat lay instrumen kuretase postpartum (spekulum Sim, klem ovum, sendok kuret, kateter, antiseptik). Tujuan: hafalan alat. (4) Arah kuret sistematis — diagram uterus dilihat sagital, sendok kuret mengikuti lengkung kavum, panah searah jarum jam, tangan luar menahan fundus. Tujuan: konsep arah dan safety. (5) PPH bundle — infografik MOTIVE/PPH bundle versi Indonesia (massage, oxytocin, TXA, IV fluids, exam, escalation). Tujuan: integrasi klinis modern. (6) Tanda syok obstetri — ilustrasi pasien postpartum pucat, nadi cepat, tekanan darah turun, perdarahan banyak, label red flags. Tujuan: menghafal kondisi darurat. (7) Monitoring pascatindakan — template lembar pemantauan TTV, perdarahan, kontraksi uterus, nyeri, suhu, Hb/Ht. Tujuan: latihan closing OSCE.",
+          "tone": "clinical",
+          "source": "§19 Saran Visual"
+        },
+        {
+          "text": "Prompt AI siap-pakai (3 prompt). Prompt 1 — Anatomi uterus postpartum: Ilustrasi medis uterus postpartum, serviks terbuka, sisa plasenta di kavum uteri, label Bahasa Indonesia: fundus, kavum uteri, serviks, vagina, gaya textbook bersih. Gaya clean medical illustration. Prompt 2 — Arah kuret sistematis: Diagram uterus dilihat sagital, sendok kuret mengikuti lengkung kavum, panah searah jarum jam, tangan luar menahan fundus, label Bahasa Indonesia. Gaya clean medical illustration, infografis OSCE. Prompt 3 — PPH bundle: Infografik MOTIVE/PPH bundle versi Indonesia: massage (masase), oxytocin (oksitosin), TXA (asam traneksamat), IV fluids (cairan IV), examination (periksa), escalation (rujuk). Gaya clean medical illustration, ikon sederhana, warna berbeda, label jelas.",
+          "tone": "clinical",
+          "source": "§19 Prompt AI"
+        },
+        {
+          "text": "Prompt tambahan — kasus latihan (mini-case generator): Buatkan 3 skenario OSCE kuretase pascapersalinan tingkat mudah, sedang, sulit. Setiap skenario berisi: identitas pasien fiktif, keluhan, data klinis (paritas, cara persalinan, plasenta, perdarahan, TTV, kontraksi), pertanyaan pemandu, dan kunci jawaban. Berikan variasi skenario (misalnya: sisa plasenta standar, plasenta akreta, atau PPH dengan koagulopati).",
+          "tone": "clinical",
+          "source": "§19 Prompt Mini-Case"
+        },
+        {
+          "text": "Referensi ringkas. Checklist skill lab Blok 6.1 FKIK Universitas Jambi sesuai file PDF yang diberikan pengguna. SKDI 2012 tingkat kemampuan 4A, dipakai sebagai peta penyakit relevan pada domain Obstetri dan Ginekologi. WHO. Intrapartum care for a positive childbirth experience. 2018. WHO. Recommendations on the assessment of postpartum blood loss and use of a treatment bundle for postpartum haemorrhage. 2023. WHO. Guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, second edition. 2021. CDC. Sexually Transmitted Infections Treatment Guidelines: urethritis, cervicitis, vaginitis, BV, gonorrhoea, chlamydia. 2021, website updated by CDC. Catatan penting: Keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "evidence",
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi, Red Flags, dan Kondisi Khusus untuk kuretase pascapersalinan. Modul ini adalah prosedur invasif, sehingga 'kontraindikasi' lebih banyak merujuk pada kondisi yang menunda atau membatalkan tindakan (perlu rujukan atau stabilisasi dulu).",
+          "tone": "clinical",
+          "source": "LAMPIRAN A"
+        },
+        {
+          "text": "Lampiran B — Masalah Saat Prosedur dan Respons Aman. 13 masalah: perforasi uteri, perdarahan hebat, plasenta akreta, emboli udara, reaksi alergi uterotonika, sinkop vasovagal, hipertensi setelah metilergometrin, bronkospasme setelah karboprost, histerektomi emergensi, luka jalan lahir curiga, sisa plasenta multipel/acretic, inversio uteri, emboli air ketuban. Prinsip utama: Keselamatan pasien > kelengkapan prosedur. Pada plasenta akreta spectrum, jangan kuretase paksa.",
+          "tone": "clinical",
+          "source": "LAMPIRAN B"
+        },
+        {
+          "text": "Lampiran C — OSCE Mini-Case untuk Latihan Cepat. Empat skenario dengan tingkat kesulitan berbeda. (1) Skenario Mudah: Sisa plasenta standar, ibu stabil — Ny. Rina 28 tahun postpartum 4 jam, plasenta tidak lengkap, perdarahan 500 mL, TTV TD 100/70 N 100, fundus lembek, ibu kooperatif. (2) Skenario Sedang: Sisa plasenta + tanda syok awal — Ny. Rina postpartum 5 jam, perdarahan 1000 mL, TTV TD 85/55 N 130, pucat, akral dingin, gelisah. (3) Skenario Sulit: Plasenta akreta + perdarahan masif — Ny. Rina riwayat SC, postpartum 5 jam, plasenta sulit dilepas, perdarahan 1500 mL, TTV TD 70/40 N 140, penurunan kesadaran awal. (4) Skenario Tambahan: Perforasi uteri intraprosedural — sendok kuret masuk lebih dalam dari fundus, pasien meringis kesakitan, perdarahan meningkat 200 mL dalam 1 menit.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C"
+        },
+        {
+          "text": "Lampiran D — Checklist Verbal Sebelum Mulai Tindakan. 10 kalimat pola yang harus diucapkan dalam 60-90 detik pertama di station kuretase. Karena kondisi emergensi, beberapa kalimat mungkin disederhanakan; tetap verbalisasi poin-poin krusial. Prinsip: Pada kuretase emergensi, urutan stabilisasi → uterotonika → kuretase → monitoring adalah yang paling penting. Informed consent verbal harus tetap diupayakan.",
+          "tone": "clinical",
+          "source": "LAMPIRAN D"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Lampiran A — 14 kondisi kontraindikasi/kondisi khusus untuk kuretase pascapersalinan.",
+          "sub": [
+            "Plasenta akreta spectrum curiga (riwayat SC, plasenta sulit lepas) → jangan kuretase paksa, rujuk ke SpOG.",
+            "Syok berat yang tidak stabil → stabilisasi dulu, baru tindakan.",
+            "Ruptur uteri curiga → evaluasi, rujuk untuk laparotomi.",
+            "Koagulopati berat (DIC) → FFP, trombosit, kriopresipitat, rujuk.",
+            "Histerektomi emergensi sudah diindikasikan → rujuk untuk histerektomi.",
+            "Tidak ada akses IV → pasang IV dulu.",
+            "Tidak ada darah → rujuk ke RS dengan bank darah.",
+            "Alergi uterotonika → ganti uterotonika sesuai SOP.",
+            "Hipertensi (kontraindikasi metilergometrin) → hindari metilergometrin, ganti misoprostol/oksitosin.",
+            "Asma (kontraindikasi karboprost) → hindari karboprost, ganti uterotonika lain.",
+            "Infeksi panggul aktif (PID) → tata dulu, lalu kuretase.",
+            "Trombositopenia berat → transfusi trombosit dulu.",
+            "Fasilitas tidak memadai → stabilisasi, rujuk.",
+            "Pasien menolak tindakan → informed consent, diskusi risiko, dokumentasi."
+          ],
+          "bold": true,
+          "source": "LAMPIRAN A"
+        },
+        {
+          "text": "Lampiran B — 13 masalah saat prosedur dan respons aman (prinsip keselamatan pasien > kelengkapan prosedur).",
+          "sub": [
+            "Perforasi uteri: nyeri tajam, hilangnya tahanan, perdarahan tiba-tiba → hentikan, evaluasi, rujuk.",
+            "Perdarahan hebat: >500 mL atau tidak terkontrol → uterotonika tambahan, transfusi, rujuk.",
+            "Plasenta akreta: plasenta sulit lepas, perdarahan masif → jangan memaksa, rujuk.",
+            "Emboli udara: sesak napas, sianosis, syok mendadak → posisi lateral kiri, rujuk ICU.",
+            "Reaksi alergi uterotonika: gatal, bengkak, sesak → hentikan, antihistamin/adrenalin.",
+            "Sinkop vasovagal: pusing, pucat, keringat dingin → hentikan, posisi Trendelenburg.",
+            "Hipertensi setelah metilergometrin: TD meningkat → hentikan, ganti uterotonika.",
+            "Bronkospasme setelah karboprost: asma eksaserbasi → hentikan, ganti uterotonika.",
+            "Histerektomi emergensi: perdarahan tidak terkontrol → rujuk ke operator terlatih.",
+            "Luka jalan lahir curiga: uterus keras, perdarahan tetap → inspeksi, jahit.",
+            "Sisa plasenta multipel/acretic: sulit evakuasi lengkap → kuretase bertahap atau rujuk.",
+            "Inversio uteri: fundus tidak teraba, syok → reposisi manual.",
+            "Emboli air ketuban: syok, sesak napas, DIC → resusitasi, ICU, rujuk."
+          ],
+          "bold": true,
+          "source": "LAMPIRAN B"
+        },
+        {
+          "text": "Lampiran D — 10 kalimat pola verbal dalam 60-90 detik pertama station kuretase.",
+          "sub": [
+            "1. Selamat pagi, Ibu Rina. Saya dokter muda yang akan menangani Ibu. Saya akan memastikan identitas, menjelaskan tindakan, meminta izin sebelum memulai.",
+            "2. Ibu, saat ini perdarahan masih banyak karena ada sisa plasenta di dalam rahim. Saya akan mengeluarkannya dengan alat khusus. Tindakan ini berisiko perdarahan, infeksi, atau perforasi rahim.",
+            "3. Saya akan jaga privasi Ibu, pakai alat steril, dan Ibu boleh bilang kalau nyeri atau pusing. Ada pertanyaan, Bu?",
+            "4. Mohon tanda tangan di lembar persetujuan, Bu. Saya akan mulai.",
+            "5. Kami pasang infus 2 jalur dan oksigen. Saya berikan obat agar rahim berkontraksi. Saya kirim sampel darah untuk transfusi bila perlu.",
+            "6. Saya bersihkan area, pasang spekulum, jepit porsio dengan lembut. Sekarang saya masukkan sendok kuret. Mungkin terasa kram. Tangan kiri saya menahan rahim dari perut.",
+            "7. Sisa jaringan sudah keluar. Saya evaluasi perdarahan, kontraksi, dan tanda bahaya. Alhamdulillah, perdarahan sudah berkurang, rahim mulai keras.",
+            "8. Ibu perlu observasi ketat 1-2 jam. Tanda bahaya: perdarahan makin banyak, pusing, lemas, demam, atau nyeri perut. Kontrol 1 minggu.",
+            "9. Saya dokumentasikan SOAP dan edukasi keluarga.",
+            "10. Terima kasih, Bu. Saya doakan Ibu cepat pulih. Ada pertanyaan?"
+          ],
+          "bold": false,
+          "source": "LAMPIRAN D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Pakai Prompt Visual",
+          "text": "Jangan menampilkan bagian genital nyata secara vulgar; gunakan gaya ilustrasi medis, manekin, atau diagram anatomi profesional. Semua gambar direpresentasikan sebagai deskripsi tekstual di §19 (7 visual). Gaya clean medical illustration.",
+          "answer_evidence": "§19 Cara Pakai Prompt Visual"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Catatan Klinis dari Referensi",
+          "text": "Keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual. Modul adalah bahan belajar dan simulasi. Tindakan klinis nyata wajib dalam supervisi dan sesuai SOP fasilitas. Ini tindakan invasif dengan risiko perdarahan, infeksi, perforasi uterus, dan memerlukan pemantauan ketat.",
+          "answer_evidence": "REFERENSI RINGKAS — Catatan Penting"
+        }
+      ],
+      "visual_refs": [
+        "visual_kuretase_anatomi_uterus_01",
+        "visual_kuretase_posisi_litotomi_02",
+        "visual_kuretase_alat_instrumen_03",
+        "visual_kuretase_arah_kuret_04",
+        "visual_kuretase_pph_bundle_05",
+        "visual_kuretase_tanda_syok_06",
+        "visual_kuretase_monitoring_07"
+      ],
+      "glossary_refs": [
+        "gls_kuretase_kuretase_01",
+        "gls_kuretase_perforasi_uterus_03",
+        "gls_kuretase_sisa_plasenta_08",
+        "gls_kuretase_bundle_pph_09"
+      ],
+      "bilingual": "Referensi: WHO PPH 2023, WHO Intrapartum Care 2018, SKDI 4A Obgyn, Checklist skill lab FKIK UNJA. 7 visual dengan prompt AI siap-pakai (anatomi, posisi, alat, arah, PPH bundle, syok, monitoring). Lampiran A-D: kontraindikasi, masalah prosedur, mini-case, checklist verbal."
+    }
+  ]
+}

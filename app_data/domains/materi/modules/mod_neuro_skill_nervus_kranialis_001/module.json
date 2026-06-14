@@ -1,0 +1,1483 @@
+{
+  "id": "mod_neuro_skill_nervus_kranialis_001",
+  "title": "Pemeriksaan Nervus Kranialis",
+  "subtitle": "Panduan OSCE 3 hari untuk menguasai pemeriksaan 12 nervus kranialis dengan urutan baku, bandingkan kanan-kiri, dan deteksi red flag stroke pada skenario Tn. Surya",
+  "domain": "neuro_skill",
+  "batch_id": "batch_1",
+  "source_pdf": "Batch1_File1_Modul_OSCE_6_3_Pemeriksaan_Nervus_Kranialis_(1).txt",
+  "source_filename": "Batch1_File1_Modul_OSCE_6_3_Pemeriksaan_Nervus_Kranialis_(1).txt",
+  "order": 1,
+  "status": "finalized",
+  "blok": "6.3",
+  "topik_klinis": "pemeriksaan_nervus_kranialis",
+  "batas_keselamatan": "Dokumen ini untuk simulasi OSCE. Pada pasien nyata, selalu ikuti PPK fasilitas, supervisi klinik, dan kondisi individual pasien.",
+  "estimatedTimeMinutes": 160,
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "nervus_kranialis",
+    "pemeriksaan_neurologis",
+    "stroke",
+    "bells_palsy",
+    "diplopia"
+  ],
+  "summary": [
+    "Algoritme 30 detik wajib: sapa, perkenalkan diri, jelaskan prosedur, minta persetujuan eksplisit (\"Apakah Bapak/Ibu bersedia?\"), cuci tangan/verbal hand hygiene, posisikan pasien, prinsip bandingkan kanan-kiri.",
+    "Skenario utama modul: Tn. Surya, 50 tahun, diplopia + vertigo + mual/muntah + disfagia + bicara pelo onset 1 jam + riwayat HT & DM → curiga kuat stroke posterior/batang otak sampai terbukti bukan.",
+    "Checklist 23-item rubrik adalah prioritas tertinggi; teori N II, N VIII, N XI adalah tambahan klinis tetapi tidak masuk rubrik utama modul ini.",
+    "Bedakan Bell's palsy (N VII perifer) vs stroke (N VII sentral): perifer = dahi ikut lemah, sentral = forehead sparing (dahi masih bisa bergerak).",
+    "N III palsy dengan pupil involvement (mydriasis) + nyeri kepala hebat = emergensi (curiga aneurisma/kompresi N III) — jangan tunggu, aktivasi rujukan.",
+    "Deviasi lidah ke sisi lemah saat dijulurkan, sedangkan deviasi uvula ke sisi sehat pada paresis N IX/X unilateral.",
+    "Refleks kornea: aferen N V1, eferen N VII — tidak selalu harus disentuh pada OSCE; boleh verbal bila penguji meminta.",
+    "Jangan pakai amonia atau bahan iritan untuk uji penciuman N I karena merangsang N V (trigeminus), bukan N I (olfaktorius).",
+    "Gerak bola mata huruf H (6/8 arah) — gerakkan jari pelan, tanyakan diplopia di setiap arah.",
+    "Disfagia akut + bicara pelo + vertigo/diplopia = curiga stroke batang otak; onset <24 jam → aktifkan code stroke."
+  ],
+  "exam_focus": [
+    "[FATAL] Tidak meminta consent dan tidak menjelaskan prosedur — langsung gagal di item 1 rubrik; komunikasi dianggap tidak profesional.",
+    "[FATAL] Tidak membandingkan kanan-kiri — kehilangan poin untuk hampir semua item rubrik; dianggap tidak sistematis.",
+    "[FATAL] Memakai bahan penciuman yang merangsang mukosa hidung (amonia, alkohol) — yang terangsang N V, bukan N I; menunjukkan pemahaman neuroanatomi yang keliru.",
+    "[FATAL] Menggerakkan jari terlalu cepat saat pemeriksaan huruf H — pasien tidak sempat melaporkan diplopia; kehilangan data klinis penting.",
+    "[FATAL] Lupa menanyakan diplopia saat pemeriksaan gerak bola mata — kehilangan satu red flag utama stroke batang otak.",
+    "[FATAL] Tidak membedakan facial palsy sentral vs perifer — menunjukkan kemampuan klinis yang tidak memadai; pada OSCE sering diberi skor 0 untuk item N VII.",
+    "[FATAL] Laporan hasil terlalu umum (mis. \"semua normal\" tanpa menyebut saraf) — menunjukkan kemampuan dokumentasi yang buruk.",
+    "Pada lesi sentral N VII, dahi SPARING; pada lesi perifer, dahi IKUT LEMAH — pembeda utama Bell's palsy vs stroke.",
+    "Uvula tertarik ke sisi SEHAT pada paresis N IX/X unilateral; lidah deviasi ke sisi LEMAH saat dijulurkan pada paresis N XII.",
+    "Bedakan N III palsy pupil-involving (kompresif, emergensi aneurisma) vs pupil-sparing (iskemik, sering self-limited)."
+  ],
+  "glossary": [
+    {
+      "id": "gls_neuro_nk_olfaktorius_01",
+      "term": "N I — Olfaktorius",
+      "def": "Saraf kranialis I (CN I) yang membawa sensasi bau dari epitel olfaktorius konka superior dan septum ke bulbus olfaktorius, lalu traktus olfaktorius ke korteks olfaktorius primer. Satu-satunya saraf kranialis yang tidak memiliki sinaps di thalamus. Saraf penciuman — membawa informasi bau dari hidung ke otak.",
+      "type": "anatomy",
+      "aliases": [
+        "CN I",
+        "N. Olfaktorius",
+        "Saraf penciuman"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_eye_mov_02",
+      "term": "N III, IV, VI — Okulomotorius, Troklear, Abdusen",
+      "def": "Tiga saraf kranialis yang mengendalikan gerakan bola mata dan pupil. N III (okulomotor) mengangkat kelopak (M. levator palpebra), menggerakkan bola mata ke atas/bawah/dalam, konstriksi pupil, akomodasi. N IV (troklear) — M. obliquus superior (bawah-keluar). N VI (abducen) — M. rektus lateral (abduksi/ke lateral). Saraf-saraf penggerak bola mata dan pengatur ukuran pupil.",
+      "type": "anatomy",
+      "aliases": [
+        "CN III/IV/VI",
+        "Saraf mata",
+        "N. Okulomotorius",
+        "N. Troklear",
+        "N. Abdusen"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_trigeminus_03",
+      "term": "N V — Trigeminus",
+      "def": "Saraf kranialis V (CN V) yang membawa sensasi somatik wajah (V1 oftalmik, V2 maksilaris, V3 mandibula) dan motorik otot mengunyah (masseter, temporalis, pterigoid). V1 juga aferen refleks kornea. Saraf rasa wajah dan otot pengunyah.",
+      "type": "anatomy",
+      "aliases": [
+        "CN V",
+        "N. Trigeminus",
+        "Saraf wajah"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_fasialis_04",
+      "term": "N VII — Fasialis",
+      "def": "Saraf kranialis VII (CN VII) yang mempersarafi otot ekspresi wajah, sensorik rasa 2/3 anterior lidah, glandula lakrimal, glandula submandibular/sublingual, dan M. stapedius. Lesi sentral (UM) → forehead sparing; lesi perifer (LM) → seluruh sisi wajah lemah. Saraf penggerak ekspresi wajah (senyum, kerut dahi, kedip).",
+      "type": "anatomy",
+      "aliases": [
+        "CN VII",
+        "N. Fasialis",
+        "Saraf wajah"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_vestibulo_05",
+      "term": "N VIII — Vestibulokoklear",
+      "def": "Saraf kranialis VIII (CN VIII) yang terdiri dari bagian koklearis (pendengaran, dari organ Corti ke nucleus koklearis) dan bagian vestibularis (keseimbangan, dari kanalis semisirkularis ke nucleus vestibularis). Rinne, Weber, Schwabach menguji bagian koklearis. Saraf pendengaran dan keseimbangan.",
+      "type": "anatomy",
+      "aliases": [
+        "CN VIII",
+        "N. Vestibulokoklear",
+        "Saraf pendengaran"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_glosso_vagus_06",
+      "term": "N IX, X — Glossofaringeus, Vagus",
+      "def": "Saraf kranialis IX (CN IX) — sensorik rasa 1/3 posterior lidah, faring (aferen gag reflex), parasimpatis kelenjar parotis. N X (vagus) — motorik palatum, faring, laring (suara, menelan), parasimpatis organ visera thoraks/abdomen. Saraf menelan dan suara.",
+      "type": "anatomy",
+      "aliases": [
+        "CN IX/X",
+        "N. Glossofaringeus",
+        "N. Vagus"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_aksesorius_07",
+      "term": "N XI — Aksesorius",
+      "def": "Saraf kranialis XI (CN XI) yang mempersarafi otot sternokleidomastoideus (SCM) — memutar kepala ke sisi berlawanan, dan otot trapezius — mengangkat bahu. Saraf pemutar kepala dan pengangkat bahu.",
+      "type": "anatomy",
+      "aliases": [
+        "CN XI",
+        "N. Aksesorius",
+        "Saraf aksesori"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_hipoglosus_08",
+      "term": "N XII — Hipoglosus",
+      "def": "Saraf kranialis XII (CN XII) yang mempersarafi otot intrinsic dan ekstrinsik lidah; berperan pada artikulasi bicara (konsonan R, T, L, S, K, G). Lesi UMN: lidah deviasi ke sisi kontralateral; lesi LMN: deviasi ipsilateral dengan atrofi/fasikulasi. Saraf penggerak lidah dan artikulasi.",
+      "type": "anatomy",
+      "aliases": [
+        "CN XII",
+        "N. Hipoglosus",
+        "Saraf lidah"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_bells_palsy_09",
+      "term": "Bell's Palsy",
+      "def": "Paresis N VII perifer (LMN) idiopatik, onset akut (sering saat bangun tidur), ditandai kelemahan seluruh sisi wajah (atas-bawah) termasuk dahi, mata tidak menutup penuh, Bell's phenomenon, dan mungkin hiperakusis serta hilang pengecapan 2/3 anterior lidah. Tatalaksana: prednisone 60-80 mg/hari 7 hari dalam 72 jam onset. Kode ICD-10: G51.0.",
+      "type": "clinical",
+      "aliases": [
+        "G51.0",
+        "Idiopathic facial nerve palsy",
+        "Paresis N VII perifer"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_code_stroke_10",
+      "term": "Code Stroke",
+      "def": "Protokol aktivasi tatalaksana stroke iskemik akut: door-to-CT <25 menit, door-to-needle <60 menit, iv trombolisis rtPA 0,9 mg/kg (maks 90 mg) dalam jendela ≤4,5 jam dari last known well. Aktivasi dilakukan pada pasien dengan defisit neurologis onset akut + faktor risiko vaskular.",
+      "type": "procedure",
+      "aliases": [
+        "Aktivasi code stroke",
+        "STROKE protocol",
+        "PERDOSSI code stroke"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_rinne_weber_11",
+      "term": "Tes Rinne & Weber",
+      "def": "Tes penala (garpu tala 512 Hz) untuk membedakan tuli konduktif vs sensorineural. Rinne: bandingkan hantaran tulang (mastoid) vs hantaran udara (liang telinga); normal: Rinne positif (udara > tulang); tuli konduktif: Rinne negatif. Weber: tangkai penala di tengah dahi; normal: tidak lateralisasi; tuli konduktif: lateralisasi ke telinga sakit; tuli sensorineural: lateralisasi ke telinga sehat.",
+      "type": "procedure",
+      "aliases": [
+        "Rinne test",
+        "Weber test",
+        "Tes garpu tala"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_refleks_kornea_12",
+      "term": "Refleks Kornea",
+      "def": "Refleks yang diuji dengan menyentuh kornea dari lateral menggunakan kapas halus. Aferen: N V1 (cabang oftalmik N V). Eferen: N VII (N. fasialis, M. orbicularis oculi). Hilangnya refleks dapat menunjukkan lesi N V1 atau N VII. Tidak selalu disentuh pada OSCE — boleh verbal/deskripsi.",
+      "type": "procedure",
+      "aliases": [
+        "Corneal reflex",
+        "Refleks kedip"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_gcs_13",
+      "term": "GCS (Glasgow Coma Scale)",
+      "def": "Skala kesadaran dengan 3 komponen: Eye (1-4), Verbal (1-5), Motor (1-6); total 3-15. GCS 15 = compos mentis, GCS ≤8 = indikasi intubasi. Kunci diagnosis triase stroke dan monitoring pasien akut.",
+      "type": "score",
+      "aliases": [
+        "GCS",
+        "Glasgow Coma Scale",
+        "Skala koma Glasgow"
+      ]
+    },
+    {
+      "id": "gls_neuro_nk_hiposmia_14",
+      "term": "Hiposmia & Anosmia",
+      "def": "Hiposmia: penurunan kemampuan penciuman. Anosmia: hilangnya penciuman total. Parosmia: distorsi bau (bau yang ada terdistorsi). Kakosmia: persepsi bau busuk tanpa sumber. Fantosmia: halusinasi penciuman (bau yang sebenarnya tidak ada). Anosmia bilateral pasca trauma → curiga fraktur basis kranii atau robekan nervus olfaktorius.",
+      "type": "clinical",
+      "aliases": [
+        "Anosmia",
+        "Parosmia",
+        "Kakosmia",
+        "Fantosmia"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_neuro_nk_01",
+      "term_id": "Nervus kranialis (NK)",
+      "term_en": "Cranial nerve (CN)",
+      "context": "12 pasang saraf yang muncul langsung dari otak (N I–N II) atau batang otak (N III–N XII), mempersarafi struktur kepala, leher, dan organ visera thoraks/abdomen."
+    },
+    {
+      "id": "bil_neuro_nk_02",
+      "term_id": "Paresis N VII perifer",
+      "term_en": "Peripheral facial nerve palsy / Lower motor neuron (LMN) facial palsy",
+      "context": "Lesi N VII setinggi nukleus atau perifer — kelemahan seluruh sisi wajah termasuk dahi. Contoh: Bell's palsy."
+    },
+    {
+      "id": "bil_neuro_nk_03",
+      "term_id": "Paresis N VII sentral",
+      "term_en": "Central facial nerve palsy / Upper motor neuron (UMN) facial palsy",
+      "context": "Lesi kortikal/subkortikal di hemisfer kontralateral — kelemahan dominan wajah bawah dengan dahi SPARING (input bilateral ke otot dahi)."
+    },
+    {
+      "id": "bil_neuro_nk_04",
+      "term_id": "Diplopia",
+      "term_en": "Diplopia / Double vision",
+      "context": "Penglihatan ganda, dapat monokuler (saat satu mata ditutup) atau binokuler (hilang saat satu mata ditutup). Binokuler menyokong lesi N III/IV/VI atau batang otak."
+    },
+    {
+      "id": "bil_neuro_nk_05",
+      "term_id": "Disartria",
+      "term_en": "Dysarthria",
+      "context": "Gangguan artikulasi bicara (bicara pelo, cadel) akibat kelemahan otot bicara (N IX/X/XII, otot wajah, atau gangguan serebelar)."
+    },
+    {
+      "id": "bil_neuro_nk_06",
+      "term_id": "Disfagia",
+      "term_en": "Dysphagia",
+      "context": "Sulit menelan, sering karena gangguan N IX/X atau koordinasi batang otak. Risiko aspirasi pneumonia."
+    },
+    {
+      "id": "bil_neuro_nk_07",
+      "term_id": "Bells phenomenon",
+      "term_en": "Bell's phenomenon",
+      "context": "Deviasi bola mata ke atas dan ke luar saat mencoba menutup mata pada lesi N VII perifer — karena M. orbicularis oculi lemah."
+    },
+    {
+      "id": "bil_neuro_nk_08",
+      "term_id": "Forehead sparing",
+      "term_en": "Forehead sparing",
+      "context": "Pada lesi N VII sentral (UMN), dahi masih bisa mengerut dan mengangkat alis karena otot dahi menerima input bilateral dari kedua hemisfer."
+    },
+    {
+      "id": "bil_neuro_nk_09",
+      "term_id": "Last known well",
+      "term_en": "Last known well (LKW)",
+      "context": "Waktu terakhir pasien diketahui dalam kondisi baik-baik saja — penentu kelayakan terapi reperfusi pada stroke iskemik (≤4,5 jam untuk iv trombolisis)."
+    },
+    {
+      "id": "bil_neuro_nk_10",
+      "term_id": "Sindrom batang otak",
+      "term_en": "Brainstem syndrome",
+      "context": "Kumpulan defisit nervus kranialis multipel (N III–N XII) ipsilateral dengan kelemahan motorik kontralateral (sindrom silang), menunjukkan lesi di batang otak (midbrain, pons, medulla)."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_neuro_nk_anatomi_01",
+      "module_id": "mod_neuro_skill_nervus_kranialis_001",
+      "section_id": "s04",
+      "type": "anatomy_3d",
+      "generation_prompt": "Infografik medis bahasa Indonesia, 12 nervus kranialis dari batang otak ke target organ. Tampilkan asal nukleus di otak tengah, pons, medulla oblongata, dan exit point foramen kranium. Label: N I Olfaktorius, N II Optikus, N III Okulomotorius, N IV Troklear, N V Trigeminus (V1/V2/V3), N VI Abdusen, N VII Fasialis, N VIII Vestibulokoklear, N IX Glossofaringeus, N X Vagus, N XI Aksesorius, N XII Hipoglosus. Gaya textbook modern, akurat secara medis, label bahasa Indonesia, tanpa teks berlebihan.",
+      "alt": "Diagram 12 nervus kranialis dari batang otak ke target organ, menunjukkan asal nukleus, fungsi utama, dan titik keluarnya di basis kranii. Label dalam bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/anatomi_nk_01.png"
+    },
+    {
+      "id": "visual_neuro_nk_h_test_02",
+      "module_id": "mod_neuro_skill_nervus_kranialis_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi dokter memeriksa gerak bola mata pasien dengan pola huruf H. Tampilkan 6/8 arah gerakan: kanan, kiri, atas, bawah, dan dua diagonal. Label: N III (rektus superior/inferior/medial + obliquus inferior), N IV (obliquus superior), N VI (rektus lateral). Posisi kepala pasien diam, jari pemeriksa sebagai target fiksasi. Clean medical illustration, label bahasa Indonesia, gaya textbook modern.",
+      "alt": "Ilustrasi pemeriksaan gerak bola mata pola huruf H untuk N III, IV, VI. Menunjukkan arah gerakan yang diperiksa dan otot-otot yang bertanggung jawab.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/h_test_02.png"
+    },
+    {
+      "id": "visual_neuro_nk_facial_palsy_03",
+      "module_id": "mod_neuro_skill_nervus_kranialis_001",
+      "section_id": "s04",
+      "type": "diagram",
+      "generation_prompt": "Side-by-side medical diagram perbandingan facial palsy sentral vs perifer. Sisi kiri: central facial palsy (forehead spared) — pasien lesi otak kiri, kelemahan wajah kanan BAWAH saja, dahi kanan masih bisa kerut, dengan label 'forehead sparing' dan 'lesi UMN (kortikal)'. Sisi kanan: peripheral facial palsy (Bell's palsy) — pasien Bell's palsy kiri, kelemahan SELURUH sisi kiri wajah termasuk dahi, mata tidak menutup, Bell's phenomenon, label 'lesi LMN (N VII perifer)'. Indonesian labels, akurat klinis, gaya textbook.",
+      "alt": "Diagram perbandingan facial palsy sentral (forehead sparing, lesi UMN) vs perifer (seluruh sisi wajah lemah, lesi LMN). Penting untuk membedakan Bell's palsy dari stroke.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/facial_palsy_03.png"
+    },
+    {
+      "id": "visual_neuro_nk_palatum_uvula_04",
+      "module_id": "mod_neuro_skill_nervus_kranialis_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Medical illustration mulut terbuka saat pasien mengucapkan 'aaa'. Tampilkan palatum mole (langit-langit lunak), uvula, dinding faring posterior. Dua panel: kiri = NORMAL (palatum elevasi simetris, uvula di tengah); kanan = LESI N IX/X UNILATERAL KANAN (palatum kiri terangkat, palatum kanan turun, uvula tertarik ke KIRI/sisi sehat). Indonesian labels, clean medical illustration.",
+      "alt": "Ilustrasi pemeriksaan palatum dan uvula pada pasien yang mengucapkan 'aaa'. Menunjukkan elevasi palatum simetris (normal) vs uvula tertarik ke sisi sehat (lesi N IX/X unilateral).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/palatum_uvula_04.png"
+    },
+    {
+      "id": "visual_neuro_nk_lidah_deviasi_05",
+      "module_id": "mod_neuro_skill_nervus_kranialis_001",
+      "section_id": "s04",
+      "type": "diagram",
+      "generation_prompt": "Tiga panel medical diagram lidah dijulurkan. Panel 1: NORMAL — lidah lurus ke depan, di tengah. Panel 2: LESI N XII KIRI (LMN kronis) — lidah deviasi ke KIRI saat dijulurkan, dengan atrofi dan fasikulasi di sisi kiri. Panel 3: LESI N XII KANAN (UMN/stroke) — lidah deviasi ke KANAN saat dijulurkan, tanpa atrofi. Indonesian labels, akurat klinis, gaya textbook.",
+      "alt": "Tiga panel diagram lidah dijulurkan: normal (tengah), lesi LMN kiri (deviasi ke kiri, atrofi), lesi UMN kanan (deviasi ke kanan).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/lidah_deviasi_05.png"
+    },
+    {
+      "id": "visual_neuro_nk_setup_06",
+      "module_id": "mod_neuro_skill_nervus_kranialis_001",
+      "section_id": "s05",
+      "type": "photo",
+      "generation_prompt": "Foto atau ilustrasi meja alat OSCE pemeriksaan nervus kranialis. Tampilkan penataan alat di atas meja: penlight, kapas, bahan bau non-iritan (kopi, teh, kulit jeruk, vanili, sabun), spatel lidah, garpu tala 512 Hz, Snellen chart, refleks hammer, clip board, sarung tangan. Label setiap alat dengan nama. Clean medical photo style, label bahasa Indonesia.",
+      "alt": "Penataan meja alat OSCE pemeriksaan nervus kranialis lengkap: penlight, kapas, bahan bau, spatel, garpu tala, Snellen chart, refleks hammer.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/setup_06.png"
+    },
+    {
+      "id": "visual_neuro_nk_prosedur_07",
+      "module_id": "mod_neuro_skill_nervus_kranialis_001",
+      "section_id": "s05",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart urutan pemeriksaan 12 nervus kranialis dalam format decision tree. Dimulai dari 'MULAI: Informed Consent & Hand Hygiene' → 'N I' → 'N II' → 'N III/IV/VI' → 'N V' → 'N VII' → 'N VIII' → 'N IX/X' → 'N XI' → 'N XII' → 'LAPOR HASIL SOAP'. Setiap node berisi langkah singkat. Warna berbeda untuk fase persiapan (biru), pemeriksaan (hijau), pelaporan (oranye). Indonesian labels, clean infographic style.",
+      "alt": "Flowchart urutan pemeriksaan 12 nervus kranialis dari informed consent, N I, N II, N III/IV/VI, N V, N VII, N VIII, N IX/X, N XI, N XII, hingga pelaporan SOAP.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/prosedur_07.png"
+    },
+    {
+      "id": "visual_neuro_nk_posisi_pasien_08",
+      "module_id": "mod_neuro_skill_nervus_kranialis_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Side-by-side ilustrasi posisi pasien. Panel kiri: posisi duduk tegak untuk pasien umum OSCE NK — pasien duduk di kursi dengan punggung tegak, tangan di pangkuan, pemeriksa di depan. Panel kanan: posisi berbaring elevasi kepala 30° untuk pasien stroke akut — pasien di bed dengan kepala elevasi 30°, monitoring di samping. Indonesian labels, clean medical illustration.",
+      "alt": "Perbandingan posisi pasien duduk tegak (umum) vs berbaring elevasi 30° (stroke akut) untuk pemeriksaan nervus kranialis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_nervus_kranialis_001/assets/posisi_pasien_08.png"
+    }
+  ],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber, skenario klinis utama Tn. Surya dengan suspek stroke batang otak, dan 23-item komponen yang dinilai di OSCE Blok 6.3.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini disusun sebagai panduan belajar OSCE 3 hari yang berorientasi checklist, dengan target pembaca utama adalah mahasiswa kedokteran yang masih awam dengan pemeriksaan neurologis tetapi akan menghadapi OSCE dalam waktu singkat. File sumber berasal dari Blok 6.3 Neuro-Psikiatri FKIK Universitas Jambi dengan judul \"Pemeriksaan Nervus Kranialis\" dan telah dinavigasi ke dalam 12 bagian utama: peta sumber, algoritme 30 detik pra-pemeriksaan, checklist prioritas tinggi, langkah per nervus (N I–N XII), cara melaporkan hasil, penyakit terkait, batas SKDI 4A, video rujukan, saran visual, rencana latihan 3 hari, kesalahan fatal, dan referensi. Komponen yang paling sering dinilai di OSCE adalah item-item rubrik dari §3 file sumber — 23 poin checklist yang mencakup informed consent, posisi pasien, pemeriksaan N I, N III/IV/VI (inspeksi, pupil, gerak H), N V (sensorik 3 divisi, motorik masseter, refleks kornea, jaw jerk), N VII (dahi, tutup mata, pipi, senyum, sensorik lidah), N IX/X (palatum/uvula, gag reflex), N XII (artikulasi, inspeksi, deviasi, kekuatan), serta laporan hasil.",
+          "tone": "narrative",
+          "source": "§1 file sumber (Peta cepat isi file sumber dan fokus OSCE)"
+        },
+        {
+          "text": "Skenario pasien fiktif yang digunakan konsisten di seluruh modul ini adalah Tn. Surya, 50 tahun, datang ke IGD dengan keluhan utama diplopia (penglihatan ganda), vertigo (perasaan berputar), mual, muntah, disfagia (sulit menelan), dan bicara pelo onset 1 jam SMRS (sebelum masuk Rumah Sakit). Riwayat penyakit dahulu: hipertensi dan diabetes mellitus. Skenario ini mengarah kuat ke red flag neurologi akut — terutama stroke posterior atau batang otak — sampai terbukti bukan. Karena itulah, ketika memeriksa nervus kranialis pada pasien dengan profil ini, mahasiswa tidak hanya dinilai dari kelancaran teknik pemeriksaan, tetapi juga dari kemampuan mengenali pola defisit multipel yang menunjukkan kegawatan dan mengambil keputusan untuk aktivasi code stroke. Pemahaman ini menjadi benang merah yang mengikat setiap seksi di modul ini: setiap langkah pemeriksaan haruslah cepat, tepat, dan sensitif terhadap tanda kegawatan.",
+          "tone": "clinical",
+          "source": "§1 file sumber (Skenario klinis utama)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE Blok 6.3 untuk pemeriksaan nervus kranialis",
+          "sub": [
+            "Komunikasi & profesionalisme (item 1–2): informed consent, penjelasan prosedur, posisi pasien, hand hygiene.",
+            "Pemeriksaan N I (item 3): uji penciuman kanan-kiri dengan bahan non-iritan.",
+            "Pemeriksaan N III/IV/VI (item 4–6): inspeksi bola mata, pupil, gerak H 6/8 arah.",
+            "Pemeriksaan N V (item 7–10): sensibilitas V1/V2/V3, motorik masseter, refleks kornea, jaw jerk.",
+            "Pemeriksaan N VII (item 11–15): dahi/alis, tutup mata kuat, pipi, senyum/gigi, sensorik rasa anterior lidah.",
+            "Pemeriksaan N IX/X (item 16–17): palatum/uvula saat \"aaa\", gag reflex.",
+            "Pemeriksaan N XII (item 18–22): artikulasi, inspeksi lidah, deviasi dalam mulut & saat dijulurkan, kekuatan.",
+            "Laporan hasil (item 23): format SOAP singkat, sebutkan nama saraf dan sisi."
+          ],
+          "bold": true,
+          "source": "§1 & Tabel 2 file sumber (Komponen file sumber)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi membaca 3 hari sebelum OSCE",
+          "text": "Hari 1 baca teori + hafal urutan 12 nervus; Hari 2 latihan tangan di teman/keluarga dengan timer; Hari 3 simulasi penuh 8 menit dengan partner, fokus pada laporan hasil.",
+          "answer_evidence": "Modul Blok 6.3 Neuro-Psikiatri, FKIK Universitas Jambi. Pemeriksaan Nervus Kranialis. 2024."
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pasien suspek stroke akut = efisiensi 5–7 menit",
+          "text": "Pada pasien suspek stroke akut (skenario Tn. Surya), selesaikan pemeriksaan dalam 5–7 menit; identifikasi pola defisit, aktivasi code stroke, dan tulis laporan — urutan ini lebih dihargai daripada menghabiskan waktu untuk detail yang tidak mengubah tatalaksana emergensi.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Pendekatan OSCE terstruktur",
+          "text": "Modul ini mengadopsi pendekatan OSCE terstruktur yang dipakai di UK/MPKF Indonesia, dengan penekanan pada informed consent dan keselamatan pasien sebagai item pertama rubrik.",
+          "answer_evidence": "KNI Indonesia. Pemeriksaan Klinis Neurologi Praktis. 2018."
+        }
+      ],
+      "visual_refs": [
+        "visual_neuro_nk_anatomi_01"
+      ],
+      "glossary_refs": [
+        "gls_neuro_nk_olfaktorius_01",
+        "gls_neuro_nk_eye_mov_02",
+        "gls_neuro_nk_trigeminus_03",
+        "gls_neuro_nk_fasialis_04",
+        "gls_neuro_nk_glosso_vagus_06",
+        "gls_neuro_nk_hipoglosus_08",
+        "gls_neuro_nk_code_stroke_10"
+      ],
+      "bilingual": "Section s01 memetakan seluruh 23-item rubrik penilaian OSCE dan skenario klinis utama Tn. Surya yang akan menjadi benang merah di setiap seksi modul ini."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Langkah-langkah OSCE dari masuk station sampai keluar (4 fase) plus checklist lengkap 23-item dengan kalimat OSCE siap pakai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur OSCE pemeriksaan nervus kranialis secara garis besar mengikuti pola 4-fase: (1) Persiapan & komunikasi awal (±1 menit), (2) Pemeriksaan berurutan dari N I ke N XII (±5–6 menit), (3) Konfirmasi & klarifikasi (±30 detik), dan (4) Pelaporan hasil (±1–2 menit). Pada fase pertama, mahasiswa diharap membuka station dengan perkenalan diri, konfirmasi identitas pasien (sesuai gelang atau pertanyaan terbuka \"Bapak Surya?\"), menjelaskan apa yang akan dilakukan dalam bahasa awam, meminta persetujuan eksplisit, melakukan hand hygiene (nyatal atau verbal), dan memposisikan pasien duduk tegak (atau berbaring bila lemah/pusing). Pada fase kedua, urutan pemeriksaan mengikuti pola \"dari atas ke bawah\": N I (penciuman), N II (tajam penglihatan/lapang pandang — bila masuk rubrik), N III/IV/VI (mata & pupil), N V (wajah & rahang), N VII (ekspresi wajah), N VIII (pendengaran — teori), N IX/X (palatum & faring), N XI (bahu — teori), dan N XII (lidah). Pada fase ketiga, mahasiswa memastikan tidak ada yang terlewat dengan menanyakan gejala penyerta (diplopia, disfagia, tinnitus, vertigo) dan memberi pasien waktu bertanya. Pada fase terakhir, mahasiswa melaporkan hasil dengan format standar yang menyebut nama saraf, sisi, dan jenis kelainan (jika ada).",
+          "tone": "narrative",
+          "source": "§2 file sumber (Algoritme 30 detik & alur OSCE)"
+        },
+        {
+          "text": "Checklist 23-item di bawah ini diambil utuh dari Tabel 3 file sumber dan tidak boleh ada yang hilang dalam output ini. Setiap item sudah dilengkapi kolom \"Cara Melakukan agar Skor Maksimal\" (diperluas dari kolom \"Cara praktis\" asli) dan \"Kalimat yang Dapat Diucapkan\" untuk membantu mahasiswa menyusun kalimat OSCE.",
+          "tone": "narrative",
+          "source": "§3 file sumber (Checklist prioritas tinggi)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE (kerangka 4 fase)",
+          "sub": [
+            "Fase 1 — Persiapan & Komunikasi (±1 mnt): Sapa, perkenalkan diri, konfirmasi identitas, jelaskan: \"Saya akan memeriksa fungsi saraf kepala, seperti penciuman, gerak mata, rasa wajah, kekuatan wajah, menelan, dan gerak lidah.\" Minta persetujuan eksplisit: \"Apakah Bapak/Ibu bersedia?\" Cuci tangan atau ucapkan hand hygiene; siapkan alat. Posisikan pasien duduk tegak (atau berbaring sesuai kondisi akut).",
+            "Fase 2 — Pemeriksaan Sistematis (±5–6 mnt): N I → N III/IV/VI → N V → N VII → N IX/X → N XII (sesuai rubrik). Bandingkan kanan-kiri di setiap langkah; mulai dari sisi yang diduga normal.",
+            "Fase 3 — Konfirmasi & Klarifikasi (±30 dtk): Tanyakan gejala penyerta (diplopia, disfagia, vertigo, tinnitus, penciuman, pengecapan). Tanyakan nyeri atau rasa tidak nyaman.",
+            "Fase 4 — Pelaporan Hasil (±1–2 mnt): Sebutkan nama saraf satu per satu, sisi, status. Simpulkan lokalisasi lesi (jika ada) dan tindak lanjut."
+          ],
+          "bold": true,
+          "source": "§2 & Tabel 3 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan pegang pasien tanpa consent",
+          "text": "Jangan langsung memegang pasien tanpa informed consent — skor langsung hilang untuk item 1 rubrik; komunikasi dianggap tidak profesional.",
+          "answer_evidence": "Rubrik OSCE Blok 6.3 Neuro-Psikiatri, item 1: Informed consent."
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station yang efektif",
+          "text": "Kalimat pembuka station yang paling efektif: \"Selamat pagi Bapak Surya, saya Dokter [nama], mahasiswa yang akan memeriksa fungsi saraf kepala Bapak. Pemeriksaan ini tidak sakit, hanya membutuhkan kerjasama Bapak. Apakah Bapak bersedia?\"",
+          "answer_evidence": "Modul Blok 6.3 Neuro-Psikiatri, FKIK Universitas Jambi. 2024."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Sesuaikan posisi dengan kondisi akut",
+          "text": "Pada pasien suspek stroke akut (skenario Tn. Surya), posisi duduk tegak mungkin tidak aman; sesuaikan dengan kondisi — baringkan dengan elevasi kepala 30° jika perlu.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022."
+        }
+      ],
+      "visual_refs": [
+        "visual_neuro_nk_prosedur_07"
+      ],
+      "glossary_refs": [
+        "gls_neuro_nk_olfaktorius_01",
+        "gls_neuro_nk_eye_mov_02",
+        "gls_neuro_nk_trigeminus_03",
+        "gls_neuro_nk_fasialis_04",
+        "gls_neuro_nk_glosso_vagus_06",
+        "gls_neuro_nk_hipoglosus_08",
+        "gls_neuro_nk_refleks_kornea_12"
+      ],
+      "bilingual": "Section s02 memberikan alur 4-fase OSCE (persiapan, pelaksanaan, konfirmasi, pelaporan) dan 23-item checklist dengan kalimat OSCE siap pakai untuk setiap item rubrik."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis (SAMPLE/AMP termodifikasi neurologis) dan 4 red flags yang wajib dikenali pada skenario stroke akut Tn. Surya.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada station OSCE pemeriksaan nervus kranialis, anamnesis singkat (≤1–2 menit) menjadi pembeda antara mahasiswa yang hanya \"menjalankan prosedur\" dan mahasiswa yang \"berpikir klinis\". Anamnesis berfungsi untuk: (1) mengarahkan urutan pemeriksaan ke saraf tertentu, (2) mengungkap gejala penyerta yang menjadi red flag, dan (3) menentukan apakah pasien masuk kategori kegawatan (mis. stroke akut) atau bukan. Pada skenario Tn. Surya, 50 tahun, dengan diplopia + vertigo + mual/muntah + disfagia + bicara pelo onset 1 jam + riwayat HT/DM, anamnesis menjadi momen kritis — karena di sinilah mahasiswa memutuskan apakah akan memanggil bantuan (code stroke) sebelum atau sesudah pemeriksaan selesai.",
+          "tone": "narrative",
+          "source": "§3 file sumber (Anamnesis kunci)"
+        },
+        {
+          "text": "Kerangka anamnesis yang direkomendasikan adalah SAMPLE/AMPES yang dimodifikasi untuk konteks neurologis akut: Signs (gejala spesifik), Allergies, Medications, Past medical history (HT, DM, atrial fibrilasi, stroke/TIA sebelumnya), Last meal, Events around onset (apa yang sedang dilakukan saat onset), dan Symptom onset (waktu tepat onset = \"last known well\"). Khusus untuk skenario stroke, waktu onset menentukan kelayakan terapi reperfusi (jendela trombolisis intravena umumnya ≤4,5 jam, jendela trombektomi mekanik dapat lebih panjang untuk stroke large vessel occlusion). Karena itu, anamnesis yang baik akan menanyakan \"Jam berapa terakhir kali Bapak merasa baik-baik saja?\" (last known well), bukan hanya \"Sejak kapan keluhannya?\".",
+          "tone": "clinical",
+          "source": "Adaptasi PROMPT_DOMAIN3_Neuro_Psiki.md (kerangka SAMPLE/AMP neurologi akut)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci anamnesis (WAJIB ditanyakan pada skenario Tn. Surya)",
+          "sub": [
+            "Onset & last known well: \"Sejak kapan keluhan ini muncul? Jam berapa terakhir Bapak merasa baik-baik saja?\"",
+            "Onset akut vs progresif: \"Apakah keluhan muncul mendadak dalam hitungan menit/jam, atau bertahap dalam hitungan hari?\"",
+            "Gejala penyerta (cardinal symptoms neurologi): diplopia (penglihatan ganda); vertigo (perasaan berputar) — sentral vs perifer; disfagia (sulit menelan) + aspirasi (tersedak saat minum); disartria (bicara pelo, cadel, pelo); gangguan penciuman (hiposmia, anosmia); gangguan pengecapan (dysgeusia); nyeri kepala hebat (thunderclap); kelemahan wajah (periorbital, lipatan nasolabial mendatar, sudut mulut tertarik); kelemahan anggota gerak (hemiparesis, monoparesis).",
+            "Riwayat penyakit dahulu: Hipertensi (terkontrol/tidak, obat antihipertensi); Diabetes mellitus (terkontrol/tidak, obat); Riwayat stroke/TIA sebelumnya; Atrial fibrilasi, penyakit jantung; Dislipidemia, merokok, alkohol.",
+            "Pencetus & faktor risiko: \"Apakah ada aktivitas berat, emosi, atau posisi tertentu saat keluhan muncul?\"",
+            "Obat yang sedang diminum & kepatuhan: \"Obat apa saja yang Bapak minum rutin? Sudahkah diminum hari ini?\""
+          ],
+          "bold": true,
+          "source": "§3 & Tabel 3 file sumber (Pertanyaan anamnesis)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[RED FLAG] Stroke batang otak/posterior akut",
+          "text": "[RED FLAG] Onset akut diplopia + vertigo + disfagia + bicara pelo pada pasien usia 50 tahun dengan HT/DM = curiga stroke batang otak/posterior — aktivasi code stroke SEGERA, jangan tunggu hasil pemeriksaan lengkap.",
+          "answer_evidence": "AHA/ASA 2019 Guidelines for Early Management of Acute Ischemic Stroke."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[RED FLAG] Aneurisma dengan kompresi N III",
+          "text": "[RED FLAG] Nyeri kepala thunderclap (datang dalam detik-menit, \"sangat berat dalam hidup\") + ptosis akut + pupil melebar (mydriasis unilateral) = curiga aneurisma dengan kompresi N III — emergensi bedah saraf.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Stroke Hemoragik. 2022."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[RED FLAG] Stroke + pneumonia aspirasi",
+          "text": "[RED FLAG] Disfagia akut dengan aspirasi (tersedak saat minum) + demam + riwayat penurunan kesadaran = curiga stroke batang otak dengan pneumonia aspirasi.",
+          "answer_evidence": "AHA/ASA 2019 Guidelines; pneumonia aspirasi = komplikasi stroke yang meningkatkan mortalitas."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[RED FLAG] Krisis miastenik",
+          "text": "[RED FLAG] Diplopia yang fluktuatif (memberat sore hari, membaik pagi hari) + ptosis + kelemahan bulbar (disfagia, disartria) = curiga miastenia gravis → krisis miastenik jika mengenai otot pernapasan.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Miastenia Gravis. 2021."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tanyakan \"last known well\" dengan tepat",
+          "text": "Tanyakan \"last known well\" dengan tepat: \"Jam berapa terakhir Bapak merasa benar-benar sehat, sebelum keluhan ini muncul?\" — penting untuk menentukan kelayakan reperfusi.",
+          "answer_evidence": "AHA/ASA 2019 Guidelines; door-to-needle target <60 menit."
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Anamnesis stroke akut = 5–7 menit cukup",
+          "text": "Pada skenario stroke akut, anamnesis 5–7 menit cukup; jangan habiskan waktu untuk autoanamnesis mendalam — RS cepat (door-to-needle time) menyelamatkan neuron.",
+          "answer_evidence": "Saver JL. Time is brain—quantified. Stroke. 2006;37(1):263-266."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_nk_code_stroke_10",
+        "gls_neuro_nk_hiposmia_14"
+      ],
+      "bilingual": "Section s03 mengajarkan anamnesis terstruktur SAMPLE/AMP yang dimodifikasi untuk neurologi akut, dengan fokus pada identifikasi red flag stroke."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Urutan dan cara melakukan pemeriksaan fisik per nervus (N I–N XII) dengan struktur lengkap: fungsi, alat, langkah, normal/abnormal, red flag, kalimat OSCE, dan frasa yang sering dilupakan.",
+      "estimated_time_minutes": 50,
+      "content": [
+        {
+          "text": "Pemeriksaan nervus kranialis pada prinsipnya dilakukan dari kranial ke kaudal (dari atas ke bawah) dan dari bandingan sisi normal ke sisi abnormal. Pada skenario Tn. Surya dengan suspek stroke batang otak, urutan ini juga menjadi peta lokalisasi lesi: defisit pada N I–VI biasanya menunjukkan lesi supratentorial, sedangkan defisit pada N VII–XII (terutama kombinasi N IX/X + N XII) sangat menyokong lesi batang otak. Adaptasi domain 3 mewajibkan satu H2 per nervus (atau per kelompok nervus yang terkait) dengan struktur: fungsi, alat, langkah, normal vs abnormal, red flag, kalimat OSCE, dan frasa yang sering dilupakan. Sebelum masuk ke per-nervus, berikut prinsip umum pemeriksaan nervus kranialis: (1) Bandingkan kanan-kiri di setiap langkah (bandingkan simetris). (2) Mulai dari sisi yang normal (menurunkan kecemasan pasien dan memberi baseline). (3) Catat temuan saat pemeriksaan — jangan menunggu sampai akhir. (4) Hindari menyebabkan nyeri — terutama pada refleks kornea dan gag reflex. (5) Gunakan bahasa awam — kebanyakan pasien tidak paham istilah \"N VII\" atau \"pupil isokor\".",
+          "tone": "narrative",
+          "source": "§4 file sumber (Prinsip umum pemeriksaan NK)"
+        },
+        {
+          "text": "N I — Olfaktorius (Penciuman). Fungsi: menghantar sensasi bau dari epitel olfaktorius ke korteks olfaktorius. Satu-satunya saraf kranialis yang tidak melewati thalamus dalam transmisinya. Alat: kopi bubuk/serbuk, teh, kulit jeruk, vanili, sabun wangi, atau peppermint. Hindari: amonia, alkohol, cuka, atau bahan iritan (mengaktifkan N V, bukan N I). Cara melakukan: (1) Pastikan pasien tidak pilek/alergi (karena mukosa hidung yang bengkak dapat memengaruhi hasil). (2) Tutup kedua mata pasien. (3) Tutup satu lubang hidung dengan jari (atau minta pasien tekan ringan). (4) Dekatkan bahan ke lubang hidung terbuka pada jarak ±5 cm. (5) Minta pasien tarik napas pelan dan menyebutkan nama bau (\"kopi\", \"jeruk\", dll.). (6) Ulangi untuk sisi lain. Normal: pasien dapat mengidentifikasi bau simetris kanan-kiri. Abnormal: hiposmia (penurunan penciuman), anosmia (hilangnya penciuman), parosmia (distorsi bau), kakosmia (bau busuk tanpa sumber), atau fantosmia (bau yang sebenarnya tidak ada). Red flag: anosmia bilateral mendadak pasca trauma kepala → fraktur basis kranii atau robekan nervus olfaktorius. Anosmia unilateral progresif → curiga tumor olfaktorius (mis. meningioma planum sphenoidale). Kalimat OSCE: \"Saya akan memeriksa penciuman Bapak. Tolong tutup mata dan sebutkan bau yang Bapak rasakan.\" Frasa sering dilupakan: \"Jangan gunakan amonia atau alkohol.\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N I Olfaktorius)"
+        },
+        {
+          "text": "N II — Optikus (Penglihatan). Fungsi: menghantar informasi visual dari retina ke korteks visual; membawa refleks cahaya pupil aferen. Alat: Snellen chart 6 m, pinhole, jari/gambar, fundoskop (opsional). Cara melakukan: (1) Tajam penglihatan: Snellen chart pada jarak 6 m; bila <6/6, gunakan pinhole untuk menyingkirkan kelainan refraksi. (2) Buta warna: plate Ishihara (opsional, tidak selalu di OSCE). (3) Lapang pandang: tes konfrontasi 8 arah (pasien menutup satu mata, menatap mata pemeriksa, melapor saat melihat jari/benda). (4) Refleks cahaya aferen: dinilai saat memeriksa pupil N III. (5) Funduskopi: nilai papil (batas tegas, warna oranye), cup-disc ratio (<0,5), pembuluh darah, eksudat/perdarahan. Normal: visus 6/6 OU (atau sesuai baseline), lapang pandang penuh, papil bulat batas tegas, CDR <0,5. Abnormal: penurunan visus, defek lapang pandang (homonim, binasal, bitemporal, altitudinal), papiledema, atrofi papil, perdarahan retina. Relevansi klinis pada skenario Tn. Surya: retinopati hipertensi/diabetes mungkin ditemukan pada fundoskopi — mendukung etiologi vaskular stroke. Red flag: papiledema akut → peningkatan TIK emergensi; kehilangan penglihatan mendadak → curiga neuritis optik (sklerosis multipel) atau ARIA (Amaurosis Fugax). Kalimat OSCE: \"Saya akan memeriksa tajam penglihatan dan lapang pandang Bapak.\" Frasa sering dilupakan: \"Funduskopi tidak selalu dilakukan, tetapi sebutkan temuan yang diharapkan (papil, CDR).\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N II Optikus)"
+        },
+        {
+          "text": "N III, IV, VI — Gerak Mata dan Pupil. Fungsi: N III (okulomotor) — mengangkat kelopak (M. levator palpebra), menggerakkan bola mata ke atas/bawah/dalam (M. rektus superior/inferior/medial, M. obliquus inferior), konstriksi pupil (M. sfingter pupil), akomodasi. N IV (troklear) — M. obliquus superior (bola mata ke bawah-keluar). N VI (abducen) — M. rektus lateral (bola mata ke lateral). Alat: penlight, jari pemeriksa. Cara melakukan: (1) Inspeksi: ptosis, eksoftalmus, deviasi primer bola mata, nistagmus istirahat. (2) Pupil: bentuk (bulat/lonjong), ukuran (mm), isokor/anisokor, reaksi cahaya langsung (RCL) dan tidak langsung (RCT), akomodasi. (3) Gerak bola mata huruf H: minta pasien mengikuti ujung jari, kepala diam, ke 6/8 arah (kanan, kiri, atas, bawah, dua diagonal). Gerakkan jari perlahan. Tanyakan \"Apakah penglihatan Bapak dobel? Arah mana?\" di setiap posisi. Normal: pt (-), deviasi (-), pupil bulat 2–5 mm (3–4 mm pada cahaya normal), isokor, RCL +/+, RCT +/+, akomodasi + (konvergensi + konstriksi), gerak H penuh tanpa diplopia. Abnormal: N III palsy (kompresif, mis. aneurisma PCom): ptosis + mata \"down and out\" + pupil melebar (mydriasis) + nyeri kepala hebat. N III palsy (iskemik, mis. diabetes): ptosis + mata \"down and out\" + pupil NORMAL (sparing) — pupil sparing khas iskemik. N VI palsy: esotropia (deviasi ke medial), diplopia horizontal yang membaik saat memalingkan kepala ke sisi lesi. INO (Internuclear Ophthalmoplegia): kelemahan adduksi ipsilateral + nistagmus abduksi kontralateral → lesi MLF (fasciculus longitudinal medial) → sangat sugestif sklerosis multipel atau stroke batang otak. Red flag (skenario Tn. Surya): diplopia akut + gangguan gerak bola mata + nistagmus = curiga stroke batang otak (paramedian pontine / midbrain). Kalimat OSCE: \"Tolong ikuti jari saya hanya dengan mata, jangan gerakkan kepala. Bilang 'ya' bila penglihatan Bapak dobel.\" Frasa sering dilupakan: \"Bedakan N III palsy pupil-involving (kompresif, emergensi) vs pupil-sparing (iskemik, sering self-limited).\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N III/IV/VI)"
+        },
+        {
+          "text": "N V — Trigeminus (Rasa Wajah dan Otot Mengunyah). Fungsi: sensorik wajah (V1 oftalmik, V2 maksilaris, V3 mandibula) dan motorik otot mengunyah (masseter, temporalis, pterigoid medial/lateral). Membawa juga aferen refleks kornea (V1) dan jaw jerk. Alat: kapas halus, jarum tumpul (opsional, untuk uji nyeri pada lesi besar), refleks hammer. Cara melakukan: (1) Sensorik V1/V2/V3: sentuh ringan dengan kapas pada dahi (V1), pipi (V2), dagu/rahang (V3) kanan-kiri. Minta pasien mengatakan \"ya\" setiap terasa. Bandingkan simetris. (2) Motorik masseter: minta pasien menggigit kuat; palpasi masseter kanan-kiri (atau otot temporalis di pelipis). (3) Refleks kornea: sentuh kornea dari lateral dengan kapas halus (dari samping agar tidak dihindari). Lihat kedipan bilateral. Aferen N V1, eferen N VII. Karena tidak nyaman, pada OSCE sering cukup dijelaskan/verbal. (4) Jaw jerk: mulut sedikit terbuka, letakkan jari di dagu, ketuk ringan dengan refleks hammer. Normal: minimal/tidak ada. Hiperaktif → lesi UMN. Normal: sensibilitas simetris V1/V2/V3, masseter kuat dan simetris, kornea +, jaw jerk minimal. Abnormal: hipo/hiperestesia satu divisi (lesi perifer) atau seluruhnya (lesi sentral/tronkalis), kelemahan masseter, refleks kornea (-), jaw jerk hiperaktif. Red flag: hipestesia satu sisi wajah + kelemahan otot mengunyah ipsilateral = lesi N V perifer (tumor cerebellopontine angle, neuritis trigeminal). Kalimat OSCE: \"Saya akan menyentuh wajah Bapak perlahan. Bilang 'ya' setiap terasa. Lalu saya akan meminta Bapak menggigit gigi.\" Frasa sering dilupakan: \"Refleks kornea: aferen N V1, eferen N VII.\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N V Trigeminus)"
+        },
+        {
+          "text": "N VII — Fasialis (Ekspresi Wajah dan Rasa 2/3 Anterior Lidah). Fungsi: motorik otot ekspresi wajah (m. frontalis, orbicularis oculi, zigomatikus, orbicularis oris, dll.), sensorik rasa 2/3 anterior lidah, parasimpatis kelenjar ludah dan lakrimal. Alat: senter, kapas untuk inspeksi pengecapan (opsional), substansi rasa (manis/asin/asam/pahit — bila tersedia). Cara melakukan (WAJIB HAFAL untuk OSCE): (1) Inspeksi saat istirahat: dahi (kerutan), alis (simetrisitas), celah mata (lebar), lipatan nasolabial (kedalaman), sudut mulut (simetrisitas). (2) Dahi & alis: minta pasien mengangkat alis dan mengerutkan dahi — lihat simetrisitas kerutan horizontal dahi. (3) Tutup mata kuat: minta pasien menutup mata kuat-kuat, pemeriksa coba membuka — nilai kekuatan. (4) Gembungkan pipi: minta pasien meniup pipi, tekan kedua pipi; udara keluar dari sisi lemah. (5) Senyum/perlihatkan gigi: minta senyum lebar — nilai lipatan nasolabial dan sudut mulut. (6) Sensorik rasa 2/3 anterior lidah (sering cukup verbal pada OSCE): tetes rasa manis/asin/asam/pahit, bilas mulut antar rasa. Normal: dahi simetris, alis simetris, mata menutup penuh, pipi menggembung simetris, senyum simetris, pengecapan normal. Abnormal — BEDAKAN SENTRAL vs PERIFER: Lesi SENTRAL (UM, mis. stroke kortikal/subkortikal): kelemahan dominan wajah BAWAH (sudut mulut turun, lipatan nasolabial mendatar), dahi relatif SPARING (masih bisa kerut dan angkat alis) — karena otot dahi menerima input bilateral dari kedua hemisfer. Lesi PERIFER (LMN, mis. Bell's palsy, Ramsay Hunt, tumor N VII): kelemahan seluruh sisi wajah (atas dan bawah), dahi ikut lemah, mata tidak menutup rapat, Bell's phenomenon (bola mata berputar ke atas saat mencoba menutup mata). Red flag (skenario Tn. Surya): paresis wajah bawah unilateral + bicara pelo + deviasi lidah + risiko stroke → curiga stroke hemisfer (lesi sentral) — aktivasi code stroke. Kalimat OSCE: \"Bapak, saya akan minta Bapak melakukan beberapa gerakan wajah ya. Angkat alis, tutup mata kuat, tiup pipi, dan perlihatkan gigi.\" Frasa sering dilupakan: \"Pada lesi sentral, dahi SPARING; pada lesi perifer, dahi IKUT LEMAH.\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N VII Fasialis)"
+        },
+        {
+          "text": "N VIII — Vestibulokoklear (Pendengaran dan Keseimbangan). Fungsi: pendengaran (cochlear) dan keseimbangan (vestibular). Sangat relevan pada skenario Tn. Surya dengan vertigo. Alat: bisikan, gesekan jari, detik arloji, garpu tala 512 Hz. Cara melakukan: (1) Pendengaran kasar: bisikkan angka/kata pada jarak ±60 cm dari telinga kanan dan kiri. Bandingkan. (2) Garpu tala — Rinne: tangkai garpu tala pada mastoid (hantaran tulang); saat tidak terdengar, pindahkan ke depan liang telinga (hantaran udara). Normal: hantaran udara > tulang = Rinne positif. Pada tuli konduktif: Rinne negatif (tulang > udara). (3) Garpu tala — Weber: tangkai garpu tala di tengah dahi/puncak kepala. Normal: tidak lateralisasi. Pada tuli konduktif: lateralisasi ke telinga sakit. Pada tuli sensorineural: lateralisasi ke telinga sehat. (4) Garpu tala — Schwabach: bandingkan hantaran tulang pasien dengan pemeriksa (opsional). (5) Keseimbangan (terkait): HINTS examination untuk vertigo, Dix-Hallpike untuk BPPV (lihat modul koordinasi/vertigo). Normal: pendengaran kasar simetris, Rinne positif, Weber tidak lateralisasi. Abnormal: Tuli konduktif: Rinne (-), Weber lateralisasi ke sisi sakit, Schwabach memanjang → otitis media, serumen, otosklerosis. Tuli sensorineural: Rinne (+), Weber lateralisasi ke sisi sehat, Schwabach memendek → presbiakusis, neurinoma akustik (N VIII), obat ototoksik. Red flag (skenario Tn. Surya): vertigo onset akut + tuli unilateral baru → curiga stroke AICA (anterior inferior cerebellar artery) atau neuritis vestibularis. Kalimat OSCE: \"Saya akan memeriksa pendengaran Bapak dengan berbisik dan garpu tala.\" Frasa sering dilupakan: \"Weber lateralisasi ke telinga SAKIT pada tuli konduktif; ke telinga SEHAT pada tuli sensorineural.\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N VIII Vestibulokoklear)"
+        },
+        {
+          "text": "N IX dan X — Glossofaringeus dan Vagus (Menelan, Suara, Palatum). Fungsi: N IX — sensorik rasa 1/3 posterior lidah, sensorik faring, parasimpatis kelenjar parotis. N X — motorik palatum, faring, laring (suara, menelan), parasimpatis organ visera thoraks/abdomen. Alat: spatel lidah, senter. Cara melakukan: (1) Tanya gejala: sulit menelan (disfagia), tersedak terutama cairan (aspirasi), suara serak (disfonia), sengau (rhinolalia). (2) Inspeksi palatum/uvula: minta pasien buka mulut dan ucapkan \"aaa\" panjang. Nilai elevasi palatum, posisi uvula. (3) Tes air (water swallow test): dengan hati-hati, minta pasien minum air; perhatikan aspirasi/batuk. HATI-HATI pada suspek stroke. (4) Gag reflex: sentuh dinding faring posterior kanan-kiri dengan spatel. Aferen N IX, eferen N IX/X. Verbal bila pasien tidak toleran. Normal: palatum elevasi simetris, uvula di tengah saat \"aaa\", gag reflex (+), menelan tanpa aspirasi. Abnormal: Lesi N IX/X unilateral: uvula tertarik ke sisi sehat (karena sisi lemah tidak dapat berkontraksi untuk menarik uvula). Palatum sisi lemah turun/tdk terangkat. Suara mungkin serak. Lesi bilateral: palatum tidak bergerak, suara nasal, risiko aspirasi tinggi. Red flag (skenario Tn. Surya): disfagia akut + bicara pelo + uvula deviasi = curiga stroke batang otak (paramedian pontine / medulla, mis. sindrom Wallenberg lateral medullary atau sindrom Dejerine medial medullary). Kalimat OSCE: \"Buka mulut dan bilang 'aaa' panjang ya. Saya akan melihat langit-langit dan posisi anak lidah.\" Frasa sering dilupakan: \"Uvula tertarik ke sisi SEHAT, sisi lemah turun.\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N IX/X)"
+        },
+        {
+          "text": "N XI — Aksesorius (Trapezius dan Sternokleidomastoideus). Fungsi: motorik M. sternokleidomastoideus (SCM) — memutar kepala ke sisi berlawanan; M. trapezius — mengangkat bahu. Alat: kursi/bed, tangan pemeriksa. Cara melakukan: (1) SCM: minta pasien memutar kepala ke satu sisi melawan tahanan tangan pemeriksa; palpasi SCM sisi berlawanan (otot yang berkontraksi). Ulangi sisi lain. (2) Trapezius: minta pasien mengangkat bahu, pemeriksa tekan ke bawah; bandingkan kekuatan kanan-kiri. Normal: kekuatan memutar kepala dan mengangkat bahu simetris; atrofi (-), fasikulasi (-). Abnormal: kelemahan unilateral SCM atau trapezius, atrofi, fasikulasi → lesi N XI perifer (trauma leher, operasi leher, metastasis). Red flag: kelemahan bilateral trapezius + SCM + kelemahan bulbar → curiga amyotrophic lateral sclerosis (ALS) atau miastenia gravis. Kalimat OSCE: \"Bapak, mohon memutar kepala ke kanan/kiri melawan tangan saya, lalu angkat bahu melawan tangan saya.\" Frasa sering dilupakan: \"Palpasi SCM sisi BERLAWANAN saat kepala diputar ke satu sisi.\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N XI Aksesorius)"
+        },
+        {
+          "text": "N XII — Hipoglosus (Lidah dan Artikulasi). Fungsi: motorik intrinsic dan ekstrinsik lidah; berperan pada artikulasi bicara (konsonan R, T, L, S, K, G). Alat: senter, kain kasa (opsional untuk memegang lidah). Cara melakukan: (1) Inspeksi lidah: atrofi, fasikulasi, tremor, hilangnya papil (lidah halus). Minta pasien membuka mulut. (2) Deviasi lidah di dalam mulut: minta pasien rileks dengan lidah di dalam mulut; lihat apakah ada deviasi ke satu sisi (mengarah ke sisi sehat pada lesi UMN; ke sisi lesi pada lesi LMN yang sudah kronis dengan atrophy/fasikulasi). (3) Deviasi saat dijulurkan: minta pasien menjulurkan lidah lurus ke depan; lidah deviasi ke sisi lemah/sakit. (4) Kekuatan: minta pasien mendorong pipi kanan-kiri dari dalam, pemeriksa tahan dari luar. (5) Artikulasi: minta pasien mengucapkan kata dengan R/T/L/S atau kalimat pendek (mis. \"lari lurus lalu istirahat di lorong\"). Normal: lidah di tengah, deviasi (-), kekuatan simetris, artikulasi jelas. Abnormal: atrofi, fasikulasi, deviasi ke sisi lemah saat dijulurkan, kelemahan unilateral lidah, bicara pelo. Red flag (skenario Tn. Surya): deviasi lidah ke kanan saat dijulurkan + bicara pelo + uvula deviasi ke kiri = curiga stroke batang otak dengan defisit CN multipel. Kalimat OSCE: \"Bapak, julurkan lidah lurus ke depan. Ucapkan 'lari lurus lalu istirahat di lorong' ya.\" Frasa sering dilupakan: \"Lidah deviasi ke sisi lemah saat dijulurkan.\"",
+          "tone": "clinical",
+          "source": "§4 file sumber (H2 N XII Hipoglosus)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "[N I — Olfaktorius]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Tutup mata, tutup satu lubang hidung, berikan bahan non-iritan (kopi, teh, kulit jeruk, vanili, sabun), minta identifikasi bau.",
+            "Normal: pasien dapat mengidentifikasi bau di kedua sisi. Abnormal: hiposmia, anosmia, parosmia, kakosmia.",
+            "Frasa sering dilupakan: \"Jangan gunakan amonia\" (merangsang N V)."
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N I)"
+        },
+        {
+          "text": "[N II — Optikus]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Tajam penglihatan (Snellen 6 m, pinhole), lapang pandang (konfrontasi 8 arah), funduskopi (papil, CDR, perdarahan).",
+            "Normal: visus 6/6 OU (atau sesuai baseline), lapang pandang penuh, papil bulat batas tegas.",
+            "Catatan: papiledema → peningkatan TIK; retinopati → komorbid HT/DM."
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N II)"
+        },
+        {
+          "text": "[N III/IV/VI — Gerak mata & pupil]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Inspeksi (ptosis, deviasi, nistagmus), pupil (bentuk, ukuran, isokor, reaksi langsung/tidak langsung, akomodasi), gerak H 6/8 arah.",
+            "Normal: pt (-), deviasi (-), pupil bulat 3–4 mm isokor, RCL +/+, RCT +/+, akomodasi +, gerak H penuh tanpa diplopia.",
+            "Red flag: N III palsy \"down and out\" + pupil melebar + nyeri kepala = aneurisma."
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N III/IV/VI)"
+        },
+        {
+          "text": "[N V — Trigeminus]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Sensorik V1/V2/V3 dengan kapas, motorik masseter (palpasi saat menggigit), refleks kornea, jaw jerk.",
+            "Normal: sensibilitas simetris, masseter kuat, kornea +, jaw jerk minimal.",
+            "Frasa sering dilupakan: \"Refleks kornea: aferen V1, eferen VII.\""
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N V)"
+        },
+        {
+          "text": "[N VII — Fasialis]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Inspeksi istirahat, dahi/alis, tutup mata kuat, pipi, senyum, sensorik rasa 2/3 anterior lidah.",
+            "Normal: dahi simetris, mata menutup penuh, pipi menggembung, senyum simetris, pengecapan normal.",
+            "Penting: bedakan sentral (forehead sparing) vs perifer (dahi ikut lemah)."
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N VII)"
+        },
+        {
+          "text": "[N VIII — Vestibulokoklear]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Pendengaran kasar (bisikan, gesekan jari), garpu tala (Rinne, Weber, Schwabach).",
+            "Normal: Rinne positif, Weber tidak lateralisasi, Schwabach sama dengan pemeriksa.",
+            "Tuli konduktif: Rinne (-), Weber lateralisasi ke telinga sakit. Tuli sensorineural: Rinne (+), Weber lateralisasi ke telinga sehat."
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N VIII)"
+        },
+        {
+          "text": "[N IX/X — Glossofaringeus/Vagus]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Inspeksi palatum saat \"aaa\", gag reflex, tanya gejala disfagia/serak.",
+            "Normal: palatum elevasi simetris, uvula di tengah, gag reflex (+).",
+            "Lesi unilateral: uvula tertarik ke sisi sehat, sisi lemah turun."
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N IX/X)"
+        },
+        {
+          "text": "[N XI — Aksesorius]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "SCM (menoleh melawan tahanan, palpasi sisi berlawanan), trapezius (angkat bahu melawan tahanan).",
+            "Normal: kekuatan simetris, atrofi (-)."
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N XI)"
+        },
+        {
+          "text": "[N XII — Hipoglosus]: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Inspeksi (atrofi, fasikulasi, tremor), deviasi (dalam mulut vs dijulurkan), kekuatan (dorong pipi dari dalam, tahan dari luar), artikulasi.",
+            "Normal: lidah di tengah, deviasi (-), kekuatan simetris, artikulasi jelas.",
+            "Frasa sering dilupakan: \"Lidah deviasi ke sisi lemah saat dijulurkan.\""
+          ],
+          "bold": true,
+          "source": "§4 file sumber (N XII)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips teknis: tulis singkatan saat periksa pupil",
+          "text": "Tips teknis yang sering dilupakan: tulis singkatan \"RCL +/+ bilateral\" di kertas kerja saat memeriksa pupil agar tidak lupa membandingkan kedua sisi dan langsung/tidak langsung.",
+          "answer_evidence": "Modul Blok 6.3 Neuro-Psikiatri, FKIK Universitas Jambi. Pemeriksaan Nervus Kranialis. 2024."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kondisi pasien memengaruhi pemeriksaan",
+          "text": "Kondisi pasien yang mempengaruhi pemeriksaan: pada Tn. Surya dengan penurunan kesadaran/afasia, beberapa langkah verbal mungkin tidak dapat dilakukan; gunakan metode alternatif (observasi, refleks, rangsang pasif).",
+          "answer_evidence": "KNI Indonesia. Pemeriksaan Klinis Neurologi Praktis. 2018."
+        }
+      ],
+      "visual_refs": [
+        "visual_neuro_nk_anatomi_01",
+        "visual_neuro_nk_h_test_02",
+        "visual_neuro_nk_facial_palsy_03",
+        "visual_neuro_nk_palatum_uvula_04",
+        "visual_neuro_nk_lidah_deviasi_05"
+      ],
+      "glossary_refs": [
+        "gls_neuro_nk_olfaktorius_01",
+        "gls_neuro_nk_eye_mov_02",
+        "gls_neuro_nk_trigeminus_03",
+        "gls_neuro_nk_fasialis_04",
+        "gls_neuro_nk_vestibulo_05",
+        "gls_neuro_nk_glosso_vagus_06",
+        "gls_neuro_nk_aksesorius_07",
+        "gls_neuro_nk_hipoglosus_08",
+        "gls_neuro_nk_hiposmia_14",
+        "gls_neuro_nk_rinne_weber_11",
+        "gls_neuro_nk_refleks_kornea_12"
+      ],
+      "bilingual": "Section s04 adalah section terpanjang modul: menjelaskan teknik pemeriksaan setiap nervus (N I–N XII) dengan H2 terstruktur — fungsi, alat, langkah, normal/abnormal, red flag, kalimat OSCE, dan frasa yang sering dilupakan."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Fase persiapan 30 detik, daftar alat OSCE, posisi pasien, dan urutan eksekusi pemeriksaan 12 nervus kranialis.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Persiapan adalah fase kritis yang menentukan kesan pertama penguji. Pada station OSCE pemeriksaan nervus kranialis, fase persiapan berlangsung ±1 menit dan mencakup: (1) Sambutan & perkenalan diri dengan menyebut peran (mahasiswa), (2) Konfirmasi identitas pasien dengan gelang atau pertanyaan terbuka, (3) Penjelasan prosedur dengan bahasa awam, (4) Informed consent eksplisit, (5) Hand hygiene (5 momen WHO — nyata atau verbal), (6) Penataan alat, (7) Posisikan pasien dengan aman. Kesalahan pada fase ini (terutama tidak meminta consent) langsung menggugurkan skor untuk item 1 rubrik dan menurunkan kesan profesionalisme secara keseluruhan. Pada pasien suspek stroke akut (skenario Tn. Surya), tambahan yang harus dilakukan: elevasi kepala 30° (bukan duduk tegak), monitoring tekanan darah, dan persiapan aktivasi code stroke bila defisit multipel ditemukan.",
+          "tone": "narrative",
+          "source": "§2 & §5 file sumber (Algoritme 30 detik + persiapan alat)"
+        },
+        {
+          "text": "FASE PELAKSANAAN secara berurutan: (1) N I — penciuman: tutup mata, tutup satu lubang hidung, identifikasi bau non-iritan. Ulangi sisi lain. (2) N II — penglihatan (bila masuk rubrik): Snellen chart, konfrontasi 8 arah, fundoskopi (deskripsi verbal). (3) N III/IV/VI — gerak mata & pupil: inspeksi (ptosis, deviasi), pupil (bentuk, ukuran, RCL/RCT, akomodasi), gerak H 6/8 arah + tanyakan diplopia. (4) N V — trigeminus: kapas V1/V2/V3, masseter, refleks kornea (boleh verbal), jaw jerk. (5) N VII — fasialis: inspeksi istirahat, dahi/alis, tutup mata, pipi, senyum/gigi, pengecapan (opsional/verbal). (6) N VIII — vestibulokoklear (teori): bisikan, Rinne, Weber. (7) N IX/X — glossofaringeus/vagus: inspeksi palatum/uvula saat \"aaa\", gag reflex, tanya gejala disfagia. (8) N XI — aksesorius (teori): SCM (palpasi saat memutar kepala), trapezius (angkat bahu). (9) N XII — hipoglosus: inspeksi lidah, deviasi dalam mulut vs dijulurkan, kekuatan, artikulasi. FASE EVALUASI & KONFIRMASI: (1) Tanyakan gejala penyerta yang belum ditanyakan. (2) Catat semua temuan di kertas kerja (format: saraf, sisi, normal/abnormal, jenis kelainan). (3) Sintesis: apakah ada defisit? Apakah sentral atau perifer? Apakah ada kegawatan? (4) Laporkan hasil dengan format SOAP singkat. (5) Tindak lanjut: aktivasi code stroke (jika curiga stroke akut), observasi, atau rawat jalan.",
+          "tone": "narrative",
+          "source": "Adaptasi PROMPT_DOMAIN3_Neuro_Psiki.md (§7 Neurologi: fase persiapan, pelaksanaan, evaluasi)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alat OSCE pemeriksaan nervus kranialis (penataan meja)",
+          "sub": [
+            "Penlight / senter kecil — untuk pupil (RCL/RCT) dan inspeksi mulut.",
+            "Kapas halus steril — untuk uji sensibilitas V1/V2/V3 dan refleks kornea.",
+            "Bahan penciuman non-iritan — kopi bubuk, teh, kulit jeruk, vanili, sabun wangi, peppermint. HINDARI: amonia, alkohol, cuka.",
+            "Spatel lidah (tongue depressor) — untuk inspeksi palatum/uvula dan gag reflex.",
+            "Garpu tala 512 Hz — untuk tes Rinne, Weber, Schwabach (N VIII).",
+            "Snellen chart 6 m + pinhole + jari/gambar — untuk N II (visus, lapang pandang).",
+            "Refleks hammer — untuk jaw jerk (N V).",
+            "Stopwatch/timer — untuk monitoring durasi (target 5–6 mnt fase pelaksanaan).",
+            "Clip board + kertas kerja + bolpoin — untuk mencatat temuan dan menulis laporan SOAP.",
+            "Sarung tangan (opsional) — terutama bila ada kontak dengan mukosa.",
+            "Bahan pengecap (manis/asin/asam/pahit) + air bilas — untuk N VII pengecapan (sering cukup verbal)."
+          ],
+          "bold": true,
+          "source": "§5 & §3 file sumber (Persiapan alat & checklist OSCE)"
+        },
+        {
+          "text": "Posisi pasien: duduk tegak vs berbaring elevasi 30°",
+          "sub": [
+            "Duduk tegak: untuk pasien umum OSCE — pasien duduk di kursi dengan punggung tegak, tangan di pangkuan, pemeriksa di depan. Stabilkan kepala saat memeriksa gerak H.",
+            "Berbaring elevasi kepala 30°: untuk pasien stroke akut atau pasien lemah/pusing/vertigo berat — kepala lebih tinggi 30° dari badan, monitoring di samping. Mengurangi risiko aspirasi dan membantu venous drainage otak.",
+            "Penyesuaian khusus: pasien dengan afasia berat/penurunan kesadaran mungkin perlu berbaring miring untuk memudahkan pemeriksaan palatum/uvula dan mencegah aspirasi."
+          ],
+          "bold": true,
+          "source": "Adaptasi PROMPT_DOMAIN3_Neuro_Psiki.md & PERDOSSI 2022"
+        },
+        {
+          "text": "FASE PELAKSANAAN (urutan eksekusi)",
+          "sub": [
+            "N I → N II → N III/IV/VI → N V → N VII → N VIII → N IX/X → N XI → N XII",
+            "Di setiap langkah: bandingkan kanan-kiri, mulai dari sisi normal, catat temuan.",
+            "Gunakan timer: target 5–6 menit untuk fase pelaksanaan pada pasien suspek stroke."
+          ],
+          "bold": true,
+          "source": "Adaptasi PROMPT_DOMAIN3_Neuro_Psiki.md (§7 Neurologi)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan pasien di setiap fase",
+          "text": "Keselamatan pasien di setiap fase: pada suspek stroke akut, jangan posisikan duduk tegak bila pasien hipotensi/vertigo berat; elevasi kepala 30° lebih aman. Pastikan tidak ada risiko jatuh dari bed/kursi.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kondisi yang harus menghentikan prosedur",
+          "text": "Kondisi yang harus menghentikan prosedur: penurunan kesadaran mendadak, kejang, muntah proyektil, atau deteriorasi neurologis → HENTIKAN pemeriksaan, stabilisasi ABC (Airway-Breathing-Circulation), panggil bantuan.",
+          "answer_evidence": "BLS/ACLS Guidelines 2020; American Heart Association."
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Gunakan timer: 5–6 menit fase pelaksanaan",
+          "text": "Gunakan timer: target 5–6 menit untuk fase pelaksanaan pada pasien suspek stroke. Lebih cepat bukan berarti terburu-buru — berarti efisien.",
+          "answer_evidence": "Saver JL. Time is brain—quantified. Stroke. 2006;37(1):263-266."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Acuan urutan & teknik pemeriksaan",
+          "text": "KNI Indonesia. Pemeriksaan Klinis Neurologi Praktis. Penerbit Kedokteran Indonesia. Jakarta. 2018 — menjadi acuan utama urutan dan teknik pemeriksaan di modul ini.",
+          "answer_evidence": "KNI Indonesia. Pemeriksaan Klinis Neurologi Praktis. 2018."
+        }
+      ],
+      "visual_refs": [
+        "visual_neuro_nk_setup_06",
+        "visual_neuro_nk_prosedur_07",
+        "visual_neuro_nk_posisi_pasien_08"
+      ],
+      "glossary_refs": [
+        "gls_neuro_nk_gcs_13"
+      ],
+      "bilingual": "Section s05 membagi prosedur OSCE menjadi 3 fase: persiapan (hand hygiene, informed consent, alat, posisi), pelaksanaan (9 langkah N I–N XII), dan evaluasi/konfirmasi. Target total 8–10 menit."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-prosedur, pendekatan diagnosis banding (POUND), dan cluster Bell's palsy vs stroke.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan fisik selesai, tugas mahasiswa tidak berhenti pada \"melaporkan hasil\". Pada modul neurologi — terutama dengan skenario stroke akut seperti Tn. Surya — pasca-prosedur adalah momen untuk: (1) mensintesis temuan menjadi pola klinis yang bermakna, (2) melakukan lokalisasi lesi berdasarkan kumpulan defisit nervus kranialis, (3) menentukan diagnosis kerja (bukan hanya \"ada kelemahan\"), dan (4) menetapkan rencana tindak lanjut yang sesuai (code stroke, observasi, rawat jalan).",
+          "tone": "narrative",
+          "source": "§5 file sumber (Cara melaporkan hasil dalam OSCE)"
+        },
+        {
+          "text": "Pendekatan clinical reasoning untuk pemeriksaan nervus kranialis secara garis besar mengikuti langkah \"POUND\" yang umum di neurologi akut, diadaptasi untuk NK: P — Pola (defisit nervus kranialis mana yang terlibat? Apakah soliter atau multipel? Apakah unilateral atau bilateral?). O — Onset (apakah akut (menit/jam) atau kronik-progresif (hari/minggu/bulan)?). U — Unsur (apakah ada gejala batang otak (vertigo, diplopia, disfagia, disartria, ataksia)?). N — Neuroanatomi (di mana lesi yang mungkin? Kortikal/subkortikal, thalamus, batang otak (midbrain/pons/medulla), atau perifer (cabang saraf)?). D — Diferensial (diagnosis banding utama apa?). Contoh penerapan pada skenario Tn. Surya: diplopia + vertigo + disfagia + disartria + onset 1 jam + HT/DM → pola multipel CN + onset akut + gejala batang otak → lesi batang otak / posterior circulation (vertebrobasilar) → diagnosis kerja stroke batang otak → aktivasi code stroke.",
+          "tone": "clinical",
+          "source": "Adaptasi PROMPT_DOMAIN3_Neuro_Psiki.md (clinical reasoning neurologi akut)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca prosedur",
+          "sub": [
+            "Bersihkan alat & lingkungan (buang kapas bekas, matikan penlight, dll.).",
+            "Cuci tangan kembali (5 momen WHO post-contact).",
+            "Konfirmasi keluhan pasien — pastikan semua yang perlu ditanyakan sudah terjawab.",
+            "Dokumentasikan temuan di kertas kerja OSCE / rekam medis (format SOAP).",
+            "Laporkan hasil kepada penguji dengan bahasa klinis standar.",
+            "Berikan edukasi singkat kepada pasien (dan/atau keluarga) tentang hasil dan langkah selanjutnya.",
+            "Aktivasi code stroke bila menemukan pola stroke akut (Tn. Surya)."
+          ],
+          "bold": true,
+          "source": "§5 file sumber (Cara melaporkan hasil dalam OSCE)"
+        },
+        {
+          "text": "Pendekatan diagnosis banding (cluster utama)",
+          "sub": [
+            "Bell's palsy (N VII perifer) vs stroke (N VII sentral): lihat perbandingan detail di bawah.",
+            "Vertigo sentral (batang otak) vs vertigo perifer (vestibular/BPPV): lihat cluster.",
+            "Miastenia gravis vs stroke: diplopia fluktuatif, memberat sore hari, pupil normal → miastenia.",
+            "Aneurisma/kompresi N III vs N III palsy iskemik (diabetes): pupil involvement (mydriasis) → kompresif (aneurisma), pupil sparing → iskemik."
+          ],
+          "bold": true,
+          "source": "§6 file sumber (Penyakit terkait & Tabel 5)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS merujuk segera",
+          "text": "Kapan HARUS merujuk segera: defisit nervus kranialis multipel onset akut (<24 jam) pada pasien dengan faktor risiko vaskular → aktivasi code stroke; pupil melebar unilateral + ptosis + nyeri kepala hebat → curiga aneurisma; demam + penurunan kesadaran + kaku kuduk → meningitis/ensefalitis.",
+          "answer_evidence": "AHA/ASA 2019 Guidelines; PERDOSSI 2022."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[RED FLAG] Stroke + pneumonia aspirasi",
+          "text": "[RED FLAG] Disfagia + aspirasi + demam + penurunan kesadaran → curiga stroke batang otak dengan pneumonia aspirasi; kebutuhan O₂ suplementasi, posisi semi-Fowler, evaluasi menelan oleh ahli terapi wicara.",
+          "answer_evidence": "AHA/ASA 2019 Guidelines; pneumonia aspirasi = komplikasi stroke."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[RED FLAG] ALS atau miastenia",
+          "text": "[RED FLAG] Disartria + fasikulasi lidah + atrofi + kelemahan proksimal progresif → curiga ALS atau miastenia; rujuk ke Sp.SpS.",
+          "answer_evidence": "PERDOSSI. Pedoman Miastenia Gravis. 2021."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[RED FLAG] Krisis miastenik",
+          "text": "[RED FLAG] Diplopia fluktuatif + ptosis + kelemahan bulbar (disfagia, suara nasal) + sesak napas → curiga krisis miastenik; rawat ICU, pertimbangkan plasmaferesis/IVIG.",
+          "answer_evidence": "PERDOSSI. Pedoman Miastenia Gravis. 2021."
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Selalu simpulkan lokalisasi lesi",
+          "text": "Selalu simpulkan lokalisasi lesi (kortikal, subkortikal, batang otak, cerebellopontine angle, atau perifer) — ini yang membedakan laporan OSCE yang mendapat nilai A vs B.",
+          "answer_evidence": "KNI Indonesia. Pemeriksaan Klinis Neurologi Praktis. 2018."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Window time terapi reperfusi stroke iskemik",
+          "text": "Pada stroke iskemik, window time terapi reperfusi: iv trombolisis rtPA ≤4,5 jam dari onset; trombektomi mekanik dapat sampai 24 jam pada large vessel occlusion tertentu (studi DEFUSE-3, DAWN) — selalu konfirmasi \"last known well\" sebelum menentukan terapi.",
+          "answer_evidence": "AHA/ASA 2019 Guidelines; studi DEFUSE-3 dan DAWN."
+        }
+      ],
+      "visual_refs": [
+        "visual_neuro_nk_facial_palsy_03"
+      ],
+      "glossary_refs": [
+        "gls_neuro_nk_bells_palsy_09",
+        "gls_neuro_nk_code_stroke_10"
+      ],
+      "bilingual": "Section s06 mengajarkan clinical reasoning pasca-pemeriksaan dengan pendekatan POUND: Pola, Onset, Unsur batang otak, Neuroanatomi (lokalisasi lesi), dan Diferensial diagnosis."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang esensial dan prinsip tatalaksana berbasis bukti untuk stroke akut, Bell's palsy, dan diferensial.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang pada modul pemeriksaan nervus kranialis tidak selalu tersedia di station OSCE, tetapi kemampuan untuk menyebutkan dan memprioritaskan pemeriksaan penunjang yang relevan adalah salah satu item tak tertulis yang sangat dihargai penguji. Pada skenario Tn. Surya (suspek stroke), pemilihan pemeriksaan penunjang bersifat emergensi: CT scan kepala non-kontras dalam waktu 20–25 menit sejak kedatangan (door-to-CT time) adalah baku emas untuk menyingkirkan perdarahan intrakranial sebelum pemberian trombolisis. Pada skenario Bell's palsy, kebanyakan kasus tidak membutuhkan penunjang di fase awal, tetapi MRI dengan gadolinium atau EMG N VII dapat dipertimbangkan pada kasus atypical (perjalanan progresif >72 jam, kelemahan wajah multipel bilateral, spasme hemifasial, atau kecurigaan neoplasma).",
+          "tone": "narrative",
+          "source": "§6 & §7 file sumber (Penyakit terkait & SKDI 4A)"
+        },
+        {
+          "text": "Prinsip tatalaksana setelah menemukan defisit nervus kranialis: (1) Stabilisasi ABC (Airway-Breathing-Circulation) terlebih dahulu, terutama pada penurunan kesadaran atau aspirasi. (2) Triage kegawatan — apakah ada red flag stroke akut, meningitis/ensefalitis, atau aneurisma? (3) Aktivasi alur spesifik — code stroke (≤4,5 jam untuk iv trombolisis), atau rujuk ke Sp.SpS. (4) Tatalaksana suportif — posisi aman, suction, O₂ suplementasi, IV line, monitoring neurologis. (5) Pemasangan NGT (nasogastric tube) pada pasien dengan disfagia berat untuk mencegah aspirasi. (6) Perlindungan mata (eye patching, air mata buatan, salep mata) pada pasien dengan kelemahan menutup mata (Bell's palsy) untuk mencegah暴露 keratitis.",
+          "tone": "clinical",
+          "source": "Adaptasi PROMPT_DOMAIN3_Neuro_Psiki.md (prinsip tatalaksana neurologi)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang esensial berdasarkan kecurigaan diagnosis",
+          "sub": [
+            "CT scan kepala non-kontras: baku emas stroke akut (singkirkan perdarahan); onset <4,5 jam; tersedia 24/7.",
+            "CT angiography (CTA) kepala & leher: identifikasi large vessel occlusion; panduan trombektomi.",
+            "MRI kepala (DWI/FLAIR/T2*): deteksi stroke iskemik dini (≤6 jam), lesi batang otak, tumor.",
+            "MRI dengan gadolinium N VII: Bell's palsy atypical, kecurigaan tumor cerebellopontine angle.",
+            "EMG N VII (Electroneurografi): Bell's palsy prognosis (degenerate <90% dalam 1 minggu → prognosis buruk).",
+            "Audiometri + BERA: tuli sensorineural, neuroma akustik (N VIII).",
+            "Pungsi lumbal: meningitis/ensefalitis, perdarahan subaraknoid (setelah CT normal).",
+            "Laboratorium: darah lengkap, glukosa darah (penting — hipoglikemia dapat meniru stroke!), elektrolit, fungsi ginjal, coagulation profile, EKG (atrial fibrilasi).",
+            "Echocardiografi: curiga cardioembolic source (atrial fibrilasi, vegetasi, thrombus).",
+            "Carotid Doppler: stenosis karotis pada stroke TIA/ischemic."
+          ],
+          "bold": true,
+          "source": "§6 file sumber (Penyakit terkait)"
+        },
+        {
+          "text": "Kapan rujuk dan ke mana",
+          "sub": [
+            "Rujuk emergensi (Code Stroke): defisit NK multipel onset akut + faktor risiko vaskular → Sp.SpS (spesialis saraf) atau RS rujukan stroke.",
+            "Rujuk emergensi (bedah saraf): pupil melebar + ptosis + nyeri kepala hebat → curiga aneurisma PCom → bedah saraf.",
+            "Rujuk segera (Sp.PD/penyakit dalam): Bell's palsy dengan komorbid DM tidak terkontrol.",
+            "Rujuk rawat jalan (Sp.SpS): Bell's palsy ringan, tension headache, migraine tanpa komplikasi."
+          ],
+          "bold": true,
+          "source": "§7 file sumber (SKDI 4A)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia",
+          "text": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia di station: CT scan kepala non-kontras untuk stroke akut; glukosa darah stick (untuk menyingkirkan hipoglikemia yang dapat meniru stroke); EKG (atrial fibrilasi).",
+          "answer_evidence": "AHA/ASA 2019 Guidelines; PERDOSSI 2022."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Rekomendasi PERDOSSI code stroke",
+          "text": "Rekomendasi PERDOSSI (Perhimpunan Dokter Spesialis Saraf Indonesia) — algoritme code stroke: door-to-needle target <60 menit, door-to-CT <25 menit, iv trombolisis rtPA 0,9 mg/kg (maks 90 mg) dalam 60 menit.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "AHA/ASA Guidelines 2019",
+          "text": "American Heart Association / American Stroke Association (AHA/ASA) Guidelines 2019 untuk stroke iskemik akut.",
+          "answer_evidence": "AHA/ASA 2019 Update to the 2018 Guidelines for the Early Management of Patients With Acute Ischemic Stroke. 2019."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tatalaksana Bell's palsy dalam 72 jam",
+          "text": "Pada Bell's palsy, tatalaksana dalam 72 jam dengan prednisone 60-80 mg/hari selama 7 hari (taper) meningkatkan outcome; tambahkan valacyclovir 1000 mg 3x/hari 7 hari pada kasus berat (House-Brackmann IV-VI) atau curiga HSV.",
+          "answer_evidence": "Adour et al. Bell's palsy treatment with prednisone and valacyclovir. NEJM. 2007;357:1598-1607."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kontraindikasi iv trombolisis",
+          "text": "Jangan berikan iv trombolisis bila: perdarahan intrakranial aktif, stroke dalam 3 bulan, Riwayat perdarahan GI/GU baru, tindakan bedah besar <14 hari, tekanan darah >185/110 (turunkan dulu dengan nicardipine/labetalol), atau INR >1.7 pada pasien warfarin — verifikasi lokal sesuai PPK fasilitas.",
+          "answer_evidence": "AHA/ASA 2019 Guidelines; kontraindikasi trombolisis."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_nk_code_stroke_10",
+        "gls_neuro_nk_bells_palsy_09"
+      ],
+      "bilingual": "Section s07 memprioritaskan CT scan kepala non-kontras sebagai baku emas stroke akut, dengan algoritme PERDOSSI: door-to-CT <25 menit, door-to-needle <60 menit, iv trombolisis rtPA 0,9 mg/kg."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi, safety net, dan contoh SOAP lengkap untuk skenario Tn. Surya (suspek stroke batang otak).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pasien dan keluarga adalah item tak tertulis yang sangat menentukan kesan profesionalisme. Setelah pemeriksaan selesai, luangkan 30–60 detik untuk: (1) menjelaskan hasil pemeriksaan dalam bahasa awam, (2) menyebut langkah selanjutnya (observasi, CT scan, rawat inap, kontrol), dan (3) memberikan safety net — kapan harus kembali segera. Pada skenario Tn. Surya, edukasi ke keluarga akan sangat singkat karena kondisi kegawatan, tetapi tetap harus dilakukan: \"Bapak, hasil pemeriksaan awal saya menemukan beberapa kelainan pada saraf kepala Bapak. Ini bisa jadi tanda stroke. Kami akan melakukan CT scan kepala dan tindakan segera. Saya akan mengabari Bapak/Ibu.\" Dokumentasi SOAP (Subjective-Objective-Assessment-Plan) adalah format standar yang dipakai di rekam medis dan sangat sering diminta di station OSCE.",
+          "tone": "narrative",
+          "source": "§5 file sumber (Cara melaporkan hasil + SOAP)"
+        },
+        {
+          "text": "Contoh SOAP untuk Tn. Surya. S (Subjective): Tn. Surya, 50 tahun, datang ke IGD dengan keluhan utama pandangan ganda (diplopia), perasaan berputar (vertigo), mual, muntah 2x, sulit menelan (disfagia), dan bicara pelo (disartria) yang onset 1 jam SMRS. Keluhan muncul mendadak saat istirahat. Riwayat hipertensi tidak terkontrol (tidak rutin minum obat), diabetes mellitus tipe 2 dengan metformin 500 mg 2x/hari, dan kebiasaan merokok 1 bungkus/hari selama 20 tahun. Tidak ada riwayat trauma kepala, kejang, atau penurunan kesadaran. Riwayat keluarga: ayah stroke di usia 60 tahun. O (Objective): Kesadaran: GCS 15 (E4V5M6), compos mentis, dapat mengikuti instruksi. Tanda vital: TD 180/100 mmHg, HR 88 x/menit regular, RR 20 x/menit, SpO₂ 96% room air, suhu 36,8°C, GDA 220 mg/dL. Pemeriksaan nervus kranialis (ringkas): N I: identifikasi bau kopi/jeruk simetris. N II: visus kasar baik, lapang pandang utuh, fundoskopi: retinopati hipertensi derajat II (perdarahan dot-blot, AV nicking). N III/IV/VI: ptosis kanan (+), pupil anisokor (kanan 4 mm, kiri 3 mm), RCL kanan menurun, gerak H terbatas ke lateral kanan (N VI palsy kanan curiga), diplopia ke kanan. N V: sensibilitas V1/V2/V3 simetris, masseter kuat, kornea +, jaw jerk minimal. N VII: dahi/alis simetris (kiri-kanan), mata menutup kuat, pipi menggembung simetris, senyum simetris, pengecapan normal. N VIII: pendengaran kasar simetris, Rinne +, Weber tidak lateralisasi. N IX/X: buka mulut \"aaa\" → palatum elevasi simetris, uvula deviasi ke KIRI (sisi sehat), gag reflex (+) bilateral. Pasien mengeluh \"sulit menelan air.\" N XI: SCM dan trapezius kekuatan simetris. N XII: lidah atrofi (-), fasikulasi (-), deviasi ke KANAN saat dijulurkan, kekuatan berkurang kanan, artikulasi pelo. Pemeriksaan motorik anggota gerak: kekuatan 5/5 semua ekstremitas (saat pemeriksaan awal, mungkin berkembang). A (Assessment): Diagnosis kerja: Stroke iskemik batang otak / posterior circulation (sindrom medial pontine / lateral medullary suspected), curiga I63.9. Masalah klinis: defisit CN multipel (N III/IV/VI, N IX/X, N XII) onset akut dengan faktor risiko vaskular (HT tidak terkontrol, DM, merokok). Diferensial: stroke hemoragik (harus disingkirkan dengan CT scan), meningitis/ensefalitis (kurang didukung karena tidak ada demam), migren dengan aura (kurang didukung karena defisit multipel menetap). P (Plan): Aktivasi code stroke (perawat jaga CODE STROKE, dokter Sp.SpS on-call). CT scan kepala non-kontras dalam <25 menit (door-to-CT). Laboratorium darah lengkap, glukosa serial, elektrolit, fungsi ginjal, coagulation, EKG. Trombolisis iv rtPA 0,9 mg/kg (maks 90 mg) dalam <60 menit (door-to-needle) bila CT tidak menunjukkan perdarahan dan memenuhi kriteria. Tatalaksana suportif: elevasi kepala 30°, O₂ suplementasi bila SpO₂ <94%, suction di samping tempat tidur, IV line, monitoring TD tiap 15 menit (target <180/105 dalam 24 jam pertama, kecuali trombolisis). Konsultasi Sp.SpS (spesialis saraf) dan evaluasi trombektomi mekanik bila CTA menunjukkan large vessel occlusion. Edukasi keluarga tentang kemungkinan stroke, rencana tindakan, dan prognosis. Safety net: keluarga diminta menghubungi perawat bila ada perburukan (kesadaran menurun, kejang, kehausan napas). NGT (nasogastric tube) dipasang dalam 24 jam pertama untuk mencegah aspirasi (uji menelan terlebih dahulu). Profilaksis DVT dengan pneumatic compression device (bukan heparin pada fase akut stroke). Pemeriksaan penunjang tambahan: MRI DWI untuk konfirmasi, CTA kepala-leher, echocardiografi, carotid Doppler setelah fase akut.",
+          "tone": "clinical",
+          "source": "Adaptasi §5 file sumber (Contoh SOAP untuk stroke akut)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "POIN EDUKASI (minimal 6)",
+          "sub": [
+            "Jelaskan bahwa pemeriksaan nervus kranialis menilai fungsi 12 pasang saraf kepala.",
+            "Tekankan hasil pemeriksaan (mana yang normal, mana yang perlu perhatian).",
+            "Pada suspek stroke: jelaskan kemungkinan stroke dan perlunya CT scan kepala.",
+            "Jelaskan rencana tindakan (trombolisis, antihipertensi, dll.) dengan bahasa awam.",
+            "Diskusikan faktor risiko (HT, DM, rokok) dan pentingnya kepatuhan obat.",
+            "Berikan safety net: kapan harus kembali ke RS (lihat di bawah).",
+            "Libatkan keluarga dalam edukasi, terutama pada pasien dengan gangguan komunikasi."
+          ],
+          "bold": true,
+          "source": "§5 file sumber (Poin edukasi)"
+        },
+        {
+          "text": "SAFETY NET — Kapan Kembali Segera (minimal 4)",
+          "sub": [
+            "Kelemahan wajah, lengan, atau tungkai yang baru atau memberat.",
+            "Bicara pelo/cadel/pelo yang baru atau memberat.",
+            "Kesulitan menelan, tersedak, atau pneumonia aspirasi.",
+            "Penglihatan ganda (diplopia) yang baru atau memberat.",
+            "Nyeri kepala hebat yang tidak biasa (\"thunderclap\" — muncul dalam detik-menit, \"terberat dalam hidup\").",
+            "Penurunan kesadaran, kejang, atau perubahan perilaku mendadak.",
+            "Demam tinggi + kaku kuduk + penurunan kesadaran (curiga meningitis).",
+            "Untuk Bell's palsy: kelemahan wajah tidak membaik dalam 1 minggu, memberat, atau muncul bilateral."
+          ],
+          "bold": true,
+          "source": "§5 file sumber (Safety net)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 skenario Tn. Surya",
+          "text": "Kode ICD-10 yang relevan untuk skenario Tn. Surya (curiga stroke batang otak): I63.9 (Cerebral infarction, unspecified) atau I67.9 (Cerebrovascular disease, unspecified) — kode definitif setelah CT scan.",
+          "answer_evidence": "ICD-10 WHO 2019; kode emergensi stroke iskemik."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 Bell's palsy",
+          "text": "Kode ICD-10 Bell's palsy: G51.0 (Bell's palsy / Facial nerve palsy).",
+          "answer_evidence": "ICD-10 WHO 2019; G51.0."
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat safety netting yang sering dilupakan",
+          "text": "Kalimat edukasi yang paling sering dilupakan: \"Bapak/Ibu, bila di rumah Bapak/Ibu menemukan salah satu dari tanda-tanda yang saya sebutkan tadi, langsung ke IGD ya. Jangan tunggu. Setiap menit, saraf otak Bapak/Ibu bisa rusak lebih banyak.\" Ini menunjukkan safety-netting yang nyata.",
+          "answer_evidence": "Modul Blok 6.3 Neuro-Psikiatri, FKIK Universitas Jambi. 2024."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "\"Time is brain\" — Saver 2006",
+          "text": "\"Time is brain\" — pada stroke iskemik, sekitar 1,9 juta neuron mati per menit tanpa reperfusi.",
+          "answer_evidence": "Saver JL. Time is brain—quantified. Stroke. 2006;37(1):263-266."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_nk_code_stroke_10",
+        "gls_neuro_nk_gcs_13"
+      ],
+      "bilingual": "Section s08 memberikan contoh SOAP lengkap untuk Tn. Surya dengan aktivasi code stroke, door-to-CT <25 menit, dan iv trombolisis rtPA 0,9 mg/kg dalam <60 menit."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Daftar 10+ penyakit SKDI 4A Neurologi-Psikiatri yang terkait NK, plus mini-skrip komunikasi dokter-pasien lengkap untuk skenario Tn. Surya.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "SKDI 4A (Standar Kompetensi Dokter Indonesia - tingkat 4A) menetapkan batas kompetensi minimal yang harus dikuasai dokter umum. Untuk domain Neurologi-Psikiatri, terdapat 10+ penyakit/kelainan yang secara langsung membutuhkan pemeriksaan nervus kranialis dalam tata laksana awalnya. Tabel di bawah ini merangkum penyakit SKDI 4A dan 3B Neurologi-Psikiatri yang relevan dengan skill pemeriksaan NK, lengkap dengan kode ICD-10 dan jenis tindakan 4A. Perhatikan: stroke batang otak termasuk kategori 4A (rawat inap/observasi dengan supervisi) tetapi memerlukan aktivasi code stroke emergensi.",
+          "tone": "narrative",
+          "source": "§7 file sumber (SKDI 4A Neurologi-Psikiatri)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Mini-Skrip Komunikasi (Tn. Surya)",
+          "sub": [
+            "[DOKTER]: \"Selamat pagi Bapak Surya, perkenalkan saya Dokter [nama], mahasiswa yang akan membantu pemeriksaan fungsi saraf kepala Bapak hari ini. Sebelum mulai, boleh saya konfirmasi: Bapak Surya, 50 tahun? (lihat gelang identitas / tanyakan tanggal lahir) Terima kasih, Bapak.\"",
+            "[DOKTER]: \"Pemeriksaan ini tidak sakit dan tidak menggunakan jarum suntik. Saya akan mencium beberapa bahan pewangi di bawah hidung Bapak, memeriksa gerakan mata, merasakan wajah Bapak dengan kapas, meminta Bapak melakukan beberapa ekspresi wajah, memeriksa langit-langit mulut dan lidah Bapak. Total sekitar 5–7 menit. Apakah Bapak bersedia?\"",
+            "[PASIEN]: \"Boleh, Dok.\"",
+            "[DOKTER]: \"Baik, terima kasih. Saya cuci tangan dulu ya.\" (hand hygiene 5 momen WHO atau verbal)",
+            "[DOKTER]: \"Bapak, saya akan tutup mata Bapak dan memberikan bau kopi. Tolong sebutkan apa yang Bapak rasakan.\" (N I)",
+            "[DOKTER]: \"Sekarang saya akan melihat posisi kedua mata Bapak.\" (inspeksi N III/IV/VI)",
+            "[DOKTER]: \"Saya akan menyinari mata Bapak. Lihat jauh ya.\" (RCL/RCT pupil)",
+            "[DOKTER]: \"Tolong ikuti jari saya hanya dengan mata, jangan gerakkan kepala. Bilang 'ya' atau 'dobel' setiap saat.\" (gerak H 6/8 arah)",
+            "[DOKTER]: \"Sekarang saya akan menyentuh wajah Bapak dengan kapas. Bilang 'ya' setiap terasa.\" (N V V1/V2/V3)",
+            "[DOKTER]: \"Bapak gigit gigi pelan ya, saya pegang otot rahang.\" (N V motorik)",
+            "[DOKTER]: \"Sekarang Bapak kerutkan dahi, angkat alis, tutup mata kuat-kuat, tiup pipi, dan perlihatkan gigi.\" (N VII)",
+            "[DOKTER]: \"Buka mulut dan bilang 'aaa' panjang ya.\" (N IX/X)",
+            "[DOKTER]: \"Saya akan menyentuh tenggorokan belakang ya, mungkin agak risih. Silakan bilang kalau tidak nyaman.\" (gag reflex)",
+            "[DOKTER]: \"Julurkan lidah lurus. Sekarang dorong pipi kanan dan kiri dengan lidah.\" (N XII)",
+            "[DOKTER]: \"Bapak, ucapkan 'lari lurus lalu istirahat di lorong' ya.\" (artikulasi N XII)",
+            "[DOKTER]: (Selesai pemeriksaan) \"Terima kasih, Bapak. Hasil pemeriksaan saya menemukan beberapa hal yang perlu kita waspadai: ada kelainan pada gerakan mata, posisi anak lidah, dan kesulitan menelan. Ini bisa jadi tanda masalah pada batang otak, dan salah satu kemungkinan terberat adalah stroke. Saya akan memanggil dokter spesialis saraf dan melakukan CT scan kepala untuk memastikan. Apakah ada yang ingin Bapak/Ibu tanyakan?\"",
+            "[PASIEN/KELUARGA]: \"Apakah berbahaya, Dok?\"",
+            "[DOKTER]: \"Ini kondisi yang serius dan perlu penanganan cepat. Saya akan menjelaskan lebih lanjut setelah hasil CT scan. Untuk saat ini, kami akan memindahkan Bapak ke ruang tindakan, memasang infus, dan monitoring tekanan darah. Keluarga boleh menunggu di luar. Saya akan mengabari Ibu setiap ada perkembangan.\"",
+            "[DOKTER]: \"Bapak/Ibu, saya persilakan Bapak Surya beristirahat dulu. Saya akan kembali 5–10 menit lagi untuk evaluasi ulang.\" (kembali ke pasien untuk monitoring serial)"
+          ],
+          "bold": true,
+          "source": "§6 & Tabel 5 file sumber (Penyakit terkait + skrip komunikasi)"
+        },
+        {
+          "text": "Penyakit SKDI 4A Neurologi-Psikiatri yang terkait NK (10 entri)",
+          "sub": [
+            "Stroke iskemik (I63.9) — 4A: defisit NK multipel onset akut, aktivasi code stroke, CT scan, trombolisis.",
+            "Stroke hemoragik (I61.9) — 4A: sakit kepala hebat + defisit NK, CT scan, kontrol TD.",
+            "Bell's palsy (G51.0) — 4A: paresis N VII perifer (LMN); bedside diagnosis & tatalaksana.",
+            "BPPV (Vertigo posisional, H81.1) — 4A: vertigo posisi; NK normal; Dix-Hallpike positif.",
+            "Tension headache (G44.2) — 4A: tidak menyebabkan defisit NK; saring red flags.",
+            "Migren (G43.9) — 4A: nyeri kepala berdenyut unilateral; NK interiktal normal.",
+            "Kejang demam (R56.0) — 4A: pediatrik; tidak langsung relevan pada skenario NK dewasa.",
+            "Tetanus (A35) — 4A: trismus + spasme; evaluasi N V motorik.",
+            "HIV/AIDS tanpa komplikasi (B24) — 4A: komorbid; risiko neuropati & infeksi oportunistik.",
+            "Gangguan somatoform (F45.x) — 4A: keluhan fisik tanpa kelainan NK; waspadai misdiagnosis.",
+            "Insomnia (G47.0) — 4A: evaluasi faktor psikososial; tidak ada defisit NK.",
+            "Meningitis bakterial (G00.9) — 3B: demam + TRM + penurunan kesadaran → emergensi.",
+            "Ensefalitis (G04.9) — 3B: penurunan kesadaran + demam + defisit neurologis."
+          ],
+          "bold": true,
+          "source": "§7 & Tabel 6 file sumber (SKDI 4A Neurologi-Psikiatri)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Sumber SKDI 4A dan PERDOSSI",
+          "text": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022. — Acuan utama tatalaksana stroke di Indonesia.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "\"Time is brain\" — Saver 2006",
+          "text": "Saver JL. Time is brain—quantified. Stroke. 2006. — ~1,9 juta neuron mati per menit pada stroke iskemik tanpa reperfusi.",
+          "answer_evidence": "Saver JL. Time is brain—quantified. Stroke. 2006;37(1):263-266."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_nk_code_stroke_10",
+        "gls_neuro_nk_bells_palsy_09"
+      ],
+      "bilingual": "Section s09 memuat 13 penyakit SKDI 4A/3B Neurologi-Psikiatri yang terkait pemeriksaan NK, plus mini-skrip komunikasi dokter-pasien lengkap untuk skenario Tn. Surya."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan 21-item (7 TINGGI), rencana 3 hari (Hari 1 teori, Hari 2 praktik, Hari 3 simulasi), dan 8 kesalahan fatal yang harus dihindari.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kesiapan OSCE pemeriksaan nervus kranialis ditentukan oleh tiga hal: (1) penguasaan urutan dan teknik (dipelajari dengan benar pada hari 1–2), (2) kelancaran tangan (latihan pada teman/keluarga), dan (3) kemampuan berpikir klinis (mengenali pola defisit dan melokalisasi lesi). Kriteria \"siap OSCE\" adalah: (a) mampu menyelesaikan pemeriksaan dalam 6–8 menit, (b) mampu menyebutkan nama saraf dan sisi tanpa melihat catatan, (c) mampu membedakan Bell's palsy dari stroke, dan (d) mampu mengaktifkan alur kegawatan (code stroke) pada skenario yang sesuai. Rencana 3 hari disusun dengan target yang terukur untuk masing-masing hari. Hari 1 fokus pada teori dan hafalan urutan, Hari 2 fokus pada praktik tangan dan simulasi, Hari 3 fokus pada full dress rehearsal dan koreksi kesalahan. Disamping itu, kesalahan fatal di bawah ini harus dihindari karena langsung menurunkan skor atau menunjukkan kemampuan klinis yang tidak memadai.",
+          "tone": "narrative",
+          "source": "§10 & §11 file sumber (Rencana latihan 3 hari & Kesalahan fatal)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI (21 item, 7 TINGGI)",
+          "sub": [
+            "TINGGI — Mampu mengucapkan informed consent lengkap dalam 15 detik.",
+            "TINGGI — Mampu melakukan hand hygiene verbal/nyata dengan benar.",
+            "TINGGI — Mampu memeriksa N I (penciuman) dalam <60 detik dengan bahan non-iritan.",
+            "TINGGI — Mampu memeriksa N III/IV/VI (pupil + gerak H) dalam <2 menit.",
+            "TINGGI — Mampu memeriksa N VII (5 gerakan wajah) dalam <90 detik.",
+            "TINGGI — Mampu membedakan Bell's palsy (perifer) dari stroke (sentral).",
+            "TINGGI — Mampu melaporkan hasil dengan format SOAP dalam <90 detik.",
+            "SEDANG — Mampu memeriksa N V (V1/V2/V3) dalam <60 detik.",
+            "SEDANG — Mampu memeriksa N IX/X (palatum, uvula, gag) dalam <45 detik.",
+            "SEDANG — Mampu memeriksa N XII (lidah, deviasi, kekuatan) dalam <60 detik.",
+            "SEDANG — Mampu menanyakan gejala penyerta (diplopia, vertigo, disfagia) dengan benar.",
+            "SEDANG — Mampu menulis SOAP singkat untuk stroke akut.",
+            "SEDANG — Mampu mengaktifkan alur code stroke (lisan).",
+            "SEDANG — Mampu menjelaskan \"uvula deviasi ke sisi sehat\" dengan benar.",
+            "SEDANG — Mampu menjelaskan \"lidah deviasi ke sisi lemah saat dijulurkan\" dengan benar.",
+            "RENDAH — Mampu memeriksa N II (visus) dalam <60 detik.",
+            "RENDAH — Mampu memeriksa N VIII (Rinne, Weber) dalam <2 menit.",
+            "RENDAH — Mampu memeriksa N XI (SCM, trapezius) dalam <45 detik.",
+            "RENDAH — Mampu menyebutkan kode ICD-10 stroke dan Bell's palsy.",
+            "RENDAH — Mampu mendemonstrasikan posisi pasien duduk vs berbaring elevasi 30°.",
+            "RENDAH — Mampu menyebutkan minimal 2 video rujukan untuk belajar mandiri."
+          ],
+          "bold": true,
+          "source": "§10 file sumber (Rencana latihan 3 hari)"
+        },
+        {
+          "text": "RENCANA 3 HARI",
+          "sub": [
+            "Hari 1: Target: Paham teori & hafal urutan. Durasi: 3–4 jam. Aktivitas: (a) Baca §1–§7 modul ini, (b) hafal urutan 12 nervus dengan mnemonic (mis. \"Oh Otak Cemerlang, Trigeminus Fasial Aksesoris Vestibulo Glossofar Vagus Aksesorius Hipoglosus\" = I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII), (c) hafal normal pupil, deviasi lidah, deviasi uvula. Kriteria: dapat menyebutkan urutan dari N I ke N XII tanpa melihat catatan.",
+            "Hari 2: Target: Mahir tangan & laporan. Durasi: 3–4 jam. Aktivitas: (a) Latihan pada teman/keluarga 5–6 kali dengan timer (target <8 menit per sesi), (b) rekam video latihan, evaluasi diri, (c) tulis 4 contoh SOAP (Bell's palsy, stroke sentral, stroke batang otak, miastenia). Kriteria: pemeriksaan 12 NK selesai dalam 6–8 menit, SOAP lengkap dalam 90 detik.",
+            "Hari 3: Target: Full dress rehearsal. Durasi: 2–3 jam. Aktivitas: (a) Simulasi penuh dengan partner (mintalah berperan sebagai penguji + pasien), (b) latihan aktivasi code stroke (lisan, \"Saya akan memanggil kode stroke dan Sp.SpS\"), (c) review kesalahan fatal, (d) tonton minimal 1 video rujukan (Geeky Medics atau LP3 UHAMKA). Kriteria: simulasi penuh 8–10 menit berjalan tanpa \"blank\", semua item rubrik tercakup, laporan SOAP jelas."
+          ],
+          "bold": true,
+          "source": "§10 file sumber (Rencana latihan 3 hari)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak meminta consent",
+          "text": "[FATAL] Tidak meminta consent dan tidak menjelaskan prosedur — langsung gagal di item 1 rubrik; komunikasi dianggap tidak profesional.",
+          "answer_evidence": "Rubrik OSCE Blok 6.3 item 1: Informed consent."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak membandingkan kanan-kiri",
+          "text": "[FATAL] Tidak membandingkan kanan-kiri — kehilangan poin untuk hampir semua item rubrik; dianggap tidak sistematis.",
+          "answer_evidence": "Rubrik OSCE Blok 6.3; prinsip bandingkan simetris."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Pakai amonia untuk uji penciuman",
+          "text": "[FATAL] Memakai bahan penciuman yang merangsang mukosa hidung (amonia, alkohol) — yang terangsang N V, bukan N I; menunjukkan pemahaman neuroanatomi yang keliru.",
+          "answer_evidence": "KNI Indonesia. Pemeriksaan Klinis Neurologi Praktis. 2018."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Jari terlalu cepat di gerak H",
+          "text": "[FATAL] Menggerakkan jari terlalu cepat saat pemeriksaan huruf H — pasien tidak sempat melaporkan diplopia; kehilangan data klinis penting.",
+          "answer_evidence": "Geeky Medics. Cranial Nerve Examination — OSCE Guide."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Lupa tanyakan diplopia",
+          "text": "[FATAL] Lupa menanyakan diplopia saat pemeriksaan gerak bola mata — kehilangan satu red flag utama stroke batang otak.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak bedakan sentral vs perifer N VII",
+          "text": "[FATAL] Tidak membedakan facial palsy sentral vs perifer — menunjukkan kemampuan klinis yang tidak memadai; pada OSCE sering diberi skor 0 untuk item N VII.",
+          "answer_evidence": "Bell's palsy diagnosis criteria; KNI Indonesia. 2018."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak perhatikan disfagia/disartria",
+          "text": "[FATAL] Tidak memperhatikan disfagia/disartria sebagai red flag pada skenario stroke akut — kehilangan kesempatan untuk aktivasi code stroke.",
+          "answer_evidence": "AHA/ASA 2019 Guidelines; PERDOSSI 2022."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Laporan terlalu umum",
+          "text": "[FATAL] Laporan hasil terlalu umum (mis. \"semua normal\" tanpa menyebut saraf) — menunjukkan kemampuan dokumentasi yang buruk.",
+          "answer_evidence": "Modul Blok 6.3 Neuro-Psikiatri, FKIK Universitas Jambi. 2024."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kesalahan yang menurunkan skor (tidak fatal)",
+          "text": "Kesalahan yang menurunkan skor tapi tidak fatal: posisi tangan yang kurang presisi saat palpasi masseter, lupa menyebut \"aferen V1, eferen VII\" pada refleks kornea, tidak menyebut diameter pupil, urutan pemeriksaan yang tidak konsisten.",
+          "answer_evidence": "Modul Blok 6.3 Neuro-Psikiatri, FKIK Universitas Jambi. 2024."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Manajemen waktu",
+          "text": "Menghabiskan terlalu banyak waktu untuk satu nervus (mis. refleks kornea, gag reflex) yang membuat total waktu >10 menit; ini menurunkan kesan efisiensi.",
+          "answer_evidence": "Saver JL. Time is brain—quantified. Stroke. 2006."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_nk_bells_palsy_09",
+        "gls_neuro_nk_code_stroke_10"
+      ],
+      "bilingual": "Section s10 memberikan checklist latihan 21-item (7 TINGGI) dan rencana 3 hari yang terstruktur: Hari 1 teori, Hari 2 praktik, Hari 3 full dress rehearsal dengan 8 kesalahan fatal yang harus dihindari."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "5 visual yang disarankan dengan prompt AI, 4 lampiran (kontraindikasi/red flags, masalah-respons, OSCE mini-case, kalimat pembuka), dan 10 referensi.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Visual adalah alat bantu yang sangat efektif untuk menghafal urutan nervus kranialis, membedakan lesi sentral vs perifer, dan memahami pola deviasi lidah/uvula. Lima visual yang disarankan di bawah ini diambil dari §9 file sumber (Tabel 8) dan diperluas dengan tambahan saran dari agen. Setiap visual disertai prompt AI yang dapat dipakai untuk generate gambar dengan GPT Image 2 atau Stable Diffusion. Pada modul ini, gambar tidak tersedia dalam format Markdown, sehingga deskripsi prompt sangat penting untuk menghasilkan visual yang berkualitas. Lampiran A (Kontraindikasi/Red Flags), Lampiran B (Masalah & Respons), Lampiran C (OSCE Mini-Case), dan Lampiran D (Kalimat Pembuka Station) disusun berdasarkan skenario Tn. Surya dan kondisi umum pada station OSCE pemeriksaan nervus kranialis. Referensi mengikuti format yang diminta: nama penulis/institusi, judul, tahun, dan penjelasan singkat relevansi.",
+          "tone": "narrative",
+          "source": "§8, §9, §12 file sumber (Video rujukan, Saran visual, Referensi)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "VISUAL YANG DISARANKAN (5, diambil dari Tabel 8 asli)",
+          "sub": [
+            "Visual 1 — Diagram 12 nervus kranialis dari batang otak ke target organ. Kegunaan belajar: memahami asal nukleus dan fungsi saraf. Prompt AI: \"Infografik medis bahasa Indonesia, 12 nervus kranialis, asal batang otak, fungsi utama, gaya textbook modern, akurat, tanpa teks berlebihan.\"",
+            "Visual 2 — Alur pemeriksaan huruf H untuk gerak bola mata. Kegunaan belajar: melatih N III, IV, VI dan memahami arah gerakan. Prompt AI: \"Ilustrasi dokter memeriksa gerak bola mata pasien dengan pola huruf H, label N III IV VI, clean medical illustration.\"",
+            "Visual 3 — Perbandingan facial palsy sentral vs perifer. Kegunaan belajar: membedakan stroke dan Bell's palsy. Prompt AI: \"Side-by-side medical diagram: central facial palsy forehead spared vs peripheral facial palsy whole half-face weakness, Indonesian labels.\"",
+            "Visual 4 — Pemeriksaan palatum dan uvula saat pasien mengatakan aaa. Kegunaan belajar: memahami N IX/X dan deviasi uvula. Prompt AI: \"Medical illustration of open mouth, soft palate and uvula deviation in unilateral vagus palsy, clear Indonesian labels.\"",
+            "Visual 5 — Deviasi lidah N XII. Kegunaan belajar: memahami arah deviasi lidah saat dijulurkan. Prompt AI: \"Medical diagram hypoglossal nerve palsy tongue deviation, normal vs left palsy vs right palsy, Indonesian labels.\""
+          ],
+          "bold": true,
+          "source": "§9 & Tabel 8 file sumber (Saran visual)"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi / Red Flags",
+          "sub": [
+            "Kontraindikasi absolut melakukan pemeriksaan nervus kranialis tertentu: Refleks kornea: tidak aman pada pasien dengan luka terbuka/ulkus kornea aktif atau pasien yang sangat gelisah/tidak kooperatif. Gag reflex: tidak aman pada pasien dengan perdarahan aktif orofaring atau pasien yang sangat gelisah. Pemberian bahan penciuman: tidak aman pada pasien dengan riwayat asma alergi berat atau riwayat anafilaksis terhadap bahan tersebut.",
+            "Red Flags (gawat darurat yang harus dikenali): Stroke akut (defisit NK multipel onset akut dengan faktor risiko vaskular): aktivasi code stroke. Aneurisma (N III palsy pupil-involving + nyeri kepala hebat): rujuk emergensi bedah saraf. Meningitis/ensefalitis (demam + TRM + penurunan kesadaran): pungsi lumbal setelah CT. Krisis miastenik (kelemahan bulbar + gagal napas): rawat ICU, plasmaferesis/IVIG. Tumor otak dengan peningkatan TIK (papiledema + nyeri kepala progresif + muntah proyektil): CT/MRI segera, rujuk bedah saraf."
+          ],
+          "bold": true,
+          "source": "Adaptasi §6 file sumber (Penyakit terkait)"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah & Respons",
+          "sub": [
+            "Pasien tidak kooperatif (gelisah/afasia/penurunan kesadaran): Respons: berhenti sebentar, tenangkan pasien, gunakan metode alternatif (observasi, rangsang pasif), panggil bantuan keluarga.",
+            "Bahan penciuman yang menyebabkan bersin/iritasi: Respons: ganti bahan ke yang lebih ringan (mis. vanili, sabun), jauhi amonia.",
+            "Pasien mengeluh pusing/vertigo saat pemeriksaan: Respons: hentikan sebentar, posisikan berbaring elevasi 30°, observasi. Bila memberat, stabilisasi ABC dan aktivasi code stroke (bisa jadi manifestasi stroke akut).",
+            "Trombosis/koagulopati yang baru: Respons: hindari prosedur invasif (tidak ada dalam modul NK); konsultasikan dengan Sp.PD tentang kelayakan tindakan.",
+            "Pasien anak (modul ini untuk dewasa, tetapi bisa muncul di OSCE): Respons: libatkan orang tua/wali, gunakan bahasa yang lebih sederhana, persingkat prosedur ke item-item wajib.",
+            "Penguji interupsi untuk menguji clinical reasoning: Respons: jawab dengan percaya diri berdasarkan anatomi dan evidence. Contoh: \"Lesi N VII sentral ditandai dengan forehead sparing karena otot dahi menerima input bilateral dari kedua hemisfer.\""
+          ],
+          "bold": true,
+          "source": "Adaptasi §11 file sumber (Masalah & respons)"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case (3 skenario progresif)",
+          "sub": [
+            "Skenario Mudah (Bell's palsy): Tn. Hendra, 45 tahun, kelopak mata kiri turun sejak 3 hari, tidak ada nyeri kepala, tidak ada demam, tidak ada trauma. Kunci jawaban: periksa N I–XII, temukan dahi kiri IKUT lemah, mata kiri tidak menutup, Bell's phenomenon, Bell's palsy (G51.0). Tatalaksana: prednisone 60-80 mg/hari 7 hari, perlindungan mata (eye patch + air mata buatan), rujuk Sp.SpS.",
+            "Skenario Sedang (Stroke sentral): Ny. Dewi, 52 tahun, bicara cadel dan mulut mencong ke kanan sejak 2 jam, HT tidak terkontrol, GCS 15. Kunci jawaban: periksa N I–XII, temukan paresis N VII kanan SENTRAL (forehead sparing), N XII deviasi kanan (sesuai lesi sentral kiri), aktivasi code stroke, CT scan kepala, trombolisis bila memenuhi kriteria.",
+            "Skenario Sulit (Stroke batang otak/posterior circulation — Tn. Surya): Tn. Surya, 50 tahun, diplopia + vertigo + mual/muntah + disfagia + bicara pelo onset 1 jam, HT + DM. Kunci jawaban: periksa N I–XII, temukan N III/IV/VI (N VI palsy kanan, pupil anisokor), N IX/X (uvula deviasi kiri), N XII (deviasi kanan), aktivasi code stroke, CT scan non-kontras, trombolisis iv rtPA 0,9 mg/kg dalam 4,5 jam dari onset, monitoring di stroke unit."
+          ],
+          "bold": true,
+          "source": "Adaptasi §11 file sumber (Mini-case OSCE)"
+        },
+        {
+          "text": "LAMPIRAN D — Kalimat Pembuka Station (6 siap ucap)",
+          "sub": [
+            "\"Selamat pagi Bapak/Ibu, perkenalkan saya Dokter [nama], mahasiswa yang akan memeriksa fungsi saraf kepala Bapak/Ibu. Pemeriksaan ini tidak sakit, tidak menggunakan jarum suntik, dan membutuhkan waktu sekitar 5–7 menit. Apakah Bapak/Ibu bersedia?\"",
+            "\"Sebelum saya mulai, saya akan cuci tangan dulu ya. Saya juga ingin memastikan bahwa Bapak/Ibu dalam posisi yang nyaman.\"",
+            "\"Bapak/Ibu, saya akan memeriksa penciuman Bapak/Ibu. Saya akan memberikan beberapa bahan pewangi dan meminta Bapak/Ibu menyebutkan baunya. Silakan tutup mata.\"",
+            "\"Sekarang saya akan melihat posisi kedua mata Bapak/Ibu, lalu menyinari mata sebentar untuk melihat reaksi pupil. Lalu saya akan meminta Bapak/Ibu mengikuti jari saya.\"",
+            "\"Saya akan menyentuh wajah Bapak/Ibu dengan kapas halus. Bilang 'ya' setiap terasa. Lalu saya akan meminta Bapak/Ibu menggigit gigi dan beberapa gerakan wajah.\"",
+            "\"Bapak/Ibu, hasil pemeriksaan awal saya menemukan beberapa hal yang perlu kita waspadai [sebutkan temuan abnormal]. Saya akan memanggil dokter spesialis saraf dan melakukan pemeriksaan penunjang untuk memastikan. Ada yang ingin Bapak/Ibu tanyakan?\""
+          ],
+          "bold": true,
+          "source": "Adaptasi §2 file sumber (Kalimat pembuka station)"
+        },
+        {
+          "text": "REFERENSI (10 sumber)",
+          "sub": [
+            "Ref 1: KNI Indonesia. Pemeriksaan Klinis Neurologi Praktis. Penerbit Kedokteran Indonesia. Jakarta. 2018. — Acuan utama urutan dan teknik pemeriksaan nervus kranialis di Indonesia, sesuai rujukan PDF sumber.",
+            "Ref 2: Geeky Medics. Cranial Nerve Examination — OSCE Guide. Video YouTube (demonstrasi langkah-langkah pemeriksaan 12 nervus kranialis dengan tips OSCE).",
+            "Ref 3: LP3 UHAMKA. Pemeriksaan Saraf Kranialis. Video YouTube (video berbahasa Indonesia yang membantu pemahaman sequence pemeriksaan).",
+            "Ref 4: Geeky Medics. Cranial Nerve Examination (Old Version). Video YouTube (versi lama yang memberikan perspektif berbeda pada teknik pemeriksaan).",
+            "Ref 5: Modul Blok 6.3 Neuro-Psikiatri, FKIK Universitas Jambi. Pemeriksaan Nervus Kranialis. 2024. — PDF sumber utama modul ini.",
+            "Ref 6: SKDI 4A Batch 2: IKA, Geriatri, Neurologi, Psikiatri. — File rujukan batas kompetensi 4A untuk domain neurologi dan psikiatri.",
+            "Ref 7: PERDOSSI (Perhimpunan Dokter Spesialis Saraf Indonesia). Pedoman Tatalaksana Stroke Iskemik Akut. 2022. — Acuan tatalaksana stroke akut dan code stroke.",
+            "Ref 8: American Heart Association / American Stroke Association (AHA/ASA). 2019 Update to the 2018 Guidelines for the Early Management of Patients With Acute Ischemic Stroke. 2019. — Acuan internasional tatalaksana stroke akut.",
+            "Ref 9: Saver JL. Time is brain—quantified. Stroke. 2006;37(1):263-266. — Studi klasik yang mendasari konsep \"time is brain\" pada stroke iskemik.",
+            "Ref 10: Sumber video dari PDF modul (video rujukan tambahan)."
+          ],
+          "bold": true,
+          "source": "§12 file sumber (Referensi ringkas)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk membuat visual",
+          "text": "Prompt AI untuk membuat visual: gunakan 5 prompt di bawah ini sebagai dasar, tambahkan spesifikasi seperti \"label bahasa Indonesia\", \"gaya textbook modern\", \"akurat secara medis\", \"tanpa teks berlebihan\" untuk hasil optimal.",
+          "answer_evidence": "Best practice AI image generation; modul ini."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "PERDOSSI Stroke Iskemik",
+          "text": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022. — Acuan utama tatalaksana stroke di Indonesia.",
+          "answer_evidence": "PERDOSSI. Pedoman Tatalaksana Stroke Iskemik Akut. 2022."
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Saver 2006 — Time is brain",
+          "text": "Saver JL. Time is brain—quantified. Stroke. 2006. — ~1,9 juta neuron mati per menit pada stroke iskemik tanpa reperfusi.",
+          "answer_evidence": "Saver JL. Time is brain—quantified. Stroke. 2006;37(1):263-266."
+        }
+      ],
+      "visual_refs": [
+        "visual_neuro_nk_anatomi_01",
+        "visual_neuro_nk_h_test_02",
+        "visual_neuro_nk_facial_palsy_03",
+        "visual_neuro_nk_palatum_uvula_04",
+        "visual_neuro_nk_lidah_deviasi_05",
+        "visual_neuro_nk_setup_06",
+        "visual_neuro_nk_prosedur_07",
+        "visual_neuro_nk_posisi_pasien_08"
+      ],
+      "glossary_refs": [
+        "gls_neuro_nk_olfaktorius_01",
+        "gls_neuro_nk_eye_mov_02",
+        "gls_neuro_nk_trigeminus_03",
+        "gls_neuro_nk_fasialis_04",
+        "gls_neuro_nk_vestibulo_05",
+        "gls_neuro_nk_glosso_vagus_06",
+        "gls_neuro_nk_aksesorius_07",
+        "gls_neuro_nk_hipoglosus_08",
+        "gls_neuro_nk_bells_palsy_09",
+        "gls_neuro_nk_code_stroke_10",
+        "gls_neuro_nk_rinne_weber_11",
+        "gls_neuro_nk_refleks_kornea_12",
+        "gls_neuro_nk_gcs_13",
+        "gls_neuro_nk_hiposmia_14"
+      ],
+      "bilingual": "Section s11 memuat 5 visual yang disarankan (dengan prompt AI), 4 lampiran (kontraindikasi, masalah-respons, mini-case, kalimat pembuka), dan 10 referensi primer untuk pendalaman."
+    }
+  ]
+}

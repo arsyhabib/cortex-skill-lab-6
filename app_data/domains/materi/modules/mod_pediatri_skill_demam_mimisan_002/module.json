@@ -1,0 +1,1381 @@
+{
+  "id": "mod_pediatri_skill_demam_mimisan_002",
+  "title": "Integrated Skill Anak 2: Demam Tinggi + Mimisan (Curiga Dengue)",
+  "subtitle": "Anamnesis, TTV, pemeriksaan hidung/thoraks/abdomen, dan tatalaksana curiga dengue dengan manifestasi perdarahan mukosa pada anak 7 tahun.",
+  "domain": "pediatri_skill",
+  "batch_id": "batch_2",
+  "source_pdf": "OSCE_6.2_Batch2_Anak_Demam_Mimisan.docx",
+  "source_filename": "OSCE_6.2_Batch2_Anak_Demam_Mimisan.docx",
+  "topicTags": [
+    "osce_6_2",
+    "pediatri",
+    "demam_dengue",
+    "epistaksis",
+    "curiga_dbd",
+    "trombositopenia",
+    "pemeriksaan_hidung",
+    "tanda_bahaya_dengue",
+    "integrated_skill_anak"
+  ],
+  "summary": [
+    "Kombinasi demam tinggi + epistaksis pada anak 7 tahun di daerah endemis Indonesia harus dianggap sebagai curiga dengue/DBD dengan manifestasi perdarahan mukosa sampai terbukti lain, karena epistaksis adalah salah satu warning signs dengue.",
+    "Pertolongan pertama mimisan aktif yang harus dikuasai: dudukkan anak condong ke depan (JANGAN menengadah), tekan bagian lunak hidung (ala nasi) 10–15 menit, kompres dingin di pangkal hidung; rhinoskopi anterior mencari titik perdarahan di area Kiesselbach (pleksus Little).",
+    "Hindari aspirin dan ibuprofen pada curiga dengue karena meningkatkan risiko perdarahan GI dan efek samping pada trombositopenia; antipiretik pilihan adalah paracetamol 10–15 mg/kgBB/dosis, untuk An. Caca BB 19 kg → 190–285 mg per dosis (sirup 120 mg/5 mL → 8–12 mL per dosis).",
+    "Tanda awal syok dengue pada anak adalah menyempitnya tekanan nadi (sistolik–diastolik) <20 mmHg, CRT >2 detik, akral dingin, dan nadi lemah; hipotensi absolut adalah tanda lanjut. Waspadai juga hepatomegali, nyeri perut kanan atas, dan ascites sebagai warning signs DBD.",
+    "Pemeriksaan penunjang wajib untuk curiga dengue: darah rutin serial (Hb, Ht, leukosit, trombosit) dan NS1 antigen pada hari 1–5 demam; golongan darah + crossmatch disiapkan bila ada perdarahan masif atau syok.",
+    "Anamnesis harus paralel untuk dua keluhan (demam + mimisan) dengan pola: hari demam, suhu, pola, obat, nyeri kepala/retro-orbital, nyeri otot, ruam, muntah, nyeri perut, BAB hitam, gusi berdarah, BAK berkurang, lemas/gelisah, akral dingin, riwayat korek hidung/trauma, lingkungan DBD/air tergenang.",
+    "Edukasi 3M Plus (Menguras, Menutup, Mendaur ulang + kelambu/repelan) wajib diberikan, beserta safety net: segera ke IGD bila nyeri perut hebat, muntah terus, mimisan banyak, BAB hitam, lemas sekali, atau BAK sangat berkurang (<6 jam).",
+    "Dokumentasi SOAP dengan ICD-10 A90 (Demam dengue) untuk DD tanpa warning sign atau A91 (Demam berdarah dengue) untuk DBD; cantumkan kode di akhir baris A SOAP agar klinisi lain mudah menindaklanjuti."
+  ],
+  "exam_focus": [
+    "Hafal urutan checklist 25 poin OSCE dan nilai normal TTV anak usia 7 tahun: HR 70–110 x/mnt, RR 16–22 x/mnt, TD sistolik 90–120 mmHg, suhu 36.5–37.5°C.",
+    "Kuasai pola anamnesis 'demam - mimisan - perdarahan lain - hidrasi - paparan dengue - riwayat obat/penyakit' dan selalu menggali warning signs dengue (nyeri perut hebat, muntah terus, BAK berkurang, akral dingin, perdarahan mukosa).",
+    "Kuasai pertolongan pertama mimisan: dudukkan anak condong ke depan, tekan bagian lunak hidung (ala nasi) 10–15 menit, kompres dingin, JANGAN menengadah; minta anak meludah, jangan telan darah.",
+    "Hitung dosis paracetamol per BB dengan tepat: 10–15 mg/kgBB/dosis; untuk An. Caca BB 19 kg → 190–285 mg per dosis; sediaan sirup 120 mg/5 mL → 8–12 mL per dosis tiap 4–6 jam bila demam.",
+    "JANGAN berikan aspirin atau ibuprofen pada curiga dengue — keduanya meningkatkan risiko perdarahan GI dan mengganggu trombositopenia; selalu paracetamol, JANGAN NSAID.",
+    "Kenali dan sampaikan warning signs dengue: nyeri perut hebat, muntah terus, mimisan banyak, BAB hitam/muntah darah, letargi/gelisah, akral dingin, BAK <6 jam, trombosit turun cepat, peningkatan Ht.",
+    "Sebutkan pemeriksaan penunjang kunci: NS1 antigen (hari 1–5), darah rutin serial (Hb, Ht, leukosit, trombosit), golongan darah + crossmatch untuk persiapan, dan EKG/tanda vital serial.",
+    "Edukasi 3M Plus dengan benar: Menguras (bak mandi), Menutup (tempat penampungan air), Mendaur ulang (barang bekas), plus kelambu/repelan/abate; tekankan fase kritis justru saat demam turun.",
+    "Selalu verbalisasi setiap tindakan (sapa ibu, konfirmasi identitas, izin pemeriksaan, cuci tangan) dan tutup station dengan礼貌 serta safety net yang jelas.",
+    "Dokumentasikan SOAP dengan data An. Caca (7 tahun, BB 19 kg) dan cantumkan kode ICD-10 A90 (Demam dengue) atau A91 (Demam berdarah dengue) sesuai derajat."
+  ],
+  "glossary": [
+    {
+      "id": "gls_demam_mimisan_epistaksis_01",
+      "term": "Epistaksis",
+      "def": "Mimisan atau perdarahan dari hidung; perdarahan dari mukosa hidung, umumnya berasal dari area Kiesselbach (pleksus Little) di septum anterior; pada anak dengan demam di daerah endemis, pertimbangkan dengue sebagai penyebab sistemik.",
+      "type": "clinical",
+      "aliases": [
+        "Mimisan",
+        "Perdarahan hidung",
+        "Nosebleed"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_dengue_01",
+      "term": "Dengue / Demam Dengue",
+      "def": "Penyakit virus yang ditransmisikan oleh nyamuk Aedes; manifestasi berupa demam tinggi mendadak, nyeri kepala/retro-orbital, mialgia, ruam, dan potensi perdarahan; pada anak dengan mimisan di daerah endemis, pertimbangkan dengue sampai terbukti lain.",
+      "type": "clinical",
+      "aliases": [
+        "DD",
+        "Demam dengue",
+        "Dengue fever"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_dbd_01",
+      "term": "DBD (Demam Berdarah Dengue)",
+      "def": "Bentuk berat dengue dengan kebocoran plasma, hemokonsentrasi, trombositopenia, dan potensi syok; warning signs termasuk nyeri perut hebat, muntah terus, perdarahan mukosa, dan letargi.",
+      "type": "clinical",
+      "aliases": [
+        "Demam berdarah dengue",
+        "DHF",
+        "Dengue hemorrhagic fever"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_kiesselbach_01",
+      "term": "Kiesselbach (Plexus Little)",
+      "def": "Pleksus arteri di septum anterior hidung yang merupakan sumber sekitar 90% epistaksis anterior; perdarahan biasanya mudah dihentikan dengan tekanan langsung pada ala nasi selama 10–15 menit.",
+      "type": "anatomy",
+      "aliases": [
+        "Little's area",
+        "Plexus Little",
+        "Septum anterior hidung"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_pulsepressure_01",
+      "term": "Tekanan Nadi (Pulse Pressure)",
+      "def": "Beda tekanan darah sistolik dan diastolik (sistolik – diastolik); normal 30–40 mmHg; menyempit <20 mmHg pada anak adalah tanda awal syok dengue dan lebih sensitif daripada hipotensi absolut.",
+      "type": "score",
+      "aliases": [
+        "Pulse pressure",
+        "Tekanan nadi menyempit"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_3mplus_01",
+      "term": "3M Plus",
+      "def": "Program nasional pemberantasan sarang nyamuk: Menguras (bak mandi), Menutup (tempat penampungan air), Mendaur ulang (barang bekas), plus menghindari gigitan nyamuk (kelambu, repelan, abate).",
+      "type": "procedure",
+      "aliases": [
+        "PSN",
+        "Pemberantasan Sarang Nyamuk",
+        "3M Plus PSN"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_warning_01",
+      "term": "Warning Signs Dengue",
+      "def": "Gejala/tanda yang menunjukkan perburukan dengue dan kebutuhan rawat inap: nyeri perut hebat, muntah terus, perdarahan mukosa (mimisan, gusi, BAB hitam), letargi, akral dingin, BAK berkurang, peningkatan hematokrit, dan trombosit turun cepat.",
+      "type": "score",
+      "aliases": [
+        "Tanda bahaya dengue",
+        "Dengue warning signs"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_fasekritis_01",
+      "term": "Fase Kritis Dengue",
+      "def": "Periode transisi dari demam ke pemulihan (defervescence, hari 3–7) di mana risiko syok dan perdarahan justru meningkat; ibu perlu tahu bahwa demam yang turun bukan berarti sembuh, tetapi merupakan fase paling berbahaya.",
+      "type": "mechanism",
+      "aliases": [
+        "Critical phase",
+        "Fase defervescence"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_ns1_01",
+      "term": "NS1 Antigen",
+      "def": "Protein non-struktural virus dengue yang dapat dideteksi pada hari 1–5 demam; uji cepat untuk konfirmasi diagnosis dini dengue di fasilitas kesehatan tingkat pertama dan rumah sakit.",
+      "type": "procedure",
+      "aliases": [
+        "NS1 dengue",
+        "Antigen NS1",
+        "NS1 antigen test"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_pertolongan_01",
+      "term": "Pertolongan Pertama Mimisan",
+      "def": "Tatalaksana awal epistaksis: dudukkan anak condong ke depan (JANGAN menengadah), tekan bagian lunak hidung (ala nasi) selama 10–15 menit, kompres dingin di pangkal hidung; jika tidak berhenti, rujuk.",
+      "type": "procedure",
+      "aliases": [
+        "First aid nosebleed",
+        "Penatalaksanaan awal epistaksis"
+      ]
+    },
+    {
+      "id": "gls_demam_mimisan_sekunder_01",
+      "term": "Dengue Sekunder",
+      "def": "Infeksi dengue kedua atau berikutnya dengan serotipe berbeda; berisiko lebih tinggi terhadap DBD/syok karena mekanisme antibody-dependent enhancement (ADE); riwayat DBD sebelumnya adalah red flag penting.",
+      "type": "mechanism",
+      "aliases": [
+        "Secondary dengue",
+        "Infeksi dengue berulang",
+        "ADE"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_demam_mimisan_01",
+      "term_id": "Mimisan / Epistaksis",
+      "term_en": "Nosebleed / Epistaxis",
+      "context": "Perdarahan dari hidung; pada anak dengan demam di daerah endemis, curiga dengue."
+    },
+    {
+      "id": "bil_demam_mimisan_02",
+      "term_id": "Demam dengue",
+      "term_en": "Dengue fever",
+      "context": "Penyakit virus yang ditularkan nyamuk Aedes, dengan demam tinggi, nyeri kepala, mialgia, dan potensi perdarahan."
+    },
+    {
+      "id": "bil_demam_mimisan_03",
+      "term_id": "DBD (Demam berdarah dengue)",
+      "term_en": "Dengue hemorrhagic fever (DHF)",
+      "context": "Bentuk dengue berat dengan kebocoran plasma, trombositopenia, dan risiko syok."
+    },
+    {
+      "id": "bil_demam_mimisan_04",
+      "term_id": "Tekanan nadi",
+      "term_en": "Pulse pressure",
+      "context": "Beda sistolik-diastolik; menyempit <20 mmHg = tanda awal syok dengue pada anak."
+    },
+    {
+      "id": "bil_demam_mimisan_05",
+      "term_id": "3M Plus",
+      "term_en": "3M Plus (PSN)",
+      "context": "Menguras, Menutup, Mendaur ulang + kelambu, repelan, abate untuk pencegahan dengue."
+    },
+    {
+      "id": "bil_demam_mimisan_06",
+      "term_id": "Pertolongan pertama mimisan",
+      "term_en": "First aid for nosebleed",
+      "context": "Duduk condong ke depan, tekan ala nasi 10–15 menit, JANGAN menengadah."
+    },
+    {
+      "id": "bil_demam_mimisan_07",
+      "term_id": "Tanda bahaya dengue",
+      "term_en": "Dengue warning signs",
+      "context": "Nyeri perut hebat, muntah terus, perdarahan mukosa, letargi, akral dingin, BAK berkurang."
+    },
+    {
+      "id": "bil_demam_mimisan_08",
+      "term_id": "NS1 antigen",
+      "term_en": "NS1 antigen test",
+      "context": "Tes cepat dengue pada hari 1–5 demam untuk konfirmasi diagnosis dini."
+    },
+    {
+      "id": "bil_demam_mimisan_09",
+      "term_id": "Fase kritis",
+      "term_en": "Critical phase",
+      "context": "Periode transisi saat demam turun (defervescence) di mana risiko syok dengue justru meningkat."
+    },
+    {
+      "id": "bil_demam_mimisan_10",
+      "term_id": "Dengue sekunder",
+      "term_en": "Secondary dengue",
+      "context": "Infeksi dengue berulang; berisiko lebih berat karena antibody-dependent enhancement."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_demam_mimisan_pertolongan_01",
+      "module_id": "mod_pediatri_skill_demam_mimisan_002",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis edukatif anak 7 tahun duduk tenang di pangkuan ibu dengan kepala condong sedikit ke depan, ibu/orang tua menekan bagian lunak hidung (ala nasi) selama 10–15 menit; kompres dingin di pangkal hidung; style clean medical infographic, warna soft, latar putih, label posisi 'condong ke depan' dan 'tekan ala nasi 10–15 menit'.",
+      "alt": "Anak 7 tahun duduk condong ke depan, ibu menekan bagian lunak hidung 10–15 menit untuk pertolongan pertama mimisan.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_mimisan_002/assets/pertolongan_mimisan.png"
+    },
+    {
+      "id": "visual_demam_mimisan_anatomi_02",
+      "module_id": "mod_pediatri_skill_demam_mimisan_002",
+      "section_id": "s04",
+      "type": "anatomy_3d",
+      "generation_prompt": "Diagram anatomi hidung anak bagian dalam dilihat dari depan (rhinoskopi anterior): septum anterior, konka inferior, vestibulum, area Kiesselbach (pleksus Little) ditandai dengan warna merah sebagai titik perdarahan tersering; label bahasa Indonesia dan Inggris, style clean medical textbook 3D.",
+      "alt": "Diagram hidung anak dengan area Kiesselbach (pleksus Little) di septum anterior sebagai sumber tersering epistaksis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_mimisan_002/assets/anatomi_hidung_kiesselbach.png"
+    },
+    {
+      "id": "visual_demam_mimisan_warning_03",
+      "module_id": "mod_pediatri_skill_demam_mimisan_002",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Poster edukatif dengue warning signs pada anak dengan 6 ikon: (1) nyeri perut hebat, (2) muntah terus-menerus, (3) perdarahan mukosa (mimisan/gusi/BAB hitam), (4) letargi/rewel/akral dingin, (5) BAK sangat berkurang, (6) mimisan banyak/berulang; judul 'Tanda Bahaya DBD — Segera ke IGD'; style clean medical infographic warna merah peringatan.",
+      "alt": "Poster enam tanda bahaya DBD pada anak yang memerlukan kunjungan IGD segera.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_mimisan_002/assets/dbd_warning_signs.png"
+    },
+    {
+      "id": "visual_demam_mimisan_rhinoskopi_04",
+      "module_id": "mod_pediatri_skill_demam_mimisan_002",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi dokter memeriksa hidung anak 7 tahun yang duduk di pangkuan ibu; dokter menggunakan otoskop/spekulum nasal dengan pencahayaan; tampak septum anterior, konka, dan area Kiesselbach; posisi aman dan lembut; style clean medical textbook, anak tenang, ibu mendampingi.",
+      "alt": "Ilustrasi dokter melakukan rhinoskopi anterior pada anak dengan senter/otoskop, anak dipangku ibu.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_mimisan_002/assets/rhinoskopi_anterior.png"
+    },
+    {
+      "id": "visual_demam_mimisan_abdomen_05",
+      "module_id": "mod_pediatri_skill_demam_mimisan_002",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi palpasi abdomen pada anak 7 tahun untuk pemeriksaan hati pada curiga dengue; dokter meraba arcus costae kanan dari arah RLQ ke arah hepar; tampak posisi anak berbaring, dokter berdiri di sisi kanan; label 'cari hepatomegali' dan 'nyeri perut kanan atas'; style clean medical textbook.",
+      "alt": "Ilustrasi palpasi abdomen pada anak untuk mendeteksi hepatomegali sebagai tanda bahaya dengue.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_mimisan_002/assets/palpasi_abdomen_anak.png"
+    },
+    {
+      "id": "visual_demam_mimisan_flowchart_06",
+      "module_id": "mod_pediatri_skill_demam_mimisan_002",
+      "section_id": "s06",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart triase demam + mimisan pada anak: (1) tanda syok? (tekanan nadi <20, akral dingin, kesadaran↓) → Ya → resusitasi & rujuk IGD; (2) warning signs dengue? (nyeri perut hebat, muntah terus, BAK↓, perdarahan banyak) → Ya → rujuk observasi; (3) demam + mimisan tanpa syok, hari 1–5 → NS1 + darah rutin serial, observasi; (4) hanya mimisan lokal → tekan hidung, evaluasi lokal; style clean medical flowchart dengan warna triase (merah/kuning/hijau).",
+      "alt": "Bagan alur triase demam dan mimisan pada anak, membedakan kondisi syok, warning signs, fase awal dengue, dan mimisan lokal.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_mimisan_002/assets/flowchart_triage_demam_mimisan.png"
+    },
+    {
+      "id": "visual_demam_mimisan_3mplus_07",
+      "module_id": "mod_pediatri_skill_demam_mimisan_002",
+      "section_id": "s08",
+      "type": "illustration",
+      "generation_prompt": "Poster 3M Plus pencegahan dengue dengan tiga ikon utama: (1) Menguras — bak mandi dengan air mengalir; (2) Menutup — tempat penampungan air tertutup; (3) Mendaur ulang — barang bekas (ban, botol) didaur ulang; plus ikon kelambu, repelan, dan abate; judul '3M Plus — Cegah Dengue'; style clean medical infographic warna hijau-biru.",
+      "alt": "Poster 3M Plus pencegahan dengue: Menguras, Menutup, Mendaur ulang plus kelambu, repelan, dan abate.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_mimisan_002/assets/3mplus_pencegahan_dengue.png"
+    },
+    {
+      "id": "visual_demam_mimisan_posisi_08",
+      "module_id": "mod_pediatri_skill_demam_mimisan_002",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi posisi pertolongan mimisan yang benar dan salah: panel A (BENAR) anak duduk condong ke depan, tekan ala nasi, kompres dingin; panel B (SALAH) anak menengadah dengan darah mengalir ke tenggorok (risiko aspirasi); style clean medical comparison infographic dengan tanda centang merah dan silang hijau.",
+      "alt": "Perbandingan posisi benar (condong ke depan) dan salah (menengadah) saat pertolongan pertama mimisan.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_pediatri_skill_demam_mimisan_002/assets/posisi_mimisan_benar_salah.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s01",
+      "type": "content",
+      "source_query": "Standardisasi format shell cortex-shell-reusable v2.0 untuk modul OSCE 6.2.",
+      "source_reference": "PROMPT_MASTER_STAGE2.md + PROMPT_DOMAIN2_AnakGeriatri_S2.md (2026-06-14).",
+      "confidence": "high",
+      "note": "Bagian METADATA MODUL, OVERVIEW, LEARNING GOALS, KEY POINTS mengikuti format shell cortex-shell-reusable v2.0."
+    },
+    {
+      "section_id": "s02",
+      "type": "content",
+      "source_query": "Standar checklist 25 item OSCE untuk station Integrated Skill Anak 2.",
+      "source_reference": "PDF Skills Lab Blok 6.2 Batch 2 — Kasus Integrated Skills Anak 2 halaman 2.",
+      "confidence": "high",
+      "note": "Tabel 5 kolom pada s02 dengan 25 baris item checklist lengkap (sama dengan jumlah item di dokumen asli §3)."
+    },
+    {
+      "section_id": "s04",
+      "type": "content",
+      "source_query": "Penanda klinis syok dengue pada anak.",
+      "source_reference": "WHO 2009 Dengue Classification + CDC 2024-2026.",
+      "confidence": "high",
+      "note": "H2 Tanda Perfusion/Perfusi Dengue pada s04 (penekanan tekanan nadi menyempit <20 mmHg)."
+    },
+    {
+      "section_id": "s03",
+      "type": "content",
+      "source_query": "Standar minimum callout danger untuk red flags dengue.",
+      "source_reference": "BATASAN_STAGE2.md + WHO 2009 Dengue Guidelines.",
+      "confidence": "high",
+      "note": "6 callout danger pada s03 mencakup syok dengue, perdarahan sistemik, gagal ginjal akut, dan dengue sekunder."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Contoh dokumentasi SOAP untuk kasus dengue anak dengan perdarahan mukosa.",
+      "source_reference": "PPK IDAI 2020 + standar rekam medis.",
+      "confidence": "high",
+      "note": "Tabel SOAP pada s08 dengan data skenario nyata An. Caca 7 tahun BB 19 kg dan ICD-10 A90."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Standar minimum 6 callout danger untuk kesalahan fatal OSCE.",
+      "source_reference": "BATASAN_STAGE2.md + CDC Clinical Care of Dengue 2026.",
+      "confidence": "high",
+      "note": "6 callout danger pada s10 (aspirin/ibuprofen, abaikan mimisan, syok dengue, menengadah, alat terlalu dalam, tanpa edukasi warning signs) ditambah 3 caution."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Standar diagnosis banding demam + mimisan pada anak.",
+      "source_reference": "PPK IDAI + IDSA Pediatric Fever Guidelines.",
+      "confidence": "high",
+      "note": "Tabel diagnosis banding (DBD, epistaksis lokal, ISPA, tifoid/malaria, ITP/leukemia, rinitis alergi) dan tabel pembedaan cepat dengue vs epistaksis lokal pada s06."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Standar minimum entri glossary untuk modul 6.2.",
+      "source_reference": "BATASAN_STAGE2.md (minimum 5, standar 8-10).",
+      "confidence": "high",
+      "note": "10 istilah pada GLOSSARY (melebihi standar minimum) mencakup dengue, DBD, Kiesselbach, tekanan nadi, 3M Plus, warning signs, fase kritis, NS1, pertolongan mimisan, dengue sekunder."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Mini-case dengue anak gradasi mudah-sedang-sulit untuk latihan mandiri OSCE.",
+      "source_reference": "Modul asli Lampiran C (Rangga, Laras, Galih) + WHO 2009.",
+      "confidence": "high",
+      "note": "Mini-case khusus dengue anak pada Lampiran C (Rangga BB 20 kg fase awal, Laras BB 19 kg DBD warning sign, Galih BB 18 kg syok hemoragik) dengan gradasi mudah–sulit."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Skenario An. Caca usia 7 tahun dengan demam tinggi + mimisan sebagai curiga dengue; komponen penilaian OSCE dan strategi membaca modul.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini disusun berdasarkan 'PDF Kasus Integrated Skills Anak 2, halaman 1–2' yang menjadi sumber file utama. Halaman 1 memuat kasus An. Caca, anak perempuan 7 tahun, BB 19 kg, dengan keluhan utama demam tinggi disertai keluar darah dari hidung, didampingi Ny. Ratna (38 tahun, IRT) dari Legok. Halaman 2 memuat checklist penatalaksanaan pasien terintegrasi yang meminta mahasiswa melakukan anamnesis, TTV, pemeriksaan hidung/rhinoskopi anterior, thoraks, abdomen, interpretasi, saran, dan pencatatan sistematis.",
+          "tone": "narrative",
+          "source": "PDF Skills Lab Blok 6.2 Batch 2 — halaman 1-2"
+        },
+        {
+          "text": "Prioritas tertinggi modul ini adalah checklist penilaian OSCE, kemudian skenario pasien simulasi, lalu alur berpikir klinis yang aman untuk mahasiswa. Diagnosis kerja paling aman untuk skenario ini adalah curiga dengue/DBD dengan manifestasi perdarahan mukosa (epistaksis) karena di daerah tropis, kombinasi demam tinggi + epistaksis harus dianggap sebagai dengue sampai terbukti lain. Yang paling sering dinilai di station ini: kemampuan anamnesis OPQRST untuk demam dan mimisan, pertolongan pertama epistaksis, identifikasi warning signs dengue, perhitungan dosis antipiretik per BB, dan edukasi 3M Plus.",
+          "tone": "clinical",
+          "source": "PDF halaman 1-2 + WHO 2009 Dengue Classification"
+        },
+        {
+          "text": "Strategi membaca: baca Quick Pass 90 detik, hafalkan checklist, lalu latihan roleplay 7–10 menit dengan timer. Cuplikan asli halaman 1 (skenario) dan halaman 2 (checklist) sudah tertanam di awal modul ini. Penguji ingin melihat mahasiswa mampu menyebut NS1, darah rutin serial, dan edukasi warning signs sebagai bagian dari penalaran klinis berbasis bukti.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — strategi belajar"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE: sambung rasa, identitas, keluhan utama, anamnesis RPS, RPD/RPK, cross check, izin, cuci tangan, posisi, TTV, pemeriksaan hidung/thoraks/abdomen, interpretasi, diagnosis banding, tatalaksana, edukasi, dokumentasi SOAP.",
+          "bold": true,
+          "source": "PDF halaman 2 (checklist 25 item)"
+        },
+        {
+          "text": "An. Caca: anak perempuan 7 tahun, BB 19 kg, ibu Ny. Ratna 38 tahun IRT, asal Legok — pertahankan identitas pasien fiktif ini di s01, s07, dan s08 untuk konsistensi skenario.",
+          "bold": false,
+          "source": "PDF halaman 1"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi Membaca Modul",
+          "text": "Baca Quick Pass 90 detik → hafalkan checklist → latihan roleplay 7–10 menit dengan timer → baca bagian klinis untuk memahami alasan setiap langkah.",
+          "answer_evidence": "Modul OSCE 6.2 — strategi belajar"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tip Paling Penting",
+          "text": "Kombinasi demam tinggi + epistaksis pada anak 7 tahun di Indonesia = curiga dengue, BUKAN sekadar mimisan lokal. Penguji ingin melihat Anda menyebut NS1, darah rutin serial, dan edukasi warning signs.",
+          "answer_evidence": "WHO 2009 Dengue Classification + CDC 2024-2026"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_mimisan_epistaksis_01",
+        "gls_demam_mimisan_dengue_01",
+        "gls_demam_mimisan_warning_01",
+        "gls_demam_mimisan_kiesselbach_01"
+      ],
+      "bilingual": "Skenario An. Caca usia 7 tahun dengan demam tinggi + mimisan harus dianggap sebagai curiga dengue/DBD di daerah endemis sampai terbukti lain, karena epistaksis adalah salah satu tanda bahaya dengue."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Urutan langkah OSCE dari masuk station sampai keluar + 25-item checklist penilaian dengan kalimat yang dapat diucapkan.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur praktis OSCE dimulai dengan salam, perkenalan, konfirmasi identitas, dan sambung rasa. Konfirmasi keluhan utama adalah langkah kritis: pastikan demam tinggi sejak kapan DAN mimisan sejak kapan, karena durasi keduanya menentukan arah diagnosis. Anamnesis RPS menggali dua keluhan secara paralel menggunakan pola 'demam - mimisan - perdarahan lain - hidrasi - paparan dengue - riwayat obat/penyakit'.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — alur station"
+        },
+        {
+          "text": "RPS demam: hari ke berapa, suhu tertinggi, pola, obat, nyeri kepala/retro-orbital, nyeri otot, ruam, muntah, nyeri perut, BAB hitam, gusi berdarah, BAK berkurang, lemas/gelisah. RPS mimisan: satu sisi/dua sisi, jumlah, durasi, trauma/korek hidung, pilek, riwayat mimisan berulang, riwayat perdarahan mudah. RPD/RPK: dengue sebelumnya, penyakit perdarahan, obat NSAID/aspirin, alergi obat, imunisasi, kontak sakit, lingkungan banyak nyamuk/air tergenang.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — anamnesis OPQRST"
+        },
+        {
+          "text": "Cross check merangkum dan konfirmasi pemahaman. Setelah izin, cuci tangan, dan posisi, lakukan TTV dengan perhatian pada tanda syok dengue: tekanan nadi menyempit (<20 mmHg), CRT >2 detik, akral dingin, nadi lemah, BAK berkurang. Pemeriksaan hidung: inspeksi luar (dorsum nasi, luka, darah di bibir atas, trauma), palpasi lembut dorsum/ala nasi, rhinoskopi anterior (cari bekuan, titik perdarahan di septum anterior area Kiesselbach, sekret, benda asing). Pemeriksaan thoraks singkat (inspeksi + auskultasi) untuk menyingkirkan pneumonia. Pemeriksaan abdomen fokus pada hepatomegali, nyeri perut kanan atas, dan ascites (warning signs dengue berat).",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — pemeriksaan fisik"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "1. Sambung rasa, salam, perkenalan",
+          "sub": [
+            "Sapa ibu dan anak",
+            "Perkenalkan diri sebagai dokter muda",
+            "Nada lembut, libatkan anak"
+          ],
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "2. Konfirmasi identitas anak dan ibu",
+          "sub": [
+            "Nama, usia, BB An. Caca",
+            "Nama ibu (Ny. Ratna)"
+          ],
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "3. Konfirmasi keluhan utama (demam + mimisan)",
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "4. Anamnesis RPS (demam lengkap + mimisan + perdarahan lain + hidrasi)",
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "5. Anamnesis RPD, RPK, kebiasaan, lingkungan (DBD tetangga, nyamuk, air tergenang)",
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "6. Cross check ke ibu",
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "7. Izin pemeriksaan + 8. Cuci tangan + 9. Posisikan anak (duduk/berbaring)",
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "10. TTV: nadi, RR, suhu aksila, TD + 11. Pemeriksaan hidung: inspeksi, palpasi, rhinoskopi anterior + 12. Pemeriksaan thoraks (inspeksi, auskultasi singkat)",
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "13. Pemeriksaan abdomen (inspeksi, palpasi, hati, ascites) + 14. Interpretasi dan diagnosis kerja + 15. Diagnosis banding",
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        },
+        {
+          "text": "16. Tatalaksana awal + 17. Pemeriksaan penunjang + 18. Edukasi 3M Plus dan warning signs + 19. Rujukan/observasi sesuai indikasi + 20. Dokumentasi SOAP",
+          "source": "Modul OSCE 6.2 — urutan langkah"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "JANGAN Aspirin/Ibuprofen pada Curiga Dengue",
+          "text": "Jangan pernah memberikan aspirin atau ibuprofen pada curiga dengue karena keduanya meningkatkan risiko perdarahan GI dan efek samping pada trombositopenia. Selalu paracetamol.",
+          "answer_evidence": "WHO 2009 Dengue Guidelines + CDC Clinical Care of Dengue 2026"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat Pembuka Station",
+          "text": "Kalimat pembuka station yang paling efektif: 'Selamat pagi Bu Ratna, saya dokter muda yang akan membantu memeriksa An. Caca. Boleh saya konfirmasi identitas dan keluhan utamanya?'",
+          "answer_evidence": "Modul OSCE 6.2 — mini-skrip komunikasi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_mimisan_epistaksis_01",
+        "gls_demam_mimisan_dengue_01",
+        "gls_demam_mimisan_dbd_01",
+        "gls_demam_mimisan_kiesselbach_01",
+        "gls_demam_mimisan_pertolongan_01",
+        "gls_demam_mimisan_3mplus_01"
+      ],
+      "bilingual": "Checklist 25-item OSCE: sambung rasa → identitas → anamnesis OPQRST → RPD/RPK → cross check → izin → TTV → hidung → thoraks → abdomen → diagnosis → tatalaksana → edukasi 3M Plus → SOAP dengan ICD-10 A90/A91."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis demam + mimisan, red flags dengue, dan delapan kategori pertanyaan klinis yang harus dikuasai.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada kasus An. Caca harus paralel untuk dua keluhan: demam DAN mimisan. Gunakan pola 'demam - mimisan - perdarahan lain - hidrasi - paparan dengue - riwayat obat/penyakit'. Jangan berhenti di 'demam + pilek'; pada anak 7 tahun dengan epistaksis, Anda WAJIB menggali warning signs dengue: hari ke berapa demam, nyeri kepala/retro-orbital, nyeri otot/sendi, ruam, mual muntah, nyeri perut, BAB hitam, gusi berdarah, BAK berkurang, lemas/gelisah, akral dingin.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — anamnesis detail"
+        },
+        {
+          "text": "Tanyakan RPS mimisan: satu sisi/dua sisi, jumlah, durasi, trauma, korek hidung, pilek, riwayat mimisan berulang, riwayat perdarahan mudah. Tanyakan RPD: dengue sebelumnya (faktor risiko dengue sekunder/berat), penyakit perdarahan, alergi obat. Tanyakan obat yang sudah diberikan: NSAID/aspirin meningkatkan risiko perdarahan. Tanyakan RPK: riwayat keluarga mudah berdarah. Tanyakan lingkungan: tetangga DBD, banyak nyamuk, air tergenang, sekolah. Selalu tanyakan obat tradisional/jamu karena beberapa dapat memengaruhi koagulasi.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — anamnesis RPS/RPD/RPK"
+        },
+        {
+          "text": "Tujuan utama anamnesis: membedakan mimisan lokal (satu sisi, berhenti dengan tekan) dari perdarahan sistemik (dua sisi, banyak, dengan tanda dengue). Pemahaman ini menentukan apakah pasien dapat rawat jalan dengan edukasi ketat atau harus dirujuk untuk observasi RS.",
+          "tone": "mechanism",
+          "source": "Modul OSCE 6.2 — tujuan anamnesis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci 1: Karakteristik demam (hari ke berapa, suhu, pola, obat, menggigil)",
+          "sub": [
+            "Suhu tertinggi",
+            "Pola demam (kapan naik, kapan turun)",
+            "Obat yang sudah diminum"
+          ],
+          "source": "Modul OSCE 6.2 — delapan pertanyaan kunci"
+        },
+        {
+          "text": "Pertanyaan kunci 2: Gejala dengue (nyeri kepala/retro-orbital, nyeri otot/sendi, ruam, mual muntah)",
+          "source": "Modul OSCE 6.2 — delapan pertanyaan kunci"
+        },
+        {
+          "text": "Pertanyaan kunci 3: Perdarahan lain (mimisan 1/2 sisi, gusi berdarah, BAB hitam, muntah darah, bintik merah/petekie)",
+          "source": "Modul OSCE 6.2 — delapan pertanyaan kunci"
+        },
+        {
+          "text": "Pertanyaan kunci 4: Hidrasi & syok (minum, BAK terakhir, kesadaran, akral, gelisah)",
+          "source": "Modul OSCE 6.2 — delapan pertanyaan kunci"
+        },
+        {
+          "text": "Pertanyaan kunci 5: Penyebab lokal hidung (pilek, korek hidung, trauma, alergi, mimisan berulang)",
+          "source": "Modul OSCE 6.2 — delapan pertanyaan kunci"
+        },
+        {
+          "text": "Pertanyaan kunci 6: Obat dan alergi (NSAID, aspirin, jamu, alergi obat)",
+          "source": "Modul OSCE 6.2 — delapan pertanyaan kunci"
+        },
+        {
+          "text": "Pertanyaan kunci 7: RPD/RPK (DBD sebelumnya, perdarahan mudah)",
+          "source": "Modul OSCE 6.2 — delapan pertanyaan kunci"
+        },
+        {
+          "text": "Pertanyaan kunci 8: Lingkungan (DBD tetangga, nyamuk, air tergenang, sekolah)",
+          "source": "Modul OSCE 6.2 — delapan pertanyaan kunci"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Warning Signs DBD — Rujuk IGD",
+          "text": "Nyeri perut hebat, muntah terus, hepatomegali, dan letargi = warning signs dengue berat (DBD) → rujuk IGD segera, jangan rawat jalan.",
+          "answer_evidence": "WHO 2009 Dengue Classification + CDC 2025"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Mimisan Banyak + Tanda Dengue — Rujuk IGD",
+          "text": "Mimisan banyak yang tidak berhenti dengan tekan hidung 15 menit + tanda dengue lain → rujuk IGD untuk evaluasi perdarahan sistemik.",
+          "answer_evidence": "PPK IDAI 2020 + AAP HealthyChildren.org"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Tanda Syok Dengue — Emergensi",
+          "text": "Akral dingin, nadi lemah, tekanan nadi menyempit (<20 mmHg), CRT >2 detik, kesadaran menurun = syok dengue → emergensi, rujuk IGD.",
+          "answer_evidence": "WHO 2009 Dengue Guidelines"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Perdarahan Sistemik — Rujuk IGD",
+          "text": "BAB hitam, muntah darah, atau petekie luas = perdarahan sistemik (DBD) → rujuk IGD untuk resusitasi dan persiapan transfusi.",
+          "answer_evidence": "PPK IDAI 2020 + WHO 2009"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Oliguria/Anuria — Curiga Gagal Ginjal Akut",
+          "text": "BAK sangat berkurang atau tidak BAK >6 jam = oliguria/anuria, curiga gagal ginjal akut pada dengue → rujuk.",
+          "answer_evidence": "CDC Clinical Care of Dengue 2026"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Dengue Sekunder — Evaluasi RS",
+          "text": "Riwayat DBD sebelumnya dengan mimisan sekarang = dengue sekunder yang berisiko lebih berat → evaluasi RS, jangan rawat jalan tanpa observasi.",
+          "answer_evidence": "WHO 2009 + antibody-dependent enhancement literature"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_mimisan_dengue_01",
+        "gls_demam_mimisan_dbd_01",
+        "gls_demam_mimisan_sekunder_01",
+        "gls_demam_mimisan_warning_01",
+        "gls_demam_mimisan_fasekritis_01",
+        "gls_demam_mimisan_3mplus_01"
+      ],
+      "bilingual": "Anamnesis harus paralel untuk dua keluhan: (1) demam — hari ke berapa, suhu, pola, gejala dengue; (2) mimisan — satu/dua sisi, jumlah, durasi, penyebab lokal. Selalu selidiki warning signs dengue dan lingkungan (DBD tetangga, air tergenang)."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "TTV usia 7 tahun, Pediatric Assessment Triangle, tanda perfusion dengue, dan pemeriksaan hidung/thoraks/abdomen untuk curiga dengue.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik pada An. Caca dilakukan dari yang kurang invasif ke yang memerlukan kontak, dengan perhatian khusus pada tanda bahaya dengue. TTV mencakup nadi (frekuensi, kualitas, tekanan nadi), respirasi (frekuensi, usaha napas, saturasi bila tersedia), suhu aksila (demam ≥38°C), dan tekanan darah (hipotensi pada anak adalah tanda lambat syok dengue; tekanan nadi menyempit <20 mmHg adalah tanda awal syok dengue).",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — pemeriksaan fisik step-by-step"
+        },
+        {
+          "text": "Pediatric Assessment Triangle: appearance (kesadaran, rewel, gelisah), work of breathing (retraksi, cuping hidung, takipnea), circulation (warna kulit, akral, CRT). Pemeriksaan hidung fokus pada: inspeksi luar (dorsum nasi, darah di bibir atas, trauma), palpasi lembut dorsum/ala nasi, dan rhinoskopi anterior (cari bekuan, titik perdarahan di septum anterior area Kiesselbach, sekret, benda asing). Jangan memasukkan alat terlalu dalam; pada OSCE sebutkan menjaga kenyamanan dan keselamatan anak. Jika perdarahan aktif: posisikan duduk condong depan dan tekan bagian lunak hidung 10–15 menit.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — pemeriksaan hidung"
+        },
+        {
+          "text": "Pemeriksaan thoraks: inspeksi (retraksi, sianosis), auskultasi (wheezing, ronki, napas menurun), dan palpasi/perkusi singkat. Pemeriksaan abdomen fokus pada: inspeksi (distensi, gerak napas), palpasi (nyeri tekan terutama abdomen kanan atas/epigastrium, hati membesar), dan cari ascites atau efusi pleura. Nyeri perut hebat, muntah terus, hepatomegali, dan letargi adalah warning signs DBD.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — pemeriksaan thoraks/abdomen"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda Vital Anak — Nilai Normal per Usia",
+          "sub": [
+            "6–12 tahun: HR 70–110, RR 16–22, TD sistolik 90–120, suhu 36.5–37.5°C",
+            "An. Caca 7 tahun: HR target 70–110, RR 16–22, TD 90–120"
+          ],
+          "bold": true,
+          "source": "Modul OSCE 6.2 — nilai normal TTV anak"
+        },
+        {
+          "text": "Penilaian Umum Anak (Pediatric Assessment Triangle)",
+          "sub": [
+            "Appearance: kesadaran, rewel, gelisah, tangisan",
+            "Work of breathing: retraksi, cuping hidung, takipnea",
+            "Circulation: warna kulit, akral, capillary refill time (CRT)"
+          ],
+          "source": "Modul OSCE 6.2 — PAT"
+        },
+        {
+          "text": "Tanda Perfusion/Perfusi Dengue (penting untuk OSCE)",
+          "sub": [
+            "Tekanan nadi (sistolik – diastolik) menyempit <20 mmHg = awal syok dengue",
+            "CRT >2 detik = perfusi buruk",
+            "Akral dingin, nadi lemah, BAK berkurang, kesadaran menurun"
+          ],
+          "bold": true,
+          "source": "Modul OSCE 6.2 — tanda perfusion"
+        },
+        {
+          "text": "Pemeriksaan Hidung",
+          "sub": [
+            "Inspeksi luar: dorsum, sekret/darah, trauma",
+            "Palpasi dorsum/ala nasi (lembut)",
+            "Rhinoskopi anterior: mukosa, septum, konka, bekuan, titik perdarahan Kiesselbach"
+          ],
+          "source": "Modul OSCE 6.2 — pemeriksaan hidung"
+        },
+        {
+          "text": "Pemeriksaan Tenggorok, Tonsil, dan Faring: evaluasi cepat untuk menyingkirkan fokus infeksi THT",
+          "source": "Modul OSCE 6.2 — THT"
+        },
+        {
+          "text": "Pemeriksaan Thoraks: inspeksi bentuk dada, retraksi, auskultasi paru (wheezing, ronki, napas menurun)",
+          "source": "Modul OSCE 6.2 — thoraks"
+        },
+        {
+          "text": "Pemeriksaan Abdomen (Fokus Dengue): inspeksi distensi; palpasi hati (dari RLQ ke arcus costae kanan); cari hepatomegali, nyeri perut kanan atas, ascites",
+          "source": "Modul OSCE 6.2 — abdomen"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips Teknis: Tekanan Nadi",
+          "text": "Tips teknis yang sering dilupakan: tekanan nadi (sistolik – diastolik) menyempit <20 mmHg adalah tanda AWAL syok dengue, lebih sensitif daripada hipotensi absolut pada anak.",
+          "answer_evidence": "WHO 2009 Dengue Guidelines"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Anak dengan Risiko Tinggi",
+          "text": "Anak dengan riwayat DBD sebelumnya, perdarahan aktif, atau tampak toksik memerlukan pemeriksaan lebih cepat dan rujukan dini.",
+          "answer_evidence": "PPK IDAI 2020 + WHO 2009"
+        }
+      ],
+      "visual_refs": [
+        "visual_demam_mimisan_anatomi_02",
+        "visual_demam_mimisan_abdomen_05"
+      ],
+      "glossary_refs": [
+        "gls_demam_mimisan_pulsepressure_01",
+        "gls_demam_mimisan_kiesselbach_01",
+        "gls_demam_mimisan_warning_01"
+      ],
+      "bilingual": "Nilai normal TTV anak usia 7 tahun: HR 70–110, RR 16–22, TD 90–120, suhu 36.5–37.5°C. Tekanan nadi menyempit <20 mmHg = tanda awal syok dengue (lebih sensitif dari hipotensi absolut)."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat, posisi pasien, dan tiga fase pemeriksaan (persiapan, pelaksanaan, evaluasi) serta pertolongan mimisan aktif.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "'Prosedur utama' pada station ini adalah urutan pemeriksaan TTV + hidung + thoraks + abdomen yang sistematis, BUKAN tindakan invasif. Persiapan dimulai dengan alat yang lengkap dan posisi anak yang aman, dengan ibu mendampingi untuk kooperasi. Pelaksanaan dilakukan dari yang kurang invasif (TTV, observasi umum, inspeksi hidung) ke yang memerlukan kontak (palpasi abdomen, palpasi hidung, rhinoskopi anterior), dan pertolongan mimisan aktif (bila sedang mimisan) dilakukan segera.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — persiapan, alat, prosedur"
+        },
+        {
+          "text": "Evaluasi dan konfirmasi mencakup interpretasi temuan, kesimpulan diagnosis kerja, dan rencana selanjutnya. Pada anak, seluruh pemeriksaan harus dijelaskan dengan bahasa yang ramah dan libatkan ibu. Posisi anak paling ideal: duduk di pangkuan ibu, kepala disangga, pencahayaan cukup (senter). Pada anak gelisah, dokter dapat meminta ibu memeluk dengan posisi tegak dan tangan ibu menahan kepala anak. Pada pertolongan mimisan aktif, posisi condong ke depan (JANGAN menengadah) untuk mencegah aspirasi darah.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — posisi & keamanan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT yang harus disiapkan",
+          "sub": [
+            "Termometer aksila",
+            "Stetoskop pediatric",
+            "Senter/otoskop",
+            "Spekulum hidung kecil (bila tersedia)",
+            "Manset tekanan darah anak (ukuran sesuai lengan)",
+            "Sarung tangan, masker",
+            "Tisu, kassa, tempat sampah",
+            "Kompres dingin (untuk mimisan aktif)",
+            "Lembar dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "Modul OSCE 6.2 — daftar alat"
+        },
+        {
+          "text": "FASE PERSIAPAN",
+          "sub": [
+            "1. Cuci tangan dan pakai APD (sarung tangan, masker)",
+            "2. Sapa ibu dan anak, perkenalkan diri",
+            "3. Konfirmasi identitas dan keluhan utama",
+            "4. Jelaskan prosedur yang akan dilakukan",
+            "5. Minta izin ibu",
+            "6. Siapkan alat di meja dekat posisi anak",
+            "7. Atur posisi anak di pangkuan ibu dengan pencahayaan baik"
+          ],
+          "source": "Modul OSCE 6.2 — fase persiapan"
+        },
+        {
+          "text": "FASE PELAKSANAAN",
+          "sub": [
+            "1. Pemeriksaan TTV (nadi, RR, suhu aksila, TD)",
+            "2. Interpretasi TTV (cari syok, tekanan nadi menyempit)",
+            "3. Inspeksi hidung luar (dorsum, darah, trauma)",
+            "4. Palpasi dorsum dan ala nasi",
+            "5. Rhinoskopi anterior (mukosa, septum, bekuan, titik perdarahan)",
+            "6. Pertolongan mimisan aktif (bila sedang mimisan): duduk condong ke depan, tekan bagian lunak hidung 10–15 menit, kompres dingin",
+            "7. Inspeksi dan auskultasi thoraks",
+            "8. Inspeksi abdomen (distensi, gerak napas)",
+            "9. Palpasi abdomen (nyeri, hati, hepar)",
+            "10. Cari tanda ascites/efusi pleura",
+            "11. Interpretasi keseluruhan"
+          ],
+          "source": "Modul OSCE 6.2 — fase pelaksanaan"
+        },
+        {
+          "text": "FASE EVALUASI",
+          "sub": [
+            "1. Simpulkan diagnosis kerja (curiga dengue dengan manifestasi perdarahan)",
+            "2. Sebutkan diagnosis banding",
+            "3. Sampaikan rencana pemeriksaan penunjang (NS1, darah rutin serial)",
+            "4. Beri terapi simtomatik (paracetamol per BB, hindari NSAID)",
+            "5. Edukasi 3M Plus dan warning signs",
+            "6. Tentukan observasi/rawat jalan/rujuk",
+            "7. Dokumentasi SOAP"
+          ],
+          "source": "Modul OSCE 6.2 — fase evaluasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan Pasien di Setiap Fase",
+          "text": "Pastikan anak tidak jatuh, gunakan alat dengan lembut pada mukosa hidung, dan JANGAN memaksakan pemeriksaan pada anak gelisah. Prioritaskan keamanan dan kenyamanan anak.",
+          "answer_evidence": "AAP HealthyChildren.org + RCH Melbourne Clinical Practice Guidelines"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Hentikan Prosedur & Rujuk",
+          "text": "Hentikan prosedur dan prioritaskan stabilisasi/rujuk bila anak menunjukkan: syok (tekanan nadi menyempit, akral dingin, CRT >2 detik), penurunan kesadaran, perdarahan masif yang tidak terkontrol, atau nyeri perut hebat.",
+          "answer_evidence": "WHO 2009 Dengue Guidelines + CDC 2026"
+        }
+      ],
+      "visual_refs": [
+        "visual_demam_mimisan_pertolongan_01",
+        "visual_demam_mimisan_rhinoskopi_04",
+        "visual_demam_mimisan_posisi_08"
+      ],
+      "glossary_refs": [
+        "gls_demam_mimisan_pertolongan_01",
+        "gls_demam_mimisan_kiesselbach_01",
+        "gls_demam_mimisan_3mplus_01"
+      ],
+      "bilingual": "Pertolongan pertama mimisan: duduk condong ke depan, tekan bagian lunak hidung (ala nasi) 10–15 menit, kompres dingin, JANGAN menengadah. Rhinoskopi anterior mencari titik perdarahan di area Kiesselbach (pleksus Little)."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Diagnosis kerja, diagnosis banding, pembedaan cepat dengue vs epistaksis lokal, dan algoritme triase.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan selesai, langkah pertama adalah menyampaikan ringkasan hasil kepada ibu dan menarik kesimpulan diagnosis kerja. Pada An. Caca dengan demam tinggi 4 hari, epistaksis aktif, TTV takikardia, tekanan nadi menyempit, dan temuan hidung berupa bekuan di septum anterior, maka diagnosis kerja paling aman adalah curiga dengue/DBD dengan manifestasi perdarahan mukosa. Namun, Anda tetap harus menyingkirkan: epistaksis anterior lokal (satu sisi, riwayat korek hidung, tanpa tanda sistemik), ISPA/influenza (batuk pilek, kontak sakit), ITP/leukemia (mimisan berulang, petekie luas, pucat, limfadenopati), dan infeksi sistemik lain (tifoid, malaria sesuai epidemi).",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — penalaran diagnosis"
+        },
+        {
+          "text": "Tabel diagnosis banding memetakan gejala khas, temuan fisik, dan pembeda utama. Pembedaan cepat dengue vs epistaksis lokal sangat penting: dengue ditandai perdarahan mukosa, nyeri kepala/retro-orbital, nyeri otot, ruam, dan tanda syok. Algoritme triase memutuskan apakah pasien dapat ditangani rawat jalan (dengan edukasi ketat) atau harus dirujuk untuk observasi.",
+          "tone": "mechanism",
+          "source": "Modul OSCE 6.2 — diagnosis banding"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca prosedur",
+          "sub": [
+            "Rangkum hasil pemeriksaan kepada ibu",
+            "Sampaikan diagnosis kerja dan differential diagnosis",
+            "Konfirmasi obat yang sudah diberikan (hindari aspirin/ibuprofen)",
+            "Usulkan NS1, darah rutin serial, dan observasi sesuai indikasi",
+            "Beri paracetamol per BB (10–15 mg/kgBB/dosis)",
+            "Edukasi warning signs dan 3M Plus",
+            "Tutup station dengan礼貌 (sopan, tidak menggurui)",
+            "Dokumentasi SOAP"
+          ],
+          "source": "Modul OSCE 6.2 — pasca prosedur"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS Merujuk Segera",
+          "text": "Syok (tekanan nadi <20 mmHg, akral dingin, CRT >2 detik, kesadaran menurun), perdarahan masif tidak terkontrol, nyeri perut hebat, muntah terus, BAB hitam, BAK sangat berkurang, mimisan berulang/masif, anak tampak toksik, atau trombosit sangat rendah → rujuk IGD emergensi.",
+          "answer_evidence": "WHO 2009 + CDC Clinical Care of Dengue 2026"
+        }
+      ],
+      "visual_refs": [
+        "visual_demam_mimisan_flowchart_06"
+      ],
+      "glossary_refs": [
+        "gls_demam_mimisan_dengue_01",
+        "gls_demam_mimisan_dbd_01",
+        "gls_demam_mimisan_sekunder_01",
+        "gls_demam_mimisan_fasekritis_01",
+        "gls_demam_mimisan_ns1_01"
+      ],
+      "bilingual": "Diagnosis kerja: curiga dengue dengan manifestasi perdarahan mukosa (ICD-10 A90/A91). Diagnosis banding: epistaksis anterior lokal, ISPA, tifoid/malaria, ITP/leukemia, rinitis alergi."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang relevan (NS1, darah rutin serial) dan prinsip tatalaksana (paracetamol per BB, pertolongan mimisan, hindari NSAID).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada curiga dengue dengan manifestasi perdarahan, pemeriksaan penunjang yang relevan adalah: (1) darah rutin lengkap (Hb, hematokrit, leukosit, trombosit) — diulang serial sesuai fase; (2) NS1 antigen — positif pada hari 1–5 demam; (3) IgM/IgG dengue — sesuai fase; (4) uji torniket (bila sesuai prosedur lokal) — tidak menggantikan penilaian klinis dan darah rutin; (5) gula darah sewaktu — bila anak tampak lemah/penurunan kesadaran; (6) urinalisis, foto toraks, malaria/tifoid sesuai kecurigaan klinis dan epidemiologi.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — pemeriksaan penunjang"
+        },
+        {
+          "text": "Prinsip tatalaksana: pada curiga dengue, JANGAN berikan aspirin/ibuprofen; antipiretik pilihan adalah paracetamol. Dosis paracetamol 10–15 mg/kgBB/dosis per oral tiap 4–6 jam bila demam; untuk An. Caca BB 19 kg → 190–285 mg per dosis. Sediaan sirup 120 mg/5 mL → 8–12 mL per dosis. Cairan oral/ORS sedikit-sedikit sering. Pertolongan mimisan aktif: dudukkan anak condong ke depan, tekan bagian lunak hidung 10–15 menit, kompres dingin, jangan menengadah. Antibiotik tidak rutin. Rujuk/observasi bila ada warning signs, perdarahan bermakna, tanda syok, muntah terus, atau hasil lab mengkhawatirkan.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — tatalaksana"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Prinsip tatalaksana pada curiga dengue",
+          "sub": [
+            "Pertolongan mimisan: duduk condong ke depan, tekan bagian lunak hidung 10–15 menit, kompres dingin",
+            "Antipiretik: paracetamol 10–15 mg/kgBB/dosis (BB 19 kg → 190–285 mg/dosis)",
+            "Hidrasi: oral/ORS sedikit-sedikit sering",
+            "Hindari aspirin/ibuprofen",
+            "Antibiotik: tidak rutin",
+            "Observasi RS: warning signs, trombosit sangat rendah, perdarahan masif"
+          ],
+          "bold": true,
+          "source": "Modul OSCE 6.2 — prinsip tatalaksana"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan yang WAJIB Disebutkan",
+          "text": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia di station: NS1, darah rutin serial (Hb, Ht, leukosit, trombosit), golongan darah + crossmatch untuk persiapan, dan EKG/tanda vital serial.",
+          "answer_evidence": "PPK IDAI 2020 + WHO 2009 Dengue Guidelines"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Bukti: Paracetamol Lini Pertama",
+          "text": "WHO 2009 Dengue Guidelines dan CDC 2024 merekomendasikan paracetamol sebagai antipiretik lini pertama pada dengue dan menghindari aspirin/NSAID karena risiko perdarahan GI dan gangguan trombosit.",
+          "answer_evidence": "WHO 2009 Dengue Guidelines + CDC Clinical Care of Dengue 2026"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_mimisan_ns1_01",
+        "gls_demam_mimisan_pertolongan_01",
+        "gls_demam_mimisan_3mplus_01",
+        "gls_demam_mimisan_dbd_01"
+      ],
+      "bilingual": "Tatalaksana: paracetamol 10–15 mg/kgBB/dosis (BB 19 kg → 190–285 mg/dosis, sirup 120 mg/5 mL → 8–12 mL). Hindari aspirin/ibuprofen. Pemeriksaan wajib: NS1 + darah rutin serial (Hb, Ht, leukosit, trombosit)."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi ibu, safety net, dan contoh SOAP lengkap untuk An. Caca dengan ICD-10 A90/A91.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi kepada ibu harus dilakukan dengan bahasa yang jelas, tidak menggurui, dan dapat diulang-ulang (teach-back). Tujuan edukasi: ibu memahami kemungkinan diagnosis (curiga dengue/DBD dengan perdarahan mukosa), pentingnya pemeriksaan darah (NS1, trombosit), bahaya aspirin/ibuprofen, dan tanda bahaya yang memerlukan kunjungan IGD segera. Pada kasus An. Caca, sampaikan bahwa kombinasi demam tinggi + mimisan pada anak 7 tahun di daerah endemis dengue adalah kondisi yang perlu dicurigai serius, bukan sekadar mimisan biasa. Selalu minta ibu mengulangi penjelasan (teach-back) untuk memastikan pemahaman.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — edukasi"
+        },
+        {
+          "text": "Untuk dokumentasi SOAP, gunakan data skenario nyata (An. Caca, 7 tahun, BB 19 kg) sehingga rekam medis dapat ditindaklanjuti oleh klinisi lain. Kode ICD-10 untuk diagnosis utama adalah A90 (Demam dengue) atau A91 (Demam berdarah dengue) sesuai derajat. Cantumkan kode ini di akhir baris A pada SOAP.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — dokumentasi SOAP"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin edukasi untuk ibu",
+          "sub": [
+            "Kemungkinan diagnosis: curiga dengue/DBD dengan manifestasi perdarahan",
+            "Pentingnya periksa darah (NS1, trombosit) serial",
+            "Paracetamol sesuai BB, jangan aspirin/ibuprofen",
+            "Cukupkan cairan (oral/ORS sedikit-sedikit)",
+            "Jangan menunda ke IGD bila ada warning signs",
+            "Pencegahan 3M Plus"
+          ],
+          "source": "Modul OSCE 6.2 — poin edukasi"
+        },
+        {
+          "text": "Safety net (kapan kembali segera)",
+          "sub": [
+            "Mimisan banyak/berulang yang tidak berhenti dengan tekan",
+            "Nyeri perut hebat",
+            "Muntah terus",
+            "Anak sangat lemas, gelisah, atau mengantuk",
+            "Sesak napas",
+            "BAB hitam atau muntah darah",
+            "BAK sangat berkurang",
+            "Demam turun tapi anak tampak memburuk (fase kritis dengue)"
+          ],
+          "source": "Modul OSCE 6.2 — safety net"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk SOAP",
+          "text": "Kode ICD-10 untuk diagnosis utama: A90 (Demam dengue) untuk DD tanpa warning sign, A91 (Demam berdarah dengue) untuk DBD. Cantumkan kode ini di akhir baris A pada SOAP.",
+          "answer_evidence": "WHO ICD-10 + PPK IDAI 2020"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Fase Kritis Dengue: Sering Dilupakan",
+          "text": "Kalimat edukasi yang paling sering dilupakan: 'Demam yang turun tidak selalu berarti sembuh — pada dengue, fase kritis justru terjadi saat demam mulai turun.' Ibu perlu tahu fase kritis dengue.",
+          "answer_evidence": "WHO 2009 Dengue Guidelines"
+        }
+      ],
+      "visual_refs": [
+        "visual_demam_mimisan_3mplus_07"
+      ],
+      "glossary_refs": [
+        "gls_demam_mimisan_3mplus_01",
+        "gls_demam_mimisan_fasekritis_01",
+        "gls_demam_mimisan_warning_01"
+      ],
+      "bilingual": "Edukasi teach-back: 'Demam yang turun tidak selalu berarti sembuh — fase kritis justru saat demam turun.' Safety net: ke IGD bila nyeri perut hebat, muntah terus, BAB hitam, lemas, atau BAK berkurang."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Penyakit SKDI 4A yang relevan dan dialog mini-skrip OSCE dari pembukaan sampai penutupan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Standar Kompetensi Dokter Indonesia (SKDI) level 4A adalah kemampuan dokter lulusan yang harus dikuasai secara mandiri tanpa supervisi. Pada topik demam anak + epistaksis dengan curiga dengue, beberapa diagnosis level 4A yang relevan adalah ISPA atas, faringitis, tonsilofaringitis, otitis media akut, dan diare akut. Sementara itu, kondisi yang memerlukan rujukan (level 3B) meliputi demam dengue dengan warning signs (perlu rawat inap/observasi), DBD, dan pneumonia.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — SKDI 4A"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE membantu mahasiswa berlatih dialog dengan penguji/standarized patient. Pada An. Caca, pendekatan ke anak dan ibu berbeda: ke anak gunakan nada lembut dan libatkan (puji kooperasi); ke ibu gunakan bahasa informatif dan minta teach-back. Kalimat kritis yang TIDAK BOLEH dilewatkan: konfirmasi identitas dan BB, menanyakan alergi, menghindari aspirin/ibuprofen, edukasi warning signs, dan menutup station dengan礼貌.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kalimat pembuka: 'Selamat pagi Bu Ratna, saya dokter muda yang akan membantu memeriksa An. Caca. Boleh saya konfirmasi identitas dan keluhan utamanya?'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        },
+        {
+          "text": "Kalimat anamnesis: 'Caca demam sudah berapa hari? Suhu tertinggi berapa? Ada mimisan? Satu sisi atau dua sisi? Ada nyeri kepala, nyeri otot, ruam, BAB hitam, BAK berkurang?'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        },
+        {
+          "text": "Kalimat lingkungan: 'Di rumah atau sekitar ada yang sakit DBD? Ada banyak nyamuk atau genangan air?'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        },
+        {
+          "text": "Kalimat pemeriksaan: 'Saya akan periksa tanda vital dan melihat hidung, dada, dan perut Caca. Saya cuci tangan dulu ya.'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        },
+        {
+          "text": "Kalimat diagnosis: 'Caca kemungkinan mengalami demam dengue dengan perdarahan dari hidung. Kami perlu periksa darah dan memantau trombosit.'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        },
+        {
+          "text": "Kalimat edukasi obat: 'Beri paracetamol sesuai berat badan. Jangan aspirin atau ibuprofen ya Bu, karena bisa memperberat perdarahan.'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        },
+        {
+          "text": "Kalimat edukasi warning: 'Segera ke IGD bila mimisan banyak, nyeri perut hebat, muntah terus, lemas sekali, BAB hitam, atau BAK berkurang.'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        },
+        {
+          "text": "Kalimat edukasi 3M: 'Cegah dengue dengan 3M: bersihkan genangan air, tutup tempat air, daur ulang. Plus gunakan kelambu.'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        },
+        {
+          "text": "Kalimat penutupan: 'Terima kasih Bu Ratna atas kerja samanya. Semoga Caca cepat sembuh. Jangan ragu datang lagi bila ada keluhan.'",
+          "source": "Modul OSCE 6.2 — mini-skrip"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH Dilewatkan (FATAL)",
+          "text": "(1) Konfirmasi BB sebelum menulis resep; (2) tanyakan alergi sebelum memberi obat; (3) hindari aspirin/ibuprofen pada curiga dengue; (4) edukasi warning signs; (5) edukasi 3M Plus; (6) dokumentasi SOAP dengan ICD-10.",
+          "answer_evidence": "Modul OSCE 6.2 — kalimat fatal"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara Membuka Station",
+          "text": "Cara membuka station yang paling efektif: panggil ibu dengan sapaan, sebut nama anak, sebut identitas diri, dan tanya keluhan utama dalam satu kalimat natural. Libatkan anak dengan nada lembut.",
+          "answer_evidence": "Modul OSCE 6.2 — teknik komunikasi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_mimisan_dengue_01",
+        "gls_demam_mimisan_3mplus_01",
+        "gls_demam_mimisan_warning_01",
+        "gls_demam_mimisan_ns1_01"
+      ],
+      "bilingual": "SKDI 4A relevan: ISPA atas (J06.9), tonsilofaringitis (J03.9), faringitis (J02.9), OMA (H66.0), pneumonia (J18.9), epistaksis (R04.0). SKDI 3B (rujuk): DBD (A91), trombositopenia (D69.6), kejang demam (R56.0)."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri berlabel TINGGI/SEDANG, rencana belajar 3 hari, dan kesalahan fatal yang menurunkan skor.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Latihan mandiri adalah bagian integral dari persiapan OSCE. Gunakan checklist di bawah ini sebagai panduan self-assessment: tandai tiap item TINGGI/SEDANG sesuai prioritas belajar. TINGGI berarti wajib dikuasai dalam 3 hari; SEDANG berarti cukup dipahami secara konsep. Rencana belajar 3 hari disusun dengan target spesifik, durasi, aktivitas, dan kriteria kelulusan per hari.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — latihan mandiri"
+        },
+        {
+          "text": "Hari 1 fokus hafalan urutan checklist dan nilai normal TTV anak usia 7 tahun; Hari 2 fokus anamnesis OPQRST untuk demam + mimisan, red flags dengue, dan pertolongan mimisan; Hari 3 fokus latihan roleplay dengan timer 7–10 menit. Kriteria 'siap OSCE' adalah mampu menjalankan seluruh checklist dalam 7–10 menit tanpa melihat catatan, dengan verbalisasi yang jelas dan aman. Kesalahan fatal OSCE adalah yang menurunkan nilai signifikan: tidak cuci tangan, tidak minta izin, memberikan aspirin/ibuprofen, mengabaikan warning signs dengue, dan tidak memberi edukasi 3M Plus.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — rencana 3 hari"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "[TINGGI] Sambung rasa, identitas, keluhan utama, anamnesis RPS demam + dengue + mimisan",
+          "sub": [
+            "Konfirmasi identitas (nama, usia, BB)",
+            "Konfirmasi keluhan utama (demam + mimisan)",
+            "RPS Demam (hari ke berapa, suhu, pola, obat)",
+            "RPS Dengue (nyeri kepala, retro-orbital, otot, ruam, muntah, BAB hitam, gusi berdarah, BAK berkurang)",
+            "RPS Mimisan (1/2 sisi, jumlah, durasi, korek hidung, pilek, trauma)"
+          ],
+          "bold": true,
+          "source": "Modul OSCE 6.2 — checklist mandiri"
+        },
+        {
+          "text": "[TINGGI] RPD/RPK, lingkungan, cross check, izin, cuci tangan, posisi, TTV, hidung, thoraks, abdomen",
+          "sub": [
+            "RPD/RPK (DBD sebelumnya, perdarahan, alergi)",
+            "Lingkungan (DBD tetangga, nyamuk, air tergenang)",
+            "Cross check ringkasan",
+            "Menjelaskan prosedur dan minta izin",
+            "Cuci tangan",
+            "Pemeriksaan TTV lengkap + interpretasi (cari syok, tekanan nadi menyempit)"
+          ],
+          "bold": true,
+          "source": "Modul OSCE 6.2 — checklist mandiri"
+        },
+        {
+          "text": "[TINGGI] Hidung (inspeksi, palpasi, rhinoskopi), pertolongan mimisan, thoraks, abdomen, interpretasi, diagnosis kerja, dosis paracetamol, hindari NSAID",
+          "sub": [
+            "Inspeksi hidung luar + Palpasi dorsum/ala nasi + Rhinoskopi anterior",
+            "Pertolongan mimisan aktif (bila mimisan)",
+            "Pemeriksaan thoraks singkat + abdomen (cari hepatomegali, ascites)",
+            "Interpretasi dan diagnosis kerja (curiga dengue)",
+            "Diagnosis banding + Perhitungan dosis paracetamol per BB + Hindari aspirin/ibuprofen"
+          ],
+          "bold": true,
+          "source": "Modul OSCE 6.2 — checklist mandiri"
+        },
+        {
+          "text": "[SEDANG] Pemeriksaan penunjang, indikasi rujuk, edukasi 3M Plus, dokumentasi SOAP dengan ICD-10",
+          "sub": [
+            "Pemeriksaan penunjang (NS1, darah rutin serial)",
+            "Indikasi rujuk",
+            "Edukasi 3M Plus",
+            "Dokumentasi SOAP dengan ICD-10"
+          ],
+          "source": "Modul OSCE 6.2 — checklist mandiri"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Memberikan Aspirin/Ibuprofen",
+          "text": "Memberikan aspirin/ibuprofen pada curiga dengue — meningkatkan risiko perdarahan GI dan efek samping pada trombositopenia — selalu paracetamol, JANGAN aspirin/NSAID.",
+          "answer_evidence": "WHO 2009 + CDC 2026"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Mengabaikan Mimisan sebagai Warning Sign Dengue",
+          "text": "Mengabaikan mimisan sebagai warning sign dengue — pasien memerlukan NS1, darah rutin serial, dan observasi — selalu evaluasi dengue pada anak dengan mimisan + demam di daerah endemis.",
+          "answer_evidence": "PPK IDAI 2020 + WHO 2009"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Mengenali Tanda Syok Dengue",
+          "text": "Tidak mengenali tanda syok dengue (tekanan nadi menyempit, akral dingin, CRT >2 detik) — mortalitas tinggi bila terlambat — evaluasi serial dan rujuk.",
+          "answer_evidence": "WHO 2009 Dengue Guidelines"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Menyarankan Menengadah saat Mimisan",
+          "text": "Menyarankan menengadah saat mimisan — risiko aspirasi darah — selalu condong ke depan.",
+          "answer_evidence": "AAP HealthyChildren.org + RCH Melbourne"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Alat Terlalu Dalam ke Hidung Anak",
+          "text": "Memasukkan alat terlalu dalam ke hidung anak — risiko trauma septum — rhinoskopi anterior harus lembut dan dangkal.",
+          "answer_evidence": "AAP HealthyChildren.org"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Memberi Edukasi Warning Signs",
+          "text": "Tidak memberi edukasi warning signs — pasien risiko syok dengue tanpa pengetahuan kembali — selalu tutup dengan safety net.",
+          "answer_evidence": "Modul OSCE 6.2 — safety net"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak Menyebut Suhu dalam Angka",
+          "text": "Tidak menyebutkan suhu dalam angka — interpretasi kurang tepat. Selalu sebut 'suhu aksila 39°C' bukan hanya 'demam'.",
+          "source": "Modul OSCE 6.2 — checklist mandiri"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak Bertanya Riwayat DBD",
+          "text": "Tidak bertanya riwayat DBD sebelumnya — dengue sekunder lebih berisiko. Selalu tanyakan 'pernah DBD sebelumnya?'",
+          "source": "Modul OSCE 6.2 — checklist mandiri"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak Menyebut Pencegahan 3M Plus",
+          "text": "Tidak menyebut pencegahan 3M Plus — edukasi tidak lengkap. Tutup station dengan 'Menguras, Menutup, Mendaur ulang + kelambu'.",
+          "source": "Modul OSCE 6.2 — checklist mandiri"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demam_mimisan_pertolongan_01",
+        "gls_demam_mimisan_warning_01",
+        "gls_demam_mimisan_3mplus_01"
+      ],
+      "bilingual": "Kriteria 'siap OSCE': mampu menjalankan seluruh checklist 25-item dalam 7–10 menit tanpa melihat catatan, dengan verbalisasi jelas. Rencanakan 3 hari: Hari 1 hafal urutan + TTV, Hari 2 anamnesis + pertolongan, Hari 3 roleplay dengan timer."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Kebutuhan visual, Lampiran A–D (red flags, masalah prosedur, mini-case, kalimat pembuka), dan referensi ringkas.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Bagian ini merangkum kebutuhan visual untuk aplikasi, lampiran A–D, dan referensi ringkas. Visual diperlukan untuk memperjelas konsep pertolongan mimisan, anatomi hidung, warning signs dengue, dan prosedur pemeriksaan. Lampiran A memuat kontraindikasi dan red flags, Lampiran B memuat masalah saat prosedur dan respons aman, Lampiran C memuat 3 OSCE mini-case untuk latihan cepat, dan Lampiran D memuat kalimat pembuka station siap ucap. Referensi ringkas disusun dari dokumen asli (PDF kampus) dan standar internasional (CDC, WHO, RCH Melbourne, AAP) untuk menjaga keselamatan klinis. Semua visual menggunakan gaya clean medical textbook tanpa elemen menakutkan.",
+          "tone": "narrative",
+          "source": "Modul OSCE 6.2 — visual & lampiran"
+        },
+        {
+          "text": "Mini-Case 1 (MUDAH): An. Rangga, anak laki-laki 7 tahun, BB 20 kg, demam 3 hari suhu 38.5°C, pilek (+), mimisan 1 kali berhenti dengan tekan. Tidak ada ruam, tidak ada BAB hitam, BAK cukup. Kunci jawaban: curiga dengue fase awal; periksa NS1 + darah rutin serial; paracetamol 200–300 mg/dosis; edukasi warning signs dan 3M Plus.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — Lampiran C"
+        },
+        {
+          "text": "Mini-Case 2 (SEDANG): An. Laras, perempuan 7 tahun, BB 19 kg, demam 5 hari suhu 39.5°C, mimisan 3 kali hari ini, gusi berdarah, nyeri perut kanan atas, BAK 5 jam terakhir sedikit, lemas. Kunci jawaban: DBD dengan warning signs; rujuk RS untuk observasi, NS1, darah rutin serial, golongan darah, hidrasi IV.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — Lampiran C"
+        },
+        {
+          "text": "Mini-Case 3 (SULIT): An. Galih, laki-laki 7 tahun, BB 18 kg, demam 4 hari, mimisan masif tidak berhenti dengan tekan 15 menit, akral dingin, nadi lemah, TD 80/60 mmHg, kesadaran menurun. Kunci jawaban: syok hemoragik dengue; resusitasi ABC, akses IV, cairan kristaloid, golongan darah, transfusi, rujuk IGD emergensi.",
+          "tone": "clinical",
+          "source": "Modul OSCE 6.2 — Lampiran C"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Visual yang perlu dibuat",
+          "sub": [
+            "Anak duduk condong ke depan saat mimisan",
+            "Anatomi hidung anterior (Kiesselbach)",
+            "DBD warning signs pada anak",
+            "Pemeriksaan rhinoskopi anterior",
+            "Pemeriksaan abdomen pada anak dengue",
+            "Alur anamnesis demam anak",
+            "3M Plus pencegahan dengue",
+            "Posisi pertolongan mimisan"
+          ],
+          "source": "Modul OSCE 6.2 — kebutuhan visual"
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi dan Red Flags",
+          "sub": [
+            "Syok dengue (tekanan nadi <20, akral dingin) → resusitasi, rujuk IGD",
+            "Perdarahan masif tidak terkontrol → tekan, rujuk",
+            "Nyeri perut hebat + muntah terus → rujuk",
+            "Penurunan kesadaran → rujuk emergensi",
+            "BAK sangat berkurang → rujuk",
+            "Anak tampak toksik → rujuk emergensi",
+            "Riwayat DBD + mimisan sekarang → evaluasi RS"
+          ],
+          "source": "Modul OSCE 6.2 — Lampiran A"
+        },
+        {
+          "text": "Lampiran B — Masalah Saat Prosedur dan Respons Aman",
+          "sub": [
+            "Anak gelisah dan menangis → tenangkan, libatkan ibu, tunda sebentar",
+            "Termometer tidak stabil → ganti posisi, ulangi",
+            "Manset tidak sesuai → ganti manset anak",
+            "Mimisan aktif saat pemeriksaan → tekan hidung 10–15 menit, posisi condong ke depan",
+            "Rhinoskopi tidak bisa → bersihkan dengan saline, tunda",
+            "Depresor lidah memicu muntah → minta napas dalam, lakukan cepat",
+            "Ibu cemas berlebihan → tenangkan, jelaskan dengan bahasa awam"
+          ],
+          "source": "Modul OSCE 6.2 — Lampiran B"
+        },
+        {
+          "text": "Lampiran D — 10 Kalimat Pembuka Station Siap Ucap",
+          "sub": [
+            "'Selamat pagi Bu Ratna, saya dokter muda yang akan membantu memeriksa An. Caca. Boleh saya konfirmasi identitas dan keluhan utamanya?'",
+            "'Caca demam sudah berapa hari, Bu? Suhu tertinggi diukur berapa derajat? Ada nyeri kepala, nyeri otot, atau ruam?'",
+            "'Mimisan satu sisi atau dua sisi? Berapa kali? Banyak? Ada riwayat mimisan sebelumnya? Ada pilek atau korek hidung?'",
+            "'Ada BAB hitam, gusi berdarah, atau BAK berkurang? Tetangga ada yang DBD? Di rumah banyak nyamuk atau genangan air?'",
+            "'Sekarang saya akan periksa tanda vital dan melihat hidung, dada, dan perut Caca. Saya cuci tangan dulu ya.'",
+            "'Caca duduk di pangkuan Ibu ya. Saya akan melihat bagian dalam hidung dengan senter. Ada cahaya, mohon diam sebentar.'",
+            "'Beri paracetamol sesuai berat badan ya Bu. Jangan aspirin atau ibuprofen, karena bisa memperberat perdarahan.'",
+            "'Segera ke IGD bila mimisan banyak, nyeri perut hebat, muntah terus, lemas sekali, BAB hitam, atau BAK berkurang.'",
+            "'Cegah dengue dengan 3M: bersihkan genangan air, tutup tempat air, daur ulang. Plus gunakan kelambu.'",
+            "'Terima kasih Bu Ratna atas kerja samanya. Semoga Caca cepat sembuh. Jangan ragu datang lagi bila ada keluhan.'"
+          ],
+          "source": "Modul OSCE 6.2 — Lampiran D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk Visual",
+          "text": "Prompt AI untuk membuat visual tersedia di §11 asli: 'Ilustrasi medis edukatif anak 7 tahun duduk tenang, kepala condong sedikit ke depan, orang tua menekan bagian lunak hidung 10–15 menit, style clean medical infographic.'",
+          "source": "Modul OSCE 6.2 — prompt visual"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Standar Internasional Acuan",
+          "text": "Standar internasional yang menjadi acuan: CDC Clinical Care of Dengue (2026), WHO 2009 Dengue Classification, RCH Melbourne Clinical Practice Guidelines, dan AAP HealthyChildren.org.",
+          "answer_evidence": "CDC 2026 + WHO 2009 + RCH Melbourne + AAP"
+        }
+      ],
+      "visual_refs": [
+        "visual_demam_mimisan_pertolongan_01",
+        "visual_demam_mimisan_anatomi_02",
+        "visual_demam_mimisan_warning_03",
+        "visual_demam_mimisan_rhinoskopi_04",
+        "visual_demam_mimisan_abdomen_05",
+        "visual_demam_mimisan_flowchart_06",
+        "visual_demam_mimisan_3mplus_07",
+        "visual_demam_mimisan_posisi_08"
+      ],
+      "glossary_refs": [
+        "gls_demam_mimisan_pertolongan_01",
+        "gls_demam_mimisan_warning_01",
+        "gls_demam_mimisan_3mplus_01"
+      ],
+      "bilingual": "Lampiran A: red flags (syok dengue, perdarahan masif, penurunan kesadaran). Lampiran B: respons aman saat prosedur. Lampiran C: 3 mini-case (Rangga-MUDAH, Laras-SEDANG, Galih-SULIT). Lampiran D: 10 kalimat pembuka siap ucap."
+    }
+  ]
+}

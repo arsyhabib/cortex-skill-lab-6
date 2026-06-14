@@ -1,0 +1,22 @@
+{
+  "app": {
+    "id": "cortex-skill-lab-6",
+    "name": "Cortex Skill Lab 6",
+    "version_label": "Beta v1.0",
+    "tagline": "Platform Belajar OSCE Skill Lab — Blok 6",
+    "subtitle": "28 Modul Skill Lab + 12 Skenario OSCE",
+    "language": "id",
+    "academic_year": "2025/2026",
+    "institution": "Cortex Medical Education"
+  },
+  "welcome": {
+    "title": "Selamat Datang di Cortex Skill Lab 6",
+    "body": "Platform pembelajaran OSCE terintegrasi untuk Blok 6 — mencakup Obstetri-Ginekologi, Anak & Geriatri, Neurologi & Psikiatri, serta 12 Skenario OSCE.",
+    "cta": "Mulai Belajar"
+  },
+  "branding": {
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4",
+    "logo_text": "CSL6"
+  }
+}

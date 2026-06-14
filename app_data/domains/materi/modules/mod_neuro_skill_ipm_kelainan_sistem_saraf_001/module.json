@@ -1,0 +1,1022 @@
+{
+  "id": "mod_neuro_skill_ipm_kelainan_sistem_saraf_001",
+  "title": "Integrated Patient Management: Kelainan Sistem Saraf",
+  "subtitle": "Modul awam-komprehensif berbasis checklist OSCE untuk mengelola pasien kelainan sistem saraf dari anamnesis hingga edukasi.",
+  "domain": "neuro_skill",
+  "batch_id": "batch_3",
+  "source_pdf": "Batch3_File3_Modul_OSCE_6_3_IPM_Kelainan_Sistem_Saraf.docx",
+  "source_filename": "Batch3_File3_Modul_OSCE_6_3_IPM_Kelainan_Sistem_Saraf.docx",
+  "order": 7,
+  "estimatedTimeMinutes": 90,
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "ipm",
+    "integrated_patient_management",
+    "alur_klinis_neuro",
+    "checklist_osce",
+    "diagnosis_kerja",
+    "diagnosis_banding",
+    "manajemen_neuro"
+  ],
+  "summary": [
+    "IPM bukan sekadar pemeriksaan neurologi panjang, melainkan alur klinis lengkap dari salam, anamnesis, pemeriksaan, diagnosis, tatalaksana, hingga edukasi.",
+    "Checklist IPM menilai berbagai aspek mulai dari salam, penjelasan, izin, posisi pasien, TTV, pemeriksaan neurologis, diagnosis, hingga edukasi keluarga.",
+    "Pemilihan pemeriksaan neurologis harus disesuaikan dengan skenario: penurunan kesadaran memerlukan GCS, nyeri kepala hebat dengan demam memerlukan TRM, kelemahan fokal memerlukan nervus kranialis dan motorik, vertigo memerlukan uji Romberg/Fukuda/nistagmus.",
+    "Tiga kesalahan fatal IPM yang menurunkan nilai drastis: tidak menyebut diagnosis kerja, tidak menyebut diagnosis banding, dan tidak menyebutkan pemeriksaan penunjang.",
+    "Langkah pertama OSCE adalah salam, identifikasi pasien, penjelasan prosedur, dan meminta izin; posisi pasien yang nyaman harus dipastikan sebelum pemeriksaan.",
+    "Anamnesis yang baik mencakup keluhan utama, onset, lokasi, kualitas, faktor risiko, dan red flags (penurunan kesadaran mendadak, nyeri kepala hebat, kejang berulang, kelemahan fokal).",
+    "Pemeriksaan neurologis mencakup GCS, TRM, nervus kranialis I–XII, motorik, sensorik, refleks, dan koordinasi, disesuaikan dengan indikasi klinis.",
+    "Edukasi pasien dan keluarga wajib mencakup red flags, kepatuhan pengobatan, perubahan gaya hidup, dan kapan harus kembali ke IGD.",
+    "Empat red flag utama neurologi: penurunan kesadaran mendadak, nyeri kepala hebat tiba-tiba, kejang berulang tanpa pemulihan penuh, kelemahan fokal mendadak.",
+    "Dokumentasi SOAP yang lengkap (Subjective, Objective, Assessment, Plan) menjadi bukti bahwa IPM dilakukan secara terintegrasi dan profesional."
+  ],
+  "exam_focus": [
+    "Sebutkan salam pembuka lengkap: 'Selamat pagi, saya dokter [Nama], saya akan melakukan pemeriksaan saraf; mohon izin.'",
+    "Tanyakan onset dan last known well pada setiap kasus neurologis — ini fatal jika dilupakan pada stroke/kejang/penurunan kesadaran.",
+    "Pilih pemeriksaan neurologis sesuai skenario: GCS untuk penurunan kesadaran, TRM untuk nyeri kepala + demam, NK + motorik + refleks untuk kelemahan fokal, Romberg/Fukuda/nistagmus untuk vertigo.",
+    "Selalu sebutkan minimal 2 diagnosis banding dengan justifikasi klinis — bukan hanya diagnosis kerja.",
+    "Sebutkan minimal 1 pemeriksaan penunjang yang relevan (CT scan kepala untuk stroke, MRI untuk lesi otak, lab darah untuk meningitis).",
+    "Bedakan stroke iskemik dan hemoragik: onset mendadak, GCS menurun, namun CT scan menjadi pembeda utama (iskemik vs perdarahan).",
+    "Gunakan formula diagnosis 3 lapis: klinis (stroke), topis (sirkulasi otak), etiologis (iskemik/hemoragik) — menunjukkan clinical reasoning neurologi yang kuat.",
+    "Tutup station dengan edukasi red flags, kepatuhan obat, dan instruksi kapan harus kembali ke IGD.",
+    "Untuk Bell's Palsy (G51.0) wajib dibedakan dari stroke karena keduanya menyebabkan defisit wajah; Bell's Palsy melibatkan dahi, stroke tidak.",
+    "Pada kejang, identifikasi status epileptikus (kejang >5 menit atau berulang tanpa pemulihan) sebagai indikasi rujukan emergensi."
+  ],
+  "glossary": [
+    {
+      "id": "gls_neuro_skill_anamnesis_01",
+      "term": "Anamnesis",
+      "def": "Proses pengumpulan informasi dari pasien mengenai gejala, riwayat kesehatan, dan faktor risiko yang relevan untuk diagnosis. Dalam modul ini, anamnesis menjadi langkah pertama IPM yang menentukan arah pemeriksaan selanjutnya.",
+      "type": "procedure",
+      "aliases": [
+        "Riwayat penyakit",
+        "Wawancara klinis"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_pemeriksaan_neurologis_02",
+      "term": "Pemeriksaan neurologis",
+      "def": "Serangkaian tes dan evaluasi untuk menilai fungsi sistem saraf, termasuk pemeriksaan nervus kranialis, motorik, sensorik, refleks, koordinasi, GCS, dan TRM. Pemilihan komponen harus disesuaikan dengan skenario klinis.",
+      "type": "procedure",
+      "aliases": [
+        "Neuro exam",
+        "Pemeriksaan saraf"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_gcs_03",
+      "term": "GCS (Glasgow Coma Scale)",
+      "def": "Skala yang digunakan untuk menilai tingkat kesadaran pasien berdasarkan respons mata (E, 1–4), verbal (V, 1–5), dan motorik (M, 1–6). Nilai total normal 15; GCS <15 menunjukkan penurunan kesadaran yang memerlukan evaluasi lebih lanjut.",
+      "type": "score",
+      "aliases": [
+        "Skala koma Glasgow",
+        "EVM"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_trm_04",
+      "term": "TRM (Tanda Rangsang Meningeal)",
+      "def": "Tanda-tanda klinis yang menunjukkan adanya iritasi meningeal, seperti kaku kuduk, tanda Brudzinski, dan tanda Kernig. Positif pada meningitis dan perdarahan subaraknoid, menjadi indikasi penting pada nyeri kepala + demam.",
+      "type": "clinical",
+      "aliases": [
+        "Meningeal signs",
+        "Kaku kuduk"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_diagnosis_banding_05",
+      "term": "Diagnosis banding",
+      "def": "Proses membandingkan beberapa kemungkinan diagnosis berdasarkan gejala dan temuan klinis untuk menentukan diagnosis yang paling mungkin. Dalam IPM neurologi, wajib menyebutkan minimal 2 diagnosis banding dengan justifikasi pembeda.",
+      "type": "clinical",
+      "aliases": [
+        "Differential diagnosis",
+        "DD"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_clinical_reasoning_06",
+      "term": "Clinical reasoning",
+      "def": "Proses berpikir yang digunakan oleh dokter untuk menganalisis informasi klinis dan membuat keputusan diagnosis dan tatalaksana. Dalam modul ini menggunakan formula 3 lapis: klinis (stroke), topis (sirkulasi otak), etiologis (iskemik/hemoragik).",
+      "type": "mechanism",
+      "aliases": [
+        "Reasoning klinis",
+        "Penegakan diagnosis"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_ct_scan_07",
+      "term": "CT Scan",
+      "def": "Pemeriksaan pencitraan yang menggunakan sinar-X untuk menghasilkan gambar detail dari struktur intrakranial, menjadi baku emas untuk membedakan stroke iskemik dan hemoragik pada fase akut.",
+      "type": "procedure",
+      "aliases": [
+        "CT kepala",
+        "Computed Tomography"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_migren_08",
+      "term": "Migren",
+      "def": "Gangguan neurologis yang ditandai dengan serangan nyeri kepala berdenyut unilateral, sering disertai mual, muntah, fotofobia, dan fonofobia. Kode ICD-10: G43.0 (tanpa aura) atau G43.1 (dengan aura).",
+      "type": "clinical",
+      "aliases": [
+        "Migraine",
+        "Nyeri kepala berdenyut"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_stroke_iskemik_09",
+      "term": "Stroke Iskemik",
+      "def": "Kondisi emergensi neurologis akibat sumbatan aliran darah otak (kode ICD-10: I63). Menunjukkan kelemahan fokal mendadak, penurunan GCS, dan memerlukan CT scan kepala dalam jendela waktu terapi trombolitik.",
+      "type": "clinical",
+      "aliases": [
+        "Ischemic stroke",
+        "Cerebrovascular accident iskemik"
+      ]
+    },
+    {
+      "id": "gls_neuro_skill_soap_10",
+      "term": "SOAP",
+      "def": "Format dokumentasi klinis yang terdiri dari Subjective (keluhan pasien), Objective (temuan pemeriksaan), Assessment (diagnosis), dan Plan (rencana tatalaksana). SOAP wajib diisi lengkap pada akhir station IPM.",
+      "type": "procedure",
+      "aliases": [
+        "Catatan SOAP",
+        "Dokumentasi SOAP"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_ipm_kelainan_saraf_01",
+      "term_id": "Penurunan kesadaran",
+      "term_en": "Decreased consciousness / Altered mental status",
+      "context": "Red flag utama yang mengindikasikan stroke, perdarahan otak, atau status epileptikus; wajib dievaluasi dengan GCS."
+    },
+    {
+      "id": "bil_ipm_kelainan_saraf_02",
+      "term_id": "Tanda Rangsang Meningeal (TRM)",
+      "term_en": "Meningeal signs",
+      "context": "Tanda kaku kuduk, Brudzinski, dan Kernig yang positif pada meningitis dan perdarahan subaraknoid."
+    },
+    {
+      "id": "bil_ipm_kelainan_saraf_03",
+      "term_id": "Diagnosis kerja",
+      "term_en": "Working diagnosis",
+      "context": "Diagnosis utama yang paling mungkin berdasarkan keluhan dan temuan klinis; wajib disebutkan dalam IPM."
+    },
+    {
+      "id": "bil_ipm_kelainan_saraf_04",
+      "term_id": "Pemeriksaan penunjang",
+      "term_en": "Investigations / Supporting examinations",
+      "context": "CT scan, MRI, laboratorium, atau pemeriksaan lain untuk konfirmasi diagnosis klinis."
+    },
+    {
+      "id": "bil_ipm_kelainan_saraf_05",
+      "term_id": "Kelemahan fokal",
+      "term_en": "Focal weakness / Focal neurological deficit",
+      "context": "Defisit neurologis yang terlokalisasi (hemiparesis, monoparesis) — red flag stroke atau TIA."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_ipm_kelainan_saraf_flowchart_01",
+      "module_id": "mod_neuro_skill_ipm_kelainan_sistem_saraf_001",
+      "section_id": "s02",
+      "type": "flowchart",
+      "generation_prompt": "Buat flowchart alur OSCE Integrated Patient Management neurologi dalam Bahasa Indonesia, 8 langkah dari Salam-Penjelasan-Izin-Pemeriksaan TTV-Pemeriksaan Neurologis-Diagnosis-Penunjang-Edukasi. Desain A4 portrait, warna profesional, ikon relevan medis, teks mudah dibaca, gaya clean/infographic. Sertakan cabang 'pemeriksaan neurologis mana yang dipilih per skenario' (penurunan kesadaran→GCS; nyeri kepala+demam→TRM; kelemahan fokal→NK+motorik+refleks; vertigo→Romberg/Fukuda).",
+      "alt": "Flowchart alur OSCE Integrated Patient Management neurologi 8 langkah: Salam dan identifikasi, Anamnesis, Tanda vital, Pemeriksaan neurologis sesuai skenario, Diagnosis kerja dan banding, Pemeriksaan penunjang, Tatalaksana awal, Edukasi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_ipm_kelainan_sistem_saraf_001/assets/flowchart_alur_osce.png"
+    },
+    {
+      "id": "visual_ipm_kelainan_saraf_tabel_diferensiasi_02",
+      "module_id": "mod_neuro_skill_ipm_kelainan_sistem_saraf_001",
+      "section_id": "s06",
+      "type": "table",
+      "generation_prompt": "Buat tabel infografis Bahasa Indonesia yang membedakan stroke iskemik dan stroke hemoragik: onset, gejala, GCS, defisit fokal, CT scan kepala, tatalaksana awal. Desain bersih dua kolom sejajar, warna pembeda, A4 landscape, label tegas.",
+      "alt": "Tabel diferensiasi stroke iskemik dan stroke hemoragik berdasarkan onset, gejala, GCS, defisit fokal, hasil CT scan, dan tatalaksana awal.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_ipm_kelainan_sistem_saraf_001/assets/tabel_stroke_iskemik_hemoragik.png"
+    },
+    {
+      "id": "visual_ipm_kelainan_saraf_skema_dix_hallpike_03",
+      "module_id": "mod_neuro_skill_ipm_kelainan_sistem_saraf_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Buat ilustrasi medikal manuver Dix-Hallpike untuk diagnosis BPPV: posisi awal pasien duduk di ujung bed,旋转 kepala 45 derajat ke sisi yang dicurigai, kemudian dibaringkan cepat dengan kepala tergantung sedikit di bawah bed, pengamat memeriksa nistagmus. Tampilkan 4 langkah dengan panah dan label. Gaya clean medical illustration, A4 portrait, label Bahasa Indonesia.",
+      "alt": "Ilustrasi 4 langkah manuver Dix-Hallpike untuk diagnosis BPPV: posisi duduk, rotasi kepala 45 derajat, baring cepat dengan kepala tergantung, observasi nistagmus.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_ipm_kelainan_sistem_saraf_001/assets/skema_dix_hallpike.png"
+    },
+    {
+      "id": "visual_ipm_kelainan_saraf_poster_osce_04",
+      "module_id": "mod_neuro_skill_ipm_kelainan_sistem_saraf_001",
+      "section_id": "s10",
+      "type": "diagram",
+      "generation_prompt": "Buat poster OSCE Bahasa Indonesia tentang Integrated Patient Management neurologi, berisi 8 langkah alur IPM, 10 skenario klinis, daftar red flags, formula diagnosis 3 lapis (klinis-topis-etiologis). Desain A4 portrait, warna profesional, ikon relevan, layout infografis bersih, teks jelas terbaca.",
+      "alt": "Poster OSCE Integrated Patient Management neurologi: 8 langkah IPM, 10 skenario klinis, red flags neurologi, formula diagnosis 3 lapis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_ipm_kelainan_sistem_saraf_001/assets/poster_osce_neuro.png"
+    },
+    {
+      "id": "visual_ipm_kelainan_saraf_pemeriksaan_skenario_05",
+      "module_id": "mod_neuro_skill_ipm_kelainan_sistem_saraf_001",
+      "section_id": "s04",
+      "type": "diagram",
+      "generation_prompt": "Buat diagram alur pemilihan pemeriksaan neurologis berdasarkan skenario klinis: 4 cabang dari 'Keluhan Utama' — Penurunan Kesadaran → GCS + pupil + TRM; Nyeri Kepala + Demam → TRM (kaku kuduk, Brudzinski, Kernig) + GCS; Kelemahan Fokal → Nervus kranialis + motorik + sensorik + refleks; Vertigo → Romberg + Fukuda + uji nistagmus. Desain pohon keputusan, warna berbeda per cabang, A4 portrait.",
+      "alt": "Diagram pohon keputusan pemilihan pemeriksaan neurologis: Penurunan Kesadaran→GCS, Nyeri Kepala+Demam→TRM, Kelemahan Fokal→NK+motorik+refleks, Vertigo→Romberg+Fukuda+nistagmus.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_ipm_kelainan_sistem_saraf_001/assets/pemeriksaan_per_skenario.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s04",
+      "type": "content",
+      "source_query": "Pemeriksaan neurologis mana yang relevan per skenario klinis pada Integrated Patient Management",
+      "source_reference": "Kurikulum OSCE 6.3 Neuro-Psikiatri FKIK Universitas Jambi, Geeky Medics Neurological OSCE Guides",
+      "confidence": "high",
+      "note": "Menambahkan tabel pemilihan pemeriksaan per skenario klinis (penurunan kesadaran→GCS, nyeri kepala+demam→TRM, kelemahan fokal→NK+motorik+refleks, vertigo→Romberg/Fukuda/nistagmus) sesuai permintaan pengawas, karena modul IPM harus menunjukkan seleksi alat ukur yang relevan."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Tiga kesalahan fatal dalam Integrated Patient Management OSCE neurologi",
+      "source_reference": "Panduan Penilaian OSCE FKIK Universitas Jambi, Kolegium Neurologi Indonesia",
+      "confidence": "high",
+      "note": "Mempertegas 3 kesalahan fatal eksplisit: tidak menyebut diagnosis kerja, tidak menyebut diagnosis banding, tidak menyebutkan pemeriksaan penunjang — sesuai instruksi pengawas modul."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Kesalahan fatal mahasiswa dalam OSCE neurologi IPM",
+      "source_reference": "OSCE Handbook FKIK Universitas Jambi 2024, Geeky Medics Common Mistakes",
+      "confidence": "high",
+      "note": "Memperluas daftar kesalahan fatal dengan 4 jenis [FATAL] utama: tidak menanyakan onset, tidak menyebut penunjang, tidak membedakan 3 lapis diagnosis, lupa edukasi keluarga."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta sumber, daftar skenario klinis utama yang sering muncul, dan komponen yang dinilai dalam station OSCE 6.3 Integrated Patient Management Kelainan Sistem Saraf.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini bersumber dari PDF Integrated Patient Management halaman 56-61 dan SKDI 4A Batch 2 Neuro-Psikiatri. Fokus utama modul ini adalah mengintegrasikan berbagai aspek manajemen pasien dengan kelainan sistem saraf, mulai dari anamnesis hingga edukasi. Skenario klinis yang sering dinilai dalam OSCE meliputi penurunan kesadaran akut, nyeri kepala berulang, pusing berputar, kejang berkepanjangan, dan kelemahan fokal. Dalam setiap skenario, mahasiswa diharapkan dapat melakukan pemeriksaan neurologis yang tepat, mengidentifikasi diagnosis kerja dan banding, serta memberikan edukasi yang sesuai kepada pasien dan keluarga.",
+          "tone": "narrative",
+          "source": "§1 file sumber, hlm. 56-61"
+        },
+        {
+          "text": "Skenario klinis utama yang diujikan dalam modul ini: (1) Penurunan kesadaran akut (mengarah ke stroke, edema serebral, atau intoksikasi); (2) Nyeri kepala hebat dengan atau tanpa demam (mengarah ke perdarahan subaraknoid atau meningitis); (3) Pusing berputar/vertigo (mengarah ke BPPV, stroke batang otak, atau neuritis vestibular); (4) Kejang (mengarah ke epilepsi, status epileptikus, atau kejang simtomatik); (5) Kelemahan fokal mendadak (mengarah ke stroke iskemik, TIA, atau lesi desak ruang). Tiap skenario memerlukan pemilihan pemeriksaan neurologis yang berbeda.",
+          "tone": "clinical",
+          "source": "Tambahan s01 dari analisis kurikulum OSCE 6.3"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE station IPM Neuro:",
+          "sub": [
+            "Salam, penjelasan prosedur, dan izin informed consent",
+            "Posisi pasien yang nyaman dan sesuai pemeriksaan",
+            "Tanda vital (TD, nadi, suhu, RR, SpO2) dan pemeriksaan fisik umum",
+            "Pemeriksaan neurologis (GCS, TRM, nervus kranialis, motorik, sensorik, refleks, koordinasi) sesuai skenario",
+            "Diagnosis kerja dan diagnosis banding",
+            "Pemeriksaan penunjang yang relevan",
+            "Tatalaksana awal dan edukasi pasien"
+          ],
+          "bold": true,
+          "source": "§1 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi 3 hari sebelum OSCE",
+          "text": "Fokus pada hafalan checklist dan latihan urutan pemeriksaan. Hari pertama: kuasai checklist, hari kedua: simulasi dengan teman, hari ketiga: evaluasi dan koreksi kesalahan.",
+          "answer_evidence": "Rekomendasi kurikulum FKIK Universitas Jambi"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tip paling penting station ini",
+          "text": "Pastikan semua langkah dilakukan dengan urutan yang benar dan sesuai protokol. Pemeriksaan neurologis tidak harus lengkap 8 komponen — pilih yang relevan dengan skenario.",
+          "answer_evidence": "Geeky Medics Neurological OSCE Guide"
+        }
+      ],
+      "visual_refs": [
+        "visual_ipm_kelainan_saraf_poster_osce_04"
+      ],
+      "glossary_refs": [
+        "gls_neuro_skill_anamnesis_01",
+        "gls_neuro_skill_pemeriksaan_neurologis_02"
+      ],
+      "bilingual": "Section ini memetakan skenario klinis dan target OSCE. Fokuslah pada kemampuan memilih pemeriksaan neurologis yang relevan dengan skenario, bukan menghafal semua prosedur sekaligus."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Alur OSCE lengkap 8 langkah dari salam hingga edukasi pasien, dilengkapi checklist penilaian yang menunjukkan cara skor maksimal dan kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur OSCE dalam modul ini dimulai dari salam dan identifikasi pasien, diikuti dengan anamnesis yang mencakup keluhan utama dan faktor risiko. Selanjutnya, pemeriksaan fisik dilakukan dengan fokus pada tanda vital dan pemeriksaan neurologis yang relevan. Setelah itu, mahasiswa harus menyusun diagnosis kerja dan banding, serta menentukan pemeriksaan penunjang yang diperlukan. Tatalaksana awal dan edukasi pasien menjadi langkah terakhir sebelum keluar dari station. Tips kunci untuk mendapatkan nilai tinggi adalah memastikan setiap langkah dilakukan dengan tepat dan sesuai urutan, serta menghindari kesalahan fatal seperti tidak menyebutkan diagnosis atau pemeriksaan penunjang.",
+          "tone": "narrative",
+          "source": "§2-§3 file sumber"
+        },
+        {
+          "text": "Kalimat pembuka station yang paling efektif untuk IPM Neuro: 'Selamat pagi, saya dokter [Nama], saya akan melakukan pemeriksaan saraf; mohon izin.' Kalimat ini memenuhi 3 komponen sekaligus: salam, identifikasi diri, dan informed consent. Penutup station yang baik: 'Apakah ada pertanyaan lain? Jika gejala memberat, segera kembali ke IGD.' Kalimat penutup ini mengkonfirmasi pemahaman pasien sekaligus memberikan safety net.",
+          "tone": "clinical",
+          "source": "Best practice komunikasi OSCE FKIK"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan 8 langkah OSCE IPM Neuro:",
+          "sub": [
+            "Langkah 1: Salam dan identifikasi pasien (dokter dan pasien)",
+            "Langkah 2: Anamnesis keluhan utama dan faktor risiko (Onset, Lokasi, Kualitas, Red flags)",
+            "Langkah 3: Pemeriksaan tanda vital (TD, nadi, RR, suhu, SpO2) dan fisik umum",
+            "Langkah 4: Pemeriksaan neurologis sesuai kasus (GCS, TRM, NK, motorik, sensorik, refleks, koordinasi)",
+            "Langkah 5: Menyusun diagnosis kerja dan minimal 2 diagnosis banding",
+            "Langkah 6: Menentukan minimal 1 pemeriksaan penunjang yang relevan",
+            "Langkah 7: Tatalaksana awal (simptomatik dan definitif sesuai diagnosis)",
+            "Langkah 8: Edukasi pasien dan keluarga (red flags, kepatuhan, kontrol)"
+          ],
+          "bold": true,
+          "source": "§2 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan pernah melakukan tindakan tanpa consent",
+          "text": "Izin pasien (informed consent verbal) WAJIB diminta sebelum menyentuh pasien, mengukur TD, atau memulai pemeriksaan neurologis. Pelanggaran consent adalah kesalahan etik serius yang menggugurkan skor.",
+          "answer_evidence": "Kode Etik Kedokteran Indonesia, Panduan OSCE Nasional"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station paling efektif",
+          "text": "'Selamat pagi, saya dokter [Nama], saya akan melakukan pemeriksaan saraf; mohon izin.' Kalimat ini memenuhi salam, identifikasi, penjelasan, dan izin dalam satu pernyataan.",
+          "answer_evidence": "Modul komunikasi klinis FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_ipm_kelainan_saraf_flowchart_01"
+      ],
+      "glossary_refs": [],
+      "bilingual": "Section ini memetakan alur OSCE dan checklist penilaian. Hafalkan 8 langkah dalam urutan ini agar alur station Anda sistematis dan tidak melompat-lompat."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis yang wajib ditanyakan, red flags utama, dan tabel alasan klinis setiap pertanyaan untuk skenario neurologi.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis merupakan langkah awal yang sangat penting dalam penilaian OSCE. Mahasiswa harus mampu mengidentifikasi keluhan utama pasien dan menggali informasi lebih lanjut melalui pertanyaan-pertanyaan kunci. Fokus utama dalam anamnesis adalah mengidentifikasi onset, lokasi, kualitas, dan faktor risiko yang dapat mempengaruhi kondisi pasien. Selain itu, penting untuk menanyakan red flags yang dapat menunjukkan kondisi serius yang memerlukan perhatian segera. Dengan melakukan anamnesis yang komprehensif, mahasiswa dapat menyusun diagnosis kerja dan banding yang lebih akurat.",
+          "tone": "narrative",
+          "source": "§4 file sumber"
+        },
+        {
+          "text": "Pola pertanyaan anamnesis IPM Neuro menggunakan akronim SOCRATES untuk nyeri: Site (lokasi), Onset (kapan mulai), Character (kualitas), Radiation (menyebar), Associations (gejala penyerta), Time course (pola waktu), Exacerbating/relieving factors (faktor pemberat/meringankan), Severity (skala 1-10). Untuk kasus non-nyeri, gunakan keluhan utama langsung: 'Sejak kapan Anda merasakan kelemahan ini?' atau 'Apakah Anda pernah kejang sebelumnya?'",
+          "tone": "clinical",
+          "source": "SOCRATES pain assessment, Geeky Medics"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci anamnesis yang wajib ditanyakan:",
+          "sub": [
+            "'Sejak kapan Anda merasakan gejala ini?' (Onset — wajib untuk semua kasus neurologi)",
+            "'Di mana lokasi nyeri yang Anda rasakan?' (Lokasi)",
+            "'Apakah ada faktor yang memperberat atau meringankan gejala?' (Pencetus dan peringan)",
+            "'Apakah Anda memiliki riwayat penyakit sebelumnya?' (Komorbiditas: hipertensi, diabetes, jantung)",
+            "'Apakah ada anggota keluarga dengan keluhan serupa?' (Riwayat keluarga)",
+            "'Apakah Anda sedang mengonsumsi obat rutin?' (Termasuk antikoagulan, antihipertensi, OAT)"
+          ],
+          "bold": true,
+          "source": "§4 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag: Penurunan kesadaran mendadak",
+          "text": "Onset mendadak dari penurunan kesadaran mengindikasikan stroke, trauma kepala, atau intoksikasi. Lakukan GCS segera dan rujuk emergensi.",
+          "answer_evidence": "AHA/ASA Guidelines 2020"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag: Nyeri kepala hebat tiba-tiba",
+          "text": "'Thunderclap headache' — onset mendadak dengan intensitas maksimal dalam hitungan detik/menit — merupakan indikasi klasik perdarahan subaraknoid. CT scan kepala tanpa kontras wajib dalam 6 jam.",
+          "answer_evidence": "International Headache Society Criteria 2018"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag: Kejang berulang tanpa pemulihan penuh",
+          "text": "Kejang >5 menit atau berulang tanpa pemulihan kesadaran antar kejang menunjukkan status epileptikus. Rujuk IGD segera untuk pemberian benzodiazepin IV.",
+          "answer_evidence": "ILAE Guidelines 2015"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag: Kelemahan fokal mendadak",
+          "text": "Hemiparesis, monoparesis, atau defisit fokal lain yang onsetnya mendadak adalah tanda stroke atau TIA. Catat 'last known well' (waktu terakhir pasien正常) untuk keputusan trombolisis.",
+          "answer_evidence": "AHA/ASA Guidelines 2020"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_skill_anamnesis_01"
+      ],
+      "bilingual": "Section ini mengajarkan anamnesis terstruktur. Gunakan pola SOCRATES untuk nyeri, dan tanyakan minimal 4 pertanyaan kunci (onset, lokasi, faktor, riwayat) ditambah 4 red flags utama."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Urutan dan cara melakukan pemeriksaan fisik per komponen (tanda vital, GCS, TRM, nervus kranialis, motorik, sensorik, refleks, koordinasi) dengan pemilihan alat ukur yang relevan per skenario klinis.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik dalam konteks OSCE neurologi harus dilakukan secara sistematis dan menyeluruh. Mahasiswa harus memahami urutan pemeriksaan dan cara melakukannya dengan benar untuk mendapatkan hasil yang akurat. Pemeriksaan dimulai dari tanda vital, diikuti dengan pemeriksaan neurologis yang mencakup GCS, TRM, nervus kranialis, motorik, sensorik, refleks, dan koordinasi. Setiap komponen pemeriksaan memiliki nilai normal dan interpretasi abnormal yang harus dipahami oleh mahasiswa. Pemeriksaan ini bertujuan untuk mengidentifikasi defisit neurologis yang dapat membantu dalam menyusun diagnosis.",
+          "tone": "narrative",
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Kunci penting IPM Neuro: pemilihan pemeriksaan harus relevan dengan skenario klinis, bukan melakukan semua 8 komponen secara seragam. Empat skenario utama memerlukan seleksi pemeriksaan yang berbeda: (1) Penurunan kesadaran → GCS + pupil + TRM + nervus kranialis batang otak; (2) Nyeri kepala + demam → TRM (kaku kuduk, Brudzinski, Kernig) + GCS + tanda infeksi; (3) Kelemahan fokal → nervus kranialis (terutama VII) + motorik (kekuatan) + sensorik + refleks + tanda Babinski; (4) Vertigo/pusing berputar → uji Romberg + Fukuda stepping test + pemeriksaan nistagmus + uji Dix-Hallpike untuk BPPV.",
+          "tone": "clinical",
+          "source": "Tambahan s04 dari analisis kurikulum OSCE"
+        },
+        {
+          "text": "Cara melakukan TRM: (1) Kaku kuduk — fleksi pasif leher, normal tidak ada tahanan; positif bila ada tahanan atau nyeri; (2) Brudzinski — fleksi pasif leher, positif bila terjadi fleksi lutut dan pinggul involunter; (3) Kernig — tungkai difleksikan 90° di pinggul lalu diluruskan di lutut, positif bila ada tahanan atau nyeri punggung. Cara pemeriksaan GCS: E (Eye, 1-4) + V (Verbal, 1-5) + M (Motor, 1-6); total normal 15; intubasi dicatat sebagai V1T (tube).",
+          "tone": "procedure",
+          "source": "Prosedur baku TRM dan GCS, Geeky Medics"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "8 komponen pemeriksaan neurologis dan nilai normal/abnormal:",
+          "sub": [
+            "Tanda Vital: TD 120/80 mmHg, nadi 60-100 bpm, suhu 36.5-37.5°C, SpO2 >95%",
+            "GCS: Normal 15 (E4 V5 M6); GCS <15 menunjukkan penurunan kesadaran",
+            "TRM: Normal tidak ada kaku kuduk, Brudzinski, Kernig; abnormal = meningitis atau PSA",
+            "Nervus Kranialis: I (olfaktorius) sampai XII (hipoglosus); abnormal = defisit lesi nervus",
+            "Motorik: Kekuatan 5/5; abnormal = paresis (3/5), plegia (0/5)",
+            "Sensorik: Sensasi utuh; abnormal = hipoestesia, anastesia, parestesia",
+            "Refleks: Fisiologis +/++; abnormal = hiperrefleks (lesi UMN), hiporeflek (lesi LMN)",
+            "Koordinasi: Tes telunjuk-hidung, tumit-lutut; abnormal = ataksia serebelar"
+          ],
+          "bold": true,
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Pemilihan pemeriksaan neurologis per skenario klinis:",
+          "sub": [
+            "PENURUNAN KESADARAN → GCS (EVM), pupil (ukuran, refleks cahaya), TRM, nervus kranialis batang otak (refleks kornea, okulosefalik, kalori)",
+            "NYERI KEPALA + DEMAM → TRM lengkap (kaku kuduk, Brudzinski, Kernig), GCS, tanda infeksi sistemik, suhu tubuh",
+            "KELEMAHAN FOKAL → Nervus kranialis (khususnya VII:闭眼, senyum simetris), motorik (kekuatan, tonus, trofik), sensorik, refleks fisiologis dan patologis (Babinski), koordinasi",
+            "VERTIRO / PUSING BERPUTAR → Romberg test, Fukuda stepping test (marche étoile), pemeriksaan nistagmus (arah, beat), Dix-Hallpike untuk BPPV, head impulse test, uji kalori"
+          ],
+          "bold": true,
+          "source": "Tambahan s04: pemilihan alat ukur per skenario"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips teknis yang sering dilupakan",
+          "text": "Pastikan pasien dalam posisi nyaman sebelum memulai pemeriksaan. Untuk TRM, istirahatkan leher beberapa saat sebelum melakukan fleksi pasif. Untuk GCS, nilai respons verbal terlebih dahulu untuk membangun komunikasi.",
+          "answer_evidence": "Geeky Medics Neurological OSCE Guide"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kondisi yang mempengaruhi pemeriksaan",
+          "text": "Demam tinggi, nyeri hebat, atau penurunan kesadaran dapat mempengaruhi hasil pemeriksaan neurologis. Catat kondisi pasien dan pertimbangkan re-evaluasi setelah stabilisasi awal.",
+          "answer_evidence": "Prinsip klinis neurologi"
+        }
+      ],
+      "visual_refs": [
+        "visual_ipm_kelainan_saraf_pemeriksaan_skenario_05"
+      ],
+      "glossary_refs": [
+        "gls_neuro_skill_gcs_03",
+        "gls_neuro_skill_trm_04",
+        "gls_neuro_skill_pemeriksaan_neurologis_02"
+      ],
+      "bilingual": "Section ini mengajarkan komponen pemeriksaan neurologis dan cara memilihnya per skenario. Jangan lakukan semua 8 komponen secara merata — pilih yang paling relevan dengan keluhan utama."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat pemeriksaan, serta tiga fase prosedur (persiapan, pelaksanaan, evaluasi) yang sistematis dan aman untuk pasien kelainan sistem saraf.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Prosedur utama dalam pemeriksaan neurologis memerlukan persiapan yang matang dan penggunaan alat yang tepat. Sebelum memulai pemeriksaan, pastikan semua alat yang diperlukan telah tersedia dan berfungsi dengan baik. Prosedur ini dibagi menjadi tiga fase: persiapan, pelaksanaan, dan evaluasi. Pada fase persiapan, mahasiswa harus menjelaskan prosedur kepada pasien dan mendapatkan izin. Fase pelaksanaan melibatkan pemeriksaan sistematis dari tanda vital hingga pemeriksaan neurologis. Fase evaluasi mencakup penilaian hasil pemeriksaan dan menentukan langkah selanjutnya berdasarkan temuan.",
+          "tone": "narrative",
+          "source": "§6-§7 file sumber"
+        },
+        {
+          "text": "Sebelum mulai, selalu cek identitas pasien (nama, tanggal lahir, nomor RM), keluhan utama, dan apakah pasien dalam kondisi stabil. Untuk pasien penurunan kesadaran, libatkan perawat atau keluarga untuk membantu positioning. Ruangan harus cukup terang untuk pemeriksaan pupil, cukup tenang untuk menilai respons verbal, dan memiliki ruang untuk manuver duduk-berdiri pada uji Romberg atau Fukuda.",
+          "tone": "procedure",
+          "source": "Tambahan s05: prinsip persiapan ruangan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alat yang harus disiapkan sebelum pemeriksaan:",
+          "sub": [
+            "Stetoskop: untuk auskultasi jantung dan paru (mendeteksi bising jantung penyebab stroke embolik)",
+            "Sfigmomanometer: untuk mengukur tekanan darah (akurasi penting pada stroke dan hipertensi intrakranial)",
+            "Termometer: untuk mengukur suhu tubuh (demam pada meningitis)",
+            "Lampu senter (penlight): untuk pemeriksaan pupil dan respon cahaya",
+            "Palu refleks: untuk uji refleks fisiologis dan patologis (Babinski)",
+            "Kapas dan jarum针 stereognosis: untuk pemeriksaan sensorik",
+            "Garpu tala 128 Hz: untuk uji sensasi getar dan proprioseptif",
+            "Optalmoskop: untuk fundoskopi (tanda papiledema)"
+          ],
+          "bold": true,
+          "source": "§6 file sumber"
+        },
+        {
+          "text": "Tiga fase prosedur IPM Neuro:",
+          "sub": [
+            "FASE PERSIAPAN: jelaskan prosedur, dapatkan izin, pastikan posisi pasien nyaman dan sesuai pemeriksaan",
+            "FASE PELAKSANAAN: ukur TTV, GCS, TRM, NK, motorik, sensorik, refleks, koordinasi — urut sesuai skenario",
+            "FASE EVALUASI: catat hasil, tentukan diagnosis kerja dan banding, rencanakan penunjang, rujuk jika perlu"
+          ],
+          "bold": true,
+          "source": "§7 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan pasien di setiap fase",
+          "text": "Pastikan alat steril dan pasien tidak mengalami ketidaknyamanan. Untuk pasien penurunan kesadaran atau kejang, posisikan di tempat aman, jangan tinggalkan sendiri, dan siapkan suction/oksigen.",
+          "answer_evidence": "Patient Safety Guidelines WHO"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kondisi yang harus menghentikan prosedur",
+          "text": "Hentikan prosedur dan fokus stabilisasi jika: (1) pasien mengalami penurunan kesadaran mendadak, (2) kejang onset baru, (3) tanda-tanda gagal napas atau henti jantung, (4) pasien menolak melanjutkan.",
+          "answer_evidence": "Bantuan Hidup Dasar AHA 2020"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": "Section ini mengajarkan persiapan alat dan prosedur utama. Selalu cek kelengkapan alat sebelum menyentuh pasien, dan posisikan pasien dengan benar sesuai pemeriksaan yang akan dilakukan."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca prosedur, formula clinical reasoning neurologi 3 lapis (klinis-topis-etiologis), dan 3 kesalahan fatal IPM yang harus dihindari.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah prosedur pemeriksaan selesai, langkah selanjutnya adalah melakukan evaluasi hasil dan menyusun diagnosis banding. Clinical reasoning dalam konteks neurologi melibatkan analisis temuan pemeriksaan untuk menentukan lokasi lesi dan kemungkinan penyebabnya. Mahasiswa harus mampu mengidentifikasi kapan harus merujuk pasien segera berdasarkan temuan yang ada. Diagnosis banding harus mencakup kondisi yang berbahaya dan umum, serta alasan mengapa kondisi tersebut dipertimbangkan atau disingkirkan.",
+          "tone": "narrative",
+          "source": "§8-§9 file sumber"
+        },
+        {
+          "text": "Formula clinical reasoning neurologi menggunakan 3 lapis diagnosis: (1) Diagnosis KLINIS — sindrom atau kondisi utama (misalnya 'stroke'); (2) Diagnosis TOPIS — lokasi lesi (misalnya 'sirkulasi otak serebri media kiri'); (3) Diagnosis ETIOLOGIS — penyebab pasti (misalnya 'stroke iskemik trombotik akibat aterosklerosis'). Ketiga lapis ini wajib disebutkan dalam IPM untuk menunjukkan reasoning neurologi yang kuat. Hanya menyebut 'stroke' saja tidak cukup — tanpa topis dan etiologis, reasoning dianggap lemah.",
+          "tone": "clinical",
+          "source": "Tambahan s06: formula 3 lapis diagnosis"
+        },
+        {
+          "text": "TIGA KESALAHAN FATAL IPM NEURO yang menurunkan nilai drastis: (1) Tidak menyebut diagnosis kerja — station IPM selalu dinilai komponen diagnosis; (2) Tidak menyebut diagnosis banding — tanpa DD, klinisi tampak tidak mampu berpikir diferensial; (3) Tidak menyebutkan pemeriksaan penunjang — station IPM yang tidak menyebut CT scan/MRI/lab akan dianggap tidak lengkap. Ketiga hal ini sering menjadi alasan utama mahasiswa gagal station IPM Neuro.",
+          "tone": "clinical",
+          "source": "Tambahan s06: 3 kesalahan fatal IPM sesuai instruksi pengawas"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca prosedur yang wajib dilakukan:",
+          "sub": [
+            "Catat semua temuan pemeriksaan dengan detail di SOAP",
+            "Diskusikan temuan dengan penguji atau supervisor (jika station)",
+            "Susun diagnosis kerja + minimal 2 diagnosis banding dengan justifikasi",
+            "Sebutkan minimal 1 pemeriksaan penunjang yang relevan dan rasionalnya",
+            "Tentukan tatalaksana awal (simptomatik dan definitif)",
+            "Rencanakan edukasi pasien dan keluarga"
+          ],
+          "bold": true,
+          "source": "§8 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS merujuk segera",
+          "text": "Rujuk emergensi jika ditemukan: defisit neurologis akut onset mendadak, penurunan kesadaran progresif, kejang status epileptikus, tanda-tanda peningkatan tekanan intrakranial (papiledema, muntah proyektil, bradikardia + hipertensi = triase Cushing), atau gagal napas pada GBS.",
+          "answer_evidence": "AHA/ASA Guidelines 2020, ILAE 2015"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kesalahan Fatal #1: Tidak menyebut diagnosis kerja",
+          "text": "Station IPM selalu dinilai komponen diagnosis kerja. Jika tidak disebut, nilai turun signifikan dan penguji akan menghentikan station lebih awal.",
+          "answer_evidence": "Rubrik Penilaian OSCE FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kesalahan Fatal #2: Tidak menyebut diagnosis banding",
+          "text": "Tanpa diagnosis banding (minimal 2), klinisi tampak tidak mampu berpikir diferensial. Selalu sebutkan DD dengan justifikasi 'mengapa dipertimbangkan' dan 'mengapa sementara disingkirkan'.",
+          "answer_evidence": "Rubrik Penilaian OSCE FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kesalahan Fatal #3: Tidak menyebut pemeriksaan penunjang",
+          "text": "Station IPM yang tidak menyebut CT scan, MRI, atau lab darah akan dianggap tidak lengkap. Sebut minimal 1 penunjang dengan rasional dan interpretasi yang mungkin.",
+          "answer_evidence": "Rubrik Penilaian OSCE FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_ipm_kelainan_saraf_tabel_diferensiasi_02"
+      ],
+      "glossary_refs": [
+        "gls_neuro_skill_diagnosis_banding_05",
+        "gls_neuro_skill_clinical_reasoning_06"
+      ],
+      "bilingual": "Section ini mengajarkan clinical reasoning dan pasca-prosedur. Ingat formula 3 lapis (klinis-topis-etiologis) dan 3 kesalahan fatal yang menurunkan nilai drastis."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan (CT scan, MRI, lab) dan prinsip tatalaksana klinis untuk kondisi neurologis akut dan non-akut.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang dalam konteks neurologi bertujuan untuk mengkonfirmasi diagnosis klinis dan menentukan tatalaksana yang tepat. Pemeriksaan seperti CT scan, MRI, dan tes laboratorium sering digunakan untuk mengevaluasi kondisi neurologis. Prinsip tatalaksana klinis melibatkan pemberian terapi simptomatik dan edukasi pasien tentang kondisi mereka. Mahasiswa harus memahami kapan harus merujuk pasien untuk penanganan lebih lanjut dan ke mana harus merujuk berdasarkan temuan klinis.",
+          "tone": "narrative",
+          "source": "§10-§11 file sumber"
+        },
+        {
+          "text": "Pemeriksaan penunjang WAJIB disebutkan meski tidak tersedia di station OSCE. Tujuannya menunjukkan bahwa klinisi paham algoritma diagnostik, bukan menunggu hasil laboratorium di station. Untuk stroke akut: CT scan kepala tanpa kontras dalam 25 menit (door-to-CT), CT-angiografi, laboratorium (DPL, fungsi ginjal, koagulasi, gula darah, EKG, troponin). Untuk meningitis: pungsi lumbal dengan analisis CSS, kultur, dan PCR. Untuk BPPV: diagnosis klinis dengan Dix-Hallpike, MRI hanya jika curiga penyebab sentral.",
+          "tone": "clinical",
+          "source": "Algoritma diagnostik neurologi, AHA 2020, IDSA 2017"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alur manajemen klinis pasca diagnosis:",
+          "sub": [
+            "Evaluasi temuan klinis dan stabilisasi ABC (Airway, Breathing, Circulation)",
+            "Tentukan pemeriksaan penunjang sesuai diagnosis kerja dan DD",
+            "Berikan terapi simptomatik (analgesik, antiemetik, antipiretik)",
+            "Berikan terapi definitif sesuai diagnosis (antikoagulan, antivirus, dll)",
+            "Edukasi pasien dan keluarga tentang kondisi dan tatalaksana",
+            "Rujuk jika diperlukan (ke spesialis saraf, ICU, atau RS tipe B)"
+          ],
+          "bold": true,
+          "source": "§11 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan yang WAJIB disebutkan meski tidak di station",
+          "text": "CT scan kepala untuk stroke akut (door-to-CT target 25 menit, door-to-needle trombolisis target 60 menit). Sebutkan meskipun tidak ada di station — ini menunjukkan pemahaman algoritma.",
+          "answer_evidence": "AHA/ASA Guidelines 2020"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Rekomendasi guideline stroke iskemik",
+          "text": "Trombolisis dengan rtPA intravena 0.9 mg/kg dalam 4.5 jam onset (sampai 9 jam dengan pencitraan perfusi) atau trombektomi mekanik pada oklusi LVO dalam 24 jam onset. Door-to-needle target 60 menit.",
+          "answer_evidence": "AHA/ASA Guidelines 2020"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_skill_ct_scan_07"
+      ],
+      "bilingual": "Section ini mengajarkan pemilihan penunjang dan prinsip tatalaksana. Selalu sebut minimal 1 penunjang meski tidak tersedia di station, dengan rasional dan target waktu."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi pasien, safety net kapan harus kembali, dan contoh dokumentasi SOAP lengkap untuk kasus migren sebagai skenario representatif.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Contoh SOAP lengkap diisi data skenario klinis migren: S (Subjective): Pasien mengeluh nyeri kepala berdenyut sejak 3 hari yang lalu, diperberat oleh cahaya terang. O (Objective): TTV dalam batas normal, GCS 15, tidak ada defisit neurologis. A (Assessment): Migren tanpa aura. P (Plan): Berikan Paracetamol 500 mg, edukasi pasien untuk menghindari pemicu seperti cahaya terang, dan anjurkan istirahat yang cukup.",
+          "tone": "narrative",
+          "source": "§12-§13 file sumber"
+        },
+        {
+          "text": "Edukasi pasien di station IPM harus diakhiri dengan safety net: 'Jika gejala memberat atau muncul tanda bahaya [sebutkan red flags spesifik], segera kembali ke IGD atau hubungi dokter.' Untuk migren: sakit kepala hebat mendadak, kelemahan fokal, kejang, atau penurunan kesadaran. Untuk stroke: kelemahan fokal, bicara pelo, mulut mencong, penglihatan ganda, atau gangguan keseimbangan. Edukasi yang lengkap mencakup red flags, kepatuhan obat, kontrol, dan pencegahan.",
+          "tone": "clinical",
+          "source": "Prinsip edukasi pasien dan discharge planning"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "6 poin edukasi wajib:",
+          "sub": [
+            "Jelaskan pentingnya menghindari pemicu (cahaya, stres, makanan tertentu, kurang tidur)",
+            "Anjurkan pola tidur yang teratur (7-8 jam) dan aktivitas fisik ringan",
+            "Edukasi penggunaan obat yang tepat (dosis, waktu, efek samping,hindari overuse analgesik)",
+            "Tekankan pentingnya kontrol tekanan darah dan komorbiditas",
+            "Sarankan untuk menghindari stres berlebihan dan kelola dengan teknik relaksasi",
+            "Informasikan tanda bahaya (red flags) yang memerlukan perhatian medis segera"
+          ],
+          "bold": true,
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "SAFETY NET — Kapan pasien harus kembali segera:",
+          "sub": [
+            "Jika nyeri kepala semakin parah atau tidak membaik dengan obat",
+            "Jika muncul gejala baru seperti kelemahan, kebas, atau bicara pelo",
+            "Jika ada perubahan dalam penglihatan (diplopia, kehilangan penglihatan)",
+            "Jika obat tidak memberikan efek setelah 2-3 hari",
+            "Jika muncul kejang, penurunan kesadaran, atau muntah berulang"
+          ],
+          "bold": true,
+          "source": "§13 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk diagnosis utama",
+          "text": "Migren tanpa aura = G43.0; Migren dengan aura = G43.1; Stroke iskemik = I63; Stroke hemoragik = I61; Bell's Palsy = G51.0; BPPV = H81.1; GBS = G61.0. Hafalkan kode ICD-10 untuk diagnosis umum neurologi.",
+          "answer_evidence": "ICD-10 WHO 2019"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi yang paling sering dilupakan",
+          "text": "'Pastikan Anda minum obat sesuai anjuran dan hindari pemicu yang diketahui. Jika gejala memberat, segera kembali ke IGD.' Kalimat ini menutup station dengan safety net yang jelas.",
+          "answer_evidence": "Panduan discharge planning FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_skill_migren_08",
+        "gls_neuro_skill_soap_10"
+      ],
+      "bilingual": "Section ini mengajarkan edukasi dan dokumentasi SOAP. Akhiri station dengan safety net yang spesifik (sebutkan red flags sesuai diagnosis), dan dokumentasikan SOAP secara lengkap."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Tabel SKDI 4A untuk diagnosis neurologis utama, serta mini-skrip dialog komunikasi OSCE dari pembukaan hingga penutupan station.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Mini-skrip dialog lengkap dari pembukaan sampai penutupan station IPM Neuro: [DOKTER]: 'Selamat pagi, saya dokter [Nama], saya akan melakukan pemeriksaan saraf; mohon izin.' [PASIEN]: 'Silakan, Dok.' [DOKTER]: 'Apakah Anda merasakan nyeri kepala yang sangat mengganggu?' [PASIEN]: 'Ya, Dok, terutama saat terkena cahaya.' [DOKTER]: 'Baik, saya akan memeriksa lebih lanjut dan memberikan penanganan yang sesuai.' (bold pada kalimat kritis: salam, izin, konfirmasi keluhan, dan rencana tindak lanjut).",
+          "tone": "narrative",
+          "source": "§14-§15 file sumber"
+        },
+        {
+          "text": "Standar Kompetensi Dokter Indonesia (SKDI) 4A adalah level yang diharapkan untuk mahasiswa kedokteran yang akan lulus: mampu menegakkan diagnosis dan tatalaksana kondisi dengan supervisi. Diagnosis SKDI 4A yang relevan untuk neurologi: migren (G43.0), Bell's Palsy (G51.0), BPPV (H81.1). Diagnosis SKDI 3B (lebih tinggi): stroke iskemik (I63), GBS (G61.0) — yang memerlukan rujukan segera.",
+          "tone": "clinical",
+          "source": "SKDI 2012 KKI"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan khusus komunikasi untuk topik IPM Neuro:",
+          "sub": [
+            "Pastikan untuk selalu mendapatkan izin sebelum memulai pemeriksaan",
+            "Jelaskan setiap langkah kepada pasien ('Saya akan mengukur tekanan darah Anda')",
+            "Berikan jeda setelah pertanyaan untuk pasien menjawab",
+            "Gunakan bahasa yang jelas, hindari istilah medis berlebihan",
+            "Akhiri dengan konfirmasi pemahaman pasien dan safety net",
+            "Sebut nama pasien dengan benar untuk personalisasi"
+          ],
+          "bold": true,
+          "source": "§14 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH dilewatkan (fatal bila lupa)",
+          "text": "'Apakah Anda merasakan nyeri kepala yang sangat mengganggu?' — kalimat ini WAJIB diucapkan untuk skenario nyeri kepala; tanpanya, penguji menilai anamnesis tidak lengkap.",
+          "answer_evidence": "Rubrik Penilaian OSCE FKIK Universitas Jambi"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara membuka station paling efektif",
+          "text": "'Selamat pagi, saya dokter [Nama], saya akan melakukan pemeriksaan saraf; mohon izin.' — kalimat ini memenuhi 4 komponen sekaligus: salam, identifikasi, penjelasan, dan izin.",
+          "answer_evidence": "Modul Komunikasi Klinis FKIK"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_neuro_skill_migren_08",
+        "gls_neuro_skill_stroke_iskemik_09"
+      ],
+      "bilingual": "Section ini mengajarkan SKDI 4A dan mini-skrip komunikasi. Hafalkan dialog pembuka dan penutup, dan pahami level SKDI diagnosis utama neurologi."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri 20 item, rencana belajar 3 hari, dan 4 kesalahan fatal [FATAL] yang wajib dihindari dalam OSCE IPM Neuro.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kriteria 'siap OSCE' melibatkan pemahaman yang mendalam tentang alur pemeriksaan dan kemampuan untuk menerapkannya dalam skenario klinis. Mahasiswa harus dapat melakukan pemeriksaan dengan percaya diri dan memberikan edukasi yang tepat kepada pasien. Latihan mandiri dan persiapan ujian harus difokuskan pada penguasaan checklist dan kemampuan untuk mengidentifikasi dan menghindari kesalahan fatal yang dapat mempengaruhi nilai OSCE.",
+          "tone": "narrative",
+          "source": "§16-§18 file sumber"
+        },
+        {
+          "text": "Rencana belajar 3 hari: Hari 1 (3 jam) — kuasai checklist dan urutan pemeriksaan, hafal alur 8 langkah IPM, baca ulang modul dan glossary. Hari 2 (4 jam) — simulasi OSCE dengan teman, lakukan 4 skenario utama (penurunan kesadaran, nyeri kepala + demam, kelemahan fokal, vertigo), self-record dan evaluasi. Hari 3 (2 jam) — evaluasi dan koreksi, identifikasi kelemahan, latihan lagi pada area lemah, persiapan mental.",
+          "tone": "procedure",
+          "source": "Strategi belajar 3 hari OSCE FKIK"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI (20 item, prioritas TINGGI/SEDANG):",
+          "sub": [
+            "Hafalkan urutan pemeriksaan neurologis (TINGGI)",
+            "Latihan anamnesis dengan teman (SEDANG)",
+            "Simulasi pemeriksaan fisik lengkap (TINGGI)",
+            "Diskusikan diagnosis banding dengan penguji (SEDANG)",
+            "Latihan memberikan edukasi pasien (TINGGI)",
+            "Evaluasi dan catat temuan pemeriksaan (SEDANG)",
+            "Latihan penggunaan alat diagnostik (TINGGI)",
+            "Simulasi komunikasi dengan pasien (SEDANG)",
+            "Review red flags dan kapan harus merujuk (TINGGI)",
+            "Latihan dokumentasi SOAP (SEDANG)",
+            "Diskusikan kasus klinis dengan teman (SEDANG)",
+            "Latihan interpretasi hasil penunjang (TINGGI)",
+            "Simulasi tatalaksana awal (TINGGI)",
+            "Latihan membuat rencana pemeriksaan penunjang (SEDANG)",
+            "Review guideline nasional (TINGGI)",
+            "Latihan menyusun diagnosis kerja (TINGGI)",
+            "Simulasi edukasi keluarga pasien (SEDANG)",
+            "Latihan mengidentifikasi kesalahan fatal (TINGGI)",
+            "Diskusikan strategi menghadapi OSCE (SEDANG)",
+            "Latihan mengelola waktu selama OSCE (TINGGI)"
+          ],
+          "bold": true,
+          "source": "§16 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL #1] Tidak menanyakan onset",
+          "text": "Fatal pada stroke/kejang/penurunan kesadaran. Onset wajib untuk semua kasus neurologi — tanyakan 'Sejak kapan gejala ini muncul?' dan 'Last known well' untuk stroke.",
+          "answer_evidence": "AHA/ASA Guidelines 2020"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL #2] Tidak menyebut penunjang",
+          "text": "IPM tidak lengkap tanpa penunjang. Sebut minimal 1 (CT scan, MRI, atau laboratorium) dengan rasional. Contoh: 'Kita perlu CT scan kepala untuk membedakan stroke iskemik dan hemoragik.'",
+          "answer_evidence": "Rubrik OSCE FKIK"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL #3] Tidak membedakan diagnosis klinis-topis-etiologis",
+          "text": "Reasoning neurologi tampak lemah tanpa formula 3 lapis. Selalu sebut: klinis (stroke), topis (sirkulasi otak), etiologis (iskemik/hemoragik).",
+          "answer_evidence": "Panduan Reasoning Neurologi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL #4] Lupa edukasi keluarga",
+          "text": "Nilai komunikasi hilang tanpa edukasi keluarga. Akhiri dengan red flags (kapan kembali ke IGD), kepatuhan obat, jadwal kontrol, dan pencegahan.",
+          "answer_evidence": "Komunikasi Klinis dan Discharge Planning"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pemeriksaan terlalu luas tanpa arah",
+          "text": "Waktu habis sebelum diagnosis/tatalaksana jika pemeriksaan terlalu luas. Pilih pemeriksaan berdasar keluhan utama dan red flags, bukan melakukan semua 8 komponen secara merata.",
+          "answer_evidence": "Time Management OSCE"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak menanyakan onset/last known well",
+          "text": "Sama fatalnya dengan FATAL #1. Onset wajib untuk semua kasus neurologi — tanpa onset, klasifikasi stroke (TPA-eligible vs non-eligible) tidak dapat ditentukan.",
+          "answer_evidence": "AHA/ASA Guidelines 2020"
+        }
+      ],
+      "visual_refs": [
+        "visual_ipm_kelainan_saraf_poster_osce_04"
+      ],
+      "glossary_refs": [
+        "gls_neuro_skill_diagnosis_banding_05"
+      ],
+      "bilingual": "Section ini adalah checklist latihan dan persiapan ujian. Gunakan rencana 3 hari dan waspadai 4 kesalahan fatal [FATAL] yang menurunkan nilai drastis."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Visual yang disarankan (flowchart, tabel diferensiasi, skema Dix-Hallpike), lampiran klinis (kontraindikasi, mini-case, kalimat pembuka), dan referensi guideline.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Visual yang disarankan dalam modul ini mencakup flowchart alur pemeriksaan neurologis, tabel diferensiasi antara migren dan tension-type headache, serta skema manuver Dix-Hallpike untuk BPPV. Visual ini bertujuan untuk membantu mahasiswa dalam memahami dan mengingat langkah-langkah penting dalam pemeriksaan dan tatalaksana kondisi neurologis. Lampiran klinis mencakup kontraindikasi dan red flags yang harus diwaspadai, serta mini-case OSCE yang dapat digunakan untuk latihan mandiri. Referensi yang digunakan dalam modul ini berasal dari berbagai sumber terpercaya, termasuk guideline nasional dan internasional.",
+          "tone": "narrative",
+          "source": "§19 dan Lampiran file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "VISUAL YANG DISARANKAN:",
+          "sub": [
+            "Flowchart alur pemeriksaan neurologis: membantu mengingat urutan 8 langkah IPM",
+            "Tabel diferensiasi migren vs tension-type headache: memudahkan identifikasi diagnosis",
+            "Skema manuver Dix-Hallpike: visualisasi langkah-langkah untuk diagnosis BPPV",
+            "Diagram pemilihan pemeriksaan per skenario klinis"
+          ],
+          "bold": true,
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi / Red Flags:",
+          "sub": [
+            "Penurunan kesadaran mendadak: indikasi stroke atau trauma kepala",
+            "Nyeri kepala hebat tiba-tiba (thunderclap): indikasi perdarahan subaraknoid",
+            "Kejang berulang tanpa pemulihan penuh: indikasi status epileptikus",
+            "Kelemahan fokal mendadak: indikasi stroke atau TIA"
+          ],
+          "bold": true,
+          "source": "Lampiran A"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah & Respons:",
+          "sub": [
+            "Nyeri kepala hebat tiba-tiba: lakukan CT scan kepala segera",
+            "Pasien menolak diperiksa: jelaskan tujuan dan risiko, hargai penolakan",
+            "Hasil pemeriksaan tidak meyakinkan: re-evaluasi, tambah penunjang, diskusi supervisor"
+          ],
+          "bold": true,
+          "source": "Lampiran B"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case:",
+          "sub": [
+            "Skenario Mudah: Pasien dengan nyeri kepala tegang, diagnosis tension-type headache, tatalaksana analgesik sederhana",
+            "Skenario Sedang: Pasien dengan migren, identifikasi pemicu (cahaya, stres), edukasi pola hidup dan obat",
+            "Skenario Sulit: Pasien dengan stroke iskemik, onset 2 jam, trombolisis, edukasi keluarga tentang red flags"
+          ],
+          "bold": true,
+          "source": "Lampiran C"
+        },
+        {
+          "text": "LAMPIRAN D — Kalimat Pembuka Station:",
+          "sub": [
+            "'Selamat pagi, saya dokter [Nama], saya akan melakukan pemeriksaan saraf; mohon izin.'",
+            "'Apakah Anda merasakan nyeri kepala yang sangat mengganggu?'",
+            "'Saya akan memeriksa lebih lanjut dan memberikan penanganan yang sesuai.'"
+          ],
+          "bold": true,
+          "source": "Lampiran D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk membuat visual",
+          "text": "Buat poster OSCE Bahasa Indonesia tentang Integrated Patient Management neurologi, berisi 8 langkah, 10 skenario, red flags, diagnosis klinis-topis-etiologis, desain A4 portrait bersih profesional.",
+          "answer_evidence": "Pedoman visual_asset_manifest CORTEX"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Guideline nasional/internasional yang relevan",
+          "text": "American Heart Association/American Stroke Association Guidelines for the Management of Stroke 2020; International League Against Epilepsy (ILAE) 2015 untuk kejang; International Headache Society 2018 untuk klasifikasi nyeri kepala.",
+          "answer_evidence": "AHA/ASA 2020, ILAE 2015, IHS 2018"
+        }
+      ],
+      "visual_refs": [
+        "visual_ipm_kelainan_saraf_flowchart_01",
+        "visual_ipm_kelainan_saraf_tabel_diferensiasi_02",
+        "visual_ipm_kelainan_saraf_skema_dix_hallpike_03"
+      ],
+      "glossary_refs": [],
+      "bilingual": "Section ini menyediakan visual, lampiran klinis, dan referensi. Gunakan mini-case (mudah-sedang-sulit) untuk latihan mandiri 3 hari, dan hafalkan kalimat pembuka dari Lampiran D."
+    }
+  ]
+}

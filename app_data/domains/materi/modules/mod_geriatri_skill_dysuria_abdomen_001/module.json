@@ -1,0 +1,1352 @@
+{
+  "id": "mod_geriatri_skill_dysuria_abdomen_001",
+  "title": "MODUL OSCE 6.2 — Integrated Skill Geriatri: Nyeri Saat BAK / Nyeri Perut + Pemeriksaan Abdomen",
+  "subtitle": "Anamnesis, pemeriksaan TTV, dan pemeriksaan abdomen pada laki-laki usia 60 tahun dengan keluhan urologi",
+  "domain": "geriatri_skill",
+  "batch_id": "batch_1",
+  "source_pdf": "OSCE_6.2_Batch1_Geriatri_Dysuria_Abdomen.docx",
+  "source_filename": "OSCE_6.2_Batch1_Geriatri_Dysuria_Abdomen.docx",
+  "topicTags": [
+    "osce_6_2",
+    "geriatri",
+    "dysuria",
+    "pemeriksaan_abdomen",
+    "isk",
+    "beers_criteria",
+    "polifarmasi_lansia",
+    "adl_iadl",
+    "anamnesis_geriatri",
+    "integrated_skill_geriatri"
+  ],
+  "summary": [
+    "Pada laki-laki usia 60 tahun, nyeri BAK tidak boleh otomatis dianggap sistitis sederhana; pikirkan BPH, prostatitis, retensi, batu, dan pielonefritis sebagai diagnosis banding utama.",
+    "Inkonsistensi file asli (nyeri BAK vs nyeri perut) diatasi dengan konfirmasi sopan: 'nyeri saat BAK' dan 'nyeri perut bawah/suprapubik' — ini menunjukkan clinical reasoning, bukan mengoreksi penguji.",
+    "Urutan baku pemeriksaan abdomen adalah inspeksi → auskultasi → perkusi → palpasi; auskultasi wajib SEBELUM palpasi/perkusi untuk menghindari perubahan bising usus.",
+    "Pada geriatri, fungsi ginjal menurun sehingga banyak obat perlu penyesuaian dosis; hindari nitrofurantoin pada eGFR <30 dan waspadai Beers Criteria (sulfonilurea long-acting, benzodiazepine, antikolinergik).",
+    "Polifarmasi (≥5 obat) umum pada lansia; selalu cek obat rutin pasien untuk interaksi sebelum menulis resep baru dan edukasi safety net tanda bahaya.",
+    "Tanda bahaya urologi geriatri: demam + menggigil + nyeri pinggang (pielonefritis/urosepsis), tidak bisa BAK + distensi suprapubik (retensi urin akut), hipotensi + takikardia (sepsis).",
+    "Antibiotik TIDAK diberikan hanya karena urin berbau atau dipstick positif tanpa gejala lokal/sistemik; pada laki-laki dan usia lanjut sangat diindikasikan kultur urine.",
+    "Dokumentasi SOAP menggunakan data skenario nyata (Tn. Dika 60 tahun) dengan kode ICD-10 yang sesuai: N30.0 (Cystitis akut) atau N40 (Hiperplasia prostat jinak).",
+    "Verbalisasi setiap tindakan adalah kunci nilai OSCE; penguji hanya bisa menilai apa yang Anda ucapkan — konfirmasi identitas, izin, exposure, dan edukasi harus diucapkan eksplisit.",
+    "Pasien geriatri memerlukan posisi aman (supine, lutut sedikit fleksi, exposure dari xiphoid sampai simfisis pubis), privasi terjaga, dan palpasi aorta yang lembut karena risiko aneurisma."
+  ],
+  "exam_focus": [
+    "Hafal urutan checklist 32 poin dan urutan baku pemeriksaan abdomen: inspeksi → auskultasi → perkusi → palpasi.",
+    "Kuasai pola anamnesis BAK-PROSTAT-BAHAYA-KOMORBID-IMS untuk menggali nyeri BAK pada laki-laki usia lanjut tanpa melewatkan red flags.",
+    "Konfirmasi keluhan inkonsisten (nyeri BAK + nyeri perut) dengan sopan — jangan mengoreksi penguji/SP; tunjukkan clinical reasoning.",
+    "Bedakan ISK bawah, BPH/LUTS, prostatitis akut, pielonefritis, batu saluran kemih, dan retensi urin berdasarkan gejala khas dan temuan fisik.",
+    "Tulis SOAP dengan kode ICD-10 yang sesuai (N30.0 untuk sistitis, N40 untuk BPH, N11.9 untuk pielonefritis) di akhir baris Assessment.",
+    "Konfirmasi obat rutin (polifarmasi) dan alergi sebelum menulis resep baru; cek interaksi dengan Beers Criteria.",
+    "Pertimbangkan penyesuaian dosis untuk fungsi ginjal (eGFR) dan Beers Criteria pada pasien usia ≥65 tahun.",
+    "Edukasi hidrasi cukup, jangan menahan BAK, kepatuhan antibiotik, dan safety net (kapan kembali segera).",
+    "Verbalisasi setiap tindakan; privasi dan martabat pasien geriatri harus dijaga di setiap langkah pemeriksaan.",
+    "Palpasi aorta harus LEMBUT pada lansia (risiko aneurisma), dan auskultasi selalu dilakukan SEBELUM palpasi/perkusi untuk menjaga validitas bising usus."
+  ],
+  "glossary": [
+    {
+      "id": "gls_dysuria_abdo_dysuria",
+      "term": "Dysuria",
+      "def": "Nyeri saat buang air kecil. Definisi: sensasi nyeri, rasa panas, atau tidak nyaman saat berkemih, dapat disebabkan infeksi, batu, atau iritasi saluran kemih. Definisi sederhana: sakit waktu kencing.",
+      "type": "clinical",
+      "aliases": [
+        "nyeri BAK",
+        "disuria",
+        "painful urination"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_luts",
+      "term": "LUTS (Lower Urinary Tract Symptoms)",
+      "def": "Gejala saluran kemih bawah. Definisi: gejala yang berkaitan dengan penyimpanan (frekuensi, urgensi, nokturia) atau pengeluaran (hesitansi, pancaran lemah, terminal dribbling) urin. Definisi sederhana: gangguan BAK bagian bawah.",
+      "type": "clinical",
+      "aliases": [
+        "gejala saluran kemih bawah",
+        "lower urinary tract symptoms"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_bph",
+      "term": "BPH (Benign Prostatic Hyperplasia)",
+      "def": "Hiperplasia prostat jinak. Definisi: pembesaran non-kanker kelenjar prostat yang umum pada laki-laki usia lanjut, menyebabkan gejala LUTS. Definisi sederhana: prostat membesar jinak.",
+      "type": "clinical",
+      "aliases": [
+        "hiperplasia prostat jinak",
+        "pembesaran prostat jinak",
+        "benign prostatic hyperplasia"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_pielonefritis",
+      "term": "Pielonefritis",
+      "def": "Infeksi saluran kemih atas. Definisi: infeksi bakteri pada pielum dan parenkim ginjal, biasanya oleh E. coli, ditandai demam, nyeri pinggang, dan mual. Definisi sederhana: infeksi ginjal.",
+      "type": "clinical",
+      "aliases": [
+        "ISK atas",
+        "pyelonephritis",
+        "infeksi ginjal"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_cva",
+      "term": "CVA Tenderness",
+      "def": "Nyeri ketok sudut kostovertebral. Definisi: nyeri pada sudut kostovertebral (antara processus spinosus vertebrae dan arcus costae) saat diketok, tanda pielonefritis atau batu. Definisi sederhana: sakit saat pinggang diketok.",
+      "type": "procedure",
+      "aliases": [
+        "nyeri ketok pinggang",
+        "ketok CVA",
+        "costovertebral angle tenderness"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_polifarmasi",
+      "term": "Polifarmasi",
+      "def": "Penggunaan banyak obat bersamaan. Definisi: konsumsi ≥5 obat secara bersamaan, meningkatkan risiko interaksi obat, efek samping, dan kesalahan minum obat, umum pada geriatri. Definisi sederhana: banyak obat sekaligus.",
+      "type": "clinical",
+      "aliases": [
+        "polypharmacy",
+        "penggunaan banyak obat",
+        "polifarmasi geriatri"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_beers",
+      "term": "Beers Criteria",
+      "def": "Daftar obat yang harus dihindari pada lansia. Definisi: panduan dari American Geriatrics Society yang merekomendasikan obat-obat yang harus dihindari atau digunakan hati-hati pada pasien usia ≥65 tahun. Definisi sederhana: daftar obat berbahaya untuk lansia.",
+      "type": "score",
+      "aliases": [
+        "kriteria Beers",
+        "Beers list",
+        "daftar obat lansia"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_urutan",
+      "term": "Pemeriksaan Abdomen Urutan Baku",
+      "def": "Inspeksi → Auskultasi → Perkusi → Palpasi. Definisi: urutan standar pemeriksaan abdomen untuk menghindari perubahan bising usus oleh manipulasi fisik. Definisi sederhana: lihat-dengar-ketuk-raba.",
+      "type": "procedure",
+      "aliases": [
+        "urutan baku abdomen",
+        "standard abdominal exam sequence",
+        "inspeksi-auskultasi-perkusi-palpasi"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_soap",
+      "term": "SOAP",
+      "def": "Format dokumentasi medis. Definisi: Subjective, Objective, Assessment, Plan — format standar rekam medis pasien. Definisi sederhana: cara menulis catatan medis pasien.",
+      "type": "procedure",
+      "aliases": [
+        "Subjective Objective Assessment Plan",
+        "dokumentasi SOAP",
+        "rekam medis SOAP"
+      ]
+    },
+    {
+      "id": "gls_dysuria_abdo_giants",
+      "term": "Sindrom Geriatri (Geriatric Giants)",
+      "def": "Pola penyakit geriatri. Definisi: empat pola klinis utama pada lansia — Immobility, Instability (jatuh), Incontinence, Intellectual impairment (demensia) — ditambah delirium, malnutrisi, dan isolasi sosial. Definisi sederhana: masalah kesehatan khas lansia.",
+      "type": "clinical",
+      "aliases": [
+        "geriatric giants",
+        "sindrom geriatri",
+        "4 I pada lansia"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_dysuria_abdo_01",
+      "term_id": "Nyeri saat BAK (Dysuria)",
+      "term_en": "Painful urination (Dysuria)",
+      "context": "Nyeri atau rasa panas saat berkemih; pada laki-laki usia lanjut jangan otomatis dianggap sistitis."
+    },
+    {
+      "id": "bil_dysuria_abdo_02",
+      "term_id": "ISK (Infeksi Saluran Kemih)",
+      "term_en": "UTI (Urinary Tract Infection)",
+      "context": "Infeksi bakteri pada saluran kemih; pada laki-laki perlu kultur dan evaluasi urologi."
+    },
+    {
+      "id": "bil_dysuria_abdo_03",
+      "term_id": "BPH (Benign Prostatic Hyperplasia)",
+      "term_en": "BPH (Benign Prostatic Hyperplasia)",
+      "context": "Pembesaran prostat jinak penyebab LUTS pada laki-laki usia lanjut."
+    },
+    {
+      "id": "bil_dysuria_abdo_04",
+      "term_id": "Pemeriksaan CVA",
+      "term_en": "Costovertebral angle tenderness",
+      "context": "Nyeri ketok pada sudut kostovertebral; tanda pielonefritis atau batu."
+    },
+    {
+      "id": "bil_dysuria_abdo_05",
+      "term_id": "Polifarmasi",
+      "term_en": "Polypharmacy",
+      "context": "Penggunaan banyak obat (≥5) bersamaan, umum pada geriatri."
+    },
+    {
+      "id": "bil_dysuria_abdo_06",
+      "term_id": "Beers Criteria",
+      "term_en": "Beers Criteria",
+      "context": "Daftar obat yang harus dihindari pada lansia."
+    },
+    {
+      "id": "bil_dysuria_abdo_07",
+      "term_id": "Safety net",
+      "term_en": "Safety net",
+      "context": "Instruksi kapan pasien harus kembali segera."
+    },
+    {
+      "id": "bil_dysuria_abdo_08",
+      "term_id": "Urutan baku abdomen",
+      "term_en": "Standard abdominal exam sequence",
+      "context": "Inspeksi → Auskultasi → Perkusi → Palpasi."
+    },
+    {
+      "id": "bil_dysuria_abdo_09",
+      "term_id": "Sindrom geriatri",
+      "term_en": "Geriatric syndromes",
+      "context": "Immobility, instability, incontinence, intellectual impairment."
+    },
+    {
+      "id": "bil_dysuria_abdo_10",
+      "term_id": "Hipogastrium/suprapubik",
+      "term_en": "Suprapubic region",
+      "context": "Area kandung kemih; penting untuk retensi urin dan sistitis."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_dysuria_abdo_urutan_baku_01",
+      "module_id": "mod_geriatri_skill_dysuria_abdomen_001",
+      "section_id": "s05",
+      "type": "flowchart",
+      "generation_prompt": "Ilustrasi medis realistis dokter memeriksa abdomen pasien laki-laki usia 60 tahun, area perut terekspos secukupnya dan diselimuti bagian dada dan genital, dokter berdiri di sisi kanan pasien. Tampilkan 4 langkah urutan baku: (1) inspeksi dengan tangan di samping; (2) auskultasi dengan stetoskop di abdomen; (3) perkusi dengan jari mengetuk; (4) palpasi dengan kedua tangan menekan ringan. Gaya clean medical textbook, warna natural, label jelas untuk setiap langkah.",
+      "alt": "Ilustrasi urutan baku pemeriksaan abdomen pada pasien geriatri: inspeksi, auskultasi, perkusi, palpasi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/urutan_baku.png"
+    },
+    {
+      "id": "visual_dysuria_abdo_4_kuadran_02",
+      "module_id": "mod_geriatri_skill_dysuria_abdomen_001",
+      "section_id": "s05",
+      "type": "diagram",
+      "generation_prompt": "Infografik 4 kuadran abdomen dengan label: RUQ (Right Upper Quadrant: hati, kandung empedu, bagian duodenum), LUQ (Left Upper Quadrant: lambung, limpa, pankreas), RLQ (Right Lower Quadrant: sekum, apendiks, ovarium kanan), LLQ (Left Lower Quadrant: sigmoid, kolon desenden). Highlight area suprapubik (hipogastrium) yang berisi kandung kemih sebagai fokus utama keluhan nyeri BAK. Garis horisontal dan vertikal membagi abdomen. Gaya clean medical textbook dengan label teks jelas.",
+      "alt": "Infografik 4 kuadran abdomen dengan fokus suprapubik untuk nyeri BAK dan label organ utama tiap kuadran.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/4_kuadran.png"
+    },
+    {
+      "id": "visual_dysuria_abdo_9_regio_03",
+      "module_id": "mod_geriatri_skill_dysuria_abdomen_001",
+      "section_id": "s05",
+      "type": "diagram",
+      "generation_prompt": "Infografik 9 region abdomen dengan label: hipokondrium kanan (hati, GB), epigastrium (lambung, pankreas), hipokondrium kiri (limpa, lambung); region lumbal kanan (ginjal kanan), umbilikus (usus halus), lumbal kiri (ginjal kiri); region iliaka/inguinal kanan (sekum, apendiks), hipogastrium/suprapubik (kandung kemih, uterus), iliaka kiri (sigmoid). Tampilkan garis midklavikula dan subkostal/intertuberkular. Gaya clean medical textbook dengan warna lembut.",
+      "alt": "Infografik 9 region abdomen dengan label organ di setiap region dan garis khayal yang membagi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/9_regio.png"
+    },
+    {
+      "id": "visual_dysuria_cva_tenderness_04",
+      "module_id": "mod_geriatri_skill_dysuria_abdomen_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi pemeriksaan CVA tenderness pada pasien duduk atau berdiri membelakangi dokter. Dokter meletakkan satu tangan flat di area sudut kostovertebral (antara processus spinosus vertebrae dan arcus costae bagian bawah) dan mengetuk dengan kepalan tangan satunya. Tampilkan kedua sisi (kanan dan kiri) untuk evaluasi banding. Gaya clean medical textbook dengan label 'CVA Tenderness'.",
+      "alt": "Ilustrasi pemeriksaan CVA tenderness dengan posisi tangan dan ketok pada sudut kostovertebral.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/cva_tenderness.png"
+    },
+    {
+      "id": "visual_dysuria_decision_tree_05",
+      "module_id": "mod_geriatri_skill_dysuria_abdomen_001",
+      "section_id": "s05",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart algoritme triase dysuria pada laki-laki usia 60 tahun. Mulai dari kotak 'Dysuria pada laki-laki 60 tahun' bercabang: (1) Toksik/hipotensi/tidak bisa BAK → Rujuk emergensi; (2) Red flags (demam + nyeri pinggang, hematuria gross, retensi) → Kultur darah, fungsi ginjal, rujuk; (3) Gejala LUTS predominan → Urinalisis, kultur, IPSS, alfa blocker; (4) Gejala ISK predominan → Urinalisis, kultur, antibiotik empiris sesuai PPK. Warna merah untuk cabang rujuk, kuning untuk cabang waspada, hijau untuk cabang rawat jalan. Gaya clean medical textbook.",
+      "alt": "Flowchart triase dysuria pada laki-laki usia lanjut dengan 4 cabang keputusan: emergensi, red flags, LUTS, ISK.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/decision_tree.png"
+    },
+    {
+      "id": "visual_dysuria_palpasi_hati_limpa_06",
+      "module_id": "mod_geriatri_skill_dysuria_abdomen_001",
+      "section_id": "s05",
+      "type": "diagram",
+      "generation_prompt": "Diagram teknik palpasi hati dan limpa. Tampilkan dua sisi: (1) Palpasi hati: tangan dokter dari RLQ (right lower quadrant) bergerak ke arah arcus costae kanan saat pasien inspirasi dalam, pasien supine; (2) Palpasi limpa: tangan dokter dari RLQ bergerak ke arah LUQ (left upper quadrant) saat pasien inspirasi dalam. Tampilkan panah arah gerakan dan sinkronisasi dengan napas. Gaya clean medical textbook dengan label langkah.",
+      "alt": "Diagram palpasi hati dan limpa dengan panah arah gerakan dari RLQ menuju arcus costae/LUQ saat inspirasi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/palpasi_hati_limpa.png"
+    },
+    {
+      "id": "visual_dysuria_palpasi_ginjal_07",
+      "module_id": "mod_geriatri_skill_dysuria_abdomen_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi teknik palpasi bimanual ginjal (ballotement). Tampilkan posisi: pasien supine, dokter di sisi kanan pasien; satu tangan di belakang (posterior) di area sudut kostovertebral, tangan satunya di anterior perut; dokter menekan kedua tangan bersamaan untuk merasakan ballotement ginjal. Tampilkan kedua sisi (kanan dan kiri) untuk evaluasi. Gaya clean medical textbook dengan label 'Bimanual Ballotement'.",
+      "alt": "Ilustrasi palpasi bimanual ginjal dengan satu tangan di posterior dan satu tangan di anterior abdomen.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/palpasi_ginjal.png"
+    },
+    {
+      "id": "visual_dysuria_edukasi_poster_08",
+      "module_id": "mod_geriatri_skill_dysuria_abdomen_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Poster edukasi pasien ISK/BPH untuk lansia dengan bahasa sederhana. Tampilkan 5 poin utama dengan ikon: (1) Minum cukup 8 gelas/hari (ikon gelas); (2) Jangan menahan BAK (ikon jam); (3) Catat frekuensi BAK malam (ikon bulan); (4) Kontrol ulang 48-72 jam bila tidak membaik (ikon kalender); (5) Segera ke IGD bila demam, nyeri pinggang, tidak bisa BAK (ikon rumah sakit). Warna lembut, font besar dan jelas, bahasa Indonesia.",
+      "alt": "Poster edukasi ISK/BPH untuk lansia dengan 5 poin utama: hidrasi, jangan menahan BAK, catat nokturia, kontrol ulang, tanda bahaya.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_dysuria_abdomen_001/assets/edukasi_poster.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s01",
+      "type": "content",
+      "source_query": "Standarisasi format shell cortex-shell-reusable v2.0",
+      "source_reference": "Stage 1 Package v2.0 (Shell-Compatible) — Cortex Skill Lab 6",
+      "confidence": "high",
+      "note": "Bagian METADATA MODUL, OVERVIEW, LEARNING GOALS, KEY POINTS mengikuti format shell cortex-shell-reusable v2.0."
+    },
+    {
+      "section_id": "s02",
+      "type": "content",
+      "source_query": "Item checklist OSCE geriatri halaman 2-3 PDF",
+      "source_reference": "PDF Integrated Skill Geriatri 1 halaman 2-3 — FKIK Universitas Jambi TA 2024-2025",
+      "confidence": "high",
+      "note": "Tabel 5 kolom pada s02 dengan 32 baris item checklist lengkap (sama dengan jumlah item di dokumen asli §3)."
+    },
+    {
+      "section_id": "s04",
+      "type": "content",
+      "source_query": "Penilaian status fungsional geriatri",
+      "source_reference": "PROMPT_DOMAIN2_AnakGeriatri_S2.md — Domain 2 attachment",
+      "confidence": "high",
+      "note": "H2 tambahan Penilaian Status Fungsional, Tanda Ortostatik, dan Kognitif Singkat pada s04 mengikuti panduan Domain 2 attachment."
+    },
+    {
+      "section_id": "s03",
+      "type": "content",
+      "source_query": "Standar minimum 4 callout danger",
+      "source_reference": "BATASAN_STAGE2.md L7 — standar callout danger untuk modul Geriatri",
+      "confidence": "high",
+      "note": "6 callout danger pada s03 (memenuhi standar minimum 4)."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Contoh SOAP dengan data skenario nyata",
+      "source_reference": "PROMPT_DOMAIN2_AnakGeriatri_S2.md — skenario pasien fiktif Tn. Dika",
+      "confidence": "high",
+      "note": "Tabel SOAP pada s08 dengan data skenario nyata Tn. Dika."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Kesalahan fatal OSCE geriatri",
+      "source_reference": "BATASAN_STAGE2.md L5 dan Domain 2 attachment — kesalahan fatal polifarmasi, palpasi aorta, hand hygiene",
+      "confidence": "high",
+      "note": "6 callout danger pada s10 untuk kesalahan fatal (memenuhi standar minimum 6) ditambah 3 caution."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Diagnosis banding urologi geriatri",
+      "source_reference": "PROMPT_DOMAIN2_AnakGeriatri_S2.md — daftar diagnosis banding 6.2 Geriatri",
+      "confidence": "high",
+      "note": "Tabel diagnosis banding dan pembedaan cepat 5 kondisi pada s06."
+    },
+    {
+      "section_id": "glossary",
+      "type": "content",
+      "source_query": "Standar minimum 8 entri glossary",
+      "source_reference": "BATASAN_STAGE2.md L9 — glossary minimum 5, rekomendasi 8-10",
+      "confidence": "high",
+      "note": "10 istilah pada GLOSSARY (melebihi standar minimum 8)."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Mini-case khusus geriatri",
+      "source_reference": "PROMPT_DOMAIN2_AnakGeriatri_S2.md — pola skenario domain attachment",
+      "confidence": "high",
+      "note": "Mini-case khusus geriatri pada Lampiran C (Tn. Hadi 65 th, Tn. Rudi 70 th, Tn. Surya 68 th) sesuai dengan skenario domain attachment."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Beers Criteria dan penyesuaian dosis geriatri",
+      "source_reference": "PROMPT_DOMAIN2_AnakGeriatri_S2.md — catatan khusus Geriatri",
+      "confidence": "high",
+      "note": "Catatan khusus tentang Beers Criteria dan penyesuaian dosis untuk fungsi ginjal pada geriatri."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Modul geriatri untuk station OSCE Integrated Skill pada laki-laki usia 60 tahun (Tn. Dika) dengan keluhan nyeri BAK/nyeri perut dan pemeriksaan abdomen; skenario, target nilai, dan strategi membaca 3 hari sebelum ujian.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini disusun berdasarkan 'PDF Integrated Skill Geriatri 1, halaman 1-3' yang menjadi sumber file utama. Halaman 1 menjelaskan tujuan integrated skill, yaitu menggabungkan anamnesis, pemeriksaan fisik, diagnosis, terapi termasuk resep, dan edukasi. Halaman 2 menyebut kasus laki-laki 60 tahun (Tn. Dika) dengan keluhan nyeri saat BAK, tetapi bagian keluhan utama di skenario tertulis nyeri perut. Halaman 2-3 memuat checklist TTV dan pemeriksaan abdomen sampai pencatatan sistematis. Inkonsistensi file ini (nyeri BAK vs nyeri perut) harus ditangani dengan bijak: jangan mengoreksi penguji; konfirmasi keduanya secara sopan — 'nyeri saat BAK' dan 'nyeri perut bawah/suprapubik' — justru menunjukkan clinical reasoning yang baik. Yang paling sering dinilai di station ini: kemampuan melakukan pemeriksaan abdomen dengan urutan baku, menyingkirkan tanda bahaya, membedakan diagnosis banding saluran kemih, dan edukasi yang memperhatikan komorbid geriatri.",
+          "tone": "narrative",
+          "source": "Section s01 file sumber / PDF Integrated Skill Geriatri 1 halaman 1-3"
+        },
+        {
+          "text": "Cuplikan asli kasus halaman 2 dan checklist halaman 3 sudah tertanam di awal modul. Strategi membaca 3 hari sebelum OSCE: hafalkan urutan checklist → pahami alasan klinis → latih skrip 7 menit → ulang dengan timer. Pada laki-laki usia 60 tahun, nyeri BAK tidak boleh otomatis dianggap sistitis sederhana seperti pada wanita muda. Diagnosis banding utama: ISK bawah, BPH/LUTS, prostatitis akut, pielonefritis, batu saluran kemih, retensi urin akut, uretritis/IMS, atau nyeri abdomen non-urologi (konstipasi, hernia, apendisitis, divertikulitis). Pasien Tn. Dika adalah laki-laki 60 tahun retired, dengan riwayat BPH sejak 2 tahun yang sedang diterapi tamsulosin, DM tipe 2 terkontrol dengan metformin, dan hipertensi dengan amlodipin. Pada pasien ini, polifarmasi dan penurunan fungsi ginjal harus menjadi pertimbangan utama dalam tatalaksana.",
+          "tone": "narrative",
+          "source": "Section s01 file sumber / skenario Tn. Dika"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE:",
+          "sub": [
+            "Sambung rasa dengan menghormati privasi pasien geriatri",
+            "Anamnesis urologi dan abdomen terarah",
+            "Konfirmasi inkonsistensi keluhan (nyeri BAK + nyeri perut)",
+            "Pemeriksaan TTV (nadi, RR, suhu, TD)",
+            "Pemeriksaan abdomen urutan baku",
+            "Identifikasi red flags urologi (demam, retensi, sepsis)",
+            "Clinical reasoning diagnosis banding",
+            "Tatalaksana awal yang memperhatikan geriatri",
+            "Edukasi hidrasi dan tanda bahaya",
+            "Dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "Section s01 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi 3 hari sebelum OSCE",
+          "text": "Strategi membaca 3 hari sebelum OSCE: hafalkan urutan checklist → pahami alasan klinis → latih skrip 7 menit → ulang dengan timer.",
+          "answer_evidence": "Domain 2 attachment — rencana belajar mandiri"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tip konfirmasi inkonsistensi",
+          "text": "Tip paling penting untuk station ini: konfirmasi inkonsistensi (nyeri BAK + nyeri perut) dengan sopan, dan SELALU cek obat rutin pasien (polifarmasi) sebelum menulis resep baru.",
+          "answer_evidence": "Domain 2 attachment — pendekatan pasien geriatri"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_dysuria",
+        "gls_dysuria_abdo_luts",
+        "gls_dysuria_abdo_bph",
+        "gls_dysuria_abdo_pielonefritis",
+        "gls_dysuria_abdo_polifarmasi",
+        "gls_dysuria_abdo_beers",
+        "gls_dysuria_abdo_soap"
+      ],
+      "bilingual": "Section ini memetakan skenario Tn. Dika usia 60 tahun dengan nyeri BAK/nyeri perut dan 10 komponen yang paling sering dinilai di station OSCE geriatri. Konfirmasi inkonsistensi keluhan dilakukan secara sopan, bukan dengan mengoreksi penguji."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Alur praktis station OSCE geriatri dari masuk sampai keluar station, dengan checklist 32 poin lengkap beserta cara melakukan, kalimat yang diucapkan, dan kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur praktis OSCE geriatri dimulai dengan sapaan dan identifikasi pasien, konfirmasi keluhan utama, anamnesis urologi/abdomen, TTV, dan pemeriksaan abdomen lengkap. Kunci nilai tinggi: verbalisasi setiap tindakan. Pasien geriatri memerlukan pendekatan yang lebih pelan, jelas, dan memperhatikan privasi (terutama exposure area perut). Pada kasus Tn. Dika dengan inkonsistensi nyeri BAK/nyeri perut, langkah kritis adalah mengonfirmasi keduanya secara sopan. TTV mencakup nadi, respirasi, suhu aksila, dan tekanan darah; interpretasi harus dikaitkan dengan kemungkinan sepsis, dehidrasi, atau komplikasi. Pemeriksaan abdomen mengikuti urutan baku: inspeksi → auskultasi → perkusi → palpasi, dengan menyebut orientasi 4 kuadran dan 9 region, palpasi hati, limpa, ginjal (bimanual), dan aorta. Pada lansia, palpasi aorta harus lembut untuk mencegah ruptur aneurisma. Checklist 32 poin dari halaman 2-3 PDF sumber dimuat utuh pada tabel di bawah ini.",
+          "tone": "narrative",
+          "source": "Section s02 file sumber / PDF halaman 2-3"
+        },
+        {
+          "text": "[Tabel: Checklist 32 Poin OSCE Geriatri — Kolom: No | Item Checklist | Cara Melakukan | Kalimat Diucapkan | Kesalahan Menurunkan Nilai]. Isi ringkas: (1) Sambung rasa; (2) Identitas; (3) Konfirmasi keluhan utama (inkonsistensi!); (4) RPS/RPD/RPK/kebiasaan digabung; (5) Cross check; (6) Jelaskan prosedur & izin; (7) Cuci tangan; (8) Posisi pasien; (9) Nadi; (10) Respirasi; (11) Suhu aksila; (12) TD; (13) Exposure; (14) 4 kuadran & 9 region; (15) Organ per kuadran; (16) Inspeksi; (17) Angkat kepala hernia; (18) Auskultasi; (19) Palpasi 4 kuadran; (20) Palpasi hati; (21) Palpasi limpa; (22) Palpasi ginjal; (23) Palpasi aorta; (24) Perkusi hati; (25) Perkusi limpa; (26) Perkusi 4 kuadran; (27) Pencatatan; (28) Kesimpulan; (29) SOAP; (30) Edukasi hidrasi; (31) Konfirmasi obat rutin & alergi; (32) Penutupan station.",
+          "tone": "clinical",
+          "source": "Section s02 tabel checklist 32 poin"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE:",
+          "sub": [
+            "1. Membina sambung rasa dengan pasien",
+            "2. Menanyakan identitas pasien",
+            "3. Menanyakan dan memastikan keluhan utama (konfirmasi inkonsistensi)",
+            "4. Menggali RPS, RPD, RPK, kebiasaan, dan lingkungan",
+            "5. Cross check ringkasan keluhan",
+            "6. Jelaskan prosedur dan izin",
+            "7. Cuci tangan",
+            "8. Posisi pasien",
+            "9. Pemeriksaan nadi",
+            "10. Pemeriksaan respirasi",
+            "11. Suhu aksila",
+            "12. Tekanan darah",
+            "13. Exposure dan posisi pemeriksa",
+            "14. Orientasi 4 kuadran, 9 region, garis khayal",
+            "15. Sebutkan organ tiap kuadran",
+            "16. Inspeksi abdomen",
+            "17. Angkat kepala untuk hernia",
+            "18. Auskultasi bunyi usus",
+            "19. Palpasi 4 kuadran",
+            "20. Palpasi hati",
+            "21. Palpasi limpa",
+            "22. Palpasi ginjal kanan kiri",
+            "23. Palpasi aorta abdominalis",
+            "24. Perkusi lebar hati",
+            "25. Perkusi limpa",
+            "26. Perkusi 4 kuadran",
+            "27. Pencatatan hasil",
+            "28. Kesimpulan dan saran",
+            "29. Menulis sistematis (SOAP)",
+            "30. Edukasi hidrasi dan tanda bahaya",
+            "31. Konfirmasi obat rutin dan alergi",
+            "32. Penutupan station"
+          ],
+          "bold": true,
+          "source": "Section s02 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Privasi & izin pada geriatri",
+          "text": "Jangan langsung melakukan tindakan tanpa menjelaskan prosedur dan meminta izin. Pada pasien geriatri, perhatikan martabat dan privasi; minta izin sebelum exposure area perut.",
+          "answer_evidence": "SKDI 4A — informed consent & patient safety"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station",
+          "text": "Kalimat pembuka station yang paling efektif: 'Selamat pagi Pak Dika, saya dokter muda yang akan membantu memeriksa keluhan Bapak hari ini. Boleh saya konfirmasi identitas dan keluhan utamanya?'",
+          "answer_evidence": "Domain 2 attachment — opening script"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_dysuria",
+        "gls_dysuria_abdo_luts",
+        "gls_dysuria_abdo_bph",
+        "gls_dysuria_abdo_pielonefritis",
+        "gls_dysuria_abdo_polifarmasi",
+        "gls_dysuria_abdo_cva"
+      ],
+      "bilingual": "Section ini memaparkan alur OSCE 32 langkah dan kalimat siap ucapkan untuk membina sambung rasa, konfirmasi identitas, konfirmasi keluhan, dan menutup station pada pasien geriatri."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pola anamnesis BAK-PROSTAT-BAHAYA-KOMORBID-IMS untuk laki-laki usia 60 tahun dengan nyeri BAK, plus red flags yang wajib ditanyakan untuk membedakan ISK, BPH, prostatitis, pielonefritis, batu, dan retensi urin.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada laki-laki usia 60 tahun, nyeri saat BAK tidak boleh otomatis dianggap sistitis sederhana seperti pada wanita muda. Pikirkan kemungkinan: ISK bawah, BPH/LUTS, prostatitis akut, pielonefritis, batu saluran kemih, retensi urin akut, uretritis/IMS, atau bahkan nyeri abdomen non-urologi (konstipasi, hernia, apendisitis, divertikulitis). Gunakan pola anamnesis 'BAK-PROSTAT-BAHAYA-KOMORBID-IMS' agar tidak melewatkan informasi kritis. Tanyakan onset, frekuensi, urgensi, nokturia, hematuria, pancaran lemah, rasa tidak lampias, retensi, demam, menggigil, nyeri pinggang, dan gejala obstruksi prostat. Selalu cek riwayat komorbid (diabetes, BPH, batu ginjal, penyakit ginjal), operasi urologi, dan kateter. Pada geriatri, fungsi ginjal menurun sehingga pemilihan antibiotik harus hati-hati (hindari nitrofurantoin pada eGFR <30). Tanyakan IMS dengan bahasa sopan karena pasien usia 60 tahun masih mungkin memiliki faktor risiko. Konfirmasi alergi obat sebelum menulis resep; cek obat rutin pasien untuk interaksi.",
+          "tone": "narrative",
+          "source": "Section s03 file sumber / §4 Anamnesis Nyeri Saat BAK"
+        },
+        {
+          "text": "[Tabel: Pertanyaan Kunci Anamnesis — Kolom: Pertanyaan | Alasan Klinis | Tindakan bila Bermasalah]. Ringkasan 8 pertanyaan: (1) Dysuria, frekuensi, urgensi sejak kapan? → Onset ISK; (2) Pancaran lemah, hesitansi, nokturia, rasa tidak lampias? → LUTS/BPH; (3) Demam, menggigil, nyeri pinggang, mual? → Red flag pielonefritis/urosepsis; (4) Tidak bisa BAK, distensi suprapubik? → Retensi urin akut; (5) Hematuria gross, nyeri kolik? → Batu/keganasan; (6) Diabetes, penyakit ginjal, kateter? → Faktor risiko ISK berulang, penyesuaian dosis; (7) Alergi antibiotik? → Cegah reaksi obat; (8) Obat rutin apa saja? (polifarmasi) → Interaksi obat pada geriatri.",
+          "tone": "clinical",
+          "source": "Section s03 tabel anamnesis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci 1: Karakteristik BAK (onset, frekuensi, urgensi, nokturia, pancaran lemah, anyang-anyangan, retensi)",
+          "sub": [],
+          "bold": true,
+          "source": "Section s03 file sumber"
+        },
+        {
+          "text": "Pertanyaan kunci 2: Gejala obstruksi prostat (hesitansi, terminal dribbling, rasa tidak lampias)",
+          "sub": [],
+          "bold": true,
+          "source": "Section s03 file sumber"
+        },
+        {
+          "text": "Pertanyaan kunci 3: Gejala batu/ginjal (nyeri pinggang kolik, hematuria, mual)",
+          "sub": [],
+          "bold": true,
+          "source": "Section s03 file sumber"
+        },
+        {
+          "text": "Pertanyaan kunci 4: Red flags (demam, menggigil, nyeri pinggang, muntah, lemas, bingung, hipotensi, tidak bisa BAK)",
+          "sub": [],
+          "bold": true,
+          "source": "Section s03 file sumber"
+        },
+        {
+          "text": "Pertanyaan kunci 5: Komorbid (DM, BPH, batu, ginjal, kateter, alergi, fungsi ginjal)",
+          "sub": [],
+          "bold": true,
+          "source": "Section s03 file sumber"
+        },
+        {
+          "text": "Pertanyaan kunci 6: IMS dan kebiasaan (duh uretra, aktivitas seksual, menahan BAK, kafein/alkohol)",
+          "sub": [],
+          "bold": true,
+          "source": "Section s03 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Pielonefritis (red flag)",
+          "text": "Demam + menggigil + nyeri pinggang/CVA → curiga pielonefritis; perlu antibiotik sistemik dan kemungkinan rujuk.",
+          "answer_evidence": "NICE NG109 (2018) — upper UTI red flags"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Retensi urin akut (red flag)",
+          "text": "Tidak bisa BAK + distensi suprapubik + nyeri hebat → retensi urin akut; perlu dekompresi/kateterisasi segera.",
+          "answer_evidence": "NICE NG109 (2018) — acute urinary retention"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Urosepsis (emergensi)",
+          "text": "Hipotensi + takikardia + demam + nyeri pinggang → curiga urosepsis; rujuk emergensi, jangan tunda.",
+          "answer_evidence": "Surviving Sepsis Campaign 2021 — urosepsis red flags"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Hematuria + batu (red flag)",
+          "text": "Hematuria gross + nyeri pinggang → curiga batu/keganasan; imaging dan rujuk urologi.",
+          "answer_evidence": "AUA Guideline 2020 — microhematuria & gross hematuria"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Sepsis/delirium geriatri (red flag)",
+          "text": "Pasien geriatri dengan penurunan kesadaran + demam → curiga sepsis atau delirium; rawat inap.",
+          "answer_evidence": "AGS Beers Criteria 2023 + Surviving Sepsis 2021"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Batu obstruktif (red flag)",
+          "text": "Riwayat batu saluran kemih dengan obstruksi → risiko gagal ginjal akut; rujuk urologi.",
+          "answer_evidence": "KDIGO 2023 — obstructive uropathy"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_dysuria",
+        "gls_dysuria_abdo_luts",
+        "gls_dysuria_abdo_bph",
+        "gls_dysuria_abdo_pielonefritis",
+        "gls_dysuria_abdo_polifarmasi",
+        "gls_dysuria_abdo_beers",
+        "gls_dysuria_abdo_cva"
+      ],
+      "bilingual": "Section ini mengajarkan pola anamnesis BAK-PROSTAT-BAHAYA-KOMORBID-IMS untuk menggali nyeri BAK pada laki-laki usia lanjut dengan tetap menyaring red flags yang memerlukan rujukan emergensi."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "TTV (nadi, RR, suhu, TD), penilaian status fungsional geriatri (ADL, IADL), tanda ortostatik, kognitif singkat, dan pemeriksaan abdomen urutan baku dengan perhatian khusus pada pasien geriatri.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik pasien geriatri memerlukan kesabaran dan perhatian khusus pada privasi, posisi, dan kemungkinan keterbatasan gerak. TTV mencakup nadi (frekuensi, irama, kekuatan), respirasi, suhu aksila, dan tekanan darah. Interpretasi TTV harus dikaitkan dengan kemungkinan sepsis, dehidrasi, atau nyeri akut. Pada pasien dengan dysuria, suhu tinggi menandakan kemungkinan prostatitis, pielonefritis, atau urosepsis; hipotensi dengan takikardia + demam adalah tanda sepsis. Pemeriksaan abdomen mengikuti urutan baku: inspeksi → auskultasi → perkusi → palpasi. Inspeksi melihat kontur, distensi, bekas luka, hernia, pulsasi, massa, dan warna kulit. Auskultasi dilakukan SEBELUM palpasi/perkusi untuk menghindari perubahan bising usus. Palpasi ringan lalu dalam, mulai dari area jauh dari nyeri. Palpasi hati, limpa, dan ginjal dilakukan dengan teknik yang benar (bimanual untuk ginjal, sinkron dengan inspirasi untuk hati/limpa). Pada lansia, palpasi aorta harus lembut. Palpasi suprapubik penting untuk menilai kandung kemih penuh pada retensi urin. Selalu orientasi anatomi: 4 kuadran dan 9 region.",
+          "tone": "narrative",
+          "source": "Section s04 file sumber / §5 Anatomi Abdomen dan §6 Teknik Pemeriksaan"
+        },
+        {
+          "text": "[Tabel: Komponen Pemeriksaan & Interpretasi — Kolom: Komponen | Normal | Abnormal | Interpretasi]. Ringkasan 9 baris: (1) Nadi dewasa 60-100 x/mnt, reguler; >100 takikardia → demam, sepsis, dehidrasi, nyeri; (2) RR dewasa 12-20 x/mnt; >22 takipnea → sepsis, pneumonia, asidosis; (3) Suhu aksila 36.5-37.5°C; ≥38°C → infeksi sistemik, prostatitis, pielonefritis; (4) TD dewasa <140/90 mmHg; hipotensi + demam → urosepsis emergensi; (5) Inspeksi abdomen: datar, simetris; distensi/bekas luka/hernia → obstruksi, ascites, hernia; (6) Auskultasi 5-15 bising/menit; hiperaktif/hipoaktif → obstruksi, ileus, peritonitis; (7) Palpasi suprapubik: tidak nyeri/distensi; nyeri/distensi/massa → sistitis, retensi urin, massa; (8) CVA tenderness: tidak nyeri; nyeri ketok → pielonefritis, batu ureter/ginjal; (9) Aorta: pulsasi teraba, sempit; melebar/pulsasi prominen → aneurisma aorta (kurangi tekanan).",
+          "tone": "clinical",
+          "source": "Section s04 tabel interpretasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda Vital Dewasa: cara melakukan → nilai normal → interpretasi abnormal",
+          "sub": [
+            "Nadi: 60-100 x/mnt, reguler; takikardia → demam, nyeri, sepsis, dehidrasi",
+            "RR: 12-20 x/mnt; takipnea → sepsis, nyeri, asidosis",
+            "Suhu aksila: 36.5-37.5°C; demam → curiga infeksi sistemik",
+            "TD: <140/90 mmHg ideal pada lansia; hipotensi + demam → sepsis"
+          ],
+          "bold": true,
+          "source": "Section s04 file sumber"
+        },
+        {
+          "text": "Penilaian Status Fungsional (Geriatri): ADL, IADL, sindrom geriatri (immobility, instability, incontinence, intellectual impairment)",
+          "sub": [],
+          "bold": false,
+          "source": "Section s04 tambahan Domain 2 attachment"
+        },
+        {
+          "text": "Pemeriksaan Tanda Ortostatik (bila ada keluhan pusing/jatuh): TD dan nadi berbaring lalu berdiri 1 dan 3 menit",
+          "sub": [],
+          "bold": false,
+          "source": "Section s04 tambahan Domain 2 attachment"
+        },
+        {
+          "text": "Pemeriksaan Kognitif Singkat (bila relevan): Mini-Cog atau MMSE",
+          "sub": [],
+          "bold": false,
+          "source": "Section s04 tambahan Domain 2 attachment"
+        },
+        {
+          "text": "Pemeriksaan Abdomen Urutan Baku: inspeksi → auskultasi → perkusi → palpasi",
+          "sub": [],
+          "bold": true,
+          "source": "Section s04 file sumber"
+        },
+        {
+          "text": "Empat Kuadran dan Sembilan Regio: orientasi anatomi wajib",
+          "sub": [],
+          "bold": true,
+          "source": "Section s04 file sumber"
+        },
+        {
+          "text": "Palpasi Hati, Limpa, Ginjal, Aorta: teknik benar dengan perhatian khusus lansia",
+          "sub": [],
+          "bold": true,
+          "source": "Section s04 file sumber"
+        },
+        {
+          "text": "Pemeriksaan CVA (Costovertebral Angle): ketok untuk menilai nyeri ginjal (pielonefritis, batu)",
+          "sub": [],
+          "bold": true,
+          "source": "Section s04 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips teknis urutan abdomen",
+          "text": "Tips teknis yang sering dilupakan: auskultasi harus dilakukan SEBELUM palpasi/perkusi, palpasi dimulai dari area JAUH dari nyeri, palpasi aorta pada lansia harus LEMBUT.",
+          "answer_evidence": "Bates' Guide to Physical Examination — standard abdominal exam"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Modifikasi posisi geriatri",
+          "text": "Pasien geriatri dengan keterbatasan gerak, riwayat jatuh, atau penurunan kognitif memerlukan modifikasi posisi dan penjelasan berulang.",
+          "answer_evidence": "AGS Geriatric Assessment Guidelines 2023"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_cva",
+        "gls_dysuria_abdo_urutan",
+        "gls_dysuria_abdo_giants",
+        "gls_dysuria_abdo_pielonefritis"
+      ],
+      "bilingual": "Section ini mengajarkan urutan baku pemeriksaan abdomen dan TTV pada pasien geriatri, termasuk penilaian status fungsional (ADL/IADL) dan tanda bahaya urologi seperti CVA tenderness."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat, posisi pasien, dan tiga fase pemeriksaan abdomen (persiapan, pelaksanaan, evaluasi) sesuai urutan baku inspeksi → auskultasi → perkusi → palpasi dengan perhatian khusus pasien geriatri.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "'Prosedur utama' pada station ini adalah pemeriksaan abdomen lengkap dengan urutan baku. Persiapan dimulai dengan penjelasan prosedur, posisi pasien supine yang nyaman, dan exposure yang memperhatikan privasi. Pelaksanaan mengikuti urutan inspeksi → auskultasi → perkusi → palpasi. Pada lansia, exposure cukup dari xiphoid sampai simfisis pubis dengan selimut penutup untuk dada dan genital. Evaluasi dan konfirmasi mencakup interpretasi temuan, kesimpulan diagnosis kerja, dan rencana selanjutnya. Pasien geriatri mungkin memerlukan modifikasi posisi (bantal di bawah lutut, modifikasi keterbatasan gerak). Dokter berdiri di sisi kanan pasien. Pada palpasi aorta, tekanan harus lembut karena risiko aneurisma pada lansia. Selalu orientasi anatomi 4 kuadran dan 9 region di awal, lalu sebutkan organ penting per kuadran (kandung kemih di hipogastrium, ginjal di CVA/flank) untuk mengaitkan dengan keluhan.",
+          "tone": "narrative",
+          "source": "Section s05 file sumber / §6 Teknik Pemeriksaan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT:",
+          "sub": [
+            "Stetoskop",
+            "Termometer aksila",
+            "Sphygmomanometer dengan manset dewasa",
+            "Sarung tangan, masker",
+            "Tisu, hand sanitizer",
+            "Lembar dokumentasi SOAP",
+            "Jam tangan dengan detik (untuk hitung nadi/RR)"
+          ],
+          "bold": true,
+          "source": "Section s05 file sumber"
+        },
+        {
+          "text": "FASE PERSIAPAN:",
+          "sub": [
+            "1. Cuci tangan dan pakai APD",
+            "2. Sapa pasien, perkenalkan diri, konfirmasi identitas",
+            "3. Konfirmasi keluhan utama (nyeri BAK + nyeri perut)",
+            "4. Jelaskan prosedur: lihat, dengar, ketuk, raba",
+            "5. Minta izin exposure area perut",
+            "6. Minta pasien berbaring supine, lutut sedikit fleksi",
+            "7. Dokter berdiri di sisi kanan",
+            "8. Exposure dari xiphoid sampai simfisis pubis, selimuti dada dan genital"
+          ],
+          "bold": true,
+          "source": "Section s05 file sumber"
+        },
+        {
+          "text": "FASE PELAKSANAAN:",
+          "sub": [
+            "1. Pemeriksaan TTV (nadi, RR, suhu, TD)",
+            "2. Orientasi anatomi: 4 kuadran dan 9 region",
+            "3. Sebutkan organ per kuadran",
+            "4. Inspeksi abdomen (kontur, distensi, bekas luka, hernia, pulsasi, massa, warna)",
+            "5. Minta pasien angkat kepala/batuk untuk hernia",
+            "6. Auskultasi 4 kuadran (sebelum palpasi)",
+            "7. Perkusi 4 kuadran (timpani, redup, distensi, asites, suprapubik)",
+            "8. Perkusi lebar hati dan limpa",
+            "9. Palpasi ringan 4 kuadran (jauh dari nyeri dulu)",
+            "10. Palpasi dalam 4 kuadran",
+            "11. Palpasi hati (dari RLQ ke arcus costae kanan saat inspirasi)",
+            "12. Palpasi limpa (dari RLQ ke LUQ saat inspirasi)",
+            "13. Palpasi ginjal kanan kiri (bimanual ballotement)",
+            "14. Palpasi aorta abdominalis (lembut di epigastrium)",
+            "15. Palpasi suprapubik (kandung kemih)",
+            "16. Ketok CVA untuk pielonefritis/batu"
+          ],
+          "bold": true,
+          "source": "Section s05 file sumber"
+        },
+        {
+          "text": "FASE EVALUASI:",
+          "sub": [
+            "1. Simpulkan diagnosis kerja",
+            "2. Sebutkan diagnosis banding",
+            "3. Sampaikan rencana penunjang (urinalisis, kultur, USG)",
+            "4. Beri terapi simtomatik",
+            "5. Edukasi hidrasi dan tanda bahaya",
+            "6. Konfirmasi obat rutin dan alergi",
+            "7. Dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "Section s05 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan setiap fase",
+          "text": "Keselamatan pasien di setiap fase: posisi aman, exposure secukupnya, palpasi lembut pada lansia (terutama aorta).",
+          "answer_evidence": "Patient Safety Guidelines — geriatric care"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Stop & stabilize",
+          "text": "Hentikan prosedur dan prioritaskan stabilisasi bila pasien menunjukkan hipotensi berat, penurunan kesadaran, atau nyeri hebat yang tidak terkendali.",
+          "answer_evidence": "ACLS Guidelines 2020 — primary survey"
+        }
+      ],
+      "visual_refs": [
+        "visual_dysuria_abdo_urutan_baku_01",
+        "visual_dysuria_abdo_4_kuadran_02",
+        "visual_dysuria_abdo_9_regio_03",
+        "visual_dysuria_cva_tenderness_04",
+        "visual_dysuria_decision_tree_05",
+        "visual_dysuria_palpasi_hati_limpa_06",
+        "visual_dysuria_palpasi_ginjal_07"
+      ],
+      "glossary_refs": [
+        "gls_dysuria_abdo_urutan",
+        "gls_dysuria_abdo_cva",
+        "gls_dysuria_abdo_pielonefritis",
+        "gls_dysuria_abdo_polifarmasi",
+        "gls_dysuria_abdo_bph"
+      ],
+      "bilingual": "Section ini membagi prosedur pemeriksaan abdomen menjadi 3 fase (persiapan, pelaksanaan, evaluasi) sesuai urutan baku inspeksi → auskultasi → perkusi → palpasi, dengan perhatian khusus pada privasi dan palpasi aorta yang lembut pada lansia."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca prosedur, clinical reasoning diagnosis banding (ISK bawah, BPH, prostatitis, pielonefritis, batu, retensi, abdomen non-urologi, uretritis) dan tabel pembedaan cepat untuk Tn. Dika.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan abdomen selesai, langkah pertama adalah menyampaikan ringkasan hasil kepada pasien dan menarik kesimpulan diagnosis kerja. Pada Tn. Dika dengan nyeri BAK + nyeri perut bawah, TTV dalam batas wajar atau sedikit meningkat, abdomen dengan nyeri tekan suprapubik tanpa defans, dan CVA tidak nyeri, maka diagnosis kerja yang paling mungkin adalah ISK bawah pada laki-laki (cistitis) atau BPH dengan LUTS. Namun, clinical reasoning mengharuskan Anda menyingkirkan: prostatitis akut, pielonefritis, batu saluran kemih, retensi urin akut, dan nyeri abdomen non-urologi (konstipasi, hernia, apendisitis/divertikulitis). Tabel diagnosis banding di bawah memetakan gejala khas, temuan fisik, dan pembeda utama. Algoritme triase memutuskan apakah pasien dapat ditangani rawat jalan atau perlu rujuk. Pada geriatri, perhatikan sindrom geriatri (delirium, jatuh, inkontinensia) yang dapat dipicu oleh infeksi. Jangan mendiagnosis UTI hanya dari urin berbau tanpa gejala lokal/sistemik.",
+          "tone": "narrative",
+          "source": "Section s06 file sumber / §7 Clinical Reasoning"
+        },
+        {
+          "text": "[Tabel: Diagnosis Banding — Kolom: Diagnosis | Gejala Khas | Temuan Fisik | Pembeda Utama]. Ringkasan 8 diagnosis: (1) ISK bawah/cystitis pada laki-laki: dysuria, frekuensi, urgensi, nyeri suprapubik; nyeri tekan suprapubik, TTV stabil; kultur urine (+), tanpa demam; (2) BPH/LUTS: pancaran lemah, hesitansi, nokturia; prostat membesar pada DRE; IPSS tinggi, USG PVR meningkat; (3) Prostatitis akut: demam, menggigil, nyeri perineum, dysuria, retensi; demam tinggi, prostat nyeri pada DRE; kultur pre-prostatic massage; (4) Pielonefritis: demam, menggigil, nyeri pinggang, mual, muntah; CVA tenderness, demam tinggi; urinalisis piuria, kultur (+); (5) Batu saluran kemih: nyeri kolik pinggang, hematuria, gelisah; nyeri ketok CVA, hematuria makroskopis; CT/USG batu; (6) Retensi urin akut: tidak bisa BAK, distensi suprapubik, nyeri hebat; kandung kemih palpable dan nyeri; USG PVR tinggi, kateterisasi; (7) Konstipasi/hernia/abdomen non-urologi: nyeri perut umum, konstipasi, hernia inkarserata; inspeksi hernia, BU abnormal, massa; foto abdomen, USG; (8) Uretritis/IMS: duh uretra, riwayat seksual, dysuria; discharge, meatus inflammation; swab uretra, NAAT.",
+          "tone": "clinical",
+          "source": "Section s06 tabel diagnosis banding"
+        },
+        {
+          "text": "[Tabel: Pembedaan Cepat 5 Kondisi Urologi Geriatri — Kolom: Fitur | ISK Bawah (Cystitis) | BPH/LUTS | Prostatitis Akut | Pielonefritis | Batu Saluran Kemih]. 10 fitur pembeda: (1) Demam — Jarang/Bisa/Sering (tinggi)/Selalu (tinggi)/Bisa (+); (2) Dysuria — Ya/Kadang/Ya/Kadang/Kadang; (3) Pancaran lemah — Jarang/Ya (khas)/Bisa (+)/Tidak khas/Tidak khas; (4) Nyeri pinggang — Tidak/Tidak/Tidak/Ya (khas)/Ya (kolik); (5) Nyeri perineum — Tidak/Tidak/Ya (khas)/Tidak/Tidak; (6) Hematuria — Kadang/Kadang (dengan kateter)/Kadang/Kadang/Sering (khas); (7) CVA tenderness — Tidak/Tidak/Tidak/Ya (khas)/Ya; (8) Prostat DRE — Normal/Membesar/Nyeri, bengkak/Normal/Normal; (9) Kultur urine — (+) bakteri/Steril/(+) bakteri/(+) bakteri/Mungkin (+); (10) Tatalaksana awal — Antibiotik empiris 7 hari sesuai PPK/Alfa blocker, observasi/Antibiotik 4-6 minggu, rujuk/Antibiotik sistemik, rujuk/Analgesik, imaging, rujuk.",
+          "tone": "clinical",
+          "source": "Section s06 tabel pembedaan cepat"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca prosedur:",
+          "sub": [
+            "Rangkum hasil pemeriksaan kepada pasien",
+            "Sampaikan diagnosis kerja dan differential diagnosis",
+            "Konfirmasi obat rutin dan alergi",
+            "Usulkan urinalisis dan kultur urine",
+            "Beri terapi simtomatik (analgesik, hidrasi)",
+            "Edukasi tanda bahaya (demam, retensi, sepsis)",
+            "Tutup station dengan sopan",
+            "Dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "Section s06 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan harus merujuk segera",
+          "text": "Kapan HARUS merujuk segera: demam + menggigil + nyeri pinggang (pielonefritis), tidak bisa BAK + distensi suprapubik (retensi), hipotensi + takikardia + demam (urosepsis), hematuria gross + nyeri kolik (batu dengan komplikasi).",
+          "answer_evidence": "NICE NG109 (2018) + AUA Guidelines"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_dysuria",
+        "gls_dysuria_abdo_luts",
+        "gls_dysuria_abdo_bph",
+        "gls_dysuria_abdo_pielonefritis",
+        "gls_dysuria_abdo_cva"
+      ],
+      "bilingual": "Section ini membandingkan 8 diagnosis banding (ISK bawah, BPH, prostatitis, pielonefritis, batu, retensi, abdomen non-urologi, uretritis) menggunakan fitur pembeda cepat untuk mendukung clinical reasoning pasca-prosedur."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang rasional pada geriatri (urinalisis, kultur, darah rutin, fungsi ginjal, USG) dan prinsip tatalaksana dengan penyesuaian dosis serta Beers Criteria untuk lansia.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang pada pasien geriatri dengan dysuria harus rasional dan mempertimbangkan biaya, fungsi ginjal, dan aksesibilitas. Urinalisis dipstick dan mikroskopik adalah pemeriksaan pertama yang paling informatif; kultur urine dengan uji kepekaan sangat penting pada laki-laki, usia lanjut, gejala berulang, gagal terapi, atau demam. Darah rutin, CRP, dan fungsi ginjal diindikasikan pada demam, tampak sakit, atau rencana antibiotik tertentu. Gula darah untuk menyingkirkan DM. USG ginjal-kandung kemih/PVR (post-void residual) untuk evaluasi retensi, BPH, batu, atau hematuria. PSA tidak rutin saat infeksi akut (dapat meningkat palsu) dan dipertimbangkan setelah infeksi reda. DRE tidak ada di checklist, tetapi relevan bila curiga BPH/prostatitis; pada prostatitis akut, DRE harus hati-hati (bisa memicu bakteremia). Prinsip tatalaksana: pada laki-laki usia 60 tahun, nyeri BAK memerlukan penilaian komplikasi, kultur urine, dan antibiotik sesuai PPK lokal bila gejala mendukung. Jangan memberikan antibiotik hanya karena urin berbau atau dipstick positif tanpa gejala. Pertimbangkan penyesuaian dosis untuk fungsi ginjal dan Beers Criteria.",
+          "tone": "narrative",
+          "source": "Section s07 file sumber / §8 Pemeriksaan Penunjang dan §9 Tatalaksana"
+        },
+        {
+          "text": "[Tabel: Pemeriksaan Penunjang — Kolom: Pemeriksaan | Indikasi | Nilai Normal | Interpretasi | Ketersediaan]. 9 baris: (1) Urinalisis dipstick — semua pasien dengan dysuria — LE (–), nitrit (–), leukosit (–) — LE/nitrit (+) curiga ISK — Puskesmas/RS; (2) Kultur urine + sensitivitas — laki-laki, usia lanjut, berulang, demam, gagal terapi — Negatif — (+) antibiotik sesuai sensitivitas — RS, lab; (3) Darah rutin — demam, tampak sakit, usia lanjut — Hb sesuai usia, leukosit 5.000-10.000 — Leukositosis bakterial — Puskesmas/RS; (4) CRP — curiga infeksi bakterial — <10 mg/L — >50 mg/L curiga bakterial — RS; (5) Fungsi ginjal (eGFR) — usia lanjut, rencana antibiotik — >60 mL/min/1.73m² — <60 kurangi dosis antibiotik — RS, lab; (6) Gula darah — DM, ISK berulang, gejala klasik — <126 mg/dL (puasa) — ≥126 curiga DM — Puskesmas/RS; (7) USG ginjal-kandung kemih — retensi, BPH berat, batu, hematuria, ISK berulang — Normal — Batu, hidronefrosis, PVR tinggi — RS; (8) PSA — evaluasi prostat pasca-infeksi — <4 ng/mL — >4 evaluasi urologi — RS, lab; (9) DRE — curiga BPH/prostatitis oleh klinisi terlatih — Prostat licin, simetris — Membesar, nyeri, nodul — Klinisi.",
+          "tone": "clinical",
+          "source": "Section s07 tabel pemeriksaan penunjang"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Prinsip tatalaksana:",
+          "sub": [
+            "Hidrasi cukup",
+            "Jangan menahan BAK",
+            "Urinalisis dan kultur",
+            "Antibiotik empiris sesuai PPK lokal (bila indikasi)",
+            "Pertimbangkan fungsi ginjal (eGFR)",
+            "Hindari Beers Criteria (nitrofurantoin jangka panjang, sulfonilurea long-acting, benzodiazepine, antikolinergik)",
+            "Rujuk urologi: batu, retensi berkepanjangan, hematuria gross, BPH berat"
+          ],
+          "bold": true,
+          "source": "Section s07 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan wajib disebutkan",
+          "text": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia di station: konfirmasi alergi sebelum antibiotik, cek fungsi ginjal sebelum resep, cek obat rutin untuk interaksi, dan kultur urine untuk konfirmasi ISK pada laki-laki.",
+          "answer_evidence": "NICE NG109 (2018) + Domain 2 attachment — geriatric prescribing"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Rekomendasi NICE NG109",
+          "text": "Pada lower UTI pada laki-laki tanpa komplikasi, NICE NG109 merekomendasikan trimethoprim atau nitrofurantoin 7 hari; nitrofurantoin tidak boleh untuk prostatitis dan eGFR <30. Selalu sesuaikan PPK lokal.",
+          "answer_evidence": "NICE NG109 (2018) — Lower UTI antimicrobial prescribing"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_polifarmasi",
+        "gls_dysuria_abdo_beers",
+        "gls_dysuria_abdo_bph",
+        "gls_dysuria_abdo_pielonefritis"
+      ],
+      "bilingual": "Section ini membahas pemeriksaan penunjang rasional pada geriatri (urinalisis, kultur, darah rutin, fungsi ginjal, USG) dengan prinsip tatalaksana yang selalu menyesuaikan dosis terhadap eGFR dan Beers Criteria."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi pasien geriatri (hidrasi, kepatuhan obat, safety net) dan contoh SOAP lengkap untuk Tn. Dika dengan kode ICD-10 N30.0/N40 yang siap pakai untuk dokumentasi rekam medis.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pasien geriatri harus diberikan dengan bahasa yang jelas, pelan, dan sederhana. Pada Tn. Dika dengan nyeri BAK, sampaikan bahwa keluhan bisa disebabkan ISK, BPH, batu, atau iritasi saluran kemih; dari pemeriksaan awal perlu menilai urin dan memastikan tidak ada tanda infeksi berat. Pasien perlu minum cukup, jangan menahan BAK, minum obat sesuai aturan, dan kontrol sesuai jadwal. Selalu minta pasien mengulangi penjelasan (teach-back) untuk memastikan pemahaman. Pada geriatri, tekankan pentingnya membawa daftar obat rutin karena interaksi obat dan fungsi ginjal menjadi pertimbangan klinis. Dokumentasi SOAP menggunakan data skenario nyata (Tn. Dika, 60 tahun, laki-laki, dengan keluhan spesifik) sehingga rekam medis dapat ditindaklanjuti oleh klinisi lain. Kode ICD-10 untuk diagnosis utama dicantumkan agar sesuai standar rekam medis elektronik.",
+          "tone": "narrative",
+          "source": "Section s08 file sumber / §10 Edukasi dan §11 Format Dokumentasi SOAP"
+        },
+        {
+          "text": "[Tabel: SOAP Tn. Dika — Kolom: SOAP | Isi]. 4 baris: (1) S — Tn. Dika, laki-laki, 60 tahun. Nyeri saat BAK sejak 3 hari, juga nyeri perut bawah/suprapubik. Disertai frekuensi BAK meningkat, nokturia 3-4x/malam, pancaran agak lemah, tidak ada hematuria. Tidak ada demam, tidak ada nyeri pinggang, tidak ada mual/muntah. BAK tidak bisa spontan lancar. Riwayat BPH (+) sejak 2 tahun, obat tamsulosin. Diabetes tipe 2 terkontrol (metformin). Alergi obat: disangkal. Obat rutin: metformin 500 mg 2x, tamsulosin 0.4 mg 1x, amlodipin 5 mg 1x. (2) O — KU: sadar, tampak nyaman, tidak toksik. TD 135/85 mmHg, Nadi 88 x/mnt reguler, RR 18 x/mnt, Suhu aksila 36.9°C. Abdomen: inspeksi datar, simetris, bekas operasi (–), hernia (–), pulsasi aorta teraba sempit. BU (+) normal 4 kuadran. Perkusi: timpani umum, suprapubik redup, hepatosplenomegali (–). Palpasi: nyeri tekan suprapubik ringan, defans (–), rebound (–), massa (–). CVA tenderness (–). Hepar/limpa tidak teraba membesar. Ginjal: ballotement (–). Aorta: pulsasi sempit, tidak melebar. Ekstremitas: edema (–). (3) A — Dysuria suspek ISK bawah pada laki-laki dengan BPH/LUTS (ICD-10: N30.0 — Cystitis akut; N40 — Hiperplasia prostat jinak). DD: pielonefritis, prostatitis akut, batu saluran kemih, retensi urin. (4) P — Urinalisis dan kultur urine; darah rutin, fungsi ginjal, gula darah. Hidrasi cukup, jangan menahan BAK. Paracetamol 500 mg per oral tiap 6-8 jam bila nyeri. Antibiotik empiris sesuai PPK lokal dan hasil kultur (tunda sampai hasil atau sesuai PPK). Lanjutkan tamsulosin. Edukasi tanda bahaya: demam, nyeri pinggang, retensi, hematuria gross. Kontrol 48-72 jam; rujuk urologi bila retensi, batu, atau tidak membaik.",
+          "tone": "clinical",
+          "source": "Section s08 tabel SOAP"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin edukasi:",
+          "sub": [
+            "Minum antibiotik sampai tuntas (bila diresepkan); jangan pakai antibiotik sisa",
+            "Jangan menunda BAK; jaga kebersihan area genital",
+            "Catat frekuensi BAK malam, pancaran lemah, rasa tidak lampias (evaluasi prostat)",
+            "Kontrol ulang 48-72 jam bila tidak membaik, lebih cepat bila memburuk",
+            "Bawa daftar obat rutin (polifarmasi, fungsi ginjal)",
+            "Jangan menambah obat/herbal baru tanpa konsultasi"
+          ],
+          "bold": true,
+          "source": "Section s08 file sumber"
+        },
+        {
+          "text": "Safety net (kapan kembali segera):",
+          "sub": [
+            "Demam tinggi, menggigil",
+            "Nyeri pinggang, muntah",
+            "Lemas berat, bingung (curiga sepsis/delirium)",
+            "BAK berdarah banyak",
+            "Tidak bisa BAK (retensi)",
+            "Nyeri perut hebat yang memberat"
+          ],
+          "bold": true,
+          "source": "Section s08 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10",
+          "text": "Kode ICD-10 untuk diagnosis utama: N30.0 (Cystitis akut) atau N40 (Hiperplasia prostat jinak). Cantumkan kode ini di akhir baris A pada SOAP.",
+          "answer_evidence": "ICD-10 WHO 2019 + Kemenkes RI"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi polifarmasi",
+          "text": "Kalimat edukasi yang paling sering dilupakan: 'Bapak perlu membawa daftar obat rutin setiap kali kontrol, supaya kami bisa evaluasi interaksi obat dan fungsi ginjal.' Polifarmasi sering diabaikan.",
+          "answer_evidence": "Domain 2 attachment — geriatric medication safety"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_soap",
+        "gls_dysuria_abdo_polifarmasi",
+        "gls_dysuria_abdo_bph"
+      ],
+      "bilingual": "Section ini memberikan poin edukasi pasien geriatri (hidrasi, kepatuhan antibiotik, safety net) dan contoh SOAP lengkap untuk Tn. Dika dengan kode ICD-10 N30.0 (Cystitis akut) atau N40 (Hiperplasia prostat jinak)."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Penyakit SKDI 4A yang relevan (sistitis, hipertensi, DM tipe 2, pielonefritis, anemia) dan mini-skrip komunikasi OSCE siap pakai dari pembukaan sampai penutupan station untuk Tn. Dika.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Standar Kompetensi Dokter Indonesia (SKDI) level 4A adalah kemampuan dokter lulusan yang harus dikuasai secara mandiri. Pada topik dysuria geriatri dengan pemeriksaan abdomen, beberapa diagnosis level 4A yang relevan adalah sistitis, hipertensi esensial, DM tipe 2, dispepsia, dan anemia. Sementara itu, kondisi yang memerlukan rujukan (level 3B) antara lain gagal jantung, angina stabil, depresi, BPH (konsultasi urologi), dan pielonefritis berat. Mini-skrip komunikasi OSCE membantu mahasiswa berlatih dialog dengan penguji/standarized patient yang berperan sebagai Tn. Dika (60 tahun, laki-laki, retired). Pada pasien geriatri, gunakan nada pelan, jelas, dan sabar; berikan waktu untuk berpikir; ulangi informasi penting. Kalimat kritis yang TIDAK BOLEH dilewatkan: konfirmasi identitas, menanyakan keluhan utama secara lengkap (nyeri BAK + nyeri perut), konfirmasi alergi, menanyakan obat rutin (polifarmasi), edukasi tanda bahaya, dan menutup station dengan sopan.",
+          "tone": "narrative",
+          "source": "Section s09 file sumber / §12 SKDI 4A"
+        },
+        {
+          "text": "[Tabel: Penyakit SKDI 4A/3B — Kolom: Nama Penyakit | Kode ICD-10 | Level SKDI | Relevansi]. 10 baris: (1) ISK bawah (sistitis) — N30.0 — 4A — Penyebab utama dysuria pada geriatri; (2) Hipertensi esensial — I10 — 4A — Komorbiditas paling umum; (3) DM Tipe 2 — E11 — 4A — Komorbiditas paling umum; (4) Urinary Retention — R33 — 3B (kateterisasi 4A) — Geriatri dengan BPH; (5) BPH (Hiperplasia prostat jinak) — N40 — 3B (konsultasi urologi) — Laki-laki geriatri dengan dysuria; (6) Pielonefritis — N11.9 — 4A — Komplikasi ISK atas; (7) Anemia ringan-sedang — D64.9 — 4A — Sering tersembunyi pada lansia; (8) Gagal Jantung — I50.9 — 3B — Rujuk bila dekompensasi; (9) GERD / Dispepsia — K21.9 / K30 — 4A — DD nyeri dada/abdomen non-kardiak; (10) Depresi — F32 — 3B — Sering terlewat pada geriatri.",
+          "tone": "clinical",
+          "source": "Section s09 tabel SKDI"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kalimat pembuka: 'Selamat pagi Pak Dika, saya dokter muda yang akan membantu memeriksa keluhan Bapak hari ini. Boleh saya konfirmasi identitas dan keluhan utamanya?'",
+          "sub": [],
+          "bold": true,
+          "source": "Section s09 file sumber"
+        },
+        {
+          "text": "Kalimat anamnesis: 'Keluhan utama Bapak nyeri saat BAK, ya? Apakah juga terasa nyeri perut bagian bawah? Sejak kapan? Ada demam, nyeri pinggang, atau tidak bisa BAK?'",
+          "sub": [],
+          "bold": true,
+          "source": "Section s09 file sumber"
+        },
+        {
+          "text": "Kalimat anamnesis obat: 'Bapak minum obat apa saja saat ini? Ada alergi obat? Pernah sakit prostat atau batu ginjal?'",
+          "sub": [],
+          "bold": true,
+          "source": "Section s09 file sumber"
+        },
+        {
+          "text": "Kalimat pemeriksaan: 'Sekarang saya akan mengukur tanda vital dan memeriksa perut Bapak. Saya cuci tangan dulu. Mohon izin membuka area perut secukupnya.'",
+          "sub": [],
+          "bold": true,
+          "source": "Section s09 file sumber"
+        },
+        {
+          "text": "Kalimat diagnosis: 'Dari cerita dan pemeriksaan, kemungkinan Bapak mengalami infeksi saluran kemih bawah, dan Bapak juga sudah punya riwayat pembesaran prostat. Perlu pemeriksaan urin dan kultur.'",
+          "sub": [],
+          "bold": true,
+          "source": "Section s09 file sumber"
+        },
+        {
+          "text": "Kalimat edukasi: 'Minum cukup, jangan menahan kencing, obat sesuai aturan. Segera ke IGD bila demam, nyeri pinggang, atau tidak bisa BAK.'",
+          "sub": [],
+          "bold": true,
+          "source": "Section s09 file sumber"
+        },
+        {
+          "text": "Kalimat obat rutin: 'Bapak jangan lupa membawa daftar obat rutin setiap kontrol, supaya kami bisa cek interaksi obat dan fungsi ginjal Bapak.'",
+          "sub": [],
+          "bold": true,
+          "source": "Section s09 file sumber"
+        },
+        {
+          "text": "Kalimat penutupan: 'Terima kasih Pak atas kerja samanya. Semoga cepat sembuh. Jangan ragu menghubungi bila ada keluhan baru.'",
+          "sub": [],
+          "bold": true,
+          "source": "Section s09 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat fatal bila lupa",
+          "text": "Kalimat yang TIDAK BOLEH dilewatkan (fatal bila lupa): (1) konfirmasi keluhan lengkap (nyeri BAK + nyeri perut); (2) tanyakan alergi sebelum menulis resep; (3) tanyakan obat rutin untuk polifarmasi; (4) edukasi tanda bahaya sebelum pasien pulang; (5) dokumentasi SOAP lengkap dengan ICD-10.",
+          "answer_evidence": "OSCE Geriatric Station — Domain 2 attachment"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara membuka station",
+          "text": "Cara membuka station yang paling efektif: panggil pasien dengan sapaan hormat, sebut nama pasien (Pak Dika), sebut identitas diri, dan tanya keluhan utama dalam satu kalimat natural yang menunjukkan empati.",
+          "answer_evidence": "Domain 2 attachment — opening script"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_polifarmasi",
+        "gls_dysuria_abdo_beers",
+        "gls_dysuria_abdo_bph"
+      ],
+      "bilingual": "Section ini memetakan 10 diagnosis SKDI 4A/3B (sistitis, hipertensi, DM tipe 2, pielonefritis, anemia, BPH, dll.) yang relevan untuk station OSCE geriatri, lengkap dengan mini-skrip komunikasi siap pakai dari pembukaan sampai penutupan."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri berlabel TINGGI/SEDANG, rencana belajar 3 hari (Hari 1 urutan, Hari 2 anamnesis, Hari 3 roleplay), dan 6 kesalahan fatal yang menurunkan skor OSCE.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Latihan mandiri adalah bagian integral dari persiapan OSCE. Gunakan checklist di bawah ini sebagai panduan self-assessment: tandai tiap item TINGGI/SEDANG sesuai prioritas belajar. TINGGI berarti wajib dikuasai dalam 3 hari; SEDANG berarti cukup dipahami secara konsep. Rencana belajar 3 hari disusun dengan target spesifik, durasi, aktivitas, dan kriteria kelulusan per hari. Hari 1 fokus urutan TTV dan pemeriksaan abdomen urutan baku; Hari 2 fokus anamnesis BAK-PROSTAT-BAHAYA-KOMORBID-IMS dan red flags; Hari 3 fokus roleplay dengan timer 7 menit dan clinical reasoning. Kriteria 'siap OSCE' adalah mampu menjalankan checklist 32 poin dalam 7 menit tanpa melihat catatan, dengan verbalisasi yang jelas dan pendekatan empatik. Kesalahan fatal OSCE adalah yang menurunkan nilai signifikan: tidak cuci tangan, tidak minta izin, tidak menanyakan alergi, mengabaikan polifarmasi, palpasi aorta terlalu kuat, dan tidak memberi edukasi safety net.",
+          "tone": "narrative",
+          "source": "Section s10 file sumber / §16, §17, §18"
+        },
+        {
+          "text": "[Tabel: Rencana Belajar 3 Hari — Kolom: Hari | Target | Durasi | Aktivitas | Kriteria]. 3 baris: (1) Hari 1 — Kuasai urutan TTV dan pemeriksaan abdomen urutan baku — 3-4 jam — Baca modul, highlight poin TINGGI, buat mind map urutan — Mampu melakukan 32 item checklist berurutan; (2) Hari 2 — Anamnesis BAK-PROSTAT-BAHAYA-KOMORBID-IMS dan red flags — 3-4 jam — Latih dialog dengan teman, kaji red flags — Mampu menggali anamnesis lengkap dalam 3 menit; (3) Hari 3 — Roleplay 7 menit dengan timer — 3-4 jam — Full simulation: anamnesis → TTV → abdomen → SOAP → edukasi — Mampu menyelesaikan station dalam 7 menit dengan verbalisasi jelas.",
+          "tone": "clinical",
+          "source": "Section s10 tabel rencana belajar"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist latihan mandiri (label TINGGI/SEDANG):",
+          "sub": [
+            "[TINGGI] Sambung rasa dengan menghormati privasi geriatri",
+            "[TINGGI] Konfirmasi identitas (nama, usia 60 tahun)",
+            "[TINGGI] Konfirmasi keluhan utama (nyeri BAK + nyeri perut)",
+            "[TINGGI] Anamnesis RPS (pola BAK-PROSTAT-BAHAYA)",
+            "[TINGGI] Anamnesis RPD (riwayat ISK, BPH, batu, DM, ginjal)",
+            "[TINGGI] Anamnesis RPK dan kebiasaan",
+            "[TINGGI] Konfirmasi obat rutin (polifarmasi)",
+            "[TINGGI] Cross check ringkasan",
+            "[TINGGI] Menjelaskan prosedur dan minta izin",
+            "[TINGGI] Cuci tangan",
+            "[TINGGI] Posisi pasien (supine, lutut fleksi)",
+            "[TINGGI] Pemeriksaan nadi",
+            "[TINGGI] Pemeriksaan respirasi",
+            "[TINGGI] Pemeriksaan suhu aksila",
+            "[TINGGI] Pemeriksaan tekanan darah",
+            "[TINGGI] Orientasi 4 kuadran dan 9 region",
+            "[TINGGI] Sebutkan organ tiap kuadran",
+            "[TINGGI] Inspeksi abdomen",
+            "[TINGGI] Angkat kepala untuk hernia",
+            "[TINGGI] Auskultasi bunyi usus",
+            "[TINGGI] Perkusi 4 kuadran",
+            "[TINGGI] Perkusi hati dan limpa",
+            "[TINGGI] Palpasi 4 kuadran (jauh dari nyeri dulu)",
+            "[TINGGI] Palpasi hati",
+            "[TINGGI] Palpasi limpa",
+            "[TINGGI] Palpasi ginjal bimanual",
+            "[TINGGI] Palpasi aorta (lembut pada lansia)",
+            "[TINGGI] Palpasi suprapubik",
+            "[TINGGI] Ketok CVA",
+            "[TINGGI] Interpretasi abdomen dan TTV",
+            "[TINGGI] Tulis SOAP dengan ICD-10",
+            "[TINGGI] Edukasi hidrasi dan tanda bahaya",
+            "[SEDANG] Bedakan ISK bawah vs BPH vs prostatitis vs pielonefritis",
+            "[SEDANG] Indikasi kultur urine",
+            "[SEDANG] Beers Criteria untuk lansia",
+            "[SEDANG] Penyesuaian dosis untuk fungsi ginjal"
+          ],
+          "bold": true,
+          "source": "Section s10 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: Tidak cuci tangan",
+          "text": "[FATAL] Tidak cuci tangan sebelum kontak pasien — penyebab utama transmisi nosokomial — selalu cuci tangan dengan handrub atau sabun.",
+          "answer_evidence": "WHO Hand Hygiene 2009 + Domain 2 attachment"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: Resep tanpa alergi",
+          "text": "[FATAL] Menulis resep tanpa konfirmasi alergi — risiko anafilaksis — selalu tanyakan alergi eksplisit.",
+          "answer_evidence": "Patient Safety Guidelines"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: Polifarmasi diabaikan",
+          "text": "[FATAL] Tidak menanyakan obat rutin (polifarmasi) — risiko interaksi obat pada geriatri — selalu cek daftar obat.",
+          "answer_evidence": "AGS Beers Criteria 2023 + STOPP/START"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: Tidak ada safety net",
+          "text": "[FATAL] Tidak memberi edukasi tanda bahaya sebelum pasien pulang — mengabaikan patient safety — selalu tutup dengan safety net.",
+          "answer_evidence": "Patient Safety + NICE NG109 discharge advice"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: Palpasi aorta kuat",
+          "text": "[FATAL] Palpasi aorta terlalu kuat pada lansia — risiko ruptur aneurisma — palpasi harus lembut.",
+          "answer_evidence": "ACS Guidelines — AAA screening & examination"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: Auskultasi setelah palpasi",
+          "text": "[FATAL] Auskultasi dilakukan setelah palpasi — mengubah bising usus, hasil tidak valid — auskultasi SEBELUM palpasi/perkusi.",
+          "answer_evidence": "Bates' Guide to Physical Examination"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Termometer tidak disebut",
+          "text": "Tidak menyebutkan lokasi termometer — interpretasi suhu bisa keliru (aksila vs rektal).",
+          "answer_evidence": "Standar pemeriksaan TTV"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "RR terlalu cepat",
+          "text": "Tidak menghitung RR cukup lama (1 menit) — RR tidak valid.",
+          "answer_evidence": "Standar pemeriksaan TTV"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Exposure berlebihan",
+          "text": "Exposure berlebihan/area privasi terbuka — menurunkan martabat pasien geriatri.",
+          "answer_evidence": "Patient dignity & privacy — geriatric care"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_dysuria_abdo_polifarmasi",
+        "gls_dysuria_abdo_beers",
+        "gls_dysuria_abdo_urutan"
+      ],
+      "bilingual": "Section ini memberikan checklist latihan mandiri 36 item berlabel TINGGI/SEDANG dan rencana belajar 3 hari (Hari 1 urutan, Hari 2 anamnesis, Hari 3 roleplay) untuk mempersiapkan station OSCE geriatri."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Daftar kebutuhan visual untuk aplikasi, lampiran A-D (red flags, masalah prosedur, mini-case, kalimat pembuka), dan referensi ringkas NICE, CDC, Beers Criteria, dan SKDI.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Bagian ini merangkum kebutuhan visual untuk aplikasi, lampiran A-D, dan referensi ringkas. Visual diperlukan untuk memperjelas konsep urutan pemeriksaan abdomen, landmark anatomi 4 kuadran dan 9 region, dan algoritme triase dysuria pada geriatri. Lampiran A memuat kontraindikasi dan red flags pada pasien geriatri dengan dysuria, Lampiran B memuat masalah saat prosedur dan respons aman, Lampiran C memuat 3 OSCE mini-case untuk latihan cepat, dan Lampiran D memuat kalimat pembuka station siap ucap. Referensi ringkas disusun dari dokumen asli (PDF kampus) dan standar internasional (NICE, CDC) untuk menjaga keselamatan klinis. Semua visual menggunakan gaya clean medical textbook dengan perhatian pada privasi dan martabat pasien geriatri.",
+          "tone": "narrative",
+          "source": "Section s11 file sumber / Lampiran A-D"
+        },
+        {
+          "text": "[Tabel Lampiran A: Kontraindikasi dan Red Flags — Kolom: Kondisi | Mengapa Berbahaya | Respons]. 7 baris: (1) Demam + menggigil + nyeri pinggang — Pielonefritis, urosepsis — Antibiotik sistemik, kultur, rujuk; (2) Tidak bisa BAK + distensi suprapubik — Retensi urin akut — Kateterisasi atau rujuk urologi; (3) Hipotensi + takikardia + demam — Urosepsis emergensi — Rujuk IGD, resusitasi; (4) Hematuria gross + nyeri kolik — Batu dengan komplikasi/keganasan — Imaging, rujuk urologi; (5) Nyeri perut hebat + defans — Peritonitis — Rujuk bedah emergensi; (6) Penurunan kesadaran akut — Delirium, sepsis, uremia — Rujuk emergensi, evaluasi delirium; (7) Anuria pada pasien dengan batu — Obstruksi total, gagal ginjal akut — Rujuk urologi emergensi.",
+          "tone": "clinical",
+          "source": "Section s11 Lampiran A"
+        },
+        {
+          "text": "[Tabel Lampiran B: Masalah Saat Prosedur dan Respons Aman — Kolom: Masalah | Penyebab | Respons Aman]. 7 baris: (1) Pasien tidak kooperatif — Nyeri, cemas, keterbatasan gerak — Tenangkan, jelaskan perlahan, sesuaikan posisi; (2) Manset tidak sesuai — Ukuran tidak tepat — Ganti manset dewasa sesuai lengan; (3) Palpasi tidak teraba — Obesitas, dinding abdomen tegang — Gunakan palpasi bimanual, minta relaksasi; (4) Auskultasi tidak terdengar — Bising usus lemah — Auskultasi lebih lama, ganti posisi; (5) Suprapubik distensi — Retensi urin — Kateterisasi sesuai kompetensi atau rujuk; (6) Inkonsistensi jawaban pasien — Delirium, demensia, efek obat — Konfirmasi dengan keluarga, cek obat rutin; (7) Dehidrasi — Kurang minum, demam — Oralit atau IV sesuai derajat.",
+          "tone": "clinical",
+          "source": "Section s11 Lampiran B"
+        },
+        {
+          "text": "[Lampiran C: OSCE Mini-Case]. 3 skenario: (1) Mini-Case 1 (MUDAH) — Tn. Hadi, 65 tahun, datang dengan nyeri saat BAK 2 hari, frekuensi meningkat. Suhu 37°C. Riwayat BPH. Kunci jawaban: ISK bawah pada BPH; urinalisis dan kultur, antibiotik sesuai PPK, lanjutkan tamsulosin. (2) Mini-Case 2 (SEDANG) — Tn. Rudi, 70 tahun, DM tipe 2, BPH, datang dengan demam 38.7°C, menggigil, nyeri pinggang kanan, dysuria, mual. Kunci jawaban: pielonefritis; darah rutin, fungsi ginjal, kultur, antibiotik sistemik, rujuk. (3) Mini-Case 3 (SULIT) — Tn. Surya, 68 tahun, riwayat batu ureter, datang dengan tidak bisa BAK sejak 6 jam, nyeri suprapubik hebat, gelisah, TTV nadi 110, TD 100/70. Kunci jawaban: retensi urin akut dengan kemungkinan batu obstruktif; kateterisasi, analgesik, USG, rujuk urologi emergensi.",
+          "tone": "clinical",
+          "source": "Section s11 Lampiran C"
+        },
+        {
+          "text": "[Lampiran D: Kalimat Pembuka Station Siap Ucap]. 10 kalimat siap pakai: (1) 'Selamat pagi Pak Dika, saya dokter muda yang akan membantu memeriksa keluhan Bapak hari ini. Boleh saya konfirmasi identitas dan keluhan utamanya?' (2) 'Keluhan utama Bapak nyeri saat BAK, ya? Apakah juga terasa nyeri perut bagian bawah? Sejak kapan?' (3) 'Ada demam, menggigil, nyeri pinggang, atau tidak bisa BAK? Ada riwayat alergi obat?' (4) 'Bapak minum obat apa saja saat ini? Pernah sakit prostat, batu ginjal, atau diabetes?' (5) 'Sekarang saya akan mengukur tanda vital dan memeriksa perut Bapak. Saya cuci tangan dulu ya.' (6) 'Silakan berbaring, perut rileks, saya berdiri di sisi kanan Bapak.' (7) 'Saya akan melihat, mendengar, mengetuk, dan meraba perut Bapak. Mohon beri tahu bila ada nyeri.' (8) 'Dari cerita dan pemeriksaan, kemungkinan Bapak mengalami infeksi saluran kemih bawah, dan Bapak juga sudah punya riwayat pembesaran prostat.' (9) 'Perlu pemeriksaan urin dan kultur. Minum cukup, jangan menahan kencing, obat sesuai aturan.' (10) 'Segera ke IGD bila demam, nyeri pinggang, atau tidak bisa BAK. Terima kasih Pak atas kerja samanya.'",
+          "tone": "clinical",
+          "source": "Section s11 Lampiran D"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Visual yang perlu dibuat:",
+          "sub": [
+            "Urutan pemeriksaan abdomen (inspeksi → auskultasi → perkusi → palpasi)",
+            "4 kuadran abdomen dengan fokus suprapubik",
+            "9 region abdomen",
+            "Pemeriksaan CVA tenderness",
+            "Decision tree dysuria pada laki-laki usia lanjut",
+            "Palpasi hati dan limpa",
+            "Palpasi ginjal bimanual",
+            "Poster edukasi ISK/BPH untuk lansia"
+          ],
+          "bold": true,
+          "source": "Section s11 file sumber"
+        },
+        {
+          "text": "Lampiran:",
+          "sub": [
+            "Lampiran A: Kontraindikasi dan red flags geriatri",
+            "Lampiran B: Masalah saat prosedur dan respons aman",
+            "Lampiran C: OSCE mini-case latihan",
+            "Lampiran D: Kalimat pembuka station siap ucap"
+          ],
+          "bold": true,
+          "source": "Section s11 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI visual",
+          "text": "Prompt AI untuk membuat visual tersedia di §12 asli: 'Ilustrasi medis realistis dokter memeriksa abdomen pasien laki-laki usia 60 tahun, area perut terekspos secukupnya dan diselimuti, dokter berdiri di sisi kanan.'",
+          "answer_evidence": "Domain 2 attachment — visual generation prompt"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Standar internasional",
+          "text": "Standar internasional yang menjadi acuan: NICE NG109 (2018, dengan rekomendasi terkini), CDC Urinary Tract Infection Basics (2024), dan CDC Urine Culture Stewardship (2024).",
+          "answer_evidence": "NICE NG109 (2018) + CDC UTI Basics 2024 + CDC Urine Culture Stewardship 2024"
+        }
+      ],
+      "visual_refs": [
+        "visual_dysuria_edukasi_poster_08"
+      ],
+      "glossary_refs": [
+        "gls_dysuria_abdo_dysuria",
+        "gls_dysuria_abdo_beers",
+        "gls_dysuria_abdo_soap"
+      ],
+      "bilingual": "Section ini memuat kebutuhan visual untuk aplikasi, lampiran A-D (kontraindikasi/red flags, masalah prosedur, mini-case latihan, kalimat pembuka siap ucap), dan referensi ringkas NICE NG109 (2018), CDC UTI Basics (2024), Beers Criteria (2023), dan SKDI Kemenkes (2012)."
+    }
+  ]
+}

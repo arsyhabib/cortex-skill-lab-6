@@ -1,0 +1,902 @@
+{
+  "id": "sken_ika_geriatri_004",
+  "title": "Stasiun 04 — Pasien Lansia dengan Gangguan Aktivitas Membaca",
+  "subtitle": "Skenario presbiopia tanpa red flag pada Pak Hasan (56 tahun, hipertensi terkontrol): menguji anamnesis mata geriatri, pemeriksaan visus jauh-dekat dengan Snellen dan Jaeger, pinhole dan trial lens, skrining red flags mata, dan edukasi kacamata baca serta safety net.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_2",
+  "source_files": [
+    "SOAL_04_PESERTA_BLIND.md",
+    "SOAL_04_PENDAMPING.md",
+    "BLUEPRINT_MASTER_DOMAIN_02.md"
+  ],
+  "topicTags": [
+    "osce_skenario",
+    "geriatri",
+    "lansia",
+    "presbiopia",
+    "gangguan_refraksi",
+    "pemeriksaan_mata_dasar",
+    "red_flags_mata",
+    "glaukoma_skrining",
+    "adl_geriatri",
+    "koreksi_kacamata"
+  ],
+  "summary": [
+    "Situasi klinis: Pak Hasan, 56 tahun, pedagang warung dengan hipertensi terkontrol, datang ke poli umum karena 1 tahun terakhir makin sulit membaca tulisan kecil di HP, label obat, dan nota; perlu dijauhkan agar lebih jelas. Pernah salah membaca dosis obat.",
+    "Skill utama yang diuji: anamnesis mata geriatri dengan skrining red flags, TTV dan head-to-toe singkat, pemeriksaan visus jauh-dekat, pinhole, trial lens/add plus, rasionalisasi penunjang, dan edukasi kacamata baca dengan safety net.",
+    "Komponen anamnesis kritis: onset/progresi, jarak baca, pencahayaan, astenopia/sakit kepala, skrining red flags (nyeri, merah, visus mendadak, halo+mual, diplopia, trauma, floaters/flash), dampak fungsional (salah membaca obat, kerja).",
+    "Pemeriksaan fisik kunci: TTV, inspeksi mata luar, pupil, gerak bola mata, lapang pandang kasar, visus jauh Snellen per mata, visus dekat Jaeger, pinhole, trial lens add plus.",
+    "Diagnosis kerja: presbiopia tanpa red flag. DD utama: hipermetropia, katarak awal, glaukoma, retinopati diabetik/hipertensi, AMD, dry eye, astigmatisme/miopia campuran.",
+    "Tatalaksana yang diharapkan: edukasi presbiopia proses penuaan normal, koreksi kacamata baca (add +1.50–1.75 D), perbaikan pencahayaan dan ergonomi, kontrol komorbid (TD, skrining DM), rujuk optometri/dokter mata untuk refraksi komprehensif.",
+    "Critical error paling penting: tidak menilai visus jauh dan dekat; tidak skrining red flags mata; langsung menyuruh membeli kacamata acak tanpa safety net; mengabaikan risiko salah membaca dosis obat pada lansia.",
+    "Total 100 poin — komponen terbesar: anamnesis 25 poin dan pemeriksaan fisik 25 poin."
+  ],
+  "exam_focus": [
+    "Presbiopia adalah kehilangan progresif kemampuan akomodasi karena penuaan, mulai terasa usia >40 tahun, keluhan utama membaca dekat harus dijauhkan dan butuh cahaya lebih.",
+    "Selalu skrining RED FLAGS mata pada lansia: nyeri mata berat, mata merah, penurunan visus mendadak, melihat halo/pelangi + mual, diplopia, defek lapang pandang (tirai), floaters/flash, trauma mata. Temuan positif → RUJUKAN segera, BUKAN kacamata baca.",
+    "Pemeriksaan visus WAJIB: visus jauh Snellen per mata DAN visus dekat Jaeger/near chart. Keduanya harus dilakukan — mengabaikan salah satunya = critical error.",
+    "Pinhole test: bila visus jauh TIDAK membaik dengan pinhole, curiga kelainan refraktif (miopia/astigmatisme) atau patologi organik; bila visus jauh sudah normal dan keluhan utama dekat, pinhole kurang relevan.",
+    "Trial lens / add plus: konfirmasi diagnosis presbiopia bila visus dekat membaik dengan lensa plus (+1.50 sampai +1.75 D untuk usia 50-an).",
+    "Lansia dengan hipertensi 5 tahun dan amlodipin tidak rutin perlu skrining: GDS, TD terkontrol, dan pemeriksaan mata berkala. Hipertensi lama → risiko retinopati hipertensi.",
+    "Edukasi KRUSIAL pada lansia: jangan pernah membeli kacamata acak bila ada red flag mata. Kacamata baca perlu disesuaikan dan dievaluasi ulang berkala.",
+    "Hubungkan keluhan dengan risiko fungsional: lansia dengan presbiopia yang tidak dikoreksi berisiko salah membaca dosis obat. Ini adalah argumen kuat untuk koreksi adekuat dan label obat besar."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_pres_def_01",
+      "term": "Presbiopia",
+      "def": "Penurunan progresif kemampuan akomodasi lensa mata karena penuaan, biasanya mulai usia >40 tahun, sehingga penglihatan dekat (membaca, HP, label) menjadi kabur. Dikoreksi dengan lensa plus (add) yang disesuaikan dengan usia dan kebutuhan; pada usia 50-an umumnya add +1.50 sampai +1.75 D. Visus jauh biasanya masih baik.",
+      "type": "clinical",
+      "aliases": [
+        "Presbyopia",
+        "Mata tua"
+      ]
+    },
+    {
+      "id": "gls_sken_pres_snellen_02",
+      "term": "Snellen Chart (Visus Jauh)",
+      "def": "Papan optotipe dengan barisan huruf/symbol dengan ukuran yang makin kecil ke bawah, digunakan untuk menilai visus jauh (distance visual acuity). Pasien membaca dari jarak 6 meter (atau 20 kaki). Visus dicatat sebagai 6/6 (normal), 6/9, 6/12, dst. Pada presbiopia, visus jauh tetap normal atau hanya sedikit turun.",
+      "type": "score",
+      "aliases": [
+        "Snellen visual acuity"
+      ]
+    },
+    {
+      "id": "gls_sken_pres_jaeger_03",
+      "term": "Jaeger Chart / Near Vision Chart (Visus Dekat)",
+      "def": "Kartu baca dengan teks berbagai ukuran (biasanya diukur dalam N-point atau J-point, makin besar angka makin sulit). Pasien membaca pada jarak baca normal 33-40 cm dengan cahaya cukup. Pada presbiopia, visus dekat kabur (N8-N10 atau J5-J6) dan membaik dengan lensa plus.",
+      "type": "score",
+      "aliases": [
+        "Jaeger near chart",
+        "Near vision test"
+      ]
+    },
+    {
+      "id": "gls_sken_pres_pinhole_04",
+      "term": "Pinhole Test",
+      "def": "Tes cepat dengan lubang stenopeik (pinhole) untuk membedakan penurunan visus akibat kelainan refraktif vs. patologi organik. Pasien membaca Snellen melalui pinhole; visus yang MEMBAIK berarti kelainan refraktif dominan; visus TIDAK membaik curiga patologi mata organik (katarak, retinopati, glaukoma, dll.).",
+      "type": "procedure",
+      "aliases": [
+        "Pinhole occluder test"
+      ]
+    },
+    {
+      "id": "gls_sken_pres_add_05",
+      "term": "Add (Addition Power) untuk Kacamata Baca",
+      "def": "Daya lensa tambahan positif (dalam dioptri/D) yang ditambahkan pada koreksi jarak untuk membantu penglihatan dekat. Untuk presbiopia usia 45-50 sekitar +1.00 sampai +1.50 D; usia 50-55 sekitar +1.50 sampai +1.75 D; usia >55 sekitar +2.00 sampai +2.50 D. Disesuaikan dengan jarak kerja dan kebutuhan pasien.",
+      "type": "clinical",
+      "aliases": [
+        "Reading addition"
+      ]
+    },
+    {
+      "id": "gls_sken_pres_hipermetrop_06",
+      "term": "Hipermetropia (Rabun Dekat/Hyperopia)",
+      "def": "Kelainan refraksi di mana bayangan jatuh di belakang retina; pada hipermetropia ringan-sedang, pasien muda masih bisa berakomodasi, tetapi keluhan membaca kabur muncul lebih awal atau mirip presbiopia. Koreksi dengan lensa plus (cembung).",
+      "type": "clinical",
+      "aliases": [
+        "Hyperopia",
+        "Rabun dekat"
+      ]
+    },
+    {
+      "id": "gls_sken_pres_katarak_07",
+      "term": "Katarak",
+      "def": "Kekeruhan lensa mata yang biasanya berkembang perlahan terkait usia (katarak senilis). Gejala: penglihatan kabur progresif, silau, perubahan ukuran kacamata sering. Tanda: lensa keruh saat inspeksi/FO. Tata laksana: operasi fakoemulsifikasi dengan implantasi IOL. Koreksi kacamata baca TIDAK menyelesaikan katarak signifikan.",
+      "type": "clinical",
+      "aliases": [
+        "Cataract"
+      ]
+    },
+    {
+      "id": "gls_sken_pres_glaukoma_08",
+      "term": "Glaukoma (Akut/Sudut Tertutup)",
+      "def": "Peningkatan tekanan intraokular yang dapat merusak saraf optik dan menyebabkan kehilangan lapang pandang permanen. Red flags serangan akut: nyeri mata berat, mual/muntah, melihat halo/pelangi, penurunan visus mendadak, mata merah, pupil mid-dilatasi. Memerlukan tatalaksana emergensi.",
+      "type": "clinical",
+      "aliases": [
+        "Glaucoma"
+      ]
+    },
+    {
+      "id": "gls_sken_pres_amd_09",
+      "term": "Age-related Macular Degeneration (AMD)",
+      "def": "Degenerasi makula terkait usia yang menyebabkan kehilangan penglihatan sentral. Gejala: distorsi garis lurus (metamorphopsia), bintik gelap di tengah lapang pandang, kesulitan membaca. Faktor risiko: usia, merokok, riwayat keluarga. Skrining dan rujukan ke retina/ophthalmology bila curiga.",
+      "type": "clinical",
+      "aliases": [
+        "AMD",
+        "Degenerasi makula"
+      ]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis blind pasien lansia dengan gangguan membaca dan daftar tugas 10 menit.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Anda bertugas di poli umum. Seorang pasien lanjut usia datang karena beberapa bulan terakhir kesulitan melakukan aktivitas membaca sehari-hari. Anda diminta melakukan konsultasi klinis awal yang relevan selama 10 menit.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Bangun komunikasi dan konfirmasi identitas pasien.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Lakukan anamnesis terarah terkait keluhan dan dampak fungsional.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Lakukan pemeriksaan fisik umum dan pemeriksaan mata dasar yang relevan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Minta pemeriksaan penunjang yang diperlukan kepada penguji.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 5: Sampaikan diagnosis kerja, diagnosis banding, tatalaksana, edukasi, dan tanda bahaya.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Hasil pemeriksaan diberikan hanya bila diminta secara spesifik. Jangan langsung menyimpulkan tanpa skrining tanda bahaya. Gunakan bahasa yang mudah dipahami pasien. Pada lansia, satu keluhan sederhana bisa menjadi pintu masuk untuk skrining gangguan fungsional yang lebih luas.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_pres_def_01"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting, durasi, dan distribusi 100 poin.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Stasiun berlangsung di poli umum dengan waktu 10 menit. Peserta berkomunikasi langsung dengan pasien (bukan pendamping). Peserta dinilai dari anamnesis mata geriatri, kemampuan melakukan pemeriksaan visus jauh-dekat dengan benar, skrining red flags, dan edukasi koreksi kacamata baca yang aman. Tanda vital dan temuan mata hanya diberikan bila peserta meminta spesifik.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kompetensi dan komponen yang diuji:",
+          "sub": [
+            "Komunikasi klinis dan informed consent — salam, identifikasi, empati, bahasa awam, cross-check.",
+            "Anamnesis mata geriatri: onset, progresi, dekat/jauh, pencahayaan, astenopia, dampak fungsional.",
+            "Skrining red flags mata: nyeri, merah, visus mendadak, halo+mual, diplopia, trauma, floaters/flash, lapang pandang.",
+            "Pemeriksaan fisik: TTV + head-to-toe singkat, inspeksi mata, pupil, gerak bola mata, lapang pandang kasar, visus jauh Snellen, visus dekat Jaeger, pinhole, trial lens add plus.",
+            "Pemilihan penunjang rasional: Snellen, near chart, pinhole, trial lens, GDS, TD.",
+            "Reasoning: presbiopia, DD katarak, glaukoma, retinopati, AMD, hipermetropia.",
+            "Manajemen: edukasi, koreksi add plus, ergonomi, kontrol komorbid, rujukan, safety net."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1-2 menit baca soal dan identifikasi domain (lansia, mata) — 7-8 menit performa (anamnesis keluhan + skrining red flags, visus jauh + dekat + pinhole + add, reasoning, edukasi) — 1 menit wrap-up. Pada kasus mata, urutan klasik: anamnesis keluhan → red flags → visus jauh Snellen → visus dekat Jaeger → pinhole → trial lens add.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggali keluhan membaca, red flags, dampak fungsional, dan komorbid dari pasien.",
+      "estimated_time_minutes": 3,
+      "content": [
+        {
+          "text": "Pasien adalah Pak Hasan, 56 tahun, pedagang warung, kooperatif dan sedikit khawatir karena takut buta. Peserta diharapkan menggali keluhan membaca (onset, progresi, jarak, pencahayaan, astenopia, sakit kepala), dampak fungsional (salah membaca obat, kerja), dan skrining red flags mata. Informasi yang tidak ditanyakan tidak diberikan spontan.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus (keluhan utama versi spontan): \"Dok, akhir-akhir ini saya susah membaca tulisan kecil di HP dan label obat. Kalau dijauhkan baru lebih jelas.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Identitas pasien:",
+          "sub": [
+            "Nama: Pak Hasan.",
+            "Usia: 56 tahun.",
+            "Pekerjaan: pedagang warung.",
+            "Riwayat: hipertensi 5 tahun, minum amlodipin tidak selalu rutin.",
+            "Belum pernah periksa mata lengkap dalam 2 tahun terakhir."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat keluhan mata (diberikan bila ditanya):",
+          "sub": [
+            "Keluhan perlahan selama 1 tahun, makin terasa 3 bulan terakhir.",
+            "Terutama saat membaca dekat, melihat HP, label obat, dan menghitung uang kecil.",
+            "Bila bacaan dijauhkan dari mata, lebih jelas.",
+            "Perlu cahaya lebih terang.",
+            "Mata cepat lelah dan kadang sakit kepala ringan di dahi setelah membaca lama.",
+            "Penglihatan jauh masih relatif baik."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Skrining red flags mata (jawaban probandus bila ditanya):",
+          "sub": [
+            "Penurunan penglihatan mendadak: tidak.",
+            "Nyeri mata berat: tidak.",
+            "Mata merah: tidak.",
+            "Melihat halo/pelangi disertai mual: tidak.",
+            "Trauma mata: tidak.",
+            "Diplopia: tidak.",
+            "Defek lapang pandang/gelap seperti tirai: tidak.",
+            "Floaters/cahaya kilat mendadak: tidak.",
+            "Keluhan unilateral akut: tidak, dua mata relatif sama."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat komorbid/obat:",
+          "sub": [
+            "Hipertensi 5 tahun, amlodipin tidak selalu rutin.",
+            "Tidak diketahui diabetes; sering haus/BAK malam tidak menonjol.",
+            "Tidak menggunakan steroid lama.",
+            "Tidak ada riwayat operasi mata.",
+            "Keluarga ada yang memakai kacamata baca."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Dampak fungsional:",
+          "sub": [
+            "Pernah salah membaca dosis obat karena tulisan kecil.",
+            "Kesulitan membaca nota/uang saat warung ramai.",
+            "Belum pernah mencoba kacamata baca."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_pres_def_01",
+        "gls_sken_pres_glaukoma_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV, head-to-toe singkat, dan pemeriksaan mata dasar yang tersedia untuk diberikan kepada peserta.",
+      "estimated_time_minutes": 3,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ yang diperiksa. Peserta dinilai dari relevansi permintaan, urutan, dan kelengkapan.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital dan head-to-toe geriatri singkat:",
+          "sub": [
+            "Tekanan darah: 148/88 mmHg (cukup tinggi, hipertensi tidak terkontrol optimal).",
+            "Nadi: 82 x/menit, reguler.",
+            "RR: 18 x/menit.",
+            "Suhu: 36,7°C.",
+            "SpO2: 98% udara ruangan.",
+            "GDS, bila diminta karena skrining komorbid: 108 mg/dL."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Head-to-toe singkat:",
+          "sub": [
+            "Kepala/leher: tidak ada kelainan akut.",
+            "Jantung: S1-S2 reguler, murmur tidak jelas.",
+            "Paru: vesikuler, tidak ada ronki/wheezing.",
+            "Ekstremitas: tidak ada edema, kekuatan baik.",
+            "Fungsi: mandiri, tetapi keluhan membaca memengaruhi pekerjaan dan keamanan obat."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan mata dasar (diberikan per prosedur bila diminta):",
+          "sub": [
+            "Inspeksi eksternal: tidak ada mata merah, sekret, trauma, edema palpebra.",
+            "Kornea: jernih secara inspeksi sederhana.",
+            "Pupil: isokor 3 mm/3 mm, refleks cahaya langsung dan konsensual baik.",
+            "Gerak bola mata: bebas ke segala arah, tidak diplopia.",
+            "Lapang pandang kasar: dalam batas normal.",
+            "Visus jauh Snellen: OD 6/6, OS 6/6, OU 6/6.",
+            "Pinhole untuk visus jauh: tidak berubah bermakna (karena visus jauh sudah normal).",
+            "Near vision chart/Jaeger pada 33-40 cm: membaca kecil kabur; setara N8-N10/J5-J6.",
+            "Trial lens plus: membaik menjadi N5/J1-J2 dengan +1.50 sampai +1.75 D.",
+            "Red reflex/fundus sederhana: red reflex ada, tidak tampak leukokoria; funduskopi detail perlu alat/keterampilan lebih lanjut.",
+            "Tonometri: tidak tersedia di stasiun; dirujuk bila red flags/risiko glaukoma."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Peserta Meminta Data",
+          "text": "Peserta harus MENYEBUT parameter atau organ (mis. \"Berapa visus jauh Snellen per mata?\" atau \"Bagaimana hasil Jaeger/near chart?\"). Data tidak diberikan spontan. Peserta yang hanya meminta 'pemeriksaan mata' tanpa spesifikasi tidak akan mendapat data lengkap.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_pres_snellen_02",
+        "gls_sken_pres_jaeger_03",
+        "gls_sken_pres_pinhole_04",
+        "gls_sken_pres_add_05"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Pemeriksaan yang relevan, hasil, dan interpretasi klinis singkat.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Pada presbiopia tanpa red flag, penunjang utama adalah pemeriksaan refraksi subjektif (Snellen + Jaeger + pinhole + trial lens). Pemeriksaan lain (tonometri, slit lamp, funduskopi) dipertimbangkan sesuai risiko.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Snellen visus jauh: normal 6/6 kedua mata — menyingkirkan kelainan refraksi jauh/patologi organik yang signifikan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Near vision chart/Jaeger: gangguan visus dekat, membaik dengan add plus — konfirmasi gangguan akomodasi.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pinhole: tidak memperbaiki keluhan dekat secara utama; visus jauh sudah normal — pinhole kurang relevan untuk konfirmasi presbiopia, lebih bermakna untuk menyingkirkan kelainan refraksi pada visus jauh yang abnormal.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Refraksi subjektif/trial lens: add +1.50 sampai +1.75 D memperbaiki visus dekat — konfirmasi kekuatan add yang sesuai untuk usia 56 tahun.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "GDS/HbA1c: GDS 108 mg/dL; HbA1c tidak rutin di stasiun, dapat dianjurkan skrining sesuai fasilitas/risiko.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Tonometri/slit lamp/funduskopi lengkap: tidak rutin di FKTP tanpa red flags; dianjurkan pemeriksaan mata berkala/rujuk bila tersedia atau ada kecurigaan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Rutin",
+          "text": "Slit lamp, funduskopi lengkap, dan tonometri tidak rutin pada pasien dengan keluhan khas presbiopia dan tanpa red flags. Peserta yang meminta semua penunjang canggih tanpa indikasi menunjukkan overuse. Namun, pada lansia dengan hipertensi lama, funduskopi berkala tetap dapat disarankan sebagai skrining retinopati hipertensi.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_pres_snellen_02",
+        "gls_sken_pres_jaeger_03",
+        "gls_sken_pres_pinhole_04",
+        "gls_sken_pres_add_05"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Diagnosis kerja presbiopia dengan kriteria, dan DD yang harus disaring.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Presbiopia. Alasan klinis: usia 56 tahun (>40 tahun), keluhan membaca dekat yang perlahan 1 tahun dan memberat 3 bulan terakhir, harus menjauhkan bacaan, butuh cahaya lebih, visus jauh Snellen normal (6/6 kedua mata), visus dekat kabur (N8-N10/J5-J6) yang membaik dengan add +1.50 sampai +1.75 D, tidak ada nyeri/merah/red flag mata, dan tidak ada keluhan unilateral akut.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Hipermetropia — keluhan membaca kabur, tetapi biasanya sudah ada sejak muda dan visus jauh bisa juga turun. Pada kasus ini onset usia 50-an mendukung presbiopia, bukan hipermetropia primer.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Astigmatisme/miopia campuran — Snellen visus jauh biasanya turun, dan pinhole akan memperbaiki. Pada kasus ini Snellen 6/6 menyingkirkan kelainan refraksi jauh signifikan.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Katarak awal — biasanya menurunkan visus jauh DAN dekat, silau, kekeruhan lensa. Pada kasus ini visus jauh Snellen 6/6 dan lensa jernih saat inspeksi.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: Glaukoma — red flag yang harus disingkirkan: tidak ada nyeri, tidak ada halo+mual, lapang pandang kasar normal, pupil normal. Tonometri tidak tersedia di stasiun; rujuk bila ada kecurigaan atau risiko.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Retinopati diabetik/hipertensi — GDS 108 mg/dL (tidak memenuhi kriteria DM secara tegas), TD 148/88 (hipertensi tidak terkontrol optimal). Perlu skrining fundus berkala, terutama karena faktor risiko hipertensi lama.",
+          "sub": [],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 6: Degenerasi makula terkait usia (AMD) — biasanya menyebabkan metamorfopsia (distorsi garis lurus) atau skotoma sentral. Tidak ada keluhan ini pada kasus; rujuk bila muncul.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 7: Dry eye — keluhan mata kering, pedih, terutama sore. Tidak disebutkan pada kasus ini, dan Snellen/Jaeger tidak terganggu oleh dry eye ringan.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pendekatan DD Mata Lansia",
+          "text": "Mnemonik P-R-E-S-B-I-O-P-I-A: P (Penglihatan dekat kabur) - R (Red flags: merah, nyeri, mendadak) - E (Edukasi: proses usia) - S (Snellen + Jaeger) - B (Baik tanpa koreksi jarak) - I (Improvement dengan add plus) - O (Oklusi lapang pandang/lensa jernih) - P (Plus lens) - I (Informasi safety net) - A (Adjusment komorbid).",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_pres_def_01",
+        "gls_sken_pres_hipermetrop_06",
+        "gls_sken_pres_katarak_07",
+        "gls_sken_pres_glaukoma_08",
+        "gls_sken_pres_amd_09"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Edukasi presbiopia, koreksi kacamata baca add plus, ergonomi, kontrol komorbid, dan rujukan.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pendekatan tata laksana: edukasi proses penuaan, koreksi kacamata baca add plus atau rujukan refraksi komprehensif, ergonomi membaca, kontrol komorbid, dan rujukan bila ada red flag atau tidak membaik dengan koreksi sederhana. Hindari menunda rujukan bila curiga patologi organik.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi presbiopia: jelaskan bahwa presbiopia adalah perubahan akomodasi karena usia, bukan otomatis tanda kebutaan atau penyakit serius, tetapi memerlukan koreksi agar aktivitas sehari-hari tetap aman.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Koreksi refraksi: kacamata baca sesuai hasil add plus (+1.50 sampai +1.75 D untuk Pak Hasan). Bisa single vision reading glasses, bifokal, atau progresif sesuai kebutuhan dan hasil pemeriksaan optometri/dokter mata.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Modifikasi gaya baca:",
+          "sub": [
+            "Perbaiki pencahayaan, gunakan lampu meja dengan cahaya cukup.",
+            "Perbesar font HP, gunakan mode 'large text' atau 'reading mode'.",
+            "Ergonomi: jarak baca 33-40 cm, posisi duduk nyaman, istirahat tiap 20-30 menit (rule 20-20-20: tiap 20 menit lihat 20 kaki/6 meter selama 20 detik).",
+            "Hindari membaca dalam posisi kurang cahaya atau sambil bergerak."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Kontrol komorbid:",
+          "sub": [
+            "Anjurkan kontrol tekanan darah dan skrining diabetes sesuai risiko.",
+            "Penting: gunakan label obat dengan huruf besar/terbaca untuk mencegah salah dosis (terutama pada pasien hipertensi yang minum amlodipin)."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Rujukan:",
+          "sub": [
+            "Rujuk ke dokter mata/optometris untuk refraksi komprehensif atau bila keluhan tidak membaik dengan koreksi sederhana.",
+            "Rujuk segera ke dokter mata bila muncul red flags atau curiga katarak/glaukoma/AMD/retinopati."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi / Jangan Dilakukan",
+          "text": "JANGAN menyuruh membeli kacamata acak tanpa pemeriksaan dan tanpa safety net. JANGAN abaikan red flags demi menangani pasien sebagai 'hanya presbiopia'. JANGAN menjadwalkan kontrol kelainan TD/DM yang tidak dilakukan untuk pasien dengan faktor risiko jelas (TD 148/88, hipertensi lama).",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_pres_def_01",
+        "gls_sken_pres_add_05"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Edukasi pasien, label obat besar, safety net, dan contoh SOAP untuk skenario ini.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario ini:\n\nS (Subjective): Pasien laki-laki 56 tahun, pedagang warung, hipertensi 5 tahun (amlodipin, tidak rutin). Keluhan: 1 tahun terakhir makin sulit membaca tulisan kecil di HP, label obat, dan nota; perlu dijauhkan agar lebih jelas. Sakit kepala ringan di dahi setelah membaca lama, mata cepat lelah. Pernah salah membaca dosis obat. Tidak ada nyeri, merah, visus mendadak, halo+mual, diplopia, trauma, floaters/flash, defek lapang pandang. Penglihatan jauh masih relatif baik. Belum pernah periksa mata lengkap 2 tahun terakhir.\n\nO (Objective): TD 148/88, HR 82, RR 18, suhu 36,7°C, SpO2 98%, GDS 108 mg/dL. Inspeksi mata: tidak merah/sekret/trauma/edema palpebra. Kornea jernih. Pupil isokor 3 mm/3 mm, refleks cahaya baik. Gerak bola mata bebas, tidak diplopia. Lapang pandang kasar normal. Visus jauh Snellen: OD 6/6, OS 6/6, OU 6/6. Pinhole: tidak berubah bermakna. Near vision/Jaeger: N8-N10/J5-J6; membaik menjadi N5/J1-J2 dengan add +1.50 sampai +1.75 D. Red reflex ada, tidak leukokoria. Tonometri tidak tersedia.\n\nA (Assessment): Presbiopia tanpa red flag mata. Visus jauh normal, visus dekat membaik dengan add plus. Faktor risiko penglihatan: hipertensi lama, kontrol TD suboptimal. Dampak fungsional: pernah salah membaca dosis obat. DD disingkirkan: hipermetropia, katarak, glaukoma, retinopati, AMD, dry eye (klinis tidak mendukung dominan).\n\nP (Plan): 1) Edukasi presbiopia sebagai proses penuaan. 2) Kacamata baca add +1.50 sampai +1.75 D; rujuk optometri/dokter mata untuk refraksi komprehensif. 3) Modifikasi pencahayaan, font besar, ergonomi membaca. 4) Anjurkan kontrol TD, amlodipin rutin, skrining DM, dan pemeriksaan mata berkala. 5) Label obat besar/terbaca untuk mencegah salah dosis. 6) Safety net red flags mata.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi presbiopia: presbiopia adalah proses penuaan normal, bukan otomatis tanda kebutaan. Kacamata baca perlu disesuaikan berkala.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi kacamata: jangan membeli kacamata acak bila ada mata merah, nyeri, penurunan visus mendadak, silau berat, halo+mual, pandangan seperti tirai, diplopia, trauma, atau keluhan satu mata mendadak.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi keamanan obat: gunakan label obat dengan huruf besar/terbaca, minta tolong anggota keluarga bila perlu, untuk mencegah salah dosis (terutama amlodipin).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera bila:",
+          "sub": [
+            "Penurunan visus mendadak (dekat atau jauh).",
+            "Nyeri mata berat, mata merah.",
+            "Melihat halo/pelangi disertai mual.",
+            "Diplopia (penglihatan ganda).",
+            "Defek lapang pandang atau bayangan seperti tirai.",
+            "Floaters atau kilatan cahaya mendadak.",
+            "Trauma mata."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_pres_glaukoma_08",
+        "gls_sken_pres_amd_09"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian lengkap 100 poin.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Total penilaian: 100 poin. Komponen utama: Pembukaan & komunikasi 10 poin, Anamnesis 25 poin, Pemeriksaan fisik 25 poin, Penunjang & interpretasi 15 poin, Diagnosis & reasoning 10 poin, Tata laksana/edukasi/safety net 15 poin. Item di bawah ini WAJIB dinilai seluruhnya oleh penguji.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "A. Pembukaan dan komunikasi (10 poin):",
+          "sub": [
+            "Salam, perkenalan, identifikasi pasien (2 poin).",
+            "Empati terhadap kekhawatiran pasien (2 poin).",
+            "Menjelaskan pemeriksaan mata dan meminta izin (2 poin).",
+            "Bahasa awam, tidak menakut-nakuti (2 poin).",
+            "Cross-check dan memastikan pemahaman pasien (2 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "B. Anamnesis (25 poin):",
+          "sub": [
+            "Menggali onset, progresi, dekat/jauh, membaik bila dijauhkan, cahaya (6 poin).",
+            "Menggali astenopia/sakit kepala dan dampak fungsional membaca obat/kerja (4 poin).",
+            "Skrining red flags: nyeri, merah, visus mendadak, halo+mual, diplopia, trauma, lapang pandang, floaters/flash (7 poin).",
+            "Menggali riwayat kacamata/operasi/trauma/obat (3 poin).",
+            "Menggali komorbid diabetes/hipertensi dan obat (3 poin).",
+            "Menggali kebutuhan pasien dan kekhawatiran (2 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "C. Pemeriksaan fisik (25 poin):",
+          "sub": [
+            "TTV dan penilaian geriatri singkat termasuk risiko fungsi/obat (4 poin).",
+            "Inspeksi mata luar, kornea, pupil/refleks cahaya (5 poin).",
+            "Gerak bola mata dan lapang pandang kasar (3 poin).",
+            "Visus jauh Snellen tiap mata dan kedua mata (5 poin).",
+            "Visus dekat/Jaeger/near chart (4 poin).",
+            "Pinhole dan trial lens/add plus (4 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "D. Penunjang dan interpretasi (15 poin):",
+          "sub": [
+            "Menjelaskan Snellen dan near chart sebagai pemeriksaan utama (4 poin).",
+            "Menginterpretasi visus jauh normal + visus dekat membaik dengan plus (4 poin).",
+            "Menyebut refraksi komprehensif sebagai konfirmasi praktis (3 poin).",
+            "Menyebut tonometri/slit lamp/fundus bila red flags/risiko (2 poin).",
+            "Menyebut skrining DM/HT sesuai risiko, bukan semua keluhan mata sederhana (2 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "E. Diagnosis dan reasoning (10 poin):",
+          "sub": [
+            "Diagnosis presbiopia (4 poin).",
+            "Alasan klinis lengkap (3 poin).",
+            "Diagnosis banding mata lansia (3 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "F. Tatalaksana, edukasi, safety net (15 poin):",
+          "sub": [
+            "Koreksi kacamata baca/add plus atau rujuk optometri/dokter mata (4 poin).",
+            "Edukasi pencahayaan, font besar, ergonomi, istirahat mata (3 poin).",
+            "Edukasi presbiopia proses usia normal (2 poin).",
+            "Anjurkan kontrol komorbid dan pemeriksaan mata berkala (3 poin).",
+            "Safety net red flags mata (3 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Skoring dilakukan per-item menggunakan poin parsial (penilai memberi proporsi poin sesuai kualitas jawaban peserta pada masing-masing sub-item). BUKAN all-or-nothing; peserta yang menjawab sebagian benar tetap mendapat poin proporsional.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Critical error pada skenario mata geriatri biasanya terkait kegagalan skrining red flags atau tindakan yang menunda diagnosis patologi organik serius. Kenali setiap critical error berikut dan pelajari cara menghindari atau memulihkannya.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Tidak menilai visus dekat dan jauh.",
+          "sub": [
+            "Kenapa critical: tanpa keduanya, mustahil membedakan presbiopia (visus jauh normal, dekat membaik dengan plus) dari kelainan refraksi/patologi organik. Diagnosis menjadi asumsi.",
+            "Recovery move: Pada semua pasien dengan keluhan mata, WAJIB ukur visus jauh Snellen per mata DAN visus dekat Jaeger/near chart. Keduanya adalah landasan diagnosis."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Tidak menyaring mata merah, nyeri, penurunan visus mendadak, halo+mual, trauma, diplopia, atau defek lapang pandang.",
+          "sub": [
+            "Kenapa critical: kelainan ini mengarah ke glaukoma akut, ablasio retina, uveitis, atau cedera mata yang memerlukan tatalaksana emergensi, bukan kacamata baca.",
+            "Recovery move: Selalu skrining 7 red flags mata (merah, nyeri, visus mendadak, halo+mual, diplopia, defek lapang pandang, floaters/flash) sebelum menyimpulkan diagnosis."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Langsung menyuruh membeli kacamata acak tanpa pemeriksaan dan safety net.",
+          "sub": [
+            "Kenapa critical: kacamata acak dapat menutupi gejala patologi organik (mis. retinopati, glaukoma, AMD) yang membutuhkan rujukan tepat waktu. Risiko klinis dan etis.",
+            "Recovery move: Tetapkan urutan: anamnesis + red flags + visus jauh + visus dekat + pinhole + trial lens → diagnosis → resep koreksi atau rujukan refraksi komprehensif. Tambahkan safety net tegas."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Mengabaikan risiko salah membaca obat pada lansia.",
+          "sub": [
+            "Kenapa critical: pada lansia dengan polifarmasi dan TD tidak terkontrol (148/88), kesalahan membaca dosis amlodipin atau obat lain dapat berakibat hipotensi/hipertensi tidak terkontrol. Ini adalah argumen kuat untuk koreksi presbiopia adekuat.",
+            "Recovery move: Tanyakan dampak fungsional membaca label obat; edukasi label besar, minta tolong keluarga, dan lakukan koreksi kacamata yang konsisten."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 5: Mengatakan presbiopia pasti tidak perlu evaluasi mata sama sekali pada semua pasien.",
+          "sub": [
+            "Kenapa critical: pada lansia dengan faktor risiko (hipertensi lama, TD tidak terkontrol, potensi DM), evaluasi mata berkala tetap diperlukan untuk skrining retinopati, glaukoma, katarak, dan AMD.",
+            "Recovery move: Jelaskan bahwa presbiopia adalah diagnosis keluhan, tetapi evaluasi mata komprehensif tetap disarankan berkala pada lansia sesuai risiko dan keluhan."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Langsung menyuruh membeli kacamata baca tanpa anamnesis lengkap, tanpa skrining red flags, dan tanpa safety net adalah error paling fatal pada skenario ini. Peserta yang melakukannya hampir otomatis dianggap gagal paham algoritma skrining mata geriatri.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_pres_def_01",
+        "gls_sken_pres_glaukoma_08",
+        "gls_sken_pres_amd_09"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Naskah probandus lengkap — Pak Hasan, 56 tahun, pedagang warung, hipertensi 5 tahun (amlodipin, tidak rutin). Pembuka: \"Dok, akhir-akhir ini saya susah membaca tulisan kecil di HP dan label obat. Kalau dijauhkan baru lebih jelas.\" Pasien kooperatif dan menjawab jujur sesuai data; informasi yang tidak ditanyakan tidak diberikan spontan.\n\nIdentitas: Pak Hasan, 56 tahun, hipertensi 5 tahun, amlodipin tidak selalu rutin; belum pernah periksa mata lengkap 2 tahun terakhir.\n\nKeluhan: perlahan 1 tahun, makin terasa 3 bulan; membaca dekat (HP, label obat, uang) kabur; dijauhkan lebih jelas; butuh cahaya lebih; mata lelah, sakit kepala ringan di dahi setelah membaca lama; penglihatan jauh masih relatif baik.\n\nRed flags (tidak ada): tidak ada penurunan visus mendadak, nyeri, merah, halo+mual, trauma, diplopia, defek lapang pandang, floaters/flash, atau keluhan unilateral akut.\n\nRiwayat: tidak diketahui diabetes (haus/BAK malam tidak menonjol), tidak pakai steroid lama, tidak operasi mata, keluarga ada yang pakai kacamata baca.\n\nDampak: pernah salah membaca dosis obat; kesulitan baca nota/uang saat warung ramai; belum pernah coba kacamata baca.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji / pendamping:",
+          "sub": [
+            "Berikan TTV dan temuan mata HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau prosedur.",
+            "Pertanyaan tentang TTV → jawab TD 148/88, HR 82, RR 18, suhu 36,7°C, SpO2 98%.",
+            "Pertanyaan tentang GDS → jawab 108 mg/dL (bila diminta dengan indikasi skrining komorbid).",
+            "Pertanyaan tentang inspeksi mata → jawab tidak merah/sekret/trauma/edema, kornea jernih, pupil isokor 3 mm/3 mm refleks cahaya baik.",
+            "Pertanyaan tentang gerak bola mata/lapang pandang → jawab bebas ke segala arah, lapang pandang kasar normal.",
+            "Pertanyaan tentang Snellen visus jauh → jawab OD 6/6, OS 6/6, OU 6/6.",
+            "Pertanyaan tentang pinhole → jawab tidak berubah bermakna.",
+            "Pertanyaan tentang Jaeger/near chart → jawab N8-N10/J5-J6 kabur.",
+            "Pertanyaan tentang trial lens → jawab membaik jadi N5/J1-J2 dengan add +1.50 sampai +1.75 D.",
+            "Pertanyaan tentang red reflex/fundus → jawab red reflex ada, tidak leukokoria; funduskopi detail perlu alat lanjutan.",
+            "Pertanyaan tentang tonometri → jawab tidak tersedia di stasiun, rujuk bila ada indikasi.",
+            "Pertanyaan tentang terapi → tekankan koreksi add plus atau rujukan refraksi komprehensif + safety net red flags."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "National Eye Institute. Presbyopia; Refractive Errors; Eyeglasses for Refractive Errors.",
+            "American Academy of Ophthalmology. Preferred Practice Pattern: Refractive Errors in Adults.",
+            "SKDI 4A Batch 2 — IKA & Geriatri (penyakit presbiopia).",
+            "PNPK atau pedoman lokal tentang kesehatan mata lansia.",
+            "Kanski & Bowling. Clinical Ophthalmology: A Systematic Approach."
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Penilaian dilakukan secara langsung selama 10 menit performa.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    }
+  ]
+}

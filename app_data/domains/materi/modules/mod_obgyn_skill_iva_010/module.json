@@ -1,0 +1,1242 @@
+{
+  "id": "mod_obgyn_skill_iva_010",
+  "title": "IVA (Inspeksi Visual Asam Asetat)",
+  "subtitle": "Skrining kanker serviks dengan IVA untuk deteksi dini lesi prakanker di FKTP.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_3",
+  "source_pdf": "Batch3_6.1_Modul_3_IVA.docx",
+  "source_filename": "Batch3_6.1_Modul_3_IVA.docx",
+  "topicTags": [
+    "osce_6_1",
+    "iva",
+    "inspeksi_visual_asam_asetat",
+    "skrining_kanker_serviks",
+    "acetowhite",
+    "zona_transformasi",
+    "program_skrining",
+    "kesehatan_reproduksi",
+    "preventif"
+  ],
+  "summary": [
+    "IVA adalah pemeriksaan leher rahim dengan asam asetat 5% untuk melihat perubahan putih (acetowhite) pada zona transformasi/sambungan skuamokolumnar (SSK) yang dapat mengarah ke lesi pra-kanker.",
+    "Skrining IVA hanya bermakna bila zona transformasi/SSK terlihat jelas, sekret dibersihkan terlebih dahulu, dan aplikasi asam asetat dilakukan secara merata dengan waktu kontak 1-2 menit.",
+    "Hasil IVA dibaca sebagai: IVA negatif (tidak ada acetowhite), IVA positif (acetowhite tebal/jelas di SSK), atau curiga kanker (lesi ulseratif/massa/perdarahan).",
+    "IVA adalah skrining, bukan diagnosis kanker definitif; hasil abnormal perlu tindak lanjut sesuai protokol (kolposkopi, biopsi, atau rujuk SpOG untuk curiga kanker).",
+    "Komponen skor OSCE IVA: privasi, informed consent, posisi litotomi, identifikasi SSK, aplikasi asam asetat 5%, interpretasi acetowhite, dokumentasi gambar/sketsa, edukasi hasil, dan dekontaminasi alat.",
+    "Target skrining IVA di Indonesia adalah wanita usia 30-50 tahun yang datang ke FKTP (puskesmas) sebagai bagian dari program nasional deteksi dini kanker serviks.",
+    "Seleksi klien IVA: tidak sedang menstruasi, tidak hamil, tidak post-coital dalam 24 jam, tidak ada servisitis/vaginitis akut, dan informed consent sudah diberikan.",
+    "Acetowhite yang cepat muncul (sekitar 30 detik) dan tebal mencurigakan CIN; perubahan lambat biasanya metaplasia skuamosa normal.",
+    "Dokumentasi SOAP IVA wajib mencakup hasil (negatif/positif/curiga kanker), lokasi/ukuran lesi, sketsa (bila abnormal), serta rencana tindak lanjut dan edukasi tanda bahaya.",
+    "Seluruh hasil IVA positif harus dirujuk untuk kolposkopi; curiga kanker harus dirujuk segera ke SpOG/onkologi untuk biopsi dan histopatologi."
+  ],
+  "exam_focus": [
+    "FATAL: Tidak menjelaskan bahwa pemeriksaan akan terasa tidak nyaman (komunikasi hangus).",
+    "FATAL: Tidak menjaga privasi pasien saat posisi ginekologis (etika hangus).",
+    "FATAL: Spekulum tidak dipilih sesuai ukuran sehingga portio tidak terlihat (persiapan hangus).",
+    "FATAL: Tidak membersihkan sekret sebelum menilai serviks (teknik hangus).",
+    "FATAL: Tidak memastikan SSK/zona transformasi terlihat (interpretasi hangus).",
+    "FATAL: Tidak melakukan informed consent, dekontaminasi, atau cuci tangan 6 langkah (etika dan asepsis hangus).",
+    "PENGURANGAN BESAR: Tidak menyebut diagnosis kerja (negatif/positif/curiga kanker), tidak menyebut SSK/zona transformasi, konsentrasi asam asetat 5%, atau waktu kontak 1-2 menit.",
+    "PENGURANGAN BESAR: Tidak edukasi keluarga tentang hasil, tindak lanjut, tanda bahaya, atau tidak menyebut kode ICD-10 (Z11.5, Z12.4, N87.x, C53.x).",
+    "Alat wajib IVA: spekulum S/M/L, asam asetat 5% dalam semprot, kasa steril, sarung tangan, klorin 0,5%, lampu sorot, masker, meja ginekologi, tampon tang.",
+    "Posisi pasien: litotomi/ginekologis dengan privasi, drape, informed consent, dan pendamping perempuan bila tersedia."
+  ],
+  "glossary": [
+    {
+      "id": "gls_iva_prosedur_01",
+      "term": "IVA (Inspeksi Visual Asam Asetat)",
+      "def": "Pemeriksaan skrining kanker serviks dengan mengoleskan asam asetat 5% pada serviks dan menilai perubahan warna putih (acetowhite) pada zona transformasi/SSK. IVA adalah skrining, bukan diagnosis definitif.",
+      "type": "procedure",
+      "aliases": [
+        "Visual Inspection with Acetic Acid",
+        "VIA"
+      ]
+    },
+    {
+      "id": "gls_iva_acetowhite_02",
+      "term": "Acetowhite lesion",
+      "def": "Area epitel serviks yang berubah menjadi putih setelah aplikasi asam asetat 5%. Lesi acetowhite yang tebal, jelas, dan dekat OUE mencurigakan CIN; perubahan lambat/irreguler biasanya metaplasia skuamosa normal.",
+      "type": "clinical",
+      "aliases": [
+        "plak putih",
+        "acetowhite epithelium"
+      ]
+    },
+    {
+      "id": "gls_iva_ssk_03",
+      "term": "Zona transformasi",
+      "def": "Area pada serviks tempat epitel kolumnar endoserviks diganti menjadi epitel skuamosa ektoserviks. Termasuk di dalamnya adalah sambungan skuamokolumnar (SSK). Lokasi utama lesi prakanker serviks.",
+      "type": "anatomy",
+      "aliases": [
+        "transformation zone",
+        "TZ"
+      ]
+    },
+    {
+      "id": "gls_iva_oue_04",
+      "term": "OUE (Ostium Uteri Eksterna)",
+      "def": "Mulut luar saluran serviks yang menghubungkan vagina dengan kanalis serviks. Menjadi titik referensi untuk melihat SSK dan menilai lokasi lesi IVA.",
+      "type": "anatomy",
+      "aliases": [
+        "ostium eksternum",
+        "external os"
+      ]
+    },
+    {
+      "id": "gls_iva_cin_05",
+      "term": "CIN (Cervical Intraepithelial Neoplasia)",
+      "def": "Lesi pra-kanker serviks yang diklasifikasikan menjadi CIN 1, 2, 3 berdasarkan kedalaman displasia epitel. Ditandai dengan acetowhite tebal yang muncul cepat (sekitar 30 detik) setelah aplikasi asam asetat 5%.",
+      "type": "clinical",
+      "aliases": [
+        "displasia serviks",
+        "neoplasia intraepitel serviks"
+      ]
+    },
+    {
+      "id": "gls_iva_kolposkopi_06",
+      "term": "Kolposkopi",
+      "def": "Pemeriksaan visual serviks dengan pembesaran (kolposkop) untuk evaluasi lanjutan IVA positif atau Pap smear abnormal, dilanjutkan biopsi bila diperlukan.",
+      "type": "procedure",
+      "aliases": [
+        "colposcopy"
+      ]
+    },
+    {
+      "id": "gls_iva_litotomi_07",
+      "term": "Posisi litotomi",
+      "def": "Posisi pasien berbaring telentang dengan kedua tungkai diletakkan pada penyangga, pinggul di tepi meja, untuk pemeriksaan ginekologis dan prosedur IVA. Privasi dan drape wajib digunakan.",
+      "type": "procedure",
+      "aliases": [
+        "posisi ginekologis",
+        "lithotomy position"
+      ]
+    },
+    {
+      "id": "gls_iva_consent_08",
+      "term": "Informed consent",
+      "def": "Persetujuan tindakan medis setelah pasien menerima penjelasan diagnosis, prosedur, risiko, manfaat, dan alternatif. Wajib sebelum IVA dan dapat berupa verbal atau tertulis sesuai SOP fasilitas.",
+      "type": "procedure",
+      "aliases": [
+        "persetujuan setelah penjelasan"
+      ]
+    },
+    {
+      "id": "gls_iva_apd_09",
+      "term": "APD (Alat Pelindung Diri)",
+      "def": "Perlengkapan yang dipakai pemeriksa untuk mencegah transmisi infeksi: sarung tangan (DTT/steril), masker, apron, dan kacamata pelindung bila diperlukan.",
+      "type": "procedure",
+      "aliases": [
+        "alat pelindung diri",
+        "PPE"
+      ]
+    },
+    {
+      "id": "gls_iva_asamasetat_10",
+      "term": "Asam asetat 5%",
+      "def": "Larutan cuka encer 5% yang digunakan dalam IVA untuk menimbulkan perubahan warna putih (acetowhite) pada epitel skuamosa abnormal melalui koagulasi protein.",
+      "type": "drug",
+      "aliases": [
+        "cuka 5%",
+        "acetic acid 5%"
+      ]
+    },
+    {
+      "id": "gls_iva_servisitis_11",
+      "term": "Servisitis",
+      "def": "Inflamasi serviks yang ditandai serviks merah, mukopurulen, mudah berdarah. Kondisi aktif mengganggu interpretasi IVA sehingga harus ditata dulu sebelum IVA dilakukan.",
+      "type": "clinical",
+      "aliases": [
+        "cervicitis"
+      ]
+    },
+    {
+      "id": "gls_iva_papsmear_12",
+      "term": "Pap smear",
+      "def": "Pemeriksaan sitologi serviks untuk skrining kanker serviks dengan mengambil sampel ektoserviks (spatula Ayre) dan endoserviks (cytobrush), kemudian dilakukan fiksasi dan pembacaan di laboratorium dengan sistem Bethesda.",
+      "type": "procedure",
+      "aliases": [
+        "tes Pap",
+        "Papanicolaou smear"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_iva_01",
+      "term_id": "Inspeksi Visual Asam Asetat",
+      "term_en": "Visual Inspection with Acetic Acid (VIA)",
+      "context": "Prosedur skrining kanker serviks dengan aplikasi asam asetat 5%."
+    },
+    {
+      "id": "bil_iva_02",
+      "term_id": "Sambungan skuamokolumnar (SSK)",
+      "term_en": "Squamocolumnar junction (SCJ)",
+      "context": "Batas antara epitel skuamosa ektoserviks dan epitel kolumnar endoserviks; target utama IVA."
+    },
+    {
+      "id": "bil_iva_03",
+      "term_id": "Acetowhite",
+      "term_en": "Acetowhite lesion",
+      "context": "Area putih pada serviks setelah aplikasi asam asetat 5% yang dapat menandakan lesi prakanker."
+    },
+    {
+      "id": "bil_iva_04",
+      "term_id": "Neoplasia intraepitel serviks (CIN)",
+      "term_en": "Cervical Intraepithelial Neoplasia (CIN)",
+      "context": "Lesi pra-kanker serviks yang menjadi target utama temuan IVA positif."
+    },
+    {
+      "id": "bil_iva_05",
+      "term_id": "Kanker serviks",
+      "term_en": "Cervical cancer",
+      "context": "Keganasan serviks yang dicurigai bila IVA menemukan lesi ulseratif/massa/perdarahan."
+    },
+    {
+      "id": "bil_iva_06",
+      "term_id": "Kolposkopi",
+      "term_en": "Colposcopy",
+      "context": "Pemeriksaan visual serviks dengan pembesaran untuk evaluasi lanjutan IVA positif."
+    },
+    {
+      "id": "bil_iva_07",
+      "term_id": "Zona transformasi",
+      "term_en": "Transformation zone (TZ)",
+      "context": "Area serviks antara SSK original dan SSK baru, lokasi utama lesi prakanker."
+    },
+    {
+      "id": "bil_iva_08",
+      "term_id": "Pap smear",
+      "term_en": "Pap smear / Papanicolaou smear",
+      "context": "Pemeriksaan sitologi serviks sebagai skrining kanker serviks (komplementer IVA)."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_iva_anatomi_serviks_01",
+      "module_id": "mod_obgyn_skill_iva_010",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis serviks dengan label ektoserviks, endoserviks, ostium eksternum, sambungan skuamokolumnar, zona transformasi, Bahasa Indonesia. Gaya clean medical illustration, label jelas, warna netral.",
+      "alt": "Diagram anatomi serviks yang menunjukkan ektoserviks, endoserviks, ostium eksternum, sambungan skuamokolumnar (SSK), dan zona transformasi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/anatomi_serviks_ssk.png"
+    },
+    {
+      "id": "visual_iva_posisi_litotomi_02",
+      "module_id": "mod_obgyn_skill_iva_010",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Manekin pasien di meja ginekologi dengan drape, pemeriksa duduk sejajar dengan introitus, lampu sorot diarahkan ke vulva. Gaya clean medical illustration, etis, tidak vulgar.",
+      "alt": "Ilustrasi posisi ginekologis/litotomi dengan manekin, drape, lampu sorot, dan posisi pemeriksa duduk sejajar.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/posisi_litotomi.png"
+    },
+    {
+      "id": "visual_iva_pasang_spekulum_03",
+      "module_id": "mod_obgyn_skill_iva_010",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Diagram 3 langkah memasukkan spekulum bi-valved secara gentle pada manekin: pegang, miringkan, buka. Gaya clean medical illustration, etis, label Bahasa Indonesia.",
+      "alt": "Diagram 3 langkah pemasangan spekulum secara gentle pada manekin dengan posisi benar.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/cara_pasang_spekulum.png"
+    },
+    {
+      "id": "visual_iva_negatif_04",
+      "module_id": "mod_obgyn_skill_iva_010",
+      "section_id": "s06",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi serviks normal merah muda setelah aplikasi asam asetat 5%, tidak ada plak putih, SSK terlihat jelas. Gaya clean medical illustration, label 'IVA Negatif'.",
+      "alt": "Ilustrasi serviks normal merah muda pasca aplikasi asam asetat 5% tanpa plak putih, menunjukkan IVA negatif.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/iva_negatif.png"
+    },
+    {
+      "id": "visual_iva_positif_acetowhite_05",
+      "module_id": "mod_obgyn_skill_iva_010",
+      "section_id": "s06",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi serviks dengan area putih jelas (acetowhite) di zona transformasi/SSK setelah aplikasi asam asetat 5%. Label Bahasa Indonesia: acetowhite, zona transformasi, SSK, portio. Gaya clean medical illustration.",
+      "alt": "Ilustrasi serviks dengan plak acetowhite tebal dan jelas di zona transformasi, menunjukkan IVA positif.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/iva_positif_acetowhite.png"
+    },
+    {
+      "id": "visual_iva_curiga_kanker_06",
+      "module_id": "mod_obgyn_skill_iva_010",
+      "section_id": "s06",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis non-grafis serviks dengan massa ulseratif mudah berdarah, discharge darah. Label Bahasa Indonesia: massa, ulkus, perdarahan, curiga kanker, rujuk. Gaya clean medical illustration, tidak vulgar.",
+      "alt": "Ilustrasi serviks dengan lesi ulseratif dan massa yang mudah berdarah, menggambarkan curiga kanker serviks yang perlu rujuk segera.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/curiga_kanker_serviks.png"
+    },
+    {
+      "id": "visual_iva_template_dokumentasi_07",
+      "module_id": "mod_obgyn_skill_iva_010",
+      "section_id": "s08",
+      "type": "table",
+      "generation_prompt": "Lembar rekam hasil IVA dengan sketsa jam serviks 12-3-6-9, kolom identitas pasien, hasil IVA, lokasi lesi, ukuran lesi, batas lesi, rencana tindak lanjut, tanda tangan pemeriksa. Gaya formulir medis profesional.",
+      "alt": "Template dokumentasi IVA dengan sketsa jam serviks 12-3-6-9, kolom lokasi, ukuran, hasil, dan rencana tindak lanjut.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iva_010/assets/template_dokumentasi_iva.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Penambahan daftar komplikasi intraprosedural dan jadwal tindak lanjut pasca-IVA sesuai WHO 2021.",
+      "source_reference": "WHO cervical pre-cancer screening guideline 2021",
+      "confidence": "high",
+      "note": "Penambahan dilakukan saat standardisasi untuk memastikan kelengkapan klinis sesuai program skrining nasional dan WHO 2021."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "Penambahan pola komunikasi OSCE untuk IVA (pembukaan, saat prosedur, penutup) dalam Bahasa Indonesia sesuai modul OSCE ObGyn FKIK Universitas Jambi.",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Pola komunikasi ini adalah tambahan saat standardisasi untuk konsistensi dengan modul OSCE ObGyn FKIK Universitas Jambi."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Penambahan 4 skenario mini-case IVA (mudah, sedang, sulit, serviks tidak terlihat) untuk latihan mandiri mahasiswa.",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Mini-case generator ditambahkan untuk membantu mahasiswa melakukan latihan mandiri sebelum OSCE."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Modul IVA memperkenalkan skrining kanker serviks dengan asam asetat 5% untuk deteksi dini lesi prakanker. Target OSCE: mahasiswa mampu melakukan IVA lengkap di FKTP dengan urutan, komunikasi, dan dokumentasi yang benar.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Sumber dokumen utama modul ini adalah PDF Penuntun Belajar Inspeksi Visual Asam Asetat dari FKIK Universitas Jambi, diperkaya dengan SKDI 4A Obgyn dan WHO cervical pre-cancer screening guideline 2021. Fokus utama modul adalah checklist penilaian OSCE dari PDF kampus, yang dijelaskan ulang untuk mahasiswa awam agar mudah dipahami. Peta Cepat Satu Halaman merangkum definisi IVA, masalah yang dicari, prioritas OSCE, hasil normal, hasil tidak normal, dan kalimat kunci yang harus muncul saat OSCE.",
+          "tone": "narrative",
+          "source": "§1 file sumber / Peta Cepat Satu Halaman"
+        },
+        {
+          "text": "IVA adalah pemeriksaan leher rahim dengan asam asetat 5% untuk melihat perubahan putih pada area sambungan skuamokolumnar (SSK) yang dapat mengarah ke lesi pra-kanker. Lesi prakanker serviks yang dicari berada pada zona transformasi, terutama di sekitar SSK. Prioritas OSCE mencakup: persetujuan, posisi ginekologis, spekulum, tampakkan portio, bersihkan serviks, pastikan SSK terlihat, oles/semprot asam asetat 5%, nilai acetowhite, dokumentasi dan edukasi.",
+          "tone": "clinical",
+          "source": "§1 file sumber / Tabel Peta Cepat"
+        },
+        {
+          "text": "Hasil normal IVA adalah tidak ada perubahan warna putih bermakna pada portio/SSK. Hasil tidak normal berupa plak keputihan/acetowhite, terutama di sambungan skuamokolumnar. Kalimat kunci yang harus muncul saat OSCE: IVA adalah skrining, bukan diagnosis kanker definitif; hasil abnormal perlu tindak lanjut sesuai protokol. Modul skrining ini berbeda dari modul kegawatan: fokus pada interpretasi acetowhite, seleksi klien, dan rujukan yang tepat waktu, bukan pada tindakan emergensi.",
+          "tone": "clinical",
+          "source": "§1 file sumber / Tabel Peta Cepat"
+        },
+        {
+          "text": "Kanker serviks umumnya berkembang perlahan dari lesi pra-kanker, sehingga IVA bertujuan menemukan lesi lebih awal, terutama di fasilitas dengan sumber daya terbatas. Asam asetat membuat area dengan perubahan epitel tertentu tampak putih sementara. Karenanya, penguji akan sangat memperhatikan apakah mahasiswa melihat zona transformasi/SSK, bukan hanya menyemprot cairan. Pada OSCE, lakukan pemeriksaan dengan empati karena pasien sering takut pada pemeriksaan ginekologis. Komunikasi, privasi, dan cara memasukkan spekulum dengan lembut sama pentingnya dengan interpretasi hasil.",
+          "tone": "narrative",
+          "source": "§1 file sumber / Kutipan Mengapa penting"
+        },
+        {
+          "text": "Skenario klinis utama yang digunakan konsisten di seluruh modul adalah Ny. Sari, 35 tahun, P3A0, datang ke puskesmas untuk skrining kanker serviks. Haid teratur, tidak hamil, tidak ada keluhan keputihan saat ini. Informed consent verbal sudah diberikan. Identitas fiktif ini digunakan di §1, §9, §13, §15, dan Lampiran C. Prinsip utama: penguji sangat memperhatikan apakah mahasiswa melihat zona transformasi/SSK, bukan hanya menyemprot cairan, dan IVA adalah skrining, bukan diagnosis kanker definitif.",
+          "tone": "narrative",
+          "source": "§1 file sumber / Skenario klinis & Prinsip utama"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Peta Cepat Satu Halaman wajib dihafal: definisi IVA, masalah yang dicari, prioritas OSCE, hasil normal/abnormal, dan kalimat kunci.",
+          "bold": true,
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Kanker serviks berkembang perlahan dari lesi pra-kanker; IVA adalah skrining deteksi dini untuk fasilitas dengan sumber daya terbatas.",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Komunikasi, privasi, dan pemasangan spekulum yang lembut sama pentingnya dengan interpretasi hasil acetowhite.",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Skenario pasien fiktif: Ny. Sari, 35 tahun, P3A0, haid teratur, tidak hamil, tidak ada keluhan, informed consent verbal sudah diberikan.",
+          "source": "§1 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip utama IVA",
+          "text": "Penguji sangat memperhatikan apakah mahasiswa melihat zona transformasi/SSK, bukan hanya menyemprot cairan. IVA adalah skrining, bukan diagnosis kanker definitif.",
+          "answer_evidence": "Sumber: PDF Penuntun Belajar IVA FKIK Universitas Jambi"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Target epidemiologi",
+          "text": "Kanker serviks berkembang perlahan dari lesi pra-kanker. IVA menemukan lesi lebih awal terutama di fasilitas dengan sumber daya terbatas. Target skrining di Indonesia adalah wanita usia 30-50 tahun di FKTP.",
+          "answer_evidence": "WHO Guideline for screening and treatment of cervical pre-cancer lesions, 2nd edition, 2021"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_iva_prosedur_01",
+        "gls_iva_ssk_03"
+      ],
+      "bilingual": "Section ini memperkenalkan skenario klinis dan target OSCE untuk IVA. Skrining kanker serviks dengan asam asetat 5% adalah kompetensi inti dokter umum di FKTP."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Section ini memuat alur besar OSCE IVA dalam 11 langkah dan checklist penilaian 15 butir dengan kalimat yang dapat diucapkan dan kesalahan yang menurunkan skor.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur besar OSCE IVA dalam satu napas dapat dirangkum menjadi 11 langkah utama: 1) Persetujuan (sapa, perkenalkan diri, jelaskan kemungkinan diagnosis, prosedur, rasa tidak nyaman, pastikan paham, minta persetujuan); 2) Persiapan alat (kasa steril, sarung tangan, klorin, tampon tang, spekulum S/M/L, asam asetat 5% dalam semprot, penerangan, meja ginekologi); 3) Posisi pasien ginekologis dengan privasi dan drape; 4) Posisi pemeriksa duduk dengan pandangan lurus ke vagina, menggunakan masker; 5) Bersihkan vulva dengan antiseptik dari anterior ke posterior satu kali usapan; 6) Pasang spekulum, tampakkan portio jelas berwarna merah muda; 7) Bersihkan lendir/sekret dengan kasa; 8) Pastikan sambungan skuamokolumnar terlihat; 9) Semprotkan/oleskan asam asetat 5%; 10) Interpretasi perubahan warna di SSK; 11) Penutup (lepas spekulum gentle, rendam dalam klorin, catat hasil, gambar/sketsa bila abnormal, jelaskan hasil dan rencana).",
+          "tone": "clinical",
+          "source": "§2 file sumber / Tabel Alur Besar OSCE"
+        },
+        {
+          "text": "Checklist OSCE Diterjemahkan Menjadi Langkah Praktis terdiri dari 15 butir. Setiap butir memuat cara melakukan agar skor maksimal, kalimat yang dapat diucapkan dengan suara keras, dan kesalahan yang menurunkan nilai. Butir-butirnya: 1) Salam, perkenalan, identitas; 2) Jelaskan prosedur dan kemungkinan diagnosis; 3) Minta persetujuan; 4) Persiapan alat lengkap dengan asam asetat 5% sesuai checklist; 5) Posisi ginekologis dengan privasi dan drape; 6) Posisi pemeriksa duduk, pandangan lurus, masker; 7) Bersihkan vulva dari anterior ke posterior satu kali usapan; 8) Pasang spekulum, tampakkan portio jelas; 9) Bersihkan lendir/sekret; 10) Identifikasi SSK; 11) Aplikasi asam asetat 5% merata; 12) Interpretasi acetowhite; 13) Penutup, dekontaminasi, dokumentasi; 14) Dekontaminasi, cuci tangan, edukasi; 15) Penutup station dengan salam.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Tabel Checklist"
+        },
+        {
+          "text": "Pola kalimat yang diucapkan untuk beberapa langkah kritis: langkah 1 Salam (Selamat pagi, Ibu Sari. Saya dokter muda yang akan melakukan skrining IVA. Saya akan menjaga privasi Ibu); langkah 2 Penjelasan (Tindakan ini adalah skrining leher rahim dengan asam asetat 5%. Tujuannya mendeteksi dini kelainan. Mungkin terasa sedikit perih); langkah 3 Persetujuan (Apakah Ibu bersedia? Mohon tanda tangan di lembar persetujuan); langkah 4 Alat lengkap (Alat sudah lengkap: spekulum, asam asetat 5%, kasa, lampu, meja ginekologi); langkah 5 Posisi (Ibu, saya posisikan litotomi dengan drape. Saya jelaskan setiap langkah sebelum melakukannya); langkah 6 Pemeriksa (Saya duduk sejajar dengan vagina, pandangan lurus ke portio, masker dipakai); langkah 7 Vulva (Saya bersihkan vulva dari depan ke belakang satu kali usapan); langkah 8 Spekulum (Spekulum masuk, serviks terlihat, warna merah muda); langkah 9 Sekret (Saya bersihkan lendir/sekret pada portio); langkah 10 SSK (SSK/zona transformasi terlihat jelas); langkah 11 Asam asetat (Saya oleskan asam asetat 5% ke portio, merata); langkah 12 Interpretasi (Setelah 1-2 menit, normal: tidak ada perubahan. Tidak normal: plak putih acetowhite di SSK); langkah 13 Penutup (Spekulum dilepas, alat direndam klorin. Hasil saya catat, dan saya gambar/sketsa bila abnormal); langkah 14 Dekontaminasi (Alat direndam klorin, saya cuci tangan, edukasi Ibu tentang hasil dan tindak lanjut); langkah 15 Salam (Terima kasih, Bu. Saya doakan Ibu sehat. Ada pertanyaan?).",
+          "tone": "clinical",
+          "source": "§3 file sumber / Tabel Checklist kolom Kalimat"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tips nilai tinggi: jaga privasi dan sopan santun (poin pertama yang dinilai), lihat SSK/zona transformasi (bukan hanya menyemprot), bersihkan sekret sebelum menilai, dokumentasi gambar/sketsa bila abnormal, dan IVA adalah skrining (bukan diagnosis pasti).",
+          "sub": [
+            "Privasi adalah komponen skor: gunakan kain penutup, tutup area yang tidak dikerjakan, jelaskan setiap langkah.",
+            "Lihat SSK/zona transformasi, bukan hanya menyemprot: ini yang paling dinilai oleh penguji.",
+            "Bersihkan sekret sebelum menilai: lendir/darah mengganggu interpretasi warna acetowhite."
+          ],
+          "bold": true,
+          "source": "§2 file sumber / Tips nilai tinggi"
+        },
+        {
+          "text": "Pesan kunci OSCE IVA: IVA adalah skrining, bukan diagnosis kanker definitif; hasil abnormal perlu tindak lanjut sesuai protokol.",
+          "source": "§2 file sumber / Pesan kunci"
+        },
+        {
+          "text": "Kesalahan yang menurunkan nilai pada setiap butir checklist: langsung menyentuh tanpa salam; tidak jelaskan prosedur; tidak ada consent; asam asetat bukan 5%; tidak ada privasi; pandangan tidak lurus; salah arah vulva; serviks tidak terlihat; lendir mengaburkan; tidak identifikasi SSK; aplikasi tidak merata; menilai terlalu cepat; tidak dokumentasi; tidak dekontaminasi; tutup tanpa salam.",
+          "source": "§3 file sumber / Tabel Checklist kolom Kesalahan"
+        },
+        {
+          "text": "Catatan verifikasi: kolom Kalimat yang Dapat Diucapkan adalah pola yang harus diucapkan dengan suara keras. Verbalisasi setiap langkah dengan nada jelas agar penguji menilai seluruh proses.",
+          "source": "§3 file sumber / Catatan [*]"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips nilai tinggi OSCE IVA",
+          "text": "1) Jaga privasi dan sopan santun (poin pertama). 2) Lihat SSK/zona transformasi, bukan hanya menyemprot. 3) Bersihkan sekret sebelum menilai. 4) Dokumentasi gambar/sketsa. 5) IVA = skrining, bukan diagnosis pasti.",
+          "answer_evidence": "Sumber: PDF Penuntun Belajar IVA FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kalimat aman IVA",
+          "text": "Asam asetat harus 5% sesuai checklist; lampu sangat penting karena IVA adalah pemeriksaan visual. Pandangan harus lurus agar portio dan SSK terlihat jelas.",
+          "answer_evidence": "Sumber: PDF Penuntun Belajar IVA FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_iva_litotomi_07",
+        "gls_iva_asamasetat_10"
+      ],
+      "bilingual": "Section ini memuat 11 langkah alur OSCE dan 15 butir checklist penilaian IVA dengan kalimat verbal yang harus diucapkan."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Section ini membahas pertanyaan anamnesis wajib pada IVA (konfirmasi identitas, verifikasi syarat, informed consent, persiapan alat) dan seleksi klien (tidak hamil, tidak menstruasi, tidak post-coital 24 jam, tidak servisitis akut).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station IVA berfungsi sebagai: (1) konfirmasi identitas, (2) verifikasi syarat IVA, (3) informed consent, (4) persiapan alat. Prinsip utama anamnesis IVA: 1) Apakah ini skrining rutin atau evaluasi keluhan? 2) Apakah ada kehamilan aktif? 3) Apa riwayat haid, obstetri, IMS, dan KB? 4) Apa tanda bahaya atau red flags?",
+          "tone": "narrative",
+          "source": "§4 file sumber / Prinsip utama anamnesis"
+        },
+        {
+          "text": "Tabel pertanyaan anamnesis wajib: identitas dan keluhan (konfirmasi pasien, ada/tidak keluhan tambahan, anomali identitas → cek ulang); HPHT, kehamilan saat ini, menyusui (IVA di luar kehamilan, hamil → tunda, IVA 6 minggu postpartum); riwayat haid (siklus, teratur, menopause, status hormon estrogen memengaruhi interpretasi, menopause → interpretasi berbeda); riwayat obstetri G/P/A dan cara persalinan (faktor risiko kanker serviks, multiparitas → risiko lebih tinggi); riwayat IMS/HPV dan keputihan abnormal (faktor risiko, IMS berulang → rujuk); riwayat skrining sebelumnya IVA/Pap smear/HPV DNA (hasil sebelumnya, interval skrining, pernah IVA positif → perlu follow-up); riwayat KB IUD/pil/kondom (kontrasepsi tidak memengaruhi IVA tapi perlu tahu, IUD → pertimbangkan pelepasan untuk Pap smear); riwayat alergi obat (mencegah reaksi alergi, alergi → ganti antiseptik); riwayat perdarahan pasca koitus (curiga lesi/keganasan serviks, perdarahan pasca koitus → rujuk); status menopause (serviks atrofi dapat mengganggu interpretasi, menopause → evaluasi lebih teliti).",
+          "tone": "clinical",
+          "source": "§4 file sumber / Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Cara berpikir praktis — 4 pertanyaan kunci yang tidak boleh terlewat: 1) Apakah pasien hamil atau tidak? 2) Apa riwayat skrining sebelumnya? 3) Apakah ada tanda bahaya (perdarahan, discharge abnormal)? 4) Apakah ada alergi obat?",
+          "tone": "clinical",
+          "source": "§4 file sumber / 4 pertanyaan kunci"
+        },
+        {
+          "text": "Red Flags yang Wajib Ditanyakan/Dicari: serviks tampak massa, ulkus, mudah berdarah spontan, jaringan rapuh, atau discharge darah/berbau (curiga keganasan); perdarahan kontak berat saat pemeriksaan; nyeri panggul, demam, cervical motion tenderness, curiga PID; SSK tidak terlihat lengkap tetapi hasil skrining/riwayat mengkhawatirkan; pasien hamil dengan perdarahan atau nyeri perut; kekhawatiran tentang kekerasan seksual atau pasien anak/remaja dengan temuan genital mencurigakan; riwayat lesi pra-kanker atau kanker serviks sebelumnya; riwayat operasi serviks (konisasi) — IVA dapat menyulitkan interpretasi.",
+          "tone": "clinical",
+          "source": "§4 file sumber / Red Flags"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Seleksi klien IVA: tidak sedang menstruasi (darah mengaburkan visualisasi), tidak hamil (tunda elektif, IVA 6 minggu postpartum), tidak post-coital dalam 24 jam, tidak servisitis/vaginitis akut, dan informed consent sudah diberikan.",
+          "bold": true,
+          "source": "§4 file sumber & PROMPT_DOMAIN1_ObGyn_S2 Modul 010"
+        },
+        {
+          "text": "Target skrining IVA di Indonesia: wanita usia 30-50 tahun yang datang ke FKTP (puskesmas) sebagai bagian dari program nasional deteksi dini kanker serviks.",
+          "source": "PROMPT_DOMAIN1_ObGyn_S2 Modul 010"
+        },
+        {
+          "text": "Tunda IVA pada kondisi: hamil, menstruasi, servisitis/PID akut, vaginitis akut, stenosis serviks, alergi asam asetat, serviks tidak terlihat, perdarahan aktif, kehamilan ektopik curiga, fasilitas tidak memadai, keganasan serviks terdiagnosis.",
+          "source": "LAMPIRAN A / Tabel kondisi khusus"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flags wajib ditanyakan",
+          "text": "Serviks tampak massa/ulkus/mudah berdarah/discharge darah/berbau → curiga keganasan. Perdarahan kontak berat saat pemeriksaan → curiga lesi. Nyeri panggul + demam + cervical motion tenderness → curiga PID. Riwayat lesi pra-kanker/kanker serviks sebelumnya → perlu follow-up. Riwayat konisasi → IVA sulit interpretasi.",
+          "answer_evidence": "Sumber: PDF Penuntun Belajar IVA FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tunda IVA pada kondisi tertentu",
+          "text": "Hamil, menstruasi, servisitis akut/PID, vaginitis akut, stenosis serviks, perdarahan aktif, alergi asam asetat (sangat jarang), atau fasilitas tidak memadai. Tunda dan tata dulu atau rujuk.",
+          "answer_evidence": "Sumber: LAMPIRAN A — Kontraindikasi, Red Flags, dan Kondisi Khusus"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tindak lanjut bila anamnesis bermasalah",
+          "text": "Hamil → tunda IVA. Multiparitas → risiko kanker serviks lebih tinggi. IMS berulang → rujuk. Pernah IVA positif → perlu follow-up sesuai protokol. Alergi → ganti antiseptik. Perdarahan pasca koitus → rujuk. Menopause → evaluasi lebih teliti.",
+          "answer_evidence": "Sumber: Tabel pertanyaan anamnesis wajib"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_iva_servisitis_11",
+        "gls_iva_consent_08"
+      ],
+      "bilingual": "Section ini membahas anamnesis terstruktur dan seleksi klien IVA. Empat pertanyaan kunci yang tidak boleh terlewat: hamil?, riwayat skrining?, tanda bahaya?, alergi obat?"
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Section ini mencakup pemeriksaan tanda vital dan umum, pemeriksaan abdomen, dan pemeriksaan inspekulo + IVA (kritis) yang merupakan fokus utama pemeriksaan fisik IVA.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan Tanda Vital dan Umum dilakukan dengan mengukur TD, nadi, suhu, pernapasan, SpO2; menilai kesadaran; dan memeriksa konjungtiva. Nilai normal: TD <140/90 mmHg, nadi 60-100, suhu 36,0-37,5°C, RR 12-20, SpO2 ≥95%; konjungtiva merah muda. Interpretasi bila abnormal: TD ≥140/90 → curiga hipertensi; nadi >120 → curiga perdarahan/syok; suhu >38°C → curiga infeksi. Kalimat OSCE: TD 110/70 mmHg, nadi 80, suhu 36,5°C. Konjungtiva tidak pucat, tanda vital dalam batas normal.",
+          "tone": "clinical",
+          "source": "§5 file sumber / H2 Pemeriksaan Tanda Vital dan Umum"
+        },
+        {
+          "text": "Pemeriksaan Abdomen dilakukan dengan inspeksi bekas operasi dan benjolan, serta palpasi nyeri tekan dan massa. Nilai normal: abdomen supel, tidak ada massa atau nyeri tekan. Interpretasi bila abnormal: curiga kehamilan (fundus tinggi), mioma, kista, atau massa lainnya. Kalimat OSCE: Abdomen supel, tidak ada massa atau nyeri tekan.",
+          "tone": "clinical",
+          "source": "§5 file sumber / H2 Pemeriksaan Abdomen"
+        },
+        {
+          "text": "Pemeriksaan Inspekulo dan IVA adalah pemeriksaan kritis pada modul ini. Cara melakukan: posisi litotomi/ginekologis dengan privasi; cuci tangan, pakai sarung tangan; masukkan spekulum gentle, tampakkan portio; bersihkan lendir/sekret dengan kasa; identifikasi SSK (sambungan skuamokolumnar) dan zona transformasi; oleskan asam asetat 5% secara merata; tunggu 1-2 menit; nilai perubahan warna (putih/acetowhite bermakna = IVA positif); identifikasi luas, lokasi, ukuran lesi; lepas spekulum gentle. Nilai normal (IVA negatif): serviks merah muda, tidak ada acetowhite pada SSK. Interpretasi: IVA negatif (tidak ada perubahan putih), IVA positif (plak acetowhite pada SSK/zona transformasi), curiga kanker (lesi ulseratif, mudah berdarah, massa, discharge darah/berbau). Kalimat OSCE: Inspekulo: serviks tampak merah muda, SSK terlihat jelas. Setelah aplikasi asam asetat 5%, tidak ada acetowhite bermakna. IVA negatif.",
+          "tone": "clinical",
+          "source": "§5 file sumber / H2 Pemeriksaan Inspekulo dan IVA (Kritis)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan pemeriksaan fisik IVA: (1) TTV dan umum, (2) Abdomen, (3) Inspekulo + IVA. Langkah (3) adalah yang paling kritis dan paling dinilai di OSCE.",
+          "bold": true,
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "TTV normal IVA: TD 110/70, N 80, S 36,5°C, konjungtiva tidak pucat. Abdomen supel, tidak ada massa atau nyeri tekan. Inspekulo: serviks merah muda, SSK terlihat jelas.",
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Interpretasi IVA saat inspekulo: IVA negatif (tidak ada perubahan putih), IVA positif (plak acetowhite pada SSK/zona transformasi), curiga kanker (lesi ulkeratif, mudah berdarah, massa, discharge darah/berbau).",
+          "source": "§5 file sumber / H2 Pemeriksaan Inspekulo dan IVA"
+        },
+        {
+          "text": "Keselamatan pasien saat inspekulo: jangan lanjut jika serviks tidak terlihat; IVA tidak sah bila portio/SSK tidak dapat dinilai.",
+          "source": "§7 file sumber / Fase Pelaksanaan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Fokus pemeriksaan IVA",
+          "text": "Pemeriksaan kritis pada IVA adalah inspekulo: posisi litotomi → spekulum bi-valved → identifikasi serviks → lap sekret → asam asetat 3-5% diteteskan → tunggu 30-60 detik → inspeksi zona transformasi. SSK harus terlihat agar IVA bermakna.",
+          "answer_evidence": "Sumber: PROMPT_DOMAIN1_ObGyn_S2 Modul 010 & §5 file sumber"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Curiga kanker saat IVA",
+          "text": "Lesi ulseratif, mudah berdarah, massa, discharge darah/berbau adalah tanda curiga kanker. Rujuk segera ke SpOG/onko untuk biopsi dan histopatologi.",
+          "answer_evidence": "Sumber: §5 file sumber & Tabel diagnosis banding"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_iva_ssk_03",
+        "gls_iva_oue_04",
+        "gls_iva_asamasetat_10"
+      ],
+      "bilingual": "Section ini membahas tiga komponen pemeriksaan fisik IVA: TTV, abdomen, dan inspekulo + IVA (kritis)."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Section ini memuat daftar alat wajib IVA, persiapan pasien (posisi litotomi, privasi, informed consent), dan prosedur utama 4 fase (persiapan, inspekulo, aplikasi asam asetat & interpretasi, penutupan).",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Alat yang harus disebutkan pada IVA (minimum 5, dari file sumber): kasa steril (membersihkan lendir/sekret dan vulva); sarung tangan (DTT/steril) — wajib; larutan klorin 0,5% — dekontaminasi; tampon tang — memegang kasa; spekulum ukuran S/M/L (Cusco atau Graves) — alat utama visualisasi serviks; asam asetat 5% dalam semprot — bahan utama IVA; penerangan memadai — lampu sorot atau lampu ginekologi; meja ginekologi — posisi litotomi; masker — untuk pemeriksa; safety box, kantong kuning — pembuangan habis pakai; alat dokumentasi — kamera/sketsa. APD: sarung tangan (DTT/steril) wajib, masker, apron, kacamata pelindung (bila ada).",
+          "tone": "clinical",
+          "source": "§6 file sumber / Alat yang harus disebutkan"
+        },
+        {
+          "text": "Cara mempersiapkan pasien IVA: 1) Posisi ginekologis — pasien berbaring di meja ginekologi; 2) Privasi — gunakan kain penutup, tutup area yang tidak dikerjakan; 3) Penjelasan — informed consent dengan bahasa awam; 4) Pendampingan — tawarkan pendamping perempuan (chaperone); 5) Pengosongan kandung kemih — minta BAK sebelum prosedur. Momen cuci tangan sesuai WHO: sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien. Catatan klinis: Asam asetat harus 5% sesuai checklist. Lampu sangat penting karena IVA adalah pemeriksaan visual.",
+          "tone": "clinical",
+          "source": "§6 file sumber / Cara mempersiapkan pasien"
+        },
+        {
+          "text": "Fase Persiapan prosedur IVA: 1) Salam, identitas, informed consent — jelaskan IVA, risiko, hasil; 2) Anamnesis singkat — konfirmasi tidak hamil, riwayat skrining, IMS; 3) TTV — evaluasi stabilitas; 4) Persiapan alat — spekulum, asam asetat 5%, kasa, lampu, sarung tangan; 5) Posisi ginekologis dengan privasi dan drape; 6) Cuci tangan dan APD lengkap; 7) Kosongkan kandung kemih bila perlu. Keselamatan pasien: informed consent, konfirmasi tidak hamil, privasi.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Fase Persiapan"
+        },
+        {
+          "text": "Fase Pelaksanaan — Inspekulo dan Persiapan Serviks: 1) Masukkan spekulum gentle — ukuran sesuai, jangan melukai; 2) Tampakkan portio jelas — merah muda, utuh; 3) Identifikasi SSK (sambungan skuamokolumnar) — lihat zona transformasi; 4) Bersihkan lendir/sekret dengan kasa steril; 5) Nilai karakter serviks — warna, lesi, discharge, mudah berdarah. Keselamatan pasien: jangan lanjut jika serviks tidak terlihat.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Fase Pelaksanaan Inspekulo"
+        },
+        {
+          "text": "Fase Pelaksanaan — Aplikasi Asam Asetat dan Interpretasi: 1) Oleskan/semprotkan asam asetat 5% ke portio, terutama SSK/zona transformasi; 2) Tunggu 1-2 menit agar reaksi terjadi; 3) Nilai perubahan warna: IVA negatif (tidak ada perubahan), IVA positif (acetowhite), curiga kanker (ulseratif/massa); 4) Identifikasi lokasi, ukuran, batas lesi (bila ada); 5) Dokumentasi gambar/sketsa (bila abnormal). Prinsip utama IVA: asam asetat 5%, waktu kontak 1-2 menit, acetowhite = protein koagulasi, IVA = skrining (bukan diagnosis pasti). Keselamatan pasien: jangan menilai terlalu cepat, jangan berlebihan.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Fase Pelaksanaan Aplikasi Asam Asetat"
+        },
+        {
+          "text": "Fase Penutupan prosedur IVA: 1) Lepas spekulum gentle; 2) Dekontaminasi alat — klorin 0,5% 10 menit; 3) Cuci tangan ulang; 4) Dokumentasi SOAP — lengkap dengan sketsa; 5) Edukasi keluarga — hasil, tindak lanjut, kontrol; 6) Rujukan — bila IVA positif/curiga kanker/red flags; 7) Penutup station — salam, kesiapan ibu. Keselamatan pasien: dekontaminasi, dokumentasi, edukasi safety-net, rujukan tepat waktu.",
+          "tone": "clinical",
+          "source": "§7 file sumber / Fase Penutupan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alat IVA wajib: spekulum S/M/L (Cusco/Graves), asam asetat 5% dalam semprot, kasa steril, sarung tangan, klorin 0,5%, lampu sorot, masker, meja ginekologi, tampon tang, safety box, kantong kuning, alat dokumentasi.",
+          "sub": [
+            "Asam asetat harus 5% sesuai checklist; lampu sangat penting karena IVA adalah pemeriksaan visual.",
+            "Spekulum harus sesuai ukuran (S/M/L) agar portio terlihat jelas tanpa melukai pasien.",
+            "APD: sarung tangan (DTT/steril) wajib, masker, apron, kacamata pelindung bila ada."
+          ],
+          "bold": true,
+          "source": "§6 file sumber"
+        },
+        {
+          "text": "Persiapan pasien IVA: posisi ginekologis (litotomi), privasi (kain penutup, drape), informed consent bahasa awam, tawarkan pendamping perempuan, kosongkan kandung kemih (BAK).",
+          "source": "§6 file sumber"
+        },
+        {
+          "text": "Urutan prosedur IVA: posisi litotomi → spekulum bi-valved → identifikasi serviks → lap sekret → asam asetat 3-5% diteteskan → tunggu 30-60 detik → inspeksi zona transformasi.",
+          "source": "PROMPT_DOMAIN1_ObGyn_S2 Modul 010"
+        },
+        {
+          "text": "Lima momen cuci tangan WHO: sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien.",
+          "source": "§6 file sumber / Momen cuci tangan"
+        },
+        {
+          "text": "Prinsip utama IVA: asam asetat 5%, waktu kontak 1-2 menit, acetowhite = protein koagulasi, IVA = skrining (bukan diagnosis pasti).",
+          "source": "§7 file sumber / Fase Aplikasi Asam Asetat"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Catatan klinis IVA",
+          "text": "Asam asetat harus 5% sesuai checklist. Lampu sangat penting karena IVA adalah pemeriksaan visual. Pandangan harus lurus agar portio dan SSK terlihat jelas. Privasi dan komunikasi sama pentingnya dengan interpretasi hasil.",
+          "answer_evidence": "Sumber: PDF Penuntun Belajar IVA FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan prosedur IVA",
+          "text": "Informed consent wajib, konfirmasi tidak hamil, jaga privasi. Jangan lanjut jika serviks tidak terlihat (IVA tidak sah). Jangan menilai terlalu cepat. Jangan berlebihan mengoleskan asam asetat.",
+          "answer_evidence": "Sumber: §7 file sumber / Fase prosedur"
+        }
+      ],
+      "visual_refs": [
+        "visual_iva_anatomi_serviks_01",
+        "visual_iva_posisi_litotomi_02",
+        "visual_iva_pasang_spekulum_03"
+      ],
+      "glossary_refs": [
+        "gls_iva_prosedur_01",
+        "gls_iva_litotomi_07",
+        "gls_iva_apd_09",
+        "gls_iva_asamasetat_10"
+      ],
+      "bilingual": "Section ini memuat alat IVA, persiapan pasien, dan 4 fase prosedur utama: persiapan, inspekulo, aplikasi asam asetat, dan penutupan."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Section ini memuat tindakan pasca-prosedur, prosedur terkait (Pap smear, HPV DNA, kolposkopi, biopsi, krioterapi/LEEP), jadwal kontrol pasca-IVA, dan clinical reasoning IVA termasuk pembedaan IVA positif vs curiga kanker.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-prosedur IVA: 1) Dekontaminasi alat — rendam dalam klorin 0,5% 10 menit; 2) Buang habis pakai — safety box untuk jarum, kantong kuning untuk kasa; 3) Lepas APD — sarung tangan, masker, apron; 4) Cuci tangan — 6 langkah; 5) Dokumentasi SOAP — hasil IVA, gambar/sketsa, lokasi, ukuran lesi; 6) Edukasi keluarga — hasil, tindak lanjut, jadwal kontrol; 7) Penutup — salam, kesiapan ibu, kontrol. Cara evaluasi keberhasilan: IVA negatif/positif terdokumentasi, serviks terlihat jelas (SSK teridentifikasi), alat didokumentasikan (gambar/sketsa), ibu memahami hasil dan tindak lanjut.",
+          "tone": "clinical",
+          "source": "§8 file sumber / Tindakan pasca-prosedur"
+        },
+        {
+          "text": "Prosedur terkait/varian IVA: Pap smear (skrining sitologi), tes HPV DNA (skrining molekuler), kolposkopi (untuk IVA positif/curiga lesi; biopsi), biopsi serviks (konfirmasi histopatologi), krioterapi/LEEP (tata laksana lesi pra-kanker). Jadwal kontrol pasca-IVA: IVA negatif → skrining ulang 3-5 tahun; IVA positif → rujuk kolposkopi 1-3 bulan; curiga kanker → rujuk segera; kapan saja → bila ada tanda bahaya (perdarahan pasca koitus, discharge abnormal, nyeri panggul). Jadwal mengikuti standar WHO 2021 dan program skrining nasional.",
+          "tone": "clinical",
+          "source": "§8 file sumber / Prosedur terkait & Jadwal kontrol"
+        },
+        {
+          "text": "Clinical reasoning pada station IVA berfokus pada interpretasi hasil IVA, diagnosis banding lesi serviks, dan menentukan tindak lanjut. Alur pikir klinis IVA: Pertanyaan 1 — Apakah IVA positif? (Acetowhite pada SSK/zona transformasi). Pertanyaan 2 — Apakah curiga kanker? (Lesi ulseratif, mudah berdarah, massa, discharge darah). Pertanyaan 3 — Apakah perlu rujuk? (IVA positif, curiga kanker, atau red flags). Pertanyaan 4 — Apakah ada kondisi lain? (Servisitis, vaginitis, polip).",
+          "tone": "clinical",
+          "source": "§9 file sumber / Alur pikir klinis IVA"
+        },
+        {
+          "text": "Tabel diagnosis banding IVA: IVA negatif (tidak ada perubahan warna pada SSK → skrining ulang 3-5 tahun); IVA positif (plak acetowhite pada SSK/zona transformasi → rujuk untuk kolposkopi); Curiga kanker serviks (lesi ulseratif, mudah berdarah, massa, discharge darah, serviks destruktif → rujuk segera ke SpOG/onko); Servisitis (serviks merah, mukopurulen, mudah berdarah → skrining IMS, terapi sesuai etiologi); Vaginitis/Vaginosis (discharge abnormal, bau, gatal → tata sebelum IVA); Polip serviks (massa bertangkai dari OUE → evaluasi, biopsi/polipektomi); Ektropion (eversi epitel endoserviks ke ektoserviks, pada usia muda/pil KB → normal, tidak perlu rujuk).",
+          "tone": "clinical",
+          "source": "§9 file sumber / Tabel diagnosis banding"
+        },
+        {
+          "text": "Pembedaan cepat IVA Positif vs Curiga Kanker Serviks. Lesi: IVA positif (plak acetowhite, batas jelas, datar); Curiga kanker (ulseratif, massa, papiler, mudah berdarah). Lokasi: IVA positif (SSK/zona transformasi); Curiga kanker (bisa di mana saja pada serviks). Perdarahan: IVA positif (minimal saat pemeriksaan); Curiga kanker (spontan, mudah berdarah saat sentuh). Discharge: IVA positif (normal); Curiga kanker (darah/berbau busuk). Tatalaksana: IVA positif (rujuk kolposkopi); Curiga kanker (rujuk segera ke SpOG/onko). Pembeda utama: IVA positif = acetowhite tanpa ulserasi; Curiga kanker = ulserasi/massa/destruksi. Kapan harus merujuk: Segera (emergency) → curiga kanker serviks, perdarahan banyak saat IVA, nyeri perut akut. Same day → IVA positif, lesi mencurigakan. Rutin → skrining ulang, hasil negatif. Tunda elektif → hamil, menstruasi, servisitis akut.",
+          "tone": "clinical",
+          "source": "§9 file sumber / H2 Pembedaan Cepat"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tujuh langkah pasca-prosedur IVA: dekontaminasi alat (klorin 0,5% 10 menit), buang habis pakai, lepas APD, cuci tangan 6 langkah, dokumentasi SOAP, edukasi keluarga, penutup station.",
+          "bold": true,
+          "source": "§8 file sumber"
+        },
+        {
+          "text": "Tindak lanjut hasil IVA: Negatif → skrining ulang 3-5 tahun; Positif → rujuk kolposkopi 1-3 bulan; Curiga kanker → rujuk segera ke SpOG/onko; Servisitis/Vaginitis aktif → tata dulu, IVA 1-3 bulan kemudian; Serviks tidak terlihat → IVA tidak sah, evaluasi lebih lanjut.",
+          "source": "§11 file sumber / Tabel Tindak Lanjut"
+        },
+        {
+          "text": "Masalah saat prosedur IVA dan respons aman: serviks mudah berdarah (evaluasi, dokumentasi, jahit/kauter bila perlu); nyeri hebat (stop, komunikasi, analgesik); reaksi alergi (hentikan, antihistamin); sinkop vasovagal (stop, posisi Trendelenburg, observasi); serviks tidak terlihat (ganti ukuran, posisi, evaluasi); spasme serviks (tunggu relaksasi, analgesik); asam asetat mengenai mata (bilas air bersih); cedera dinding vagina (kompres, evaluasi); reaksi vagal (observasi TTV); pasien menolak (berhenti, tenangkan, jelaskan).",
+          "source": "LAMPIRAN B & §11 file sumber"
+        },
+        {
+          "text": "Alur pikir klinis IVA: Apakah IVA positif? (Acetowhite pada SSK/zona transformasi). Apakah curiga kanker? (lesi ulkeratif, mudah berdarah, massa, discharge darah). Apakah perlu rujuk? (IVA positif, curiga kanker, red flags). Apakah ada kondisi lain? (servisitis, vaginitis, polip).",
+          "source": "§9 file sumber"
+        },
+        {
+          "text": "Prosedur terkait IVA: Pap smear (skrining sitologi), tes HPV DNA (skrining molekuler), kolposkopi (evaluasi lanjutan IVA positif), biopsi serviks (konfirmasi histopatologi), krioterapi/LEEP (tata laksana lesi prakanker).",
+          "source": "§8 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Acetowhite cepat vs lambat",
+          "text": "Acetowhite yang cepat muncul (sekitar 30 detik) dan tebal mencurigakan CIN. Perubahan lambat/irreguler biasanya metaplasia skuamosa normal. Identifikasi lokasi (dekat OUE), ukuran, dan batas lesi sangat penting untuk dokumentasi.",
+          "answer_evidence": "Sumber: PROMPT_DOMAIN1_ObGyn_S2 Modul 010 & §9 file sumber"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "IVA bukan diagnostik definitif",
+          "text": "IVA adalah skrining, bukan diagnosis kanker definitif. Semua IVA positif harus dirujuk untuk kolposkopi. Curiga kanker harus dirujuk segera ke SpOG/onkologi. IVA pada kondisi akut (servisitis/vaginitis) bisa misinterpretasi.",
+          "answer_evidence": "Sumber: WHO cervical pre-cancer screening guideline 2021"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Tanda curiga kanker serviks",
+          "text": "Lesi ulseratif, massa, papiler, mudah berdarah saat sentuh, discharge darah/berbau busuk, serviks destruktif. Rujuk segera ke SpOG/onko untuk biopsi dan histopatologi. Jangan tunda rujukan.",
+          "answer_evidence": "Sumber: §9 file sumber / Tabel Pembedaan Cepat"
+        }
+      ],
+      "visual_refs": [
+        "visual_iva_negatif_04",
+        "visual_iva_positif_acetowhite_05",
+        "visual_iva_curiga_kanker_06"
+      ],
+      "glossary_refs": [
+        "gls_iva_acetowhite_02",
+        "gls_iva_cin_05",
+        "gls_iva_kolposkopi_06",
+        "gls_iva_servisitis_11"
+      ],
+      "bilingual": "Section ini membahas tindakan pasca-prosedur IVA, prosedur terkait (Pap smear, HPV DNA, kolposkopi, biopsi, krioterapi/LEEP), dan clinical reasoning termasuk pembedaan IVA positif vs curiga kanker."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Section ini memuat daftar pemeriksaan penunjang IVA (Pap smear, HPV DNA, kolposkopi, biopsi), tabel tindak lanjut hasil IVA, dan manajemen komplikasi intraprosedural.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang IVA: IVA (skrining kanker serviks, negatif/positif, puskesmas & RS); Pap smear (skrining sitologi, normal/abnormal Bethesda, puskesmas & RS); Tes HPV DNA (skrining molekuler, negatif/positif, RS bila tersedia); Kolposkopi (IVA positif atau Pap smear abnormal, visualisasi lesi dan biopsi, RS); Biopsi serviks (kolposkopi curiga lesi, histopatologi jinak/displasia/kanker, RS); PCR HPV (konfirmasi strain HPV, risiko tinggi/rendah, RS); Tes kehamilan (sebelum IVA pada usia reproduksi, negatif, puskesmas); Darah lengkap Hb (anemia curiga, Hb ≥12 g/dL, puskesmas & RS); IMS skrining HIV/sifilis/hepatitis B (faktor risiko/rujukan, non-reaktif, puskesmas & RS). Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: tes imunohistokimia untuk biopsi, MRI pelvis untuk kanker stadium lanjut, PET scan untuk metastasis. Catatan penting: pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab.",
+          "tone": "clinical",
+          "source": "§10 file sumber / Tabel pemeriksaan penunjang"
+        },
+        {
+          "text": "Tindak lanjut hasil IVA: Negatif → skrining ulang 3-5 tahun (sesuai program dan usia); Positif → rujuk untuk kolposkopi dalam 1-3 bulan (IVA positif = skrining, perlu konfirmasi); Curiga kanker → rujuk segera ke SpOG/onko (jangan tunda); Servisitis/Vaginitis aktif → tata dulu, IVA 1-3 bulan kemudian (IVA pada kondisi akut bisa misinterpretasi); Serviks tidak terlihat → IVA tidak sah, evaluasi lebih lanjut (mungkin stenosis, perlu kolposkopi).",
+          "tone": "clinical",
+          "source": "§11 file sumber / Tabel Tindak Lanjut"
+        },
+        {
+          "text": "Manajemen komplikasi intraprosedural IVA: Serviks mudah berdarah (perdarahan kontak saat spekulum/asam asetat → evaluasi, dokumentasi, jahit/kauter bila perlu); Nyeri hebat (pasien meringis kesakitan → stop, komunikasi, pertimbangkan gel/sedasi, hentikan bila pasien tidak mau lanjut); Reaksi alergi jarang (gatal, kemerahan, bengkak → hentikan, antihistamin, selalu hentikan); Sinkop vasovagal (pusing, pucat, keringat dingin → stop, posisi Trendelenburg, observasi, selalu hentikan); Serviks tidak terlihat (spekulum tidak cukup membuka, stenosis, atau posisi retroversi berat → ganti ukuran, posisi, evaluasi, tidak ada — selalu upayakan visualisasi); Spasme serviks (nyeri, sulit aplikasi asam asetat → tunggu relaksasi, analgesik); Asam asetat mengenai mata (iritasi mata → bilas dengan air bersih); Cedera dinding vagina (luka kecil dari spekulum → kompres, evaluasi); Reaksi vagal (pusing, hipotensi → observasi TTV, selalu hentikan).",
+          "tone": "clinical",
+          "source": "§11 file sumber / Tabel Komplikasi Intraprosedural"
+        },
+        {
+          "text": "Jadwal tindak lanjut pasca-IVA: IVA negatif → skrining ulang 3-5 tahun; IVA positif → rujuk kolposkopi 1-3 bulan; Curiga kanker → rujuk segera; Servisitis/Vaginitis → tata dulu, IVA 1-3 bulan kemudian; Kapan saja → bila ada tanda bahaya. Jadwal mengikuti standar WHO 2021.",
+          "tone": "clinical",
+          "source": "§11 file sumber / Jadwal Tindak Lanjut"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang wajib IVA: IVA, Pap smear, tes HPV DNA, kolposkopi, biopsi serviks, PCR HPV, tes kehamilan, darah lengkap (Hb), IMS skrining (HIV, sifilis, hepatitis B).",
+          "bold": true,
+          "source": "§10 file sumber"
+        },
+        {
+          "text": "Tindak lanjut hasil IVA: Negatif → skrining ulang 3-5 tahun. Positif → rujuk kolposkopi 1-3 bulan. Curiga kanker → rujuk segera ke SpOG/onko. Servisitis/Vaginitis → tata dulu. Serviks tidak terlihat → IVA tidak sah.",
+          "source": "§11 file sumber"
+        },
+        {
+          "text": "Komplikasi intraprosedural: perdarahan kontak, nyeri hebat, reaksi alergi, sinkop vasovagal, serviks tidak terlihat, spasme serviks, asam asetat ke mata, cedera vagina, reaksi vagal, pasien menolak.",
+          "source": "§11 file sumber / Tabel Komplikasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tindak lanjut sesuai hasil IVA",
+          "text": "IVA negatif → skrining ulang 3-5 tahun. IVA positif → rujuk kolposkopi 1-3 bulan. Curiga kanker → rujuk segera ke SpOG/onko. Servisitis aktif → tata dulu, IVA 1-3 bulan kemudian. Serviks tidak terlihat → IVA tidak sah.",
+          "answer_evidence": "Sumber: §11 file sumber & WHO 2021"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Catatan penting OSCE",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: tes imunohistokimia untuk biopsi, MRI pelvis untuk kanker stadium lanjut, PET scan untuk metastasis.",
+          "answer_evidence": "Sumber: §10 file sumber"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_iva_papsmear_12",
+        "gls_iva_kolposkopi_06"
+      ],
+      "bilingual": "Section ini memuat tabel pemeriksaan penunjang IVA, tindak lanjut hasil IVA, dan manajemen komplikasi intraprosedural."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Section ini memuat poin edukasi spesifik pasien IVA, safety-net tanda bahaya, contoh dokumentasi SOAP lengkap untuk skenario Ny. Sari, dan kode ICD-10 yang relevan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Poin edukasi spesifik IVA (minimal 6, diadaptasi dari file sumber): 1) IVA adalah skrining, bukan diagnosis pasti — hasil positif perlu konfirmasi; 2) Hasil negatif → skrining ulang 3-5 tahun; 3) Hasil positif → perlu kolposkopi/biopsi untuk konfirmasi; 4) Curiga kanker → rujuk segera ke SpOG; 5) Tanda bahaya → perdarahan pasca koitus, discharge darah/berbau, nyeri panggul; 6) Pentingnya skrining rutin karena kanker serviks berkembang perlahan; 7) Vaksin HPV sebagai pencegahan primer; 8) Hindari douching karena mengganggu flora normal.",
+          "tone": "clinical",
+          "source": "§12 file sumber / Poin edukasi spesifik"
+        },
+        {
+          "text": "Safety net — kapan harus kembali segera atau ke IGD (minimal 4): 1) Perdarahan pasca koitus → tanda bahaya kanker serviks; 2) Perdarahan pervaginam di luar haid → curiga lesi; 3) Discharge darah/berbau busuk → curiga kanker atau infeksi; 4) Nyeri panggul yang menetap → curiga kanker stadium lanjut; 5) Penurunan berat badan tanpa sebab jelas → red flag keganasan. Cara edukasi yang benar di OSCE: bahasa awam (Ibu, IVA adalah skrining untuk deteksi dini kanker serviks. Jika hasilnya negatif, kita ulang 3-5 tahun. Jika positif, perlu pemeriksaan lanjutan); minta keluarga mengulang (Bisa tolong ulangi, Bu, kapan harus kembali?); berikan waktu bertanya (Ada pertanyaan lagi, Bu?); tunjukkan sikap empati (tidak menghakimi, tidak menakut-nakuti).",
+          "tone": "clinical",
+          "source": "§12 file sumber / Safety net & Cara edukasi"
+        },
+        {
+          "text": "Contoh kalimat edukasi spesifik IVA: Ibu, IVA adalah skrining untuk mendeteksi dini kelainan leher rahim. Tindakan ini tidak sakit, hanya agak dingin atau perih sesaat. Hasilnya: jika normal (IVA negatif), kita ulang 3-5 tahun. Jika ada perubahan putih (IVA positif), perlu pemeriksaan lanjutan dengan dokter spesialis. Kalau ada perdarahan pasca hubungan, keputihan darah/berbau, atau nyeri panggul, segera kontrol ya, Bu.",
+          "tone": "narrative",
+          "source": "§12 file sumber / Contoh kalimat edukasi"
+        },
+        {
+          "text": "Contoh SOAP IVA — skenario: Ny. Sari, 35 tahun, P3A0, skrining IVA, IVA negatif. S (Subjective): Tidak ada keluhan, untuk skrining IVA. Haid teratur, tidak hamil, tidak ada keputihan/nyeri/perdarahan. Informed consent verbal sudah diberikan. O (Objective): TTV: TD 110/70, N 80, S 36,5°C. Konjungtiva tidak pucat. Abdomen supel. Inspekulo: vulva/vagina normal, serviks merah muda, SSK terlihat. Setelah aplikasi asam asetat 5%, tidak ada acetowhite bermakna. IVA negatif. A (Assessment): P3A0, skrining IVA selesai, IVA negatif. Tidak ada tanda keganasan serviks. P (Plan): 1) Dekontaminasi (klorin 0,5%), cuci tangan. 2) Dokumentasi hasil IVA negatif. 3) Edukasi — IVA negatif, skrining ulang 3-5 tahun, tanda bahaya. 4) Tanda bahaya — perdarahan pasca koitus, discharge darah/berbau. 5) Rujukan — tidak ada. 6) Kontrol 3-5 tahun.",
+          "tone": "narrative",
+          "source": "§13 file sumber / Contoh SOAP"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan untuk IVA: Z11.5 (Encounter for screening for other viral diseases/HPV); Z12.4 (Encounter for screening for malignant neoplasm of cervix); Z00.00 (Encounter for general adult medical examination without abnormal findings); N87.x (Dysplasia of cervix uteri — IVA positif); D06.x (Carcinoma in situ of cervix uteri); C53.x (Malignant neoplasm of cervix uteri); N72 (Inflammatory disease of cervix uteri/servisitis).",
+          "tone": "clinical",
+          "source": "§13 file sumber / Kode ICD-10"
+        },
+        {
+          "text": "Dokumen/kartu khusus IVA: lembar informed consent, catatan hasil IVA dengan sketsa, kartu skrining, surat rujukan, hasil laboratorium (IVA, Pap smear, HPV DNA). Cara mendokumentasikan prosedur IVA: tanggal dan jam tindakan, identitas pasien, informed consent, hasil IVA (negatif/positif/curiga kanker), lokasi dan ukuran lesi (bila ada), sketsa (bila abnormal), tindak lanjut, tanda tangan pemeriksa.",
+          "tone": "clinical",
+          "source": "§13 file sumber / Dokumen khusus"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Delapan poin edukasi spesifik IVA: IVA adalah skrining, hasil negatif 3-5 tahun, hasil positif perlu konfirmasi, curiga kanker rujuk, tanda bahaya, pentingnya skrining rutin, vaksin HPV, hindari douching.",
+          "bold": true,
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Safety net IVA: perdarahan pasca koitus, perdarahan pervaginam di luar haid, discharge darah/berbau busuk, nyeri panggul menetap, penurunan berat badan tanpa sebab jelas.",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Cara edukasi benar di OSCE: bahasa awam, minta keluarga mengulang, berikan waktu bertanya, tunjukkan sikap empati (tidak menghakimi, tidak menakut-nakuti).",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Komponen SOAP IVA: S (keluhan, skrining rutin, informed consent verbal), O (TTV, abdomen, inspekulo, IVA negatif), A (P3A0, IVA selesai, IVA negatif), P (dekontaminasi, dokumentasi, edukasi, rujukan, kontrol).",
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "Cara mendokumentasikan IVA: tanggal dan jam, identitas pasien, informed consent, hasil IVA, lokasi/ukuran lesi, sketsa (bila abnormal), tindak lanjut, tanda tangan pemeriksa.",
+          "source": "§13 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 IVA",
+          "text": "Z11.5 (skrining HPV), Z12.4 (skrining neoplasma serviks), Z00.00 (pemeriksaan umum tanpa temuan abnormal), N87.x (displasia serviks/IVA positif), D06.x (karsinoma in situ), C53.x (neoplasma ganas serviks), N72 (penyakit inflamasi serviks/servisitis).",
+          "answer_evidence": "Sumber: §13 file sumber / Kode ICD-10"
+        }
+      ],
+      "visual_refs": [
+        "visual_iva_template_dokumentasi_07"
+      ],
+      "glossary_refs": [
+        "gls_iva_papsmear_12",
+        "gls_iva_consent_08"
+      ],
+      "bilingual": "Section ini membahas edukasi pasien IVA (poin edukasi, safety net, cara edukasi) dan dokumentasi SOAP lengkap dengan kode ICD-10."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Section ini memuat tabel kaitan penyakit SKDI 4A dengan modul IVA, batas kompetensi dokter umum, dan mini-skrip komunikasi OSCE untuk skenario IVA.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan Penyakit SKDI 4A dengan modul IVA: Lesi pra-kanker serviks (CIN, dysplasia) — Kode ICD-10 N87.x, Level SKDI 4A, target utama IVA, IVA positif perlu follow-up sesuai protokol (kolposkopi, biopsi). Kanker serviks — C53.x, 3B (Rujuk ke SpOG), lesi ulseratif, mudah berdarah, massa, discharge darah/berbau, rujuk untuk kolposkopi/biopsi/onkologi. Servisitis/duh genital (gonore, non-gonore) — N72/N76.x, 4A (3B bila PID), sekret mukopurulen atau serviks mudah berdarah mengganggu IVA, tanyakan discharge, nyeri panggul, perdarahan pascakoitus, risiko seksual. Vaginitis/vaginosis bakterialis — N76.x/N77.1, 4A, keputihan dapat menutupi portio dan memerlukan pembersihan atau pemeriksaan tambahan, bedakan bau amis (BV), putih kental (kandida), berbusa kuning-hijau (trikomonas). Kehamilan normal — Z34.9, 4A, status hamil memengaruhi interpretasi dan tindak lanjut, tanyakan HPHT/kemungkinan hamil bila relevan, tunda IVA bila hamil. Infeksi HPV — B97.7, 4A, faktor risiko utama kanker serviks, tanyakan riwayat HPV/IMS. Polip serviks — N84.1, 4A, massa bertangkai dari OUE, evaluasi, biopsi/polipektomi.",
+          "tone": "clinical",
+          "source": "§14 file sumber / Tabel Kaitan Penyakit SKDI 4A"
+        },
+        {
+          "text": "Batas kompetensi dokter umum pada IVA: 4A (mandiri) → IVA, Pap smear, edukasi, skrining; 3B (merujuk) → IVA positif, curiga kanker, servisitis berulang, IMS dengan komplikasi; 2 (merujuk ke spesialis) → kanker serviks, lesi pra-kanker lanjutan. Catatan diagnosis yang harus dirujuk segera (SKDI 3B): IVA positif dengan curiga lesi, curiga kanker serviks, servisitis berulang dengan curiga IMS, polip serviks mencurigakan, hasil biopsi abnormal.",
+          "tone": "clinical",
+          "source": "§14 file sumber / Batas kompetensi"
+        },
+        {
+          "text": "Mini-Skrip Pembukaan Station IVA (Informed Consent): Dokter: Selamat pagi, Ibu Sari. Saya dokter muda yang akan melakukan skrining IVA. Sebelum mulai saya akan konfirmasi identitas dan menjelaskan prosedurnya. Pasien: Baik, Dok. IVA itu apa? Dokter: IVA adalah skrining untuk deteksi dini kanker serviks. Saya akan memeriksa leher rahim dengan cairan khusus. Mungkin terasa agak dingin atau perih sesaat. Saya akan menjaga privasi Ibu dan memakai alat steril. Pasien: Baik, Dok. Saya bersedia.",
+          "tone": "narrative",
+          "source": "§15 file sumber / H2 Pembukaan Station"
+        },
+        {
+          "text": "Mini-Skrip Saat Prosedur IVA: Dokter: Ibu, saya akan masukkan alat spekulum perlahan. Boleh bilang kalau terasa nyeri. (Spekulum masuk, portio terlihat). Dokter: Serviks terlihat jelas. Saya bersihkan dulu, lalu saya oleskan cairan asam asetat 5%. Tunggu sebentar, ya, Bu. (Tunggu 1-2 menit). Dokter: Saya lihat tidak ada perubahan putih yang abnormal. Hasil IVA negatif. Saya lepas spekulum perlahan.",
+          "tone": "narrative",
+          "source": "§15 file sumber / H2 Saat Prosedur"
+        },
+        {
+          "text": "Mini-Skrip Penutup Station IVA (Edukasi): Dokter: Ibu, IVA selesai. Hasilnya: IVA negatif, tidak ada perubahan putih abnormal. Skrining ulang 3-5 tahun. Tanda bahaya: perdarahan pasca koitus, keputihan darah/berbau, nyeri panggul. Segera kontrol ya, Bu. Pasien: Baik, Dok. Terima kasih. Dokter: Sama-sama, Bu. Saya doakan Ibu sehat. Ada pertanyaan?",
+          "tone": "narrative",
+          "source": "§15 file sumber / H2 Penutup Station"
+        },
+        {
+          "text": "Catatan perbedaan antara situasi pada mini-skrip IVA: Skrining rutin (komunikasi suportif, singkat); Skrining dengan keluhan perdarahan pasca koitus (lebih serius, evaluasi lebih lanjut); IVA positif (perlu rujuk kolposkopi, konseling mendalam). Kalimat di atas adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario.",
+          "tone": "narrative",
+          "source": "§15 file sumber / Catatan perbedaan"
+        },
+        {
+          "text": "Checklist Verbal Sebelum Mulai Tindakan IVA (Lampiran D): 1) Salam, perkenalan, izin menjelaskan prosedur. 2) Penjelasan IVA, asam asetat 5%, mungkin dingin/perih, privasi, alat steril. 3) Konfirmasi pemahaman dan kesediaan, hak berhenti. 4) Tanda tangan informed consent. 5) Posisikan litotomi dengan drape, APD (sarung tangan steril, masker), bersihkan vulva depan ke belakang. 6) Masukkan spekulum perlahan, identifikasi SSK/zona transformasi, bersihkan lendir/sekret. 7) Oleskan asam asetat 5% ke portio/SSK, tunggu 1-2 menit. 8) Sampaikan hasil IVA (negatif/positif) berdasarkan perubahan warna. 9) Lepas spekulum, dekontaminasi, cuci tangan, dokumentasi dengan gambar/sketsa. 10) Salam penutup, doakan sehat, tanyakan pertanyaan. Prinsip: urutan persiapan → aplikasi asam asetat 5% → interpretasi → edukasi adalah yang paling penting. IVA = skrining, bukan diagnosis pasti.",
+          "tone": "narrative",
+          "source": "LAMPIRAN D / Checklist Verbal"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tabel SKDI 4A IVA: Lesi pra-kanker serviks (N87.x/4A), Kanker serviks (C53.x/3B), Servisitis (N72/N76.x/4A), Vaginitis/Vaginosis (N76.x/N77.1/4A), Kehamilan normal (Z34.9/4A), Infeksi HPV (B97.7/4A), Polip serviks (N84.1/4A).",
+          "bold": true,
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Batas kompetensi IVA: 4A (mandiri) → IVA, Pap smear, edukasi, skrining. 3B (merujuk) → IVA positif, curiga kanker, servisitis berulang, IMS komplikasi. 2 (ke spesialis) → kanker serviks, lesi pra-kanker lanjutan.",
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Diagnosis yang harus dirujuk segera (SKDI 3B): IVA positif dengan curiga lesi, curiga kanker serviks, servisitis berulang dengan curiga IMS, polip serviks mencurigakan, hasil biopsi abnormal.",
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Pola kalimat Pembukaan IVA: Selamat pagi, Ibu Sari. Saya dokter muda yang akan melakukan skrining IVA. IVA adalah skrining untuk deteksi dini kanker serviks. Saya akan menjaga privasi Ibu dan memakai alat steril. Apakah Ibu bersedia?",
+          "source": "§15 file sumber / Pembukaan"
+        },
+        {
+          "text": "Pola kalimat Saat Prosedur IVA: Ibu, saya akan masukkan alat spekulum perlahan. Boleh bilang kalau terasa nyeri. Serviks terlihat jelas. Saya oleskan asam asetat 5%, tunggu 1-2 menit. Saya lihat [tidak ada perubahan putih / acetowhite]. Hasil IVA [negatif/positif].",
+          "source": "§15 file sumber / Saat Prosedur"
+        },
+        {
+          "text": "Pola kalimat Penutup IVA: Ibu, IVA selesai. Hasilnya: IVA [negatif/positif]. Skrining ulang 3-5 tahun / rujuk kolposkopi. Tanda bahaya: perdarahan pasca koitus, keputihan darah/berbau, nyeri panggul. Segera kontrol ya, Bu. Ada pertanyaan?",
+          "source": "§15 file sumber / Penutup"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Batas kompetensi IVA",
+          "text": "Dokter umum kompeten secara mandiri (SKDI 4A) untuk IVA, Pap smear, edukasi, dan skrining. Harus merujuk (3B) untuk IVA positif, curiga kanker, servisitis berulang, IMS dengan komplikasi. Merujuk ke spesialis (2) untuk kanker serviks dan lesi pra-kanker lanjutan.",
+          "answer_evidence": "Sumber: SKDI 2012 tingkat kemampuan 4A & §14 file sumber"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Penyesuaian kalimat OSCE",
+          "text": "Kalimat pada mini-skrip adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario (skrining rutin, keluhan perdarahan pasca koitus, atau IVA positif).",
+          "answer_evidence": "Sumber: §15 file sumber & LAMPIRAN D"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_iva_cin_05",
+        "gls_iva_oue_04"
+      ],
+      "bilingual": "Section ini memuat tabel SKDI 4A untuk IVA, batas kompetensi dokter umum, dan mini-skrip komunikasi OSCE IVA (pembukaan, saat prosedur, penutup) plus checklist verbal Lampiran D."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Section ini memuat checklist latihan mandiri 21 item, rencana belajar 3 hari, kesalahan fatal yang menurunkan skor (FATAL & PENGURANGAN BESAR), recovery move, dan 4 skenario mini-case IVA.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Checklist Latihan Mandiri IVA (21 item): 1) Salam, perkenalkan diri, identifikasi pasien; 2) Jelaskan prosedur dan kemungkinan diagnosis; 3) Minta persetujuan (verbal/tertulis); 4) Persiapan alat lengkap (spekulum, asam asetat 5%, kasa, lampu); 5) Posisi ginekologis dengan privasi dan drape; 6) Pemeriksa duduk, pandangan lurus, masker; 7) Cuci tangan dan APD lengkap; 8) Bersihkan vulva dari anterior ke posterior; 9) Spekulum masuk, tampakkan portio jelas; 10) Bersihkan lendir/sekret pada portio; 11) Identifikasi SSK/zona transformasi; 12) Aplikasi asam asetat 5% merata; 13) Tunggu 1-2 menit, nilai acetowhite; 14) Sebutkan hasil dengan jelas (negatif/positif/curiga kanker); 15) Lepas spekulum gentle, dekontaminasi; 16) Dokumentasi SOAP dengan sketsa (bila abnormal); 17) Edukasi keluarga (hasil, tindak lanjut, tanda bahaya); 18) Rujuk bila IVA positif, curiga kanker, red flags; 19) Cuci tangan ulang; 20) Penutup station yang sopan; 21) Menyebut kode ICD-10. Bobot: item 1-19 TINGGI, item 20-21 SEDANG. Kriteria Siap OSCE: minimal 19 dari 21 item tercentang, dan semua item TINGGI sudah dikuasai.",
+          "tone": "clinical",
+          "source": "§16 file sumber / Tabel Checklist Latihan"
+        },
+        {
+          "text": "Rencana Belajar 3 Hari IVA. Hari 1 (H-3) — Orientasi dan Pemahaman Dasar (60 menit): pahami konsep IVA dan skrining kanker serviks (§1); hafal urutan alur tindakan (§2) dan checklist utama (§3); baca §4-§6 sekali penuh. Aktivitas: tulis ulang 11 langkah alur dari ingatan tanpa melihat; hafalkan alat-alat utama (§6); pahami IVA = skrining, bukan diagnosis pasti. Sumber tambahan: WHO Cervical pre-cancer screening guideline 2021, Modul FKIK Universitas Jambi, dan materi audiovisual IVA yang tersedia. Kriteria selesai: bisa menyebutkan 11 langkah alur dan alat-alat utama tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": "§17 file sumber / H2 Hari 1"
+        },
+        {
+          "text": "Hari 2 (H-2) — Latihan Urutan Checklist dengan Timer (90 menit): hafal langkah persiapan, aplikasi asam asetat, interpretasi; latihan mini-skrip komunikasi (§15). Aktivitas: latihan di manekin sambil mengucapkan langkah-langkah dengan suara keras; praktik urutan persiapan (APD, alat, posisi); praktik urutan inspekulo (spekulum, identifikasi SSK, aplikasi asam asetat); praktik urutan interpretasi (negatif, positif, curiga kanker); tulis SOAP untuk skenario dari §13; simulasikan skenario dari Lampiran C dengan teman sebagai pasien atau penguji. Kriteria selesai: dapat menyelesaikan urutan tindakan (verbalized) dalam 7-8 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 file sumber / H2 Hari 2"
+        },
+        {
+          "text": "Hari 3 (H-1) — Simulasi OSCE Penuh (60 menit): run-through penuh station (mulai informed consent sampai penutup); identifikasi celah terakhir; simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: timer 10 menit, simulasi lengkap dari masuk station sampai keluar; review §18 (kesalahan fatal) — pastikan tidak ada yang terlewat; praktik skenario alternatif dari Lampiran C; bisa menyebutkan 5 kesalahan fatal dan 5 tanda bahaya; tidur cukup malam sebelumnya; OSCE bukan dihafal semalam. Kriteria siap OSCE: bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi; tidak melewatkan item checklist §16 (minimal 19 dari 21); bisa menjawab 1-2 pertanyaan penguji (misal: Apa beda IVA negatif dan positif?, Kapan Anda rujuk?) dengan baik; merasa cukup percaya diri — bukan sempurna, tapi yakin dengan alur.",
+          "tone": "narrative",
+          "source": "§17 file sumber / H2 Hari 3"
+        },
+        {
+          "text": "Kategori Kesalahan FATAL pada OSCE IVA (skor hangus): 1) Tidak menjelaskan bahwa pemeriksaan akan terasa tidak nyaman → Skor hangus untuk komunikasi; 2) Tidak menjaga privasi pasien saat posisi ginekologis → Skor hangus untuk etika; 3) Spekulum tidak dipilih sesuai ukuran sehingga pasien nyeri dan portio tidak terlihat → Skor hangus untuk persiapan; 4) Tidak membersihkan sekret sebelum menilai serviks → Skor hangus untuk teknik; 5) Tidak memastikan SSK terlihat → Skor hangus untuk interpretasi; 6) Menulis hasil positif tanpa lokasi/ukuran/gambar skematik → Skor hangus untuk dokumentasi; 7) Menganggap IVA positif sama dengan kanker pasti → Skor hangus untuk clinical reasoning; 8) Tidak melakukan dekontaminasi dan cuci tangan → Skor hangus untuk asepsis; 9) Tidak melakukan informed consent → Skor hangus untuk etika; 10) Tidak cuci tangan 6 langkah → Skor hangus untuk asepsis.",
+          "tone": "clinical",
+          "source": "§18 file sumber / Kategori FATAL"
+        },
+        {
+          "text": "Kategori Kesalahan PENGURANGAN BESAR pada OSCE IVA (skor turun signifikan tapi tidak nol): 1) Tidak menyebut diagnosis kerja (IVA negatif/positif/curiga kanker) → Skor turun; 2) Tidak menyebut kerangka SSK/zona transformasi → Skor turun untuk clinical reasoning; 3) Tidak menyebut konsentrasi asam asetat 5% → Skor turun; 4) Tidak menyebut waktu kontak 1-2 menit → Skor turun; 5) Tidak edukasi keluarga tentang hasil dan tindak lanjut → Skor turun; 6) Tidak menyebut kode ICD-10 → Skor turun.",
+          "tone": "clinical",
+          "source": "§18 file sumber / Kategori PENGURANGAN BESAR"
+        },
+        {
+          "text": "Recovery Move (bila menyadari sudah membuat kesalahan di tengah station): Saat informed consent → Mohon maaf, Bu, saya akan mengulang penjelasan prosedur (tetap sopan); Saat prosedur → Baik, Bu, saya menyadari saya melewatkan langkah [X]. Saya akan melakukannya sekarang (penguji menghargai self-correction); Saat interpretasi → Ibu, satu hal penting yang harus saya tambahkan: IVA negatif artinya tidak ada acetowhite, perlu skrining ulang 3-5 tahun (tambahkan poin); Saat dokumentasi → Saya akan menuliskan [poin yang terlewat] di rekam medis. Yang penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "tone": "narrative",
+          "source": "§18 file sumber / Recovery Move"
+        },
+        {
+          "text": "Skenario Mudah Mini-Case IVA (Lampiran C — IVA Negatif pada Skrining Rutin): Kasus — Ny. Sari, 35 tahun, P3A0, datang untuk skrining IVA. Haid teratur, tidak hamil, tidak ada keluhan. Informed consent verbal sudah diberikan. Pertanyaan pemandu: Apa diagnosis/konteks? Bagaimana persiapan IVA? Bagaimana urutan tindakan? Bagaimana interpretasi hasil? Apa edukasi dan tindak lanjut? Kunci jawaban: Konteks (skrining IVA rutin, P3A0, tidak hamil, tidak ada keluhan); Persiapan (alat steril, posisi ginekologis, privasi); Urutan (salam → informed consent → alat → posisi → APD → bersihkan vulva → spekulum → identifikasi SSK → aplikasi asam asetat 5% → tunggu 1-2 menit → interpretasi → lepas spekulum); Hasil IVA negatif (tidak ada acetowhite); Edukasi (IVA negatif, skrining ulang 3-5 tahun, tanda bahaya). Jebakan nilai: tidak menjaga privasi, tidak identifikasi SSK, lupa dokumentasi.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C / Skenario Mudah"
+        },
+        {
+          "text": "Skenario Sedang Mini-Case IVA (IVA Positif, Perlu Rujuk Kolposkopi): Kasus — Ny. Sari, 35 tahun, P3A0, skrining IVA. Setelah aplikasi asam asetat 5%, tampak plak acetowhite pada SSK/zona transformasi, luas 1×1 cm, batas jelas. Pertanyaan pemandu: Bagaimana interpretasi hasil? Apa langkah selanjutnya? Bagaimana edukasi pasien? Kunci jawaban: Interpretasi — IVA positif, plak acetowhite pada SSK/zona transformasi. Langkah selanjutnya — rujuk untuk kolposkopi dalam 1-3 bulan. Edukasi — IVA positif bukan berarti kanker, perlu konfirmasi dengan kolposkopi. Jangan panik, jangan tunda rujukan. Dokumentasi — gambar/sketsa, lokasi, ukuran, batas. Jebakan nilai: menulis kanker tanpa konfirmasi, tidak edukasi dengan tenang.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C / Skenario Sedang"
+        },
+        {
+          "text": "Skenario Sulit Mini-Case IVA (Curiga Kanker Serviks): Kasus — Ny. Sari, 35 tahun, P3A0, dating dengan riwayat perdarahan pasca koitus 3 bulan. IVA: serviks tampak massa ulseratif, mudah berdarah saat disentuh, discharge darah/berbau busuk. Pertanyaan pemandu: Apa diagnosis paling curiga? Apa langkah IVA? Apa langkah selanjutnya? Apa edukasi pasien? Kunci jawaban: Diagnosis — curiga kanker serviks (lesi ulkeratif + perdarahan + discharge darah). Langkah IVA — tetap dapat lakukan aplikasi asam asetat 5%, hasilnya acetowhite yang luas/curiga. Dokumentasi gambar. Langkah selanjutnya — rujuk segera ke SpOG/onko untuk biopsi dan histopatologi. Edukasi — curiga lesi yang perlu konfirmasi, rujukan ke dokter spesialis, jangan tunda. Jebakan nilai: menganggap IVA positif sudah cukup, tidak merujuk segera, tidak edukasi serius.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C / Skenario Sulit"
+        },
+        {
+          "text": "Skenario Tambahan Mini-Case IVA (Serviks Tidak Terlihat): Kasus — Ny. Sari, 35 tahun, P3A0, skrining IVA. Spekulum dipasang, tetapi portio tidak terlihat jelas. Pemeriksa mencoba berbagai ukuran spekulum, masih tidak terlihat. Pertanyaan pemandu: Apa yang terjadi? Bagaimana respons aman? Kapan rujuk? Kunci jawaban: Kemungkinan — stenosis serviks, posisi retroversi berat, atau adhesi. Respons aman: ganti ukuran spekulum (S/M/L); ubah posisi ibu (miring kiri atau knee-chest); evaluasi dengan bimanual untuk arah uterus; IVA tidak sah bila serviks tidak terlihat. Rujuk — bila gagal, rujuk ke SpOG atau RS untuk evaluasi lanjutan/kolposkopi. Jebakan nilai: memaksakan IVA, menulis IVA negatif tanpa visualisasi jelas.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C / Skenario Tambahan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist latihan IVA: 21 item (19 TINGGI, 2 SEDANG). Kriteria siap OSCE: minimal 19 dari 21 item tercentang dan semua item TINGGI sudah dikuasai.",
+          "bold": true,
+          "source": "§16 file sumber"
+        },
+        {
+          "text": "Rencana 3 hari IVA: Hari 1 (H-3) orientasi dan pemahaman dasar 60 menit; Hari 2 (H-2) latihan urutan dengan timer 90 menit; Hari 3 (H-1) simulasi OSCE penuh 60 menit.",
+          "source": "§17 file sumber"
+        },
+        {
+          "text": "Kriteria siap OSCE: bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan/komunikasi/dokumentasi, tidak melewatkan item checklist (minimal 19/21), bisa menjawab 1-2 pertanyaan penguji, merasa cukup percaya diri.",
+          "source": "§17 file sumber / Hari 3"
+        },
+        {
+          "text": "4 Skenario mini-case IVA: Mudah (IVA negatif skrining rutin), Sedang (IVA positif perlu rujuk kolposkopi), Sulit (curiga kanker serviks), Tambahan (serviks tidak terlihat).",
+          "source": "LAMPIRAN C / 4 skenario"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "10 Kesalahan FATAL OSCE IVA",
+          "text": "1) Tidak jelaskan ketidaknyamanan. 2) Tidak jaga privasi. 3) Spekulum tidak sesuai ukuran. 4) Tidak bersihkan sekret. 5) Tidak pastikan SSK terlihat. 6) Hasil positif tanpa lokasi/ukuran/sketsa. 7) Anggap IVA positif = kanker pasti. 8) Tidak dekontaminasi/cuci tangan. 9) Tidak informed consent. 10) Tidak cuci tangan 6 langkah.",
+          "answer_evidence": "Sumber: §18 file sumber / Kategori FATAL"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "6 Kesalahan PENGURANGAN BESAR",
+          "text": "1) Tidak sebut diagnosis kerja (negatif/positif/curiga kanker). 2) Tidak sebut SSK/zona transformasi. 3) Tidak sebut konsentrasi asam asetat 5%. 4) Tidak sebut waktu kontak 1-2 menit. 5) Tidak edukasi keluarga. 6) Tidak sebut kode ICD-10.",
+          "answer_evidence": "Sumber: §18 file sumber / Kategori PENGURANGAN BESAR"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery Move OSCE",
+          "text": "Saat informed consent: Minta maaf dan ulang penjelasan. Saat prosedur: Akui kekeliruan dan selesaikan. Saat interpretasi: Tambahkan poin penting. Saat dokumentasi: Tulis poin yang terlewat. Jangan panik, jangan asal jawab saat ditegur. Penguji menghargai self-correction.",
+          "answer_evidence": "Sumber: §18 file sumber / Recovery Move"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_iva_cin_05",
+        "gls_iva_acetowhite_02"
+      ],
+      "bilingual": "Section ini memuat checklist latihan mandiri 21 item, rencana belajar 3 hari, 10 kesalahan fatal + 6 pengurangan besar, recovery move, dan 4 skenario mini-case IVA (mudah, sedang, sulit, serviks tidak terlihat)."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Section ini memuat 7 saran visual + 4 prompt AI siap-pakai, referensi ringkas, Lampiran A (kontraindikasi/red flags), Lampiran B (masalah prosedur), Lampiran C (mini-case), dan Lampiran D (checklist verbal).",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Cara pakai prompt visual IVA: jangan menampilkan bagian genital nyata secara vulgar; gunakan gaya ilustrasi medis, manekin, atau diagram anatomi profesional. Daftar 7 visual: 1) Anatomi serviks dan SSK (ilustrasi medis serviks dengan label ektoserviks, endoserviks, ostium eksternum, sambungan skuamokolumnar, zona transformasi; tujuan: memahami target IVA); 2) Posisi ginekologis (manekin pasien di meja ginekologi dengan drape, pemeriksa duduk sejajar, lampu diarahkan ke vulva; tujuan: latihan posisi); 3) Cara pasang spekulum (diagram 3 langkah memasukkan spekulum secara gentle pada manekin, tanpa visual vulgar, gaya pendidikan klinik; tujuan: teknik dasar); 4) IVA negatif (ilustrasi serviks normal merah muda setelah asam asetat, tidak ada plak putih, label IVA negatif; tujuan: hafalan hasil normal); 5) IVA positif acetowhite (ilustrasi serviks dengan area putih jelas di zona transformasi setelah asam asetat 5%, label acetowhite; tujuan: hafalan hasil abnormal); 6) Curiga kanker serviks (ilustrasi medis non-grafis serviks dengan massa/ulkus mudah berdarah, label red flags dan rujuk; tujuan: membedakan skrining vs rujukan); 7) Template dokumentasi IVA (lembar rekam hasil IVA dengan sketsa jam serviks 12-3-6-9, kolom lokasi lesi, ukuran, hasil, rencana; tujuan: latihan dokumentasi).",
+          "tone": "clinical",
+          "source": "§19 file sumber / Tabel Saran Visual"
+        },
+        {
+          "text": "Prompt AI siap-pakai IVA. Prompt 1 — Anatomi serviks dan SSK: Ilustrasi medis serviks dengan label ektoserviks, endoserviks, ostium eksternum, sambungan skuamokolumnar, zona transformasi, Bahasa Indonesia. Gaya clean medical illustration, label jelas. Prompt 2 — IVA positif acetowhite: Ilustrasi serviks dengan area putih jelas di zona transformasi setelah asam asetat 5%, label Bahasa Indonesia: acetowhite, zona transformasi, SSK, portio. Gaya clean medical illustration, label jelas. Prompt 3 — Curiga kanker serviks: Ilustrasi medis non-grafis serviks dengan massa/ulkus mudah berdarah, label Bahasa Indonesia: massa, ulkus, perdarahan, curiga kanker, rujuk. Gaya clean medical illustration, tidak vulgar. Prompt tambahan — kasus latihan (mini-case generator): Buatkan 3 skenario OSCE IVA tingkat mudah, sedang, sulit. Setiap skenario berisi: identitas pasien fiktif, keluhan, data klinis (umur, paritas, haid, riwayat skrining, IMS), pertanyaan pemandu, dan kunci jawaban. Berikan variasi skenario (misalnya: IVA negatif rutin, IVA positif, atau curiga kanker).",
+          "tone": "clinical",
+          "source": "§19 file sumber / Prompt AI siap-pakai"
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi, Red Flags, dan Kondisi Khusus IVA. Catatan: IVA adalah prosedur skrining; kontraindikasi di sini lebih banyak merujuk pada kondisi yang menunda atau membatalkan IVA. Tabel kondisi: Hamil (IVA dapat dilakukan pada kehamilan dengan hati-hati, tapi tunda elektif → tunda, IVA 6 minggu postpartum); Menstruasi (darah mengaburkan visualisasi → tunda, IVA setelah selesai haid); Servisitis akut/PID (sekret mukopurulen mengaburkan, risiko infeksi → tata dulu dengan antibiotik, IVA 2-4 minggu setelahnya); Vaginitis akut (discharge abnormal mengganggu → tata dulu, IVA setelah sembuh); Stenosis serviks (sulit memasukkan spekulum atau menilai SSK → evaluasi lebih lanjut, kolposkopi); Alergi asam asetat sangat jarang (iritasi lokal/sistemik → ganti dengan Pap smear/HPV DNA); Serviks tidak terlihat (IVA tidak sah → ganti ukuran, posisi, atau kolposkopi); Pasien menolak (hak pasien → informed consent, diskusi risiko, dokumentasi); Riwayat operasi serviks/konisasi (IVA dapat menyulitkan interpretasi → kolposkopi lebih sesuai); Pendarahan aktif (mengaburkan IVA → tunda, evaluasi penyebab perdarahan); Kehamilan ektopik curiga (jangan lakukan IVA pada kehamilan ektopik → stabilisasi, USG, rujuk); Fasilitas tidak memadai (IVA butuh lampu dan alat steril → rujuk ke RS dengan fasilitas); Keganasan serviks terdiagnosis (IVA sudah tidak relevan → tata sesuai stadium, rujuk onko).",
+          "tone": "clinical",
+          "source": "LAMPIRAN A / Tabel kondisi khusus"
+        },
+        {
+          "text": "Lampiran B — Masalah Saat Prosedur IVA dan Respons Aman. Tabel: Serviks mudah berdarah (perdarahan kontak → evaluasi, dokumentasi, jahit/kauter bila perlu, kapan hentikan: tidak ada); Nyeri hebat (pasien meringis kesakitan → stop, komunikasi, pertimbangkan analgesik, kapan hentikan: bila pasien tidak mau lanjut); Reaksi alergi jarang (gatal, kemerahan, bengkak → hentikan, antihistamin, kapan hentikan: selalu); Sinkop vasovagal (pusing, pucat, keringat dingin → stop, posisi Trendelenburg, observasi, kapan hentikan: selalu); Serviks tidak terlihat (spekulum tidak cukup membuka → ganti ukuran, posisi, evaluasi, kapan hentikan: tidak ada — selalu upayakan visualisasi); Spasme serviks (nyeri, sulit aplikasi → tunggu relaksasi, analgesik, kapan hentikan: tidak ada); Asam asetat mengenai mata (iritasi mata → bilas dengan air bersih, kapan hentikan: tidak ada); Cedera dinding vagina (luka kecil dari spekulum → kompres, evaluasi, kapan hentikan: tidak ada); Reaksi vagal (pusing, hipotensi → observasi TTV, kapan hentikan: selalu); Pasien menolak (mengatakan tidak mau → berhenti, tenangkan, jelaskan, kapan hentikan: selalu).",
+          "tone": "clinical",
+          "source": "LAMPIRAN B / Tabel masalah prosedur"
+        },
+        {
+          "text": "Referensi Ringkas Modul IVA: Checklist skill lab Blok 6.1 FKIK Universitas Jambi sesuai file PDF yang diberikan pengguna; SKDI 2012 tingkat kemampuan 4A, dipakai sebagai peta penyakit relevan pada domain Obstetri dan Ginekologi; WHO. Intrapartum care for a positive childbirth experience. 2018; WHO. Recommendations on the assessment of postpartum blood loss and use of a treatment bundle for postpartum haemorrhage. 2023; WHO. Guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, second edition. 2021; CDC. Sexually Transmitted Infections Treatment Guidelines: urethritis, cervicitis, vaginitis, BV, gonorrhoea, chlamydia. 2021, website updated by CDC. Catatan penting: keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "narrative",
+          "source": "REFERENSI RINGKAS"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "7 saran visual IVA: Anatomi serviks + SSK, Posisi ginekologis/litotomi, Cara pasang spekulum, IVA negatif, IVA positif acetowhite, Curiga kanker serviks, Template dokumentasi IVA.",
+          "bold": true,
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "4 prompt AI IVA: Anatomi serviks + SSK, IVA positif acetowhite, Curiga kanker serviks, Generator mini-case latihan (mudah, sedang, sulit).",
+          "source": "§19 file sumber / Prompt AI"
+        },
+        {
+          "text": "Lampiran A: 13 kondisi yang menunda/membatalkan IVA (hamil, menstruasi, servisitis akut, vaginitis, stenosis, alergi, serviks tidak terlihat, pasien menolak, riwayat konisasi, perdarahan aktif, kehamilan ektopik, fasilitas tidak memadai, keganasan terdiagnosis).",
+          "source": "LAMPIRAN A"
+        },
+        {
+          "text": "Lampiran B: 10 masalah prosedur IVA dan respons aman (serviks berdarah, nyeri hebat, alergi, sinkop vasovagal, serviks tidak terlihat, spasme, asam asetat ke mata, cedera vagina, reaksi vagal, pasien menolak).",
+          "source": "LAMPIRAN B"
+        },
+        {
+          "text": "Lampiran C: 4 skenario mini-case IVA (mudah, sedang, sulit, serviks tidak terlihat) dengan kasus, pertanyaan pemandu, kunci jawaban, dan jebakan nilai.",
+          "source": "LAMPIRAN C"
+        },
+        {
+          "text": "Lampiran D: 10 kalimat checklist verbal IVA yang harus diucapkan dalam 60-90 detik pertama station, dari salam sampai penutup station.",
+          "source": "LAMPIRAN D"
+        },
+        {
+          "text": "Referensi: Checklist skill lab Blok 6.1 FKIK Universitas Jambi; SKDI 2012 tingkat kemampuan 4A; WHO cervical pre-cancer screening guideline 2021; CDC STI Treatment Guidelines 2021.",
+          "source": "REFERENSI RINGKAS"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lampiran A: Tunda IVA pada kondisi tertentu",
+          "text": "Hamil (tunda 6 minggu postpartum), menstruasi (tunda sampai selesai haid), servisitis akut/PID (tata dulu, IVA 2-4 minggu setelahnya), vaginitis akut (tata dulu), stenosis serviks (kolposkopi), alergi asam asetat (Pap smear/HPV DNA), perdarahan aktif (evaluasi penyebab), riwayat konisasi (kolposkopi lebih sesuai).",
+          "answer_evidence": "Sumber: LAMPIRAN A — Kontraindikasi, Red Flags, dan Kondisi Khusus"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lampiran B: Respons aman masalah prosedur",
+          "text": "Serviks berdarah → evaluasi/dokumentasi. Nyeri hebat → stop/komunikasi/analgesik. Reaksi alergi → antihistamin. Sinkop vasovagal → Trendelenburg. Serviks tidak terlihat → ganti ukuran/posisi. Spasme → tunggu relaksasi. Asam asetat ke mata → bilas air bersih. Cedera vagina → kompres. Reaksi vagal → observasi TTV. Pasien menolak → berhenti.",
+          "answer_evidence": "Sumber: LAMPIRAN B — Masalah Saat Prosedur dan Respons Aman"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prinsip utama IVA",
+          "text": "Prinsip: pada IVA, urutan persiapan → aplikasi asam asetat 5% → interpretasi → edukasi adalah yang paling penting. IVA = skrining, bukan diagnosis pasti. Kalimat di Lampiran D adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi; pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario.",
+          "answer_evidence": "Sumber: LAMPIRAN D / Checklist Verbal"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Referensi utama IVA",
+          "text": "WHO Guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, second edition. 2021. SKDI 2012 tingkat kemampuan 4A untuk domain Obstetri dan Ginekologi. CDC STI Treatment Guidelines 2021. Checklist skill lab Blok 6.1 FKIK Universitas Jambi.",
+          "answer_evidence": "Sumber: REFERENSI RINGKAS"
+        }
+      ],
+      "visual_refs": [
+        "visual_iva_anatomi_serviks_01",
+        "visual_iva_posisi_litotomi_02",
+        "visual_iva_pasang_spekulum_03",
+        "visual_iva_negatif_04",
+        "visual_iva_positif_acetowhite_05",
+        "visual_iva_curiga_kanker_06",
+        "visual_iva_template_dokumentasi_07"
+      ],
+      "glossary_refs": [
+        "gls_iva_prosedur_01",
+        "gls_iva_acetowhite_02",
+        "gls_iva_ssk_03",
+        "gls_iva_oue_04",
+        "gls_iva_cin_05",
+        "gls_iva_kolposkopi_06",
+        "gls_iva_litotomi_07",
+        "gls_iva_consent_08",
+        "gls_iva_apd_09",
+        "gls_iva_asamasetat_10",
+        "gls_iva_servisitis_11",
+        "gls_iva_papsmear_12"
+      ],
+      "bilingual": "Section ini memuat 7 saran visual, 4 prompt AI siap-pakai, referensi ringkas (WHO 2021, SKDI 2012, CDC 2021, FKIK UNJA), Lampiran A (kontraindikasi), Lampiran B (masalah prosedur), Lampiran C (mini-case), dan Lampiran D (checklist verbal)."
+    }
+  ]
+}

@@ -1,0 +1,1272 @@
+{
+  "id": "mod_geriatri_skill_nyeridada_jantung_002",
+  "title": "MODUL OSCE 6.2 — Integrated Skill Geriatri 2: Nyeri Dada Kiri + Pemeriksaan Fisik Jantung",
+  "subtitle": "Anamnesis, TTV, pemeriksaan jantung, dan tatalaksana emergensi curiga ACS pada pasien geriatri",
+  "domain": "geriatri_skill",
+  "batch_id": "batch_2",
+  "source_pdf": "OSCE_6.2_Batch2_Geriatri_Nyeri_Dada_Jantung.docx",
+  "source_filename": "OSCE_6.2_Batch2_Geriatri_Nyeri_Dada_Jantung.docx",
+  "topicTags": [
+    "osce_6_2",
+    "geriatri",
+    "nyeri_dada",
+    "acs",
+    "pemeriksaan_jantung",
+    "ekg_interpretation",
+    "skdi_4a_jantung",
+    "emergensi_geriatri",
+    "integrated_skill_geriatri"
+  ],
+  "summary": [
+    "Nyeri dada kiri pada laki-laki usia 68 tahun di IGD harus dianggap sebagai Acute Coronary Syndrome (ACS) sampai terbukti bukan; prioritas tertinggi adalah EKG 12 sadapan dalam 10 menit dan troponin serial.",
+    "Anamnesis dilakukan dengan pola OPQRST/SOCRATES: Onset, Provocation/Palliation, Quality, Radiation, Severity, Timing, ditambah gejala penyerta ACS (sesak, keringat dingin, mual, pingsan) dan red flags non-ACS (robek tembus punggung, hemoptisis, pleuritik).",
+    "Pemeriksaan jantung mengikuti urutan baku inspeksi → palpasi → perkusi → auskultasi 4 katup (aortic, pulmonic, tricuspid, mitral) dengan teknik 4 jari → 1 jari untuk palpasi ictus cordis.",
+    "Tanda bahaya sistemik: hipotensi + takikardia + nyeri dada (syok kardiogenik); perbedaan TD kedua lengan ≥20 mmHg (diseksi aorta); saturasi <92% (hipoksemia/PE); penurunan kesadaran (emergensi).",
+    "Tatalaksana awal ACS: ABCDE, monitor jantung, akses IV, EKG 12 sadapan, troponin serial, aspirin loading 300 mg dikunyah (bila tidak alergi/perdarahan), oksigen (bila hipoksia), nitrogliserin sublingual (bila TD adekuat dan tanpa PDE5 inhibitor), konsul jantung emergensi.",
+    "Aspirin loading 300 mg kontraindikasi pada alergi aspirin atau perdarahan aktif; nitrogliserin sublingual kontraindikasi absolut pada pengguna PDE5 inhibitor dalam 24-48 jam (risiko hipotensi berat).",
+    "Diagnosis banding emergensi yang harus disingkirkan: diseksi aorta (CT angio), emboli paru (CT pulmonary angiografi + D-dimer), pneumotoraks (foto toraks + drainase), perikarditis (EKG + ekokardiografi), GERD, dan muskuloskeletal.",
+    "Pada geriatri, ACS sering presentasi atipikal (kelelahan, sesak tanpa nyeri dada); perlu perhatian khusus pada keterbatasan gerak, penurunan kognitif, polifarmasi, fungsi ginjal, dan Beers Criteria.",
+    "Dokumentasi SOAP menggunakan kode ICD-10: I20.0 (Angina tidak stabil), I21.0-I21.4 (STEMI/NSTEMI), I24.8 (Penyakit jantung iskemik akut lainnya), I50.9 (Gagal jantung), atau I71.0 (Diseksi aorta) sesuai klasifikasi."
+  ],
+  "exam_focus": [
+    "Hafal urutan checklist 22 poin dan urutan pemeriksaan jantung baku: inspeksi → palpasi → perkusi → auskultasi 4 katup.",
+    "Kuasai anamnesis OPQRST (Onset, Provocation, Quality, Radiation, Severity, Timing) dan identifikasi gejala penyerta ACS (sesak, keringat dingin, mual, pingsan).",
+    "Selalu bandingkan TD kedua lengan untuk menyingkirkan diseksi aorta (perbedaan ≥20 mmHg).",
+    "Palpasi ictus cordis dengan teknik 4 jari mencari area pulsasi, lalu 1 jari melokalisasi di ICS 5 linea midklavikula kiri.",
+    "Auskultasi 4 katup di lokasi yang tepat: aortic (ICS 2 kanan sternal), pulmonic (ICS 2 kiri sternal), tricuspid (ICS 4-5 parasternal), mitral (ICS 5 midklavikula).",
+    "Sebut EKG 12 sadapan (≤10 menit) dan troponin serial sebagai prioritas emergensi meskipun sedang menyelesaikan checklist fisik.",
+    "Selalu tanyakan alergi aspirin sebelum memberi aspirin loading, dan tanyakan penggunaan PDE5 inhibitor (sildenafil, tadalafil) dalam 24-48 jam sebelum memberi nitrogliserin.",
+    "Aspirin loading 300 mg dikunyah pada STEMI/NSTEMI/unstable angina BILA tidak alergi dan tidak ada perdarahan aktif; ganti clopidogrel bila alergi.",
+    "Konsul jantung emergensi dan observasi IGD; siapkan rujukan PCI untuk STEMI; aspirin loading hanya untuk ACS (jangan untuk diseksi aorta).",
+    "Dokumentasi SOAP lengkap dengan ICD-10 I20/I21 dan kalimat edukasi safety-net: 'Hasil EKG/troponin awal normal belum tentu menyingkirkan ACS; kami akan memantau serial.'"
+  ],
+  "glossary": [
+    {
+      "id": "gls_nyeridada_acs",
+      "term": "Acute Coronary Syndrome (ACS)",
+      "def": "Sindrom koroner akut. Spektrum kondisi yang diakibatkan iskemia miokard akut, termasuk STEMI, NSTEMI, dan angina tidak stabil; memerlukan EKG dan troponin serial untuk diagnosis. Serangan jantung mendadak.",
+      "type": "clinical",
+      "aliases": [
+        "ACS",
+        "Sindrom koroner akut",
+        "sindrom koroner akut"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_mona",
+      "term": "MONA (Morphine, Oxygen, Nitrates, Aspirin)",
+      "def": "Akronim tatalaksana awal ACS. Protokol klasik tatalaksana awal nyeri dada: Morphine (analgesik), Oxygen (bila hipoksia), Nitrates (vasodilator), Aspirin (antiplatelet); sekarang lebih banyak individualized.",
+      "type": "procedure",
+      "aliases": [
+        "MONA",
+        "Morphine Oxygen Nitrates Aspirin"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_opqrst",
+      "term": "OPQRST",
+      "def": "Akronim anamnesis nyeri. Onset, Provocation/Palliation, Quality, Radiation, Severity, Timing — alat bantu menggali karakteristik nyeri dada secara sistematis.",
+      "type": "score",
+      "aliases": [
+        "OPQRST",
+        "SOCRATES"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_ictus",
+      "term": "Ictus Cordis",
+      "def": "Puncak impuls apikal. Pulsasi apikal jantung yang teraba di dinding dada, normal di ICS 5 linea midklavikula kiri; pergeseran lateral/inferior dapat menunjukkan kardiomegali.",
+      "type": "anatomy",
+      "aliases": [
+        "Ictus cordis",
+        "Apical impulse",
+        "puncak impuls apikal"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_4katup",
+      "term": "Auskultasi 4 Katup",
+      "def": "Pemeriksaan bunyi jantung. Auskultasi di empat area katup: aortic (ICS 2 kanan sternal), pulmonic (ICS 2 kiri sternal), tricuspid (ICS 4-5 parasternal), mitral (ICS 5 midklavikula).",
+      "type": "procedure",
+      "aliases": [
+        "Auskultasi jantung",
+        "4 katup",
+        "area auskultasi"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_diseksi",
+      "term": "Diseksi Aorta",
+      "def": "Robeknya dinding aorta. Robekan pada lapisan intima aorta yang memungkinkan darah masuk di antara lapisan; nyeri sangat hebat seperti robek, dapat menjalar ke punggung, dengan perbedaan TD dan nadi; emergensi bedah.",
+      "type": "clinical",
+      "aliases": [
+        "Diseksi aorta",
+        "Aortic dissection"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_pe",
+      "term": "Emboli Paru (PE)",
+      "def": "Sumbatan pembuluh paru. Obstruksi arteri pulmonalis oleh trombus, biasanya dari tungkai dalam; ditandai sesak mendadak, nyeri pleuritik, hemoptisis, takikardia.",
+      "type": "clinical",
+      "aliases": [
+        "PE",
+        "Pulmonary embolism",
+        "emboli paru"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_aspirinloading",
+      "term": "Aspirin Loading",
+      "def": "Dosis awal aspirin pada ACS. 300 mg aspirin dikunyah/dilarutkan pada STEMI/NSTEMI/unstable angina untuk antiplatelet segera, kecuali alergi atau perdarahan aktif.",
+      "type": "drug",
+      "aliases": [
+        "Aspirin loading",
+        "loading dose aspirin"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_troponin",
+      "term": "Troponin",
+      "def": "Penanda laboratorium nekrosis miokard. Protein jantung yang dilepas saat nekrosis miokard; diukur serial (0 dan 3-6 jam) untuk diagnosis infark miokard.",
+      "type": "clinical",
+      "aliases": [
+        "Troponin",
+        "Troponin I/T",
+        "troponin jantung"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_ekg12",
+      "term": "EKG 12 Sadapan",
+      "def": "Elektrokardiogram. Rekaman aktivitas listrik jantung dari 12 sadapan (limb dan prekordial); standar emas diagnosis STEMI/NSTEMI; harus dilakukan dalam 10 menit pada nyeri dada.",
+      "type": "procedure",
+      "aliases": [
+        "EKG 12 sadapan",
+        "12-lead ECG",
+        "elektrokardiogram"
+      ]
+    },
+    {
+      "id": "gls_nyeridada_pde5",
+      "term": "PDE5 Inhibitor",
+      "def": "Obat disfungsi ereksi. Obat seperti sildenafil, tadalafil; kontraindikasi absolut nitrogliserin dalam 24-48 jam karena risiko hipotensi berat.",
+      "type": "drug",
+      "aliases": [
+        "PDE5 inhibitor",
+        "sildenafil",
+        "tadalafil",
+        "Phosphodiesterase-5 inhibitor"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_nyeridada_01",
+      "term_id": "Nyeri dada",
+      "term_en": "Chest pain",
+      "context": "Keluhan utama pada banyak kondisi kardiovaskular; pada geriatri, presentasi atipikal sering muncul (kelelahan, sesak tanpa nyeri dada)."
+    },
+    {
+      "id": "bil_nyeridada_02",
+      "term_id": "Acute Coronary Syndrome (ACS)",
+      "term_en": "Sindrom koroner akut",
+      "context": "Spektrum iskemia miokard akut; memerlukan EKG dan troponin untuk diagnosis definitif."
+    },
+    {
+      "id": "bil_nyeridada_03",
+      "term_id": "STEMI",
+      "term_en": "ST-Elevation Myocardial Infarction",
+      "context": "Infark miokard dengan elevasi segmen ST; aktivasi cath lab, PCI primer."
+    },
+    {
+      "id": "bil_nyeridada_04",
+      "term_id": "NSTEMI",
+      "term_en": "Non-ST-Elevation Myocardial Infarction",
+      "context": "Infark miokard tanpa elevasi ST; strategi risk stratification, bukan PCI primer emergensi."
+    },
+    {
+      "id": "bil_nyeridada_05",
+      "term_id": "MONA",
+      "term_en": "Morphine, Oxygen, Nitrates, Aspirin",
+      "context": "Akronim tatalaksana awal ACS (sekarang individualized, tidak lagi dipakai kaku)."
+    },
+    {
+      "id": "bil_nyeridada_06",
+      "term_id": "Aspirin loading",
+      "term_en": "Aspirin loading dose",
+      "context": "300 mg aspirin dikunyah pada ACS awal; dikontraindikasikan bila alergi atau perdarahan aktif."
+    },
+    {
+      "id": "bil_nyeridada_07",
+      "term_id": "EKG 12 sadapan",
+      "term_en": "12-lead ECG",
+      "context": "Rekam listrik jantung dari 12 sadapan; standar diagnosis ACS, harus dilakukan ≤10 menit."
+    },
+    {
+      "id": "bil_nyeridada_08",
+      "term_id": "Troponin",
+      "term_en": "Troponin I/T",
+      "context": "Penanda nekrosis miokard; serial 0 dan 3-6 jam dengan high-sensitivity troponin."
+    },
+    {
+      "id": "bil_nyeridada_09",
+      "term_id": "Diseksi aorta",
+      "term_en": "Aortic dissection",
+      "context": "Robekan dinding aorta; emergensi bedah dengan CT angio."
+    },
+    {
+      "id": "bil_nyeridada_10",
+      "term_id": "Emboli paru",
+      "term_en": "Pulmonary embolism",
+      "context": "Sumbatan arteri paru; sesak mendadak, pleuritik, hemoptisis, takikardia."
+    },
+    {
+      "id": "bil_nyeridada_11",
+      "term_id": "PDE5 inhibitor",
+      "term_en": "Phosphodiesterase-5 inhibitor",
+      "context": "Obat disfungsi ereksi (sildenafil, tadalafil); kontraindikasi absolut nitrogliserin dalam 24-48 jam."
+    },
+    {
+      "id": "bil_nyeridada_12",
+      "term_id": "Ictus cordis",
+      "term_en": "Apical impulse",
+      "context": "Pulsasi apikal jantung; normal di ICS 5 midklavikula kiri."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_nyeridada_pemeriksaan_01",
+      "module_id": "mod_geriatri_skill_nyeridada_jantung_002",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis realistis dokter memeriksa jantung pasien laki-laki 68 tahun di IGD, posisi berbaring 30-45 derajat, ekspos dada sopan, stetoskop, sarung tangan, suasana IGD dengan monitor EKG, ekspresi tenang dan serius, clean realistic medical education style.",
+      "alt": "Ilustrasi dokter sedang memeriksa jantung pasien geriatri (Tn. Habibi, 68 tahun) di IGD dengan posisi 30-45 derajat, dada terekspos sopan, menggunakan stetoskop untuk auskultasi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/pemeriksaan_jantung.png"
+    },
+    {
+      "id": "visual_nyeridada_landmark_02",
+      "module_id": "mod_geriatri_skill_nyeridada_jantung_002",
+      "section_id": "s04",
+      "type": "diagram",
+      "generation_prompt": "Infografik thorax anterior dengan empat titik auskultasi katup jantung berlabel: Aortic (ICS 2 kanan sternal), Pulmonic (ICS 2 kiri sternal), Tricuspid (ICS 4-5 parasternal kiri), Mitral (ICS 5 midklavikula kiri); gaya clean medical textbook dengan label jelas dan warna berbeda untuk setiap katup.",
+      "alt": "Infografik lokasi auskultasi empat katup jantung pada thorax anterior: Aortic di ICS 2 kanan sternal, Pulmonic di ICS 2 kiri sternal, Tricuspid di ICS 4-5 parasternal kiri, Mitral di ICS 5 linea midklavikula kiri.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/landmark_auskultasi.png"
+    },
+    {
+      "id": "visual_nyeridada_palpasi_03",
+      "module_id": "mod_geriatri_skill_nyeridada_jantung_002",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi dua tahap palpasi ictus cordis: (1) tangan dokter menggunakan 4 jari mencari area pulsasi di dinding dada; (2) transisi ke 1 jari melokalisasi ictus di ICS 5 linea midklavikula kiri, dengan panah penunjuk lokasi dan label '4 jari → 1 jari'. Gaya clean medical education.",
+      "alt": "Ilustrasi teknik palpasi ictus cordis tahap 1: tangan dengan 4 jari mencari area pulsasi, tahap 2: 1 jari melokalisasi ictus cordis di ICS 5 linea midklavikula kiri.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/palpasi_ictus.png"
+    },
+    {
+      "id": "visual_nyeridada_alur_acs_04",
+      "module_id": "mod_geriatri_skill_nyeridada_jantung_002",
+      "section_id": "s07",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart algoritme tatalaksana ACS di IGD: mulai 'Pasien datang dengan nyeri dada' → 'Penilaian cepat (ABCDE)' → 'EKG 12 sadapan dalam 10 menit' → 'Curiga ACS?' → 'Troponin serial' → 'Aspirin loading 300 mg (bila aman)' → 'Oksigen (bila SpO2 <92%)' → 'Konsul jantung' → 'Observasi/PCI sesuai klasifikasi'. Warna: merah untuk emergensi, hijau untuk stabil, kuning untuk monitoring. Gaya clean flowchart klinis.",
+      "alt": "Flowchart algoritme ACS di IGD: ABCDE → EKG 12 sadapan → troponin serial → aspirin loading → oksigen (bila hipoksia) → konsul jantung → observasi/PCI.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/alur_acs.png"
+    },
+    {
+      "id": "visual_nyeridada_diagnosis_banding_05",
+      "module_id": "mod_geriatri_skill_nyeridada_jantung_002",
+      "section_id": "s06",
+      "type": "table",
+      "generation_prompt": "Poster infografis diferensial nyeri dada dengan 9 kolom: ACS, Angina stabil/tidak stabil, Diseksi aorta, Emboli paru, Pneumotoraks, Perikarditis, Pneumonia, GERD, Muskuloskeletal. Setiap kolom berisi: gejala khas, temuan fisik utama, dan pembeda klinis utama. Layout grid 3x3, warna berbeda untuk setiap kondisi, ikon representatif.",
+      "alt": "Poster diferensial nyeri dada dengan 9 diagnosis: ACS, angina, diseksi aorta, emboli paru, pneumotoraks, perikarditis, pneumonia, GERD, muskuloskeletal, masing-masing dengan gejala khas, temuan fisik, dan pembeda utama.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/diagnosis_banding.png"
+    },
+    {
+      "id": "visual_nyeridada_edukasi_06",
+      "module_id": "mod_geriatri_skill_nyeridada_jantung_002",
+      "section_id": "s08",
+      "type": "illustration",
+      "generation_prompt": "Scene dokter menjelaskan kepada pasien lansia laki-laki (68 tahun) dan keluarganya di IGD dengan tenang, bahasa tubuh suportif, ekspresi empatik. Dokter menunjuk ke monitor EKG di latar belakang. Ada poster dinding 'Tanda Bahaya Nyeri Dada' dengan poin: nyeri memberat, sesak, keringat dingin, pingsan. Gaya clean realistic medical illustration.",
+      "alt": "Ilustrasi dokter menjelaskan kepada pasien geriatri (Tn. Habibi) dan keluarganya tentang pentingnya observasi, EKG, dan troponin serial di IGD, dengan poster tanda bahaya nyeri dada di dinding.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_geriatri_skill_nyeridada_jantung_002/assets/edukasi_keluarga.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s01",
+      "type": "structure",
+      "source_query": "Standarisasi format shell cortex-shell-reusable v2.0",
+      "source_reference": "PROMPT_MASTER_STAGE2.md + PROMPT_DOMAIN2_AnakGeriatri_S2.md",
+      "confidence": "high",
+      "note": "Bagian METADATA MODUL, OVERVIEW, LEARNING GOALS, KEY POINTS mengikuti format shell cortex-shell-reusable v2.0 dengan 11 sections (s01-s11)."
+    },
+    {
+      "section_id": "s02",
+      "type": "table",
+      "source_query": "Konversi checklist penilaian ke format 5 kolom",
+      "source_reference": "PDF Skills Lab Blok 6.2 halaman 2",
+      "confidence": "high",
+      "note": "Tabel 5 kolom pada s02 dengan 22 baris item checklist lengkap (sama dengan jumlah item di dokumen asli §3): No, Item Checklist, Cara Melakukan agar Skor Maksimal, Kalimat yang Dapat Diucapkan, Kesalahan yang Menurunkan Nilai."
+    },
+    {
+      "section_id": "s04",
+      "type": "clinical",
+      "source_query": "Penambahan poin perbandingan TD kedua lengan",
+      "source_reference": "AHA 2024 + ESC 2023 Guidelines for ACS",
+      "confidence": "high",
+      "note": "H2 tambahan 'Bandingkan TD Kedua Lengan' pada s04 (penting untuk menyingkirkan diseksi aorta sesuai panduan AHA/ESC)."
+    },
+    {
+      "section_id": "s03",
+      "type": "callout",
+      "source_query": "Standar minimum 4 callout danger untuk red flags",
+      "source_reference": "Domain 2 AnakGeriatri S2 prompt",
+      "confidence": "high",
+      "note": "6 callout danger pada s03 (memenuhi standar minimum 4): diseksi aorta, emboli paru, pneumotoraks, syok kardiogenik, alergi aspirin, PDE5 inhibitor."
+    },
+    {
+      "section_id": "s08",
+      "type": "table",
+      "source_query": "Template SOAP dengan ICD-10",
+      "source_reference": "PERKI 2018 + ICD-10 Kemenkes 2012",
+      "confidence": "high",
+      "note": "Tabel SOAP pada s08 dengan data skenario nyata Tn. Habibi (68 tahun, laki-laki, hipertensi, DM, kolesterol, perokok) lengkap dengan kode ICD-10 I20.0/I21.0-I21.4."
+    },
+    {
+      "section_id": "s10",
+      "type": "callout",
+      "source_query": "Standar minimum 6 callout danger untuk kesalahan fatal",
+      "source_reference": "Domain 2 AnakGeriatri S2 prompt + pengalaman klinis",
+      "confidence": "high",
+      "note": "6 callout danger pada s10 untuk kesalahan fatal (memenuhi standar minimum 6): tidak menyebut EKG/troponin, aspirin pada alergi, nitrogliserin dengan PDE5 inhibitor, tidak bandingkan TD kedua lengan, mengabaikan hipotensi+takikardia, lupa cuci tangan; ditambah 3 caution."
+    },
+    {
+      "section_id": "s06",
+      "type": "table",
+      "source_query": "Tabel diagnosis banding nyeri dada",
+      "source_reference": "NICE CG95 + ESC 2023 + pengalaman klinis",
+      "confidence": "high",
+      "note": "Tabel diagnosis banding dan pembedaan cepat 5 kondisi emergensi pada s06 (ACS, diseksi aorta, emboli paru, pneumotoraks, perikarditis) dengan 9 fitur banding: onset, karakter, radiasi, TD, JVP, napas, murmur, EKG, tatalaksana awal."
+    },
+    {
+      "section_id": "s11",
+      "type": "glossary",
+      "source_query": "Standar minimum 8 entri glossary",
+      "source_reference": "PROMPT_DOMAIN2_AnakGeriatri_S2.md",
+      "confidence": "high",
+      "note": "11 istilah pada GLOSSARY (melebihi standar minimum 8): ACS, MONA, OPQRST, ictus cordis, auskultasi 4 katup, diseksi aorta, emboli paru, aspirin loading, troponin, EKG 12 sadapan, PDE5 inhibitor."
+    },
+    {
+      "section_id": "s11",
+      "type": "case",
+      "source_query": "Mini-case khusus geriatri dengan gradasi mudah-sulit",
+      "source_reference": "Domain 2 AnakGeriatri S2 prompt",
+      "confidence": "high",
+      "note": "Mini-case khusus geriatri pada Lampiran C dengan gradasi mudah-sulit: Tn. Anwar (ACS, mudah), Tn. Hadi (diseksi aorta, sedang), Tn. Salim (emboli paru pasca-stroke, sulit)."
+    },
+    {
+      "section_id": "s06",
+      "type": "clinical",
+      "source_query": "Presentasi atipikal ACS pada geriatri",
+      "source_reference": "AHA 2024 + literatur geriatri",
+      "confidence": "high",
+      "note": "Catatan tentang presentasi atipikal ACS pada geriatri: kelelahan, sesak napas tanpa nyeri dada, kebingungan akut — selalu curiga pada usia >65 tahun dengan gejala kardiorespirasi baru."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Skenario Tn. Habibi (laki-laki 68 tahun, nyeri dada kiri di IGD) dan target komponen yang paling sering dinilai penguji OSCE.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini disusun berdasarkan 'PDF Integrated Skills Geriatri 2, halaman 1-2' yang menjadi sumber file utama. Halaman 1 memuat kasus Tn. Habibi, laki-laki 68 tahun, pensiunan PNS, Islam, menikah, beralamat di Telanaipura, datang ke IGD RS dengan keluhan utama nyeri dada bagian kiri. Halaman 2 memuat checklist TTV dan fisik jantung yang meminta mahasiswa melakukan anamnesis, pemeriksaan fisik jantung, interpretasi, saran, dan pencatatan sistematis.",
+          "tone": "narrative",
+          "source": "§1 Quick Pass OSCE 90 Detik dan §2 Data Kasus Asli; PDF halaman 1-2"
+        },
+        {
+          "text": "Prioritas tertinggi modul ini adalah checklist penilaian OSCE, skenario pasien simulasi, alur berpikir klinis yang aman, dan edukasi pasien. Diagnosis kerja paling aman untuk skenario ini adalah Acute Coronary Syndrome (ACS) sampai terbukti bukan karena kombinasi usia lanjut, jenis kelamin laki-laki, dan nyeri dada kiri di IGD adalah profil klasik pasien ACS. Yang paling sering dinilai di station ini: kemampuan anamnesis OPQRST, identifikasi tanda bahaya, pemeriksaan jantung dengan urutan benar, dan kemampuan menyebut EKG 12 sadapan serta troponin sebagai langkah emergensi.",
+          "tone": "clinical",
+          "source": "§1 modul; PDF halaman 1"
+        },
+        {
+          "text": "Strategi membaca modul: baca Quick Pass 90 detik, hafalkan checklist, lalu latihan roleplay 7-10 menit dengan timer. Cuplikan asli halaman 1 dan 2 sudah tertanam di awal modul untuk membantu membayangkan konteks station saat roleplay.",
+          "tone": "narrative",
+          "source": "§1 strategi membaca"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE:",
+          "sub": [
+            "Sambung rasa dengan pasien geriatri",
+            "Konfirmasi identitas dan keluhan utama",
+            "Anamnesis OPQRST nyeri dada",
+            "Anamnesis gejala penyerta ACS",
+            "Anamnesis RPD (HT, DM, PJK, stroke, ginjal, dll.)",
+            "Anamnesis obat dan alergi",
+            "Anamnesis RPK dan kebiasaan (rokok, aktivitas)",
+            "Cross check ringkasan",
+            "Izin pemeriksaan, cuci tangan, posisi",
+            "TTV lengkap + interpretasi",
+            "Pemeriksaan jantung: inspeksi, palpasi ictus, perkusi, auskultasi 4 katup",
+            "Interpretasi dan diagnosis kerja (ACS)",
+            "Diagnosis banding emergensi (diseksi aorta, emboli paru, pneumotoraks)",
+            "Tatalaksana awal emergensi",
+            "Pemeriksaan penunjang (EKG 12 sadapan, troponin serial)",
+            "Edukasi pasien dan keluarga",
+            "Dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "§1 komponen penilaian OSCE"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi membaca modul",
+          "text": "Baca Quick Pass 90 detik → hafalkan checklist → latihan roleplay 7-10 menit dengan timer → baca bagian klinis untuk memahami alasan setiap langkah.",
+          "answer_evidence": "PROMPT_DOMAIN2_AnakGeriatri_S2.md"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tip paling penting: ACS adalah emergensi",
+          "text": "Penguji ingin melihat Anda menyebut EKG 12 sadapan segera, troponin serial, monitor, akses IV, dan aspirin loading (bila tidak kontraindikasi) — meskipun Anda juga harus menyelesaikan checklist fisik jantung.",
+          "answer_evidence": "NICE NG185 + AHA 2024 Acute Coronary Syndrome"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_nyeridada_acs",
+        "gls_nyeridada_opqrst",
+        "gls_nyeridada_ictus",
+        "gls_nyeridada_4katup",
+        "gls_nyeridada_troponin",
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_mona"
+      ],
+      "bilingual": "Skenario ini melatih mahasiswa menghadapi pasien geriatri (Tn. Habibi, 68 tahun) dengan nyeri dada kiri di IGD, yang merupakan profil klasik Acute Coronary Syndrome (ACS)."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "22 langkah OSCE dari masuk station sampai keluar + checklist penilaian lengkap dengan kalimat yang dapat diucapkan.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur praktis OSCE dimulai dengan salam, perkenalan, konfirmasi identitas, dan penilaian cepat apakah pasien tampak gawat. Konfirmasi keluhan utama adalah langkah kritis: pastikan nyeri dada kiri, onset, durasi, karakter, radiasi, skala, pencetus/pereda. Anamnesis mendalam dengan OPQRST/SOCRATES: Onset, Provocation/Palliation, Quality (ditekan/tertindih/ditusuk/terbakar), Radiation (lengan/rahang/punggung), Severity (skala 1-10), Timing (kapan mulai, durasi, hilang timbul).",
+          "tone": "clinical",
+          "source": "§3 Checklist Penilaian Diubah Menjadi Langkah Praktis; PDF halaman 2"
+        },
+        {
+          "text": "Tanyakan gejala penyerta ACS: sesak, keringat dingin, mual/muntah, berdebar, pingsan, lemas, nyeri menjalar. Tanyakan red flags non-ACS: nyeri robek tembus punggung (diseksi aorta), hemoptisis, demam, pleuritik, nyeri tekan dinding dada, trauma, nyeri ulu hati. RPD: hipertensi, diabetes, dislipidemia, PJK/stroke, penyakit ginjal, obat rutin (PDE5 inhibitor!), alergi. RPK: serangan jantung/stroke usia muda. Kebiasaan: merokok, aktivitas, diet, dukungan keluarga. Cross check merangkum dan konfirmasi.",
+          "tone": "clinical",
+          "source": "§3 anamnesis gejala penyerta dan RPD"
+        },
+        {
+          "text": "Setelah izin, cuci tangan, ekspos dada secukupnya dengan menjaga privasi. TTV: nadi, RR, suhu aksila, TD (bandingkan kedua lengan), saturasi. Pemeriksaan jantung: inspeksi thoraks anterior (bentuk, bekas luka, pulsasi prekordial/ictus cordis), palpasi ictus dengan 4 jari lalu lokalisasi 1 jari di ICS 5 linea midklavikula kiri, perkusi batas jantung (dari lateral ke medial), auskultasi 4 katup (aortic, pulmonic, tricuspid, mitral) — nilai S1/S2, murmur, gallop, friction rub.",
+          "tone": "procedure",
+          "source": "§3 urutan prosedur pemeriksaan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE (22 poin):",
+          "sub": [
+            "1. Sambung rasa, salam, perkenalan",
+            "2. Konfirmasi identitas dan keluhan utama",
+            "3. Penilaian cepat gawat/tidak",
+            "4. Anamnesis OPQRST nyeri dada",
+            "5. Gejala penyerta ACS",
+            "6. Red flags non-ACS",
+            "7. RPD, RPK, obat, alergi",
+            "8. Cross check",
+            "9. Izin, cuci tangan, posisi, ekspos dada",
+            "10. TTV: nadi, RR, suhu, TD (kedua lengan), saturasi",
+            "11. Inspeksi thoraks anterior + ictus cordis",
+            "12. Palpasi ictus cordis (4 jari → 1 jari)",
+            "13. Perkusi batas jantung",
+            "14. Auskultasi 4 katup (aortic, pulmonic, tricuspid, mitral)",
+            "15. Tanda tambahan (gallop, murmur, rub, bising karotis)",
+            "16. Interpretasi dan diagnosis kerja (ACS)",
+            "17. Diagnosis banding emergensi",
+            "18. Tatalaksana awal emergensi (MONA + aspirin + oksigen sesuai indikasi)",
+            "19. Pemeriksaan penunjang (EKG 12 sadapan, troponin serial)",
+            "20. Rujukan/konsultasi kardiologi",
+            "21. Edukasi pasien dan keluarga",
+            "22. Dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "§3 urutan langkah OSCE"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan pernah menunda EKG dan troponin",
+          "text": "Jangan pernah menunda EKG 12 sadapan dan troponin serial untuk menyelesaikan checklist fisik jantung; ACS adalah emergensi yang membutuhkan waktu (time is muscle).",
+          "answer_evidence": "NICE NG185 + ESC 2023 Guidelines for ACS"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station paling efektif",
+          "text": "\"Selamat pagi Pak Habibi, saya dokter muda yang akan membantu memeriksa Bapak. Boleh saya konfirmasi identitas dan keluhan utamanya? Bapak tampak kesakitan; saya akan berusaha menolong dengan cepat dan hati-hati.\"",
+          "answer_evidence": "PROMPT_DOMAIN2_AnakGeriatri_S2.md"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_nyeridada_acs",
+        "gls_nyeridada_opqrst",
+        "gls_nyeridada_ictus",
+        "gls_nyeridada_4katup",
+        "gls_nyeridada_mona",
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_troponin",
+        "gls_nyeridada_aspirinloading"
+      ],
+      "bilingual": "Berikut 22 item checklist penilaian OSCE dalam tabel 5 kolom (No, Item, Cara Melakukan, Kalimat yang Diucapkan, Kesalahan Penurun Nilai) — lihat tabel di bawah."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis nyeri dada dengan OPQRST, gejala penyerta ACS, dan red flags yang wajib ditanyakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada Tn. Habibi dengan nyeri dada kiri harus menggunakan OPQRST/SOCRATES untuk membedakan ACS dari penyebab lain. OPQRST: Onset (kapan mulai, sedang apa), Provocation/Palliation (aktivitas, istirahat, nitrat, makan, posisi), Quality (ditekan/tertindih/ditusuk/terbakar), Radiation (lengan kiri/kanan, rahang, punggung, epigastrium), Severity (skala 1-10), Timing (kapan mulai, durasi, hilang timbul).",
+          "tone": "clinical",
+          "source": "§4 Anamnesis Nyeri Dada yang Tidak Boleh Terlewat"
+        },
+        {
+          "text": "Gejala penyerta ACS: sesak, keringat dingin, mual/muntah, pingsan, palpitasi. Red flags non-ACS: nyeri robek tembus punggung (diseksi aorta), hemoptisis (emboli paru), demam (perikarditis, pneumonia), pleuritik (emboli paru, pneumotoraks), nyeri tekan dinding dada (muskuloskeletal), trauma, nyeri ulu hati (GERD/infark inferior). RPD: hipertensi, diabetes, dislipidemia, PJK/MI/stroke, gagal ginjal, riwayat kateterisasi/stent.",
+          "tone": "clinical",
+          "source": "§4 gejala penyerta dan red flags"
+        },
+        {
+          "text": "Obat dan alergi: aspirin, antikoagulan, obat HT/DM, PDE5 inhibitor (kontraindikasi nitrat!), alergi aspirin. Kebiasaan: merokok, aktivitas, diet, alkohol, dukungan keluarga, kepatuhan obat. RPK: keluarga dengan serangan jantung/stroke usia muda. Pada geriatri, ACS sering presentasi atipikal (kelelahan, sesak tanpa nyeri dada) — selalu curiga pada usia >65 tahun dengan gejala kardiorespirasi baru.",
+          "tone": "clinical",
+          "source": "§4 RPD, obat, dan presentasi atipikal geriatri"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "8 pertanyaan kunci anamnesis nyeri dada:",
+          "sub": [
+            "Onset dan pencetus (sedang apa, aktivitas/istirahat)",
+            "Karakteristik nyeri (ditekan/tertindih/ditusuk/terbakar)",
+            "Radiasi (lengan, rahang, punggung, epigastrium)",
+            "Durasi dan pola (hilang timbul, terus, memberat)",
+            "Gejala penyerta (sesak, keringat dingin, mual, pingsan)",
+            "Faktor risiko kardiovaskular (HT, DM, kolesterol, PJK)",
+            "Obat dan alergi (aspirin, PDE5 inhibitor)",
+            "Red flags non-ACS (robek, pleuritik, hemoptisis)"
+          ],
+          "bold": true,
+          "source": "§4 delapan pertanyaan kunci"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Curiga diseksi aorta",
+          "text": "Nyeri dada hebat seperti robek tembus punggung + perbedaan TD kedua lengan + defisit neurologis = curiga diseksi aorta → rujuk emergensi, jangan tunda imaging (CT angio).",
+          "answer_evidence": "AHA 2024 + ESC 2023"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Curiga emboli paru",
+          "text": "Nyeri dada + sesak mendadak + hemoptisis + imobilisasi = curiga emboli paru → oksigen, evaluasi D-dimer, CT pulmonary angiografi.",
+          "answer_evidence": "ESC 2023 PE Guidelines"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Curiga pneumotoraks",
+          "text": "Nyeri dada + sesak unilateral + napas menurun = curiga pneumotoraks → foto toraks, drainase sesuai jenis.",
+          "answer_evidence": "Standar klinis"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Syok kardiogenik atau perdarahan",
+          "text": "Hipotensi + takikardia + nyeri dada = syok kardiogenik atau perdarahan → rujuk emergensi, resusitasi.",
+          "answer_evidence": "AHA 2024"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi aspirin",
+          "text": "Nyeri dada + perdarahan aktif atau alergi aspirin = kontraindikasi aspirin loading → ganti strategi (clopidogrel).",
+          "answer_evidence": "AHA 2024 + PERKI 2018"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi absolut nitrogliserin",
+          "text": "PDE5 inhibitor (sildenafil, tadalafil) dalam 24-48 jam = kontraindikasi absolut nitrogliserin → risiko hipotensi berat dan syok.",
+          "answer_evidence": "AHA 2024 ACS Guidelines"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_nyeridada_opqrst",
+        "gls_nyeridada_acs",
+        "gls_nyeridada_diseksi",
+        "gls_nyeridada_pe",
+        "gls_nyeridada_pde5",
+        "gls_nyeridada_aspirinloading"
+      ],
+      "bilingual": "Anamnesis dilakukan dengan OPQRST (Onset, Provocation, Quality, Radiation, Severity, Timing) dan identifikasi red flags emergensi (diseksi aorta, emboli paru, pneumotoraks)."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "TTV, pemeriksaan jantung urutan inspeksi-palpasi-perkusi-auskultasi, dan perhatian khusus pada pasien geriatri.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik Tn. Habibi dengan nyeri dada akut memerlukan keseimbangan antara kelengkapan checklist dan prioritas emergensi. TTV mencakup nadi (frekuensi, irama, kuat-lemah, simetris), respirasi (frekuensi, usaha napas, saturasi), suhu aksila (demam → perikarditis/pneumonia), tekanan darah (bandingkan kedua lengan untuk menyingkirkan diseksi aorta), saturasi. Pada pasien dengan nyeri dada akut, sambil melakukan pemeriksaan fisik, Anda harus menyebut kebutuhan EKG 12 sadapan dan troponin serial — aspek emergensi tidak boleh hilang.",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Fisik Jantung Step-by-Step"
+        },
+        {
+          "text": "Pemeriksaan jantung mengikuti urutan baku: inspeksi thoraks anterior (bentuk dada, bekas luka, retraksi, pulsasi prekordial/ictus cordis), palpasi ictus cordis (4 jari cari area pulsasi, lalu 1 jari lokalisasi di ICS 5 linea midklavikula kiri; normal, ictus bergeser lateral/inferior dapat mengarah ke kardiomegali), raba thrill/heave (thrill = getaran murmur; heave parasternal = pembesaran ventrikel kanan), perkusi batas jantung (dari lateral ke medial di beberapa sela iga; pada OSCE sebutkan batas relatif dan keterbatasannya), auskultasi 4 katup (aortic ICS 2 kanan, pulmonic ICS 2 kiri, tricuspid ICS 4-5 parasternal, mitral/apex ICS 5 midklavikula) — nilai S1/S2, murmur, S3/S4, friction rub.",
+          "tone": "procedure",
+          "source": "§5 urutan pemeriksaan jantung"
+        },
+        {
+          "text": "Pemeriksaan tanda ortostatik (bila ada keluhan pusing/jatuh) dan pemeriksaan kognitif singkat (Mini-Cog atau MMSE) dapat ditambahkan sesuai relevansi klinis. Pada pasien geriatri, perhatikan keterbatasan gerak, penurunan kognitif, polifarmasi, dan interaksi obat — pendekatan sabar, jelas, dan perhatian pada privasi.",
+          "tone": "note",
+          "source": "§5 perhatian khusus geriatri"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda Vital Geriatri — cara melakukan → nilai normal → interpretasi abnormal:",
+          "sub": [
+            "Nadi: 60-100 x/mnt, reguler; takikardia → demam, nyeri, sepsis, syok; bradikardia → iskemia SA node, obat",
+            "RR: 12-20 x/mnt; takipnea → gagal jantung, pneumonia, PE",
+            "Suhu aksila: 36.5-37.5°C; demam → perikarditis, pneumonia",
+            "TD: <140/90 mmHg ideal; hipotensi → syok; hipertensi berat → ACS/diseksi",
+            "Saturasi: >95% normal; <92% hipoksemia"
+          ],
+          "bold": false,
+          "source": "§5 nilai normal TTV"
+        },
+        {
+          "text": "Komponen pemeriksaan fisik jantung:",
+          "sub": [
+            "Inspeksi Thoraks Anterior: bentuk dada, bekas luka, retraksi, pulsasi prekordial/ictus",
+            "Palpasi Ictus Cordis: 4 jari → 1 jari di ICS 5 linea midklavikula kiri",
+            "Raba Thrill/Heave: thrill = getaran murmur; heave parasternal = RVH",
+            "Perkusi Batas Jantung: dari lateral ke medial",
+            "Auskultasi 4 Katup: aortic, pulmonic, tricuspid, mitral",
+            "Bandingkan TD Kedua Lengan: curiga diseksi aorta"
+          ],
+          "bold": true,
+          "source": "§5 komponen pemeriksaan jantung"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips teknis yang sering dilupakan",
+          "text": "Bandingkan TD kedua lengan untuk menyingkirkan diseksi aorta; palpasi ictus harus dengan teknik 4 jari → 1 jari; auskultasi 4 katup di lokasi yang tepat.",
+          "answer_evidence": "Bates' Guide to Physical Examination + PROMPT_DOMAIN2_AnakGeriatri_S2.md"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pendekatan sabar pada geriatri",
+          "text": "Pasien geriatri dengan keterbatasan gerak, penurunan kognitif, atau polifarmasi memerlukan pendekatan sabar, jelas, dan perhatian pada interaksi obat.",
+          "answer_evidence": "Standar klinis geriatri"
+        }
+      ],
+      "visual_refs": [
+        "visual_nyeridada_landmark_02",
+        "visual_nyeridada_palpasi_03"
+      ],
+      "glossary_refs": [
+        "gls_nyeridada_ictus",
+        "gls_nyeridada_4katup",
+        "gls_nyeridada_diseksi",
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_troponin"
+      ],
+      "bilingual": "Pemeriksaan jantung urutan baku: inspeksi → palpasi → perkusi → auskultasi 4 katup (aortic ICS 2 kanan sternal, pulmonic ICS 2 kiri sternal, tricuspid ICS 4-5 parasternal, mitral ICS 5 midklavikula)."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat, posisi pasien, dan tiga fase pemeriksaan jantung dengan prioritas emergensi ACS.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "\"Prosedur utama\" pada station ini adalah pemeriksaan jantung lengkap dengan urutan baku: inspeksi → palpasi → perkusi → auskultasi, DENGAN prioritas emergensi ACS (EKG 12 sadapan dan troponin serial). Persiapan dimulai dengan penjelasan prosedur, posisi pasien supine 30-45 derajat, dan ekspos dada secukupnya dengan privasi terjaga. Pelaksanaan mengikuti urutan baku dengan perhatian pada teknik yang benar (4 jari → 1 jari untuk ictus; lokasi tepat untuk 4 katup). Evaluasi dan konfirmasi mencakup interpretasi temuan, kesimpulan diagnosis kerja (ACS), dan rencana tatalaksana emergensi. Pasien geriatri mungkin memerlukan modifikasi posisi (bantal, keterbatasan gerak). Dokter berdiri di sisi kanan pasien.",
+          "tone": "procedure",
+          "source": "§5.1-5.3 Persiapan dan Pemeriksaan Jantung"
+        },
+        {
+          "text": "Pada nyeri dada akut, sambil melakukan pemeriksaan fisik, Anda harus menyebut kebutuhan EKG/monitoring agar aspek emergensi tidak hilang. Auskultasi posisi tambahan (miring kiri, duduk condong depan) untuk murmur tertentu (miring kiri untuk murmur mitral, duduk condong depan untuk murmur aorta). Tanda tambahan: bising karotis, JVP, edema tungkai, hepatomegali.",
+          "tone": "procedure",
+          "source": "§5 auskultasi posisi tambahan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT yang dibutuhkan:",
+          "sub": [
+            "Stetoskop",
+            "Sphygmomanometer (cek kedua lengan)",
+            "Termometer aksila",
+            "Pulse oksimeter (saturasi)",
+            "Sarung tangan, masker",
+            "Tisu, hand sanitizer",
+            "Lembar dokumentasi SOAP",
+            "Jam tangan dengan detik",
+            "Monitor EKG dan akses IV (di IGD, meski tidak selalu di station)"
+          ],
+          "bold": true,
+          "source": "§5 daftar alat"
+        },
+        {
+          "text": "FASE PERSIAPAN (10 langkah):",
+          "sub": [
+            "Penilaian cepat: apakah pasien tampak gawat?",
+            "Cuci tangan dan pakai APD",
+            "Sapa pasien, perkenalkan diri, konfirmasi identitas",
+            "Konfirmasi keluhan utama dan onset",
+            "Jelaskan prosedur: lihat, raba, ketuk, dengar",
+            "Minta izin ekspos dada",
+            "Minta pasien berbaring supine 30-45 derajat",
+            "Dokter berdiri di sisi kanan",
+            "Ekspos dada dari clavicula sampai epigastrium; selimuti dada dan genital",
+            "Sampaikan bahwa sambil memeriksa, EKG 12 sadapan dan troponin perlu diambil"
+          ],
+          "bold": false,
+          "source": "§5.1 fase persiapan"
+        },
+        {
+          "text": "FASE PELAKSANAAN (12 langkah):",
+          "sub": [
+            "TTV: nadi, RR, suhu, TD (kedua lengan), saturasi",
+            "Inspeksi thoraks anterior: bentuk, bekas luka, retraksi, pulsasi ictus",
+            "Palpasi ictus: 4 jari cari area pulsasi, lalu 1 jari lokalisasi di ICS 5 midklavikula",
+            "Raba thrill/heave bila ada",
+            "Perkusi batas jantung dari lateral ke medial",
+            "Auskultasi aortic (ICS 2 kanan sternal)",
+            "Auskultasi pulmonic (ICS 2 kiri sternal)",
+            "Auskultasi tricuspid (ICS 4-5 kiri parasternal)",
+            "Auskultasi mitral (ICS 5 kiri midklavikula)",
+            "Auskultasi posisi tambahan (miring kiri untuk murmur mitral, duduk condong depan untuk murmur aorta)",
+            "Tanda tambahan: bising karotis, JVP, edema tungkai, hepatomegali",
+            "Interpretasi keseluruhan"
+          ],
+          "bold": false,
+          "source": "§5.2 fase pelaksanaan"
+        },
+        {
+          "text": "FASE EVALUASI (7 langkah):",
+          "sub": [
+            "Simpulkan diagnosis kerja (ACS)",
+            "Sebutkan diagnosis banding (diseksi aorta, emboli paru, dll.)",
+            "Sampaikan rencana EKG 12 sadapan dan troponin serial",
+            "Beri tatalaksana awal: ABCDE, monitor, IV line, aspirin loading 300 mg (bila aman), oksigen (bila hipoksia)",
+            "Edukasi pasien dan keluarga",
+            "Konsul jantung/rujuk sesuai protokol",
+            "Dokumentasi SOAP"
+          ],
+          "bold": false,
+          "source": "§5.3 fase evaluasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan pasien di setiap fase",
+          "text": "Posisi aman, ekspos secukupnya, auskultasi lembut pada lansia; sambil memeriksa, jangan lupa menyebut EKG dan troponin.",
+          "answer_evidence": "Standar klinis"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Hentikan prosedur bila emergensi",
+          "text": "Hentikan prosedur dan prioritaskan stabilisasi emergensi bila pasien menunjukkan: hipotensi berat, nyeri dada memberat, penurunan kesadaran, atau saturasi <90%.",
+          "answer_evidence": "AHA 2024 + ESC 2023"
+        }
+      ],
+      "visual_refs": [
+        "visual_nyeridada_pemeriksaan_01"
+      ],
+      "glossary_refs": [
+        "gls_nyeridada_ictus",
+        "gls_nyeridada_4katup",
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_troponin",
+        "gls_nyeridada_aspirinloading",
+        "gls_nyeridada_mona"
+      ],
+      "bilingual": "Tiga fase prosedur: persiapan (alat, posisi, izin), pelaksanaan (TTV + inspeksi → palpasi → perkusi → auskultasi 4 katup), evaluasi (diagnosis kerja + tatalaksana emergensi)."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan setelah prosedur dan pendekatan diagnosis banding nyeri dada emergensi.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan selesai, langkah pertama adalah menyampaikan ringkasan hasil kepada pasien dan menarik kesimpulan diagnosis kerja. Pada Tn. Habibi dengan nyeri dada kiri seperti ditekan, menjalar ke lengan kiri, keringat dingin, mual, dengan faktor risiko usia 68 tahun, jenis kelamin laki-laki, riwayat hipertensi, TTV takikardia dengan TD normal, dan ictus tidak bergeser, maka diagnosis kerja paling aman adalah Acute Coronary Syndrome (ACS). Namun, clinical reasoning mengharuskan Anda menyingkirkan: diseksi aorta (nyeri robek tembus punggung, beda TD), emboli paru (sesak mendadak, pleuritik, imobilisasi), pneumotoraks (sesak unilateral, napas menurun), perikarditis (demam, nyeri berkurang duduk condong), pneumonia (demam, batuk, ronki), GERD (terbakar, setelah makan), dan muskuloskeletal (nyeri tekan, pasca-trauma).",
+          "tone": "clinical",
+          "source": "§6 Penalaran Diagnosis dan Diagnosis Banding"
+        },
+        {
+          "text": "Tabel diagnosis banding memetakan ciri khas, temuan fisik, dan pembeda utama. Algoritme triase memutuskan apakah pasien memerlukan EKG emergensi, troponin serial, dan konsul jantung segera. Pada geriatri, ACS sering presentasi atipikal (kelelahan, sesak tanpa nyeri dada) — selalu curiga pada usia >65 tahun dengan gejala kardiorespirasi baru.",
+          "tone": "mechanism",
+          "source": "§6 algoritme triase dan presentasi atipikal"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca prosedur:",
+          "sub": [
+            "Rangkum hasil pemeriksaan kepada pasien",
+            "Sampaikan diagnosis kerja dan differential diagnosis",
+            "Sampaikan rencana EKG 12 sadapan dan troponin serial",
+            "Konfirmasi obat rutin dan alergi (aspirin, PDE5 inhibitor)",
+            "Beri tatalaksana awal: ABCDE, monitor, IV, aspirin loading 300 mg (bila aman), oksigen",
+            "Edukasi pasien dan keluarga",
+            "Tutup station dengan sopan",
+            "Dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "§6 tindakan pasca prosedur"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS merujuk/konsul emergensi",
+          "text": "ACS dengan perubahan EKG (elevasi/depresi ST), troponin positif, hipotensi/shock, nyeri memberat, aritmia, atau tanda gagal jantung akut.",
+          "answer_evidence": "AHA 2024 + PERKI 2018"
+        }
+      ],
+      "visual_refs": [
+        "visual_nyeridada_diagnosis_banding_05"
+      ],
+      "glossary_refs": [
+        "gls_nyeridada_acs",
+        "gls_nyeridada_diseksi",
+        "gls_nyeridada_pe",
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_troponin",
+        "gls_nyeridada_aspirinloading",
+        "gls_nyeridada_mona"
+      ],
+      "bilingual": "9 diagnosis banding: ACS, angina stabil/tidak stabil, diseksi aorta, emboli paru, pneumotoraks, perikarditis, pneumonia, GERD, muskuloskeletal — dengan ciri khas dan pembeda utama."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang relevan (EKG, troponin serial) dan prinsip tatalaksana awal nyeri dada curiga ACS.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada curiga ACS, pemeriksaan penunjang yang WAJIB dilakukan adalah: (1) EKG 12 sadapan segera dalam 10 menit pertama; (2) troponin jantung serial (0 dan 3-6 jam); (3) darah rutin, elektrolit, fungsi ginjal, gula darah, profil lipid, koagulasi. Foto toraks untuk menyingkirkan pneumonia, gagal jantung, atau pneumotoraks. Ekokardiografi bila ada murmur baru, gagal jantung, atau gangguan hemodinamik. CT angiografi bila curiga diseksi aorta/emboli paru.",
+          "tone": "clinical",
+          "source": "§7 Pemeriksaan Penunjang dan §8 Tatalaksana Awal"
+        },
+        {
+          "text": "Prinsip tatalaksana awal ACS: ABCDE, monitor jantung, akses IV, EKG 12 sadapan, troponin serial. Aspirin loading 300 mg dikunyah pada STEMI/NSTEMI/unstable angina BILA tidak alergi dan tidak ada perdarahan aktif/kontraindikasi. Oksigen hanya bila saturasi rendah/hipoksemia, distress napas, atau syok (tidak rutin bila saturasi normal). Nitrogliserin sublingual dipertimbangkan pada nyeri iskemik dengan TD adekuat; HINDARI bila hipotensi, curiga infark ventrikel kanan, atau penggunaan PDE5 inhibitor. Analgesia, statin, antikoagulan, reperfusi/PCI sesuai diagnosis dan protokol RS. Pada geriatri, perhatikan fungsi ginjal (penyesuaian dosis antikoagulan), polifarmasi, dan Beers Criteria.",
+          "tone": "procedure",
+          "source": "§7 tatalaksana awal ACS"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Prinsip tatalaksana awal ACS:",
+          "sub": [
+            "ABCDE, monitor, IV line",
+            "EKG 12 sadapan segera (≤10 menit)",
+            "Troponin serial",
+            "Aspirin loading 300 mg dikunyah (bila tidak kontraindikasi)",
+            "Oksigen hanya bila hipoksemia",
+            "Nitrogliserin sublingual (bila TD adekuat, tanpa PDE5 inhibitor)",
+            "Konsul jantung emergensi",
+            "Rujuk/PCI sesuai protokol"
+          ],
+          "bold": true,
+          "source": "§7 prinsip tatalaksana awal"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia",
+          "text": "EKG 12 sadapan dalam 10 menit, troponin serial, golongan darah + crossmatch, dan akses IV.",
+          "answer_evidence": "NICE NG185 + ESC 2023"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Standar internasional tatalaksana ACS",
+          "text": "NICE NG185 (Acute coronary syndromes) dan ESC 2023 Guidelines merekomendasikan EKG 12 sadapan dalam 10 menit, troponin high-sensitivity serial, aspirin loading 300 mg, dan strategi reperfusi sesuai klasifikasi (STEMI → PCI primer; NSTEMI/UA → risk stratification).",
+          "answer_evidence": "NICE NG185 + ESC 2023 Guidelines for the management of ACS"
+        }
+      ],
+      "visual_refs": [
+        "visual_nyeridada_alur_acs_04"
+      ],
+      "glossary_refs": [
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_troponin",
+        "gls_nyeridada_aspirinloading",
+        "gls_nyeridada_mona",
+        "gls_nyeridada_pde5",
+        "gls_nyeridada_acs"
+      ],
+      "bilingual": "EKG 12 sadapan dalam 10 menit, troponin serial, aspirin loading 300 mg, dan reperfusi sesuai klasifikasi (STEMI → PCI primer; NSTEMI/UA → risk stratification)."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi pasien dan keluarga serta contoh SOAP lengkap untuk Tn. Habibi.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pasien dan keluarga pada Tn. Habibi harus dilakukan dengan bahasa yang jelas, tenang, dan informatif. Sampaikan bahwa nyeri dada kiri pada usia 68 tahun perlu dianggap serius karena dapat berasal dari gangguan aliran darah ke jantung. Pasien perlu EKG dan pemeriksaan darah serial; hasil awal normal belum tentu menyingkirkan ACS. Pasien perlu observasi di IGD, jangan pulang sendiri. Segera beri tahu perawat/petugas bila nyeri bertambah, sesak, keringat dingin, pingsan, atau mual hebat. Setelah stabil, edukasi sekunder: kontrol tekanan darah, gula, kolesterol, berhenti merokok, patuh obat, diet rendah garam/lemak jenuh, aktivitas sesuai izin dokter.",
+          "tone": "narrative",
+          "source": "§9 Edukasi dan §10 Contoh Dokumentasi SOAP"
+        },
+        {
+          "text": "Untuk dokumentasi SOAP, gunakan data skenario nyata (Tn. Habibi, 68 tahun, laki-laki, dengan keluhan spesifik dan faktor risiko) sehingga rekam medis dapat ditindaklanjuti oleh klinisi lain. Kode ICD-10 untuk diagnosis utama adalah I20.0 (Angina tidak stabil), I21 (Infark miokard akut), atau I24 (Penyakit jantung iskemik akut lainnya) sesuai klasifikasi. SOAP harus lengkap dengan S (subjective), O (objective), A (assessment dengan ICD-10), dan P (plan tatalaksana).",
+          "tone": "clinical",
+          "source": "§10 contoh SOAP"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin edukasi untuk Tn. Habibi dan keluarga:",
+          "sub": [
+            "Nyeri dada kiri pada usia Bapak perlu dianggap serius",
+            "Perlu EKG dan enzim jantung serial",
+            "Observasi di IGD, jangan pulang sendiri",
+            "Lapor bila nyeri bertambah, sesak, keringat dingin, pingsan, mual",
+            "Setelah stabil: kontrol faktor risiko (TD, gula, kolesterol, rokok)",
+            "Patuh obat dan kontrol rutin"
+          ],
+          "bold": true,
+          "source": "§9 poin edukasi"
+        },
+        {
+          "text": "Safety net (kapan kembali segera):",
+          "sub": [
+            "Nyeri dada memberat atau berulang",
+            "Sesak napas",
+            "Keringat dingin",
+            "Pingsan",
+            "Mual/muntah hebat",
+            "Berdebar"
+          ],
+          "bold": false,
+          "source": "§9 safety net"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk diagnosis utama",
+          "text": "I20.0 (Angina tidak stabil), I21.0-I21.4 (STEMI/NSTEMI), I24.8 (Penyakit jantung iskemik akut lainnya). Cantumkan kode ini di akhir baris A pada SOAP.",
+          "answer_evidence": "ICD-10 Kemenkes 2012 + PERKI 2018"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi yang paling sering dilupakan",
+          "text": "\"Hasil EKG dan troponin awal yang normal belum tentu menyingkirkan ACS; kami akan memantau serial.\" Pasien sering ingin pulang setelah hasil awal normal.",
+          "answer_evidence": "NICE NG185 + ESC 2023"
+        }
+      ],
+      "visual_refs": [
+        "visual_nyeridada_edukasi_06"
+      ],
+      "glossary_refs": [
+        "gls_nyeridada_acs",
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_troponin",
+        "gls_nyeridada_aspirinloading",
+        "gls_nyeridada_mona"
+      ],
+      "bilingual": "Dokumentasi SOAP dengan kode ICD-10 I20.0 (Angina tidak stabil), I21.0-I21.4 (STEMI/NSTEMI), I24.8 (Penyakit jantung iskemik akut lainnya)."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Penyakit SKDI 4A yang relevan dan dialog mini-skrip OSCE dari pembukaan sampai penutupan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Standar Kompetensi Dokter Indonesia (SKDI) level 4A adalah kemampuan dokter lulusan yang harus dikuasai secara mandiri. Pada topik nyeri dada geriatri dengan curiga ACS, beberapa diagnosis level 4A yang relevan adalah hipertensi esensial, DM tipe 2, GERD, dan dislipidemia. Sementara itu, kondisi yang memerlukan rujukan (level 3B) meliputi ACS, gagal jantung, angina stabil/unstable, dan diseksi aorta. Mini-skrip komunikasi OSCE membantu mahasiswa berlatih dialog dengan penguji/standarized patient yang berperan sebagai Tn. Habibi (68 tahun, laki-laki, pensiunan).",
+          "tone": "narrative",
+          "source": "§11 SKDI 4A dan Mini-Skrip"
+        },
+        {
+          "text": "Pada pasien geriatri di IGD, gunakan nada tenang, jelas, dan informatif. Kalimat kritis yang TIDAK BOLEH dilewatkan: konfirmasi identitas, menanyakan onset dan karakteristik nyeri, tanyakan gejala penyerta, tanyakan alergi aspirin dan PDE5 inhibitor, edukasi pentingnya observasi, dan menutup station dengan sopan.",
+          "tone": "narrative",
+          "source": "§11 kalimat kritis komunikasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "10 kalimat mini-skrip komunikasi OSCE:",
+          "sub": [
+            "Pembuka: \"Selamat pagi Pak Habibi, saya dokter muda yang akan membantu memeriksa Bapak hari ini. Boleh saya konfirmasi identitas dan keluhan utamanya?\"",
+            "Anamnesis: \"Nyeri dadanya sejak kapan, Pak? Seperti apa? Ditekan, ditusuk, atau terbakar? Menjalar ke mana? Ada sesak, keringat dingin, atau mual?\"",
+            "Faktor risiko: \"Bapak punya riwayat tekanan darah tinggi, kencing manis, atau kolesterol? Merokok?\"",
+            "Obat dan alergi: \"Bapak minum obat apa? Ada alergi aspirin? Pakai obat kuat?\"",
+            "Pemeriksaan: \"Saya akan periksa tanda vital dan jantung Bapak. Saya cuci tangan dulu. Boleh melepas baju bagian atas?\"",
+            "Diagnosis: \"Nyeri dada kiri pada usia Bapak perlu dianggap serius karena bisa berasal dari aliran darah ke jantung. Kami perlu periksa EKG dan darah serial.\"",
+            "Tatalaksana: \"Bapak akan dipasang monitor, akses infus, periksa EKG, dan bila tidak alergi akan diberi aspirin yang dikunyah. Saya juga akan menghubungi dokter jantung.\"",
+            "Edukasi: \"Bapak tetap diobservasi dulu. Segera beri tahu bila nyeri bertambah, sesak, keringat dingin, atau pingsan.\"",
+            "Keluarga: \"Bapak perlu ditemani keluarga. Kami akan menginformasikan hasil dan langkah selanjutnya.\"",
+            "Penutupan: \"Terima kasih Pak atas kerja samanya. Semoga Bapak segera mendapat penanganan terbaik.\""
+          ],
+          "bold": true,
+          "source": "§11 mini-skrip 10 kalimat"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH dilewatkan (fatal bila lupa)",
+          "text": "(1) konfirmasi identitas dan keluhan utama; (2) tanyakan alergi aspirin sebelum memberi; (3) tanyakan PDE5 inhibitor sebelum nitrat; (4) bandingkan TD kedua lengan (diseksi); (5) edukasi pentingnya observasi; (6) dokumentasi SOAP dengan ICD-10.",
+          "answer_evidence": "PROMPT_DOMAIN2_AnakGeriatri_S2.md"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara membuka station paling efektif",
+          "text": "Panggil pasien dengan sapaan hormat (Pak Habibi), sebut identitas diri, dan tanya keluhan utama dengan nada empatik yang mencerminkan urgensi nyeri dada.",
+          "answer_evidence": "Domain 2 komunikasi klinis"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_nyeridada_acs",
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_troponin",
+        "gls_nyeridada_pde5",
+        "gls_nyeridada_aspirinloading",
+        "gls_nyeridada_mona"
+      ],
+      "bilingual": "10 kalimat mini-skrip dari pembukaan (sapa hormat, konfirmasi identitas) sampai penutupan (terima kasih, harapan kesembuhan)."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri, rencana belajar 3 hari, dan kesalahan fatal yang sering menurunkan skor.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Latihan mandiri adalah bagian integral dari persiapan OSCE. Gunakan checklist di bawah ini sebagai panduan self-assessment: tandai tiap item TINGGI/SEDANG sesuai prioritas belajar. TINGGI berarti wajib dikuasai dalam 3 hari; SEDANG berarti cukup dipahami secara konsep. Rencana belajar 3 hari disusun dengan target spesifik, durasi, aktivitas, dan kriteria kelulusan per hari. Hari 1 fokus urutan TTV dan pemeriksaan jantung urutan baku; Hari 2 fokus anamnesis OPQRST, gejala penyerta ACS, dan identifikasi red flags; Hari 3 fokus roleplay dengan timer 7-10 menit dan clinical reasoning ACS.",
+          "tone": "narrative",
+          "source": "§12 konsep kesalahan fatal dan rencana belajar"
+        },
+        {
+          "text": "Kriteria \"siap OSCE\" adalah mampu menjalankan seluruh checklist dalam 7-10 menit tanpa melihat catatan, dengan verbalisasi yang jelas, sambil menyebut EKG dan troponin sebagai prioritas emergensi. Kesalahan fatal OSCE: tidak menyebut EKG 12 sadapan, memberikan aspirin pada pasien alergi, memberikan nitrogliserin pada pengguna PDE5 inhibitor, dan tidak membandingkan TD kedua lengan.",
+          "tone": "clinical",
+          "source": "§12 kriteria siap OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist latihan mandiri 24 item (label TINGGI/SEDANG):",
+          "sub": [
+            "[TINGGI] Sambung rasa dengan hormat (karena IGD)",
+            "[TINGGI] Konfirmasi identitas (nama, usia 68 tahun)",
+            "[TINGGI] Konfirmasi keluhan utama (nyeri dada kiri)",
+            "[TINGGI] Anamnesis OPQRST (onset, kualitas, radiasi, skala, durasi)",
+            "[TINGGI] Gejala penyerta ACS (sesak, keringat dingin, mual, pingsan)",
+            "[TINGGI] Red flags non-ACS (robek, pleuritik, hemoptisis)",
+            "[TINGGI] RPD (HT, DM, PJK, kolesterol)",
+            "[TINGGI] Obat dan alergi (aspirin, PDE5 inhibitor)",
+            "[TINGGI] RPK dan kebiasaan (merokok, keluarga PJK)",
+            "[TINGGI] Cross check ringkasan",
+            "[TINGGI] Izin, cuci tangan, posisi, ekspos dada",
+            "[TINGGI] TTV lengkap (nadi, RR, suhu, TD kedua lengan, saturasi)",
+            "[TINGGI] Inspeksi thoraks anterior",
+            "[TINGGI] Palpasi ictus (4 jari → 1 jari)",
+            "[TINGGI] Perkusi batas jantung",
+            "[TINGGI] Auskultasi 4 katup (aortic, pulmonic, tricuspid, mitral)",
+            "[TINGGI] Interpretasi dan diagnosis kerja (ACS)",
+            "[TINGGI] Diagnosis banding emergensi",
+            "[TINGGI] Sebut EKG 12 sadapan dan troponin serial",
+            "[TINGGI] Aspirin loading (bila aman)",
+            "[TINGGI] Oksigen (bila hipoksia)",
+            "[TINGGI] Konsul jantung",
+            "[SEDANG] Nitrogliserin (bila TD adekuat, tanpa PDE5 inhibitor)",
+            "[SEDANG] Edukasi pasien dan keluarga",
+            "[SEDANG] Dokumentasi SOAP dengan ICD-10"
+          ],
+          "bold": true,
+          "source": "§12 checklist 24 item"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak menyebut EKG 12 sadapan dan troponin serial",
+          "text": "ACS adalah time-critical; time is muscle — selalu sebut emergensi di awal.",
+          "answer_evidence": "NICE NG185 + ESC 2023"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Memberikan aspirin pada pasien alergi atau perdarahan aktif",
+          "text": "Risiko anafilaksis/perdarahan — selalu tanyakan alergi aspirin.",
+          "answer_evidence": "AHA 2024 + PERKI 2018"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Memberikan nitrogliserin pada pengguna PDE5 inhibitor (24-48 jam)",
+          "text": "Risiko hipotensi berat dan syok — selalu tanyakan PDE5 inhibitor sebelum nitrat.",
+          "answer_evidence": "AHA 2024 ACS Guidelines"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak membandingkan TD kedua lengan",
+          "text": "Melewatkan tanda diseksi aorta — selalu ukur kedua lengan.",
+          "answer_evidence": "AHA 2024"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Mengabaikan hipotensi + takikardia + nyeri dada",
+          "text": "Syok kardiogenik — rujuk/resusitasi segera.",
+          "answer_evidence": "AHA 2024"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak mencuci tangan sebelum kontak",
+          "text": "Transmisi nosokomial — selalu cuci tangan (5 momen hand hygiene WHO).",
+          "answer_evidence": "WHO Hand Hygiene"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak menyebutkan saturasi",
+          "text": "Melewatkan tanda hipoksemia emboli paru.",
+          "answer_evidence": "Standar klinis"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Auskultasi di lokasi salah",
+          "text": "Tidak menemukan murmur; selalu auskultasi di 4 katup yang tepat.",
+          "answer_evidence": "Bates' Guide to Physical Examination"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak menyebut 4 katup",
+          "text": "Kehilangan poin auskultasi; sebutkan aortic, pulmonic, tricuspid, mitral secara eksplisit.",
+          "answer_evidence": "Standar OSCE keterampilan klinis"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_nyeridada_acs",
+        "gls_nyeridada_ekg12",
+        "gls_nyeridada_troponin",
+        "gls_nyeridada_aspirinloading",
+        "gls_nyeridada_pde5",
+        "gls_nyeridada_diseksi",
+        "gls_nyeridada_ictus",
+        "gls_nyeridada_4katup"
+      ],
+      "bilingual": "6 kesalahan fatal (danger): tidak menyebut EKG/troponin, aspirin pada alergi, nitrogliserin dengan PDE5 inhibitor, tidak bandingkan TD kedua lengan, mengabaikan syok kardiogenik, lupa cuci tangan. Plus 3 caution."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Kebutuhan visual untuk aplikasi, lampiran A-D (kontraindikasi, masalah prosedur, mini-case, kalimat pembuka), dan referensi ringkas.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Bagian ini merangkum kebutuhan visual untuk aplikasi, lampiran A-D, dan referensi ringkas. Visual diperlukan untuk memperjelas konsep urutan pemeriksaan jantung, landmark auskultasi, dan alur ACS di IGD. Lampiran A memuat kontraindikasi dan red flags pada pasien geriatri dengan nyeri dada, Lampiran B memuat masalah saat prosedur dan respons aman, Lampiran C memuat 3 OSCE mini-case untuk latihan cepat, dan Lampiran D memuat kalimat pembuka station siap ucap. Referensi ringkas disusun dari dokumen asli (PDF kampus) dan standar internasional (NICE, AHA, ESC) untuk menjaga keselamatan klinis. Semua visual menggunakan gaya clean medical textbook dengan perhatian pada situasi IGD.",
+          "tone": "narrative",
+          "source": "§11 Lampiran A-D dan referensi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Visual yang perlu dibuat:",
+          "sub": [
+            "Pemeriksaan jantung OSCE (posisi 30 derajat, ekspos dada)",
+            "Landmark auskultasi 4 katup",
+            "Palpasi ictus cordis (4 jari → 1 jari)",
+            "Alur ACS di IGD (ABCDE → EKG → troponin → aspirin → konsul jantung)",
+            "Diagnosis banding nyeri dada",
+            "Edukasi keluarga nyeri dada"
+          ],
+          "bold": true,
+          "source": "§11 kebutuhan visual"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk membuat visual",
+          "text": "Ilustrasi medis realistis dokter memeriksa jantung pasien laki-laki 68 tahun di IGD, posisi berbaring 30-45 derajat, ekspos dada sopan, stetoskop, clean realistic medical education.",
+          "answer_evidence": "PROMPT_DOMAIN2_AnakGeriatri_S2.md"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Standar internasional acuan",
+          "text": "NICE NG185 (Acute coronary syndromes), NICE CG95 (Recent-onset chest pain), AHA 2024 (Acute coronary syndrome), ESC 2023 Guidelines for management of ACS.",
+          "answer_evidence": "NICE + AHA + ESC Guidelines 2023-2024"
+        }
+      ],
+      "visual_refs": [
+        "visual_nyeridada_pemeriksaan_01",
+        "visual_nyeridada_landmark_02",
+        "visual_nyeridada_palpasi_03",
+        "visual_nyeridada_alur_acs_04",
+        "visual_nyeridada_diagnosis_banding_05",
+        "visual_nyeridada_edukasi_06"
+      ],
+      "glossary_refs": [
+        "gls_nyeridada_acs",
+        "gls_nyeridada_diseksi",
+        "gls_nyeridada_pe",
+        "gls_nyeridada_aspirinloading",
+        "gls_nyeridada_ekg12"
+      ],
+      "bilingual": "Lampiran A (kontraindikasi & red flags), Lampiran B (masalah prosedur & respons aman), Lampiran C (3 OSCE mini-case: Anwar/Hadi/Salim), Lampiran D (10 kalimat pembuka siap ucap)."
+    }
+  ]
+}

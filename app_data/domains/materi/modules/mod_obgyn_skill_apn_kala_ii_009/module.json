@@ -1,0 +1,1885 @@
+{
+  "id": "mod_obgyn_skill_apn_kala_ii_009",
+  "title": "APN Kala II",
+  "subtitle": "Persalinan normal kala II dari pembukaan lengkap hingga bayi lahir dengan cardinal movements.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_3",
+  "source_pdf": "Batch3_6.1_Modul_2_APN_Kala_II.docx",
+  "source_filename": "Batch3_6.1_Modul_2_APN_Kala_II.docx",
+  "topicTags": [
+    "osce_6_1",
+    "kala_ii",
+    "asuhan_persalinan_normal",
+    "cardinal_movements",
+    "engagement",
+    "flexion_rotasi",
+    "extension",
+    "skor_apgar",
+    "imd",
+    "persalinan_normal"
+  ],
+  "summary": [
+    "Kala II adalah fase dari pembukaan lengkap (10 cm) sampai bayi lahir, ditandai dorongan meneran, perineum menonjol, vulva dan sfingter ani membuka.",
+    "Urutan APN kala II yang krusial untuk skor OSCE: kenali kala II → siapkan alat (termasuk alat resusitasi BBL) → asepsis → periksa dalam → cek DJJ → bimbing meneran → lindungi perineum → tahan defleksi kepala → periksa lilitan → tunggu putaran paksi luar → nilai Apgar → IMD → oksitosin 10 IU IM dalam 1 menit → jepit-potong tali pusat.",
+    "Cardinal movements yang wajib dihafal: engagement dan descent, flexion, internal rotation, extension (kepala lahir di bawah simfisis), external rotation/restitution, expulsion (bahu anterior → posterior → badan).",
+    "DJJ normal 110-160 x/menit setelah kontraksi; nilai DJJ tiap selesai kontraksi kala II. DJJ <110 atau >160 dengan mekonium → gawat janin, siapkan resusitasi BBL dan percepat persalinan.",
+    "Selalu pastikan hamil tunggal sebelum suntik oksitosin 10 IU IM dalam 1 menit pasca bayi lahir untuk mencegah atonia dan risiko oksitosin ke bayi kedua.",
+    "IMD minimal 1 jam dengan kontak kulit ke kulit, bayi diselimuti dan memakai topi; jangan bersihkan verniks karena melindungi kulit bayi baru lahir.",
+    "Pada posisi meneran, hindari terlentang lama (risiko supine hypotensive syndrome); pilih setengah duduk, miring kiri, atau jongkok dengan dukungan.",
+    "Lindungi perineum dengan kain, tahan defleksi kepala saat membuka vulva 5-6 cm, minta ibu napas cepat seperti meniup lilin untuk mengurangi robekan."
+  ],
+  "exam_focus": [
+    "[FATAL] Tidak mengenali tanda kala II dan langsung memimpin meneran sebelum pembukaan lengkap — risiko edema serviks, robekan serviks, skor hangus.",
+    "[FATAL] Tidak menyiapkan alat resusitasi bayi (penghisap lendir, balon sungkup, masker bayi, lampu pemanas) — bayi bisa asfiksia, dokter tidak siap, skor hangus.",
+    "[FATAL] Tidak memeriksa DJJ setelah kontraksi — bayi gawat tidak terdeteksi, skor hangus.",
+    "[FATAL] Menarik kepala bayi terlalu kuat — robekan perineum luas, trauma kepala, skor hangus.",
+    "[FATAL] Lupa memastikan hamil tunggal sebelum oksitosin — oksitosin bisa masuk ke bayi kedua, skor hangus.",
+    "[FATAL] Tidak mengenali distosia bahu (kepala lahir tapi bahu tidak) atau prolaps tali pusat — emergency yang bisa menyebabkan kematian bayi, skor hangus.",
+    "[PENGURANGAN BESAR] Tidak menyebut Apgar menit 1 dan 5 — skor turun untuk penilaian BBL.",
+    "[PENGURANGAN BESAR] Tidak menyebut 'jangan bersihkan verniks' dan tidak edukasi keluarga tentang IMD serta tanda bahaya — skor turun.",
+    "[PENGURANGAN BESAR] Tidak menyebut partograf dan kode ICD-10 (O80, Z37.0) — skor turun untuk kelengkapan dokumentasi.",
+    "Selalu verbalisasi setiap langkah dengan nada jelas: 'Saya cek DJJ setelah kontraksi', 'Saya melindungi perineum', 'Saya menunggu putaran paksi luar spontan' — urutan lebih penting daripada gaya."
+  ],
+  "glossary": [
+    {
+      "id": "gls_apn_kala2_cardinal_01",
+      "term": "Cardinal movements",
+      "def": "Gerakan mekanis kepala janin yang terjadi secara berurutan saat melewati jalan lahir: engagement dan descent, flexion, internal rotation, extension, external rotation/restitution, dan expulsion. Urutan ini memastikan kepala bayi lahir dengan diameter terkecil di setiap tahap.",
+      "type": "clinical",
+      "aliases": [
+        "mekanisme persalinan",
+        "cardinal movements of labor"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_engagement_02",
+      "term": "Engagement",
+      "def": "Tahap pertama cardinal movements di mana diameter biparietal kepala janin melewati pintu atas panggul. Pada primigravida, engagement terjadi pada akhir kala I atau awal kala II; pada multigravida dapat terjadi di akhir kala I.",
+      "type": "clinical",
+      "aliases": [
+        "kepala masuk PAP"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_episiotomi_03",
+      "term": "Episiotomi",
+      "def": "Tindakan insisi pada perineum untuk memperbesar jalan lahir, dilakukan selektif (bukan rutin) pada indikasi seperti distosia bahu, persalinan dengan instrumen, atau robekan perineum yang mengancam. Dilakukan saat kepala membuka vulva 5-6 cm atau pada saat perluasan jalan lahir mendadak.",
+      "type": "procedure",
+      "aliases": [
+        "insisi perineum",
+        "episiotomy"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_apgar_04",
+      "term": "Skor Apgar",
+      "def": "Sistem penilaian kondisi bayi baru lahir pada menit 1 dan 5 dengan 5 parameter: Appearance (warna kulit), Pulse (denyut jantung), Grimace (refleks), Activity (tonus otot), dan Respiration (pernapasan). Skor 7-10 normal, 4-6 asfiksia sedang, 0-3 asfiksia berat.",
+      "type": "score",
+      "aliases": [
+        "Apgar score",
+        "penilaian BBL"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_imd_05",
+      "term": "IMD (Inisiasi Menyusu Dini)",
+      "def": "Proses meletakkan bayi baru lahir di dada ibu dengan kontak kulit ke kulit dalam 1 jam pertama kehidupan, dilanjutkan dengan menyusu sendiri. IMD menurunkan hipotermia, membantu pengeluaran ASI, dan meningkatkan bonding ibu-bayi. Minimal 1 jam, tidak boleh dipisahkan tanpa indikasi medis.",
+      "type": "procedure",
+      "aliases": [
+        "Early Initiation of Breastfeeding",
+        "EIBF",
+        "kontak kulit ke kulit"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_litotomi_06",
+      "term": "Posisi litotomi",
+      "def": "Posisi ibu berbaring telentang dengan tungkai diletakkan pada penyangga, paha fleksi dan abducted, biasanya untuk prosedur ginekologi dan persalinan. Pada APN kala II, posisi ini perlu dihindari terlalu lama karena risiko supine hypotensive syndrome; alternatif yang lebih aman adalah setengah duduk, miring kiri, atau jongkok dengan dukungan.",
+      "type": "procedure",
+      "aliases": [
+        "litotomi",
+        "lithotomy position"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_ic_07",
+      "term": "Informed consent",
+      "def": "Persetujuan yang diberikan pasien/keluarga setelah menerima penjelasan tentang tujuan, prosedur, risiko, manfaat, dan alternatif tindakan. Pada APN kala II, informed consent verbal sudah cukup untuk tindakan emergensi, dengan dokumentasi di rekam medis.",
+      "type": "clinical",
+      "aliases": [
+        "persetujuan tindakan medis"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_apd_08",
+      "term": "APD (Alat Pelindung Diri)",
+      "def": "Perlengkapan yang digunakan penolong untuk melindungi diri dari paparan cairan tubuh pasien, terdiri dari sarung tangan DTT/steril, celemek, masker, kacamata pelindung, dan alas kaki tertutup. Pada APN kala II, sarung tangan ganti wajib untuk periksa dalam dan prosedur inti.",
+      "type": "clinical",
+      "aliases": [
+        "personal protective equipment",
+        "PPE"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_kala2_09",
+      "term": "Kala II",
+      "def": "Fase persalinan dari pembukaan lengkap (10 cm) hingga bayi lahir. Ditandai dengan dorongan meneran, tekanan rektum/vagina meningkat, perineum menonjol, vulva dan sfingter ani membuka. Batas waktu: 2 jam pada primigravida, 1 jam pada multigravida (atau 3 jam dengan epidural).",
+      "type": "clinical",
+      "aliases": [
+        "kala dua",
+        "second stage of labor"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_djj_10",
+      "term": "DJJ (Denyut Jantung Janin)",
+      "def": "Detak jantung janin yang dinilai dengan Doppler atau Pinard. Nilai normal 110-160 x/menit, reguler. Pada kala II, DJJ dicek tiap selesai kontraksi; nilai <110 atau >160 merupakan tanda gawat janin yang memerlukan evaluasi dan kemungkinan akselerasi kelahiran.",
+      "type": "clinical",
+      "aliases": [
+        "denyut jantung janin",
+        "FHR",
+        "fetal heart rate"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_his_11",
+      "term": "HIS (His / Kontraksi Uterus)",
+      "def": "Kontraksi otot uterus saat persalinan. HIS adekuat bila 3-5 kali per 10 menit, durasi 40-60 detik, dan terasa kuat. HIS tidak adekuat memerlukan evaluasi dan kemungkinan augmentasi oksitosin.",
+      "type": "clinical",
+      "aliases": [
+        "kontraksi uterus",
+        "uterine contraction"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_paksi_luar_12",
+      "term": "Putaran paksi luar",
+      "def": "Rotasi spontan kepala bayi yang sudah lahir (external rotation / restitution) sebagai lanjutan internal rotation. Setelah putaran paksi luar, bahu anterior berada di bawah simfisis dan siap dilahirkan dengan traksi bawah lembut. Penolong harus menunggu putaran paksi luar spontan, tidak boleh memaksa.",
+      "type": "mechanism",
+      "aliases": [
+        "external rotation",
+        "restitusi",
+        "putaran paksi luar"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_defleksi_13",
+      "term": "Defleksi kepala (extension)",
+      "def": "Tahap cardinal movements di mana kepala bayi yang sudah melewati jalan lahir melakukan ekstensi (defleksi) di bawah simfisis pubis, sehingga berturut-turut lahir bregma, dahi, muka, dan dagu. Penolong menahan defleksi dengan tangan untuk mengontrol kelahiran kepala secara perlahan.",
+      "type": "mechanism",
+      "aliases": [
+        "ekstensi kepala",
+        "extension"
+      ]
+    },
+    {
+      "id": "gls_apn_kala2_oksitosin_14",
+      "term": "Oksitosin",
+      "def": "Hormon/uterotonika yang digunakan untuk menstimulasi kontraksi uterus. Pada APN kala III (bukan kala II), 10 IU IM diberikan dalam 1 menit pasca bayi lahir untuk mencegah perdarahan postpartum. Wajib memastikan hamil tunggal sebelum penyuntikan.",
+      "type": "drug",
+      "aliases": [
+        "oxytocin",
+        "Pitocin",
+        "uterotonika"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_apn_kala2_01",
+      "term_id": "Kala II persalinan",
+      "term_en": "Second stage of labor",
+      "context": "Fase dari pembukaan lengkap (10 cm) sampai bayi lahir, ditandai dorongan meneran, perineum menonjol, vulva dan anus membuka."
+    },
+    {
+      "id": "bil_apn_kala2_02",
+      "term_id": "Cardinal movements (mekanisme persalinan)",
+      "term_en": "Cardinal movements of labor",
+      "context": "Gerakan mekanis kepala janin: engagement, descent, flexion, internal rotation, extension, external rotation, expulsion."
+    },
+    {
+      "id": "bil_apn_kala2_03",
+      "term_id": "Inisiasi Menyusu Dini (IMD)",
+      "term_en": "Early Initiation of Breastfeeding (EIBF)",
+      "context": "Kontak kulit ke kulit bayi di dada ibu dalam 1 jam pertama kehidupan, dilanjutkan menyusu sendiri minimal 1 jam."
+    },
+    {
+      "id": "bil_apn_kala2_04",
+      "term_id": "Skor Apgar",
+      "term_en": "Apgar score",
+      "context": "Penilaian BBL pada menit 1 dan 5 dengan parameter Appearance, Pulse, Grimace, Activity, Respiration. Skor 7-10 normal."
+    },
+    {
+      "id": "bil_apn_kala2_05",
+      "term_id": "Denyut Jantung Janin (DJJ)",
+      "term_en": "Fetal Heart Rate (FHR)",
+      "context": "Nilai normal 110-160 x/menit, dicek tiap selesai kontraksi pada kala II."
+    },
+    {
+      "id": "bil_apn_kala2_06",
+      "term_id": "Persalinan normal",
+      "term_en": "Spontaneous vaginal delivery",
+      "context": "Persalinan pervaginam spontan, kode ICD-10 O80."
+    },
+    {
+      "id": "bil_apn_kala2_07",
+      "term_id": "Gawat janin",
+      "term_en": "Fetal distress",
+      "context": "DJJ <110 atau >160, variabilitas hilang, mekonium kental — memerlukan evaluasi dan akselerasi kelahiran."
+    },
+    {
+      "id": "bil_apn_kala2_08",
+      "term_id": "Distosia bahu",
+      "term_en": "Shoulder dystocia",
+      "context": "Kepala bayi lahir, tetapi bahu tidak lahir dengan traksi lembut biasa. Tatalaksana: McRobert, suprapubik, episiotomi lebar."
+    },
+    {
+      "id": "bil_apn_kala2_09",
+      "term_id": "Prolaps tali pusat",
+      "term_en": "Umbilical cord prolapse",
+      "context": "Tali pusat menumbung saat ketuban pecah — emergency, posisi knee-chest, dorong presentasi, SC emergensi."
+    },
+    {
+      "id": "bil_apn_kala2_10",
+      "term_id": "Posisi litotomi",
+      "term_en": "Lithotomy position",
+      "context": "Posisi ibu berbaring dengan tungkai pada penyangga; pada kala II perlu dihindari terlalu lama untuk mencegah supine hypotensive syndrome."
+    },
+    {
+      "id": "bil_apn_kala2_11",
+      "term_id": "Partograf",
+      "term_en": "Partograph",
+      "context": "Alat dokumentasi kala I-IV: dilatasi serviks, DJJ, kontraksi, kondisi ibu dan bayi. Wajib diisi lengkap."
+    },
+    {
+      "id": "bil_apn_kala2_12",
+      "term_id": "Informed consent",
+      "term_en": "Informed consent",
+      "context": "Persetujuan tindakan medis setelah penjelasan tujuan, prosedur, risiko, dan alternatif. Di APN kala II cukup verbal dengan dokumentasi."
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Jadwal kontrol nifas standar Indonesia",
+      "source_reference": "SOP FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Jadwal kunjungan nifas (1 minggu, 6 minggu) dan kunjungan neonatal 1 minggu ditambahkan untuk kelengkapan edukasi pada §8 Tindakan Pasca-Prosedur dan §12 Edukasi."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Manajemen pasca-persalinan sesuai rekomendasi internasional",
+      "source_reference": "WHO, POGI, SOP standar Indonesia",
+      "confidence": "high",
+      "note": "Manajemen komplikasi pasca-prosedur (asfiksia lanjutan, hipotermia BBL, PPH lanjutan, sisa plasenta, infeksi nifas, hiperbilirubinemia, gangguan laktasi, depresi postpartum) mengikuti rekomendasi WHO/POGI."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Format SOAP standar RS pendidikan",
+      "source_reference": "Standar RS pendidikan Indonesia",
+      "confidence": "medium",
+      "note": "Format SOAP di §13 mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Pola komunikasi OSCE ObGyn",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "medium",
+      "note": "Kalimat edukasi di §12 dan mini-skrip di §15 mengikuti pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi; kalimat final harus disesuaikan dengan skenario."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_apn_kala2_tanda_01",
+      "module_id": "mod_obgyn_skill_apn_kala_ii_009",
+      "section_id": "s01",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis persalinan kala II: perineum menonjol, vulva membuka, tekanan rektum, posisi janin rendah, label Bahasa Indonesia: perineum menonjol, vulva membuka, anus membuka, presentasi kepala. Gaya clean medical illustration, label jelas.",
+      "alt": "Ilustrasi medis tanda kala II: perineum menonjol, vulva membuka, anus membuka, presentasi kepala sudah rendah di jalan lahir.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/tanda_kala_ii.png"
+    },
+    {
+      "id": "visual_apn_kala2_set_alat_02",
+      "module_id": "mod_obgyn_skill_apn_kala_ii_009",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Flat lay alat APN: partus set, oksitosin, spuit, handuk, balon sungkup, lampu pemanas, penghisap lendir, label Bahasa Indonesia. Gaya clean medical illustration, label jelas.",
+      "alt": "Flat lay alat APN kala II: set persalinan, oksitosin 10 IU, spuit, handuk, balon sungkup, lampu pemanas, penghisap lendir.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/set_persalinan_resusitasi.png"
+    },
+    {
+      "id": "visual_apn_kala2_posisi_meneran_03",
+      "module_id": "mod_obgyn_skill_apn_kala_ii_009",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi beberapa posisi meneran aman: setengah duduk, miring kiri, jongkok dengan dukungan, hindari terlentang lama. Gaya clean medical illustration, label posisi dan catatan keamanan.",
+      "alt": "Ilustrasi posisi meneran yang aman: setengah duduk, miring kiri, jongkok dengan dukungan. Hindari terlentang lama.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/posisi_meneran.png"
+    },
+    {
+      "id": "visual_apn_kala2_cardinal_04",
+      "module_id": "mod_obgyn_skill_apn_kala_ii_009",
+      "section_id": "s05",
+      "type": "diagram",
+      "generation_prompt": "Diagram cardinal movements: engagement, descent, flexion, internal rotation, extension (kepala lahir di bawah simfisis), external rotation/restitution, expulsion (bahu anterior → posterior → badan). Tujuh tahap dengan panah, label Bahasa Indonesia dan Inggris. Gaya clean medical illustration.",
+      "alt": "Diagram cardinal movements of labor: engagement, descent, flexion, internal rotation, extension, external rotation, expulsion, dengan panah dan label.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/cardinal_movements.png"
+    },
+    {
+      "id": "visual_apn_kala2_perlindungan_perineum_05",
+      "module_id": "mod_obgyn_skill_apn_kala_ii_009",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Diagram tangan penolong melindungi perineum dengan kain dan tangan lain mengontrol kepala bayi, label: perineum, kepala bayi, tangan kiri, tangan kanan, defleksi. Gaya clean medical illustration.",
+      "alt": "Diagram teknik perlindungan perineum: satu tangan melindungi perineum dengan kain, tangan lain menahan defleksi kepala bayi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/perlindungan_perineum.png"
+    },
+    {
+      "id": "visual_apn_kala2_putaran_paksi_06",
+      "module_id": "mod_obgyn_skill_apn_kala_ii_009",
+      "section_id": "s05",
+      "type": "diagram",
+      "generation_prompt": "Diagram kepala bayi setelah lahir melakukan rotasi eksternal (putaran paksi luar), panah rotasi, label posisi bahu anterior dan posterior, sumbu jalan lahir. Gaya clean medical illustration.",
+      "alt": "Diagram putaran paksi luar: kepala bayi yang sudah lahir berotasi secara spontan; bahu anterior siap dilahirkan dengan traksi bawah.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/putaran_paksi_luar.png"
+    },
+    {
+      "id": "visual_apn_kala2_lilitan_tali_07",
+      "module_id": "mod_obgyn_skill_apn_kala_ii_009",
+      "section_id": "s05",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart penanganan lilitan tali pusat: periksa leher bayi → longgar: lepaskan lewat kepala; ketat: klem dua tempat, potong di antara. Gaya clean medical flowchart dengan dua cabang keputusan, label Bahasa Indonesia.",
+      "alt": "Flowchart penanganan lilitan tali pusat: longgar dilepas lewat kepala, ketat diklem dua tempat lalu dipotong.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/lilitan_tali_pusat.png"
+    },
+    {
+      "id": "visual_apn_kala2_imd_08",
+      "module_id": "mod_obgyn_skill_apn_kala_ii_009",
+      "section_id": "s06",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi ibu dengan bayi di dada, bayi diselimuti dan memakai topi, label IMD 1 jam, kontak kulit ke kulit, ASI eksklusif. Gaya clean medical illustration, warna hangat, edukatif.",
+      "alt": "Ilustrasi IMD: bayi di dada ibu, kontak kulit ke kulit, bayi diselimuti dan memakai topi, label IMD 1 jam.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_apn_kala_ii_009/assets/imd_kontak_kulit.png"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Pengenalan APN kala II: definisi, tanda kala II, prioritas OSCE, dan 12 langkah alur besar yang wajib dihafal.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Asuhan Persalinan Normal (APN) Kala II adalah fase persalinan yang dimulai dari **pembukaan lengkap (10 cm)** hingga **bayi lahir**. Modul ini menjadi skill inti OSCE Blok 6.1 karena menggabungkan komunikasi, penilaian persalinan, pencegahan infeksi, teknik melahirkan bayi, dan penanganan awal bayi baru lahir. Sumber utama: PDF Penuntun Belajar APN Kala II (FKIK Universitas Jambi), SKDI 4A Obgyn, dan WHO intrapartum care 2018.",
+          "tone": "narrative",
+          "source": "§1 Ringkasan File Sumber dan Target OSCE"
+        },
+        {
+          "text": "Tanda awal kala II yang harus dikenali: **dorongan meneran, tekanan rektum/vagina meningkat, perineum menonjol, vulva dan sfingter ani membuka**. Prioritas OSCE adalah: kenali kala II, siapkan alat ibu dan BBL, pastikan pembukaan lengkap dan DJJ baik, bimbing meneran, lindungi perineum, lahirkan kepala-bahu-badan, nilai BBL, oksitosin, potong tali pusat, dan mulai IMD. Kalimat kunci yang sering dinilai penguji: *'Jangan memaksa meneran sebelum pembukaan lengkap dan jangan lupa nilai DJJ setelah kontraksi.'*",
+          "tone": "clinical",
+          "source": "§1 + §2"
+        },
+        {
+          "text": "Skenario pasien fiktif yang digunakan konsisten di seluruh modul: **Ny. Dewi, 26 tahun, G1P0A0, hamil 39 minggu**, datang dalam persalinan kala I aktif. Kontraksi adekuat, DJJ 140 x/menit. Pembukaan sudah lengkap, ketuban pecah spontan jernih 30 menit lalu, presentasi kepala. Ibu ingin meneran, suami mendampingi. Informed consent verbal sudah diberikan.",
+          "tone": "narrative",
+          "source": "§1 Skenario klinis utama"
+        },
+        {
+          "text": "Prinsip utama pada OSCE: *'Pada OSCE, urutan lebih penting daripada gaya. Verbalisasi setiap langkah dengan suara cukup jelas supaya penguji mendengar alasan Anda: Saya cek DJJ setelah kontraksi, Saya melindungi perineum, Saya menunggu putaran paksi luar spontan.'* Mahasiswa sering hafal 'melahirkan kepala' tetapi lupa tahapan sebelumnya: mengenali tanda kala II, memastikan pembukaan lengkap, menilai DJJ, menyiapkan alat resusitasi bayi, dan mengatur keluarga untuk membantu ibu.",
+          "tone": "narrative",
+          "source": "§1 Prinsip utama"
+        },
+        {
+          "text": "Cara berpikir klinis: *'Komunikasi dan informed consent membuka stasiun, persiapan alat membuktikan kesiapan, asepsis melindungi pasien, langkah inti menentukan skor teknis, dan monitoring-dokumentasi menutup tindakan.'* Modul ini menggunakan level bahasa mahasiswa baru kedokteran dengan konsep yang runtut, praktis, dan tidak meloncat.",
+          "tone": "narrative",
+          "source": "§1 Cara berpikir"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Definisi sederhana kala II: **fase dari pembukaan lengkap (10 cm) sampai bayi lahir**.",
+          "sub": [],
+          "bold": true,
+          "source": "§1 Peta Cepat"
+        },
+        {
+          "text": "4 tanda awal kala II yang wajib dikenali: dorongan meneran, tekanan rektum/vagina meningkat, perineum menonjol, vulva dan sfingter ani membuka.",
+          "sub": [],
+          "bold": true,
+          "source": "§1 Peta Cepat"
+        },
+        {
+          "text": "Output akhir APN kala II: ibu aman, bayi lahir, bayi dikeringkan, oksitosin diberikan, tali pusat dipotong, kontak kulit ke kulit dimulai.",
+          "sub": [],
+          "bold": true,
+          "source": "§1 Peta Cepat"
+        },
+        {
+          "text": "Strategi membaca modul: hafalkan alur checklist dulu (§3), baru pahami alasan klinisnya.",
+          "sub": [],
+          "bold": false,
+          "source": "§1 Strategi Membaca"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips Nilai Tinggi — Urutan > Gaya",
+          "text": "Pada OSCE, urutan lebih penting daripada gaya. Verbalisasi setiap langkah dengan suara cukup jelas supaya penguji mendengar alasan Anda. Contoh: 'Saya cek DJJ setelah kontraksi', 'Saya melindungi perineum', 'Saya menunggu putaran paksi luar spontan'.",
+          "answer_evidence": "§1 Prinsip utama (file sumber: PDF Penuntun Belajar APN Kala II FKIK Universitas Jambi)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "6 Tips Nilai Tinggi Kunci",
+          "text": "1) Jangan memaksa meneran sebelum pembukaan lengkap — poin krusial. 2) Selalu nilai DJJ setelah kontraksi. 3) Lindungi perineum (teknik, bukan kekuatan). 4) Tunggu putaran paksi luar (spontan, jangan dipaksa). 5) Pastikan hamil tunggal sebelum oksitosin. 6) IMD minimal 1 jam, tidak boleh dipisahkan tanpa indikasi.",
+          "answer_evidence": "§2 Tips nilai tinggi (dari file sumber)"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pesan Kunci Penguji",
+          "text": "Jangan memaksa meneran sebelum pembukaan lengkap dan jangan lupa nilai DJJ setelah kontraksi. Pesan ini menentukan skor utama APN kala II.",
+          "answer_evidence": "§2 Pesan kunci"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Batas Penggunaan",
+          "text": "Bahan belajar dan simulasi. Tindakan klinis nyata wajib dalam supervisi dan sesuai SOP fasilitas. APN kala II adalah skill inti OSCE karena menggabungkan komunikasi, penilaian persalinan, pencegahan infeksi, teknik melahirkan bayi, dan penanganan awal bayi baru lahir.",
+          "answer_evidence": "§1 Batas penggunaan klinis"
+        }
+      ],
+      "visual_refs": [
+        "visual_apn_kala2_tanda_01"
+      ],
+      "glossary_refs": [
+        "gls_apn_kala2_kala2_09",
+        "gls_apn_kala2_djj_10",
+        "gls_apn_kala2_his_11"
+      ],
+      "bilingual": "Skenario klinis OSCE: Ny. Dewi, 26 tahun, G1P0A0 hamil 39 minggu, kala II dengan pembukaan lengkap. Mahasiswa harus menguasai 12 langkah alur APN kala II: kenali kala II → persiapan alat → asepsis → periksa dalam → DJJ → bimbing meneran → lindungi perineum → lahirkan kepala → lilitan tali pusat → bahu dan badan → penilaian BBL → oksitosin dan IMD."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Checklist 12 fase APN kala II yang menjadi blueprint skor OSCE: cara melakukan, kalimat yang diucapkan, dan kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Checklist OSCE APN kala II terdiri dari **12 fase inti** ditambah penutup. Tabel di bawah adalah blueprint skor OSCE — setiap fase memiliki: item checklist, cara melakukan agar skor maksimal, kalimat yang dapat diucapkan, dan kesalahan yang menurunkan nilai. Pola kalimat harus diucapkan dengan suara keras (verbalisasi) dengan nada jelas.",
+          "tone": "clinical",
+          "source": "§3 Checklist OSCE Diterjemahkan"
+        },
+        {
+          "text": "Fase 1 — Kenali kala II: dengarkan dan lihat tanda (dorongan meneran, tekanan rektum/vagina, perineum menonjol, vulva dan anus membuka). Kalimat OSCE: *'Ibu, saya melihat perineum menonjol dan ada dorongan meneran. Pembukaan sudah lengkap.'* Kesalahan fatal: memimpin meneran tanpa memastikan tanda.",
+          "tone": "clinical",
+          "source": "§3 Fase 1"
+        },
+        {
+          "text": "Fase 2 — Siapkan alat: pastikan alat persalinan, obat esensial, **oksitosin 10 IU**, **alat resusitasi BBL** (penghisap lendir, balon sungkup, masker bayi, tabung oksigen/lampu pemanas), handuk. Kalimat OSCE: *'Alat sudah lengkap dan steril: set persalinan, oksitosin 10 IU, alat resusitasi BBL (penghisap, balon sungkup).'* Kesalahan: lupa alat BBL.",
+          "tone": "clinical",
+          "source": "§3 Fase 2"
+        },
+        {
+          "text": "Fase 3 — Asepsis: pakai celemek, lepas perhiasan, cuci tangan, pakai sarung tangan DTT. 6 langkah, sarung tangan DTT. Kalimat OSCE: *'Saya pakai celemek, lepas perhiasan, cuci tangan, pakai sarung tangan DTT.'* Kesalahan: lupa cuci tangan/APD.",
+          "tone": "clinical",
+          "source": "§3 Fase 3"
+        },
+        {
+          "text": "Fase 4 — Periksa dalam: bersihkan vulva/perineum dari **depan ke belakang** (arah bersih mencegah kontaminasi tinja), periksa dalam untuk memastikan **pembukaan lengkap**. Sarung tangan diganti. Kalimat OSCE: *'Saya bersihkan vulva dan perineum dari depan ke belakang, lalu periksa dalam: pembukaan lengkap, ketuban pecah spontan, presentasi kepala.'* Kesalahan: salah arah bersih.",
+          "tone": "clinical",
+          "source": "§3 Fase 4"
+        },
+        {
+          "text": "Fase 5 — DJJ dan partograf: periksa DJJ **setelah kontraksi** atau saat relaksasi. DJJ 120-160 x/menit (range WHO 110-160). Dokumentasikan. Kalimat OSCE: *'DJJ 140 x/menit, reguler, terdengar setelah kontraksi. Saya catat di partograf.'* Kesalahan: tidak nilai DJJ.",
+          "tone": "clinical",
+          "source": "§3 Fase 5"
+        },
+        {
+          "text": "Fase 6 — Siapkan ibu: beritahu pembukaan lengkap, bantu posisi nyaman, minta keluarga mendukung, **bimbing meneran** saat kontraksi. Posisi sesuai pilihan ibu (setengah duduk, miring kiri, jongkok dengan dukungan); hindari terlentang lama. Kalimat OSCE: *'Ibu, pembukaan sudah lengkap. Boleh pilih posisi yang nyaman. Saya minta suami mendampingi.'* Kesalahan: ibu ditinggalkan sendiri.",
+          "tone": "clinical",
+          "source": "§3 Fase 6"
+        },
+        {
+          "text": "Fase 7 — Bimbing meneran: meneran saat ada dorongan kuat, **istirahat** 30-60 detik di antara kontraksi, minum di antara HIS, **nilai DJJ tiap selesai kontraksi**. Kalimat OSCE: *'Saat kontraksi, ibu boleh meneran. Saat santai, ibu istirahat. Saya cek DJJ tiap selesai kontraksi.'* Kesalahan: meneran terus-menerus tanpa istirahat.",
+          "tone": "clinical",
+          "source": "§3 Fase 7"
+        },
+        {
+          "text": "Fase 8 — Kelahiran kepala: saat kepala membuka vulva 5-6 cm, letakkan handuk di perut, kain di bokong, **lindungi perineum** dengan kain, **tahan defleksi kepala** (tangan kanan/kiri), minta ibu **napas cepat/buang napas** seperti meniup lilin untuk mengurangi robekan. Tangan kiri lindungi perineum, tangan kanan/kiri tahan defleksi. Kalimat OSCE: *'Saat kepala membuka 5-6 cm, saya lindungi perineum dengan kain dan tahan defleksi kepala. Ibu, napas cepat, jangan meneran dulu.'* Kesalahan: menarik kepala — tugas tangan adalah mengontrol, bukan memaksa.",
+          "tone": "clinical",
+          "source": "§3 Fase 8"
+        },
+        {
+          "text": "Fase 9 — Lilitan tali pusat: periksa lilitan leher bayi segera setelah kepala lahir. **Longgar: lepaskan lewat kepala; ketat: klem dua tempat dan potong**. Kalimat OSCE: *'Saya periksa lilitan tali pusat. Longgar/ketat, saya lepaskan/diklem.'* Kesalahan: tidak periksa lilitan — poin kritis untuk keselamatan bayi.",
+          "tone": "clinical",
+          "source": "§3 Fase 9"
+        },
+        {
+          "text": "Fase 10 — Bahu dan badan: tunggu **putaran paksi luar** (spontan, ~30-60 detik), pegang biparietal, **bawah untuk bahu depan, atas untuk bahu belakang**, telusuri badan sampai kaki. Kalimat OSCE: *'Saya tunggu putaran paksi luar. Pegang biparietal, bawah untuk bahu depan, atas untuk bahu belakang, telusuri badan sampai kaki.'* Kesalahan: menarik tanpa paksi luar.",
+          "tone": "clinical",
+          "source": "§3 Fase 10"
+        },
+        {
+          "text": "Fase 11 — BBL awal: nilai 4 parameter Apgar cepat (**cukup bulan, ketuban jernih, napas/menangis, tonus**); **keringkan** bayi dengan handuk bersih tanpa membersihkan verniks, ganti kain basah, selimuti dan topi. Kalimat OSCE: *'Cukup bulan, ketuban jernih, menangis kuat, tonus aktif. Saya keringkan dan ganti kain basah.'* Kesalahan: tidak nilai Apgar.",
+          "tone": "clinical",
+          "source": "§3 Fase 11"
+        },
+        {
+          "text": "Fase 12 — Oksitosin dan IMD: pastikan hamil tunggal, suntik **oksitosin 10 IU IM dalam 1 menit** pasca bayi lahir, jepit-potong tali pusat (2 klem 5-10 cm dan sisi bayi, potong di antara), **kontak kulit ke kulit (IMD) minimal 1 jam**, selimuti dan topi bayi. Kalimat OSCE: *'Hamil tunggal, ibu. Saya suntik oksitosin 10 IU IM, jepit-potong tali pusat, kontak kulit ke kulit 1 jam.'* Kesalahan: suntik oksitosin tanpa pastikan hamil tunggal.",
+          "tone": "clinical",
+          "source": "§3 Fase 12"
+        },
+        {
+          "text": "Fase tambahan penutup (13–15): dekontaminasi alat (rendam klorin 0,5% 10 menit), buang habis pakai (safety box, kantong kuning), **cuci tangan** 6 langkah, dokumentasi SOAP dan partograf, edukasi keluarga (IMD, ASI eksklusif, tanda bahaya), monitoring TTV-perdarahan-kontraksi-DJJ tiap selesai kontraksi selama kala II, dan **penutup station** dengan salam. Kalimat OSCE: *'Terima kasih, Bu. Saya doakan Ibu dan bayi sehat. Ada pertanyaan?'*",
+          "tone": "clinical",
+          "source": "§3 Fase 13-15"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "12 fase checklist APN kala II (int):",
+          "sub": [
+            "Fase 1: Kenali kala II (tanda: dorongan meneran, perineum menonjol, vulva membuka)",
+            "Fase 2: Siapkan alat (termasuk alat resusitasi BBL)",
+            "Fase 3: Asepsis (celemek, sarung tangan DTT, cuci tangan)",
+            "Fase 4: Periksa dalam (pembukaan lengkap, vulva dibersihkan depan ke belakang)",
+            "Fase 5: DJJ dan partograf (setelah kontraksi, 110-160 x/menit)",
+            "Fase 6: Siapkan ibu (posisi, keluarga, bimbing meneran)",
+            "Fase 7: Bimbing meneran (saat HIS, istirahat 30-60 detik)",
+            "Fase 8: Kelahiran kepala (lindungi perineum, tahan defleksi, napas cepat)",
+            "Fase 9: Lilitan tali pusat (longgar dilepas, ketat diklem 2 tempat lalu potong)",
+            "Fase 10: Bahu dan badan (tunggu paksi luar, bawah-atas, telusuri badan)",
+            "Fase 11: Penilaian BBL (cukup bulan, ketuban jernih, napas/menangis, tonus)",
+            "Fase 12: Oksitosin 10 IU IM + IMD 1 jam + jepit-potong tali pusat"
+          ],
+          "bold": true,
+          "source": "§3 Checklist 12 fase"
+        },
+        {
+          "text": "Prinsip verbalisasi: kolom 'Kalimat yang Dapat Diucapkan' pada tabel checklist adalah pola yang harus diucapkan dengan suara keras, nada jelas.",
+          "sub": [],
+          "bold": true,
+          "source": "§3 Catatan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pola Kalimat Pembuka yang Skor Tinggi",
+          "text": "Setiap fase memiliki kalimat OSCE yang bisa diucapkan. Contoh Fase 5 (DJJ): 'DJJ 140 x/menit, reguler, terdengar setelah kontraksi. Saya catat di partograf.' Verbalisasi yang jelas = penguji mendengar alasan klinis Anda.",
+          "answer_evidence": "§3 Kolom Kalimat yang Dapat Diucapkan"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kesalahan yang Menurunkan Nilai — Fase Kritis",
+          "text": "Fase 1: Memimpin meneran tanpa pastikan tanda. Fase 2: Lupa alat BBL. Fase 5: Tidak nilai DJJ. Fase 8: Menarik kepala. Fase 9: Tidak periksa lilitan. Fase 10: Menarik tanpa paksi luar. Fase 12: Suntik oksitosin tanpa pastikan hamil tunggal.",
+          "answer_evidence": "§3 Kolom Kesalahan yang Menurunkan Nilai"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Pola Verbalisasi",
+          "text": "Kolom 'Kalimat yang Dapat Diucapkan' adalah pola yang harus diucapkan dengan suara keras. Verbalisasi setiap langkah dengan nada jelas.",
+          "answer_evidence": "§3 Catatan [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_apn_kala2_djj_10",
+        "gls_apn_kala2_oksitosin_14",
+        "gls_apn_kala2_imd_05"
+      ],
+      "bilingual": "Checklist 12 fase APN kala II adalah blueprint skor OSCE: dari pengenalan kala II, persiapan alat (termasuk alat resusitasi BBL), asepsis, periksa dalam, DJJ, bimbing meneran, lindungi perineum, lahirkan kepala, lilitan tali pusat, bahu-badan, penilaian BBL, hingga oksitosin dan IMD."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis APN kala II untuk konfirmasi identitas, pembukaan lengkap, informed consent, dan persiapan tindakan, dengan 4 pertanyaan kunci yang tidak boleh terlewat.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station APN kala II berfungsi sebagai: (1) konfirmasi identitas dan kondisi ibu, (2) konfirmasi pembukaan lengkap, (3) informed consent, (4) persiapan tindakan. Prinsip utama anamnesis: **Kapan HIS dimulai? Pembukaan lengkap? Apakah ada tanda bahaya? Riwayat alergi dan persalinan sebelumnya? Status bayi (DJJ, gerak, presentasi)?**",
+          "tone": "clinical",
+          "source": "§4 Anamnesis dan Seleksi Klien"
+        },
+        {
+          "text": "Tabel pertanyaan anamnesis wajib mencakup 11 aspek: identitas/keluhan, HIS (kapan, sering, kuat), pembukaan lengkap (periksa dalam), DJJ, status ketuban (utuh/pecah, warna), riwayat persalinan sebelumnya, alergi obat, status keluarga/pendamping, kemampuan komunikasi, kemauan/kesiapan ibu, riwayat hipertensi/asma untuk uterotonika nanti. Tindakan bila bermasalah: anomali identitas → cek ulang; HIS tidak adekuat → evaluasi/augmentasi; belum lengkap → jangan memimpin meneran; DJJ <110 atau >160 → eskalasi; ketuban hijau kental → siapkan resusitasi BBL; SC klasik → waspadai ruptura uteri; alergi → ganti obat; hipertensi → hindari metilergometrin nanti.",
+          "tone": "clinical",
+          "source": "§4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Cara berpikir praktis — **4 pertanyaan kunci yang tidak boleh terlewat**: (1) Apakah pembukaan sudah lengkap? (periksa dalam); (2) Bagaimana DJJ setelah kontraksi?; (3) Bagaimana warna ketuban?; (4) Bagaimana posisi ibu (hindari terlentang lama)? Keempat pertanyaan ini menentukan apakah ibu siap dipimpin meneran atau perlu eskalasi.",
+          "tone": "clinical",
+          "source": "§4 Cara berpikir praktis"
+        },
+        {
+          "text": "**Red Flags yang wajib ditanyakan/dicari**: DJJ abnormal (bradikardia, takikardia menetap) atau ketuban hijau kental disertai bayi tidak baik; tidak ada kemajuan kala II (bayi belum lahir setelah 2 jam meneran pada primigravida atau 1 jam pada multigravida); perdarahan banyak, ibu pucat, hipotensi, nadi cepat; distosia bahu (kepala lahir tetapi bahu tidak lahir dengan traksi lembut biasa); bayi lahir tidak bernapas, megap-megap, lemas, atau prematur; prolaps tali pusat — emergency; presentasi majemuk — perlu SC; riwayat SC klasik — waspadai ruptura uteri.",
+          "tone": "clinical",
+          "source": "§4 Red Flags"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "11 aspek pertanyaan anamnesis wajib APN kala II:",
+          "sub": [
+            "Identitas dan keluhan — konfirmasi pasien",
+            "Kapan HIS mulai, seberapa sering, seberapa kuat — menentukan fase persalinan",
+            "Kapan pembukaan lengkap (periksa dalam) — konfirmasi masuk kala II",
+            "DJJ (apakah terdengar normal) — menilai kesejahteraan janin",
+            "Ketuban utuh atau sudah pecah, warna air ketuban — tafsiran gawat janin",
+            "Riwayat persalinan sebelumnya: normal, SC, forceps/vakum, perdarahan — faktor risiko",
+            "Alergi obat — mencegah reaksi alergi",
+            "Status keluarga/pendamping — dukungan emosional",
+            "Kemampuan komunikasi — menentukan kebutuhan pendampingan",
+            "Kemauan dan kesiapan ibu — informed consent",
+            "Riwayat hipertensi/asma (untuk uterotonika nanti) — kontraindikasi"
+          ],
+          "bold": true,
+          "source": "§4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "4 pertanyaan kunci yang tidak boleh terlewat: (1) Apakah pembukaan sudah lengkap? (2) Bagaimana DJJ setelah kontraksi? (3) Bagaimana warna ketuban? (4) Bagaimana posisi ibu (hindari terlentang lama)?",
+          "sub": [],
+          "bold": true,
+          "source": "§4 Cara berpikir praktis"
+        },
+        {
+          "text": "Tanda bahaya yang harus ditanyakan/dicari: DJJ abnormal, tidak ada kemajuan kala II, perdarahan banyak, distosia bahu, bayi tidak bernapas/lemas, prolaps tali pusat, presentasi majemuk, riwayat SC klasik.",
+          "sub": [],
+          "bold": true,
+          "source": "§4 Red Flags"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flag — DJJ Abnormal atau Ketuban Hijau Kental",
+          "text": "DJJ abnormal (bradikardia, takikardia menetap) atau ketuban hijau kental disertai bayi tidak baik → gawat janin. Siapkan resusitasi BBL dan percepat persalinan.",
+          "answer_evidence": "§4 Red Flags"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flag — Prolaps Tali Pusat",
+          "text": "Tali pusat menumbung saat ketuban pecah → emergency. Posisi knee-chest, dorong presentasi, SC emergensi. JANGAN dorong tali pusat kembali.",
+          "answer_evidence": "§4 + §11 Red Flags"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flag — Distosia Bahu",
+          "text": "Kepala lahir, bahu tidak lahir dengan traksi lembut biasa → distosia bahu. Tatalaksa: McRobert, suprapubik, episiotomi lebar, manuver delivre. Jangan menarik kepala kuat.",
+          "answer_evidence": "§4 Red Flags + §11"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Peringatan — Riwayat SC Klasik",
+          "text": "Riwayat SC klasik → waspadai ruptura uteri. Tanda: nyeri perut hebat, perdarahan, syok. Stabilkan dan rujuk laparotomi emergensi.",
+          "answer_evidence": "§4 + §11"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Peringatan — Hipertensi dan Uterotonika",
+          "text": "Ibu dengan hipertensi → metilergometrin kontraindikasi. Ganti misoprostol. Asma → karboprost kontraindikasi.",
+          "answer_evidence": "§4 + Lampiran A"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Informed Consent",
+          "text": "Pada APN kala II, informed consent verbal sudah cukup untuk tindakan emergensi, dengan dokumentasi di rekam medis (lihat §13 SOAP). Informed consent membuka skor stasiun OSCE.",
+          "answer_evidence": "§4 + §13"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_apn_kala2_djj_10",
+        "gls_apn_kala2_his_11",
+        "gls_apn_kala2_ic_07"
+      ],
+      "bilingual": "Anamnesis APN kala II mengkonfirmasi identitas, pembukaan lengkap, DJJ, status ketuban, dan informed consent. 4 pertanyaan kunci: (1) pembukaan lengkap? (2) DJJ setelah kontraksi? (3) warna ketuban? (4) posisi ibu. Red flags: DJJ abnormal, prolaps tali pusat, distosia bahu, riwayat SC klasik."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan tanda vital, abdomen (Leopold + DJJ), dan periksa dalam (pembukaan, effacement, station, posisi, selaput ketuban) untuk konfirmasi kala II.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan tanda vital dan umum: TD, nadi, suhu, pernapasan, SpO2, kesadaran, konjungtiva (anemia), kontraksi uterus (HIS). **Nilai normal ibu bersalin**: TD <140/90 mmHg, nadi 60-100, suhu 36,0-37,5°C, RR 12-20, SpO2 ≥95%. HIS adekuat: 3-5×/10 menit, durasi 40-60 detik, kuat. Interpretasi bila abnormal: TD ≥140/90 → curiga preeklampsia; nadi >120 → curiga perdarahan/syok; HIS tidak adekuat → evaluasi/augmentasi oksitosin; suhu >38°C → curiga infeksi/korioamnionitis. **Kalimat OSCE**: *'TD 120/80 mmHg, nadi 88, suhu 36,8°C. HIS adekuat 4×/10 menit, durasi 45 detik. Tanda vital dalam batas normal.'*",
+          "tone": "clinical",
+          "source": "§5 Tanda Vital dan Umum"
+        },
+        {
+          "text": "Pemeriksaan abdomen: Leopold 1-4 (kepala/bokong di fundus, punggung, presentasi, engagement) + DJJ dengan doppler/Pinard + kontraksi uterus. **Nilai normal**: presentasi kepala, punggung di salah satu sisi, kepala sudah masuk PAP, DJJ 110-160 x/menit reguler, kontraksi adekuat. Interpretasi abnormal: DJJ <110 atau >160 → gawat janin, evaluasi; presentasi bukan kepala → malpresentasi (bokong, lintang); kepala belum masuk PAP → kemungkinan disproportion. **Kalimat OSCE**: *'Leopold I: bokong di fundus, Leopold II: punggung di kiri, Leopold III: presentasi kepala, Leopold IV: kepala sudah masuk PAP. DJJ 140 x/menit, reguler. HIS adekuat.'*",
+          "tone": "clinical",
+          "source": "§5 Pemeriksaan Abdomen"
+        },
+        {
+          "text": "Pemeriksaan dalam (periksa dalam): sarung tangan ganti (setelah bersihkan vulva/perineum dari depan ke belakang). Nilai **pembukaan serviks** (penting: **pembukaan lengkap = 10 cm = kala II**), **effacement** (penipisan serviks), **station** (penurunan presentasi), **posisi** (presentasi occipital mana), **selaput ketuban** (utuh/pecah, warna air ketuban), identifikasi **prolaps tali pusat** (bila ada).",
+          "tone": "clinical",
+          "source": "§5 Periksa Dalam"
+        },
+        {
+          "text": "**Nilai normal kala II**: pembukaan lengkap (10 cm), effacement 100%, station ≥0 (kepala sudah masuk), posisi occiput anterior, ketuban pecah atau baru pecah jernih. Interpretasi abnormal: **pembukaan tidak lengkap** → belum kala II, jangan memimpin meneran; **ketuban hijau kental** → mekonium, gawat janin; **prolaps tali pusat** → emergency; **presentasi bukan kepala** → bokong/linintang; **posisi occiput posterior** → persalinan lebih lama. **Kalimat OSCE**: *'Pemeriksaan dalam: pembukaan lengkap 10 cm, effacement 100%, station +1, posisi occiput anterior, ketuban pecah spontan jernih 30 menit lalu, tidak ada prolaps tali pusat. Kala II.'*",
+          "tone": "clinical",
+          "source": "§5 Periksa Dalam — Nilai Normal"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan TTV ibu bersalin — nilai normal:",
+          "sub": [
+            "TD <140/90 mmHg (≥140/90 → curiga preeklampsia)",
+            "Nadi 60-100 x/menit (>120 → curiga perdarahan/syok)",
+            "Suhu 36,0-37,5°C (>38°C → curiga infeksi/korioamnionitis)",
+            "RR 12-20 x/menit",
+            "SpO2 ≥95%",
+            "HIS adekuat: 3-5×/10 menit, durasi 40-60 detik, kuat"
+          ],
+          "bold": true,
+          "source": "§5 TTV"
+        },
+        {
+          "text": "Leopold 1-4 pada kala II:",
+          "sub": [
+            "Leopold I: bokong/kepala di fundus (fundal grip)",
+            "Leopold II: punggung di sisi kiri/kanan (lateral grip)",
+            "Leopold III: presentasi di atas simfisis (Pawlik grip)",
+            "Leopold IV: konfirmasi engagement/divergen (pelvic grip)"
+          ],
+          "bold": true,
+          "source": "§5 Pemeriksaan Abdomen"
+        },
+        {
+          "text": "Komponen periksa dalam kala II:",
+          "sub": [
+            "Pembukaan serviks (10 cm = lengkap → masuk kala II)",
+            "Effacement (100%)",
+            "Station (≥0, kepala sudah masuk PAP)",
+            "Posisi (occiput anterior ideal)",
+            "Selaput ketuban (utuh/pecah, warna)",
+            "Prolaps tali pusat (bila ada → emergency)"
+          ],
+          "bold": true,
+          "source": "§5 Periksa Dalam"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Interpretasi Abnormal — DJJ <110 atau >160",
+          "text": "DJJ <110 atau >160 x/menit pada kala II → gawat janin, evaluasi. DJJ dicek tiap selesai kontraksi. Persiapkan resusitasi BBL dan percepat persalinan jika menetap.",
+          "answer_evidence": "§5 Pemeriksaan Abdomen"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya — Pembukaan Tidak Lengkap",
+          "text": "Jika periksa dalam menunjukkan pembukaan <10 cm → belum kala II. JANGAN memimpin meneran — risiko edema serviks, robekan serviks, skor hangus.",
+          "answer_evidence": "§5 Periksa Dalam"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya — Prolaps Tali Pusat",
+          "text": "Identifikasi prolaps tali pusat saat periksa dalam → emergency. Tali pusat menumbung → posisi knee-chest, dorong presentasi, SC emergensi.",
+          "answer_evidence": "§5 Periksa Dalam"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Arah Bersih — Depan ke Belakang",
+          "text": "Saat bersihkan vulva/perineum sebelum periksa dalam, arah bersih dari **depan ke belakang** (vagina ke anus), bukan sebaliknya. Mencegah kontaminasi tinja ke area steril.",
+          "answer_evidence": "§5 + §7 Fase Persiapan"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kalimat OSCE — Periksa Dalam",
+          "text": "'Pemeriksaan dalam: pembukaan lengkap 10 cm, effacement 100%, station +1, posisi occiput anterior, ketuban pecah spontan jernih 30 menit lalu, tidak ada prolaps tali pusat. Kala II.' Kalimat ini merangkum 6 poin sekaligus.",
+          "answer_evidence": "§5 Kalimat OSCE"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_apn_kala2_djj_10",
+        "gls_apn_kala2_his_11",
+        "gls_apn_kala2_engagement_02",
+        "gls_apn_kala2_kala2_09"
+      ],
+      "bilingual": "Pemeriksaan fisik kala II: TTV (TD, nadi, suhu, SpO2), abdomen (Leopold 1-4 + DJJ), periksa dalam (pembukaan 10 cm, effacement 100%, station, posisi, ketuban). Nilai DJJ normal 110-160 x/menit dicek tiap selesai kontraksi."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat APN, posisi meneran, cardinal movements lengkap, teknik perlindungan perineum, melahirkan bahu dan badan, penanganan lilitan tali pusat, dan IMD — semua dalam satu section terpadat.",
+      "estimated_time_minutes": 25,
+      "content": [
+        {
+          "text": "Alat APN kala II (minimum 12 alat): **set persalinan/partus set** (gunting, klem, kasa, mangkok, handuk), **oksitosin 10 IU** untuk pencegahan PPH, **alat resusitasi BBL** (penghisap lendir, balon sungkup, masker bayi, tabung oksigen/lampu pemanas — WAJIB karena bayi bisa asfiksia mendadak), handuk, klem dan gunting tali pusat steril, sarung tangan DTT/steril, celemek-masker-kacamata pelindung, kain penutup, povidone iodine, klorin 0,5% untuk dekontaminasi, safety box, kantong kuning. **APD**: sarung tangan DTT (wajib, ganti untuk periksa dalam), celemek, masker, kacamata pelindung, alas kaki tertutup.",
+          "tone": "clinical",
+          "source": "§6 Alat"
+        },
+        {
+          "text": "Cara mempersiapkan ibu: (1) **Posisi meneran** — setengah duduk, miring kiri, jongkok dengan dukungan; hindari terlentang lama (supine hypotensive syndrome). (2) Penjelasan — bimbing meneran, IMD, kontak kulit. (3) Privasi — penutup. (4) Pendampingan — suami/keluarga. (5) Pengosongan kandung kemih — bila penuh (bila memungkinkan, kateterisasi). Momen cuci tangan sesuai WHO: sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien (5 momen).",
+          "tone": "clinical",
+          "source": "§6 Persiapan Ibu"
+        },
+        {
+          "text": "**Catatan klinis kritis:** Alat BBL wajib karena bayi bisa lahir asfiksia mendadak. Jangan pisahkan bayi tanpa indikasi medis.",
+          "tone": "narrative",
+          "source": "§6 Catatan klinis"
+        },
+        {
+          "text": "**Fase Persiapan prosedur** (8 langkah): (1) Informed consent — bahasa awam, tujuan, prosedur, risiko; (2) Nilai status umum — TTV, kesadaran, tanda bahaya; (3) Persiapan alat — set persalinan, oksitosin 10 IU, **alat resusitasi BBL**, handuk, penghisap lendir, balon sungkup; (4) Persiapan keluarga — suami/keluarga mendampingi; (5) Cuci tangan dan APD lengkap (celemek, sarung tangan DTT); (6) Bersihkan vulva/perineum dari depan ke belakang; (7) Periksa dalam — pastikan **pembukaan lengkap**, presentasi kepala, posisi occiput anterior; (8) Cek DJJ setelah kontraksi, dokumentasikan di partograf. Keselamatan: konfirmasi pembukaan lengkap, DJJ baik, alat BBL siap.",
+          "tone": "clinical",
+          "source": "§7 Fase Persiapan"
+        },
+        {
+          "text": "**Fase Pelaksanaan — Meneran dan Melahirkan Kepala** (8 langkah): (1) Bimbing meneran — saat HIS, ibu boleh menarik napas dalam dan meneran mengikuti dorongan; (2) Istirahat 30-60 detik di antara kontraksi; (3) Minum di antara HIS; (4) **Nilai DJJ tiap selesai kontraksi** — 110-160 x/menit; (5) Saat kepala membuka vulva 5-6 cm — pasang handuk di perut, kain di bokong, **pasang sarung tangan kedua**; (6) **Lindungi perineum** dengan kain, **tahan defleksi kepala** (tangan kanan/kiri); (7) Minta ibu **napas cepat** seperti meniup lilin, jangan meneran dulu; (8) Kepala lahir — evaluasi lilitan tali pusat. Keselamatan: jangan menarik kepala, tugas tangan adalah mengontrol, bukan memaksa.",
+          "tone": "clinical",
+          "source": "§7 Fase Pelaksanaan Kepala"
+        },
+        {
+          "text": "**Fase Cardinal Movements of Labor** — urutan mekanis kepala janin saat melewati jalan lahir: (1) **Engagement dan descent** — diameter biparietal kepala melewati pintu atas panggul, kepala turun; (2) **Flexion** — kepala fleksi sehingga presentasi变为 diameter suboksipitobregmatika (lebih kecil); (3) **Internal rotation** — kepala berotasi internal dari posisi transverse ke occiput anterior untuk melewati diameter anteroposterior pintu bawah panggul; (4) **Extension (defleksi)** — kepala ekstensi di bawah simfisis pubis, berturut-turut lahir bregma → dahi → muka → dagu; (5) **External rotation / restitution** — kepala yang sudah lahir berotasi kembali ke posisi transverse sebagai lanjutan internal rotation; (6) **Expulsion** — bahu anterior lahir dengan traksi bawah lembut, bahu posterior lahir dengan traksi atas, badan dan kaki menyusul.",
+          "tone": "mechanism",
+          "source": "§7 Cardinal Movements"
+        },
+        {
+          "text": "**Fase Pelaksanaan — Periksa Lilitan Tali Pusat**: (1) Periksa leher bayi segera setelah kepala lahir; (2) **Lilitan longgar** → lepaskan lewat kepala; (3) **Lilitan ketat** → klem dua tempat, potong di antara, lepaskan kepala; (4) Tidak ada lilitan → lanjutkan. Keselamatan: poin kritis untuk keselamatan bayi.",
+          "tone": "clinical",
+          "source": "§7 Lilitan Tali Pusat"
+        },
+        {
+          "text": "**Fase Pelaksanaan — Melahirkan Bahu dan Badan**: (1) Tunggu **putaran paksi luar** (spontan, ~30-60 detik); (2) Pegang **biparietal** (kepala bayi di kedua sisi); (3) Tarik **bawah untuk bahu depan** — lembut, mengikuti sumbu jalan lahir; (4) Angkat **atas untuk bahu belakang** — lembut; (5) Telusuri badan bayi — dari kepala, bahu, punggung, bokong, tungkai, sampai kedua mata kaki; (6) Angkat bayi ke perut ibu (IMD). Prinsip utama: **tunggu putaran paksi luar** spontan, **jangan dipaksa**; gerakan lembut mengikuti sumbu jalan lahir; jangan menarik kuat (risiko trauma bahu/leher).",
+          "tone": "clinical",
+          "source": "§7 Bahu dan Badan"
+        },
+        {
+          "text": "**Fase Pelaksanaan — Penilaian BBL dan IMD**: (1) Nilai BBL — cukup bulan, ketuban jernih, napas/menangis, tonus (4 parameter Apgar); (2) Keringkan bayi dengan handuk bersih, **jangan bersihkan verniks**; (3) Ganti kain basah dengan kain kering; (4) Selimuti dan topi bayi — cegah hipotermia; (5) Letakkan bayi di dada ibu (**IMD**, kontak kulit ke kulit) — minimal 1 jam; (6) **Pastikan hamil tunggal** sebelum suntik oksitosin; (7) Suntik **oksitosin 10 IU IM** dalam 1 menit pasca bayi lahir; (8) Jepit tali pusat 2 tempat (5-10 cm dari pusar dan sisi bayi), potong di antara. Keselamatan: pastikan hamil tunggal sebelum oksitosin (mencegah oksitosin ke bayi kedua); IMD minimal 1 jam kecuali indikasi medis; jangan bersihkan verniks (melindungi kulit bayi).",
+          "tone": "clinical",
+          "source": "§7 Penilaian BBL dan IMD"
+        },
+        {
+          "text": "Catatan Apgar: pada OSCE, Apgar menit 1 dan 5 harus dinilai. Bayi normal: Apgar 7-10. Asfiksia sedang: 4-6. Asfiksia berat: 0-3. Skor Apgar memiliki 5 parameter: Appearance (warna kulit — pink/sianosis), Pulse (denyut jantung — >100/<100/tidak ada), Grimace (refleks iritasi — menangis/grimace/tidak ada), Activity (tonus otot — aktif/ekstremitas fleksi/lemas), Respiration (pernapasan — menangis kuat/lambat/tidak ada). Masing-masing 0-2, total maksimal 10.",
+          "tone": "clinical",
+          "source": "§7 Apgar"
+        },
+        {
+          "text": "**Fase Evaluasi dan Konfirmasi**: (1) Konfirmasi keberhasilan — bayi lahir menangis, IMD dimulai, oksitosin diberikan, tali pusat dipotong; (2) Evaluasi kondisi ibu — TTV, perdarahan, kontraksi; (3) Dekontaminasi — klorin 0,5% 10 menit; (4) Cuci tangan 6 langkah; (5) Dokumentasi SOAP dan partograf; (6) Edukasi keluarga — IMD, ASI eksklusif, tanda bahaya; (7) Penutup station — salam, kesiapan ibu. Keselamatan: monitoring kala IV dimulai (lihat juga modul APN Kala III).",
+          "tone": "clinical",
+          "source": "§7 Fase Evaluasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Cardinal movements of labor (6 tahap mekanis kepala janin) — wajib dihafal:",
+          "sub": [
+            "1) Engagement dan descent — diameter biparietal kepala melewati PAP, kepala turun",
+            "2) Flexion — kepala fleksi sehingga presentasi suboksipitobregmatika (diameter kecil)",
+            "3) Internal rotation — kepala berotasi dari transverse ke occiput anterior melewati PBP",
+            "4) Extension (defleksi) — kepala ekstensi di bawah simfisis pubis, lahir bregma → muka → dagu",
+            "5) External rotation / restitution — kepala berotasi kembali ke posisi transverse spontan",
+            "6) Expulsion — bahu anterior lahir dengan traksi bawah, bahu posterior lahir dengan traksi atas, badan dan kaki menyusul"
+          ],
+          "bold": true,
+          "source": "§7 Cardinal Movements"
+        },
+        {
+          "text": "Alat APN kala II (minimum 12):",
+          "sub": [
+            "Set persalinan / partus set (gunting, klem, kasa, mangkok, handuk)",
+            "Oksitosin 10 IU (pencegahan PPH, 1 menit pasca bayi lahir)",
+            "Alat resusitasi BBL (penghisap lendir, balon sungkup, masker bayi, lampu pemanas)",
+            "Handuk untuk mengeringkan bayi",
+            "Klem dan gunting tali pusat steril",
+            "Sarung tangan DTT/steril (wajib ganti untuk periksa dalam)",
+            "Celemek, masker, kacamata pelindung (APD)",
+            "Kain penutup perut bawah",
+            "Povidone iodine (antiseptik)",
+            "Klorin 0,5% (dekontaminasi)",
+            "Safety box (pembuangan jarum)",
+            "Kantong kuning (pembuangan habis pakai)"
+          ],
+          "bold": true,
+          "source": "§6 Alat"
+        },
+        {
+          "text": "Cara mempersiapkan ibu (5 aspek):",
+          "sub": [
+            "Posisi meneran — setengah duduk, miring kiri, jongkok dengan dukungan; hindari terlentang lama",
+            "Penjelasan — bimbing meneran, IMD, kontak kulit",
+            "Privasi — penutup",
+            "Pendampingan — suami/keluarga",
+            "Pengosongan kandung kemih — kateterisasi bila perlu"
+          ],
+          "bold": true,
+          "source": "§6 Persiapan Ibu"
+        },
+        {
+          "text": "Fase Pelaksanaan — Meneran dan Melahirkan Kepala (8 langkah):",
+          "sub": [
+            "1) Bimbing meneran saat HIS, ibu menarik napas dalam dan ikut dorongan",
+            "2) Istirahat 30-60 detik di antara kontraksi",
+            "3) Minum di antara HIS",
+            "4) Nilai DJJ tiap selesai kontraksi (110-160 x/menit)",
+            "5) Saat kepala membuka vulva 5-6 cm: pasang handuk di perut, kain di bokong, sarung tangan kedua",
+            "6) Lindungi perineum dengan kain, tahan defleksi kepala (tangan kanan/kiri)",
+            "7) Minta ibu napas cepat seperti meniup lilin, jangan meneran dulu",
+            "8) Kepala lahir — evaluasi lilitan tali pusat"
+          ],
+          "bold": true,
+          "source": "§7 Fase Pelaksanaan Kepala"
+        },
+        {
+          "text": "Penanganan lilitan tali pusat: longgar → lepaskan lewat kepala; ketat → klem dua tempat, potong di antara, lepaskan kepala. Periksa leher bayi segera setelah kepala lahir — poin kritis untuk keselamatan bayi.",
+          "sub": [],
+          "bold": true,
+          "source": "§7 Lilitan Tali Pusat"
+        },
+        {
+          "text": "Melahirkan bahu dan badan (6 langkah): (1) Tunggu putaran paksi luar (spontan, ~30-60 detik); (2) Pegang biparietal; (3) Tarik bawah untuk bahu depan; (4) Angkat atas untuk bahu belakang; (5) Telusuri badan bayi sampai kedua mata kaki; (6) Angkat bayi ke perut ibu (IMD).",
+          "sub": [],
+          "bold": true,
+          "source": "§7 Bahu dan Badan"
+        },
+        {
+          "text": "Penilaian BBL dan IMD (8 langkah): (1) Nilai 4 parameter Apgar (cukup bulan, ketuban jernih, napas/menangis, tonus); (2) Keringkan bayi, jangan bersihkan verniks; (3) Ganti kain basah; (4) Selimuti dan topi; (5) IMD minimal 1 jam; (6) Pastikan hamil tunggal; (7) Suntik oksitosin 10 IU IM dalam 1 menit; (8) Jepit-potong tali pusat 2 tempat.",
+          "sub": [],
+          "bold": true,
+          "source": "§7 BBL dan IMD"
+        },
+        {
+          "text": "5 momen cuci tangan sesuai WHO: (1) Sebelum kontak pasien; (2) Sebelum tindakan aseptik; (3) Setelah paparan cairan tubuh; (4) Setelah kontak pasien; (5) Setelah kontak lingkungan pasien.",
+          "sub": [],
+          "bold": true,
+          "source": "§6 Momen Cuci Tangan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips Nilai Tinggi — Teknik, Bukan Kekuatan",
+          "text": "Lindungi perineum dengan kain dan tahan defleksi kepala. Tugas tangan adalah **mengontrol**, bukan memaksa. Jangan menarik kepala. Saat kepala membuka vulva 5-6 cm, minta ibu napas cepat seperti meniup lilin untuk mengurangi robekan.",
+          "answer_evidence": "§3 + §7 Fase Pelaksanaan Kepala"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL — Menarik Kepala Bayi",
+          "text": "Menarik kepala bayi terlalu kuat → robekan perineum luas, trauma kepala. **Selalu tunggu putaran paksi luar** (~30-60 detik) dan gunakan gerakan lembut mengikuti sumbu jalan lahir. Traksi bawah untuk bahu anterior, atas untuk bahu posterior.",
+          "answer_evidence": "§3 + §7 + §18"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL — Oksitosin Sebelum Pastikan Hamil Tunggal",
+          "text": "Suntik oksitosin 10 IU IM hanya **setelah pastikan hamil tunggal** (palpasi abdomen, tidak ada bayi kedua). Oksitosin ke bayi kedua → risiko fatal. Verifikasi, baru suntik dalam 1 menit pasca bayi lahir.",
+          "answer_evidence": "§3 + §7 + §18"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Peringatan — Posisi Meneran",
+          "text": "Hindari terlentang lama (risiko supine hypotensive syndrome — kompresi vena cava inferior → hipotensi ibu → gawat janin). Pilih setengah duduk, miring kiri, atau jongkok dengan dukungan.",
+          "answer_evidence": "§6 + Lampiran A"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Peringatan — DJJ Abnormal Kala II",
+          "text": "DJJ <100 atau >160 x/menit kala II → kegawatan janin, percepat persalinan. DJJ dicek tiap selesai kontraksi. Persiapkan resusitasi BBL dan pikirkan akselerasi kelahiran.",
+          "answer_evidence": "§3 + §5 + §11"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan — Apgar Menit 1 dan 5",
+          "text": "Pada OSCE, Apgar menit 1 dan 5 harus dinilai. Skor 7-10 normal, 4-6 asfiksia sedang, 0-3 asfiksia berat. Skor Apgar tidak menentukan resusitasi awal (gunakan algoritma BBL), tetapi menentukan trend dan kebutuhan observasi.",
+          "answer_evidence": "§7 + §10"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan — Jangan Bersihkan Verniks",
+          "text": "Verniks adalah lapisan pelindung kulit bayi baru lahir. Jangan dibersihkan — mengeringkan bayi cukup. Verniks akan diserap kulit dalam 24 jam pertama.",
+          "answer_evidence": "§3 + §7"
+        }
+      ],
+      "visual_refs": [
+        "visual_apn_kala2_set_alat_02",
+        "visual_apn_kala2_posisi_meneran_03",
+        "visual_apn_kala2_cardinal_04",
+        "visual_apn_kala2_perlindungan_perineum_05",
+        "visual_apn_kala2_putaran_paksi_06",
+        "visual_apn_kala2_lilitan_tali_07"
+      ],
+      "glossary_refs": [
+        "gls_apn_kala2_cardinal_01",
+        "gls_apn_kala2_engagement_02",
+        "gls_apn_kala2_episiotomi_03",
+        "gls_apn_kala2_apd_08",
+        "gls_apn_kala2_paksi_luar_12",
+        "gls_apn_kala2_defleksi_13",
+        "gls_apn_kala2_apgar_04"
+      ],
+      "bilingual": "Cardinal movements of labor: engagement, descent, flexion, internal rotation, extension, external rotation, expulsion. Teknik APN kala II: perlindungan perineum (bukan kekuatan), tunggu putaran paksi luar spontan, lilitan tali pusat (longgar dilepas/ketat diklem), penilaian Apgar menit 1 dan 5, IMD minimal 1 jam, oksitosin 10 IU IM dalam 1 menit pasca bayi lahir."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Observasi kala IV, dekontaminasi, dokumentasi, clinical reasoning kala II, dan diagnosis banding komplikasi (gawat janin, distosia bahu, prolaps tali pusat, partus macet).",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-tindakan APN kala II (6 langkah): (1) Observasi kala IV (1-2 jam) — TTV, perdarahan, kontraksi; (2) Dekontaminasi — rendam alat dalam klorin 0,5% 10 menit; (3) Buang habis pakai — safety box untuk jarum, kantong kuning untuk sampah medis; (4) Cuci tangan — 6 langkah; (5) Dokumentasi — SOAP, partograf, surat kelahiran; (6) Edukasi keluarga — IMD, ASI eksklusif, tanda bahaya, kontrol nifas.",
+          "tone": "clinical",
+          "source": "§8 Tindakan Pasca-Prosedur"
+        },
+        {
+          "text": "Cara evaluasi keberhasilan prosedur APN kala II: **Bayi** — Apgar 7-10, IMD dimulai, oksitosin diberikan, tali pusat dipotong. **Ibu** — TTV stabil, plasenta akan lahir (modul APN Kala III), perdarahan <500 mL. **Proses** — alur tindakan sistematis, dokumentasi lengkap.",
+          "tone": "clinical",
+          "source": "§8 Evaluasi"
+        },
+        {
+          "text": "Prosedur terkait/varian: Kala I (pembukaan) → lihat modul ANC/persalinan. Kala III (plasenta) → lihat modul APN Kala III. Kala IV (observasi) → lihat juga modul APN Kala III. Distosia bahu → lihat manuver McRobert. Presentasi bokong → lihat modul Bracht/Manual Aid. Episiotomi → lihat modul Penjahitan Perineum.",
+          "tone": "clinical",
+          "source": "§8 Prosedur Terkait"
+        },
+        {
+          "text": "Clinical reasoning pada station APN kala II berfokus pada **diagnosis kala II**, **pengenalan komplikasi intrapartum**, dan **pengenalan dini distosia/gawat janin**. Alur pikir klinis: Pertanyaan 1 — Apakah ini kala II? → Pembukaan lengkap + tanda kala II. Pertanyaan 2 — Apakah DJJ baik? → 110-160 x/menit, reguler. Pertanyaan 3 — Apakah ada komplikasi intrapartum? → Gawat janin, perdarahan, distosia. Pertanyaan 4 — Apakah perlu eskalasi/operator terlatih?",
+          "tone": "clinical",
+          "source": "§9 Clinical Reasoning"
+        },
+        {
+          "text": "Tabel diagnosis banding komplikasi kala II (8 diagnosis): Kala II normal — pembukaan lengkap, DJJ normal, HIS adekuat, presentasi kepala → Meneran, IMD, oksitosin. Gawat janin (DJJ abnormal) — DJJ <110 atau >160, variabilitas hilang, mekonium → Evaluasi, resusitasi BBL siap, eskalasi. Distosia bahu — kepala lahir, bahu tidak lahir → McRobert, suprapubik, episiotomi lebar, manuver delivre. Prolaps tali pusat — tali pusat menumbung saat ketuban pecah → Emergency: posisi knee-chest, dorong presentasi, SC emergensi. Presentasi majemuk — tangan/kaki menumbung bersama kepala → Evaluasi ulang, SC. Partus macet (prolonged second stage) — bayi tidak lahir setelah 2 jam (primi) atau 1 jam (multi) → Evaluasi, eskalasi, kemungkinan vakum/forceps. Ketuban hijau kental (mekonium) — air ketuban hijau saat pecah → Resusitasi BBL siap, isap lendir. Perdarahan intrapartum — >500 mL saat kala II → Pertimbangkan solusio plasenta, ruptura uteri, rujuk.",
+          "tone": "clinical",
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "Pembedaan cepat Kala I Aktif vs Kala II: Kala I Aktif — Pembukaan 4-10 cm, HIS adekuat, tanda utama dilatasi serviks, observasi/augmentasi, batas waktu 8 jam (WHO) atau sesuai partograf. Kala II — **Pembukaan 10 cm (lengkap)**, HIS adekuat lebih kuat, tanda utama **dorongan meneran, perineum menonjol, vulva membuka**, tindakan **bimbing meneran, lahirkan bayi, IMD, oksitosin**, batas waktu **2 jam (atau 3 jam dengan epidural)**. **Pembeda utama**: Kala I = dilatasi progresif, Kala II = dorongan meneran + perineum menonjol.",
+          "tone": "clinical",
+          "source": "§9 Pembedaan Kala I vs Kala II"
+        },
+        {
+          "text": "Kapan harus merujuk: **Segera (emergency)**: prolaps tali pusat, gawat janin, distosia bahu, ruptura uteri, perdarahan masif. **Same day**: partus macet, presentasi majemuk, DJJ abnormal menetap. **Rutin**: kontrol nifas, KB pascasalin. **Tunda elektif**: tidak relevan untuk kala II.",
+          "tone": "clinical",
+          "source": "§9 Kapan Rujuk"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Diagnosis banding komplikasi kala II (8 diagnosis):",
+          "sub": [
+            "Kala II normal — pembukaan lengkap, DJJ normal, HIS adekuat, presentasi kepala",
+            "Gawat janin (DJJ abnormal) — DJJ <110 atau >160, variabilitas hilang, mekonium",
+            "Distosia bahu — kepala lahir, bahu tidak lahir",
+            "Prolaps tali pusat — tali pusat menumbung saat ketuban pecah",
+            "Presentasi majemuk — tangan/kaki menumbung bersama kepala",
+            "Partus macet (prolonged second stage) — bayi tidak lahir >2 jam primi / 1 jam multi",
+            "Ketuban hijau kental (mekonium) — air ketuban hijau saat pecah",
+            "Perdarahan intrapartum — >500 mL saat kala II"
+          ],
+          "bold": true,
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "Pembedaan Kala I Aktif vs Kala II:",
+          "sub": [
+            "Pembukaan: Kala I = 4-10 cm; Kala II = 10 cm (lengkap)",
+            "HIS: adekuat di keduanya, lebih kuat di Kala II",
+            "Tanda utama: Kala I = dilatasi serviks; Kala II = dorongan meneran, perineum menonjol, vulva membuka",
+            "Tindakan: Kala I = observasi/augmentasi; Kala II = bimbing meneran, lahirkan bayi, IMD, oksitosin",
+            "Batas waktu (primi): Kala I = 8 jam (WHO); Kala II = 2 jam (3 jam dengan epidural)",
+            "Pembeda utama: Kala I = dilatasi progresif; Kala II = dorongan meneran + perineum menonjol"
+          ],
+          "bold": true,
+          "source": "§9 Pembedaan"
+        },
+        {
+          "text": "Tindakan pasca-prosedur (6 langkah): Observasi kala IV 1-2 jam → Dekontaminasi klorin 0,5% 10 menit → Buang habis pakai (safety box, kantong kuning) → Cuci tangan 6 langkah → Dokumentasi SOAP + partograf + surat kelahiran → Edukasi keluarga (IMD, ASI, tanda bahaya).",
+          "sub": [],
+          "bold": true,
+          "source": "§8 Tindakan Pasca"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya — Prolaps Tali Pusat (Emergency)",
+          "text": "Tali pusat menumbung saat ketuban pecah. Tatalaksa awal: posisi knee-chest atau Trendelenburg, dorong presentasi dengan tangan (mempertahankan kepala tidak menekan tali pusat), oksigen ibu, kosongkan kandung kemih (kateterisasi), JANGAN dorong tali pusat kembali, panggil tim emergensi (SpOG, anestesi, neonatologis), SC emergensi. Jangan meneran sampai bayi lahir.",
+          "answer_evidence": "§9 + §11 + Lampiran A"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya — Distosia Bahu (Manuver Urutan)",
+          "text": "Kepala lahir, bahu tidak lahir dengan traksi lembut biasa. Urutan manuver: (1) McRobert — hiperfleksi paha ibu ke abdomen; (2) Suprapubik — tekanan di atas simfisis untuk mendorong bahu anterior ke bawah; (3) Episiotomi lebar — untuk ruang manuver; (4) Manuver delivre — lahirkan bahu posterior dengan jari; (5) Gaskin (all fours) — posisi ibu merangkak; (6) Rujuk jika gagal. **Jangan menarik kepala** — risiko trauma pleksus brakialis.",
+          "answer_evidence": "§9 + §11 + Lampiran A"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya — Ruptura Uteri",
+          "text": "Riwayat SC, nyeri perut hebat, perdarahan, syok, bagian janin teraba di abdomen. Emergency: stabilkan, rujuk laparotomi. Waspadai pada riwayat SC klasik.",
+          "answer_evidence": "§11 + Lampiran A"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya — Bayi Tidak Menangis / Tonus Jelek",
+          "text": "Apgar rendah, asfiksia. Langkah awal BBL: hangatkan, posisi benar, stimulasi, ventilasi. Siapkan resusitasi BBL sejak awal kala II bila ada faktor risiko.",
+          "answer_evidence": "§11 + Lampiran B"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Partus Macet — Batas Waktu",
+          "text": "Bayi tidak lahir setelah **2 jam meneran pada primigravida** atau **1 jam pada multigravida** → partus macet (prolonged second stage). Evaluasi, eskalasi, kemungkinan vakum/forceps. (Batas waktu 3 jam dengan epidural pada primi).",
+          "answer_evidence": "§4 + §9 + §11"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Algoritma Distosia Bahu",
+          "text": "Mnemonik HELPERR: H=Help (minta bantuan), E=Episiotomi, L=Legs (McRobert), P=Pressure (suprapubik), E=Enter (manuver internal), R=Remove (bahu posterior), R=Roll (Gaskin all-fours).",
+          "answer_evidence": "§11 + Lampiran A"
+        }
+      ],
+      "visual_refs": [
+        "visual_apn_kala2_imd_08"
+      ],
+      "glossary_refs": [
+        "gls_apn_kala2_imd_05",
+        "gls_apn_kala2_oksitosin_14",
+        "gls_apn_kala2_apgar_04",
+        "gls_apn_kala2_djj_10"
+      ],
+      "bilingual": "Clinical reasoning APN kala II: diagnosa kala II (pembukaan lengkap + tanda), kesejahteraan janin (DJJ 110-160 x/menit), pengenalan komplikasi (gawat janin, distosia bahu, prolaps tali pusat, partus macet). Kala II berbeda dari Kala I: Kala I = dilatasi progresif, Kala II = dorongan meneran + perineum menonjol."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang kala II (Doppler DJJ, partograf, darah lengkap, Apgar scoring) dan tatalaksana 12 komplikasi intraprosedural + pasca-prosedur.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang kala II (8 modalitas): **Doppler DJJ/Pinard** — setiap kali kala II, nilai 110-160 x/menit reguler, tersedia di semua fasilitas. **Partograf** — kala I, II, III, IV; dilatasi sesuai garis waspada/action; tersedia di semua fasilitas. **Darah lengkap (Hb, leukosit, trombosit)** — perdarahan, gejala anemia; Hb ≥11 g/dL. **Golongan darah + Rh** — persalinan, persiapan transfusi. **pH darah tali pusat** — gawat janin; pH >7.2 normal; <7.0 asidosis (RS). **Apgar scoring** — saat lahir, menit 1 dan 5; 7-10 normal. **Gula darah bayi** — bayi besar, ibu diabetes; >40 mg/dL cukup bulan (RS). **Skrining GBS** — ibu GBS positif (RS).",
+          "tone": "clinical",
+          "source": "§10 Pemeriksaan Penunjang"
+        },
+        {
+          "text": "Pemeriksaan yang biasanya **tidak tersedia di OSCE station** tapi tetap perlu disebutkan: TEE (transesophageal echo) untuk asfiksia berat, CT scan kepala bayi untuk curiga trauma, lab metabolik lengkap (asam-basa, laktat) bayi. Catatan penting: pada station OSCE, **bila laboratorium tidak diminta di soal, jangan mengarang hasil lab**.",
+          "tone": "narrative",
+          "source": "§10 Catatan"
+        },
+        {
+          "text": "Manajemen komplikasi intraprosedural (12 komplikasi): DJJ abnormal/gawat janin (DJJ <110 atau >160, variabilitas hilang, mekonium) → Evaluasi, resusitasi BBL siap, eskalasi. Distosia bahu → McRobert, suprapubik, episiotomi lebar. Prolaps tali pusat → Knee-chest, dorong presentasi, SC emergensi. Ketuban hijau kental → Resusitasi BBL siap, isap lendir. Ruptura uteri → Emergency: stabilkan, rujuk laparotomi. Bayi tidak menangis/tonus jelek → Resusitasi sesuai algoritme BBL. Perdarahan intrapartum >500 mL → Evaluasi, uterotonika, transfusi, rujuk. Lilitan tali pusat ketat → Klem 2 tempat, potong. Partus macet → Evaluasi, eskalasi, kemungkinan vakum/forceps. Oksitosin sebelum hamil tunggal dikonfirmasi → Verifikasi, jangan suntik. Hipotermia BBL → Hangatkan, IMD, kontak kulit. Histerektomi emergensi → Rujuk ke operator terlatih.",
+          "tone": "clinical",
+          "source": "§11 Komplikasi Intraprosedural"
+        },
+        {
+          "text": "Manajemen komplikasi pasca-prosedur (8 komplikasi dengan onset berbeda): Asfiksia BBL lanjutan (2-6 jam) → napas cepat, retraksi, sianosis → Oksigen, rujuk NICU. Hipotermia BBL (segera) → suhu <36,5°C → Hangatkan, IMD, kontak kulit → Inkubator. PPH lanjutan (kala IV-24 jam) → perdarahan banyak, uterus lembek → Masase, uterotonika, transfusi, rujuk. Sisa plasenta (24-72 jam) → perdarahan, lochia banyak → USG, kuretase → Rujuk. Infeksi nifas (24-72 jam) → demam, nyeri perut, lochia bau → Antibiotik, evaluasi → Rujuk. Hiperbilirubinemia (2-3 hari) → kuning pada kulit/sklera → Fototerapi sesuai kadar → Rujuk. Gangguan laktasi (minggu 1) → puting lecet, ASI tidak keluar → Koreksi latch, konseling → Rutin. Depresi postpartum (minggu 2-4) → mood rendah, anhedonia → Skrining, konseling, tatalaksana → Rujuk psikiater.",
+          "tone": "clinical",
+          "source": "§11 Komplikasi Pasca"
+        },
+        {
+          "text": "Jadwal tindak lanjut: Observasi kala IV (1-2 jam) → TTV, perdarahan, kontraksi. Kontrol nifas 1 minggu → evaluasi luka, laktasi. Kontrol nifas 6 minggu → evaluasi akhir, KB pascasalin. Kunjungan neonatal 1 minggu → evaluasi BBL. Kapan saja → bila ada tanda bahaya. Manajemen mengikuti rekomendasi WHO, POGI, dan SOP standar Indonesia.",
+          "tone": "clinical",
+          "source": "§11 Jadwal"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang wajib kala II:",
+          "sub": [
+            "Doppler DJJ / Pinard — tiap kontraksi, 110-160 x/menit",
+            "Partograf — kala I-IV, dokumentasi lengkap",
+            "Darah lengkap (Hb ≥11 g/dL) — bila perdarahan/gejala anemia",
+            "Golongan darah + Rh — persiapan transfusi",
+            "pH darah tali pusat — gawat janin (pH >7.2 normal, <7.0 asidosis)",
+            "Apgar scoring — menit 1 dan 5 (7-10 normal)",
+            "Gula darah bayi — bayi besar, ibu diabetes (>40 mg/dL)",
+            "Skrining GBS — ibu GBS positif"
+          ],
+          "bold": true,
+          "source": "§10 Penunjang"
+        },
+        {
+          "text": "Komplikasi pasca-prosedur dengan onset (8 kondisi):",
+          "sub": [
+            "Asfiksia BBL lanjutan (2-6 jam) — Oksigen, rujuk NICU",
+            "Hipotermia BBL (segera, <36,5°C) — Hangatkan, IMD, kontak kulit",
+            "PPH lanjutan (kala IV-24 jam) — Masase, uterotonika, transfusi",
+            "Sisa plasenta (24-72 jam) — USG, kuretase",
+            "Infeksi nifas (24-72 jam) — Antibiotik, evaluasi",
+            "Hiperbilirubinemia (2-3 hari) — Fototerapi sesuai kadar",
+            "Gangguan laktasi (minggu 1) — Koreksi latch, konseling",
+            "Depresi postpartum (minggu 2-4) — Skrining, konseling, tatalaksana"
+          ],
+          "bold": true,
+          "source": "§11 Komplikasi Pasca"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Komplikasi Intraprosedural Kritis",
+          "text": "12 komplikasi: DJJ abnormal/gawat janin, distosia bahu, prolaps tali pusat, ketuban hijau kental, ruptura uteri, bayi tidak menangis/tonus jelek, perdarahan intrapartum, lilitan tali pusat ketat, partus macet, oksitosin sebelum hamil tunggal, hipotermia BBL, histerektomi emergensi. Semua memerlukan respons cepat sesuai algoritme.",
+          "answer_evidence": "§11 Komplikasi Intraprosedural"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Catatan Penting — Jangan Mengarang Hasil Lab",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Cukup sebutkan pemeriksaan yang relevan secara umum dan indikasinya.",
+          "answer_evidence": "§10 Catatan penting"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Manajemen Standar",
+          "text": "Manajemen komplikasi mengikuti rekomendasi WHO, POGI, dan SOP standar Indonesia. Keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "answer_evidence": "§11 Catatan [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_apn_kala2_djj_10",
+        "gls_apn_kala2_apgar_04",
+        "gls_apn_kala2_oksitosin_14"
+      ],
+      "bilingual": "Pemeriksaan penunjang kala II: Doppler DJJ (110-160 x/menit), partograf, darah lengkap, Apgar scoring (menit 1 dan 5). Komplikasi intraprosedural (12): gawat janin, distosia bahu, prolaps tali pusat, ruptura uteri, partus macet. Komplikasi pasca-prosedur (8): asfiksia lanjutan, hipotermia BBL, PPH lanjutan, sisa plasenta, infeksi nifas, hiperbilirubinemia."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Edukasi 8 poin spesifik, safety net 7 tanda bahaya, dan dokumentasi SOAP lengkap untuk skenario Ny. Dewi dengan kode ICD-10 dan dokumen medis.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pada APN kala II berfokus pada **peran ibu/keluarga dalam meneran dan IMD**, serta **tanda bahaya kala IV** (lihat juga modul APN Kala III). 8 poin edukasi spesifik: (1) Posisi meneran — setengah duduk, miring kiri, atau jongkok dengan dukungan; hindari terlentang lama. (2) Bimbing meneran — saat HIS, ibu boleh meneran; saat santai, istirahat. (3) DJJ dicek tiap selesai kontraksi — untuk memastikan bayi sehat. (4) IMD minimal 1 jam — bayi di dada ibu, kontak kulit ke kulit. (5) ASI eksklusif 6 bulan — IMD dalam 1 jam, posisi dan latch benar. (6) Tanda bahaya kala IV — perdarahan banyak, pusing, lemas, demam, bayi tidak mau menyusu. (7) Nutrisi dan istirahat — makan bergizi, cukup istirahat. (8) KB pascasalin — diskusi di kontrol nifas.",
+          "tone": "clinical",
+          "source": "§12 Poin Edukasi"
+        },
+        {
+          "text": "Safety net — kapan harus kembali segera atau ke IGD (7 kondisi): (1) Perdarahan banyak — >2 softek per jam, atau perdarahan aktif. (2) Pusing, lemas, pucat, atau hampir pingsan — tanda syok/anemia. (3) Demam ≥38°C — terutama dalam 72 jam postpartum. (4) Nyeri perut hebat atau bau busuk — curiga infeksi. (5) Bayi tidak mau menyusu, kuning >2 minggu, napas cepat, atau dingin. (6) Tali pusat bayi berdarah atau bernanah. (7) Ibu tidak bisa BAK atau nyeri hebat saat BAK.",
+          "tone": "clinical",
+          "source": "§12 Safety Net"
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE: Bahasa awam — *'Ibu, saat kontraksi, tarik napas dalam, dan ikut dorongan. Saat santai, istirahat. Saya cek DJJ tiap selesai kontraksi.'* Minta keluarga membantu — *'Bapak bisa membantu ibu di punggung, atau memegang tangannya.'* Tunjukkan sikap suportif: tidak menggurui, tidak menghakimi. Contoh kalimat edukasi spesifik: *'Ibu, pembukaan sudah lengkap. Saat kontraksi, ibu boleh menarik napas dalam dan meneran mengikuti dorongan. Saat santai, istirahat dulu. Saya cek detak jantung bayi tiap selesai kontraksi. Setelah bayi lahir, saya letakkan bayi di dada Ibu untuk IMD minimal 1 jam, lalu saya suntik obat agar rahim berkontraksi.'*",
+          "tone": "narrative",
+          "source": "§12 Cara Edukasi"
+        },
+        {
+          "text": "Contoh SOAP — skenario Ny. Dewi, 26 tahun, G1P0A0, hamil 39 minggu, kala II dengan pembukaan lengkap, DJJ 140 x/menit. Bayi lahir spontan, Apgar 9/10, IMD sudah dimulai, oksitosin 10 IU IM sudah diberikan. **S (Subjective)**: Keluhan utama HIS kuat, meneran, keluar lendir darah. HPHT 9 bulan lalu (usia kehamilan 39 minggu). Riwayat obstetri G1P0A0. Riwayat penyakit: tidak ada alergi, tidak ada hipertensi. Informed consent verbal sudah diberikan kepada ibu dan suami.",
+          "tone": "clinical",
+          "source": "§13 SOAP"
+        },
+        {
+          "text": "**O (Objective)**: TTV TD 120/80 mmHg, N 88 x/menit, S 36,8°C, RR 18 x/menit, SpO2 98%. Kesadaran kompos mentis. Konjungtiva tidak pucat. Abdomen: Leopold I bokong di fundus, Leopold II punggung kiri, Leopold III presentasi kepala, Leopold IV kepala sudah masuk PAP. DJJ 140 x/menit, reguler. Kontraksi 4×/10 menit, durasi 45 detik, kuat. Periksa dalam: pembukaan lengkap 10 cm, effacement 100%, station +1, posisi occiput anterior, ketuban pecah spontan jernih, tidak ada prolaps tali pusat. Bayi lahir spontan, jenis kelamin ..., BB ..., PB ..., Apgar 9/10. Lilitan tali pusat: tidak ada. IMD sudah dimulai. Oksitosin 10 IU IM sudah diberikan. Tali pusat sudah dijepit-potong.",
+          "tone": "clinical",
+          "source": "§13 SOAP O"
+        },
+        {
+          "text": "**A (Assessment)**: G1P0A0, hamil 39 minggu, kala II selesai spontan, bayi lahir hidup Apgar 9/10, IMD dimulai, oksitosin diberikan. Kala III-IV dalam monitoring. **P (Plan)**: (1) IMD minimal 1 jam; (2) Observasi kala IV (lihat modul APN Kala III) — TTV, perdarahan, kontraksi, plasenta; (3) Lengkapi partograf kala II-IV; (4) Dekontaminasi alat, cuci tangan; (5) Dokumentasi SOAP; (6) Edukasi keluarga — IMD, ASI, tanda bahaya.",
+          "tone": "clinical",
+          "source": "§13 SOAP AP"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan: **O80** — Single spontaneous delivery; **Z37.0** — Single live birth; **O72.0** — Third-stage hemorrhage (kalau ada PPH); **Z38.0** — Single liveborn infant, born in hospital; **Z39.0** — Encounter for care and examination of mother immediately after delivery.",
+          "tone": "clinical",
+          "source": "§13 ICD-10"
+        },
+        {
+          "text": "Dokumen/kartu khusus: Partograf (kala I-IV), Surat kelahiran (identitas bayi, jenis kelamin, BB, PB, Apgar, waktu lahir, penolong), Kartu ibu nifas (kunjungan nifas), Buku KIA (Kesehatan Ibu dan Anak — kontrol nifas, bayi), Surat rujukan (bila perlu). Cara mendokumentasikan prosedur APN kala II: Tanggal dan jam bayi lahir; cara persalinan, jenis persalinan; Apgar menit 1 dan 5; jenis intervensi kala II (bimbing meneran, perlindungan perineum, dll.); perdarahan (estimasi); IMD, oksitosin, vitamin K, salep mata, hepatitis B; tanda tangan dokter dan bidan/perawat.",
+          "tone": "clinical",
+          "source": "§13 Dokumen"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "8 poin edukasi spesifik APN kala II:",
+          "sub": [
+            "Posisi meneran — setengah duduk, miring kiri, atau jongkok dengan dukungan; hindari terlentang lama",
+            "Bimbing meneran — saat HIS, ibu boleh meneran; saat santai, istirahat",
+            "DJJ dicek tiap selesai kontraksi — untuk memastikan bayi sehat",
+            "IMD minimal 1 jam — bayi di dada ibu, kontak kulit ke kulit",
+            "ASI eksklusif 6 bulan — IMD dalam 1 jam, posisi dan latch benar",
+            "Tanda bahaya kala IV — perdarahan banyak, pusing, lemas, demam, bayi tidak mau menyusu",
+            "Nutrisi dan istirahat — makan bergizi, cukup istirahat",
+            "KB pascasalin — diskusi di kontrol nifas"
+          ],
+          "bold": true,
+          "source": "§12 Poin Edukasi"
+        },
+        {
+          "text": "Safety net — 7 tanda bahaya kembalilah segera:",
+          "sub": [
+            "Perdarahan banyak — >2 softek per jam atau perdarahan aktif",
+            "Pusing, lemas, pucat, atau hampir pingsan — tanda syok/anemia",
+            "Demam ≥38°C — terutama dalam 72 jam postpartum",
+            "Nyeri perut hebat atau bau busuk — curiga infeksi",
+            "Bayi tidak mau menyusu, kuning >2 minggu, napas cepat, atau dingin",
+            "Tali pusat bayi berdarah atau bernanah",
+            "Ibu tidak bisa BAK atau nyeri hebat saat BAK"
+          ],
+          "bold": true,
+          "source": "§12 Safety Net"
+        },
+        {
+          "text": "Kode ICD-10 relevan untuk APN kala II:",
+          "sub": [
+            "O80 — Single spontaneous delivery",
+            "Z37.0 — Single live birth",
+            "O72.0 — Third-stage hemorrhage (bila ada PPH)",
+            "Z38.0 — Single liveborn infant, born in hospital",
+            "Z39.0 — Encounter for care and examination of mother immediately after delivery"
+          ],
+          "bold": true,
+          "source": "§13 ICD-10"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips — Kalimat Edukasi OSCE",
+          "text": "Bahasa awam: 'Ibu, saat kontraksi, tarik napas dalam, dan ikut dorongan. Saat santai, istirahat. Saya cek DJJ tiap selesai kontraksi.' Minta keluarga membantu: 'Bapak bisa membantu ibu di punggung, atau memegang tangannya.' Tunjukkan sikap suportif.",
+          "answer_evidence": "§12 Cara Edukasi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Format SOAP",
+          "text": "Format SOAP di atas mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas. Dokumentasi wajib menyertakan: tanggal/jam bayi lahir, cara persalinan, Apgar menit 1 dan 5, jenis intervensi kala II, estimasi perdarahan, IMD/oksitosin/vitamin K/salep mata/hepatitis B, tanda tangan dokter dan bidan/perawat.",
+          "answer_evidence": "§13 Catatan [DITAMBAHKAN SAAT STANDARDISASI]"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penting — Sebut Kode ICD-10",
+          "text": "Pada OSCE, penyebutan kode ICD-10 (O80, Z37.0, Z38.0) sering menjadi pembeda skor. 'PENGURANGAN BESAR' bila tidak menyebut kode ICD-10.",
+          "answer_evidence": "§18 Kesalahan Fatal"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_apn_kala2_imd_05",
+        "gls_apn_kala2_apgar_04",
+        "gls_apn_kala2_ic_07"
+      ],
+      "bilingual": "Edukasi APN kala II: posisi meneran, bimbing meneran, DJJ dicek, IMD 1 jam, ASI eksklusif, tanda bahaya kala IV, nutrisi/istirahat, KB pascasalin. SOAP: Subjective (keluhan, HPHT, riwayat, informed consent), Objective (TTV, Leopold, periksa dalam, bayi), Assessment (G1P0A0 kala II selesai), Plan (IMD, observasi kala IV, partograf, edukasi). Kode ICD-10: O80, Z37.0, Z38.0."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Kaitan 12 penyakit SKDI 4A/3B dengan APN kala II, dan 5 skrip komunikasi OSCE: pembuka, bimbing meneran, kepala membuka vulva, bayi lahir, hingga penutup monitoring kala IV.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan penyakit SKDI 4A dengan APN kala II (12 penyakit): **Kehamilan normal/persalinan fisiologis** (O80/Z34.9, 4A) — APN kala II adalah penerapan langsung persalinan fisiologis; kenali kapan fisiologis dan kapan menjadi patologis. **Gawat janin/asfiksia neonatorum** (P21.x/O36.x, 3B Rujuk NICU) — DJJ tidak normal, ketuban mekonium, bayi tidak bernapas/tonus jelek setelah lahir; siapkan resusitasi BBL sejak awal. **Ruptur perineum derajat 1-2** (O70.0/O70.1, 4A, 3B bila luas) — perlindungan perineum dan kontrol kepala mengurangi robekan; robekan aktif perlu dijahit.",
+          "tone": "clinical",
+          "source": "§14 SKDI 4A"
+        },
+        {
+          "text": "**Perdarahan postpartum** (O72.x, 3B Rujuk emergensi) — oksitosin setelah bayi lahir mencegah atonia uteri dan PPH; pastikan hamil tunggal sebelum oksitosin. **Malpresentasi/distosia bahu** (O32.x/O66.0, 3B Rujuk) — jika kepala lahir tetapi bahu sulit lahir, skill berubah ke manuver distosia bahu; jangan menarik kepala kuat. **Prolaps tali pusat** (O69.0, 3B Rujuk emergensi) — tali pusat menumbung saat ketuban pecah. **Presentasi majemuk (compound)** (O32.6, 3B Rujuk) — tangan/kaki menumbung bersama kepala; sering perlu SC. **Ruptura uteri** (O71.0/O71.1, 3B Rujuk emergensi) — riwayat SC, nyeri perut hebat, perdarahan, syok.",
+          "tone": "clinical",
+          "source": "§14 SKDI 4A Lanjutan"
+        },
+        {
+          "text": "**Preeklampsia/eklampsia** (O14.x/O15.x, 3B Rujuk) — TD, proteinuria, MgSO4, rujuk. **Mekonium** (P24.x, 4A, 3B bila aspirasi) — ketuban hijau kental, resusitasi BBL siap. **Hipotermia BBL** (P80.x, 4A) — pencegahan dengan IMD, kontak kulit, hangatkan. **Infeksi nifas** (O86.0, 4A, 3B bila sepsis) — pascapersalinan, risiko infeksi.",
+          "tone": "clinical",
+          "source": "§14 SKDI 4A Lanjutan 2"
+        },
+        {
+          "text": "Batas kompetensi dokter umum untuk setiap diagnosis (SKDI 2012): **4A (mandiri)** — dokter umum boleh menangani sendiri di layanan primer. **3B (merujuk)** — dokter umum boleh melakukan stabilisasi dan tatalaksana awal, **wajib merujuk** ke SpOG. **2 (merujuk ke spesialis)** — hanya spesialis yang menangani; dokter umum hanya boleh melakukan deteksi dini dan rujukan.",
+          "tone": "clinical",
+          "source": "§14 Batas Kompetensi"
+        },
+        {
+          "text": "Catatan diagnosis yang harus dirujuk segera (SKDI 3B): Prolaps tali pusat, Gawat janin/DJJ abnormal menetap, Distosia bahu, Partus macet, Ruptura uteri, Perdarahan postpartum, Presentasi majemuk, Asfiksia BBL, Hipotermia BBL berat, Hiperbilirubinemia berat.",
+          "tone": "clinical",
+          "source": "§14 Catatan"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE — **Pembukaan Station (Belum Masuk Kala II)**: *'[DOKTER]: Selamat pagi, Ibu Dewi. Saya dokter muda yang akan membantu persalinan Ibu. Saya akan menjelaskan tindakan, risiko, dan meminta persetujuan Ibu. [PASIEN]: Baik, Dok. Saya merasa mulas sudah kuat. [DOKTER]: Saya akan periksa dalam untuk memastikan pembukaan sudah lengkap. Ibu, posisi yang paling nyaman: setengah duduk atau miring kiri, ya. Saya juga akan minta suami mendampingi.'*",
+          "tone": "narrative",
+          "source": "§15 Pembukaan"
+        },
+        {
+          "text": "**Saat HIS dan Bimbing Meneran**: *'[DOKTER]: Ibu, HIS datang. Tarik napas dalam, dan ikut dorongan. Saat HIS selesai, istirahat dulu, ambil napas, dan minum. Saya cek detak jantung bayi tiap selesai HIS. [Ibu meneran] [DOKTER]: Bagus, Bu. Lanjutkan seperti itu. Saya akan bantu Ibu. [DOKTER]: Detak jantung bayi 140, reguler, normal. Semangat, Bu.'*",
+          "tone": "narrative",
+          "source": "§15 Bimbing Meneran"
+        },
+        {
+          "text": "**Saat Kepala Membuka Vulva**: *'[DOKTER]: Ibu, kepala bayi sudah mulai kelihatan. Saya lindungi perineum dengan kain. Sekarang, Bu, jangan meneran dulu. Napas cepat, ya. Seperti meniup lilin. Saya akan bantu mengeluarkan kepala secara perlahan. [Kepala bayi lahir] [DOKTER]: Bagus, Bu. Kepala bayi sudah lahir. Saya periksa tali pusat di leher bayi. Tidak ada lilitan, Bu. Sekarang saya tunggu bayi berputar, lalu saya bantu mengeluarkan bahu dan badan.'*",
+          "tone": "narrative",
+          "source": "§15 Kepala Membuka Vulva"
+        },
+        {
+          "text": "**Saat Bayi Lahir dan IMD**: *'[DOKTER]: Selamat, Bu! Bayi Ibu lahir! Saya letakkan bayi di dada Ibu. Kontak kulit ke kulit, ya. Saya jepit tali pusat, suntik obat agar rahim berkontraksi. IMD minimal 1 jam, Bu. [PASIEN]: Terima kasih, Dok. Bayi saya sehat? [DOKTER]: Bayi Ibu menangis kuat, kulit kemerahan, tonus aktif. Apgar 9/10, Bu. Bayi sehat.'*",
+          "tone": "narrative",
+          "source": "§15 IMD"
+        },
+        {
+          "text": "**Penutup Station (Monitoring Kala IV)**: *'[DOKTER]: Ibu, bayi sudah lahir. Saya observasi Ibu 1-2 jam, cek TTV, perdarahan, kontraksi. Saya ajarkan Ibu cara masase fundus. Tanda bahaya: perdarahan makin banyak, pusing, lemas, demam, atau bayi tidak mau menyusu. [PASIEN]: Baik, Dok. Terima kasih. [DOKTER]: Sama-sama, Bu. Saya doakan Ibu dan bayi sehat selalu.'*",
+          "tone": "narrative",
+          "source": "§15 Penutup"
+        },
+        {
+          "text": "Catatan perbedaan antara situasi: **Persalinan normal** — komunikasi tenang, suportif. **Persalinan dengan gawat janin** — komunikasi lebih serius, libatkan keluarga. **Persalinan preterm/BBL kecil** — perlu penjelasan tentang kondisi bayi.",
+          "tone": "note",
+          "source": "§15 Catatan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "12 penyakit SKDI 4A/3B terkait APN kala II:",
+          "sub": [
+            "Kehamilan normal/persalinan fisiologis (O80/Z34.9, 4A) — penerapan langsung",
+            "Gawat janin/asfiksia neonatorum (P21.x/O36.x, 3B Rujuk NICU)",
+            "Ruptur perineum derajat 1-2 (O70.0/O70.1, 4A/3B bila luas)",
+            "Perdarahan postpartum (O72.x, 3B Rujuk emergensi)",
+            "Malpresentasi/distosia bahu (O32.x/O66.0, 3B Rujuk)",
+            "Prolaps tali pusat (O69.0, 3B Rujuk emergensi)",
+            "Presentasi majemuk/compound (O32.6, 3B Rujuk)",
+            "Ruptura uteri (O71.0/O71.1, 3B Rujuk emergensi)",
+            "Preeklampsia/eklampsia (O14.x/O15.x, 3B Rujuk)",
+            "Mekonium (P24.x, 4A/3B bila aspirasi)",
+            "Hipotermia BBL (P80.x, 4A)",
+            "Infeksi nifas (O86.0, 4A/3B bila sepsis)"
+          ],
+          "bold": true,
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "Batas kompetensi dokter umum (SKDI 2012):",
+          "sub": [
+            "4A (mandiri) — dokter umum boleh menangani sendiri di layanan primer",
+            "3B (merujuk) — dokter umum boleh stabilisasi dan tatalaksana awal, WAJIB merujuk ke SpOG",
+            "2 (merujuk ke spesialis) — hanya spesialis yang menangani; dokter umum hanya deteksi dini dan rujukan"
+          ],
+          "bold": true,
+          "source": "§14 Batas Kompetensi"
+        },
+        {
+          "text": "5 skrip komunikasi OSCE APN kala II: (1) Pembukaan station — informed consent + periksa dalam + posisi; (2) Bimbing meneran — saat HIS, istirahat, cek DJJ; (3) Kepala membuka vulva — lindungi perineum, napas cepat, periksa lilitan; (4) Bayi lahir dan IMD — selimuti, oksitosin, Apgar; (5) Penutup monitoring kala IV — observasi, masase fundus, tanda bahaya.",
+          "sub": [],
+          "bold": true,
+          "source": "§15 Skrip"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips Skrip — Verifikasi Hamil Tunggal",
+          "text": "Sebelum suntik oksitosin, verifikasi hamil tunggal dengan palpasi abdomen. Kalimat verifikasi: 'Hamil tunggal, Bu. Saya suntik oksitosin 10 IU IM dalam 1 menit.' Ini mencegah oksitosin masuk ke bayi kedua.",
+          "answer_evidence": "§15 IMD"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips Skrip — Verifikasi Apgar",
+          "text": "Saat bayi lahir, sampaikan Apgar dengan nada positif: 'Bayi Ibu menangis kuat, kulit kemerahan, tonus aktif. Apgar 9/10, Bu. Bayi sehat.' Memberikan rasa aman bagi ibu.",
+          "answer_evidence": "§15 IMD"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Catatan Rujukan — SKDI 3B",
+          "text": "10 diagnosis yang harus dirujuk segera (SKDI 3B): Prolaps tali pusat, Gawat janin/DJJ abnormal menetap, Distosia bahu, Partus macet, Ruptura uteri, Perdarahan postpartum, Presentasi majemuk, Asfiksia BBL, Hipotermia BBL berat, Hiperbilirubinemia berat.",
+          "answer_evidence": "§14 Catatan"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Pola Komunikasi",
+          "text": "Kalimat edukasi dan skrip komunikasi mengikuti pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan, kalimat final harus disesuaikan dengan skenario.",
+          "answer_evidence": "§15 Catatan"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_apn_kala2_ic_07",
+        "gls_apn_kala2_imd_05",
+        "gls_apn_kala2_apgar_04"
+      ],
+      "bilingual": "SKDI 4A terkait APN kala II: kehamilan normal (O80, 4A), ruptur perineum (O70, 4A), hipotermia BBL (P80, 4A). SKDI 3B rujuk emergensi: prolaps tali pusat, gawat janin, distosia bahu, ruptura uteri, PPH. Skrip komunikasi: pembuka, bimbing meneran, kepala membuka vulva, IMD, penutup."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist 29 item latihan mandiri, rencana belajar 3 hari (H-3 sampai H-1), 12 kesalahan fatal FATAL, 5 PENGURANGAN BESAR, dan 4 Recovery Move.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Checklist latihan mandiri 29 item untuk persiapan OSCE APN kala II. Semua item TINGGI kecuali penutup station (SEDANG). Kriteria 'Siap OSCE': Minimal 26 dari 29 item tercentang, dan semua item TINGGI sudah dikuasai. Item 1-2: Salam, perkenalkan diri, identifikasi pasien; Informed consent. Item 3-5: Kenali kala II (perineum menonjol, vulva membuka, dorongan meneran); Periksa dalam (pembukaan lengkap 10 cm); Siapkan alat (termasuk alat resusitasi BBL).",
+          "tone": "clinical",
+          "source": "§16 Checklist"
+        },
+        {
+          "text": "Item 6-10: Asepsis penolong (celemek, sarung tangan DTT); Bersihkan vulva/perineum dari depan ke belakang; Cek DJJ setelah kontraksi, dokumentasikan; Bimbing meneran saat HIS, istirahat di antara HIS; Posisi ibu (hindari terlentang lama). Item 11-15: Nilai DJJ tiap selesai kontraksi; Lindungi perineum, tahan defleksi kepala saat membuka vulva 5-6 cm; Minta ibu napas cepat, jangan meneran dulu; Periksa lilitan tali pusat; Tunggu putaran paksi luar spontan.",
+          "tone": "clinical",
+          "source": "§16 Checklist Lanjutan"
+        },
+        {
+          "text": "Item 16-20: Bahu depan bawah, bahu belakang atas, telusuri badan; Penilaian BBL — Apgar menit 1 dan 5; Keringkan bayi, ganti kain basah, jangan bersihkan verniks; IMD minimal 1 jam, selimuti dan topi; Pastikan hamil tunggal sebelum oksitosin. Item 21-25: Oksitosin 10 IU IM dalam 1 menit pasca bayi lahir; Jepit-potong tali pusat (2 klem); Dekontaminasi dan cuci tangan; Dokumentasi SOAP; Edukasi keluarga — IMD, ASI, tanda bahaya.",
+          "tone": "clinical",
+          "source": "§16 Checklist Lanjutan 2"
+        },
+        {
+          "text": "Item 26-29 (kondisi darurat): Mengenali distosia bahu — kepala lahir, bahu tidak; Mengenali prolaps tali pusat; Mengenali gawat janin — DJJ abnormal; Penutup station yang sopan (SEDANG).",
+          "tone": "clinical",
+          "source": "§16 Checklist Penutup"
+        },
+        {
+          "text": "Rencana belajar 3 hari. **Hari 1 (H-3) — Orientasi dan Pemahaman Dasar (60 menit)**: Pahami konsep APN kala II dan definisinya (§1); hafal urutan alur tindakan (§2) dan checklist utama (§3); baca §4-§6 (anamnesis, pemeriksaan, persiapan) sekali penuh. Aktivitas: baca §1 untuk konteks; tulis ulang 12 langkah alur dari ingatan tanpa melihat; hafalkan 4 tanda kala II (dorongan meneran, tekanan rektum/vagina, perineum menonjol, vulva dan anus membuka); pahami kenapa jangan memimpin meneran sebelum pembukaan lengkap. Kriteria selesai: bisa menyebutkan 12 langkah alur dan 4 tanda kala II tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": "§17 Hari 1"
+        },
+        {
+          "text": "**Hari 2 (H-2) — Latihan Urutan Checklist dengan Timer (90 menit)**: Hafal langkah bimbing meneran, lindungi perineum, melahirkan bahu; hafal urutan IMD, oksitosin, jepit-potong tali pusat; latihan mini-skrip komunikasi (§15). Aktivitas: latihan di manekin sambil mengucapkan langkah-langkah dengan suara keras; praktik urutan persiapan (APD, alat, periksa dalam, DJJ); praktik urutan melahirkan kepala (lindungi perineum, tahan defleksi, periksa lilitan); praktik urutan melahirkan bahu (tunggu paksi luar, biparietal, bawah-atas); praktik urutan IMD (keringkan, oksitosin, jepit-potong); tulis SOAP untuk skenario dari §13; simulasi skenario dari Lampiran C. Kriteria selesai: dapat menyelesaikan urutan tindakan (verbalized) dalam 7-8 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 Hari 2"
+        },
+        {
+          "text": "**Hari 3 (H-1) — Simulasi OSCE Penuh (60 menit)**: Run-through penuh station (mulai informed consent sampai penutup); identifikasi celah terakhir; simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: timer 10 menit, simulasi lengkap dari masuk station sampai keluar; review §18 (kesalahan fatal) — pastikan tidak ada yang terlewat; praktik skenario alternatif dari Lampiran C; bisa menyebutkan 5 kesalahan fatal dan 5 tanda bahaya; tidur cukup malam sebelumnya; OSCE bukan dihafal semalam. Kriteria 'siap OSCE': bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi; tidak melewatkan item checklist §16 (minimal 26 dari 29); bisa menjawab 1-2 pertanyaan penguji dengan baik; merasa cukup percaya diri — bukan sempurna, tapi yakin dengan alur.",
+          "tone": "narrative",
+          "source": "§17 Hari 3"
+        },
+        {
+          "text": "**Kesalahan Fatal FATAL (12 item, skor hangus)**: 1) Tidak mengenali tanda kala II dan langsung memimpin meneran sebelum pembukaan lengkap → risiko edema serviks, robekan serviks. 2) Tidak menyiapkan alat resusitasi bayi → bayi bisa asfiksia, dokter tidak siap. 3) Tidak memeriksa DJJ setelah kontraksi → bayi gawat tidak terdeteksi. 4) Meminta ibu meneran terus-menerus tanpa istirahat → kelelahan ibu, gawat janin. 5) Menarik kepala bayi terlalu kuat → robekan perineum luas, trauma kepala. 6) Tidak memeriksa lilitan tali pusat → bayi bisa asfiksia atau cedera. 7) Lupa memastikan hamil tunggal sebelum oksitosin → oksitosin bisa masuk ke bayi kedua.",
+          "tone": "clinical",
+          "source": "§18 FATAL"
+        },
+        {
+          "text": "FATAL lanjutan: 8) Tidak melakukan IMD/kontak kulit ke kulit bila bayi stabil → kehilangan efek protektif IMD. 9) Tidak melakukan dekontaminasi setelah tindakan → skor hangus untuk asepsis. 10) Tidak mengenali distosia bahu → kepala lahir tapi bahu tidak, tindakan salah. 11) Tidak mengenali prolaps tali pusat → emergency yang bisa menyebabkan kematian bayi. 12) Tidak dokumentasi SOAP → skor hangus untuk rekam medis.",
+          "tone": "clinical",
+          "source": "§18 FATAL Lanjutan"
+        },
+        {
+          "text": "**PENGURANGAN BESAR (5 item, skor turun signifikan tapi tidak nol)**: 1) Tidak menyebut Apgar menit 1 dan 5 → skor turun untuk penilaian BBL. 2) Tidak menyebut 'jangan bersihkan verniks' → skor turun. 3) Tidak edukasi keluarga tentang IMD dan tanda bahaya → skor turun. 4) Tidak menyebut kode ICD-10 → skor turun. 5) Tidak menyebut partograf → skor turun untuk kelengkapan kala I-II-III-IV.",
+          "tone": "clinical",
+          "source": "§18 Pengurangan Besar"
+        },
+        {
+          "text": "**Recovery Move (4 skenario, bila menyadari sudah membuat kesalahan di tengah station)**: **Saat periksa dalam** — *'Mohon maaf, Bu, saya akan memastikan pembukaan lengkap dulu.'* Tetap sopan, tidak panik. **Saat melahirkan** — *'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.'* Penguji menghargai self-correction. **Saat IMD/oksitosin** — *'Ibu, satu hal penting yang harus saya tambahkan: saya suntik oksitosin setelah pastikan hamil tunggal.'* Tambahkan poin. **Saat dokumentasi** — *'Saya akan menuliskan [poin yang terlewat] di rekam medis.'* Yang penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "tone": "narrative",
+          "source": "§18 Recovery Move"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist latihan mandiri 29 item APN kala II (semua TINGGI kecuali penutup SEDANG):",
+          "sub": [
+            "1-5: Salam/identifikasi, informed consent, kenali kala II, periksa dalam, siapkan alat (termasuk alat BBL)",
+            "6-10: Asepsis, bersihkan vulva, cek DJJ, bimbing meneran, posisi ibu (hindari terlentang lama)",
+            "11-15: Nilai DJJ tiap kontraksi, lindungi perineum + tahan defleksi, napas cepat, periksa lilitan, tunggu paksi luar",
+            "16-20: Bahu bawah-atas, Apgar menit 1 dan 5, keringkan bayi (jangan bersihkan verniks), IMD 1 jam, pastikan hamil tunggal",
+            "21-25: Oksitosin 10 IU IM dalam 1 menit, jepit-potong tali pusat, dekontaminasi + cuci tangan, dokumentasi SOAP, edukasi keluarga",
+            "26-29: Mengenali distosia bahu, prolaps tali pusat, gawat janin, penutup station sopan"
+          ],
+          "bold": true,
+          "source": "§16 Checklist"
+        },
+        {
+          "text": "Rencana belajar 3 hari:",
+          "sub": [
+            "Hari 1 (H-3, 60 menit) — Orientasi: konsep, definisi, 12 langkah alur, 4 tanda kala II",
+            "Hari 2 (H-2, 90 menit) — Latihan dengan timer: 7-8 menit verbalisasi, SOAP 5 menit",
+            "Hari 3 (H-1, 60 menit) — Simulasi OSCE penuh: timer 10 menit, review kesalahan fatal, tidur cukup"
+          ],
+          "bold": true,
+          "source": "§17 Rencana 3 Hari"
+        },
+        {
+          "text": "12 Kesalahan Fatal FATAL (skor hangus):",
+          "sub": [
+            "1) Memimpin meneran sebelum pembukaan lengkap",
+            "2) Tidak menyiapkan alat resusitasi bayi",
+            "3) Tidak memeriksa DJJ setelah kontraksi",
+            "4) Meneran terus-menerus tanpa istirahat",
+            "5) Menarik kepala bayi terlalu kuat",
+            "6) Tidak memeriksa lilitan tali pusat",
+            "7) Oksitosin tanpa pastikan hamil tunggal",
+            "8) Tidak melakukan IMD bayi stabil",
+            "9) Tidak dekontaminasi setelah tindakan",
+            "10) Tidak mengenali distosia bahu",
+            "11) Tidak mengenali prolaps tali pusat",
+            "12) Tidak dokumentasi SOAP"
+          ],
+          "bold": true,
+          "source": "§18 FATAL"
+        },
+        {
+          "text": "5 PENGURANGAN BESAR: (1) Tidak menyebut Apgar menit 1 dan 5; (2) Tidak menyebut 'jangan bersihkan verniks'; (3) Tidak edukasi keluarga tentang IMD dan tanda bahaya; (4) Tidak menyebut kode ICD-10; (5) Tidak menyebut partograf.",
+          "sub": [],
+          "bold": true,
+          "source": "§18 Pengurangan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL — Memimpin Meneran Sebelum Pembukaan Lengkap",
+          "text": "Tidak mengenali tanda kala II dan langsung memimpin meneran sebelum pembukaan lengkap → risiko edema serviks, robekan serviks, skor hangus. Wajib periksa dalam dan konfirmasi pembukaan 10 cm.",
+          "answer_evidence": "§18 FATAL #1"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL — Tidak Menyiapkan Alat Resusitasi BBL",
+          "text": "Alat BBL (penghisap lendir, balon sungkup, masker bayi, lampu pemanas) WAJIB disiapkan sejak awal. Bayi bisa asfiksia mendadak. Dokter tidak siap → skor hangus.",
+          "answer_evidence": "§18 FATAL #2"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL — DJJ Tidak Dinilai Setelah Kontraksi",
+          "text": "DJJ dicek tiap selesai kontraksi kala II. Tidak menilai → bayi gawat tidak terdeteksi → skor hangus. DJJ <110 atau >160 → gawat janin.",
+          "answer_evidence": "§18 FATAL #3"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL — Menarik Kepala Bayi Terlalu Kuat",
+          "text": "Menarik kepala bayi → robekan perineum luas, trauma kepala, trauma pleksus brakialis. Tugas tangan adalah mengontrol, bukan memaksa. Tunggu putaran paksi luar spontan.",
+          "answer_evidence": "§18 FATAL #5"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL — Oksitosin Tanpa Pastikan Hamil Tunggal",
+          "text": "Suntik oksitosin tanpa memastikan hamil tunggal → oksitosin bisa masuk ke bayi kedua (fatal). Verifikasi palpasi abdomen sebelum suntik.",
+          "answer_evidence": "§18 FATAL #7"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "PENGURANGAN BESAR — Apgar Menit 1 dan 5",
+          "text": "Tidak menyebut Apgar menit 1 dan 5 → skor turun untuk penilaian BBL. Skor Apgar: 7-10 normal, 4-6 asfiksia sedang, 0-3 asfiksia berat.",
+          "answer_evidence": "§18 Pengurangan Besar #1"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "PENGURANGAN BESAR — Kode ICD-10",
+          "text": "Tidak menyebut kode ICD-10 (O80, Z37.0, Z38.0) → skor turun. Penyebutan kode ICD-10 sering menjadi pembeda skor pada OSCE.",
+          "answer_evidence": "§18 Pengurangan Besar #4"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery Move — Self-Correction",
+          "text": "Saat menyadari sudah membuat kesalahan: 'Mohon maaf, Bu, saya akan memastikan pembukaan lengkap dulu' / 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang' / 'Ibu, satu hal penting yang harus saya tambahkan: saya suntik oksitosin setelah pastikan hamil tunggal' / 'Saya akan menuliskan [poin yang terlewat] di rekam medis'. Penguji menghargai self-correction. **Jangan panik dan jangan asal jawab** saat ditegur.",
+          "answer_evidence": "§18 Recovery Move"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_apn_kala2_oksitosin_14",
+        "gls_apn_kala2_apgar_04",
+        "gls_apn_kala2_djj_10",
+        "gls_apn_kala2_imd_05"
+      ],
+      "bilingual": "Latihan mandiri APN kala II: 29 item checklist (semua TINGGI kecuali penutup SEDANG). Rencana 3 hari: H-3 orientasi, H-2 latihan dengan timer, H-1 simulasi OSCE penuh. 12 FATAL: memimpin meneran sebelum lengkap, tidak siapkan alat BBL, DJJ tidak dicek, menarik kepala, oksitosin tanpa verifikasi hamil tunggal. 5 PENGURANGAN BESAR: Apgar, verniks, edukasi, ICD-10, partograf. 4 Recovery Move untuk self-correction."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "7 visual dengan prompt AI siap-pakai, referensi WHO/POGI/SKDI 2012, dan lampiran A (kontraindikasi), B (masalah prosedur), C (4 mini-case), D (checklist verbal 10 kalimat).",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Saran visual untuk APN kala II (7 visual): 1) **Tanda kala II** — ilustrasi medis persalinan kala II (perineum menonjol, vulva membuka, tekanan rektum, posisi janin rendah). 2) **Set persalinan dan resusitasi BBL** — flat lay alat APN (partus set, oksitosin, spuit, handuk, balon sungkup, lampu pemanas, penghisap lendir). 3) **Posisi meneran** — ilustrasi posisi aman (setengah duduk, miring kiri, jongkok dengan dukungan, hindari terlentang). 4) **Perlindungan perineum** — diagram tangan penolong melindungi perineum dengan kain dan tangan lain mengontrol kepala bayi. 5) **Putaran paksi luar** — diagram kepala bayi setelah lahir melakukan rotasi eksternal. 6) **Penanganan lilitan tali pusat** — dua skenario (longgar dilepas lewat kepala, ketat diklem dua titik lalu dipotong). 7) **Kontak kulit ke kulit (IMD)** — ilustrasi ibu dengan bayi di dada, bayi diselimuti dan memakai topi.",
+          "tone": "narrative",
+          "source": "§19 Saran Visual"
+        },
+        {
+          "text": "**Cara pakai prompt visual (dari file sumber)**: Jangan menampilkan bagian genital nyata secara vulgar; gunakan gaya ilustrasi medis, manekin, atau diagram anatomi profesional.",
+          "tone": "note",
+          "source": "§19 Cara Pakai"
+        },
+        {
+          "text": "Prompt AI siap-pakai (3 prompt inti). **Prompt 1 — Tanda kala II**: 'Ilustrasi medis persalinan kala II: perineum menonjol, vulva membuka, tekanan rektum, posisi janin rendah, label Bahasa Indonesia: perineum menonjol, vulva membuka, anus membuka, presentasi kepala. Gaya clean medical illustration, label jelas.' **Prompt 2 — Set persalinan dan resusitasi BBL**: 'Flat lay alat APN: partus set, oksitosin, spuit, handuk, balon sungkup, lampu pemanas, penghisap lendir, label Bahasa Indonesia. Gaya clean medical illustration, label jelas.' **Prompt 3 — Kontak kulit ke kulit (IMD)**: 'Ilustrasi ibu dengan bayi di dada, bayi diselimuti dan memakai topi, label IMD 1 jam, kontak kulit ke kulit, ASI eksklusif. Gaya clean medical illustration, warna hangat, edukatif.'",
+          "tone": "narrative",
+          "source": "§19 Prompt AI"
+        },
+        {
+          "text": "**Prompt tambahan — kasus latihan (mini-case generator)**: 'Buatkan 3 skenario OSCE APN kala II tingkat mudah, sedang, sulit. Setiap skenario berisi: identitas pasien fiktif, keluhan, data klinis (HPHT, paritas, HIS, pembukaan, DJJ), pertanyaan pemandu, dan kunci jawaban. Berikan variasi skenario (misalnya: kala II normal, distosia bahu, atau gawat janin dengan mekonium).'",
+          "tone": "narrative",
+          "source": "§19 Prompt Tambahan"
+        },
+        {
+          "text": "Referensi ringkas: **Checklist skill lab Blok 6.1 FKIK Universitas Jambi** sesuai file PDF yang diberikan pengguna. **SKDI 2012 tingkat kemampuan 4A**, dipakai sebagai peta penyakit relevan pada domain Obstetri dan Ginekologi. **WHO. Intrapartum care for a positive childbirth experience.** 2018. **WHO. Recommendations on the assessment of postpartum blood loss and use of a treatment bundle for postpartum haemorrhage.** 2023. **WHO. Guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, second edition.** 2021. **CDC. Sexually Transmitted Infections Treatment Guidelines:** urethritis, cervicitis, vaginitis, BV, gonorrhoea, chlamydia. 2021, website updated by CDC. **Catatan penting**: Keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "evidence",
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "**Lampiran A — Kontraindikasi, Red Flags, dan Kondisi Khusus** (16 kondisi): Prolaps tali pusat → kompresi tali pusat, gawat janin cepat → **Emergency SC** atau reposisi. Gawat janin/DJJ abnormal → tanda janin tidak sehat → Stabilkan, resusitasi intrauterin, atau emergensi SC. Distosia bahu → kepala lahir, bahu tidak → Manuver McRobert, suprapubik, episiotomi lebar, manuver delivre. Partus macet (prolonged second stage) → bayi tidak lahir >2 jam → Evaluasi, eskalasi, kemungkinan vakum/forceps. Presentasi majemuk (compound) → tangan/kaki menumbung → Evaluasi ulang, sering perlu SC. Cairan ketuban hijau kental (mekonium) → tanda gawat janin, risiko aspirasi → Siap resusitasi BBL, observasi ketat. Riwayat SC klasik → risiko ruptura uteri → Waspadai, rujuk. Ibu dengan preeklampsia/eklampsia → risiko kejang, perdarahan → Stabilkan (MgSO4), lalu rujuk. Ibu dengan syok/perdarahan aktif → tidak stabil untuk prosedur elektif → Stabilkan, rujuk. Fasilitas tidak lengkap (tanpa dokter anak, anestesi, bank darah) → risiko tidak tertangani → Rujuk ke fasilitas yang lebih lengkap.",
+          "tone": "clinical",
+          "source": "LAMPIRAN A"
+        },
+        {
+          "text": "Lampiran A lanjutan: Alergi uterotonika → reaksi alergi → Ganti uterotonika sesuai SOP. Hipertensi → kontraindikasi metilergometrin → Hindari metilergometrin, ganti misoprostol. Asma → kontraindikasi karboprost → Hindari karboprost. Pasien menolak tindakan → hak pasien → Informed consent, dokumentasi. Bayi tidak menangis/lemas → Apgar rendah, asfiksia → Resusitasi sesuai algoritme. Hipotermia BBL → suhu <36,5°C → Hangatkan, IMD, kontak kulit.",
+          "tone": "clinical",
+          "source": "LAMPIRAN A Lanjutan"
+        },
+        {
+          "text": "**Lampiran B — Masalah Saat Prosedur dan Respons Aman** (17 masalah dengan tanda/gejala, respons, dan kapan hentikan): DJJ abnormal → Evaluasi, resusitasi BBL siap, eskalasi → Selalu emergency. Distosia bahu → McRobert, suprapubik, episiotomi lebar → Selalu. Prolaps tali pusat → Knee-chest, dorong presentasi, SC emergensi → Selalu. Lilitan tali pusat ketat → Klem 2 tempat, potong → Selalu. Bayi tidak menangis/lemas → Langkah awal BBL: hangatkan, posisi, stimulasi, ventilasi → Selalu. Hipotermia BBL → Hangatkan, IMD, kontak kulit → Selalu. Oksitosin sebelum hamil tunggal → Verifikasi, jangan suntik → Selalu. Partus macet → Evaluasi, eskalasi, kemungkinan vakum/forceps → Selalu. Perdarahan intrapartum >500 mL → Evaluasi, uterotonika, transfusi, rujuk → Tidak ada (lanjut). Cairan ketuban hijau kental → Siap resusitasi, isap lendir → Selalu. Ruptura uteri → Emergency: stabilkan, rujuk laparotomi → Selalu. Robekan perineum luas → Jahit, atau rujuk derajat 3-4 → Tidak ada. Histerektomi emergensi → Rujuk ke operator terlatih → Tidak ada. Spasme serviks/ostium menutup → Tunggu relaksasi, sedasi, atau rujuk → Tidak ada. Gangguan koagulasi → FFP, trombosit, rujuk → Selalu. Emboli air ketuban → Resusitasi, ICU, rujuk → Selalu. Hiperbilirubinemia → Fototerapi, rujuk → Selalu. **Prinsip utama**: Keselamatan pasien > kelengkapan prosedur. **Jangan memaksakan kelahiran pervaginam pada kondisi emergensi.**",
+          "tone": "clinical",
+          "source": "LAMPIRAN B"
+        },
+        {
+          "text": "**Lampiran C — OSCE Mini-Case untuk Latihan Cepat** (4 skenario). **Skenario Mudah (Kala II Normal, Ibu Stabil)**: Ny. Dewi, 26 tahun, G1P0A0, hamil 39 minggu, datang dalam persalinan kala I aktif. Kontraksi adekuat, DJJ 140 x/menit. Pembukaan sudah lengkap, ketuban pecah spontan jernih 30 menit lalu, presentasi kepala. Ibu ingin meneran, suami mendampingi. Informed consent verbal sudah diberikan. Kunci: Diagnosis G1P0A0, hamil 39 minggu, kala II, presentasi kepala. Tanda kala II: dorongan meneran, perineum menonjol, vulva dan anus membuka. Meneran: saat HIS, ibu boleh menarik napas dalam dan meneran. Istirahat di antara HIS. DJJ dicek tiap selesai kontraksi. Lindungi perineum: saat kepala membuka vulva 5-6 cm, pasang handuk, lindungi perineum, tahan defleksi, minta ibu napas cepat. Oksitosin: setelah pastikan hamil tunggal, suntik 10 IU IM dalam 1 menit pasca bayi lahir. IMD: bayi di dada ibu, kontak kulit, minimal 1 jam. Jebakan nilai: memimpin meneran tanpa pastikan pembukaan lengkap, lupa DJJ, oksitosin sebelum hamil tunggal.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C Skenario 1"
+        },
+        {
+          "text": "**Skenario Sedang (Kala II + DJJ Abnormal/Mekonium)**: Ny. Dewi, 26 tahun, kala II, pembukaan lengkap. Saat bimbing meneran, DJJ turun menjadi 100 x/menit, ketuban hijau kental. Kontraksi masih adekuat. Presentasi kepala, station +2. Kunci: Diagnosis kala II + gawat janin (DJJ 100, bradikardia) + mekonium. Tatalaksana: (1) Hentikan bimbing meneran (kurangi kompresi); (2) Ubah posisi ibu (kiri atau knee-chest untuk relaksasi dan perfusi); (3) Oksigen ibu; (4) Evaluasi penyebab (prolaps tali pusat? deselerasi lambat?); (5) Pertimbangkan akselerasi kelahiran (kalau bisa dalam beberapa menit); (6) Siapkan resusitasi BBL — isap lendir di bawah pita suara oleh neonatologis; (7) Rujuk jika tidak stabil (operator terlatih, vakum/forceps, atau SC emergensi). Setelah bayi lahir: Apgar 1 dan 5, resusitasi sesuai algoritme, pertimbangkan mekonium aspiration syndrome. Jebakan: terlambat resusitasi, tidak siapkan alat BBL, tidak evaluasi penyebab DJJ abnormal.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C Skenario 2"
+        },
+        {
+          "text": "**Skenario Sulit (Distosia Bahu)**: Ny. Dewi, 26 tahun, kala II, presentasi kepala. Kepala bayi lahir spontan, Apgar sementara 8. Tali pusat tidak ada lilitan. Bayi tidak berputar paksi luar. Suami panik. Kontraksi masih adekuat. DJJ mulai turun 100 x/menit. Kunci: Diagnosis **distosia bahu**. Tatalaksana urutan manuver: (1) McRobert — hiperfleksi paha ibu ke abdomen; (2) Suprapubik — tekanan di atas simfisis untuk mendorong bahu anterior ke bawah; (3) Episiotomi lebar — untuk ruang manuver; (4) Manuver delivre — lahirkan bahu posterior dengan jari; (5) Gaskin (all fours) — posisi ibu merangkak, bahu posterior lahir spontan; (6) Rujuk jika gagal (operator terlatih, SC emergensi). **Jangan menarik kepala** — risiko trauma pleksus brakialis. Jebakan: menarik kepala kuat, tidak urutan manuver, terlambat rujuk.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C Skenario 3"
+        },
+        {
+          "text": "**Skenario Tambahan: Prolaps Tali Pusat**: Ny. Dewi, 26 tahun, kala II, presentasi kepala, pembukaan lengkap. Tiba-tiba tali pusat menumbung dari vagina saat ketuban pecah. DJJ 130 x/menit. Ibu cemas. Kunci: Diagnosis **prolaps tali pusat**. Tatalaksana awal: (1) Posisikan knee-chest atau Trendelenburg; (2) Dorong presentasi dengan tangan (mempertahankan kepala tidak menekan tali pusat); (3) Oksigen ibu; (4) Kosongkan kandung kemih (kateterisasi); (5) **JANGAN dorong tali pusat kembali** ke vagina; (6) Panggil tim emergensi — SpOG, anestesi, neonatologis; (7) SC emergensi — intervensi definitif. **Jangan meneran** sampai bayi lahir. Jebakan: meneran, mendorong tali pusat kembali, terlambat rujuk.",
+          "tone": "narrative",
+          "source": "LAMPIRAN C Skenario 4"
+        },
+        {
+          "text": "**Lampiran D — Checklist Verbal Sebelum Mulai Tindakan** (10 kalimat yang harus diucapkan dalam 60-90 detik pertama station). 1) *'Selamat pagi, Ibu Dewi. Saya dokter muda yang akan membantu persalinan Ibu. Saya akan menjelaskan tindakan, risiko, dan meminta persetujuan Ibu.'* 2) *'Ibu, HIS terasa kuat. Saya periksa dalam: pembukaan sudah lengkap 10 cm. Saat HIS, ibu boleh menarik napas dalam dan meneran mengikuti dorongan. Saat santai, istirahat dulu.'* 3) *'Saya cek detak jantung bayi tiap selesai HIS. Semangat, ya, Bu.'* 4) *'Ibu, kepala bayi sudah mulai kelihatan. Saya lindungi perineum dengan kain. Sekarang, jangan meneran dulu. Napas cepat, ya, seperti meniup lilin. Saya bantu mengeluarkan kepala secara perlahan.'* 5) *'Bagus, Bu. Kepala bayi sudah lahir. Saya periksa tali pusat di leher bayi. Tidak ada lilitan. Sekarang saya tunggu bayi berputar, lalu saya bantu mengeluarkan bahu dan badan.'*",
+          "tone": "narrative",
+          "source": "LAMPIRAN D"
+        },
+        {
+          "text": "Lampiran D lanjutan: 6) *'Selamat, Bu! Bayi Ibu lahir! Saya letakkan bayi di dada Ibu. Kontak kulit ke kulit, ya. Saya jepit tali pusat, suntik obat agar rahim berkontraksi. IMD minimal 1 jam, Bu.'* 7) *'Bayi Ibu menangis kuat, kulit kemerahan, tonus aktif. Apgar 9/10, Bu. Bayi sehat.'* 8) *'Ibu, bayi sudah lahir. Saya observasi Ibu 1-2 jam, cek TTV, perdarahan, kontraksi. Saya ajarkan Ibu cara masase fundus. Tanda bahaya: perdarahan makin banyak, pusing, lemas, demam, atau bayi tidak mau menyusu.'* 9) *'Terima kasih, Bu. Saya doakan Ibu dan bayi sehat selalu.'* 10) *'Ada pertanyaan, Bu?'* **Prinsip**: Pada APN kala II, urutan **pengenalan kala II → persiapan → bimbing meneran → lindungi perineum → IMD** adalah yang paling penting. Verbalisasi setiap langkah dengan nada jelas.",
+          "tone": "narrative",
+          "source": "LAMPIRAN D Lanjutan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "7 visual yang disarankan untuk APN kala II:",
+          "sub": [
+            "1) Tanda kala II — perineum menonjol, vulva membuka, tekanan rektum, posisi janin rendah",
+            "2) Set persalinan dan resusitasi BBL — flat lay alat APN",
+            "3) Posisi meneran — setengah duduk, miring kiri, jongkok dengan dukungan",
+            "4) Perlindungan perineum — tangan melindungi, tangan lain mengontrol kepala bayi",
+            "5) Putaran paksi luar — diagram kepala bayi setelah lahir rotasi eksternal",
+            "6) Penanganan lilitan tali pusat — longgar vs ketat",
+            "7) Kontak kulit ke kulit (IMD) — bayi di dada ibu, selimuti dan topi, 1 jam"
+          ],
+          "bold": true,
+          "source": "§19 Saran Visual"
+        },
+        {
+          "text": "6 referensi utama APN kala II:",
+          "sub": [
+            "Checklist skill lab Blok 6.1 FKIK Universitas Jambi (PDF)",
+            "SKDI 2012 tingkat kemampuan 4A",
+            "WHO. Intrapartum care for a positive childbirth experience. 2018",
+            "WHO. Recommendations on the assessment of postpartum blood loss. 2023",
+            "WHO. Guideline for screening and treatment of cervical pre-cancer lesions. 2021",
+            "CDC. Sexually Transmitted Infections Treatment Guidelines. 2021"
+          ],
+          "bold": true,
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "4 mini-case OSCE untuk latihan (Lampiran C):",
+          "sub": [
+            "1) Skenario Mudah: Kala II Normal, Ibu Stabil (Ny. Dewi, G1P0A0, DJJ 140, pembukaan lengkap)",
+            "2) Skenario Sedang: Kala II + DJJ Abnormal/Mekonium (DJJ 100, ketuban hijau kental)",
+            "3) Skenario Sulit: Distosia Bahu (kepala lahir, bahu tidak, DJJ turun)",
+            "4) Tambahan: Prolaps Tali Pusat (tali pusat menumbung saat ketuban pecah)"
+          ],
+          "bold": true,
+          "source": "LAMPIRAN C"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Peringatan — Kontraindikasi dan Red Flags",
+          "text": "Lampiran A: 16 kondisi yang menunda atau membatalkan kelahiran pervaginam, termasuk prolaps tali pusat, gawat janin, distosia bahu, partus macet, presentasi majemuk, mekonium kental, riwayat SC klasik, preeklampsia/eklampsia, syok/perdarahan aktif, fasilitas tidak lengkap, alergi uterotonika, hipertensi, asma, pasien menolak, bayi asfiksia, hipotermia BBL.",
+          "answer_evidence": "LAMPIRAN A"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya — Prinsip Utama Lampiran B",
+          "text": "Keselamatan pasien > kelengkapan prosedur. **Jangan memaksakan kelahiran pervaginam pada kondisi emergensi.** 17 masalah prosedur dengan respons aman: DJJ abnormal, distosia bahu, prolaps tali pusat, lilitan tali pusat ketat, bayi tidak menangis/lemas, hipotermia BBL, oksitosin sebelum hamil tunggal, partus macet, perdarahan intrapartum, ketuban hijau kental, ruptura uteri, robekan perineum luas, histerektomi emergensi, spasme serviks, gangguan koagulasi, emboli air ketuban, hiperbilirubinemia.",
+          "answer_evidence": "LAMPIRAN B Prinsip Utama"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips — Prompt AI Visual",
+          "text": "Jangan menampilkan bagian genital nyata secara vulgar; gunakan gaya ilustrasi medis, manekin, atau diagram anatomi profesional. Label jelas dengan Bahasa Indonesia.",
+          "answer_evidence": "§19 Cara Pakai Prompt"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan — Lampiran D Prinsip",
+          "text": "Pada APN kala II, urutan **pengenalan kala II → persiapan → bimbing meneran → lindungi perineum → IMD** adalah yang paling penting. Verbalisasi setiap langkah dengan nada jelas.",
+          "answer_evidence": "LAMPIRAN D Prinsip"
+        }
+      ],
+      "visual_refs": [
+        "visual_apn_kala2_tanda_01",
+        "visual_apn_kala2_set_alat_02",
+        "visual_apn_kala2_posisi_meneran_03",
+        "visual_apn_kala2_cardinal_04",
+        "visual_apn_kala2_perlindungan_perineum_05",
+        "visual_apn_kala2_putaran_paksi_06",
+        "visual_apn_kala2_lilitan_tali_07",
+        "visual_apn_kala2_imd_08"
+      ],
+      "glossary_refs": [
+        "gls_apn_kala2_cardinal_01",
+        "gls_apn_kala2_engagement_02",
+        "gls_apn_kala2_episiotomi_03",
+        "gls_apn_kala2_apgar_04",
+        "gls_apn_kala2_imd_05",
+        "gls_apn_kala2_kala2_09",
+        "gls_apn_kala2_djj_10"
+      ],
+      "bilingual": "Visual 7: tanda kala II, set persalinan + resusitasi BBL, posisi meneran, perlindungan perineum, putaran paksi luar, lilitan tali pusat, IMD. Referensi: WHO intrapartum 2018, SKDI 2012, POGI, CDC. Lampiran A: 16 kontraindikasi/red flags. Lampiran B: 17 masalah prosedur + respons. Lampiran C: 4 mini-case (mudah, sedang, sulit, prolaps). Lampiran D: 10 kalimat verbal pembuka."
+    }
+  ]
+}

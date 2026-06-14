@@ -1,0 +1,1318 @@
+{
+  "id": "mod_obgyn_skill_peta_besar_reproduksi_001",
+  "title": "Peta Besar Skill Lab Reproduksi",
+  "subtitle": "Overview kompetensi OSCE Blok 6.1 (Obstetri & Ginekologi): alur universal, checklist penilaian, anamnesis, pemeriksaan, prosedur, dan kesalahan fatal.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_1",
+  "source_pdf": "Batch1_6.1_Modul_1_Peta_Besar_Reproduksi_Obgyn.docx",
+  "source_filename": "Batch1_6.1_Modul_1_Peta_Besar_Reproduksi_Obgyn.docx",
+  "topicTags": [
+    "osce_6_1",
+    "obstetri_ginekologi",
+    "peta_kompetensi",
+    "overview_skill_lab",
+    "komunikasi_osce",
+    "informed_consent",
+    "leopold",
+    "posisi_litotomi",
+    "anamnesis_ginekologi",
+    "skdi_4a"
+  ],
+  "summary": [
+    "Modul 001 adalah peta besar (overview) untuk seluruh keterampilan klinik Blok 6.1 Reproduksi (Obstetri & Ginekologi) yang ditargetkan level SKDI 4A (mandiri) untuk dokter umum, mencakup ginekologi dasar, diagnostik, fertilitas/KB, kehamilan, persalinan, nifas, dan laktasi.",
+    "Alur universal OSCE Blok 6.1 yang harus dihafalkan: baca instruksi → salam & perkenalan → konfirmasi identitas → jelaskan tindakan bahasa awam → informed consent → privasi & chaperone → cuci tangan & APD → persiapan alat → anamnesis terstruktur → TTV → pemeriksaan fisik → prosedur/tindakan → sebutkan temuan → edukasi & safety-net → dokumentasi SOAP → dekontaminasi → keluar station.",
+    "Checklist penilaian OSCE berisi 20 item terstruktur: salam, konfirmasi identitas, informed consent, privasi/chaperone, cuci tangan 6 langkah, APD, persiapan alat, anamnesis terstruktur, TTV, pemeriksaan fisik terjadwal, inspeksi & palpasi, pemeriksaan penunjang, identifikasi red flags, diagnosis kerja, tatalaksana, edukasi, safety-net, dekontaminasi, pelepasan APD, dan dokumentasi SOAP.",
+    "Anamnesis ObGyn wajib menggali 5 pertanyaan kunci: kemungkinan hamil, alergi obat, tanda bahaya (perdarahan/nyeri/demam), tujuan kunjungan, dan riwayat kontrol/tindakan sebelumnya; setiap pertanyaan punya alasan klinis dan langkah tindak lanjut bila ditemukan masalah.",
+    "Pemeriksaan fisik ObGyn dilakukan bertahap dari non-invasif ke invasif dan non-genital ke genital: TTV → umum → abdomen (IAPP) → genital eksterna & inspeksi serviks → spekulum → bimanual; urutan ini menilai stabilitas hemodinamik sebelum tindakan definitif.",
+    "Lima jenis pemeriksaan fisik yang harus dikuasai pada modul ini adalah pemeriksaan tanda vital & umum, abdomen (inspeksi/auskultasi/perkusi/palpasi/Leopold), genital eksterna & inspeksi serviks, spekulum (Cusco), dan bimanual untuk menilai serviks, uterus, dan adneksa.",
+    "Fase universal prosedur ObGyn terdiri dari Persiapan (informed consent, posisi litotomi, drape, chaperone, pengosongan kandung kemih, asepsis), Pelaksanaan (anamnesis, TTV, pemeriksaan, prosedur inti sesuai topik dengan verbalisasi temuan), dan Evaluasi/Konfirmasi (keberhasilan, efek samping, dekontaminasi, edukasi, dokumentasi SOAP, penutup station).",
+    "Red flags universal yang wajib dikenali di OSCE ObGyn: syok, kehamilan dengan perdarahan/nyeri hebat/hipertensi/kejang/gerak janin berkurang, PID dengan CMT (+) dan demam, perdarahan postpartum/atonía uteri, lesi curiga ganas pada serviks/payudara, dan robekan perineum derajat 3-4 dengan tanda infeksi atau inkontinensia.",
+    "Klasifikasi SKDI 4A pada Blok 6.1 Reproduksi meliputi kontrasepsi, duh genital, sistitis, kehamilan normal & ANC, aborsi spontan komplit, anemia defisiensi besi pada kehamilan, ruptur perineum derajat 1-2, mastitis/laktasi, dan abses folikel vulva; sementara PID, kehamilan ektopik, preeklampsia/eklampsia, presentasi bokong, perdarahan postpartum, dan kanker serviks adalah level 3B (wajib rujuk).",
+    "Skenario pasien fiktif yang digunakan konsisten di seluruh modul adalah Ny. Sari, 28 tahun, G1P0A0, hamil 32 minggu — skenario ini dipakai di §1, §9, §13, §15, dan Lampiran C sebagai identitas latihan terpadu untuk ANC, persalinan, dan nifas."
+  ],
+  "exam_focus": [
+    "FATAL: tidak melakukan informed consent sebelum menyentuh pasien/manekin → skor hangus untuk komponen etik/komunikasi.",
+    "FATAL: tidak menjaga privasi (tidak menutup area non-genital, tidak ada chaperone untuk pemeriksaan genital) → skor hangus untuk privasi.",
+    "FATAL: tidak cuci tangan sebelum kontak pasien / prosedur aseptik → skor hangus untuk komponen asepsis.",
+    "FATAL: memasukkan alat intrauterin tanpa visualisasi serviks (mis. pasang IUD tanpa spekulum) → risiko perforasi, skor hangus.",
+    "FATAL: tidak mengenali tanda bahaya / red flags (mis. TD tinggi pada hamil, perdarahan postpartum, PPH, asfiksia BBL) → skor hangus untuk clinical reasoning.",
+    "PENGURANGAN BESAR: tidak menyebutkan diagnosis kerja dengan jelas → tatalaksana tidak punya dasar, skor turun signifikan.",
+    "PENGURANGAN BESAR: tidak menulis dokumentasi SOAP atau SOAP tidak lengkap → skor turun untuk rekam medis.",
+    "PENGURANGAN BESAR: tidak memberi edukasi safety-net (kapan harus kembali/ke IGD) → skor turun untuk edukasi.",
+    "PENGURANGAN BESAR: tidak verbalisasi temuan (penguji tidak tahu apa yang ditemukan) → skor turun meskipun pemeriksaan benar.",
+    "Verbalisasi adalah kunci: setiap langkah (informed consent, inspeksi, palpasi, temuan, red flags) HARUS diucapkan dengan suara keras — penguji memberi nilai 0 untuk item yang tidak diucapkan walaupun tindakan dilakukan dengan benar."
+  ],
+  "glossary": [
+    {
+      "id": "gls_peta_besar_posisi_litotomi_01",
+      "term": "Posisi litotomi",
+      "def": "Posisi pasien berbaring telentang dengan tungkai difleksi dan diabduksi pada penyangga, bokong sedikit melewati tepi meja periksa. Digunakan untuk semua prosedur ginekologi (inspeksi genital, spekulum, bimanual, IUD, IVA, Pap smear) agar area genital dapat diakses dengan pencahayaan dan privasi yang adekuat.",
+      "type": "procedure",
+      "aliases": [
+        "lithotomy position",
+        "litotomi"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_informed_consent_02",
+      "term": "Informed consent",
+      "def": "Persetujuan yang diberikan pasien setelah penjelasan tujuan, prosedur, rasa tidak nyaman, risiko, manfaat, dan alternatif tindakan dalam bahasa awam. Wajib verbalized di awal station OSCE sebelum menyentuh pasien; kegagalan melakukannya menyebabkan skor hangus untuk komponen etik/komunikasi.",
+      "type": "procedure",
+      "aliases": [
+        "persetujuan tindakan",
+        "informed consent"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_apd_03",
+      "term": "APD (Alat Pelindung Diri)",
+      "def": "Perlengkapan yang dipakai untuk mencegah transmisi infeksi antara petugas dan pasien: sarung tangan (steril untuk prosedur invasif, bersih untuk pemeriksaan), masker (bila ada risiko percikan), kacamata pelindung, dan apron/plastik. Wajib dipakai saat kontak dengan area genital/mukosa atau saat tindakan berisiko percikan darah/cairan tubuh.",
+      "type": "procedure",
+      "aliases": [
+        "APD",
+        "alat pelindung diri",
+        "PPE"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_cuci_tangan_who_04",
+      "term": "Cuci tangan 6 langkah WHO",
+      "def": "Prosedur hand hygiene 40-60 detik dengan sabun dan air mengalir, atau handrub berbasis alkohol, mengikuti 6 langkah standar WHO (telapak, punggung tangan, sela-sela jari, ujung jari, ibu jari, dan pergelangan). Wajib dilakukan pada 5 momen: sebelum kontak pasien, sebelum tindakan aseptik, setelah paparan cairan tubuh, setelah kontak pasien, dan setelah kontak lingkungan pasien.",
+      "type": "procedure",
+      "aliases": [
+        "hand hygiene",
+        "6 langkah cuci tangan"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_leopold_05",
+      "term": "Manuver Leopold 1-4",
+      "def": "Empat palpasi obstetri pada abdomen ibu hamil untuk menentukan presentasi, posisi, dan penurunan janin: L1 (fundus) — tentukan bagian janin di fundus; L2 (lateral) — tentukan punggung dan ekstremitas di sisi uterus; L3 (suprasimpisis) — tentukan bagian terbawah; L4 (PAP) — tentukan seberapa jauh bagian terbawah masuk pintu atas panggul. Dilakukan setelah usia kehamilan >28 minggu saat fundus setinggi pusat atau lebih.",
+      "type": "procedure",
+      "aliases": [
+        "Leopold",
+        "palpasi obstetri",
+        "Leopold maneuvers"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_tfu_06",
+      "term": "TFU (Tinggi Fundus Uteri)",
+      "def": "Pengukuran jarak dari simfisis pubis hingga fundus uteri dalam centimeter menggunakan pita ukur, untuk memperkirakan usia kehamilan dan pertumbuhan janin. Pada kehamilan cukup bulan, TFU mencapai setinggi prosesus xifoideus; pada 20 minggu TFU setinggi pusat, dan penambahan sekitar 1 cm per minggu sampai 36 minggu.",
+      "type": "clinical",
+      "aliases": [
+        "tinggi fundus uteri",
+        "fundal height"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_djj_07",
+      "term": "DJJ (Denyut Jantung Janin)",
+      "def": "Detak jantung janin yang dideteksi menggunakan doppler (mulai usia kehamilan >12 minggu) atau fetoskop/Pinard (mulai >20 minggu). Nilai normal 110-160 kali per menit; <110 (bradikardia) atau >160 (takikardia) merupakan tanda gawat janin yang memerlukan tatalaksa segera.",
+      "type": "clinical",
+      "aliases": [
+        "denyut jantung janin",
+        "FHR",
+        "fetal heart rate"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_spekulum_cusco_08",
+      "term": "Spekulum Cusco",
+      "def": "Spekulum dua bilah (bivalve) untuk membuka dinding vagina dan memvisualisasi serviks dan forniks pada pemeriksaan ginekologi. Dipilih sesuai ukuran (S/M/L), dihangatkan atau diolesi lubrikan water-based, dimasukkan oblique ke arah posterior lalu diputar horizontal, dan dibuka perlahan. Digunakan untuk Pap smear, IVA, swab endoserviks, dan inspeksi lesi serviks/vagina.",
+      "type": "anatomy",
+      "aliases": [
+        "Cusco speculum",
+        "speculum vagina"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_cmt_09",
+      "term": "CMT (Cervical Motion Tenderness)",
+      "def": "Nyeri goyang serviks yang muncul saat serviks digerakkan dengan jari pada pemeriksaan bimanual. Merupakan tanda klasik PID (penyakit radang panggul) bila disertai nyeri adneksa, demam, dan discharge purulen, atau tanda kehamilan ektopik bila disertai amenore, perdarahan, dan nyeri perut unilateral.",
+      "type": "clinical",
+      "aliases": [
+        "nyeri goyang serviks",
+        "cervical motion tenderness",
+        "CMT"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_pph_10",
+      "term": "PPH (Perdarahan Pascapersalinan)",
+      "def": "Perdarahan >500 mL pada persalinan normal atau >1000 mL pada persalinan operasi dalam 24 jam pertama postpartum. Penyebab paling sering disingkat 4T: Tonus (atonia uteri), Trauma (laserasi jalan lahir), Tissue (sisa plasenta), dan Thrombin (gangguan pembekuan). Tatalaksa awal: masase uterus bimanual, uterotonika (oksitosin, metilergometrin, misoprostol), kompresi bimanual, dan rujuk emergensi.",
+      "type": "clinical",
+      "aliases": [
+        "perdarahan postpartum",
+        "postpartum hemorrhage"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_empat_t_11",
+      "term": "4T (Penyebab PPH)",
+      "def": "Singkatan untuk empat penyebab utama perdarahan pascapersalinan: Tonus (atonia uteri — paling sering, ~70%), Trauma (laserasi serviks/vagina/perineum, hematoma), Tissue (sisa plasenta atau kotiledon), dan Thrombin (koagulopati herediter atau acquired seperti HELLP, DIC). Pendekatan tatalaksa PPH menggunakan algoritme 4T untuk memastikan tidak ada penyebab yang terlewat.",
+      "type": "clinical",
+      "aliases": [
+        "4T",
+        "4 T's of PPH"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_iud_copper_12",
+      "term": "IUD Copper T 380A",
+      "def": "Alat kontrasepsi dalam rahim (AKDR) berbentuk T dengan lilitan tembaga 380 mm² yang bekerja sebagai spermisida lokal (toksik buat sperma) dan mencegah fertilisasi. Efektif 10 tahun, dapat dipasang kapan saja bila tidak hamil, efek samping utama haid lebih banyak/nyeri, dan kontraindikasi absolut: hamil, PID aktif, kanker serviks, atau perdarahan abnormal belum terdiagnosis.",
+      "type": "procedure",
+      "aliases": [
+        "IUD tembaga",
+        "AKDR",
+        "Copper T 380A",
+        "IUCD"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_iva_13",
+      "term": "IVA (Inspeksi Visual Asam Asetat)",
+      "def": "Skrining kanker serviks dengan mengoleskan asam asetat 3-5% pada serviks dan menginspeksi zona transformasi setelah 30-60 detik. Acetowhite lesion yang tebal dan jelas pada OUE dicurigai displasia/CIN dan dirujuk untuk kolposkopi/biopsi; IVA negatif berarti tidak ada lesi acetowhite. Sasaran wanita usia 30-50 tahun yang sudah aktif seksual, di luar masa haid, dan tidak sedang hamil.",
+      "type": "procedure",
+      "aliases": [
+        "IVA",
+        "Visual Inspection with Acetic Acid",
+        "skrining kanker serviks"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_kardinal_movements_14",
+      "term": "Kardinal movements (persalinan normal)",
+      "def": "Tujuh gerakan mekanis kepala janin saat melewati jalan lahir pada persalinan normal: engagement, descent, flexion, internal rotation, extension (kepala lahir), external rotation/restitution, dan expulsion (bahu dan badan lahir). Urutan ini harus dihafal dan dijelaskan pada OSCE persalinan kala II.",
+      "type": "clinical",
+      "aliases": [
+        "cardinal movements",
+        "7 gerakan kardinal persalinan",
+        "mekanisme persalinan"
+      ]
+    },
+    {
+      "id": "gls_peta_besar_skdi_4a_15",
+      "term": "SKDI 4A",
+      "def": "Standar Kompetensi Dokter Indonesia level 4A yang berarti dokter umum layanan primer harus mampu menangani secara mandiri pada saat lulus. Pada Blok 6.1 Reproduksi, kompetensi 4A meliputi kontrasepsi, duh genital, sistitis, kehamilan normal/ANC, aborsi spontan komplit, anemia defisiensi besi pada kehamilan, ruptur perineum derajat 1-2, mastitis/laktasi, dan abses folikel vulva.",
+      "type": "score",
+      "aliases": [
+        "SKDI 4A",
+        "Standar Kompetensi Dokter Indonesia 4A"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_peta_besar_01",
+      "term_id": "Informed consent",
+      "term_en": "Informed consent",
+      "context": "Persetujuan pasien setelah penjelasan tujuan, prosedur, risiko, manfaat, dan alternatif — wajib verbalized sebelum tindakan."
+    },
+    {
+      "id": "bil_peta_besar_02",
+      "term_id": "Posisi litotomi",
+      "term_en": "Lithotomy position",
+      "context": "Posisi pasien berbaring telentang dengan tungkai difleksi dan diabduksi untuk prosedur ginekologi."
+    },
+    {
+      "id": "bil_peta_besar_03",
+      "term_id": "Tinggi Fundus Uteri (TFU)",
+      "term_en": "Fundal height (FH)",
+      "context": "Pengukuran dari simfisis pubis ke fundus uteri (cm) untuk memperkirakan usia kehamilan."
+    },
+    {
+      "id": "bil_peta_besar_04",
+      "term_id": "Denyut Jantung Janin (DJJ)",
+      "term_en": "Fetal Heart Rate (FHR)",
+      "context": "Detak jantung janin yang dideteksi dengan doppler atau fetoskop; normal 110-160 kali/menit."
+    },
+    {
+      "id": "bil_peta_besar_05",
+      "term_id": "Perdarahan Pascapersalinan (PPH)",
+      "term_en": "Postpartum Hemorrhage (PPH)",
+      "context": "Perdarahan >500 mL (normal) atau >1000 mL (SC) dalam 24 jam postpartum; penyebab 4T."
+    },
+    {
+      "id": "bil_peta_besar_06",
+      "term_id": "Manuver Leopold 1-4",
+      "term_en": "Leopold maneuvers 1-4",
+      "context": "Empat palpasi obstetri untuk menentukan presentasi, posisi, dan penurunan janin."
+    },
+    {
+      "id": "bil_peta_besar_07",
+      "term_id": "Nyeri goyang serviks (CMT)",
+      "term_en": "Cervical Motion Tenderness (CMT)",
+      "context": "Nyeri saat serviks digerakkan pada bimanual — tanda klasik PID atau kehamilan ektopik."
+    },
+    {
+      "id": "bil_peta_besar_08",
+      "term_id": "Inspeksi Visual Asam Asetat (IVA)",
+      "term_en": "Visual Inspection with Acetic Acid (VIA)",
+      "context": "Skrining kanker serviks dengan asam asetat 3-5%; acetowhite positif curiga displasia."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_peta_besar_anatomi_pelvis_01",
+      "module_id": "mod_obgyn_skill_peta_besar_reproduksi_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Buatkan ilustrasi medis edukatif anatomi pelvis wanita tampak frontal dan sagital, label dalam Bahasa Indonesia (vagina, serviks, uterus, fundus, adneksa, kandung kemih, rektum, sakrum). Gaya clean medical illustration, warna natural, tidak vulgar, untuk bahan belajar mahasiswa kedokteran.",
+      "alt": "Ilustrasi anatomi pelvis wanita tampak frontal dan sagital dengan label Bahasa Indonesia: vagina, serviks, uterus, fundus, adneksa, kandung kemih, rektum, dan sakrum. Gaya medical illustration bersih untuk bahan belajar mahasiswa kedokteran.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/anatomi_pelvis.png"
+    },
+    {
+      "id": "visual_peta_besar_posisi_litotomi_02",
+      "module_id": "mod_obgyn_skill_peta_besar_reproduksi_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi skill lab: posisi litotomi pasien simulasi dengan drape menutupi perut dan paha, dokter muda memakai sarung tangan, lampu sorot menyala, suasana laboratorium kebidanan. Gaya semi-realistis edukatif, warna netral, label singkat dalam Bahasa Indonesia.",
+      "alt": "Ilustrasi posisi litotomi pasien simulasi dengan drape menutupi perut dan paha, dokter muda memakai sarung tangan dan lampu sorot menyala di laboratorium kebidanan. Label Bahasa Indonesia untuk elemen privasi dan APD.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/posisi_litotomi.png"
+    },
+    {
+      "id": "visual_peta_besar_spekulum_arah_03",
+      "module_id": "mod_obgyn_skill_peta_besar_reproduksi_001",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Diagram langkah memasukkan spekulum vagina pada manekin, panah arah masuk oblique ke posterior, rotasi horizontal, membuka blade secara perlahan, label Bahasa Indonesia untuk arah masuk dan rotasi.",
+      "alt": "Diagram langkah memasukkan spekulum vagina pada manekin dengan panah arah masuk oblique ke posterior, rotasi horizontal, dan membuka blade secara perlahan. Label Bahasa Indonesia untuk arah masuk, rotasi, dan pembukaan blade.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/spekulum_arah.png"
+    },
+    {
+      "id": "visual_peta_besar_leopold_4panel_04",
+      "module_id": "mod_obgyn_skill_peta_besar_reproduksi_001",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Empat panel manuver Leopold pada ibu hamil, masing-masing menampilkan posisi tangan pemeriksa pada fundus, lateral, suprasimfisis, dan pintu atas panggul, label langkah 1 sampai 4 dalam Bahasa Indonesia.",
+      "alt": "Empat panel manuver Leopold pada ibu hamil: panel 1 fundus untuk menentukan bagian janin di fundus, panel 2 lateral untuk punggung dan ekstremitas, panel 3 suprasimfisis untuk bagian terbawah, panel 4 pintu atas panggul (PAP) untuk penurunan. Label langkah 1 sampai 4 dalam Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/leopold_4panel.png"
+    },
+    {
+      "id": "visual_peta_besar_lochia_involusi_05",
+      "module_id": "mod_obgyn_skill_peta_besar_reproduksi_001",
+      "section_id": "s11",
+      "type": "infographic",
+      "generation_prompt": "Infografik postpartum: lochia rubra (hari 1-3, merah), lochia serosa (hari 4-10, kuning kecoklatan), lochia alba (hari >10, putih kekuningan); di sampingnya grafik tinggi fundus uteri hari demi hari (hari 1 setinggi pusat, turun 1-2 cm per hari). Label dalam Bahasa Indonesia.",
+      "alt": "Infografik postpartum menampilkan tiga fase lochia (rubra hari 1-3, serosa hari 4-10, alba hari >10) dan grafik involusi uterus hari demi hari. Label dalam Bahasa Indonesia untuk membedakan nifas normal versus perdarahan/infeksi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_peta_besar_reproduksi_001/assets/lochia_involusi.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s05",
+      "type": "content",
+      "source_query": "Daftar alat minimal yang harus disebutkan di station ObGyn",
+      "source_reference": "Standar OSCE ObGyn FKIK Universitas Jambi; konsisten dengan modul-modul ObGyn Batch 1-4",
+      "confidence": "high",
+      "note": "Daftar alat spesifik di §6 (sarung tangan, spekulum, sonde uterus, lampu, drape, dekontaminasi, dokumentasi, penunjang) ditambahkan saat standardisasi untuk konsistensi lintas modul."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Kriteria keberhasilan prosedur ObGyn (ginekologi, IUD, ANC, persalinan, nifas)",
+      "source_reference": "Standar operasional kebidanan dasar (APN, IUD, ANC); konsensus klinis",
+      "confidence": "high",
+      "note": "Kriteria keberhasilan prosedur di §8 (tidak ada perdarahan aktif, benang IUD teraba, DJJ normal, plasenta lengkap, fundus keras) ditambahkan saat standardisasi agar seragam."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Manajemen darurat ObGyn (PPH, preeklampsia, ektopik, PID, abortus, asfiksia BBL)",
+      "source_reference": "PNPK POGI, WHO safe motherhood, modul-modul ObGyn",
+      "confidence": "high",
+      "note": "Daftar obat di §11 (oksitosin, metilergometrin, misoprostol, MgSO4, nifedipin, labetalol, antibiotik PID) hanya disebutkan nama generik dan indikasi karena dosis spesifik bervariasi per topik dan modul lain."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Kalimat edukasi spesifik untuk tablet besi, KB IUD, tanda bahaya preeklampsia, IMD dan ASI eksklusif",
+      "source_reference": "Buku KIA Kemenkes; konseling KB terpadu; konsensus laktasi",
+      "confidence": "high",
+      "note": "Contoh kalimat edukasi spesifik di §12 ditambahkan untuk pola komunikasi yang konsisten dan aplikatif di station OSCE."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Format SOAP ObGyn dan kode ICD-10 Z34.9, O80, O09.90 untuk kehamilan",
+      "source_reference": "ICD-10 WHO 2019; format SOAP standar puskesmas dan RS pendidikan",
+      "confidence": "high",
+      "note": "Format SOAP lengkap dengan kode ICD-10 dan dokumen/kartu khusus (KIH, kartu IUD, surat rujukan, surat kelahiran) di §13 ditambahkan saat standardisasi."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "Mini-skrip komunikasi OSCE 4 fase (pembuka, anamnesis, prosedur, penutup)",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi; pola komunikasi klinis",
+      "confidence": "high",
+      "note": "Mini-skrip komunikasi di §15 dan Lampiran D adalah pola dialogis yang konsisten dengan modul OSCE FKIK Universitas Jambi; kalimat final harus disesuaikan dengan topik spesifik station."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Overview kompetensi OSCE Blok 6.1 (level SKDI 4A) yang dipetakan ke 6 klaster skill utama, ditambah alur universal OSCE 7 langkah yang harus dihafalkan untuk semua station ObGyn.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini adalah peta besar (overview) untuk seluruh keterampilan klinik di Blok 6.1 — Reproduksi: Obstetri dan Ginekologi. Dokumen sumber utama adalah Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi TA 2021/2022 yang memuat daftar kompetensi sistem reproduksi wanita dan tujuan pembelajaran, termasuk pemeriksaan ginekologi, pemeriksaan diagnostik, konseling dan kontrasepsi, kehamilan, proses melahirkan normal, serta perawatan masa nifas. Pada halaman 6-8, banyak tindakan diberi level 4A, artinya secara SKDI keterampilan tersebut ditargetkan dapat dilakukan mandiri saat lulus dokter; untuk OSCE, fokusnya adalah demonstrasi aman pada pasien simulasi atau manekin.",
+          "tone": "narrative",
+          "source": "§1 file sumber / halaman 1-2"
+        },
+        {
+          "text": "Peta kompetensi Blok 6.1 (level tinggi/4A) mencakup 6 klaster: (1) Ginekologi dasar — pemeriksaan乳腺癌, inspeksi/palpasi genitalia eksterna, spekulum, bimanual, dengan fokus menjaga privasi, menjelaskan tindakan, memakai sarung tangan, tahu posisi litotomi, dan menyebut temuan yang dicari; (2) Diagnostik ginekologi — swab vagina, penilaian duh genital (bau, pH, Gram, saline, KOH), Pap smear, IVA, dengan fokus indikasi, cara ambil, hasil yang diharapkan, dan edukasi setelah tindakan; (3) Fertilitas dan KB — penilaian semen, suhu basal, mukus serviks/tes fern, konseling kontrasepsi, insersi/ekstraksi IUD, kontrasepsi injeksi, komplikasi KB, dengan fokus anamnesis, seleksi klien, kontraindikasi, informed choice, dan follow-up; (4) Kehamilan — identifikasi risiko tinggi, konseling prakonsepsi, ANC, inspeksi abdomen, TFU-Leopold, DJJ, tes kehamilan, pelvimetri klinis, permintaan/skrining USG, dengan fokus alur ANC, tanda bahaya, usia kehamilan, posisi janin, dan kapan rujuk; (5) Persalinan normal — pemeriksaan obstetri, APN, amniotomi, anestesi lokal perineum, episiotomi, resusitasi BBL, Apgar, pemeriksaan BBL, estimasi darah, jahit laserasi derajat 1-2, IMD, kompresi bimanual, yang merupakan skill paling prosedural dan harus urut, aseptik, tahu fase kala, dan dapat menjelaskan tindakan kepada ibu; (6) Nifas dan laktasi — lochia, palpasi fundus, pemeriksaan乳腺癌/manajemen laktasi/massage, hygiene, KB pascasalin, perawatan luka episiotomi dan operasi sesar, dengan fokus edukasi, deteksi perdarahan/infeksi, menyusui, dan red flags postpartum.",
+          "tone": "narrative",
+          "source": "§1 file sumber / Tabel Peta Kompetensi"
+        },
+        {
+          "text": "Prinsip utama: checklist adalah prioritas tertinggi. Teori penyakit hanya dipakai untuk membuat tindakan OSCE masuk akal — mengapa ditanya, mengapa diperiksa, kapan rujuk, dan edukasi apa yang harus diberikan. Skenario klinis utama modul ini (digunakan konsisten di seluruh dokumen): Ibu hamil usia reproduksi datang ke puskesmas untuk berbagai keluhan reproduksi (ANC, keputihan, permintaan KB, nifas, laktasi) — pada OSCE station tertentu, skenario dipersempit (lihat Lampiran C). Karena modul ini adalah peta besar, skenario pasien fiktif yang digunakan untuk latihan adalah Ny. Sari, 28 tahun, G1P0A0, hamil 32 minggu, dengan identitas konsisten di §1, §9, §13, §15, dan Lampiran C.",
+          "tone": "narrative",
+          "source": "§1 file sumber / Prinsip utama"
+        },
+        {
+          "text": "Yang paling sering dinilai di OSCE Blok 6.1: urutan langkah klinis (komunikasi → anamnesis → pemeriksaan → tindakan → edukasi → dokumentasi); verbalisasi temuan (penguji menilai apa yang diucapkan, bukan hanya apa yang dilakukan); asepsis dan privasi (sarung tangan, drape, cuci tangan, posisi litotomi); red flags yang dikenali dan kapan harus rujuk. Cuplikan checklist penilaian dari file sumber (diadaptasi): ceklis penilaian skill lab biasanya mencakup komponen: salam & perkenalan, informed consent, anamnesis terstruktur, cuci tangan, APD, persiapan alat, pelaksanaan prosedur (sesuai topik), identifikasi temuan normal/abnormal, dekontaminasi alat, dokumentasi, dan edukasi tanda bahaya. Setiap item diberi skor 0-1 atau 0-2; total biasanya 20-30 item per station.",
+          "tone": "clinical",
+          "source": "§1 + §3 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alur universal OSCE Blok 6.1 yang harus dihafalkan:",
+          "sub": [
+            "Baca instruksi stasiun dengan teliti (tindakan apa, pasien/manekin, durasi, jenis output).",
+            "Masuk dengan salam, perkenalan nama/peran, konfirmasi identitas pasien, dan tanya keluhan singkat bila relevan.",
+            "Jelaskan tindakan dengan bahasa awam: tujuan, rasa tidak nyaman yang mungkin muncul, risiko umum, dan manfaat pemeriksaan.",
+            "Minta persetujuan, jaga privasi, tawarkan pendamping/chaperone untuk pemeriksaan genital/payudara, dan posisikan pasien.",
+            "Lakukan cuci tangan, pakai APD, siapkan alat, cek sterilitas/kedaluwarsa, dan lakukan tindakan sesuai checklist.",
+            "Sebutkan temuan yang dinilai: normal/abnormal, red flags, serta pemeriksaan penunjang atau rujukan bila perlu.",
+            "Berikan edukasi ringkas, tanda bahaya, kapan kontrol, dan dokumentasikan tindakan."
+          ],
+          "bold": true,
+          "source": "§2 file sumber / Alur Besar OSCE"
+        },
+        {
+          "text": "Lima pertanyaan kunci anamnesis ObGyn yang tidak boleh terlewat:",
+          "sub": [
+            "Apakah pasien hamil? (HPHT, tes kehamilan, tanda subjektif/objektif).",
+            "Apakah ada alergi obat atau riwayat reaksi obat?",
+            "Apakah ada perdarahan, nyeri hebat, atau demam?",
+            "Apa tujuan kunjungan — skrining, diagnosis, terapi, atau KB?",
+            "Kapan terakhir kontrol / apa yang sudah pernah dilakukan?"
+          ],
+          "bold": true,
+          "source": "§4 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Verbalisasi adalah kunci skor",
+          "text": "Setiap langkah alur universal OSCE (informed consent, inspeksi, palpasi, temuan, red flags, edukasi) HARUS diucapkan dengan suara keras, bukan hanya dilakukan dalam hati. Banyak penguji memberi nilai 0 pada item yang tidak diucapkan walaupun tindakan dilakukan dengan benar. Biasakan latihan dengan suara keras, bukan hanya di kepala.",
+          "answer_evidence": "Modul OSCE ObGyn FKIK Universitas Jambi; pola komunikasi klinis"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kalimat aman universal",
+          "text": "Kalimat aman yang harus selalu tersedia: \"Ibu, saya akan melakukan pemeriksaan sesuai instruksi untuk menilai kondisi reproduksi/kehamilan. Pemeriksaan ini mungkin terasa tidak nyaman, tetapi saya akan lakukan perlahan, menjaga privasi Ibu, dan Ibu boleh meminta saya berhenti kapan saja.\" Kalimat ini adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi dan harus disesuaikan dengan topik spesifik station.",
+          "answer_evidence": "Modul OSCE ObGyn FKIK Universitas Jambi [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_informed_consent_02",
+        "gls_peta_besar_skdi_4a_15"
+      ],
+      "bilingual": "Section ini memperkenalkan peta kompetensi 6 klaster OSCE Blok 6.1 dan alur universal 7 langkah yang harus dihafalkan di semua station ObGyn."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "20 item checklist OSCE Blok 6.1 yang diterjemahkan menjadi langkah praktis terstruktur dengan kalimat yang harus diucapkan dan kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tabel di bawah ini menerjemahkan checklist penilaian skill lab Blok 6.1 menjadi langkah praktis yang bisa dilakukan dan diucapkan. Semua item harus dilakukan secara berurutan. Setiap item memiliki cara melakukan agar skor maksimal, kalimat yang dapat diucapkan, dan kesalahan yang menurunkan nilai. Pada station OSCE, penguji menilai apakah setiap item terlihat dan terdengar jelas, sehingga verbalisasi sangat penting.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Checklist OSCE"
+        },
+        {
+          "text": "Item 1-4 (komunikasi awal): salam & perkenalan, konfirmasi identitas, informed consent, privasi & chaperone. Item 5-7 (asepsis & alat): cuci tangan 6 langkah, pemakaian APD, persiapan alat. Item 8-9 (anamnesis & TTV): anamnesis terstruktur, pemeriksaan tanda vital. Item 10-12 (pemeriksaan fisik): pemeriksaan terjadwal, inspeksi & palpasi, pemeriksaan penunjang sesuai topik. Item 13-15 (reasoning): identifikasi red flags, pemberian diagnosis kerja, tatalaksana/intervensi. Item 16-17 (edukasi): edukasi pasien, safety-net. Item 18-20 (pascatindakan): dekontaminasi alat, pelepasan APD, dokumentasi SOAP.",
+          "tone": "clinical",
+          "source": "§3 file sumber / Ringkasan 20 item"
+        },
+        {
+          "text": "Catatan: kolom 'Kalimat yang Dapat Diucapkan' dan 'Kesalahan yang Menurunkan Nilai' merupakan pola generik yang harus disesuaikan dengan topik spesifik (ANC, IUD, nifas, dll.) — lihat §15 untuk skrip lengkap. Verbalisasi temuan ('Saya melihat ... Saya meraba ...') wajib diucapkan, karena tanpa itu penguji tidak akan memberikan skor meskipun pemeriksaan dilakukan dengan benar.",
+          "tone": "narrative",
+          "source": "§3 file sumber / Catatan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist 20 item OSCE Blok 6.1 (cara melakukan, kalimat yang diucapkan, kesalahan yang menurunkan nilai):",
+          "sub": [
+            "Item 1 — Salam & perkenalan: sapa 'Selamat pagi', sebut nama & peran. Kalimat: 'Selamat pagi Ibu, saya dokter muda yang akan membantu pemeriksaan hari ini.' Kesalahan: langsung menyentuh pasien/manekin tanpa salam.",
+            "Item 2 — Konfirmasi identitas: tanya nama lengkap & tanggal lahir. Kalimat: 'Bisa tolong sebutkan nama lengkap dan tanggal lahir Ibu?' Kesalahan: tidak konfirmasi identitas (risiko salah pasien).",
+            "Item 3 — Informed consent: jelaskan tujuan, prosedur, rasa tidak nyaman, risiko, manfaat, tanyakan persetujuan. Kalimat: 'Saya akan melakukan pemeriksaan X. Tujuannya untuk ... Rasa tidak nyamannya ... Risikonya ... Ibu setuju?' Kesalahan: tidak minta persetujuan → skor hangus untuk komponen consent.",
+            "Item 4 — Privasi & chaperone: tutup area yang tidak diperiksa, tawarkan pendamping perempuan. Kalimat: 'Pemeriksaan ini pribadi; saya akan jaga privasi dan ada petugas perempuan mendampingi.' Kesalahan: tidak menutup area lain, tidak ada chaperone.",
+            "Item 5 — Cuci tangan 6 langkah: 40-60 detik dengan sabun & air mengalir atau handrub alkohol. Kalimat: 'Saya cuci tangan dulu sebelum memulai.' Kesalahan: lupa cuci tangan atau hanya bilas air.",
+            "Item 6 — Pemakaian APD: sarung tangan (steril untuk prosedur, bersih untuk pemeriksaan), masker bila perlu, apron. Kalimat: 'Saya pakai sarung tangan steril untuk prosedur ini.' Kesalahan: tidak pakai sarung tangan saat kontak genital.",
+            "Item 7 — Persiapan alat: cek kelengkapan, sterilitas, tanggal kedaluwarsa. Kalimat: 'Alat sudah lengkap dan steril; saya cek dulu.' Kesalahan: alat tidak disiapkan sebelumnya, terlihat ragu.",
+            "Item 8 — Anamnesis terstruktur: keluhan utama, riwayat haid/kehamilan/KB/IMS, alergi, obat. Kalimat: 'Bisa ceritakan keluhan utama Ibu? Kapan mulai? Sudah pernah hamil sebelumnya?' Kesalahan: langsung periksa tanpa anamnesis.",
+            "Item 9 — Pemeriksaan tanda vital: TD, nadi, suhu, pernapasan (sesuai topik). Kalimat: 'Tekanan darah Ibu ... Nadi ... Suhu ...' Kesalahan: tidak ukur TTV pada ibu hamil atau dengan keluhan akut.",
+            "Item 10 — Pemeriksaan fisik terjadwal: sesuai topik (abdomen, dada, genital). Kalimat: 'Saya akan meraba perut Ibu; bila nyeri, tolong beri tahu saya.' Kesalahan: tidak cuci tangan sebelum/setiap pemeriksaan.",
+            "Item 11 — Inspeksi & palpasi: perhatikan asimetri, lesi, benjolan, nyeri tekan. Kalimat: 'Saya melihat ... Saya meraba ...' Kesalahan: tidak menyebutkan temuan yang dicari.",
+            "Item 12 — Pemeriksaan penunjang sesuai topik: tes kehamilan, swab, pH, KOH, Gram, USG. Kalimat: 'Saya akan mengambil sampel untuk ...' Kesalahan: lupa menyebut indikasi tes.",
+            "Item 13 — Identifikasi red flags: perdarahan, nyeri hebat, demam, syok, hipertensi. Kalimat: 'Saya waspadai tanda bahaya: ...' Kesalahan: tidak menyebut red flags yang relevan dengan topik.",
+            "Item 14 — Pemberian diagnosis kerja: berdasarkan anamnesis & pemeriksaan. Kalimat: 'Diagnosis kerja saya saat ini adalah ...' Kesalahan: diagnosis tidak konsisten dengan temuan.",
+            "Item 15 — Tatalaksana/intervensi: sesuai topik (obat, prosedur, rujukan, edukasi). Kalimat: 'Tatalaksana awal saya adalah ...' Kesalahan: tidak jelaskan alasan tatalaksana.",
+            "Item 16 — Edukasi pasien: bahasa awam, minta pasien mengulang pemahaman. Kalimat: 'Tanda bahaya yang harus diwaspadai: ... Ibu kontrol tanggal ...' Kesalahan: edukasi tidak spesifik, hanya 'jaga kesehatan'.",
+            "Item 17 — Safety net: kapan harus kembali segera atau ke IGD. Kalimat: 'Segera ke IGD bila: perdarahan banyak, demam, nyeri hebat, atau gerak janin berkurang.' Kesalahan: tidak menyebut kapan harus kembali.",
+            "Item 18 — Dekontaminasi alat: rendam dalam klorin 0,5% selama 10 menit (instrumen); buang habis pakai. Kalimat: 'Alat saya rendam dalam klorin dan buang habis pakai sesuai SOP.' Kesalahan: tidak dekontaminasi atau buang habis pakai sembarangan.",
+            "Item 19 — Pelepasan APD: lepas sarung tangan terbalik, masker, apron. Cuci tangan ulang. Kalimat: 'Saya lepas sarung tangan dan cuci tangan kembali.' Kesalahan: melepas APD tidak sesuai urutan.",
+            "Item 20 — Dokumentasi SOAP: catat S, O, A, P di rekam medis. Kalimat: 'Saya dokumentasikan: subjektif ..., objektif ..., asesmen ..., plan ...' Kesalahan: tidak menulis dokumentasi atau tidak lengkap."
+          ],
+          "bold": true,
+          "source": "§3 file sumber / Tabel checklist"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Verbalisasi temuan adalah nilai tinggi",
+          "text": "Pada Item 11, kalimat 'Saya melihat ... Saya meraba ...' adalah pola verbalisasi temuan yang harus diucapkan untuk pemeriksaan inspeksi & palpasi. Penguji tidak akan menilai temuan yang tidak diucapkan, karena tanpa verbalisasi mereka tidak bisa membedakan apakah mahasiswa benar-benar memeriksa atau hanya berpura-pura.",
+          "answer_evidence": "§3 Item 11; pola komunikasi OSCE ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Skor hangus untuk item etik & asepsis",
+          "text": "Item 3 (informed consent), Item 4 (privasi & chaperone), dan Item 5 (cuci tangan 6 langkah) adalah komponen etik & asepsis. Tidak melakukan salah satu dari ketiganya menyebabkan skor hangus (nol) untuk komponen tersebut, karena merupakan pelanggaran keselamatan pasien yang tidak bisa ditoleransi di OSCE maupun praktik klinis nyata.",
+          "answer_evidence": "§3 Items 3-5; standar keselamatan pasien"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "20-30 item per station, skor 0-1 atau 0-2",
+          "text": "Total checklist penilaian skill lab biasanya 20-30 item per station OSCE, dengan setiap item diberi skor 0-1 atau 0-2. Skor total kemudian dijumlahkan dan dikonversi ke nilai lulus/tidak lulus berdasarkan passing grade yang ditetapkan fakultas (umumnya 60-70% untuk station OSCE).",
+          "answer_evidence": "Modul Skill Lab Blok 6.1 FKIK Universitas Jambi; standar OSCE FKIK"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_informed_consent_02",
+        "gls_peta_besar_apd_03",
+        "gls_peta_besar_cuci_tangan_who_04"
+      ],
+      "bilingual": "Checklist 20 item OSCE adalah kerangka kerja universal di station ObGyn. Pola kalimat dan kesalahan yang menurunkan nilai diadaptasi dari pola komunikasi OSCE FKIK Universitas Jambi."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Prinsip dan pertanyaan wajib anamnesis ObGyn yang berfungsi ganda sebagai seleksi klien (menentukan kelayakan prosedur, kebutuhan rujukan, dan kontraindikasi) plus red flags universal yang harus ditanyakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis adalah fondasi untuk semua station ObGyn. Penguji tidak hanya menilai apa yang Anda tanya, tetapi bagaimana Anda bertanya — dengan bahasa yang sensitif, terstruktur, dan menunjuk pada alasan klinis yang relevan. Pada topik reproduksi, anamnesis juga berfungsi sebagai seleksi klien: menentukan apakah pasien boleh/tunda/ditolak untuk prosedur tertentu (misal: IUD, pemasangan), atau apakah perlu rujukan. Prinsip utama anamnesis ObGyn: gunakan bahasa awam dan hindari jargon yang tidak dijelaskan; tanyakan keluhan utama dengan pertanyaan terbuka, lalu mengerucut dengan pertanyaan tertutup; untuk keluhan sensitif (seksual, IMS, keputihan) tunjukkan empati dan jaga kerahasiaan; selalu tanyakan kemungkinan hamil, alergi, dan obat yang sedang diminum.",
+          "tone": "narrative",
+          "source": "§4 file sumber / Prinsip utama"
+        },
+        {
+          "text": "Tabel pertanyaan anamnesis wajib mencakup: keluhan utama & onset (menentukan prioritas diagnosis & urgensi; keluhan akut/berat → nilai TTV dan triase); riwayat haid (HPHT, siklus, lama, nyeri, perdarahan — mendeteksi kehamilan, perdarahan abnormal, dan menentukan metode KB; HPHT tidak jelas/amenore → tes kehamilan); riwayat obstetri (G/P/A, persalinan, nifas, komplikasi — menilai risiko kehamilan saat ini dan riwayat tindakan sebelumnya; riwayat SC/perdarahan/preeklampsia → ANC risiko tinggi); riwayat ginekologi (IMS, keputihan, mioma, operasi — mendeteksi kontraindikasi prosedur dan sumber infeksi; IMS/PID aktif → tunda prosedur, obati dulu); riwayat KB (jenis, lama, efek samping — menilai konsistensi pemilihan KB dan kontraindikasi; IUD dengan gejala PID/hamil → tatalaksana sesuai SOP); riwayat seksual (pasangan, kondom, dispareunia — menilai risiko IMS dan merencanakan skrining; pasangan multipel/risiko → konseling kondom dan skrining IMS); kemungkinan hamil sekarang (menentukan eligibilitas prosedur dan obat; curiga hamil → tes kehamilan, tunda prosedur); alergi obat & makanan (mencegah reaksi obat saat tatalaksana; alergi → ganti kelas obat, dokumentasi jelas); obat yang sedang diminum (mendeteksi interaksi obat dan kontraindikasi; obat berisiko → konsultasi, ganti bila perlu); tanda bahaya (perdarahan, nyeri, demam, pusing — mendeteksi kegawatdaruratan; tanda bahaya → triage, rujukan segera).",
+          "tone": "clinical",
+          "source": "§4 file sumber / Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Red flags yang wajib ditanyakan atau dicari pada station ObGyn: syok (hipotensi, takikardia berat, akral dingin, penurunan kesadaran, perdarahan banyak → emergency); kehamilan dengan perdarahan, nyeri perut hebat, kejang, hipertensi berat, sakit kepala hebat, pandangan kabur, gerak janin berkurang, atau KPD → rujuk; nyeri panggul berat dengan demam, rebound tenderness, muntah, atau CMT/adneksa sangat nyeri → curiga PID, rujuk; perdarahan postpartum banyak, uterus lembek, plasenta belum lahir/tersisa, laserasi luas, atau hematoma vulva/vagina → atonia/PPH, emergency;乳腺癌 dengan massa keras, retraksi puting baru unilateral, discharge darah, peau d'orange, atau limfonodi aksila → curiga keganasan, rujuk; luka perineum dengan demam, bau busuk, nyeri bertambah, dehisensi, inkontinensia flatus/feses → rujuk derajat 3-4/OASI.",
+          "tone": "clinical",
+          "source": "§4 file sumber / Red Flags"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Lima pertanyaan kunci anamnesis ObGyn yang tidak boleh terlewat:",
+          "sub": [
+            "Apakah pasien hamil? (HPHT, tes kehamilan, tanda subjektif/objektif).",
+            "Apakah ada alergi obat atau riwayat reaksi obat?",
+            "Apakah ada perdarahan, nyeri hebat, atau demam?",
+            "Apa tujuan kunjungan — skrining, diagnosis, terapi, atau KB?",
+            "Kapan terakhir kontrol / apa yang sudah pernah dilakukan?"
+          ],
+          "bold": true,
+          "source": "§4 file sumber / 5 Pertanyaan Kunci"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Anamnesis sensitif butuh empati & kerahasiaan",
+          "text": "Untuk keluhan sensitif (seksual, IMS, keputihan), tunjukkan empati, jaga kerahasiaan, dan gunakan pertanyaan terbuka yang tidak menghakimi. Contoh: 'Sekarang saya tanya keluhan yang mungkin sensitif ya, Bu. Apakah ada keputihan yang abnormal, nyeri saat berhubungan, atau pernah infeksi menular seksual?' — pastikan pasien merasa aman untuk menjawab dengan jujur.",
+          "answer_evidence": "Pola komunikasi klinis sensitif; modul OSCE ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Anamnesis = seleksi klien",
+          "text": "Pada topik reproduksi, anamnesis berfungsi ganda sebagai seleksi klien. Temuan seperti hamil, PID aktif, kanker serviks curiga, atau alergi lateks akan menentukan apakah prosedur (mis. IUD, kuretase) bisa dilakukan, ditunda, atau dirujuk. Selalu kaitkan setiap jawaban anamnesis dengan keputusan klinis selanjutnya.",
+          "answer_evidence": "Panduan KB terpadu; SKDI 4A Obgyn"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_cmt_09",
+        "gls_peta_besar_pph_10",
+        "gls_peta_besar_empat_t_11"
+      ],
+      "bilingual": "Anamnesis ObGyn tidak hanya menggali keluhan, tetapi juga berfungsi sebagai seleksi klien: menentukan kelayakan prosedur, kontraindikasi, dan kebutuhan rujukan."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan fisik ObGyn bertahap: TTV → umum → abdomen (IAPP + Leopold) → genital eksterna → spekulum (Cusco) → bimanual, dengan nilai normal, interpretasi abnormal, dan kalimat OSCE untuk setiap komponen.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik ObGyn harus dilakukan secara bertahap dan terstruktur. Mulailah dari yang tidak invasif ke invasif, dan dari yang non-genital ke genital. Pada OSCE, penguji menilai urutan, teknik, dan verbalisasi Anda. Urutan umum (template untuk station ObGyn): (1) Tanda vital (tekanan darah, nadi, suhu, pernapasan, SpO2 bila tersedia) → menilai stabilitas hemodinamik. (2) Pemeriksaan umum → kesadaran, status gizi, anemia (konjungtiva), edema, ikterus. (3) Pemeriksaan abdomen → inspeksi, auskultasi, perkusi, palpasi (dengan urutan yang benar). (4) Pemeriksaan genital / panggul → inspeksi, spekulum, bimanual (sesuai topik dan jenis kelamin pasien/manekin). (5) Pemeriksaan penunjang → dilakukan di §10.",
+          "tone": "narrative",
+          "source": "§5 file sumber / Urutan umum"
+        },
+        {
+          "text": "Komponen yang harus terlihat di OSCE: cuci tangan sebelum dan sesudah pemeriksaan; pakai sarung tangan saat kontak dengan area genital/mukosa; jaga privasi — tutup bagian yang tidak diperiksa, hanya buka area yang akan diperiksa; verbalisasi setiap langkah dan temuan. Lima jenis pemeriksaan fisik spesifik yang harus dikuasai pada modul ini: TTV & umum, abdomen (IAPP), genital eksterna & inspeksi serviks, spekulum (Cusco), dan bimanual.",
+          "tone": "narrative",
+          "source": "§5 file sumber / Komponen OSCE"
+        },
+        {
+          "text": "Pemeriksaan Tanda Vital & Umum: tekanan darah (manset setinggi jantung, istirahat 5 menit, ukuran manset sesuai lengan), nadi (palpasi a. radialis, hitung 60 detik atau 30 detik × 2), suhu (termometer oral/aksila/timpani), pernapasan (observasi dinding dada 60 detik), konjungtiva (tarik kelopak bawah, lihat pucat/tidak), edema (tekan pretibial/pedis 5 detik, cek pitting). Nilai normal dewasa non-hamil: TD <120/80 mmHg, nadi 60-100 x/menit, suhu 36,0-37,5°C, pernapasan 12-20 x/menit, SpO2 ≥95%. Interpretasi abnormal: TD ≥140/90 pada hamil → curiga preeklampsia, ukur ulang, cek proteinuria; nadi >120 atau <50 → curiga perdarahan/syok; suhu >38°C → curiga infeksi (korioamnionitis, ISK, mastitis, nifas); pucat konjungtiva + lemas → curiga anemia, cek Hb. Kalimat OSCE: 'Tekanan darah Ibu 110/70 mmHg, nadi 80 kali per menit, suhu 36,8°C, napas 18 kali per menit. Konjungtiva tidak pucat, tidak ada edema tungkai. Tanda vital dalam batas normal.'",
+          "tone": "clinical",
+          "source": "§5 H2 TTV"
+        },
+        {
+          "text": "Pemeriksaan Abdomen mengikuti urutan IAPP — Inspeksi, Auskultasi, Perkusi, Palpasi. Inspeksi: bentuk, asimetri, luka operasi, striae, linea nigra, gerakan janin. Auskultasi: bising usus (2 menit bila perlu) atau DJJ (pada hamil >20 minggu) dengan doppler/Pinard. Perkusi: timpani, pekak, asites. Palpasi: suprafisial lalu dalam; pada hamil, palpasi obstetri (Leopold 1-4). Nilai normal: bising usus 5-35 x/menit; DJJ 110-160 x/menit (hamil ≥20 minggu); TFU sesuai usia kehamilan (20 minggu → setinggi pusat, dst.); tidak ada nyeri tekan, tidak ada massa abnormal. Interpretasi abnormal: DJJ <110 atau >160 → curiga fetal distress, tatalaksana gawat janin; TFU tidak sesuai usia kehamilan → curiga IUGR, polihidramnion, atau kesalahan HPHT; nyeri tekan abdomen + hamil → curiga aborsi, kehamilan ektopik, korioamnionitis, solusio plasenta; massa abdomen → curiga mioma, kista, kehamilan ektopik. Kalimat OSCE: 'Bising usus positif normal. Tidak ada luka operasi. Tidak ada nyeri tekan di seluruh kuadran. Pada pasien hamil, TFU ... Leopold: bokong di fundus, punggung di kiri, presentasi kepala, bagian terbawah sudah masuk PAP.'",
+          "tone": "clinical",
+          "source": "§5 H2 Abdomen"
+        },
+        {
+          "text": "Pemeriksaan Genital Eksterna dan Inspeksi Serviks: posisi litotomi, lampu terang, drape menutupi perut dan paha. Inspeksi: labia mayora/minora, klitoris, uretra, perineum, anus. Nilai: simetri, warna, lesi (ulkus, vesikel, kondiloma), eritema, edema, keputihan, massa, perdarahan. Pada suspek prolaps: minta pasien meneran, lihat tonjolan. Nilai normal: labia simetris, tidak ada lesi, tidak ada discharge purulen; mukosa merah muda, lembab. Interpretasi abnormal: ulkus genital → curiga sifilis, chancroid, herpes — rujuk/spesialis; discharge purulen/kuning-hijau → curiga servisitis/gonore — skrining IMS; massa seperti kista di vulva → curiga kista Bartholin/abses folikel — drainage/rujuk; prolaps uterus derajat ≥II → konseling, tatalaksana sesuai derajat. Kalimat OSCE: 'Genitalia eksterna: labia simetris, tidak ada lesi, tidak ada discharge purulen, tidak ada massa. Mukosa vagina dan serviks ... (lihat spekulum).'",
+          "tone": "clinical",
+          "source": "§5 H2 Genital Eksterna"
+        },
+        {
+          "text": "Pemeriksaan Spekulum: pilih spekulum sesuai ukuran (Cusco untuk dewasa); hangatkan spekulum (atau olesi sedikit lubrikan water-based pada ujung); masukkan oblique ke arah posterior, putar horizontal, buka blade secara perlahan; lihat dinding vagina, forniks, dan serviks: warna, lesi, discharge, perdarahan, ulkus; ambil sampel sesuai indikasi (Pap smear, swab IVA, swab Gram/KOH/saline); lepas spekulum secara perlahan, lihat dinding vagina saat pelepasan. Nilai normal: serviks merah muda, lubang luar bulat (multipara: garis), tidak ada lesi; discharge bening/lendir serviks (fisiologis); tidak ada perdarahan, tidak ada lesi acetowhite pada IVA. Interpretasi abnormal: serviks mudah berdarah (friable) → curiga servisitis/keganasan; lesi acetowhite pada IVA → curiga displasia, rujuk untuk kolposkopi/biopsi; discharge purulen → curiga servisitis — swab dan tatalaksana; massa serviks → curiga keganasan — rujuk. Kalimat OSCE: 'Spekulum masuk tanpa kesulitan. Serviks tampak merah muda, tidak ada lesi, tidak ada discharge purulen. Saya ambil sampel Pap smear / IVA sesuai indikasi.'",
+          "tone": "clinical",
+          "source": "§5 H2 Spekulum"
+        },
+        {
+          "text": "Pemeriksaan Bimanual: satu tangan di vagina (jari telunjuk + tengah), tangan lain di abdomen. Nilai: serviks (konsistensi, nyeri goyang/CMT), uterus (ukuran, posisi, bentuk, nyeri), adneksa (massa, nyeri). Untuk ukuran uterus pada kehamilan: sesuai TFU (Leopold). Nilai normal: serviks konsistensi seperti ujung hidung (tidak hamil) atau lebih lunak (tanda Hegar pada hamil); uterus ukuran + posisi normal (anteversi/antefleksi pada mayoritas); CMT negatif; adneksa tidak teraba massa, tidak nyeri. Interpretasi abnormal: CMT positif + nyeri adneksa + discharge → curiga PID; uterus membesar + tidak hamil → curiga mioma, adenomiosis; massa adneksa → curiga kista ovarium, kehamilan ektopik; nyeri goyang serviks + amenore + perdarahan → curiga ektopik. Kalimat OSCE: 'Serviks konsistensi normal, nyeri goyang negatif. Uterus ukuran normal, posisi anteversi, tidak nyeri. Adneksa tidak teraba massa, tidak nyeri.'",
+          "tone": "clinical",
+          "source": "§5 H2 Bimanual"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan pemeriksaan fisik ObGyn yang harus diikuti:",
+          "sub": [
+            "TTV (TD, nadi, suhu, pernapasan, SpO2) → menilai stabilitas hemodinamik.",
+            "Pemeriksaan umum → kesadaran, status gizi, konjungtiva, edema, ikterus.",
+            "Abdomen → inspeksi, auskultasi, perkusi, palpasi (IAPP); pada hamil, palpasi obstetri Leopold 1-4.",
+            "Genital eksterna & inspeksi serviks → posisi litotomi, lampu terang, drape menutupi area lain.",
+            "Spekulum → Cusco, hangatkan/lubrikasi, masukkan oblique-posterior, buka blade perlahan.",
+            "Bimanual → nilai serviks, uterus, adneksa, CMT."
+          ],
+          "bold": true,
+          "source": "§5 file sumber / Urutan umum"
+        },
+        {
+          "text": "Manuver Leopold 1-4 (kritis untuk topik kehamilan):",
+          "sub": [
+            "Leopold 1 (Fundus): tentukan bagian janin di fundus — kepala (bulat, keras, ballottement) atau bokong (lebih besar, kurang tegas, tidak ballottement).",
+            "Leopold 2 (Lateral): tentukan punggung dan ekstremitas di sisi uterus — punggungkeras rata; ekstremitas sisi berlawanan (banyak tonjolan kecil).",
+            "Leopold 3 (Suprasimpisis): tentukan bagian terbawah — presentasi kepala (keras, bulat) atau bokong (lebih lembut, irregular).",
+            "Leopold 4 (PAP): tentukan seberapa jauh bagian terbawah masuk pintu atas panggul — dengan tangan pemeriksa menghadap kaki ibu, raba bagian terbawah dan seberapa dalam sudah masuk PAP."
+          ],
+          "bold": true,
+          "source": "§5 H2 Abdomen + Leopold"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Nilai normal TTV pada orang dewasa non-hamil",
+          "text": "TTV normal dewasa non-hamil: TD <120/80 mmHg, nadi 60-100 x/menit, suhu 36,0-37,5°C, pernapasan 12-20 x/menit, SpO2 ≥95%. Pada ibu hamil, ambang batas TD untuk curiga preeklampsia adalah ≥140/90 mmHg (kenaikan TD sistolik ≥30 atau diastolik ≥15 dari baseline juga patut dicurigai).",
+          "answer_evidence": "WHO ANC recommendations 2016; modul ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "DJJ <110 atau >160 = gawat janin",
+          "text": "DJJ normal 110-160 x/menit pada hamil ≥20 minggu. DJJ <110 (bradikardia) atau >160 (takikardia) merupakan tanda gawat janin yang memerlukan tatalaksa segera (koreksi posisi ibu, hentikan oksitosin, O2, evaluasi penyebab). DJJ tidak terdengar dengan doppler pada usia >12 minggu juga merupakan tanda kegawatan.",
+          "answer_evidence": "WHO Intrapartum care 2018; modul ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Spekulum masukkan oblique-posterior",
+          "text": "Teknik memasukkan spekulum Cusco: masukkan oblique ke arah posterior (sesuai arah anatomis vagina) untuk menghindari uretra dan kandung kemih, putar horizontal setelah masuk 4-5 cm, lalu buka blade secara perlahan. Pelanggaran arah masuk adalah kesalahan umum yang menyebabkan nyeri dan risiko trauma uretra.",
+          "answer_evidence": "Atlas pemeriksaan ginekologi; modul OSCE ObGyn"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "CMT positif + amenore + perdarahan = curiga ektopik",
+          "text": "Nyeri goyang serviks (CMT) positif yang disertai amenore, perdarahan pervaginam, dan nyeri perut unilateral merupakan tanda klasik kehamilan ektopik. Pada pasien dengan curiga ektopik dan tanda syok (hipotensi, takikardia, akral dingin), stabilkan hemodinamik (akses IV 2 jalur, cairan kristaloid, cross-match) dan rujuk emergensi untuk laparotomi/laparoskopi.",
+          "answer_evidence": "PNPK Kehamilan Ektopik POGI; modul ObGyn FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_tfu_06",
+        "gls_peta_besar_djj_07",
+        "gls_peta_besar_spekulum_cusco_08",
+        "gls_peta_besar_cmt_09",
+        "gls_peta_besar_leopold_05",
+        "gls_peta_besar_posisi_litotomi_01"
+      ],
+      "bilingual": "Pemeriksaan fisik ObGyn dilakukan bertahap: TTV → umum → abdomen (IAPP + Leopold) → genital eksterna → spekulum (Cusco) → bimanual."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat, APD, dan persiapan pasien (termasuk posisi litotomi dan 5 momen cuci tangan WHO), ditambah kerangka universal 3 fase prosedur (Persiapan, Pelaksanaan, Evaluasi/Konfirmasi) yang berlaku untuk semua tindakan ObGyn.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Alat yang harus disebutkan di station (minimum 5, sesuaikan topik): sarung tangan (steril untuk prosedur, bersih untuk pemeriksaan) → mencegah infeksi; spekulum (Cusco ukuran S/M/L) → melihat serviks dan vagina; sonde uterus / klem tenakulum / kasa steril (untuk IUD) → alat spesifik prosedur; lampu pemeriksaan → pencahayaan adekuat untuk visualisasi; drape / kain penutup → privasi pasien; alat dekontaminasi (larutan klorin 0,5%, tempat sampah medis) → keamanan pascatindakan; alat dokumentasi (rekam medis, kartu pasien/kartu IUD) → bukti tindakan; alat penunjang (tes kehamilan, swab, kaca objek, reagen KOH/saline, larutan asam asetat untuk IVA) → diagnostik.",
+          "tone": "clinical",
+          "source": "§6 file sumber / Alat"
+        },
+        {
+          "text": "APD yang relevan: sarung tangan (wajib saat kontak dengan area genital/mukosa); masker dan kacamata pelindung (bila ada risiko percikan darah/cairan); apron/plastik (bila tindakan berisiko tinggi). Cara mempersiapkan pasien: posisi litotomi (pasien berbaring telentang, tungkai di fleksi dan abduksi pada penyangga, bokong sedikit melewati tepi meja periksa, pastikan nyaman dan aman); penjelasan tindakan (bahasa awam, tujuan, rasa tidak nyaman, risiko, dan manfaat); informed consent (minta persetujuan setelah penjelasan); privasi (drape menutupi perut dan paha, hanya area genital yang dibuka); chaperone (tawarkan pendamping perempuan untuk pemeriksaan genital); pengosongan kandung kemih (diminta sebelum tindakan untuk kenyamanan dan akurasi pemeriksaan).",
+          "tone": "clinical",
+          "source": "§6 file sumber / APD + Persiapan"
+        },
+        {
+          "text": "Momen cuci tangan sesuai WHO: (1) Sebelum kontak dengan pasien; (2) Sebelum tindakan aseptik; (3) Setelah risiko paparan cairan tubuh; (4) Setelah kontak dengan pasien; (5) Setelah kontak dengan lingkungan pasien. Catatan [DITAMBAHKAN SAAT STANDARDISASI]: daftar alat di atas mencakup semua kebutuhan dasar station ObGyn; untuk topik tertentu (misal: vakum ekstraksi, kuretase), alat spesifik prosedur harus ditambah.",
+          "tone": "narrative",
+          "source": "§6 file sumber / Momen cuci tangan"
+        },
+        {
+          "text": "FASE PERSIAPAN (§7): (1) Baca instruksi station dengan teliti dan identifikasi topik/tindakan. (2) Cuci tangan 6 langkah, pakai APD (sarung tangan, masker bila perlu). (3) Siapkan alat lengkap dan steril, cek tanggal kedaluwarsa. (4) Jelaskan tindakan kepada pasien dengan bahasa awam, tanyakan persetujuan. (5) Posisikan pasien (litotomi / supine / lateral sesuai prosedur). (6) Privasi — drape, chaperone, tutup bagian yang tidak diperiksa. (7) Pengosongan kandung kemih sebelum tindakan. Keselamatan pasien di fase ini: informed consent, privasi, dan asepsis — tidak boleh ada pasien OSCE yang disentuh sebelum ketiga hal ini verbalized.",
+          "tone": "narrative",
+          "source": "§7 H2 Fase Persiapan"
+        },
+        {
+          "text": "FASE PELAKSANAAN (§7): (1) Anamnesis terstruktur — keluhan utama, riwayat, alergi obat, kemungkinan hamil. (2) Pemeriksaan fisik — TTV → abdomen → genital (sesuai topik). (3) Lakukan prosedur inti — ikuti checklist spesifik topik (lihat modul-modul terpisah): Ginekologi (inspeksi genital → spekulum → bimanual → sampel); KB (konseling informed choice → seleksi klien → pemasangan); Kehamilan/ANC (anamnesis ANC → TTV → TFU/Leopold/DJJ → edukasi tanda bahaya); Persalinan (informed consent → persiapan tim → pemeriksaan dalam → APN/manuver); Nifas (TTV → fundus → lochia → luka → laktasi). (4) Sebutkan temuan yang dinilai (normal/abnormal, red flags). (5) Komunikasi selama tindakan — beri tahu setiap langkah, minta pasien menarik napas, hentikan bila nyeri hebat. Teknik khusus ObGyn: no-touch technique (untuk IUD) — sonde/inserter tidak boleh menyentuh dinding vagina atau bibir spekulum; aseptic technique — sarung tangan steril, antiseptik pada serviks/vagina sebelum tindakan intrauterin; withdrawal technique (IUD) — pendorong ditahan, tabung inserter ditarik untuk melepas lengan IUD; konseling informed choice (KB) — pasien memilih sendiri metode setelah mendapat informasi lengkap. Keselamatan pasien di fase ini: verbalisasi temuan, perhatian terhadap nyeri, dan pengenalan red flags intraprosedural (perdarahan, sinkop, perforasi).",
+          "tone": "narrative",
+          "source": "§7 H2 Fase Pelaksanaan"
+        },
+        {
+          "text": "FASE EVALUASI DAN KONFIRMASI (§7): (1) Konfirmasi keberhasilan prosedur — misalnya: benang IUD teraba, perdarahan minimal, pasien tidak kesakitan. (2) Evaluasi efek samping langsung — perdarahan, nyeri, sinkop. (3) Dekontaminasi alat — rendam dalam klorin 0,5% selama 10 menit; buang habis pakai di tempatnya. (4) Lepas sarung tangan dengan teknik terbalik, cuci tangan ulang. (5) Edukasi — apa yang boleh/tidak boleh dilakukan, tanda bahaya, jadwal kontrol. (6) Dokumentasi SOAP — lengkap dan jelas. (7) Penutupan station — salam penutup, kesiapan pasien untuk turun dari meja periksa. Keselamatan pasien di fase ini: dekontaminasi tepat, dokumentasi, dan edukasi safety-net (kapan harus kembali).",
+          "tone": "narrative",
+          "source": "§7 H2 Fase Evaluasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Lima momen cuci tangan WHO (harus verbalized di OSCE):",
+          "sub": [
+            "Momen 1 — Sebelum kontak dengan pasien.",
+            "Momen 2 — Sebelum tindakan aseptik (mis. sebelum pasang IUD, sebelum penjahitan).",
+            "Momen 3 — Setelah risiko paparan cairan tubuh.",
+            "Momen 4 — Setelah kontak dengan pasien.",
+            "Momen 5 — Setelah kontak dengan lingkungan pasien (meja periksa, sarung tangan bekas, dll)."
+          ],
+          "bold": true,
+          "source": "§6 file sumber / Momen cuci tangan"
+        },
+        {
+          "text": "Komponen persiapan pasien yang harus verbalized sebelum tindakan:",
+          "sub": [
+            "Penjelasan tindakan dalam bahasa awam (tujuan, rasa tidak nyaman, risiko, manfaat).",
+            "Informed consent — minta persetujuan eksplisit setelah penjelasan.",
+            "Privasi — drape menutupi perut dan paha, hanya area yang akan diperiksa yang dibuka.",
+            "Chaperone — tawarkan pendamping perempuan untuk pemeriksaan genital.",
+            "Posisi litotomi (atau posisi sesuai prosedur) dengan penyangga tungkai dan bokong sedikit melewati tepi meja.",
+            "Pengosongan kandung kemih sebelum tindakan."
+          ],
+          "bold": true,
+          "source": "§6 file sumber / Persiapan pasien"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Verbalisasi temuan — 'Saya melihat ... Saya meraba ...'",
+          "text": "Pada Fase Pelaksanaan, setiap temuan inspeksi dan palpasi harus verbalized. Contoh: 'Saya melihat tidak ada lesi di genitalia eksterna' atau 'Saya meraba fundus setinggi pusat + 4 cm, Leopold I bokong, Leopold II punggung kiri, Leopold III presentasi kepala, Leopold IV sudah masuk PAP'. Penguji tidak akan menilai temuan yang tidak diucapkan.",
+          "answer_evidence": "§3 Item 11 + §7 Fase Pelaksanaan; pola komunikasi OSCE FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lampiran A: Kontraindikasi & kondisi khusus",
+          "text": "Kondisi yang menjadi masalah untuk prosedur: kehamilan (risiko tindakan intrauterin → tunda prosedur); PID aktif atau servisitis purulen (risiko infeksi ascending → tunda, obati dulu); kanker serviks / lesi mencurigakan (kontraindikasi prosedur intrauterin → rujuk biopsi); perdarahan vagina abnormal belum terdiagnosis (evaluasi dulu); anemia berat Hb <9 g/dL (koreksi anemia dulu atau pilih metode alternatif); riwayat ektopik untuk IUD (bukan KI absolut, tapi kewaspadaan); alergi obat (lateks, antiseptik); koagulopati / antikoagulan; gangguan jiwa berat / tidak kooperatif (tunda prosedur elektif). Daftar ini adalah kondisi yang paling sering dijumpai — untuk modul spesifik (IUD, kuretase) lihat Lampiran A modul tersebut.",
+          "answer_evidence": "Lampiran A file sumber; WHO MEC; CDC USMEC 2024"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Larangan masuk alat intrauterin tanpa visualisasi serviks",
+          "text": "Pemasangan IUD, kuretase, atau tindakan intrauterin lainnya WAJIB dilakukan dengan spekulum dan visualisasi serviks. Memasukkan sonde/inserter secara buta tanpa melihat serviks berisiko perforasi uterus, yang merupakan komplikasi berbahaya (perdarahan intraperitoneal, syok, emergensi bedah). Pada OSCE, tindakan tanpa visualisasi serviks = skor hangus.",
+          "answer_evidence": "§18 FATAL #4; modul IUD FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_peta_besar_posisi_litotomi_02"
+      ],
+      "glossary_refs": [
+        "gls_peta_besar_posisi_litotomi_01",
+        "gls_peta_besar_apd_03",
+        "gls_peta_besar_cuci_tangan_who_04",
+        "gls_peta_besar_informed_consent_02",
+        "gls_peta_besar_iud_copper_12"
+      ],
+      "bilingual": "Section ini menggabungkan daftar alat, APD, persiapan pasien, dan kerangka universal 3 fase prosedur (Persiapan-Pelaksanaan-Evaluasi) yang berlaku untuk semua tindakan ObGyn."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-prosedur (dekontaminasi, pelepasan APD, dokumentasi SOAP, edukasi ulang) dan tabel diagnosis banding ObGyn untuk keluhan utama tersering (kehamilan, PID, mioma, kista, keputihan) plus pembedaan kontrasepsi IUD/suntik/implan.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "TINDAKAN PASCA-PROSEDUR (§8): (1) Dekontaminasi alat — rendam instrumen dalam larutan klorin 0,5% selama 10 menit. Cuci dengan sabun, sterilisasi sesuai SOP. (2) Pembuangan habis pakai — jarum di safety box, kasa/kapas di tempat sampah medis, bukan tempat sampah biasa. (3) Pelepasan APD — sarung tangan dilepas terbalik, masker dilepas dari belakang, apron dilipat kotor di dalam. (4) Cuci tangan ulang setelah melepas APD. (5) Dokumentasi SOAP — subjektif, objektif, asesmen, plan. Lengkapi dengan nama, tanggal, jam, tanda tangan. (6) Kartu pasien / kartu IUD / surat rujukan — buat dan serahkan kepada pasien bila relevan. (7) Edukasi ulang — sebutkan ulang safety-net, jadwal kontrol, dan kapan harus kembali segera.",
+          "tone": "narrative",
+          "source": "§8 file sumber / Tindakan Pasca-Prosedur"
+        },
+        {
+          "text": "Cara menilai apakah prosedur berhasil (evaluasi pasca-tindakan): pemeriksaan ginekologi (tidak ada perdarahan aktif, serviks/vagina bersih, sampel terambil); pemasangan IUD (benang teraba 3-4 cm dari OUE, pasien tidak kesakitan, tidak ada perdarahan aktif); ANC (DJJ dalam batas normal, TFU sesuai usia kehamilan, tanda bahaya tidak ada); persalinan (bayi lahir dengan Apgar baik, plasenta lahir lengkap, kontraksi uterus baik, perdarahan <500 mL); nifas (fundus keras, lochia normal, tidak ada demam, bayi bisa menyusu). Prosedur terkait/varian yang perlu diketahui: setelah pemasangan IUD → konseling jadwal kontrol, tanda ekspulsi; setelah penjahitan perineum → jadwal kontrol 7 hari dan pelepasan benang (bila non-absorbable); setelah APN → manajemen kala III aktif, IMD, dokumentasi Apgar; setelah resusitasi BBL → observasi ketat 2-6 jam, ASI dini, dokumentasi.",
+          "tone": "clinical",
+          "source": "§8 file sumber / Evaluasi + Prosedur terkait"
+        },
+        {
+          "text": "Clinical reasoning untuk topik ObGyn menggabungkan tiga hal: temuan anamnesis, temuan pemeriksaan fisik, dan konteks reproduksi pasien (kehamilan, KB, menopause, dll.). OSCE menilai apakah Anda dapat menjelaskan mengapa suatu diagnosis dipertimbangkan, bukan hanya apa diagnosisnya. Alur pikir klinis sederhana: Temuan anamnesis + pemeriksaan → daftar diagnosis banding → tentukan diagnosis kerja berdasarkan temuan dominan → tatalaksana sesuai diagnosis kerja → edukasi + rujukan bila perlu.",
+          "tone": "narrative",
+          "source": "§9 file sumber / Alur pikir"
+        },
+        {
+          "text": "Tabel diagnosis banding untuk keluhan utama tersering di ObGyn: Kehamilan normal (amenore, mual, pembesaran perut; TFU sesuai usia kehamilan, DJJ (+), Leopold sesuai presentasi; pembeda: tes kehamilan (+), DJJ (+)); Kehamilan ektopik (amenore + nyeri perut unilateral + perdarahan; nyeri adneksa, CMT (+), mungkin syok; pembeda: tes kehamilan (+) + USG tidak ada kantung intrauterin); Abortus spontan (perdarahan + nyeri + keluar jaringan; serviks terbuka, jaringan di OUE/vagina; pembeda: USG tidak ada embryo hidup, jaringan keluar); PID/salpingitis (nyeri panggul bilateral + discharge + demam; CMT (+), nyeri adneksa, suhu naik; pembeda: tidak ada tanda kehamilan, sering ada IMS); Mioma uteri (perdarahan haid banyak, massa abdomen; uterus membesar ireguler, mobile; pembeda: USG massa padat); Kista ovarium (nyeri atau kebetulan ditemukan; massa adneksa, mobile; pembeda: USG massa kistik); Vaginosis bakterialis (discharge tipis abu-abu, amis; pH >4,5, whiff (+), clue cells; pembeda: tidak ada inflamasi signifikan); Kandidiasis vaginalis (gatal, discharge putih keju; eritema vulva, discharge putih; pembeda: pH normal, pseudohifa pada KOH).",
+          "tone": "clinical",
+          "source": "§9 file sumber / Tabel diagnosis banding"
+        },
+        {
+          "text": "Pembedaan cepat kontrasepsi IUD vs Suntik vs Implan: IUD Copper T 380A (cara kerja: tembaga → toksik buat sperma; durasi: 10 tahun; waktu mulai: setiap saat bila tidak hamil; efek samping haid: haid bisa lebih banyak/nyeri; kontraindikasi utama: hamil, PID aktif, kanker serviks, perdarahan abnormal; kunjungan ulang: 1 bulan lalu 1 tahun, lalu sesuai keluhan). Suntik (DMPA) (cara kerja: progestin → cegah ovulasi; durasi: 3 bulan per suntikan; waktu mulai: setiap saat bila tidak hamil; efek samping haid: spotting/amenore; kontraindikasi utama: hamil, kanker payuadara, perdarahan abnormal; kunjungan ulang: 3 bulan sekali). Implan (cara kerja: progestin → cegah ovulasi; durasi: 3 tahun; waktu mulai: setiap saat bila tidak hamil; efek samping haid: spotting/amenore; kontraindikasi utama: hamil, kanker payuadara, penyakit hati berat; kunjungan ulang: 3 tahun, kontrol bila keluhan).",
+          "tone": "clinical",
+          "source": "§9 H2 file sumber / Pembedaan KB"
+        },
+        {
+          "text": "Kapan HARUS merujuk: Segera (emergency) — syok, perdarahan banyak, kejang, hipertensi berat, GCS turun, asfiksia BBL; Same day — curiga ektopik, PID berat, abses, solusio plasenta, preeklampsia berat, ruptura uteri; Dalam 24-48 jam — anemia berat, servisitis berulang, lesi serviks mencurigakan, abses Bartholin besar; Rutin — skrining, KB rutin, ANC, nifas normal, laktasi. Catatan [DITAMBAHKAN SAAT STANDARDISASI]: Kriteria keberhasilan prosedur di atas konsisten dengan standar operasional di banyak panduan kebidanan dasar dan dapat disesuaikan dengan SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§8 + §9 file sumber / Kapan rujuk"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Lampiran B: Masalah saat prosedur dan respons aman:",
+          "sub": [
+            "Pasien sangat nyeri (meringis, minta berhenti) → Berhenti sebentar, komunikasi, cek posisi alat. Hentikan bila pasien tidak mau dilanjutkan.",
+            "Sinkop vasovagal (pusing, pucat, keringat dingin, mual, nadi lambat) → Hentikan, posisi Trendelenburg, longgarkan pakaian, observasi TTV. Hentikan segera bila penurunan kesadaran.",
+            "Perdarahan serviks berlebihan (> bercak dari bekas tenakulum/serviks) → Tekan kasa 30-60 detik, kauterisasi kimia/listrik sesuai fasilitas. Hentikan bila tidak berhenti dalam 5 menit.",
+            "Spasme/stenosis serviks (tidak bisa masuk sonde atau inserter) → Tunggu, atasi spasme dengan analgesia/anestesi lokal sesuai SOP. Hentikan bila 3× gagal — tunda.",
+            "Nyeri hebat (skor >7/10) → Hentikan, analgesik, re-evaluasi. Hentikan bila pasien menolak dilanjutkan.",
+            "Kecurigaan perforasi uteri (nyeri tajam, hilangnya tahanan, perdarahan, pasien tidak stabil) → Hentikan, nilai TTV, akses IV, rujuk emergensi. SELALU hentikan prosedur.",
+            "Reaksi alergi (lateks, antiseptik, obat) — gatal, kemerahan, bengkak, sesak → Hentikan pajanan, antihistamin/adrenalin sesuai SOP, rawat. SELALU evaluasi alergi.",
+            "Kesulitan menemukan benang IUD (saat cabut) — benang tidak tampak → USG untuk konfirmasi posisi, rujuk bila perlu. Cabut paksa tidak boleh.",
+            "Alat patah saat pencabutan IUD (lengan/fragmen hilang) → Rujuk untuk evaluasi imaging dan ekstraksi. Jangan abaikan.",
+            "IUD tidak teraba pasca-pasang (benang tidak teraba di OUE) → Evaluasi posisi dengan USG/rujuk. Jangan memutar atau menarik paksa."
+          ],
+          "bold": true,
+          "source": "Lampiran B file sumber"
+        },
+        {
+          "text": "Prinsip utama respons aman:",
+          "sub": [
+            "Keselamatan pasien > kelengkapan prosedur.",
+            "Bila ragu, hentikan, evaluasi, dan rujuk.",
+            "Jangan panik — klarifikasi dengan tenang lebih baik daripada mengarang jawaban.",
+            "Selalu dokumentasikan masalah dan respons di SOAP."
+          ],
+          "bold": true,
+          "source": "Lampiran B file sumber / Prinsip"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Perforasi uterus: hentikan prosedur, rujuk emergensi",
+          "text": "Tanda-tanda perforasi uterus saat tindakan intrauterin (IUD, kuretase, biopsi): nyeri tajam tiba-tiba, hilangnya tahanan saat alat masuk, perdarahan pervaginam berlebih, pasien tidak stabil (tanda syok). Tatalaksa: hentikan prosedur, nilai TTV, akses IV 2 jalur, cairan kristaloid, lab darah + cross-match, rujuk emergensi untuk laparoskopi/laparotomi. Jangan coba menyelesaikan prosedur di tempat — perforasi uterus adalah emergensi bedah.",
+          "answer_evidence": "Lampiran B; PNPK Obstetri Ginekologi; modul ObGyn FKIK"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Sinkop vasovagal umum terjadi pada pemeriksaan ginekologi",
+          "text": "Sinkop vasovagal (pusing, pucat, keringat dingin, mual, nadi lambat) adalah kejadian tersering pada pemeriksaan spekulum/bimanual/IUD, terutama pada pasien cemas, nyeri, atau dalam posisi litotomi terlalu lama. Tatalaksa: hentikan tindakan, posisikan Trendelenburg, longgarkan pakaian, observasi TTV, jangan berdiri mendadak setelah tindakan. Jangan melanjutkan prosedur sampai pasien stabil.",
+          "answer_evidence": "Panduan pelayanan KB; modul ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Self-correction lebih baik daripada mengarang",
+          "text": "Bila menyadari sudah membuat kesalahan di tengah station, lakukan recovery move: saat anamnesis — 'Mohon maaf, Bu, saya akan mengulang pertanyaan tadi untuk memastikan pemahaman saya'; saat pemeriksaan — 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang'; saat edukasi — 'Ibu, satu hal penting yang harus saya tambahkan: ...'; saat dokumentasi — 'Saya akan menuliskan [poin yang terlewat] di rekam medis'. Penguji menghargai self-correction, asalkan dilakukan dengan tenang dan jelas, bukan dengan panik atau mengarang.",
+          "answer_evidence": "§18 file sumber / Recovery Move"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_cmt_09",
+        "gls_peta_besar_pph_10",
+        "gls_peta_besar_empat_t_11",
+        "gls_peta_besar_iud_copper_12"
+      ],
+      "bilingual": "Section ini menggabungkan tindakan pasca-prosedur (dekontaminasi, dokumentasi, edukasi ulang) dan clinical reasoning dengan tabel diagnosis banding serta pembedaan metode kontrasepsi."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang utama ObGyn (tes kehamilan, darah lengkap, USG, Pap smear, IVA, swab) dengan indikasi dan interpretasi, ditambah algoritma tatalaksana emergensi (PPH, preeklampsia, ektopik, PID, abortus, asfiksia BBL) dan alur rujukan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang untuk topik ObGyn di OSCE biasanya diminta sesuai skenario. Tujuannya: menegakkan diagnosis, menyingkirkan diagnosis banding, dan menilai kondisi yang akan memengaruhi tatalaksana. Tabel penunjang utama: Tes kehamilan urin/serum (setiap wanita usia reproduksi dengan amenore, perdarahan, atau sebelum tindakan; negatif = tidak hamil tapi perlu konfirmasi klinis; puskesmas & RS); Darah lengkap Hb/leukosit/trombosit (anemia, infeksi, perdarahan, pra-tindakan; Hb ≥11 g/dL ibu hamil, leukosit 4.000-10.000; puskesmas & RS); Golongan darah + Rh (ibu hamil, perdarahan, pra-transfusi; catat golongan darah ibu dan ayah untuk antisipasi inkompatibilitas; puskesmas & RS); Urinalisis (ISK, preeklampsia — proteinuria; negatif atau trace; >+1 curiga preeklampsia; puskesmas).",
+          "tone": "clinical",
+          "source": "§10 file sumber / Tabel penunjang"
+        },
+        {
+          "text": "Lanjutan tabel penunjang: USG obstetri (konfirmasi kehamilan, presentasi, plasenta, taksiran berat janin; kantung intrauterin, DJJ (+), presentasi kepala, plasenta tidak menutupi OUE; RS/klinik dengan USG); USG ginekologi (mioma, kista, ektopik, perdarahan abnormal; massa padat vs kistik vs kompleks; RS/klinik dengan USG); Pap smear/IVA (skrining kanker serviks usia 30-50 tahun, sudah seksual; IVA: acetowhite = positif curiga displasia; puskesmas & RS); Swab vagina Gram/KOH/saline (keputihan abnormal, curiga IMS; pH >4,5 = BV; pseudohifa = kandidiasis; diplokokus Gram-negatif = gonore; puskesmas & RS); Tes IMS HIV/sifilis/hepatitis B (skrining pranatal, IMS curiga, donor darah; non-reaktif negatif, reaktif → konfirmasi; puskesmas & RS dengan lab); Kultur urine (ISK berulang, ISK pada hamil; negatif atau <10^5 CFU; lab RS); CTG/DJJ dengan doppler (gawat janin, evaluasi intrapartum; DJJ 110-160 x/menit, variabilitas adekuat; RS).",
+          "tone": "clinical",
+          "source": "§10 file sumber / Tabel penunjang (lanjutan)"
+        },
+        {
+          "text": "Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: Patologi anatomi (PA) untuk hasil biopsi serviks; kultur gonore/klamidia (bila tidak ada lab, cukup sebutkan rencana rujukan); tes fungsi hati dan ginjal untuk evaluasi preoperatif. Catatan penting: pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Cukup sebutkan bahwa Anda akan memesan pemeriksaan tertentu, dengan indikasi yang jelas.",
+          "tone": "narrative",
+          "source": "§10 file sumber / Catatan"
+        },
+        {
+          "text": "Prinsip tatalaksana ObGyn di OSCE: (1) Stabilkan — nilai ABC (airway, breathing, circulation), TTV, kesadaran. Ini selalu langkah pertama pada kasus emergensi. (2) Diagnosis kerja — berdasarkan anamnesis + pemeriksaan. Sampaikan ke penguji. (3) Tatalaksana sesuai diagnosis kerja — termasuk obat, prosedur, atau rujukan. (4) Konseling dan edukasi — bahasa awam, safety net. (5) Tindak lanjut — jadwal kontrol, kapan kembali, kapan rujuk. Karena modul ini adalah peta besar (bukan prosedur tunggal), §11 membahas manajemen klinis untuk situasi yang paling sering muncul di OSCE ObGyn, dengan fokus pada alur keputusan, rujukan, dan tindak lanjut — bukan contoh resep obat spesifik (yang bervariasi per topik di modul lain).",
+          "tone": "narrative",
+          "source": "§11 file sumber / Prinsip tatalaksana"
+        },
+        {
+          "text": "Manajemen kondisi darurat (red flags): Perdarahan postpartum/atonia uteri — masase uterus bimanual, uterotonika (oksitosin, metilergometrin, misoprostol sesuai SOP), cari laserasi, kompresi bimanual, akses IV 2 jalur, rujuk RS dengan bank darah & operator. Pre-eklampsia/eklampsia — MgSO4 4 g IV bolus pelan (20 menit) + maintenance 1 g/jam, antihipertensi (nifedipin 10 mg oral / labetalol IV), pemantauan refleks, urin, DJJ, rujuk RS dengan NICU. Kehamilan ektopik curiga/syok — stabilkan hemodinamik: akses IV 2 jalur, cairan kristaloid, lab darah (Hb, gol darah, cross-match), hindari peritoneum lavage, rujuk RS dengan operator. PID berat/abses tubo-ovarium — antibiotik IV (sefalosporin + doksisiklin + metronidazol sesuai SOP), analgesik, rawat inap, rujuk RS dengan ginekolog. Abortus inkomplit perdarahan — stabilkan, kuretase vakum/kuretase tajam sesuai fasilitas, antibiotik profilaksis, anti-tetanus bila perlu, rujuk RS dengan operator. Asfiksia BBL — langkah awal: hangatkan, posisi, bersihkan jalan napas (jika perlu), keringkan, stimulasi. Nilai Apgar. Resusitasi sesuai algoritme, rujuk NICU bila perlu.",
+          "tone": "clinical",
+          "source": "§11 file sumber / Manajemen darurat"
+        },
+        {
+          "text": "Kapan harus merujuk dan ke mana: Puskesmas → RS tipe C/D (kasus yang tidak dapat ditangani di puskesmas — peralatan terbatas, perlu lab lanjutan); RS tipe C/D → RS tipe B/A (kasus kebidanan risiko tinggi, onkologi ginekologi curiga, bayi perlu NICU); Dokter umum → SpOG (kehamilan risiko tinggi, kelainan ginekologi yang perlu tindakan operatif, onkologi ginekologi); Dokter umum → dokter anak (BBL dengan kelainan, BBL kurang bulan, BBL dengan asfiksia). Tatalaksana kondisi non-darurat: Kontrasepsi (informed choice → pasang metode yang sesuai, kontrol sesuai jadwal); ANC (suplementasi Fe, asam folat, kalsium; imunisasi TT; skrining IMS/HIV; edukasi tanda bahaya); Nifas normal (IMD, ASI eksklusif, kontrol nifas 1 minggu, lochia/fundus, KB pascasalin); Laktasi (koreksi latch, posisi menyusui, rawat mastitis/puting lecet, rujuk bila abses). Catatan [DITAMBAHKAN SAAT STANDARDISASI]: daftar obat dan dosis di atas hanya disebutkan dengan nama generik dan indikasi; pada pasien nyata harus selalu dikonfirmasi dengan PPK fasilitas, formularium, dan kondisi klinis individual.",
+          "tone": "clinical",
+          "source": "§11 file sumber / Kapan rujuk + Non-darurat"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Indikasi pemeriksaan penunjang utama ObGyn di OSCE:",
+          "sub": [
+            "Tes kehamilan — setiap wanita usia reproduksi dengan amenore, perdarahan, atau sebelum tindakan elektif.",
+            "Darah lengkap — anemia (pucat, lemas), infeksi (demam, leukositosis), perdarahan, evaluasi pra-tindakan.",
+            "Golongan darah + Rh — ibu hamil, perdarahan aktif, persiapan transfusi.",
+            "Urinalisis — ISK (disuria, frekuensi), preeklampsia (proteinuria, edema, TD tinggi).",
+            "USG obstetri — konfirmasi kehamilan, presentasi, plasenta previa, taksiran berat janin, DJJ abnormal.",
+            "USG ginekologi — mioma, kista ovarium, kehamilan ektopik, perdarahan abnormal.",
+            "Pap smear / IVA — skrining kanker serviks wanita usia 30-50 tahun, sudah seksual.",
+            "Swab vagina (Gram, KOH, saline) — keputihan abnormal, curiga IMS.",
+            "Tes IMS (HIV, sifilis, hepatitis B) — skrining pranatal, IMS curiga, persiapan tindakan.",
+            "Kultur urine — ISK berulang, ISK pada hamil."
+          ],
+          "bold": true,
+          "source": "§10 file sumber / Tabel penunjang"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Jangan mengarang hasil lab di OSCE",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, JANGAN mengarang hasil lab. Cukup sebutkan bahwa Anda akan memesan pemeriksaan tertentu, dengan indikasi yang jelas. Penguji akan menilai kelogisan permintaan (apakah tepat indikasi, apakah hasil yang diharapkan konsisten dengan diagnosis), bukan angka lab fiktif.",
+          "answer_evidence": "§10 file sumber / Catatan penting"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kasus emergensi: ABC dulu, baru tatalaksana",
+          "text": "Pada kasus emergensi (syok, perdarahan banyak, kejang, asfiksia BBL), langkah pertama SELALU stabilkan ABC (airway, breathing, circulation) sebelum tatalaksana definitif. Ini berlaku untuk PPH (masase uterus + uterotonik + akses IV 2 jalur), preeklampsia/eklampsia (MgSO4 + antihipertensi), ektopik dengan syok (cairan kristaloid + cross-match), dan asfiksia BBL (hangatkan, posisi, bersihkan jalan napas, stimulasi, resusitasi).",
+          "answer_evidence": "PNPK POGI; WHO Safe Motherhood; modul ObGyn FKIK"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_pph_10",
+        "gls_peta_besar_empat_t_11"
+      ],
+      "bilingual": "Section ini menggabungkan tabel pemeriksaan penunjang ObGyn dengan indikasi dan interpretasi, serta algoritma tatalaksana emergensi (PPH, preeklampsia, ektopik, PID, abortus, asfiksia BBL)."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi spesifik (tanda bahaya kehamilan/nifas, jadwal kontrol, nutrisi, ASI eksklusif, KB pascasalin, skrining kanker serviks) dan safety-net pasien, ditambah contoh SOAP lengkap untuk skenario Ny. Sari hamil 32 minggu dengan kode ICD-10.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi di OSCE sering dinilai dari konten, bahasa, dan konfirmasi pemahaman pasien. Gunakan bahasa awam, hindari jargon yang tidak dijelaskan, dan minta pasien mengulang informasi penting. Poin edukasi spesifik yang harus diberikan (minimal 6): (1) Tanda bahaya kehamilan — perdarahan, nyeri perut hebat, sakit kepala berat, pandangan kabur, bengkak seluruh tubuh, gerak janin berkurang, KPD, kejang. (2) Tanda bahaya nifas — perdarahan banyak, bau busuk, demam, nyeri perut, ASI tidak lancar, baby blues berkepanjangan. (3) Jadwal kontrol — ANC 4 kali (usia kehamilan ideal: ≤12 minggu, 20-24, 28-32, ≥36 minggu); nifas 1 minggu, 2 minggu, 6 minggu; KB 1 bulan setelah IUD. (4) Nutrisi dan suplementasi — Fe 60 mg + asam folat 400 µg/hari pada hamil; kalsium 1.000 mg/hari; diet tinggi protein, sayur, buah. (5) ASI eksklusif 6 bulan — IMD dalam 1 jam, posisi dan latch benar, tanda cukup ASI (BAK 6-8 kali/hari, BB naik). (6) KB pascasalin — dimulai 6 minggu postpartum untuk non-ASI, 6 bulan untuk ASI eksklusif (mini pil/implan/IUD). (7) Pencegahan IMS — kondom untuk pasangan berisiko, skrining rutin, hindari douching. (8) Skrining kanker serviks — Pap smear/IVA setiap 3-5 tahun untuk usia 30-50 tahun.",
+          "tone": "narrative",
+          "source": "§12 file sumber / Poin edukasi"
+        },
+        {
+          "text": "Safety net — kapan pasien harus kembali segera atau ke IGD (minimal 4): (1) Perdarahan banyak — >2 softek/pembalut besar per jam, atau perdarahan yang tidak berhenti. (2) Nyeri perut hebat — tidak hilang dengan istirahat, atau disertai demam/muntah. (3) Demam ≥38°C — terutama pada nifas, pasca-tindakan, atau hamil. (4) Tanda bahaya spesifik topik — misal: gerak janin berkurang, KPD, sakit kepala berat, pandangan kabur, kejang. (5) Tanda komplikasi KB — perdarahan berat, nyeri hebat, benang IUD tidak teraba, atau IUD terasa keluar. (6) Tanda kegawatdaruratan bayi — tidak mau menyusu, muntah proyektil, kejang, kuning >2 minggu, napas cepat.",
+          "tone": "narrative",
+          "source": "§12 file sumber / Safety net"
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE: gunakan bahasa sederhana, contoh: 'Bayi sebaiknya disusui setiap 2-3 jam, ya, Bu. Tandanya cukup ASI: bayi pipis 6-8 kali sehari, BB naik tiap bulan.' Minta pasien mengulang: 'Bisa tolong ulangi, Bu, tanda bahaya yang harus diwaspadai?' Berikan waktu untuk bertanya: 'Ada yang ingin ditanyakan lagi, Bu?' Tunjukkan sikap empati dan tidak menggurui. Contoh kalimat edukasi spesifik: 'Ibu, tablet besi diminum malam hari sebelum tidur dengan air putih, ya, untuk mengurangi mual. Jangan diminum bersama teh atau kopi.'; 'Untuk KB, silakan kontrol 1 bulan setelah pemasangan IUD. Kalau ada perdarahan banyak, nyeri hebat, atau benang tidak teraba, langsung ke IGD.'; 'Ibu hamil, kalau ada sakit kepala berat, pandangan kabur, atau bengkak seluruh tubuh, langsung ke IGD ya, itu tanda bahaya preeklampsia.'; 'Bayi harus disusui dalam 1 jam pertama setelah lahir, dan ASI eksklusif sampai 6 bulan. Setelah itu mulai MPASI sambil terus menyusui sampai 2 tahun.'",
+          "tone": "narrative",
+          "source": "§12 file sumber / Cara edukasi"
+        },
+        {
+          "text": "DOKUMENTASI SOAP — skenario: Ny. Sari, 28 tahun, G1P0A0, hamil 32 minggu, datang ke puskesmas untuk ANC rutin. S (Subjective): Keluhan utama: tidak ada keluhan, kontrol hamil. HPHT: 5 bulan yang lalu (usia kehamilan 32 minggu berdasarkan HPHT dan USG trimester 1). Riwayat obstetri: G1P0A0, belum pernah hamil sebelumnya. Riwayat penyakit: tidak ada alergi obat, tidak ada riwayat hipertensi/kencing manis/asma. Keluhan tambahan: kadang pegal di pinggang, tidak ada perdarahan, tidak ada mual muntah berat. Pergerakan janin: aktif. BAK/BAB: normal.",
+          "tone": "narrative",
+          "source": "§13 file sumber / SOAP Subjective"
+        },
+        {
+          "text": "Lanjutan SOAP Ny. Sari: O (Objective): TTV: TD 110/70 mmHg, N 80 x/menit, S 36,8°C, RR 18 x/menit, SpO2 98%. BB: 65 kg (kenaikan 9 kg dari awal hamil). Konjungtiva tidak pucat, sklera tidak ikterus, edema pretibial (-). Abdomen: TFU setinggi pusat + 4 cm (≈32 minggu), Leopold I: bokong di fundus; Leopold II: punggung di kiri; Leopold III: presentasi kepala; Leopold IV: kepala sudah masuk PAP. DJJ: 140 x/menit, reguler. Ekstremitas: edema (-), varises (-). A (Assessment): G1P0A0, hamil 32 minggu, hidup, tunggal, presentasi kepala, kesan jalan lahir normal. Kehamilan normal risiko rendah. Tidak ada tanda bahaya. P (Plan): (1) Lanjutkan kehamilan. (2) Suplementasi Fe 60 mg + asam folat 400 µg/hari. (3) Kalsium 1.000 mg/hari. (4) Imunisasi TT sesuai jadwal. (5) Skrening IMS/HIV/sifilis (jika belum). (6) Laboratorium: darah lengkap, urinalisis, golongan darah. (7) Edukasi tanda bahaya kehamilan, nutrisi, persiapan persalinan. (8) Kontrol 4 minggu lagi (usia 36 minggu). (9) Pembahasan KB pascasalin di kunjungan berikutnya.",
+          "tone": "narrative",
+          "source": "§13 file sumber / SOAP Objective + Assessment + Plan"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan untuk diagnosis kerja di skenario ini: Z34.9 — Supervisi kehamilan normal, tidak spesifik (atau Z34.0/Z34.8 sesuai trimester); O80 — Persalinan tunggal spontan (bila masuk fase persalinan); O09.90 — Supervisi kehamilan risiko tinggi (bila ada faktor risiko). Dokumen/kartu khusus yang harus dibuat: Kartu ibu hamil (KIH) — berisi data ibu, HPHT, Taksiran Persalinan (TP), jadwal kunjungan, hasil laboratorium; Kartu IUD — tanggal pemasangan, jenis IUD, panjang benang, jadwal kontrol (bila pemasangan IUD); Surat rujukan — identitas, diagnosis kerja, alasan rujukan, tindakan yang sudah dilakukan, kondisi pasien saat rujukan; Surat kelahiran — identitas bayi, jenis kelamin, BB, PB, Apgar, waktu lahir, penolong. Cara mendokumentasikan prosedur tindakan (misal: IUD): tanggal dan jam pemasangan; jenis IUD, nomor batch/kadaluwarsa; identitas operator; catatan: posisi litotomi, antisepsis, sonde (kedalaman uterus), IUD terpasang, panjang benang 3-4 cm, perdarahan minimal, pasien kooperatif, edukasi safety net; komplikasi intraprosedural: tidak ada/ada (jelaskan); tanda tangan dokter dan perawat. Catatan [DITAMBAHKAN SAAT STANDARDISASI]: format SOAP di atas mengikuti standar yang umum dipakai di puskesmas dan rumah sakit pendidikan; pada pasien nyata, format mengikuti SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§13 file sumber / ICD-10 + Dokumen khusus"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Safety net — kapan harus kembali segera atau ke IGD:",
+          "sub": [
+            "Perdarahan banyak (>2 softek/pembalut besar per jam, atau tidak berhenti).",
+            "Nyeri perut hebat (tidak hilang dengan istirahat, atau disertai demam/muntah).",
+            "Demam ≥38°C (terutama pada nifas, pasca-tindakan, atau hamil).",
+            "Tanda bahaya spesifik topik (gerak janin berkurang, KPD, sakit kepala berat, pandangan kabur, kejang).",
+            "Tanda komplikasi KB (perdarahan berat, nyeri hebat, benang IUD tidak teraba, atau IUD terasa keluar).",
+            "Tanda kegawatdaruratan bayi (tidak mau menyusu, muntah proyektil, kejang, kuning >2 minggu, napas cepat)."
+          ],
+          "bold": true,
+          "source": "§12 file sumber / Safety net"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Minta pasien mengulang pemahaman (teach-back)",
+          "text": "Pada akhir edukasi, selalu minta pasien mengulang pemahaman: 'Bisa tolong ulangi, Bu, tanda bahaya yang harus diwaspadai?' Ini adalah teknik teach-back yang menilai apakah edukasi Anda berhasil dipahami pasien, bukan hanya apakah Anda mengucapkannya. Penguji OSCE sangat menilai kemampuan teach-back untuk memastikan komunikasi klinis efektif.",
+          "answer_evidence": "§12 file sumber / Cara edukasi; komunikasi klinis efektif"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 wajib untuk diagnosis kerja",
+          "text": "Pada OSCE, menyebutkan kode ICD-10 untuk diagnosis kerja adalah bagian dari komponen dokumentasi. Contoh kode yang sering muncul: Z34.9 (supervisi kehamilan normal), O80 (persalinan tunggal spontan), O09.90 (supervisi kehamilan risiko tinggi), O14 (preeklampsia), O15 (eklampsia), O00 (kehamilan ektopik), O03 (abortus spontan), O70 (ruptur perineum), O91 (mastitis), N73 (PID), N89/N76 (duh genital), N39.0 (sistitis), Z30 (kontrasepsi). Hafalkan 5-10 kode paling sering.",
+          "answer_evidence": "§13 file sumber / Kode ICD-10; ICD-10 WHO 2019"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_skdi_4a_15"
+      ],
+      "bilingual": "Section ini menggabungkan poin edukasi spesifik (tanda bahaya, jadwal kontrol, nutrisi, ASI eksklusif, KB pascasalin) dan contoh SOAP lengkap dengan kode ICD-10 untuk skenario Ny. Sari hamil 32 minggu."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Pemetaan penyakit SKDI 4A (mandiri) vs 3B (rujuk) di Blok 6.1 Reproduksi, ditambah 4 mini-skrip komunikasi dialogis OSCE: pembuka station, anamnesis, saat tindakan, dan penutup station.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Standar Kompetensi Dokter Indonesia (SKDI) 2012 membagi kompetensi dokter layanan primer menjadi level 4A (mandiri), 3B (merujuk), 2 (merujuk ke spesialis). Pada Blok 6.1 Reproduksi, banyak keterampilan ditargetkan level 4A untuk dokter umum. Tabel pemetaan penyakit SKDI 4A: Kontrasepsi (IUD, pil, suntik, implan) Z30.x — 4A (konseling, seleksi klien, pemasangan, komplikasi); Duh genital: gonore, non-gonore, vaginitis, vaginosis bakterialis, vulvitis (N89.8, N72, N76.x) — 4A (3B bila PID) untuk anamnesis, inspeksi, swab, tatalaksana, edukasi pasangan; Salpingitis/PID (N73) — 3B untuk bimanual, CMT, tes kehamilan, rujukan; ISK bagian bawah/sistitis (N39.0) — 4A untuk anamnesis disuria, urinalisis, diferensiasi vaginitis; Kehamilan normal dan ANC (Z34.9) — 4A untuk ANC, Leopold, DJJ, edukasi tanda bahaya; Aborsi spontan komplit + perdarahan awal kehamilan (O03.x, O20.x) — 4A (3B bila inkomplit/tidak stabil).",
+          "tone": "clinical",
+          "source": "§14 file sumber / Tabel SKDI 4A"
+        },
+        {
+          "text": "Lanjutan tabel SKDI 4A: Anemia defisiensi besi pada kehamilan (O99.0/D64.9) — 4A untuk ANC, pucat, Hb, edukasi tablet besi; Ruptur perineum derajat 1-2 (O70.0/O70.1) — 4A (3B bila derajat 3-4) untuk episiotomi, jahit, evaluasi postpartum; Mastitis, cracked nipple, inverted nipple (O91.x, N64.x) — 4A untuk pemeriksaan乳腺癌, edukasi laktasi, IMD; Abses folikel/sebasea vulva (N76.x) — 4A untuk inspeksi genital, status lokalis, rujuk bila besar/dalam; Presentasi bokong/malpresentasi (O32.1) — 3B (Rujuk untuk pertolongan persalinan) untuk diagnosis, informed consent, Bracht/Manual Aid di tim terlatih; Kehamilan ektopik (O00.x) — 3B (Rujuk) untuk diagnosis, stabilisasi, rujukan emergensi; Preeklampsia/eklampsia (O14.x/O15.x) — 3B (Rujuk) untuk TD, proteinuria, MgSO4, antihipertensi, rujuk.",
+          "tone": "clinical",
+          "source": "§14 file sumber / Tabel SKDI 4A (lanjutan)"
+        },
+        {
+          "text": "Batas kompetensi dokter umum untuk setiap diagnosis: 4A (mandiri) — dokter umum boleh menangani sendiri di layanan primer; 3B (merujuk) — dokter umum boleh melakukan stabilisasi dan tatalaksana awal, WAJIB merujuk ke SpOG; 2 (merujuk ke spesialis) — hanya spesialis yang menangani; dokter umum hanya boleh melakukan deteksi dini dan rujukan. Catatan diagnosis yang harus dirujuk segera (SKDI 3B): Kehamilan ektopik (curiga); Preeklampsia berat/eklampsia; Perdarahan postpartum/atonia uteri; Abortus inkomplit dengan perdarahan banyak; Abses tubo-ovarium/PID dengan abses; Kanker serviks/lesi curiga ganas; Presentasi bokong dengan fasilitas terbatas.",
+          "tone": "clinical",
+          "source": "§14 file sumber / Batas kompetensi"
+        },
+        {
+          "text": "MINI-SKRIP KOMUNIKASI OSCE — Skrip di bawah ini adalah templat dialogis yang bisa Anda adaptasi untuk hampir semua station ObGyn. Perhatikan: kalimat yang bold adalah kalimat kritis yang sering dilupakan. Pembuka Station (60-90 detik pertama): DOKTER: 'Selamat pagi, Bu. Saya dokter muda yang akan membantu pemeriksaan hari ini. Sebelum kita mulai, boleh saya minta nama lengkap dan tanggal lahir Ibu?' PASIEN: 'Saya Ny. Sari, 28 tahun.' DOKTER: 'Baik, Bu Sari. Hari ini saya akan melakukan pemeriksaan untuk menilai kondisi [kehamilan/reproduksi/KB] Ibu. Pemeriksaannya meliputi [anamnesis, pemeriksaan TTV, pemeriksaan fisik, dan bila diperlukan pemeriksaan penunjang]. Pemeriksaan ini tidak berbahaya tapi mungkin terasa tidak nyaman. Ibu boleh meminta saya berhenti kapan saja jika merasa sakit atau tidak nyaman. Apakah Ibu bersedia? Ada pertanyaan sebelum kita mulai?' PASIEN: 'Silakan, Dok. Saya bersedia.' DOKTER: 'Baik. Sebelum saya mulai, saya cuci tangan dulu dan pakai sarung tangan. Saya juga akan menjaga privasi Ibu — hanya area yang akan diperiksa yang dibuka.'",
+          "tone": "narrative",
+          "source": "§15 H2 Pembuka"
+        },
+        {
+          "text": "Saat Anamnesis: DOKTER: 'Bisa ceritakan keluhan utama Ibu hari ini?' PASIEN: [Menjelaskan keluhan] DOKTER: 'Baik. Sekarang saya akan tanya beberapa hal ya, Bu. Pertama, kapan hari pertama haid terakhir Ibu?' PASIEN: [Menjawab HPHT] DOKTER: 'Sudah pernah hamil sebelumnya, Bu? Kalau pernah, berapa kali, dan bagaimana proses persalinannya?' PASIEN: [Menjawab riwayat obstetri] DOKTER: 'Ibu ada alergi obat, Bu? Sedang minum obat apa?' PASIEN: [Menjawab] DOKTER: 'Sekarang saya tanya keluhan yang mungkin sensitif ya, Bu. Apakah ada keputihan yang abnormal, nyeri saat berhubungan, atau pernah infeksi menular seksual?' PASIEN: [Menjawab] DOKTER: 'Terima kasih, Bu. Sekarang saya akan memeriksa tanda vital dan melakukan pemeriksaan fisik.'",
+          "tone": "narrative",
+          "source": "§15 H2 Anamnesis"
+        },
+        {
+          "text": "Saat Tindakan/Prosedur: DOKTER: 'Ibu, saya akan mulai. Tarik napas dalam, ya, Bu, rileks. Saya akan bicara setiap langkah, jadi Ibu tahu apa yang terjadi.' PASIEN: 'Baik, Dok.' DOKTER: 'Sekarang saya masukkan alat secara perlahan. Beri tahu saya kalau terasa nyeri.' [Saat menemukan temuan] DOKTER: 'Bu, saya melihat [temuan]. Ini [keterangan]. Saya akan melanjutkan untuk melihat bagian lain.' [Saat tindakan selesai] DOKTER: 'Sudah selesai, Bu. Hasil pemeriksaan menunjukkan [temuan normal/ada kelainan]. Saya akan jelaskan lebih lanjut.'",
+          "tone": "narrative",
+          "source": "§15 H2 Prosedur"
+        },
+        {
+          "text": "Penutup Station (Edukasi dan Dokumentasi): DOKTER: 'Bu, hasil pemeriksaan kita hari ini: [ringkasan diagnosis]. Tatalaksana awal saya adalah [rencana]. Tanda bahaya yang harus diwaspadai: perdarahan banyak, demam, nyeri hebat, [tanda bahaya spesifik topik]. Kalau ada salah satu dari itu, langsung ke IGD, Bu, jangan tunggu.' PASIEN: 'Baik, Dok.' DOKTER: 'Ibu kontrol tanggal [tanggal], ya. Saya akan mendokumentasikan semua ini di rekam medis dan memberikan kartu Ibu untuk kontrol berikutnya. Ada pertanyaan lagi, Bu?' PASIEN: 'Tidak ada, Dok. Terima kasih.' DOKTER: 'Sama-sama, Bu. Saya doakan Ibu dan [bayi, bila hamil] sehat selalu.' Catatan perbedaan antara pasien awam vs pasien kooperatif: Pasien awam — gunakan bahasa lebih sederhana, jelaskan setiap langkah sebelum dilakukan, minta persetujuan verbal lebih sering; Pasien kooperatif — bisa lebih ringkas, tetapi tetap harus verbalisasi temuan dan edukasi; Pasien dengan keluhan akut/nyeri — prioritaskan tatalaksana, komunikasi lebih singkat, anamnesis bisa dilakukan bertahap.",
+          "tone": "narrative",
+          "source": "§15 H2 Penutup"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Lampiran D: Checklist verbal sebelum mulai tindakan (harus diucapkan dalam 60-90 detik pertama):",
+          "sub": [
+            "'Selamat pagi, Bu. Saya dokter muda yang akan membantu pemeriksaan hari ini. Boleh saya minta nama lengkap dan tanggal lahir Ibu?'",
+            "'Pemeriksaan hari ini bertujuan untuk [tujuan]. Pemeriksaannya meliputi [langkah utama], mungkin terasa tidak nyaman, dan Ibu boleh meminta saya berhenti kapan saja.'",
+            "'Sebelum saya mulai, saya akan menjaga privasi Ibu — hanya area yang akan diperiksa yang dibuka, dan ada petugas perempuan mendampingi.'",
+            "'Saya akan mencuci tangan dulu dan memakai sarung tangan steril. Alat-alat sudah disiapkan dan steril.'",
+            "'Apakah Ibu ada pertanyaan sebelum kita mulai? Kalau sudah paham dan setuju, kita akan mulai.'",
+            "'Ibu, saya akan mulai. Tarik napas dalam, rileks, ya. Saya akan bicara setiap langkah agar Ibu tahu apa yang terjadi.'",
+            "'Sekarang saya akan [langkah 1]. Beri tahu saya kalau ada rasa nyeri atau tidak nyaman.'",
+            "'Sudah selesai, Bu. Hasilnya [temuan normal/ada hal yang perlu kita bicarakan]. Saya jelaskan lebih lanjut.'",
+            "'Tanda bahaya yang harus diwaspadai: perdarahan banyak, demam, nyeri hebat, [tanda bahaya spesifik topik]. Kalau ada, langsung ke IGD, Bu.'",
+            "'Ibu kontrol tanggal [tanggal]. Saya dokumentasikan semua hasil di rekam medis dan berikan kartu Ibu untuk kontrol. Ada pertanyaan lagi?'"
+          ],
+          "bold": true,
+          "source": "Lampiran D file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Berhenti sejenak setelah informed consent",
+          "text": "Prinsip penting: setiap kalimat di Lampiran D adalah poin yang biasa dinilai. Berhenti sejenak setelah informed consent — penguji sering menilai apakah Anda benar-benar menunggu persetujuan atau langsung bergerak. Tunggu jawaban eksplisit dari pasien (verbal atau non-verbal, misal anggukan) sebelum melanjutkan ke langkah berikutnya.",
+          "answer_evidence": "Lampiran D file sumber / Prinsip"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Batas kompetensi 4A vs 3B",
+          "text": "SKDI 4A: dokter umum boleh menangani sendiri di layanan primer (KB, duh genital, sistitis, ANC, aborsi komplit, ruptur perineum derajat 1-2, mastitis, abses folikel vulva). SKDI 3B: dokter umum boleh stabilisasi dan tatalaksana awal, WAJIB merujuk ke SpOG (kehamilan ektopik, preeklampsia/eklampsia, PPH, abortus inkomplit, PID dengan abses, kanker serviks, presentasi bokong dengan fasilitas terbatas).",
+          "answer_evidence": "§14 file sumber; SKDI 2012"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_skdi_4a_15"
+      ],
+      "bilingual": "Section ini menggabungkan pemetaan penyakit SKDI 4A (mandiri) vs 3B (wajib rujuk) di Blok 6.1 Reproduksi dengan 4 mini-skrip komunikasi dialogis OSCE."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist 27 item latihan mandiri, rencana belajar 3 hari, dan tabel kesalahan fatal (skor hangus) vs pengurangan besar yang menurunkan nilai di OSCE ObGyn, plus recovery move saat menyadari kesalahan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Gunakan checklist 27 item latihan mandiri 1-2 hari sebelum OSCE. Cetak, centang yang sudah bisa, dan beri catatan pada yang masih kurang. Kriteria 'Siap OSCE': minimal 23 dari 27 item tercentang, dan semua item TINGGI sudah dikuasai.",
+          "tone": "narrative",
+          "source": "§16 file sumber / Kriteria"
+        },
+        {
+          "text": "RENCANA BELAJAR 3 HARI. Hari 1 — Orientasi dan Pemahaman Dasar (45-60 menit): pahami peta skill Blok 6.1 dan alur komunikasi OSCE; hafal alur besar station ObGyn (§2) dan 5 pertanyaan kunci anamnesis (§4); baca §1, §3, dan §4 satu kali penuh. Aktivitas: baca §1 untuk konteks modul; tulis ulang alur §2 dari ingatan tanpa melihat; tulis ulang 5 pertanyaan kunci anamnesis (§4) di kertas; baca §3 (tabel checklist) sekali dan tandai kalimat OSCE yang paling penting. Sumber tambahan: Panduan Skill Lab Blok 6.1 FKIK Universitas Jambi; Modul-modul spesifik Blok 6.1 (IUD, ANC, presentasi bokong, dll.). Kriteria selesai: bisa menyebutkan alur §2 dan 5 pertanyaan kunci anamnesis tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": "§17 H2 Hari 1"
+        },
+        {
+          "text": "Hari 2 — Latihan Teknis dan Verbal (60-90 menit): hafal urutan pemeriksaan fisik (§5) untuk komponen TTV, abdomen, genital, dan bimanual; latihan mini-skrip komunikasi (§15) lengkap; hafal red flags spesifik topik dan kode ICD-10. Aktivitas: latihan di manekin/phantom sambil mengucapkan langkah-langkah dengan suara keras; praktik posisi litotomi, drape, sarung tangan, hand hygiene; tulis SOAP untuk skenario fiktif (gunakan identitas Ny. Sari dari §13); simulasikan skenario dengan teman sebagai 'pasien' — teman bertanya sebagai 'penguji'. Sumber tambahan: Modul skill lab spesifik (IUD, ANC, dll.) — fokus pada langkah-langkah; Video demonstrasi di YouTube (FKIK, RCOG, ACOG). Kriteria selesai: dapat menyelesaikan mini-skrip §15 dalam 7-8 menit tanpa terhenti, dan bisa menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 H2 Hari 2"
+        },
+        {
+          "text": "Hari 3 — Simulasi Penuh dan Evaluasi (60 menit): run-through penuh station (mulai masuk, salam, anamnesis, pemeriksaan, edukasi, dokumentasi, keluar); identifikasi celah terakhir dari latihan; simulasi skenario berbeda (mudah → sulit) untuk melatih fleksibilitas. Aktivitas: timer 10 menit, simulasi lengkap dari masuk station sampai keluar; review §18 (kesalahan fatal) — pastikan tidak ada yang terlewat; praktik skenario alternatif dari Lampiran C (3 tingkat kesulitan); tidur cukup malam sebelumnya — OSCE bukan dihafal semalam. Sumber tambahan: Teman sebagai 'penguji' — berikan feedback jujur; Rekam video latihan sendiri, review postur, kontak mata, kecepatan bicara. Kriteria 'siap OSCE': bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi; tidak melewatkan item checklist §16 (minimal 23 dari 27); bisa menjawab 1-2 pertanyaan penguji (misal: 'Apa diagnosis banding Anda?', 'Kapan rujukan?') dengan baik; merasa cukup percaya diri — bukan sempurna, tapi yakin dengan alur.",
+          "tone": "narrative",
+          "source": "§17 H2 Hari 3"
+        },
+        {
+          "text": "KESALAHAN FATAL yang sering menurunkan skor. Kategori FATAL (skor hangus/nol untuk station): (1) Tidak melakukan informed consent — menyentuh pasien atau memulai prosedur tanpa persetujuan → Skor hangus untuk komponen etik/komunikasi. (2) Tidak menjaga privasi — tidak menutup area yang tidak diperiksa, tidak ada chaperone untuk pemeriksaan genital → Skor hangus untuk komponen privasi. (3) Tidak cuci tangan — langsung kontak dengan pasien tanpa hand hygiene → Skor hangus untuk komponen asepsis. (4) Memasukkan alat tanpa melihat serviks/anatomi — misal: pasang IUD tanpa visualisasi serviks → Risiko perforasi, skor hangus. (5) Menarik bayi secara kasar pada persalinan sungsang — tanpa prinsip manuver, tanpa menunggu his → Risiko trauma bayi, skor hangus. (6) Tidak menyiapkan resusitasi BBL pada persalinan — bayi bisa asfiksia, dokter tidak siap → Skor hangus untuk keselamatan. (7) Tidak mengenali tanda bahaya/red flags — misalnya: tidak curiga preeklampsia pada TD tinggi pada hamil → Skor hangus untuk clinical reasoning. (8) Tidak melakukan dekontaminasi alat setelah tindakan → Skor hangus untuk komponen pascatindakan/asepsis.",
+          "tone": "clinical",
+          "source": "§18 file sumber / Kategori FATAL"
+        },
+        {
+          "text": "Kategori PENGURANGAN BESAR (skor turun signifikan tapi tidak nol): (1) Tidak menyebutkan diagnosis kerja — banyak penguji menilai 0 pada item ini karena tanpa diagnosis, tatalaksana tidak punya dasar. (2) Tidak menulis dokumentasi SOAP atau dokumentasi tidak lengkap → Skor turun untuk komponen rekam medis. (3) Tidak memberi edukasi safety-net — misal: tidak bilang 'datang lagi kalau perdarahan banyak' → Skor turun untuk edukasi. (4) Salah urutan prosedur — misal: bimanual sebelum inspeksi, atau pasang IUD sebelum antisepsis → Skor turun untuk ketepatan teknik. (5) Tidak verbalisasi temuan — penguji tidak tahu Anda menemukan apa karena tidak diucapkan → Skor turun meskipun pemeriksaan benar. (6) Tidak menyebut kode ICD-10 diagnosis utama → Skor turun untuk dokumentasi. Recovery Move (bila menyadari sudah membuat kesalahan di tengah station): Saat anamnesis — 'Mohon maaf, Bu, saya akan mengulang pertanyaan tadi untuk memastikan pemahaman saya' → tetap sopan, tidak panik. Saat pemeriksaan — 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang' → penguji menghargai self-correction. Saat edukasi — 'Ibu, satu hal penting yang harus saya tambahkan: ...' → tambahkan poin yang lupa. Saat dokumentasi — 'Saya akan menuliskan [poin yang terlewat] di rekam medis.' Yang penting: jangan panik dan jangan asal jawab saat ditegur. Klarifikasi dengan tenang adalah strategi yang lebih baik daripada mengarang.",
+          "tone": "clinical",
+          "source": "§18 file sumber / PENGURANGAN BESAR + Recovery Move"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist 27 item latihan mandiri OSCE Blok 6.1:",
+          "sub": [
+            "Item 1 (T) — Salam, perkenalan, konfirmasi identitas pasien.",
+            "Item 2 (T) — Informed consent dengan penjelasan tujuan, risiko, alternatif.",
+            "Item 3 (T) — Menjaga privasi (drape, chaperone, hanya buka area yang diperiksa).",
+            "Item 4 (T) — Cuci tangan 6 langkah sebelum dan sesudah kontak.",
+            "Item 5 (T) — Memakai APD sesuai tindakan (sarung tangan, masker, apron).",
+            "Item 6 (T) — Anamnesis keluhan utama dengan pertanyaan terbuka.",
+            "Item 7 (T) — Anamnesis riwayat haid/obstetri/ginekologi/KB.",
+            "Item 8 (S) — Anamnesis alergi obat dan obat yang sedang diminum.",
+            "Item 9 (T) — Skrining tanda bahaya (red flags) sesuai topik.",
+            "Item 10 (T) — Melakukan pengukuran TTV (TD, nadi, suhu, napas).",
+            "Item 11 (T) — Inspeksi abdomen dan/atau genital.",
+            "Item 12 (T) — Palpasi abdomen/Leopold (bila hamil).",
+            "Item 13 (T) — Pemeriksaan dengan spekulum (bila topik ginekologi).",
+            "Item 14 (T) — Pemeriksaan bimanual (bila topik ginekologi).",
+            "Item 15 (T) — Mengukur DJJ (bila hamil >20 minggu).",
+            "Item 16 (T) — Menyebutkan diagnosis kerja dengan benar.",
+            "Item 17 (T) — Menentukan tatalaksana awal yang sesuai.",
+            "Item 18 (T) — Memberikan edukasi pasien (tanda bahaya, kontrol).",
+            "Item 19 (T) — Membuat dokumentasi SOAP lengkap.",
+            "Item 20 (S) — Mendekontaminasi alat dan membuang habis pakai sesuai SOP.",
+            "Item 21 (S) — Melepas APD dan cuci tangan ulang.",
+            "Item 22 (T) — Mengenali kapan harus merujuk (red flags).",
+            "Item 23 (T) — Konseling informed choice untuk KB (bila topik KB).",
+            "Item 24 (T) — Menyebutkan minimal 5 red flags spesifik topik.",
+            "Item 25 (S) — Menyebutkan kode ICD-10 diagnosis utama.",
+            "Item 26 (S) — Minta pasien mengulang pemahaman edukasi.",
+            "Item 27 (S) — Penutup station yang sopan dan jelas."
+          ],
+          "bold": true,
+          "source": "§16 file sumber / Tabel checklist"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "8 FATAL yang menyebabkan skor hangus",
+          "text": "Delapan kesalahan fatal yang menyebabkan skor hangus (nol) untuk komponen terkait: (1) Tidak informed consent, (2) Tidak privasi/chaperone, (3) Tidak cuci tangan, (4) Masukkan alat tanpa visualisasi serviks (mis. IUD tanpa spekulum), (5) Tarik bayi kasar pada persalinan sungsang, (6) Tidak siapkan resusitasi BBL, (7) Tidak kenali red flags (TD tinggi pada hamil, PPH, asfiksia BBL), (8) Tidak dekontaminasi alat pascatindakan. Tujuh dari delapan FATAL adalah pelanggaran keselamatan pasien.",
+          "answer_evidence": "§18 file sumber / FATAL"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "6 PENGURANGAN BESAR yang menurunkan skor",
+          "text": "Enam kesalahan dengan pengurangan skor signifikan: (1) Tidak sebutkan diagnosis kerja, (2) Tidak tulis dokumentasi SOAP/tidak lengkap, (3) Tidak edukasi safety-net, (4) Salah urutan prosedur (bimanual sebelum inspeksi, IUD sebelum antisepsis), (5) Tidak verbalisasi temuan, (6) Tidak sebut kode ICD-10. Berbeda dari FATAL, kesalahan ini tidak membuat skor nol, tetapi menurunkan skor komponen terkait secara signifikan.",
+          "answer_evidence": "§18 file sumber / PENGURANGAN BESAR"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery move: klarifikasi > mengarang",
+          "text": "Bila menyadari sudah membuat kesalahan di tengah station, jangan panik. Klarifikasi dengan tenang lebih baik daripada mengarang jawaban. Contoh: 'Mohon maaf, Bu, saya akan mengulang pertanyaan tadi' atau 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang'. Penguji menghargai self-correction yang dilakukan dengan tenang dan jelas.",
+          "answer_evidence": "§18 file sumber / Recovery Move"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_peta_besar_kardinal_movements_14"
+      ],
+      "bilingual": "Section ini menggabungkan checklist 27 item latihan mandiri, rencana belajar 3 hari, dan tabel kesalahan fatal vs pengurangan besar yang menurunkan skor di OSCE ObGyn, plus recovery move saat menyadari kesalahan."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Saran visual 5 panel (anatomi pelvis, posisi litotomi, spekulum, Leopold 4-panel, lochia & involusi) dengan prompt AI, referensi ringkas (Panduan Skill Lab, SKDI, WHO, CDC, RCOG), dan 4 lampiran (kontraindikasi, masalah prosedur, mini-case 3 tingkat, checklist verbal).",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "VISUAL membantu memperkuat memori prosedural. Berikut adalah 5 visual yang disarankan dan prompt AI siap-pakai untuk membuat visual tersebut. Tabel visual: (1) Diagram anatomi pelvis wanita tampak depan dan samping — ilustrasi medis edukatif anatomi pelvis wanita, label Bahasa Indonesia, gaya buku kedokteran (tujuan: memahami vagina, serviks, uterus, adneksa, forniks, Douglas); (2) Posisi litotomi dan pemasangan kain penutup — ilustrasi OSCE posisi litotomi pasien simulasi dengan drape, dokter muda menyiapkan pemeriksaan (tujuan: melatih privasi dan posisi pasien); (3) Spekulum — arah masuk dan rotasi — diagram langkah memasukkan spekulum vagina pada manekin, panah arah masuk dan membuka blade (tujuan: menghindari salah arah saat simulasi); (4) Leopold 1-4 (4 panel) — empat panel manuver Leopold pada ibu hamil, tangan pemeriksa, label langkah 1 sampai 4 (tujuan: menghafal urutan tangan Leopold); (5) Perubahan lochia dan involusi uterus — infografik postpartum: lochia rubra → serosa → alba; tinggi fundus hari demi hari (tujuan: membedakan nifas normal vs infeksi/perdarahan).",
+          "tone": "narrative",
+          "source": "§19 file sumber / Tabel visual"
+        },
+        {
+          "text": "PROMPT AI SIAP-PAKAI (3 prompt). Prompt 1 — Anatomi pelvis: 'Buatkan ilustrasi medis edukatif anatomi pelvis wanita tampak frontal dan sagital, label dalam Bahasa Indonesia (vagina, serviks, uterus, fundus, adneksa, kandung kemih, rektum, sakrum). Gaya clean medical illustration, warna natural, tidak vulgar, untuk bahan belajar mahasiswa kedokteran.' Prompt 2 — Posisi litotomi: 'Ilustrasi skill lab: posisi litotomi pasien simulasi dengan drape menutupi perut dan paha, dokter muda memakai sarung tangan, lampu sorot menyala, suasana laboratorium kebidanan. Gaya semi-realistis edukatif, warna netral, label singkat dalam Bahasa Indonesia.' Prompt 3 — Alur OSCE: 'Buatkan infografik alur OSCE Blok 6.1: masuk station → salam & perkenalan → informed consent → privasi & chaperone → cuci tangan & APD → anamnesis → pemeriksaan → edukasi → dokumentasi → keluar. Gunakan ikon sederhana dan warna berbeda tiap tahap. Bahasa Indonesia.' Prompt tambahan — kasus latihan (mini-case generator): 'Buatkan 3 skenario OSCE ObGyn tingkat mudah, sedang, sulit untuk topik [misal: IUD]. Setiap skenario berisi: identitas pasien fiktif, keluhan utama, data klinis yang tersedia, pertanyaan pemandu, dan poin yang harus ditemukan mahasiswa. Berikan kunci jawaban singkat di akhir.'",
+          "tone": "narrative",
+          "source": "§19 file sumber / Prompt AI"
+        },
+        {
+          "text": "REFERENSI RINGKAS: Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi, TA 2021/2022 — daftar kompetensi dan tujuan pembelajaran sistem reproduksi wanita. SKDI 2012 dan pemetaan SKDI 4A Obgyn yang diberikan pengguna — penyakit 4A, red flags, pemeriksaan, tatalaksana, edukasi, rujukan. WHO. Recommendations on antenatal care for a positive pregnancy experience. 2016. WHO. Recommendations: intrapartum care for a positive childbirth experience. 2018. CDC. U.S. Medical Eligibility Criteria for Contraceptive Use. 2024. CDC. U.S. Selected Practice Recommendations for Contraceptive Use. 2024. WHO. Intrauterine devices fact sheet. 2026. RCOG. Management of Breech Presentation. Green-top Guideline No. 20b. Catatan penting: keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "narrative",
+          "source": "REFERENSI file sumber"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi, Red Flags, dan Kondisi Khusus. Kehamilan — risiko tindakan intrauterin/prosedur pada kehamilan → Tunda prosedur, lakukan tes kehamilan, evaluasi. PID aktif atau servisitis purulen — risiko infeksi ascending/memperburuk infeksi → Tunda, obati dulu sesuai SOP, rujuk bila berat. Kanker serviks/lesi mencurigakan — kontraindikasi prosedur intrauterin/perlu evaluasi → Rujuk untuk evaluasi dan biopsi. Perdarahan vagina abnormal belum terdiagnosis — perlu singkirkan kehamilan/lesi/malignansi → Evaluasi dulu, rujuk. Anemia berat (Hb <9 g/dL) — perdarahan saat prosedur memperburuk → Koreksi anemia dulu atau pilih metode alternatif. Riwayat ektopik (untuk IUD) — bukan KI absolut, tapi kewaspadaan → Konseling risiko, informed consent diperkuat. Alergi obat (misal: lateks, antiseptik) — risiko reaksi alergi saat prosedur → Ganti bahan/obat, dokumentasi jelas. Koagulopati/antikoagulan — risiko perdarahan saat prosedur invasif → Konsultasi, tunda atau sesuaikan prosedur. Gangguan jiwa berat/tidak kooperatif — tidak bisa informed consent → Stabilisasi, rujuk psikiatri, tunda prosedur elektif.",
+          "tone": "clinical",
+          "source": "Lampiran A file sumber"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case untuk Latihan Cepat. Skenario Mudah (G1P0 ANC Trimester 3): Kasus Ny. Sari, 28 tahun, G1P0A0, hamil 32 minggu, datang untuk ANC rutin. Tidak ada keluhan. Pertanyaan pemandu: apa anamnesis, pemeriksaan fisik, dokumentasi, edukasi & safety-net? Kunci jawaban: anamnesis (keluhan, HPHT, riwayat obstetri, alergi, tanda bahaya); pemeriksaan (TTV, TFU, Leopold 1-4, DJJ, edema); dokumentasi (SOAP lengkap Z34.9); edukasi (tanda bahaya, jadwal kontrol, suplementasi Fe, nutrisi, IMD, KB pascasalin); kriteria rujukan: tidak ada (kehamilan normal risiko rendah).",
+          "tone": "narrative",
+          "source": "Lampiran C file sumber / Skenario Mudah"
+        },
+        {
+          "text": "Skenario Sedang (Keputihan + Nyeri Panggul): Kasus Ny. Rina, 25 tahun, G0P0A0, datang dengan keputihan kuning kehijauan berbau + nyeri panggul bawah + demam 2 hari. HPHT 1 minggu lalu. Pertanyaan pemandu: apa diagnosis kerja dan diagnosis banding; pemeriksaan apa yang harus dilakukan; apakah perlu tes kehamilan dan mengapa; apa tatalaksana awal. Kunci jawaban: diagnosis kerja PID/servisitis curiga; diagnosis banding (vaginosis bakterialis, kandidiasis, gonore, klamidia); pemeriksaan (TTV, abdomen, inspeksi genital, spekulum, bimanual CMT, swab pH/KOH/saline/Gram, tes kehamilan); tes kehamilan YA untuk menyingkirkan kehamilan ektopik; tatalaksana awal (antibiotik sesuai SOP PID: sefalosporin + doksisiklin + metronidazol), analgesik, edukasi pasangan, rujuk bila PID berat/hamil/sepsis. Skenario Sulit (Pemasangan IUD pada Pasien dengan Faktor Risiko): Kasus Ny. Maya, 35 tahun, G3P2A0, datang untuk pemasangan IUD Copper T 380A. Anemia ringan (Hb 10 g/dL). Riwayat dismenore berat. Tidak ada riwayat IMS atau PID. Pasien sudah konseling dan memilih IUD. Pertanyaan pemandu: apakah ada kontraindikasi; pemeriksaan apa; apakah Hb 10 g/dL aman untuk IUD copper; apa yang harus disampaikan saat informed consent; bagaimana edukasi safety-net pasca-pasang. Kunci jawaban: kontraindikasi tidak ada absolut; Hb 10 termasuk anemia ringan, bukan KI; pemeriksaan (TTV, abdomen, genital, spekulum, bimanual, konfirmasi tidak hamil, Hb); informed consent (risiko perdarahan/nyeri/ekspulsi/perforasi/IMS tidak dicegah, alternatif, tanda bahaya); safety-net (nyeri hebat, perdarahan banyak, demam, keputihan berbau, telat haid, benang tidak teraba, IUD keluar → kembali).",
+          "tone": "narrative",
+          "source": "Lampiran C file sumber / Skenario Sedang & Sulit"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Lampiran A — Kontraindikasi/Kondisi Khusus (ringkasan untuk konseling):",
+          "sub": [
+            "Kehamilan → tunda prosedur, lakukan tes kehamilan.",
+            "PID aktif atau servisitis purulen → tunda, obati dulu, rujuk bila berat.",
+            "Kanker serviks/lesi mencurigakan → rujuk untuk evaluasi dan biopsi.",
+            "Perdarahan vagina abnormal belum terdiagnosis → evaluasi dulu, rujuk.",
+            "Anemia berat (Hb <9 g/dL) → koreksi dulu atau pilih metode alternatif.",
+            "Riwayat ektopik (untuk IUD) → bukan KI absolut, kewaspadaan, informed consent diperkuat.",
+            "Alergi obat (lateks, antiseptik) → ganti bahan/obat, dokumentasi jelas.",
+            "Koagulopati/antikoagulan → konsultasi, tunda atau sesuaikan prosedur.",
+            "Gangguan jiwa berat/tidak kooperatif → stabilisasi, rujuk psikiatri, tunda prosedur elektif."
+          ],
+          "bold": true,
+          "source": "Lampiran A file sumber"
+        },
+        {
+          "text": "Mini-Case Generator (template untuk latihan mandiri):",
+          "sub": [
+            "Skenario Mudah — ANC trimester 3 normal (Ny. Sari hamil 32 minggu, tidak ada keluhan): fokus anamnesis, TTV, Leopold, DJJ, SOAP Z34.9, edukasi safety-net.",
+            "Skenario Sedang — Keputihan + nyeri panggul + demam (Ny. Rina, G0P0A0, HPHT 1 minggu lalu): fokus diagnosis kerja PID, diagnosis banding, swab, tes kehamilan, antibiotik SOP.",
+            "Skenario Sulit — IUD pada pasien anemia ringan (Ny. Maya, 35 tahun, G3P2A0, Hb 10 g/dL, dismenore berat): fokus skrining KI, informed consent risiko, safety-net pasca-pasang."
+          ],
+          "bold": true,
+          "source": "Lampiran C file sumber / Skenario ringkasan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lampiran A: daftar kondisi, bukan daftar lengkap",
+          "text": "Daftar kontraindikasi di Lampiran A adalah kondisi yang paling sering dijumpai. Untuk modul spesifik (IUD, kuretase, dll.), lihat Lampiran A di modul tersebut. Pada pasien nyata, keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "answer_evidence": "Lampiran A file sumber / Catatan"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Lampiran D = pola komunikasi, harus disesuaikan topik",
+          "text": "Kalimat-kalimat di Lampiran D adalah pola komunikasi yang konsisten dengan modul OSCE FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan topik spesifik dan skenario pasien. Hafalkan polanya, lalu adaptasikan dengan topik station Anda.",
+          "answer_evidence": "Lampiran D file sumber [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "visual_refs": [
+        "visual_peta_besar_anatomi_pelvis_01",
+        "visual_peta_besar_posisi_litotomi_02",
+        "visual_peta_besar_spekulum_arah_03",
+        "visual_peta_besar_leopold_4panel_04",
+        "visual_peta_besar_lochia_involusi_05"
+      ],
+      "glossary_refs": [
+        "gls_peta_besar_posisi_litotomi_01",
+        "gls_peta_besar_leopold_05"
+      ],
+      "bilingual": "Section ini berisi 5 visual rekomendasi (anatomi pelvis, posisi litotomi, spekulum, Leopold 4-panel, lochia & involusi) dengan prompt AI, referensi ringkas, dan 4 lampiran untuk latihan mandiri."
+    }
+  ]
+}

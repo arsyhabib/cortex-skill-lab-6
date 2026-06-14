@@ -1,0 +1,1258 @@
+{
+  "id": "mod_neuro_skill_pemeriksaan_mmse_001",
+  "title": "Pemeriksaan Mini Mental State Examination",
+  "subtitle": "Pemeriksaan skrining fungsi kognitif 30 poin untuk pasien lansia di station OSCE Neuro-Psikiatri",
+  "domain": "neuro_skill",
+  "batch_id": "batch_3",
+  "source_pdf": "Batch3_File2_Modul_OSCE_6_3_Pemeriksaan_MMSE.txt",
+  "source_filename": "Batch3_File2_Modul_OSCE_6_3_Pemeriksaan_MMSE.txt",
+  "order": 6,
+  "estimatedTimeMinutes": 120,
+  "status": "finalized",
+  "blok": "6.3",
+  "topik_klinis": "pemeriksaan_mmse",
+  "batas_keselamatan": "Dokumen ini untuk simulasi OSCE. Pada pasien nyata, selalu ikuti PPK fasilitas, supervisi klinik, dan kondisi individual pasien.",
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "mmse",
+    "mini_mental_state_examination",
+    "fungsi_kognitif",
+    "skrining_demensia",
+    "lansia",
+    "orientasi",
+    "recall",
+    "diadokokinesis"
+  ],
+  "summary": [
+    "MMSE adalah pemeriksaan skrining fungsi kognitif singkat (7–10 menit) yang dikembangkan Folstein dkk. (1975), terdiri dari 11 sub-tes dengan skor total 30 poin: Orientasi waktu 5, Orientasi tempat 5, Registrasi 3, Atensi/Kalkulasi 5, Recall 3, Bahasa 8, Visuokonstruksi 1.",
+    "Interpretasi skor modul: ≥25 normal; 21–24 gangguan ringan; 10–20 gangguan sedang; ≤9 gangguan berat — tetapi interpretasi wajib mempertimbangkan usia, pendidikan, dan kondisi klinis penyerta (delirium, depresi, gangguan sensorik, efek obat).",
+    "Syarat pasien yang boleh menjalani MMSE: pendidikan minimal SMP, sadar (GCS 15), kooperatif, tidak afasia berat, tidak buta/tuli tanpa koreksi, dan tidak dalam delirium akut.",
+    "MMSE bukan alat diagnosis demensia — diagnosis tetap memerlukan anamnesis lengkap, pemeriksaan status mental, neurologis, evaluasi ADL/IADL, dan penunjang sesuai indikasi (lab dasar, neuroimaging).",
+    "Diagnosis banding utama skor MMSE rendah: demensia Alzheimer, demensia vaskular, delirium, depresi pada lansia (pseudodemensia), gangguan sensorik, efek obat/zat, dan stroke.",
+    "Red flag terbesar station ini adalah mengabaikan delirium (onset akut, fluktuatif, perhatian buruk) yang dapat menyerupai demensia tetapi bersifat reversibel bila penyebab ditangani.",
+    "Atensi/kalkulasi dapat diuji dengan seri 7 mundur dari 100 (100−7, 93, 86, 79, 72, 65) atau eja mundur kata MESRA — pilih salah satu, jangan campur; pada tahap recall jangan pernah memberi clue.",
+    "Penjelasan ke keluarga harus empatik dengan frasa 'ada penurunan fungsi kognitif yang perlu dievaluasi penyebabnya' — bukan 'pasti pikun' — dan diakhiri dengan rencana tindak lanjut konkret (kolateral, lab, rujukan)."
+  ],
+  "exam_focus": [
+    "11 sub-tes MMSE berurutan: orientasi waktu (5), orientasi tempat (5), registrasi (3), atensi/kalkulasi (5), recall (3), bahasa-naming (2), repetisi (1), 3-stage command (3), membaca (1), menulis (1), visuokonstruksi (1) → total 30 poin.",
+    "Frasa perintah 3 tahap presisi: 'ambil kertas dengan tangan kanan, lipat dua, letakkan di lantai' — skor 1 per langkah, jangan diulang kecuali modul mengizinkan.",
+    "Frasa repetisi: 'tanpa, bila, dan, atau, tetap' — diucapkan satu kali, harus persis diulang pasien.",
+    "Sub-tes membaca: kartu tulisan 'Mohon pejamkan mata Anda' — pasien diminta membaca keras lalu melakukan; tulis sub-tes menulis: satu kalimat lengkap bermakna (subjek+verba+masuk akal).",
+    "Sub-tes visuokonstruksi: menyalin dua pentagon berpotongan — skor 1 hanya bila semua sisi/sudut utuh DAN perpotongan benar.",
+    "Interpretasi skor: ≥25 normal; 21–24 gangguan ringan; 10–20 gangguan sedang; ≤9 gangguan berat — WAJIB menyebut faktor perancu (usia, pendidikan, sensorik, delirium, depresi, obat).",
+    "Red flags yang menghentikan prosedur: GCS <15, delirium akut, afasia global, buta/tuli tanpa koreksi, penurunan kesadaran, defisit fokal baru, atau onset akut.",
+    "Diagnosis banding utama: demensia Alzheimer (onset perlahan progresif), demensia vaskular (stepwise pasca-stroke), delirium (akut fluktuatif reversibel), depresi/pseudodemensia (responsif antidepresan), efek obat (antikolinergik, sedatif).",
+    "Kode ICD-10 yang relevan: F00 (demensia Alzheimer), F01 (demensia vaskular), F03 (demensia tidak spesifik), F05 (delirium), F32 (depresi), R41.3 (gangguan memori).",
+    "Pemeriksaan penunjang wajib disebutkan: darah lengkap, elektrolit, fungsi ginjal/hati, TSH, B12, folat, glukosa, dan neuroimaging (CT/MRI) sesuai indikasi; skrining GDS-15 (depresi) dan CAM (delirium)."
+  ],
+  "glossary": [
+    {
+      "id": "gls_mmse_definisi_01",
+      "term": "MMSE (Mini-Mental State Examination)",
+      "def": "Alat skrining fungsi kognitif singkat (7–10 menit) yang dikembangkan Folstein dkk. (1975). Mengukur orientasi, registrasi, atensi, recall, bahasa, dan visuokonstruksi. Skor total 30; skor rendah menunjukkan kemungkinan gangguan kognitif, tetapi tidak spesifik untuk diagnosis.",
+      "type": "score",
+      "aliases": [
+        "Mini-Mental State Examination",
+        "Tes MMSE",
+        "Skrining MMSE"
+      ]
+    },
+    {
+      "id": "gls_delirium_01",
+      "term": "Delirium",
+      "def": "Gangguan kesadaran dan kognisi akut dan berfluktuasi (jam-hari) akibat penyakit organik (infeksi, metabolik, obat, dehidrasi, nyeri). Reversibel bila penyebab ditangani. Skrining dengan CAM (Confusion Assessment Method).",
+      "type": "clinical",
+      "aliases": [
+        "Acute confusional state",
+        "Ensefalopati akut"
+      ]
+    },
+    {
+      "id": "gls_demensia_01",
+      "term": "Demensia",
+      "def": "Sindrom penurunan fungsi kognitif yang cukup berat untuk mengganggu fungsi harian (ADL/IADL), biasanya progresif. Penyebab tersering: Alzheimer, vaskular, Lewy body, frontotemporal. Diagnosis klinis multidisiplin.",
+      "type": "clinical",
+      "aliases": [
+        "Pikun progresif",
+        "Sindrom demensia"
+      ]
+    },
+    {
+      "id": "gls_fungsi_kognitif_01",
+      "term": "Fungsi Kognitif",
+      "def": "Kemampuan otak untuk mengenali, menyimpan, memproses, dan menggunakan informasi. Domain: orientasi, perhatian, memori, bahasa, visuokonstruksi, eksekutif. Pada MMSE diuji melalui 11 sub-tes dengan total 30 poin.",
+      "type": "clinical",
+      "aliases": [
+        "Cognitive function",
+        "Fungsi luhur otak"
+      ]
+    },
+    {
+      "id": "gls_registrasi_01",
+      "term": "Registrasi (Registration)",
+      "def": "Tahap MMSE di mana pemeriksa menyebut 3 kata dan meminta pasien mengulang; mengukur kemampuan encoding memori jangka pendek. Skor dari pengulangan pertama.",
+      "type": "procedure",
+      "aliases": [
+        "Encoding memori",
+        "Tahap registrasi MMSE"
+      ]
+    },
+    {
+      "id": "gls_recall_01",
+      "term": "Recall",
+      "def": "Tahap MMSE di mana pasien diminta menyebut kembali 3 kata yang dipelajari sebelumnya tanpa bantuan/clue; mengukur memori episodik. Skor 1 per kata.",
+      "type": "procedure",
+      "aliases": [
+        "Memori episodik",
+        "Tahap recall MMSE"
+      ]
+    },
+    {
+      "id": "gls_visuokonstruksi_01",
+      "term": "Visuokonstruksi",
+      "def": "Kemampuan menyalin atau menggambar bentuk geometris; mengukur fungsi parietal-oksipital. Pada MMSE diuji dengan menyalin dua pentagon berpotongan. Skor 1 hanya bila semua sisi utuh DAN perpotongan benar.",
+      "type": "procedure",
+      "aliases": [
+        "Visuoconstruction",
+        "Fungsi visuokonstruksi",
+        "Menggambar pentagon"
+      ]
+    },
+    {
+      "id": "gls_pseudodemensia_01",
+      "term": "Pseudodemensia",
+      "def": "Gangguan kognitif yang menyerupai demensia tetapi sebenarnya disebabkan depresi; reversibel dengan tata laksana depresi. Sering pada lansia. Skrining depresi dengan GDS-15.",
+      "type": "clinical",
+      "aliases": [
+        "Depresi pseudodemensia",
+        "Pseudodementia"
+      ]
+    },
+    {
+      "id": "gls_cam_01",
+      "term": "CAM (Confusion Assessment Method)",
+      "def": "Alat skrining delirium 4 fitur (onset akut, perhatian buruk, pikiran kacau, kesadaran berubah). Positif bila fitur 1+2+3 atau 1+2+4 ada.",
+      "type": "score",
+      "aliases": [
+        "Metode asesmen konfusi",
+        "CAM delirium"
+      ]
+    },
+    {
+      "id": "gls_gds15_01",
+      "term": "GDS-15 (Geriatric Depression Scale-15)",
+      "def": "Skrining depresi 15 item khusus lansia dengan jawaban ya/tidak; skor 0–4 normal, 5–9 ringan, 10–15 sedang-berat. Membantu membedakan depresi dari demensia sejati.",
+      "type": "score",
+      "aliases": [
+        "Skala depresi geriatri",
+        "GDS-15"
+      ]
+    },
+    {
+      "id": "gls_adl_01",
+      "term": "ADL (Activity of Daily Living)",
+      "def": "Aktivitas dasar sehari-hari (mandi, berpakaian, toileting, transfer, kontinensia, makan). Dinilai dengan Barthel Index. Skor 100 = independen penuh.",
+      "type": "score",
+      "aliases": [
+        "Aktivitas dasar sehari-hari",
+        "Barthel Index"
+      ]
+    },
+    {
+      "id": "gls_iadl_01",
+      "term": "IADL (Instrumental Activity of Daily Living)",
+      "def": "Aktivitas instrumental (telepon, belanja, masak, rumah tangga, cuci, transportasi, obat, keuangan). Dinilai dengan Lawton IADL. Skor 8 = independen penuh.",
+      "type": "score",
+      "aliases": [
+        "Aktivitas instrumental",
+        "Lawton IADL"
+      ]
+    },
+    {
+      "id": "gls_moca_01",
+      "term": "MoCA (Montreal Cognitive Assessment)",
+      "def": "Alat skrining kognitif yang lebih sensitif dari MMSE untuk MCI dan gangguan eksekutif; skor 0–30, normal ≥26 dengan koreksi pendidikan +1 untuk pendidikan ≤12 tahun.",
+      "type": "score",
+      "aliases": [
+        "Montreal Cognitive Assessment",
+        "Tes MoCA"
+      ]
+    },
+    {
+      "id": "gls_atensi_kalkulasi_01",
+      "term": "Atensi dan Kalkulasi",
+      "def": "Sub-tes MMSE (5 poin) yang menguji perhatian dan konsentrasi. Metode: seri 7 mundur dari 100 (100-7, 93, 86, 79, 72, 65) ATAU eja mundur kata MESRA (A-R-S-E-M). Pilih satu metode saja.",
+      "type": "procedure",
+      "aliases": [
+        "Attention and calculation",
+        "Seri 7 mundur",
+        "Eja MESRA mundur"
+      ]
+    },
+    {
+      "id": "gls_koreksi_skor_01",
+      "term": "Koreksi Skor MMSE",
+      "def": "Penambahan 1–2 poin pada skor MMSE pasien dengan pendidikan rendah atau usia lanjut, sesuai tabel norma. Penting agar skor tidak keliru rendah pada populasi dengan latar belakang pendidikan terbatas.",
+      "type": "score",
+      "aliases": [
+        "Skor koreksi",
+        "Adjustment MMSE"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_mmse_01",
+      "term_id": "MMSE (Mini-Mental State Examination)",
+      "term_en": "Mini-Mental State Examination",
+      "context": "Skrining fungsi kognitif 30 poin; alat ukur standar untuk orientasi, registrasi, atensi, recall, bahasa, dan visuokonstruksi."
+    },
+    {
+      "id": "bil_mmse_02",
+      "term_id": "Registrasi",
+      "term_en": "Registration",
+      "context": "Tahap encoding 3 kata; skor dari percobaan pertama."
+    },
+    {
+      "id": "bil_mmse_03",
+      "term_id": "Atensi dan Kalkulasi",
+      "term_en": "Attention and Calculation",
+      "context": "Sub-tes 5 poin: seri 7 mundur ATAU eja MESRA mundur."
+    },
+    {
+      "id": "bil_mmse_04",
+      "term_id": "Visuokonstruksi",
+      "term_en": "Visuoconstruction",
+      "context": "Kemampuan menyalin gambar geometris; diuji dengan dua pentagon berpotongan."
+    },
+    {
+      "id": "bil_mmse_05",
+      "term_id": "Pseudodemensia",
+      "term_en": "Pseudodementia",
+      "context": "Gangguan kognitif akibat depresi yang reversibel; skrining dengan GDS-15."
+    },
+    {
+      "id": "bil_mmse_06",
+      "term_id": "Delirium",
+      "term_en": "Delirium",
+      "context": "Gangguan kesadaran akut dan fluktuatif; reversibel; skrining CAM."
+    },
+    {
+      "id": "bil_mmse_07",
+      "term_id": "Demensia Alzheimer",
+      "term_en": "Alzheimer's Dementia",
+      "context": "Demensia progresif dengan gangguan memori episodik dominan; ICD-10 F00."
+    },
+    {
+      "id": "bil_mmse_08",
+      "term_id": "Fungsi kognitif",
+      "term_en": "Cognitive Function",
+      "context": "Orientasi, perhatian, memori, bahasa, visuokonstruksi, eksekutif."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_mmse_persiapan_01",
+      "module_id": "mod_neuro_skill_pemeriksaan_mmse_001",
+      "section_id": "s05",
+      "type": "photo",
+      "generation_prompt": "Foto setup meja praktikum MMSE: kursi, meja, kertas kosong A4, pensil, arloji analog, kartu tulisan 'Mohon pejamkan mata Anda' (font besar), gambar dua pentagon berpotongan. Pencahayaan cukup, background netral, gaya bersih profesional medis.",
+      "alt": "Foto alat-alat yang diperlukan untuk pemeriksaan MMSE di meja praktikum: kertas kosong, pensil, arloji, kartu tulisan 'Mohon pejamkan mata Anda', dan gambar dua pentagon berpotongan.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_persiapan_01.png"
+    },
+    {
+      "id": "visual_mmse_prosedur_02",
+      "module_id": "mod_neuro_skill_pemeriksaan_mmse_001",
+      "section_id": "s05",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart 11 sub-tes MMSE berurutan dari atas ke bawah: 1) Orientasi waktu (5 poin), 2) Orientasi tempat (5 poin), 3) Registrasi (3 poin), 4) Atensi/Kalkulasi (5 poin), 5) Recall (3 poin), 6) Bahasa-Naming (2 poin), 7) Repetisi (1 poin), 8) 3-Stage Command (3 poin), 9) Membaca (1 poin), 10) Menulis (1 poin), 11) Visuokonstruksi (1 poin), diakhiri dengan total skor 30. Background putih, garis tegas, warna berbeda tiap sub-tes, label skor jelas.",
+      "alt": "Flowchart urutan 11 sub-tes MMSE beserta skor per sub-tes dan total skor 30 poin di bagian akhir.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_prosedur_02.png"
+    },
+    {
+      "id": "visual_mmse_pentagon_03",
+      "module_id": "mod_neuro_skill_pemeriksaan_mmse_001",
+      "section_id": "s05",
+      "type": "diagram",
+      "generation_prompt": "Contoh gambar dua pentagon berpotongan sesuai modul asli halaman 55. Dua bangun segi lima (pentagon) yang sisi-sisinya saling berpotongan membentuk daerah perpotongan quadrangular. Garis hitam tegas, ukuran jelas, tanpa bayangan. Sertakan versi 'contoh benar' (skor 1) dan 'contoh salah' (skor 0) berdampingan.",
+      "alt": "Gambar dua pentagon berpotongan untuk sub-tes visuokonstruksi MMSE, dengan semua sisi utuh dan area perpotongan quadrangular yang jelas.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_pentagon_03.png"
+    },
+    {
+      "id": "visual_mmse_kartu_04",
+      "module_id": "mod_neuro_skill_pemeriksaan_mmse_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Kartu tulisan 'Mohon pejamkan mata Anda' dalam font sans-serif besar (minimal 24pt) di atas kertas/karton putih. Kontras tinggi, mudah dibaca lansia, tidak ada dekorasi.",
+      "alt": "Kartu instruksi tulisan 'Mohon pejamkan mata Anda' dengan font besar untuk pasien geriatri.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_kartu_04.png"
+    },
+    {
+      "id": "visual_mmse_heat_map_05",
+      "module_id": "mod_neuro_skill_pemeriksaan_mmse_001",
+      "section_id": "s11",
+      "type": "chart",
+      "generation_prompt": "Heat map interpretasi skor MMSE dalam format kartu saku. Kotak warna hijau untuk ≥25 (normal), kuning untuk 21–24 (gangguan ringan), oranye untuk 10–20 (gangguan sedang), merah untuk ≤9 (gangguan berat). Sertakan catatan wajib: 'wajib mempertimbangkan usia, pendidikan, dan faktor perancu klinis'.",
+      "alt": "Cheat sheet heat map interpretasi skor MMSE dengan empat kategori warna: hijau ≥25, kuning 21–24, oranye 10–20, merah ≤9.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_heat_map_05.png"
+    },
+    {
+      "id": "visual_mmse_inforgrafik_06",
+      "module_id": "mod_neuro_skill_pemeriksaan_mmse_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Infografik perbandingan empat kondisi: (1) Lupa normal, (2) Demensia, (3) Delirium, (4) Depresi. Empat kolom dengan ikon, gejala utama, onset, perjalanan, dan pendekatan klinis. Gaya bersih, bahasa Indonesia, cocok untuk mahasiswa kedokteran.",
+      "alt": "Infografik perbandingan empat kondisi gangguan kognitif: lupa normal, demensia, delirium, dan depresi pada lansia, beserta onset, perjalanan, dan pendekatannya.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_mmse_001/assets/visual_mmse_inforgrafik_06.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s04",
+      "type": "content",
+      "source_query": "Apa saja 11 sub-tes MMSE beserta skor dan frasa perintah presisinya?",
+      "source_reference": "Folstein MF et al. 1975 + Healthdirect Australia MMSE tatacara",
+      "confidence": "high",
+      "note": "Penambahan struktur detail 11 sub-tes dengan skor dan frasa perintah spesifik untuk membantu mahasiswa menghafal dan mengeksekusi di OSCE."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Apa diagnosis banding dan tabel pembeda demensia vs delirium untuk mahasiswa OSCE?",
+      "source_reference": "NICE NG97 Dementia + PERDOSSI consensus + Alzheimer's Association 2024",
+      "confidence": "high",
+      "note": "Penambahan tabel pembanding demensia vs delirium untuk memperjelas red flag terbesar station ini."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Pemeriksaan penunjang apa saja yang wajib disebutkan pasca-MMSE pada lansia dengan curiga gangguan kognitif?",
+      "source_reference": "NICE NG97 + PERDOSSI konsensus + modul kampus",
+      "confidence": "high",
+      "note": "Penambahan tabel laboratorium dasar dan neuroimaging sebagai standar evaluasi pasca-MMSE."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Apa saja kesalahan fatal (fatal errors) yang sering menurunkan nilai di OSCE station MMSE?",
+      "source_reference": "Rubrik OSCE standar + pengalaman klinik + modul kampus",
+      "confidence": "high",
+      "note": "Penambahan 7 kesalahan fatal dan 3 kesalahan minor dengan tips pencegahan untuk latihan mandiri mahasiswa."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber, skenario klinis lansia 70 tahun dengan gangguan kognitif, dan komponen yang dinilai penguji di station MMSE.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "File sumber modul ini adalah 'Pemeriksaan Mini Mental State Examination' dari Modul Kampus Blok 6.3 Neuro-Psikiatri, halaman 51–55, yang memuat enam visual utama: (1) norma MMSE menurut usia dan pendidikan, (2) syarat pemeriksaan, (3) checklist 12-item, (4) format MMSE 30 poin, (5) alat bantu instruksi membaca/menulis/menggambar, dan (6) contoh gambar dua pentagon berpotongan. Peta isinya adalah urutan OSCE-ready: prioritas OSCE → checklist inti → konsep untuk mahasiswa awam → syarat → prosedur 11 langkah → skor & interpretasi → diagnosis banding → template pelaporan → red flags → kesalahan umum → visual → video → latihan 3 hari.",
+          "tone": "narrative",
+          "source": "§1-§3 modul asli (hlm. 51-55)"
+        },
+        {
+          "text": "Skenario klinis yang paling sering keluar di OSCE adalah pasien usia 70 tahun, sering lupa kejadian baru, kadang tidak tahu tempat tinggal, namun masih bisa bicara dan berjalan sendiri — pola klasik yang menuntun mahasiswa untuk memikirkan kemungkinan gangguan kognitif, terutama demensia. Akan tetapi, sesuai modul dan standar klinik, tujuan station BUKAN mendiagnosis demensia, melainkan menjalankan format MMSE 30 poin dengan benar, mencatat skor, menafsirkan hasil secara hati-hati, dan mengenali keterbatasan tes.",
+          "tone": "clinical",
+          "source": "§1-§3 modul asli (hlm. 51-55)"
+        },
+        {
+          "text": "Yang paling sering dinilai di OSCE station ini adalah: kemampuan menjelaskan tujuan tes (informed consent verbal), urutan 11 langkah, frasa perintah yang tepat (misalnya 'ambil kertas dengan tangan kanan, lipat dua, letakkan di lantai'), penghitungan skor yang benar, kemampuan menafsirkan skor dengan menyebut faktor perancu (usia, pendidikan, sensorik, delirium, depresi, obat), dan kemampuan melaporkan hasil ke keluarga dengan bahasa yang tidak menstigmatisasi. Penguji biasanya menyisipkan 'jebakan' berupa: (1) pasien tidak membawa kacamata/alat bantu dengar (syarat tidak terpenuhi), (2) pasien yang sebenarnya delirium karena infeksi akut, (3) pasien dengan latar belakang pendidikan rendah, dan (4) keluarga yang panik dan langsung bertanya 'apakah ini Alzheimer?'. Mahasiswa yang peka terhadap konteks akan mendapat nilai tambah.",
+          "tone": "narrative",
+          "source": "§1-§3 modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE station MMSE:",
+          "sub": [
+            "Komunikasi awal & informed consent: salam, perkenalan, tujuan, izin, durasi",
+            "Verifikasi syarat: kesadaran, bahasa, sensorik, kacamata/alat bantu dengar",
+            "Pelaksanaan 11 sub-tes dengan urutan benar dan frasa perintah presisi",
+            "Penghitungan skor 30 poin secara real-time tanpa terlihat bingung",
+            "Interpretasi skor yang menyebut faktor perancu (bukan hanya membaca angka)",
+            "Pelaporan ke penguji & keluarga dengan bahasa empatik dan terstruktur",
+            "Identifikasi red flags (terutama delirium) dan rencana rujukan"
+          ],
+          "bold": true,
+          "source": "§1-§3 modul asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi membaca 3 hari sebelum OSCE",
+          "text": "Hari 1 hafal checklist 12-item dan konsep; Hari 2 latihan berpasangan dengan timer; Hari 3 simulasi full station dengan teman sebagai penguji. Lihat s10 untuk rencana detail.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 55"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tip paling penting station MMSE",
+          "text": "Jangan hanya mengucapkan 'saya akan melakukan MMSE'. Penguji ingin melihat Anda benar-benar menjalankan 11 langkah dengan frasa perintah yang sesuai modul. Bawalah catatan kecil berisi frasa kunci jika diizinkan.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51-55"
+        }
+      ],
+      "visual_refs": [
+        "visual_mmse_inforgrafik_06"
+      ],
+      "glossary_refs": [
+        "gls_mmse_definisi_01",
+        "gls_fungsi_kognitif_01"
+      ],
+      "bilingual": "Section s01 memperkenalkan skenario OSCE standar: lansia 70 tahun dengan keluhan lupa kejadian baru dan disorientasi tempat. Mahasiswa wajib menguasai konteks klinis sebelum masuk station."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Urutan langkah OSCE dari masuk station sampai keluar station, lengkap dengan checklist 12-item penilaian dan kalimat siap ucap.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur station MMSE mengikuti pola OSCE Neuro-Psikiatri pada umumnya: masuk → salam & informed consent → verifikasi syarat → persiapan alat → pelaksanaan 11 sub-tes → penghitungan skor → interpretasi → pelaporan → edukasi keluarga → tutup station. Durasi station biasanya 7–10 menit (5–7 menit untuk anamnesis + pemeriksaan, 2–3 menit untuk pelaporan). Penguji biasanya berperan sebagai pengamat yang menilai dengan rubrik terstruktur, bukan sebagai pasien. Kadang penguji menyisipkan interupsi seperti 'pasien tidak bisa membaca karena tidak sempat bawa kacamata' atau 'ternyata pasien demam 38,5°C' — kemampuan beradaptasi terhadap situasi ini sangat diuji.",
+          "tone": "narrative",
+          "source": "§2 modul asli"
+        },
+        {
+          "text": "Tips kunci nilai tinggi: (1) buka dengan salam, perkenalkan diri, sebut tujuan; (2) cek syarat sebelum mulai (kacamata, alat bantu dengar, bahasa ibu, kemampuan tulis-baca); (3) ucapkan setiap instruksi dengan jelas dan tidak terburu-buru; (4) hitung skor secara transparan agar penguji melihat Anda kompeten; (5) saat melapor ke keluarga, ucapkan bahwa hasil adalah salah satu alat skrining dan perlu evaluasi lanjutan untuk menentukan penyebab — hindari kata-kata final seperti 'ini pasti Alzheimer' di depan keluarga; (6) akhiri dengan rencana konkret: anamnesis kolateral keluarga, pemeriksaan fisik neurologis, laboratorium dasar, evaluasi fungsi harian, dan rujukan.",
+          "tone": "clinical",
+          "source": "§2 modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE MMSE (12 langkah):",
+          "sub": [
+            "Masuk station, salam, perkenalkan diri, sebut peran",
+            "Jelaskan tujuan MMSE dan minta izin lisan (informed consent)",
+            "Verifikasi syarat: sadar, kooperatif, kacamata/ALB, bahasa, pendidikan",
+            "Siapkan alat: kertas kosong, pensil, arloji, gambar pentagon, kartu tulisan",
+            "Orientasi waktu (5 poin): tahun, bulan, tanggal, hari, musim",
+            "Orientasi tempat (5 poin): negara, provinsi, kota, rumah sakit, ruang/lantai",
+            "Registrasi (3 poin): sebut 3 kata, minta pasien mengulang",
+            "Atensi/Kalkulasi (5 poin): seri 7 mundur ATAU eja MESRA mundur",
+            "Recall (3 poin): minta pasien menyebut 3 kata tanpa bantuan",
+            "Bahasa (8 poin): naming → repetisi → 3-stage command → membaca → menulis",
+            "Visuokonstruksi (1 poin): salin dua pentagon berpotongan",
+            "Hitung total skor 30, interpretasikan, laporkan keterbatasan"
+          ],
+          "bold": true,
+          "source": "§2 modul asli + Tabel 3"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya: Informed consent & verifikasi syarat sensorik",
+          "text": "Jangan langsung menjalankan tes tanpa informed consent dan verifikasi syarat sensorik — banyak kandidat langsung bicara ke pasien tuli/tidak berkacamata dan kehilangan poin besar di awal station.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51-55"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station paling efektif",
+          "text": "'Selamat pagi, Bapak/Ibu [nama]. Saya [nama], dokter yang akan melakukan pemeriksaan singkat untuk menilai daya ingat, orientasi, dan fungsi bahasa. Pemeriksaan ini bukan tes lulus/gagal — tidak ada jawaban benar atau salah, dan ini akan membantu kami memahami kondisi Bapak/Ibu. Boleh saya mulai?'",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51 + Lampiran D"
+        }
+      ],
+      "visual_refs": [
+        "visual_mmse_prosedur_02"
+      ],
+      "glossary_refs": [
+        "gls_registrasi_01",
+        "gls_recall_01",
+        "gls_visuokonstruksi_01",
+        "gls_atensi_kalkulasi_01"
+      ],
+      "bilingual": "Section s02 adalah blueprint eksekusi station MMSE: 12 langkah urut dari salam hingga pelaporan. Mahasiswa wajib menghafal frasa perintah presisi untuk tiap sub-tes."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis pra dan pasca-MMSE, ditambah 5 red flags utama yang wajib dikenali sebelum memutuskan MMSE dijalankan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Walaupun MMSE adalah pemeriksaan status mental terstandar, anamnesis singkat tetap wajib sebelum dan sesudahnya untuk memastikan syarat terpenuhi dan interpretasi valid. Sebelum MMSE, tanyakan kepada pasien (dan/atau keluarga): apakah ia sudah sarapan, apakah sedang dalam kondisi sakit akut, apakah demam, apakah memakai kacamata/alat bantu dengar, bahasa ibu yang dipakai sehari-hari, tingkat pendidikan terakhir, apakah ada kesulitan membaca/menulis, dan obat-obatan yang sedang diminum (terutama sedatif, antikolinergik, opioid, antihistamin). Informasi ini menentukan apakah MMSE boleh dijalankan dan bagaimana menginterpretasikan hasil.",
+          "tone": "clinical",
+          "source": "§4 modul asli"
+        },
+        {
+          "text": "Setelah MMSE, anamnesis kolateral dari keluarga atau pengasuh sangat penting karena pasien dengan gangguan kognitif sering anosognosia (tidak menyadari defisitnya). Tanyakan: kapan mulai lupa, apakah onset akut/perlahan, apakah progresif bertahap atau stepwise (pola stepwise mengarah ke demensia vaskular), apakah ada gangguan fungsi harian (ADL/IADL), apakah ada keluhan mood sedih/anhedonia (depresi pada lansia), apakah ada gangguan tidur, perubahan perilaku, dan kehilangan berat badan. Informasi ini menjadi dasar clinical reasoning pada s06.",
+          "tone": "clinical",
+          "source": "§4 modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci pra-MMSE (ke pasien dan/atau keluarga):",
+          "sub": [
+            "'Apakah Bapak/Ibu sudah sarapan dan merasa cukup sehat hari ini?'",
+            "'Apakah ada keluhan sakit kepala, demam, atau pusing saat ini?'",
+            "'Apakah Bapak/Ibu memakai kacamata atau alat bantu dengar? Bisa disiapkan?'",
+            "'Apa bahasa yang biasa dipakai sehari-hari?'",
+            "'Pendidikan terakhir Bapak/Ibu sampai kelas berapa?'",
+            "'Apakah ada kesulitan membaca atau menulis saat ini?'",
+            "'Obat apa saja yang sedang diminum (termasuk obat herbal/jamu)?'"
+          ],
+          "bold": true,
+          "source": "§4 modul asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 1 — Demam atau tanda infeksi akut",
+          "text": "Jika pasien demam, takikardia, atau tampak sakit akut, tunda MMSE dan evaluasi kemungkinan delirium. Skor rendah pada kondisi akut bukan indikator demensia.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51 + NICE NG97"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 2 — Onset akut dan fluktuatif",
+          "text": "Pasien yang tiba-tiba bingung dalam hitungan jam-hari, dengan kesadaran berfluktuasi, mengarah ke delirium — cari penyebab: infeksi, dehidrasi, obat, metabolik, nyeri, retensi urine.",
+          "answer_evidence": "NICE NG97 (Delirium) + Modul Kampus hlm. 53"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 3 — Gangguan sensorik tanpa koreksi",
+          "text": "Pasien tuli atau buta tanpa alat bantu tidak boleh dinilai hasil MMSE-nya; tes tidak valid.",
+          "answer_evidence": "Healthdirect Australia MMSE tatacara"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 4 — Stroke akut atau penurunan kesadaran",
+          "text": "Tunda MMSE, fokus pada ABC, stabilisasi, dan rujuk emergensi.",
+          "answer_evidence": "Modul Kampus Blok 6.3 + PERDOSSI consensus"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag 5 — Klaim 'tidak mengenali anggota keluarga'",
+          "text": "Tanyakan onset dan durasi — onset akut mengarah ke delirium/stroke; onset perlahan kronis mengarah ke demensia. Keduanya memerlukan respons berbeda.",
+          "answer_evidence": "Alzheimer's Association 2024 Facts and Figures"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_delirium_01",
+        "gls_demensia_01",
+        "gls_pseudodemensia_01",
+        "gls_adl_01",
+        "gls_iadl_01"
+      ],
+      "bilingual": "Section s03 membekali mahasiswa dengan anamnesis terpandu 7 pertanyaan kunci dan 5 red flags yang menentukan boleh/tidaknya MMSE dijalankan."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Urutan pemeriksaan fisik neurologis singkat dan 11 sub-tes MMSE beserta skor dan frasa perintah presisinya.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "MMSE sendiri adalah pemeriksaan status mental terstruktur, bukan pemeriksaan fisik neurologis klasik. Namun untuk station ini, mahasiswa tetap diharapkan melakukan pemeriksaan fisik neurologis singkat sebelum atau sesudah MMSE untuk menyingkirkan defisit fokal (stroke) atau tanda rangsang meningeal. Urutan ideal: (1) observasi umum (kebersihan, kontak mata, perilaku), (2) tanda vital singkat (tekanan darah, frekuensi nadi, suhu, SpO2) untuk menyingkirkan ensefalopati metabolik/infeksi, (3) pemeriksaan nervus kranialis singkat (pupil, lapang pandang, kekuatan wajah, bicara), (4) pemeriksaan motorik (kekuatan, cara berjalan, tanda Parkinson), (5) MMSE, (6) pemeriksaan penunjang sesuai indikasi.",
+          "tone": "clinical",
+          "source": "§5 modul asli"
+        },
+        {
+          "text": "Pada kelompok lansia yang menjadi skenario, pemeriksaan fisik sangat penting karena banyak penyebab gangguan kognitif reversibel dapat terdeteksi dari fisik: hipo/hipertensi, hipoksia, tanda gagal jantung, dehidrasi (turgor turun, mata cekung), ikterus, pucat, defisit fokal stroke, rigiditas Parkinson, tremor, atau tanda malnutrisi. Pemeriksaan fisik singkat ini tidak hanya menyingkirkan penyebab organik tetapi juga menjadi dasar klinis yang kuat saat melapor ke penguji.",
+          "tone": "clinical",
+          "source": "§5 modul asli"
+        },
+        {
+          "text": "Pelaksanaan 11 sub-tes MMSE harus mengikuti urutan dan frasa perintah presisi: (1) Orientasi waktu 5 poin — 'Tahun berapa ini? Bulan apa? Tanggal berapa? Hari apa? Musim apa?'; (2) Orientasi tempat 5 poin — 'Sekarang kita di negara mana? Provinsi/kota mana? Di rumah sakit apa? Ruangan/lantai berapa?'; (3) Registrasi 3 poin — 'Saya akan menyebut 3 kata, tolong diulang: bola, melati, kursi' (skor dari percobaan pertama); (4) Atensi/Kalkulasi 5 poin — 'Sekarang silakan menghitung 100 dikurangi 7, lalu hasilnya dikurangi 7 lagi, dan seterusnya, sebanyak 5 kali' ATAU eja mundur kata MESRA (A-R-S-E-M); (5) Recall 3 poin — 'Tadi saya sudah menyebut 3 kata — bisa Bapak/Ibu sebutkan lagi?' (TANPA clue); (6) Bahasa-naming 2 poin — 'Apa nama benda ini? [tunjuk pensil] … [tunjuk arloji]'; (7) Repetisi 1 poin — 'Silakan mengulang kalimat ini: tanpa, bila, dan, atau, tetap'; (8) Perintah 3 tahap 3 poin — 'Ambil kertas ini dengan tangan kanan, lipat dua, lalu letakkan di lantai'; (9) Membaca 1 poin — 'Tolong baca tulisan ini keras-keras, lalu lakukan' (kartu 'Mohon pejamkan mata Anda'); (10) Menulis 1 poin — 'Tolong tulis satu kalimat lengkap tentang apa pun'; (11) Visuokonstruksi 1 poin — 'Tolong salin gambar ini persis seperti yang saya tunjukkan' (dua pentagon berpotongan).",
+          "tone": "procedure",
+          "source": "§5 modul asli + Tabel 3 (12-item checklist)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Observasi umum & tanda vital singkat:",
+          "sub": [
+            "Observasi umum: cara berpakaian, kebersihan, kontak mata, ekspresi wajah, postur, perilaku spontan",
+            "Tekanan darah (mencari hipotensi/hipertensi → ensefalopati, risiko stroke)",
+            "Frekuensi nadi (mencari atrial fibrillation → risiko stroke)",
+            "Suhu (mencari infeksi → delirium)",
+            "SpO2 (mencari hipoksia → ensefalopati)"
+          ],
+          "bold": true,
+          "source": "§5 modul asli"
+        },
+        {
+          "text": "Pemeriksaan nervus kranialis singkat:",
+          "sub": [
+            "N II (Optikus): lapang pandang, ketajaman, funduskopi sederhana (papil atrofi/edema)",
+            "N III, IV, VI: pergerakan bola mata, pupil (ukuran, refleks cahaya)",
+            "N VII: simetri wajah, lipatan nasolabial (sentuh dahi, kerut, senyum, tunjukkan gigi)",
+            "N XII: deviasi lidah saat dijulurkan"
+          ],
+          "bold": true,
+          "source": "§5 modul asli"
+        },
+        {
+          "text": "Pemeriksaan motorik singkat:",
+          "sub": [
+            "Kekuatan genggaman tangan (mencari paresis)",
+            "Cara berjalan (mencari instabilitas, langkah pendek Parkinson, hemiparesis)",
+            "Tremor istirahat (Parkinson)",
+            "Rigiditas (kaku pipa, roda gigi)"
+          ],
+          "bold": true,
+          "source": "§5 modul asli"
+        },
+        {
+          "text": "11 sub-tes MMSE (WAJIB HAFAL URUTAN & SKOR):",
+          "sub": [
+            "1. Orientasi waktu (5 poin) — tahun, bulan, tanggal, hari, musim",
+            "2. Orientasi tempat (5 poin) — negara, provinsi, kota, rumah sakit, ruang/lantai",
+            "3. Registrasi (3 poin) — sebut 3 kata, pasien mengulang; skor percobaan pertama",
+            "4. Atensi/Kalkulasi (5 poin) — seri 7 mundur ATAU eja MESRA mundur",
+            "5. Recall (3 poin) — sebut 3 kata tanpa bantuan; tanpa clue",
+            "6. Bahasa-Naming (2 poin) — pensil + arloji",
+            "7. Repetisi (1 poin) — 'tanpa, bila, dan, atau, tetap'",
+            "8. 3-Stage Command (3 poin) — ambil kertas dengan tangan kanan, lipat dua, letakkan di lantai",
+            "9. Membaca (1 poin) — kartu 'Mohon pejamkan mata Anda'",
+            "10. Menulis (1 poin) — satu kalimat lengkap bermakna",
+            "11. Visuokonstruksi (1 poin) — salin dua pentagon berpotongan"
+          ],
+          "bold": true,
+          "source": "§5 modul asli + Folstein 1975"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips koreksi skor MMSE",
+          "text": "Catat skala koreksi MMSE: skor pada pasien yang tidak sekolah atau pendidikan sangat rendah sering dikoreksi dengan menambah 1–2 poin sesuai tabel norma, agar tidak salah interpretasi sebagai demensia.",
+          "answer_evidence": "Healthdirect Australia MMSE tatacara"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kondisi yang membuat sub-tes tidak valid",
+          "text": "Kacamata tidak tersedia, alat bantu dengar tidak tersedia, pasien afasia global, pasien buta/tuli, pasien dengan tremor berat yang tidak bisa menulis — semua kondisi ini membuat sub-tes bahasa/visuokonstruksi tidak valid dan interpretasi harus hati-hati.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl: Pada recall, jangan pernah memberi clue",
+          "text": "Jika pasien diam 5–10 detik, catat '0' dan lanjutkan. Memberi clue seperti 'kata yang tadi saya sebut pertama...' membuat skor tidak valid dan tes harus diulang di kesempatan lain.",
+          "answer_evidence": "Folstein MF et al. 1975 + Healthdirect Australia"
+        }
+      ],
+      "visual_refs": [
+        "visual_mmse_pentagon_03",
+        "visual_mmse_kartu_04"
+      ],
+      "glossary_refs": [
+        "gls_registrasi_01",
+        "gls_recall_01",
+        "gls_visuokonstruksi_01",
+        "gls_atensi_kalkulasi_01",
+        "gls_koreksi_skor_01"
+      ],
+      "bilingual": "Section s04 adalah core skills station MMSE: mahasiswa WAJIB menghafal 11 sub-tes, skor per sub-tes, dan frasa perintah presisinya. Tiap sub-tes punya titik jebakan yang sering menurunkan nilai."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat, posisi pemeriksa, dan tiga fase prosedur (persiapan, pelaksanaan 11 sub-tes, evaluasi).",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "MMSE adalah pemeriksaan terstruktur dan reproducible — artinya alat dan urutan yang digunakan harus konsisten. Modul kampus halaman 51–55 menyebutkan alat yang diperlukan secara eksplisit: kertas kosong, pensil, arloji (atau pensil yang bisa diminta dinamai), kartu tulisan 'Mohon pejamkan mata Anda', dan gambar dua pentagon/sisi berpotongan. Alat bantu sensorik tidak termasuk dalam daftar alat MMSE itu sendiri, tetapi kacamata/alat bantu dengar pasien harus sudah tersedia sebelum tes dimulai. Prosedur utama dijalankan dalam tiga fase: persiapan → pelaksanaan 11 sub-tes → evaluasi & pelaporan.",
+          "tone": "procedure",
+          "source": "§5 modul asli"
+        },
+        {
+          "text": "Sebelum mulai, posisi pasien ideal duduk tegak di kursi atau tepi tempat tidur, pemeriksa duduk sejajar atau sedikit lebih rendah agar kontak mata baik. Pencahayaan cukup, lingkungan tenang. Siapkan timer internal (tidak perlu stopwatch) karena durasi setiap sub-tes fleksibel. Saat memberi instruksi, ucapkan jelas, satu kali, dengan tempo normal — jangan terburu-buru, dan jangan mengulangi instruksi kecuali diizinkan modul (contoh pengecualian: perintah 3 tahap). Pada tahap recall, jangan pernah memberi clue ('kata yang tadi...'). Pada tahap visuokonstruksi, jangan menambahkan contoh saat pasien ragu.",
+          "tone": "procedure",
+          "source": "§5 modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT yang harus disiapkan:",
+          "sub": [
+            "Kertas kosong ukuran A4 (untuk perintah 3 tahap, menulis kalimat, menyalin gambar)",
+            "Pensil (untuk pasien menulis dan menggambar; pemeriksa mencatat skor)",
+            "Arloji atau pensil (untuk naming di sub-tes bahasa)",
+            "Kartu tulisan 'Mohon pejamkan mata Anda' (untuk sub-tes membaca)",
+            "Gambar dua pentagon berpotongan (untuk sub-tes visuokonstruksi)",
+            "[Tambahan] Kacamata & alat bantu dengar pasien"
+          ],
+          "bold": true,
+          "source": "§5 modul asli"
+        },
+        {
+          "text": "FASE PERSIAPAN:",
+          "sub": [
+            "Salam, perkenalan, tujuan, informed consent verbal",
+            "Verifikasi syarat: sadar (GCS 15), kooperatif, kacamata/ALB tersedia, bahasa ibu, pendidikan",
+            "Siapkan semua alat di meja",
+            "Minta keluarga menunggu di luar (kecuali bayi/anak yang butuh pendampingan)",
+            "Jelaskan bahwa ini bukan tes lulus/gagal"
+          ],
+          "bold": true,
+          "source": "§5 modul asli"
+        },
+        {
+          "text": "FASE PELAKSANAAN (11 sub-tes):",
+          "sub": [
+            "1. Orientasi waktu (5 poin): tahun, bulan, tanggal, hari, musim",
+            "2. Orientasi tempat (5 poin): negara, provinsi, kota, rumah sakit, ruang/lantai",
+            "3. Registrasi (3 poin): sebut 3 kata jelas, minta pasien mengulang",
+            "4. Atensi/Kalkulasi (5 poin): seri 7 mundur dari 100 ATAU eja mundur MESRA",
+            "5. Recall (3 poin): minta pasien menyebut 3 kata tanpa bantuan",
+            "6. Bahasa-naming (2 poin): pensil, arloji",
+            "7. Bahasa-pengulangan (1 poin): 'tanpa, bila, dan, atau, tetap'",
+            "8. Bahasa-perintah 3 tahap (3 poin): ambil dengan tangan kanan, lipat dua, letakkan di lantai",
+            "9. Bahasa-membaca (1 poin): 'Mohon pejamkan mata Anda' lalu melakukan",
+            "10. Bahasa-menulis (1 poin): satu kalimat lengkap bermakna",
+            "11. Visuokonstruksi (1 poin): salin dua pentagon berpotongan"
+          ],
+          "bold": true,
+          "source": "§5 modul asli + Tabel 3"
+        },
+        {
+          "text": "FASE EVALUASI:",
+          "sub": [
+            "Hitung skor total (jumlahkan 11 sub-skor)",
+            "Interpretasikan sesuai tabel: ≥25, 21–24, 10–20, ≤9",
+            "Sebut faktor perancu: usia, pendidikan, sensorik, delirium, depresi, obat",
+            "Laporkan keterbatasan tes",
+            "Usulkan tindak lanjut: anamnesis kolateral, lab, rujukan"
+          ],
+          "bold": true,
+          "source": "§5 modul asli + Tabel 4"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan pasien: izinkan istirahat",
+          "text": "Bila pasien tampak lelah, frustasi, atau ingin berhenti, izinkan istirahat 1–2 menit. Jangan paksa menyelesaikan semua sub-tes dalam satu sesi.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51-55"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kondisi yang harus menghentikan prosedur",
+          "text": "Pasien menjadi cemas/panik berat, menunjukkan ide bunuh diri, jatuh/tidak bisa duduk, atau keluarga tiba-tiba masuk dengan informasi klinis baru (misalnya pasien sedang dalam observasi pasca-kejang).",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51-55"
+        }
+      ],
+      "visual_refs": [
+        "visual_mmse_persiapan_01",
+        "visual_mmse_prosedur_02",
+        "visual_mmse_pentagon_03",
+        "visual_mmse_kartu_04"
+      ],
+      "glossary_refs": [
+        "gls_registrasi_01",
+        "gls_recall_01",
+        "gls_visuokonstruksi_01",
+        "gls_atensi_kalkulasi_01"
+      ],
+      "bilingual": "Section s05 memetakan alat dan tiga fase prosedur: persiapan (informed consent + verifikasi syarat), pelaksanaan 11 sub-tes, dan evaluasi (skor + interpretasi)."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Sintesis hasil MMSE dengan anamnesis dan pemeriksaan fisik untuk membangun diagnosis banding yang tepat, terutama membedakan demensia, delirium, dan depresi.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah MMSE selesai, tugas klinis belum selesai. Mahasiswa harus mampu mensintesis hasil MMSE dengan data anamnesis, pemeriksaan fisik, dan konteks klinis untuk membangun diagnosis banding. Cara berpikir klinis untuk skor MMSE rendah: (1) tentukan onset — akut (jam-hari) → delirium atau stroke; subakut (minggu) → depresi, obat, metabolik; kronis progresif (bulan-tahun) → demensia; (2) tentukan perjalanan — berfluktuasi (delirium), bertahap (demensia Alzheimer), stepwise (demensia vaskular); (3) tentukan profil domain yang terganggu — dominan memori episodik (Alzheimer), dominan eksekutif (vaskular/subkortikal, frontotemporal), dominan perilaku (frontotemporal); (4) cari penyebab reversibel — infeksi, dehidrasi, obat, metabolik, defisiensi B12, hipotiroid, normal pressure hydrocephalus.",
+          "tone": "clinical",
+          "source": "§6, §8 modul asli + Tabel 5"
+        },
+        {
+          "text": "Penting ditekankan: MMSE tidak pernah dipakai sendiri untuk diagnosis. Algoritme pasca-MMSE yang disarankan: (a) klarifikasi profil onset dan perjalanan dengan keluarga; (b) skrining depresi dengan GDS-15; (c) skrining delirium dengan CAM (Confusion Assessment Method); (d) laboratorium dasar (darah lengkap, elektrolit, fungsi ginjal, fungsi hati, tiroid, B12, folat, glukosa puasa, HbA1c); (e) neuroimaging (CT/MRI kepala) bila ada defisit fokal, onset akut, atau kecurigaan penyebab struktural; (f) rujukan neurologi (untuk curiga demensia) atau psikiatri (untuk curiga depresi berat) sesuai kecurigaan klinis.",
+          "tone": "clinical",
+          "source": "§8 modul asli + NICE NG97 + PERDOSSI"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca prosedur:",
+          "sub": [
+            "Hitung dan dokumentasikan skor total 30 poin dengan pecahan per sub-tes",
+            "Interpretasikan sesuai tabel dengan menyebut faktor perancu",
+            "Komunikasikan hasil ke penguji dalam 30–60 detik (template lihat s09)",
+            "Komunikasikan hasil ke keluarga dengan bahasa empatik",
+            "Usulkan anamnesis kolateral dari keluarga/pengasuh",
+            "Usulkan pemeriksaan penunjang dasar (lab, neuroimaging sesuai indikasi)",
+            "Usulkan skrining depresi & delirium (GDS-15, CAM)",
+            "Tentukan perlu rujukan atau tidak (neurologi, psikiatri, geriatri)"
+          ],
+          "bold": true,
+          "source": "§6-§8 modul asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS merujuk segera",
+          "text": "(1) curiga delirium akut dengan kemungkinan sepsis/metabolik; (2) defisit fokal neurologis baru (curiga stroke); (3) penurunan kesadaran akut; (4) kejang baru; (5) ide bunuh diri atau menyakiti orang lain.",
+          "answer_evidence": "NICE NG97 + PERDOSSI consensus"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "MMSE bukan diagnosis tunggal",
+          "text": "MMSE adalah alat skrining, bukan diagnosis demensia. Interpretasi skor rendah wajib mempertimbangkan usia, pendidikan, dan kondisi klinis penyerta (delirium, depresi, gangguan sensorik, efek obat).",
+          "answer_evidence": "Folstein MF et al. 1975 + NICE NG97"
+        }
+      ],
+      "visual_refs": [
+        "visual_mmse_heat_map_05"
+      ],
+      "glossary_refs": [
+        "gls_delirium_01",
+        "gls_demensia_01",
+        "gls_pseudodemensia_01",
+        "gls_cam_01",
+        "gls_gds15_01",
+        "gls_adl_01",
+        "gls_iadl_01"
+      ],
+      "bilingual": "Section s06 melatih clinical reasoning pasca-MMSE: onset, perjalanan, profil domain yang terganggu, dan penyebab reversibel adalah kerangka berpikir utama."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang pasca-MMSE (lab dasar, neuroimaging, asesmen fungsi kognitif lanjutan) dan prinsip tatalaksana klinis.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "MMSE bukan tujuan akhir — hasil MMSE menjadi salah satu data untuk menentukan langkah diagnostik dan tatalaksana selanjutnya. Pemeriksaan penunjang yang relevan untuk pasien dengan skor MMSE rendah atau curiga gangguan kognitif dibagi menjadi darah dasar (untuk menyingkirkan penyebab reversibel), neuroimaging (untuk menyingkirkan lesi struktural), dan penilaian fungsi kognitif lanjutan (untuk karakterisasi gangguan). Pada lansia dengan komorbid, jangan batasi pada satu alat: gunakan MMSE + MoCA (lebih sensitif untuk MCI dan gangguan eksekutif), GDS-15 (skrining depresi), Barthel Index (ADL), Lawton IADL (fungsi instrumental), CAM (delirium bila curiga).",
+          "tone": "clinical",
+          "source": "§8 modul asli + NICE NG97"
+        },
+        {
+          "text": "Prinsip tatalaksana tidak langsung memberikan obat anti-demensia. Prioritas pertama: tatalaksana penyebab reversibel (infeksi, dehidrasi, obat, metabolik). Prioritas kedua: edukasi keluarga dan safety net (jangan biarkan pasien sendirian di rumah, kunci kompor, identitas di dompet). Prioritas ketiga: rujukan ke spesialis (neurologi, psikiatri, geriatri) untuk diagnosis pasti dan tatalaksana definitif. Obat anti-demensia (donepezil, rivastigmine, memantine, galantamine) hanya boleh diberikan oleh atau setelah konsultasi dokter spesialis dengan diagnosis pasti.",
+          "tone": "clinical",
+          "source": "§8 modul asli + PERDOSSI konsensus"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Prinsip tatalaksana klinis pasca-MMSE:",
+          "sub": [
+            "Identifikasi dan tata laksana penyebab reversibel (prioritas tertinggi)",
+            "Edukasi keluarga dengan bahasa empatik",
+            "Modifikasi lingkungan untuk keamanan pasien (jangan biarkan kompor menyala, identitas di dompet, pengingat obat)",
+            "Rujukan ke spesialis (neurologi, psikiatri, geriatri) untuk diagnosis pasti",
+            "Pertimbangkan obat anti-demensia hanya atas rekomendasi spesialis",
+            "Konsultasi farmasi untuk tinjauan obat (terutama antikolinergik, sedatif)",
+            "Asesmen fungsi harian (ADL, IADL) sebagai baseline dan monitoring"
+          ],
+          "bold": true,
+          "source": "§8 modul asli + PERDOSSI"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia di station",
+          "text": "Laboratorium dasar (darah lengkap, elektrolit, fungsi ginjal/hati, tiroid, B12, folat, glukosa) dan neuroimaging (CT/MRI kepala) — keduanya adalah standar evaluasi pasien dengan curiga gangguan kognitif.",
+          "answer_evidence": "NICE NG97 + PERDOSSI konsensus"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Panduan berbasis bukti untuk pasca-MMSE",
+          "text": "Panduan Alzheimer's Association dan NICE NG97 (Dementia: assessment, management and support for people living with dementia and their carers) menganjurkan pemeriksaan darah rutin + neuroimaging sebagai bagian dari evaluasi awal pasien dengan curiga demensia. Pada populasi Indonesia, konsensus PERDOSSI juga merekomendasikan skrining yang sama.",
+          "answer_evidence": "Alzheimer's Association 2024 + NICE NG97 (2018, updated) + PERDOSSI"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_moca_01",
+        "gls_cam_01",
+        "gls_gds15_01",
+        "gls_adl_01",
+        "gls_iadl_01"
+      ],
+      "bilingual": "Section s07 memetakan penunjang pasca-MMSE: darah dasar, neuroimaging, dan asesmen kognitif lanjutan (MoCA, CAM, GDS-15, Barthel, Lawton)."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Template SOAP lengkap untuk pasien skenario MMSE, poin edukasi keluarga, dan safety net kapan kembali segera.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Dokumentasi SOAP adalah standar di station OSCE klinik. Untuk modul MMSE, S (Subjective) berisi keluhan lupa (dari pasien atau keluarga), onset, perjalanan, dan informasi sensorik/pendidikan. O (Objective) berisi skor MMSE per sub-tes, total, hasil pemeriksaan fisik singkat, dan tanda vital. A (Assessment) berisi interpretasi skor dan diagnosis banding (bukan diagnosis pasti). P (Plan) berisi rencana anamnesis kolateral, laboratorium, neuroimaging, skrining depresi/delirium, edukasi, dan rujukan.",
+          "tone": "narrative",
+          "source": "§9 modul asli"
+        },
+        {
+          "text": "Contoh SOAP untuk skenario standar (Tn. Surya, 70 tahun, sering lupa, tidak tahu tempat): S: 'Sering lupa kejadian baru sejak 1 tahun, makin lama makin berat. Kadang tidak tahu kamar mandi di rumahnya sendiri. Tidak ada kelemahan anggota gerak, tidak ada bicara pelo, tidak ada demam.' O: TD 130/80, nadi 78, suhu 36,5°C, SpO2 97%. GCS 15. Tidak ada defisit fokal. MMSE: orientasi waktu 3/5, orientasi tempat 4/5, registrasi 3/3, atensi 2/5, recall 1/3, bahasa 7/8, visuokonstruksi 0/1. Total 20/30. A: Gangguan kognitif sedang (skor 20/30) — bukan diagnosis pasti. Diagnosis banding: demensia (terutama Alzheimer, mengingat onset perlahan progresif), delirium (sudah disingkirkan karena tidak ada tanda akut), depresi (perlu skrining GDS-15), efek obat (perlu tinjauan daftar obat). P: (1) Anamnesis kolateral keluarga untuk onset dan perjalanan; (2) Skrining depresi GDS-15; (3) Skrining delirium CAM; (4) Laboratorium darah lengkap, elektrolit, fungsi ginjal/hati, TSH, B12, folat, glukosa; (5) CT-scan kepala; (6) Edukasi keluarga: pengingat obat, jangan biarkan kompor menyala, identitas di dompet; (7) Rujukan neurologi untuk evaluasi lebih lanjut.",
+          "tone": "narrative",
+          "source": "§9 modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "POIN EDUKASI (untuk keluarga pasien):",
+          "sub": [
+            "'MMSE adalah tes skrining, bukan diagnosis. Hasil rendah belum tentu berarti demensia — perlu evaluasi lanjutan.'",
+            "'Penyebab gangguan kognitif ada yang reversibel (obat, infeksi, dehidrasi) dan yang ireversibel (demensia). Dokter akan mencari penyebabnya dulu.'",
+            "'Di rumah, bantu Bapak/Ibu dengan rutinitas tetap, pengingat obat harian, label nama pada benda-benda penting.'",
+            "'Amankan lingkungan: pastikan kompor dimatikan setelah dipakai, wastafel tidak tergenang, lantai tidak licin.'",
+            "'Jangan biarkan Bapak/Ibu bepergian sendiri — gunakan identitas (gelang, kartu) yang mencantumkan nama dan kontak keluarga.'",
+            "'Bawa Bapak/Ibu control rutin ke dokter dan laporkan perubahan perilaku, tidur, atau suasana hati.'",
+            "'Jaga komunikasi terbuka dalam keluarga — banyak penyintas demensia mengalami depresi juga.'"
+          ],
+          "bold": true,
+          "source": "§9 modul asli"
+        },
+        {
+          "text": "SAFETY NET — Kapan Kembali Segera:",
+          "sub": [
+            "Perubahan perilaku mendadak (agresif, sangat gelisah, atau sangat mengantuk)",
+            "Demam, batuk, atau tanda infeksi",
+            "Penurunan kesadaran (somnolen, sulit dibangunkan)",
+            "Keluhan fisik baru (nyeri kepala berat, muntah, kelemahan anggota gerak)",
+            "Ide bunuh diri atau menyakiti diri/orang lain"
+          ],
+          "bold": true,
+          "source": "§9 modul asli + NICE NG97"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 yang relevan",
+          "text": "F00 (Demensia Alzheimer), F01 (Demensia vaskular), F03 (Demensia tidak spesifik), F05 (Delirium), F32 (Episode depresi), R41.3 (Gangguan memori lainnya). Gunakan saat dokumentasi, tetapi tetap buka sebagai 'curiga' atau 'diagnosis banding', bukan 'pasti'.",
+          "answer_evidence": "ICD-10 WHO"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi yang menenangkan keluarga",
+          "text": "'Hasil MMSE yang rendah tidak otomatis berarti Alzheimer atau pikun permanen. Ada banyak penyebab yang bisa diperbaiki, dan dokter akan mencarinya satu per satu.' Kalimat ini sangat menenangkan keluarga.",
+          "answer_evidence": "Alzheimer's Association 2024 caregiver guidance"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demensia_01",
+        "gls_delirium_01",
+        "gls_pseudodemensia_01"
+      ],
+      "bilingual": "Section s08 membekali template SOAP, poin edukasi keluarga, dan safety net. Edukasi harus empatik: 'ada penurunan fungsi kognitif yang perlu dievaluasi penyebabnya' — bukan 'pasti pikun'."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Tabel SKDI 4A untuk diagnosis terkait, plus mini-skrip dialog OSCE siap pakai dari salam hingga edukasi keluarga.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "SKDI 4A (Standar Kompetensi Dokter Indonesia) yang relevan dengan modul ini mencakup penyakit-penyakit di domain neurologi dan psikiatri yang harus bisa dikenali di tingkat dokter umum meskipun tatalaksana lanjutan memerlukan rujukan. Untuk topik MMSE, diagnosis pasti demensia tidak masuk daftar 4A wajib mahasiswa di modul ini, namun keterampilan melakukan MMSE, menginterpretasikan hasil, dan mengenali delirium/depresi adalah kompetensi 4A yang nyata. Mini-skrip di bawah ini adalah contoh dialog OSCE siap pakai — adaptasi sesuai skenario dan gaya masing-masing tetap diperlukan.",
+          "tone": "narrative",
+          "source": "§9 modul asli + Tabel 6 SKDI"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan khusus komunikasi untuk topik ini:",
+          "sub": [
+            "Bangun rapport dengan tenang, tidak terburu-buru, dan jangan tunjukkan ekspresi terkejut saat pasien menjawab salah",
+            "Berikan jeda 3–5 detik untuk setiap pertanyaan; lansia butuh waktu lebih untuk memproses",
+            "Jangan mengoreksi jawaban pasien saat itu juga — catat saja untuk dilaporkan kemudian",
+            "Gunakan bahasa non-stigmatisasi: 'penurunan daya ingat', 'perlu evaluasi penyebab', bukan 'pikun', 'tidak waras', 'gila'"
+          ],
+          "bold": true,
+          "source": "§9 modul asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH dilewatkan (fatal bila lupa)",
+          "text": "'Hasil pemeriksaan ini adalah skrining, bukan diagnosis. Kami perlu evaluasi lebih lanjut untuk mencari penyebabnya.' — tanpa kalimat ini, keluarga bisa langsung panik dan menganggap pasien pasti demensia.",
+          "answer_evidence": "Alzheimer's Association caregiver communication guidance"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara membuka station paling efektif",
+          "text": "'Selamat pagi, Bapak/Ibu [nama]. Saya [nama], dokter yang akan melakukan pemeriksaan singkat. Pemeriksaan ini akan membantu kami memahami daya ingat dan orientasi Bapak/Ibu — bukan tes lulus/gagal, jadi tidak perlu merasa malu bila ada yang tidak bisa dijawab. Boleh saya mulai?'",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_demensia_01",
+        "gls_delirium_01",
+        "gls_pseudodemensia_01"
+      ],
+      "bilingual": "Section s09 memetakan SKDI 4A yang relevan (F00, F01, F03, F05, F32, dll.) dan menyediakan mini-skrip dialog OSCE siap pakai."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan, rencana belajar 3 hari dengan spaced repetition, 7 kesalahan fatal dan 3 kesalahan minor yang harus dihindari.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kriteria 'siap OSCE' untuk station MMSE: (1) hafal urutan 11 sub-tes tanpa melihat catatan; (2) mampu menjalankan perintah 3 tahap dan perintah 'Mohon pejamkan mata Anda' dengan fasih; (3) mampu menghitung skor total 30 dalam 10–15 detik; (4) mampu menginterpretasikan skor dengan menyebut minimal 3 faktor perancu (usia, pendidikan, sensorik); (5) mampu membedakan demensia, delirium, dan depresi dalam 30 detik; (6) mampu melapor ke penguji dengan template terstruktur dalam 60 detik; (7) mampu menjelaskan hasil ke keluarga dengan bahasa empatik tanpa menstigmatisasi. Jika 6 dari 7 kriteria ini sudah dikuasai, mahasiswa siap mengikuti station.",
+          "tone": "narrative",
+          "source": "§7, §12 modul asli"
+        },
+        {
+          "text": "Rencana belajar 3 hari disusun dengan prinsip spaced repetition + active recall + simulasi. Hari 1 fokus hafalan dan konsep. Hari 2 fokus eksekusi teknis dengan timer. Hari 3 fokus integrasi (pelaporan + edukasi + clinical reasoning). Setiap hari harus menghasilkan output konkret yang bisa diukur, bukan 'belajar sebentar'.",
+          "tone": "narrative",
+          "source": "§12 modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI (item dengan prioritas TINGGI/SEDANG):",
+          "sub": [
+            "Mampu menyebutkan 11 sub-tes MMSE berurutan — TINGGI",
+            "Mampu mengucapkan frasa 'ambil kertas dengan tangan kanan, lipat dua, letakkan di lantai' — TINGGI",
+            "Mampu mengucapkan frasa 'tanpa, bila, dan, atau, tetap' dengan artikulasi jelas — TINGGI",
+            "Mampu menghitung seri 7 mundur dari 100 sampai 65 dalam kepala sendiri — TINGGI",
+            "Mampu menggambar dua pentagon berpotongan — SEDANG",
+            "Mampu mengucapkan kalimat 'Mohon pejamkan mata Anda' — SEDANG",
+            "Mampu menghitung skor total 30 dalam 15 detik — TINGGI",
+            "Mampu menginterpretasikan skor ≥25, 21–24, 10–20, ≤9 — TINGGI",
+            "Mampu menyebut minimal 3 faktor perancu interpretasi — TINGGI",
+            "Mampu membedakan onset demensia, delirium, depresi — TINGGI",
+            "Mampu melapor ke penguji dalam 60 detik — TINGGI",
+            "Mampu menjelaskan hasil ke keluarga dengan empati — TINGGI",
+            "Mengetahui kode ICD-10 F00–F05, F32 — SEDANG",
+            "Mengetahui syarat MMSE — TINGGI",
+            "Mengetahui red flags delirium — TINGGI",
+            "Mengetahui bahwa MMSE adalah skrining, bukan diagnosis — TINGGI",
+            "Mampu mengusulkan laboratorium darah dasar — SEDANG",
+            "Mampu mengusulkan neuroimaging (CT/MRI) sesuai indikasi — SEDANG",
+            "Mampu menyebutkan rujukan (neurologi, psikiatri, geriatri) — SEDANG",
+            "Mampu menggunakan bahasa non-stigmatisasi — TINGGI"
+          ],
+          "bold": true,
+          "source": "§12 modul asli + Tabel 8"
+        },
+        {
+          "text": "RENCANA 3 HARI:",
+          "sub": [
+            "Hari 1 — Target: hafal checklist + pahami konsep | Durasi: 3–4 jam | Aktivitas: baca modul hlm. 51–55; buat 1 halaman ringkasan; hafal urutan 11 sub-tes; tulis faktor perancu | Kriteria: mampu menyebutkan 11 sub-tes dari memori",
+            "Hari 2 — Target: latihan pasangan seperti OSCE | Durasi: 3–4 jam | Aktivitas: latihan dengan teman sebagai pasien simulasi; rekam video 5–8 menit; cek salam, consent, instruksi, teknik, dan pelaporan; review video | Kriteria: video menunjukkan eksekusi lengkap tanpa melihat catatan",
+            "Hari 3 — Target: simulasi full station | Durasi: 3–4 jam | Aktivitas: gunakan timer 10 menit; minta teman menjadi penguji; koreksi bagian yang sering hilang; ulangi 2–3 kali | Kriteria: simulasi full station dengan skor interpretasi lengkap, pelaporan 60 detik, edukasi keluarga 90 detik"
+          ],
+          "bold": true,
+          "source": "§12 modul asli + Tabel 8"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL 1] Mendiagnosis demensia dari skor MMSE saja",
+          "text": "Mengapa fatal: MMSE adalah skrining, bukan diagnosis. Diagnosis pasti memerlukan evaluasi multidisiplin. Cara menghindari: selalu ucapkan 'ini skrining, perlu evaluasi lanjutan'.",
+          "answer_evidence": "Folstein 1975 + NICE NG97"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL 2] Mengabaikan delirium",
+          "text": "Mengapa fatal: delirium reversibel; bila terlewat, pasien bisa jatuh, dehidrasi, atau bahkan meninggal. Cara menghindari: selalu cek onset (akut = delirium) dan tanda fluktuasi kesadaran.",
+          "answer_evidence": "NICE NG97 Delirium guideline"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL 3] Menjalankan MMSE pada pasien delirium akut",
+          "text": "Mengapa fatal: tes tidak valid dan membuat pasien frustasi. Cara menghindari: verifikasi GCS 15 dan orientasi awal sebelum melanjutkan.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL 4] Memberi clue pada tahap recall",
+          "text": "Mengapa fatal: skor tidak valid, harus diulang di kesempatan lain. Cara menghindari: jika pasien diam, beri jeda 5–10 detik, baru catat '0' tanpa clue.",
+          "answer_evidence": "Folstein MF et al. 1975"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL 5] Mengumumkan hasil langsung ke pasien tanpa empati",
+          "text": "Mengapa fatal: pasien/keluarga bisa panik atau depresi. Cara menghindari: gunakan template pelaporan empatik (lihat s09).",
+          "answer_evidence": "Alzheimer's Association caregiver guidance"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL 6] Menilai 'tidak kooperatif' tanpa verifikasi sensorik",
+          "text": "Mengapa fatal: pasien tuli/buta/afasia dianggap tidak kooperatif. Cara menghindari: selalu cek kacamata, ALB, bahasa ibu.",
+          "answer_evidence": "Healthdirect Australia MMSE tatacara"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL 7] Melupakan verifikasi syarat pendidikan minimal",
+          "text": "Mengapa fatal: skor pada pasien pendidikan rendah sering keliru rendah. Cara menghindari: tanyakan pendidikan, gunakan tabel koreksi sesuai pendidikan.",
+          "answer_evidence": "Folstein MF et al. 1975 + Healthdirect Australia"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "[KESALAHAN 1] Menukar frasa perintah 3 tahap",
+          "text": "Mengapa menurunkan nilai: menunjukkan kurang persiapan. Cara menghindari: latih pengucapan persis.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51-55"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "[KESALAHAN 2] Mencampur dua metode atensi (seri 7 DAN eja MESRA)",
+          "text": "Mengapa menurunkan nilai: skor tidak bisa dihitung. Cara menghindari: pilih satu metode, konsisten.",
+          "answer_evidence": "Folstein MF et al. 1975"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "[KESALAHAN 3] Tidak membawa alat tulis/kartu tulisan/gambar pentagon",
+          "text": "Mengapa menurunkan nilai: penguji bisa menilai Anda tidak siap. Cara menghindari: cek daftar alat sebelum masuk station.",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 51-55"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_delirium_01",
+        "gls_demensia_01",
+        "gls_pseudodemensia_01"
+      ],
+      "bilingual": "Section s10 adalah panduan latihan 3 hari dengan spaced repetition dan 7 kesalahan fatal yang harus dihindari mahasiswa saat simulasi."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Daftar visual yang disarankan, lampiran klinis (red flags, mini-case, kalimat pembuka), dan referensi berbasis bukti.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Visual untuk modul MMSE berfungsi untuk: (1) membantu mahasiswa menghafal urutan 11 sub-tes (flowchart); (2) melatih eksekusi frasa perintah (video/animasi); (3) memahami interpretasi skor (tabel warna); (4) membedakan demensia, delirium, depresi (infografik perbandingan); (5) menyiapkan alat praktikum (foto setup meja). Disarankan minimal 3 visual untuk ditempatkan di s05 dan s06. Lampiran klinis yang relevan: (A) tabel koreksi skor MMSE berdasarkan pendidikan dan usia, (B) masalah & respons dalam skenario OSCE, (C) 3 mini-case untuk latihan, (D) kalimat pembuka station siap ucap.",
+          "tone": "narrative",
+          "source": "§10, §11, §13 modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "VISUAL YANG DISARANKAN:",
+          "sub": [
+            "Visual 1 — Flowchart 11 sub-tes MMSE: kotak berurutan dari orientasi (waktu → tempat) → registrasi → atensi → recall → bahasa (naming → pengulangan → perintah 3 tahap → membaca → menulis) → visuokonstruksi → total skor. Background putih, garis tegas, warna berbeda untuk setiap sub-tes.",
+            "Visual 2 — Tabel skor warna (heat map): kotak warna hijau (≥25), kuning (21–24), oranye (10–20), merah (≤9) untuk interpretasi cepat. Cocok sebagai 'cheat sheet' saku.",
+            "Visual 3 — Infografik 4 kondisi (lupa normal vs demensia vs delirium vs depresi): empat kolom dengan ikon, gejala utama, onset, perjalanan, dan pendekatan.",
+            "Visual 4 — Setup meja praktikum MMSE: foto alat-alat (kertas, pensil, arloji, kartu tulisan, gambar pentagon) di meja praktikum.",
+            "Visual 5 — Contoh gambar dua pentagon berpotongan: sesuai modul asli hlm. 55."
+          ],
+          "bold": true,
+          "source": "§10 modul asli"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi / Red Flags MMSE:",
+          "sub": [
+            "Pasien tidak sadar (GCS < 15): Tunda MMSE, stabilisasi ABC.",
+            "Pasien delirium akut (perhatian buruk, fluktuatif): Tunda MMSE, cari penyebab delirium.",
+            "Pasien afasia global: Sub-tes bahasa tidak valid; gunakan MoCA atau asesmen alternatif.",
+            "Pasien buta/tuli tanpa koreksi: Sub-tes bahasa/visuokonstruksi tidak valid; sediakan koreksi.",
+            "Pasien tidak bisa baca tulis: Skor sub-tes bahasa/visuokonstruksi tidak valid; dokumentasikan keterbatasan."
+          ],
+          "bold": true,
+          "source": "Lampiran modul asli"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah & Respons dalam Skenario OSCE:",
+          "sub": [
+            "Pasien tidak membawa kacamata: minta keluarga mengambil atau tunda sub-tes yang membutuhkan penglihatan.",
+            "Pasien diam di tahap recall: beri jeda 5–10 detik, jangan beri clue, catat '0'.",
+            "Pasien mulai menangis: hentikan sejenak, tawarkan tisu, tanya apa yang dirasakan, baru lanjutkan.",
+            "Keluarga protes 'Bapak/Ibu tidak pikun, Dokter salah!': tetap tenang, jelaskan bahwa hasil adalah skrining dan ada kemungkinan penyebab lain.",
+            "Penguji bertanya 'Mengapa tidak langsung kasih obat anti-demensia?': jelaskan bahwa penyebab reversibel harus disingkirkan dulu; obat hanya setelah diagnosis pasti."
+          ],
+          "bold": true,
+          "source": "Lampiran modul asli"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case (3 skenario):",
+          "sub": [
+            "Skenario Mudah: Ny. Aminah, 72 tahun, lupa kejadian baru sejak 6 bulan, kadang salah taruh benda. Pendidikan SMA. Skor 24/30 (gangguan ringan); banding utama demensia awal, depresi, efek obat; usulkan GDS-15, lab dasar, rujuk neurologi.",
+            "Skenario Sedang: Tn. Joko, 68 tahun, pasca-stroke 3 bulan, 'pelupa dan bingung'. Pendidikan SMP. Skor 19/30 (gangguan sedang); banding utama demensia vaskular (stepwise), depresi pasca-stroke, delirium residual; usulkan CT/MRI kepala, GDS-15, rujuk neurologi.",
+            "Skenario Sulit: Ny. Kartini, 75 tahun, 'tidak mengenali cucu sejak 3 hari, kadang ngigau'. Demam 38,2°C, BAK sedikit. Pendidikan SD. Tunda MMSE karena curiga delirium karena infeksi (ISK + pneumonia). Cari penyebab, tata laksana, baru rencanakan MMSE setelah akut teratasi."
+          ],
+          "bold": true,
+          "source": "Lampiran modul asli"
+        },
+        {
+          "text": "REFERENSI:",
+          "sub": [
+            "Modul Kampus: Pemeriksaan Mini Mental State Examination. Blok 6.3 Neuro-Psikiatri, halaman 51–55.",
+            "SKDI 4A Batch 2 IKA-Geriatri-Neurologi-Psikiatri (untuk batas penyakit 4A relevan).",
+            "Healthdirect Australia. Mini-Mental State Examination (MMSE) tatacara.",
+            "Cochrane / PMC review: MMSE for the detection of dementia in people aged 65 and over.",
+            "NICE NG97. Dementia: assessment, management and support for people living with dementia and their carers (2018, updated).",
+            "Alzheimer's Association. 2024 Alzheimer's disease facts and figures.",
+            "PERDOSSI. Konsensus penatalaksanaan gangguan neurodegeneratif.",
+            "Folstein MF, Folstein SE, McHugh PR. 'Mini-mental state. A practical method for grading the cognitive state of patients for the clinician.' J Psychiatr Res. 1975."
+          ],
+          "bold": true,
+          "source": "§13 modul asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk membuat visual",
+          "text": "'Buat infografik medis Bahasa Indonesia untuk mahasiswa kedokteran tentang MMSE OSCE, berisi 11 item, skor total 30, interpretasi skor, syarat validitas, red flags delirium, gaya bersih profesional.'",
+          "answer_evidence": "Modul Kampus Blok 6.3 hlm. 55"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Sejarah dan rekomendasi MMSE",
+          "text": "Folstein et al. (1975) memperkenalkan MMSE sebagai metode praktis menilai status kognitif pasien di klinik. Sejak saat itu, MMSE menjadi salah satu alat skrining gangguan kognitif yang paling banyak digunakan di dunia. NICE NG97 (2018, diperbarui) tetap merekomendasikan MMSE sebagai salah satu alat skrining yang dapat digunakan dalam evaluasi awal pasien dengan curiga demensia.",
+          "answer_evidence": "Folstein MF, Folstein SE, McHugh PR. J Psychiatr Res 1975; NICE NG97 (2018, updated)"
+        }
+      ],
+      "visual_refs": [
+        "visual_mmse_pentagon_03",
+        "visual_mmse_heat_map_05",
+        "visual_mmse_inforgrafik_06"
+      ],
+      "glossary_refs": [
+        "gls_moca_01",
+        "gls_cam_01",
+        "gls_gds15_01",
+        "gls_delirium_01",
+        "gls_demensia_01"
+      ],
+      "bilingual": "Section s11 memuat lampiran klinis (red flags, mini-case, kalimat pembuka siap ucap) dan referensi berbasis bukti (Folstein 1975, NICE NG97, Alzheimer's Association 2024, PERDOSSI)."
+    }
+  ]
+}

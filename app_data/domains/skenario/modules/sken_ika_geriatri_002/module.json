@@ -1,0 +1,852 @@
+{
+  "id": "sken_ika_geriatri_002",
+  "title": "Stasiun 02 — Neonatus dengan Keluhan pada Area Pusar",
+  "subtitle": "Skenario omfalitis/infeksi umbilikus pada neonatus By. Naya (10 hari) dengan kecurigaan sepsis awal: menguji anamnesis neonatus, head-to-toe neonatus, status lokalis umbilikus, keputusan rujukan emergensi, dan edukasi perawatan tali pusat steril.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_1",
+  "source_files": [
+    "SOAL_02_PESERTA_BLIND.md",
+    "SOAL_02_PENDAMPING.md",
+    "BLUEPRINT_MASTER_DOMAIN_02.md"
+  ],
+  "topicTags": [
+    "osce_skenario",
+    "pediatri",
+    "neonatus",
+    "omfalitis",
+    "infeksi_umbilikus",
+    "sepsis_neonatal",
+    "tanda_vital_neonatus",
+    "perawatan_tali_pusat",
+    "red_flags_neonatus",
+    "rujukan_darurat"
+  ],
+  "summary": [
+    "Situasi klinis: By. Naya, neonatus perempuan 10 hari (BB lahir 3000 g, sekarang 2950 g), dibawa ibu ke poli/IGD karena pusar merah, basah, keluar cairan purulen kehijauan berbau, dan bayi lebih rewel serta menyusu berkurang.",
+    "Skill utama yang diuji: anamnesis neonatus dengan fokus riwayat tali pusat dan gejala sistemik, pemeriksaan TTV neonatus, head-to-toe neonatus, status lokalis umbilikus, seleksi penunjang sepsis, dan keputusan rujukan.",
+    "Komponen anamnesis kritis: riwayat tali pusat (kapan lepas, bahan yang dipakai, riwayat bedak/herbal), gejala sistemik (suhu, minum, BAK, aktivitas, napas, kejang), dan faktor risiko neonatal sepsis (ketuban lama, ibu demam, BBLR).",
+    "Pemeriksaan fisik kunci: TTV neonatus (suhu, HR, RR, SpO2, CRT), status lokalis umbilikus (luas eritema, edema, discharge, bau, nekrosis/fluktuasi), tanda sepsis (perfusi, aktivitas, hisapan, tonus).",
+    "Diagnosis kerja: omfalitis/infeksi umbilikus neonatus dengan kecurigaan sepsis awal. DD utama: granuloma umbilikus, urachal remnant, sepsis neonatorum, tetanus neonatorum, necrotizing fasciitis.",
+    "Tatalaksana yang diharapkan: stabilisasi awal (ABC, hangatkan, glukosa), larangan bedak/ramuan, perawatan aseptik, kultur darah/pus, antibiotik IV, dan rujukan segera ke RS.",
+    "Critical error paling penting: menganggap pusar bernanah pada neonatus sebagai kasus ringan tanpa menilai tanda sepsis; tidak merujuk neonatus dengan gejala sistemik; menunda terapi menunggu kultur.",
+    "Total 100 poin — komponen terbesar: anamnesis 25 poin dan pemeriksaan fisik 25 poin."
+  ],
+  "exam_focus": [
+    "Pada neonatus, OMFALITIS dengan gejala sistemik adalah kedaruratan: selalu anggap sebagai potensi sepsis neonatal, dan rujuk segera — jangan tunggu kultur atau respons terapi rawat jalan.",
+    "Skrining tanda sepsis pada neonatus: hipotermia ATAU demam, malas minum/menetek lemah, lemas/tonus turun, napas cepat atau apnea, kejang, perfusi lambat (CRT ≥3 detik), ikterus berat, sianosis, pucat, kurang popok basah.",
+    "Faktor risiko sepsis neonatal yang harus digali: ketuban pecah lama (>18 jam), ibu demam/korioamnionitis, BBLR/prematur, prosedur invasif saat lahir, perawatan tali pusat tidak steril (bedak, ramuan, kopi).",
+    "Status lokalis umbilikus yang harus dideskripsikan lengkap: luas eritema (diameter dari tepi pusar), edema, indurasi, jenis discharge (serous/purulen/blood), bau, adanya fluktuasi/absen, nekrosis, tanda peritonitis, benjolan/granuloma.",
+    "Tatalaksana lokal: BERSIHKAN dengan teknik aseptik (air steril/klorheksidin sesuai pedoman), KERINGKAN, JAGA tetap terbuka/ventilasi. Larang keras: bedak, kopi, minyak, ramuan, daun, penutup rapat.",
+    "Lipat popok di BAWAH pusar agar tidak menutupi atau mencemari area infeksi; gunakan popok yang ukurannya pas dan ganti sesering mungkin.",
+    "Antibiotik pada neonatus: spektrum empiris sesuai protokol lokal yang mencakup stafilokokus, streptokokus, gram negatif, dan anaerob. Kultur darah dan kultur pus SEBELUM antibiotik bila tidak menunda terapi.",
+    "Edukasi ibu: jangan pernah menaburkan bedak/herbal/ramuan pada pusar; cuci tangan sebelum menyentuh bayi/pusar; tanda bahaya pulang (demam/hipotermia, malas minum, lemas, napas cepat, kejang, kuning berat, pusar merah meluas, bayi biru/pucat)."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_omf_def_01",
+      "term": "Omfalitis (Infeksi Umbilikus Neonatus)",
+      "def": "Infeksi pada umbilikus neonatus, biasanya polimikrobial (S. aureus, Streptococcus grup A/B, gram negatif seperti E. coli, Klebsiella, dan anaerob). Ditandai eritema, edema, discharge purulen, dan bau tidak sedap di sekitar umbilikus. Pada neonatus, infeksi lokal dapat dengan cepat menyebar menjadi sepsis, fasciitis nekrotikans, atau tetanus neonatorum.",
+      "type": "clinical",
+      "aliases": ["Infeksi tali pusat", "Omphalitis"]
+    },
+    {
+      "id": "gls_sken_omf_sepsis_02",
+      "term": "Sepsis Neonatorum",
+      "def": "Sindrom klinis akibat infeksi sistemik pada neonatus (0-28 hari) yang ditandai dengan tanda Systemic Inflammatory Response Syndrome (SIRS) atau gangguan klinis sistemik. Tanda awitan dapat berupa ketidakstabilan suhu, napas cepat/apnea, malas minum, lemas, penurunan perfusi, ikterus, dan kejang. Memerlukan antibiotik IV emergensi dan rawat neonatal.",
+      "type": "clinical",
+      "aliases": ["Sepsis neonatal", "Neonatal sepsis"]
+    },
+    {
+      "id": "gls_sken_omf_crt_03",
+      "term": "Capillary Refill Time (CRT) Neonatus",
+      "def": "Warna kembali kulit setelah ditekan ringan pada ujung ekstremitas atau sternum. Normal <2 detik pada anak, tetapi pada neonatus sakit CRT ≥3 detik adalah tanda perfusi buruk dan perlu evaluasi sepsis/gawat darurat.",
+      "type": "procedure",
+      "aliases": ["Warna kembali kapiler"]
+    },
+    {
+      "id": "gls_sken_omf_culture_04",
+      "term": "Kultur Darah dan Kultur Pus/Discharge",
+      "def": "Pemeriksaan mikrobiologi standar untuk identifikasi kuman penyebab infeksi. Pada omfalitis dengan kecurigaan sepsis, kultur darah dan kultur discharge umbilikus diambil SEBELUM antibiotik pertama, selama tidak menunda terapi lebih dari 30-45 menit. Kultur aerob dan anaerob keduanya penting karena infeksi dapat polimikrobial.",
+      "type": "procedure",
+      "aliases": ["Blood culture", "Pus culture"]
+    },
+    {
+      "id": "gls_sken_omf_gram_05",
+      "term": "Pewarnaan Gram Discharge",
+      "def": "Pemeriksaan cepat dengan pewarnaan Gram pada discharge umbilikus untuk identifikasi awal morfologi kuman (kokus gram positif, batang gram negatif, dll.) dan adanya leukosit. Membantu arah pemilihan antibiotik empiris sebelum kultur definitif keluar.",
+      "type": "procedure",
+      "aliases": ["Gram stain pus"]
+    },
+    {
+      "id": "gls_sken_omf_emp_antibiotik_06",
+      "term": "Antibiotik Empiris Neonatus (Sepsis/Omfalitis)",
+      "def": "Kombinasi antibiotik spektrum luas IV sesuai pedoman lokal, biasanya mencakup stafilokokus (termasuk MRSA sesuai epidemi), streptokokus, gram negatif (ampisilin + gentamisin, atau ampisilin + sefotaksim) dengan/tanpa metronidazol bila ada komponen anaerob. Pilihan akhir mengikuti PPK/PNPK dan pola resisten lokal.",
+      "type": "drug",
+      "aliases": ["Empiric neonatal antibiotics"]
+    },
+    {
+      "id": "gls_sken_omf_granuloma_07",
+      "term": "Granuloma Umbilikus",
+      "def": "Jaringan granulasi sisa tali pusat yang membentuk benjolan merah muda kecil, mudah berdarah, dan biasanya tidak nyeri. Berbeda dari omfalitis: tidak ada eritema meluas, edema, atau discharge purulen. Tata laksana: silver nitrat atau ligasi benang sesuai kebijakan lokal.",
+      "type": "clinical",
+      "aliases": ["Umbilical granuloma"]
+    },
+    {
+      "id": "gls_sken_omf_urachus_08",
+      "term": "Urachal Remnant / Patent Urachus",
+      "def": "Gangguan penutupan duktus urakhus yang menghubungkan umbilikus dengan kandung kemih. Tampak sebagai discharge urine keluar dari umbilikus, biasanya sejak lahir, dan dapat disertai infeksi berulang atau dermatitis lokal. Diagnosis konfirmasi dengan USG abdomen/sistogram.",
+      "type": "clinical",
+      "aliases": ["Patent urachus", "Urachal anomaly"]
+    },
+    {
+      "id": "gls_sken_omf_tetanus_09",
+      "term": "Tetanus Neonatorum",
+      "def": "Bentuk tetanus pada neonatus yang terjadi karena kontaminasi kuman Clostridium tetani melalui perawatan tali pusat tidak steril (mis. pemotongan dengan alat tidak steril, pemakaian ramuan, atau bedak). Ditandai dengan ketidakmampuan menyusu, kekakuan, kejang, opistotonus, dan biasanya fatal tanpa terapi. Pencegahan: persalinan bersih, perawatan tali pusat steril, dan imunisasi TT ibu hamil.",
+      "type": "clinical",
+      "aliases": ["Tetanus neonatal"]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis blind neonatus dengan pusar tidak normal dan daftar tugas 10 menit.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Anda bertugas di poli/IGD umum. Seorang bayi baru lahir dibawa oleh ibunya karena ada keluhan pada area pusar dan bayi tampak tidak senyaman biasanya. Anda diminta melakukan konsultasi klinis awal yang relevan selama 10 menit.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Bangun komunikasi dengan ibu bayi dan konfirmasi identitas.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Lakukan anamnesis terarah pada neonatus.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Lakukan pemeriksaan fisik umum dan pemeriksaan lokalis yang relevan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Minta pemeriksaan penunjang yang Anda perlukan kepada penguji.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 5: Sampaikan diagnosis kerja, diagnosis banding, rencana tatalaksana awal, edukasi, dan keputusan rujukan/kontrol.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Hasil pemeriksaan hanya diberikan bila diminta. Jangan melakukan tindakan invasif sungguhan. Prioritaskan keselamatan neonatus dan tanda bahaya. Pada neonatus, keluhan lokal pada pusar dengan gejala sistemik adalah kondisi darurat.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_omf_def_01"],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting, durasi, dan distribusi 100 poin.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Stasiun ini berlangsung di poli atau IGD umum dengan waktu total 10 menit. Peserta berkomunikasi dengan ibu By. Naya sebagai sumber anamnesis utama. Data klinis (TTV neonatus, status lokalis umbilikus, hasil penunjang) hanya diberikan bila peserta meminta secara spesifik dengan menyebut parameter atau organ. Peserta dinilai dari ketepatan anamnesis, kemampuan melakukan head-to-toe neonatus, seleksi penunjang, dan keputusan rujukan.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kompetensi dan komponen yang diuji:",
+          "sub": [
+            "Komunikasi klinis dan informed consent verbal — salam, identifikasi, empati, izin.",
+            "Anamnesis neonatus: riwayat tali pusat, gejala sistemik, faktor risiko sepsis.",
+            "Pemeriksaan fisik: TTV neonatus, head-to-toe singkat, status lokalis umbilikus lengkap.",
+            "Pemilihan penunjang rasional: GDS, darah lengkap, CRP, kultur, urinalisis.",
+            "Reasoning: omfalitis dengan kecurigaan sepsis, DD granuloma, urachal remnant, tetanus neonatorum.",
+            "Manajemen: stabilisasi awal, larangan bahan iritan, antibiotik, rujukan emergensi, edukasi."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1-2 menit baca soal dan identifikasi kegawatan neonatus — 7-8 menit performa (anamnesis singkat terarah, pemeriksaan TTV + lokalis, minta penunjang, sampaikan rencana rujukan) — 1 menit wrap-up. Pada neonatus sakit, lakukan ABC dan cek sepsis triage terlebih dahulu sebelum anamnesis panjang.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggali riwayat tali pusat, gejala sistemik, dan faktor risiko sepsis neonatal.",
+      "estimated_time_minutes": 3,
+      "content": [
+        {
+          "text": "Ibu probandus tampak cemas. Peserta diharapkan menggali riwayat tali pusat, gejala sistemik neonatal, dan faktor risiko sepsis. Bayi tidak bisa bicara; seluruh anamnesis berasal dari ibu. Ibu akan menjawab jujur sesuai data yang disiapkan; informasi yang tidak ditanyakan tidak diberikan spontan.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus (keluhan utama versi spontan): \"Dok, pusar bayi saya merah, basah, dan seperti keluar cairan. Sejak tadi bayi lebih rewel dan menyusu agak berkurang.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Identitas pasien:",
+          "sub": [
+            "Nama: By. Naya.",
+            "Usia: 10 hari.",
+            "Berat lahir: 3000 gram; berat sekarang: 2950 gram.",
+            "Jenis kelamin: perempuan.",
+            "Lahir cukup bulan, persalinan spontan di bidan.",
+            "Datang dengan ibu kandung."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat keluhan pusar (diberikan bila ditanya):",
+          "sub": [
+            "Tali pusat lepas 2 hari lalu.",
+            "Sejak kemarin pusar tampak basah.",
+            "Hari ini muncul cairan kuning kehijauan dan bau tidak enak.",
+            "Area sekitar pusar kemerahan dan bayi menangis saat disentuh.",
+            "Tidak ada perdarahan banyak.",
+            "Tidak tampak benjolan keluar saat menangis."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat sistemik neonatus (diberikan bila ditanya):",
+          "sub": [
+            "Bayi terasa agak hangat sejak pagi.",
+            "Menyusu lebih sedikit dari biasanya.",
+            "Popok basah berkurang: biasanya 6 kali/hari, hari ini baru 3 kali.",
+            "Tidak muntah hijau.",
+            "Tidak kejang.",
+            "Tidak sesak berat, tetapi napas tampak lebih cepat saat menangis.",
+            "Bayi lebih lemas dibanding biasanya, tetapi masih menangis bila disentuh."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat kelahiran dan faktor risiko (diberikan bila ditanya):",
+          "sub": [
+            "Usia kehamilan cukup bulan.",
+            "Ketuban pecah ~8 jam sebelum lahir (perlu digali lebih lanjut apakah >18 jam).",
+            "Tidak diketahui ibu demam saat persalinan.",
+            "Perawatan tali pusat: keluarga sempat menaburkan bedak/herbal kering dari nenek agar cepat kering.",
+            "Imunisasi: sudah vitamin K dan salep mata; hepatitis B belum jelas."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Obat/alergi: belum diberikan obat, tidak ada alergi yang diketahui.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flag Otomatis pada Kasus Ini",
+          "text": "Kombinasi pusar purulen berbau + neonatus 10 hari + demam + minum berkurang + popok berkurang + perfusi melambat (CRT 3 detik) + riwayat bedak/herbal = CURIGA SEPSIS NEONATAL. Wajib dirujuk, bukan rawat jalan dengan salep.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_omf_sepsis_02", "gls_sken_omf_tetanus_09"],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV neonatus, head-to-toe, dan status lokalis umbilikus yang tersedia untuk diberikan kepada peserta.",
+      "estimated_time_minutes": 3,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ yang diperiksa. Peserta dinilai dari relevansi permintaan, urutan, dan kemampuan deskripsi temuan.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital neonatus (Nilai normal neonatus usia 10 hari: HR 120-160, RR 30-60, SpO2 ≥95%, suhu 36,5-37,5°C):",
+          "sub": [
+            "Suhu aksila: 38,1°C (demam).",
+            "Nadi: 168 x/menit (takikardi).",
+            "RR: 56 x/menit.",
+            "SpO2: 97% udara ruangan.",
+            "CRT: 3 detik (memanjang).",
+            "Akral: agak dingin.",
+            "Gula darah POCT: 62 mg/dL (risiko hipoglikemia)."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Keadaan umum: bayi rewel saat diperiksa, aktivitas menurun ringan, tangisan ada tetapi tidak sekuat normal. Curiga neonatus sakit sedang.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Head-to-toe neonatus (diberikan per sistem bila diminta):",
+          "sub": [
+            "Kepala/fontanel: ubun-ubun datar, tidak menonjol.",
+            "Mata: tidak ikterik berat.",
+            "Mulut: mukosa agak kering, refleks hisap menurun ringan.",
+            "Leher: tidak kaku.",
+            "Paru: napas cepat ringan, tidak ada retraksi berat, suara napas vesikuler.",
+            "Jantung: takikardi, murmur tidak jelas.",
+            "Abdomen: tidak distensi, bising usus ada, nyeri tekan sulit dinilai; bayi menangis saat area umbilikus disentuh.",
+            "Kulit: tidak ada pustul di area lain, tidak ada sianosis, perfusi sedikit lambat.",
+            "Neurologis neonatal: tonus sedikit menurun, respons terhadap rangsang ada."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status lokalis umbilikus (WAJIB diperiksa detail dan dideskripsikan):",
+          "sub": [
+            "Eritema sekitar umbilikus diameter ~2 cm dari tepi pusar.",
+            "Edema dan indurasi ringan.",
+            "Discharge purulen kuning kehijauan, bau tidak sedap.",
+            "Tidak ada nekrosis hitam.",
+            "Tidak ada fluktuasi jelas.",
+            "Tidak ada tanda peritonitis jelas.",
+            "Tidak tampak granuloma merah muda kecil yang mudah berdarah; gambaran lebih sesuai infeksi."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Peserta Meminta Data",
+          "text": "Peserta harus MENYEBUT parameter atau organ (mis. \"Berapa suhu dan nadi bayi?\" atau \"Bagaimana status lokalis pusar — eritema, discharge, bau, dan fluktuasi?\"). Data tidak diberikan spontan.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_omf_crt_03"],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Pemeriksaan yang relevan, hasil, dan interpretasi klinis singkat — disertai catatan tentang kultur dan urutan terapi.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pada neonatus dengan omfalitis dan kecurigaan sepsis, penunjang diarahkan untuk konfirmasi sepsis, identifikasi kuman, dan menilai komplikasi. Pemeriksaan di FKTP boleh klinis, tetapi bila curiga sepsis perlu evaluasi RS. Terapi TIDAK menunggu kultur — antibiotik harus dimulai sesegera mungkin.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Gula darah POCT: 62 mg/dL — perlu monitoring asupan dan risiko hipoglikemia neonatus.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Darah lengkap: Hb 15 g/dL, leukosit 18.900/µL, neutrofil dominan, trombosit 190.000/µL — leukositosis dengan neutrofilia mendukung infeksi bakteri sistemik.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "CRP: 28 mg/L, meningkat — mendukung inflamasi/infeksi aktif; serial CRP dapat dipakai memantau respons terapi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Kultur darah: diambil sebelum antibiotik bila memungkinkan; hasil pending (perlu follow-up 48-72 jam).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Kultur pus/discharge umbilikus: diambil; hasil pending.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gram discharge: banyak leukosit, kokus gram positif dan batang gram negatif tampak campuran — mendukung etiologi polimikrobial.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Elektrolit/fungsi ginjal: dalam batas awal, perlu monitoring bila rawat.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Urinalisis/kultur urine: dipertimbangkan dalam protokol sepsis neonatus; hasil awal urinalisis tidak khas.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Rutin di FKTP",
+          "text": "USG abdomen/soft tissue umbilikus tidak rutin di FKTP. Dipertimbangkan di RS bila curiga abses, kelainan duktus urakhus/omfalomesenterik, atau tidak membaik dengan terapi standar. Peserta yang meminta USG tanpa indikasi jelas menunjukkan overuse.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_omf_culture_04", "gls_sken_omf_gram_05"],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Diagnosis kerja omfalitis dengan kecurigaan sepsis, ditambah DD utama neonatus dengan kelainan umbilikus.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Omfalitis/infeksi pada umbilikus neonatus dengan kecurigaan sepsis awal. Alasan: neonatus 10 hari, pusar merah meluas (~2 cm), purulen kuning kehijauan, bau tidak sedap, nyeri tekan, demam 38,1°C, menyusu berkurang, popok berkurang, perfusi melambat (CRT 3 detik), dan riwayat perawatan tali pusat dengan bedak/herbal yang tidak steril.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Granuloma umbilikus — benjolan merah muda kecil yang mudah berdarah, tidak ada eritema meluas, edema, atau discharge purulen. TIDAK sesuai kasus ini (discharge purulen, luas, bau).",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Urachal remnant/patent urachus — ditandai discharge urine keluar dari umbilikus, biasanya sejak lahir, tanpa tanda infeksi sistemik. Perlu USG abdomen untuk konfirmasi.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Patent omphalomesenteric duct — kelainan duktus yang menghubungkan umbilikus dengan ileum, dapat muncul sebagai discharge feculent atau prolaps mukosa. Perlu evaluasi bedah.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: Hernia umbilikalis — protrusi jaringan melalui defek dinding abdomen; tidak ada eritema, discharge, atau tanda sistemik. TIDAK sesuai kasus ini.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Sepsis neonatorum tanpa fokus jelas — sudah harus dipikirkan sebagai komplikasi/konsekuensi omfalitis; saat ini pusar adalah fokus jelas.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 6: Tetanus neonatorum — riwayat bedak/herbal pada tali pusat meningkatkan risiko. Pertimbangkan bila bayi menunjukkan kekakuan, trismus, kejang, opistotonus, atau ketidakmampuan menyusu total. Saat ini belum ada tanda rigiditas.",
+          "sub": [],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 7: Necrotizing fasciitis — nyeri berat, edema, nekrosis, bullae, toksik. Saat ini belum ada nekrosis/fluktuasi, tetapi perlu dipantau ketat.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pendekatan DD pada Neonatus dengan Pusar Abnormal",
+          "text": "Langkah 1: Deskripsikan status lokalis lengkap (eritema, discharge, bau, nekrosis, fluktuasi, benjolan, urine/feses keluar). Langkah 2: Selidiki tanda sepsis (suhu, minum, BAK, aktivitas, napas, perfusi). Langkah 3: Tanyakan riwayat perawatan tali pusat. Langkah 4: Putuskan apakah kasus darurat yang harus dirujuk atau dapat ditangani rawat jalan dengan supervisi ketat.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_omf_def_01", "gls_sken_omf_sepsis_02", "gls_sken_omf_granuloma_07", "gls_sken_omf_urachus_08", "gls_sken_omf_tetanus_09"],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Stabilisasi awal, rawat lokal aseptik, antibiotik empiris, dan rujukan RS.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pendekatan tata laksana pada neonatus dengan omfalitis + kecurigaan sepsis adalah stabilisasi awal sambil menyiapkan rujukan. Antibiotik IV harus dimulai sesegera mungkin setelah kultur (bila tidak menunda), dan RS adalah tempat definitif untuk rawat sepsis neonatus.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Di poli/FKTP/awal IGD:",
+          "sub": [
+            "Nilai ABC, suhu, perfusi, hidrasi, frekuensi napas, dan gula darah (62 mg/dL → perlu koreksi).",
+            "Jaga bayi tetap hangat (metode kanguru, topi, inkubator bila tersedia).",
+            "JANGAN menutup pusar dengan bahan kotor/herbal/bedak.",
+            "Bersihkan lembut area sekitar pusar dengan teknik aseptik, keringkan.",
+            "Bilas/koreksi glukosa POCT 62 mg/dL → berikan ASI/susu sesuai kemampuan, evaluasi ulang.",
+            "Kultur darah dan kultur discharge SEBELUM antibiotik pertama, selama tidak menunda terapi >30-45 menit.",
+            "Mulai antibiotik awal sesuai protokol lokal neonatus sambil menyiapkan rujukan.",
+            "Rujuk segera/masukkan RS untuk antibiotik IV definitif dan observasi sepsis neonatus."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Di RS/rujukan:",
+          "sub": [
+            "Kultur darah dan kultur pus sebelum antibiotik bila tidak menunda.",
+            "Antibiotik IV spektrum empiris sesuai protokol neonatal setempat, mencakup stafilokokus, streptokokus, gram negatif, dan anaerob (mis. ampisilin + aminoglikosida/sefotaksim, dengan/tanpa metronidazol sesuai protokol lokal).",
+            "Monitoring tanda vital serial, input-output, glukosa, perfusi.",
+            "Drainase bila abses; konsultasi bedah bila nekrosis/fasciitis/kelainan duktus."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi / Jangan Dilakukan",
+          "text": "JANGAN menutupi pusar dengan bedak, kopi, ramuan herbal, daun, atau bahan tradisional lain. JANGAN memijat atau memencet pusar. JANGAN menunda rujukan untuk menunggu hasil kultur. JANGAN merawat neonatus dengan pusar purulen dan gejala sistemik sebagai kasus rawat jalan.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_omf_emp_antibiotik_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Edukasi ibu tentang bahaya tradisional, perawatan tali pusat, dan tanda bahaya pulang.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario ini:\n\nS (Subjective): Bayi perempuan 10 hari, BB lahir 3000 g, BB sekarang 2950 g, dibawa ibu. Keluhan: pusar merah, basah, keluar cairan kuning kehijauan berbau, bayi lebih rewel, dan menyusu berkurang. Riwayat: tali pusat lepas 2 hari lalu, keluarga menaburkan bedak/herbal kering dari nenek. Demam sejak pagi, popok basah berkurang.\n\nO (Objective): Suhu 38,1°C, HR 168, RR 56, SpO2 97%, CRT 3 detik, akral agak dingin, GDS 62 mg/dL. Bayi rewel, aktivitas menurun ringan, tangisan tidak sekuat normal. Fontanel datar, tidak menonjol. Refleks hisap menurun ringan. Abdomen tidak distensi, bising usus ada, nyeri umbilikus. Status lokalis: eritema ~2 cm dari tepi pusar, edema/indurasi ringan, discharge purulen kuning kehijauan bau, tidak ada nekrosis/fluktuasi/peritonitis. Tidak tampak granuloma.\n\nA (Assessment): Omfalitis/infeksi umbilikus neonatus dengan kecurigaan sepsis awal (faktor risiko: bedak/herbal pada tali pusat, neonatus 10 hari, leukositosis, CRP meningkat, perfusi melambat, hipoglikemia). DD: granuloma, urachal remnant, tetanus neonatorum, fasciitis nekrotikans.\n\nP (Plan): 1) Stabilisasi: hangatkan bayi, koreksi glukosa (ASI/susu, evaluasi ulang). 2) Kultur darah dan kultur discharge SEBELUM antibiotik. 3) Antibiotik IV empiris sesuai protokol neonatal (setelah kultur, tidak menunda). 4) Rujuk RS segera untuk rawat sepsis neonatus. 5) Edukasi ibu: larangan bedak/herbal, cuci tangan, lipat popok di bawah pusar, tanda bahaya pulang. 6) Laporkan ke puskesmas/bidan desa untuk follow-up pasca-rawat.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi tentang kondisi: kondisi pusar bayi mengarah ke infeksi dan pada neonatus dapat cepat menyebar ke darah. Bayi perlu dirujuk/dirawat, bukan hanya diberi salep biasa.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi perawatan tali pusat:",
+          "sub": [
+            "JANGAN memberi bedak, kopi, minyak, ramuan, atau bahan tradisional pada pusar.",
+            "Cuci tangan sebelum menyentuh bayi/pusar.",
+            "Jaga pusar tetap kering dan terbuka; lipat popok di bawah pusar.",
+            "Ganti popok lebih sering, terutama bila basah/kotor.",
+            "Bersihkan dengan air bersih dan kain lembut/kassa steril sesuai anjuran dokter/perawat."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera ke IGD/RS bila:",
+          "sub": [
+            "Demam/hipotermia, malas minum/menetek lemah.",
+            "Lemas, tonus menurun, tidak aktif seperti biasa.",
+            "Napas cepat, retraksi, atau bayi kebiruan.",
+            "Kejang, kuning berat, bayi tampak biru/pucat.",
+            "Pusar merah meluas, berbau, bernanah, atau berdarah banyak."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_omf_sepsis_02"],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian lengkap 100 poin.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Total penilaian: 100 poin. Komponen utama: Pembukaan & komunikasi 10 poin, Anamnesis 25 poin, Pemeriksaan fisik 25 poin, Penunjang & interpretasi 15 poin, Diagnosis & reasoning 10 poin, Tata laksana/edukasi/rujukan 15 poin. Item di bawah ini WAJIB dinilai seluruhnya oleh penguji.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "A. Pembukaan dan komunikasi (10 poin):",
+          "sub": [
+            "Salam, perkenalan, identifikasi ibu dan bayi (2 poin).",
+            "Menjaga privasi dan kenyamanan neonatus (2 poin).",
+            "Empati terhadap kecemasan ibu (2 poin).",
+            "Menjelaskan perlunya pemeriksaan bayi dan izin (2 poin).",
+            "Menyampaikan ringkasan masalah dengan bahasa awam (2 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "B. Anamnesis (25 poin):",
+          "sub": [
+            "Menggali usia neonatus, hari ke berapa, riwayat tali pusat lepas (3 poin).",
+            "Menggali warna, luas kemerahan, bengkak, cairan, bau, nyeri, perdarahan (6 poin).",
+            "Menggali demam/hipotermia, menyusu, BAK, muntah, letargi, napas cepat, kejang (7 poin).",
+            "Menggali kelahiran, prematur/BBLR, ketuban lama, ibu demam, perawatan tali pusat (5 poin).",
+            "Menggali obat/herbal, imunisasi, alergi, kontrol bayi (4 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "C. Pemeriksaan fisik (25 poin):",
+          "sub": [
+            "Cuci tangan, menjaga suhu bayi, exposure aman (3 poin).",
+            "TTV lengkap neonatus termasuk suhu, HR, RR, SpO2, CRT/perfusi (6 poin).",
+            "Head-to-toe neonatus: aktivitas, tonus, hidrasi, respirasi, ikterus, neurologis (6 poin).",
+            "Pemeriksaan abdomen (distensi, nyeri, bising usus, tanda peritonitis) (3 poin).",
+            "Status lokalis umbilikus lengkap: luas eritema, edema, indurasi, discharge, bau, nekrosis/fluktuasi (7 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "D. Penunjang dan interpretasi (15 poin):",
+          "sub": [
+            "Meminta gula darah bila bayi lemah/tidak menyusu (2 poin).",
+            "Meminta darah lengkap dan CRP/prokalsitonin bila tersedia (3 poin).",
+            "Meminta kultur darah dan kultur discharge sebelum antibiotik bila tidak menunda (4 poin).",
+            "Mempertimbangkan urinalisis/kultur urine sesuai protokol sepsis (2 poin).",
+            "Menyebut USG bila curiga abses/kelainan duktus/tidak membaik (2 poin).",
+            "Menyatakan terapi tidak menunggu kultur bila sepsis dicurigai (2 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "E. Diagnosis dan reasoning (10 poin):",
+          "sub": [
+            "Menyebut omfalitis/infeksi umbilikus (4 poin).",
+            "Menyebut kecurigaan sepsis neonatal/risiko penyebaran (3 poin).",
+            "Menyebut diagnosis banding penting (3 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "F. Tatalaksana, edukasi, rujukan (15 poin):",
+          "sub": [
+            "Stabilisasi awal: ABC, hangatkan, hidrasi/glukosa, monitoring (4 poin).",
+            "Perawatan lokal aseptik dan larangan bahan kotor (2 poin).",
+            "Antibiotik IV/awal sesuai protokol dan kewenangan (3 poin).",
+            "Rujuk/rawat segera (3 poin).",
+            "Edukasi perawatan tali pusat dan tanda bahaya (3 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Skoring dilakukan per-item menggunakan poin parsial (penilai memberi proporsi poin sesuai kualitas jawaban peserta pada masing-masing sub-item). BUKAN all-or-nothing; peserta yang menjawab sebagian benar tetap mendapat poin proporsional.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE pada kasus neonatus adalah tindakan atau kelalaian yang dapat menyebabkan kegagalan terapi sepsis, kontaminasi lanjut, atau keterlambatan rujukan yang berakibat fatal. Kenali setiap critical error berikut dan pelajari cara menghindari atau memulihkannya.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Menganggap pusar bernanah pada neonatus sebagai keluhan ringan tanpa menilai tanda sepsis.",
+          "sub": [
+            "Kenapa critical: omfalitis neonatus adalah emergent; tanda sepsis sistemik (demam/hipotermia, minum turun, perfusi lambat) menunjukkan kemungkinan bakteremia/sepsis yang memerlukan antibiotik IV dan rawat RS.",
+            "Recovery move: Tunda dulu asumsi ringan; selalu lakukan skrining sepsis (suhu, minum, BAK, aktivitas, napas, perfusi, kesadaran) pada neonatus dengan kelainan umbilikus. Curiga sepsis → rujuk."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Tidak mengukur/menanyakan suhu, minum, aktivitas, napas, perfusi.",
+          "sub": [
+            "Kenapa critical: tanpa data ini, peserta tidak dapat mengidentifikasi sepsis neonatal dan mungkin salah mengambil keputusan rawat jalan.",
+            "Recovery move: Kembali ke ibu dengan pertanyaan spesifik: \"Berapa suhu bayi? Berapa kali BAK hari ini? Apakah bayi masih mau minum sama seperti biasanya? Apakah napasnya cepat?\" Lalu minta data TTV ke penguji."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Memberi bedak/ramuan atau menutup pusar dengan bahan tidak steril.",
+          "sub": [
+            "Kenapa critical: kontaminasi lanjut, memperberat infeksi, dan dapat menjadi sumber tetanus neonatorum (C. tetani).",
+            "Recovery move: Jelaskan bahwa perawatan tali pusat yang benar adalah kering dan bersih; jika sudah terlanjur, bersihkan aseptik dan edukasi untuk tidak mengulangi."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Tidak merujuk neonatus dengan pusar purulen dan gejala sistemik.",
+          "sub": [
+            "Kenapa critical: neonatus dengan sepsis memerlukan rawat RS, antibiotik IV, monitoring ketat; rawat jalan dengan salep topikal saja tidak cukup dan dapat berakibat fatal.",
+            "Recovery move: Tetapkan ambang rujukan yang jelas: neonatus dengan tanda sepsis (suhu abnormal, malas minum, lemas, perfusi lambat, napas cepat) → rujuk emergensi, komunikasikan dengan RS penerima."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 5: Menunda terapi/rujukan hanya menunggu hasil kultur.",
+          "sub": [
+            "Kenapa critical: pada sepsis neonatal, mortalitas meningkat signifikan per jam keterlambatan antibiotik. Kultur tetap diambil, tetapi terapi empiris dimulai paralel.",
+            "Recovery move: Ambil kultur (darah, pus) dalam 30-45 menit, mulai antibiotik empiris IV, dan langsung rujuk. Kultur hanya untuk konfirmasi dan penyesuaian terapi definitif."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Mengesampingkan tanda sepsis dan/atau menunda rujukan pada neonatus dengan pusar purulen dan gejala sistemik adalah kesalahan paling fatal. Peserta yang menilai kasus ini sebagai 'kemerahan biasa yang bisa diberi salep rawat jalan' hampir otomatis dianggap gagal paham kegawatan neonatus.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_omf_sepsis_02", "gls_sken_omf_tetanus_09"],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Naskah probandus lengkap — Ibu By. Naya (neonatus perempuan 10 hari, BB lahir 3000 g, BB sekarang 2950 g). Pembuka: \"Dok, pusar bayi saya merah, basah, dan seperti keluar cairan. Sejak tadi bayi lebih rewel dan menyusu agak berkurang.\" Ibu kooperatif dan menjawab seluruh pertanyaan peserta sesuai data skenario. Informasi yang tidak ditanyakan tidak diberikan spontan.\n\nIdentitas: By. Naya, 10 hari, perempuan, BB lahir 3000 g, sekarang 2950 g, cukup bulan, spontan di bidan.\n\nKeluhan pusar: tali pusat lepas 2 hari lalu; sejak kemarin pusar basah; hari ini keluar cairan kuning kehijauan bau; eritema sekitar pusar; bayi menangis saat disentuh; tidak ada perdarahan banyak; tidak ada benjolan keluar saat menangis.\n\nGejala sistemik: bayi agak hangat sejak pagi; minum lebih sedikit; popok basah berkurang (biasanya 6/hari, hari ini 3); tidak muntah hijau; tidak kejang; tidak sesak berat, napas lebih cepat saat menangis; bayi lebih lemas tapi masih menangis bila disentuh.\n\nRiwayat lahir: cukup bulan, ketuban pecah ~8 jam sebelum lahir, tidak diketahui ibu demam; perawatan tali pusat — keluarga menaburkan bedak/herbal kering; sudah vitamin K dan salep mata; hepatitis B belum jelas. Obat: belum ada. Alergi: tidak ada.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji / pendamping:",
+          "sub": [
+            "Berikan TTV dan temuan fisik HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ.",
+            "Pertanyaan tentang suhu → jawab 38,1°C.",
+            "Pertanyaan tentang TTV lain → jawab HR 168, RR 56, SpO2 97%, CRT 3 detik, akral agak dingin.",
+            "Pertanyaan tentang GDS → jawab 62 mg/dL.",
+            "Pertanyaan tentang status lokalis → jawab eritema ~2 cm, edema/indurasi ringan, discharge purulen kuning kehijauan bau, tidak ada nekrosis/fluktuasi/peritonitis, tidak ada granuloma.",
+            "Pertanyaan tentang darah lengkap → jawab Hb 15, leukosit 18.900 neutrofil dominan, trombosit 190.000.",
+            "Pertanyaan tentang CRP → jawab 28 mg/L.",
+            "Pertanyaan tentang kultur darah/pus → jawab \"diambil sebelum antibiotik; hasil pending\".",
+            "Pertanyaan tentang Gram discharge → jawab banyak leukosit, kokus gram positif dan batang gram negatif campuran.",
+            "Pertanyaan tentang USG → jawab \"tidak rutin di FKTP; dipertimbangkan di RS bila abses/kelainan duktus/tidak membaik\".",
+            "Pertanyaan tentang rawat lokal → tekankan \"jangan ditutup bahan kotor, bersihkan aseptik, keringkan\".",
+            "Pertanyaan tentang rujukan → ingatkan bahwa kasus ini adalah neonatus sakit sedang dengan tanda sepsis, sehingga rujuk RS adalah keputusan tepat."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "MSD Manual Professional Edition. Neonatal Sepsis / Overview of Neonatal Infections.",
+            "WHO. Pocket Book of Hospital Care for Children: Guidelines for the Management of Common Childhood Illnesses. Sepsis neonatus dan omfalitis.",
+            "SKDI 4A Batch 2 — IKA & Geriatri (penyakit infeksi umbilikus).",
+            "PNPK atau pedoman lokal IDAI tentang omfalitis dan sepsis neonatorum.",
+            "NICE Guideline NG195: Neonatal infection (antibiotics for prevention and treatment)."
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Penilaian dilakukan secara langsung selama 10 menit performa.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    }
+  ]
+}

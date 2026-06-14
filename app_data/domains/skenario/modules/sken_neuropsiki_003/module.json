@@ -1,0 +1,973 @@
+{
+  "id": "sken_neuropsiki_003",
+  "title": "Stasiun 3 — Anak Kejang Saat Demam",
+  "subtitle": "Skenario kejang demam sederhana pada anak laki-laki 2 tahun 6 bulan pasca ISPA ringan: menguji alloanamnesis kejang, penilaian kegawatan dan kesadaran, pemeriksaan tanda rangsang meningeal, seleksi penunjang rasional, dan edukasi safety plan kejang pada orang tua.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_2",
+  "source_files": [
+    "SOAL_03_KEJANGDEMAM_PESERTA_BUTA.md",
+    "SOAL_03_KEJANGDEMAM_PENDAMPING.md",
+    "SOAL_03_KEJANGDEMAM_BLUEPRINT.md"
+  ],
+  "topicTags": [
+    "osce_skenario",
+    "neurologi",
+    "kejang_demam",
+    "kejang_demam_sederhana",
+    "meningismus",
+    "tanda_rangsang_meningeal",
+    "skrining_meningitis",
+    "pemeriksaan_gcs_anak",
+    "diazepam_rektal",
+    "edukasi_kejang"
+  ],
+  "summary": [
+    "Situasi klinis: An. Rafi, 2 tahun 6 bulan, dibawa ibunya ke IGD/poli anak setelah mengalami kejang umum 1 kali ±3 menit saat demam tinggi (38,5°C) 2 jam lalu, saat ini sudah sadar, menangis, mengenali ibu. Demam sejak kemarin malam dengan batuk pilek ringan. Tidak ada riwayat kejang sebelumnya, imunisasi dasar lengkap.",
+    "Skill utama yang diuji: alloanamnesis kejang (kronologi, durasi, tipe, postiktal), penilaian kegawatan (ABC), kesadaran (GCS/AVPU), tanda rangsang meningeal (Kernig, Brudzinski, kaku kuduk), pencarian sumber demam, dan komunikasi empatik kepada orang tua.",
+    "Komponen anamnesis kritis: onset, durasi kejang, tipe umum/fokal, jumlah episode, kesadaran postiktal, demam sebelum kejang, sumber ISPA, riwayat kejang/epilepsi keluarga, dan TIDAK ada kaku kuduk/muntah proyektil/petekie/penurunan sadar persisten.",
+    "Pemeriksaan fisik kunci: TTV (S 38,5°C, N 130, RR 28, SpO2 98%, CRT <2 detik), AVPU Alert, GCS 15, pupil isokor, motorik simetris (tidak ada paresis Todd), tanda rangsang meningeal NEGATIF, dan sumber demam (faring hiperemis, rinitis).",
+    "Diagnosis kerja: Kejang demam sederhana pada anak 2 tahun 6 bulan, kemungkinan dipicu ISPA ringan. DD utama: meningitis/ensefalitis, epilepsi, hipoglikemia, gangguan elektrolit, sepsis, trauma kepala/keracunan.",
+    "Tatalaksana yang diharapkan: posisi miring, jaga jalan napas saat kejang (JANGAN masukkan benda ke mulut), antipiretik parasetamol 10-15 mg/kgBB/dosis untuk kenyamanan, tata laksana ISPA, edukasi safety plan kejang dan tanda bahaya.",
+    "Critical error paling penting: tidak menilai kegawatan (kejang aktif/jalan napas); tidak menyingkirkan tanda meningitis; menyuruh memasukkan benda ke mulut saat kejang; memberikan antiepilepsi jangka panjang tanpa indikasi.",
+    "Total 100 poin — komponen terbesar: anamnesis kronologi kejang 18 poin dan tatalaksana/edukasi safety plan 16 poin."
+  ],
+  "exam_focus": [
+    "Selalu gali kronologi kejang: onset, durasi (<15 menit sederhana, ≥15 menit kompleks), tipe umum/fokal, jumlah episode dalam 24 jam, dan kesadaran postiktal.",
+    "Skrining meningitis/ensefalitis wajib: kaku kuduk, Kernig, Brudzinski, penurunan kesadaran lama, muntah proyektil, ubun-ubun menonjol, defisit fokal, petekie, atau bayi dengan imunisasi HiB/pneumokokus tidak lengkap.",
+    "Tatalaksana emergensi kejang: posisikan miring, jaga jalan napas, longgarkan pakaian, jauhkan benda berbahaya, CATAT durasi, JANGAN masukkan sendok/jari/air/obat ke mulut, jangan menahan gerakan kejang.",
+    "Benzodiazepin (diazepam rektal 5-10 mg untuk anak, midazolam intranasal/buccal) HANYA untuk kejang >5 menit — bukan untuk kejang singkat yang sudah berhenti sendiri.",
+    "Antipiretik (parasetamol 10-15 mg/kgBB/dosis atau ibuprofen 5-10 mg/kgBB/dosis) membantu kenyamanan dan mengurangi rewel, tetapi tidak mencegah kekambuhan kejang demam.",
+    "Antiepilepsi jangka panjang (fenobarbital, valproat, levetiracetam kronik) TIDAK diindikasikan untuk kejang demam sederhana — keputusan ini memerlukan evaluasi neurologis anak khusus.",
+    "Pada simple febrile seizure dengan neurologis normal, EEG/CT/MRI kepala dan pungsi lumbal TIDAK rutin — pesan sesuai indikasi spesifik (curiga meningitis, bayi <12 bulan imunisasi tidak jelas, penurunan kesadaran, antibiotik sebelumnya).",
+    "Tanda bahaya pulang: kejang >5 menit, berulang dalam 24 jam, kejang satu sisi, anak tidak sadar lama, leher kaku, sesak, ruam perdarahan, muntah terus, dehidrasi, atau tampak sangat sakit — semua wajib disebutkan dalam edukasi safety plan."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_kdsimple_definition_01",
+      "term": "Kejang Demam Sederhana (Simple Febrile Seizure)",
+      "def": "Kejang pada anak usia 6 bulan-5 tahun yang dipicu demam ≥38°C, bersifat umum (bukan fokal), durasi <15 menit, tidak berulang dalam 24 jam, dan anak kembali sadar tanpa defisit neurologis. Prognosis baik, tidak menyebabkan kerusakan otak, dan risiko epilepsi hanya sedikit meningkat dari populasi umum.",
+      "type": "clinical",
+      "aliases": [
+        "Simple febrile seizure",
+        "KDS"
+      ]
+    },
+    {
+      "id": "gls_sken_kdsimple_definition_02",
+      "term": "Kejang Demam Kompleks (Complex Febrile Seizure)",
+      "def": "Kejang demam dengan salah satu ciri: durasi ≥15 menit, bersifat fokal, atau berulang ≥2 kali dalam 24 jam. Risiko epilepsi lebih tinggi (4-6%) dan memerlukan evaluasi neurologis lanjutan (EEG, neuroimaging, kemungkinan pungsi lumbal).",
+      "type": "clinical",
+      "aliases": [
+        "Complex febrile seizure",
+        "KDK"
+      ]
+    },
+    {
+      "id": "gls_sken_kdsimple_procedure_03",
+      "term": "Tanda Rangsang Meningeal (TRM)",
+      "def": "Pemeriksaan untuk meningitis/ensefalitis: kaku kuduk (keterbatasan fleksi pasif leher), Kernig (tungkai tidak dapat diekstensikan penuh saat paha difleksikan 90°), Brudzinski I (fleksi leher pasif memicu fleksi tungkai), Brudzinski II (fleksi tungkai kontralateral saat tungkai satunya difleksikan). Negatif menyingkirkan meningitis pada anak sadar.",
+      "type": "procedure",
+      "aliases": [
+        "TRM",
+        "Meningeal signs",
+        "Kaku kuduk"
+      ]
+    },
+    {
+      "id": "gls_sken_kdsimple_score_04",
+      "term": "GCS / AVPU (Anak)",
+      "def": "Penilaian kesadaran pada anak: AVPU sederhana (Alert, Voice, Pain, Unresponsive) atau GCS modifikasi anak (Eye 1-4, Verbal 1-5, Motor 1-6). Setelah kejang, kesadaran harus pulih dalam <30 menit; penurunan kesadaran persisten memerlukan evaluasi meningitis/ensefalitis.",
+      "type": "score",
+      "aliases": [
+        "GCS anak",
+        "AVPU scale"
+      ]
+    },
+    {
+      "id": "gls_sken_kdsimple_drug_05",
+      "term": "Diazepam Rektal / Midazolam",
+      "def": "Benzodiazepin emergensi untuk kejang aktif/prolonged (>5 menit). Diazepam rektal 0,5 mg/kgBB (maks 10 mg) atau midazolam intranasal/buccal 0,2 mg/kgBB. HANYA diberikan untuk kejang aktif/prolonged — bukan untuk kejang singkat yang sudah berhenti sendiri.",
+      "type": "drug",
+      "aliases": [
+        "Diazepam rektal",
+        "Midazolam IN",
+        "Benzodiazepin emergensi"
+      ]
+    },
+    {
+      "id": "gls_sken_kdsimple_drug_06",
+      "term": "Parasetamol (Antipiretik)",
+      "def": "Antipiretik dan analgesik pada anak, dosis 10-15 mg/kgBB per dosis PO/PR setiap 4-6 jam (maks 75 mg/kgBB/hari atau 4 g/hari). Membantu menurunkan suhu dan kenyamanan anak, tetapi TIDAK mencegah kekambuhan kejang demam.",
+      "type": "drug",
+      "aliases": [
+        "Acetaminophen",
+        "Paracetamol"
+      ]
+    },
+    {
+      "id": "gls_sken_kdsimple_dd_07",
+      "term": "Meningitis Bakterialis Akut",
+      "def": "Infeksi bakterial selaput otak (paling sering S. pneumoniae, N. meningitidis, H. influenzae) dengan manifestasi demam, kejang, penurunan kesadaran, kaku kuduk, Kernig/Brudzinski positif, petekie/purpura. Keadaan darurat — pungsi lumbal, antibiotik empiris, dan rawat inap ICU.",
+      "type": "clinical",
+      "aliases": [
+        "Meningitis bacterial",
+        "Meningitis bakterial akut"
+      ]
+    },
+    {
+      "id": "gls_sken_kdsimple_dd_08",
+      "term": "Ensefalitis Akut",
+      "def": "Inflamasi parenkim otak (paling sering virus herpes simpleks, enterovirus, atau autoimun) dengan manifestasi demam, kejang, penurunan kesadaran progresif, defisit fokal, perubahan perilaku. Pungsi lumbal, MRI otak, dan terapi asiklovir empiris untuk HSV ensefalitis adalah standar.",
+      "type": "clinical",
+      "aliases": [
+        "Encephalitis",
+        "Ensefalitis virus"
+      ]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis yang diterima peserta dan daftar tugas yang harus diselesaikan dalam 12 menit stasiun kejang demam.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Seorang anak dibawa orang tuanya ke IGD/poli anak setelah mengalami kejang saat demam. Saat ini anak sudah tidak kejang. Peserta berperan sebagai dokter muda yang menerima pasien pertama kali; komunikasi utama dilakukan kepada orang tua/probandus. Pasien anak disimulasikan oleh data penguji/manekin. Durasi 12 menit. Peserta harus melakukan anamnesis kepada orang tua, menilai kegawatan dan pemeriksaan fisik relevan, meminta data penunjang, lalu menyampaikan diagnosis kerja, diagnosis banding, tatalaksana awal, dan edukasi keluarga.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Anamnesis kepada orang tua (kronologi kejang, demam, sumber infeksi, red flags, riwayat kejang/epilepsi)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Penilaian kegawatan (ABC, TTV, SpO2, glukosa, hidrasi) dan pemeriksaan neurologis (GCS/AVPU, pupil, motorik, defisit fokal)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Pemeriksaan tanda rangsang meningeal (Kernig, Brudzinski, kaku kuduk) dan pencarian sumber demam (THT-paru-kulit-abdomen)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Minta penunjang spesifik dengan alasan klinis, sampaikan diagnosis kerja, DD, tatalaksana, edukasi safety plan kejang, dan tanda bahaya",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Prioritaskan keselamatan, penilaian kesadaran, dan tanda infeksi/meningeal sesuai kebutuhan. Komunikasi utama dilakukan kepada orang tua/probandus (anak disimulasikan oleh manekin/data penguji).",
+          "answer_evidence": null
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan & Empati",
+          "text": "Tenangkan ibu yang panik sejak awal station. Jelaskan bahwa prioritas Anda adalah memastikan anak aman dan menyingkirkan kegawatan. Berbicara dengan bahasa sederhana dan empatik — ibu takut anaknya epilepsi.",
+          "answer_evidence": "BLUEPRINT — Pembukaan dan komunikasi dengan orang tua (10 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_definition_01",
+        "gls_sken_kdsimple_procedure_03"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting, durasi, skill yang diuji, dan distribusi 100 poin penilaian untuk stasiun kejang demam.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Stasiun berlangsung 12 menit di IGD/poli anak. Probandus adalah orang tua pasien (Ibu An. Rafi). Peserta menerima soal buta saat masuk, 1 menit membaca, 10-11 menit performa, dan 1-2 menit untuk rangkum/feedback. Penguji memberikan data TTV, pemeriksaan fisik, dan penunjang hanya bila peserta meminta atau menyebutkan prosedur dengan benar. Total 100 poin dengan 9 kategori utama. Critical error dapat menggugurkan kelulusan meski skor angka cukup.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skill yang diuji di stasiun ini:",
+          "sub": [
+            "Anamnesis Kelainan Neurologi / alloanamnesis (kronologi kejang dari saksi)",
+            "Pemeriksaan Kesadaran GCS/AVPU",
+            "Pemeriksaan Tanda Rangsang Meningeal (TRM)",
+            "IPM Kelainan Sistem Saraf",
+            "Roadmap Neurobehavior / skrining red flags"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Komponen penilaian 100 poin:",
+          "sub": [
+            "Pembukaan dan komunikasi dengan orang tua: 10",
+            "Anamnesis kronologi kejang: 18",
+            "Anamnesis demam dan red flags: 14",
+            "Penilaian awal kegawatan: 12",
+            "GCS/AVPU dan status neurologis: 12",
+            "TRM dan sumber demam: 12",
+            "Penunjang rasional: 8",
+            "Diagnosis dan DD: 8",
+            "Tatalaksana dan edukasi safety plan: 16"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1 menit baca soal (fokus: anak kejang saat demam, saat ini sudah tidak kejang) → 1-2 menit tenangkan ibu + informed consent → 4-5 menit alloanamnesis (kronologi kejang, red flags, sumber demam, riwayat) → 3-4 menit pemeriksaan (kegawatan, kesadaran, TRM, sumber demam) → 1-2 menit tatalaksana + edukasi safety plan + rangkum. Beri perhatian khusus pada kegawatan/ABC di awal sebelum alloanamnesis mendalam.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_definition_01",
+        "gls_sken_kdsimple_score_04"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggunakan file pendamping, naskah pembuka probandus (orang tua), dan poin alloanamnesis yang tersedia.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Satu orang pendamping dapat merangkap sebagai probandus (Ibu An. Rafi) dan penguji. Saat berperan sebagai probandus, berikan informasi hanya bila ditanya peserta; jangan membocorkan diagnosis. Saat berperan sebagai penguji, berikan hasil TTV, pemeriksaan fisik, dan penunjang hanya bila peserta meminta atau menyebutkan pemeriksaan dengan benar. Gunakan checklist 100 poin untuk memberi skor objektif. Critical error dapat membuat peserta tidak lulus station meskipun skor angka cukup.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus (Ibu): \"Dok, anak saya tadi kejang waktu badannya panas. Sekarang sudah berhenti, tapi saya takut sekali.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Identitas: Probandus adalah Ibu pasien. Pasien: An. Rafi, laki-laki, 2 tahun 6 bulan. Ibu tampak panik dan butuh ditenangkan. Jangan langsung menyebut semua detail kejang; beri bila ditanya. Bila peserta menenangkan dan menjelaskan, respons lebih kooperatif. Ibu takut anaknya epilepsi.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kronologi kejang: kejang terjadi 2 jam lalu saat suhu tinggi. Seluruh tubuh kaku-kelojotan, mata mendelik, tidak sadar, berlangsung sekitar 3 menit, berhenti sendiri",
+          "sub": [
+            "Tipe umum (seluruh tubuh), bukan fokal",
+            "Durasi < 15 menit → mendukung kejang demam sederhana"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Sesudah kejang: anak mengantuk sekitar 10 menit, lalu sadar, menangis, mengenali ibu. TIDAK ada kelemahan satu sisi setelah kejang (tidak ada paresis Todd)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Demam/sumber: demam sejak kemarin malam, batuk pilek ringan. TIDAK ada sesak berat, muntah menyemprot, diare berat, nyeri telinga jelas, ruam bintik merah, atau kaku leher yang terlihat",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat kejang: belum pernah kejang sebelumnya. TIDAK ada kejang tanpa demam. TIDAK ada riwayat epilepsi keluarga dekat",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Usia/imunisasi: usia 2 tahun 6 bulan. Imunisasi dasar menurut ibu lengkap",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Obat: sudah diberi parasetamol di rumah tetapi dosis tidak pasti. TIDAK ada obat lain/racun",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flags Wajib Skrining",
+          "text": "Peserta yang tidak bertanya tentang kaku kuduk, muntah proyektil, ruam petechiae, penurunan kesadaran persisten, sesak berat, atau tidak mengecek sumber demam kehilangan poin Anamnesis Demam & Red Flags (14 poin) — dan tidak menyingkirkan meningitis adalah critical error #3.",
+          "answer_evidence": "BLUEPRINT — Anamnesis demam dan red flags (14 poin) + Critical Error 3"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_definition_01",
+        "gls_sken_kdsimple_dd_07",
+        "gls_sken_kdsimple_dd_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV dan temuan pemeriksaan fisik pada anak yang tersedia untuk diberikan kepada peserta bila diminta secara spesifik.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter/prosedur yang diperiksa. Pasien anak disimulasikan oleh data penguji/manekin — penguji akan menjelaskan temuan bila peserta menyebutkan pemeriksaan dengan benar.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital: Suhu 38,5°C | Nadi 130 x/menit | RR 28 x/menit | TD 90/60 mmHg | SpO2 98% RA | CRT <2 detik",
+          "sub": [
+            "Takikardia dan takipnea sesuai dengan demam dan usia",
+            "Saturasi normal — tidak ada distres napas"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status generalis: anak tampak rewel ringan tetapi sadar, tidak kejang, tidak tampak toksik berat",
+          "sub": [
+            "Hidrasi cukup",
+            "Faring hiperemis ringan (sumber ISPA)",
+            "Hidung berair (rinitis)",
+            "Paru vesikuler, tidak ada retraksi",
+            "Jantung normal, abdomen datar lembut",
+            "Kulit tidak ada petechiae/purpura",
+            "Telinga tidak tampak discharge"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status neurologis awal: AVPU Alert. GCS anak disederhanakan setara E4 V5 M6 = 15; pupil isokor reaktif; tonus baik; tidak ada defisit fokal",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Tanda rangsang meningeal (TRM) — KETIKA DIMINTA:",
+          "sub": [
+            "Kaku kuduk: NEGATIF",
+            "Kernig: NEGATIF",
+            "Brudzinski I: NEGATIF",
+            "Brudzinski II: NEGATIF",
+            "Fontanel tidak relevan/tertutup pada usia 2 tahun 6 bulan"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Neurologis fokal: motorik ekstremitas simetris, refleks fisiologis simetris, TIDAK ada paresis Todd (kelemahan pasca-iktal unilateral)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Tanda kegawatan: TIDAK ada kejang aktif, TIDAK sianosis, TIDAK penurunan kesadaran persisten, TIDAK muntah proyektil, TIDAK tanda syok",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan sumber demam: faring hiperemis ringan tanpa eksudat, rinitis; paru bersih; abdomen normal; tidak ada tanda ISK spesifik pada pemeriksaan fisik",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "TRM Wajib Dinilai",
+          "text": "Pemeriksaan tanda rangsang meningeal (kaku kuduk, Kernig, Brudzinski) pada anak sadar dan kooperatif adalah komponen wajib. Peserta yang TIDAK meminta/melakukan TRM kehilangan poin GCS & Status Neurologis (12) dan TRM & Sumber Demam (12) — dan ini terkait critical error meningitis.",
+          "answer_evidence": "BLUEPRINT — Critical Error 3: 'Tidak menyingkirkan tanda meningitis/ensefalitis pada anak demam kejang'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_procedure_03",
+        "gls_sken_kdsimple_score_04"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Data penunjang yang tersedia beserta interpretasinya, diberikan bila peserta meminta secara spesifik dengan alasan klinis.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang di bawah ini diberikan HANYA bila peserta meminta secara spesifik. Peserta dinilai dari relevansi permintaan, urutan rasional, dan kemampuan interpretasi. Pada kejang demam sederhana dengan neurologis normal, penggunaan EEG/CT/LP tanpa indikasi akan kehilangan poin.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Gula darah sewaktu: 105 mg/dL — normal, menyingkirkan hipoglikemia sebagai penyebab kejang",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Saturasi O2: 98% RA — normal",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan laboratorium TIDAK wajib untuk kejang demam sederhana bila anak kembali sadar dan neurologis normal. Darah rutin/CRP sesuai kondisi klinis bila tampak toksik atau curiga infeksi bakteri",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Urinalisis: dipertimbangkan bila tidak ditemukan sumber demam atau ada gejala ISK",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "EEG, CT/MRI kepala, elektrolit luas, dan pungsi lumbal TIDAK rutin pada kejang demam sederhana. LP dipertimbangkan bila meningitis/ensefalitis dicurigai, imunisasi tidak jelas pada usia tertentu, atau anak tampak toksik/penurunan sadar persisten",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "EEG, CT/MRI kepala, dan pungsi lumbal rutin tidak perlu untuk kejang demam sederhana tanpa red flags. Peserta yang meminta imaging/EEG/LP tanpa indikasi akan kehilangan poin Penunjang Rasional (8).",
+          "answer_evidence": "BLUEPRINT — Penunjang rasional (8 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_dd_07",
+        "gls_sken_kdsimple_dd_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Kunci diagnosis kerja, diagnosis banding utama, dan alasan klinis mendukung/menentang.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Kejang demam sederhana pada anak usia 2 tahun 6 bulan, kemungkinan dipicu infeksi saluran napas atas ringan. Anamnesis mendukung: usia dalam rentang (6 bulan-5 tahun), demam ≥38°C mendahului kejang, tipe umum (seluruh tubuh kaku-kelojotan), durasi <15 menit (±3 menit), hanya 1 episode, kesadaran pulih cepat tanpa defisit neurologis. Pemeriksaan mendukung: GCS 15, AVPU Alert, TRM negatif, motorik simetris, sumber ISPA (faring hiperemis, rinitis).",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Meningitis / ensefalitis — mendukung bila ada kaku kuduk, Kernig/Brudzinski positif, penurunan kesadaran persisten, petekie; menentang pada kasus ini karena TRM negatif dan neurologis normal",
+          "sub": [],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Epilepsi — mendukung bila ada kejang tanpa demam, riwayat epilepsi keluarga, defisit fokal pasca-iktal; menentang karena kejang selalu dipicu demam dan tidak ada riwayat",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Hipoglikemia — mendukung bila GDS rendah atau anak dengan diabetes; menentang karena GDS 105 mg/dL",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: Gangguan elektrolit (hiponatremia, hipokalsemia) — mendukung pada anak dengan dehidrasi berat atau malnutrisi; menentang karena klinis tidak mendukung",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Sepsis — mendukung bila tampak toksik, syok, petekie, sumberfeksi jelas; menentang karena anak tidak toksik, hemodinamik stabil, CRT <2 detik",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 6: Trauma kepala / keracunan — mendukung bila ada riwayat trauma atau paparan toksin; menentang karena tidak ada dalam alloanamnesis",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Framework KDS vs KDK",
+          "text": "KDS (sederhana) — semua ciri: umum, <15 menit, 1 episode/24 jam, tanpa defisit fokal. KDK (kompleks) — salah satu: fokal, ≥15 menit, atau berulang ≥2x/24 jam. KDK memerlukan evaluasi neurologis lanjutan (EEG, neuroimaging, kemungkinan pungsi lumbal). KDS prognosis sangat baik.",
+          "answer_evidence": "BLUEPRINT — Diagnosis dan DD (8 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_definition_01",
+        "gls_sken_kdsimple_definition_02",
+        "gls_sken_kdsimple_dd_07"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana non-farmakologi dan farmakologi yang diharapkan untuk skenario kejang demam sederhana.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pendekatan tatalaksana kejang demam sederhana: (1) saat ini tidak kejang dan sadar, fokuskan pada observasi dan edukasi; (2) tata laksana emergensi kejang hanya bila kejang aktif/prolonged (>5 menit); (3) antipiretik untuk kenyamanan (TIDAK mencegah kekambuhan); (4) tata laksana sumber demam (ISPA); (5) TIDAK memberikan antiepilepsi jangka panjang; (6) safety plan kejang dan edukasi tanda bahaya pulang.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Saat kejang aktif (>5 menit) — tatalaksana emergensi:",
+          "sub": [
+            "Posisikan miring, longgarkan pakaian, jauhkan benda berbahaya (1)",
+            "Jangan masukkan sendok/jari/air/obat ke mulut (1)",
+            "Jangan menahan gerakan kejang (1)",
+            "Jaga jalan napas, berikan O2 jika saturasi turun (1)",
+            "Cek glukosa darah (1)",
+            "Benzodiazepin: diazepam rektal 0,5 mg/kgBB (maks 10 mg) atau midazolam intranasal/buccal 0,2 mg/kgBB jika kejang >5 menit (2)"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Saat ini tidak kejang dan sadar:",
+          "sub": [
+            "Observasi klinis dan kenyamanan anak",
+            "Antipiretik parasetamol 10-15 mg/kgBB/dosis PO/PR setiap 4-6 jam, atau ibuprofen 5-10 mg/kgBB/dosis untuk BB ~13 kg ≈ 130-195 mg per dosis parasetamol",
+            "Cairan cukup (ASI/susu/makan minum adekuat)",
+            "Tata laksana ISPA: cukup suportif, hidrasi, hidung tersumbat diobati sesuai gejala"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "TIDAK memberikan antiepilepsi jangka panjang (fenobarbital, valproat, levetiracetam) untuk KDS",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Follow-up 1 minggu untuk evaluasi perbaikan, edukasi safety plan kejang di rumah, dan kriteria rujuk kembali/IGD",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "JANGAN Masukkan Benda ke Mulut Saat Kejang",
+          "text": "Menyuruh memasukkan sendok/jari/air/obat ke mulut saat anak kejang adalah critical error #4. Tindakan ini dapat menyebabkan cedera mulut/gigi, aspirasi pneumonia, dan obstruksi jalan napas. Posisi miring + jalan napas + duration tracking adalah standar.",
+          "answer_evidence": "BLUEPRINT — Critical Error 4: 'Menganjurkan memasukkan benda ke mulut saat kejang'"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "TIDAK Antiepilepsi Jangka Panjang untuk KDS",
+          "text": "Memberikan antikonvulsan kronik (fenobarbital, valproat, levetiracetam) untuk KDS tanpa indikasi spesifik adalah critical error #5. Keputusan ini memerlukan evaluasi neurologis anak khusus, bukan tindakan akut di poli/IGD.",
+          "answer_evidence": "BLUEPRINT — Critical Error 5: 'Memberikan antiepilepsi jangka panjang untuk kejang demam sederhana tanpa indikasi'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_drug_05",
+        "gls_sken_kdsimple_drug_06"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk orang tua, tanda bahaya pulang, dan contoh SOAP untuk skenario kejang demam.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario kejang demam:\n\nS: An. Rafi, 2 tahun 6 bulan, kejang umum 1 kali ±3 menit saat demam 2 jam lalu, saat ini sudah sadar, menangis, mengenali ibu. Demam sejak kemarin malam dengan batuk pilek ringan. Tidak ada riwayat kejang sebelumnya, imunisasi dasar lengkap. Ibu sudah memberi parasetamol di rumah (dosis tidak pasti).\n\nO: Suhu 38,5°C, N 130, RR 28, TD 90/60, SpO2 98%, CRT <2 detik. Compos mentis, rewel ringan, tidak toksik. Hidrasi cukup. Faring hiperemis ringan, rinitis, paru bersih, jantung normal, abdomen normal, kulit tidak ada petekie/purpura. AVPU Alert, GCS 15. Pupil isokor, motorik simetris, tidak paresis Todd. TRM: kaku kuduk negatif, Kernig negatif, Brudzinski I/II negatif. GDS 105 mg/dL.\n\nA: Kejang demam sederhana pada anak 2 tahun 6 bulan, sumber ISPA ringan. DD: meningitis/ensefalitis (disingkirkan), epilepsi (tidak ada riwayat), hipoglikemia (GDS 105), sepsis (tidak toksik).\n\nP: Observasi, antipiretik parasetamol 10-15 mg/kgBB/dosis, tata laksana ISPA suportif, edukasi safety plan kejang dan tanda bahaya, kontrol 1 minggu atau lebih cepat bila muncul red flags.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi: kejang demam sederhana umumnya tidak merusak otak dan bukan otomatis epilepsi; prognosis sangat baik",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety plan — pertolongan pertama saat kejang di rumah:",
+          "sub": [
+            "Baringkan anak miring, longgarkan pakaian",
+            "Jauhkan benda berbahaya",
+            "Jangan menahan gerakan anak",
+            "Jangan masukkan sendok/jari/air/obat ke mulut",
+            "Catat durasi kejang dengan jam",
+            "Tetap di samping anak, tenangkan"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — bawa ke IGD SEGERA bila:",
+          "sub": [
+            "Kejang >5 menit",
+            "Berulang dalam 24 jam",
+            "Kejang fokal / satu sisi",
+            "Anak tidak sadar lama (>30 menit postiktal)",
+            "Kaku kuduk / leher kaku",
+            "Sesak napas",
+            "Ruam merah tidak hilang ditekan (petekie/purpura)",
+            "Tampak sangat lemah / toksik",
+            "Usia di luar rentang kejang demam (<6 bulan atau >5 tahun)",
+            "Orang tua ragu atau khawatir"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_dd_07",
+        "gls_sken_kdsimple_dd_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian penuh 100 poin yang digunakan penguji — semua item wajib ada.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Total penilaian 100 poin dengan 9 kategori utama. Komponen terbesar: anamnesis kronologi kejang (18 poin) dan tatalaksana/edukasi safety plan (16 poin). Peserta dinilai dari kelengkapan alloanamnesis, kemampuan penilaian kegawatan, dan kualitas edukasi kepada orang tua. Critical error tidak memiliki poin langsung tetapi dapat menggugurkan kelulusan.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pembukaan dan komunikasi dengan orang tua (10 poin)",
+          "sub": [
+            "Sapa ibu dan perkenalkan diri (1)",
+            "Konfirmasi identitas anak dan orang tua (2)",
+            "Tenangkan ibu yang panik (2)",
+            "Jelaskan prioritas keselamatan dan alloanamnesis (2)",
+            "Minta izin untuk pemeriksaan (1)",
+            "Hand hygiene (1)",
+            "Komunikasi empatik / bahasa sederhana (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Anamnesis kronologi kejang (18 poin)",
+          "sub": [
+            "Onset kejang (kapan) (2)",
+            "Durasi kejang (berapa menit) (3)",
+            "Tipe umum vs fokal (3)",
+            "Jumlah episode (sekarang, dalam 24 jam) (2)",
+            "Kesadaran postiktal (berapa lama, ada defisit) (3)",
+            "Demam sebelum kejang (suhu, kapan) (2)",
+            "Trauma kepala / keracunan / obat (2)",
+            "Riwayat kejang / epilepsi keluarga (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Anamnesis demam dan red flags (14 poin)",
+          "sub": [
+            "Sumber demam (ISPA, ISK, telinga) (2)",
+            "Usia dalam rentang KDS (6 bulan-5 tahun) (1)",
+            "Status imunisasi (lengkap/tidak) (2)",
+            "Tanyakan kaku kuduk (2)",
+            "Tanyakan muntah proyektil (1)",
+            "Tanyakan ruam petechiae / perdarahan (2)",
+            "Tanyakan penurunan kesadaran persisten (2)",
+            "Tanyakan sesak, dehidrasi, obat (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penilaian awal kegawatan (12 poin)",
+          "sub": [
+            "ABC (airway, breathing, circulation) (2)",
+            "Kejang aktif atau sudah berhenti (1)",
+            "TTV lengkap (suhu, nadi, RR, TD, SpO2) (3)",
+            "Glukosa darah (GDS) (2)",
+            "Hidrasi (CRT, turgor, mukosa) (2)",
+            "Tanda syok / sianosis (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "GCS/AVPU dan status neurologis (12 poin)",
+          "sub": [
+            "AVPU (Alert) (1)",
+            "GCS E4V5M6 = 15 atau setara (2)",
+            "Pupil isokor reaktif (2)",
+            "Motorik simetris (2)",
+            "Paresis Todd pasca-iktal (2)",
+            "Defisit fokal lain (1)",
+            "Tonus dan refleks (1)",
+            "Perhatian khusus anak yang tidak kembali ke baseline (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "TRM dan sumber demam (12 poin)",
+          "sub": [
+            "Kaku kuduk (nuchal rigidity) (3)",
+            "Kernig sign (2)",
+            "Brudzinski I & II (2)",
+            "Pemeriksaan THT (faring, telinga) (2)",
+            "Pemeriksaan paru (retraksi, wheezing) (1)",
+            "Pemeriksaan kulit (petechie, ruam) (1)",
+            "Pemeriksaan abdomen (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penunjang rasional (8 poin)",
+          "sub": [
+            "GDS awal (2)",
+            "Darah rutin / CRP sesuai indikasi (tampak toksik) (1)",
+            "Urinalisis sesuai indikasi (sumber tidak jelas) (1)",
+            "TIDAK rutin EEG/CT/MRI pada KDS tanpa red flags (2)",
+            "Pungsi lumbal hanya bila curiga meningitis/ensefalitis (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Diagnosis dan DD (8 poin)",
+          "sub": [
+            "Membedakan KDS vs KDK (4)",
+            "Menyebut DD meningitis/ensefalitis (2)",
+            "Menyebut DD epilepsi, hipoglikemia, gangguan elektrolit (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Tatalaksana dan edukasi safety plan (6 poin)",
+          "sub": [
+            "ABC dan posisi miring saat kejang (2)",
+            "Benzodiazepin jika kejang >5 menit (2)",
+            "TIDAK memasukkan benda ke mulut (1)",
+            "TIDAK antiepilepsi kronik (1)",
+            "Antipiretik parasetamol 10-15 mg/kgBB/dosis (2)",
+            "Tata laksana sumber ISPA (1)",
+            "Edukasi pertolongan pertama kejang di rumah (3)",
+            "Edukasi tanda bahaya pulang/IGD (3)",
+            "Komunikasi empatik dan mengurangi kekhawatiran ibu (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Poin diberikan per sub-item secara parsial. Critical error (lihat s10) tidak memiliki poin langsung tetapi dapat menggugurkan kelulusan meskipun skor angka cukup.",
+          "answer_evidence": "BLUEPRINT — Total poin 110/100, sistem partial credit"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE adalah tindakan atau kelalaian yang menyebabkan pemotongan nilai besar atau kegagalan stasiun meskipun skor angka terlihat cukup. Pada kejang demam, critical error terutama terkait penilaian kegawatan, kesadaran, skrining meningitis, dan tatalaksana emergensi yang aman.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Tidak menilai apakah kejang masih aktif atau jalan napas aman",
+          "sub": [
+            "Kenapa critical: airway & breathing adalah komponen keselamatan tertinggi; anak yang masih kejang atau dengan jalan napas terancam memerlukan tindakan segera (posisi miring, suction, O2, benzodiazepin)",
+            "Recovery move: lakukan primary survey ABC terlebih dahulu sebelum alloanamnesis mendalam; cek airway, breathing, circulation, dan status kejang aktif"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Tidak menilai penurunan kesadaran persisten/GCS setelah kejang",
+          "sub": [
+            "Kenapa critical: kesadaran yang tidak pulih dalam 30 menit pasca-iktal merupakan red flag meningitis/ensefalitis atau kondisi neurologis serius lain; kelalaian dapat menyebabkan keterlambatan diagnosis",
+            "Recovery move: selalu nilai GCS/AVPU setelah kejang, observasi durasi postiktal, dan default ke meningitis/ensefalitis bila kesadaran tidak kembali normal"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Tidak menyingkirkan tanda meningitis/ensefalitis pada anak demam kejang",
+          "sub": [
+            "Kenapa critical: meningitis bakterialis adalah keadaan darurat dengan mortalitas tinggi bila terlambat ditangani; skrining TRM dan tanda meningitis adalah komponen wajib",
+            "Recovery move: lakukan TRM (kaku kuduk, Kernig, Brudzinski), skrining petekie, defisit fokal, dan penurunan kesadaran — bila ada kecurigaan, rujuk emergensi untuk pungsi lumbal dan antibiotik empiris"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Menganjurkan memasukkan benda ke mulut saat kejang",
+          "sub": [
+            "Kenapa critical: tindakan ini menyebabkan cedera mulut/gigi, risiko aspirasi pneumonia, dan obstruksi jalan napas — bukti medis modern menunjukkan tidak ada manfaatnya",
+            "Recovery move: edukasi posisi miring, longgarkan pakaian, jauhkan benda berbahaya, JANGAN masukkan apapun ke mulut, catat durasi"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 5: Memberikan antiepilepsi jangka panjang untuk kejang demam sederhana tanpa indikasi",
+          "sub": [
+            "Kenapa critical: antikonvulsan kronik untuk KDS tanpa indikasi tidak terbukti mengurangi risiko epilepsi dan menambah efek samping (sedasi, kognitif, dll.); keputusan ini memerlukan evaluasi neurologis khusus",
+            "Recovery move: untuk KDS, tidak memberikan antiepilepsi kronik; edukasi bahwa risiko epilepsi hanya sedikit meningkat dan prognosis sangat baik"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Tidak menyingkirkan tanda meningitis adalah error paling fatal di stasiun kejang demam. Peserta yang hanya fokus pada aspek kejang dan lupa TRM serta tanda meningitis sering melewatkan kegawatdaruratan neurologis.",
+          "answer_evidence": "BLUEPRINT — Critical Error 3"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_procedure_03",
+        "gls_sken_kdsimple_dd_07"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus (Ibu), panduan penguji lengkap, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "NASKAH PROBANDUS LENGKAP — Probandus adalah Ibu An. Rafi. Pasien: An. Rafi, laki-laki, 2 tahun 6 bulan. Kalimat pembuka: 'Dok, anak saya tadi kejang waktu badannya panas. Sekarang sudah berhenti, tapi saya takut sekali.' Ibu tampak panik dan butuh ditenangkan. Jangan langsung menyebut semua detail kejang; beri bila ditanya. Bila peserta menenangkan dan menjelaskan, respons lebih kooperatif. Ibu takut anaknya epilepsi. Bila peserta bertanya: kejang terjadi 2 jam lalu saat suhu tinggi, seluruh tubuh kaku-kelojotan, mata mendelik, tidak sadar, ±3 menit, berhenti sendiri; sesudah kejang anak mengantuk 10 menit lalu sadar, menangis, mengenali ibu, TIDAK ada kelemahan satu sisi; demam sejak kemarin malam, batuk pilek ringan, TIDAK ada sesak berat, muntah menyemprot, diare berat, nyeri telinga, ruam, atau kaku leher; belum pernah kejang, TIDAK ada kejang tanpa demam, TIDAK ada riwayat epilepsi keluarga; usia 2 tahun 6 bulan, imunisasi dasar lengkap; sudah diberi parasetamol (dosis tidak pasti), TIDAK ada obat lain/racun.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji:",
+          "sub": [
+            "Berikan informasi HANYA bila peserta bertanya atau menyebutkan pemeriksaan dengan benar — jangan membocorkan data spontan",
+            "Jawab 'tidak' untuk semua pertanyaan red flags (kaku kuduk, muntah proyektil, ruam petekie, penurunan sadar persisten, sesak, dehidrasi)",
+            "Peserta yang bertanya TRM (Kernig, Brudzinski, kaku kuduk) dengan benar → jawab 'semua negatif'",
+            "Peserta yang menyuruh memasukkan benda ke mulut → pertegas 'tindakan itu tidak boleh, posisi miring dan amankan jalan napas yang benar'",
+            "Peserta yang TIDAK menyinggung safety plan kejang → pertegas pentingnya edukasi untuk orang tua",
+            "Peserta yang menawarkan antiepilepsi kronik → pertegas 'tidak diindikasikan untuk KDS, edukasi prognosis baik'",
+            "Catat urutan dan kelengkapan tindakan peserta pada lembar observasi untuk skoring"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Global rating (referensi):",
+          "sub": [
+            "Excellent: alur sistematis, aman, diagnosis kuat, penunjang rasional, komunikasi empatik, edukasi jelas",
+            "Pass: mayoritas komponen inti dilakukan, tidak ada critical error, diagnosis/tatalaksana cukup aman",
+            "Borderline: ada lubang pada anamnesis/pemeriksaan/edukasi, tetapi tidak membahayakan secara langsung",
+            "Fail: critical error, tidak mengenali red flags, atau diagnosis/tatalaksana tidak aman"
+          ],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "AAP (American Academy of Pediatrics) — Febrile Seizures: Clinical Practice Guideline (2011, reaffirmed)",
+            "IDAI (Ikatan Dokter Anak Indonesia) — Rekomendasi Kejang Demam",
+            "PERDOSSI — Panduan Tatalaksana Kejang pada Anak",
+            "WHO — Pediatric Emergency Triage, Assessment and Treatment (ETAT)",
+            "Leung AK, Hon KL, Leung TN. Febrile seizures: an overview. Drugs Context 2018"
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Diagnosis kerja dan distribusi poin hanya untuk objektivitas penilaian.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_kdsimple_definition_01",
+        "gls_sken_kdsimple_procedure_03",
+        "gls_sken_kdsimple_drug_05"
+      ],
+      "bilingual": ""
+    }
+  ]
+}

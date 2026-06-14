@@ -1,0 +1,926 @@
+{
+  "id": "sken_neuropsiki_001",
+  "title": "Stasiun 1 — Keluhan Pusing Berputar Saat Perubahan Posisi",
+  "subtitle": "Skenario BPPV kanal posterior kanan pada perempuan 45 tahun: menguji anamnesis vertigo terarah, skrining red flags stroke posterior, pemeriksaan keseimbangan dan vestibuler (Dix-Hallpike), serta edukasi manuver Epley dan safety net jatuh.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_1",
+  "source_files": [
+    "SOAL_01_BPPV_PESERTA_BUTA.md",
+    "SOAL_01_BPPV_PENDAMPING.md",
+    "SOAL_01_BPPV_BLUEPRINT.md"
+  ],
+  "topicTags": [
+    "osce_skenario",
+    "neurologi",
+    "bppv",
+    "vertigo_posisional",
+    "dix_hallpike",
+    "epley_maneuver",
+    "pemeriksaan_vestibular",
+    "red_flags_stroke_posterior",
+    "keseimbangan_koordinasi",
+    "skdi_4a_neuro"
+  ],
+  "summary": [
+    "Situasi klinis: Ibu Rina, 45 tahun, datang ke poliklinik dengan keluhan pusing berputar berulang 5 hari, singkat (20-40 detik), terutama saat bangun tidur, miring kanan, menoleh cepat, atau menengadah; masih bisa berjalan tetapi takut kambuh saat naik motor.",
+    "Skill utama yang diuji: anamnesis vertigo terarah, skrining red flags neurologi/otologi, pemeriksaan keseimbangan dan koordinasi, uji vestibular posisi (Dix-Hallpike), serta komunikasi edukasi manuver reposisi dan tanda bahaya.",
+    "Komponen anamnesis kritis: onset, durasi singkat, pencetus posisi, karakter berputar vs presinkop, frekuensi, gejala otonom (mual/muntah), dampak fungsi, riwayat trauma kepala, migren, dan obat yang diminum.",
+    "Pemeriksaan fisik kunci: TTV, GCS, status neurologis umum, nervus kranialis, Romberg, tandem gait, finger-to-nose, RAM, heel-to-shin, serta Dix-Hallpike kanan (latensi ~5 detik, nistagmus torsional-upbeat ~20 detik, fatigable) — semua dilakukan dengan pengaman jatuh.",
+    "Diagnosis kerja: BPPV kanal posterior kanan. DD utama: neuritis vestibular, vestibular migraine, penyakit Ménière, hipotensi ortostatik/presinkop, stroke posterior/serebelar (bila ada red flags).",
+    "Tatalaksana yang diharapkan: edukasi diagnosis, manuver Epley kanan, antiemetik/vestibular suppressant singkat saja, anjuran bangun perlahan dan hati-hati saat kambuh, kontrol bila tidak membaik atau muncul red flags.",
+    "Critical error paling penting: tidak menyaring red flags stroke posterior (diplopia, disartria, ataksia berat, defisit fokal, nyeri kepala hebat, nistagmus vertikal); melakukan uji keseimbangan tanpa pengaman jatuh; menggunakan vestibular suppressant jangka panjang.",
+    "Total 100 poin — komponen terbesar: anamnesis vertigo terarah 18 poin dan skrining red flags 14 poin, tatalaksana dan edukasi 16 poin."
+  ],
+  "exam_focus": [
+    "Selalu gali onset, durasi, pencetus posisi, dan karakter berputar vs presinkop/lightheadedness — vertigo sejati bersifat ilusi gerakan dan biasanya singkat/laten pada BPPV.",
+    "Wajib skrining red flags stroke posterior sebelum menyimpulkan BPPV: diplopia, disartria, disfagia, ataksia berat, kelemahan/baal satu sisi, nyeri kepala hebat, nistagmus vertikal, atau vertigo kontinu.",
+    "Posisikan pasien aman dan jelaskan bahwa manuver keseimbangan/Dix-Hallpike dapat memicu pusing — selalu berdiri di sisi pasien untuk mencegah jatuh.",
+    "Dix-Hallpike kanan yang positif: latensi 5-20 detik, nistagmus torsional-upbeat (kearah dahi/telinga atas kanan), durasi <60 detik, dan fatigable bila diulang — mendukung BPPV kanal posterior.",
+    "Manuver Epley adalah tatalaksana definitif BPPV kanal posterior; vestibular suppressant (dimenhidrinat, betahistine) hanya simtomatik singkat karena menghambat kompensasi vestibular bila dipakai lama.",
+    "Tanda bahaya pulang/kontrol: kelemahan/baal satu sisi, bicara pelo, sulit menelan, pandangan ganda, sakit kepala mendadak hebat, pingsan, nyeri dada, atau vertigo menetap berat — semua wajib disebutkan dalam edukasi.",
+    "Jangan melakukan CT/MRI kepala rutin pada gambaran BPPV tipikal dengan neurologis normal; imaging dipertimbangkan bila ada red flags atau atypical presentation.",
+    "Pada anamnesis yang tidak lengkap (tanpa tanya pencetus posisi atau tanpa skrining stroke), skor anamnesis akan turun signifikan walau peserta berhasil memeriksa Dix-Hallpike."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_bppv_definition_01",
+      "term": "Benign Paroxysmal Positional Vertigo (BPPV)",
+      "def": "Vertigo posisi jinak yang disebabkan oleh terlepasnya otokonia (kristal kalsium karbonat) dari utrikulus ke dalam salah satu kanal semisirkularis telinga dalam. Episode singkat (<60 detik), dipicu perubahan posisi kepala, dan tidak disertai defisit neurologis.",
+      "type": "clinical",
+      "aliases": [
+        "Vertigo posisi jinak",
+        "BPPV",
+        "Benign positional vertigo"
+      ]
+    },
+    {
+      "id": "gls_sken_bppv_procedure_02",
+      "term": "Uji Dix-Hallpike",
+      "def": "Manuver diagnostik untuk BPPV kanal posterior. Pasien duduk di tepi bed, diputar cepat ke posisi berbaring dengan kepala menengok 45° ke sisi yang dicurigai dan sedikit ekstensi. Positif bila muncul nistagmus torsional-upbeat dengan latensi singkat, durasi <60 detik, dan fatigable.",
+      "type": "procedure",
+      "aliases": [
+        "Dix-Hallpike test",
+        "Manuver Dix-Hallpike"
+      ]
+    },
+    {
+      "id": "gls_sken_bppv_procedure_03",
+      "term": "Manuver Reposisi Epley",
+      "def": "Tatalaksana definitif BPPV kanal posterior. Serangkaian gerakan kepala dan tubuh dari posisi Dix-Hallpike positif, melalui lima posisi berurutan, untuk mengembalikan otokonia ke utrikulus. Tingkat keberhasilan tinggi dalam 1-2 kali manuver.",
+      "type": "procedure",
+      "aliases": [
+        "Epley maneuver",
+        "Canalith repositioning procedure"
+      ]
+    },
+    {
+      "id": "gls_sken_bppv_score_04",
+      "term": "GCS (Glasgow Coma Scale)",
+      "def": "Skala kesadaran dengan komponen Eye (1-4), Verbal (1-5), Motor (1-6). Total 3-15. Skor 15 = compos mentis penuh; ≤8 biasanya indikasi intubasi. Pada skenario BPPV, GCS normal dipakai untuk menyingkirkan lesi sentral.",
+      "type": "score",
+      "aliases": [
+        "GCS",
+        "Skala Koma Glasgow"
+      ]
+    },
+    {
+      "id": "gls_sken_bppv_drug_05",
+      "term": "Vestibular Suppressant",
+      "def": "Obat yang menekan aktivitas vestibular pusat atau perifer (contoh: dimenhidrinat, betahistine, meclizine, antihistamin generasi pertama). Hanya untuk penggunaan singkat pada fase akut BPPV karena menghambat kompensasi vestibular bila dipakai jangka panjang.",
+      "type": "drug",
+      "aliases": [
+        "Supresan vestibular",
+        "Antivertigo"
+      ]
+    },
+    {
+      "id": "gls_sken_bppv_dd_06",
+      "term": "Neuritis Vestibular",
+      "def": "Inflamasi nervus vestibularis yang menyebabkan vertigo onset mendadak, kontinu (bukan posisi), berlangsung berhari-hari, dengan nistagmus spontan satu arah. Tidak ada gangguan pendengaran. Tatalaksana: vestibular suppressant singkat, rehabilitasi vestibular.",
+      "type": "clinical",
+      "aliases": [
+        "Vestibular neuritis",
+        "Neuronitis vestibular"
+      ]
+    },
+    {
+      "id": "gls_sken_bppv_dd_07",
+      "term": "Penyakit Ménière",
+      "def": "Gangguan telinga dalam dengan trias vertigo episodik (berjam-jam), tinnitus, dan gangguan pendengaran sensorineural fluktuatif. Sering disertai rasa penuh di telinga. Berbeda dari BPPV: gejala auditori dan durasi panjang.",
+      "type": "clinical",
+      "aliases": [
+        "Ménière's disease",
+        "Hidrops endolimfatik"
+      ]
+    },
+    {
+      "id": "gls_sken_bppv_dd_08",
+      "term": "Stroke Posterior / Serebelar",
+      "def": "Infark atau perdarahan sirkulasi posterior (arteri vertebralis, basilaris, PICA, AICA) yang dapat bermanifestasi sebagai vertigo akut dengan red flags neurologi: diplopia, disartria, ataksia berat, defisit fokal, atau nyeri kepala hebat. Pemeriksaan darurat CT/MRI dan neurologi segera.",
+      "type": "clinical",
+      "aliases": [
+        "Posterior circulation stroke",
+        "Stroke batang otak",
+        "Stroke serebelar"
+      ]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis yang diterima peserta dan daftar tugas yang harus diselesaikan dalam 12 menit stasiun ini.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Seorang pasien dewasa datang ke poliklinik dengan keluhan pusing berputar yang muncul berulang, terutama terkait perubahan posisi. Peserta berperan sebagai dokter muda yang menerima pasien pertama kali di poliklinik umum/puskesmas. Durasi stasiun 12 menit. Peserta harus melakukan anamnesis terarah, pemeriksaan fisik relevan, meminta data penunjang sesuai kebutuhan, dan menyampaikan diagnosis kerja, diagnosis banding, rencana tatalaksana, serta edukasi pasien.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Lakukan anamnesis terarah (keluhan utama, kronologi, red flags, riwayat)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Lakukan pemeriksaan fisik yang relevan (TTV, neurologis umum, keseimbangan/koordinasi, uji posisi bila diindikasikan)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Minta pemeriksaan penunjang spesifik kepada penguji dengan alasan klinis",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Sampaikan diagnosis kerja, diagnosis banding, tatalaksana awal, edukasi, dan tanda bahaya di akhir station",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Jangan menyebutkan diagnosis sebelum memperoleh data yang cukup. Semua hasil pemeriksaan yang tidak dapat dilakukan langsung akan diberikan oleh penguji bila diminta secara spesifik. Anda tidak perlu melakukan tindakan invasif.",
+          "answer_evidence": null
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan Pasien",
+          "text": "Berikan知情, posisikan pasien aman, dan jelaskan bahwa pemeriksaan keseimbangan/uji posisi dapat memicu pusing. Siaga mencegah jatuh di setiap prosedur.",
+          "answer_evidence": "BLUEPRINT — Pembukaan, consent, keselamatan (10 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_definition_01",
+        "gls_sken_bppv_procedure_02"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting, durasi, skill yang diuji, dan distribusi 100 poin penilaian untuk stasiun BPPV.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Stasiun berlangsung 12 menit di poliklinik umum/puskesmas. Peserta menerima soal buta saat masuk, 1 menit membaca, 10-11 menit performa, dan 1-2 menit untuk rangkum/feedback. Penguji memberikan data TTV, pemeriksaan fisik, dan penunjang hanya bila peserta meminta atau menyebutkan prosedur dengan benar. Total penilaian 100 poin dengan 9 kategori utama. Critical error dapat menggugurkan kelulusan meski skor angka cukup.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skill yang diuji di stasiun ini:",
+          "sub": [
+            "Anamnesis Kelainan Neurologi (terutama pola vertigo)",
+            "IPM Kelainan Sistem Saraf (identifikasi pasien, pembukaan, consent, privasi)",
+            "Pemeriksaan Gangguan Keseimbangan dan Koordinasi",
+            "Pemeriksaan Nervus Kranialis dasar",
+            "Roadmap Neurobehavior / skrining red flags neurologi"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Komponen penilaian 100 poin:",
+          "sub": [
+            "Pembukaan, consent, keselamatan: 10",
+            "Anamnesis vertigo terarah: 18",
+            "Skrining red flags neurologi/otologi: 14",
+            "TTV + head-to-toe + status neurologis awal: 12",
+            "Pemeriksaan keseimbangan/koordinasi: 14",
+            "Pemeriksaan vestibular posisi: 10",
+            "Penunjang rasional: 8",
+            "Diagnosis dan DD: 8",
+            "Tatalaksana dan edukasi: 16"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1 menit baca soal (fokus pada identitas, keluhan pembuka, dan durasi) → 1-2 menit pembukaan dan informed consent → 5-6 menit anamnesis + pemeriksaan fisik → 2-3 menit minta penunjang & interpretasi → 1-2 menit tatalaksana + edukasi + rangkum. Jangan habiskan waktu > 7 menit hanya untuk anamnesis.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_definition_01",
+        "gls_sken_bppv_score_04"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggunakan file pendamping, naskah pembuka probandus, dan poin anamnesis yang tersedia untuk dijawab pendamping.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Satu orang pendamping dapat merangkap sebagai probandus dan penguji. Saat berperan sebagai probandus, berikan informasi hanya bila ditanya peserta; jangan membocorkan diagnosis. Saat berperan sebagai penguji, berikan hasil TTV, pemeriksaan fisik, dan penunjang hanya bila peserta meminta atau menyebutkan pemeriksaan dengan benar. Gunakan checklist 100 poin untuk memberi skor objektif. Critical error dapat membuat peserta tidak lulus station meskipun skor angka cukup.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus: \"Dok, sejak beberapa hari ini saya sering merasa berputar kalau bangun dari tidur atau menoleh.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Identitas: Ibu Rina, 45 tahun, guru SD, datang sendiri. Tampak cemas ringan, memegang kursi saat berdiri, kooperatif, tidak tampak lemah satu sisi. Jangan spontan menyebut durasi serangan, pemicu detail, atau tidak adanya gejala neurologis kecuali ditanya. Bila peserta hanya bertanya umum, jawab pendek dan jangan langsung memberi seluruh pola vertigo.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Onset & durasi: mulai 5 hari lalu; serangan berlangsung singkat, sekitar 20-40 detik, lalu membaik",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pencetus: terutama saat bangun dari tidur, berbaring miring kanan, menoleh cepat ke kanan, atau menengadah",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Karakter: rasanya ruangan berputar, bukan seperti mau pingsan",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gejala penyerta: mual ringan, tidak muntah hebat. TIDAK ada telinga berdenging, pendengaran turun, nyeri telinga, demam, nyeri kepala hebat, pandangan ganda, bicara pelo, sulit menelan, baal, atau lemah anggota gerak",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat: belum pernah seperti ini. Tidak ada trauma kepala. Riwayat migren disangkal. Tidak minum obat rutin",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Fungsi: masih bisa berjalan, tetapi takut kambuh saat naik motor",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flags Wajib Skrining",
+          "text": "Bila peserta bertanya tentang diplopia, disartria, disfagia, kelemahan/baal satu sisi, ataksia berat, nyeri kepala hebat, atau vertigo kontinu — jawab tegas TIDAK ADA. Bila peserta tidak menanyakan satupun red flag, ini menjadi catatan besar di komponen Skrining Red Flags (14 poin).",
+          "answer_evidence": "BLUEPRINT — Skrining red flags neurologi/otologi (14 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_dd_08",
+        "gls_sken_bppv_dd_06",
+        "gls_sken_bppv_dd_07"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV dan temuan pemeriksaan fisik yang tersedia untuk diberikan kepada peserta bila diminta secara spesifik.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ yang diperiksa. Penguji tidak memberikan data spontan — peserta harus menunjukkan inisiatif dan kemampuan pemeriksaan yang benar.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital: TD 118/76 mmHg | Nadi 84 x/menit reguler | RR 18 x/menit | Suhu 36,8°C | SpO2 99% RA",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status generalis: compos mentis, tampak cemas ringan, tidak toksik",
+          "sub": [
+            "Kepala normosefal",
+            "Telinga luar normal, tidak ada otore/nyeri tekan mastoid",
+            "Konjungtiva tidak pucat, faring tenang",
+            "Paru dan jantung dalam batas normal, abdomen normal",
+            "Ekstremitas hangat, CRT <2 detik"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status neurologis umum: GCS E4V5M6 = 15, orientasi baik, tidak ada kaku kuduk, tidak ada defisit motorik/sensorik kasar",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Nervus kranialis: pupil isokor reaktif, gerak bola mata penuh, tidak ada diplopia, wajah simetris, bicara jelas, lidah midline",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Nistagmus spontan: tidak tampak nistagmus spontan saat duduk diam",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Koordinasi: finger-to-nose, rapid alternating movement, heel-to-shin normal bilateral; tidak ada dismetria/disdiadokokinesia",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Keseimbangan/gait: gait biasa normal, Romberg negatif, tandem walking dapat dilakukan (sedikit hati-hati tetapi tidak jatuh)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Dix-Hallpike kanan (bila diminta): memicu vertigo setelah latensi ±5 detik dengan nistagmus torsional-upbeat, berlangsung ±20 detik, fatigable. Kiri negatif",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Supine roll test (bila diminta): tidak memicu nistagmus horizontal bermakna",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pengaman Jatuh Wajib",
+          "text": "Setiap uji keseimbangan (Romberg, tandem gait) dan manuver posisi (Dix-Hallpike, roll test) harus dilakukan dengan pendamping di samping pasien untuk mencegah jatuh. Peserta yang melakukan uji posisi tanpa berdiri di sisi pasien akan kehilangan poin di komponen Keselamatan (10) dan Pemeriksaan Keseimbangan (14).",
+          "answer_evidence": "BLUEPRINT — Critical Error: 'Melakukan pemeriksaan keseimbangan tanpa menjaga pasien dari jatuh'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_procedure_02",
+        "gls_sken_bppv_score_04"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Data penunjang yang tersedia beserta interpretasinya, diberikan bila peserta meminta secara spesifik dengan alasan klinis.",
+      "estimated_time_minutes": 3,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang di bawah ini diberikan HANYA bila peserta meminta secara spesifik. Peserta dinilai dari relevansi permintaan, urutan rasional, dan kemampuan interpretasi. Pada gambaran BPPV klasik dengan neurologis normal, penggunaan imaging tanpa indikasi akan kehilangan poin.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Gula darah sewaktu: 102 mg/dL — normal, menyingkirkan kontribusi hipoglikemia/presinkop",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "EKG (bila diminta): sinus rhythm, tidak ada tanda presinkop/aritmia",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Otoskopi: membran timpani tenang, tidak ada otore/vesikel — menyingkirkan otitis media sebagai pencetus",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Audiometri: tidak rutin karena tidak ada gangguan pendengaran/tinnitus persisten",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "CT/MRI kepala: TIDAK rutin untuk BPPV tipikal dan neurologis normal. Pertimbangkan bila red flags: ataksia berat, diplopia, disartria, defisit fokal, nyeri kepala hebat, nistagmus vertikal, vertigo kontinu",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "CT/MRI kepala, audiometri, dan laboratorium luas (panel metabolik lengkap) tidak perlu diminta pada gambaran BPPV tipikal tanpa red flags. Peserta yang meminta imaging tanpa indikasi akan kehilangan poin Penunjang Rasional (8).",
+          "answer_evidence": "BLUEPRINT — Penunjang rasional (8 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_dd_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Kunci diagnosis rahasia, diagnosis banding utama, dan alasan klinis mendukung/menentang.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Diagnosis kerja: BPPV kanal posterior kanan. Anamnesis mendukung: vertigo sejati (ruangan berputar) onset 5 hari, durasi singkat (20-40 detik), pencetus posisi (bangun tidur, miring kanan, menoleh kanan, menengadah), tanpa red flags neurologi/otologi. Pemeriksaan mendukung: gait dan Romberg normal, tanpa defisit fokal, Dix-Hallpike kanan positif dengan pola nistagmus torsional-upbeat latensi singkat, durasi <60 detik, dan fatigable.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Neuritis vestibular — mendukung bila onset mendadak vertigo kontinu berhari-hari dengan nistagmus spontan satu arah; menentang karena pada kasus ini vertigo singkat dan posisi-dependent",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Vestibular migraine — mendukung bila ada riwayat migren dan pencetus hormonal/makanan; menentang karena tidak ada riwayat migren dan karakter vertigo posisi-dependent",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Penyakit Ménière — mendukung bila ada trias vertigo episodik, tinnitus, dan hearing loss fluktuatif; menentang karena tidak ada gangguan pendengaran atau tinnitus",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: Hipotensi ortostatik / presinkop — mendukung bila gejala saat berdiri dengan prodromal (pucat, penglihatan gelap); menentang karena karakter berputar dan pencetus posisi kepala",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Stroke posterior/serebelar — mendukung bila ada red flags (diplopia, disartria, ataksia berat); menentang pada kasus ini karena neurologis normal dan tidak ada red flag",
+          "sub": [],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Framework DD Vertigo",
+          "text": "Bedakan dulu PERIFER vs SENTRAL: perifer (BPPV, neuritis vestibular, Ménière) biasanya memiliki onset, pencetus, dan nistagmus yang sesuai dengan pola lesi perifer; sentral (stroke posterior, tumor) biasanya disertai red flags neurologis. Bila ada keraguan, default ke red flags dan rujuk emergensi.",
+          "answer_evidence": "BLUEPRINT — Critical Error: 'Langsung menyimpulkan BPPV tanpa membedakan vertigo perifer vs sentral'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_dd_06",
+        "gls_sken_bppv_dd_07",
+        "gls_sken_bppv_dd_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana non-farmakologi dan farmakologi yang diharapkan dari peserta di stasiun BPPV ini.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pendekatan tatalaksana BPPV: edukasi diagnosis terlebih dahulu, kemudian tatalaksana definitif berupa manuver reposisi kanalit (Epley), modifikasi aktivitas dan safety, dan obat simtomatik hanya singkat bila perlu. Hindari vestibular suppressant jangka panjang karena menghambat kompensasi vestibular. Kontrol ulang bila tidak membaik, sering kambuh, atau muncul red flags.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Langkah 1: Jelaskan bahwa keluhan paling sesuai dengan vertigo posisi jinak akibat kristal/otokonia di telinga dalam; prognosis umumnya baik",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 2: Lakukan/ajarkan manuver reposisi Epley kanan (kalau tidak ada kontraindikasi servikal) — tatalaksana definitif",
+          "sub": [
+            "Peserta diharapkan dapat mendemonstrasikan urutan manuver atau setidaknya menyebutkan posisi dan tujuan reposisi",
+            "Latihan Brandt-Daroff dapat diajarkan sebagai latihan rumah"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 3: Antiemetik (contoh: metoclopramide 10 mg PO/IM bila mual berat) atau vestibular suppressant (dimenhidrinat 50 mg PO, betahistine 24 mg PO) — Hanya JANGKA PENDEK (1-3 hari)",
+          "sub": [
+            "Hindari penggunaan > 1 minggu karena menghambat kompensasi vestibular"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 4: Anjurkan modifikasi aktivitas — bangun dari tidur perlahan, hindari menyetir/naik motor saat masih mudah kambuh, bergerak hati-hati",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 5: Kontrol 1-2 minggu atau lebih cepat jika tidak membaik/sering kambuh; rujuk emergensi bila muncul red flags",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Hindari Vestibular Suppressant Jangka Panjang",
+          "text": "Jangan meresepkan antihistamin/antivertigo (dimenhidrinat, betahistine) untuk penggunaan jangka panjang tanpa manuver reposisi. Vestibular suppressant menghambat kompensasi vestibular dan memperpanjang pemulihan.",
+          "answer_evidence": "BLUEPRINT — Critical Error: 'Menganjurkan vestibular suppressant lama tanpa manuver/reposisi dan tanpa follow-up'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_procedure_03",
+        "gls_sken_bppv_drug_05"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk pasien, tanda bahaya yang harus disebutkan, dan contoh SOAP untuk skenario BPPV.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario BPPV:\n\nS: Pasien merasakan ruangan berputar singkat (±20-40 detik) sejak 5 hari, terutama saat bangun tidur, miring kanan, menoleh cepat ke kanan, atau menengadah. Mual ringan, tidak muntah hebat. Tidak ada gangguan pendengaran, tinnitus, nyeri kepala, diplopia, baal, atau kelemahan anggota gerak. Fungsi masih bisa berjalan, takut kambuh saat naik motor.\n\nO: TD 118/76, N 84, RR 18, S 36,8°C, SpO2 99%. GCS 15. Pupil isokor, CN normal, motorik-sensorik kasar simetris. Romberg negatif, tandem gait sedikit hati-hati, koordinasi normal. Dix-Hallpike kanan: positif (nystagmus torsional-upbeat, latensi 5 detik, durasi 20 detik, fatigable). Kiri negatif. GDS 102 mg/dL.\n\nA: BPPV kanal posterior kanan. DD: neuritis vestibular, vestibular migraine, Ménière, hipotensi ortostatik/presinkop, stroke posterior (disingkirkan).\n\nP: Manuver Epley kanan, edukasi sleep hygiene posisi, dimenhidrinat 50 mg PO bila perlu (maks 3 hari), kontrol 1-2 minggu atau lebih cepat bila tidak membaik. Safety net: red flags stroke.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi: penyakit ini umumnya tidak berbahaya dan dapat membaik dengan manuver reposisi; manuver mungkin memicu pusing sementara",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera/ke IGD bila muncul:",
+          "sub": [
+            "Kelemahan atau baal satu sisi (anggota gerak, wajah)",
+            "Bicara pelo atau sulit dipahami",
+            "Sulit menelan atau air liur keluar",
+            "Pandangan ganda",
+            "Sakit kepala mendadak hebat",
+            "Pingsan atau penurunan kesadaran",
+            "Nyeri dada atau sesak",
+            "Vertigo menetap berat atau bertambah progresif"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi latihan: latihan sebaiknya dilakukan dengan pendamping pada awalnya karena dapat memicu pusing sementara",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_dd_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian penuh 100 poin yang digunakan penguji — semua item wajib ada.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Total penilaian 100 poin dengan 9 kategori utama. Komponen terbesar: anamnesis vertigo terarah (18 poin) dan tatalaksana/edukasi (16 poin). Peserta dinilai dari kelengkapan proses klinis, kemampuan memilih penunjang, dan kemampuan menjelaskan kondisi pasien. Critical error tidak memiliki poin langsung tetapi dapat menggugurkan kelulusan.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pembukaan, consent, keselamatan (10 poin)",
+          "sub": [
+            "Sapa pasien dan perkenalkan diri (2)",
+            "Konfirmasi identitas pasien (1)",
+            "Jelaskan tujuan pemeriksaan dan minta izin (2)",
+            "Hand hygiene (1)",
+            "Posisikan pasien aman — jelaskan pemeriksaan dapat memicu pusing (2)",
+            "Siaga mencegah jatuh — berdiri di sisi pasien saat uji (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Anamnesis vertigo terarah (18 poin)",
+          "sub": [
+            "Onset (kapan mulai) (2)",
+            "Durasi serangan (singkat vs kontinu) (3)",
+            "Pencetus posisi spesifik (bangun tidur, miring, menoleh, menengadah) (3)",
+            "Karakter berputar vs presinkop/lightheadedness (3)",
+            "Frekuensi serangan (2)",
+            "Mual/muntah dan gejala otonom (2)",
+            "Dampak fungsi (kerja, naik motor, aktivitas harian) (2)",
+            "Riwayat obat, trauma kepala, riwayat migren (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Skrining red flags neurologi/otologi (14 poin)",
+          "sub": [
+            "Tanyakan diplopia / pandangan ganda (2)",
+            "Tanyakan disartria / bicara pelo (2)",
+            "Tanyakan disfagia / sulit menelan (2)",
+            "Tanyakan ataksia berat / sulit jalan (2)",
+            "Tanyakan kelemahan/baal satu sisi (2)",
+            "Tanyakan nyeri kepala hebat (1)",
+            "Tanyakan hearing loss dan tinnitus (2)",
+            "Tanyakan demam, sinkop, nyeri dada (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "TTV + head-to-toe + status neurologis awal (12 poin)",
+          "sub": [
+            "Minta TTV lengkap (TD, N, RR, S, SpO2) (3)",
+            "GCS E4V5M6 / AVPU dan orientasi (2)",
+            "Otoskopi / inspeksi telinga luar (2)",
+            "Status neurologis umum (pupil, motorik, sensorik kasar) (3)",
+            "Kaku kuduk bila relevan (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Pemeriksaan keseimbangan/koordinasi (14 poin)",
+          "sub": [
+            "Romberg test (3)",
+            "Tandem gait / jalan tandem (3)",
+            "Finger-to-nose test (2)",
+            "Rapid alternating movement (2)",
+            "Heel-to-shin test (2)",
+            "Menjaga pasien dari jatuh selama pengujian (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Pemeriksaan vestibular posisi (10 poin)",
+          "sub": [
+            "Meminta/melakukan Dix-Hallpike dengan cara aman (4)",
+            "Mengenali nistagmus torsional-upbeat khas (2)",
+            "Menentukan sisi lesi (kanan/kiri) (2)",
+            "Roll test sebagai pelengkap diagnostik (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penunjang rasional (8 poin)",
+          "sub": [
+            "Menyebut diagnosis klinis sebelum meminta imaging (2)",
+            "GDS / EKG sesuai indikasi metabolik/kardio (2)",
+            "Otoskopi rutin (1)",
+            "Tidak meminta CT/MRI pada BPPV tipikal tanpa red flags (3)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Diagnosis dan DD (8 poin)",
+          "sub": [
+            "Menyebut BPPV kanal posterior kanan (4)",
+            "Menyebut DD neuritis vestibular, vestibular migraine, Ménière (2)",
+            "Menyebut stroke posterior sebagai DD kritis (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Tatalaksana dan edukasi (6 poin)",
+          "sub": [
+            "Manuver Epley kanan sebagai tatalaksana definitif (4)",
+            "Obat simtomatik singkat (antiemetik/vestibular suppressant 1-3 hari) (2)",
+            "Safety / hindari menyetir saat kambuh (2)",
+            "Bangun dari tidur perlahan (2)",
+            "Follow-up 1-2 minggu (2)",
+            "Edukasi red flags stroke (3)",
+            "Komunikasi menenangkan / empatik (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Poin diberikan per sub-item secara parsial — peserta tidak harus sempurna di setiap sub-item untuk mendapat sebagian poin. Critical error (lihat s10) tidak memiliki poin langsung tetapi dapat menggugurkan kelulusan meskipun skor angka cukup.",
+          "answer_evidence": "BLUEPRINT — Total poin 110/100, sistem partial credit"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE adalah tindakan atau kelalaian yang menyebabkan pemotongan nilai besar atau kegagalan stasiun meskipun skor angka terlihat cukup. Pada BPPV, critical error terutama terkait skrining red flags stroke posterior, pengaman jatuh, dan tatalaksana rasional.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Tidak menilai red flags stroke posterior",
+          "sub": [
+            "Kenapa critical: kelalaian menyaring diplopia, disartria, disfagia, ataksia berat, kelemahan/baal satu sisi, atau nyeri kepala hebat dapat menyebabkan stroke posterior terlewat dengan konsekuensi mortalitas/morbiditas tinggi",
+            "Recovery move: bila peserta menyadari kelalaiannya, lakukan skrining red flags sebelum menutup anamnesis, dan jika ada keraguan tetap nyatakan kemungkinan stroke posterior dalam DD serta rencana rujukan"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Melakukan pemeriksaan keseimbangan tanpa menjaga pasien dari jatuh",
+          "sub": [
+            "Kenapa critical: uji keseimbangan (Romberg, tandem gait, Dix-Hallpike) dapat memicu pusing berat dan pasien jatuh — tanpa pengaman dapat menyebabkan cedera",
+            "Recovery move: posisikan pendamping/penguji di sisi pasien, jelaskan bahwa prosedur dapat memicu pusing, dan observasi ketat saat pengujian"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Langsung menyimpulkan BPPV tanpa membedakan vertigo perifer vs sentral",
+          "sub": [
+            "Kenapa critical: lesi sentral (stroke, tumor) dapat bermanifestasi sebagai vertigo dan memerlukan tatalaksana emergensi; melewatkan DD ini berbahaya",
+            "Recovery move: selalu lakukan skrining red flags dan pemeriksaan nervus kranialis, koordinasi, serta gait untuk menyingkirkan lesi sentral sebelum konfirmasi diagnosis perifer"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Menganjurkan vestibular suppressant lama tanpa manuver/reposisi dan tanpa follow-up",
+          "sub": [
+            "Kenapa critical: obat jangka panjang menghambat kompensasi vestibular dan memperpanjang pemulihan; tidak mengajarkan manuver Epley meninggalkan penyebab BPPV tanpa tatalaksana definitif",
+            "Recovery move: prioritaskan manuver Epley sebagai terapi utama, gunakan vestibular suppressant maksimal 1-3 hari, dan jadwalkan follow-up untuk evaluasi perbaikan"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Tidak menyaring red flags stroke posterior (diplopia, disartria, ataksia berat) adalah error paling umum di stasiun BPPV. Peserta yang terlalu cepat menyimpulkan diagnosis perifer sering melewatkan lesi sentral berbahaya.",
+          "answer_evidence": "BLUEPRINT — Critical Error 1"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_dd_08",
+        "gls_sken_bppv_drug_05"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji lengkap, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "NASKAH PROBANDUS LENGKAP — Ibu Rina, 45 tahun, guru SD, datang sendiri. Kalimat pembuka: 'Dok, sejak beberapa hari ini saya sering merasa berputar kalau bangun dari tidur atau menoleh.' Tampak cemas ringan, memegang kursi saat berdiri, kooperatif, tidak tampak lemah satu sisi. Bila peserta bertanya: onset 5 hari lalu, serangan 20-40 detik; pencetus bangun tidur, miring kanan, menoleh kanan, menengadah; karakter ruangan berputar; mual ringan, TIDAK ada muntah hebat, telinga berdenging, pendengaran turun, nyeri telinga, demam, nyeri kepala hebat, pandangan ganda, bicara pelo, sulit menelan, baal, atau lemah anggota gerak; belum pernah seperti ini, tidak ada trauma kepala, riwayat migren disangkal, tidak minum obat rutin; masih bisa berjalan tetapi takut kambuh saat naik motor.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji:",
+          "sub": [
+            "Berikan informasi HANYA bila peserta bertanya atau menyebutkan pemeriksaan dengan benar — jangan membocorkan data spontan",
+            "Pastikan posisi aman dan tersedia pengaman jatuh untuk uji keseimbangan/Dix-Hallpike",
+            "Peserta yang menyebut red flag dengan benar → jawab 'tidak ada' untuk masing-masing",
+            "Peserta yang melakukan uji posisi tanpa izin/konfirmasi → pertegas kembali bahwa informed consent wajib",
+            "Peserta yang meminta penunjang tidak rasional (misal MRI tanpa red flags) → ingatkan bahwa imaging rutin tidak diperlukan",
+            "Peserta yang langsung meresepkan vestibular suppressant jangka panjang → pertegas perlunya manuver Epley + follow-up",
+            "Catat durasi dan urutan tindakan peserta pada lembar observasi untuk skoring"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Global rating (referensi):",
+          "sub": [
+            "Excellent: alur sistematis, aman, diagnosis kuat, penunjang rasional, komunikasi empatik, edukasi jelas",
+            "Pass: mayoritas komponen inti dilakukan, tidak ada critical error, diagnosis/tatalaksana cukup aman",
+            "Borderline: ada lubang pada anamnesis/pemeriksaan/edukasi, tetapi tidak membahayakan secara langsung",
+            "Fail: critical error, tidak mengenali red flags, atau diagnosis/tatalaksana tidak aman"
+          ],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "Bhattacharyya N et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg 2017",
+            "PERDOSSI (Perhimpunan Dokter Spesialis Saraf Indonesia) — Panduan Tatalaksana Vertigo",
+            "von Brevern M et al. Epidemiology of benign paroxysmal positional vertigo: a population-based study. J Neurol Neurosurg Psychiatry 2007",
+            "Hilton MP, Pinder DK. The Epley (canalith repositioning) manoeuvre for benign paroxysmal positional vertigo. Cochrane Database Syst Rev 2014"
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Diagnosis kerja dan distribusi poin hanya untuk objektivitas penilaian.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bppv_definition_01",
+        "gls_sken_bppv_procedure_02",
+        "gls_sken_bppv_procedure_03"
+      ],
+      "bilingual": ""
+    }
+  ]
+}

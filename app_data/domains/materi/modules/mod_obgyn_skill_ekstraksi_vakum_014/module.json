@@ -1,0 +1,1714 @@
+{
+  "id": "mod_obgyn_skill_ekstraksi_vakum_014",
+  "title": "Ekstraksi Vakum",
+  "subtitle": "Persalinan dengan alat bantu vakum sesuai indikasi dan protokol 3 tarikan, 3 detach.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_4",
+  "source_pdf": "Batch4_6.1_Modul_3_Ekstraksi_Vakum.docx",
+  "source_filename": "Batch4_6.1_Modul_3_Ekstraksi_Vakum.docx",
+  "topicTags": [
+    "osce_6_1",
+    "ekstraksi_vakum",
+    "vacuum_extraction",
+    "persalinan_tindakan",
+    "hodge_station",
+    "kala_ii_memanjang",
+    "chignon",
+    "sefalohematoma",
+    "persalinan_assisted"
+  ],
+  "summary": [
+    "Ekstraksi vakum adalah tindakan obstetri berisiko tinggi yang membantu traksi kepala janin pada kala II dengan mangkuk bertekanan negatif, hanya aman bila syarat terpenuhi: pembukaan lengkap, presentasi belakang kepala, kepala rendah/Hodge IV, tidak ada CPD, dan janin hidup.",
+    "Indikasi utama vakum: kala II memanjang (>2 jam primi, >1 jam multi tanpa anestesia atau >3 jam primi, >2 jam multi dengan anestesia), kelelahan ibu, dan gawat janin ringan. Indikasi jatuh pada dokter dengan kompetensi dan supervisi SpOG.",
+    "Protokol tindakan: informed consent tertulis → persiapan ibu-bayi-penolong → VT verifikasi syarat → posisi litotomi → pasang cup miring di flexion point → tekanan bertahap 100→400→600 mmHg → traksi sinkron his mengikuti sumbu jalan lahir → lahirkan kepala-bahu-badan → manajemen aktif kala III → eksplorasi jalan lahir.",
+    "Kapan harus berhenti: cup lepas >2–3 kali, tidak ada kemajuan setelah 2–3 tarikan benar, waktu/tekanan melebihi batas (>20–30 menit), DJJ <110 atau >160, kondisi ibu memburuk, jaringan terjepit, distosia bahu. Setelah gagal sesuai batas, hentikan, evaluasi, dan rujuk SC.",
+    "Komplikasi bayi: chignon (caput suksesanuum artifisial, membaik 24–48 jam), sefal hematoma, perdarahan subgaleal/subaponeurotik (emergensi, dapat menyebabkan syok), fraktur, palsi saraf. Komplikasi ibu: robekan jalan lahir, PPH, atonia uteri, OASI.",
+    "Komunikasi OSCE dinilai berat: informed consent harus jelas tentang diagnosis kala II memanjang, alasan vakum, risiko ibu dan bayi, kemungkinan gagal/SC, alternatif. Keluarga harus bisa mengulang penjelasan sebelum tanda tangan.",
+    "Pada OSCE, prioritas tertinggi adalah menyebutkan SYARAT VAKUM sebelum tindakan dan menyebutkan KAPAN BERHENTI. Penguji menilai pemahaman indikasi dan keselamatan — urutan, asepsis, dan dokumentasi tidak kalah penting.",
+    "Setelah bayi lahir: nilai APGAR 1/5/10 menit, IMD dalam 1 jam, oksitosin 10 IU IM dalam 1 menit pasca bayi lahir, manajemen aktif kala III (tanda lepas → traksi tali pusat terkendali), eksplorasi jalan lahir, jahit robekan sesuai derajat."
+  ],
+  "exam_focus": [
+    "[FATAL] Lupa menyebut syarat vakum sebelum tindakan — penguji menilai tidak paham indikasi, skor hangus.",
+    "[FATAL] Vakum sebelum pembukaan lengkap, pada presentasi bukan kepala, atau pada kepala masih tinggi (Hodge III atau lebih) — kontraindikasi absolut, skor hangus.",
+    "[FATAL] Tidak memeriksa jaringan terjepit setelah pemasangan cup — dapat melukai serviks/vagina, skor hangus.",
+    "[FATAL] Tarikan tidak sinkron his atau tekanan terlalu lama di tekanan maksimal — traksi tidak efektif, trauma ibu dan bayi, skor hangus.",
+    "[FATAL] Tidak menyiapkan tim bayi/resusitasi — vakum dapat terkait asfiksia, skor hangus.",
+    "[FATAL] Tidak eksplorasi jalan lahir, tidak informed consent tertulis, tidak cuci tangan/sarung tangan steril, tidak manajemen aktif kala III, atau tidak dokumentasi SOAP — skor hangus untuk etika, asepsis, keselamatan, atau rekam medis.",
+    "[FATAL] Memaksakan vakum saat gagal (tidak berhenti sesuai batas waktu) — risiko cedera ibu dan bayi, skor hangus.",
+    "[PENGURANGAN BESAR] Tidak menyebut diagnosis kerja (kala II memanjang, gawat janin) atau tidak menyebut kode ICD-10 (O63.1, O68.x, O66.5) — skor turun untuk kelengkapan klinis dan dokumentasi.",
+    "[PENGURANGAN BESAR] Tidak edukasi tanda bahaya ibu (perdarahan, demam, pusing) dan bayi (kuning, kejang, tangisan lemah) atau tidak menyebut konsentrasi/dosis uterotonika — skor turun.",
+    "Selalu verbalisasi syarat vakum, kapan berhenti, dan prinsip traksi sinkron his — urutan dan keselamatan lebih penting daripada gaya pada OSCE."
+  ],
+  "glossary": [
+    {
+      "id": "gls_vakum_ekstraksi_01",
+      "term": "Ekstraksi vakum",
+      "def": "Tindakan obstetri pervaginam untuk membantu traksi kepala janin pada kala II menggunakan mangkuk (cup) yang ditempelkan pada kepala bayi dengan tekanan negatif, ditarik sinkron his mengikuti sumbu jalan lahir. Tindakan berisiko tinggi, hanya aman bila syarat terpenuhi dan dilakukan oleh operator terlatih dengan fasilitas lengkap.",
+      "type": "procedure",
+      "aliases": [
+        "vacuum extraction",
+        "VE",
+        "vakum extractor"
+      ]
+    },
+    {
+      "id": "gls_vakum_hodge_02",
+      "term": "Hodge station",
+      "def": "Sistem empat bidang khayal Hodge I–IV untuk menilai station/penurunan kepala janin di panggul. Hodge I: bidang superior symfisis pubis (PAP); Hodge II: bidang inferior symfisis; Hodge III: spina ischiadica; Hodge IV: dasar panggul (coccygeus). Syarat vakum: kepala minimal Hodge III/IV (station 0 atau lebih rendah).",
+      "type": "anatomy",
+      "aliases": [
+        "Hodge I",
+        "Hodge II",
+        "Hodge III",
+        "Hodge IV",
+        "station kepala"
+      ]
+    },
+    {
+      "id": "gls_vakum_cpd_03",
+      "term": "CPD (Cephalopelvic Disproportion)",
+      "def": "Disproporsi sefalopelvik: ukuran kepala janin tidak sebanding dengan jalan lahir panggul ibu, menyebabkan kepala tidak turun meskipun his adekuat. Tanda: molding berat, caput succedaneum luas, kepala tidak engaged. CPD curiga adalah kontraindikasi absolut vakum — lakukan SC, jangan paksakan vakum.",
+      "type": "clinical",
+      "aliases": [
+        "Cephalopelvic Disproportion",
+        "disproporsi sefalopelvik"
+      ]
+    },
+    {
+      "id": "gls_vakum_chignon_04",
+      "term": "Chignon",
+      "def": "Caput suksesanuum artifisial (edema kulit kepala) di lokasi pemasangan mangkuk vakum akibat tekanan negatif. Edema Berbatas tegas sesuai diameter cup, biasanya membaik dalam 24–48 jam. Bukan komplikasi serius, hanya tanda bahwa vakum telah dipasang. Berbeda dengan cephalhematoma yang merupakan perdarahan subperiosteal.",
+      "type": "clinical",
+      "aliases": [
+        "caput suksesanuum artifisial",
+        "edem akibat vakum"
+      ]
+    },
+    {
+      "id": "gls_vakum_sefalhematoma_05",
+      "term": "Sefal hematoma (Cephalhematoma)",
+      "def": "Perdarahan subperiosteal pada tulang kepala bayi akibat tarikan atau trauma persalinan. Benjolan Berbatas tegas sesuai satu tulang kepala, tidak melewati sutura. Berbeda dari caput succedaneum (melewati sutura). Umumnya membaik spontan dalam 2–6 minggu, namun perlu observasi karena risiko hiperbilirubinemia dan kalsifikasi.",
+      "type": "clinical",
+      "aliases": [
+        "Cephalhematoma",
+        "perdarahan subperiosteal"
+      ]
+    },
+    {
+      "id": "gls_vakum_cup_06",
+      "term": "Cup vakum",
+      "def": "Mangkuk yang dipasang pada kepala janin untuk transmisi tekanan negatif dan gaya traksi. Jenis: soft cup (silastic, lentur, untuk traksi ringan dan presentasi OA) dan metal cup (rigid, untuk traksi kuat atau malposisi ringan). Diameter: 40–60 mm. Dipasang miring untuk menghindari menjepit jaringan ibu.",
+      "type": "anatomy",
+      "aliases": [
+        "mangkuk vakum",
+        "vacuum cup",
+        "mangkuk ekstraksi"
+      ]
+    },
+    {
+      "id": "gls_vakum_litotomi_07",
+      "term": "Posisi litotomi",
+      "def": "Posisi ibu berbaring telentang dengan tungkai difleksikan dan ditempatkan pada penyangga kaki (stirrup), paha abduksi, memungkinkan akses ke genitalia eksterna. Wajib untuk prosedur ginekologi dan ekstraksi vakum. Perhatian: hindari terlalu lama untuk mencegah supine hypotensive syndrome.",
+      "type": "procedure",
+      "aliases": [
+        "lithotomy position",
+        "posisi litotomi"
+      ]
+    },
+    {
+      "id": "gls_vakum_informed_consent_08",
+      "term": "Informed consent",
+      "def": "Persetujuan tindakan medis yang diberikan pasien/keluarga setelah menerima penjelasan lengkap tentang diagnosis, tujuan prosedur, manfaat, risiko, alternatif, dan kemungkinan komplikasi/kegagalan. Pada ekstraksi vakum, informed consent tertulis dari pasien/keluarga wajib sebelum tindakan karena berisiko tinggi.",
+      "type": "clinical",
+      "aliases": [
+        "persetujuan tindakan medis",
+        "IC"
+      ]
+    },
+    {
+      "id": "gls_vakum_apd_09",
+      "term": "APD (Alat Pelindung Diri)",
+      "def": "Perlengkapan standar penolong yang wajib dipakai sebelum setiap tindakan ginekologi/persalinan: sarung tangan steril/DTT panjang, gaun operasi/apron plastik, masker, kacamata pelindung, penutup kepala, sepatu boot anti-air. Berfungsi melindungi penolong dari paparan darah dan cairan tubuh.",
+      "type": "procedure",
+      "aliases": [
+        "personal protective equipment",
+        "PPE",
+        "alat pelindung diri"
+      ]
+    },
+    {
+      "id": "gls_vakum_kala2_10",
+      "term": "Kala II",
+      "def": "Fase persalinan dari pembukaan lengkap (10 cm) hingga bayi lahir. Ditandai dorongan meneran, perineum menonjol, vulva dan sfingter ani membuka. Batas waktu: >2 jam primi, >1 jam multi tanpa anestesia, atau >3 jam primi, >2 jam multi dengan anestesia → kala II memanjang (kontraindikasi jika SC, indikasi vakum jika syarat terpenuhi).",
+      "type": "clinical",
+      "aliases": [
+        "kala dua",
+        "second stage of labor"
+      ]
+    },
+    {
+      "id": "gls_vakum_presentasi_11",
+      "term": "Presentasi belakang kepala",
+      "def": "Presentasi kepala janin dengan oksiput (belakang kepala) sebagai bagian terendah/mendahului, fontanel posterior teraba di VT. Syarat vakum: presentasi harus kepala dan posisi diketahui (OA kiri/kanan, OP). Vakum DILARANG pada presentasi muka, dahi, bokong, atau lintang.",
+      "type": "clinical",
+      "aliases": [
+        "vertex presentation",
+        "presentasi verteks",
+        "presentasi oksiput"
+      ]
+    },
+    {
+      "id": "gls_vakum_perdarahan_subgaleal_12",
+      "term": "Perdarahan subgaleal (subaponeurotik)",
+      "def": "Perdarahan di bawah galea aponeurotik (antara periosteum tengkorak dan galea) akibat robekan vena emiseria atau sinus, umumnya karena tarikan vakum. Berbeda dari cephalhematoma: melewati sutura, benjolan progresif, dapat meluas ke leher dan telinga. Komplikasi emergensi — syok hipovolemik, transfusi, rujuk.",
+      "type": "clinical",
+      "aliases": [
+        "perdarahan subaponeurotik",
+        "subgaleal hemorrhage",
+        "SGH"
+      ]
+    },
+    {
+      "id": "gls_vakum_oksitosin_13",
+      "term": "Oksitosin",
+      "def": "Hormon/uterotonika yang menstimulasi kontraksi uterus. Pada manajemen aktif kala III, diberikan 10 IU IM dalam 1 menit pasca bayi lahir untuk mencegah perdarahan postpartum (PPH). Wajib memastikan hamil tunggal sebelum penyuntikan agar tidak masuk ke bayi kedua.",
+      "type": "drug",
+      "aliases": [
+        "oxytocin",
+        "Pitocin",
+        "uterotonika"
+      ]
+    },
+    {
+      "id": "gls_vakum_pph_14",
+      "term": "PPH (Perdarahan Postpartum)",
+      "def": "Perdarahan >500 mL pada persalinan pervaginam normal atau >1000 mL pada seksio sesarea. Penyebab: 4T (Tonus/atonia, Trauma/robekan, Tissu/sisa plasenta, Trombin/koagulopati). Tatalaksana: masase uterus, uterotonika (oksitosin, ergometrin, misoprostol), eksplorasi jalan lahir, balon tamponade, rujuk SpOG.",
+      "type": "clinical",
+      "aliases": [
+        "perdarahan pascapersalinan",
+        "postpartum hemorrhage"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_vakum_01",
+      "term_id": "Ekstraksi vakum",
+      "term_en": "Vacuum extraction",
+      "context": "Tindakan persalinan berbantu dengan mangkuk bertekanan negatif untuk traksi kepala janin pada kala II."
+    },
+    {
+      "id": "bil_vakum_02",
+      "term_id": "Hodge station",
+      "term_en": "Hodge plane / station",
+      "context": "Sistem empat bidang Hodge I-IV untuk menilai station kepala janin di panggul. Syarat vakum: kepala minimal Hodge III/IV."
+    },
+    {
+      "id": "bil_vakum_03",
+      "term_id": "CPD (Cephalopelvic Disproportion)",
+      "term_en": "Cephalopelvic disproportion",
+      "context": "Disproporsi sefalopelvik: kepala bayi tidak sebanding dengan panggul ibu. Kontraindikasi absolut vakum — SC."
+    },
+    {
+      "id": "bil_vakum_04",
+      "term_id": "Chignon",
+      "term_en": "Artificial caput succedaneum / chignon",
+      "context": "Edema kulit kepala di lokasi cup vakum, tanda pemasangan vakum berhasil, membaik 24–48 jam."
+    },
+    {
+      "id": "bil_vakum_05",
+      "term_id": "Sefal hematoma",
+      "term_en": "Cephalhematoma",
+      "context": "Perdarahan subperiosteal pada tulang kepala, tidak melewati sutura, umumnya membaik 2–6 minggu."
+    },
+    {
+      "id": "bil_vakum_06",
+      "term_id": "Kala II memanjang",
+      "term_en": "Prolonged second stage",
+      "context": "Kala II >2 jam primi atau >1 jam multi tanpa anestesia, atau >3 jam primi, >2 jam multi dengan anestesia. Indikasi utama vakum."
+    },
+    {
+      "id": "bil_vakum_07",
+      "term_id": "Posisi litotomi",
+      "term_en": "Lithotomy position",
+      "context": "Posisi ibu telentang dengan tungkai difleksikan pada penyangga, akses genitalia untuk prosedur ginekologi dan vakum."
+    },
+    {
+      "id": "bil_vakum_08",
+      "term_id": "Informed consent",
+      "term_en": "Informed consent",
+      "context": "Persetujuan tertulis pasien/keluarga setelah penjelasan diagnosis, prosedur, risiko, alternatif. Wajib untuk vakum."
+    },
+    {
+      "id": "bil_vakum_09",
+      "term_id": "Presentasi belakang kepala",
+      "term_en": "Vertex / occiput presentation",
+      "context": "Presentasi kepala dengan oksiput sebagai bagian terendah. Syarat vakum. Dilarang pada muka, dahi, bokong, lintang."
+    },
+    {
+      "id": "bil_vakum_10",
+      "term_id": "Perdarahan subgaleal",
+      "term_en": "Subgaleal hemorrhage",
+      "context": "Perdarahan di bawah galea aponeurotik, emergensi, dapat menyebabkan syok hipovolemik. Komplikasi vakum yang serius."
+    },
+    {
+      "id": "bil_vakum_11",
+      "term_id": "Gawat janin kala II",
+      "term_en": "Intrapartum fetal distress",
+      "context": "DJJ <110 atau >160, bradikardia, deselerasi. Indikasi vakum emergensi atau SC sesuai syarat."
+    },
+    {
+      "id": "bil_vakum_12",
+      "term_id": "Traksi sinkron his",
+      "term_en": "Contraction-synchronized traction",
+      "context": "Prinsip traksi vakum yang hanya dilakukan saat puncak his dan ibu meneran, mengikuti sumbu jalan lahir."
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Format SOAP standar RS pendidikan",
+      "source_reference": "Standar RS pendidikan Indonesia",
+      "confidence": "medium",
+      "note": "Format SOAP di §13 mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas. [DITAMBAHKAN SAAT STANDARDISASI]"
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Kode ICD-10 untuk ekstraksi vakum dan komplikasi",
+      "source_reference": "ICD-10 WHO 2019",
+      "confidence": "high",
+      "note": "Daftar kode ICD-10 untuk persalinan dengan vakum (O81.x), kala II memanjang (O63.1), PPH (O72.x), robekan perineum (O70.0–O70.3), gagal vakum (O66.5), bayi hidup (Z37.0). [DITAMBAHKAN SAAT STANDARDISASI]"
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Jadwal tindak lanjut pasca-tindakan",
+      "source_reference": "WHO Postnatal Care 2022, SOP FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Jadwal kunjungan postpartum (1 jam, 6 jam, 24 jam, 1 minggu, 6 minggu) mengikuti standar WHO Postnatal Care 2022. [DITAMBAHKAN SAAT STANDARDISASI]"
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Kapan berhenti vakum sesuai guideline",
+      "source_reference": "RCOG Green-top Guideline No. 26 (Assisted Vaginal Birth)",
+      "confidence": "high",
+      "note": "Kapan henti vakum (cup lepas >2-3×, tidak ada kemajuan, waktu >20-30 menit, kondisi memburuk) mengikuti RCOG Green-top Guideline No. 26. [DITAMBAHKAN SAAT STANDARDISASI]"
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_vakum_syarat_01",
+      "module_id": "mod_obgyn_skill_ekstraksi_vakum_014",
+      "section_id": "s11",
+      "type": "flowchart",
+      "generation_prompt": "Infografik Bahasa Indonesia: syarat ekstraksi vakum sebelum tindakan, pembukaan lengkap, ketuban pecah, kepala rendah, presentasi kepala, posisi diketahui, tidak CPD, resusitasi bayi siap, gaya medical OSCE checklist.",
+      "alt": "Infografik syarat vakum: pembukaan lengkap, presentasi kepala, Hodge IV, tidak CPD, ketuban pecah, kandung kemih kosong, resusitasi bayi siap.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/syarat_vakum.png"
+    },
+    {
+      "id": "visual_vakum_posisi_cup_02",
+      "module_id": "mod_obgyn_skill_ekstraksi_vakum_014",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi medis potongan sagital panggul saat ekstraksi vakum, cup ditempelkan pada kepala janin, label vagina, serviks, kepala janin, sumbu tarikan, tidak vulgar, textbook style, clean medical illustration.",
+      "alt": "Ilustrasi medis potongan sagital panggul: cup vakum menempel pada flexion point kepala janin, sumbu tarikan mengikuti jalan lahir.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/posisi_cup_vakum.png"
+    },
+    {
+      "id": "visual_vakum_arah_tarikan_03",
+      "module_id": "mod_obgyn_skill_ekstraksi_vakum_014",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Diagram tiga tahap arah traksi vakum: sejajar lantai saat kepala rendah, lalu mengikuti kurva jalan lahir ke atas saat suboksiput di bawah simfisis, clean vector arrows, label Bahasa Indonesia.",
+      "alt": "Diagram arah traksi: sejajar lantai saat kepala di Hodge IV, lalu ke atas mengikuti sumbu jalan lahir saat crowning, untuk mencegah trauma.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/arah_tarikan_vakum.png"
+    },
+    {
+      "id": "visual_vakum_komplikasi_bayi_04",
+      "module_id": "mod_obgyn_skill_ekstraksi_vakum_014",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Poster edukasi klinis: chignon/caput, cephalhematoma, warning subgaleal hemorrhage, monitoring bayi setelah vakum, gaya medis profesional, label Bahasa Indonesia.",
+      "alt": "Poster komplikasi bayi pasca vakum: chignon (edem cup), cephalhematoma (perdarahan subperiosteal), perdarahan subgaleal (emergensi), label monitoring.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/komplikasi_bayi_vakum.png"
+    },
+    {
+      "id": "visual_vakum_algoritma_gagal_05",
+      "module_id": "mod_obgyn_skill_ekstraksi_vakum_014",
+      "section_id": "s11",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart OSCE: tarikan efektif tidak maju, cup lepas, waktu/tekanan melebihi batas, kondisi janin memburuk -> hentikan, panggil senior/rujuk/SC, Bahasa Indonesia. Clean flowchart, warna kontras untuk keterbacaan.",
+      "alt": "Flowchart kapan henti vakum: tarikan tidak efektif, cup lepas, waktu >20-30 menit, DJJ memburuk → HENTIKAN, panggil senior/rujuk SC.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_ekstraksi_vakum_014/assets/algoritma_gagal_vakum.png"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Pengenalan ekstraksi vakum: definisi, prinsip klinis, skenario Ny. Sari, dan 10 langkah alur besar yang wajib dihafal.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Ekstraksi vakum (vacuum extraction) adalah tindakan obstetri berisiko tinggi yang membantu **traksi kepala janin pada kala II** menggunakan mangkuk (cup) bertekanan negatif. Modul ini menjadi salah satu skill padat di OSCE Blok 6.1 karena menggabungkan komunikasi risiko, verifikasi syarat, pemasangan cup, prinsip traksi sinkron his, keselamatan ibu-bayi, dan pascatindakan. Sumber utama: PDF Penuntun Belajar Keterampilan Klinik Ekstraksi Vakum (FKIK Universitas Jambi), SKDI 4A Obgyn, WHO Intrapartum Care 2018, dan RCOG Green-top Guideline No. 26 — Assisted Vaginal Birth.",
+          "tone": "narrative",
+          "source": "§1 Ringkasan File Sumber dan Target OSCE"
+        },
+        {
+          "text": "**Prinsip klinis utama:** Vakum membantu traksi kepala janin pada kala II, tetapi **hanya aman bila syarat terpenuhi**: pembukaan lengkap, presentasi belakang kepala, kepala rendah/engaged (Hodge IV atau lebih rendah), tidak prematur menurut kebijakan lokal, dan tidak ada disproporsi sefalopelvik (CPD). Bila syarat tidak terpenuhi, jangan paksakan — rujuk atau lakukan SC. Tindakan nyata hanya oleh tenaga terlatih dengan fasilitas lengkap, supervisi, dan rencana rujukan.",
+          "tone": "clinical",
+          "source": "§1 Prinsip klinis"
+        },
+        {
+          "text": "**Skenario pasien fiktif** (digunakan konsisten di §1, §9, §13, §15, dan Lampiran C): *Ny. Sari, 26 tahun, G2P1A0, hamil 39 minggu, inpartu kala II, pembukaan lengkap 1 jam yang lalu, kepala di Hodge IV, presentasi belakang kepala, DJJ 130 x/menit, his adekuat. Ibu mulai kelelahan. Informed consent verbal sudah diberikan.*",
+          "tone": "narrative",
+          "source": "§1 Skenario klinis utama"
+        },
+        {
+          "text": "**Cara memakai modul ini (dari file sumber):** Prioritas tertinggi adalah **checklist penilaian dari file kampus** (§3). Hafalkan urutan besar tindakan, baru pahami alasan klinis setiap langkah. Bagian 'wajib lulus station' berisi hal yang paling mungkin dinilai penguji: komunikasi, keselamatan, teknik inti, interpretasi, dan edukasi. Bahasa dibuat sederhana untuk mahasiswa baru kedokteran.",
+          "tone": "narrative",
+          "source": "§1 Cara memakai modul"
+        },
+        {
+          "text": "**Identitas skill & target OSCE:** Nama skill: ekstraksi vakum pada kala II lama/indikasi persalinan berbantu. Fokus checklist: komunikasi & informed consent, persiapan ibu-penolong-bayi, pencegahan infeksi, pemeriksaan syarat vakum, pemasangan cup, tekanan bertahap, tarikan saat his, lahirkan bayi, plasenta, eksplorasi jalan lahir, penjahitan, dekontaminasi, perawatan pasca tindakan.",
+          "tone": "clinical",
+          "source": "§1 Tabel Identitas Skill"
+        },
+        {
+          "text": "**Pesan kunci dari file sumber:** *'Ekstraksi vakum adalah tindakan obstetri berisiko tinggi. Dalam OSCE mahasiswa, fokus utama adalah mengenali indikasi, syarat, persiapan, prinsip teknik, keselamatan, kapan menghentikan, dan pascatindakan. Di praktik nyata, tindakan dilakukan oleh tenaga terlatih dengan fasilitas, supervisi, kesiapan resusitasi bayi, dan rencana rujukan/operasi bila gagal. Jangan memahami modul ini sebagai izin melakukan tindakan mandiri tanpa kewenangan dan supervisi.'*",
+          "tone": "narrative",
+          "source": "§1 Peringatan penting"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Definisi sederhana: ekstraksi vakum = **mangkuk bertekanan negatif untuk traksi kepala janin pada kala II, hanya bila syarat terpenuhi**.",
+          "sub": [],
+          "bold": true,
+          "source": "§1 Ringkasan"
+        },
+        {
+          "text": "**4 syarat wajib** vakum: pembukaan lengkap, presentasi belakang kepala, kepala Hodge IV/engaged, tidak ada CPD. Plus: kandung kemih kosong, ketuban pecah, resusitasi bayi siap.",
+          "sub": [],
+          "bold": true,
+          "source": "§1 Prinsip klinis + §4"
+        },
+        {
+          "text": "**3 indikasi utama vakum:** kala II memanjang, kelelahan ibu, gawat janin ringan. Bukan untuk persalinan normal tanpa indikasi.",
+          "sub": [],
+          "bold": true,
+          "source": "§1 + §4"
+        },
+        {
+          "text": "Output akhir tindakan: bayi lahir dengan APGAR baik, plasenta lengkap, perdarahan <500 mL, tidak ada robekan derajat 3–4, ibu dan bayi stabil, edukasi selesai.",
+          "sub": [],
+          "bold": true,
+          "source": "§8 Evaluasi keberhasilan"
+        },
+        {
+          "text": "Strategi membaca modul: hafalkan alur checklist dulu (§3), baru pahami alasan klinisnya. Pada OSCE, nilai sering hilang bukan karena tidak tahu teori, tetapi karena **urutan, komunikasi, asepsis, dan dokumentasi tidak lengkap**.",
+          "sub": [],
+          "bold": false,
+          "source": "§1 Prinsip utama"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip Utama — Syarat & Kapan Berhenti",
+          "text": "Vakum membantu traksi kepala janin pada kala II, tetapi hanya aman bila syarat terpenuhi. Penguji sangat memperhatikan apakah Anda menyebutkan **syarat, keselamatan ibu-bayi, dan kapan menghentikan tindakan**. Bila syarat tidak terpenuhi, jangan paksakan — rujuk atau SC.",
+          "answer_evidence": "§1 Prinsip klinis + §2 Pesan kunci (file sumber: PDF Penuntun Belajar Ekstraksi Vakum FKIK Universitas Jambi)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "5 Tips Nilai Tinggi",
+          "text": "1) Sebutkan syarat vakum sebelum tindakan — penguji menilai pemahaman indikasi. 2) Cek jaringan terjepit setelah pemasangan cup. 3) Tarik hanya saat puncak his dan ibu meneran — mengikuti sumbu jalan lahir. 4) Siapkan tim bayi dan resusitasi. 5) Ketahui kapan berhenti — cup lepas berulang, tidak ada kemajuan, waktu/tekanan melebihi batas, kondisi ibu/janin memburuk.",
+          "answer_evidence": "§2 Tips nilai tinggi (dari file sumber)"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Batas Penggunaan Klinis",
+          "text": "Bahan belajar dan simulasi. Tindakan klinis nyata wajib dalam supervisi dan sesuai SOP fasilitas. Ekstraksi vakum adalah tindakan berisiko tinggi dan hanya boleh dilakukan oleh tenaga terlatih dengan fasilitas lengkap. **Jangan memahami modul ini sebagai izin melakukan tindakan mandiri tanpa kewenangan dan supervisi.**",
+          "answer_evidence": "§1 Batas penggunaan klinis + Peringatan penting"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Karakter Modul Ini",
+          "text": "Salah satu yang PALING PADAT di batch 4 — gunakan 145–150 menit total. Kekuatan: prosedur instrumental dengan protokol '3 tarikan, 3 detach' — jika gagal → SC atau forsep. Kunci OSCE: penyebutan syarat, kapan berhenti, dan keselamatan ibu-bayi.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md Modul 014 + §2"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_vakum_ekstraksi_01",
+        "gls_vakum_kala2_10",
+        "gls_vakum_hodge_02",
+        "gls_vakum_informed_consent_08"
+      ],
+      "bilingual": "Skenario klinis OSCE: Ny. Sari, 26 tahun, G2P1A0 hamil 39 minggu, kala II dengan pembukaan lengkap 1 jam, kepala Hodge IV, presentasi belakang kepala, ibu kelelahan. Mahasiswa harus menguasai 10 langkah alur vakum: informed consent → persiapan ibu-bayi-penolong → verifikasi syarat VT → posisi litotomi → pasang cup → tekanan bertahap → traksi sinkron his → lahirkan kepala-bahu-badan → plasenta → eksplorasi jalan lahir + pascatindakan."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Checklist 11 fase ekstraksi vakum: informed consent, persiapan, syarat, pemasangan cup, traksi, lahirkan bayi, plasenta, eksplorasi jalan lahir, pascatindakan — blueprint skor OSCE.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur besar OSCE ekstraksi vakum dalam **satu napas** terdiri dari 10 langkah utama. Pola kalimat harus diucapkan dengan suara keras (verbalisasi) dengan nada jelas. Tabel di bawah adalah blueprint skor OSCE — setiap fase memiliki item, makna praktis, dan prinsip yang dinilai.",
+          "tone": "clinical",
+          "source": "§2 Alur Besar OSCE"
+        },
+        {
+          "text": "**Langkah 1 — Informed consent:** jelaskan diagnosis, alasan vakum, manfaat, risiko, alternatif, kemungkinan gagal/rujuk/SC. OSCE menilai komunikasi risiko dan consent.",
+          "tone": "clinical",
+          "source": "§2 Langkah 1"
+        },
+        {
+          "text": "**Langkah 2 — Persiapan pasien:** infus, area perineum bersih, posisi litotomi, kandung kemih kosong, alat dan obat siap. Tindakan hanya aman bila ibu stabil, alat lengkap, infus siap.",
+          "tone": "clinical",
+          "source": "§2 Langkah 2"
+        },
+        {
+          "text": "**Langkah 3 — Persiapan penolong:** APD, cuci tangan hingga siku, sarung tangan steril/DTT. Pencegahan infeksi wajib.",
+          "tone": "clinical",
+          "source": "§2 Langkah 3"
+        },
+        {
+          "text": "**Langkah 4 — Persiapan bayi:** alat resusitasi, penghisap lendir, meja hangat, oksigen, **petugas bayi siap**. Vakum bisa berakhir dengan bayi perlu resusitasi.",
+          "tone": "clinical",
+          "source": "§2 Langkah 4"
+        },
+        {
+          "text": "**Langkah 5 — Pemeriksaan dalam (VT):** pastikan syarat vakum terpenuhi (pembukaan lengkap, presentasi kepala/belakang kepala, kepala rendah/engaged, tidak CPD). Mencegah vakum pada kondisi tidak aman.",
+          "tone": "clinical",
+          "source": "§2 Langkah 5"
+        },
+        {
+          "text": "**Langkah 6 — Pemasangan mangkuk:** masukkan miring, pasang pada kepala, pastikan tidak menjepit jaringan ibu. Cup harus tepat dan tidak menjepit jaringan ibu.",
+          "tone": "clinical",
+          "source": "§2 Langkah 6"
+        },
+        {
+          "text": "**Langkah 7 — Tekanan negatif bertahap,** edukasi meneran saat his, lakukan traksi sinkron dengan kontraksi. Traksi harus mengikuti sumbu jalan lahir dan sinkron his.",
+          "tone": "clinical",
+          "source": "§2 Langkah 7"
+        },
+        {
+          "text": "**Langkah 8 — Lahirkan kepala, bahu, badan,** potong tali pusat, serahkan bayi pada petugas bayi. Setelah kepala lahir, persalinan dilanjutkan seperti APN.",
+          "tone": "clinical",
+          "source": "§2 Langkah 8"
+        },
+        {
+          "text": "**Langkah 9 — Lahirkan plasenta,** periksa kelengkapan, eksplorasi jalan lahir, jahit robekan/episiotomi bila perlu. Mencegah retensio/PPH dan mendeteksi robekan.",
+          "tone": "clinical",
+          "source": "§2 Langkah 9"
+        },
+        {
+          "text": "**Langkah 10 — Dekontaminasi, cuci tangan, monitoring pascatindakan, dokumentasi.** Keselamatan pasien dan pencegahan infeksi nosokomial.",
+          "tone": "clinical",
+          "source": "§2 Langkah 10"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "11 kelompok checklist OSCE (Fase 1–11 sesuai §3):",
+          "sub": [
+            "Fase 1: Persetujuan tindakan medis (informed consent)",
+            "Fase 2: Persiapan pasien, obat, instrumen",
+            "Fase 3: Persiapan penolong dan bayi",
+            "Fase 4: Pencegahan infeksi dan pemeriksaan syarat",
+            "Fase 5: Pemasangan mangkuk dan tekanan",
+            "Fase 6: Penarikan (traksi)",
+            "Fase 7: Lahirkan bayi",
+            "Fase 8: Lahirkan plasenta",
+            "Fase 9: Eksplorasi jalan lahir dan penjahitan",
+            "Fase 10: Dekontaminasi dan perawatan pasca tindakan"
+          ],
+          "bold": true,
+          "source": "§3 Checklist OSCE Diterjemahkan"
+        },
+        {
+          "text": "Prinsip verbalisasi: kalimat OSCE untuk setiap fase harus diucapkan dengan suara keras dan nada jelas.",
+          "sub": [],
+          "bold": true,
+          "source": "§3 Catatan"
+        },
+        {
+          "text": "**Fase 5 (Pemeriksaan Syarat) — UJI KRITIS:** 9 syarat yang harus dipastikan sebelum vakum dapat dilanjutkan. Tabel §5 memuat 'Tindakan bila tidak terpenuhi' — umumnya JANGAN vakum, tunda/augmentasi/SC.",
+          "sub": [],
+          "bold": true,
+          "source": "§5 Syarat vakum"
+        },
+        {
+          "text": "**Fase 6 (Pemasangan Cup) — Kunci:** cup miring, posisi flexion point (3 cm anterior dari fontanel posterior), cek tidak ada jaringan terjepit. Tekanan 100 → 400 (dalam 2 menit) → maks 600 mmHg.",
+          "sub": [],
+          "bold": true,
+          "source": "§7 Fase Pemasangan Cup"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "5 Tips Nilai Tinggi Wajib Dihafal",
+          "text": "1) **Sebutkan syarat vakum** sebelum tindakan — penguji menilai pemahaman indikasi. 2) **Cek jaringan terjepit** setelah pemasangan cup. 3) **Tarik hanya saat puncak his** dan ibu meneran. 4) **Siapkan tim bayi dan resusitasi.** 5) **Ketahui kapan berhenti** — cup lepas berulang, tidak ada kemajuan, waktu/tekanan melebihi batas, kondisi ibu/janin memburuk.",
+          "answer_evidence": "§2 Tips nilai tinggi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pesan Kunci OSCE",
+          "text": "*\"Vakum hanya aman bila syarat terpenuhi. Bila syarat tidak terpenuhi, jangan paksakan — rujuk atau SC. Penguji sangat memperhatikan apakah Anda menyebutkan syarat, keselamatan ibu-bayi, dan kapan menghentikan tindakan.\"*",
+          "answer_evidence": "§2 Pesan kunci"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Catatan Risiko Tinggi",
+          "text": "Ekstraksi vakum adalah **tindakan berisiko tinggi**. Pada OSCE, fokus pada **syarat, indikasi, kontraindikasi, pemasangan cup, traksi, kapan berhenti, dan pascatindakan**. Jangan pernah memaksakan vakum bila syarat tidak terpenuhi.",
+          "answer_evidence": "§3 Catatan [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "visual_refs": [
+        "visual_vakum_syarat_01"
+      ],
+      "glossary_refs": [
+        "gls_vakum_ekstraksi_01",
+        "gls_vakum_hodge_02",
+        "gls_vakum_litotomi_07",
+        "gls_vakum_apd_09"
+      ],
+      "bilingual": "10 langkah alur vakum: informed consent → persiapan pasien (infus, litotomi, kandung kemih kosong) → persiapan penolong (APD, cuci tangan) → persiapan bayi (resusitasi, petugas bayi) → VT verifikasi syarat → pemasangan cup miring → tekanan bertahap → traksi sinkron his → lahirkan bayi + plasenta → eksplorasi jalan lahir + pascatindakan. Mahasiswa harus verbalisasi setiap langkah dengan nada jelas."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis terstruktur: konfirmasi kala II memanjang, verifikasi syarat, daftar red flags dan kontraindikasi, informed consent.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station ekstraksi vakum berfungsi sebagai: (1) konfirmasi identitas, (2) konfirmasi persalinan, (3) **verifikasi syarat vakum**, (4) **informed consent**, (5) persiapan alat dan tim.",
+          "tone": "clinical",
+          "source": "§4 Anamnesis dan Seleksi Klien"
+        },
+        {
+          "text": "**Prinsip utama anamnesis:** 1) Konfirmasi kala II memanjang (>2 jam primi, >1 jam multi tanpa anestesia, atau >3 jam primi, >2 jam multi dengan anestesia). 2) Riwayat kehamilan/persalinan, kondisi ibu-janin. 3) Riwayat alergi, obat, persalinan sebelumnya. 4) **Syarat vakum harus terpenuhi** sebelum informed consent ditandatangani.",
+          "tone": "clinical",
+          "source": "§4 Prinsip utama anamnesis"
+        },
+        {
+          "text": "**Cara berpikir praktis — 4 pertanyaan kunci yang tidak boleh terlewat:** 1) Apakah syarat vakum terpenuhi? (pembukaan lengkap, presentasi kepala, Hodge IV, tidak CPD). 2) Apakah ada kontraindikasi? (CPD, pembukaan belum lengkap, presentasi muka/dahi, prematur, kelainan perdarahan janin). 3) Apakah ibu dan bayi stabil? (ibu tidak syok, bayi tidak gawat). 4) Apakah ibu memahami dan menyetujui prosedur?",
+          "tone": "clinical",
+          "source": "§4 Cara berpikir praktis"
+        },
+        {
+          "text": "**Domain anamnesis OSCE** (8 domain): Identitas & persalinan, keluhan saat ini, kondisi janin, riwayat kehamilan/persalinan, penyakit ibu, alergi, informed consent, rencana anestesi/komunikasi. Contoh pertanyaan aman untuk setiap domain tersedia di §4.",
+          "tone": "clinical",
+          "source": "§4 Tabel anamnesis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**Identitas & persalinan:** usia, G/P/A, usia kehamilan, kala persalinan, pembukaan, his.",
+          "sub": [],
+          "bold": true,
+          "source": "§4 Anamnesis Domain"
+        },
+        {
+          "text": "**Kondisi janin:** DJJ, gerak janin, KPD atau belum. Gawat janin curiga = indikasi vakum.",
+          "sub": [],
+          "bold": true,
+          "source": "§4 Anamnesis"
+        },
+        {
+          "text": "**Riwayat:** abortus, prematur, SC, PPH, preeklampsia, bayi besar, CPD. Bekas SC berulang = risiko ruptura uteri. CPD = kontraindikasi vakum.",
+          "sub": [],
+          "bold": true,
+          "source": "§4 Anamnesis"
+        },
+        {
+          "text": "**Penyakit ibu:** hipertensi, diabetes, jantung, asma, alergi obat, HIV, hepatitis B. Evaluasi risiko tindakan dan anestesia.",
+          "sub": [],
+          "bold": true,
+          "source": "§4 Anamnesis"
+        },
+        {
+          "text": "**Informed consent:** jelaskan alasan, prosedur, risiko, alternatif, kemungkinan gagal. OSCE menilai komunikasi risiko.",
+          "sub": [],
+          "bold": true,
+          "source": "§4 Anamnesis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flags Wajib Ditanyakan / Dicari",
+          "text": "13 red flag yang harus diidentifikasi saat anamnesis: gawat janin akut (DJJ <110/>160, bradikardia, deselerasi), CPD curiga, pembukaan belum lengkap, presentasi bukan kepala (muka/dahi/bokong/lintang), kepala masih tinggi (Hodge III atau lebih), prematur, riwayat ruptura uteri, bekas SC klasik/vertikal, kelainan perdarahan janin, KPD lama >18 jam dengan infeksi, gawat ibu (preeklampsia berat/eklampsia/syok), **ibu menolak** (hak pasien), **fasilitas tidak lengkap**.",
+          "answer_evidence": "§4 Red Flags Wajib"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kontraindikasi Absolut Vakum",
+          "text": "CPD curiga, pembukaan belum lengkap, presentasi muka/dahi/bokong/lintang, kepala masih tinggi (Hodge III atau lebih), prematur (kebijakan lokal), kelainan perdarahan janin, riwayat ruptura uteri, bekas SC klasik/vertikal, fasilitas tidak lengkap, operator tidak kompeten, ibu menolak. **Bekas SC klasik/vertikal = risiko ruptur tinggi.**",
+          "answer_evidence": "Lampiran A + §4"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips Anamnesis OSCE",
+          "text": "Sebutkan bahwa syarat vakum harus diverifikasi sebelum informed consent ditandatangani. Tanyakan 4 pertanyaan kunci: (1) syarat terpenuhi?, (2) ada kontraindikasi?, (3) ibu-bayi stabil?, (4) ibu menyetujui?",
+          "answer_evidence": "§4 Cara berpikir praktis"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_vakum_informed_consent_08",
+        "gls_vakum_kala2_10",
+        "gls_vakum_cpd_03",
+        "gls_vakum_presentasi_11"
+      ],
+      "bilingual": "Anamnesis vakum: konfirmasi kala II memanjang, verifikasi syarat (pembukaan lengkap, presentasi kepala, Hodge IV, tidak CPD), identifikasi kontraindikasi (CPD, presentasi bukan kepala, kepala tinggi, bekas SC klasik), informed consent tertulis, kestabilan ibu dan bayi."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan tanda vital, abdomen, dan VT kritis untuk verifikasi 9 syarat vakum sebelum tindakan.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "**Pemeriksaan tanda vital dan umum:** TD, nadi, suhu, pernapasan, SpO2; kesadaran, tampak sakit/tidak; konjungtiva, edema, kloasma. Nilai normal ibu inpartu: TD <140/90 mmHg, nadi 60–100, suhu 36,0–37,5°C, RR 12–20, SpO2 ≥95%. Interpretasi bila abnormal: TD ≥140/90 curiga hipertensi/preeklampsia; nadi >120 curiga perdarahan/syok/kelelahan; suhu >38°C curiga infeksi/korioamnionitis; konjungtiva pucat anemia; SpO2 <95% curiga syok/emboli/asma.",
+          "tone": "clinical",
+          "source": "§5 TTV dan Umum"
+        },
+        {
+          "text": "**Pemeriksaan abdomen dan kontraksi:** Inspeksi bentuk, simetri, bekas operasi, linea nigra, striae. Palpasi TFU, his (frekuensi, durasi, kekuatan), bagian terbawah. Auskultasi DJJ. Nilai normal: TFU sesuai usia kehamilan; his 3–5 kali/10 menit, durasi 40–60 detik, kekuatan adekuat; DJJ 110–160 x/menit, reguler. Interpretasi bila abnormal: his tidak adekuat → augmentasi oksitosin; DJJ abnormal → gawat janin; TFU tidak sesuai → curiga kesalahan HPHT, IUGR/makrosomia, gemeli.",
+          "tone": "clinical",
+          "source": "§5 Abdomen + His"
+        },
+        {
+          "text": "**Pemeriksaan Dalam (VT) — KRITIS untuk Syarat Vakum:** Cuci tangan, pakai sarung tangan steril/DTT. Inspeksi vulva: luka, edema, varises, kondiloma, sekret. Masukkan 2 jari ke vagina secara gentle. Nilai: **pembukaan serviks** (lengkap = 10 cm), **ketuban** (sudah pecah/belum), **presentasi** (kepala/belakang kepala, bukan muka/dahi/bokong/lintang), **posisi** (OA kiri/kanan, OP, dst), **station/penurunan** (Hodge III/IV/dasar panggul), **molase**, **caput succedaneum**, **pelvimetri klinis** (spina ischiadica, linea transversa, arcus pubis, promontorium, plane panggul).",
+          "tone": "clinical",
+          "source": "§5 VT Kritis"
+        },
+        {
+          "text": "**9 Syarat vakum yang harus diverifikasi di VT** (lihat tabel §5): 1) Pembukaan lengkap (10 cm); 2) Presentasi kepala/belakang kepala; 3) Posisi kepala diketahui; 4) Kepala cukup rendah/engaged (Hodge IV); 5) Ketuban pecah (atau lakukan amniotomi); 6) Tidak ada kecurigaan CPD; 7) Kandung kemih kosong; 8) Resusitasi bayi siap; 9) Rencana gagal/SC backup. Tindakan bila tidak terpenuhi: **JANGAN vakum**.",
+          "tone": "clinical",
+          "source": "§5 Tabel Syarat Vakum"
+        },
+        {
+          "text": "**Pemeriksaan jantung-paru dan status generalis:** Auskultasi jantung (murmur, irama), paru (ronki, wheezing). Nilai normal: irama regular, tidak ada murmur patologis, paru bersih. Interpretasi bila abnormal: curiga penyakit jantung/paru yang memengaruhi persalinan.",
+          "tone": "clinical",
+          "source": "§5 Jantung-Paru"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**Kalimat OSCE TTV:** *'TD 120/80, nadi 90, suhu 36,8°C, SpO2 98%. Tanda vital dalam batas normal.'*",
+          "sub": [],
+          "bold": false,
+          "source": "§5 Kalimat OSCE"
+        },
+        {
+          "text": "**Kalimat OSCE Abdomen + His:** *'TFU sesuai usia kehamilan, his adekuat 4 kali/10 menit durasi 50 detik, DJJ 130 x/menit reguler.'*",
+          "sub": [],
+          "bold": false,
+          "source": "§5 Kalimat OSCE"
+        },
+        {
+          "text": "**Kalimat OSCE VT (UJI KRITIS):** *'VT: pembukaan lengkap 10 cm, ketuban sudah pecah jernih, presentasi belakang kepala, posisi OA kiri, station Hodge IV, molase ringan, caput minimal, kandung kemih kosong. Syarat vakum terpenuhi.'*",
+          "sub": [],
+          "bold": true,
+          "source": "§5 Kalimat OSCE VT"
+        },
+        {
+          "text": "**Pemeriksaan pelvis (pelvimetri klinis) di VT:** spina ischiadica (tidak menonjol), linea transversa (≥10 cm), arcus pubis (≥90°), promontorium (tidak teraba/tanda Conjugata diagonalis >11,5 cm), plane panggul (gynecoid).",
+          "sub": [],
+          "bold": true,
+          "source": "§5 VT"
+        },
+        {
+          "text": "**Molase:** tidak ada, ringan, sedang, berat. Molase berat = curiga CPD = kontraindikasi vakum.",
+          "sub": [],
+          "bold": true,
+          "source": "§5 VT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Tindakan Bila Syarat Tidak Terpenuhi",
+          "text": "9 syarat vakum dan respons bila tidak terpenuhi: Pembukaan tidak lengkap → **JANGAN vakum**, tunda/augmentasi/SC. Presentasi bukan kepala → **JANGAN vakum**, SC. Posisi tidak diketahui → **JANGAN vakum**. Hodge III atau lebih tinggi → **JANGAN vakum**, SC. Ketuban utuh → amniotomi. CPD curiga → **JANGAN vakum**, SC. Kandung kemih penuh → kateterisasi. Resusitasi tidak siap → **JANGAN vakum**. Tidak ada SC backup → rujuk.",
+          "answer_evidence": "§5 Tabel Syarat Vakum + Lampiran A"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Caput Succedaneum vs Chignon",
+          "text": "**Caput succedaneum** (edema spontan dari persalinan lama, melewati sutura, hilang 24–48 jam) berbeda dari **chignon** (edema artifisial lokasi cup vakum, batas tegas sesuai diameter cup, hilang 24–48 jam) dan **cephal hematoma** (perdarahan subperiosteal, tidak melewati sutura, 2–6 minggu).",
+          "answer_evidence": "§5 VT + §11 Komplikasi Bayi"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips Verifikasi Syarat",
+          "text": "Sebelum mengatakan 'syarat terpenuhi', sebutkan 7–9 parameter VT secara eksplisit: pembukaan, ketuban, presentasi, posisi, station, molase, caput. Penguji menilai kelengkapan verbalisasi.",
+          "answer_evidence": "§5 Syarat Vakum"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_vakum_hodge_02",
+        "gls_vakum_cpd_03",
+        "gls_vakum_presentasi_11",
+        "gls_vakum_litotomi_07"
+      ],
+      "bilingual": "Pemeriksaan fisik vakum: TTV, abdomen + his + DJJ, **VT kritis** untuk verifikasi 9 syarat vakum (pembukaan lengkap 10 cm, presentasi kepala/belakang kepala, posisi diketahui, Hodge IV, tidak CPD, ketuban pecah, kandung kemih kosong, resusitasi bayi siap, SC backup). Lanjutkan vakum hanya bila SEMUA syarat terpenuhi."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat vakum, APD, persiapan ibu-bayi-penolong, 8 fase prosedur utama dari informed consent hingga fase penutupan.",
+      "estimated_time_minutes": 25,
+      "content": [
+        {
+          "text": "**Alat yang harus disebutkan (minimum 8):** Set vakum (pompa vakum, mangkuk/cup steril, selang); sarung tangan steril/DTT; kasa steril; antiseptik (povidone iodine atau chlorhexidine); infus set + cairan (RL/NaCl 0,9%); oksitosin, ergometrin, prokain/lidokain; spekulum; kateter Foley; klem dan gunting tali pusat; **alat resusitasi bayi** (penghisap lendir DeLee, balon sungkup, oksigen, laringoskop, pipa ET); meja hangat; tensimeter, stetoskop/doppler, termometer; klorin 0,5%; safety box, kantong kuning; alat dokumentasi (partograf, rekam medis).",
+          "tone": "clinical",
+          "source": "§6 Alat"
+        },
+        {
+          "text": "**APD untuk penolong:** Sarung tangan steril/DTT panjang (sampai siku) — wajib; gaun operasi/apron plastik; masker, kacamata pelindung, penutup kepala; sepatu boot anti-air.",
+          "tone": "clinical",
+          "source": "§6 APD"
+        },
+        {
+          "text": "**Cara mempersiapkan pasien:** 1) Jelaskan prosedur (alasan, manfaat, risiko, alternatif, kemungkinan gagal/SC). 2) Minta informed consent tertulis (tanda tangan suami/keluarga). 3) Akses IV (jalur besar, RL/NaCl 0,9%). 4) Kandung kemih kosong (kateter Foley atau BAK terakhir). 5) Area perineum bersih (antiseptik, drape steril). 6) **Posisi litotomi** (meja persalinan, kaki ditahan dengan penyangga, tungkai fleksi). 7) Anestesi (pudendal block prokain 1% bilateral 10 mL, atau epidural sesuai SOP). 8) **Cuci tangan bedah** (sampai siku, sarung tangan steril panjang). 9) Pemeriksaan dalam (VT) — verifikasi syarat vakum. 10) Persiapan bayi (meja hangat, resusitasi, petugas bayi siap).",
+          "tone": "clinical",
+          "source": "§6 Mempersiapkan pasien"
+        },
+        {
+          "text": "**Fase 1 — Persiapan (Informed Consent + Stabilisasi):** Informed consent — jelaskan kala II memanjang, alasan vakum, risiko ibu-bayi, kemungkinan gagal/SC, minta tanda tangan. Stabilisasi ibu — akses IV, RL, posisi litotomi, kandung kemih kosong. Persiapan tim — dokter.operator, asisten, bidan, dokter anak/petugas bayi. Persiapan alat — set vakum, klem, spekulum, kateter, klorin. Persiapan bayi — meja hangat, resusitasi siap, penghisap lendir, oksigen, petugas bayi di tempat. **Cuci tangan bedah** dan APD lengkap. Keselamatan: consent tertulis, ibu stabil, bayi siap, operator terlatih, SC backup.",
+          "tone": "clinical",
+          "source": "§7 Fase Persiapan"
+        },
+        {
+          "text": "**Fase 2 — Verifikasi Syarat Vakum (VT):** Pemeriksaan dalam — verifikasi syarat. Pembukaan lengkap, presentasi kepala/belakang kepala, kepala Hodge IV, tidak CPD. Konfirmasi posisi (OA kiri/kanan, OP). Ketuban pecah atau lakukan amniotomi. **JANGAN lanjutkan vakum bila syarat tidak terpenuhi.**",
+          "tone": "clinical",
+          "source": "§7 Fase Verifikasi Syarat"
+        },
+        {
+          "text": "**Fase 3 — Pemasangan Mangkuk (Cup):** 1) Pilih ukuran cup — soft cup (silastic) untuk fleksibilitas, metal cup (rigid) untuk traksi kuat. 2) Masukkan cup miring (melalui introitus agar tidak melukai vagina/perineum). 3) Pasang cup pada flexion point (puncak kepala, 3 cm anterior dari fontanel posterior/OUB) atau pada belakang kepala sesuai guideline. 4) Cek posisi cup — jari mengelilingi tepi cup untuk memastikan tidak ada porsio/dinding vagina yang terjepit. 5) **Aplikasikan tekanan negatif bertahap:** mulai 100 mmHg (0,2 kg/cm²); naikkan ke 400 mmHg (0,6 kg/cm²) dalam 2 menit; maksimal 600 mmHg (0,8 kg/cm²) bila diperlukan. Hindari tekanan maksimal terlalu lama (≤20–30 menit).",
+          "tone": "clinical",
+          "source": "§7 Fase Pemasangan Cup"
+        },
+        {
+          "text": "**Fase 4 — Traksi (Penarikan):** 1) Edukasi ibu — tarik hanya saat puncak his, ibu meneran. 2) Traksi sinkron dengan his — bukan terus-menerus. 3) Arah traksi: awal **sejajar lantai** saat kepala di dasar panggul; kemudian **ke atas mengikuti sumbu jalan lahir** saat kepala crowning. 4) Traksi lembut dan terkontrol — tangan pada gagang cup, ibu jari pada cup. 5) Monitor DJJ dan kemajuan presentasi setiap tarikan. 6) Hentikan dan evaluasi bila tidak ada kemajuan, cup lepas, DJJ memburuk. **Waktu total traksi ≤20–30 menit.**",
+          "tone": "clinical",
+          "source": "§7 Fase Traksi"
+        },
+        {
+          "text": "**Fase 5 — Lahirkan Bayi:** 1) Lahirkan kepala — pertahankan fleksi, episiotomi bila perlu. 2) Setelah kepala lahir — bersihkan jalan napas (suction mulut-hidung), terutama bila mekonium. 3) Lahirkan bahu — biparietal hold, tarik bahu depan ke bawah, bahu belakang ke atas. 4) Lahirkan badan — pegang bayi, letakkan di perut ibu atau serahkan ke petugas bayi. 5) Potong tali pusat — klem 2 tempat, potong di antara, panjang stump 2–3 cm. 6) **IMD** (Inisiasi Menyusu Dini) — bila bayi stabil, ibu bersedia. 7) Serahkan bayi ke petugas bayi untuk resusitasi sesuai kondisi. **Keselamatan: Penilaian APGAR 1 dan 5 menit. Resusitasi sesuai kondisi bayi.**",
+          "tone": "clinical",
+          "source": "§7 Fase Lahirkan Bayi"
+        },
+        {
+          "text": "**Fase 6 — Manajemen Aktif Kala III (Lahirkan Plasenta):** 1) Oksitosin 10 IU IM dalam 1 menit setelah bayi lahir (atau sesuai SOP). 2) Tunggu tanda lepas plasenta — uterus globuler, tali pusat memanjang, perdarahan meningkat. 3) Traksi tali pusat terkendali + tekanan dorso-kranial pada uterus (manuver Brandt-Andrews). 4) Periksa kelengkapan plasenta — kotiledon, selaput, tali pusat. 5) Massase uterus bila perlu. 6) Evaluasi perdarahan (normal <500 mL). **Jangan traksi berlebihan** (risiko inversio uteri).",
+          "tone": "clinical",
+          "source": "§7 Fase MAKA"
+        },
+        {
+          "text": "**Fase 7 — Eksplorasi Jalan Lahir dan Penjahitan:** 1) Inspeksi perineum, vagina, portio dengan spekulum dan lampu. 2) Identifikasi robekan: derajat 1 (mukosa), 2 (mukosa + otot perineum), 3 (sfingter ani), 4 (rektum). 3) Jahit robekan: derajat 1–2 anestesi lokal, jahit lapis demi lapis; derajat 3–4 **rujuk SpOG** (OASI). 4) Jahit episiotomi (bila dilakukan) — biasanya derajat 2. 5) Evaluasi kontraksi uterus dan perdarahan sebelum menyelesaikan. **Jangan lewatkan eksplorasi jalan lahir.**",
+          "tone": "clinical",
+          "source": "§7 Fase Eksplorasi"
+        },
+        {
+          "text": "**Fase 8 — Fase Penutupan:** 1) Dekontaminasi alat (klorin 0,5% 10 menit). 2) Buang habis pakai (safety box, kantong kuning). 3) Lepas APD. 4) Cuci tangan 6 langkah. 5) Monitoring ibu (TTV 15 menit, 30 menit, 1 jam, 2 jam, 4 jam). 6) Monitoring bayi (APGAR, berat badan, caput/chignon, cephalhematoma, ikterus). 7) Dokumentasi SOAP. 8) Edukasi keluarga. 9) Rujukan bila komplikasi. 10) Penutup station (salam, kesiapan ibu).",
+          "tone": "clinical",
+          "source": "§7 Fase Penutupan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**Momen cuci tangan (sesuai WHO):** Sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien.",
+          "sub": [],
+          "bold": true,
+          "source": "§6 Cuci tangan"
+        },
+        {
+          "text": "**Protokol tekanan vakum bertahap:**",
+          "sub": [
+            "Mulai 100 mmHg (0,2 kg/cm²)",
+            "Naikkan ke 400 mmHg (0,6 kg/cm²) dalam 2 menit",
+            "Maksimal 600 mmHg (0,8 kg/cm²) bila diperlukan",
+            "Hindari tekanan maksimal terlalu lama (≤20–30 menit)"
+          ],
+          "bold": true,
+          "source": "§7 Fase Pemasangan Cup"
+        },
+        {
+          "text": "**Posisi cup vakum (flexion point):** puncak kepala, 3 cm anterior dari fontanel posterior/OUB. Memastikan leading point adalah oksiput, membantu fleksi.",
+          "sub": [],
+          "bold": true,
+          "source": "§7 Fase Pemasangan Cup"
+        },
+        {
+          "text": "**Arah traksi:**",
+          "sub": [
+            "Awal: sejajar lantai saat kepala di dasar panggul (Hodge IV)",
+            "Kemudian: ke atas mengikuti sumbu jalan lahir saat crowning",
+            "Hindari tarikan vertikal/konstan — risiko trauma serviks/vagina"
+          ],
+          "bold": true,
+          "source": "§7 Fase Traksi"
+        },
+        {
+          "text": "**5 Opsi cup vakum (jenis):** soft cup (silastic, lentur, presentasi OA), metal cup (rigid, traksi kuat, malposisi ringan OP→OA), Kiwi OmniCup (hand-held, untuk kala II pendek), Mityvac, dll. Pilih diameter terbesar yang muat (40–60 mm).",
+          "sub": [],
+          "bold": true,
+          "source": "§6 + §8 Prosedur Terkait"
+        },
+        {
+          "text": "**Tatalaksana jaringan terjepit:** jika jaringan ibu (serviks, vagina) terjepit cup, **LEPAS cup, REPOSISI, PASANG ULANG**. Tidak boleh dipaksakan.",
+          "sub": [],
+          "bold": true,
+          "source": "Lampiran B"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS Berhenti (Hard Stop)",
+          "text": "**Setelah 3 tarikan gagal, cup detach 2 kali → HENTIKAN, ganti SC.** Plus: tidak ada kemajuan dengan tarikan benar, waktu/tekanan melebihi batas (>20–30 menit), DJJ <110 atau >160/bradikardia, jaringan terjepit, perdarahan aktif, distosia bahu, ibu menolak lanjut, reaksi alergi. **JANGAN paksakan vakum/forsep bila batas tercapai.**",
+          "answer_evidence": "§18 FATAL + §9 + Lampiran B"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Catatan Klinis dari File Sumber",
+          "text": "*\"Vakum hanya aman bila syarat terpenuhi dan resusitasi bayi siap. Jangan memulai tanpa informed consent tertulis, akses IV, kandung kemih kosong, dan operator yang kompeten.\"*",
+          "answer_evidence": "§6 Catatan klinis"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip '3 Tarikan, 3 Detach'",
+          "text": "Aturan praktis vakum: **maksimal 3 tarikan sinkron his, maksimal 3 kali cup detach**. Bila salah satu batas tercapai tanpa kemajuan, hentikan prosedur dan pikirkan SC. Traksi lembut mengikuti sumbu jalan lahir, bukan traksi vertikal/konstan.",
+          "answer_evidence": "PROMPT_DOMAIN1 Modul 014 + RCOG GTG 26"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Soft Cup vs Metal Cup",
+          "text": "**Soft cup (silastic):** lebih fleksibel, lebih aman untuk jaringan ibu, digunakan pada presentasi OA dengan kala II pendek. **Metal cup (rigid):** traksi lebih kuat, untuk malposisi ringan (OP → OA) atau traksi gagal dengan soft cup. Pilih sesuai indikasi.",
+          "answer_evidence": "§8 Prosedur Terkait"
+        }
+      ],
+      "visual_refs": [
+        "visual_vakum_posisi_cup_02",
+        "visual_vakum_arah_tarikan_03"
+      ],
+      "glossary_refs": [
+        "gls_vakum_ekstraksi_01",
+        "gls_vakum_cup_06",
+        "gls_vakum_litotomi_07",
+        "gls_vakum_apd_09",
+        "gls_vakum_oksitosin_13"
+      ],
+      "bilingual": "Prosedur vakum: informed consent → persiapan ibu (litotomi, infus, kandung kemih kosong) + bayi (resusitasi) + penolong (APD, cuci tangan) → VT verifikasi 9 syarat → cup miring di flexion point → tekanan bertahap 100→400→600 mmHg → traksi sinkron his (sejajar lantai, lalu ke atas) → lahirkan kepala-bahu-badan → MAKA kala III (oksitosin 10 IU IM) → eksplorasi jalan lahir + jahit robekan. Waktu traksi total ≤20–30 menit."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-tindakan, monitoring ibu-bayi, komplikasi ibu dan bayi, dan tabel pembedaan vakum aman vs harus dihentikan.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "**Tindakan pasca-tindakan:** 1) Monitoring ibu — TTV 15 menit, 30 menit, 1 jam, 2 jam, 4 jam (atau sesuai SOP). Perdarahan, kontraksi uterus, BAK. 2) Monitoring bayi — APGAR 1/5/10 menit, berat badan, panjang, caput/chignon, cephalhematoma, ikterus, tangisan, tonus. 3) Asuhan pasca-persalinan (APN) — IMD dalam 1 jam, ASI eksklusif, rawat gabung. 4) Dekontaminasi alat (klorin 0,5% 10 menit). 5) Buang habis pakai. 6) Lepas APD + cuci tangan 6 langkah. 7) Dokumentasi SOAP. 8) Edukasi keluarga. 9) Rujukan. 10) Penutup station.",
+          "tone": "clinical",
+          "source": "§8 Tindakan pasca-tindakan"
+        },
+        {
+          "text": "**Cara evaluasi keberhasilan prosedur:** Bayi lahir dengan APGAR baik; plasenta lahir lengkap, perdarahan <500 mL; tidak ada robekan derajat 3–4; ibu stabil, TTV normal; bayi stabil, refleks isap baik, IMD berhasil; ibu memahami edukasi dan rencana kontrol.",
+          "tone": "clinical",
+          "source": "§8 Evaluasi keberhasilan"
+        },
+        {
+          "text": "**Prosedur terkait/varian vakum:** Ekstraksi vakum lembut (soft cup) — presentasi kepala OA, kala II pendek. Ekstraksi vakum rigid (metal cup) — traksi kuat, malposisi ringan (OP → OA). Ekstraksi forsep — alternatif untuk malposisi, distosia bahu, bayi prematur (kontroversi). Persalinan operatif pervaginam dengan vakum + forsep — sangat jarang, hanya oleh operator sangat berpengalaman. **Sectio Caesarea (SC)** — alternatif bila vakum gagal atau kontraindikasi. APN, resusitasi neonatus, penjahitan robekan perineum, konseling KB pascasalin.",
+          "tone": "clinical",
+          "source": "§8 Prosedur terkait"
+        },
+        {
+          "text": "**Alur pikir klinis (clinical reasoning):** 1) Apakah syarat vakum terpenuhi? → VT, konfirmasi. 2) Apakah ada kontraindikasi? → Evaluasi klinis. 3) Apakah ibu dan bayi siap? → Informed consent, akses IV, resusitasi siap. 4) Apakah cup sudah benar? → Cek jaringan terjepit, posisi cup. 5) Apakah traksi efektif? → Traksi sinkron his, kemajuan. 6) Kapan berhenti? → Cup lepas berulang, tidak ada kemajuan, waktu habis, komplikasi.",
+          "tone": "clinical",
+          "source": "§9 Clinical Reasoning"
+        },
+        {
+          "text": "**Diagnosis banding — kondisi yang membutuhkan respons khusus:** Kala II memanjang, gawat janin kala II, kelelahan ibu, kondisi ibu memerlukan persalinan cepat, kegagalan vakum, distosia bahu, CPD, atonia uteri. Tatalaksana per kondisi tersedia di §9 (vakum/forsep/SC sesuai syarat, atau hentikan + rujuk).",
+          "tone": "clinical",
+          "source": "§9 Diagnosis Banding"
+        },
+        {
+          "text": "**Pembedaan Cepat Vakum Aman vs Vakum yang Harus Dihentikan:** Syarat terpenuhi/kemajuan/ibu-bayi stabil → lanjut. Syarat tidak terpenuhi ATAU gagal/trauma → hentikan dan eskalasi. 8 fitur pembeda: syarat awal, traksi, kemajuan, waktu, cup, DJJ, ibu, bayi. Pembeda utama: **syarat terpenuhi + kemajuan + ibu-bayi stabil** vs **syarat tidak terpenuhi ATAU gagal/trauma**.",
+          "tone": "clinical",
+          "source": "§9 Pembedaan Cepat"
+        },
+        {
+          "text": "**Komplikasi ibu:** robekan perineum/vagina/serviks, PPH, atonia uteri, retensio plasenta, sisa plasenta, **inversio uteri** (emergency — jangan dilepas manual, reposisi SpOG, rujuk), hematoma, infeksi nifas, cedera kandung kemih/uretra, emboli air ketuban. Tatalaksana awal + kapan rujuk tersedia di tabel §11.",
+          "tone": "clinical",
+          "source": "§11 Komplikasi Ibu"
+        },
+        {
+          "text": "**Komplikasi bayi:** caput succedaneum (observasi), **chignon** (akibat vakum, observasi 24–48 jam), **cephal hematoma** (observasi 2–6 minggu, mungkin perlu vit K), **perdarahan subgaleal/subaponeurotik** (emergensi — resusitasi, transfusi, rujuk), fraktur klavikula/skull, ikterus, asfiksia (APGAR rendah), palsi saraf wajah/pleksus brakialis (jarang), retinopati perdarahan.",
+          "tone": "clinical",
+          "source": "§11 Komplikasi Bayi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**Kapan HARUS berhenti (konsultasi/eskalasi):**",
+          "sub": [
+            "**Segera (emergency):** cup lepas berulang, tidak ada kemajuan dengan tarikan benar, waktu/tekanan melebihi batas aman, perdarahan/komplikasi, kondisi ibu/janin memburuk, distosia bahu.",
+            "**Same day:** bayi dengan caput/kepala turun, bayi dengan APGAR rendah.",
+            "**Rutin:** observasi postpartum, bayi sehat, ibu stabil.",
+            "**Rujuk:** OASI (derajat 3–4), bayi dengan trauma kepala berat, perdarahan postpartum tidak terkontrol."
+          ],
+          "bold": true,
+          "source": "§9 Kapan berhenti"
+        },
+        {
+          "text": "**Jadwal kontrol pasca-tindakan:** 1 jam postpartum, 6 jam, 24 jam, 1 minggu (kunjungan nifas), 6 minggu postpartum (nifas lanjutan, KB, skrining). Kapan saja: bila ada tanda bahaya.",
+          "sub": [],
+          "bold": true,
+          "source": "§8 + §11 Jadwal"
+        },
+        {
+          "text": "**Monitoring ibu postpartum:** TTV 15 menit, 30 menit, 1 jam, 2 jam, 4 jam. Perdarahan, kontraksi, BAK. IMD, ASI eksklusif, rawat gabung, vitamin A, Fe. Konseling KB pascasalin. Imunisasi TT, hepatitis B (bila belum).",
+          "sub": [],
+          "bold": true,
+          "source": "§11 Tindak Lanjut"
+        },
+        {
+          "text": "**Monitoring bayi:** APGAR 1/5/10 menit, berat badan, panjang, caput/chignon, cephalhematoma, ikterus, tangisan, tonus. IMD dalam 1 jam, ASI eksklusif, rawat gabung.",
+          "sub": [],
+          "bold": true,
+          "source": "§11 Komplikasi Bayi"
+        },
+        {
+          "text": "**Tanda bahaya bayi (safety net):** kuning (terutama dalam 24 jam) → ikterus neonatorum. Kejang, tangisan lemah, sulit menyusu → asfiksia/sepsis. Muntah hijau/bile-stained → obstruksi usus. Demam → sepsis.",
+          "sub": [],
+          "bold": true,
+          "source": "§12 Safety Net"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Tanda Bahaya Ibu Pasca-Vakum (Rujuk Segera)",
+          "text": "Perdarahan banyak (>2 softek/hari atau gumpalan besar) → PPH. Demam >38°C, secret berbau → infeksi nifas. Pusing, sakit kepala hebat, pandangan kabur, kejang → preeklampsia postpartum. Nyeri perut hebat, uterus tidak berkontraksi → atonia, sisa plasenta, inversio. Sesak, pucat berat, pingsan → anemia berat, syok, emboli.",
+          "answer_evidence": "§12 Safety Net + §11 Komplikasi Ibu"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Komplikasi Bayi Paling Berbahaya",
+          "text": "**Perdarahan subgaleal (subaponeurotik)** adalah komplikasi vakum yang paling mengancam jiwa bayi. Benjolan **progresif** (bisa meluas ke leher/telinga), melewati sutura, anemia, syok hipovolemik. Tatalaksana: resusitasi, transfusi, rujuk emergensi. Berbeda dari cephalhematoma (tidak melewati sutura, subperiosteal).",
+          "answer_evidence": "§11 Komplikasi Bayi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Distosia Bahu — Jangan Traksi Berlebihan",
+          "text": "**Distosia bahu**: kepala bayi lahir, tetapi bahu tidak lahir dengan traksi lembut biasa. Tatalaksa: **manuver McRobert, suprapubik, episiotomi, manuver internal**. **JANGAN traksi berlebihan** pada kepala/leher bayi — risiko cedera pleksus brakialis. Setelah kepala lahir, urutan McRobert adalah langkah pertama.",
+          "answer_evidence": "§9 + §11 Komplikasi Bayi"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery Move Saat OSCE",
+          "text": "**Recovery Move** adalah strategi bila Anda menyadari sudah membuat kesalahan di tengah station. Contoh: *'Mohon maaf, Bu, saya akan mengulang penjelasan prosedur.'* (informed consent). *'Saya akan memastikan tidak ada jaringan yang terjepit.'* (cup). *'Saya akan menarik sinkron dengan his dan mengikuti sumbu jalan lahir.'* (traksi). *'Saya akan eksplorasi jalan lahir dan jahit robekan.'* (pascatindakan). **Jangan panik, jangan asal jawab.**",
+          "answer_evidence": "§18 Recovery Move"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Vakum Gagal → SC, Bukan Forsep Lagi",
+          "text": "Bila vakum gagal sesuai batas (cup lepas >2-3×, tidak ada kemajuan, waktu >20–30 menit, kondisi memburuk), **HENTIKAN** dan rujuk SC. Jangan ganti ke forsep tanpa operator berpengalaman — risiko trauma ganda. Evaluasi syarat: apakah CPD curiga, posisi tidak dikenal, atau molase berat? Rujuk SpOG untuk keputusan.",
+          "answer_evidence": "§9 + Lampiran B + RCOG GTG 26"
+        }
+      ],
+      "visual_refs": [
+        "visual_vakum_komplikasi_bayi_04",
+        "visual_vakum_algoritma_gagal_05"
+      ],
+      "glossary_refs": [
+        "gls_vakum_chignon_04",
+        "gls_vakum_sefalhematoma_05",
+        "gls_vakum_perdarahan_subgaleal_12",
+        "gls_vakum_pph_14",
+        "gls_vakum_oksitosin_13"
+      ],
+      "bilingual": "Clinical reasoning vakum: verifikasi syarat → informed consent → persiapan → pemasangan cup → traksi sinkron his → evaluasi setiap tarikan. Kapan henti: cup lepas >2-3×, tidak ada kemajuan, waktu >20-30 menit, DJJ <110/>160, jaringan terjepit, perdarahan, distosia bahu. Komplikasi bayi paling serius: perdarahan subgaleal (emergensi). Komplikasi ibu paling serius: inversio uteri, PPH, OASI."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang (VT, DJJ, lab, CTG, USG, gas darah tali pusat), tindak lanjut postpartum, dan komplikasi ibu-bayi dengan tatalaksananya.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "**Pemeriksaan penunjang pada station vakum:** Pemeriksaan dalam (VT) — verifikasi syarat vakum, kemajuan persalinan. Nilai: pembukaan lengkap, kepala Hodge IV, tidak CPD. Ketersediaan: Puskesmas & RS.",
+          "tone": "clinical",
+          "source": "§10 Pemeriksaan Penunjang"
+        },
+        {
+          "text": "**Doppler/Pinard DJJ** — kesejahteraan janin. Nilai: 110–160 x/menit, reguler. Ketersediaan: Puskesmas & RS.",
+          "tone": "clinical",
+          "source": "§10 DJJ"
+        },
+        {
+          "text": "**Partograf** — monitoring persalinan. Grafik dalam zona waspada. Ketersediaan: Puskesmas & RS. Wajib diisi lengkap untuk semua persalinan.",
+          "tone": "clinical",
+          "source": "§10 Partograf"
+        },
+        {
+          "text": "**Darah lengkap (Hb, leukosit, trombosit)** — anemia, infeksi, pra-tindakan. Hb ≥11 g/dL (ibu hamil). Ketersediaan: Puskesmas & RS.",
+          "tone": "clinical",
+          "source": "§10 Lab"
+        },
+        {
+          "text": "**Golongan darah + Rh + cross-match** — persiapan transfusi (bila PPH). Ketersediaan: Puskesmas & RS.",
+          "tone": "clinical",
+          "source": "§10 Lab"
+        },
+        {
+          "text": "**Gula darah** — hipoglikemia (ibu DM, persalinan lama). Nilai: 70–140 mg/dL. Ketersediaan: Puskesmas & RS.",
+          "tone": "clinical",
+          "source": "§10 Lab"
+        },
+        {
+          "text": "**Kardiotokografi (CTG)** — gawat janin, kala II. Reaktif, variabel normal. Ketersediaan: RS. **USG bedside** — presentasi, posisi, CPD, lilitan tali pusat. Ketersediaan: RS. **Analisis gas darah tali pusat** — tanda gawat janin intrapartum. pH >7,2 (normal). Ketersediaan: RS. **APGAR score** — 1 dan 5 menit. 7–10 normal, 4–6 sedang, 0–3 berat. Ketersediaan: semua.",
+          "tone": "clinical",
+          "source": "§10 CTG/USG/AGD/APGAR"
+        },
+        {
+          "text": "**Tindak lanjut dan asuhan pasca-tindakan:** Monitoring ibu (TTV 15m, 30m, 1j, 2j, 4j; perdarahan, kontraksi, BAK). Monitoring bayi (APGAR 1/5/10m, BB, panjang, caput/chignon, cephalhematoma, ikterus, tangisan, tonus). Asuhan nifas (IMD, ASI eksklusif, rawat gabung, vitamin A, Fe). Konseling KB pascasalin. Imunisasi (TT, hepatitis B bila belum). Edukasi tanda bahaya ibu (perdarahan, demam, pusing) dan bayi (kuning, kejang, tangisan lemah, sulit menyusu). Kunjungan nifas 1 minggu + 6 minggu postpartum.",
+          "tone": "clinical",
+          "source": "§11 Tindak Lanjut"
+        },
+        {
+          "text": "**Komplikasi ibu dan tatalaksana:** Robekan perineum/vagina/serviks (eksplorasi, jahit sesuai derajat, rujuk OASI). PPH (>500 mL → masase, uterotonika, balon tamponade, rujuk). Atonia uteri (masase bimanual, uterotonika, rujuk). Retensio plasenta (>30 menit → traksi, manual plasenta, rujuk). Sisa plasenta (USG, kuretase, rujuk). **Inversio uteri (emergency, jangan dilepas manual, reposisi SpOG, rujuk emergensi).** Hematoma, infeksi nifas, cedera kandung kemih/uretra, emboli air ketuban (syok, dispnea, DIC → resusitasi, rujuk emergensi).",
+          "tone": "clinical",
+          "source": "§11 Komplikasi Ibu"
+        },
+        {
+          "text": "**Komplikasi bayi dan tatalaksana:** Caput succedaneum (observasi). Chignon (observasi 24–48 jam). Cephalhematoma (observasi 2–6 minggu, vit K). **Perdarahan subgaleal/subaponeurotik (emergensi — resusitasi, transfusi, rujuk).** Fraktur klavikula/skull (evaluasi radiologi, imobilisasi, analgesik, rujuk). Ikterus (fototerapi, evaluasi, rujuk). Asfiksia (resusitasi neonatus, rujuk). Palsi saraf wajah/pleksus brakialis (observasi, evaluasi, rujuk). Retinopati perdarahan.",
+          "tone": "clinical",
+          "source": "§11 Komplikasi Bayi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**Jadwal tindak lanjut standar WHO Postnatal Care 2022 + SOP Indonesia:**",
+          "sub": [
+            "1 jam postpartum — monitoring TTV, perdarahan, bayi",
+            "6 jam postpartum — evaluasi lanjutan",
+            "24 jam postpartum — evaluasi ibu dan bayi",
+            "1 minggu postpartum — kunjungan nifas, evaluasi luka, laktasi",
+            "6 minggu postpartum — kunjungan nifas lanjutan, KB, skrining",
+            "Kapan saja: bila ada tanda bahaya"
+          ],
+          "bold": true,
+          "source": "§11 Jadwal Tindak Lanjut [DITAMBAHKAN SAAT STANDARDISASI]"
+        },
+        {
+          "text": "**Pemeriksaan yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan:** USG doppler, lab metabolik (asam-basa, laktat), MRI pelvis. Catatan penting: pada station OSCE, **bila laboratorium tidak diminta di soal, jangan mengarang hasil lab**.",
+          "sub": [],
+          "bold": true,
+          "source": "§10 Catatan"
+        },
+        {
+          "text": "**Asuhan nifas pasca-vakum:** IMD (1 jam pertama), ASI eksklusif, rawat gabung, vitamin A, Fe. **Konseling KB pascasalin** di akhir persalinan. Imunisasi TT + hepatitis B (bila belum). Edukasi safety net.",
+          "sub": [],
+          "bold": true,
+          "source": "§11 Tindak Lanjut"
+        },
+        {
+          "text": "**Kode ICD-10 penting:** O63.1 (kala II memanjang), O66.5 (gagal vakum/forsep), O72.x (PPH), O70.0–O70.3 (robekan perineum derajat 1–4), O81.x (persalinan dengan vakum/forsep), Z37.0 (bayi hidup tunggal).",
+          "sub": [],
+          "bold": true,
+          "source": "§13 Kode ICD-10"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan OSCE tentang Laboratorium",
+          "text": "Pada station OSCE, **bila laboratorium tidak diminta di soal, jangan mengarang hasil lab**. Sebutkan bahwa hasil lab sesuai indikasi (DPL, golongan darah, cross-match, GDS) akan diperiksa di klinik nyata, dan untuk OSCE cukup menyebutkan 'sudah diperiksa dan dalam batas normal'.",
+          "answer_evidence": "§10 Catatan penting"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "APGAR Score — Wajib Disebutkan",
+          "text": "APGAR 1/5/10 menit wajib disebutkan. Skor 7–10 normal, 4–6 sedang (butuh stimulasi/suction), 0–3 berat (resusitasi penuh). **Jangan hanya menyebut 'bayi menangis' tanpa skor APGAR eksplisit** — skor hangus untuk kelengkapan penilaian.",
+          "answer_evidence": "§10 + §18 PENGURANGAN BESAR"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tatalaksana Cepat Komplikasi Umum",
+          "text": "**PPH:** masase uterus + uterotonika (oksitosin → ergometrin → misoprostol) + balon tamponade + rujuk. **Atonia:** masase bimanual + uterotonika. **Retensio plasenta >30 menit:** traksi tali pusat + manual plasenta + rujuk. **OASI (derajat 3-4):** rujuk SpOG untuk repair. **Asfiksia bayi:** resusitasi NRP. **Subgaleal:** resusitasi + transfusi + rujuk emergensi.",
+          "answer_evidence": "§11 Tatalaksana"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_vakum_pph_14",
+        "gls_vakum_oksitosin_13"
+      ],
+      "bilingual": "Pemeriksaan penunjang vakum: VT, DJJ, partograf, DPL, golongan darah + cross-match, GDS, CTG, USG bedside, gas darah tali pusat, APGAR 1/5/10. Tatalaksana pasca-tindakan: monitoring 1j/6j/24j/1mg/6mg, komplikasi ibu (PPH, atonia, inversio, OASI), komplikasi bayi (chignon, cephalhematoma, subgaleal, asfiksia)."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Edukasi pasien, safety net tanda bahaya, dan template SOAP lengkap dengan kode ICD-10 untuk skenario Ny. Sari.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "**Edukasi pasien & keluarga — Poin spesifik (10 poin):** 1) Ekstraksi vakum adalah tindakan persalinan berbantu — bukan operasi, tetapi perlu syarat tertentu. 2) Tujuan: membantu kelahiran bayi lebih cepat karena kala II memanjang atau ada indikasi ibu/janin. 3) Risiko ibu: robekan jalan lahir, perdarahan, nyeri, infeksi. 4) Risiko bayi: benjolan/memar kepala (caput/chignon), perdarahan kepala (jarang), ikterus, asfiksia. 5) Kemungkinan gagal atau perlu tindakan lain — bila gagal, SC mungkin diperlukan. 6) IMD dan ASI eksklusif dalam 1 jam pertama. 7) Tanda bahaya ibu: perdarahan banyak, demam, pusing, sakit kepala, pandangan kabur. 8) Tanda bahaya bayi: kuning, kejang, tangisan lemah, sulit menyusu. 9) Konseling KB pascasalin. 10) Kunjungan nifas 1 minggu + 6 minggu postpartum.",
+          "tone": "clinical",
+          "source": "§12 Poin Edukasi"
+        },
+        {
+          "text": "**Safety net — kapan harus kembali segera atau ke IGD (8 kondisi):** 1) Perdarahan banyak (>2 softek/hari, gumpalan besar) — PPH. 2) Demam >38°C, secret berbau — infeksi nifas. 3) Pusing, sakit kepala hebat, pandangan kabur, kejang — preeklampsia postpartum. 4) Nyeri perut hebat, uterus tidak berkontraksi — atonia, sisa plasenta, inversio. 5) Sesak, pucat berat, pingsan — anemia berat, syok, emboli. 6) Bayi kuning (terutama dalam 24 jam) — ikterus neonatorum. 7) Bayi kejang, tangisan lemah, sulit menyusu — asfiksia, sepsis. 8) Bayi muntah hijau/bile-stained — obstruksi usus.",
+          "tone": "clinical",
+          "source": "§12 Safety Net"
+        },
+        {
+          "text": "**Cara edukasi yang benar di OSCE:** Bahasa awam: *\"Ibu, pembukaan sudah lengkap, tetapi proses persalinan memanjang. Kami mempertimbangkan vakum untuk membantu kelahiran bayi. Risiko: robekan jalan lahir, perdarahan, dan pada bayi bisa ada benjolan kepala. Bila gagal, mungkin perlu operasi. Apakah Ibu bersedia?\"* Minta keluarga mengulang. Berikan waktu bertanya. Tunjukkan sikap empati.",
+          "tone": "clinical",
+          "source": "§12 Cara edukasi"
+        },
+        {
+          "text": "**Contoh kalimat edukasi spesifik:** *\"Ibu, pembukaan sudah lengkap, tetapi proses keluarnya bayi memanjang. Kami mempertimbangkan bantuan alat vakum karena kepala bayi sudah cukup rendah dan syaratnya terpenuhi. Alat ini berupa mangkuk yang ditempelkan di kepala bayi dengan tekanan negatif, lalu ditarik bersamaan dengan kontraksi dan saat Ibu meneran. Risikonya antara lain nyeri, robekan jalan lahir, perdarahan, serta pada bayi dapat timbul benjolan/memar di kepala. Bila tidak berhasil atau kondisi memburuk, tindakan dapat dihentikan dan dilakukan rujukan/tindakan lain. Apakah Ibu dan keluarga memahami penjelasan ini dan bersedia?\"*",
+          "tone": "clinical",
+          "source": "§12 Contoh kalimat"
+        },
+        {
+          "text": "**Template SOAP (skenario Ny. Sari):** **S** (Subjective): G2P1A0, hamil 39 minggu, inpartu kala II, pembukaan lengkap 1 jam, ibu kelelahan, dorongan mengejan (+) sejak 1 jam. Tidak ada perdarahan, tidak ada KPD lama. Informed consent tertulis untuk vakum. **O** (Objective): TTV TD 120/80, N 90, S 36,8°C, SpO2 98%. Konjungtiva tidak pucat, edema (-). Jantung irama regular. Paru vesikuler normal. Abdomen: TFU sesuai, his 4×/10 menit durasi 50 detik. DJJ 130 x/menit. VT: pembukaan lengkap 10 cm, ketuban sudah pecah jernih, presentasi belakang kepala, posisi OA kiri, station Hodge IV, molase ringan, caput minimal, kandung kemih kosong. **A** (Assessment): G2P1A0, hamil 39 minggu, inpartu kala II, pembukaan lengkap, presentasi belakang kepala, OA kiri, Hodge IV, syarat vakum terpenuhi. Indikasi: kala II memanjang + kelelahan ibu. **P** (Plan): 1) Ekstraksi vakum — cup soft, tekanan bertahap 100→400→600 mmHg, traksi sinkron his, evaluasi setiap tarikan. 2) Monitoring DJJ setiap tarikan. 3) Lahirkan kepala, bahu, badan, bayi ke tim bayi. 4) Manajemen aktif kala III — oksitosin 10 IU IM, tunggu tanda lepas, traksi tali pusat, periksa plasenta. 5) Eksplorasi jalan lahir — periksa robekan, jahit sesuai derajat. 6) Dekontaminasi, dokumentasi SOAP, edukasi.",
+          "tone": "clinical",
+          "source": "§13 SOAP"
+        },
+        {
+          "text": "**Kode ICD-10 relevan:** O62.2 (inersia uteri), O63.0 (kala I memanjang), O63.1 (kala II memanjang), O66.5 (gagal vakum/forsep), O66.0 (distosia malposisi), O66.8 (distosia lain), O70.0–O70.3 (robekan perineum derajat 1–4), O71.4 (robekan tinggi vagina), O72.0 (perdarahan kala III), O72.1 (PPH segera), O72.2 (PPH lambat), O75.8 (komplikasi lain), O80 (persalinan normal), O81.x (vakum/forsep), Z37.0 (bayi hidup tunggal).",
+          "tone": "clinical",
+          "source": "§13 Kode ICD-10"
+        },
+        {
+          "text": "**Dokumen/kartu khusus:** Partograf, lembar informed consent, catatan tindakan, surat rujukan, kartu ibu dan bayi, Buku KIA, hasil laboratorium, hasil USG. **Cara mendokumentasikan ekstraksi vakum:** Tanggal & jam, identitas, indikasi & syarat, informed consent, TTV ibu, DJJ, his, VT (pembukaan, presentasi, posisi, station, molase, caput), jenis cup + ukuran, tekanan vakum (mmHg atau kg/cm²), jumlah tarikan & lama tindakan, hasil (bayi, APGAR, plasenta, perdarahan), komplikasi & tatalaksana, tindak lanjut, tanda tangan dokter/bidan.",
+          "tone": "clinical",
+          "source": "§13 Dokumentasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**Poin edukasi minimal 6 (diadaptasi):** tujuan vakum, risiko ibu, risiko bayi, kemungkinan gagal/SC, IMD/ASI eksklusif, tanda bahaya ibu & bayi, konseling KB, kunjungan nifas.",
+          "sub": [],
+          "bold": true,
+          "source": "§12 Edukasi"
+        },
+        {
+          "text": "**Safety net 8 kondisi — kapan kembali ke IGD:** perdarahan banyak, demam, sakit kepala/pusing hebat, nyeri perut hebat, sesak/pucat, bayi kuning <24 jam, bayi kejang/tangisan lemah, muntah hijau.",
+          "sub": [],
+          "bold": true,
+          "source": "§12 Safety Net"
+        },
+        {
+          "text": "**Dokumen wajib pasca-tindakan:** partograf, informed consent tertulis, catatan tindakan (tanggal/jam, indikasi, syarat, cara, hasil), surat rujukan (bila perlu), kartu ibu-bayi, Buku KIA.",
+          "sub": [],
+          "bold": true,
+          "source": "§13 Dokumen"
+        },
+        {
+          "text": "**Tanda tangan SOAP:** Dokter operator, asisten, bidan. Format SOAP mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas.",
+          "sub": [],
+          "bold": true,
+          "source": "§13 SOAP [DITAMBAHKAN SAAT STANDARDISASI]"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips Verifikasi Informed Consent",
+          "text": "Setelah penjelasan, minta keluarga **mengulang** dengan kalimat sendiri: *'Bisa tolong ulangi, Bu, apa yang akan dilakukan?'* Bila belum bisa, ulangi penjelasan. Berikan waktu bertanya: *'Ada pertanyaan lagi, Bu?'* Tunjukkan sikap empati — tidak menghakimi, tidak menakut-nakuti.",
+          "answer_evidence": "§12 Cara edukasi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Edukasi Tanda Bahaya Wajib",
+          "text": "Tanda bahaya ibu: perdarahan banyak, demam, pusing, sakit kepala, pandangan kabur. Tanda bahaya bayi: kuning, kejang, tangisan lemah, sulit menyusu. **Tidak menyebutkan safety net = PENGURANGAN BESAR** pada OSCE.",
+          "answer_evidence": "§12 Safety Net + §18 PENGURANGAN BESAR"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Format SOAP Mengikuti Standar RS",
+          "text": "Format SOAP di §13 mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas. [DITAMBAHKAN SAAT STANDARDISASI]",
+          "answer_evidence": "§13 SOAP"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_vakum_informed_consent_08"
+      ],
+      "bilingual": "Edukasi vakum: bahasa awam, minta keluarga mengulang, beri waktu bertanya, empati. Tanda bahaya ibu: perdarahan banyak, demam, pusing, sakit kepala, pandangan kabur. Tanda bahaya bayi: kuning, kejang, tangisan lemah, sulit menyusu. SOAP: Subjective, Objective (TTV, DJJ, his, VT), Assessment (kala II memanjang, syarat terpenuhi), Plan (vakum + monitoring + pascatindakan)."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Kaitan penyakit SKDI 4A (18 penyakit) + 5 mini-skrip komunikasi OSCE untuk fase informed consent, persiapan, pemasangan cup, bayi, dan penutup.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "**Kaitan penyakit SKDI 4A** — 18 penyakit yang relevan dengan modul vakum:",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Persalinan fisiologis/APN** (O80) — 4A. Vakum adalah deviasi karena ada indikasi. Tetap pakai APN: lahirkan bahu, bayi, oksitosin, kala III aktif, IMD.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Kala II memanjang** (O63.1) — 4A (3B bila perlu tindakan). Indikasi utama vakum. Evaluasi his, posisi, presentasi, syarat.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Gawat janin** (O68.x) — 3B (Rujuk). DJJ <110 atau >160. Evaluasi, persiapan resusitasi, vakum/SC.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Ruptur perineum derajat 1-2** (O70.0/O70.1) — 4A (3B bila OASI). Episiotomi/vakum dapat menimbulkan robekan. Eksplorasi dan jahit.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **PPH** (O72.x) — 4A (3B emergensi). Trauma jalan lahir, atonia, retensio. Uterotonika, masase, rujuk.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Atonia uteri** (O62.2) — 4A (3B emergensi). Uterus tidak berkontraksi. Masase, uterotonika, rujuk.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Retensio plasenta** (O73.0) — 4A (3B emergensi). Plasenta tidak lahir >30 menit. Traksi tali pusat, manual plasenta, rujuk.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Sisa plasenta (retained products)** (O73.1) — 4A (3B emergensi). Perdarahan postpartum, TFU tidak mengecil. USG, kuretase, rujuk.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **CPD** (O65.x) — 3B (Rujuk). Kepala tidak turun, molase berat. SC. JANGAN paksakan vakum.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Malpresentasi (bukan kepala)** (O32.x) — 3B (Rujuk). Muka/dahi/bokong/lintang. SC, JANGAN vakum.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Kehamilan/persalinan risiko tinggi** (O09.x) — 4A (3B sesuai risiko). Kala II memanjang, gawat janin, malposisi, CPD, prematuritas. Pastikan syarat.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Anemia pada kehamilan** (O99.0/D64.9) — 4A (3B bila berat). Perdarahan memperburuk anemia. Periksa Hb, transfusi sesuai indikasi.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Preeklampsia** (O14.x) — 3B (Rujuk). TD tinggi, proteinuria. Evaluasi, antihipertensi, MgSO4, rujuk.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **Distosia bahu** (O66.0) — 3B (Rujuk). Bahu tidak lahir setelah kepala. Manuver McRobert, suprapubik. JANGAN traksi berlebihan.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "- **HIV pada kehamilan** (O98.7/B20), **Sifilis** (O98.1/A51.x), **Hepatitis B** (O98.4/B18.1) — 3B (Rujuk). Skrining, terapi, rujuk.",
+          "tone": "clinical",
+          "source": "§14 SKDI"
+        },
+        {
+          "text": "**Batas kompetensi dokter umum:** **4A (mandiri):** APN, identifikasi kala II memanjang, identifikasi syarat vakum, pertolongan pertama. **3B (merujuk):** pelaksanaan vakum (perlu supervisi SpOG), SC, komplikasi (OASI, PPH, distosia, emboli). **2 (merujuk ke spesialis):** kasus kompleks, bayi dengan trauma kepala berat.",
+          "tone": "clinical",
+          "source": "§14 Batas kompetensi"
+        },
+        {
+          "text": "**Catatan diagnosis yang harus dirujuk segera (SKDI 3B):** Gawat janin akut, CPD curiga, malpresentasi (bukan kepala), kegagalan vakum, distosia bahu, PPH tidak terkontrol, atonia uteri, retensio plasenta, inversio uteri, sisa plasenta, OASI (derajat 3-4), emboli air ketuban, preeklampsia/eklampsia, HIV/sifilis/hepatitis B positif, perdarahan banyak, syok, bayi dengan APGAR rendah/caput besar/perdarahan subgaleal.",
+          "tone": "clinical",
+          "source": "§14 Rujuk Segera"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**5 Mini-Skrip OSCE (Lampiran D + §15):**",
+          "sub": [
+            "**Skrip 1 — Informed consent (60 detik):** salam → konfirmasi identitas → jelaskan kala II memanjang + alasan vakum → jelaskan alat + risiko + kemungkinan gagal/SC → minta tanda tangan.",
+            "**Skrip 2 — Persiapan:** jelaskan infus, kateter, area bersih, APD, tim bayi, alat resusitasi → VT verifikasi syarat → 'Syarat terpenuhi, Bu. Saya lanjutkan.'",
+            "**Skrip 3 — Pemasangan cup & traksi:** jelaskan pemasangan cup miring → cek jaringan → tekanan 400 mmHg → 'Saat ada his, Ibu mengejan kuat, ya' → traksi sinkron his → monitoring DJJ.",
+            "**Skrip 4 — Lahirkan bayi:** 'Kepalanya hampir keluar, Bu' → suction → lahirkan bahu → 'Selamat, bayi Ibu lahir, bayi menangis' → IMD.",
+            "**Skrip 5 — Penutup:** 'Ibu, tindakan selesai, ibu dan bayi dalam kondisi baik' → 'Tanda bahaya ibu dan bayi...' → 'IMD, ASI eksklusif, kontrol 1 minggu + 6 minggu, konseling KB' → salam."
+          ],
+          "bold": true,
+          "source": "§15 Mini-Skrip"
+        },
+        {
+          "text": "**Perbedaan situasi komunikasi:**",
+          "sub": [
+            "Vakum elektif → komunikasi suportif, konseling mendalam.",
+            "Vakum emergensi (gawat janin) → komunikasi lebih cepat, fokus keselamatan, informed consent singkat.",
+            "Vakum gagal/SC → rujuk, komunikasi keluarga, rujuk SpOG.",
+            "Komplikasi (OASI, PPH) → tatalaksana segera, rujuk SpOG."
+          ],
+          "bold": false,
+          "source": "§15 Catatan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pola Pembuka Station (60 Detik)",
+          "text": "*\"Selamat pagi/siang Ibu Sari, saya dokter muda ... Saya akan melakukan ekstraksi vakum. Sebelum mulai saya akan konfirmasi identitas dan menjelaskan prosedurnya.\"* → Kalimat pembuka yang sopan, informatif, dan menunjukkan profesionalisme medis.",
+          "answer_evidence": "§15 Skrip 1"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Karakter Penting Mini-Skrip",
+          "text": "Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario. [DITAMBAHKAN SAAT STANDARDISASI]. Latihan: rekam suara sendiri, review kecepatan bicara. Simulasikan skenario berbeda (vakum elektif, emergensi, gagal, komplikasi).",
+          "answer_evidence": "§15 Catatan"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Pentingnya Vakum di SKDI",
+          "text": "Pelaksanaan vakum sendiri ada di **SKDI 3B (perlu supervisi SpOG)** — dokter umum di OSCE dinilai pada identifikasi syarat, indikasi, kontraindikasi, dan pertolongan pertama, bukan pada pelaksanaan mandiri. Pengetahuan tentang vakum = fondasi untuk rujukan tepat waktu.",
+          "answer_evidence": "§14 Batas kompetensi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_vakum_informed_consent_08",
+        "gls_vakum_presentasi_11"
+      ],
+      "bilingual": "SKDI vakum: 4A (mandiri identifikasi syarat & indikasi), 3B (pelaksanaan vakum perlu supervisi SpOG, SC, komplikasi OASI/PPH/distosia). Mini-skrip OSCE: informed consent → persiapan → pemasangan cup → traksi sinkron his → lahirkan bayi → penutup dengan safety net + IMD/ASI/kontrol."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist 27 item latihan mandiri, rencana belajar 3 hari (60/90/60 menit), 4 mini-case OSCE (mudah, sedang, sulit, OASI), dan recovery move untuk kesalahan station.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "**Checklist Latihan Mandiri (27 item):** 1) Salam, perkenalan, identitas; 2) Informed consent; 3) Persiapan ibu (infus, kandung kemih kosong, posisi litotomi, area bersih); 4) Persiapan bayi (tim bayi, meja hangat, resusitasi, penghisap lendir, oksigen); 5) Persiapan penolong (APD lengkap, sarung tangan steril panjang, masker, kacamata); 6) Cuci tangan bedah; 7) Pemeriksaan dalam (VT); 8) Konfirmasi syarat; 9) Pemasangan cup miring + cek jaringan; 10) Tekanan bertahap 100→400→600; 11) Traksi sinkron his; 12) Arah traksi sejajar lantai lalu ke atas; 13) Lahirkan kepala, bahu, badan; 14) APGAR 1 dan 5 menit; 15) Potong tali pusat; 16) IMD dalam 1 jam; 17) Manajemen aktif kala III; 18) Eksplorasi jalan lahir + jahit robekan; 19) Dekontaminasi alat + cuci tangan; 20) Monitoring ibu (TTV 15m, 30m, 1j, 2j); 21) Monitoring bayi; 22) Ketahui kapan berhenti; 23) Dokumentasi SOAP + ICD-10; 24) Edukasi keluarga; 25) Rujuk komplikasi; 26) Penutup station sopan; 27) Menyebut kode ICD-10.",
+          "tone": "clinical",
+          "source": "§16 Checklist Latihan"
+        },
+        {
+          "text": "**Kriteria 'Siap OSCE':** Minimal 25 dari 27 item tercentang, dan **semua item TINGGI sudah dikuasai**.",
+          "tone": "clinical",
+          "source": "§16 Kriteria"
+        },
+        {
+          "text": "**Rencana Belajar 3 Hari (H-3, H-2, H-1):**",
+          "tone": "clinical",
+          "source": "§17 Rencana"
+        },
+        {
+          "text": "**Hari 1 (H-3) — Orientasi (60 menit):** Pahami konsep vakum, indikasi, syarat, kontraindikasi (§1). Hafal urutan alur (§2) dan checklist utama (§3). Baca §4–§6. Aktivitas: tulis ulang 10 langkah alur dari ingatan, hafalkan syarat vakum + kapan berhenti, pahami tindakan berisiko tinggi. Kriteria selesai: bisa menyebutkan 10 langkah alur, syarat vakum, dan kapan berhenti tanpa melihat.",
+          "tone": "narrative",
+          "source": "§17 Hari 1"
+        },
+        {
+          "text": "**Hari 2 (H-2) — Latihan Urutan (90 menit):** Hafal langkah pemasangan cup, tekanan bertahap, traksi sinkron his. Latihan mini-skrip informed consent (§15). Praktik verifikasi syarat dengan VT pada manekin. Aktivitas: latihan dengan manekin sambil mengucapkan langkah, praktik urutan pemasangan cup, praktik urutan traksi, tulis SOAP untuk skenario §13, simulasi informed consent + skenario Lampiran C. Kriteria selesai: dapat menyelesaikan urutan tindakan verbalized dalam 9-10 menit, menulis SOAP lengkap dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 Hari 2"
+        },
+        {
+          "text": "**Hari 3 (H-1) — Simulasi Penuh (60 menit):** Run-through penuh station (informed consent → eksplorasi jalan lahir + edukasi). Identifikasi celah terakhir. Simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: timer 10 menit, simulasi lengkap, review §18 kesalahan fatal, praktik skenario Lampiran C, bisa menyebutkan syarat vakum + kapan berhenti + komplikasi. Tidur cukup malam sebelumnya. Kriteria 'siap OSCE': bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dokumentasi; tidak melewatkan item checklist (minimal 25/27); bisa menjawab 1-2 pertanyaan penguji dengan baik; merasa percaya diri.",
+          "tone": "narrative",
+          "source": "§17 Hari 3"
+        },
+        {
+          "text": "**Mini-Case OSCE untuk Latihan Cepat (4 skenario):**",
+          "tone": "clinical",
+          "source": "Lampiran C"
+        },
+        {
+          "text": "**Skenario Mudah (Vakum pada Kala II Memanjang, Syarat Terpenuhi):** Ny. Sari, 26 tahun, G2P1A0, hamil 39 minggu, kala II, pembukaan lengkap 1 jam, kepala Hodge IV, presentasi belakang kepala OA kiri, DJJ 130 x/menit, his adekuat, ibu kelelahan. Pertanyaan: indikasi, syarat, urutan, informed consent, komplikasi. **Jebakan nilai:** tidak informed consent, lupa syarat, tidak cek jaringan terjepit, tidak sinkron his.",
+          "tone": "narrative",
+          "source": "Lampiran C Case 1"
+        },
+        {
+          "text": "**Skenario Sedang (Vakum pada Gawat Janin Kala II):** Ny. Sari, 28 tahun, G1P0A0, hamil 40 minggu, kala II, pembukaan lengkap 30 menit, kepala Hodge IV, presentasi belakang kepala OA kanan, DJJ turun dari 140 ke 100, bradikardia intermiten, mekonium (+), ibu kelelahan. Syarat terpenuhi. **Tatalaksana:** informed consent cepat, persiapan tim bayi (suction trakea sesuai NRP), pemasangan cup, traksi sinkron his, **tim bayi suction trakea bila mekonium + bayi tidak bugar**. Risiko: asfiksia, mekonium aspiration syndrome. Rujuk: bayi dengan APGAR rendah atau mekonium aspirated → NICU. Jebakan: tidak suction trakea pada mekonium + bayi tidak bugar.",
+          "tone": "narrative",
+          "source": "Lampiran C Case 2"
+        },
+        {
+          "text": "**Skenario Sulit (Vakum Gagal — Perlu Rujuk SC):** Ny. Sari, 30 tahun, G2P1A0, hamil 39 minggu, kala II, pembukaan lengkap 1,5 jam, kepala Hodge IV, presentasi belakang kepala OA kiri, DJJ 130, his adekuat. Vakum dilakukan: cup lepas 2×, traksi sinkron his 3×, tidak ada kemajuan, total 15 menit. **Respons aman:** hentikan traksi, lepas cup, evaluasi syarat (CPD curiga? posisi? molase?), komunikasi dengan ibu/keluarga, konsultasi SpOG untuk SC, monitoring ibu-bayi, jangan paksakan vakum/forsep. Rujuk emergency. Jebakan: memaksakan traksi, terlambat rujuk, tidak komunikasikan kegagalan.",
+          "tone": "narrative",
+          "source": "Lampiran C Case 3"
+        },
+        {
+          "text": "**Skenario Tambahan: OASI (Robekan Derajat 3) Pasca Vakum:** Ny. Sari, 27 tahun, G1P0A0, hamil 39 minggu, berhasil vakum (1 tarikan, bayi lahir, APGAR 8/9). Eksplorasi jalan lahir: robekan derajat 3 (sfingter ani robekan <50%). **Diagnosis: OASI derajat 3a.** Tatalaksana: hentikan prosedur sementara, selesaikan kala III, **JANGAN jahit sendiri** → rujuk SpOG untuk repair OASI, antibiotik profilaksis, komunikasi dengan ibu. Rujuk SpOG. Jebakan: menjahit sendiri tanpa kompetensi, tidak rujuk SpOG, tidak evaluasi lebih lanjut.",
+          "tone": "narrative",
+          "source": "Lampiran C Case 4"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**27 item checklist latihan — semua TINGGI:**",
+          "sub": [
+            "Informed consent, persiapan ibu-bayi-penolong, cuci tangan, VT, syarat vakum, cup miring, tekanan bertahap, traksi sinkron his, arah traksi, lahirkan kepala-bahu-badan, APGAR 1+5, potong tali pusat, IMD, MAKA kala III, eksplorasi + jahit, dekontaminasi, monitoring, kapan berhenti, SOAP+ICD-10, edukasi, rujuk komplikasi, penutup sopan."
+          ],
+          "bold": true,
+          "source": "§16 Checklist"
+        },
+        {
+          "text": "**Tips sukses §17:**",
+          "sub": [
+            "Hari 1: fokus hafalan (syarat, alur, kapan berhenti).",
+            "Hari 2: praktik manekin + simulasi informed consent + tulis SOAP.",
+            "Hari 3: run-through penuh dengan timer + review kesalahan fatal + tidur cukup."
+          ],
+          "bold": true,
+          "source": "§17 Rencana"
+        },
+        {
+          "text": "**Strategi skenario sulit (vakum gagal):**",
+          "sub": [
+            "1) Hentikan traksi.",
+            "2) Lepas cup, evaluasi syarat (CPD, posisi, molase).",
+            "3) Komunikasi dengan ibu/keluarga.",
+            "4) Konsultasi SpOG untuk SC.",
+            "5) Monitoring ibu-bayi selama persiapan SC.",
+            "6) Jangan paksakan vakum/forsep lagi (batas tercapai)."
+          ],
+          "bold": true,
+          "source": "Lampiran C Case 3"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "15 Kesalahan FATAL Wajib Dihindari",
+          "text": "1) Lupa menyebut syarat vakum. 2) Vakum sebelum pembukaan lengkap. 3) Vakum pada presentasi bukan kepala. 4) Vakum pada kepala masih tinggi. 5) Tidak memeriksa jaringan terjepit. 6) Tarikan tidak sinkron his. 7) Tekanan terlalu lama. 8) Tidak menyiapkan bayi. 9) Tidak eksplorasi jalan lahir. 10) Tidak informed consent tertulis. 11) Tidak cuci tangan/sarung tangan steril. 12) Tidak MAKA kala III. 13) Memaksakan vakum saat gagal. 14) Tidak IMD/ASI eksklusif edukasi. 15) Tidak dokumentasi SOAP.",
+          "answer_evidence": "§18 FATAL (15 item)"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "7 Kesalahan PENGURANGAN BESAR",
+          "text": "1) Tidak menyebut diagnosis kerja. 2) Tidak menyebut kode ICD-10. 3) Tidak edukasi tanda bahaya. 4) Tidak menyebut waktu total traksi. 5) Tidak menyebut konsentrasi/dosis uterotonika. 6) Tidak menyebut monitoring APGAR 1/5/10 menit. 7) Tidak membedakan derajat robekan.",
+          "answer_evidence": "§18 PENGURANGAN BESAR"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery Move",
+          "text": "**Recovery Move** = strategi bila Anda menyadari sudah membuat kesalahan di tengah station. Contoh: *'Mohon maaf, Bu, saya akan mengulang penjelasan prosedur.'* (informed consent). *'Saya akan memastikan tidak ada jaringan yang terjepit.'* (cup). *'Saya akan menarik sinkron dengan his dan mengikuti sumbu jalan lahir.'* (traksi). *'Saya akan eksplorasi jalan lahir dan jahit robekan.'* (pascatindakan). **Yang penting: jangan panik dan jangan asal jawab saat ditegur.**",
+          "answer_evidence": "§18 Recovery Move"
+        }
+      ],
+      "visual_refs": [
+        "visual_vakum_algoritma_gagal_05"
+      ],
+      "glossary_refs": [
+        "gls_vakum_ekstraksi_01",
+        "gls_vakum_cpd_03",
+        "gls_vakum_hodge_02",
+        "gls_vakum_presentasi_11"
+      ],
+      "bilingual": "Latihan OSCE: checklist 27 item (semua TINGGI), rencana 3 hari (60/90/60 menit), 4 mini-case (mudah-sedang-sulit-OASI). Recovery move: minta izin mengulang, tambahkan prinsip yang terlupa, jangan panik."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "5 visual asset, Lampiran A (kontraindikasi), Lampiran B (masalah prosedur), Lampiran C (mini-case), Lampiran D (checklist verbal), dan referensi ringkas.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "**Saran Visual & Prompt AI** (5 visual) — lihat visual_asset_manifest untuk deskripsi lengkap. Visual 1: Skema syarat vakum (s01, daftar prerequisites). Visual 2: Posisi cup vakum (ilustrasi sagital, panggul + kepala bayi). Visual 3: Arah tarikan (3 tahap: sejajar lantai → ke atas mengikuti sumbu). Visual 4: Komplikasi bayi (chignon, cephalhematoma, perdarahan subgaleal). Visual 5: Algoritme gagal vakum (flowchart kapan henti).",
+          "tone": "clinical",
+          "source": "§19 Saran Visual"
+        },
+        {
+          "text": "**Referensi Ringkas:**",
+          "tone": "clinical",
+          "source": "REFERENSI"
+        },
+        {
+          "text": "- **PDF Batch 4 File 3: Penuntun Belajar Keterampilan Klinik Ekstraksi Vakum** — Sumber utama checklist OSCE kampus.",
+          "tone": "clinical",
+          "source": "REFERENSI 1"
+        },
+        {
+          "text": "- **SKDI 2012 - Pemetaan 4A Obstetri-Ginekologi** — Rujukan kaitan dengan APN, ruptur perineum, PPH, anemia, dan kehamilan normal.",
+          "tone": "clinical",
+          "source": "REFERENSI 2"
+        },
+        {
+          "text": "- **WHO. Intrapartum care for a positive childbirth experience. 2018.** — https://www.who.int/publications/i/item/9789241550215",
+          "tone": "clinical",
+          "source": "REFERENSI 3"
+        },
+        {
+          "text": "- **RCOG. Assisted Vaginal Birth, Green-top Guideline No. 26.** — Rujukan tindakan persalinan berbantu dan aspek informed consent/keselamatan. https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/assisted-vaginal-birth-green-top-guideline-no-26/",
+          "tone": "clinical",
+          "source": "REFERENSI 4"
+        },
+        {
+          "text": "- **WHO. WHO recommendations on the assessment of postpartum blood loss and use of a treatment bundle for postpartum haemorrhage. 2023.** — Rujukan manajemen PPH.",
+          "tone": "clinical",
+          "source": "REFERENSI 5"
+        },
+        {
+          "text": "- **ACOG. Operative Vaginal Birth. Practice Bulletin.** — Rujukan ekstraksi vakum/forsep.",
+          "tone": "clinical",
+          "source": "REFERENSI 6"
+        },
+        {
+          "text": "**Catatan penting:** Keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual. Ekstraksi vakum adalah tindakan berisiko tinggi yang harus dilakukan oleh tenaga terlatih dengan fasilitas lengkap.",
+          "tone": "clinical",
+          "source": "REFERENSI Catatan",
+          "_original_content_tone": "note"
+        },
+        {
+          "text": "**Lampiran A — Kontraindikasi, Red Flags, dan Kondisi Khusus (13 kondisi):** Pembukaan belum lengkap; presentasi bukan kepala; kepala masih tinggi (Hodge III atau lebih); CPD curiga; prematur (kebijakan lokal); kelainan perdarahan janin; riwayat ruptura uteri; bekas SC klasik/vertikal; gawat ibu; KPD lama >18 jam dengan infeksi; ibu menolak; fasilitas tidak lengkap; operator tidak kompeten. **JANGAN vakum** untuk semua kondisi ini — perlu evaluasi atau rujukan dulu.",
+          "tone": "clinical",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "**Lampiran B — Masalah Saat Prosedur dan Respons Aman (14 masalah):** Cup lepas berulang (cek posisi, ganti cup, SC bila >2-3×); tidak ada kemajuan (evaluasi syarat, evaluasi arah traksi, rujuk); waktu traksi >20-30 menit (hentikan, evaluasi, rujuk); DJJ memburuk (hentikan, evaluasi, resusitasi intrauterin, rujuk); perdarahan aktif (evaluasi sumber, uterotonika, rujuk); distosia bahu (McRobert, suprapubik, episiotomi, manuver internal); jaringan terjepit (lepas cup, reposisi); nyeri hebat (stop, analgesik); reaksi alergi (hentikan, antihistamin, rujuk); cedera vagina/serviks (kompres, jahit); atonia uteri (masase, uterotonika, rujuk); bayi tidak menangis (resusitasi); pasien menolak lanjut (berhenti, tenangkan); pingsan/collapse (posisi aman, akses IV, observasi TTV, rujuk).",
+          "tone": "clinical",
+          "source": "Lampiran B"
+        },
+        {
+          "text": "**Lampiran D — Checklist Verbal Sebelum Mulai Tindakan (15 kalimat pola):**",
+          "tone": "clinical",
+          "source": "Lampiran D"
+        },
+        {
+          "text": "15 kalimat pola komunikasi dalam 60-90 detik pertama: salam → konfirmasi identitas → jelaskan kala II memanjang + alasan vakum → jelaskan alat → risiko ibu-bayi → kemungkinan gagal/SC → minta tanda tangan → verifikasi syarat → pemasangan cup → tekanan → traksi sinkron his → lahirkan bayi → APN → plasenta + eksplorasi → penutup dengan safety net + IMD/ASI/kontrol.",
+          "tone": "clinical",
+          "source": "Lampiran D"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "**5 Visual asset (lihat visual_asset_manifest):**",
+          "sub": [
+            "visual_vakum_syarat_01 — Skema syarat vakum (infografik)",
+            "visual_vakum_posisi_cup_02 — Posisi cup vakum (sagital)",
+            "visual_vakum_arah_tarikan_03 — Arah tarikan (3 tahap)",
+            "visual_vakum_komplikasi_bayi_04 — Komplikasi bayi (chignon/cephal/subgaleal)",
+            "visual_vakum_algoritma_gagal_05 — Algoritme gagal vakum (flowchart)"
+          ],
+          "bold": true,
+          "source": "§19 + visual_asset_manifest"
+        },
+        {
+          "text": "**Lampiran C — 4 Mini-Case OSCE:**",
+          "sub": [
+            "Case 1 Mudah: vakum pada kala II memanjang, syarat terpenuhi (Ny. Sari, 26 th).",
+            "Case 2 Sedang: vakum pada gawat janin kala II + mekonium.",
+            "Case 3 Sulit: vakum gagal, perlu rujuk SC.",
+            "Case 4 Tambahan: OASI (robekan derajat 3) pasca vakum → rujuk SpOG."
+          ],
+          "bold": true,
+          "source": "Lampiran C"
+        },
+        {
+          "text": "**Prinsip Lampiran D:** urutan informed consent → syarat → persiapan → pemasangan cup → traksi sinkron his → APN → pascatindakan adalah yang paling penting. **Pengetahuan syarat, kapan berhenti, dan komplikasi** adalah nilai tambah terbesar.",
+          "sub": [],
+          "bold": true,
+          "source": "Lampiran D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kontraindikasi Absolut Vakum (Lampiran A)",
+          "text": "13 kontraindikasi absolut: pembukaan belum lengkap, presentasi bukan kepala, kepala Hodge III atau lebih, CPD curiga, prematur, kelainan perdarahan janin, riwayat ruptura uteri, bekas SC klasik/vertikal, gawat ibu, KPD lama >18 jam + infeksi, ibu menolak, fasilitas tidak lengkap, operator tidak kompeten. **JANGAN vakum** untuk semua.",
+          "answer_evidence": "Lampiran A"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Respons Cup Lepas Berulang (Lampiran B)",
+          "text": "Cup lepas >2-3× → cek posisi, basah pada kepala, ganti cup, **pertimbangkan SC**. Selalu evaluasi syarat (CPD, posisi, molase) sebelum ganti cup. Jangan terus mengganti cup tanpa evaluasi — batas tercapai.",
+          "answer_evidence": "Lampiran B"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Akhir",
+          "text": "Modul 014 adalah salah satu yang PALING PADAT di batch 4 (145-150 menit). Kekuatan: prosedur instrumental dengan protokol '3 tarikan, 3 detach'. Pelaksanaan vakum di SKDI 3B (perlu supervisi SpOG).",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md Modul 014"
+        }
+      ],
+      "visual_refs": [
+        "visual_vakum_syarat_01",
+        "visual_vakum_posisi_cup_02",
+        "visual_vakum_arah_tarikan_03",
+        "visual_vakum_komplikasi_bayi_04",
+        "visual_vakum_algoritma_gagal_05"
+      ],
+      "glossary_refs": [
+        "gls_vakum_ekstraksi_01",
+        "gls_vakum_hodge_02",
+        "gls_vakum_cpd_03",
+        "gls_vakum_chignon_04",
+        "gls_vakum_sefalhematoma_05",
+        "gls_vakum_cup_06",
+        "gls_vakum_informed_consent_08",
+        "gls_vakum_kala2_10",
+        "gls_vakum_perdarahan_subgaleal_12"
+      ],
+      "bilingual": "Visual: 5 gambar (syarat, posisi cup, arah tarikan, komplikasi bayi, algoritma gagal). Lampiran A: 13 kontraindikasi absolut. Lampiran B: 14 masalah prosedur + respons. Lampiran C: 4 mini-case (mudah, sedang, sulit, OASI). Lampiran D: 15 kalimat verbal checklist. Referensi: SKDI 4A, WHO Intrapartum 2018, RCOG GTG 26, WHO PPH 2023, ACOG."
+    }
+  ]
+}

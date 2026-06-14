@@ -1,0 +1,846 @@
+{
+  "id": "sken_ika_geriatri_003",
+  "title": "Stasiun 03 — Bayi Rewel Saat Area Popok Dibersihkan",
+  "subtitle": "Skenario napkin eczema/diaper dermatitis iritan ringan-sedang pada An. Kirana (8 bulan) dengan kandidiasis sebagai DD utama: menguji anamnesis bayi, status lokalis dermatologis, seleksi penunjang rasional, dan edukasi perawatan popok nonfarmakologis.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_2",
+  "source_files": [
+    "SOAL_03_PESERTA_BLIND.md",
+    "SOAL_03_PENDAMPING.md",
+    "BLUEPRINT_MASTER_DOMAIN_02.md"
+  ],
+  "topicTags": [
+    "osce_skenario",
+    "pediatri",
+    "bayi",
+    "napkin_eczema",
+    "diaper_dermatitis",
+    "kandidiasis_kulit",
+    "pemeriksaan_kulit_bayi",
+    "edukasi_higiene_popok",
+    "diagnosis_banding_ruam_bayi"
+  ],
+  "summary": [
+    "Situasi klinis: An. Kirana, bayi perempuan 8 bulan (BB 8 kg), dibawa ibu ke poli umum karena rewel saat diganti popok, dengan ruam eritematosa di area bokong dan genital selama 4 hari, memburuk setelah penggunaan bedak dan minyak telon.",
+    "Skill utama yang diuji: anamnesis dermatitis popok, head-to-toe bayi singkat, status lokalis dermatologis (distribusi, lipatan, satelit, pustul, ulkus, krusta), seleksi penunjang rasional, dan edukasi perawatan popok nonfarmakologis.",
+    "Komponen anamnesis kritis: onset, lokasi, progresi, hubungan dengan BAK/BAB, frekuensi ganti popok, bahan iritan (tisu, sabun, bedak, minyak, merek popok), riwayat antibiotik, dan tanda infeksi sistemik.",
+    "Pemeriksaan fisik kunci: TTV, status hidrasi/gizi, abdomen singkat, status lokalis (distribusi, lipatan inguinal, pustul satelit, krusta madu, ulkus, bau, nyeri, ruam di tempat lain).",
+    "Diagnosis kerja: napkin eczema/diaper dermatitis iritan ringan-sedang. DD utama: kandidiasis diaper, impetigo/infeksi bakteri, selulitis, dermatitis atopik/seboroik, skabies.",
+    "Tatalaksana yang diharapkan: ganti popok sering, bersihkan dengan air hangat, keringkan, air time, barrier zinc oxide/petrolatum tebal, hindari iritan dan bedak, antijamur hanya bila curiga Candida.",
+    "Critical error paling penting: memberikan steroid kuat atau salep campuran tanpa indikasi; antibiotik sistemik tanpa tanda infeksi; mengabaikan demam, ulkus, selulitis, atau bayi tampak sakit.",
+    "Total 100 poin — komponen terbesar: anamnesis 25 poin dan pemeriksaan fisik 25 poin."
+  ],
+  "exam_focus": [
+    "Napkin eczema/diaper dermatitis IRIKAN adalah penyebab tersering ruam popok pada bayi: kontak lama urine/feses, gesekan, popok jarang diganti, diare, dan bahan iritan (tisu berpewangi, sabun antiseptik, bedak, minyak).",
+    "Ciri kandidiasis diaper: lipatan inguinal TERKENA (konkaver terspares), merah mengkilap, papul/pustul satelit, sering setelah antibiotik sistemik atau bersamaan dengan oral thrush.",
+    "Ciri impetigo/infeksi bakteri: KRUSTA MADU (kuning kecokelatan), pustul, nyeri, dapat demam; lesi tidak mengikuti batas popok.",
+    "Selulitis: eritema hangat, meluas cepat, nyeri, demam — KEDARURATAN, butuh antibiotik sistemik.",
+    "Bedak talc pada bayi KONTRANDIKASI: risiko terhirup (aspirasi pneumonitis) dan memperberat iritasi pada lipatan.",
+    "Steroid kuat (betametason, mometason furoat) TIDAK boleh dipakai di area popok bayi: risiko atrofi kulit, striae, dan absorpsi sistemik. Bila perlu anti-inflamasi, gunakan hidrokortison 1% jangka sangat singkat.",
+    "Tatalaksana utama NONFARMAKOLOGIS: ganti popok sering, segera setelah BAK/BAB; bersihkan dengan air hangat dan kain lembut; keringkan dengan ditepuk; air time (waktu tanpa popok); gunakan popok absorbsi baik ukuran pas; lipat popok di bawah umbilikus.",
+    "Salep barrier (zinc oxide atau petrolatum) dipakai TIPIS-TEBAL setiap ganti popok; berfungsi sebagai lapisan pelindung antara kulit dan urine/feses, bukan terapi aktif dermatitis."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_nec_def_01",
+      "term": "Napkin Eczema / Diaper Dermatitis Iritan",
+      "def": "Ruam eritematosa pada area yang tertutup popok, disebabkan kontak lama dengan urine, feses, gesekan, dan bahan iritan. Ciri: plak eritematosa di permukaan cembung (konveks) yang kontak popok, lipatan inguinal relatif tersparing (terkena lebih ringan). Faktor pencetus: popok jarang diganti, diare, tisu berpewangi, sabun antiseptik, bedak, minyak iritan.",
+      "type": "clinical",
+      "aliases": ["Diaper rash iritan", "Irritant contact dermatitis"]
+    },
+    {
+      "id": "gls_sken_nec_candida_02",
+      "term": "Kandidiasis Diaper",
+      "def": "Infeksi kulit oleh Candida albicans pada area popok, ditandai eritema merah mengkilap, papul/pustul satelit di sekitar lesi utama, dan KETERLIBATAN LIPATAN INGUINAL. Sering terjadi setelah terapi antibiotik sistemik, atau bersamaan dengan oral thrush. Tata laksana: antijamur topikal (nystatin atau clotrimazole) + barrier.",
+      "type": "clinical",
+      "aliases": ["Candidal diaper dermatitis"]
+    },
+    {
+      "id": "gls_sken_nec_impetigo_03",
+      "term": "Impetigo Bulosa / Infeksi Bakteri Sekunder",
+      "def": "Infeksi kulit superficial oleh Staphylococcus aureus atau Streptococcus pyogenes pada area popok, ditandai pustul/bulla pecah menjadi KRUSTA MADU (kuning kecokelatan) atau KRUSTA MELUNCUR. Dapat disertai demam. Tata laksana: antibiotik topikal (asam fusidat/mupirosin) atau sistemik sesuai luas/berat.",
+      "type": "clinical",
+      "aliases": ["Impetigo", "Infeksi bakteri kulit"]
+    },
+    {
+      "id": "gls_sken_nec_cellulitis_04",
+      "term": "Selulitis",
+      "def": "Infeksi kulit dan jaringan subkutan yang ditandai eritema hangat, edema, nyeri, batas tidak tegas, dapat disertai demam dan limfangitis. Merupakan kedaruratan karena risiko bakteremia/sepsis. Tata laksana: antibiotik sistemik (oral atau IV sesuai derajat).",
+      "type": "clinical",
+      "aliases": ["Cellulitis"]
+    },
+    {
+      "id": "gls_sken_nec_zno_05",
+      "term": "Zinc Oxide (Salep Barrier)",
+      "def": "Sediaan topikal inert yang membentuk lapisan pelindung antara kulit dan urine/feses, mengurangi kontak iritan dan menjaga kelembapan kulit. Dipakai TIPIS-TEBAL setiap ganti popok sebagai terapi utama dan pencegahan kekambuhan napkin eczema. Tidak memiliki efek anti-inflamasi atau antimikroba langsung.",
+      "type": "drug",
+      "aliases": ["ZnO salep", "Salep pelindung"]
+    },
+    {
+      "id": "gls_sken_nec_hydro_06",
+      "term": "Hidrokortison 1% Topikal",
+      "def": "Kortikosteroid potensi rendah (kelas VII) yang dapat dipakai sangat singkat (3-7 hari) pada dermatitis popok dengan inflamasi signifikan, sesuai supervisi dokter. JANGAN gunakan steroid potensi sedang-tinggi (betametason, mometason) di area popok bayi karena risiko atrofi kulit, striae, dan absorpsi sistemik.",
+      "type": "drug",
+      "aliases": ["Hydrocortisone 1%"]
+    },
+    {
+      "id": "gls_sken_nec_nystatin_07",
+      "term": "Nystatin Topikal",
+      "def": "Antijamur polien untuk infeksi Candida kulit dan mukosa. Diberikan pada napkin eczema dengan komponen kandidiasis (lesi melibatkan lipatan, papul satelit, oral thrush). Oles 2-4 kali/hari selama 7-14 hari sesuai respons.",
+      "type": "drug",
+      "aliases": ["Antijamur topikal", "Nystatin"]
+    },
+    {
+      "id": "gls_sken_nec_scabies_08",
+      "term": "Skabies",
+      "def": "Infestasi kulit oleh Sarcoptes scabiei var. hominis, ditandai lesi papul eritematosa, krusta, terowongan (burrow), dan sangat gatal, terutama malam hari. Pada bayi, sering mengenai telapak tangan, telapak kaki, pergelangan, dan area popok. Tata laksana: permetrin 5% topikal pada seluruh tubuh (kecuali kepala pada bayi besar) sesuai pedoman.",
+      "type": "clinical",
+      "aliases": ["Scabies"]
+    },
+    {
+      "id": "gls_sken_nec_koh_09",
+      "term": "Pemeriksaan KOH Kerokan Kulit",
+      "def": "Pemeriksaan mikroskopik kerokan lesi kulit dengan larutan KOH 10-20% untuk mendeteksi elemen jamur (hifa, pseudohifa, spora). Pada napkin eczema, KOH dilakukan bila curiga kandidiasis atau tidak membaik dengan terapi standar. Hasil negatif tidak menyingkirkan diagnosis karena sensitifitas terbatas.",
+      "type": "procedure",
+      "aliases": ["KOH skin scraping"]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis blind bayi dengan ruam popok dan daftar tugas 10 menit.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Anda bertugas di poli umum. Seorang bayi dibawa oleh ibunya karena rewel saat diganti popok dan tampak ada masalah pada area yang tertutup popok. Anda diminta melakukan konsultasi klinis awal yang relevan selama 10 menit.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Bangun komunikasi dengan ibu pasien dan konfirmasi identitas bayi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Lakukan anamnesis terarah.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Lakukan pemeriksaan fisik umum dan pemeriksaan area keluhan secara sopan dan sistematis.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Minta pemeriksaan penunjang yang Anda anggap perlu kepada penguji.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 5: Sampaikan diagnosis kerja, diagnosis banding, tatalaksana awal, edukasi perawatan rumah, dan tanda bahaya.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Hasil pemeriksaan dan penunjang hanya diberikan bila diminta. Gunakan bahasa sederhana kepada orang tua. Jaga privasi bayi dan jelaskan setiap pemeriksaan. Ingat: bayi tidak dapat mengkomunikasikan keluhan, sehingga deskripsi ibu dan observasi klinis adalah sumber utama.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_nec_def_01"],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting, durasi, dan distribusi 100 poin.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Stasiun berlangsung di poli umum dengan waktu 10 menit. Peserta berkomunikasi dengan ibu bayi sebagai sumber anamnesis utama. Bayi kooperatif untuk pemeriksaan (rewel saat popok dibuka, tetapi mudah ditenangkan). Peserta dinilai dari kemampuan anamnesis dermatitis popok, deskripsi status lokalis (distribusi, lipatan, satelit, pustul, krusta, ulkus, bau, nyeri), rasionalisasi penunjang, dan edukasi nonfarmakologis.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kompetensi dan komponen yang diuji:",
+          "sub": [
+            "Komunikasi klinis dan informed consent — salam, identifikasi, empati, izin, privasi.",
+            "Anamnesis dermatitis popok: onset, lokasi, progresi, hubungan BAK/BAB, iritan, red flags.",
+            "Pemeriksaan fisik: TTV, head-to-toe singkat, status lokalis dermatologis lengkap.",
+            "Pemilihan penunjang rasional: KOH, swab/kultur, metabolik hanya bila berat/rekuren.",
+            "Reasoning: napkin eczema iritan, DD kandidiasis, impetigo, selulitis, skabies.",
+            "Manajemen: perawatan nonfarmakologis, barrier,hindari iritan, antijamur/antibiotik sesuai indikasi, edukasi."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1-2 menit baca soal — 7-8 menit performa (anamnesis singkat, status lokalis lengkap, minta penunjang rasional, edukasi perawatan popok) — 1 menit wrap-up. Prioritaskan distribusi lesi (konveks vs lipatan) dan red flags (demam, krusta madu, ulkus).",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggali riwayat ruam, faktor iritan, dan tanda pembeda dari ibu bayi.",
+      "estimated_time_minutes": 3,
+      "content": [
+        {
+          "text": "Ibu probandus tampak khawatir karena bayi menangis setiap dibersihkan. Peserta diharapkan menggali onset ruam, lokasi, progresi, faktor pencetus (popok, tisu, bedak, minyak, sabun, diare), tanda pembeda (lipatan, satelit, krusta, oral thrush), dan red flags (demam, bayi tampak sakit, ulkus). Ibu akan menjawab sesuai data; informasi yang tidak ditanyakan tidak diberikan spontan.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus (keluhan utama versi spontan): \"Dok, anak saya kalau diganti popok menangis. Kulit di area popok merah dan perih sejak beberapa hari ini.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Identitas pasien:",
+          "sub": [
+            "Nama: An. Kirana.",
+            "Usia: 8 bulan.",
+            "Berat badan: 8 kg.",
+            "Jenis kelamin: perempuan.",
+            "Imunisasi dasar sesuai usia menurut ibu."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat ruam (diberikan bila ditanya):",
+          "sub": [
+            "Ruam sejak 4 hari.",
+            "Awalnya kemerahan ringan di bokong, lalu meluas ke area yang terkena popok.",
+            "Bayi menangis saat BAK/BAB atau saat dibersihkan.",
+            "Tidak ada demam.",
+            "Tidak ada nanah jelas, tidak ada luka dalam.",
+            "Ibu mengganti popok ~3-4 kali sehari; kadang semalaman baru diganti pagi.",
+            "Popok sering penuh karena bayi sedang diare ringan 2 hari lalu, sekarang BAB mulai membaik.",
+            "Ibu memakai tisu basah berpewangi dan sabun antiseptik.",
+            "Ibu pernah menaburkan bedak talc."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pertanyaan pembeda yang harus ditanyakan peserta (jawaban probandus bila ditanya):",
+          "sub": [
+            "Lipatan paha: sebagian besar lebih ringan/relatif tidak terkena.",
+            "Bintil satelit/pustul kecil di sekitar ruam: tidak jelas, hanya ada beberapa papul merah kecil tetapi tidak dominan.",
+            "Sariawan/putih di mulut: tidak ada.",
+            "Krusta madu/nanah: tidak ada.",
+            "Demam/tampak sakit: tidak.",
+            "Ruam di kepala/lipatan lain: tidak ada.",
+            "Riwayat antibiotik baru: tidak.",
+            "Riwayat alergi popok baru: baru ganti merek popok dan tisu 1 minggu terakhir."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat makan/minum/eliminas:",
+          "sub": [
+            "Minum ASI/MPASI masih mau.",
+            "BAK cukup.",
+            "BAB 3 kali/hari, lebih lembek 2 hari lalu.",
+            "Tidak muntah."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Obat/perawatan sebelumnya:",
+          "sub": [
+            "Ibu memberi bedak dan mengoles minyak telon, malah tampak makin merah.",
+            "Belum diberi salep medis."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pertanyaan Kunci",
+          "text": "Tanyakan: (1) Kapan ganti popok dan berapa kali sehari; (2) Bahan yang dipakai (tisu, sabun, bedak, minyak); (3) Merek popok baru; (4) Diare/BAK/BAB; (5) Demam, ulkus, nanah; (6) Oral thrush; (7) Riwayat antibiotik; (8) Ruam di tempat lain. Semua ini adalah data pembeda krusial.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_nec_candida_02", "gls_sken_nec_impetigo_03"],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV, head-to-toe bayi, dan status lokalis area popok yang tersedia untuk diberikan kepada peserta.",
+      "estimated_time_minutes": 3,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ yang diperiksa. Peserta dinilai dari relevansi permintaan, urutan, dan kelengkapan deskripsi.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital bayi (Nilai normal bayi 8 bulan: HR 80-130, RR 20-30, SpO2 ≥95%, suhu 36,5-37,5°C):",
+          "sub": [
+            "Suhu aksila: 36,8°C.",
+            "Nadi: 118 x/menit.",
+            "RR: 28 x/menit.",
+            "SpO2: 99% udara ruangan.",
+            "Berat badan: 8 kg.",
+            "CRT: <2 detik."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Keadaan umum: bayi sadar, aktif, menangis saat area popok dibuka, tetapi mudah ditenangkan. Tidak tampak toksik.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Head-to-toe anak (diberikan per sistem bila diminta):",
+          "sub": [
+            "Hidrasi: mukosa lembab, turgor baik, mata tidak cekung.",
+            "Mulut: tidak ada oral thrush.",
+            "Paru/jantung: dalam batas normal.",
+            "Abdomen: datar, bising usus normal, nyeri tekan tidak ada, tidak distensi.",
+            "Kulit selain area popok: tidak ada ruam luas, tidak ada tanda skabies.",
+            "Status gizi tampak baik."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status lokalis area popok (WAJIB dideskripsikan lengkap):",
+          "sub": [
+            "Lokasi: bokong bilateral, area genital luar, permukaan cembung (konveks) yang kontak popok.",
+            "Efloresensi: plak eritematosa batas tidak terlalu tegas, sebagian bersisik halus, sedikit lecet superfisial.",
+            "Lipatan inguinal: relatif lebih ringan/tersparing (mengarah ke iritan, bukan kandidiasis dominan).",
+            "Tidak ada ulkus dalam, tidak ada krusta madu, tidak ada discharge purulen.",
+            "Tidak ada bau busuk.",
+            "Nyeri/perih saat disentuh dan dibersihkan.",
+            "Tidak ada hematoma atau pola luka yang mencurigakan kekerasan."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Peserta Meminta Data",
+          "text": "Peserta harus MENYEBUT parameter atau organ (mis. \"Berapa suhu dan nadi bayi?\" atau \"Bagaimana status lokalis area popok — distribusi, lipatan, pustul satelit, krusta?\"). Data tidak diberikan spontan.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_nec_def_01", "gls_sken_nec_candida_02"],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Prinsip penunjang rasional, hasil yang tersedia, dan catatan tentang overuse penunjang.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Prinsip: napkin eczema/diaper dermatitis iritan ringan-sedang pada bayi tanpa demam, tanpa toksik, dan tanpa tanda infeksi bakteri adalah diagnosis KLINIS. Penunjang rutin tidak diperlukan; pemeriksaan khusus hanya berdasarkan indikasi spesifik.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Penunjang rutin: tidak diperlukan pada kasus ringan tanpa demam/toksik.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "KOH kerokan lesi: tidak wajib; bila diminta karena curiga Candida, hasil negatif/tidak tampak pseudohifa dominan. KOH membantu konfirmasi tetapi tidak rutin.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Swab/Gram/kultur kulit: tidak perlu; bila diminta karena curiga infeksi bakteri, tidak ada pus/krusta sehingga tidak diambil.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gula darah: tidak rutin; bila diminta karena kandidiasis berat/rekuren, hasil sewaktu 92 mg/dL.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan feses: tidak rutin; diare sudah membaik dan bayi tidak dehidrasi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "Pada napkin eczema ringan tanpa tanda sistemik, permintaan darah lengkap, kultur kulit, KOH, atau panel metabolik tanpa indikasi merupakan overuse penunjang. Peserta yang meminta banyak penunjang tanpa justifikasi klinis akan kehilangan poin di bagian ini.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_nec_koh_09"],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Diagnosis kerja napkin eczema iritan dengan kriteria, dan DD yang harus disaring termasuk kandidiasis.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Napkin eczema/diaper dermatitis iritan ringan-sedang. Faktor pencetus: kontak lama urine/feses, popok jarang diganti (3-4 kali/hari, semalaman baru diganti pagi), diare ringan 2 hari lalu, tisu berpewangi, sabun antiseptik keras, penggunaan bedak talc, dan minyak telon. Ciri klinis mendukung: plak eritematosa di permukaan cembung (konveks) yang kontak popok, lipatan inguinal tersparing, tidak ada nanah, tidak ada krusta madu, tidak ada oral thrush, tidak ada demam, bayi tidak tampak toksik.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Kandidiasis diaper — biasanya mengenai LIPATAN (konkaver), merah mengkilap, papul/pustul satelit dominan, sering setelah antibiotik atau bersama oral thrush. Pada kasus ini lipatan tersparing dan tidak ada papul satelit dominan, sehingga kandidiasis dominan kecil kemungkinannya (meskipun masih bisa sebagai komponen minor).",
+          "sub": [],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Impetigo/infeksi bakteri — ditandai KRUSTA MADU, pustul, nyeri, dapat demam. TIDAK ada pada kasus ini (tidak ada krusta madu, tidak ada nanah, tidak demam).",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Selulitis — eritema hangat meluas, nyeri, demam, batas tidak tegas. TIDAK ada pada kasus ini (bayi afebril, tidak ada perluasan, tidak tampak toksik).",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: Dermatitis atopik — biasanya di pipi, lipat siku/paha, bukan terbatas area popok; riwayat atopik keluarga mendukung.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Dermatitis seboroik — onset lebih awal (1-3 bulan), mengenai scalp, wajah, aksila, popok; skuama kekuningan berminyak.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 6: Psoriasis — lesi berbatas tegas, skuama tebal keperakan, sering di area ekstensor dan popok; jarang pada bayi.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 7: Skabies — papul eritematosa sangat gatal, terutama malam hari, di telapak tangan/kaki, pergelangan, dan area popok. Pada kasus ini tidak ada ruam di tempat lain.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 8: Defisiensi zinc / Langerhans cell histiocytosis — pertimbangkan bila ruam persisten atau atipikal yang tidak membaik dengan terapi standar.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 9: Kekerasan/trauma — pertimbangkan bila ada pola lesi yang tidak wajar (hematoma, luka tekan, lokasi atipikal).",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Mnemonik Iritan vs Kandidiasis",
+          "text": "Iritan: KONVEKS (permukaan cembung) — KERING (bersisik halus, lecet superfisial) — LIPATAN SPARING. Kandidiasis: KONKAVER (lipatan terkena) — KILAP — SATELIT (papul/pustul di pinggir). Gunakan distribusi lesi untuk membedakan di samping meja periksa.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_nec_def_01", "gls_sken_nec_candida_02", "gls_sken_nec_impetigo_03", "gls_sken_nec_cellulitis_04", "gls_sken_nec_scabies_08"],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana nonfarmakologis (inti), barrier, anti-inflamasi/antijamur sesuai indikasi, dan rasionalisasi.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pendekatan tata laksana napkin eczema iritan ringan-sedang: NONFARMAKOLOGIS adalah fondasi utama, ditambah barrier topikal, dan obat topikal hanya sesuai indikasi spesifik. Hindari bahan iritan, bedak, dan steroid kuat.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Nonfarmakologis (inti tatalaksana):",
+          "sub": [
+            "Ganti popok lebih sering, segera setelah BAK/BAB (idealnya tiap 2-3 jam atau setiap kali basah/kotor).",
+            "Bersihkan dengan air hangat dan kain lembut; HINDARI menggosok keras.",
+            "Keringkan dengan ditepuk perlahan (jangan digosok).",
+            "Beri waktu tanpa popok / air time beberapa kali sehari agar kulit terpapar udara.",
+            "Hindari tisu berpewangi, sabun antiseptik keras, bedak talc, minyak/ramuan iritan.",
+            "Gunakan popok yang menyerap baik dan ukuran sesuai; lipat popok di bawah umbilikus."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Farmakologis / topikal:",
+          "sub": [
+            "Barrier tebal zinc oxide atau petrolatum setiap ganti popok sebagai lapisan pelindung.",
+            "Bila inflamasi berat: hidrokortison 1% potensi rendah SANGAT SINGKAT (3-7 hari) sesuai supervisi/pedoman lokal. JANGAN gunakan steroid kuat.",
+            "Bila tampak Candida (lesi lipatan, papul satelit, oral thrush): antijamur topikal nystatin atau clotrimazole sesuai pedoman lokal.",
+            "Bila infeksi bakteri (krusta madu, pustul, selulitis, demam): antibiotik topikal/sistemik sesuai derajat dan evaluasi dokter; pada kasus ini TIDAK ADA indikasi."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi / Jangan Dilakukan",
+          "text": "JANGAN gunakan bedak talc (risiko aspirasi pneumonitis). JANGAN gunakan steroid potensi kuat/sedang (atrofi kulit, striae, absorpsi). JANGAN gunakan salep campuran (mengandung antibiotik + steroid) tanpa indikasi. JANGAN berikan antibiotik sistemik tanpa tanda infeksi bakteri.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_nec_zno_05", "gls_sken_nec_hydro_06", "gls_sken_nec_nystatin_07"],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Edukasi ibu tentang penyebab, perawatan rumah, barrier, dan tanda bahaya kontrol.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario ini:\n\nS (Subjective): Bayi perempuan 8 bulan, BB 8 kg, dibawa ibu. Keluhan: bayi rewel saat diganti popok, ruam eritematosa di area bokong dan genital sejak 4 hari. Riwayat: popok diganti 3-4 kali/hari, semalaman baru pagi; baru ganti merek popok dan tisu 1 minggu terakhir; ibu pakai tisu berpewangi, sabun antiseptik, dan menaburkan bedak talc dan minyak telon. Diare ringan 2 hari lalu, BAB mulai membaik. Tidak ada demam, tidak ada nanah, tidak ada oral thrush.\n\nO (Objective): Suhu 36,8°C, HR 118, RR 28, SpO2 99%, CRT <2 detik, BB 8 kg. Bayi sadar, aktif, menangis saat popok dibuka, tidak toksik. Hidrasi baik, mulut tanpa oral thrush, paru/jantung normal, abdomen datar, bising usus normal, tidak ada ruam di tempat lain, gizi baik. Status lokalis: plak eritematosa batas tidak terlalu tegas, sebagian bersisik halus, sedikit lecet superfisial pada bokong bilateral, genital luar, dan permukaan cembung kontak popok. Lipatan inguinal lebih ringan/tersparing. Tidak ada ulkus dalam, krusta madu, discharge purulen, bau busuk, atau hematoma. Nyeri saat disentuh.\n\nA (Assessment): Napkin eczema/diaper dermatitis iritan ringan-sedang. Faktor pencetus: popok jarang diganti, diare, tisu berpewangi, sabun antiseptik, bedak talc, minyak telon, merek popok baru. DD disingkirkan: kandidiasis dominan (lipatan sparing), impetigo/selulitis (tidak ada krusta/nanah, afebril), skabies (tidak ada ruam di tempat lain).\n\nP (Plan): 1) Edukasi nonfarmakologis: ganti popok sering, air time, hindari iritan. 2) Barrier zinc oxide/petrolatum tebal setiap ganti popok. 3) Hindari bedak dan steroid kuat. 4) Tidak perlu antibiotik/antijamur/penunjang rutin. 5) Kontrol 3 hari atau lebih cepat bila red flags. 6) Edukasi tanda bahaya pulang.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi penyebab: penyebab tersering adalah iritasi karena lembap, gesekan, urine/feses, dan bahan iritan (tisu berpewangi, sabun antiseptik, bedak, minyak). Bukan selalu alergi atau infeksi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi barrier: salep barrier dipakai TIPIS-TEBAL seperti lapisan pelindung; tidak perlu dibersihkan total setiap ganti popok bila tidak kotor (boleh ditambahkan lapisan baru di atas).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi perawatan rumah: ganti popok sering, bersihkan lembut, air time, gunakan popok absorbsi baik, lipat popok di bawah umbilikus.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kontrol atau kembali ke faskes bila:",
+          "sub": [
+            "Tidak membaik dalam 3 hari dengan perawatan benar.",
+            "Ruam meluas, bernanah, muncul krusta madu.",
+            "Muncul demam atau bayi tampak sakit.",
+            "Ada ulkus, lecet dalam, atau nyeri berat.",
+            "Ruam berulang berat / muncul oral thrush."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi tambahan: jangan menggunakan steroid kuat atau salep campuran tanpa anjuran dokter. Hindari bedak talc karena risiko terhirup bayi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_nec_zno_05"],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian lengkap 100 poin.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Total penilaian: 100 poin. Komponen utama: Pembukaan & komunikasi 10 poin, Anamnesis 25 poin, Pemeriksaan fisik 25 poin, Penunjang & interpretasi 15 poin, Diagnosis & reasoning 10 poin, Tata laksana/edukasi/safety net 15 poin. Item di bawah ini WAJIB dinilai seluruhnya oleh penguji.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "A. Pembukaan dan komunikasi (10 poin):",
+          "sub": [
+            "Salam, perkenalan, identifikasi ibu dan bayi (2 poin).",
+            "Menjaga privasi saat membuka popok (2 poin).",
+            "Menjelaskan pemeriksaan dan meminta izin (2 poin).",
+            "Empati terhadap kekhawatiran orang tua (2 poin).",
+            "Cross-check ringkas dan bahasa awam (2 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "B. Anamnesis (25 poin):",
+          "sub": [
+            "Menggali onset, lokasi, progresi, nyeri/gatal/rewel (4 poin).",
+            "Menggali hubungan dengan BAK/BAB, diare, frekuensi ganti popok (4 poin).",
+            "Menggali bahan iritan: tisu, sabun, bedak, minyak, merek popok baru (4 poin).",
+            "Menggali red flags: demam, nanah, krusta, ulkus, nyeri berat, bayi sakit (5 poin).",
+            "Menggali pembeda Candida/bakteri/dermatosis lain (5 poin).",
+            "Menggali makan/minum, BAK, BAB, obat, alergi, riwayat antibiotik (3 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "C. Pemeriksaan fisik (25 poin):",
+          "sub": [
+            "Cuci tangan, exposure aman, posisi bayi baik (3 poin).",
+            "TTV dan status hidrasi/gizi (5 poin).",
+            "Head-to-toe singkat untuk ruam lain, oral thrush, tanda infeksi (5 poin).",
+            "Abdomen singkat dan eliminasi/dehidrasi bila diare (3 poin).",
+            "Status lokalis lengkap: distribusi, lipatan, satelit, pustul, erosi, ulkus, krusta, bau, nyeri (9 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "D. Penunjang dan interpretasi (15 poin):",
+          "sub": [
+            "Menyebut diagnosis klinis tanpa penunjang rutin pada kasus ringan (4 poin).",
+            "Menyebut KOH bila curiga Candida/tidak membaik (3 poin).",
+            "Menyebut swab/Gram/kultur bila pustul/krusta/selulitis/gagal terapi (3 poin).",
+            "Menyebut pemeriksaan metabolik/imunodefisiensi hanya bila berat/rekuren/atipikal (3 poin).",
+            "Tidak meminta pemeriksaan berlebihan tanpa indikasi (2 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "E. Diagnosis dan reasoning (10 poin):",
+          "sub": [
+            "Diagnosis kerja napkin eczema/diaper dermatitis iritan (4 poin).",
+            "Menyebut faktor pencetus (3 poin).",
+            "Diagnosis banding rasional (3 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "F. Tatalaksana, edukasi, safety net (15 poin):",
+          "sub": [
+            "Ganti popok sering, bersihkan lembut, keringkan, air time (4 poin).",
+            "Barrier zinc oxide/petrolatum tebal (3 poin).",
+            "Hindari iritan/bedak/steroid kuat (3 poin).",
+            "Antijamur/antibiotik hanya bila indikasi (2 poin).",
+            "Edukasi tanda bahaya dan kontrol (3 poin)."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Skoring dilakukan per-item menggunakan poin parsial (penilai memberi proporsi poin sesuai kualitas jawaban peserta pada masing-masing sub-item). BUKAN all-or-nothing; peserta yang menjawab sebagian benar tetap mendapat poin proporsional.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Critical error pada skenario dermatitis popok biasanya terkait overterapi (steroid kuat, antibiotik tanpa indikasi) atau kegagalan skrining komplikasi (selulitis, sepsis). Kenali setiap critical error berikut dan pelajari cara menghindari atau memulihkannya.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Tidak memeriksa area ruam secara deskriptif (distribusi, lipatan, satelit, krusta, ulkus).",
+          "sub": [
+            "Kenapa critical: tanpa deskripsi lokalis yang lengkap, peserta tidak dapat membedakan napkin eczema iritan, kandidiasis, impetigo, atau selulitis — semuanya memiliki tata laksana yang sangat berbeda.",
+            "Recovery move: Buka popok dengan izin dan privasi, lalu deskripsikan: lokasi, distribusi (konveks/konkaver), efloresensi (plak/papul/pustul/krusta/ulkus), lipatan, bau, nyeri, dan ada/tidak ruam di tempat lain."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Memberikan steroid kuat atau salep campuran tanpa indikasi.",
+          "sub": [
+            "Kenapa critical: steroid kuat pada area popok bayi menyebabkan atrofi kulit, striae, dan absorpsi sistemik; salep campuran sering mengandung antibiotik yang tidak diperlukan dan mendorong resistensi.",
+            "Recovery move: Ganti menjadi barrier zinc oxide/petrolatum + edukasi nonfarmakologis; jika ada inflamasi berat, gunakan hidrokortison 1% sangat singkat sesuai supervisi."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Memberikan antibiotik sistemik tanpa tanda infeksi bakteri.",
+          "sub": [
+            "Kenapa critical: antibiotik sistemik yang tidak diperlukan mendorong resistensi, mengganggu flora normal (meningkatkan risiko kandidiasis), dan memaparkan bayi pada efek samping yang tidak perlu.",
+            "Recovery move: Tunda antibiotik; indikasikan hanya pada krusta madu luas, pustul multipel, selulitis, atau tanda sepsis. Pada kasus ini, tidak ada indikasi."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Mengabaikan demam, ulkus, selulitis, nyeri berat, atau bayi tampak sakit.",
+          "sub": [
+            "Kenapa critical: tanda ini menunjukkan komplikasi serius yang membutuhkan tata laksana berbeda dan kemungkinan rujukan. Mengabaikannya membahayakan pasien.",
+            "Recovery move: Selalu skrining red flags pada anamnesis dan pemeriksaan. Temuan positif → evaluasi ulang diagnosis, mungkin perlu rujukan/rawat."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 5: Tidak menjaga privasi saat pemeriksaan area popok.",
+          "sub": [
+            "Kenapa critical: membuka popok bayi tanpa privasi melanggar etika klinis dan merusak kepercayaan orang tua, terutama pada populasi dengan sensitivitas budaya.",
+            "Recovery move: Sebelum membuka popok, jelaskan kepada ibu, minta izin, tutup area yang tidak perlu dibuka, dan jaga bayi tetap nyaman. Keterangan singkat kepada ibu (\"Saya akan membuka popok untuk melihat ruam, boleh?\") sudah cukup."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Penggunaan bedak talc dan steroid kuat/salep campuran pada napkin eczema bayi adalah dua error paling sering yang menurunkan nilai besar. Peserta yang melakukan keduanya hampir otomatis dianggap gagal paham dasar-dasar dermatologi pediatri.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_nec_hydro_06", "gls_sken_nec_cellulitis_04"],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Naskah probandus lengkap — Ibu An. Kirana (bayi perempuan 8 bulan, BB 8 kg). Pembuka: \"Dok, anak saya kalau diganti popok menangis. Kulit di area popok merah dan perih sejak beberapa hari ini.\" Ibu kooperatif dan menjawab jujur sesuai data skenario; informasi yang tidak ditanyakan tidak diberikan spontan.\n\nIdentitas: An. Kirana, 8 bulan, perempuan, BB 8 kg, imunisasi dasar sesuai usia.\n\nKeluhan: ruam sejak 4 hari; awalnya ringan di bokong, meluas; bayi menangis saat BAK/BAB/dibersihkan; tidak ada demam, tidak ada nanah, tidak ada luka dalam. Popok diganti 3-4 kali/hari; semalaman baru pagi. Diare ringan 2 hari lalu, BAB membaik. Ibu pakai tisu berpewangi, sabun antiseptik, menaburkan bedak talc.\n\nPembeda: lipatan paha lebih ringan/tersparing; bintil satelit tidak dominan; tidak ada sariawan mulut; tidak ada krusta madu/nanah; tidak ada demam; tidak ada ruam di tempat lain; tidak ada riwayat antibiotik; baru ganti merek popok dan tisu 1 minggu terakhir.\n\nMakan/minum/elim: ASI/MPASI mau; BAK cukup; BAB 3x/hari, lebih lembek 2 hari lalu; tidak muntah.\n\nObat/perawatan: bedak dan minyak telon, malah makin merah; belum ada salep medis.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji / pendamping:",
+          "sub": [
+            "Berikan TTV dan temuan fisik HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ.",
+            "Pertanyaan tentang suhu/TTV → jawab sesuai data (36,8°C; HR 118; RR 28; SpO2 99%; CRT <2 detik; BB 8 kg).",
+            "Pertanyaan tentang status lokalis → jawab distribusi konveks (bokong, genital, permukaan cembung); efloresensi plak eritematosa bersisik halus + lecet superfisial; lipatan tersparing; tidak ada ulkus/krusta/discharge/bau busuk; nyeri saat disentuh.",
+            "Pertanyaan tentang oral thrush/ruam di tempat lain → jawab tidak ada.",
+            "Pertanyaan tentang KOH → jawab \"tidak wajib; bila diminta, hasil negatif/tidak tampak pseudohifa\".",
+            "Pertanyaan tentang kultur kulit → jawab \"tidak perlu; tidak ada pus/krusta\".",
+            "Pertanyaan tentang GDS → jawab 92 mg/dL (bila diminta karena curiga kandidiasis berat/rekuren).",
+            "Pertanyaan tentang terapi → tekankan nonfarmakologis + barrier; jangan gunakan steroid kuat/salep campuran/antibiotik sistemik tanpa indikasi; bedak tidak boleh dipakai."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "MSD Manual Professional Edition. Rash in Infants and Young Children; Candidiasis (Mucocutaneous).",
+            "American Academy of Pediatrics. Diaper Dermatitis (HealthyChildren.org).",
+            "SKDI 4A Batch 2 — IKA & Geriatri (penyakit napkin eczema).",
+            "PNPK atau pedoman lokal IDAI tentang dermatitis popok.",
+            "Cohen B. Differential Diagnosis of Diaper Dermatitis. Clinical Pediatrics. 2017."
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Penilaian dilakukan secara langsung selama 10 menit performa.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    }
+  ]
+}

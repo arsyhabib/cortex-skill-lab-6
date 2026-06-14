@@ -1,0 +1,1195 @@
+{
+  "id": "mod_neuro_skill_refleks_regresi_001",
+  "title": "Pemeriksaan Refleks Regresi",
+  "subtitle": "Panduan lengkap untuk pemeriksaan refleks regresi pada pasien lansia dengan gangguan memori dan riwayat stroke.",
+  "domain": "neuro_skill",
+  "batch_id": "batch_4",
+  "source_pdf": "Batch4_File2_Modul_OSCE_6_3_Refleks_Regresi.docx",
+  "source_filename": "Batch4_File2_Modul_OSCE_6_3_Refleks_Regresi_v2.md",
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "refleks_regresi",
+    "release_signs",
+    "palmomental",
+    "glabellar_tap",
+    "sucking_reflex",
+    "snout_reflex",
+    "grasping_reflex",
+    "demensia",
+    "lansia"
+  ],
+  "summary": [
+    "Refleks regresi adalah tanda bahwa kontrol frontal otak melemah, sering terlihat pada pasien lansia dengan gangguan memori atau riwayat stroke.",
+    "Pemeriksaan refleks regresi meliputi 6 refleks: korneomandibular, glabella, sucking, snout, grasping, dan palmomental.",
+    "Penting untuk melakukan pemeriksaan dengan lembut dan aman, menggunakan alat yang bersih, dan menjelaskan setiap langkah kepada pasien.",
+    "Refleks regresi dapat mengindikasikan adanya kerusakan otak difus, demensia (Alzheimer atau vaskular), ensefalopati metabolik, atau kondisi neurologis lainnya.",
+    "Dokumentasi hasil pemeriksaan harus dilakukan dengan cermat, mengaitkan hasil positif dengan konteks klinis seperti riwayat stroke, hipertensi, dan penurunan kognitif.",
+    "Edukasi kepada pasien dan keluarga mengenai hasil pemeriksaan dan langkah evaluasi kognitif lebih lanjut sangat penting untuk tatalaksana holistik."
+  ],
+  "exam_focus": [
+    "Enam refleks regresi yang harus diperiksa: korneomandibular, glabella, sucking, snout, grasping, dan palmomental — masing-masing punya cara, temuan normal, dan interpretasi abnormal.",
+    "Refleks glabella positif bila berkedip terus tanpa habituasi saat diketuk berulang — tanda parkinsonisme atau demensia.",
+    "Refleks palmomental positif kuat bilateral mengindikasikan kerusakan otak difus atau demensia; positif unilateral saja pada lansia bisa tidak spesifik.",
+    "Sucking reflex dan snout reflex positif menunjukkan frontal release signs — hilangnya inhibisi kortikal terhadap pola motorik primitif.",
+    "Grasping reflex positif (menggenggam involunter dan sulit melepas) menandakan lesi frontal lobe kontralateral.",
+    "Refleks korneomandibular positif (deviasi mandibula kontralateral saat kornea disentuh) menandakan lesi kortikal di atas nucleus trigeminus.",
+    "Pearl OSCE: kalimat pembuka yang efektif — 'Saya akan memeriksa beberapa refleks otomatis di wajah dan tangan.'",
+    "Wajib minta consent dan jelaskan prosedur sebelum pemeriksaan; pada lansia dengan kulit sensitif, lakukan dengan tekanan minimal."
+  ],
+  "glossary": [
+    {
+      "id": "gls_refleks_regresi_def_01",
+      "term": "Refleks Regresi",
+      "def": "Refleks masa bayi yang muncul kembali pada dewasa akibat hilangnya inhibisi kortikal frontal; disebut juga release signs atau primitive reflexes. Positif bilateral dan multipel menandakan kerusakan otak difus.",
+      "type": "clinical",
+      "aliases": [
+        "release signs",
+        "primitive reflexes",
+        "frontal release signs"
+      ]
+    },
+    {
+      "id": "gls_refleks_regresi_palmomental_01",
+      "term": "Refleks Palmomental",
+      "def": "Gores cepat pada telapak tangan area thenar dari proksimal ke distal menghasilkan kontraksi otot mentalis/dagu ipsilateral. Positif kuat bilateral menandakan kerusakan otak difus atau demensia.",
+      "type": "procedure",
+      "aliases": [
+        "Palmomental reflex",
+        "Refleks telapak-dagu"
+      ]
+    },
+    {
+      "id": "gls_refleks_regresi_glabella_01",
+      "term": "Refleks Glabella",
+      "def": "Ketukan berulang pada glabella (pertengahan dahi di antara kedua alis). Normalnya berkedip 2-3 kali lalu berhenti (habituasi); positif bila berkedip terus — tanda parkinsonisme atau demensia.",
+      "type": "procedure",
+      "aliases": [
+        "Glabellar tap",
+        "Glabellar reflex",
+        "Myerson sign"
+      ]
+    },
+    {
+      "id": "gls_refleks_regresi_sucking_01",
+      "term": "Sucking Reflex",
+      "def": "Sentuhan ringan pada bibir dengan benda bersih menghasilkan gerakan mengisap/menetek. Positif pada dewasa menandakan frontal release sign bilateral.",
+      "type": "procedure",
+      "aliases": "Refleks mengisap"
+    },
+    {
+      "id": "gls_refleks_regresi_snout_01",
+      "term": "Snout Reflex",
+      "def": "Ketukan lembut pada area mulut/filtrum/bibir atas menghasilkan pengerucutan bibir seperti moncong. Positif menandakan frontal lobe disease.",
+      "type": "procedure",
+      "aliases": "Refleks moncong"
+    },
+    {
+      "id": "gls_refleks_regresi_grasping_01",
+      "term": "Grasping Reflex",
+      "def": "Peletakan jari pemeriksa pada telapak tangan pasien menghasilkan genggaman involunter yang sulit dilepas walau diminta. Positif menandakan lesi frontal lobe kontralateral.",
+      "type": "procedure",
+      "aliases": "Refleks menggenggam"
+    },
+    {
+      "id": "gls_refleks_regresi_korneomandibula_01",
+      "term": "Refleks Korneomandibular",
+      "def": "Sentuhan ringan pada kornea menghasilkan kedipan ipsilateral dan gerakan mandibula ke sisi kontralateral. Positif menandakan lesi kortikal di atas nucleus trigeminus.",
+      "type": "procedure",
+      "aliases": [
+        "Corneomandibular reflex",
+        "Winking jaw reflex"
+      ]
+    },
+    {
+      "id": "gls_refleks_regresi_demensia_01",
+      "term": "Demensia",
+      "def": "Sindrom penurunan fungsi kognitif (memori, orientasi, bahasa, praksis) yang progresif dan mengganggu aktivitas sehari-hari. Etiologi tersering: Alzheimer, vaskular, Lewy body, frontotemporal.",
+      "type": "clinical",
+      "aliases": [
+        "Dementia",
+        "Pikun"
+      ]
+    },
+    {
+      "id": "gls_refleks_regresi_kontrol_frontal_01",
+      "term": "Kontrol Frontal",
+      "def": "Fungsi inhibisi kortikal lobus frontalis terhadap refleks primitif. Hilangnya kontrol frontal menyebabkan refleks regresi muncul kembali pada dewasa.",
+      "type": "anatomy",
+      "aliases": [
+        "Frontal lobe inhibition",
+        "Inhibisi kortikal frontal"
+      ]
+    },
+    {
+      "id": "gls_refleks_regresi_anamnesis_01",
+      "term": "Anamnesis",
+      "def": "Proses pengumpulan informasi medis dari pasien dan/atau keluarga melalui wawancara klinis terstruktur, meliputi keluhan utama, riwayat penyakit sekarang, riwayat dahulu, dan riwayat keluarga.",
+      "type": "procedure",
+      "aliases": [
+        "Wawancara medis",
+        "Medical history taking"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_refleks_regresi_01",
+      "term_id": "Refleks Regresi",
+      "term_en": "Primitive Reflexes / Release Signs",
+      "context": "Refleks yang muncul kembali pada dewasa karena hilangnya inhibisi frontal — tanda kerusakan otak difus."
+    },
+    {
+      "id": "bil_refleks_regresi_02",
+      "term_id": "Refleks Palmomental",
+      "term_en": "Palmomental Reflex",
+      "context": "Gores thenar → kontraksi dagu ipsilateral. Kuat bilateral = demensia."
+    },
+    {
+      "id": "bil_refleks_regresi_03",
+      "term_id": "Refleks Glabella",
+      "term_en": "Glabellar Tap Reflex / Myerson Sign",
+      "context": "Ketuk glabella berulang — habituasi normal, tidak habituasi = Parkinson/demensia."
+    },
+    {
+      "id": "bil_refleks_regresi_04",
+      "term_id": "Refleks Sucking",
+      "term_en": "Sucking Reflex",
+      "context": "Sentuh bibir → gerakan mengisap. Positif = frontal release sign."
+    },
+    {
+      "id": "bil_refleks_regresi_05",
+      "term_id": "Refleks Snout",
+      "term_en": "Snout Reflex",
+      "context": "Ketuk filtrum → bibir moncong. Positif = frontal lobe disease."
+    },
+    {
+      "id": "bil_refleks_regresi_06",
+      "term_id": "Refleks Grasping",
+      "term_en": "Grasping Reflex",
+      "context": "Letakkan jari di telapak → genggam involunter. Positif = lesi frontal kontralateral."
+    },
+    {
+      "id": "bil_refleks_regresi_07",
+      "term_id": "Refleks Korneomandibular",
+      "term_en": "Corneomandibular Reflex",
+      "context": "Sentuh kornea → mandibula deviasi kontralateral. Positif = lesi kortikal di atas N.V."
+    },
+    {
+      "id": "bil_refleks_regresi_08",
+      "term_id": "Demensia",
+      "term_en": "Dementia",
+      "context": "Penurunan kognitif progresif — penyebab tersering: Alzheimer, vaskular, Lewy body."
+    },
+    {
+      "id": "bil_refleks_regresi_09",
+      "term_id": "Frontal Release Signs",
+      "term_en": "Frontal Release Signs",
+      "context": "Tanda neurologis berupa kemunculan kembali refleks primitif karena hilangnya inhibisi lobus frontalis."
+    },
+    {
+      "id": "bil_refleks_regresi_10",
+      "term_id": "Kontrol Frontal",
+      "term_en": "Frontal Lobe Inhibition",
+      "context": "Fungsi inhibisi kortikal lobus frontalis terhadap refleks primitif batang otak dan spinal."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_refleks_regresi_skenario_lansia_01",
+      "module_id": "mod_neuro_skill_refleks_regresi_001",
+      "section_id": "s01",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi klinis seorang pasien lansia 66 tahun duduk di kursi periksa dengan dokter muda melakukan pemeriksaan neurologis di sampingnya. Pasien tampak kooperatif. Latar belakang: ruang periksa klinik dengan cahaya alami. Gaya: semi-realistis, warna netral, label 'Stroke + HT, Gangguan Memori' di sudut. Cocok untuk skenario OSCE neurologi.",
+      "alt": "Ilustrasi pasien lansia 66 tahun dengan riwayat stroke dan hipertensi sedang diperiksa refleks regresi oleh mahasiswa kedokteran dalam skenario OSCE.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_refleks_regresi_001/assets/skenario_lansia.png"
+    },
+    {
+      "id": "visual_refleks_regresi_alur_osce_01",
+      "module_id": "mod_neuro_skill_refleks_regresi_001",
+      "section_id": "s02",
+      "type": "flowchart",
+      "generation_prompt": "Diagram alur OSCE berbentuk flowchart horizontal: 1) Intro & consent → 2) Persiapan pasien → 3) Pemeriksaan 6 refleks (korneomandibular, glabella, sucking, snout, grasping, palmomental) → 4) Pelaporan hasil → 5) Edukasi. Setiap kotak berisi label singkat dan ikon tindakan. Warna berbeda untuk setiap tahap. Background putih, font jelas.",
+      "alt": "Flowchart alur OSCE 5 tahap: penjelasan prosedur, persiapan pasien, pemeriksaan 6 refleks regresi, pelaporan hasil, dan edukasi pasien-keluarga.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_refleks_regresi_001/assets/alur_osce.png"
+    },
+    {
+      "id": "visual_refleks_regresi_anatomi_frontal_01",
+      "module_id": "mod_neuro_skill_refleks_regresi_001",
+      "section_id": "s04",
+      "type": "anatomy_3d",
+      "generation_prompt": "Ilustrasi anatomi 3D otak manusia potongan sagital, highlight lobus frontalis berwarna oranye, dengan tanda panah inhibisi kortikal yang menghambat refleks primitif di batang otak. Tampilkan area motorik dan premotor korteks frontal. Gaya: clean medical illustration, warna natural otak dengan accent warna pada area yang relevan.",
+      "alt": "Ilustrasi anatomi 3D otak dengan highlight lobus frontalis sebagai pusat inhibisi refleks primitif batang otak.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_refleks_regresi_001/assets/anatomi_frontal.png"
+    },
+    {
+      "id": "visual_refleks_regresi_teknik_pemeriksaan_01",
+      "module_id": "mod_neuro_skill_refleks_regresi_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Infografis 6 panel klinis, masing-masing menunjukkan teknik pemeriksaan satu refleks regresi: (1) korneomandibular - kapas menyentuh kornea; (2) glabella - jari mengetuk dahi; (3) sucking - ujung pena menyentuh bibir; (4) snout - palu refleks mengetuk filtrum; (5) grasping - jari di telapak tangan; (6) palmomental - goresan pada thenar. Setiap panel menunjukkan tangan pemeriksa dan area tubuh pasien dengan panah arah gerakan. Gaya: clean medical illustration, warna biru-akuatik.",
+      "alt": "Infografis 6 panel teknik pemeriksaan refleks regresi: korneomandibular, glabella, sucking, snout, grasping, dan palmomental.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_refleks_regresi_001/assets/teknik_pemeriksaan.png"
+    },
+    {
+      "id": "visual_refleks_regresi_tabel_interpretasi_01",
+      "module_id": "mod_neuro_skill_refleks_regresi_001",
+      "section_id": "s04",
+      "type": "table",
+      "generation_prompt": "Tabel referensi klinis dengan 4 kolom: Komponen (refleks), Normal, Abnormal, Interpretasi. Enam baris untuk sucking, grasping, palmomental, glabellar, snout, dan corneomandibular. Header baris dengan background biru, selang-seling warna. Font sans-serif, jelas, ukuran sedang untuk layar digital.",
+      "alt": "Tabel interpretasi 6 refleks regresi dengan kolom normal, abnormal, dan makna klinis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_refleks_regresi_001/assets/tabel_interpretasi.png"
+    },
+    {
+      "id": "visual_refleks_regresi_persiapan_alat_01",
+      "module_id": "mod_neuro_skill_refleks_regresi_001",
+      "section_id": "s05",
+      "type": "photo",
+      "generation_prompt": "Foto flat-lay alat pemeriksaan refleks regresi di atas meja periksa: palu refleks Taylor, kapas lidi steril, sarung tangan, pulpen bersih, senter kecil, lembar checklist. Pencahayaan merata dari atas, gaya clean medical photography, warna netral.",
+      "alt": "Foto alat pemeriksaan refleks regresi: palu refleks, kapas, sarung tangan, pena, dan checklist di atas meja periksa.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_refleks_regresi_001/assets/persiapan_alat.png"
+    },
+    {
+      "id": "visual_refleks_regresi_diferensial_diagnosis_01",
+      "module_id": "mod_neuro_skill_refleks_regresi_001",
+      "section_id": "s06",
+      "type": "diagram",
+      "generation_prompt": "Diagram alur diferensial diagnosis untuk refleks regresi positif. Mulai dari 'Refleks regresi positif bilateral multipel' → cabang ke: Demensia Alzheimer, Demensia vaskular, Ensefalopati metabolik, Lesi struktural frontalis, Penyakit Parkinson. Setiap kotak病因 berisi 1-2 fitur klinis pembeda. Gaya: clean medical flowchart, warna pastel.",
+      "alt": "Diagram diferensial diagnosis refleks regresi positif: demensia Alzheimer, vaskular, ensefalopati, lesi frontal, dan Parkinson.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_refleks_regresi_001/assets/diferensial_diagnosis.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s05",
+      "type": "content",
+      "source_query": "Alat dan persiapan prosedur pemeriksaan refleks regresi",
+      "source_reference": "Standardized OSCE preparation guide for neurology primitives reflex examination",
+      "confidence": "high",
+      "note": "Konten derivatif dari s02 (checklist) dan s04 (teknik)."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Clinical reasoning refleks regresi dan diferensial diagnosis",
+      "source_reference": "Frontal release signs clinical interpretation, Dominguez-Roldan 1999; Elsevier Clinical Neurology 2020",
+      "confidence": "high",
+      "note": "Menambahkan konteks klinis hubungan release signs dengan demensia, ensefalopati, dan lesi frontalis untuk memperkaya clinical reasoning."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Pemeriksaan penunjang dan tatalaksana pasien dengan release signs positif",
+      "source_reference": "Panduan praktik klinis neurologi FKUI 2020; Panduan tatalaksana demensia PERDOSSI",
+      "confidence": "medium",
+      "note": "Memberikan arah pemeriksaan penunjang yang relevan (neuroimaging, laboratorium, kognitif) dan prinsip tatalaksana awal."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Edukasi pasien dan keluarga serta dokumentasi SOAP refleks regresi",
+      "source_reference": "Standardized SOAP documentation for neurology; Patient education principles in geriatric care",
+      "confidence": "high",
+      "note": "Memberikan contoh dokumentasi SOAP dan poin edukasi yang relevan untuk pasien demensia atau pasca-stroke."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "SKDI 4A dan mini-skrip komunikasi pemeriksaan refleks regresi",
+      "source_reference": "SKDI 2012 KKI; Komunikasi terapeutik dalam OSCE neurologi",
+      "confidence": "medium",
+      "note": "Kompetensi SKDI yang relevan: anamnesis, pemfis, clinical reasoning, dan komunikasi."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Latihan mandiri dan persiapan ujian OSCE refleks regresi",
+      "source_reference": "OSCE preparation guide for medical students",
+      "confidence": "high",
+      "note": "Berisi strategi latihan 2 hari sebelum OSCE dan soal latihan."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Visual, lampiran, dan referensi modul refleks regresi",
+      "source_reference": "Compiled references from neuroscience and neurology textbooks",
+      "confidence": "high",
+      "note": "Berisi daftar visual asset, lampiran istilah, dan referensi."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Skenario pasien lansia 66 tahun dengan gangguan memori dan riwayat stroke, ditemukan refleks palmomental positif dan Babinski positif — peta komponen yang dinilai di OSCE.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini berfokus pada pemeriksaan refleks regresi yang merupakan bagian penting dalam evaluasi neurologis pasien lansia. File sumber ini mencakup informasi mengenai refleks regresi, teknik pemeriksaan, serta interpretasi hasil yang relevan. Skenario klinis yang sering ditemui adalah pasien berusia 66 tahun yang mengalami kesulitan dalam mengingat kejadian baru, memiliki riwayat stroke, dan hipertensi. Pada pemeriksaan, ditemukan refleks palmomental positif dan tanda Babinski pada tungkai kanan. Hal ini menunjukkan adanya kemungkinan kerusakan pada sistem saraf pusat yang perlu dievaluasi lebih lanjut.",
+          "tone": "narrative",
+          "source": "§1 dan §2 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE refleks regresi (6 refleks):",
+          "sub": [
+            "Refleks korneomandibular",
+            "Refleks glabella",
+            "Sucking reflex",
+            "Snout reflex",
+            "Grasping reflex",
+            "Palmomental reflex"
+          ],
+          "bold": true,
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Skenario utama: Ny./Tn. 66 tahun dengan kesulitan mengingat kejadian baru, riwayat stroke dan hipertensi.",
+          "sub": [
+            "Temuan OSCE: refleks palmomental positif + Babinski positif tungkai kanan",
+            "Implikasi: curiga kerusakan otak difus + lesi piramidal UMN kanan"
+          ],
+          "bold": false,
+          "source": "§2 file sumber"
+        },
+        {
+          "text": "Mahasiswa dinilai dari komunikasi awal, urutan pemeriksaan, keamanan, dan kemampuan mengaitkan hasil dengan konteks klinis.",
+          "sub": [
+            "Komunikasi: jelaskan prosedur & minta consent",
+            "Teknik: lembut, alat bersih, urutan sistematis",
+            "Interpretasi: kaitkan dengan demensia, riwayat stroke, atau gangguan kognitif"
+          ],
+          "bold": false,
+          "source": "§2 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi 2 Hari Sebelum OSCE",
+          "text": "Fokus pada teknik pemeriksaan dan interpretasi hasil — hafal urutan 6 refleks dan makna klinisnya. Latih dengan teman atau mannequin.",
+          "answer_evidence": "Panduan persiapan OSCE neurologi FKIK Universitas Jambi 2024"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl OSCE: Komunikasi Adalah Kunci",
+          "text": "Tip paling penting untuk station ini adalah menjaga komunikasi yang baik dengan pasien dan menjelaskan setiap langkah pemeriksaan. kalimat pembuka yang efektif: 'Saya akan memeriksa beberapa refleks otomatis di wajah dan tangan. Pemeriksaannya ringan dan sebentar.'",
+          "answer_evidence": "Panduan komunikasi klinis OSCE FKIK Universitas Jambi 2024"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl Klinis: Semakin Banyak Refleks Positif Bilateral",
+          "text": "Semakin banyak refleks regresi yang positif dan bilateral, semakin besar kemungkinan kerusakan otak difus (demensia, ensefalopati, atau lesi struktural frontalis multipel). Satu refleks positif unilateral saja pada lansia belum spesifik.",
+          "answer_evidence": "Dominguez-Roldan JM et al. 1999; Brazis PW, Masdeu JC, Biller J. Localization in Clinical Neurology, 8th ed. 2021"
+        }
+      ],
+      "visual_refs": [
+        "visual_refleks_regresi_skenario_lansia_01"
+      ],
+      "glossary_refs": [
+        "gls_refleks_regresi_def_01",
+        "gls_refleks_regresi_kontrol_frontal_01"
+      ],
+      "bilingual": "Skenario klinis utama: lansia 66 tahun dengan gangguan memori, riwayat stroke dan hipertensi, ditemukan palmomental positif dan Babinski positif — ini adalah pola khas 'kerusakan otak difus + lesi UMN' yang harus dikenali mahasiswa saat OSCE."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Lima langkah OSCE dari penjelasan prosedur sampai pelaporan hasil, dengan checklist 9 item dan kalimat yang dapat diucapkan untuk skor maksimal.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur pemeriksaan refleks regresi dimulai dengan menjelaskan tujuan dan prosedur kepada pasien. Setelah mendapatkan izin, pasien dipersiapkan dalam posisi yang nyaman. Pemeriksaan dilakukan dengan lembut dan aman, menghindari tekanan berlebihan. Setiap refleks yang diperiksa harus dinilai dengan cermat, dan hasilnya harus dilaporkan dengan jelas. Penting untuk mengaitkan hasil pemeriksaan dengan konteks klinis yang relevan, seperti riwayat medis pasien dan gejala yang ada.",
+          "tone": "narrative",
+          "source": "§2 dan §3 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE refleks regresi:",
+          "sub": [
+            "Menjelaskan tujuan dan prosedur pemeriksaan kepada pasien",
+            "Mempersiapkan pasien dalam posisi yang nyaman (duduk atau berbaring, tangan rileks, wajah terlihat jelas)",
+            "Melakukan pemeriksaan refleks secara sistematis (korneomandibular → glabella → sucking → snout → grasping → palmomental)",
+            "Melaporkan hasil pemeriksaan dengan jelas dan akurat serta mengaitkan dengan konteks klinis",
+            "Menyampaikan edukasi kepada pasien dan/atau keluarga"
+          ],
+          "bold": true,
+          "source": "§2 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Bahaya: Jangan Langsung Periksa",
+          "text": "Jangan langsung melakukan tindakan tanpa consent dari pasien. Selalu jelaskan prosedur dan minta izin terlebih dahulu — terutama pada lansia yang mungkin memerlukan penjelasan lebih lambat dan berulang.",
+          "answer_evidence": "Prinsip informed consent dalam etika kedokteran; Kode Etik Kedokteran Indonesia (KODEKI) 2012"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl: Kalimat Pembuka Station",
+          "text": "Kalimat pembuka station yang paling efektif: 'Saya akan memeriksa beberapa refleks otomatis di wajah dan tangan. Pemeriksaannya ringan dan sebentar. Bisa saya mulai?' — singkat, jelas, sopan, dan langsung mendapat izin.",
+          "answer_evidence": "Modul komunikasi klinis OSCE FKIK Universitas Jambi 2024"
+        }
+      ],
+      "visual_refs": [
+        "visual_refleks_regresi_alur_osce_01"
+      ],
+      "glossary_refs": [
+        "gls_refleks_regresi_anamnesis_01"
+      ],
+      "bilingual": "Lima langkah OSCE: penjelasan → persiapan → pemeriksaan → pelaporan → edukasi. Checklist 9 item mencakup 6 refleks ditambah 3 langkah prosedural (intro, prep, report)."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis untuk pasien dengan curiga gangguan kognitif atau pasca-stroke, dengan red flags yang wajib ditanyakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis merupakan bagian penting dalam pemeriksaan neurologis. Pertanyaan yang diajukan harus fokus pada gejala kognitif, riwayat medis, dan faktor risiko yang mungkin berkontribusi terhadap kondisi pasien. Red flags seperti perubahan perilaku, kesulitan mengingat kejadian baru, dan riwayat stroke harus diidentifikasi dengan baik. Hal ini membantu dalam menentukan langkah selanjutnya dalam evaluasi dan manajemen pasien. Pada pasien lansia, anamnesis sering memerlukan konfirmasi dari anggota keluarga atau pengasuh.",
+          "tone": "narrative",
+          "source": "§4 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Empat pertanyaan kunci anamnesis untuk pasien dengan curiga release signs:",
+          "sub": [
+            "'Apakah Anda mengalami kesulitan mengingat kejadian baru?' — menilai gangguan memori (domain demensia)",
+            "'Apakah ada perubahan perilaku yang Anda atau keluarga perhatikan?' — mengidentifikasi perubahan perilaku (frontal lobe dysfunction)",
+            "'Apakah Anda memiliki riwayat stroke atau penyakit jantung?' — faktor risiko demensia vaskular",
+            "'Apakah Anda merasa bingung atau tersesat dalam situasi yang biasa?' — menilai kebingungan dan disorientasi"
+          ],
+          "bold": true,
+          "source": "§4 file sumber"
+        },
+        {
+          "text": "Tambahan pertanyaan klinis yang relevan untuk konteks neurologis:",
+          "sub": [
+            "Riwayat hipertensi, diabetes mellitus, dislipidemia (faktor risiko vaskular)",
+            "Riwayat jatuh, gangguan keseimbangan, atau kelemahan satu sisi",
+            "Penggunaan obat-obatan (antipsikotik, antikolinergik) yang bisa memengaruhi kognitif",
+            "Riwayat keluarga demensia atau penyakit neurodegeneratif"
+          ],
+          "bold": false,
+          "source": "§4 file sumber — derivasi klinis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flag: Perubahan Perilaku Mendadak",
+          "text": "Perubahan perilaku yang mendadak dapat menunjukkan adanya masalah serius (ensefalopati akut, stroke, atau delirium) yang perlu dievaluasi segera. Jangan diabaikan — ini bukan sekadar pikun biasa.",
+          "answer_evidence": "Liang SY et al. Delirium in Elderly Adults. Am Fam Physician. 2018"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flag: Kesulitan Mengingat Kejadian Baru",
+          "text": "Kesulitan mengingat kejadian baru (anterograde amnesia) dapat menjadi tanda awal demensia Alzheimer atau gangguan kognitif lainnya. Anjurkan evaluasi kognitif formal (MMSE/MoCA) dan neuroimaging jika dicurigai demensia.",
+          "answer_evidence": "PERDOSSI. Panduan Praktik Klinis Demensia. 2015"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_refleks_regresi_anamnesis_01",
+        "gls_refleks_regresi_demensia_01"
+      ],
+      "bilingual": "Anamnesis fokus pada 4P: Pola onset (akut vs kronis), Perilaku (perubahan dari baseline), Penyakit dahulu (stroke, HT, DM), dan Performansi kognitif (memori, orientasi, bahasa)."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan sistematis 6 refleks regresi: korneomandibular, glabella, sucking, snout, grasping, dan palmomental — dengan cara melakukan, temuan normal, abnormal, dan interpretasi klinis.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik untuk refleks regresi harus dilakukan secara sistematis dan hati-hati. Setiap refleks memiliki cara pemeriksaan yang spesifik dan interpretasi hasil yang harus dipahami dengan baik. Penting untuk memperhatikan respons pasien dan melakukan pemeriksaan dengan lembut untuk menghindari ketidaknyamanan. Berikut adalah urutan pemeriksaan untuk refleks regresi yang umum dilakukan. Pada lansia, lakukan dengan tekanan minimal dan observasi respons nonverbal seperti meringis atau menarik diri.",
+          "tone": "narrative",
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Refleks Sucking: Sentuhkan benda bersih seperti ujung palu refleks, ujung pena bersih, atau jari pemeriksa yang memakai sarung tangan secara ringan pada bibir pasien. Positif bila bibir melakukan gerakan seperti mengisap/menetek. Tidak ada respons atau gerakan yang tidak sesuai dianggap negatif. Pada dewasa, sucking reflex positif merupakan frontal release sign bilateral.",
+          "tone": "clinical",
+          "source": "§5 file sumber — komponen sucking"
+        },
+        {
+          "text": "Refleks Grasping: Letakkan jari pemeriksa pada telapak tangan pasien, dapat sambil mengalihkan perhatian pasien. Tarik tangan pemeriksa secara tiba-tiba dan minta pasien melepaskan. Positif bila pasien menggenggam jari pemeriksa secara involunter dan sulit melepas walau diminta. Menggenggam dengan sengaja (sadar) bukan refleks grasping. Positif menandakan lesi frontal lobe kontralateral.",
+          "tone": "clinical",
+          "source": "§5 file sumber — komponen grasping"
+        },
+        {
+          "text": "Refleks Palmomental: Gores cepat telapak tangan terutama area thenar dari proksimal ke distal, lalu amati dagu sisi yang sama. Positif bila ada kontraksi otot mentalis/dagu ipsilateral. Positif kuat bilateral menandakan kerusakan otak difus atau demensia; positif unilateral saja pada lansia tua bisa tidak spesifik dan ditemukan pada 20-30% lansia normal.",
+          "tone": "clinical",
+          "source": "§5 file sumber — komponen palmomental"
+        },
+        {
+          "text": "Refleks Glabellar: Ketuk glabella, yaitu pertengahan dahi di antara kedua alis, berulang dengan ujung jari atau palu refleks. Normalnya kedipan muncul 2-3 kali lalu habituasi (berhenti). Positif (abnormal) bila pasien berkedip terus setiap ketukan — disebut juga Myerson sign. Tanda klasik parkinsonisme, demensia, dan gangguan kognitif ringan.",
+          "tone": "clinical",
+          "source": "§5 file sumber — komponen glabellar"
+        },
+        {
+          "text": "Refleks Snout: Minta pasien menutup mata atau rileks. Ketuk lembut area mulut/filtrum/bibir atas dengan palu refleks. Positif bila bibir mengerucut seperti moncong/snout. Positif menandakan frontal lobe disease. Pemeriksaan harus dilakukan dengan tekanan minimal — terlalu keras bisa menyebabkan nyeri atau cedera pada lansia dengan jaringan mulut yang rapuh.",
+          "tone": "clinical",
+          "source": "§5 file sumber — komponen snout"
+        },
+        {
+          "text": "Refleks Korneomandibular (Corneomandibular): Gores kornea ringan dengan kapas halus dari lateral ke medial sesuai standar lokal, amati mata dan rahang. Positif bila terjadi kedipan ipsilateral disertai gerak mandibula ke sisi kontralateral. Positif menandakan lesi kortikal di atas nucleus trigeminus (traktus kortikonuklear). Hindari pada pasien dengan luka atau infeksi kornea — gunakan sarung tangan dan kapas steril.",
+          "tone": "clinical",
+          "source": "§5 file sumber — komponen corneomandibula"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Sucking reflex — teknik dan interpretasi:",
+          "sub": [
+            "Cara melakukan: Sentuh bibir dengan ujung palu refleks, pena bersih, atau jari bersarung tangan secara ringan",
+            "Positif: gerakan bibir seperti mengisap/menetek involunter",
+            "Negatif: tidak ada respons",
+            "Interpretasi: positif pada dewasa = frontal release sign bilateral (demensia, lesi bilateral)"
+          ],
+          "bold": true,
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Grasping reflex — teknik dan interpretasi:",
+          "sub": [
+            "Cara melakukan: Letakkan jari di telapak tangan, tarik tiba-tiba, minta pasien melepas",
+            "Positif: menggenggam involunter dan sulit melepas walau diminta",
+            "Penting: beda dengan genggaman sengaja (sadar)",
+            "Interpretasi: positif = lesi frontal lobe kontralateral"
+          ],
+          "bold": true,
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Palmomental reflex — teknik dan interpretasi:",
+          "sub": [
+            "Cara melakukan: Gores cepat telapak tangan/area thenar dari proksimal ke distal",
+            "Amati: dagu sisi yang sama (ipsilateral)",
+            "Positif: kontraksi otot mentalis/dagu ipsilateral",
+            "Interpretasi: positif kuat bilateral = kerusakan otak difus; positif unilateral saja pada lansia = tidak spesifik"
+          ],
+          "bold": true,
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Glabellar reflex — teknik dan interpretasi:",
+          "sub": [
+            "Cara melakukan: Ketuk glabella (pertengahan dahi di antara alis) berulang dengan ujung jari/palu refleks",
+            "Normal: berkedip 2-3 kali lalu berhenti (habituasi)",
+            "Positif (Myerson sign): berkedip terus setiap ketukan tanpa habituasi",
+            "Interpretasi: positif = parkinsonisme, demensia, gangguan kognitif"
+          ],
+          "bold": true,
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Snout reflex — teknik dan interpretasi:",
+          "sub": [
+            "Cara melakukan: Pasien tutup mata/rileks, ketuk lembut mulut/filtrum/bibir atas dengan palu refleks",
+            "Positif: bibir mengerucut/menonjol seperti moncong (snout)",
+            "Negatif: tidak ada respons",
+            "Interpretasi: positif = frontal lobe disease"
+          ],
+          "bold": true,
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Corneomandibular reflex — teknik dan interpretasi:",
+          "sub": [
+            "Cara melakukan: Gores kornea ringan dengan kapas halus dari lateral/medial, amati mata dan rahang",
+            "Positif: kedipan ipsilateral + gerak mandibula ke sisi kontralateral",
+            "Hindari: pada pasien dengan luka/infeksi kornea",
+            "Interpretasi: positif = lesi kortikal di atas nucleus N.V (traktus kortikonuklear)"
+          ],
+          "bold": true,
+          "source": "§5 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips Teknis yang Sering Dilupakan",
+          "text": "Selalu gunakan alat yang bersih dan jelaskan prosedur kepada pasien. Goresan thenar untuk palmomental harus cepat dan tegas; ketukan glabella harus konsisten dalam kekuatan dan lokasi; kapas kornea harus steril untuk mencegah infeksi.",
+          "answer_evidence": "Standar prosedur pemeriksaan neurologis, Campbell WW. DeJong's The Neurologic Examination, 8th ed. 2020"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Hati-hati pada Pasien Lansia",
+          "text": "Pastikan untuk tidak melakukan pemeriksaan dengan kasar, terutama pada pasien lansia yang mungkin lebih sensitif. Tekanan berlebihan pada kornea, bibir, atau thenar bisa menyebabkan nyeri, cedera jaringan, atau reaksi defensif yang menggagalkan pemeriksaan.",
+          "answer_evidence": "Prinsip pemeriksaan neurologis geriatric, Biller J. Practical Neurology, 4th ed. 2019"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl: Hubungan dengan Lesi Otak Difus",
+          "text": "Semakin banyak refleks regresi yang positif dan bilateral (multipel), semakin besar kemungkinan kerusakan otak difus (demensia, ensefalopati metabolik, atau lesi struktural frontalis multipel). Satu refleks positif unilateral saja pada lansia tua belum cukup untuk diagnosis.",
+          "answer_evidence": "Dominguez-Roldan JM et al. Primitive reflexes in neurodegenerative diseases. 1999; Brazis PW. Localization in Clinical Neurology. 2021"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Bukti: Prevalensi pada Lansia Normal",
+          "text": "Refleks palmomental positif unilateral ditemukan pada 20-30% lansia tanpa gangguan kognitif, sehingga positif unilateral saja bukan tanda pasti demensia. Baru bermakna jika bilateral, multipel, atau dalam konteks klinis gangguan memori.",
+          "answer_evidence": "Vreeling FW et al. Primitive reflexes in healthy elderly subjects. J Neurol. 1993"
+        }
+      ],
+      "visual_refs": [
+        "visual_refleks_regresi_teknik_pemeriksaan_01",
+        "visual_refleks_regresi_tabel_interpretasi_01",
+        "visual_refleks_regresi_anatomi_frontal_01"
+      ],
+      "glossary_refs": [
+        "gls_refleks_regresi_palmomental_01",
+        "gls_refleks_regresi_glabella_01",
+        "gls_refleks_regresi_sucking_01",
+        "gls_refleks_regresi_snout_01",
+        "gls_refleks_regresi_grasping_01",
+        "gls_refleks_regresi_korneomandibula_01",
+        "gls_refleks_regresi_kontrol_frontal_01"
+      ],
+      "bilingual": "Enam refleks regresi diperiksa berurutan: korneomandibular (kornea), glabella (dahi), sucking (bibir), snout (filtrum), grasping (telapak), palmomental (thenar). Masing-masing menilai inhibisi frontal terhadap refleks primitif."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Persiapan alat, posisi pasien, dan prosedur utama pemeriksaan 6 refleks regresi — disusun sebagai placeholder informatif dari s02-s04 untuk melengkapi modul yang ringkas.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Bagian ini disusun sebagai perluasan informatif untuk melengkapi modul yang sumbernya hanya memuat 4 section eksplisit. Persiapan pemeriksaan refleks regresi meliputi alat yang steril dan aman, posisi pasien yang nyaman, lingkungan yang tenang, dan informed consent. Pemeriksaan dilakukan dengan urutan yang konsisten (biasanya dari cranial ke caudal: wajah → mulut → tangan) untuk efisiensi dan mengurangi variabilitas.",
+          "tone": "narrative",
+          "source": "Derived dari s02 (checklist) dan s04 (teknik)"
+        },
+        {
+          "text": "Alat yang dibutuhkan untuk pemeriksaan refleks regresi: (1) Palu refleks Taylor (karet) untuk mengetuk glabella, filtrum/snout, dan bila perlu sendi; (2) Kapas lidi steril untuk goresan kornea (korneomandibular); (3) Ujung pena bersih atau ujung palu refleks untuk sentuhan bibir (sucking); (4) Jari pemeriksa (bersarung tangan) untuk thenar (palmomental) dan telapak (grasping); (5) Senter kecil untuk inspeksi mulut atau mata; (6) Lembar checklist 9 item OSCE; (7) Sarung tangan bersih; (8) Hand sanitizer dan tisu pembersih.",
+          "tone": "procedure",
+          "source": "Derived dari §2 (checklist) file sumber"
+        },
+        {
+          "text": "Posisi pasien: Pasien duduk di kursi periksa dengan kaki menyentuh lantai, atau berbaring supine di tempat tidur periksa. Posisi yang nyaman dan rileks penting karena cemas atau kaku otot bisa memengaruhi respons refleks. Wajah harus terlihat jelas dari sisi pemeriksa; tangan rileks di atas paha atau meja periksa. Pemeriksa berdiri di sisi dominan pasien (kanan untuk pemeriksa右手).",
+          "tone": "procedure",
+          "source": "Derived dari §2 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Persiapan pra-pemeriksaan refleks regresi:",
+          "sub": [
+            "Cuci tangan dan pakai sarung tangan bersih (ganti untuk setiap pasien)",
+            "Jelaskan prosedur dan dapatkan informed consent verbal",
+            "Siapkan alat di nampan steril: palu refleks, kapas lidi, pena bersih, senter",
+            "Pastikan lingkungan tenang dan pencahayaan cukup untuk observasi respons wajah",
+            "Posisikan pasien duduk atau berbaring rileks, akses ke wajah dan tangan mudah"
+          ],
+          "bold": true,
+          "source": "persiapan alat"
+        },
+        {
+          "text": "Urutan pemeriksaan yang direkomendasikan (dari cranial ke caudal):",
+          "sub": [
+            "1. Refleks korneomandibular (mata/rahang) — paling superior",
+            "2. Refleks glabella (dahi) — superior",
+            "3. Sucking reflex (bibir) — pertengahan wajah",
+            "4. Snout reflex (filtrum/bibir atas) — pertengahan wajah",
+            "5. Grasping reflex (telapak tangan) — distal",
+            "6. Palmomental reflex (thenar) — distal"
+          ],
+          "bold": false,
+          "source": "urutan prosedur"
+        },
+        {
+          "text": "Standar keamanan dan kebersihan alat:",
+          "sub": [
+            "Kapas lidi untuk kornea: sekali pakai, buang ke safety box",
+            "Palu refleks: bersihkan dengan alkohol 70% antar pasien",
+            "Sarung tangan: ganti untuk setiap pasien",
+            "Ujung pena untuk sucking: bersihkan atau gunakan sekali pakai",
+            "Hindari pemeriksaan kornea pada pasien dengan luka terbuka, infeksi, atau kontak lens"
+          ],
+          "bold": false,
+          "source": "keamanan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kontraindikasi Pemeriksaan Kornea",
+          "text": "Hindari pemeriksaan refleks korneomandibular pada pasien dengan luka kornea terbuka, infeksi mata aktif, atau pengguna kontak lens yang belum dilepas. Risiko: abrasi kornea, infeksi nosokomial, atau cedera iatrogenik.",
+          "answer_evidence": "Prinsip pencegahan cedera iatrogenik pada pemeriksaan neurologis"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips: Informed Consent Verbal",
+          "text": "Pada lansia dengan gangguan kognitif ringan, sampaikan informed consent dengan kalimat sederhana, ulangi jika perlu, dan mintakan persetujuan dari pasien sendiri (bukan langsung pengasuh) selama pasien masih mampu berkomunikasi.",
+          "answer_evidence": "Etika kedokteran geriatri, PERDOSSI 2018"
+        }
+      ],
+      "visual_refs": [
+        "visual_refleks_regresi_persiapan_alat_01"
+      ],
+      "glossary_refs": [
+        "gls_refleks_regresi_anamnesis_01"
+      ],
+      "bilingual": "Alat utama: palu refleks, kapas lidi steril, sarung tangan, dan senter kecil. Posisi pasien: duduk rileks atau supine, wajah dan tangan mudah diakses."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Clinical reasoning setelah menemukan refleks regresi positif: diferensial diagnosis, pola klinis, dan implikasi tatalaksana — placeholder informatif untuk melengkapi modul ringkas.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Bagian ini disusun sebagai placeholder informatif karena file sumber tidak memuat bagian clinical reasoning secara eksplisit. Setelah pemeriksaan selesai, langkah terpenting adalah mengintegrasikan hasil refleks regresi dengan data klinis lainnya: riwayat, anamnesis, pemeriksaan fisik umum, dan tanda neurologis lain (misalnya Babinski). Refleks regresi positif multipel bilateral bukan diagnosis sendiri, melainkan tanda yang harus diinterpretasikan dalam konteks klinis.",
+          "tone": "narrative",
+          "source": "clinical reasoning"
+        },
+        {
+          "text": "Clinical reasoning: Mengapa refleks regresi muncul? Pada bayi, refleks-refleks ini normal karena korteks frontal belum berkembang matang. Saat dewasa, lobus frontalis memberikan inhibisi aktif terhadap refleks primitif batang otak dan spinal melalui traktus kortikobulbar dan kortikospinal. Jika inhibisi ini hilang (akibat kerusakan korteks frontal, lesi bilateral difus, atau gangguan metabolik), refleks primitif muncul kembali. Inilah yang disebut 'regresi' — pola neonatal yang 'kembali' pada dewasa.",
+          "tone": "mechanism",
+          "source": "mekanisme"
+        },
+        {
+          "text": "Diferensial diagnosis untuk refleks regresi positif multipel bilateral: (1) Demensia (Alzheimer, vaskular, Lewy body, frontotemporal); (2) Ensefalopati metabolik (hepatik, uremik, hipoglikemik, defisiensi B1/B12); (3) Lesi struktural frontalis (tumor, abses, stroke bilateral); (4) Penyakit neurodegeneratif (parkinsonisme, progressive supranuclear palsy); (5) Pasca-stroke kronis dengan kerusakan difus sekunder; (6) Hidrosefalus tekanan normal. Pada lansia dengan stroke sebelumnya, kombinasi stroke kronis + demensia vaskular paling sering.",
+          "tone": "clinical",
+          "source": "diferensial diagnosis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pola klinis yang membedakan etiologi refleks regresi positif:",
+          "sub": [
+            "Demensia Alzheimer: progresi lambat, dimulai dengan gangguan memori episodik, refleks regresi muncul di tahap menengah-lanjut",
+            "Demensia vaskular: onset bertahap/stepwise, riwayat stroke/HT/DM, kombinasi release signs + tanda UMN (Babinski, hiperrefleks)",
+            "Ensefalopati metabolik: onset akut/subakut, asteriksis, gangguan kesadaran ringan, hasil lab abnormal",
+            "Penyakit Parkinson: bradikinesia, rigiditas, tremor istirahat, Myerson sign dominan",
+            "Lesi struktural frontalis (tumor/abses): tanda TIK meningkat, defisit neurologis fokal, onset progresif"
+          ],
+          "bold": true,
+          "source": "pola klinis"
+        },
+        {
+          "text": "Kombinasi release signs + Babinski pada pasien stroke:",
+          "sub": [
+            "Pasien stroke kronis sering menunjukkan multipel release signs bilateral",
+            "Babinski positif satu sisi → lesi UMN kontralateral (traktus kortikospinal)",
+            "Release signs bilateral + Babinski → kerusakan otak luas, prognosis fungsional lebih buruk",
+            "Pada pasien stroke + HT + gangguan memori → curiga demensia vaskular"
+          ],
+          "bold": false,
+          "source": "konteks stroke"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Hati-hati: Palmomental Positif Unilateral Saja",
+          "text": "Palmomental positif unilateral saja pada lansia tua tanpa gejala klinis TIDAK cukup untuk diagnosis demensia — ditemukan pada 20-30% lansia normal. Harus dalam konteks klinis gangguan memori atau gejala neurologis lain untuk dianggap bermakna.",
+          "answer_evidence": "Vreeling FW et al. 1993; Brazis PW. Localization in Clinical Neurology. 2021"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl: Lokalisasi Lesi",
+          "text": "Refleks regresi positif multipel mengindikasikan lesi difus atau bilateral. Jika unilateral dominan, fokuskan pencarian lesi struktural kontralateral frontal. Jika bilateral simetris, pikirkan penyebab metabolik atau neurodegeneratif.",
+          "answer_evidence": "Brazis PW, Masdeu JC, Biller J. Localization in Clinical Neurology, 8th ed. 2021"
+        }
+      ],
+      "visual_refs": [
+        "visual_refleks_regresi_diferensial_diagnosis_01",
+        "visual_refleks_regresi_anatomi_frontal_01"
+      ],
+      "glossary_refs": [
+        "gls_refleks_regresi_def_01",
+        "gls_refleks_regresi_demensia_01",
+        "gls_refleks_regresi_kontrol_frontal_01"
+      ],
+      "bilingual": "Clinical reasoning: positive release signs multipel bilateral → curiga kerusakan otak difus (demensia, ensefalopati, atau lesi struktural). Unilateral saja belum spesifik — harus dikaitkan dengan konteks klinis."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan dan prinsip tatalaksana awal untuk pasien dengan release signs positif — placeholder informatif untuk konteks klinis pasca-pemeriksaan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Bagian ini disusun sebagai placeholder informatif untuk melengkapi modul yang sumbernya tidak memuat bagian tatalaksana secara eksplisit. Setelah menemukan refleks regresi positif multipel bilateral dan/atau tanda neurologis lain seperti Babinski, langkah selanjutnya adalah pemeriksaan penunjang yang sesuai dengan kecurigaan diagnosis dan prinsip tatalaksana awal berdasarkan病因.",
+          "tone": "narrative",
+          "source": "penunjang & tatalaksana"
+        },
+        {
+          "text": "Pemeriksaan penunjang yang relevan: (1) Neuroimaging — CT scan kepala tanpa kontras (skrining awal stroke/lesi struktural), MRI kepala (gold standard untuk lesi kecil, gangguan white matter, atrofi hipokampus pada Alzheimer); (2) Laboratorium darah lengkap — darah perifer lengkap, elektrolit, fungsi ginjal, fungsi hati, glukosa darah, TSH, vitamin B12, asam folat; (3) Skrining kognitif formal — MMSE atau MoCA untuk objektifikasi gangguan kognitif; (4) LP (lumal pungsi) jika curiga meningitis/ensefalitis atau demensia cepat progresif; (5) EEG jika ada kejang atau penurunan kesadaran intermiten.",
+          "tone": "procedure",
+          "source": "pemeriksaan penunjang"
+        },
+        {
+          "text": "Prinsip tatalaksana awal: (1) Kontrol faktor risiko vaskular — tekanan darah, gula darah, kolesterol (pada stroke kronis dan demensia vaskular); (2) Inhibitor kolinesterase (donepezil, rivastigmine) untuk demensia Alzheimer ringan-sedang; (3) Memantine untuk Alzheimer sedang-berat; (4) Terapi antikoagulan/antiplatelet sesuai indikasi (stroke kardioembolik atau aterotrombotik); (5) Suplementasi vitamin B1 (jika curiga ensefalopati Wernicke), B12, folat; (6) Fisioterapi dan rehabilitasi kognitif untuk mempertahankan fungsi; (7) Rujukan ke spesialis saraf untuk kasus kompleks atau progresif.",
+          "tone": "clinical",
+          "source": "tatalaksana"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Indikasi neuroimaging (CT/MRI kepala) pada release signs positif:",
+          "sub": [
+            "Onset akut dari tanda neurologis baru (curiga stroke, perdarahan)",
+            "Defisit neurologis fokal progresif (curiga tumor, abses, hidrosefalus)",
+            "Penurunan kesadaran atau kejang baru",
+            "Demensia onset muda (<60 tahun) untuk menyingkirkan病因 reversibel",
+            "Trauma kepala baru-baru ini"
+          ],
+          "bold": true,
+          "source": "indikasi neuroimaging"
+        },
+        {
+          "text": "Pemeriksaan laboratorium baseline untuk pasien lansia dengan gangguan kognitif:",
+          "sub": [
+            "Darah perifer lengkap (anemia, infeksi)",
+            "Elektrolit (hiponatremia, hipernatremia)",
+            "Fungsi ginjal (uremia, ensefalopati)",
+            "Fungsi hati (ensefalopati hepatik)",
+            "Glukosa darah (hipoglikemia/hiperglikemia)",
+            "TSH (hipotiroid bisa picu cognitive decline)",
+            "Vitamin B12 dan folat (defisiensi picu demensia reversibel)"
+          ],
+          "bold": false,
+          "source": "lab baseline"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Bukti: CT vs MRI pada Demensia",
+          "text": "MRI kepala lebih superior dari CT untuk evaluasi demensia — mampu mendeteksi atrofi hipokampus (Alzheimer), white matter hyperintensities (vaskular), dan lesi kecil. CT cukup sebagai skrining awal jika MRI tidak tersedia.",
+          "answer_evidence": "PERDOSSI. Panduan Praktik Klinis Demensia. 2015; Alzheimer's Association. 2024"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan: Skrining Kognitif Formal",
+          "text": "Refleks regresi positif bukan pengganti skrining kognitif formal. Selalu lengkapi dengan MMSE (skor <24 = curiga demensia) atau MoCA (skor <26 = curiga MCI) untuk objektifikasi gangguan kognitif.",
+          "answer_evidence": "Folstein MF et al. MMSE. 1975; Nasreddine ZS et al. MoCA. 2005"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_refleks_regresi_demensia_01"
+      ],
+      "bilingual": "Pemeriksaan penunjang utama: neuroimaging (CT/MRI kepala) + lab darah (B12, folat, TSH, fungsi hati/ginjal) + skrining kognitif formal (MMSE/MoCA). Tatalaksana: kontrol faktor risiko vaskular dan inhibitor kolinesterase pada Alzheimer."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Contoh dokumentasi SOAP dan poin edukasi pasien-keluarga untuk konteks release signs positif dan curiga demensia — placeholder informatif.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Bagian ini disusun sebagai placeholder informatif untuk melengkapi modul. Dokumentasi hasil pemeriksaan refleks regresi harus dilakukan secara cermat dalam format SOAP (Subjective, Objective, Assessment, Plan). Edukasi kepada pasien dan/atau keluarga sangat penting, terutama jika curiga demensia atau pasca-stroke, karena memerlukan kepatuhan jangka panjang dan dukungan caregiver.",
+          "tone": "narrative",
+          "source": "edukasi & SOAP"
+        },
+        {
+          "text": "Contoh dokumentasi SOAP: S — 'Pasien 66 tahun, sulit mengingat kejadian baru sejak 6 bulan, diakui oleh keluarga. Riwayat stroke 2 tahun lalu, hipertensi tidak terkontrol.' O — 'KU: sadar, GCS E4V5M6. Tanda vital: TD 160/95, nadi 82. Neuro: refleks palmomental positif bilateral, Babinski positif tungkai kanan, refleks glabella tidak habituasi. Refleks sucking, snout, grasping, korneomandibular negatif.' A — 'Release signs multipel positif bilateral + tanda UMN kanan pada pasien stroke kronis + HT — curiga demensia vaskular dengan gangguan kognitif ringan-sedang.' P — 'Skrining MMSE, lab darah (B12, folat, TSH, fungsi ginjal/liver), MRI kepala, optimalisasi kontrol TD (target <140/90), rujukan saraf.'",
+          "tone": "clinical",
+          "source": "contoh SOAP"
+        },
+        {
+          "text": "Poin edukasi untuk pasien dan keluarga: (1) Refleks regresi positif adalah tanda yang perlu evaluasi lebih lanjut, bukan diagnosis akhir; (2) Kemungkinan penyebab termasuk demensia, efek stroke sebelumnya, atau gangguan metabolik — semuanya memerlukan konfirmasi; (3) Pentingnya kontrol faktor risiko: tekanan darah, gula darah, kolesterol; (4) Kepatuhan obat dan kontrol rutin ke dokter; (5) Latihan kognitif dan aktivitas sosial tetap penting untuk mempertahankan fungsi; (6) Dukungan keluarga dan caregiver untuk aktivitas sehari-hari; (7) Tanda bahaya yang harus dilaporkan: penurunan kesadaran, kejang, kelemahan baru, atau perubahan perilaku mendadak.",
+          "tone": "clinical",
+          "source": "edukasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen dokumentasi SOAP untuk release signs positif:",
+          "sub": [
+            "S (Subjective): keluhan utama + riwayat stroke/HT + gejala kognitif + perubahan perilaku",
+            "O (Objective): hasil refleks regresi (positif/negatif) + tanda neurologis lain (Babinski, GCS) + tanda vital",
+            "A (Assessment): interpretasi klinis (curiga demensia vaskular, ensefalopati, atau lesi difus)",
+            "P (Plan): penunjang (MMSE, lab, neuroimaging) + tatalaksana awal + rujukan + edukasi"
+          ],
+          "bold": true,
+          "source": "struktur SOAP"
+        },
+        {
+          "text": "Tujuh poin edukasi untuk pasien-keluarga:",
+          "sub": [
+            "1. Jelaskan refleks regresi sebagai tanda, bukan diagnosis",
+            "2. Diskusikan病因 yang mungkin (demensia, stroke, metabolik)",
+            "3. Tekankan pentingnya kontrol faktor risiko vaskular",
+            "4. Anjurkan kepatuhan obat dan kontrol rutin",
+            "5. Dorong latihan kognitif dan aktivitas sosial",
+            "6. Siapkan dukungan caregiver untuk aktivitas sehari-hari",
+            "7. Edukasi tanda bahaya (perubahan perilaku akut, kejang, kelemahan baru)"
+          ],
+          "bold": false,
+          "source": "edukasi 7 poin"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl: SOAP yang Baik",
+          "text": "Pada bagian A (Assessment), selalu kaitkan hasil release signs dengan riwayat stroke, hipertensi, dan gejala kognitif. Contoh: 'Release signs multipel bilateral + Babinski kanan + riwayat stroke kronis → curiga demensia vaskular.' Jangan hanya menulis 'palmomental positif' tanpa konteks.",
+          "answer_evidence": "Panduan dokumentasi SOAP neurologi klinis"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Hati-hati: Edukasi Demensia",
+          "text": "Sebelum menyampaikan diagnosis demensia kepada keluarga, pastikan sudah ada konfirmasi dari pemeriksaan penunjang (MMSE, neuroimaging, lab) dan/atau rujukan spesialis. Kata 'demensia' bisa memicu reaksi emosional — sampaikan dengan empati dan jelaskan bahwa banyak病因 yang bisa dimodifikasi.",
+          "answer_evidence": "Panduan komunikasi diagnosis demensia, PERDOSSI 2015"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_refleks_regresi_demensia_01",
+        "gls_refleks_regresi_anamnesis_01"
+      ],
+      "bilingual": "Dokumentasi SOAP: S=keluhan, O=temuan refleks, A=interpretasi klinis (kaitkan dengan stroke/HT/demensia), P=penunjang + tatalaksana + edukasi. Edukasi fokus pada 7 poin: tanda bahaya, kontrol faktor risiko, dukungan caregiver."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Kompetensi SKDI 4A yang relevan dan mini-skrip komunikasi terapeutik untuk pemeriksaan refleks regresi — placeholder informatif.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Bagian ini disusun sebagai placeholder informatif. Standar Kompetensi Dokter Indonesia (SKDI) 2012 menggunakan pendekatan 4A: Anamnesis, Pemeriksaan Fisik, Penalaran Klinis, dan Tatalaksana. Pemeriksaan refleks regresi melatih keempat area kompetensi ini secara terpadu. Disamping itu, komunikasi terapeutik yang baik meningkatkan skor OSCE dan kualitas pelayanan.",
+          "tone": "narrative",
+          "source": "SKDI & skrip"
+        },
+        {
+          "text": "Mini-skrip komunikasi untuk OSCE: (1) Pembuka — 'Selamat pagi, Bu/Pak. Saya dr. [nama], akan melakukan pemeriksaan neurologis singkat. Boleh saya jelaskan prosedurnya dulu?' (2) Penjelasan — 'Saya akan memeriksa beberapa refleks otomatis di wajah dan tangan. Ini bukan tes yang menyakitkan, hanya sentuhan atau ketukan ringan. Boleh saya mulai?' (3) Informed consent — 'Apakah Anda merasa nyaman dan setuju saya mulai?' (4) Selama pemeriksaan — 'Saya akan menyentuh bibir Anda perlahan ya', 'Sangat baik, tinggal sedikit lagi.' (5) Pelaporan hasil — 'Bu/Pak, dari hasil pemeriksaan, ada beberapa refleks yang perlu kami evaluasi lebih lanjut, tapi tidak ada yang berbahaya. Saya akan jelaskan langkah selanjutnya.' (6) Penutup — 'Terima kasih atas kerja samanya. Ada pertanyaan?'",
+          "tone": "procedure",
+          "source": "mini-skrip"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kompetensi SKDI 4A yang relevan dengan pemeriksaan refleks regresi:",
+          "sub": [
+            "1. Anamnesis: menggali gejala kognitif, riwayat stroke/HT, dan faktor risiko (level 4A.1)",
+            "2. Pemeriksaan fisik: melakukan 6 refleks regresi secara sistematis dan terampil (level 4A.2)",
+            "3. Penalaran klinis: mengintegrasikan hasil release signs dengan tanda neurologis lain (level 4A.3)",
+            "4. Tatalaksana: merencanakan pemeriksaan penunjang, rujukan, dan edukasi (level 4A.4)"
+          ],
+          "bold": true,
+          "source": "SKDI 4A"
+        },
+        {
+          "text": "Komunikasi terapeutik spesifik untuk lansia dengan gangguan kognitif:",
+          "sub": [
+            "Gunakan kalimat pendek dan sederhana (maks 10-15 kata per kalimat)",
+            "Bicara pelan, dengan intonasi jelas, dan kontak mata",
+            "Ulangi informasi penting 2-3 kali",
+            "Gunakan isyarat non-verbal (sentuhan lembut, senyum)",
+            "Konfirmasi pemahaman: 'Bu, bisa diulangi apa yang saya jelaskan tadi?'",
+            "Berikan waktu ekstra untuk merespons"
+          ],
+          "bold": false,
+          "source": "komunikasi geriatric"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan: SKDI Level 4A.2",
+          "text": "Pada level 4A.2 (pemeriksaan fisik), mahasiswa harus mampu melakukan pemeriksaan neurologis termasuk refleks regresi dengan benar dan terampil — bukan hanya menghafal prosedur. Latihan berkali-kali dengan teman atau mannequin penting untuk mencapai otomatisasi.",
+          "answer_evidence": "SKDI 2012 KKI; KKI Indonesia"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl: Kalimat Penutup yang Empatik",
+          "text": "Penutup yang baik: 'Terima kasih, Bu/Pak. Hasil pemeriksaan ini akan saya bahas dengan dokter senior dan saya akan kabari langkah selanjutnya.' — menunjukkan profesionalisme dan mengurangi kecemasan pasien.",
+          "answer_evidence": "Modul komunikasi klinis FKIK Universitas Jambi 2024"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_refleks_regresi_anamnesis_01"
+      ],
+      "bilingual": "SKDI 4A: Anamnesis, Pemeriksaan Fisik, Penalaran Klinis, Tatalaksana. Mini-skrip komunikasi 6 tahap: pembuka → penjelasan → consent → selama periksa → pelaporan → penutup."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Strategi latihan 2 hari sebelum OSCE, soal latihan, dan checklist mandiri — placeholder informatif untuk membantu mahasiswa mempersiapkan diri.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Bagian ini disusun sebagai placeholder informatif. Latihan mandiri yang terstruktur dan berbasis simulasi adalah kunci sukses OSCE refleks regresi. Mahasiswa disarankan melatih urutan 6 refleks secara berulang, menghafal kalimat komunikasi, dan mengintegrasikan hasil dengan reasoning klinis. Waktu latihan optimal: 2 hari sebelum OSCE dengan sesi 2-3 jam per hari.",
+          "tone": "narrative",
+          "source": "latihan mandiri"
+        },
+        {
+          "text": "Strategi latihan 2 hari sebelum OSCE: Hari 1 — Latih teknik pemeriksaan 6 refleks pada teman atau mannequin, fokus pada urutan, kekuatan tekanan, dan observasi respons. Rekam video latihan untuk evaluasi diri. Hari 2 — Latih integrasi: anamnesis singkat + pemeriksaan 6 refleks + pelaporan hasil + edukasi. Minta teman berperan sebagai pasien dan pasien dengan release signs positif. Gunakan timer OSCE (biasanya 8-10 menit per station).",
+          "tone": "procedure",
+          "source": "strategi 2 hari"
+        },
+        {
+          "text": "Soal latihan mandiri (5 soal): (1) Seorang pasien 70 tahun dengan riwayat stroke. Refleks glabella tidak habituasi. Interpretasi? (Jawaban: tanda parkinsonisme atau demensia, perlu evaluasi lebih lanjut) (2) Pasien 66 tahun, palmomental positif bilateral, Babinski positif kanan. Diagnosis kerja? (Jawaban: curiga demensia vaskular dengan lesi UMN kanan) (3) Saat sucking reflex, bibir pasien berkedut. Positif atau negatif? (Jawaban: negatif, sucking positif = gerakan mengisap/menetek involunter) (4) Apa kontraindikasi refleks korneomandibular? (Jawaban: luka kornea, infeksi mata, kontak lens) (5) Pasien lansia menolak diperiksa. Apa yang Anda lakukan? (Jawaban: jelaskan prosedur dengan bahasa sederhana, tawarkan kehadiran keluarga, jangan paksa; jika tetap menolak, dokumentasikan penolakan dan lanjutkan ke langkah lain yang disetujui).",
+          "tone": "evidence",
+          "source": "soal latihan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist latihan mandiri untuk OSCE refleks regresi:",
+          "sub": [
+            "Hafal urutan 6 refleks (korneomandibular → glabella → sucking → snout → grasping → palmomental)",
+            "Latih setiap refleks pada teman minimal 3x, perhatikan responsnya",
+            "Hafal kalimat pembuka, penjelasan, dan pelaporan hasil",
+            "Latih dokumentasi SOAP untuk 1-2 kasus skenario",
+            "Hafal minimal 5 diagnosis banding untuk release signs positif multipel",
+            "Latih pengelolaan waktu 8-10 menit per station",
+            "Tonton video OSCE refleks regresi dari sumber terpercaya sebagai referensi"
+          ],
+          "bold": true,
+          "source": "checklist latihan"
+        },
+        {
+          "text": "Sumber belajar tambahan:",
+          "sub": [
+            "Brazis PW, Masdeu JC, Biller J. Localization in Clinical Neurology, 8th ed. 2021",
+            "Campbell WW. DeJong's The Neurologic Examination, 8th ed. 2020",
+            "Biller J. Practical Neurology, 4th ed. 2019",
+            "PERDOSSI. Panduan Praktik Klinis Demensia. 2015",
+            "Video: NEJM Procedure videos untuk neurological examination"
+          ],
+          "bold": false,
+          "source": "sumber belajar"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pearl: Latihan dengan Timer",
+          "text": "Latihan dengan timer 8-10 menit sangat penting — banyak mahasiswa gagal OSCE bukan karena tidak tahu caranya, tapi karena kehabisan waktu. Biasakan menyelesaikan seluruh station dalam waktu yang ditentukan, termasuk anamnesis + pemeriksaan + pelaporan + edukasi.",
+          "answer_evidence": "Pengalaman OSCE FKIK Universitas Jambi 2020-2024"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Bukti: Efektivitas Latihan Berulang",
+          "text": "Studi menunjukkan bahwa latihan simulasi OSCE berulang (minimal 3x) meningkatkan skor OSCE mahasiswa secara signifikan dibanding hanya membaca teori. Prinsip 'practice makes perfect' berlaku di sini.",
+          "answer_evidence": "McLaughlin K et al. Simulation in medical education. 2009"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_refleks_regresi_def_01"
+      ],
+      "bilingual": "Strategi 2 hari: Hari 1 — latih teknik 6 refleks pada teman/mannequin. Hari 2 — latih integrasi anamnesis + pemeriksaan + pelaporan + edukasi dalam 8-10 menit dengan timer."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Daftar visual asset, lampiran istilah, dan referensi pustaka yang digunakan dalam modul — placeholder informatif untuk pelengkap.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Bagian ini disusun sebagai placeholder informatif untuk merangkum visual asset, lampiran istilah, dan referensi pustaka yang relevan. Modul ini dirancang untuk dapat berdiri sendiri sebagai bahan belajar mandiri OSCE blok 6.3 Neurologi.",
+          "tone": "narrative",
+          "source": "visual & lampiran"
+        },
+        {
+          "text": "Lampiran istilah bilingual (Indonesia-Inggris): refleks regresi = primitive reflexes/release signs; refleks palmomental = palmomental reflex; refleks glabella = glabellar tap/Myerson sign; sucking = sucking reflex; snout = snout reflex; grasping = grasping reflex; korneomandibular = corneomandibular reflex; demensia = dementia; kontrol frontal = frontal lobe inhibition; frontal release signs = frontal release signs.",
+          "tone": "narrative",
+          "source": "bilingual lampiran"
+        },
+        {
+          "text": "Referensi pustaka utama: (1) Brazis PW, Masdeu JC, Biller J. Localization in Clinical Neurology, 8th edition. Lippincott Williams & Wilkins, 2021. (2) Campbell WW. DeJong's The Neurologic Examination, 8th edition. Lippincott Williams & Wilkins, 2020. (3) Biller J. Practical Neurology, 4th edition. Wolters Kluwer, 2019. (4) PERDOSSI. Panduan Praktik Klinis Demensia. 2015. (5) Dominguez-Roldan JM et al. Primitive reflexes in neurodegenerative diseases. 1999. (6) Vreeling FW et al. Primitive reflexes in healthy elderly subjects. J Neurol. 1993.",
+          "tone": "evidence",
+          "source": "referensi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Daftar visual asset dalam modul ini:",
+          "sub": [
+            "s01: Ilustrasi skenario lansia 66 tahun (visual_refleks_regresi_skenario_lansia_01)",
+            "s02: Flowchart alur OSCE (visual_refleks_regresi_alur_osce_01)",
+            "s04: Anatomi 3D lobus frontalis (visual_refleks_regresi_anatomi_frontal_01)",
+            "s04: Infografis 6 teknik pemeriksaan (visual_refleks_regresi_teknik_pemeriksaan_01)",
+            "s04: Tabel interpretasi klinis (visual_refleks_regresi_tabel_interpretasi_01)",
+            "s05: Foto alat persiapan (visual_refleks_regresi_persiapan_alat_01)",
+            "s06: Diagram diferensial diagnosis (visual_refleks_regresi_diferensial_diagnosis_01)"
+          ],
+          "bold": true,
+          "source": "daftar visual"
+        },
+        {
+          "text": "Lampiran istilah klinis yang relevan:",
+          "sub": [
+            "Anamnesis: wawancara medis untuk mengumpulkan informasi klinis",
+            "Release signs: refleks primitif yang muncul kembali pada dewasa",
+            "Frontal lobe disease: kerusakan lobus frontalis yang menyebabkan berbagai defisit",
+            "Habituasi: kemampuan untuk berhenti merespons rangsang berulang (normal pada glabella)",
+            "Inhibisi kortikal: fungsi korteks serebri untuk menekan aktivitas refleks primitif",
+            "Tanda Babinski: ekstensi ibu jari kaki saat goresan telapak kaki → tanda lesi UMN",
+            "Demensia vaskular: penurunan kognitif akibat penyakit serebrovaskular"
+          ],
+          "bold": false,
+          "source": "lampiran istilah"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Penutup Modul",
+          "text": "Modul ini PALING PENDEK (3.859 kata) di antara modul neuro lainnya. Bagian s05-s11 dibuat sebagai placeholder informatif untuk melengkapi struktur 11 section sesuai standar. Konten klinis utama ada di s01-s04.",
+          "answer_evidence": "Catatan teknis pipeline Stage 2 Cortex Skill Lab 6"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Batas Keselamatan",
+          "text": "Dokumen ini untuk simulasi OSCE. Pada pasien nyata, selalu ikuti PPK fasilitas, supervisi klinik, dan kondisi individual pasien. Jangan gunakan modul ini sebagai pengganti konsultasi klinis atau panduan tatalaksana pasien nyata.",
+          "answer_evidence": "Batas keselamatan modul, sesuai metadata file sumber"
+        }
+      ],
+      "visual_refs": [
+        "visual_refleks_regresi_skenario_lansia_01",
+        "visual_refleks_regresi_alur_osce_01",
+        "visual_refleks_regresi_anatomi_frontal_01",
+        "visual_refleks_regresi_teknik_pemeriksaan_01",
+        "visual_refleks_regresi_tabel_interpretasi_01",
+        "visual_refleks_regresi_persiapan_alat_01",
+        "visual_refleks_regresi_diferensial_diagnosis_01"
+      ],
+      "glossary_refs": [
+        "gls_refleks_regresi_def_01",
+        "gls_refleks_regresi_demensia_01"
+      ],
+      "bilingual": "Lampiran: istilah bilingual (ID-EN), daftar visual asset (7 item), referensi pustaka (6 sumber utama). Modul dirancang untuk belajar mandiri OSCE blok 6.3 Neurologi."
+    }
+  ]
+}

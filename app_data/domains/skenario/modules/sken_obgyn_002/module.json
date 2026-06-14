@@ -1,0 +1,855 @@
+{
+  "id": "sken_obgyn_002",
+  "title": "Stasiun 2 — Pasien Hamil Trimester Akhir dengan Temuan Obstetri yang Harus Dinilai",
+  "subtitle": "Skenario kehamilan 36 minggu dengan presentasi bokong: menguji anamnesis antenatal, Leopold I–IV, rencana rujukan fasilitas mampu, dan prinsip Bracht/manual aid bila persalinan emergensi.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_1",
+  "source_files": ["SOAL_02_PESERTA_BUTA.md", "SOAL_02_PENDAMPING.md", "SOAL_02_BLUEPRINT.md"],
+  "topicTags": ["osce_skenario", "obgyn", "anc", "leopold", "presentasi_bokong", "antenatal", "pemeriksaan_obstetri", "panggul", "tfu", "bracht"],
+  "summary": [
+    "Situasi klinis: Ny. Siti Rahma, 29 tahun G2P1A0 hamil 36 minggu, datang untuk ANC rutin; merasa gerak janin lebih sering di bawah.",
+    "Skill utama: komunikasi ANC, anamnesis antenatal lengkap, pemeriksaan obstetri Leopold I–IV, interpretasi DJJ, rencana rujukan, dan prinsip Bracht/manual aid untuk presentasi bokong.",
+    "Anamnesis kritis: HPHT/TP, gerak janin, tanda bahaya, riwayat obstetri, penyakit, obat, ANC, dan rencana persalinan.",
+    "Pemeriksaan fisik kunci: TTV stabil, TFU 33-34 cm, Leopold I kepala di fundus, Leopold II punggung kiri, Leopold III bokong di segmen bawah, Leopold IV belum masuk PAP, DJJ 144 x/menit reguler.",
+    "Diagnosis kerja: kehamilan trimester III dengan janin tunggal hidup presentasi bokong; ibu dan janin stabil. Perlu rujukan ke fasilitas mampu obstetri untuk konfirmasi USG dan rencana persalinan aman.",
+    "Tatalaksana: ANC lanjut, USG konfirmasi presentasi, kolaborasi dengan dokter SpOG, edukasi tanda bahaya, hindari persalinan di rumah/bidan, dan bila skenario emergensi pahami prinsip Bracht (support, tunggu umbilikus/scapula) dan manual aid.",
+    "Critical error: tidak mengenali presentasi bokong; menyarankan persalinan rumah/bidan pada presentasi bokong; menarik bayi bokong secara kasar saat simulasi; mengabaikan tanda bahaya obstetri.",
+    "Total 100 poin — komponen terbesar: Leopold (18), anamnesis antenatal (14), clinical reasoning (12), penunjang antenatal (12), dan rencana rujukan (10)."
+  ],
+  "exam_focus": [
+    "Selalu lakukan Leopold I–IV secara sistematis dan sebutkan temuan per langkah (fundus, punggung, presentasi, engagement).",
+    "Tanyakan HPHT/TP, gerak janin, tanda bahaya preeklamsia, dan riwayat obstetri — minimal 4 ANC adalah titik kontrol penting.",
+    "Pastikan DJJ dinilai setiap 1-2 jam pada trimester III; DJJ <110 atau >160 x/menit adalah red flag.",
+    "Presentasi bokong pada 36 minggu masih bisa berubah, namun perlu konfirmasi USG dan rencana rujukan; tidak menyarankan persalinan di rumah/bidan.",
+    "Prinsip Bracht: tunggu lahir spontan sampai umbilikus/scapula, berikan gentle suprapubic support, jangan traksi; pahami perbedaan Bracht vs manual aid untuk lengan/kepala.",
+    "Critical error: tidak mengenali presentasi bokong setelah Leopold = kehilangan nilai klinis utama.",
+    "Edukasi tanda bahaya: perdarahan, KPD, kontraksi teratur, gerak janin berkurang, nyeri kepala hebat/pandangan kabur, kejang, demam.",
+    "Lanjutkan tablet besi, nutrisi, dan jadwalkan USG/CTG bila ada indikasi; kolaborasi multidisiplin adalah kompetensi utama."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_bokong_anc_01",
+      "term": "Pemeriksaan Leopold I–IV",
+      "def": "Serangkaian empat langkah palpasi abdomen untuk menentukan presentasi, posisi, dan engagement janin: Leopold I (fundus/tinggi rahim dan bagian teratas), Leopold II (punggung dan bagian kecil di sisi lateral), Leopold III (presentasi di atas simfisis), Leopold IV (konvergensi/engagement ke PAP). Sistematis dan didokumentasikan di setiap ANC ≥28 minggu.",
+      "type": "procedure",
+      "aliases": ["Leopold maneuvers"]
+    },
+    {
+      "id": "gls_sken_bokong_presentasi_02",
+      "term": "Presentasi Bokong (Breech Presentation)",
+      "def": "Presentasi di mana bokong atau kaki janin berada di segmen bawah rahim, bukan kepala. Jenis: frank (bokong murni, kaki ekstensi), complete (bokong dan kaki fleksi), footling/incomplete (satu atau dua kaki menumbung). Insidensi menurun mendekati aterm (~3-4%); pada 36 minggu masih bisa spontan berubah ke kepala.",
+      "type": "clinical",
+      "aliases": ["breech", "presentasi sungsang"]
+    },
+    {
+      "id": "gls_sken_bokong_bracht_03",
+      "term": "Metode Bracht",
+      "def": "Manuver persalinan pervaginam untuk presentasi bokong dengan prinsip: tunggu lahir spontan sampai umbilikus atau scapula inferior tampak, lalu pegang bokong dengan kedua tangan dan lakukan rotasi sedikit ke anterior (ke arah punggung ibu) sambil asisten memberikan gentle suprapubic support pada kepala. TIDAK BOLEH traksi — biarkan gaya dorong dan gravitasi.",
+      "type": "procedure",
+      "aliases": ["Bracht maneuver", "Bracht delivery"]
+    },
+    {
+      "id": "gls_sken_bokong_manual_aid_04",
+      "term": "Manual Aid (Breech Delivery)",
+      "def": "Bantuan manual untuk kelahiran bokong yang mengalami kesulitan, biasanya pada saat lengan atau kepala tidak lahir spontan. Mencakup Lovset (rotasi trunkus untuk lengan), Mauriceau (kepala setelah lahir badan), Piper forceps untuk kepala, dan harus dilakukan oleh operator terlatih di fasilitas mampu dengan anestesi dan akses SC emergensi.",
+      "type": "procedure",
+      "aliases": ["manual aid breech", "assisted breech delivery"]
+    },
+    {
+      "id": "gls_sken_bokong_anc_kia_05",
+      "term": "Buku KIA & Kartu Skor Poedji Rochyati",
+      "def": "Alat pencatatan dan skrining ibu hamil nasional Indonesia. Wajib diisi di setiap kunjungan ANC; kartu skor Poedji Rochyati dipakai untuk deteksi dini risiko kehamilan berdasarkan faktor skor (kehamilan ganda, preeklamsia, anemia, dll.).",
+      "type": "score",
+      "aliases": ["Kartu Poedji Rochyati", "KSPR"]
+    },
+    {
+      "id": "gls_sken_bokong_usg_06",
+      "term": "USG Obstetri (Ultrasonografi Kebidanan)",
+      "def": "Pemeriksaan pencitraan untuk konfirmasi kehamilan, jumlah janin, presentasi, plasenta, Air Fluid Index (AFI), taksiran berat janin, dan kesejahteraan janin. Wajib dikonfirmasi pada presentasi bokong 36 minggu untuk menilai panggul, plasenta, dan taksiran BB.",
+      "type": "procedure",
+      "aliases": ["USG kehamilan", "obstetric ultrasound"]
+    },
+    {
+      "id": "gls_sken_bokong_tfu_07",
+      "term": "Tinggi Fundus Uteri (TFU)",
+      "def": "Pengukuran jarak antara fundus uteri dan simfisis pubis dalam sentimeter; pada kehamilan cukup bulan (≥36 minggu) mendekati 30-36 cm, tergantung paritas dan taksiran BB. TFU yang tidak sesuai usia kehamilan mengarah pada dugaan IUGR, polihidramnion, kehamilan ganda, atau kesalahan hitung HPHT.",
+      "type": "anatomy",
+      "aliases": ["fundal height", "tinggi rahim"]
+    },
+    {
+      "id": "gls_sken_bokong_djj_08",
+      "term": "Denyut Jantung Janin (DJJ)",
+      "def": "Penilaian kesejahteraan janin dengan menghitung frekuensi jantung janin per menit, biasanya dengan Doppler atau Laennec/CTG. Nilai normal 110-160 x/menit. DJJ <110 (bradikardia) atau >160 (takikardia) persisten adalah red flag yang memerlukan eskalasi/observasi ketat.",
+      "type": "clinical",
+      "aliases": ["FHR", "fetal heart rate", "DJJ"]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis yang diterima peserta dan daftar tugas yang harus diselesaikan dalam stasiun ini.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Seorang ibu hamil datang untuk kontrol kehamilan. Anda diminta melakukan penilaian antenatal terarah, meminta data pemeriksaan yang diperlukan, menyimpulkan kondisi ibu-janin, serta memberikan rencana dan edukasi yang aman.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Lakukan penilaian klinis terarah, pemeriksaan fisik/penunjang yang relevan, diagnosis kerja, tatalaksana awal, edukasi, dan rencana tindak lanjut.",
+          "tone": "clinical",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Lakukan pembukaan konsultasi, identifikasi pasien, dan informed consent pemeriksaan antenatal.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Gali data antenatal — usia kehamilan, HPHT/TP, gerak janin, keluhan, riwayat obstetri, penyakit penyerta, obat, dan tanda bahaya.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Lakukan/uraikan pemeriksaan fisik umum, obstetri, dan Leopold secara sistematis.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Minta pemeriksaan penunjang antenatal rutin yang relevan dan interpretasikan hasilnya.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 5: Sampaikan diagnosis/rencana aman, termasuk kapan perlu rujukan dan apa yang harus dilakukan bila persalinan terjadi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Gunakan komunikasi klinik nyata: sapa, perkenalkan diri, konfirmasi identitas, jelaskan tujuan, minta izin, dan jaga privasi. Data tidak diberikan otomatis — gali dari probandus atau minta spesifik ke pendamping. Untuk pemeriksaan Leopold dan pencitraan simulasi (USG, CTG), ucapkan indikasi, kontraindikasi, dan interpretasi temuan.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_anc_01"],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting stasiun, durasi, skill yang diuji, dan distribusi poin penilaian.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Stasiun ini berlangsung di Poli KIA/puskesmas atau ruang bersalin simulasi dengan manekin obstetri. Total durasi 16 menit: 1 menit membaca soal, 12 menit performa, dan 3 menit feedback. Peserta dinilai menggunakan rubrik 100 poin dengan skor proporsional per item.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skill yang diuji di stasiun ini:",
+          "sub": [
+            "Komunikasi ANC yang aman (sapa, izin, privasi, penjelasan pemeriksaan)",
+            "Anamnesis antenatal lengkap (HPHT/TP, gerak janin, tanda bahaya, riwayat obstetri, penyakit, obat, ANC)",
+            "Pemeriksaan umum/head-to-toe (TTV, pucat, edema, refleks, jantung paru)",
+            "Pemeriksaan obstetri Leopold I–IV + TFU + DJJ + interpretasi presentasi",
+            "Pemilihan dan interpretasi penunjang antenatal (Hb, urine protein/glukosa, golongan darah, skrining IMS, USG, CTG/NST)",
+            "Clinical reasoning membedakan presentasi bokong dari letak lintang dan risiko lain",
+            "Rencana rujukan ke fasilitas mampu obstetri; tidak menganjurkan persalinan rumah",
+            "Prinsip Bracht dan manual aid pada persalinan bokong emergensi; edukasi tanda bahaya"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1 menit baca soal → 4-5 menit anamnesis → 3-4 menit pemeriksaan Leopold/DJJ → 2 menit penunjang & reasoning → 2 menit tatalaksana & edukasi. Pada bagian Leopold, ucapkan setiap langkah; penguji tidak bisa menilai kalau Anda hanya menyebut 'Leopold dilakukan'.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggunakan file pendamping, naskah pembuka probandus, dan poin anamnesis yang tersedia.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Perankan pasien sesuai naskah. Jangan memberi informasi tersembunyi kecuali peserta menanyakannya dengan relevan. Saat bertindak sebagai penguji, berikan data objektif hanya bila peserta meminta pemeriksaan/penunjang spesifik. Jika peserta melakukan urutan benar, beri respons positif; jika ada kesalahan fatal, catat dan lanjutkan sampai waktu selesai. Gunakan rubrik 100 poin untuk feedback — fokus pada clinical reasoning dan keselamatan.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus (Ny. Siti Rahma, 29 tahun, G2P1A0, hamil 36 minggu): \"Saya kontrol hamil, Dok. Bayinya masih aktif, tapi saya merasa gerakannya lebih sering di bawah dan saya ingin memastikan semuanya baik.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Usia kehamilan: HPHT jelas; usia kehamilan sekitar 36 minggu. TP sudah dihitung di buku KIA.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gerak janin: aktif setiap hari, tidak berkurang (faktor kesejahteraan janin yang baik).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Tanda bahaya: tidak ada perdarahan, air ketuban belum keluar, tidak ada nyeri kepala hebat, tidak ada pandangan kabur, tidak ada nyeri ulu hati berat, tidak demam.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Kontraksi: kadang kencang ringan tidak teratur (kontraksi Braxton-Hicks, bukan persalinan).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat obstetri: anak pertama lahir spontan cukup bulan, BB 3000 g, tanpa komplikasi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "ANC: kontrol 4 kali, minum tablet tambah darah tidak selalu rutin.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Penyakit: tidak ada hipertensi/diabetes/asma/penyakit jantung.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Obat/alergi: vitamin hamil dan tablet besi; tidak ada alergi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Rencana persalinan: awalnya ingin melahirkan di bidan dekat rumah (perlu edukasi ulang tentang risiko presentasi bokong).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_anc_01", "gls_sken_bokong_djj_08"],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV dan temuan pemeriksaan fisik yang tersedia untuk diberikan kepada peserta bila diminta.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ yang diperiksa. Peserta dinilai dari relevansi permintaan dan kemampuan interpretasi, bukan dari permintaan buta semua data.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital: TD 112/70 mmHg | Nadi 86 x/menit | RR 18 x/menit | Suhu 36,7°C | SpO2 99% RA | Compos mentis.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "BB/IMT dan edema: kenaikan BB kehamilan sesuai, edema tungkai minimal fisiologis.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Head-to-toe: konjungtiva tidak pucat jelas, sklera tidak ikterik, gigi mulut cukup, tiroid tidak membesar, jantung paru normal, ekstremitas edema pretibial minimal, refleks fisiologis.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Abdomen obstetri: TFU 33-34 cm (sesuai 36 minggu), uterus rileks di luar kontraksi, tidak nyeri tekan.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Leopold I: bagian keras bulat melenting di fundus — mengarah kepala janin di fundus (bukan bokong).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Leopold II: punggung janin teraba di sisi kiri ibu, bagian kecil (ekstremitas) di kanan.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Leopold III: bagian lunak, tidak bulat keras, mengarah bokong di segmen bawah rahim.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Leopold IV: bagian terbawah belum masuk PAP penuh (konvergensi divergen).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "DJJ: 144 x/menit, reguler (kesejahteraan janin baik).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan genital: tidak dilakukan pada ANC rutin tanpa indikasi; bila ada tanda inpartu/KPD/perdarahan, lakukan sesuai indikasi dan privasi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Skenario persalinan bokong emergensi (hanya bila peserta skenario mengarahkan): pembukaan lengkap, bokong tampak di vulva, DJJ 138-148 x/menit, ibu stabil; peserta diminta menyebut prinsip Bracht/manual aid, BUKAN menarik bayi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_anc_01", "gls_sken_bokong_presentasi_02", "gls_sken_bokong_tfu_07", "gls_sken_bokong_djj_08"],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Data penunjang yang tersedia beserta interpretasinya, diberikan bila peserta meminta secara spesifik.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Penunjang berikut diberikan hanya bila peserta meminta secara spesifik. Peserta dinilai dari relevansi permintaan dan kemampuan interpretasi klinis, bukan dari jumlah penunjang yang diminta. Wajib sebut USG obstetri untuk konfirmasi presentasi bokong pada 36 minggu.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Hb/CBC: Hb 11,2 g/dL (cukup); leukosit dan trombosit dalam batas wajar.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Urine protein: negatif (menyingkirkan preeklamsia).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Urine glukosa: negatif (skrining DM gestasional awal).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Golongan darah/Rh: O Rh positif (penting untuk antisipasi perdarahan).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Skrining HIV/sifilis/HBsAg: nonreaktif sesuai catatan ANC.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gula darah sewaktu/skrining DM gestasional: dalam batas sesuai kebijakan fasilitas.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "USG obstetri: janin tunggal hidup intrauterin, presentasi bokong, plasenta tidak menutupi jalan lahir, AFI cukup, taksiran BB ~2700 g. WAJIB diminta pada presentasi bokong 36 minggu.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "CTG/NST bila indikasi: reassuring bila diminta karena presentasi bokong dengan gerak janin baik.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "Pada skenario ini, kultur atau PCR khusus tidak relevan; amniocentesis tidak diindikasikan. Yang harus diminta: Hb, urine protein/glukosa, golongan darah, skrining IMS sesuai ANC, dan USG obstetri untuk konfirmasi presentasi. CTG/NST hanya bila ada indikasi seperti gerak janin berkurang atau kecurigaan gawat janin.",
+          "answer_evidence": "Pedoman ANC Kemenkes; ACOG guidelines on antenatal care"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_usg_06", "gls_sken_bokong_anc_kia_05"],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Kunci diagnosis rahasia, diagnosis banding utama, dan alasan klinis mendukung/menentang.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Kehamilan trimester III (36 minggu) dengan janin tunggal hidup presentasi bokong; ibu dan janin stabil. Presentasi bokong ditegakkan dari Leopold (bokong di segmen bawah, kepala di fundus, punggung kiri) dan perlu dikonfirmasi USG. Pada 36 minggu, presentasi masih bisa berubah, tetapi perlu perencanaan persalinan di fasilitas mampu obstetri karena risiko persalinan bokong pervaginam.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Letak lintang/oblique — mendukung: bokong tidak teraba jelas. Menentang: Leopold III menunjukkan bagian lunak, bukan bahu; konfirmasi USG menyingkirkan.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Kepala belum masuk PAP pada multipara — mendukung: multipara, Leopold IV belum masuk. Menentang: Leopold III adalah bokong (lunak, tidak bulat), bukan kepala; ini presentasi bokong sesungguhnya, bukan keterlambatan engagement.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Kehamilan dengan plasenta previa bila ada perdarahan — mendukung: faktor risiko paritas. Menentang: tidak ada perdarahan, USG plasenta tidak menutupi jalan lahir.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: Oligohidramnion/polihidramnion — mendukung: TFU 33-34 cm borderline. Menentang: AFI cukup pada USG, gerak janin baik, TFU dalam batas wajar untuk 36 minggu.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Makrosomia/IUGR — mendukung: TFU borderline. Menentang: taksiran BB USG ~2700 g sesuai usia kehamilan, gerak janin baik, tidak ada faktor risiko.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 6: Preeklamsia — mendukung: kehamilan 36 minggu. Menentang: TD 112/70, urine protein negatif, edema minimal fisiologis, tidak ada nyeri kepala/pandangan kabur.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pendekatan DD Presentasi Janin",
+          "text": "Gunakan algoritma palpasi Leopold: bokong (lunak, tidak bulat, tidak ballottement) vs kepala (keras, bulat, ballottement). Pada ragu, USG adalah gold standard. Pada 36 minggu, presentasi bokong masih bisa berubah secara spontan, tetapi perlu perencanaan persalinan fasilitas mampu obstetri — hindari persalinan rumah/bidan tanpa akses SC emergensi.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_presentasi_02", "gls_sken_bokong_anc_01", "gls_sken_bokong_usg_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana non-farmakologi dan farmakologi yang diharapkan dari peserta di stasiun ini.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pendekatan tatalaksana: (1) jelaskan bahwa ibu dan janin saat ini stabil, (2) perlu rujukan untuk konfirmasi USG dan penilaian fasilitas obstetri, (3) hindari persalinan rumah, (4) edukasi tanda bahaya, (5) bila skenario persalinan emergensi muncul, pahami prinsip Bracht dan manual aid — bukan traksi kasar.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Langkah 1: Jelaskan pada pasien bahwa kondisi ibu-janin stabil, namun posisi bayi bokong memerlukan penilaian tempat persalinan yang lebih aman. Jangan menggunakan bahasa yang membuat cemas berlebihan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 2: Rujuk/kolaborasi ke fasilitas mampu obstetri (SpOG, kamar bersalin dengan akses SC) untuk konfirmasi USG, penilaian panggul, dan rencana persalinan (external cephalic version bila memenuhi syarat, atau SC elektif).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 3: Lanjutkan tablet besi, asam folat, nutrisi kehamilan; evaluasi kepatuhan minum TTD.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 4: Edukasi tanda bahaya obstetri: perdarahan, ketuban pecah dini, kontraksi teratur, gerak janin berkurang, nyeri kepala hebat/pandangan kabur, kejang, demam. Pastikan pasien tahu kapan harus kembali segera.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 5: Persiapkan rencana donor darah, transportasi, dan pendamping persalinan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 6 (bila skenario emergensi): prinsip Bracht — tunggu lahir spontan sampai umbilikus atau scapula inferior, lalu pegang bokong dengan kedua tangan dan rotasikan sedikit ke anterior (ke arah punggung ibu) sementara asisten memberikan gentle suprapubic support pada kepala. TIDAK BOLEH traksi.",
+          "sub": [
+            "Manual aid untuk lengan (Lovset) atau kepala (Mauriceau/Piper) hanya oleh operator terlatih di fasilitas dengan anestesi dan akses SC.",
+            "Siapkan resusitasi neonatal (alat, penghangat, suction) dan rujuk pasca-tindakan."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi / Jangan Dilakukan",
+          "text": "JANGAN menyarankan persalinan di rumah atau bidan tanpa akses SC emergensi pada presentasi bokong. JANGAN menarik bayi secara kasar pada simulasi manual aid — traksi dapat menyebabkan cedera kepala, distosia bahu, atau trauma plexus brachialis. JANGAN mengabaikan tanda bahaya obstetri (perdarahan, KPD, gerak janin berkurang, preeklamsia).",
+          "answer_evidence": "POGI; ACOG committee opinion on mode of term breech delivery"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_bracht_03", "gls_sken_bokong_manual_aid_04", "gls_sken_bokong_usg_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk pasien/keluarga, tanda bahaya yang harus disebutkan, dan contoh SOAP.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario ini:\n\nS: G2P1A0 hamil 36 minggu kontrol ANC; mengeluh gerak janin lebih sering di bawah. Tidak ada perdarahan, KPD, kontraksi teratur, nyeri kepala, pandangan kabur, atau demam. Riwayat ANC 4x, TTD tidak selalu rutin, riwayat persalinan sebelumnya spontan BB 3000 g.\nO: TTV stabil, TFU 33-34 cm, Leopold I kepala di fundus, Leopold II punggung kiri, Leopold III bokong di segmen bawah, Leopold IV belum masuk PAP, DJJ 144 x/menit reguler. USG: presentasi bokong, plasenta tidak previa, AFI cukup, taksiran BB ~2700 g.\nA: Kehamilan trimester III, janin tunggal hidup presentasi bokong, ibu dan janin stabil.\nP: Rujuk ke SpOG untuk konfirmasi USG dan rencana persalinan aman (ECV atau SC). Lanjutkan TTD, edukasi tanda bahaya, jadwal kontrol 1-2 minggu.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi: jelaskan dengan bahasa awam bahwa posisi bayi masih sungsang/bokong; ini kadang masih bisa berubah, tetapi tim medis ingin memastikan tempat persalinan aman. Jangan menakut-nakuti pasien.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi gaya hidup: istirahat cukup, nutrisi kaya protein dan zat besi, minum TTD secara rutin, hindari kerja berat, dan tidak stress berlebihan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi rencana persalinan: rujukan ke SpOG/fasilitas mampu; kemungkinan external cephalic version (ECV) atau SC elektif sesuai kondisi; tidak ada persalinan rumah/bidan tanpa akses SC.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera bila: perdarahan dari jalan lahir.",
+          "sub": [
+            "Air ketuban pecah (KPD) atau keluar lendir darah banyak.",
+            "Kontraksi teratur/men kuat setiap 5 menit atau lebih sering.",
+            "Gerak janin berkurang drastis (kurang dari 10 gerakan/hari).",
+            "Nyeri kepala hebat, pandangan kabur, kejang, atau nyeri ulu hati berat.",
+            "Demam atau menggigil."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_presentasi_02", "gls_sken_bokong_djj_08"],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian penuh 100 poin yang digunakan penguji — semua item wajib ada.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Total penilaian: 100 poin. Komponen utama: komunikasi/keselamatan ANC (10), anamnesis antenatal lengkap (14), pemeriksaan umum/head-to-toe (10), pemeriksaan obstetri-Leopold (18), penunjang antenatal rutin (12), clinical reasoning (12), rencana rujukan/persalinan aman (10), prinsip Bracht/manual aid (8), edukasi tanda bahaya (4), dokumentasi (2). Skor proporsional; <60 = belum aman, 60-74 cukup, 75-84 baik, ≥85 sangat baik.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komunikasi dan keselamatan ANC (10 poin)",
+          "sub": [
+            "Identifikasi, consent, privasi, menjelaskan pemeriksaan perut/DJJ (10/10).",
+            "Lupa salam/identifikasi atau tidak menjelaskan prosedur → potong 3-4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Anamnesis antenatal lengkap (14 poin)",
+          "sub": [
+            "HPHT/TP, gerak janin, tanda bahaya, riwayat obstetri, penyakit, obat, ANC (14/14).",
+            "Tidak bertanya tanda bahaya (perdarahan, KPD, gerak janin, preeklamsia) → potong 4-6 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Pemeriksaan umum/head-to-toe (10 poin)",
+          "sub": [
+            "TTV, pucat, edema, refleks/gejala preeklamsia, jantung paru (10/10).",
+            "Lupa cek edema/refleks atau TD → potong 4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Pemeriksaan obstetri-Leopold (18 poin)",
+          "sub": [
+            "TFU, Leopold I-IV benar, DJJ, interpretasi presentasi bokong (18/18).",
+            "Lupa menyebut satu langkah Leopold → potong 3-4 poin; tidak mengenali presentasi bokong → potong 6-8 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penunjang antenatal rutin (12 poin)",
+          "sub": [
+            "Hb, urine protein/glukosa, golongan darah, skrining HIV/sifilis/HBsAg, USG (12/12).",
+            "Tidak minta USG konfirmasi presentasi → potong 3-4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Clinical reasoning (12 poin)",
+          "sub": [
+            "Menyimpulkan janin tunggal hidup presentasi bokong dan membedakan dari letak lintang/risiko lain (12/12).",
+            "Tidak menyebut letak lintang sebagai DD → potong 3 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Rencana rujukan/persalinan aman (10 poin)",
+          "sub": [
+            "Tidak menyarankan persalinan rumah; rujukan fasilitas mampu (10/10).",
+            "Menyarankan persalinan bidan/rumah pada presentasi bokong → critical error, potong 8-10 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Prinsip Bracht/manual aid (8 poin)",
+          "sub": [
+            "Menyebut support, tidak traksi, manuver hanya bila perlu dan terlatih (8/8).",
+            "Menarik bayi pada simulasi → critical error, potong 6-8 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Edukasi tanda bahaya (4 poin)",
+          "sub": [
+            "Gerak janin berkurang, perdarahan, KPD, kontraksi, preeklamsia (4/4).",
+            "Hanya menyebut 1-2 red flags → potong 2 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Dokumentasi (2 poin)",
+          "sub": [
+            "SOAP/buku KIA ringkas (2/2).",
+            "Tanpa dokumentasi → 0; dokumentasi seadanya → 1."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Skor proporsional per item. Skor <60 = belum aman (perbaikan besar), 60-74 cukup, 75-84 baik, ≥85 sangat baik. Komponen Leopold dan clinical reasoning adalah bobot terbesar (30 poin total) — pelajari teknik palpasi dan intepretasinya dengan baik.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE adalah tindakan atau kelalaian yang menyebabkan pemotongan nilai besar atau kegagalan stasiun. Kenali setiap critical error berikut dan pelajari cara menghindari atau memulihkannya.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Tidak memeriksa DJJ atau tidak mengenali presentasi bokong setelah Leopold.",
+          "sub": [
+            "Kenapa critical: DJJ adalah penanda kesejahteraan janin utama; tanpa DJJ, peserta tidak punya data keselamatan minimal. Tidak mengenali bokong = melewatkan diagnosis utama.",
+            "Recovery move: Hentikan sementara, kembali ke abdomen, palpasi Leopold I-IV, dan cek DJJ dengan Doppler/Laennec selama minimal 1 menit penuh."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Menyarankan persalinan di rumah/bidan tanpa rencana rujukan pada presentasi bokong.",
+          "sub": [
+            "Kenapa critical: Persalinan bokong pervaginam memerlukan akses SC emergensi; bidan/rumah tanpa fasilitas SC meningkatkan morbiditas/mortalitas ibu-janin.",
+            "Recovery move: Tarik kembali saran, edukasi pasien tentang kebutuhan rujukan, jadwalkan konsultasi SpOG, dan rujuk emergensi bila persalinan sudah dekat."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Menarik bayi bokong secara kasar saat simulasi manual aid.",
+          "sub": [
+            "Kenapa critical: Traksi kasar menyebabkan cedera kepala, distosia bahu, trauma plexus brachialis, dan cedera leher.",
+            "Recovery move: Hentikan traksi, posisikan kembali, minta asisten suprapubic support, dan lanjutkan dengan prinsip Bracht (tunggu umbilikus/scapula) atau manuver Lovset/Mauriceau sesuai fase."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Mengabaikan tanda bahaya obstetri.",
+          "sub": [
+            "Kenapa critical: Tanda bahaya (perdarahan, KPD, gerak janin berkurang, preeklamsia) adalah sinyal untuk eskalasi; mengabaikannya = morbiditas ibu/janin.",
+            "Recovery move: Buka skrining tanda bahaya secara eksplisit, nilai ABC, dan rujuk emergensi ke SpOG/PONEK bila ada satu pun positif."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Tidak menyebutkan setiap langkah Leopold I-IV (peserta sering menyebut 'sudah saya lakukan' tanpa penjelasan) dan menyarankan persalinan di rumah pada presentasi bokong. Selalu ucapkan keempat langkah dan simpulkan presentasi, posisi, dan engagement secara eksplisit.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_presentasi_02", "gls_sken_bokong_bracht_03"],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji lengkap, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Naskah pembuka probandus (Ny. Siti Rahma, 29 tahun, G2P1A0, hamil 36 minggu, ibu rumah tangga): \"Saya kontrol hamil, Dok. Bayinya masih aktif, tapi saya merasa gerakannya lebih sering di bawah dan saya ingin memastikan semuanya baik.\"\n\nRespons sesuai anamnesis (hanya bila ditanya dengan relevan):\n- Usia kehamilan: HPHT jelas, 36 minggu, TP sudah dihitung.\n- Gerak janin: aktif setiap hari, tidak berkurang.\n- Tanda bahaya: tidak ada perdarahan, KPD, sakit kepala berat, pandangan kabur, nyeri ulu hati berat, demam.\n- Kontraksi: kadang kencang ringan tidak teratur.\n- Riwayat obstetri: anak pertama spontan cukup bulan, BB 3000 g, tanpa komplikasi.\n- ANC: 4 kali kunjungan; TTD tidak selalu rutin.\n- Penyakit: tidak ada hipertensi/diabetes/asma/penyakit jantung.\n- Obat/alergi: vitamin hamil dan tablet besi; tidak ada alergi.\n- Rencana persalinan: awalnya ingin melahirkan di bidan dekat rumah (perlu edukasi ulang).\n\nSikap: tenang tetapi mudah cemas bila peserta menyebut persalinan risiko tanpa penjelasan. Probandus kooperatif jika diberi penjelasan dengan bahasa awam dan ekspresi empatik.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji:",
+          "sub": [
+            "Berikan TTV dan head-to-toe hanya bila peserta meminta parameter spesifik.",
+            "Berikan temuan Leopold/DJJ hanya bila peserta meminta palpasi abdomen dan menyebut langkah yang sesuai (I, II, III, IV).",
+            "Berikan penunjang hanya bila peserta meminta spesifik; Hb, urine protein/glukosa, golongan darah, USG adalah paket wajib.",
+            "Pada skenario persalinan emergensi, berikan data bokong tampak di vulva, pembukaan lengkap, DJJ normal; minta peserta menyebut prinsip Bracht dan TIDAK menarik bayi.",
+            "Bila peserta salah menyebut persalinan aman di rumah/bidan → ingatkan bahwa presentasi bokong memerlukan fasilitas mampu obstetri; tetap lanjutkan sampai waktu selesai."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pertanyaan feedback setelah latihan:",
+          "sub": [
+            "Data apa yang paling menentukan diagnosis kerja?",
+            "Pemeriksaan/penunjang apa yang seharusnya diminta rutin pada kasus ini?",
+            "Red flag apa yang harus membuat peserta berhenti dan melakukan eskalasi/rujukan?",
+            "Apakah tindakan yang dipilih aman untuk kondisi pasien saat itu?",
+            "Apa edukasi paling penting yang harus dipahami pasien sebelum pulang/rujuk?"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "Kementerian Kesehatan RI — Buku KIA; Panduan ANC Terpadu.",
+            "POGI — Pedoman Persalinan Bokong (term breech delivery).",
+            "American College of Obstetricians and Gynecologists (ACOG) — Mode of Term Singleton Breech Delivery.",
+            "Royal College of Obstetricians and Gynaecologists (RCOG) — Management of Breech Presentation.",
+            "Modul OSCE 6.1 — Antenatal Awal dan Ginekologi; Antenatal dan Leopold; Bracht Presentasi Bokong; Manual Aid."
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Data objektif dan diagnosis kunci diberikan hanya bila peserta meminta spesifik.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_bokong_anc_01", "gls_sken_bokong_presentasi_02", "gls_sken_bokong_bracht_03", "gls_sken_bokong_manual_aid_04", "gls_sken_bokong_usg_06", "gls_sken_bokong_anc_kia_05", "gls_sken_bokong_tfu_07", "gls_sken_bokong_djj_08"],
+      "bilingual": ""
+    }
+  ]
+}

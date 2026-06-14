@@ -1,0 +1,1537 @@
+{
+  "id": "mod_neuro_skill_tanda_rangsang_meningeal_001",
+  "title": "Pemeriksaan Tanda Rangsang Meningeal (TRM): 7 Tanda Klasik",
+  "subtitle": "Modul OSCE 6.3 (versi PDF) — Skill neurologi untuk deteksi iritasi meningeal pada pasien dengan penurunan kesadaran, demam, dan nyeri kepala; mencakup Kaku Kuduk, Kernig, Lasegue, Brudzinski I, Brudzinski II, Brudzinski III, dan Brudzinski IV.",
+  "domain": "neuro_skill",
+  "batch_id": "batch_2",
+  "source_pdf": "Pemeriksaan_Tanda_Rangsang_Meningeal_v2.pdf (Modul Skills Lab VI — FKIK Universitas Jambi, hlm. 24–30)",
+  "source_filename": "Pemeriksaan_Tanda_Rangsang_Meningeal_v2.md",
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "tanda_rangsang_meningeal",
+    "kaku_kuduk",
+    "kernig",
+    "brudzinski",
+    "meningitis",
+    "meningismus",
+    "sah",
+    "nyeri_kepala_thunderclap"
+  ],
+  "summary": [
+    "Modul PDF FKIK UNJA hlm. 24–30 mengajarkan 7 tanda klasik iritasi meningeal: Kaku Kuduk, Kernig, Lasegue, Brudzinski I, Brudzinski II, Brudzinski III, dan Brudzinski IV — berbeda dengan versi DOCX sebelumnya yang hanya memuat 5 tanda.",
+    "TRM positif menandakan iritasi/peradangan selaput otak (meningen) yang menarik radiks saraf tepi hipersensitif; penyebab tersering: meningitis bakterial/virus/TB, perdarahan subarakhnoid, ensefalitis, atau karsinomatosis meningeal.",
+    "Kaku kuduk positif bila dagu tidak dapat menyentuh dua jari di incisura jugularis dan terdapat tahanan aktif (bukan sekadar nyeri); Kernig positif bila ekstensi lutut <135°; Lasegue positif bila nyeri/tahanan sebelum 70° (60° pada lansia).",
+    "Skenario pasien fiktif Tn. C, laki-laki 36 tahun, penurunan kesadaran bertahap 1 minggu + nyeri kepala + demam + sulit dibangunkan — merupakan pola klasik meningitis bakterial yang wajib dikenali sebagai red flag utama.",
+    "Vladimir Kernig mempublikasikan keterbatasan ekstensi lutut pada meningitis tahun 1884; Josep Brudzinski memperkenalkan tanda tambahan tahun 1909 — urutan Brudzinski II sebenarnya lebih dulu dari I, tetapi urutan I/II hanya urutan pedagogis.",
+    "Rubrik penilaian versi PDF memuat 5 tabel (Kaku Kuduk 10, Brudzinski I 12, Kernig 12, Lasegue 10, Brudzinski II 10) dengan total skor maksimal 54 dan sistem skor 0/1/2 (tidak dilakukan / belum sempurna / sempurna).",
+    "Prinsip keamanan mutlak: gerakan perlahan dan terkontrol; hentikan segera bila pasien mengeluh nyeri hebat, resistensi kuat, atau tidak kooperatif; informed consent WAJIB dan menjadi item rubrik tersendiri.",
+    "Red flag wajib: TRM positif + demam + penurunan kesadaran bertahap = MUST-NOT-MISS meningitis bakterial/SAH yang butuh pungsi lumbal, kultur darah, dan/atau neuroimaging emergensi + antibiotik empiris SEBELUM hasil lab."
+  ],
+  "exam_focus": [
+    "7 tanda TRM versi PDF: urutan Kaku Kuduk → Kernig → Lasegue → Brudzinski I → Brudzinski II → Brudzinski III → Brudzinski IV (HIGH-YIELD untuk semua versi OSCE).",
+    "Kriteria positif/negatif sudut derajat: Kernig <135°, Lasegue <70° (dewasa) / <60° (lansia) — angka pasti sering keluar di soal.",
+    "Sejarah penemu: Kernig 1884 (Rusia), Brudzinski 1909 (Polandia) — urutan Brudzinski II lebih dulu dari I, urutan I/II hanya urutan pemeriksaan (bukan urutan penemuan).",
+    "Pentingnya informed consent + APD — item 1 semua rubrik; skor 0 bila lupa; cuci tangan 6 langkah WHO sebelum menyentuh pasien.",
+    "Skenario Tn. C 36 tahun dengan penurunan kesadaran bertahap 1 minggu + demam + nyeri kepala → diagnosis banding utama: meningitis bakterial, ensefalitis, SAH.",
+    "Tatalaksana empiris meningitis bakterial: deksametason 0,15 mg/kgBB IV + seftriakson 2g IV/12jam + vankomisin 30–45 mg/kgBB/hari (dewasa <50 tahun); tambahkan ampisilin 2g IV/4jam (dewasa >50 tahun / immunocompromised).",
+    "Diferensiasi meningitis bakterial vs virus vs TB: onset (akut/subakut/gradual), CSS (PMN/limfosit, glukosa, protein), dan epidemiologi kontak TB.",
+    "Kontradiksi pungsi lumbal: jangan LP tanpa CT scan jika ada tanda peningkatan TIK (papiledema, defisit fokal, kejang, GCS turun) — risiko herniasi otak.",
+    "5 tabel rubrik dengan total skor 54 — sistem skor 0 = tidak dilakukan, 1 = dilakukan tapi belum sempurna, 2 = dilakukan dengan sempurna; Brudzinski III/IV tidak ikut dinilai.",
+    "Edukasi keluarga tentang meningitis, prognosis realistis, dan safety net wajib di station; kuasai 6–10 kalimat pembuka siap ucap (Lampiran D)."
+  ],
+  "glossary": [
+    {
+      "id": "gls_trm_trm_01",
+      "term": "Tanda Rangsang Meningeal (TRM)",
+      "def": "Sekelompok manuver pemeriksaan fisik neurologis yang digunakan untuk mendeteksi iritasi pada selaput otak (meninges) melalui respons tahanan, nyeri, keterbatasan gerakan, atau gerakan involunter saat leher dan tungkai dimanuver secara pasif. Tanda positif menandakan kemungkinan meningitis (bakterial, virus, TB, jamur), perdarahan subarakhnoid, ensefalitis, atau karsinomatosis meningeal.",
+      "type": "procedure",
+      "aliases": [
+        "Meningeal Signs",
+        "Meningismus",
+        "Signes méningés",
+        "Iritasi meningeal"
+      ]
+    },
+    {
+      "id": "gls_trm_kaku_kuduk_01",
+      "term": "Kaku Kuduk / Rigiditas Nuchae",
+      "def": "Tanda TRM berupa tahanan aktif pada otot-otot posterior leher saat leher difleksikan pasif ke arah dada. Dagu tidak dapat mencapai incisura jugularis. Disebabkan oleh iritasi meningeal yang membuat otot-otot ekstensor leher kaku untuk mengurangi traksi pada radiks saraf.",
+      "type": "procedure",
+      "aliases": [
+        "Nuchal Rigidity",
+        "Raideur de nuque",
+        "Stiff Neck",
+        "Neck Stiffness"
+      ]
+    },
+    {
+      "id": "gls_trm_kernig_01",
+      "term": "Tanda Kernig",
+      "def": "Tanda TRM yang ditemukan oleh Vladimir Kernig (ahli penyakit dalam Rusia) tahun 1884. Dilakukan dengan memfleksikan panggul 90° dan lutut 90°, lalu ekstensi lutut. Positif bila ekstensi lutut terbatas <135° dengan/tanpa nyeri. Disebabkan oleh sensitisasi radiks lumbosakral akibat iritasi meningeal.",
+      "type": "procedure",
+      "aliases": [
+        "Kernig's Sign",
+        "Signe de Kernig"
+      ]
+    },
+    {
+      "id": "gls_trm_lasegue_01",
+      "term": "Tanda Lasegue (Straight Leg Raise / SLR)",
+      "def": "Tanda TRM berupa elevasi tungkai lurus (lutut lurus) pada pasien terlentang. Positif bila nyeri/tahanan muncul sebelum sudut 70° (60° pada lansia). Disebabkan oleh sensitisasi radiks lumbosakral (mirip Kernig) atau HNP diskus L5/S1 sebagai positif palsu.",
+      "type": "procedure",
+      "aliases": [
+        "Lasègue's Sign",
+        "SLR",
+        "Signe de Lasègue",
+        "Laseque"
+      ]
+    },
+    {
+      "id": "gls_trm_brudzinski_i_01",
+      "term": "Tanda Brudzinski I",
+      "def": "Tanda TRM yang diperkenalkan Josep Brudzinski (ilmuwan Polandia) tahun 1909. Dilakukan dengan fleksi leher maksimal cepat. Positif bila muncul fleksi involunter bilateral panggul dan lutut sebagai respons terhadap traksi meningeal. Disebabkan oleh refleks patologis yang berusaha mengurangi traksi pada radiks spinal.",
+      "type": "procedure",
+      "aliases": [
+        "Brudzinski's Sign",
+        "Brudzinski's Neck Sign",
+        "Signe de Brudzinski (cou)"
+      ]
+    },
+    {
+      "id": "gls_trm_brudzinski_ii_01",
+      "term": "Tanda Brudzinski II",
+      "def": "Tanda TRM yang sebenarnya diperkenalkan Brudzinski sebelum Brudzinski I. Dilakukan dengan fleksi pasif panggul dan lutut salah satu tungkai (seperti manuver Kernig). Positif bila tungkai kontralateral ikut fleksi secara involunter. Urutan I/II hanya urutan pedagogis, bukan urutan penemuan.",
+      "type": "procedure",
+      "aliases": [
+        "Brudzinski's Contralateral Leg Sign"
+      ]
+    },
+    {
+      "id": "gls_trm_brudzinski_iii_iv_01",
+      "term": "Tanda Brudzinski III & IV [PERLU VERIFIKASI KLINIS]",
+      "def": "Tanda TRM yang disebutkan dalam daftar modul sumber PDF FKIK UNJA tetapi TIDAK dijelaskan secara prosedural. Pada literatur rujukan, Brudzinski III (Brudzinski cheek sign) merujuk pada fleksi involunter lengan dan tungkai kontralateral saat tekanan pada pipi di bawah arkus zigomatikus; Brudzinski IV (Brudzinski pubis sign) merujuk pada fleksi involunter kedua tungkai saat tekanan pada simfisis pubis. WAJIB verifikasi dengan dosen pengampu sebelum dipakai di OSCE.",
+      "type": "procedure",
+      "aliases": [
+        "Brudzinski cheek sign",
+        "Brudzinski pubis sign",
+        "Verifikasi klinis"
+      ]
+    },
+    {
+      "id": "gls_trm_meningitis_01",
+      "term": "Meningitis",
+      "def": "Peradangan pada selaput otak (meningen) yang disebabkan oleh infeksi (bakteri: S. pneumoniae, N. meningitidis, M. tuberculosis, H. influenzae; virus: HSV, enterovirus; jamur: Cryptococcus neoformans) atau penyebab non-infeksi (perdarahan subarakhnoid, keganasan, autoimun). Manifestasi klasik: demam, nyeri kepala, kaku kuduk, penurunan kesadaran. Diagnosis: analisis CSS. Tatalaksana: antibiotik empiris + deksametason (untuk bakterial).",
+      "type": "clinical",
+      "aliases": [
+        "Meningitis bakterial",
+        "Meningitis virus",
+        "Meningitis TB",
+        "Meningitis jamur"
+      ]
+    },
+    {
+      "id": "gls_trm_sah_01",
+      "term": "Perdarahan Subarakhnoid (SAH)",
+      "def": "Perdarahan ke dalam ruang subarakhnoid (antara araknoid dan pia mater) yang paling sering disebabkan oleh ruptur aneurisma sakular di sirkulasi Willisi. Manifestasi klasik: nyeri kepala 'thunderclap' (puncak dalam detik–menit), kaku kuduk (muncul 6–24 jam), penurunan kesadaran, fotofobia. Diagnosis: CT scan kepala non-kontras (akurasi >95% dalam 24 jam), pungsi lumbal jika CT negatif (xanthokromia). Tatalaksana: neuro-konsultasi, kontrol TD, anti-kejang, nimodipin profilaksis vasospasme.",
+      "type": "clinical",
+      "aliases": [
+        "Subarachnoid Hemorrhage",
+        "Hémorragie sous-arachnoïdienne",
+        "SAH aneurisma"
+      ]
+    },
+    {
+      "id": "gls_trm_ensefalitis_01",
+      "term": "Ensefalitis",
+      "def": "Peradangan pada parenkim otak yang biasanya disebabkan oleh virus (HSV tipe 1 adalah penyebab tersering yang dapat diobati). Manifestasi: demam, perubahan perilaku, kejang, penurunan kesadaran, defisit neurologis fokal. Diagnosis: MRI otak (hiperintensitas temporal medial), EEG, PCR HSV pada CSS. Tatalaksana: asiklovir IV 10 mg/kgBB/8jam selama 14–21 hari.",
+      "type": "clinical",
+      "aliases": [
+        "Encephalitis",
+        "Ensefalitis HSV",
+        "Viral encephalitis"
+      ]
+    },
+    {
+      "id": "gls_trm_karsinomatosis_01",
+      "term": "Karsinomatosis Meningeal",
+      "def": "Penyebaran sel tumor ganas ke meningen dan/atau ruang subarakhnoid. Manifestasi: penurunan kesadaran progresif, defisit nervus kranialis multipel, kaku kuduk, hidrosefalus. Diagnosis: MRI otak dengan kontras (enhancement leptomeningeal), sitologi CSS (positif pada 50% kasus pertama). Tatalaksana: tergantung tumor primer, terapi intratekal (metotreksat), radiasi.",
+      "type": "clinical",
+      "aliases": [
+        "Meningeal Carcinomatosis",
+        "Metastasis meningeal"
+      ]
+    },
+    {
+      "id": "gls_trm_tetanus_01",
+      "term": "Tetanus",
+      "def": "Infeksi akut oleh Clostridium tetani yang menghasilkan tetanospasmin, menyebabkan spasme otot persisten. Manifestasi: trismus (kaku rahang), disfagia, risus sardonicus, opistotonus, kaku leher (mirip TRM positif), kejang. Kesadaran relatif baik (membedakan dari meningitis). Tatalaksana: human tetanus immunoglobulin (HTIG), antibiotik (metronidazol), toksoid, rawat ICU.",
+      "type": "clinical",
+      "aliases": [
+        "Tetanus 4A",
+        "Clostridium tetani infection",
+        "Trismus-lockjaw"
+      ]
+    },
+    {
+      "id": "gls_trm_lp_01",
+      "term": "Pungsi Lumbal (LP)",
+      "def": "Prosedur invasif pengambilan sampel cairan serebrospinal (CSS) dari ruang subarakhnoid di level L3-L4 atau L4-L5 dengan jarum spinal. Indikasi: diagnosis meningitis, ensefalitis, perdarahan SAH, karsinomatosis, sindrom Guillain-Barré. Kontraindikasi: peningkatan TIK (papiledema, defisit fokal, kejang, GCS <8), infeksi lokasi pungsi, kelainan koagulasi.",
+      "type": "procedure",
+      "aliases": [
+        "Lumbar Puncture",
+        "Ponction lombaire",
+        "LP",
+        "Spinal tap"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_trm_01",
+      "term_id": "Tanda Rangsang Meningeal (TRM)",
+      "term_en": "Meningeal Signs",
+      "context": "Sekelompok manuver pemeriksaan untuk mendeteksi iritasi selaput otak. Sinonim klinis: meningismus, meningeal irritation signs."
+    },
+    {
+      "id": "bil_trm_02",
+      "term_id": "Kaku Kuduk",
+      "term_en": "Nuchal Rigidity",
+      "context": "Tahanan aktif pada otot-otot posterior leher saat leher difleksikan pasif. Sinonim: stiff neck, neck stiffness, Rigiditas Nuchae (Latin)."
+    },
+    {
+      "id": "bil_trm_03",
+      "term_id": "Tanda Kernig",
+      "term_en": "Kernig's Sign",
+      "context": "Keterbatasan ekstensi lutut <135° setelah panggul difleksi 90°. Ditemukan Vladimir Kernig tahun 1884."
+    },
+    {
+      "id": "bil_trm_04",
+      "term_id": "Tanda Lasegue",
+      "term_en": "Lasègue's Sign / Straight Leg Raise (SLR)",
+      "context": "Nyeri/tahanan saat elevasi tungkai lurus <70° (60° lansia). Disebut juga Lasegue atau Laseque (ejaan bervariasi)."
+    },
+    {
+      "id": "bil_trm_05",
+      "term_id": "Tanda Brudzinski I",
+      "term_en": "Brudzinski's Sign (Neck Sign)",
+      "context": "Fleksi involunter bilateral tungkai saat fleksi leher. Ditemukan Josep Brudzinski tahun 1909."
+    },
+    {
+      "id": "bil_trm_06",
+      "term_id": "Tanda Brudzinski II",
+      "term_en": "Brudzinski's Contralateral Leg Sign",
+      "context": "Fleksi involunter tungkai kontralateral saat satu tungkai difleksikan (Kernig-like)."
+    },
+    {
+      "id": "bil_trm_07",
+      "term_id": "Meningitis",
+      "term_en": "Meningitis",
+      "context": "Peradangan selaput otak; etiologi: bakterial, virus, TB, jamur."
+    },
+    {
+      "id": "bil_trm_08",
+      "term_id": "Perdarahan Subarakhnoid",
+      "term_en": "Subarachnoid Hemorrhage (SAH)",
+      "context": "Perdarahan ke ruang subarakhnoid; paling sering ruptur aneurisma di sirkulasi Willisi."
+    },
+    {
+      "id": "bil_trm_09",
+      "term_id": "Pungsi Lumbal",
+      "term_en": "Lumbar Puncture (LP)",
+      "context": "Prosedur pengambilan CSS dari ruang subarakhnoid di level L3-L4 atau L4-L5."
+    },
+    {
+      "id": "bil_trm_10",
+      "term_id": "Cairan Serebrospinal (CSS)",
+      "term_en": "Cerebrospinal Fluid (CSF)",
+      "context": "Cairan yang mengelilingi otak dan medula spinal; dianalisis untuk diagnosis meningitis, ensefalitis, SAH."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_trm_urutan_07_tanda_01",
+      "module_id": "mod_neuro_skill_tanda_rangsang_meningeal_001",
+      "section_id": "s04",
+      "type": "flowchart",
+      "generation_prompt": "Buat diagram alur vertikal menampilkan urutan pemeriksaan 7 tanda TRM sesuai modul PDF FKIK UNJA: 1) Kaku Kuduk (fleksi leher, dagu ke incisura jugularis), 2) Kernig (fleksi panggul 90°+lutut 90°, lalu ekstensi lutut), 3) Lasegue (tungkai lurus terangkat, amati sudut <70°), 4) Brudzinski I (fleksi leher cepat maksimal, amati fleksi involunter tungkai), 5) Brudzinski II (fleksi satu tungkai Kernig-like, amati fleksi kontralateral), 6) Brudzinski III [Brudzinski cheek sign - ditandai PERLU VERIFIKASI], 7) Brudzinski IV [Brudzinski pubis sign - ditandai PERLU VERIFIKASI]. Setiap node berisi ikon posisi pemeriksa & pasien. Warna netral (biru/putih), label bahasa Indonesia, style textbook medis profesional.",
+      "alt": "Diagram alur vertikal 7 tanda TRM versi PDF: Kaku Kuduk → Kernig → Lasegue → Brudzinski I → Brudzinski II → Brudzinski III → Brudzinski IV, dengan ikon posisi untuk setiap manuver. Tanda Brudzinski III dan IV ditandai perlu verifikasi klinis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_tanda_rangsang_meningeal_001/assets/urutan_07_tanda.png"
+    },
+    {
+      "id": "visual_trm_kaku_kuduk_01",
+      "module_id": "mod_neuro_skill_tanda_rangsang_meningeal_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi posisi pemeriksaan Kaku Kuduk (Rigiditas Nuchae): pasien terlentang di tempat tidur keras, pemeriksa di sisi kepala, satu tangan menopang oksiput, satu tangan di dada. Panah menunjukkan arah fleksi leher ke depan (dagu mendekati sternum). Garis putus-putus menunjukkan posisi dagu terhadap incisura jugularis pada kondisi positif (tidak menyentuh). Tampilkan label 'incisura jugularis', 'oksiput', 'fleksi leher', 'tahanan'. Style: clean medical illustration, neutral color palette (blue/white), labeled in Bahasa Indonesia.",
+      "alt": "Ilustrasi posisi pemeriksaan Kaku Kuduk: pasien terlentang, pemeriksa menopang oksiput dengan satu tangan dan dada dengan tangan lain, leher difleksikan pasif ke arah dada. Garis putus-putus menunjukkan posisi dagu terhadap incisura jugularis pada kondisi positif (tidak menyentuh).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_tanda_rangsang_meningeal_001/assets/kaku_kuduk.png"
+    },
+    {
+      "id": "visual_trm_kernig_lasegue_01",
+      "module_id": "mod_neuro_skill_tanda_rangsang_meningeal_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Buat 2 panel ilustrasi side-by-side untuk perbandingan posisi Kernig dan Lasegue. Panel A (Kernig): pasien terlentang, panggul difleksikan 90° dan lutut difleksikan 90°, lalu ekstensi lutut dengan sudut <135° (tampilkan busur derajat dengan batas 135°). Panel B (Lasegue): pasien terlentang, tungkai lurus, elevasi tungkai dengan sudut <70° (60° pada lansia, tampilkan busur derajat). Style: clean medical illustration 2-panel, warna biru/putih netral, label Bahasa Indonesia, format textbook medis.",
+      "alt": "Perbandingan 2-panel posisi Kernig dan Lasegue. Panel A: posisi Kernig dengan panggul fleksi 90° dan lutut 90°, ekstensi lutut terbatas <135°. Panel B: posisi Lasegue dengan tungkai lurus terangkat, sudut elevasi <70° (60° pada lansia).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_tanda_rangsang_meningeal_001/assets/kernig_lasegue.png"
+    },
+    {
+      "id": "visual_trm_brudzinski_i_ii_01",
+      "module_id": "mod_neuro_skill_tanda_rangsang_meningeal_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Buat 2 panel ilustrasi untuk Brudzinski I dan II. Panel A (Brudzinski I): pasien terlentang, tangan kiri pemeriksa menopang kepala, dilakukan fleksi leher cepat dan maksimal, panah menunjukkan fleksi involunter bilateral panggul dan lutut. Panel B (Brudzinski II): posisi Kernig-like pada satu tungkai (misal kanan), panah menunjukkan fleksi involunter tungkai kontralateral (kiri). Style: medical illustration 2-panel, warna netral (biru/putih), label Bahasa Indonesia, format textbook.",
+      "alt": "Ilustrasi 2-panel Brudzinski I dan II. Panel A: Brudzinski I dengan fleksi leher cepat maksimal, tungkai fleksi involunter bilateral. Panel B: Brudzinski II dengan fleksi satu tungkai, tungkai kontralateral ikut fleksi involunter.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_tanda_rangsang_meningeal_001/assets/brudzinski_i_ii.png"
+    },
+    {
+      "id": "visual_trm_flowchart_diagnosis_01",
+      "module_id": "mod_neuro_skill_tanda_rangsang_meningeal_001",
+      "section_id": "s06",
+      "type": "flowchart",
+      "generation_prompt": "Buat flowchart klinis bercabang: TRM Positif (simpul awal oval) → 3 cabang diagnosis banding (warna berbeda) → masing-masing cabang berakhir pada tatalaksana empiris spesifik. Cabang 1 (merah): Meningitis Bakterial → Deksametason + Seftriakson + Vankomisin/Ampisilin + Kultur darah + LP. Cabang 2 (kuning): Ensefalitis (HSV) → Asiklovir IV 10 mg/kgBB/8jam + MRI + PCR HSV CSS. Cabang 3 (ungu): Perdarahan SAH → CT scan kepala non-kontras emergensi + Neuro-konsultasi + Nimodipin. Setiap cabang dengan tanda panah jelas. Style: flowchart klinis profesional, warna berbeda per cabang, label Bahasa Indonesia.",
+      "alt": "Flowchart klinis: TRM Positif bercabang 3 ke diagnosis banding (Meningitis Bakterial, Ensefalitis HSV, Perdarahan SAH), masing-masing berakhir pada tatalaksana empiris spesifik (antibiotik+deksametason, asiklovir, neuro-konsultasi+nimodipin).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_tanda_rangsang_meningeal_001/assets/flowchart_diagnosis.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s02",
+      "type": "content",
+      "source_query": "Penjelasan urutan Romawi I/II Brudzinski bukan urutan penemuan",
+      "source_reference": "PROMPT_DOMAIN3_Neuro_Psiki.md + analisis modul",
+      "confidence": "high",
+      "note": "Menambahkan penjelasan 'Urutan Romawi I/II bukan urutan penemuan, melainkan urutan pedagogis' — Brudzinski II sebenarnya lebih dulu dikemukakan; urutan I/II hanya menunjukkan urutan pemeriksaan yang diajarkan."
+    },
+    {
+      "section_id": "s02",
+      "type": "callout",
+      "source_query": "Tips OSCE pembuka station TRM",
+      "source_reference": "PROMPT_DOMAIN3_Neuro_Psiki.md",
+      "confidence": "high",
+      "note": "Menambahkan 5 tone callout (pearl, danger) untuk tips OSCE sesuai master prompt — termasuk kalimat pembuka station yang paling efektif dan bahaya lupa informed consent."
+    },
+    {
+      "section_id": "s03",
+      "type": "content",
+      "source_query": "Anamnesis terstruktur untuk curiga meningitis",
+      "source_reference": "IDSA Guidelines 2004 + PPNI 2018",
+      "confidence": "high",
+      "note": "Menambahkan anamnesis terstruktur (10 pertanyaan kunci) untuk kasus Tn. C yang tidak ada eksplisit di modul sumber. Pertanyaan spesifik diadaptasi dari pedoman meningitis."
+    },
+    {
+      "section_id": "s04",
+      "type": "content",
+      "source_query": "Deskripsi manuver Brudzinski III dan IV",
+      "source_reference": "PROMPT_DOMAIN3_Neuro_Psiki.md + DeMyer's/Biller",
+      "confidence": "high",
+      "note": "Menambahkan sub-section untuk Tanda Brudzinski III dan IV dengan label [PERLU VERIFIKASI KLINIS] karena modul sumber hanya menyebut dalam daftar. Deskripsi manuver didasarkan pada literatur rujukan DeMyer's dan Biller & Gruener."
+    },
+    {
+      "section_id": "s05",
+      "type": "content",
+      "source_query": "Alat dan 3 fase prosedur TRM",
+      "source_reference": "Standar Precaution WHO 2007 + praktik neurologi",
+      "confidence": "high",
+      "note": "Menambahkan daftar alat lengkap (handscoon, masker, alas, dll.) dan 3 fase prosedur (Persiapan, Pelaksanaan, Evaluasi) yang lebih terstruktur dari modul sumber."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Diagnosis banding pasca-TRM",
+      "source_reference": "IDSA + PPNI + AHA/ASA",
+      "confidence": "high",
+      "note": "Menambahkan diagnosis banding lengkap (7 kondisi: meningitis bakterial, virus, TB, ensefalitis, SAH, karsinomatosis, tetanus), tabel pembeda meningitis bakterial vs SAH, dan algoritma pasca-prosedur yang tidak ada di modul sumber."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Tatalaksana empiris meningitis bakterial",
+      "source_reference": "IDSA 2004 + PPNI 2018 + AHA/ASA 2012",
+      "confidence": "high",
+      "note": "Menambahkan tabel pemeriksaan penunjang lengkap (12 pemeriksaan) dan prinsip tatalaksana empiris dengan dosis spesifik (deksametason 0,15 mg/kgBB, seftriakson 2g IV/12jam, vankomisin 30-45 mg/kgBB/hari)."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Contoh SOAP Tn. C 36 tahun",
+      "source_reference": "Format SOAP + ICD-10",
+      "confidence": "high",
+      "note": "Menyusun contoh SOAP lengkap untuk Tn. C 36 tahun dengan data terstruktur. Menambahkan 6 poin edukasi dan 6 kondisi safety net sesuai master prompt."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "SKDI 4A dan mini-skrip dialog",
+      "source_reference": "SKDI 2012 + ICD-10",
+      "confidence": "high",
+      "note": "Menambahkan tabel SKDI 4A 9 baris (meningitis, ensefalitis, SAH, tetanus, dll.) yang tidak ada di modul sumber, plus mini-skrip dialog 13 turn untuk Tn. C."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Checklist latihan dan kesalahan fatal",
+      "source_reference": "PROMPT_MASTER_STAGE1.md",
+      "confidence": "high",
+      "note": "Menambahkan checklist 22 item latihan mandiri, rencana belajar 3 hari (Hari 1: teori 4 jam, Hari 2: praktik 4 jam, Hari 3: simulasi 3 jam), dan 9 callout danger kesalahan fatal."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Lampiran A-D untuk modul TRM",
+      "source_reference": "PROMPT_MASTER_STAGE1.md",
+      "confidence": "high",
+      "note": "Menambahkan Lampiran A (8 kontraindikasi), Lampiran B (7 masalah & respons), Lampiran C (3 mini-case: mudah, sedang, sulit), Lampiran D (10 kalimat pembuka), dan 5 visual asset requirements."
+    },
+    {
+      "section_id": "GLOSSARY",
+      "type": "content",
+      "source_query": "Istilah glossary TRM lengkap",
+      "source_reference": "Analisis klinis",
+      "confidence": "high",
+      "note": "Menambahkan 13 istilah glossary (TRM, Kaku Kuduk, Kernig, Lasegue, Brudzinski I/II/III-IV, Meningitis, SAH, Ensefalitis, Karsinomatosis, Tetanus, LP) — melebihi minimum 8 dari master prompt."
+    },
+    {
+      "section_id": "COVERAGE_NOTES",
+      "type": "content",
+      "source_query": "Catatan cakupan modul TRM",
+      "source_reference": "Self-assessment",
+      "confidence": "high",
+      "note": "Menambahkan coverage notes komprehensif: apa yang DIPERTAHANKAN 100% dari sumber, apa yang DITAMBAHKAN saat standardisasi, area yang PERLU VERIFIKASI KLINIS (Brudzinski III/IV), dan beda dengan versi DOCX."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber PDF FKIK UNJA hlm. 24–30, skenario klinis Tn. C 36 tahun, dan ketujuh tanda TRM yang dinilai (Kaku Kuduk, Kernig, Lasegue, Brudzinski I–IV).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "File sumber modul ini adalah Modul Skills Lab VI (FKIK Universitas Jambi) halaman 24–30 dengan judul asli 'PEMERIKSAAN TANDA RANGSANG MENINGEAL (TRM)' — versi PDF yang di-OCR untuk pipeline Cortex Skill Lab 6. Berbeda dengan versi DOCX sebelumnya (Batch 2, File 2 — mod_neuro_skill_tanda_rangsang_meningeal_001) yang memuat 5 tanda, versi PDF ini secara eksplisit mencantumkan 7 tanda klasik dalam daftar urutan pembelajaran: (1) Kaku Kuduk (Rigiditas Nuchae), (2) Tanda Kernig, (3) Tanda Lasegue, (4) Tanda Brudzinski I, (5) Tanda Brudzinski II, (6) Tanda Brudzinski III, dan (7) Tanda Brudzinski IV. Tanda Brudzinski III dan IV hanya disebutkan di daftar tanpa deskripsi manuver dan interpretasi prosedural — berbeda dengan Kernig, Lasegue, dan Brudzinski I/II yang memiliki cara pemeriksaan dan interpretasi lengkap di hlm. 25–28. Modul sumber memuat rencana pembelajaran dua pertemuan (pra-sesi video YouTube + sesi skills lab tatap muka), skenario klinis fiktif, tinjauan teori singkat, tujuh cara pemeriksaan, lima tabel rubrik penilaian, dan tiga referensi.",
+          "tone": "narrative",
+          "source": "§1 Modul PDF FKIK UNJA hlm. 24 (Tujuan, Rencana Pembelajaran, daftar 7 tanda)"
+        },
+        {
+          "text": "Skenario klinis yang dijadikan pasien fiktif konsisten di seluruh modul ini adalah Tn. C, laki-laki 36 tahun, dibawa ke IGD rumah sakit dengan penurunan kesadaran secara bertahap sejak 1 minggu, disertai nyeri kepala, demam, dan cenderung mengantuk sulit dibangunkan sejak seminggu yang lalu. Mahasiswa diminta melakukan pemeriksaan tanda meningeal pada pasien. Pola klinis ini merupakan pola klasik meningitis bakterial yang harus dikenali sebagai red flag utama. Diagnosis banding utama yang harus dipertimbangkan dari skenario ini: (1) Meningitis bakterial (M. tuberculosis, S. pneumoniae, N. meningitidis, H. influenzae), (2) Meningitis virus/ensefalitis (HSV, enterovirus), (3) Perdarahan subarakhnoid (ruptur aneurisma, malformasi arteriovenosa), (4) Karsinomatosis meningeal, dan (5) komplikasi lanjut seperti ventrikulitis/abses otak. Pada station OSCE, komponen yang paling sering dinilai adalah urutan pemeriksaan, komunikasi (informed consent, anamnesis singkat), teknik manuver yang terkontrol, pelaporan hasil eksplisit (positif/negatif), dan kemampuan mengaitkan temuan dengan diagnosis banding.",
+          "tone": "clinical",
+          "source": "§1 Modul PDF FKIK UNJA hlm. 24 (Skenario Klinis Tn. C 36 tahun)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE station TRM (versi PDF):",
+          "sub": [
+            "Komunikasi & etika: salam, perkenalan, informed consent, penjelasan tujuan prosedur",
+            "Persiapan alat dan posisi pasien (terlentang rileks, tungkai lurus)",
+            "Pelaksanaan tujuh tanda dalam urutan modul sumber (Kaku Kuduk → Kernig → Lasegue → Brudzinski I → Brudzinski II → Brudzinski III → Brudzinski IV)",
+            "Kriteria positif/negatif masing-masing tanda (termasuk sudut derajat pada Kernig dan Lasegue)",
+            "Pelaporan hasil secara eksplisit: '...Tanda Kerning negatif/positif...'",
+            "Kesimpulan klinis: arah diagnosis banding dan rekomendasi pemeriksaan penunjang",
+            "Pembersihan alat dan edukasi keluarga (terutama untuk pasien tidak sadar)"
+          ],
+          "bold": true,
+          "source": "§1 Modul PDF FKIK UNJA hlm. 24"
+        },
+        {
+          "text": "Skenario pasien fiktif: Tn. C, laki-laki 36 tahun, IGD, penurunan kesadaran bertahap 1 minggu + nyeri kepala + demam + sulit dibangunkan.",
+          "bold": true,
+          "source": "§1 Modul PDF FKIK UNJA hlm. 24 (Skenario Klinis)"
+        },
+        {
+          "text": "Beda dengan versi DOCX sebelumnya: versi DOCX (5 tanda) vs versi PDF ini (7 tanda) — untuk kelengkapan, versi PDF lebih otoritatif karena sesuai dengan penuntun asli FKIK UNJA.",
+          "bold": false,
+          "source": "§1 Coverage Notes modul"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi 2 hari sebelum OSCE",
+          "text": "Hari 1 — baca modul + tonton video YouTube referensi (https://youtu.be/4VsXUpP_z6U) dan latihan urutan 7 tanda dengan teman; Hari 2 — drill 5 tabel rubrik penilaian dan simulasi skenario Tn. C 36 tahun dengan timer.",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 24 (Rencana Pembelajaran)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tip terpenting station TRM",
+          "text": "SELALU cek kekakuan otot leher EKSTRAKRANIAL (menoleh ke kanan–kiri dan menengadah) SEBELUM menilai kaku kuduk — karena kaku otot bisa memalsukan TRM positif dan menurunkan nilai OSCE.",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 25 (Tinjauan Teori)"
+        }
+      ],
+      "visual_refs": [
+        "visual_trm_urutan_07_tanda_01"
+      ],
+      "glossary_refs": [
+        "gls_trm_trm_01",
+        "gls_trm_meningitis_01"
+      ],
+      "bilingual": "Skenario utama modul ini adalah Tn. C, laki-laki 36 tahun, dengan penurunan kesadaran bertahap 1 minggu, nyeri kepala, dan demam. Mahasiswa harus menguasai 7 tanda TRM versi PDF (Kaku Kuduk, Kernig, Lasegue, Brudzinski I, II, III, IV) — berbeda dengan versi DOCX yang hanya 5 tanda."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Langkah-langkah OSCE dari masuk station sampai keluar + 5 tabel checklist lengkap (Kaku Kuduk 10, Brudzinski I 12, Kernig 12, Lasegue 10, Brudzinski II 10 — total skor 54).",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur OSCE station TRM versi PDF dimulai dari memasuki ruangan, membaca instruksi di luar station (biasanya: 'Lakukan pemeriksaan tanda rangsang meningeal pada Tn. C 36 tahun dengan penurunan kesadaran bertahap 1 minggu, nyeri kepala, dan demam'), lalu masuk dan salam, perkenalan diri ('Selamat pagi, saya [nama], dokter yang akan memeriksa Bapak hari ini'), konfirmasi identitas pasien dan informed consent ('Bapak, saya akan melakukan pemeriksaan leher dan tungkai untuk mendeteksi adanya iritasi selaput otak; boleh terasa sedikit tidak nyaman tapi tidak berbahaya. Apakah Bapak bersedia?'). Setelah consent, mahasiswa mencuci tangan dan memasang APD (handscoon, masker bila diperlukan) — langkah ini WAJIB dilakukan dan sering menjadi item penilaian tersendiri. Mahasiswa kemudian memposisikan pasien terlentang rileks dengan tungkai lurus di atas tempat tidur keras.",
+          "tone": "narrative",
+          "source": "§2 Modul PDF FKIK UNJA hlm. 24–25"
+        },
+        {
+          "text": "Urutan pemeriksaan versi PDF sesuai modul sumber adalah: (1) Kaku Kuduk → (2) Kernig → (3) Lasegue → (4) Brudzinski I → (5) Brudzinski II → (6) Brudzinski III → (7) Brudzinski IV. Mahasiswa menjelaskan tujuan dan prosedur di awal setiap tanda, melakukan manuver, merasakan tahanan/mengamati gerakan involunter, dan secara eksplisit melaporkan hasil ('Kaku kuduk positif: dagu tidak dapat mencapai incisura jugularis dan terdapat tahanan'). Setelah ketujuh tanda, mahasiswa menarik handscoon, mendokumentasikan temuan, menjelaskan hasil dan rencana kepada penguji/keluarga, dan mengakhiri station dengan konfirmasi ('Apakah ada pertanyaan, Bapak?').",
+          "tone": "clinical",
+          "source": "§2 Modul PDF FKIK UNJA hlm. 25–28"
+        },
+        {
+          "text": "Lima tabel rubrik penilaian versi PDF (total skor 54) dengan sistem skor 0 = tidak dilakukan, 1 = dilakukan tapi belum sempurna, 2 = dilakukan dengan sempurna — lihat tabel di bawah untuk detail per item. Catatan penting: modul sumber tidak menyertakan tabel rubrik khusus untuk Brudzinski III dan IV, sehingga kedua tanda tersebut tidak ikut dinilai dalam sistem skor 54 — hanya Kernig, Kaku Kuduk, Lasegue, Brudzinski I, dan Brudzinski II yang punya rubrik eksplisit. Urutan angka Romawi Brudzinski I/II bukan urutan penemuan — Brudzinski II sebenarnya lebih dulu dikemukakan oleh Josep Brudzinski tahun 1909; urutan I/II hanya menunjukkan urutan pemeriksaan yang diajarkan.",
+          "tone": "clinical",
+          "source": "§2 Modul PDF FKIK UNJA hlm. 28–29 (Rubrik Penilaian) + Key Points"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE (versi PDF — 7 tanda):",
+          "sub": [
+            "Langkah 1: Salam, perkenalan, konfirmasi identitas, informed consent",
+            "Langkah 2: Cuci tangan 6 langkah, APD, persiapkan posisi terlentang rileks",
+            "Langkah 3: Pemeriksaan Kaku Kuduk (fleksi leher ke arah sternum, cek tahanan)",
+            "Langkah 4: Pemeriksaan Tanda Kernig (fleksi panggul + lutut, lalu ekstensi lutut)",
+            "Langkah 5: Pemeriksaan Tanda Lasegue (angkat satu tungkai, amati sudut dan tahanan)",
+            "Langkah 6: Pemeriksaan Tanda Brudzinski I (fleksi leher maksimal cepat, amati fleksi involunter tungkai)",
+            "Langkah 7: Pemeriksaan Tanda Brudzinski II (fleksi pasif satu tungkai, amati fleksi kontralateral)",
+            "Langkah 8: Pemeriksaan Tanda Brudzinski III — [PERLU VERIFIKASI KLINIS]",
+            "Langkah 9: Pemeriksaan Tanda Brudzinski IV — [PERLU VERIFIKASI KLINIS]",
+            "Langkah 10: Pelaporan hasil eksplisit, dokumentasi SOAP, edukasi keluarga, terminasi"
+          ],
+          "bold": true,
+          "source": "§2 Modul PDF FKIK UNJA hlm. 25–28"
+        },
+        {
+          "text": "Tabel 1 — Rubrik Penilaian Kaku Kuduk (Rigiditas Nuchae) — max 10 poin. 5 item checklist: (1) Menjelaskan tujuan dan prosedur, (2) Mempersiapkan posisi terlentang, (3) Memfleksikan leher pasif ke incisura jugularis dan ekstensi kembali, (4) Merasakan dan melaporkan tahanan, (5) Membuat kesimpulan eksplisit 'Kaku kuduk positif/negatif'.",
+          "bold": false,
+          "source": "§2 Modul PDF FKIK UNJA hlm. 28 Tabel 1"
+        },
+        {
+          "text": "Tabel 2 — Rubrik Penilaian Tanda Brudzinski I — max 12 poin. 6 item: tujuan, posisi, tangan kiri di bawah kepala, fleksi leher cepat dan maksimal, observasi fleksi involunter bilateral, kesimpulan eksplisit.",
+          "bold": false,
+          "source": "§2 Modul PDF FKIK UNJA hlm. 28 Tabel 2"
+        },
+        {
+          "text": "Tabel 3 — Rubrik Penilaian Tanda Kernig — max 12 poin. 6 item: tujuan, posisi, fleksi panggul+lutut 90°, ekstensi lutut perlahan, observasi sudut <135° dan nyeri/tahanan, kesimpulan eksplisit.",
+          "bold": false,
+          "source": "§2 Modul PDF FKIK UNJA hlm. 28 Tabel 3"
+        },
+        {
+          "text": "Tabel 4 — Rubrik Penilaian Tanda Lasegue — max 10 poin. 5 item: tujuan, posisi, angkat tungkai lurus, observasi sudut <70° (60° lansia) dan nyeri/tahanan, kesimpulan eksplisit.",
+          "bold": false,
+          "source": "§2 Modul PDF FKIK UNJA hlm. 28 Tabel 4"
+        },
+        {
+          "text": "Tabel 5 — Rubrik Penilaian Tanda Brudzinski II — max 10 poin. 5 item: tujuan, posisi, fleksi panggul+lutut satu tungkai (Kernig-like), observasi fleksi involunter kontralateral, kesimpulan eksplisit. TOTAL SKOR MAKSIMAL KESELURUHAN = 54.",
+          "bold": true,
+          "source": "§2 Modul PDF FKIK UNJA hlm. 29 Tabel 5 + TOTAL"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "BAHAYA: Jangan lupa informed consent",
+          "text": "Jangan langsung melakukan tindakan tanpa consent verbal — langkah informed consent adalah item rubrik yang berdiri sendiri dan skor 0 jika dilupakan. Kalimat 'Apakah Bapak bersedia saya periksa?' WAJIB diucapkan sebelum menyentuh pasien.",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 28 (Item 1 semua rubrik)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat pembuka station paling efektif",
+          "text": "'Selamat pagi, Pak C. Perkenalkan, saya [nama] dokter yang akan memeriksa Bapak hari ini. Bapak saya lihat nampak kurang nyaman dan cenderung mengantuk. Boleh saya jelaskan prosedur yang akan saya lakukan, Pak? Saya akan memeriksa pergerakan leher dan tungkai Bapak secara perlahan dan terkontrol. Bila terasa sangat tidak nyaman, Bapak boleh bilang dan saya akan berhenti.'",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 24 + adaptasi Mini-skrip Lampiran D"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Sistem skor 0/1/2 konsisten untuk semua tabel",
+          "text": "0 = Tidak dilakukan mahasiswa; 1 = Dilakukan, tapi belum sempurna; 2 = Dilakukan dengan sempurna. Total skor maksimal keseluruhan (5 tabel) = 10 + 12 + 12 + 10 + 10 = 54. Brudzinski III dan IV tidak ikut dinilai dalam sistem skor 54.",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 29 (Penjelasan sistem skor)"
+        }
+      ],
+      "visual_refs": [
+        "visual_trm_urutan_07_tanda_01"
+      ],
+      "glossary_refs": [
+        "gls_trm_trm_01",
+        "gls_trm_kaku_kuduk_01",
+        "gls_trm_kernig_01",
+        "gls_trm_lasegue_01",
+        "gls_trm_brudzinski_i_01",
+        "gls_trm_brudzinski_ii_01",
+        "gls_trm_brudzinski_iii_iv_01"
+      ],
+      "bilingual": "Alur OSCE TRM versi PDF: 7 tanda dalam urutan Kaku Kuduk → Kernig → Lasegue → Brudzinski I → Brudzinski II → Brudzinski III → Brudzinski IV. Rubrik total skor 54 dengan sistem 0/1/2. Brudzinski III & IV tidak ikut dinilai — ditandai [PERLU VERIFIKASI KLINIS]."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis pada pasien curiga meningitis, red flags yang wajib ditanyakan, dan triase awal untuk Tn. C 36 tahun.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada station OSCE TRM, anamnesis tidak selalu menjadi item yang dinilai secara eksplisit (fokus station adalah pemeriksaan fisik), tetapi anamnesis singkat dan tepat sangat penting untuk mengarahkan hipotesis diagnosis dan menentukan urgensi. Mahasiswa wajib melakukan 3–5 pertanyaan kunci sebelum memulai pemeriksaan: konfirmasi identitas, keluhan utama (penurunan kesadaran, nyeri kepala, demam), onset dan durasi gejala, gejala penyerta (mual/muntah, kejang, fotofobia, ruam kulit, riwayat trauma kepala, riwayat kontak TB), dan riwayat penyakit sebelumnya (DM, HIV, imunisasi, operasi kepala, kebiasaan alkohol). Pada pasien tidak sadar (kasus Tn. C), anamnesis dilakukan ke keluarga/pengantar dengan tetap memperkenalkan diri dan menjelaskan tujuan prosedur. Cara berpikir praktis: setiap pertanyaan harus punya alasan klinis yang jelas — apakah untuk mengkonfirmasi meningitis, menyingkirkan perdarahan subarakhnoid, atau menentukan indikasi neuroimaging emergensi.",
+          "tone": "narrative",
+          "source": "§3 Anamnesis terstruktur (modul + IDSA 2004 + PPNI 2018)"
+        },
+        {
+          "text": "Pada pasien dengan penurunan kesadaran, wajib melakukan penilaian GCS (E, V, M) sebelum pemeriksaan TRM — karena pasien dengan GCS <8 mungkin membutuhkan airway protection (intubasi) yang menjadi prioritas utama. Pemeriksaan TRM pada pasien dengan GCS sangat rendah (3–5) tetap dapat dilakukan, tetapi gerakan harus lebih minimal dan dilakukan bersamaan dengan airway-breathing-circulation assessment. Riwayat alergi obat (terutama antibiotik untuk terapi empiris meningitis), riwayat minum alkohol (risiko perdarahan subarakhnoid spontan), dan riwayat penggunaan immunosuppressant juga relevan. Pada anak, riwayat imunisasi (Hib, PCV) menjadi pertanyaan kunci untuk mengarahkan etiologi.",
+          "tone": "clinical",
+          "source": "§3 Modul + adaptasi IDSA 2004"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci anamnesis (untuk Tn. C 36 tahun):",
+          "sub": [
+            "'Kapan mulai tidak sadar bertahapnya, Pak? Apakah memberat dalam beberapa hari terakhir?' (onset, durasi, progresivitas)",
+            "'Apakah ada demam? Berapa suhu tertinggi?' (konfirmasi sindrom infeksi)",
+            "'Apakah nyeri kepala terus-menerus atau hilang-timbul? Lokasi?' (nyeri kepala khas meningitis: menyeluruh, memberat dengan posisi)",
+            "'Apakah ada mual/muntah? Muntah proyektil?' (tanda peningkatan tekanan intrakranial)",
+            "'Apakah ada kejang? Bila ya, berapa lama dan bagian tubuh mana?' (kejang bisa menyertai ensefalitis)",
+            "'Apakah ada riwayat batuk lama, BB turun, keringat malam?' (skrining TB → meningitis TB)",
+            "'Apakah ada riwayat sakit kepala hebat mendadak sebelumnya?' (perdarahan subarakhnoid)",
+            "'Ada riwayat trauma kepala, operasi otak, DM, HIV?' (faktor risiko)",
+            "'Ada riwayat kontak dengan pasien TBC atau meningitis?' (skrining kontak)",
+            "'Obat yang sedang diminum? Alergi obat?' (terutama antibiotik untuk terapi empiris)"
+          ],
+          "bold": true,
+          "source": "§3 Anamnesis terstruktur (modul + IDSA 2004 + PPNI 2018)"
+        },
+        {
+          "text": "Pada keluarga (untuk pasien tidak sadar):",
+          "sub": [
+            "Konfirmasi kronologi kesadaran yang diamati keluarga",
+            "Obat yang diminum",
+            "Riwayat penyakit kronis",
+            "Pengobatan terakhir yang pernah dijalani"
+          ],
+          "bold": false,
+          "source": "§3 Modul + praktik klinis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "MUST-NOT-MISS: Penurunan kesadaran + demam + nyeri kepala",
+          "text": "Penurunan kesadaran bertahap + demam + nyeri kepala pada dewasa muda = MUST-NOT-MISS meningitis bakterial — jangan keluar dari station tanpa rencana pungsi lumbal, laboratorium (darah lengkap, CRP, LED, glukosa darah, kultur darah), dan/atau neuroimaging.",
+          "answer_evidence": "IDSA 2004 + PPNI 2018 + modul FKIK UNJA hlm. 24"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Thunderclap headache = curiga SAH",
+          "text": "Nyeri kepala hebat mendadak 'thunderclap' (puncak dalam hitungan detik–menit) + penurunan kesadaran = curiga kuat perdarahan subarakhnoid — rujukan emergensi untuk CT scan kepala non-kontras.",
+          "answer_evidence": "AHA/ASA Guidelines 2012 (Connolly et al., Stroke)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kejang + demam = curiga ensefalitis HSV",
+          "text": "Kejang + penurunan kesadaran + demam = curiga ensefalitis (misalnya HSV) — pertimbangkan MRI otak dan PCR HSV pada CSS, plus asiklovir empiris.",
+          "answer_evidence": "PNI/Pedoman ensefalitis IDSA"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Ruam petechial = meningokokus",
+          "text": "Ruam petechial/purpural + demam + penurunan kesadaran pada anak/remaja = meningokokus (N. meningitidis) — ISOLASI droplet dan terapi empiris secepatnya (sebelum hasil lab).",
+          "answer_evidence": "IDSA 2004 + WHO"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "GCS <8 = prioritas airway dulu",
+          "text": "GCS <8 (E2V2M4 atau kurang) → prioritas airway protection (intubasi endotrakeal) sebelum pemeriksaan TRM lebih lanjut. TRM dapat dilakukan setelah airway secured dengan gerakan minimal.",
+          "answer_evidence": "ATLS + Modul + praktik neurologi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_trm_meningitis_01",
+        "gls_trm_sah_01",
+        "gls_trm_ensefalitis_01",
+        "gls_trm_lp_01"
+      ],
+      "bilingual": "Anamnesis kunci untuk Tn. C 36 tahun: onset penurunan kesadaran (1 minggu gradual), demam, nyeri kepala, gejala penyerta (mual/muntah, kejang, ruam), riwayat kontak TB, alergi antibiotik. Pada pasien tidak sadar: anamnesis ke keluarga dengan tetap memperkenalkan diri dan menjelaskan tujuan."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Tujuh tanda rangsang meningeal versi PDF — urutan, cara melakukan, nilai normal vs abnormal, dan interpretasi klinis masing-masing tanda.",
+      "estimated_time_minutes": 25,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik TRM versi PDF dilakukan secara sistematis dari kepala ke tungkai, dengan urutan modul sumber: Kaku Kuduk → Kernig → Lasegue → Brudzinski I → Brudzinski II → Brudzinski III → Brudzinski IV. Sebelum pemeriksaan ketujuh tanda, mahasiswa WAJIB melakukan pengecekan gerakan lateral dan ekstensi leher untuk menyingkirkan kekakuan otot leher EKSTRAKRANIAL (kaku otot, spasme trapezius, spondilosis servikal) — karena kaku otot bisa memalsukan TRM positif. Pada pasien sadar, komunikasi ('Pak, saya akan menggerakkan leher Bapak ya, mungkin sedikit tidak nyaman') penting untuk mengurangi kecemasan. Pada pasien tidak sadar, gerakan harus lebih pelan dan terkontrol, dengan penjelasan kepada keluarga/pengantar.",
+          "tone": "narrative",
+          "source": "§4 Modul PDF FKIK UNJA hlm. 25–28 (Tinjauan Teori & 7 Cara Pemeriksaan)"
+        },
+        {
+          "text": "Urutan pemeriksaan ini bukan urutan penemuan (Brudzinski II sebenarnya lebih dulu dikemukakan), melainkan urutan pedagogis yang memudahkan mahasiswa menghafal. Setiap tanda memiliki kriteria positif spesifik yang harus dilaporkan secara eksplisit. Pada pasien dengan kesadaran menurun (kasus Tn. C), kemampuan melapor mungkin terbatas; penguji akan menilai respons nyeri/terkejut dan ekspresi wajah sebagai indikator tambahan. Pemeriksaan TRM sebaiknya dilakukan sebelum tindakan invasif (pungsi lumbal, intubasi) agar tidak memodifikasi temuan, dan sebelum pemberian analgesik/sedasi yang dapat menutupi respons.",
+          "tone": "clinical",
+          "source": "§4 Key Points + Coverage Notes modul"
+        },
+        {
+          "text": "1. Kaku Kuduk (Rigiditas Nuchae): Cara melakukan — Pasien terlentang, lengan di samping, tungkai lurus. Pemeriksa meletakkan satu tangan di oksiput, satu tangan di dada/dahi. Fleksikan leher pasif pelan sehingga dagu mendekat ke sternum. Amati apakah dagu menyentuh incisura jugularis dan rasakan tahanan. Nilai normal: Dagu dapat menyentuh incisura jugularis tanpa tahanan. Abnormal/positif: Dagu tidak menyentuh incisura jugularis dan terdapat tahanan aktif pada otot-otot posterior leher (fleksor leher teregang karena peradangan meningeal posterior). Interpretasi: Iritasi meningeal; pertimbangkan meningitis, perdarahan subarakhnoid.",
+          "tone": "procedure",
+          "source": "§4 Modul PDF FKIK UNJA hlm. 25 Tanda 1"
+        },
+        {
+          "text": "2. Tanda Kernig: Cara melakukan — Pasien terlentang, tungkai lurus. Pemeriksa mengangkat satu tungkai, fleksikan panggul 90° dan lutut 90° (kaki menunjuk ke atas). Pertahankan panggul pada 90°, lalu ekstensi lutut secara perlahan. Nilai normal: Ekstensi lutut mencapai >135° tanpa nyeri/tahanan. Abnormal/positif: Ekstensi lutut <135° dengan/tanpa nyeri, tahanan, atau keterbatasan maksimal. Interpretasi: Iritasi meningeal; sensitisasi radiks lumbosakral. Vladimir Kernig (ahli penyakit dalam Rusia) mempublikasikan keterbatasan ekstensi lutut pada meningitis tahun 1884.",
+          "tone": "procedure",
+          "source": "§4 Modul PDF FKIK UNJA hlm. 26 Tanda 2"
+        },
+        {
+          "text": "3. Tanda Lasegue (Straight Leg Raise / SLR): Cara melakukan — Pasien terlentang, lutut lurus. Pemeriksa mengangkat tungkai lurus (tumit sebagai titik angkat) dengan mempertahankan ekstensi lutut. Nilai normal: Tungkai terangkat hingga 70° tanpa nyeri/tahanan; pada lansia batas fisiologis lebih rendah yaitu ~60°. Abnormal/positif: Nyeri dan/atau tahanan muncul sebelum sudut 70°. Interpretasi: Iritasi meningeal; sensitisasi radiks lumbosakral (sama dengan Kernig tetapi lebih sensitif terhadap iritasi radiks spesifik — L5/S1). Catatan: positif palsu pada HNP diskus L5/S1.",
+          "tone": "procedure",
+          "source": "§4 Modul PDF FKIK UNJA hlm. 26 Tanda 3"
+        },
+        {
+          "text": "4. Tanda Brudzinski I: Cara melakukan — Pasien terlentang, tungkai lurus. Pemeriksa meletakkan tangan kiri di bawah kepala. Tangan kanan di dada/dahi. Fleksikan leher secara cepat dan maksimal (dagu ke dada), pertahankan 2–3 detik. Nilai normal: Tidak ada respons involunter pada tungkai. Abnormal/positif: Fleksi involunter bilateral panggul dan lutut saat leher difleksikan. Interpretasi: Iritasi meningeal; refleks patologis yang menandakan traksi radiks spinal. Josep Brudzinski (ilmuwan Polandia) memperkenalkan tanda ini tahun 1909.",
+          "tone": "procedure",
+          "source": "§4 Modul PDF FKIK UNJA hlm. 27 Tanda 4"
+        },
+        {
+          "text": "5. Tanda Brudzinski II: Cara melakukan — Pasien terlentang, kedua tungkai lurus. Pemeriksa memfleksikan secara pasif sendi panggul dan sendi lutut salah satu tungkai (misalnya kanan) — persis seperti manuver Kernig. Pertahankan beberapa detik. Nilai normal: Tungkai kontralateral tetap lurus. Abnormal/positif: Tungkai kontralateral (kiri) ikut fleksi secara involunter di panggul dan/atau lutut. Interpretasi: Iritasi meningeal; tanda yang sebenarnya lebih dulu diperkenalkan Brudzinski sebelum Brudzinski I. Urutan I/II hanya urutan pedagogis.",
+          "tone": "procedure",
+          "source": "§4 Modul PDF FKIK UNJA hlm. 27 Tanda 5"
+        },
+        {
+          "text": "6. Tanda Brudzinski III: [PERLU VERIFIKASI KLINIS] — modul sumber hanya menyebutkan dalam daftar tanpa deskripsi manuver. Pada literatur rujukan (DeMyer's, Biller & Gruener), Brudzinski III (juga disebut tanda Brudzinski pipi atau Brudzinski cheek sign) merujuk pada fleksi involunter lengan dan tungkai kontralateral saat tekanan diberikan pada pipi di bawah arkus zigomatikus. VERIFIKASI ke dosen pengampu/supervisor sebelum menggunakan di OSCE.",
+          "tone": "procedure",
+          "source": "§4 Modul PDF FKIK UNJA daftar 7 tanda + DeMyer's/Biller rujukan"
+        },
+        {
+          "text": "7. Tanda Brudzinski IV: [PERLU VERIFIKASI KLINIS] — modul sumber hanya menyebutkan dalam daftar tanpa deskripsi manuver. Pada literatur rujukan (DeMyer's, Biller & Gruener), Brudzinski IV (juga disebut tanda Brudzinski simfisis pubis atau Brudzinski pubis sign) merujuk pada fleksi involunter kedua tungkai saat tekanan diberikan pada simfisis pubis. VERIFIKASI ke dosen pengampu/supervisor sebelum menggunakan di OSCE.",
+          "tone": "procedure",
+          "source": "§4 Modul PDF FKIK UNJA daftar 7 tanda + DeMyer's/Biller rujukan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Ringkasan nilai normal vs abnormal ketujuh tanda TRM:",
+          "sub": [
+            "Kaku Kuduk: Normal — dagu menyentuh incisura jugularis tanpa tahanan; Abnormal — dagu tidak menyentuh incisura jugularis dengan tahanan aktif",
+            "Tanda Kernig: Normal — ekstensi lutut >135° tanpa nyeri; Abnormal — ekstensi lutut <135° dengan/tanpa nyeri",
+            "Tanda Lasegue: Normal — tungkai lurus terangkat 70° (60° lansia); Abnormal — nyeri/tahanan sebelum 70°",
+            "Tanda Brudzinski I: Normal — tidak ada fleksi involunter saat fleksi leher; Abnormal — fleksi involunter bilateral panggul & lutut",
+            "Tanda Brudzinski II: Normal — tungkai kontralateral tetap lurus; Abnormal — tungkai kontralateral ikut fleksi involunter",
+            "Tanda Brudzinski III: [PERLU VERIFIKASI KLINIS] — cek literatur rujukan DeMyer's/Biller",
+            "Tanda Brudzinski IV: [PERLU VERIFIKASI KLINIS] — cek literatur rujukan DeMyer's/Biller"
+          ],
+          "bold": true,
+          "source": "§4 Modul PDF FKIK UNJA hlm. 25–28"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips teknis posisi Kernig vs Lasegue",
+          "text": "Ketika memeriksa Kernig/Lasegue, PANGKAL PAHA harus dalam posisi FLEKSI 90° untuk Kernig, dan LURUS untuk Lasegue — keliru posisi membuat sudut ekstensi/elevasi tidak terstandar.",
+          "answer_evidence": "Praktik klinis neurologi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Singkirkan spondilosis dan fraktur servikal dulu",
+          "text": "Pasien dengan spondilosis servikal, fraktur servikal, atau pasca-operasi leher mungkin memiliki keterbatasan gerakan yang BUKAN tanda meningeal — singkirkan dulu riwayat trauma/operasi sebelum menilai kaku kuduk.",
+          "answer_evidence": "Praktik klinis neurologi + modul hlm. 25"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Batas fisiologis Lasegue pada lansia",
+          "text": "Lansia (usia >60 tahun) memiliki batas fisiologis Lasegue lebih rendah (60°), sehingga hasil positif palsu harus diinterpretasikan hati-hati.",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 26 Tanda 3"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "HNP L5/S1 = positif palsu Lasegue",
+          "text": "HNP diskus L5/S1 dapat memberikan Lasegue positif palsu — koreksi dengan membedakan nyeri radikuler (dermatomal) dari nyeri meningeal.",
+          "answer_evidence": "Praktik neurologi klinis"
+        }
+      ],
+      "visual_refs": [
+        "visual_trm_kaku_kuduk_01",
+        "visual_trm_kernig_lasegue_01",
+        "visual_trm_brudzinski_i_ii_01"
+      ],
+      "glossary_refs": [
+        "gls_trm_kaku_kuduk_01",
+        "gls_trm_kernig_01",
+        "gls_trm_lasegue_01",
+        "gls_trm_brudzinski_i_01",
+        "gls_trm_brudzinski_ii_01",
+        "gls_trm_brudzinski_iii_iv_01"
+      ],
+      "bilingual": "Pemeriksaan fisik 7 tanda TRM: Kaku Kuduk (dagu-inc. jugularis), Kernig (ekstensi lutut <135°), Lasegue (elevasi tungkai <70°/60° lansia), Brudzinski I (fleksi leher cepat → fleksi involunter tungkai), Brudzinski II (fleksi satu tungkai → fleksi kontralateral), Brudzinski III/IV (perlu verifikasi klinis)."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat, 3 fase prosedur (Persiapan, Pelaksanaan, Evaluasi), dan prinsip keamanan pasien dalam pemeriksaan TRM.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Pemeriksaan TRM adalah pemeriksaan fisik non-invasif yang tidak membutuhkan alat canggih, tetapi kewaspadaan terhadap prinsip-prinsip persiapan sangat penting untuk akurasi hasil dan kenyamanan pasien. Berbeda dengan prosedur invasif (pungsi lumbal, intubasi), persiapan TRM lebih sederhana: tempat tidur keras (bila perlu), bantal tipis/tanpa bantal, handscoon, masker (standar precaution), jam tangan atau pengingat waktu (untuk menentukan durasi manuver), dan sarung tangan hangat (untuk mengurangi refleks startle pasien). Pasien di posisikan terlentang rileks dengan tungkai lurus dan lengan di samping badan; baju dilonggarkan pada area leher dan tungkai. Ruangan diperiksa suhu nyamannya (tidak terlalu dingin) untuk mencegah spasme otot.",
+          "tone": "narrative",
+          "source": "§5 Modul PDF FKIK UNJA hlm. 25 + Standar Precaution WHO 2007"
+        },
+        {
+          "text": "Fase pelaksanaan dilakukan secara sistematis mengikuti urutan modul sumber PDF. Prinsip utama: gerakan pasif, perlahan, dan terkontrol; hentikan segera bila pasien mengeluh nyeri hebat, menunjukkan resistensi kuat, atau tanda-tanda distress. Setiap manuver harus dilakukan pada kondisi rileks — bila otot pasien tegang, hasil bisa positif palsu. Setelah setiap tanda, secara eksplisit melaporkan hasil ('positif' atau 'negatif') dan mendokumentasikan temuan sebelum pindah ke tanda berikutnya. Pada pasien tidak sadar atau dengan penurunan kesadaran berat (kasus Tn. C), penguji akan menilai respons (mendesis, membuka mata, gerakan menarik diri) sebagai indikator nyeri/ketidaknyamanan.",
+          "tone": "clinical",
+          "source": "§5 Modul PDF FKIK UNJA hlm. 25–28"
+        },
+        {
+          "text": "Fase evaluasi bertujuan untuk sintesis semua hasil, menarik kesimpulan klinis (apakah TRM positif, diagnosis banding yang paling mungkin), dan menyusun rencana (pemeriksaan penunjang, terapi empiris, rujukan). Mahasiswa harus menyebutkan hasil ketujuh tanda (termasuk dua yang perlu verifikasi) dan memberikan kesimpulan kepada penguji/keluarga. Pada akhir station, bersihkan area, kembalikan posisi pasien, lepas handscoon, dan akhiri dengan konfirmasi.",
+          "tone": "narrative",
+          "source": "§5 Modul + Coverage Notes"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT yang diperlukan:",
+          "sub": [
+            "Tempat tidur keras/pemeriksaan: untuk posisi terlentang yang stabil",
+            "Bantal tipis/tanpa bantal: untuk menyingkirkan modifikasi posisi leher",
+            "Handscoon (sarung tangan sekali pakai): standar precaution",
+            "Masker bedah: standar precaution",
+            "Jam tangan/pengukur waktu: untuk menentukan durasi manuver (misalnya mempertahankan fleksi Brudzinski I selama 2–3 detik)",
+            "Alas/tissue: untuk membersihkan area bila perlu",
+            "Formulir dokumentasi: untuk mencatat hasil pemeriksaan"
+          ],
+          "bold": true,
+          "source": "§5 Standar Precaution WHO 2007 + praktik neurologi"
+        },
+        {
+          "text": "FASE PERSIAPAN:",
+          "sub": [
+            "1. Cuci tangan 6 langkah WHO, keringkan",
+            "2. Pasang handscoon dan masker (APD standar)",
+            "3. Perkenalkan diri, konfirmasi identitas pasien (Tn. C)",
+            "4. Jelaskan tujuan prosedur dan minta informed consent",
+            "5. Pastikan privasi pasien (tirai tertutup, hanya area yang diperlukan yang terbuka)",
+            "6. Posisikan pasien terlentang rileks, tungkai lurus, lengan di samping",
+            "7. Longgarkan baju di area leher dan tungkai",
+            "8. Cek gerakan lateral/ekstensi leher untuk menyingkirkan kekakuan otot EKSTRAKRANIAL"
+          ],
+          "bold": true,
+          "source": "§5 Modul PDF FKIK UNJA hlm. 25"
+        },
+        {
+          "text": "FASE PELAKSANAAN (7 tanda sesuai urutan modul sumber):",
+          "sub": [
+            "1. Kaku Kuduk: Fleksikan leher pasif pelan, observasi dagu-inc. jugularis, rasakan tahanan. Kembalikan posisi.",
+            "2. Kernig: Fleksikan panggul 90° + lutut 90° pada satu tungkai. Pertahankan panggul 90°, ekstensi lutut perlahan. Amati sudut dan tahanan. Kembalikan posisi.",
+            "3. Lasegue: Angkat tungkai lurus satu sisi (lutut lurus). Amati sudut elevasi, tanyakan nyeri. Kembalikan posisi. Ulangi sisi kontralateral.",
+            "4. Brudzinski I: Tangan kiri di oksiput, fleksikan leher dengan cepat dan maksimal. Pertahankan 2–3 detik. Amati respons tungkai.",
+            "5. Brudzinski II: Fleksikan panggul + lutut satu tungkai (persis seperti Kernig). Pertahankan. Amati respons tungkai kontralateral.",
+            "6. Brudzinski III — [PERLU VERIFIKASI KLINIS]",
+            "7. Brudzinski IV — [PERLU VERIFIKASI KLINIS]",
+            "Setelah setiap tanda, laporkan hasil eksplisit ('Kaku kuduk positif/negatif, ...')"
+          ],
+          "bold": true,
+          "source": "§5 Modul PDF FKIK UNJA hlm. 25–28"
+        },
+        {
+          "text": "FASE EVALUASI:",
+          "sub": [
+            "1. Tarik handscoon, buang ke tempat sampah infeksius",
+            "2. Cuci tangan",
+            "3. Sintesis ketujuh hasil tanda",
+            "4. Tarik kesimpulan klinis (TRM positif/negatif, diagnosis banding)",
+            "5. Dokumentasikan dalam format SOAP",
+            "6. Komunikasikan hasil kepada penguji/keluarga",
+            "7. Jelaskan rencana tindak lanjut (laboratorium, pungsi lumbal, neuroimaging, terapi empiris)",
+            "8. Konfirmasi pemahaman keluarga"
+          ],
+          "bold": true,
+          "source": "§5 Coverage Notes + praktik klinis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Singkirkan fraktur/instabilitas servikal dulu",
+          "text": "Keselamatan pasien: SELALU cek riwayat trauma/operasi leher sebelum menggerakkan leher; pasien dengan fraktur servikal tidak boleh difleksikan lehernya (risiko kerusakan medula spinalis).",
+          "answer_evidence": "Praktik neurologi klinis + ATLS"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "GCS <8: airway dulu, TRM minimal",
+          "text": "Pada pasien dengan penurunan kesadaran berat (GCS <8), prioritas airway-breathing-circulation; TRM dapat dilakukan setelah airway secured, dengan gerakan minimal.",
+          "answer_evidence": "ATLS + Modul + praktik neurologi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kondisi MENGHENTIKAN prosedur",
+          "text": "Kondisi yang harus MENGHENTIKAN prosedur: pasien mengeluh nyeri hebat, resistensi kuat tidak terduga, spasme otot, atau tanda distress pernapasan. Lanjutkan hanya setelah kondisi membaik dan informed consent baru.",
+          "answer_evidence": "Praktik klinis + prinsip etik"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lansia: kekuatan minimal, posisi hati-hati",
+          "text": "Pada lansia, gunakan kekuatan minimal karena kulit dan otot lebih tipis; posisi yang terlalu ekstrem dapat menyebabkan cedera jaringan lunak.",
+          "answer_evidence": "Praktik klinis geriatri"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Anak: urutan dan kekuatan disesuaikan",
+          "text": "Pada pasien anak, urutan dan kekuatan manuver disesuaikan; anak sering tidak kooperatif — gunakan distraksi dan pendekatan bertahap; interpretasi hasil harus memperhitungkan kondisi klinis keseluruhan (mimisan, posisi menangis, dll.).",
+          "answer_evidence": "Praktik pediatri"
+        }
+      ],
+      "visual_refs": [
+        "visual_trm_urutan_07_tanda_01"
+      ],
+      "glossary_refs": [
+        "gls_trm_trm_01",
+        "gls_trm_kaku_kuduk_01"
+      ],
+      "bilingual": "Persiapan TRM: tempat tidur keras, handscoon, masker, posisi terlentang rileks. 3 fase: Persiapan (informed consent, APD, posisi), Pelaksanaan (7 tanda berurutan), Evaluasi (sintesis, SOAP, edukasi keluarga). Prinsip utama: gerakan pasif, perlahan, terkontrol."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan setelah prosedur, lokalisasi lesi, dan pendekatan diagnosis banding meningitis/ensefalitis/perdarahan subarakhnoid pada kasus Tn. C 36 tahun.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan ketujuh tanda TRM, langkah pasca-prosedur dimulai dengan sintesis temuan dan menarik kesimpulan klinis awal. Pada pasien curiga meningitis seperti Tn. C, hasil TRM positif (terutama kombinasi kaku kuduk + Kernig + Brudzinski I) memiliki nilai prediksi positif tinggi untuk iritasi meningeal. Namun, TRM negatif TIDAK menyingkirkan meningitis — terutama pada pasien lansia, immunocompromised, atau pada tahap awal penyakit. Karena itu, clinical reasoning pasca-TRM harus mencakup korelasi dengan gambaran klinis keseluruhan: riwayat penyakit, onset gejala, gejala penyerta (kejang, ruam, defisit neurologis fokal), dan faktor risiko (usia, imunisasi, kontak, komorbid).",
+          "tone": "narrative",
+          "source": "§6 Modul + IDSA 2004 + PPNI 2018"
+        },
+        {
+          "text": "Pendekatan clinical reasoning untuk pasien dengan TRM positif: (1) Konfirmasi etiologi melalui pungsi lumbal (analisis CSS: sel, protein, glukosa, kultur, PCR) dan/atau neuroimaging (CT/MRI); (2) Diagnosis banding — meningitis bakterial (awitan akut, demam tinggi, kaku kuduk dominan, CSS keruh, predominan PMN, protein naik, glukosa turun), meningitis virus (awitan subakut, gejala lebih ringan, CSS jernih, predominan limfosit, glukosa normal), meningitis TB (awitan gradual, riwayat epidemiologi, CSS jernih/xanthokrom, predominan limfosit, protein sangat tinggi, glukosa sangat turun, ADA positif), ensefalitis HSV (penurunan kesadaran lebih dominan, kejang, perilaku aneh, defisit neurologis fokal), perdarahan subarakhnoid (nyeri kepala 'thunderclap' mendadak, fotofobia, CSS berdarah/xanthokrom, CT scan darah di cistern), karsinomatosis meningeal (riwayat keganasan, defisit nervus kranialis multipel), tetanus (trismus, opistotonus, kesadaran relatif baik).",
+          "tone": "clinical",
+          "source": "§6 IDSA + PPNI + AHA/ASA + modul"
+        },
+        {
+          "text": "Tindak lanjut emergensi berdasarkan curiga etiologi: (1) Meningitis bakterial curiga: DON'T DELAY — ambil kultur darah, mulai antibiotik empiris SEMENTARA (setelah kultur) — Deksametason sebelum/sesuai antibiotik (terutama untuk pneumokokus); (2) Ensefalitis HSV curiga: Asiklovir IV 10 mg/kgBB tiap 8 jam, MRI otak, EEG, PCR HSV pada CSS; (3) Perdarahan SAH curiga: CT scan kepala non-kontras emergensi, angiografi CT/MR/ DSA, neuro-konsultasi.",
+          "tone": "evidence",
+          "source": "§6 IDSA 2004 + PPNI 2018 + AHA/ASA 2012"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca-prosedur langsung:",
+          "sub": [
+            "Tarik handscoon, cuci tangan",
+            "Posisikan pasien kembali dengan nyaman",
+            "Dokumentasikan hasil ketujuh tanda",
+            "Komunikasikan hasil kepada penguji/keluarga",
+            "Susun rencana pemeriksaan penunjang (lab darah, kultur darah, CT/MRI, pungsi lumbal)"
+          ],
+          "bold": true,
+          "source": "§6 Coverage Notes + praktik klinis"
+        },
+        {
+          "text": "Pendekatan diagnosis banding pasca-TRM:",
+          "sub": [
+            "TRM positif + demam + penurunan kesadaran bertahap → curiga meningitis",
+            "TRM positif + nyeri kepala mendadak 'thunderclap' → curiga perdarahan subarakhnoid",
+            "TRM positif + kejang + perubahan perilaku → curiga ensefalitis (HSV)",
+            "TRM positif + riwayat TB + awitan gradual → curiga meningitis TB",
+            "TRM positif + riwayat keganasan + defisit NK multipel → curiga karsinomatosis meningeal",
+            "TRM positif + trismus + opistotonus + sadar → curiga tetanus (bukan meningitis, tapi menyerupai)"
+          ],
+          "bold": true,
+          "source": "§6 Modul + IDSA 2004"
+        },
+        {
+          "text": "Tindak lanjut berdasarkan etiologi curiga:",
+          "sub": [
+            "Curiga bakterial: Kultur darah, darah lengkap, CRP, PCT, glukosa darah, LP, segera antibiotik empiris (seftriakson 2g IV + vankomisin 30 mg/kgBB/hari atau per protokol lokal), deksametason sebelum/sesuai AB pada dewasa.",
+            "Curiga virus: PCR panel CSS, suportif, pertimbangkan asiklovir.",
+            "Curiga TB: BTA sputum, foto toraks, GeneXpert, ADA CSS, terapi OAT.",
+            "Curiga ensefalitis HSV: Asiklovir IV 10 mg/kgBB/8jam + MRI.",
+            "Curiga SAH: CT scan kepala non-kontras, neuro-konsultasi."
+          ],
+          "bold": true,
+          "source": "§6 IDSA 2004 + PPNI 2018 + AHA/ASA 2012"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS merujuk segera",
+          "text": "TRM positif + demam + penurunan kesadaran = EMERGENCY; tidak boleh dipulangkan tanpa rencana pungsi lumbal, kultur darah, dan/atau neuroimaging. Pada pasien imunokompromise atau bayi, antibiotik empiris diberikan SETELAH kultur darah tanpa menunggu hasil.",
+          "answer_evidence": "IDSA 2004 + PPNI 2018"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Meningokoksemia: isolasi + terapi empiris",
+          "text": "TRM positif + ruam petechial + demam = meningokoksemia — ISOLASI droplet, terapi empiris secepatnya (seftriakson atau penisilin G), pelaporan ke Dinkes.",
+          "answer_evidence": "IDSA 2004 + WHO"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan LP tanpa CT pada peningkatan TIK",
+          "text": "Jangan pernah melakukan pungsi lumbal pada pasien dengan tanda-tanda peningkatan TIK (papiledema, defisit neurologis fokal, kejang, GCS turun) tanpa CT scan kepala lebih dulu (risiko herniasi).",
+          "answer_evidence": "IDSA 2004 + praktik neurologi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Immunocompromised: presentasi atypical",
+          "text": "Pada pasien immunocompromised (HIV, transplantasi, keganasan), presentasi meningitis bisa atypical — TRM negatif TIDAK menyingkirkan meningitis; pertimbangkan CT scan + LP untuk tapis luas.",
+          "answer_evidence": "IDSA + PPNI 2018"
+        }
+      ],
+      "visual_refs": [
+        "visual_trm_flowchart_diagnosis_01"
+      ],
+      "glossary_refs": [
+        "gls_trm_meningitis_01",
+        "gls_trm_sah_01",
+        "gls_trm_ensefalitis_01",
+        "gls_trm_karsinomatosis_01",
+        "gls_trm_tetanus_01",
+        "gls_trm_lp_01"
+      ],
+      "bilingual": "Pasca-TRM pada Tn. C 36 tahun: sintesis 7 hasil, diagnosis banding (meningitis bakterial, ensefalitis, SAH, karsinomatosis, tetanus), tindak lanjut emergensi. Red flag: TRM + demam + penurunan kesadaran = EMERGENCY — kultur darah SEBELUM antibiotik, LP setelah CT scan, terapi empiris tanpa menunggu hasil."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan (lab darah, pungsi lumbal, neuroimaging), prinsip tatalaksana empiris, dan alur rujukan untuk meningitis/ensefalitis/SAH.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada pasien dengan TRM positif + gambaran klinis curiga meningitis/ensefalitis/SAH, pemeriksaan penunjang WAJIB dilakukan secara paralel dengan tatalaksana awal (jangan menunda terapi demi menunggu hasil). Pemeriksaan penunjang yang relevan dapat dikelompokkan menjadi: (1) Laboratorium darah — darah lengkap (leukositosis/lekopenia), CRP, PCT (procalcitonin), LED, glukosa darah (sebanding dengan glukosa CSS), kultur darah (SEBELUM antibiotik), fungsi hati/ginjal, elektrolit, analisis gas darah; (2) Pungsi lumbal (apabila tidak ada kontraindikasi) — analisis CSS (sel, protein, glukosa, kultur, pewarnaan Gram, PCR sesuai indikasi); (3) Neuroimaging — CT scan kepala non-kontras emergensi (apabila ada tanda peningkatan TIK, defisit neurologis fokal, kejang, atau curiga SAH); MRI otak dengan kontras jika curiga ensefalitis atau abses; (4) Pemeriksaan khusus — PCR panel virus (HSV, enterovirus), ADA (TB), kultur jamur (kriptokokus), antigen (CrAg untuk HIV + kriptokokus), VDRL CSS (sifilis).",
+          "tone": "evidence",
+          "source": "§7 IDSA 2004 + PPNI 2018 + AHA/ASA 2012 + modul hlm. 24–30"
+        },
+        {
+          "text": "Prinsip tatalaksana empiris (SEBELUM hasil lab): (1) Meningitis bakterial curiga — Deksametason 0,15 mg/kgBB IV (sebelum/sejalan dengan dosis pertama antibiotik) + Seftriakson 2g IV tiap 12 jam (dewasa) ATAU Sefotaksim 2g IV tiap 4–6 jam. Tambahkan Vankomisin 30–45 mg/kgBB/hari IV (dibagi 2–3 dosis) atau Ampisilin 2g IV tiap 4 jam (lansia, immunocompromised, hamil). Durasi: 10–14 hari (bisa lebih lama untuk Listeria); (2) Meningitis virus — suportif, pertimbangkan asiklovir jika curiga HSV/VZV; (3) Meningitis TB — terapi OAT (Rifampisin, Isoniazid, Pirazinamid, Etambutol) + kortikosteroid (deksametason atau prednison); (4) Ensefalitis HSV — Asiklovir 10 mg/kgBB IV tiap 8 jam, durasi 14–21 hari; (5) Perdarahan SAH — tatalaksana suportif (kontrol tekanan darah, anti-kejang, nimodipin 60 mg/4jam oral selama 21 hari untuk mencegah vasospasme), neuro-konsultasi untuk kliping/koiling endovaskular.",
+          "tone": "evidence",
+          "source": "§7 IDSA 2004 + PPNI 2018 + AHA/ASA 2012"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang yang WAJIB:",
+          "sub": [
+            "Darah lengkap, CRP, PCT, glukosa darah, kultur darah (sebelum AB)",
+            "Analisis gas darah",
+            "Pungsi lumbal + analisis CSS (apabila tidak ada kontraindikasi)",
+            "CT scan kepala non-kontras (jika ada tanda peningkatan TIK, defisit fokal, atau curiga SAH)",
+            "MRI otak (jika curiga ensefalitis atau abses)",
+            "PCR panel CSS (HSV, enterovirus, VZV) — sesuai indikasi",
+            "ADA CSS (jika curiga TB)",
+            "CrAg serum/CSS (jika HIV+)"
+          ],
+          "bold": true,
+          "source": "§7 IDSA 2004 + PPNI 2018"
+        },
+        {
+          "text": "Tatalaksana empiris (jangan ditunda):",
+          "sub": [
+            "Deksametason 0,15 mg/kgBB IV (sebelum/sejalan dengan dosis pertama AB) — dewasa dengan meningitis bakterial curiga",
+            "Seftriakson 2g IV/12jam + Vankomisin 30–45 mg/kgBB/hari IV (dibagi 2–3 dosis) — dewasa <50 tahun",
+            "Seftriakson 2g IV/12jam + Ampisilin 2g IV/4jam — dewasa >50 tahun atau immunocompromised",
+            "Asiklovir 10 mg/kgBB IV/8jam — ensefalitis HSV curiga",
+            "OAT (Rifampisin, INH, Pirazinamid, Etambutol) + deksametason — meningitis TB curiga"
+          ],
+          "bold": true,
+          "source": "§7 IDSA 2004 + PPNI 2018"
+        },
+        {
+          "text": "Kapan rujuk dan ke mana:",
+          "sub": [
+            "Meningitis bakterial: rawat inap, PICU/HCU jika ada penurunan kesadaran berat",
+            "Ensefalitis: rawat inap, PICU jika ada kejang berulang atau gangguan pernapasan",
+            "Perdarahan SAH: rawat inap, neuro-konsultasi, bedah saraf/neuroradiologi intervensi",
+            "Tetanus: ruang isolasi, ICU jika ada gangguan pernapasan",
+            "Meningitis TB: ruang isolasi, follow-up jangka panjang"
+          ],
+          "bold": true,
+          "source": "§7 IDSA + PPNI 2018 + AHA/ASA 2012"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kultur darah SEBELUM antibiotik",
+          "text": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia di station: kultur darah SEBELUM antibiotik — ini kesalahan fatal bila dilupakan karena akan mempengaruhi hasil kultur.",
+          "answer_evidence": "IDSA 2004 + PPNI 2018"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Deksametason: Level evidence I",
+          "text": "IDSA Guidelines 2004 merekomendasikan deksametason SEBELUM atau bersamaan dengan dosis pertama antibiotik untuk meningitis bakterial pneumokokus pada dewasa (level evidence I).",
+          "answer_evidence": "Tunkel AR et al. Clin Infect Dis 2004;39(9):1267-84"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Nimodipin untuk SAH: Level evidence I",
+          "text": "AHA/ASA Guidelines 2012 untuk SAH merekomendasikan nimodipin oral 60 mg/4jam selama 21 hari untuk mencegah vasospasme serebral (level evidence I).",
+          "answer_evidence": "Connolly ES Jr et al. Stroke 2012;43(6):1711-37"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "LP hanya setelah CT pada peningkatan TIK",
+          "text": "Jangan melakukan pungsi lumbal pada pasien dengan tanda peningkatan TIK (papiledema, defisit fokal, kejang, GCS turun) tanpa CT scan kepala lebih dulu — risiko herniasi otak.",
+          "answer_evidence": "IDSA 2004 + praktik neurologi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Antibiotik jangan ditunda >30 menit",
+          "text": "Antibiotik jangan ditunda lebih dari 30 menit sejak diputuskan meningitis bakterial curiga. Setiap menit keterlambatan = risiko mortalitas naik.",
+          "answer_evidence": "IDSA 2004 + praktik klinis"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_trm_meningitis_01",
+        "gls_trm_sah_01",
+        "gls_trm_ensefalitis_01",
+        "gls_trm_lp_01"
+      ],
+      "bilingual": "Pemeriksaan penunjang untuk TRM positif: darah lengkap, CRP, PCT, kultur darah (SEBELUM AB), glukosa darah, CT scan kepala (jika ada tanda peningkatan TIK), LP + analisis CSS, PCR panel. Tatalaksana empiris: Deksametason + Seftriakson + Vankomisin/Ampisilin untuk meningitis bakterial; Asiklovir untuk ensefalitis HSV."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi keluarga, safety net kapan kembali segera, dan contoh SOAP lengkap kasus Tn. C 36 tahun dengan TRM positif.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi kepada keluarga pasien merupakan komponen penting dari station OSCE TRM. Pada kasus Tn. C 36 tahun yang dibawa keluarga dalam kondisi penurunan kesadaran bertahap, keluarga perlu penjelasan: (1) diagnosis awal (curiga meningitis/ensefalitis/perdarahan subarakhnoid), (2) rencana pemeriksaan (darah, kultur, CT scan, pungsi lumbal), (3) tatalaksana awal (antibiotik empiris, suportif, observasi ketat), (4) prognosis (tergantung etiologi, kecepatan terapi, ada/tidak komplikasi), dan (5) pencegahan (imunisasi, sanitasi, hindari kontak erat). Safety net wajib mencakup tanda bahaya kapan kembali segera (penurunan kesadaran makin dalam, kejang, henti napas, muntah proyektil, ruam baru, kaku kuduk memberat).",
+          "tone": "narrative",
+          "source": "§8 Modul + PPNI 2018 + ICD-10"
+        },
+        {
+          "text": "Dokumentasi SOAP (Subjective, Objective, Assessment, Plan) untuk Tn. C: S (Subjective) — Tn. C, laki-laki 36 tahun, dibawa keluarga ke IGD RS dengan penurunan kesadaran bertahap sejak 1 minggu SMRS. Keluhan disertai nyeri kepala, demam, dan cenderung mengantuk sulit dibangunkan sejak 1 minggu. Keluarga menyangkal riwayat trauma kepala, kejang, muntah proyektil, atau penurunan BB signifikan. Tidak ada riwayat kontak TB. Riwayat DM dan hipertensi tidak diketahui. O (Objective) — Kesadaran GCS E3V3M5 = 11 (atau sesuai kondisi aktual). Tanda vital: TD 110/70 mmHg, nadi 96x/menit, suhu 38,8°C, RR 22x/menit, SpO₂ 96% room air. Pemeriksaan TRM: Kaku kuduk positif (dagu tidak mencapai incisura jugularis, ada tahanan); Kernig positif (ekstensi lutut terbatas ~110°); Lasegue positif (nyeri dan tahanan pada ~50°); Brudzinski I positif (fleksi involunter bilateral tungkai saat fleksi leher); Brudzinski II positif (fleksi involunter tungkai kontralateral); Brudzinski III dan IV tidak dilakukan/diverifikasi. Tidak ada ruam petechial. Tidak ada defisit neurologis fokal yang jelas saat ini.",
+          "tone": "clinical",
+          "source": "§8 Format SOAP + Modul FKIK UNJA skenario Tn. C"
+        },
+        {
+          "text": "A (Assessment) — Curiga kuat meningitis bakterial awitan subakut; bandingkan dengan ensefalitis (HSV) dan perdarahan subarakhnoid. TRM positif mendukung diagnosis meningitis. P (Plan) — (1) Laboratorium: darah lengkap, CRP, PCT, glukosa darah, kultur darah (SEBELUM AB), fungsi hati/ginjal, elektrolit, analisis gas darah. (2) Neuroimaging: CT scan kepala non-kontras emergensi (penapisan peningkatan TIK, SAH, abses). (3) Pungsi lumbal (apabila CT scan tidak menyingkirkan kontraindikasi) — analisis CSS, pewarnaan Gram, kultur, PCR panel. (4) Terapi empiris: Deksametason 0,15 mg/kgBB IV (10 mg IV untuk dewasa) + Seftriakson 2g IV/12jam + Vankomisin 30–45 mg/kgBB/hari IV (dibagi 2–3 dosis). Pertimbangkan Ampisilin 2g IV/4jam bila >50 tahun atau immunocompromised. (5) Suportif: IVFD, O₂ suplementasi, monitoring kesadaran dan tanda vital, posisi kepala elevasi 30°. (6) Isolasi droplet sampai etiologi jelas (jika curiga meningokokus). (7) Konsultasi: Sp.PD, Sp.S (jika tersedia), dan tim ICU jika GCS turun atau perburukan klinis. (8) Edukasi keluarga: jelaskan diagnosis awal, rencana pemeriksaan, terapi, prognosis, dan safety net.",
+          "tone": "clinical",
+          "source": "§8 Format SOAP + IDSA 2004 + PPNI 2018"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "POIN EDUKASI (WAJIB):",
+          "sub": [
+            "Jelaskan bahwa curiga iritasi selaput otak (meningitis) yang serius dan butuh perawatan RS.",
+            "Jelaskan bahwa TRM positif mendukung diagnosis tetapi perlu konfirmasi laboratorium.",
+            "Jelaskan rencana CT scan + pungsi lumbal + kultur darah untuk konfirmasi etiologi.",
+            "Jelaskan bahwa antibiotik akan dimulai segera (jangan menunggu hasil lab).",
+            "Jelaskan prognosis tergantung etiologi, kecepatan terapi, dan ada/tidak komplikasi.",
+            "Jelaskan tanda bahaya kapan keluarga harus memanggil perawat/dokter.",
+            "Diskusikan pencegahan kontak (terutama untuk keluarga serumah).",
+            "Diskusikan pentingnya follow-up setelah pulang (jika dipulangkan) untuk evaluasi komplikasi."
+          ],
+          "bold": true,
+          "source": "§8 PPNI 2018 + praktik klinis"
+        },
+        {
+          "text": "SAFETY NET — Kapan Kembali Segera:",
+          "sub": [
+            "Kondisi 1: Kesadaran makin menurun, sulit dibangunkan, atau GCS turun.",
+            "Kondisi 2: Kejang, sesak napas, atau henti napas.",
+            "Kondisi 3: Muntah proyektil berulang, nyeri kepala makin hebat.",
+            "Kondisi 4: Ruam baru yang menyebar (petechial/purpura) — curiga meningokokus.",
+            "Kondisi 5: Demam tidak turun dengan antipiretik atau makin tinggi.",
+            "Kondisi 6: Kaku kuduk memberat atau muncul kelemahan satu sisi."
+          ],
+          "bold": true,
+          "source": "§8 Modul + PPNI 2018"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk diagnosis utama",
+          "text": "Kode ICD-10 untuk diagnosis utama: G00.9 (Meningitis bakterial, tidak spesifik) atau G03.9 (Meningitis, tidak spesifik) — bandingkan dengan I60.9 (Perdarahan subarakhnoid, tidak spesifik) atau G04.9 (Ensefalitis, tidak spesifik) sesuai etiologi.",
+          "answer_evidence": "ICD-10 WHO 2019"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi pungsi lumbal",
+          "text": "Kalimat edukasi yang paling sering dilupakan: 'Bapak/ibu, kami harus melakukan pungsi lumbal untuk mengambil sampel cairan otak. Prosedur ini aman, dilakukan dengan anestesi lokal, dan penting untuk menentukan jenis kuman penyebab sehingga antibiotik bisa lebih tepat.' — keluarga sering menolak LP karena takut; penjelasan ini menurunkan resistensi.",
+          "answer_evidence": "Praktik komunikasi klinis PPNI 2018"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan berjanji prognosis baik",
+          "text": "Jangan berjanji prognosis baik di awal; gunakan bahasa: 'Kami akan berusaha semaksimal mungkin, hasil akan sangat bergantung pada kecepatan terapi dan respons tubuh Bapak.'",
+          "answer_evidence": "Etik kedokteran + praktik klinis"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Immunocompromised: edukasi observasi ketat",
+          "text": "Pada pasien immunocompromised (HIV, transplantasi, keganasan), presentasi meningitis bisa atypical (demam minimal, TRM negatif); edukasi keluarga untuk observasi ketat dan kontrol lebih awal bila ada gejala.",
+          "answer_evidence": "IDSA 2004 + PPNI 2018"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_trm_meningitis_01",
+        "gls_trm_lp_01"
+      ],
+      "bilingual": "Edukasi keluarga Tn. C: jelaskan diagnosis curiga meningitis, rencana CT scan + LP + kultur darah, terapi antibiotik empiris, prognosis realistis. Safety net: kembali segera jika kesadaran turun, kejang, muntah proyektil, ruam baru, atau kaku kuduk memberat. SOAP lengkap tersedia di s08."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Tabel SKDI 4A untuk topik TRM/meningitis, dan dialog komunikasi OSCE siap ucap (13 turn) untuk kasus Tn. C 36 tahun.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "SKDI 4A (Standar Kompetensi Dokter Indonesia) untuk topik Tanda Rangsang Meningeal dan turunannya (meningitis, ensefalitis, perdarahan subarakhnoid) meliputi kemampuan mendiagnosis (level 4A), menatalaksana awal (level 3B–4A), dan merujuk (level 3B) untuk kasus-kasus emergensi. Pada modul ini, level SKDI yang diprioritaskan untuk station TRM adalah 4A untuk pemeriksaan fisik, 3B untuk diagnosis meningitis, dan 3B untuk tatalaksana awal meningitis bakterial/ensefalitis.",
+          "tone": "evidence",
+          "source": "§9 SKDI Konsil Kedokteran Indonesia 2012 + ICD-10"
+        },
+        {
+          "text": "Mini-skrip dialog OSCE untuk kasus Tn. C 36 tahun: [PENGAWAS STATION] 'Selamat datang di station pemeriksaan tanda rangsang meningeal. Anda akan bertemu Tn. C, laki-laki 36 tahun, dengan penurunan kesadaran bertahap 1 minggu, nyeri kepala, dan demam. Anda punya 10 menit. Silakan masuk.' [DOKTER] 'Selamat pagi, Pak C. Perkenalkan, saya [nama], dokter yang akan memeriksa Bapak hari ini.' (jabatan tangan bila pasien kooperatif, sentuh bahu dengan lembut). 'Bapak, saya lihat Bapak nampak kurang nyaman. Boleh saya jelaskan apa yang akan saya lakukan?' [PASIEN/KELUARGA] 'Silakan, Dok.' [DOKTER] 'Saya akan melakukan pemeriksaan pada leher dan tungkai Bapak untuk melihat apakah ada tanda-tanda peradangan pada selaput otak Bapak. Pemeriksaan ini tidak berbahaya, tapi mungkin sedikit tidak nyaman. Boleh saya mulai, Pak?'",
+          "tone": "narrative",
+          "source": "§9 Modul + adaptasi komunikasi klinis PPNI 2018"
+        },
+        {
+          "text": "[DOKTER] 'Terima kasih, Pak. Saya cuci tangan dulu dan pakai sarung tangan.' (setelah cuci tangan, pakai handscoon, masker). 'Pak, saya minta Bapak berbaring telentang dengan kedua kaki lurus, rileks ya Pak.' (menunggu pasien/keluarga membantu posisi). 'Pertama, saya akan melihat apakah ada kekakuan pada leher Bapak. Saya akan menggerakkan leher Bapak ke depan perlahan, mendekati dada. Kalau terasa sangat tidak nyaman, Bapak boleh bilang ya Pak.' (melakukan Kaku Kuduk, melaporkan hasil). 'Pak, saya rasakan ada tahanan dan dagu Bapak tidak dapat mencapai bagian depan leher. Kaku kuduk positif, Pak. Ini mendukung kecurigaan kami bahwa ada iritasi di selaput otak Bapak.' 'Sekarang saya akan mengangkat tungkai Bapak, Pak. Mungkin terasa sedikit tertarik. Saya akan meluruskan lutut Bapak perlahan.' (melakukan Kernig, melaporkan hasil). 'Pak, lutut Bapak tidak bisa diluruskan sempurna, ada tahanan dan terasa nyeri. Tanda Kernig positif, Pak.' (melanjutkan ke Lasegue, Brudzinski I, Brudzinski II; untuk Brudzinski III/IV akui perlunya verifikasi). 'Berdasarkan pemeriksaan ini, kami curiga Bapak menderita meningitis atau peradangan selaput otak. Kami akan melakukan pemeriksaan darah, CT scan, dan kemungkinan pungsi lumbal untuk konfirmasi. Sementara itu, kami akan mulai memberikan antibiotik untuk mencegah perburukan.' [KELUARGA] 'Apakah bahaya, Dok?' [DOKTER] 'Meningitis adalah kondisi serius, Pak/Bu. Tapi dengan terapi yang cepat dan tepat, banyak pasien yang bisa membaik. Kami akan memantau Bapak ketat di rumah sakit. Saya juga akan menjelaskan semua prosedur yang akan kami lakukan —Bp/ibu boleh bertanya kapan saja.' [KELUARGA] 'Baik, Dok. Kami setuju.' [DOKTER] 'Terima kasih, Pak/Bu. Saya akan mendokumentasikan hasil pemeriksaan ini dan berdiskusi dengan tim. Saya akan kembali memberi tahu perkembangan Bapak.'",
+          "tone": "narrative",
+          "source": "§9 Mini-skrip Lampiran D modul + PPNI 2018"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan khusus komunikasi untuk topik ini:",
+          "sub": [
+            "Gunakan bahasa non-teknis untuk keluarga: 'selaput otak' bukan 'meningen'; 'iritasi' bukan 'inflamasi'.",
+            "Berikan jeda antara penjelasan dan tindakan, tunggu izin eksplisit.",
+            "Jangan berjanji prognosis; gunakan bahasa yang realistis.",
+            "Akui keterbatasan: 'Untuk dua tanda terakhir, kami perlu verifikasi lebih lanjut dengan dosen pengampu.'",
+            "Pada pasien tidak sadar: tetap berbicara dan menjelaskan prosedur (bisa jadi pasien masih bisa mendengar)."
+          ],
+          "bold": true,
+          "source": "§9 Mini-skrip + PPNI 2018"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH dilewatkan (FATAL)",
+          "text": "Kalimat yang TIDAK BOLEH dilewatkan: 'Apakah Bapak bersedia saya periksa?' — informed consent WAJIB diucapkan. Lupa = skor 0 pada item 1 semua rubrik. Kalimat lain yang fatal bila lupa: 'Bapak/ibu, kami curiga meningitis/perdarahan subarakhnoid.' dan 'Kami akan melakukan CT scan dan/atau pungsi lumbal untuk konfirmasi, dan mulai antibiotik empiris.'",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 28 (Item 1 semua rubrik)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara membuka station paling efektif",
+          "text": "'Selamat pagi, Pak C. Saya Dr. [nama] yang akan memeriksa Bapak hari ini.' Singkat, jelas, profesional.",
+          "answer_evidence": "Praktik komunikasi klinis"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_trm_trm_01",
+        "gls_trm_meningitis_01",
+        "gls_trm_sah_01",
+        "gls_trm_ensefalitis_01",
+        "gls_trm_tetanus_01",
+        "gls_trm_karsinomatosis_01"
+      ],
+      "bilingual": "SKDI 4A untuk TRM: 4A untuk pemeriksaan fisik, 3B untuk diagnosis meningitis, 3B untuk tatalaksana awal. ICD-10: G00.9 (meningitis bakterial), G03.9 (meningitis unspecified), I60.9 (SAH), G04.9 (ensefalitis). Mini-skrip pembuka 13 turn untuk Tn. C 36 tahun tersedia di s09."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri 22 item, rencana belajar 3 hari, dan 9 kesalahan fatal yang menurunkan nilai OSCE TRM.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Latihan mandiri untuk station TRM versi PDF harus mencakup 7 tanda (bukan 5) sesuai modul sumber, meskipun 2 tanda (Brudzinski III & IV) belum memiliki deskripsi manuver eksplisit. Mahasiswa perlu menghafal urutan, mendemonstrasikan setiap manuver dengan teman, dan menyebutkan hasil dengan kriteria positif/negatif yang benar. Kriteria 'siap OSCE' tercapai bila: (1) dapat melakukan 5 tanda dengan rubrik (Kaku Kuduk, Kernig, Lasegue, Brudzinski I, Brudzinski II) tanpa melihat catatan, (2) dapat menjelaskan sejarah penemu (Kernig 1884, Brudzinski 1909), (3) dapat menyebutkan diagnosis banding (meningitis, ensefalitis, SAH), (4) dapat menyusun rencana tatalaksana empiris, dan (5) dapat berkomunikasi dengan keluarga dengan bahasa non-teknis.",
+          "tone": "narrative",
+          "source": "§10 Modul + PROMPT_MASTER_STAGE1.md"
+        },
+        {
+          "text": "Rencana belajar 3 hari: Hari 1 (4 jam) — Baca modul PDF hlm. 24–30; tonton video YouTube (https://youtu.be/4VsXUpP_z6U); buat catatan urutan 7 tanda; identifikasi 5 tabel rubrik. Hari 2 (4 jam) — Latihan bersama teman — 1 orang jadi pasien, 1 orang jadi pemeriksa, 1 orang jadi pengamat dengan rubrik; putar peran 3x untuk menutup semua rubrik. Rekam video untuk self-evaluation. Hari 3 (3 jam) — Simulasi full station dengan timer 10 menit; latih komunikasi (informed consent, pelaporan hasil, edukasi keluarga); evaluasi mandiri dan peer review.",
+          "tone": "narrative",
+          "source": "§10 Modul + PROMPT_MASTER_STAGE1.md"
+        },
+        {
+          "text": "Kesalahan fatal yang menurunkan nilai OSCE: (1) tidak melakukan informed consent; (2) gerakan kasar/tidak terkontrol; (3) tidak membedakan kaku kuduk dari kaku otot; (4) tidak melaporkan hasil secara eksplisit; (5) tidak menyimpulkan makna klinis; (6) tidak menyusun rencana tatalaksana; (7) lupa cuci tangan/APD; (8) tidak melakukan cek gerakan lateral leher untuk menyingkirkan kekakuan otot.",
+          "tone": "evidence",
+          "source": "§10 Modul + Rubrik Penilaian"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI:",
+          "sub": [
+            "[ ] Membaca modul PDF hlm. 24–30 — TINGGI",
+            "[ ] Menonton video referensi YouTube — TINGGI",
+            "[ ] Menghafal urutan 7 tanda — TINGGI",
+            "[ ] Mendemonstrasikan Kaku Kuduk dengan teman — TINGGI",
+            "[ ] Mendemonstrasikan Kernig dengan teman — TINGGI",
+            "[ ] Mendemonstrasikan Lasegue dengan teman — TINGGI",
+            "[ ] Mendemonstrasikan Brudzinski I dengan teman — TINGGI",
+            "[ ] Mendemonstrasikan Brudzinski II dengan teman — TINGGI",
+            "[ ] Mengidentifikasi kriteria positif/negatif semua tanda — TINGGI",
+            "[ ] Menghafal sistem skor 0/1/2 — TINGGI",
+            "[ ] Menghitung total skor 54 — SEDANG",
+            "[ ] Menyebutkan 3 diagnosis banding (meningitis/ensefalitis/SAH) — TINGGI",
+            "[ ] Menyusun rencana tatalaksana empiris — TINGGI",
+            "[ ] Berkomunikasi dengan informed consent — TINGGI",
+            "[ ] Melaporkan hasil eksplisit — TINGGI",
+            "[ ] Menarik kesimpulan klinis — TINGGI",
+            "[ ] Mendokumentasikan SOAP — SEDANG",
+            "[ ] Mengedukasi keluarga — SEDANG",
+            "[ ] Mengenali safety net — SEDANG",
+            "[ ] Memverifikasi Brudzinski III/IV dengan dosen — TINGGI",
+            "[ ] Melakukan simulasi full station dengan timer 10 menit — TINGGI",
+            "[ ] Evaluasi mandiri dan peer review — TINGGI"
+          ],
+          "bold": true,
+          "source": "§10 PROMPT_MASTER_STAGE1.md"
+        },
+        {
+          "text": "RENCANA 3 HARI:",
+          "sub": [
+            "Hari 1: Target: Pahami teori & urutan 7 tanda | Durasi: 4 jam | Aktivitas: Baca modul hlm. 24–30, tonton video YouTube, buat ringkasan urutan 7 tanda | Kriteria: Mampu menyebutkan 7 tanda + sejarah penemu dari ingatan",
+            "Hari 2: Target: Kuasai teknik & rubrik | Durasi: 4 jam | Aktivitas: Latihan berpasangan dengan teman (putar peran 3x), gunakan rubrik 5 tabel, rekam video | Kriteria: Mampu melakukan 5 tanda dengan rubrik ≥80% item skor 2",
+            "Hari 3: Target: Simulasi full station | Durasi: 3 jam | Aktivitas: Simulasi 10 menit penuh dengan timer, evaluasi peer, identifikasi kesalahan fatal | Kriteria: Mampu menyelesaikan full station tanpa melihat catatan dengan komunikasi efektif"
+          ],
+          "bold": true,
+          "source": "§10 Modul + PROMPT_MASTER_STAGE1.md"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak melakukan informed consent",
+          "text": "[FATAL] Tidak melakukan informed consent — skor 0 pada item 1 semua rubrik — cara menghindari: SELALU ucapkan 'Apakah Bapak bersedia saya periksa?' sebelum memulai.",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 28"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak membedakan kaku kuduk dari kaku otot",
+          "text": "[FATAL] Tidak membedakan kaku kuduk dari kaku otot — menurunkan nilai dan menyesatkan diagnosis — cara menghindari: SELALU cek gerakan lateral/ekstensi leher sebelum menilai kaku kuduk.",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 25"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak melaporkan hasil eksplisit",
+          "text": "[FATAL] Tidak melaporkan hasil eksplisit — skor 0 pada item kesimpulan — cara menghindari: Setiap tanda WAJIB diakhiri dengan 'Tanda [X] positif/negatif.'",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 28 (Item 5 setiap tabel rubrik)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak menyusun rencana tatalaksana",
+          "text": "[FATAL] Tidak menyusun rencana tatalaksana — menurunkan skor secara keseluruhan — cara menghindari: Selalu cantumkan 'antibiotik empiris, CT scan, pungsi lumbal, rawat inap' pada kesimpulan.",
+          "answer_evidence": "Modul + IDSA 2004"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Lupa cuci tangan/APD",
+          "text": "[FATAL] Lupa cuci tangan/APD — skor 0 pada item persiapan — cara menghindari: Biasakan cuci tangan 6 langkah WHO sebelum menyentuh pasien.",
+          "answer_evidence": "Standar Precaution WHO 2007"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Gerakan kasar/terlalu cepat",
+          "text": "[FATAL] Gerakan kasar/terlalu cepat — menurunkan skor dan menyebabkan cedera — cara menghindari: Selalu gerakan perlahan, komunikasikan setiap langkah.",
+          "answer_evidence": "Praktik klinis neurologi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Salah hitung sudut Kernig/Lasegue",
+          "text": "Salah hitung sudut Kernig/Lasegue — tidak fatal tetapi menurunkan akurasi — gunakan busur derajat atau visualisasi sudut siku-siku.",
+          "answer_evidence": "Praktik klinis"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Ejaan Lasegue konsisten",
+          "text": "Tidak konsisten menyebut 'Lasegue' (bukan 'Lasèque' atau 'Laseque' saja) — variasi ejaan menurunkan profesionalisme. Ejaan baku: 'Lasegue' atau 'Lasègue'.",
+          "answer_evidence": "Modul + literatur rujukan"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Sudut fisiologis Lasegue lansia",
+          "text": "Lupa membedakan sudut normal Lasegue 70° (dewasa) vs 60° (lansia) — menunjukkan kurang pemahaman batas fisiologis.",
+          "answer_evidence": "Modul PDF FKIK UNJA hlm. 26"
+        }
+      ],
+      "visual_refs": [
+        "visual_trm_urutan_07_tanda_01"
+      ],
+      "glossary_refs": [
+        "gls_trm_trm_01"
+      ],
+      "bilingual": "Latihan mandiri TRM: rencana 3 hari (Hari 1 teori 4 jam, Hari 2 praktik 4 jam, Hari 3 simulasi 3 jam), 22 item checklist, 9 kesalahan fatal. Tujuan: menguasai 5 tanda dengan rubrik (skor ≥80% item 2) + 2 tanda verifikasi."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "5 visual yang disarankan (flowchart urutan, ilustrasi Kaku Kuduk, Kernig-Lasegue, Brudzinski I/II, flowchart diagnosis), 4 lampiran (kontraindikasi, masalah & respons, mini-case, kalimat pembuka), dan 9 referensi klinis.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Visual untuk modul TRM versi PDF sebaiknya mencakup diagram urutan 7 tanda, ilustrasi posisi pasien & tangan pemeriksa untuk setiap manuver, flowchart klinis (TRM positif → diagnosis banding → tatalaksana), dan tabel ringkasan kriteria positif/negatif semua tanda. Visual ini akan sangat membantu mahasiswa menghafal urutan dan posisi. Pada modul PDF asli, sudah ada Gambar 3, 4, 5, 6, 7 yang menunjukkan posisi pemeriksa untuk Kaku Kuduk, Kernig, Lasegue, Brudzinski I, dan Brudzinski II. Pada modul Markdown ini, gambar asli tidak dapat dipindahkan; sebagai gantinya, kami sediakan deskripsi gambar asli dan visual reference untuk re-generate dengan AI.",
+          "tone": "narrative",
+          "source": "§11 Modul PDF FKIK UNJA hlm. 25–28 (Gambar 3–7) + PROMPT_MASTER_STAGE1.md"
+        },
+        {
+          "text": "Lampiran A (Kontraindikasi/Red Flags) mencakup kondisi-kondisi yang membatalkan atau membatasi pemeriksaan TRM: fraktur servikal atau instabilitas servikal, peningkatan tekanan intrakranial (TIK) berat (papiledema, defisit neurologis fokal progresif, muntah proyektil, GCS <8), trauma kepala baru, pasien dengan spondilosis servikal berat atau pasca-operasi leher, anak dengan fontanel menonjol, hamil trimester akhir. Lampiran B (Masalah & Respons) membahas masalah umum saat pemeriksaan (pasien gelisah, tidak kooperatif, dll.) dan respons yang aman. Lampiran C (OSCE Mini-Case) memberikan 3 skenario mini (mudah, sedang, sulit) untuk latihan tambahan. Lampiran D (Kalimat Pembuka Station) menyediakan 6–10 kalimat siap ucap untuk membuka station.",
+          "tone": "evidence",
+          "source": "§11 Modul + PROMPT_MASTER_STAGE1.md"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "VISUAL YANG DISARANKAN (5 visual):",
+          "sub": [
+            "Visual 1: Diagram urutan 7 tanda TRM (flowchart vertikal): menampilkan urutan Kaku Kuduk → Kernig → Lasegue → Brudzinski I → Brudzinski II → Brudzinski III → Brudzinski IV dengan ikon posisi pasien dan pemeriksa.",
+            "Visual 2: Ilustrasi posisi Kaku Kuduk: gambar posisi terlentang, tangan pemeriksa di oksiput, arah fleksi leher, dagu-inc. jugularis.",
+            "Visual 3: Ilustrasi posisi Kernig & Lasegue (perbandingan side-by-side): gambar posisi fleksi panggul 90°+lutut 90° (Kernig) vs tungkai lurus terangkat (Lasegue), dengan sudut derajat.",
+            "Visual 4: Ilustrasi Brudzinski I dan II: gambar posisi tangan kiri di oksiput, fleksi leher, respons tungkai; gambar posisi fleksi satu tungkai, respons kontralateral.",
+            "Visual 5: Flowchart klinis TRM positif → diagnosis banding → tatalaksana: pohon keputusan visual untuk penggunaan pasca-OSCE."
+          ],
+          "bold": true,
+          "source": "§11 Modul + Visual Asset Requirements"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi / Red Flags:",
+          "sub": [
+            "Fraktur servikal atau instabilitas servikal: gerakan leher akan menyebabkan cedera medula spinalis — VERIFIKASI ada/tidak fraktur sebelum TRM.",
+            "Peningkatan tekanan intrakranial (TIK) berat (papiledema, defisit neurologis fokal progresif, muntah proyektil, GCS <8): TRM masih dapat dilakukan tetapi JANGAN melakukan pungsi lumbal tanpa CT scan dulu.",
+            "Trauma kepala baru: mungkin ada fraktur basis kranii atau perdarahan — pertimbangkan CT scan dulu.",
+            "Pasien dengan spondilosis servikal berat atau pasca-operasi leher: keterbatasan gerakan leher mungkin bukan tanda meningeal.",
+            "Anak dengan fontanel menonjol: peningkatan TIK, hindari gerakan yang dapat meningkatkan tekanan.",
+            "Hamil trimester akhir: posisi terlentang dapat menyebabkan sindrom vena kava inferior — posisikan miring kiri bila mungkin."
+          ],
+          "bold": true,
+          "source": "§11 Modul + praktik klinis"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah & Respons:",
+          "sub": [
+            "Masalah 1: Pasien gelisah/tidak kooperatif → Respons: Komunikasikan dengan tenang, jelaskan prosedur perlahan, minta izin berkali-kali, bila perlu tunda dan minta sedasi setelah airway secured.",
+            "Masalah 2: Pasien mengeluh nyeri hebat saat manuver → Respons: Hentikan prosedur, evaluasi apakah ada cedera jaringan lunak atau penyebab lain, komunikasikan kepada penguji, dokumentasikan.",
+            "Masalah 3: Hasil tidak konsisten antar tanda → Respons: Catat semua hasil, presentasikan apa adanya kepada penguji, biarkan penguji menilai signifikansi klinis.",
+            "Masalah 4: Pasien tidak sadar (kasus Tn. C) → Respons: Tetap menjelaskan prosedur (mungkin masih bisa mendengar), minta keluarga hadir, gerakan minimal, observasi respons.",
+            "Masalah 5: Handscoon tidak tersedia → Respons: Cuci tangan saja, komunikasikan keterbatasan kepada penguji, nilai mungkin tidak 0.",
+            "Masalah 6: Ruang dingin menyebabkan spasme otot → Respons: Hangatkan ruang, gunakan selimut, minta waktu 5 menit untuk aklimasi, baru periksa.",
+            "Masalah 7: Penguji bertanya tentang etiologi di luar skenario → Respons: Akui keterbatasan pengetahuan, tawarkan untuk berdiskusi setelah station."
+          ],
+          "bold": true,
+          "source": "§11 Modul + PROMPT_MASTER_STAGE1.md"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case:",
+          "sub": [
+            "Skenario Mudah: Tn. Hendra, 45 tahun, demam 3 hari, nyeri kepala. Pemeriksaan TRM dilakukan, hasil negatif semua. Diagnosis: probable infeksi virus pernapasan dengan sakit kepala. Tatalaksana: suportif, paracetamol, observasi. Safety net: kembali bila demam tidak turun 3 hari atau kesadaran menurun.",
+            "Skenario Sedang: Tn. Surya, 50 tahun, penurunan kesadaran 6 jam, demam tinggi 39,5°C, kaku kuduk. Pemeriksaan TRM: Kaku kuduk +, Kernig +, Brudzinski I +. Diagnosis banding: meningitis bakterial (TB atau pneumokokus). Tatalaksana: kultur darah, CT scan, pungsi lumbal, deksametason + seftriakson empiris. Riwayat batuk 3 minggu mendukung meningitis TB.",
+            "Skenario Sulit: Ny. Aminah, 28 tahun hamil 32 minggu, datang dengan penurunan kesadaran dan kejang. Pemeriksaan TRM: Kaku kuduk +, Kernig +. Diagnosis banding: meningitis bakterial, eklamsia (preeklampsia berat), perdarahan SAH. Tatalaksana: posisi miring kiri, kultur darah, CT scan (pertimbangkan shielding abdomen), pungsi lumbal, magnesium sulfat (jika curiga eklamsia), deksametason + seftriakson. Posisi tidur miring kiri untuk mencegah sindrom vena kava."
+          ],
+          "bold": true,
+          "source": "§11 Modul + PROMPT_MASTER_STAGE1.md"
+        },
+        {
+          "text": "LAMPIRAN D — Kalimat Pembuka Station (10 kalimat siap ucap):",
+          "sub": [
+            "'Selamat pagi, Pak C. Perkenalkan, saya Dr. [nama] yang akan memeriksa Bapak hari ini.'",
+            "'Bapak, saya melihat Bapak nampak kurang nyaman. Boleh saya jelaskan apa yang akan saya lakukan?'",
+            "'Saya akan melakukan pemeriksaan pada leher dan tungkai Bapak untuk melihat apakah ada tanda-tanda iritasi selaput otak. Pemeriksaan ini tidak berbahaya tapi mungkin sedikit tidak nyaman.'",
+            "'Apakah Bapak bersedia saya periksa?'",
+            "'Terima kasih, Pak. Saya cuci tangan dulu dan pakai sarung tangan sebelum mulai.'",
+            "'Pak, saya minta Bapak berbaring telentang dengan kedua kaki lurus, rileks ya.'",
+            "'Pertama, saya akan menggerakkan leher Bapak ke depan perlahan. Kalau terasa sangat tidak nyaman, Bapak boleh bilang.'",
+            "'Sekarang saya akan mengangkat tungkai Bapak, Pak. Mungkin terasa sedikit tertarik. Saya akan meluruskan lutut perlahan.'",
+            "'Pak, hasil pemeriksaan menunjukkan [Kaku kuduk/Kernig/Lasegue/Brudzinski] positif/negatif. Ini mendukung/menyingkirkan kecurigaan kami.'",
+            "'Kami akan melakukan pemeriksaan darah, kemungkinan CT scan, dan pungsi lumbal untuk konfirmasi. Sementara itu, kami akan mulai memberikan antibiotik.'"
+          ],
+          "bold": true,
+          "source": "§11 Modul + Mini-skrip s09"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk visual",
+          "text": "Prompt AI untuk membuat visual: 'Generate a clean medical illustration showing [7 urutan tanda TRM / posisi Kaku Kuduk / perbandingan Kernig vs Lasegue / Brudzinski I dan II]. Style: clean, professional medical illustration, neutral color palette (blue/white), labeled in Bahasa Indonesia, suitable for medical textbook.'",
+          "answer_evidence": "PROMPT_MASTER_STAGE1.md"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Referensi panduan nasional/internasional",
+          "text": "Referensi panduan nasional/internasional: IDSA Guidelines for Bacterial Meningitis 2004 (Tunkel et al.); PPNI Tata Laksana Meningitis 2018; AHA/ASA Guidelines for Aneurysmal SAH 2012 (Connolly et al.); WHO Standard Precaution 2007.",
+          "answer_evidence": "Clinical References modul"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Verifikasi Brudzinski III/IV",
+          "text": "Untuk verifikasi Brudzinski III dan IV: hubungi dosen pengampu Skills Lab VI (FKIK UNJA) atau lihat referensi rujukan seperti 'DeMyer's The Neurologic Examination' atau 'Biller & Gruener, Practical Neurology'.",
+          "answer_evidence": "Modul + DeMyer's/Biller rujukan"
+        }
+      ],
+      "visual_refs": [
+        "visual_trm_urutan_07_tanda_01",
+        "visual_trm_kaku_kuduk_01",
+        "visual_trm_kernig_lasegue_01",
+        "visual_trm_brudzinski_i_ii_01",
+        "visual_trm_flowchart_diagnosis_01"
+      ],
+      "glossary_refs": [
+        "gls_trm_trm_01",
+        "gls_trm_meningitis_01",
+        "gls_trm_sah_01",
+        "gls_trm_ensefalitis_01",
+        "gls_trm_lp_01"
+      ],
+      "bilingual": "Lampiran modul TRM: A (8 kontraindikasi), B (7 masalah & respons), C (3 mini-case: mudah/sedang/sulit), D (10 kalimat pembuka). 5 visual utama: flowchart urutan 7 tanda, ilustrasi Kaku Kuduk, perbandingan Kernig-Lasegue, Brudzinski I/II, flowchart diagnosis. 9 referensi klinis: modul FKIK UNJA, Lumbantobing, Mahar Marjono, KNI, IDSA 2004, PPNI 2018, AHA/ASA 2012, DeMyer's, Biller & Gruener."
+    }
+  ]
+}

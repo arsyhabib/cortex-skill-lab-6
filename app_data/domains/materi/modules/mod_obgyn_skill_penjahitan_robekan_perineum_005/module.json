@@ -1,0 +1,1269 @@
+{
+  "id": "mod_obgyn_skill_penjahitan_robekan_perineum_005",
+  "title": "Penjahitan Robekan Perineum",
+  "subtitle": "Penjahitan laserasi perineum derajat 1-4 dan episiotomi dengan teknik sesuai standar obstetri.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_2",
+  "source_pdf": "Batch2_6.1_Modul_2_Penjahitan_Robekan_Perineum.docx",
+  "source_filename": "Batch2_6.1_Modul_2_Penjahitan_Robekan_Perineum.docx",
+  "topicTags": [
+    "osce_6_1",
+    "laserasi_perineum",
+    "episiotomi",
+    "penjahitan_obstetri",
+    "anestesi_lokal",
+    "derajat_robekan",
+    "teknik_jahit_vicryl",
+    "perawatan_pasca_persalinan"
+  ],
+  "summary": [
+    "Tujuan utama penjahitan robekan perineum adalah mengembalikan anatomi vagina-perineum, menghentikan perdarahan, mengurangi nyeri, mencegah infeksi, dan memastikan tidak ada cedera sfingter ani atau rektum yang terlewat.",
+    "Empat derajat robekan wajib dibedakan: derajat 1 (mukosa/kulit saja), derajat 2 (mukosa + otot perineum, sfingter utuh — kompetensi utama modul ini), derajat 3 (sfingter ani terkena), dan derajat 4 (sfingter + mukosa rektum — rujuk emergensi).",
+    "Sebelum menjahit wajib melihat puncak luka (apex), kedalaman luka, dan perdarahan aktif; setelah menjahit wajib melakukan pemeriksaan rektal akhir untuk memastikan tidak ada jahitan menembus rektum.",
+    "Anestesi lokal infiltrasi lidokain 1% tanpa epinefrin dengan teknik aspirasi wajib untuk mencegah injeksi intravaskular; dosis aman maksimum 4,5 mg/kgBB (sekitar 27 ml untuk dewasa 60 kg).",
+    "Jahitan berlapis dilakukan dari dalam ke luar: 1 cm di atas apex, jelujur mukosa vagina, jahitan terputus untuk menutup dead space, otot perineum, dan subkutis/kulit; simpul akhir di belakang himen, benang dipotong 1 cm.",
+    "Robekan derajat 3-4 (OASI) bukan kompetensi repair sederhana dokter umum pada level 4A — wajib dirujuk ke SpOG atau operator terlatih setelah stabilisasi awal.",
+    "Benang yang digunakan adalah benang absorbable: vicryl (polyglactin 910) 2-0 atau catgut chromic 2-0; benang non-absorbable tidak boleh dipakai untuk mukosa/kulit perineum karena akan nyeri dan perlu dilepas.",
+    "Edukasi pasca-tindakan wajib mencakup: basuh depan ke belakang, ganti pembalut teratur, hindari konstipasi, kontrol 1 minggu, dan tanda bahaya untuk kembali segera (demam, nyeri berat, perdarahan banyak, bau busuk, luka terbuka, sulit menahan BAB/flatus)."
+  ],
+  "exam_focus": [
+    "[FATAL] Tidak melakukan informed consent sebelum menyentuh pasien — skor hangus untuk komponen profesionalisme.",
+    "[FATAL] Tidak cuci tangan 6 langkah WHO dan tidak memakai sarung tangan steril saat kontak genital — skor hangus untuk asepsis.",
+    "[FATAL] Menjahit robekan derajat 3-4 sendiri tanpa membedakan dari derajat 2 — risiko OASI dan skor hangus untuk clinical reasoning.",
+    "[FATAL] Tidak melakukan pemeriksaan rektal akhir — jahitan bisa menembus rektum tanpa disadari dan menyebabkan fistula rektovaginal.",
+    "[FATAL] Tidak melihat apex luka (tidak menjahit 1 cm di atas puncak) — perdarahan dari apex menetap, skor hangus.",
+    "[FATAL] Tidak aspirasi sebelum menyuntik lidokain — risiko toksisitas dan injeksi intravaskular, skor hangus.",
+    "[FATAL] Lupa mengeluarkan kasa/tampon — benda asing tertinggal, skor hangus untuk komponen pascatindakan.",
+    "[PENGURANGAN BESAR] Tidak menyebutkan klasifikasi derajat robekan (1-4) sebelum tindakan — tanpa diagnosis, tatalaksana tidak punya dasar.",
+    "[PENGURANGAN BESAR] Tidak menulis dokumentasi SOAP lengkap (derajat robekan, jenis benang, perdarahan, komplikasi) — skor turun.",
+    "[PENGURANGAN BESAR] Tidak memberi edukasi safety-net (kapan kembali ke IGD) atau tidak minta keluarga mengulang tanda bahaya — skor turun."
+  ],
+  "glossary": [
+    {
+      "id": "gls_perineum_laserasi_01",
+      "term": "laserasi perineum derajat 1-4",
+      "def": "Klasifikasi robekan jalan lahir berdasarkan struktur yang terkena: derajat 1 (mukosa vagina dan/atau kulit perineum saja), derajat 2 (mukosa/kulit + otot perineum dengan sfingter ani utuh), derajat 3 (mengenai sfingter ani eksternal/internal — disebut OASI), dan derajat 4 (sfingter ani + mukosa rektum robek). Penentuan derajat menentukan apakah repair dapat dilakukan sendiri atau perlu dirujuk.",
+      "type": "clinical",
+      "aliases": [
+        "ruptur perineum",
+        "perineal tear",
+        "robekan jalan lahir"
+      ]
+    },
+    {
+      "id": "gls_perineum_episiotomi_01",
+      "term": "episiotomi",
+      "def": "Sayatan terkontrol pada perineum (mediolateral atau midline) yang dilakukan untuk memperbesar jalan lahir saat persalinan. Luka episiotomi dijahit dengan prinsip serupa repair robekan perineum derajat 2: dimulai dari mukosa vagina (1 cm di atas apex), lalu otot, subkutis, dan kulit.",
+      "type": "procedure",
+      "aliases": [
+        "episiotomy",
+        "sayatan perineum"
+      ]
+    },
+    {
+      "id": "gls_perineum_vicryl_01",
+      "term": "vicryl (polyglactin 910)",
+      "def": "Benang jahit sintetis absorbable yang umum dipakai untuk repair perineum; tersedia dalam ukuran 2-0 (untuk otot perineum) dan 3-0 (untuk mukosa dan kulit). Tidak perlu dilepas karena diserap jaringan dalam beberapa minggu.",
+      "type": "drug",
+      "aliases": [
+        "polyglactin 910",
+        "benang absorbable"
+      ]
+    },
+    {
+      "id": "gls_perineum_anestesi_infiltrasi_01",
+      "term": "anestesi infiltrasi",
+      "def": "Teknik anestesi lokal dengan menyuntikkan larutan anestesi (umumnya lidokain 1% tanpa epinefrin) langsung ke jaringan sekitar luka dalam pola kipas (fan pattern). Wajib dilakukan aspirasi sebelum menyuntik untuk mencegah injeksi intravaskular; dosis aman maksimum 4,5 mg/kgBB.",
+      "type": "procedure",
+      "aliases": [
+        "local infiltration anesthesia",
+        "anestesi lokal infiltrasi"
+      ]
+    },
+    {
+      "id": "gls_perineum_sfingter_ani_01",
+      "term": "sfingter ani eksterna",
+      "def": "Otot berbentuk cincin di sekitar anus bagian distal yang berperan dalam kontinensia feses. Jika terkena robekan, kondisi disebut OASI (Obstetric Anal Sphincter Injury) derajat 3; jika disertai robekan mukosa rektum, menjadi derajat 4. Keduanya bukan kompetensi repair sederhana dokter umum dan wajib dirujuk.",
+      "type": "anatomy",
+      "aliases": [
+        "external anal sphincter",
+        "EAS",
+        "OASI"
+      ]
+    },
+    {
+      "id": "gls_perineum_litotomi_01",
+      "term": "posisi litotomi",
+      "def": "Posisi pasien berbaring telentang dengan tungkai fleksi-abduksi di penyangga, bokong sedikit melewati tepi tempat tidur. Posisi standar untuk pemeriksaan ginekologi, persalinan, dan prosedur repair perineum agar area vulva-perineum dapat diakses dengan baik.",
+      "type": "procedure",
+      "aliases": [
+        "lithotomy position",
+        "posisi obstetri"
+      ]
+    },
+    {
+      "id": "gls_perineum_informed_consent_01",
+      "term": "informed consent",
+      "def": "Persetujuan yang diberikan pasien setelah menerima penjelasan tentang tujuan, prosedur, risiko, dan alternatif tindakan medis. Wajib untuk tindakan invasif seperti repair perineum; pada OSCE dinilai dari verbalisasi dan tanda tangan di lembar persetujuan.",
+      "type": "procedure",
+      "aliases": [
+        "persetujuan tindakan medis",
+        "informed consent"
+      ]
+    },
+    {
+      "id": "gls_perineum_apd_01",
+      "term": "APD (Alat Pelindung Diri)",
+      "def": "Perlengkapan yang wajib dipakai saat prosedur invasif obstetri-ginekologi: sarung tangan steril (wajib untuk repair perineum), masker, kacamata pelindung, dan apron plastik bila tersedia. Pemakaian APD yang tidak lengkap menurunkan skor asepsis secara signifikan.",
+      "type": "procedure",
+      "aliases": [
+        "alat pelindung diri",
+        "personal protective equipment",
+        "PPE"
+      ]
+    },
+    {
+      "id": "gls_perineum_jahit_interrupted_01",
+      "term": "jahitan interrupted (terputus)",
+      "def": "Teknik jahitan dengan simpul terpisah pada setiap jahitan, digunakan untuk menutup dead space (rongga kosong) pada lapisan otot perineum yang dalam. Keuntungan: bila satu jahitan lepas, jahitan lain tetap menahan; memberikan hemostasis lebih baik pada area dengan tegangan.",
+      "type": "procedure",
+      "aliases": [
+        "jahitan terputus",
+        "interrupted suture"
+      ]
+    },
+    {
+      "id": "gls_perineum_jahit_kontinu_01",
+      "term": "jahitan kontinu (continuous)",
+      "def": "Teknik jahitan dengan satu benang yang berjalan terus-menerus dari satu ujung luka ke ujung lain. Pada repair perineum digunakan untuk jahitan jelujur mukosa vagina (dari atas apex sampai belakang himen) dan jahitan subkutikuler kulit (lebih nyaman bagi pasien).",
+      "type": "procedure",
+      "aliases": [
+        "jahitan jelujur",
+        "continuous suture",
+        "running suture"
+      ]
+    },
+    {
+      "id": "gls_perineum_dead_space_01",
+      "term": "dead space",
+      "def": "Rongga kosong yang tersisa di antara lapisan jahitan apabila jahitan tidak menutup seluruh kedalaman luka. Pada repair perineum, dead space yang tidak ditutup berisiko menimbulkan hematoma dan infeksi; diatasi dengan jahitan interrupted pada lapisan otot yang lebih dalam.",
+      "type": "clinical",
+      "aliases": [
+        "rongga kosong",
+        "ruang mati"
+      ]
+    },
+    {
+      "id": "gls_perineum_lidokain_01",
+      "term": "lidokain 1%",
+      "def": "Anestesi lokal golongan amida yang digunakan untuk anestesi infiltrasi pada repair perineum. Diberikan tanpa epinefrin (vasokonstriktor tidak diperlukan di area genital) dengan dosis aman maksimum 4,5 mg/kgBB; untuk dewasa 60 kg setara ~27 ml. Tanda toksisitas: pusing, tinnitus, kejang, aritmia.",
+      "type": "drug",
+      "aliases": [
+        "lidocaine",
+        "xylocaine"
+      ]
+    },
+    {
+      "id": "gls_perineum_oasi_01",
+      "term": "OASI (Obstetric Anal Sphincter Injury)",
+      "def": "Cedera obstetri yang mengenai sfingter ani, terdiri dari robekan derajat 3 (sfingter ani eksternal dan/atau internal) dan derajat 4 (sfingter + mukosa rektum). Bukan kompetensi repair sederhana dokter umum; wajib dirujuk ke SpOG/operator terlatih dan memerlukan antibiotik profilaksis.",
+      "type": "clinical",
+      "aliases": [
+        "cedera sfingter ani obstetri",
+        "obstetric anal sphincter injury"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_perineum_01",
+      "term_id": "Penjahitan robekan perineum",
+      "term_en": "Perineal laceration repair",
+      "context": "Tindakan obstetri untuk menutup robekan jalan lahir pasca-persalinan dengan teknik penjahitan berlapis."
+    },
+    {
+      "id": "bil_perineum_02",
+      "term_id": "Derajat robekan",
+      "term_en": "Degree of perineal tear",
+      "context": "Klasifikasi robekan perineum derajat 1-4 berdasarkan struktur yang terkena (mukosa, otot, sfingter ani, mukosa rektum)."
+    },
+    {
+      "id": "bil_perineum_03",
+      "term_id": "Pemeriksaan rektal",
+      "term_en": "Rectal examination",
+      "context": "Tindakan memasukkan jari ke rektum untuk menilai sfingter ani (sebelum repair) dan memastikan tidak ada jahitan menembus rektum (setelah repair)."
+    },
+    {
+      "id": "bil_perineum_04",
+      "term_id": "Anestesi infiltrasi lokal",
+      "term_en": "Local infiltration anesthesia",
+      "context": "Teknik anestesi dengan menyuntikkan lidokain 1% ke jaringan sekitar luka dalam pola kipas dengan aspirasi terlebih dahulu."
+    },
+    {
+      "id": "bil_perineum_05",
+      "term_id": "Jahitan berlapis",
+      "term_en": "Layered (multilayer) suturing",
+      "context": "Teknik penjahitan yang menutup luka lapis demi lapis dari mukosa vagina, otot perineum, hingga kulit, untuk mengembalikan anatomi dan mencegah dead space."
+    },
+    {
+      "id": "bil_perineum_06",
+      "term_id": "OASI (Obstetric Anal Sphincter Injury)",
+      "term_en": "Obstetric Anal Sphincter Injury",
+      "context": "Robekan perineum derajat 3 atau 4 yang mengenai sfingter ani — bukan kompetensi repair sederhana dan wajib dirujuk."
+    },
+    {
+      "id": "bil_perineum_07",
+      "term_id": "Posisi litotomi",
+      "term_en": "Lithotomy position",
+      "context": "Posisi pasien telentang dengan tungkai fleksi-abduksi di penyangga; standar untuk prosedur obstetri-ginekologi termasuk repair perineum."
+    },
+    {
+      "id": "bil_perineum_08",
+      "term_id": "Informed consent",
+      "term_en": "Informed consent",
+      "context": "Persetujuan tindakan medis yang diberikan pasien setelah menerima penjelasan tujuan, prosedur, risiko, dan alternatif."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_perineum_derajat_robekan_01",
+      "module_id": "mod_obgyn_skill_penjahitan_robekan_perineum_005",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Clean medical diagram, perineal tear degree 1 2 3 4, cross-section schematic, Indonesian labels (kulit, otot perineum, sfingter ani, mukosa rektum), non-bloody, educational poster. Untuk bahan belajar OSCE.",
+      "alt": "Diagram penampang melintang perineum wanita yang menunjukkan empat derajat robekan: derajat 1 (mukosa vagina/kulit perineum), derajat 2 (otot perineum, sfingter utuh), derajat 3 (sfingter ani ruptur), derajat 4 (sfingter ani ruptur dan mukosa rektum robek). Label struktur anatomi dalam Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/derajat_robekan_perineum.png"
+    },
+    {
+      "id": "visual_perineum_jahitan_berlapis_02",
+      "module_id": "mod_obgyn_skill_penjahitan_robekan_perineum_005",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Step-by-step medical illustration of second-degree perineal repair on simulation model, layers: vaginal mucosa, perineal muscle, subcutaneous tissue, skin, Indonesian labels, non-graphic. Gaya clean medical illustration.",
+      "alt": "Ilustrasi langkah demi langkah penjahitan robekan perineum derajat 2 pada model simulasi: jahitan mukosa vagina (1 cm di atas apex), jahitan otot perineum, jahitan subkutis, dan jahitan kulit. Label setiap lapisan dalam Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/jahitan_berlapis.png"
+    },
+    {
+      "id": "visual_perineum_infiltrasi_lidokain_03",
+      "module_id": "mod_obgyn_skill_penjahitan_robekan_perineum_005",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Medical training diagram showing local anesthetic infiltration fan pattern along perineal tear edges, syringe, aspiration reminder (tidak ada darah kembali sebelum menyuntik), Indonesian labels. Gaya clean medical illustration.",
+      "alt": "Diagram pelatihan medis yang menunjukkan pola infiltrasi anestesi lokal secara kipas (fan pattern) di sepanjang tepi robekan perineum, dengan spuit dan pengingat aspirasi (tidak ada darah kembali sebelum menyuntik). Label dalam Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/infiltrasi_lidokain_fan_pattern.png"
+    },
+    {
+      "id": "visual_perineum_pemeriksaan_rektal_04",
+      "module_id": "mod_obgyn_skill_penjahitan_robekan_perineum_005",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Schematic medical illustration of gloved index finger performing rectal examination after perineal repair, Indonesian labels, non-graphic, clean style. Tujuannya untuk safety check akhir agar tidak ada jahitan menembus rektum.",
+      "alt": "Skema ilustrasi medis jari telunjuk bersarung tangan melakukan pemeriksaan rektal setelah repair perineum sebagai safety check akhir untuk memastikan tidak ada jahitan menembus dinding rektum. Label dalam Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/pemeriksaan_rektal_akhir.png"
+    },
+    {
+      "id": "visual_perineum_anatomi_normal_05",
+      "module_id": "mod_obgyn_skill_penjahitan_robekan_perineum_005",
+      "section_id": "s11",
+      "type": "anatomy_3d",
+      "generation_prompt": "Clean medical cross-section of normal female perineal anatomy, labeled in Indonesian (vagina, uretra, otot perineum, sfingter ani, rektum), educational style, non-bloody. Untuk memahami struktur yang akan dijahit pada repair perineum.",
+      "alt": "Diagram penampang melintang anatomi perineum wanita normal yang menunjukkan hubungan vagina, uretra, otot perineum, sfingter ani, dan rektum. Label dalam Bahasa Indonesia untuk membantu pemahaman struktur yang akan dijahit pada repair perineum.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/anatomi_perineum_normal.png"
+    },
+    {
+      "id": "visual_perineum_set_repair_06",
+      "module_id": "mod_obgyn_skill_penjahitan_robekan_perineum_005",
+      "section_id": "s11",
+      "type": "table",
+      "generation_prompt": "Flat lay medical illustration of perineal repair instrument set: needle holder, anatomical forceps, surgical forceps, suture scissors, needle, absorbable suture (vicryl 2-0), sterile gauze, lidocaine 1% vial, 10 ml syringe, povidone iodine, sterile gloves, label Bahasa Indonesia. Clean medical photography style on a sterile blue drape.",
+      "alt": "Tampak atas set instrumen repair perineum: needle holder, pinset anatomis, pinset chirurgis, gunting benang, jarum, benang absorbable (vicryl 2-0), kasa steril, vial lidokain 1%, spuit 10 ml, povidone iodine, sarung tangan steril. Label dalam Bahasa Indonesia di alas biru steril.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_penjahitan_robekan_perineum_005/assets/set_instrumen_repair.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Standar penjadwalan kontrol pasca-repair perineum",
+      "source_reference": "Rekomendasi standar FKIK Universitas Jambi untuk kontrol nifas dan luka repair perineum",
+      "confidence": "high",
+      "note": "[DITAMBAHKAN SAAT STANDARDISASI] Konten pada §8 (jadwal kontrol 1 minggu, 2 minggu, 6 minggu) mengikuti rekomendasi standar FKIK Universitas Jambi; pada pasien nyata, jadwal mengikuti SOP fasilitas."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Manajemen komplikasi pasca-repair perineum",
+      "source_reference": "Rekomendasi standar FKIK Universitas Jambi untuk manajemen komplikasi prosedur repair perineum",
+      "confidence": "high",
+      "note": "[DITAMBAHKAN SAAT STANDARDISASI] Manajemen komplikasi intraprosedural dan pasca-prosedur pada §11 mengikuti rekomendasi standar FKIK Universitas Jambi; pada pasien nyata, dosis dan protokol spesifik mengikuti SOP fasilitas."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Pola komunikasi edukasi OSCE untuk pasien pasca-repair perineum",
+      "source_reference": "Pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "[DITAMBAHKAN SAAT STANDARDISASI] Contoh kalimat edukasi spesifik pada §12 mengikuti pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi; pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario pasien."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Format dokumentasi SOAP dan kode ICD-10 repair perineum",
+      "source_reference": "Standar puskesmas dan RS pendidikan untuk dokumentasi SOAP repair perineum",
+      "confidence": "high",
+      "note": "[DITAMBAHKAN SAAT STANDARDISASI] Format SOAP dan daftar kode ICD-10 pada §13 mengikuti standar puskesmas dan RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "Pola komunikasi verbal pembuka tindakan repair perineum",
+      "source_reference": "Pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "[DITAMBAHKAN SAAT STANDARDISASI] Kalimat-kalimat checklist verbal pada Lampiran D konsisten dengan pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi; kalimat final harus disesuaikan dengan skenario pasien pada pelaksanaan OSCE."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Mengenal robekan perineum derajat 1-4, skenario klinis utama Ny. Rina postpartum 1 jam, dan target penilaian OSCE untuk station repair perineum.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Sumber dokumen utama modul ini adalah Checklist PDF berjudul \"Penuntun Belajar Penjahitan Robekan Perineum\" (FKIK Universitas Jambi) yang diperkaya dengan materi SKDI 4A tentang ruptur perineum tingkat 1-2, mencakup diagnosis klinis, klasifikasi derajat, teknik repair, edukasi, dan red flags rujukan. Modul ini difokuskan pada prosedur repair perineum derajat 1-2 dengan perhatian utama pada urutan tindakan yang dinilai saat OSCE, alasan klinis sederhana, kesalahan fatal, edukasi pasien, dan kaitan dengan penyakit SKDI 4A.",
+          "tone": "narrative",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Inti satu kalimat dari file sumber: \"Penjahitan robekan perineum bertujuan mengembalikan anatomi vagina-perineum, menghentikan perdarahan, mengurangi nyeri, mencegah infeksi, dan memastikan tidak ada cedera sfingter ani/rektum.\" Empat struktur utama yang wajib dipahami adalah robekan derajat 1 (mukosa vagina dan/atau kulit perineum saja; kadang tidak perlu jahitan bila kecil dan tidak berdarah, tetapi luka tetap dinilai), derajat 2 (mukosa/kulit ditambah otot perineum dengan sfingter ani utuh — kompetensi utama modul ini, dilakukan repair berlapis dengan benang absorbable), derajat 3 (mengenai sfingter ani eksternal/internal — wajib dirujuk atau dikerjakan operator terlatih, jangan dianggap derajat 2), dan derajat 4 (sfingter ani ditambah mukosa rektum — rujuk emergensi karena risiko inkontinensia dan fistula).",
+          "tone": "clinical",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Dua poin paling penting dari file sumber harus dihafal: pertama, sebelum menjahit, lihat puncak luka (apex), kedalaman luka, dan perdarahan aktif; kedua, setelah menjahit, lakukan pemeriksaan rektal untuk memastikan tidak ada jahitan menembus rektum. Modul ini bukan hanya tentang \"menjahit\" — yang dinilai di OSCE adalah asesmen derajat robekan, informed consent, anestesi lokal dengan aspirasi, jahitan berlapis, kontrol perdarahan, pemeriksaan rektal akhir, dan edukasi nifas. Pada station OSCE, penguji biasanya memberi skenario ibu postpartum dengan robekan perineum dan meminta Anda menilai derajat, menjahit (verbal atau demonstrasi pada manekin), dan melakukan edukasi.",
+          "tone": "clinical",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Skenario klinis utama yang digunakan konsisten di seluruh modul: Ny. Rina, 26 tahun, G1P1A0, postpartum 1 jam post persalinan normal spontan. Bayi laki-laki 3.200 gram dengan Apgar 8/9. Plasenta lahir lengkap 10 menit. TFU 2 jari di bawah pusat, kontraksi keras. Saat pemeriksaan jalan lahir, ditemukan robekan perineum mencapai otot perineum dengan sfingter ani utuh, dan perdarahan aktif dari robekan. Ibu kooperatif dan suami mendampingi. Identitas pasien ini digunakan di §1, §9, §13, §15, dan Lampiran C untuk konsistensi skenario.",
+          "tone": "narrative",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Prinsip utama yang harus selalu diingat: \"Poin paling penting: sebelum menjahit, lihat puncak luka, kedalaman luka, perdarahan aktif, dan setelah menjahit lakukan pemeriksaan rektal untuk memastikan tidak ada jahitan menembus rektum.\" Pada pasien nyata, tindakan obstetri harus dilakukan oleh operator kompeten dengan informed consent, monitoring ibu-janin, kesiapan resusitasi, SOP fasilitas, dan supervisi klinis; materi ini untuk simulasi OSCE dan belajar. Saat belajar 3 hari menjelang OSCE, hafalkan urutan checklist terlebih dahulu, lalu pahami alasan klinisnya.",
+          "tone": "narrative",
+          "source": "§1 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alur cepat penjahitan robekan perineum (10 langkah dari file sumber):",
+          "sub": [
+            "Dekontaminasi sarung tangan lama, siapkan set jahit, benang absorbable, jarum, needle holder, pinset, spuit 10 ml, lidokain 1% tanpa epinefrin.",
+            "Posisikan ibu litotomi dengan bokong di ujung tempat tidur, kain bersih di bawah bokong, lampu diarahkan ke vulva/perineum.",
+            "Pakai sarung tangan, bersihkan darah/bekuan, nilai ulang luas dan kedalaman robekan.",
+            "Beritahu ibu akan disuntik; lakukan infiltrasi lidokain di kedua tepi luka dengan aspirasi tiap kali sebelum menyuntik.",
+            "Tunggu 1-2 menit agar anestesi bekerja optimal.",
+            "Inspeksi ulang luka, bila perlu pasang tampon/kasa berekor untuk visualisasi.",
+            "Jahit 1 cm di atas puncak luka (apex) di vagina; lanjutkan jahitan jelujur mukosa vagina hingga belakang himen.",
+            "Jika luka dalam, buat jahitan terputus pada bagian dalam untuk menutup dead space.",
+            "Lanjutkan jahitan perineum dan subkutis; buat simpul akhir; potong sisa benang sekitar 1 cm.",
+            "Keluarkan tampon, lakukan pemeriksaan rektal, edukasi perawatan luka, dokumentasi, dan lanjutkan prinsip kebersihan/keamanan."
+          ],
+          "bold": true,
+          "source": "§2 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Lima tips nilai tinggi OSCE repair perineum",
+          "text": "1) Selalu nilai derajat robekan dulu — tidak langsung menjahit. 2) Aspirasi sebelum menyuntik lidokain — mencegah injeksi intravaskular. 3) Jahit 1 cm di atas puncak luka — agar tidak ada perdarahan dari apex. 4) Pemeriksaan rektal akhir adalah poin keselamatan besar — pastikan jahitan tidak menembus rektum. 5) Jangan menjahit derajat 3-4 sendiri — rujuk.",
+          "answer_evidence": "Checklist Penuntun Belajar Penjahitan Robekan Perineum FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pesan kunci penguji",
+          "text": "\"Sebelum menjahit, lihat puncak luka, kedalaman luka, perdarahan aktif, dan setelah menjahit lakukan pemeriksaan rektal untuk memastikan tidak ada jahitan menembus rektum.\" Kalimat ini wajib muncul dalam verbalisasi Anda.",
+          "answer_evidence": "Penuntun Belajar Penjahitan Robekan Perineum, FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_perineum_derajat_robekan_01"
+      ],
+      "glossary_refs": [
+        "gls_perineum_laserasi_01",
+        "gls_perineum_episiotomi_01",
+        "gls_perineum_oasi_01"
+      ],
+      "bilingual": "Section ini memperkenalkan konteks OSCE repair perineum dan skenario klinis utama. Perhatikan empat derajat robekan yang menentukan apakah repair dapat dilakukan sendiri (derajat 1-2) atau wajib dirujuk (derajat 3-4)."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "20 item checklist OSCE yang menerjemahkan 29 item checklist sumber ke dalam langkah praktis dengan kalimat yang dapat diucapkan.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Checklist OSCE pada modul ini diterjemahkan dari 29 item checklist sumber menjadi 20 baris langkah praktis, dengan empat kolom: item checklist, cara melakukan agar skor maksimal, kalimat yang dapat diucapkan, dan kesalahan yang menurunkan nilai. Setiap baris checklist adalah poin yang biasa dinilai di station OSCE repair perineum. Kalimat pada kolom \"Kalimat yang Dapat Diucapkan\" adalah pola yang harus diucapkan dengan suara keras, bukan hanya di kepala.",
+          "tone": "clinical",
+          "source": "§3 file sumber"
+        },
+        {
+          "text": "Checklist urutan 1-5: (1) Dekontaminasi sarung tangan lama, siapkan set jahit — sarung tangan lama rendam klorin 0,5%, alat jahit disusun steril di meja; kalimat: \"Saya dekontaminasi sarung tangan lama dan menyiapkan set jahit steril.\" (2) Siapkan benang absorbable, jarum, needle holder, pinset, spuit 10 ml, lidokain 1% — cek benang absorbable (Polyglactin 910/catgut), jarum sesuai, alat steril, spuit 10 ml, lidokain 1% tanpa epinefrin; kalimat: \"Alat sudah lengkap: benang absorbable, jarum, needle holder, pinset, spuit, lidokain 1% tanpa epinefrin.\" (3) Posisikan ibu litotomi dengan bokong di ujung tempat tidur, kain bersih, lampu — bokong sedikit melewati tepi meja, kain bersih di bawah, lampu sorot diarahkan ke vulva; kalimat: \"Ibu, saya posisikan litotomi dan lampu saya arahkan ke area robekan.\" (4) Pakai sarung tangan steril, bersihkan darah/bekuan, nilai ulang robekan — sarung tangan steril/DTT, kasa steril bersihkan area, identifikasi puncak luka, kedalaman, struktur terkena; kalimat: \"Saya pakai sarung tangan steril, bersihkan luka, dan menilai ulang robekan: derajat 2, otot perineum terkena, sfingter ani utuh.\" (5) Beritahu ibu akan disuntik; infiltrasi lidokain dengan aspirasi — informed consent verbal, suntik lidokain 1% di kedua tepi luka, aspirasi setiap kali sebelum menyuntik untuk mencegah intravaskular; kalimat: \"Ibu, saya akan menyuntik obat anestesi di sekitar luka. Ibu mungkin merasa sedikit perih. Saya aspirasi dulu untuk keamanan.\"",
+          "tone": "clinical",
+          "source": "§3 file sumber"
+        },
+        {
+          "text": "Checklist urutan 6-10: (6) Tunggu 1-2 menit agar anestesi bekerja — tunggu, tanya pasien apakah masih nyeri saat ditekan ringan dengan pinset; kalimat: \"Saya tunggu 1-2 menit agar anestesi bekerja. Ibu, apakah masih terasa nyeri?\" (7) Inspeksi ulang, pasang tampon/kasa berekor bila perdarahan mengganggu visualisasi — kasa berekor di vagina atas (di luar robekan) untuk menyerap darah; kalimat: \"Saya pasang kasa berekor untuk visualisasi yang lebih baik.\" (8) Jahit 1 cm di atas puncak luka di vagina — jahitan pertama 1 cm di atas apex luka untuk memastikan tidak ada perdarahan dari puncak; kalimat: \"Saya jahit 1 cm di atas puncak luka agar perdarahan dari apex dapat dikontrol.\" (9) Jahitan jelujur mukosa vagina hingga belakang himen — lanjutkan jahitan jelujur kontinu dari atas ke bawah, mengikuti tepi luka, sampai di belakang himen; kalimat: \"Saya lanjutkan jahitan jelujur mukosa vagina sampai di belakang himen.\" (10) Jahitan terputus pada bagian dalam jika ada dead space — buat jahitan interrupted (terputus) pada lapisan otot perineum yang dalam untuk menutup rongga kosong; kalimat: \"Karena luka dalam, saya buat jahitan terputus untuk menutup dead space.\"",
+          "tone": "clinical",
+          "source": "§3 file sumber"
+        },
+        {
+          "text": "Checklist urutan 11-15: (11) Lanjutkan jahitan perineum dan subkutis — lanjutkan jahitan interrupted atau kontinu pada lapisan otot perineum, subkutis, dan kulit; kalimat: \"Saya lanjutkan jahitan perineum dan subkutis.\" (12) Buat simpul akhir, potong sisa benang sekitar 1 cm — simpul di belakang himen, potong benang 1 cm dari simpul; kalimat: \"Simpul akhir di belakang himen, benang saya potong 1 cm.\" (13) Keluarkan tampon/kasa berekor — tarik kasa berekor keluar dengan hati-hati, hitung jumlah kasa; kalimat: \"Saya keluarkan kasa berekor, ada 1 kasa.\" (14) Pemeriksaan rektal akhir — masukkan jari telunjuk ke rektum, raba dinding anterior rektum: apakah ada jahitan/simpul yang menembus? kalimat: \"Saya masukkan jari ke rektum untuk memastikan jahitan tidak menembus dinding rektum.\" (15) Evaluasi perdarahan, bersihkan area, lepaskan sarung tangan — pastikan tidak ada perdarahan aktif, bersihkan dengan kasa, lepas sarung tangan terbalik; kalimat: \"Tidak ada perdarahan aktif. Saya bersihkan area.\"",
+          "tone": "clinical",
+          "source": "§3 file sumber"
+        },
+        {
+          "text": "Checklist urutan 16-20: (16) Dekontaminasi alat, buang bahan habis pakai — instrumen rendam klorin 0,5% 10 menit, jarum di safety box, kasa di kantong kuning; kalimat: \"Alat saya rendam klorin, jarum di safety box, kasa di kantong kuning.\" (17) Cuci tangan ulang — cuci tangan 6 langkah, sabun dan air mengalir; kalimat: \"Saya cuci tangan ulang.\" (18) Dokumentasi SOAP — S, O, A, P lengkap; derajat robekan, jahitan, komplikasi; kalimat: \"Saya dokumentasikan SOAP: derajat 2, jahitan berlapis dengan catgut, perdarahan minimal.\" (19) Edukasi keluarga — perawatan luka, tanda bahaya, kontrol 1 minggu — bahasa awam, basuh depan ke belakang, hindari konstipasi, kontrol 1 minggu, kembali segera bila tanda bahaya; kalimat: \"Ibu, luka harus dijaga bersih. Basuh dari depan ke belakang setiap habis BAK/BAB. Kontrol 1 minggu. Segera kembali bila demam, nyeri bertambah, bau busuk, luka terbuka, atau sulit menahan BAB/angin.\" (20) Penutup station — salam, kesiapan ibu — pastikan ibu nyaman, ketersediaan analgesik; kalimat: \"Terima kasih, Bu. Saya doakan Ibu cepat pulih. Ada pertanyaan?\"",
+          "tone": "clinical",
+          "source": "§3 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kesalahan yang menurunkan nilai dari setiap item checklist:",
+          "sub": [
+            "Item 1: tidak dekontaminasi sarung tangan.",
+            "Item 2: benang non-absorbable untuk mukosa (salah).",
+            "Item 3: posisi tidak tepat atau lampu redup.",
+            "Item 4: tidak menyebut klasifikasi derajat robekan.",
+            "Item 5: tidak aspirasi — risiko injeksi intravaskular.",
+            "Item 6: langsung menjahit tanpa menunggu anestesi.",
+            "Item 7: tidak melihat jelas, langsung menjahit \"buta\".",
+            "Item 8: apex luka tidak dijahit — perdarahan menetap.",
+            "Item 9: jahitan tidak kontinu atau longgar.",
+            "Item 10: tidak menutup dead space — risiko hematoma.",
+            "Item 11: tidak menjahit seluruh lapisan.",
+            "Item 12: benang terlalu panjang atau terlalu pendek.",
+            "Item 13: lupa mengeluarkan kasa.",
+            "Item 14: tidak melakukan pemeriksaan rektal — skor hangus.",
+            "Item 15: tidak evaluasi perdarahan.",
+            "Item 16: tidak dekontaminasi alat.",
+            "Item 17: tidak cuci tangan.",
+            "Item 18: tidak dokumentasi SOAP.",
+            "Item 19: tidak edukasi atau edukasi generik.",
+            "Item 20: tutup station tanpa salam."
+          ],
+          "bold": false,
+          "source": "§3 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan tentang kalimat OSCE",
+          "text": "Kalimat di kolom \"Kalimat yang Dapat Diucapkan\" adalah pola yang harus diucapkan dengan suara keras, bukan hanya di kepala. Penguji menilai apakah Anda verbalisasi setiap temuan dan langkah, sehingga mereka tahu Anda menemukan apa dan melakukan apa.",
+          "answer_evidence": "Rubrik penilaian OSCE Skill Lab FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Item checklist paling kritis",
+          "text": "Item 14 (Pemeriksaan rektal akhir) — bila tidak dilakukan, skor hangus untuk komponen keselamatan karena jahitan bisa menembus rektum tanpa disadari. Item 8 (Jahit 1 cm di atas puncak) dan Item 5 (Aspirasi sebelum injeksi lidokain) juga fatal bila terlewat.",
+          "answer_evidence": "Checklist 29 item Penuntun Belajar Penjahitan Robekan Perineum, FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_perineum_jahit_interrupted_01",
+        "gls_perineum_jahit_kontinu_01",
+        "gls_perineum_dead_space_01"
+      ],
+      "bilingual": "Section ini memuat 20-item checklist OSCE repair perineum yang harus dihafal. Setiap item punya pola kalimat yang diucapkan, kesalahan umum, dan bobot penilaian. Pelafalan dengan suara keras adalah kunci."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis pada station repair perineum berfungsi untuk konfirmasi identitas, asesmen derajat robekan, dan informed consent; red flags wajib ditanyakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station repair perineum berfungsi sebagai (1) konfirmasi identitas dan kondisi pasien postpartum, (2) asesmen derajat robekan dan kesiapan untuk repair, dan (3) informed consent karena tindakan ini invasif dan memerlukan penjelasan risiko. Prinsip utama anamnesis adalah menjawab empat pertanyaan kunci: kapan robekan terjadi (postpartum beberapa menit/jam), berapa derajat robekan (klasifikasi 1-4), apakah ada riwayat alergi obat terutama lidokain, dan apakah ada faktor risiko seperti persalinan lama, bayi besar, forceps, atau vakum.",
+          "tone": "clinical",
+          "source": "§4 file sumber"
+        },
+        {
+          "text": "Cara berpikir praktis — empat pertanyaan kunci yang tidak boleh terlewat saat anamnesis: (1) Apakah derajat robekan sudah terkonfirmasi dan sfingter ani utuh? (2) Apakah ada alergi terhadap lidokain atau anestesi lokal? (3) Apakah ada tanda perdarahan aktif atau syok? (4) Apakah ada faktor penyulit seperti riwayat koagulopati, HIV, atau hepatitis B? Keempat pertanyaan ini menentukan apakah repair dapat dilakukan sendiri, perlu stabilisasi dulu, atau harus dirujuk ke fasilitas dengan SpOG.",
+          "tone": "clinical",
+          "source": "§4 file sumber"
+        },
+        {
+          "text": "Tabel pertanyaan anamnesis wajib beserta alasan klinis dan tindakan bila bermasalah: identitas dan keluhan (konfirmasi pasien, ada/tidak keluhan tambahan; anomali identitas → cek ulang); riwayat persalinan (cara, lama, komplikasi) untuk faktor risiko robekan (bayi besar, persalinan lama, forceps/vakum; curiga robekan derajat lebih tinggi → evaluasi lebih teliti); riwayat alergi obat terutama lidokain (mencegah reaksi alergi saat anestesi lokal; alergi → ganti anestesi bupivakain sesuai SOP); riwayat perdarahan postpartum (curiga koagulopati; riwayat → cek Hb, golongan darah, cross-match); keluhan saat ini berupa perdarahan aktif, nyeri, sulit BAB (asesmen urgensi dan derajat robekan; perdarahan aktif → prioritaskan repair segera); obat yang sedang diminum termasuk antikoagulan (risiko perdarahan; antikoagulan → konsultasikan); kemampuan komunikasi (menentukan kebutuhan pendampingan; cemas berat → tenangkan, anjurkan pendamping); riwayat robekan perineum sebelumnya (faktor risiko robekan berulang; riwayat → waspadai jaringan parut); dan status menyusui (memilih analgesik yang aman untuk menyusui; menyusui → pilih analgesik yang aman seperti parasetamol atau ibuprofen).",
+          "tone": "clinical",
+          "source": "§4 file sumber"
+        },
+        {
+          "text": "Red flags yang wajib ditanyakan atau dicari saat anamnesis: robekan derajat 3-4 (OASI) — sfingter ani atau mukosa rektum terkena; bukan kompetensi repair sederhana, rujuk atau kerjakan operator terlatih. Hematoma vulva/vagina — nyeri berat, benjolan kebiruan, syok; rujuk emergensi. Perdarahan aktif dari robekan — prioritaskan repair segera; pada perdarahan masif, stabilisasi hemodinamik dulu. Tanda syok (hipotensi, takikardia, akral dingin) — kegawatdaruratan, resusitasi dan rujuk. Infeksi luka aktif (nyeri, kemerahan, pus) — tunda repair sampai infeksi terkontrol. Koagulopati atau penggunaan antikoagulan — risiko perdarahan, konsultasikan. Robek berulang atau jaringan parut luas — kemungkinan derajat lebih tinggi, evaluasi ulang. Cedera rektum curiga (darah dari anus, robekan memanjang) — derajat 4, rujuk.",
+          "tone": "clinical",
+          "source": "§4 file sumber (Red Flags H2)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tujuh komponen informed consent yang harus dijelaskan pada pasien repair perineum:",
+          "sub": [
+            "Tujuan tindakan: menghentikan perdarahan dan mengembalikan bentuk normal jalan lahir.",
+            "Prosedur: menyuntik anestesi lokal, menjahit lapis demi lapis.",
+            "Rasa tidak nyaman: perih sesaat saat penyuntikan, lalu kebal di area tersebut.",
+            "Risiko: perdarahan, infeksi, reaksi alergi anestesi (sangat jarang).",
+            "Alternatif: tidak dilakukan repair (observasi), atau rujukan ke SpOG.",
+            "Hak menolak: pasien boleh menolak dan ini akan didokumentasikan.",
+            "Tanda tangan di lembar persetujuan setelah memahami penjelasan."
+          ],
+          "bold": true,
+          "source": "§4 + §15 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flags anamnesis — wajib tanyakan",
+          "text": "Robekan derajat 3-4 (OASI), hematoma vulva/vagina, perdarahan aktif atau syok, infeksi luka aktif, koagulopati/antikoagulan, robekan berulang dengan jaringan parut luas, dan cedera rektum curiga. Keberadaan salah satu red flag menunda repair sederhana dan mengaktifkan protokol rujukan.",
+          "answer_evidence": "SKDI 4A ruptur perineum tingkat 1-2 dan Lampiran A modul"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_perineum_laserasi_01",
+        "gls_perineum_informed_consent_01",
+        "gls_perineum_oasi_01"
+      ],
+      "bilingual": "Section ini memuat anamnesis terpokus dan red flags. Informed consent adalah komponen wajib di station OSCE — verbalisasi penjelasan dan tunggu persetujuan pasien."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan tanda vital, abdomen, inspeksi jalan lahir (vulva-vagina-serviks-perineum), dan pemeriksaan rektal sebelum serta sesudah repair.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan tanda vital dan umum pada ibu postpartum: ukur TD, nadi, suhu, pernapasan, dan SpO2. Nilai kesadaran dengan AVPU (alert-verbal-pain-unresponsive). Periksa konjungtiva untuk tanda anemia (penting bila perdarahan banyak). Lakukan estimasi darah yang keluar (kasa, beku darah di bokong, pembalut). Nilai normal ibu postpartum: TD <140/90 mmHg, nadi 60-100 kali per menit, suhu 36,0-37,5°C, RR 12-20, SpO2 ≥95%. Interpretasi bila abnormal: TD <90/60 + nadi >120 + pucat → curiga syok, stabilisasi dulu; nyeri hebat + benjolan kebiruan → curiga hematoma; suhu >38°C → curiga infeksi, tunda repair kecuali emergensi. Kalimat OSCE: \"Tekanan darah 110/70 mmHg, nadi 88, suhu 36,8°C. Konjungtiva tidak pucat, tidak ada tanda syok. Tanda vital dalam batas normal untuk ibu postpartum.\"",
+          "tone": "clinical",
+          "source": "§5 H2 TTV file sumber"
+        },
+        {
+          "text": "Pemeriksaan abdomen: inspeksi tinggi fundus dan kontraksi; palpasi kontraksi uterus keras dan tinggi fundus 2 jari di bawah pusat (postpartum 1 jam) atau setinggi pusat (postpartum beberapa menit). Nilai normal: fundus teraba 2 jari di bawah pusat atau setinggi pusat, kontraksi keras. Interpretasi bila abnormal: fundus lembek + perdarahan → curiga atonia uteri (perlu uterotonika); fundus tinggi → curiga sisa plasenta atau perdarahan internal. Kalimat OSCE: \"TFU 2 jari di bawah pusat, kontraksi keras. Abdomen dalam batas normal.\"",
+          "tone": "clinical",
+          "source": "§5 H2 Abdomen file sumber"
+        },
+        {
+          "text": "Inspeksi jalan lahir (vulva, vagina, serviks, perineum) — kritis untuk modul ini. Posisi litotomi dengan lampu sorot. Inspeksi vulva: labia, uretra, perineum, anus. Inspeksi vagina: gunakan spekulum Sims atau pisahkan labia untuk melihat dinding vagina, forniks, serviks. Identifikasi puncak luka (apex): robekan bisa memanjang ke atas ke arah vagina; puncak harus diidentifikasi dan dijahit. Nilai kedalaman luka: epidermis, dermis, otot perineum, sfingter ani. Tentukan derajat robekan. Nilai normal: tidak ada robekan aktif; serviks utuh, tidak ada robekan serviks (bila ada, jahit terpisah); perineum utuh. Interpretasi bila abnormal (menentukan derajat): derajat 1 mukosa vagina atau kulit perineum saja; derajat 2 mukosa/kulit + otot perineum, sfingter ani utuh; derajat 3 mengenai sfingter ani eksternal/internal; derajat 4 sfingter ani + mukosa rektum. Kalimat OSCE: \"Inspeksi jalan lahir: robekan perineum derajat 2, mukosa vagina dan otot perineum terkena, sfingter ani utuh. Apex luka 1 cm di bawah forniks posterior. Serviks utuh, tidak ada robekan serviks.\"",
+          "tone": "clinical",
+          "source": "§5 H2 Inspeksi file sumber"
+        },
+        {
+          "text": "Pemeriksaan rektal (sebelum dan sesudah repair): sebelum repair, masukkan jari telunjuk ke rektum dan raba dinding anterior rektum — apakah robekan mencapai sfingter atau mukosa rektum? sesudah repair, masukkan jari telunjuk ke rektum dan raba dinding anterior rektum — apakah ada jahitan atau simpul yang menembus? Nilai normal: sfingter ani utuh (sebelum repair); tidak ada jahitan menembus rektum (sesudah repair). Interpretasi bila abnormal: sfingter ani teraba ruptur → derajat 3, bukan kompetensi repair sederhana, rujuk; mukosa rektum robek → derajat 4, emergency rujuk; jahitan menembus rektum (setelah repair) → HARUS dibuka dan dijahit ulang untuk mencegah fistula rektovaginal. Kalimat OSCE: \"Pemeriksaan rektal: sfingter ani utuh, tidak ada robekan mukosa rektum. Setelah repair, saya ulangi pemeriksaan rektal: tidak ada jahitan menembus rektum.\"",
+          "tone": "clinical",
+          "source": "§5 H2 Rektal file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Empat komponen pemeriksaan fisik pada station repair perineum:",
+          "sub": [
+            "Tanda vital dan umum (TD, nadi, suhu, RR, SpO2, kesadaran, konjungtiva).",
+            "Pemeriksaan abdomen (TFU dan kontraksi uterus).",
+            "Inspeksi jalan lahir (vulva, vagina, serviks, perineum) — identifikasi apex, kedalaman, struktur yang terkena.",
+            "Pemeriksaan rektal (sebelum dan sesudah repair) — sfingter utuh dan tidak ada jahitan menembus rektum."
+          ],
+          "bold": true,
+          "source": "§5 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Batas kompetensi repair sederhana",
+          "text": "Bila pemeriksaan rektal menunjukkan sfingter ani ruptur (derajat 3) atau mukosa rektum robek (derajat 4), ini BUKAN kompetensi repair sederhana dokter umum. Hentikan tindakan, stabilisasi awal, dan rujuk ke SpOG atau operator terlatih.",
+          "answer_evidence": "SKDI 4A tentang ruptur perineum tingkat 1-2"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pola verbalisasi untuk penguji",
+          "text": "Pada station OSCE, nilai klasifikasi derajat robekan dengan kalimat: \"Robekan perineum derajat X, mukosa vagina dan otot perineum terkena, sfingter ani utuh. Apex luka 1 cm di bawah forniks posterior. Serviks utuh, tidak ada robekan serviks.\"",
+          "answer_evidence": "Kalimat OSCE modul repair perineum FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_perineum_anatomi_normal_05",
+        "visual_perineum_derajat_robekan_01"
+      ],
+      "glossary_refs": [
+        "gls_perineum_laserasi_01",
+        "gls_perineum_sfingter_ani_01",
+        "gls_perineum_litotomi_01"
+      ],
+      "bilingual": "Section ini memuat empat komponen pemeriksaan fisik repair perineum. Pemeriksaan rektal pra-repair menentukan derajat robekan; pemeriksaan rektal pasc-repair adalah safety check utama."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat yang harus disiapkan, persiapan pasien, dan prosedur utama lima fase (persiapan, anestesi, jahitan berlapis, pemeriksaan rektal akhir, evaluasi).",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Alat yang harus disebutkan (minimum 5, dari file sumber): set jahit steril (needle holder, pinset anatomis, pinset chirurgis, gunting benang); benang absorbable Polyglactin 910 (Vicryl) 2-0 atau catgut chromic 2-0 — jangan gunakan benang non-absorbable untuk mukosa/kulit perineum (akan nyeri dan perlu dilepas); jarum (jarum bulat taper untuk jaringan lembut, jarum cutting untuk kulit — jarang dijahit di perineum karena biasanya subkutikuler); spuit 10 ml + jarum untuk lidokain; lidokain 1% tanpa epinefrin (anestesi lokal, maksimum 4,5 mg/kgBB = ~20 ml untuk dewasa 60 kg); kasa steril; lampu sorot; sarung tangan steril (wajib); povidone iodine (antiseptik); larutan klorin 0,5% untuk dekontaminasi pasca-tindakan; safety box untuk pembuangan jarum; kantong kuning untuk pembuangan bahan habis pakai terkontaminasi.",
+          "tone": "clinical",
+          "source": "§6 file sumber"
+        },
+        {
+          "text": "APD: sarung tangan steril (wajib), masker dan kacamata pelindung, apron plastik (bila ada). Cara mempersiapkan pasien: posisi litotomi dengan bokong sedikit melewati tepi tempat tidur persalinan dan tungkai fleksi-abduksi di penyangga; kain bersih di bawah bokong untuk menyerap darah dan memberikan alas kerja; lampu sorot diarahkan ke vulva; penjelasan tindakan (informed consent) dengan bahasa awam; privasi (tutup area yang tidak dikerjakan); pendampingan (suami/keluarga boleh mendampingi sesuai SOP). Momen cuci tangan sesuai WHO: sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien.",
+          "tone": "clinical",
+          "source": "§6 file sumber"
+        },
+        {
+          "text": "Fase persiapan prosedur repair perineum: (1) Informed consent — jelaskan tujuan, prosedur, rasa tidak nyaman, risiko, alternatif. (2) Tinjau riwayat alergi, perdarahan, dan persalinan. (3) Posisikan litotomi, lampu sorot, kain bersih. (4) Persiapan alat steril di meja steril — needle holder, pinset, gunting, benang, jarum, spuit, lidokain. (5) Pakai APD lengkap, sarung tangan steril. (6) Nilai ulang derajat robekan — inspeksi sebelum anestesi, klasifikasi 1-4, identifikasi puncak luka. (7) Pasang tampon atau kasa berekor di vagina bagian atas untuk visualisasi (bila perdarahan banyak). (8) Persiapkan lidokain dalam spuit. Keselamatan pasien di fase ini: informed consent, klasifikasi derajat, identifikasi robekan derajat 3-4 untuk rujukan. Tidak boleh menjahit derajat 3-4 sendiri.",
+          "tone": "clinical",
+          "source": "§7 H2 Fase Persiapan file sumber"
+        },
+        {
+          "text": "Fase pelaksanaan anestesi lokal: (1) Beritahu ibu akan disuntik. (2) Tusuk tepi luka dengan jarum, aspirasi sebelum menyuntik. (3) Injeksi lidokain sambil menarik jarum (teknik fan/kipas untuk infiltrasi). (4) Infiltrasi kedua sisi luka — baik tepi perineum maupun mukosa vagina. (5) Total dosis tidak melebihi 4,5 mg/kgBB (untuk dewasa 60 kg = ~270 mg = ~27 ml lidokain 1%). (6) Tunggu 1-2 menit agar anestesi bekerja. (7) Cek dengan pinset — apakah ibu masih merasa nyeri saat ditekan ringan. Teknik khusus anestesi lokal: aspirasi wajib (tarik plunger sebelum menyuntik; bila ada darah kembali, pindahkan posisi jarum); infiltrasi seperti kipas (fan pattern) — lidokain disuntik di sepanjang tepi luka dengan gerakan kipas agar infiltrasi merata; kedua sisi — infiltrasi di kedua tepi luka, bukan hanya satu sisi; dosis aman max 4,5 mg/kgBB lidokain 1%, untuk 60 kg = ~27 ml. Keselamatan pasien: aspirasi mencegah injeksi intravaskular, tunggu 1-2 menit, cek respons pasien. Jangan langsung menjahit tanpa menunggu anestesi.",
+          "tone": "clinical",
+          "source": "§7 H2 Fase Anestesi file sumber"
+        },
+        {
+          "text": "Fase pelaksanaan teknik jahitan berlapis: tujuan menutup anatomi dari dalam ke luar, menghentikan perdarahan, dan menghindari rongga kosong (dead space). Urutan penjahitan 5 lapisan/langkah: (1) Jahit 1 cm di atas puncak luka (apex) di mukosa vagina — tujuan mengontrol perdarahan dari apex yang sering luput terlihat, jahitan interrupted atau kontinu dengan benang absorbable. (2) Jahitan jelujur mukosa vagina (kontinu) — lanjutkan dari atas ke bawah mengikuti tepi luka sampai di belakang himen, tujuan mengembalikan kontinuitas mukosa vagina. (3) Jahitan terputus pada bagian dalam (bila ada dead space) — buat jahitan interrupted pada lapisan otot perineum yang dalam, tujuan menutup rongga kosong untuk mencegah hematoma dan infeksi. (4) Jahitan perineum (otot perineum utama) — lanjutkan dengan jahitan interrupted atau kontinu, tujuan mengembalikan integritas otot perineum. (5) Jahitan subkutis/kulit (bila perlu) — subkutikuler kontinu lebih direkomendasikan daripada interrupted (lebih nyaman), tujuan mengembalikan integritas kulit. (6) Simpul akhir dan potong benang di belakang himen, potong benang 1 cm dari simpul.",
+          "tone": "clinical",
+          "source": "§7 H2 Fase Jahitan file sumber"
+        },
+        {
+          "text": "Prinsip utama jahitan berlapis: dari dalam ke luar (lapisan terdalam dijahit lebih dulu), benang absorbable (tidak perlu dilepas), apex harus dijahit (puncak luka 1 cm di atas jahitan pertama), dead space harus ditutup (untuk mencegah hematoma), simpul di belakang himen (tidak mengganggu hubungan seksual). Keselamatan pasien di fase ini: verbalisasi setiap lapisan yang dijahit, jahitan sistematis, simpul rapi. Fase pelaksanaan pemeriksaan rektal akhir: masukkan jari telunjuk ke rektum setelah semua jahitan selesai; raba dinding anterior rektum (apakah ada jahitan/simpul yang menembus?); raba sfingter ani (apakah ada robekan yang terlewat?). Interpretasi: tidak ada jahitan menembus rektum → repair berhasil; ada jahitan menembus rektum → HARUS dibuka dan dijahit ulang untuk mencegah fistula rektovaginal; sfingter ani teraba ruptur → derajat 3, bukan kompetensi repair sederhana, rujuk. Keselamatan pasien: pemeriksaan rektal akhir adalah poin keselamatan besar — tanpa ini, jahitan menembus rektum bisa terjadi tanpa disadari → fistula.",
+          "tone": "clinical",
+          "source": "§7 H2 Fase Rektal Akhir file sumber"
+        },
+        {
+          "text": "Fase evaluasi dan konfirmasi: (1) Konfirmasi keberhasilan repair — semua lapisan dijahit (mukosa, otot, subkutis/kulit), tidak ada perdarahan aktif, pemeriksaan rektal: jahitan tidak menembus rektum. (2) Evaluasi efek samping langsung — perdarahan, nyeri, alergi (reaksi lidokain). (3) Dekontaminasi alat — rendam dalam klorin 0,5% 10 menit; buang habis pakai di safety box / kantong kuning. (4) Lepas APD dengan teknik terbalik; cuci tangan ulang. (5) Edukasi — perawatan luka, tanda bahaya, jadwal kontrol. (6) Dokumentasi SOAP — lengkap dan jelas. (7) Penutupan station — salam, kesiapan ibu, kontrol 1 minggu. Keselamatan pasien di fase ini: dekontaminasi tepat, dokumentasi, edukasi safety-net, dan pemeriksaan rektal akhir (jika belum).",
+          "tone": "clinical",
+          "source": "§7 H2 Fase Evaluasi file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Empat derajat robekan dengan kompetensi berbeda:",
+          "sub": [
+            "Derajat 1: mukosa vagina dan/atau kulit perineum saja — kadang tidak perlu dijahit; tetap nilai luka; bisa dikerjakan dokter umum.",
+            "Derajat 2: mukosa/kulit + otot perineum; sfingter ani utuh — kompetensi utama modul ini, repair berlapis dengan benang absorbable; bisa dikerjakan dokter umum (4A).",
+            "Derajat 3 (OASI): mengenai sfingter ani eksternal/internal — rujuk operator terlatih, jangan dianggap derajat 2 (3B).",
+            "Derajat 4 (OASI): sfingter ani + mukosa rektum — emergency rujuk; risiko inkontinensia/fistula (3B)."
+          ],
+          "bold": true,
+          "source": "§1 + §5 + §9 file sumber"
+        },
+        {
+          "text": "Pemilihan jenis benang untuk repair perineum:",
+          "sub": [
+            "Polyglactin 910 (Vicryl) 2-0 atau catgut chromic 2-0 — untuk lapisan otot perineum.",
+            "Vicryl 3-0 atau catgut chromic 3-0 — untuk mukosa vagina dan kulit.",
+            "Benang harus absorbable — tidak perlu dilepas.",
+            "Jangan gunakan benang non-absorbable untuk mukosa/kulit perineum — akan nyeri dan perlu dilepas."
+          ],
+          "bold": true,
+          "source": "§6 + §13 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Batas kompetensi derajat 3-4",
+          "text": "Robekan derajat 3 (sfingter ani ruptur) dan derajat 4 (sfingter + mukosa rektum) bukan kompetensi repair sederhana dokter umum. Wajib dirujuk ke SpOG atau operator terlatih. Menjahit sendiri → risiko OASI, inkontinensia, fistula, dan skor hangus.",
+          "answer_evidence": "SKDI 4A ruptur perineum tingkat 1-2; batas kompetensi 3B untuk OASI"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak boleh meninggalkan dead space",
+          "text": "Rongga kosong (dead space) di antara lapisan jahitan yang tidak ditutup berisiko menimbulkan hematoma dan infeksi. Tutup dengan jahitan interrupted pada lapisan otot perineum yang dalam.",
+          "answer_evidence": "Penuntun Belajar Penjahitan Robekan Perineum, FKIK Universitas Jambi; §7 H2 Fase Jahitan"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Mengapa 1 cm di atas apex?",
+          "text": "Jahitan pertama harus 1 cm di atas apex (puncak luka) untuk memastikan tidak ada perdarahan dari apex yang sering luput terlihat. Apex yang tidak dijahit menyebabkan perdarahan menetap dan menurunkan skor secara signifikan.",
+          "answer_evidence": "Prinsip repair perineum derajat 2 dari Penuntun Belajar FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan klinis",
+          "text": "Aspirasi penting untuk mencegah injeksi intravaskular lidokain. Tarik plunger sebelum menyuntik; bila ada darah kembali, pindahkan posisi jarum. Dosis aman maksimum 4,5 mg/kgBB lidokain 1% (untuk 60 kg = ~27 ml).",
+          "answer_evidence": "Praktik anestesi lokal dalam prosedur obstetri FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_perineum_jahitan_berlapis_02",
+        "visual_perineum_infiltrasi_lidokain_03",
+        "visual_perineum_set_repair_06"
+      ],
+      "glossary_refs": [
+        "gls_perineum_laserasi_01",
+        "gls_perineum_vicryl_01",
+        "gls_perineum_anestesi_infiltrasi_01",
+        "gls_perineum_litotomi_01",
+        "gls_perineum_apd_01",
+        "gls_perineum_jahit_interrupted_01",
+        "gls_perineum_jahit_kontinu_01",
+        "gls_perineum_dead_space_01",
+        "gls_perineum_lidokain_01"
+      ],
+      "bilingual": "Section ini memuat alat, persiapan, dan prosedur utama lima fase repair perineum. Empat derajat robekan wajib dibedakan dengan jelas. Jahitan berlapis dari dalam ke luar, dead space ditutup, simpul di belakang himen, dan pemeriksaan rektal akhir adalah safety check."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Sepuluh tindakan pasca-prosedur, evaluasi keberhasilan, prosedur terkait/varian, dan clinical reasoning untuk membedakan robekan yang bisa repair sendiri vs rujuk.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-repair perineum (10 langkah dari file sumber): (1) Keluarkan tampon/kasa berekor (bila dipasang) — hitung jumlah kasa. (2) Lakukan pemeriksaan rektal akhir — pastikan tidak ada jahitan menembus rektum. (3) Evaluasi perdarahan — tekan jahitan 1-2 menit dengan kasa, pastikan tidak ada perdarahan aktif. (4) Bersihkan area perineum — kasa dan antiseptik, pastikan ibu bersih dan nyaman. (5) Dekontaminasi alat — rendam dalam klorin 0,5% 10 menit; jarum di safety box, kasa di kantong kuning. (6) Lepas sarung tangan dengan teknik aman, cuci tangan dengan sabun-air mengalir. (7) Buat rekam medis — derajat robekan, jumlah jahitan, jenis benang, perdarahan, komplikasi. (8) Edukasi perawatan luka — basuh depan ke belakang, ganti pembalut, hindari konstipasi. (9) Kontrol 1 minggu — atau lebih cepat bila ada keluhan. (10) Penutup station — salam, kesiapan ibu.",
+          "tone": "clinical",
+          "source": "§8 file sumber"
+        },
+        {
+          "text": "Cara evaluasi keberhasilan prosedur: repair berhasil (tidak ada perdarahan aktif, jahitan rapi, tidak menembus rektum); ibu kooperatif dan tidak kesakitan; tanda vital stabil. Prosedur terkait dan varian: repair episiotomi (prinsip serupa repair perineum; jahitan dimulai dari mukosa vagina 1 cm di atas apex, lalu otot, subkutis/kulit); repair robekan derajat 1 (kadang tidak perlu dijahit bila kecil dan tidak berdarah; tetap nilai luka); repair robekan derajat 3-4/OASI (bukan kompetensi repair sederhana, rujuk ke operator terlatih/SpOG; repair memerlukan identifikasi sfingter ani, penjahitan khusus, dan antibiotik profilaksis); repair robekan serviks (menggunakan benang absorbable, di ruang operasi atau ruang bersalin; pada perdarahan aktif, jahit segera).",
+          "tone": "clinical",
+          "source": "§8 file sumber"
+        },
+        {
+          "text": "Jadwal kontrol pasca-repair: 1 minggu — cek luka, benang, infeksi; 2 minggu (bila ada keluhan) — evaluasi lanjutan; 6 minggu (kontrol nifas) — evaluasi keseluruhan nifas termasuk luka perineum; kapan saja — bila ada tanda bahaya. Kontrol nifas mencakup: observasi TTV, kontraksi uterus, perdarahan, lochia, laktasi, BAK/BAB, mood; edukasi kontrol 1 minggu atau lebih cepat sesuai SOP. [DITAMBAHKAN SAAT STANDARDISASI] — Jadwal kontrol di atas mengikuti rekomendasi standar FKIK Universitas Jambi; pada pasien nyata, jadwal mengikuti SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§8 file sumber"
+        },
+        {
+          "text": "Clinical reasoning pada station repair perineum berfokus pada asesmen derajat robekan dan menentukan apakah bisa dikerjakan sendiri atau perlu rujukan. Alur pikir klinis: Pertanyaan 1 — Apakah derajat robekan bisa dikonfirmasi? Derajat 1-2 bisa repair sendiri, derajat 3-4 rujuk. Pertanyaan 2 — Apakah ada syok atau perdarahan masif? Stabilisasi dulu. Pertanyaan 3 — Apakah ada alergi lidokain? Ganti anestesi. Pertanyaan 4 — Apakah ada infeksi aktif? Tunda repair sampai infeksi terkontrol.",
+          "tone": "clinical",
+          "source": "§9 file sumber"
+        },
+        {
+          "text": "Tabel diagnosis banding robekan perineum dan variasinya: robekan derajat 1 (mukosa vagina atau kulit perineum saja; kadang tidak perlu dijahit, tetap nilai); robekan derajat 2 (mukosa/kulit + otot perineum, sfingter utuh; repair berlapis, kompetensi 4A); robekan derajat 3/OASI (sfingter ani eksternal/internal terkena; rujuk operator terlatih); robekan derajat 4/OASI (sfingter ani + mukosa rektum; emergency rujuk); episiotomi (luka sayatan terkontrol mediolateral atau midline; repair serupa derajat 2); hematoma vulva/vagina (nyeri hebat, benjolan kebiruan, syok; evaluasi, rujuk untuk eksisi/drainase); robekan serviks (perdarahan dari serviks, robekan tak terlihat dari perineum; jahit dengan benang absorbable, di ruang operasi); robekan vagina tinggi (robekan ke arah forniks atau cavum Douglasi; jahit dengan forsep/tenakulum, evaluasi perdarahan).",
+          "tone": "clinical",
+          "source": "§9 file sumber"
+        },
+        {
+          "text": "Pembedaan cepat derajat 1-2 (bisa repair sendiri) versus derajat 3-4 (rujuk). Derajat 1-2: struktur terkena mukosa/kulit + otot perineum; sfingter ani utuh (teraba utuh pada pemeriksaan rektal); mukosa rektum utuh; tatalaksana repair berlapis oleh dokter umum (4A); komplikasi jika tidak ditangani adekuat berupa nyeri, dispareunia, infeksi, hematoma; pembeda utama adalah kompetensi repair sendiri. Derajat 3-4 (OASI): struktur terkena sfingter ani + mukosa rektum; sfingter ani ruptur (teraba ruptur); mukosa rektum robek (terlihat darah di rektum, robekan memanjang); tatalaksana rujuk ke SpOG atau operator terlatih (3B); komplikasi berupa inkontinensia flatus/feses, fistula rektovaginal; pembeda utama adalah bukan kompetensi repair sederhana, rujuk.",
+          "tone": "clinical",
+          "source": "§9 file sumber"
+        },
+        {
+          "text": "Kapan HARUS merujuk: segera/emergency (derajat 3-4, hematoma besar, perdarahan masif, syok, ruptura uteri, ruptura serviks tinggi); same day (robekan dengan tanda infeksi, robekan yang perlu anestesi umum, riwayat obstetric fistula); rutin (kontrol pasca-repair, masalah nifas); tunda elektif (robekan derajat 1 tanpa perdarahan, bisa ditunda).",
+          "tone": "clinical",
+          "source": "§9 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Manajemen komplikasi intraprosedural (ringkasan dari §11):",
+          "sub": [
+            "Reaksi alergi lidokain: hentikan lidokain, antihistamin/adrenalin sesuai SOP, rawat.",
+            "Toksisitas lidokain (overdosis): hentikan lidokain, dukungan ABC, antikonvulsan (benzodiazepin), rujuk.",
+            "Nyeri hebat saat penjahitan: tunggu 1-2 menit, tambahkan lidokain di area yang masih sensitif.",
+            "Perdarahan banyak saat repair: jahitan hemostasis, evaluasi robekan, uterotonika bila atonia.",
+            "Tidak bisa melihat apex luka: pasang kasa/tampon, hisap, retract dengan Allis/Sims; jika tidak, buka spekulum dan jahit di dalam.",
+            "Menemukan derajat 3-4 saat repair: hentikan, rujuk operator terlatih, jangan dipaksakan.",
+            "Sinkop vasovagal: hentikan, posisi Trendelenburg, observasi TTV.",
+            "Spasme sfingter ani: tunggu relaksasi, komunikasi, posisi knee-chest."
+          ],
+          "bold": false,
+          "source": "§11 H2 Komplikasi Intraprosedural file sumber"
+        },
+        {
+          "text": "Manajemen komplikasi pasca-prosedur:",
+          "sub": [
+            "Infeksi luka perineum (3-7 hari): buka sebagian jahitan, drainase, antibiotik (ampisilin atau cefalosporin + metronidazol), analgesik; rujuk bila sepsis.",
+            "Dehisensi luka (5-14 hari): evaluasi, bersihkan, debridement bila perlu, re-repair setelah 6-8 minggu; rujuk ke SpOG.",
+            "Hematoma vulva/vagina: evaluasi, kompres, eksisi/drainase; rujuk.",
+            "Perdarahan ulang dari jahitan (1-7 hari): tekan, jahit ulang, evaluasi Hb; rujuk bila masif.",
+            "Fistula rektovaginal (komplikasi OASI repair yang gagal): evaluasi, rujuk ke SpOG untuk repair definitif (biasanya 3-6 bulan kemudian).",
+            "Inkontinensia flatus/feses pasca-OASI: evaluasi sfingter, fisioterapi, rujuk ke SpOG.",
+            "Dispareunia (nyeri sanggama): evaluasi jaringan parut, fisioterapi, konseling; rujuk ke SpOG.",
+            "Sisa benang/granuloma: lepas benang, evaluasi; rutin."
+          ],
+          "bold": false,
+          "source": "§11 H2 Komplikasi Pascaprosedural file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Batas kritis rujukan",
+          "text": "Segera/emergency rujuk pada derajat 3-4, hematoma besar, perdarahan masif, syok, ruptura uteri, ruptura serviks tinggi. Dokter umum boleh melakukan stabilisasi awal, tetapi wajib merujuk ke SpOG.",
+          "answer_evidence": "SKDI 4A ruptur perineum tingkat 1-2; §14 modul"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Empat pertanyaan clinical reasoning",
+          "text": "Pada station, sebelum memulai repair, tanyakan: (1) Apakah derajat robekan terkonfirmasi dan sfingter utuh? (2) Apakah ada alergi lidokain? (3) Apakah ada tanda perdarahan aktif atau syok? (4) Apakah ada faktor penyulit (koagulopati, HIV, hepatitis B)?",
+          "answer_evidence": "Alur pikir klinis §9 modul repair perineum FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_perineum_pemeriksaan_rektal_04"
+      ],
+      "glossary_refs": [
+        "gls_perineum_oasi_01",
+        "gls_perineum_sfingter_ani_01"
+      ],
+      "bilingual": "Section ini membahas pasca-prosedur dan clinical reasoning. Pembedaan derajat 1-2 (bisa repair sendiri) dengan derajat 3-4 (OASI, rujuk) adalah inti penalaran klinis pada station ini."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan dan jadwal tindak lanjut pasca-repair perineum, termasuk catatan standarisasi.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang pada station repair perineum: Hb/Ht untuk perdarahan banyak, gejala anemia, pra-transfusi (nilai normal Hb ≥11 g/dL pada ibu hamil/nifas normal; tersedia di puskesmas dan RS); golongan darah + Rh untuk perdarahan, pra-transfusi, perdarahan banyak (catat golongan darah ibu; tersedia di puskesmas dan RS); cross-match untuk perdarahan aktif, persiapan transfusi (sesuai golongan darah; tersedia di RS dengan bank darah); tes kehamilan untuk curiga hamil, evaluasi kehamilan ektopik (negatif; tersedia di puskesmas); tes IMS (HIV, sifilis, hepatitis B) untuk robekan multipel, IMS curiga, pasca-persalinan (non-reaktif; tersedia di puskesmas dan RS dengan lab); kultur luka (bila infeksi) untuk tanda infeksi pada luka repair (steril atau pertumbuhan organisme; tersedia di lab RS); rontgen/CT pelvis untuk curiga fistula rektovaginal pasca-OASI (lihat hubungan anatomis; tersedia di RS); manometri anus untuk evaluasi kontinensia pasca-OASI repair (tekanan normal/rest normal; tersedia di RS khusus).",
+          "tone": "clinical",
+          "source": "§10 file sumber"
+        },
+        {
+          "text": "Pemeriksaan yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: biopsi luka (bila curiga ganas), USG pelvis (bila curiga komplikasi dalam), kolposkopi (bila robekan serviks curiga ganas). Catatan penting: pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab.",
+          "tone": "narrative",
+          "source": "§10 file sumber"
+        },
+        {
+          "text": "Jadwal tindak lanjut pasca-repair perineum: 1 minggu pasca-repair — cek luka, jahitan, tanda infeksi; 2 minggu (bila ada keluhan) — evaluasi lanjutan; 6 minggu (kontrol nifas) — evaluasi keseluruhan nifas, KB pascasalin, laktasi; kapan saja — bila ada tanda bahaya. Ibu nifas: observasi TTV, kontraksi uterus, perdarahan, lochia, laktasi, BAK/BAB, mood. Edukasi kontrol 1 minggu atau lebih cepat sesuai SOP. [DITAMBAHKAN SAAT STANDARDISASI] — Manajemen di atas mengikuti rekomendasi standar FKIK Universitas Jambi; pada pasien nyata, dosis dan protokol spesifik mengikuti SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§11 H2 Tindak Lanjut file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Manajemen komplikasi pasca-prosedur terstruktur berdasarkan onset dan tatalaksana:",
+          "sub": [
+            "Onset 3-7 hari: infeksi luka perineum — buka sebagian jahitan, drainase, antibiotik (ampisilin atau cefalosporin + metronidazol), analgesik; rujuk bila sepsis.",
+            "Onset 5-14 hari: dehisensi luka — evaluasi, bersihkan, debridement bila perlu, re-repair setelah 6-8 minggu; rujuk ke SpOG.",
+            "Onset segera: hematoma vulva/vagina — evaluasi, kompres, eksisi/drainase; rujuk.",
+            "Onset 1-7 hari: perdarahan ulang dari jahitan — tekan, jahit ulang, evaluasi Hb; rujuk bila masif.",
+            "Onset mingguan: fistula rektovaginal — evaluasi, rujuk ke SpOG untuk repair definitif (biasanya 3-6 bulan kemudian).",
+            "Onset segera-mingguan: inkontinensia flatus/feses pasca-OASI — evaluasi sfingter, fisioterapi, rujuk ke SpOG.",
+            "Onset berminggu-bulan: dispareunia — evaluasi jaringan parut, fisioterapi, konseling; rujuk ke SpOG.",
+            "Onset berminggu: sisa benang/granuloma — lepas benang, evaluasi; rutin."
+          ],
+          "bold": false,
+          "source": "§11 H2 Komplikasi Pascaprosedural file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan mengarang hasil laboratorium",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Verifikasi dulu indikasi sebelum memesan pemeriksaan penunjang.",
+          "answer_evidence": "Prinsip dokumentasi klinis FKIK Universitas Jambi; §10 modul"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": "Section ini memuat pemeriksaan penunjang yang relevan (Hb/Ht, golongan darah, cross-match, tes IMS) dan jadwal tindak lanjut. Pada OSCE, hasil lab hanya disebutkan bila diminta."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Edukasi pasien dan keluarga (perawatan luka, safety-net, laktasi) serta dokumentasi SOAP lengkap beserta kode ICD-10.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pasca-repair perineum adalah komponen wajib. Penguji menilai apakah Anda menjelaskan perawatan luka, safety-net, dan kapan harus kembali dengan bahasa awam. Poin edukasi spesifik (minimal 6, dari file sumber): (1) Perawatan luka — basuh area perineum dengan air bersih dan sabun lembut, terutama setelah BAB/BAK. (2) Arah basuhan — dari depan ke belakang (dari vagina ke anus), bukan sebaliknya, untuk mencegah kontaminasi tinja. (3) Ganti pembalut secara teratur, jangan pakai pembalut terlalu lama. (4) Hindari konstipasi — makan sayur, buah, cukup air; bila perlu, pelunak feses (laktulosa). (5) Kontrol 1 minggu — atau lebih cepat bila ada keluhan. (6) Hindari hubungan seksual sampai luka sembuh total (~4-6 minggu) atau sesuai anjuran dokter. (7) Tanda bahaya — demam, nyeri makin berat, perdarahan banyak, keputihan berbau, luka terbuka, sulit menahan BAB/angin. (8) Laktasi dan nutrisi — ASI eksklusif, makan bergizi, cukup istirahat.",
+          "tone": "clinical",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Safety net — kapan harus kembali segera atau ke IGD (minimal 4 dari file sumber): (1) Demam ≥38°C — terutama dalam 7 hari pasca-repair. (2) Nyeri makin berat — tidak hilang dengan analgesik. (3) Perdarahan banyak — >2 softek per jam, atau perdarahan aktif dari luka. (4) Bau busuk atau keputihan abnormal — curiga infeksi. (5) Luka terbuka / jahitan lepas — dehisensi. (6) Sulit menahan BAB atau flatus — curiga OASI terlewat atau fistula. (7) Bengkak kebiruan / benjolan — curiga hematoma.",
+          "tone": "clinical",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE: bahasa awam (\"Ibu, luka harus dijaga bersih. Basuh dari depan ke belakang setiap habis BAK/BAB. Ganti pembalut teratur.\"); minta keluarga mengulang (\"Bisa tolong ulangi, Bu, kapan harus kembali ke IGD?\"); berikan waktu bertanya (\"Ada pertanyaan lagi, Bu?\"); tunjukkan sikap empati: tidak menggurui, tidak menghakimi. Contoh kalimat edukasi spesifik: \"Ibu, jahitan sudah selesai. Selama di rumah, bersihkan area perineum dengan air dan sabun lembut terutama setelah BAB/BAK, arah basuhan dari depan ke belakang. Ganti pembalut teratur. Ibu perlu kontrol sekitar 1 minggu atau lebih cepat bila demam, nyeri makin berat, perdarahan banyak, bau busuk, luka terbuka, atau sulit menahan BAB/angin.\" [DITAMBAHKAN SAAT STANDARDISASI] — Kalimat di atas mengikuti pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi; pada pelaksanaan, kalimat final harus disesuaikan dengan skenario.",
+          "tone": "narrative",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Contoh SOAP untuk skenario Ny. Rina, 26 tahun, G1P1A0, postpartum 1 jam post persalinan normal spontan, robekan perineum derajat 2 dengan sfingter ani utuh, dilakukan repair berlapis dengan catgut chromic 2-0, perdarahan minimal, rawat jalan. Komponen S (Subjective): keluhan utama perdarahan dari jalan lahir, nyeri jalan lahir; riwayat persalinan G1P1A0, persalinan normal spontan 1 jam lalu, bayi laki-laki 3.200 gram, Apgar 8/9, plasenta lahir lengkap 10 menit, kontraksi keras; alergi obat tidak ada; keluhan tambahan tidak ada pusing, tidak ada demam, BAK spontan. Komponen O (Objective): TTV TD 110/70 mmHg, N 88 x/menit, S 36,5°C, RR 18 x/menit, SpO2 98%; kesadaran kompos mentis; konjungtiva tidak pucat; abdomen TFU 2 jari di bawah pusat, kontraksi keras, perdarahan pervaginam minimal; genitalia robekan perineum derajat 2 (mukosa vagina + otot perineum, sfingter ani utuh), apex luka 1 cm di bawah forniks posterior, perdarahan aktif dari robekan; serviks utuh, tidak ada robekan serviks; pemeriksaan rektal awal sfingter ani utuh, tidak ada robekan mukosa rektum.",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "Komponen A (Assessment): G1P1A0, postpartum 1 jam, robekan perineum derajat 2, perdarahan aktif dari robekan; kandidat repair perineum (4A). Komponen P (Plan): (1) Informed consent verbal dan tertulis. (2) Persiapan alat steril: needle holder, pinset, gunting, catgut chromic 2-0, spuit 10 ml, lidokain 1% tanpa epinefrin 10 ml. (3) Posisi litotomi, lampu sorot, sarung tangan steril. (4) Antisepsis perineum. (5) Anestesi lokal lidokain 1% di kedua tepi luka dengan aspirasi, total 8 ml, tunggu 1-2 menit. (6) Jahitan 1 cm di atas apex luka, jelujur mukosa vagina, jahitan terputus dead space, jahitan perineum, subkutis/kulit, simpul di belakang himen. (7) Pemeriksaan rektal akhir: tidak ada jahitan menembus rektum. (8) Evaluasi perdarahan: minimal. (9) Dekontaminasi, dokumentasi, edukasi perawatan luka + safety-net + kontrol 1 minggu.",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan: O70.0 (first degree perineal laceration during delivery); O70.1 (second degree perineal laceration during delivery); O70.2 (third degree perineal laceration during delivery); O70.3 (fourth degree perineal laceration during delivery); O70.9 (perineal laceration during delivery, unspecified); O71.4 (obstetric high vaginal laceration); O71.5 (other obstetric injury to pelvic organs); Z39.0 (encounter for care and examination of mother immediately after delivery).",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "Dokumen dan kartu khusus: lembar informed consent khusus untuk repair perineum (risiko, alternatif); catatan tindakan operatif (derajat robekan, jumlah jahitan, jenis benang, komplikasi); surat rujukan bila perlu (untuk OASI atau komplikasi). Cara mendokumentasikan prosedur repair perineum: tanggal dan jam tindakan; derajat robekan (1, 2, 3, atau 4); jenis anestesi (lokal/spinal/umum); jumlah dan jenis benang (mis. catgut chromic 2-0); jumlah jahitan per lapisan; komplikasi intraprosedural (tidak ada / ada); pemeriksaan rektal (tidak ada jahitan menembus rektum); perdarahan pasca-repair (minimal/+/++); tanda tangan dokter dan perawat. [DITAMBAHKAN SAAT STANDARDISASI] — Format SOAP di atas mengikuti standar puskesmas dan RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tujuh tanda bahaya yang harus pasien ingat untuk kembali ke IGD:",
+          "sub": [
+            "Demam ≥38°C, terutama dalam 7 hari pasca-repair.",
+            "Nyeri makin berat, tidak hilang dengan analgesik.",
+            "Perdarahan banyak (>2 softek per jam atau perdarahan aktif dari luka).",
+            "Bau busuk atau keputihan abnormal — curiga infeksi.",
+            "Luka terbuka / jahitan lepas — dehisensi.",
+            "Sulit menahan BAB atau flatus — curiga OASI terlewat atau fistula.",
+            "Bengkak kebiruan / benjolan — curiga hematoma."
+          ],
+          "bold": true,
+          "source": "§12 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Format SOAP mengikuti standar",
+          "text": "Format SOAP di atas mengikuti standar puskesmas dan RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas. Pada OSCE, dokter diimbau menulis SOAP lengkap dengan derajat robekan, jenis benang, dan komplikasi.",
+          "answer_evidence": "Standar dokumentasi SOAP dan kode ICD-10 dari §13 modul"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_perineum_informed_consent_01"
+      ],
+      "bilingual": "Section ini memuat edukasi pasien (perawatan luka dan safety-net) dan dokumentasi SOAP. Verbalisasi minta keluarga mengulang tanda bahaya adalah strategi edukasi efektif di OSCE."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Kaitan penyakit SKDI 4A (ruptur perineum, episiotomi, OASI, fistula), batas kompetensi dokter umum, dan mini-skrip komunikasi OSCE lima fase.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan penyakit SKDI 4A untuk modul ini. Ruptur perineum derajat 1-2 (O70.0 / O70.1) level 4A — diagnosis SKDI 4A utama untuk modul ini, repair berlapis, edukasi luka, red flags. Episiotomi (O72.0 / Z40.x) level 4A (manfaat sesuai indikasi) — luka episiotomi dijahit dengan prinsip serupa repair perineum (apex luka, mukosa, otot, subkutis/kulit). Hematoma vulva/vagina (O71.7 / N76.x) level 3B (Rujuk) — nyeri berat/benjolan setelah persalinan bisa menandakan hematoma; rujuk bila besar, nyeri berat, perdarahan tidak terkontrol. Infeksi luka perineum (O86.0 / N76.x) level 4A (3B bila sepsis) — nyeri bertambah, demam, bau busuk, luka terbuka; edukasi kontrol dan tanda bahaya.",
+          "tone": "clinical",
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Lanjutan kaitan SKDI 4A. OASI derajat 3-4 (O70.2 / O70.3) level 3B (Rujuk ke SpOG) — diagnosis banding yang tidak boleh terlewat; periksa sfingter dan rektum; rujuk. Ruptur perineum lama / jaringan parut (N90.8) level 4A — repair lama biasanya perlu pendekatan khusus. Fistula rektovaginal (N82.3) level 3B (Rujuk ke SpOG) — komplikasi OASI repair yang gagal; rujuk untuk repair definitif. Inkontinensia flatus/feses pasca-OASI (R15 / R32) level 3B (Rujuk) — komplikasi OASI; evaluasi sfingter, fisioterapi, rujuk. Perdarahan pascapersalinan/PPH (O72.x) level 3B (Rujuk emergensi) — robekan derajat luas bisa menyebabkan PPH; perlu identifikasi dan repair segera. Anemia defisiensi besi pada nifas (O99.0 / D64.9) level 4A — perdarahan dari robekan bisa memperburuk anemia; evaluasi Hb.",
+          "tone": "clinical",
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Batas kompetensi dokter umum untuk setiap diagnosis: 4A (mandiri) — dokter umum boleh menangani sendiri di layanan primer; 3B (merujuk) — dokter umum boleh melakukan stabilisasi dan tatalaksana awal, wajib merujuk ke SpOG; 2 (merujuk ke spesialis) — hanya spesialis yang menangani; dokter umum hanya boleh melakukan deteksi dini dan rujukan. Catatan diagnosis yang harus dirujuk segera (SKDI 3B): OASI derajat 3-4, hematoma vulva/vagina besar dengan tanda syok, fistula rektovaginal pasca-OASI repair, inkontinensia flatus/feses pasca-OASI, luka perineum dengan dehisensi luas, PPH dengan robekan jalan lahir luas.",
+          "tone": "clinical",
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE: pembukaan tindakan (sebelum repair). Dokter: \"Selamat pagi, Ibu Rina. Saya dokter muda yang akan membantu pemeriksaan dan penjahitan luka jalan lahir. Tindakan ini bertujuan menghentikan perdarahan dan mengembalikan bentuk normal jalan lahir. Saya akan menjelaskan prosedur, risiko, dan meminta persetujuan Ibu.\" Pasien: \"Baik, Dok. Sakit tidak?\" Dokter: \"Saya akan menyuntik obat anestesi di sekitar luka, jadi Ibu akan merasa kebal di area tersebut. Mungkin terasa sedikit perih saat penyuntikan, tapi tidak akan terasa saat penjahitan. Risikonya: perdarahan, infeksi, atau reaksi alergi terhadap obat anestesi (sangat jarang). Ibu bersedia?\" Pasien: \"Bersedia, Dok.\" Dokter: \"Mohon tanda tangan di lembar persetujuan, Bu. Saya akan mulai dengan posisi litotomi dan persiapan.\"",
+          "tone": "narrative",
+          "source": "§15 H2 Pembukaan file sumber"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE: saat anestesi. Dokter: \"Ibu, saya akan menyuntik obat anestesi di sekitar luka. Ibu mungkin merasa sedikit perih. Saya aspirasi dulu untuk memastikan obat masuk di tempat yang aman.\" Setelah injeksi, dokter: \"Saya tunggu 1-2 menit agar obat bekerja. Ibu, apakah masih terasa nyeri? (Cek dengan pinset). Tidak nyeri? Baik, saya mulai menjahit.\"",
+          "tone": "narrative",
+          "source": "§15 H2 Anestesi file sumber"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE: saat penjahitan. Dokter: \"Saya mulai dari puncak luka, jahit 1 cm di atasnya agar perdarahan dari puncak dapat dikontrol. Lanjutkan jahitan jelujur mukosa vagina, jahitan perineum, subkutis, dan kulit. Total 5 lapisan. Ibu boleh rileks, kalau terasa kurang kebal, beri tahu saya.\"",
+          "tone": "narrative",
+          "source": "§15 H2 Penjahitan file sumber"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE: pemeriksaan rektal akhir. Dokter: \"Sudah selesai menjahit. Sekarang saya akan memasukkan jari ke anus untuk memastikan jahitan tidak menembus ke rektum. Mungkin terasa sedikit tidak nyaman, tapi penting untuk keamanan.\" Hasil: tidak ada jahitan menembus rektum. Dokter: \"Alhamdulillah, jahitan rapi dan tidak menembus rektum. Tidak ada perdarahan aktif. Saya bersihkan area.\"",
+          "tone": "narrative",
+          "source": "§15 H2 Rektal Akhir file sumber"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE: penutup tindakan (edukasi). Dokter: \"Ibu, jahitan sudah selesai. Selama di rumah: (1) Basuh area perineum dengan air bersih dan sabun lembut, terutama setelah BAB/BAK, arah basuhan dari depan ke belakang. (2) Ganti pembalut teratur, jangan pakai terlalu lama. (3) Makan sayur dan buah, cukup air, hindari konstipasi. (4) Hindari hubungan seksual sampai luka sembuh total, sekitar 4-6 minggu. (5) Kontrol 1 minggu, atau lebih cepat bila ada keluhan.\" Dokter: \"Segera kembali ke IGD bila: (1) Demam. (2) Nyeri makin berat. (3) Perdarahan banyak. (4) Bau busuk atau keputihan berbau. (5) Luka terbuka atau jahitan lepas. (6) Sulit menahan BAB atau flatus.\" Pasien: \"Baik, Dok. Terima kasih.\" Dokter: \"Sama-sama, Bu. Saya doakan Ibu cepat pulih. Ada pertanyaan lagi?\"",
+          "tone": "narrative",
+          "source": "§15 H2 Penutup file sumber"
+        },
+        {
+          "text": "Catatan perbedaan antara pasien awam vs pasien kooperatif: pasien awam — bahasa lebih sederhana, jelaskan setiap langkah sebelum dilakukan, minta persetujuan verbal lebih sering; pasien kooperatif — bisa lebih ringkas, tetapi tetap verbalisasi temuan dan edukasi; pasien dengan komplikasi (OASI, hematoma) — komunikasi lebih serius, jelaskan rujukan dengan tenang.",
+          "tone": "narrative",
+          "source": "§15 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pola kalimat verbal yang harus diucapkan dalam 60-90 detik pertama station (Lampiran D):",
+          "sub": [
+            "\"Selamat pagi, Ibu Rina. Saya dokter muda yang akan membantu pemeriksaan dan penjahitan luka jalan lahir. Saya akan menjelaskan prosedur, risiko, dan meminta persetujuan Ibu.\"",
+            "\"Tujuan tindakan ini menghentikan perdarahan dan mengembalikan bentuk normal jalan lahir. Saya akan menyuntik obat anestesi di sekitar luka agar Ibu tidak merasa nyeri.\"",
+            "\"Risikonya: perdarahan, infeksi, atau reaksi alergi terhadap obat anestesi (sangat jarang). Ibu bersedia? Mohon tanda tangan di lembar persetujuan.\"",
+            "\"Ibu, saya posisikan litotomi dan lampu saya arahkan ke area robekan. Saya pakai sarung tangan steril.\"",
+            "\"Saya menilai robekan: derajat 2, mukosa vagina dan otot perineum terkena, sfingter ani utuh. Apex luka 1 cm di bawah forniks posterior.\"",
+            "\"Saya menyuntik lidokain 1% di kedua tepi luka. Saya aspirasi dulu untuk memastikan obat masuk di tempat yang aman.\"",
+            "\"Saya tunggu 1-2 menit agar anestesi bekerja. Ibu, apakah masih terasa nyeri?\"",
+            "\"Saya mulai menjahit dari puncak luka, jahit 1 cm di atasnya agar perdarahan dari puncak dapat dikontrol.\"",
+            "\"Lanjutkan jahitan jelujur mukosa vagina, jahitan terputus untuk dead space, jahitan perineum, subkutis, dan kulit. Total 5 lapisan.\"",
+            "\"Selesai menjahit. Saya masukkan jari ke anus untuk memastikan jahitan tidak menembus rektum. Alhamdulillah, tidak ada jahitan menembus rektum. Tidak ada perdarahan aktif.\""
+          ],
+          "bold": false,
+          "source": "Lampiran D file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prinsip komunikasi OSCE",
+          "text": "Setiap kalimat di Lampiran D adalah poin yang biasa dinilai. Berhenti sejenak setelah informed consent — penguji sering menilai apakah Anda benar-benar menunggu persetujuan atau langsung bergerak.",
+          "answer_evidence": "Pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi; Lampiran D"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_perineum_informed_consent_01",
+        "gls_perineum_oasi_01"
+      ],
+      "bilingual": "Section ini memuat kaitan SKDI 4A dan mini-skrip komunikasi OSCE. Batas kompetensi 4A untuk repair sederhana, 3B untuk OASI/komplikasi. Mini-skrip mencakup lima fase (pembukaan, anestesi, penjahitan, rektal akhir, penutup)."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "30-item checklist latihan mandiri, rencana belajar 3 hari, kesalahan fatal yang menurunkan skor, dan recovery move saat menyadari kesalahan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "30-item checklist latihan mandiri (semua bobot TINGGI kecuali 3 item SEDANG). Daftar item 1-10: (1) Salam, perkenalan, identifikasi pasien; (2) Informed consent (tujuan, prosedur, risiko, alternatif); (3) Jelaskan klasifikasi robekan (derajat 1-4); (4) Inspeksi jalan lahir — identifikasi apex, kedalaman, struktur; (5) Pemeriksaan rektal awal — sfingter utuh?; (6) Konfirmasi derajat robekan (verbalized); (7) Posisi litotomi, lampu sorot, kain bersih; (8) APD lengkap, sarung tangan steril; (9) Persiapan alat steril (needle holder, pinset, gunting, benang absorbable, jarum, spuit, lidokain); (10) Aspirasi sebelum menyuntik lidokain.",
+          "tone": "clinical",
+          "source": "§16 file sumber"
+        },
+        {
+          "text": "Lanjutan checklist item 11-20: (11) Infiltrasi lidokain 1% kedua sisi luka; (12) Tunggu 1-2 menit, cek anestesi bekerja; (13) Jahit 1 cm di atas apex luka; (14) Jahitan jelujur mukosa vagina sampai belakang himen; (15) Jahitan terputus dead space (bila perlu); (16) Jahitan perineum (otot); (17) Jahitan subkutis/kulit; (18) Simpul akhir di belakang himen, potong benang 1 cm; (19) Keluarkan tampon/kasa, evaluasi perdarahan; (20) Pemeriksaan rektal akhir — jahitan tidak menembus rektum.",
+          "tone": "clinical",
+          "source": "§16 file sumber"
+        },
+        {
+          "text": "Lanjutan checklist item 21-30: (21) Dekontaminasi alat (klorin 0,5% 10 menit); (22) Cuci tangan ulang; (23) Dokumentasi SOAP lengkap (derajat, jahitan, komplikasi); (24) Edukasi — basuh depan ke belakang, ganti pembalut, hindari konstipasi; (25) Edukasi safety-net — kapan kembali (demam, nyeri, perdarahan, dll.); (26) Jadwal kontrol 1 minggu; (27) Penutup station yang sopan (SEDANG); (28) Menyebut kode ICD-10 (SEDANG); (29) Mengenali kapan harus merujuk (OASI, hematoma, dll.); (30) Minta keluarga mengulang tanda bahaya (SEDANG). Kriteria \"Siap OSCE\": minimal 27 dari 30 item tercentang, dan semua item TINGGI sudah dikuasai.",
+          "tone": "clinical",
+          "source": "§16 file sumber"
+        },
+        {
+          "text": "Rencana belajar 3 hari. Hari 1 — Orientasi dan Pemahaman Dasar (60 menit). Target: pahami konsep dasar dan klasifikasi robekan perineum (§1), hafal urutan alur penjahitan (§2) dan checklist utama (§3), baca §4-§6 (anamnesis, pemeriksaan, persiapan) sekali penuh. Aktivitas: baca §1 untuk konteks, tulis ulang 10 langkah alur penjahitan dari ingatan tanpa melihat, hafalkan klasifikasi derajat robekan (1, 2, 3, 4), pahami mengapa pemeriksaan rektal akhir adalah poin keselamatan besar. Sumber tambahan: Modul Skill Lab FKIK Universitas Jambi; Video YouTube repair perineum (dengan manekin/simulasi). Kriteria selesai: bisa menyebutkan klasifikasi derajat dan 10 langkah alur tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": "§17 H2 Hari 1 file sumber"
+        },
+        {
+          "text": "Hari 2 — Latihan Teknis dan Verbal (90 menit). Target: hafal langkah anestesi lokal dengan aspirasi, hafal urutan jahitan berlapis (5 lapisan), latihan mini-skrip komunikasi (§15). Aktivitas: latihan di manekin sambil mengucapkan langkah-langkah dengan suara keras; praktik urutan persiapan (APD, alat, posisi); praktik urutan anestesi dengan aspirasi; praktik jahitan berlapis pada phantom (atau model); tulis SOAP untuk skenario dari §13; simulasikan skenario dari Lampiran C dengan teman sebagai \"pasien\". Sumber tambahan: Modul repair perineum FKIK Universitas Jambi; rekam suara sendiri, review kecepatan bicara. Kriteria selesai: dapat menyelesaikan penjahitan (verbalized) dalam 7-8 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 H2 Hari 2 file sumber"
+        },
+        {
+          "text": "Hari 3 — Simulasi Penuh dan Evaluasi (60 menit). Target: run-through penuh station (mulai informed consent sampai penutup), identifikasi celah terakhir, simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: timer 10 menit, simulasi lengkap dari masuk station sampai keluar; review §18 (kesalahan fatal) — pastikan tidak ada yang terlewat; praktik skenario alternatif dari Lampiran C; tidur cukup malam sebelumnya; OSCE bukan dihafal semalam. Sumber tambahan: teman sebagai \"penguji\" — feedback jujur; rekam video latihan, review postur dan kontak mata. Kriteria \"siap OSCE\": bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi; tidak melewatkan item checklist §16 (minimal 27 dari 30); bisa menjawab 1-2 pertanyaan penguji (misal: \"Kapan derajat 3-4 harus dirujuk?\", \"Mengapa aspirasi penting?\") dengan baik; merasa cukup percaya diri — bukan sempurna, tapi yakin dengan alur.",
+          "tone": "narrative",
+          "source": "§17 H2 Hari 3 file sumber"
+        },
+        {
+          "text": "Kesalahan fatal yang sering menurunkan skor. Critical fail dari file sumber (nilai bisa jatuh walau langkah lain hafal): tidak menilai derajat robekan dan langsung menjahit; tidak melakukan anestesi lokal atau tidak menunggu anestesi bekerja; tidak aspirasi sebelum menyuntik lidokain; tidak melihat puncak luka sehingga apex luka tertinggal dan perdarahan tetap terjadi; tidak melakukan pemeriksaan rektal akhir (jahitan bisa menembus rektum tanpa diketahui); menjahit derajat 3-4 sendiri pada skenario yang seharusnya rujuk/operator terlatih.",
+          "tone": "clinical",
+          "source": "§18 file sumber"
+        },
+        {
+          "text": "Kategori FATAL (skor hangus/nol untuk station): (1) tidak melakukan informed consent — menyentuh pasien atau memulai prosedur tanpa persetujuan → skor hangus; (2) tidak cuci tangan — langsung kontak dengan pasien tanpa hand hygiene → skor hangus; (3) tidak pakai sarung tangan steril saat kontak dengan area genital → skor hangus untuk asepsis; (4) menjahit derajat 3-4 sendiri tanpa membedakan dari derajat 2 → risiko OASI, skor hangus; (5) tidak melakukan pemeriksaan rektal akhir → jahitan menembus rektum tanpa disadari → fistula, skor hangus untuk keselamatan; (6) tidak melihat apex luka → jahitan pertama tidak di atas apex → perdarahan dari apex menetap, skor hangus; (7) tidak melakukan anestesi lokal atau tidak menunggu anestesi bekerja → skor hangus; (8) tidak aspirasi sebelum menyuntik lidokain → risiko toksisitas, skor hangus; (9) lupa mengeluarkan kasa/tampon → benda asing tertinggal, skor hangus; (10) tidak mengenali tanda bahaya/red flags → tidak curiga OASI, hematoma, atau perdarahan masif, skor hangus untuk clinical reasoning; (11) tidak melakukan dekontaminasi alat setelah tindakan → skor hangus untuk komponen pascatindakan.",
+          "tone": "clinical",
+          "source": "§18 file sumber"
+        },
+        {
+          "text": "Kategori PENGURANGAN BESAR (skor turun signifikan tapi tidak nol): (1) tidak menyebutkan diagnosis kerja (derajat robekan) — tanpa diagnosis, tatalaksana tidak punya dasar; (2) tidak menulis dokumentasi SOAP atau dokumentasi tidak lengkap → skor turun; (3) tidak memberi edukasi safety-net — tidak bilang \"datang lagi kalau perdarahan banyak/demam/luka terbuka\" → skor turun; (4) salah urutan jahitan — misalnya jahit kulit dulu baru otot → skor turun; (5) tidak verbalisasi setiap lapisan yang dijahit — penguji tidak tahu Anda menemukan apa → skor turun; (6) benang terlalu panjang/pendek — tanpa menyebut panjang 1 cm → skor turun; (7) tidak menyebut kode ICD-10 diagnosis utama → skor turun.",
+          "tone": "clinical",
+          "source": "§18 file sumber"
+        },
+        {
+          "text": "Recovery move (bila menyadari sudah membuat kesalahan di tengah station). Saat anamnesis: \"Mohon maaf, Bu, saya akan mengulang klasifikasi derajat robekan.\" → tetap sopan, tidak panik. Saat prosedur: \"Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.\" → penguji menghargai self-correction. Saat edukasi: \"Ibu, satu hal penting yang harus saya tambahkan: ...\" → tambahkan poin yang lupa. Saat dokumentasi: \"Saya akan menuliskan [poin yang terlewat] di rekam medis.\" Yang penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "tone": "narrative",
+          "source": "§18 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skenario OSCE mini-case untuk latihan cepat (Lampiran C):",
+          "sub": [
+            "Skenario Mudah (Repair Derajat 1 Sederhana): robekan derajat 1, mukosa vagina sedikit, perdarahan minimal; kadang tidak perlu dijahit; jebakan nilai: over-treatment, tidak informed consent.",
+            "Skenario Sedang (Repair Derajat 2 Standar): robekan derajat 2 dengan apex luka 1 cm di bawah forniks posterior, perdarahan aktif; jebakan: tidak aspirasi, tidak jahit 1 cm di atas apex, tidak pemeriksaan rektal akhir.",
+            "Skenario Sulit (Repair Derajat 2 Dalam + Perdarahan Banyak): robekan derajat 2 dalam, perdarahan 500 mL, tanda syok awal TD 90/60, N 120, pucat; jebakan: lupa stabilisasi, tidak mencari sumber perdarahan lain, tidak monitoring pasca.",
+            "Skenario Tambahan: OASI Derajat 3 (Rujuk) — sfingter ani putus di kuadran posterior, tidak bisa repair sendiri, rujuk ke SpOG; jebakan: memaksakan repair sendiri, tidak mengenali OASI."
+          ],
+          "bold": false,
+          "source": "Lampiran C file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "11 kesalahan fatal yang menurunkan skor hangus",
+          "text": "Tidak informed consent; tidak cuci tangan; tidak pakai sarung tangan steril; menjahit derajat 3-4 sendiri; tidak pemeriksaan rektal akhir; tidak melihat apex luka; tidak anestesi lokal atau tidak menunggu anestesi bekerja; tidak aspirasi sebelum menyuntik lidokain; lupa mengeluarkan kasa/tampon; tidak mengenali red flags; tidak dekontaminasi alat setelah tindakan. Setiap item dapat menyebabkan skor hangus untuk komponen terkait.",
+          "answer_evidence": "Kategori FATAL §18 modul repair perineum FKIK Universitas Jambi"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery move saat ditegur",
+          "text": "Self-correction lebih dihargai penguji daripada diam atau panik. Akui kesalahan dengan sopan, lalu lakukan langkah yang terlewat. Kalimat kunci: \"Mohon maaf, Bu, saya akan mengulang ...\" atau \"Saya menyadari saya melewatkan ... Saya akan melakukannya sekarang.\"",
+          "answer_evidence": "Recovery Move §18 modul repair perineum FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "7 kesalahan pengurangan besar",
+          "text": "Tidak sebut diagnosis kerja, SOAP tidak lengkap, tidak edukasi safety-net, salah urutan jahitan, tidak verbalisasi setiap lapisan, benang terlalu panjang/pendek, tidak sebut kode ICD-10. Skor turun signifikan walau tidak nol.",
+          "answer_evidence": "Kategori PENGURANGAN BESAR §18 modul repair perineum FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_perineum_oasi_01",
+        "gls_perineum_informed_consent_01"
+      ],
+      "bilingual": "Section ini memuat checklist latihan mandiri 30 item, rencana belajar 3 hari, kesalahan fatal, dan recovery move. Skenario mini-case Lampiran C memberikan variasi mudah-sulit untuk latihan."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Saran visual dan prompt AI, Lampiran A (kontraindikasi), Lampiran B (masalah prosedur), Lampiran C (mini-case), Lampiran D (checklist verbal), dan referensi ringkas.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Cara pakai prompt visual dari file sumber: gunakan prompt ini untuk membuat gambar belajar. Pilih gaya medical illustration, clean, non-bloody, mannequin/simulation, label Bahasa Indonesia. Hindari visual vulgar atau terlalu realistis berdarah agar tetap nyaman dipakai belajar bersama teman. Daftar 6 visual utama: (1) Derajat robekan perineum — diagram cross-section perineal tear degree 1, 2, 3, 4 dengan label struktur (tujuan: membedakan derajat 1-4); (2) Jahitan berlapis — step-by-step medical illustration second-degree perineal repair: vaginal mucosa, perineal muscle, subcutaneous tissue, skin (tujuan: menghafal urutan lapisan); (3) Infiltrasi lidokain kipas — diagram anestesi lokal fan pattern dengan syringe dan aspiration reminder (tujuan: mengingat pola anestesi lokal); (4) Pemeriksaan rektal akhir — skema gloved index finger rectal check setelah perineal repair (tujuan: mengingat safety check akhir); (5) Anatomi perineum normal — cross-section anatomi perineum wanita: vagina, uretra, otot perineum, sfingter ani, rektum (tujuan: memahami struktur yang dijahit); (6) Set repair perineum — flat lay instrumen repair perineum: needle holder, pinset, gunting, jarum, benang, kasa, lidokain, spuit (tujuan: mengenal alat).",
+          "tone": "narrative",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Prompt AI siap-pakai (3 prompt). Prompt 1 — Derajat robekan: \"Clean medical diagram, perineal tear degree 1 2 3 4, cross-section schematic, Indonesian labels (kulit, otot perineum, sfingter ani, mukosa rektum), non-bloody, educational poster. Untuk bahan belajar OSCE.\" Prompt 2 — Jahitan berlapis: \"Step-by-step medical illustration of second-degree perineal repair on simulation model, layers: vaginal mucosa, perineal muscle, subcutaneous tissue, skin, Indonesian labels, non-graphic. Gaya clean medical illustration.\" Prompt 3 — Infiltrasi lidokain: \"Medical training diagram showing local anesthetic infiltration fan pattern along perineal tear edges, syringe, aspiration reminder (tidak ada darah kembali sebelum menyuntik), Indonesian labels. Gaya clean medical illustration.\"",
+          "tone": "narrative",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Prompt tambahan — kasus latihan (mini-case generator): \"Buatkan 3 skenario OSCE repair perineum derajat 1-2 tingkat mudah, sedang, sulit. Setiap skenario berisi: identitas pasien fiktif, keluhan, hasil pemeriksaan jalan lahir (derajat robekan), pertanyaan pemandu, dan kunci jawaban. Berikan variasi skenario (misalnya: robekan derajat 1 sederhana, robekan derajat 2 standar, robekan derajat 2 dalam, atau OASI derajat 3-4 yang harus dirujuk).\"",
+          "tone": "narrative",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi, Red Flags, dan Kondisi Khusus. Catatan: modul ini adalah prosedur repair perineum. \"Kontraindikasi\" di sini lebih banyak merujuk pada kondisi yang menunda atau membatalkan repair sederhana (perlu rujukan atau stabilisasi dulu). Daftar kondisi: robekan derajat 3-4 (OASI) — sfingter ani atau mukosa rektum terkena, bukan kompetensi repair sederhana, rujuk ke SpOG/operator terlatih; hematoma vulva/vagina besar — risiko syok, perlu drainase, bukan repair sederhana, stabilisasi dan rujuk untuk drainase; perdarahan masif/syok — perlu resusitasi dulu, bukan langsung repair, stabilisasi, akses IV, rujuk; infeksi luka aktif — repair pada luka infeksius → dehisensi, sepsis, tunda repair, antibiotik, drainase bila abses, repair setelah 6-8 minggu; alergi lidokain — reaksi alergi/anafilaksis, ganti anestesi (bupivakain, anestesi umum sesuai SOP); koagulopati/antikoagulan — risiko perdarahan banyak, konsultasikan, koreksi koagulasi dulu; HIV dengan CD4 rendah/AIDS — perlu evaluasi daya tahan tubuh, profilaksis antibiotik, konsultasikan SpOG; trombositopenia berat — risiko perdarahan, transfusi trombosit dulu; infeksi menular seksual aktif di area luka — risiko komplikasi, perlu terapi IMS dulu, tes IMS, terapi, repair setelah sembuh; pasien menolak repair — hak pasien, informed consent, diskusi risiko, dokumentasi; tissue parut luas (repair berulang) — sulit dijahit, perlu pendekatan khusus, konsultasikan SpOG. Catatan tambahan: banyak kondisi di atas sebenarnya bukan kontraindikasi mutlak repair sederhana, tetapi kondisi yang perlu kehati-hatian. Pada pasien nyata, evaluasi klinis individual menjadi kunci.",
+          "tone": "clinical",
+          "source": "Lampiran A file sumber"
+        },
+        {
+          "text": "Lampiran B — Masalah Saat Prosedur dan Respons Aman. Daftar masalah: reaksi alergi lidokain (tanda: gatal, kemerahan, bengkak, sesak; respons: hentikan lidokain, antihistamin/adrenalin sesuai SOP, rawat; kapan hentikan: segera); toksisitas lidokain/overdosis (tanda: pusing, tinnitus, kejang, aritmia; respons: hentikan lidokain, dukungan ABC, antikonvulsan, rujuk; kapan hentikan: segera); nyeri hebat saat penjahitan (tanda: meringis, minta berhenti; respons: tunggu 1-2 menit, tambah lidokain di area yang masih sensitif; kapan hentikan: bila pasien tidak mau dilanjutkan); perdarahan banyak saat repair (tanda: lebih dari spot; respons: jahitan hemostasis, evaluasi robekan, uterotonika bila atonia; kapan hentikan: bila tidak terkontrol); tidak bisa melihat apex (tanda: apex tidak terlihat, perdarahan dari atas; respons: pasang kasa/tampon, retractor, jahit dari atas; buka spekulum dan jahit di dalam bila perlu; kapan hentikan: tidak ada — selalu upayakan visualisasi); menemukan derajat 3-4 saat repair (tanda: sfingter ani ruptur, robekan mukosa rektum; respons: hentikan, rujuk operator terlatih; kapan hentikan: selalu); sinkop vasovagal (tanda: pusing, pucat, keringat dingin, nadi lambat; respons: hentikan, posisi Trendelenburg, observasi TTV; kapan hentikan: segera bila penurunan kesadaran); spasme sfingter ani (tanda: sulit pemeriksaan rektal; respons: tunggu relaksasi, komunikasi, posisi knee-chest; kapan hentikan: tidak ada).",
+          "tone": "clinical",
+          "source": "Lampiran B file sumber"
+        },
+        {
+          "text": "Lanjutan Lampiran B: lupa mengeluarkan kasa (tanda: tidak tercatat jumlah kasa; respons: hitung ulang, bila kurang → lakukan rontgen untuk mencari; kapan hentikan: segera); jahitan menembus rektum (setelah repair) (tanda: pemeriksaan rektal positif; respons: buka jahitan, repair ulang, evaluasi; kapan hentikan: selalu); benang salah ukuran (terlalu tebal/halus) (tanda: tidak ergonomis; respons: ganti benang sesuai indikasi; kapan hentikan: tidak ada); pasien menolak repair (tanda: mengatakan tidak mau, menangis; respons: berhenti, tenangkan, jelaskan ulang, tawarkan alternatif; kapan hentikan: selalu); spasme otot perineum (tanda: sulit dijahit; respons: tunggu relaksasi, anestesi tambahan, komunikasi; kapan hentikan: tidak ada). Prinsip utama: keselamatan pasien > kelengkapan prosedur. Pada derajat 3-4, jangan memaksakan repair sendiri — rujuk.",
+          "tone": "clinical",
+          "source": "Lampiran B file sumber"
+        },
+        {
+          "text": "Lampiran C — OSCE Mini-Case untuk Latihan Cepat. Skenario Mudah (Repair Derajat 1 Sederhana): Ny. Rina 26 tahun, G1P1A0, postpartum 30 menit post persalinan normal spontan, robekan perineum derajat 1 (mukosa vagina sedikit, tidak dalam, perdarahan minimal), sfingter ani utuh pada pemeriksaan rektal, ibu kooperatif, tidak ada alergi obat. Pertanyaan pemandu: apakah perlu dijahit? pemeriksaan apa yang harus dilakukan? bagaimana informed consent? apakah perlu anestesi? Kunci jawaban: kadang tidak perlu dijahit bila kecil dan tidak berdarah; tetap nilai luka; pemeriksaan rektal pastikan sfingter utuh, tidak ada robekan mukosa rektum; informed consent bahasa awam, tujuan, prosedur, risiko, alternatif (bisa tidak dijahit); anestesi bisa anestesi lokal lidokain 1% (maks 4,5 mg/kgBB) atau tanpa anestesi bila tidak nyeri; tatalaksana: jahit 1-2 jahitan interrupted dengan benang absorbable pada mukosa vagina, evaluasi perdarahan, dokumentasi. Jebakan nilai: over-treatment (jahitan berlebihan), tidak melakukan informed consent.",
+          "tone": "narrative",
+          "source": "Lampiran C Case 1 file sumber"
+        },
+        {
+          "text": "Skenario Sedang (Repair Derajat 2 Standar): Ny. Rina 26 tahun, G1P1A0, postpartum 1 jam, robekan perineum derajat 2 (mukosa vagina + otot perineum, sfingter utuh), apex luka 1 cm di bawah forniks posterior, perdarahan aktif, tidak ada alergi obat, tanda vital stabil. Pertanyaan pemandu: klasifikasi robekan? persiapan apa yang harus dilakukan? bagaimana urutan anestesi lokal? bagaimana teknik jahitan berlapis? pemeriksaan akhir apa yang penting? Kunci jawaban: derajat 2 — mukosa/kulit + otot perineum, sfingter utuh; persiapan informed consent, alat steril, posisi litotomi, lampu, sarung tangan steril; anestesi lidokain 1% dengan aspirasi di kedua sisi luka, total ~10 ml, tunggu 1-2 menit; jahitan berlapis 1 cm di atas apex → mukosa vagina → dead space (interrupted) → otot perineum → subkutis/kulit; pemeriksaan rektal akhir pastikan jahitan tidak menembus rektum; edukasi basuh depan ke belakang, kontrol 1 minggu, safety-net. Jebakan nilai: tidak aspirasi, tidak jahit 1 cm di atas apex, tidak melakukan pemeriksaan rektal akhir.",
+          "tone": "narrative",
+          "source": "Lampiran C Case 2 file sumber"
+        },
+        {
+          "text": "Skenario Sulit (Repair Derajat 2 Dalam + Perdarahan Banyak): Ny. Rina 26 tahun, postpartum 1 jam, robekan perineum derajat 2 dalam, perdarahan aktif 500 mL dari robekan, tanda vital TD 90/60, N 120, pucat, kontraksi uterus keras, fundus 2 jari di bawah pusat, tidak ada alergi obat. Pertanyaan pemandu: apa diagnosis kerja dan stabilisasi awal? bagaimana urutan repair? bagaimana anestesi pada kondisi hipotensi? apakah perlu uterotonika? bagaimana monitoring pasca-tindakan? Kunci jawaban: diagnosis robekan perineum derajat 2 dengan perdarahan sedang-banyak + tanda syok awal; stabilisasi akses IV 2 jalur, cairan kristaloid (RL/NaCl), posisi Trendelenburg, oksigen; repair segera setelah stabilisasi awal; anestesi lidokain 1% masih bisa (konsentrasi plasma masih aman) atau anestesi spinal/umum sesuai fasilitas; uterotonika tidak rutin untuk robekan, kecuali ada atonia ikutan, cari laserasi serviks/vagina bila perdarahan terus; monitoring pasca TTV serial, kontraksi uterus, perdarahan, Hb/Ht, transfusi bila perlu; rujuk ke RS dengan bank darah bila perdarahan tidak terkontrol. Jebakan nilai: lupa stabilisasi, hanya fokus repair, tidak mencari sumber perdarahan lain, tidak monitoring pasca.",
+          "tone": "narrative",
+          "source": "Lampiran C Case 3 file sumber"
+        },
+        {
+          "text": "Skenario Tambahan: OASI Derajat 3 (Rujuk). Kasus: Ny. Rina 26 tahun, postpartum 1 jam, robekan perineum dengan sfingter ani ruptur, pemeriksaan rektal awal menunjukkan sfingter ani putus di kuadran posterior. Pertanyaan pemandu: apa diagnosis? apakah Anda bisa repair sendiri? apa yang harus dilakukan? Kunci jawaban: diagnosis OASI (Obstetric Anal Sphincter Injury) derajat 3 — sfingter ani eksternal dan/atau internal ruptur; tidak bisa repair sendiri, bukan kompetensi 4A, rujuk ke SpOG/operator terlatih; tatalaksana awal:止血 (kompresi), tutup dengan kasa steril, JANGAN dijahit sendiri, rujuk emergensi; informed consent jelaskan kepada ibu dan keluarga, rujukan ke RS dengan SpOG; profilaksis antibiotik sesuai SOP. Jebakan nilai: memaksakan repair sendiri, tidak mengenali OASI, tidak merujuk.",
+          "tone": "narrative",
+          "source": "Lampiran C Case 4 file sumber"
+        },
+        {
+          "text": "Lampiran D — Checklist Verbal Sebelum Mulai Tindakan. Kalimat-kalimat di bawah ini adalah pola yang harus diucapkan dalam 60-90 detik pertama di station. Hafalkan, sesuaikan dengan topik, dan gunakan nada yang tenang dan percaya diri. Sepuluh kalimat utama: (1) \"Selamat pagi, Ibu Rina. Saya dokter muda yang akan membantu pemeriksaan dan penjahitan luka jalan lahir. Saya akan menjelaskan prosedur, risiko, dan meminta persetujuan Ibu.\" (2) \"Tujuan tindakan ini menghentikan perdarahan dan mengembalikan bentuk normal jalan lahir. Saya akan menyuntik obat anestesi di sekitar luka agar Ibu tidak merasa nyeri.\" (3) \"Risikonya: perdarahan, infeksi, atau reaksi alergi terhadap obat anestesi (sangat jarang). Ibu bersedia? Mohon tanda tangan di lembar persetujuan.\" (4) \"Ibu, saya posisikan litotomi dan lampu saya arahkan ke area robekan. Saya pakai sarung tangan steril.\" (5) \"Saya menilai robekan: derajat 2, mukosa vagina dan otot perineum terkena, sfingter ani utuh. Apex luka 1 cm di bawah forniks posterior.\" (6) \"Saya menyuntik lidokain 1% di kedua tepi luka. Saya aspirasi dulu untuk memastikan obat masuk di tempat yang aman.\" (7) \"Saya tunggu 1-2 menit agar anestesi bekerja. Ibu, apakah masih terasa nyeri?\" (8) \"Saya mulai menjahit dari puncak luka, jahit 1 cm di atasnya agar perdarahan dari puncak dapat dikontrol.\" (9) \"Lanjutkan jahitan jelujur mukosa vagina, jahitan terputus untuk dead space, jahitan perineum, subkutis, dan kulit. Total 5 lapisan.\" (10) \"Selesai menjahit. Saya masukkan jari ke anus untuk memastikan jahitan tidak menembus rektum. Alhamdulillah, tidak ada jahitan menembus rektum. Tidak ada perdarahan aktif.\" Prinsip: setiap kalimat di atas adalah poin yang biasa dinilai. Berhenti sejenak setelah informed consent — penguji sering menilai apakah Anda benar-benar menunggu persetujuan atau langsung bergerak. [DITAMBAHKAN SAAT STANDARDISASI] — Kalimat di atas adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario pasien.",
+          "tone": "narrative",
+          "source": "Lampiran D file sumber"
+        },
+        {
+          "text": "Referensi ringkas: Checklist Skill Lab FKIK Universitas Jambi — Penuntun Belajar Penjahitan Robekan Perineum; SKDI 4A Obstetri-Ginekologi — ruptur perineum tingkat 1-2, persalinan dan nifas; WHO recommendations on intrapartum/postpartum care and infection prevention principles. Catatan penting: keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "narrative",
+          "source": "REFERENSI RINGKAS file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Ringkasan Lampiran A — 11 kondisi yang perlu kehati-hatian pada repair perineum:",
+          "sub": [
+            "Robekan derajat 3-4 (OASI): rujuk ke SpOG/operator terlatih.",
+            "Hematoma vulva/vagina besar: stabilisasi, rujuk untuk drainase.",
+            "Perdarahan masif/syok: stabilisasi, akses IV, rujuk.",
+            "Infeksi luka aktif: tunda repair, antibiotik, drainase bila abses, repair setelah 6-8 minggu.",
+            "Alergi lidokain: ganti anestesi (bupivakain atau anestesi umum sesuai SOP).",
+            "Koagulopati/antikoagulan: konsultasikan, koreksi koagulasi dulu.",
+            "HIV dengan CD4 rendah/AIDS: konsultasikan SpOG, profilaksis antibiotik.",
+            "Trombositopenia berat: transfusi trombosit dulu.",
+            "Infeksi menular seksual aktif di area luka: tes IMS, terapi, repair setelah sembuh.",
+            "Pasien menolak repair: informed consent, diskusi risiko, dokumentasi.",
+            "Tissue parut luas (repair berulang): konsultasikan SpOG."
+          ],
+          "bold": false,
+          "source": "Lampiran A file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Catatan Lampiran A",
+          "text": "Banyak kondisi di Lampiran A sebenarnya bukan kontraindikasi mutlak repair sederhana, tetapi kondisi yang perlu kehati-hatian. Pada pasien nyata, evaluasi klinis individual menjadi kunci; pada OSCE, menyebutkan kondisi ini menunjukkan pemahaman klinis yang utuh.",
+          "answer_evidence": "Catatan tambahan Lampiran A modul repair perineum FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prinsip utama Lampiran B",
+          "text": "Keselamatan pasien > kelengkapan prosedur. Pada derajat 3-4, jangan memaksakan repair sendiri — rujuk. Pada reaksi alergi atau toksisitas lidokain, hentikan penggunaan, stabilisasi, dan rujuk emergensi.",
+          "answer_evidence": "Prinsip utama Lampiran B modul repair perineum FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_perineum_derajat_robekan_01",
+        "visual_perineum_jahitan_berlapis_02",
+        "visual_perineum_infiltrasi_lidokain_03",
+        "visual_perineum_pemeriksaan_rektal_04",
+        "visual_perineum_anatomi_normal_05",
+        "visual_perineum_set_repair_06"
+      ],
+      "glossary_refs": [
+        "gls_perineum_laserasi_01",
+        "gls_perineum_episiotomi_01",
+        "gls_perineum_vicryl_01",
+        "gls_perineum_anestesi_infiltrasi_01",
+        "gls_perineum_sfingter_ani_01",
+        "gls_perineum_oasi_01",
+        "gls_perineum_lidokain_01"
+      ],
+      "bilingual": "Section ini memuat saran visual, prompt AI, Lampiran A-D, dan referensi ringkas. Empat skenario mini-case Lampiran C memberikan variasi mudah-sulit untuk latihan. Lampiran D adalah pola kalimat verbal pembuka yang harus dihafal dalam 60-90 detik pertama."
+    }
+  ]
+}

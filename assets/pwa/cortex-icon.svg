@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" role="img" aria-label="CORTEX icon">
+  <defs>
+    <linearGradient id="cortexIconBg" x1="88" y1="64" x2="420" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#17172d"/>
+      <stop offset="0.55" stop-color="#0f1124"/>
+      <stop offset="1" stop-color="#07090f"/>
+    </linearGradient>
+    <radialGradient id="cortexIconGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 232) rotate(90) scale(182)">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.42"/>
+      <stop offset="0.48" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cortexIconMark" x1="132" y1="150" x2="378" y2="366" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c084fc"/>
+      <stop offset="0.45" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="cortexIconStroke" x1="160" y1="160" x2="352" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ede9fe" stop-opacity="0.82"/>
+      <stop offset="0.5" stop-color="#d8b4fe" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6ee7b7" stop-opacity="0.82"/>
+    </linearGradient>
+    <filter id="cortexIconShadow" x="64" y="56" width="384" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="132" fill="url(#cortexIconBg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="132" fill="url(#cortexIconGlow)"/>
+  <g filter="url(#cortexIconShadow)">
+    <circle cx="256" cy="250" r="154" fill="#ffffff" fill-opacity="0.025"/>
+    <circle cx="256" cy="250" r="154" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+    <path d="M164 238C164 200 195 168 233 168H286C331 168 368 205 368 250C368 295 331 332 286 332H244C221 332 202 350 202 372C202 395 221 414 244 414H295" stroke="url(#cortexIconStroke)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M255.5 156L276 208.5L328.5 229L276 249.5L255.5 302L235 249.5L182.5 229L235 208.5L255.5 156Z" fill="url(#cortexIconMark)"/>
+    <circle cx="168" cy="240" r="18" fill="url(#cortexIconMark)"/>
+    <circle cx="344" cy="312" r="15" fill="url(#cortexIconMark)" opacity="0.85"/>
+    <circle cx="256" cy="250" r="8" fill="#f8fafc" opacity="0.92"/>
+    <path d="M138 352C174 370 215 382 256 382C302 382 345 372 374 355" stroke="rgba(255,255,255,0.08)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,915 @@
+{
+  "id": "sken_neuropsiki_002",
+  "title": "Stasiun 2 — Keluhan Wajah Mencong Mendadak",
+  "subtitle": "Skenario Bell palsy kanan derajat sedang onset <72 jam pada laki-laki 37 tahun: menguji kemampuan membedakan lesi N VII perifer (LMN) dari stroke sentral, pemeriksaan nervus kranialis lengkap, proteksi mata, dan inisiasi steroid dini.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_1",
+  "source_files": [
+    "SOAL_02_BELLPALSY_PESERTA_BUTA.md",
+    "SOAL_02_BELLPALSY_PENDAMPING.md",
+    "SOAL_02_BELLPALSY_BLUEPRINT.md"
+  ],
+  "topicTags": [
+    "osce_skenario",
+    "neurologi",
+    "bells_palsy",
+    "paralisis_fasialis",
+    "lmn_vs_umn",
+    "nervus_kranialis_vii",
+    "prednisone_fasialis",
+    "perawatan_mata",
+    "red_flags_stroke",
+    "skrining_umn_lmn"
+  ],
+  "summary": [
+    "Situasi klinis: Pak Fajar, 37 tahun, datang ke poliklinik/IGD non-resusitasi dengan keluhan wajah kanan mencong sejak 18 jam lalu, makin jelas saat bangun pagi, sulit menutup mata kanan, minum menetes dari sudut mulut kanan, makanan terkumpul di pipi kanan, serta nyeri ringan di belakang telinga kanan. Tidak ada kelemahan lengan/kaki, tidak ada bicara pelo sentral.",
+    "Skill utama yang diuji: pemeriksaan nervus kranialis (terutama N VII lengkap), anamnesis kelainan neurologi, skrining stroke (LMN vs UMN), GCS, dan edukasi proteksi mata + tanda bahaya.",
+    "Komponen anamnesis kritis: onset (kapan, progresi, sisi), gejala sekitar mata (sulit menutup, air mata, Bell phenomenon), gangguan makan/minum, rasa lidah, nyeri telinga, ruam/lepuh telinga, dan TIDAK ada kelemahan anggota gerak/bicara pelo.",
+    "Pemeriksaan fisik kunci: TTV, GCS, N VII kanan lengkap (dahi/alis, tutup mata kuat, Bell phenomenon, senyum, menggembungkan pipi, lipatan nasolabial, lidah midline), N III/IV/VI/V/IX/X/XII, motorik-sensorik ekstremitas, koordinasi, gait, dan inspeksi mata kanan (Bell phenomenon, ulkus kornea).",
+    "Diagnosis kerja: Bell palsy kanan derajat sedang, onset <72 jam (pola LMN dengan dahi terlibat). DD utama: stroke sentral, Ramsay Hunt syndrome, otitis media/mastoiditis, tumor parotis/CPA, neuropati fasialis diabetik/HIV, trauma nervus fasialis.",
+    "Tatalaksana yang diharapkan: prednisolon/prednison 50-60 mg/hari selama 5-7 hari (dalam 72 jam onset), proteksi mata (air mata buatan, salep malam, penutup saat tidur), analgesik, latihan wajah ringan, follow-up 1 minggu, dan rujuk bila red flags atau tidak membaik.",
+    "Critical error paling penting: tidak membedakan lesi perifer vs sentral (LMN vs UMN); tidak menyaring kelemahan ekstremitas/gejala stroke; tidak memberi proteksi mata pada mata yang sulit menutup; mendiagnosis Bell palsy pada forehead sparing/defisit neurologis lain tanpa rujukan.",
+    "Total 100 poin — komponen terbesar: skrining stroke dan red flags 16 poin, pemeriksaan N VII lengkap 18 poin, dan tatalaksana/edukasi 16 poin."
+  ],
+  "exam_focus": [
+    "Selalu uji dahi dan alis saat curiga paresis fasialis — dahi yang TIDAK dapat berkerut (tidak bisa mengangkat alis) menunjukkan pola LMN/perifer (Bell palsy); forehead sparing/alis masih bisa diangkat curiga stroke sentral/UMN.",
+    "Wajib skrining kelemahan lengan/kaki, baal separuh tubuh, afasia/disartria sentral, diplopia, disfagia, vertigo berat, penurunan kesadaran, kejang, dan headache hebat pada setiap kasus wajah mencong — bila ada, default ke stroke dan rujuk emergensi.",
+    "Proteksi mata adalah komponen WAJIB pada Bell palsy: air mata buatan siang hari, salep mata malam, penutup mata saat tidur, edukasi tanda keratitis (mata merah, nyeri, penglihatan kabur).",
+    "Steroid (prednisolon/prednison 50-60 mg/hari selama 5-7 hari) paling efektif bila diberikan dalam 72 jam onset; antiviral (valasiklovir) dipertimbangkan hanya pada kasus berat atau curiga herpetik/Ramsay Hunt.",
+    "Bell phenomenon (bola mata berputar ke atas saat mencoba menutup mata) adalah tanda klasik paresis N VII perifer — sangat diagnostik bila ditemukan pada mata yang sulit menutup.",
+    "Jangan meminta CT/MRI kepala rutin pada Bell palsy klasik dengan neurologis normal; imaging diindikasikan untuk forehead sparing, defisit neurologis lain, onset gradual/progresif, bilateral, recurrent, massa parotis, trauma, atau vesikel telinga berat.",
+    "Bell palsy biasanya membaik bertahap dalam minggu-bulan; follow-up 1 minggu untuk evaluasi perbaikan dan deteksi dini komplikasi (keratitis, kontraktur, sincinesia).",
+    "Antiviral saja tanpa steroid tidak cukup; kombinasi steroid + antiviral hanya untuk Ramsay Hunt atau paralisis berat/deafness."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_bellpalsy_definition_01",
+      "term": "Bell's Palsy (Paralisis Fasialis Perifer Idiopatik)",
+      "def": "Paralisis nervus fasialis (N VII) perifer akut yang mengenai dahi, alis, kelopak mata, pipi, dan mulut pada sisi yang sama. Penyebab paling umum adalah reaktivasi virus herpes simpleks di ganglion genikulatum. Mayoritas idiopatik setelah eksklusi penyebab lain; membaik bertahap dalam minggu-bulan.",
+      "type": "clinical",
+      "aliases": [
+        "Bell palsy",
+        "Idiopathic facial palsy",
+        "Paralisis N VII perifer"
+      ]
+    },
+    {
+      "id": "gls_sken_bellpalsy_procedure_02",
+      "term": "Pemeriksaan Nervus VII (Fasialis)",
+      "def": "Inspeksi wajah saat istirahat, minta pasien mengerutkan dahi, mengangkat alis, menutup mata kuat-kuat (uji Bell phenomenon), memperlihatkan gigi, tersenyum, menggembungkan pipi, dan menjulurkan lidah. Bandingkan kanan-kiri. Pola LMN: dahi, alis, mata, dan mulut terkena sisi ipsilateral; UMN: dahi relatif sparing (bilateral innervation).",
+      "type": "procedure",
+      "aliases": [
+        "Pemeriksaan N VII",
+        "Facial nerve examination"
+      ]
+    },
+    {
+      "id": "gls_sken_bellpalsy_drug_03",
+      "term": "Prednisolon / Prednison pada Bell Palsy",
+      "def": "Kortikosteroid oral dosis 50-60 mg/hari (atau 1 mg/kgBB) selama 5-7 hari, idealnya dimulai dalam 72 jam onset. Terbukti meningkatkan kemungkinan pemulihan sempurna (NNT ~10). Kontraindikasi: diabetes tidak terkontrol, tukak peptikum aktif, infeksi sistemik berat; gunakan dengan proteksi lambung bila perlu.",
+      "type": "drug",
+      "aliases": [
+        "Prednisone",
+        "Prednisolone",
+        "Steroid Bell palsy"
+      ]
+    },
+    {
+      "id": "gls_sken_bellpalsy_anatomy_04",
+      "term": "Nervus Fasialis (N VII) — Lower Motor Neuron vs Upper Motor Neuron",
+      "def": "LMN Bell palsy: lesi pada inti atau cabang N VII perifer setelah keluar dari pons; melibatkan dahi/alis karena seluruh hemifasial ipsilateral mengalami denervasi. UMN (sentral): lesi kortikal/subkortikal/supranuklear; dahi relatif sparing karena menerima innervation bilateral dari korteks motorik.",
+      "type": "anatomy",
+      "aliases": [
+        "N VII LMN vs UMN",
+        "Forehead sparing"
+      ]
+    },
+    {
+      "id": "gls_sken_bellpalsy_score_05",
+      "term": "GCS (Glasgow Coma Scale)",
+      "def": "Skala kesadaran dengan komponen Eye (1-4), Verbal (1-5), Motor (1-6). Total 3-15. Skor 15 = compos mentis penuh. Pada Bell palsy, GCS normal dan tanpa defisit fokal menyingkirkan lesi sentral besar.",
+      "type": "score",
+      "aliases": [
+        "GCS",
+        "Skala Koma Glasgow"
+      ]
+    },
+    {
+      "id": "gls_sken_bellpalsy_dd_06",
+      "term": "Ramsay Hunt Syndrome",
+      "def": "Reaktivasi virus varicella-zoster di ganglion genikulatum yang menyebabkan paresis N VII ipsilateral dengan vesikel di telinga luar/kanal auditorius, nyeri telinga berat, dan gangguan pendengaran/keseimbangan. Lebih berat dari Bell palsy dan memerlukan antiviral (valasiklovir) + steroid.",
+      "type": "clinical",
+      "aliases": [
+        "Herpes zoster oticus",
+        "Ramsay Hunt"
+      ]
+    },
+    {
+      "id": "gls_sken_bellpalsy_dd_07",
+      "term": "Stroke Sentral (Lesi UMN Kortikal)",
+      "def": "Infark atau perdarahan otak yang melibatkan area fasialis kortikal/subkortikal. Manifestasi: paresis wajah kontralateral dengan forehead sparing (alis masih bisa diangkat karena innervation bilateral dahi), disertai kelemahan lengan/kaki ipsilateral, afasia, atau defisit neurologis lain. Keadaan darurat — rujuk/neurologi segera.",
+      "type": "clinical",
+      "aliases": [
+        "Stroke fasialis",
+        "Paresis fasialis sentral",
+        "Central facial palsy"
+      ]
+    },
+    {
+      "id": "gls_sken_bellpalsy_procedure_08",
+      "term": "Bell Phenomenon",
+      "def": "Gerakan bola mata berputar ke atas dan ke luar secara refleks saat pasien mencoba menutup mata kuat-kuat, terlihat pada mata yang tidak dapat menutup penuh. Tanda klasik paresis N VII perifer; pada Bell palsy, fenomena ini terlihat pada mata sisi lesi.",
+      "type": "procedure",
+      "aliases": [
+        "Bell's phenomenon",
+        "Fenomena Bell"
+      ]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis yang diterima peserta dan daftar tugas yang harus diselesaikan dalam 12 menit stasiun Bell palsy.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Seorang pasien dewasa datang ke poliklinik/IGD non-resusitasi dengan keluhan wajah tampak tidak simetris sejak kemarin. Peserta berperan sebagai dokter muda yang menerima pasien pertama kali. Durasi 12 menit. Peserta harus melakukan anamnesis terarah, pemeriksaan fisik neurologis relevan, meminta data penunjang, lalu menyampaikan diagnosis kerja, diagnosis banding, tatalaksana awal, dan edukasi. Pemeriksaan neurologis cukup dilakukan sesuai prioritas kasus dan keselamatan pasien.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Anamnesis terarah (onset, progresi, sisi, gejala sekitar mata dan mulut, gejala neurologis lain)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Pemeriksaan fisik neurologis (N VII lengkap, N kranialis lain, GCS, motorik-sensorik ekstremitas, inspeksi mata)",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Minta data penunjang spesifik (GDS, HbA1c, otoskopi, dsb.) dengan alasan klinis",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Sampaikan diagnosis kerja (LMN/perifer vs UMN/sentral), DD, tatalaksana, edukasi, dan tanda bahaya",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Jangan memberi terapi sebelum menyingkirkan tanda bahaya neurologis yang relevan. Hasil pemeriksaan yang memerlukan simulasi akan diberikan oleh penguji bila diminta dengan instruksi yang benar.",
+          "answer_evidence": null
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan & Privasi",
+          "text": "Posisikan pasien duduk dengan pencahayaan cukup untuk inspeksi wajah. Jaga privasi selama pemeriksaan. Inspeksi mata kanan untuk keratitis/lagoftalmus karena Bell palsy berisiko exposure keratopathy.",
+          "answer_evidence": "BLUEPRINT — Pembukaan, consent, struktur IPM (10 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_definition_01",
+        "gls_sken_bellpalsy_anatomy_04"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting, durasi, skill yang diuji, dan distribusi 100 poin penilaian untuk stasiun Bell palsy.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "Stasiun berlangsung 12 menit di poliklinik umum/IGD non-resusitasi. Peserta menerima soal buta saat masuk, 1 menit membaca, 10-11 menit performa, dan 1-2 menit untuk rangkum/feedback. Penguji memberikan data TTV, pemeriksaan fisik, dan penunjang hanya bila peserta meminta atau menyebutkan prosedur dengan benar. Total 100 poin dengan 9 kategori utama. Critical error dapat menggugurkan kelulusan meski skor angka cukup.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skill yang diuji di stasiun ini:",
+          "sub": [
+            "Pemeriksaan Nervus Kranialis (terutama N VII lengkap)",
+            "Anamnesis Kelainan Neurologi",
+            "Pemeriksaan Kesadaran/GCS",
+            "IPM Kelainan Sistem Saraf",
+            "Roadmap Neurobehavior / skrining red flags"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Komponen penilaian 100 poin:",
+          "sub": [
+            "Pembukaan, consent, struktur IPM: 10",
+            "Anamnesis onset dan karakter kelemahan wajah: 14",
+            "Skrining stroke dan red flags: 16",
+            "TTV, head-to-toe, GCS: 10",
+            "Pemeriksaan N VII lengkap: 18",
+            "Pemeriksaan saraf kranialis dan neuro lain: 12",
+            "Penunjang rasional: 6",
+            "Diagnosis dan banding: 8",
+            "Tatalaksana dan edukasi: 16"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1 menit baca soal → 1-2 menit pembukaan + informed consent → 4-5 menit anamnesis (prioritas onset, sisi, forehead/alis, kelemahan anggota gerak, bicara) → 4-5 menit pemeriksaan N VII + skrining neurologis lain → 1 menit tatalaksana + edukasi + rangkum. Urutan ANAMNESIS lebih dulu untuk membedakan LMN vs UMN sebelum memeriksa.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_anatomy_04",
+        "gls_sken_bellpalsy_score_05"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggunakan file pendamping, naskah pembuka probandus, dan poin anamnesis yang tersedia untuk dijawab pendamping.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Satu orang pendamping dapat merangkap sebagai probandus dan penguji. Saat berperan sebagai probandus, berikan informasi hanya bila ditanya peserta; jangan membocorkan diagnosis. Saat berperan sebagai penguji, berikan hasil TTV, pemeriksaan fisik, dan penunjang hanya bila peserta meminta atau menyebutkan pemeriksaan dengan benar. Gunakan checklist 100 poin untuk memberi skor objektif. Critical error dapat membuat peserta tidak lulus station meskipun skor angka cukup.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus: \"Dok, muka saya tiba-tiba mencong sejak kemarin sore.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Identitas: Pak Fajar, 37 tahun, pegawai kantor, datang bersama istri. Cemas, bicara agak kurang jelas karena bibir tidak simetris tetapi isi bicara normal. Jangan spontan menyebut dahi ikut lemah kecuali peserta memeriksa atau bertanya. Bila peserta bertanya apakah ada lemah tangan/kaki, jawab jelas TIDAK ada.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Onset: mulai 18 jam lalu, makin jelas saat bangun pagi. Tidak didahului trauma",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gejala wajah: sulit menutup mata kanan, air minum menetes dari sudut mulut kanan, sulit bersiul, makanan terkumpul di pipi kanan",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gejala penyerta: nyeri ringan di belakang telinga kanan. Rasa lidah agak berubah. TIDAK ada ruam/lepuh telinga, telinga berdenging, demam, sakit kepala hebat",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Skrining stroke: TIDAK ada kelemahan lengan/kaki, baal separuh tubuh, bicara pelo sentral/afasia, pandangan ganda, sulit menelan, penurunan kesadaran, kejang",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat: tidak diabetes yang diketahui, tidak hipertensi, tidak HIV yang diketahui. Tidak ada kejadian berulang. Tidak sedang hamil",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red Flags Wajib Skrining",
+          "text": "Peserta yang tidak bertanya kelemahan lengan/kaki, baal separuh tubuh, afasia/disartria, pandangan ganda, disfagia, vertigo berat, penurunan kesadaran, kejang, atau headache hebat kehilangan poin besar di Skrining Stroke (16 poin) — dan ini adalah critical error #2.",
+          "answer_evidence": "BLUEPRINT — Skrining stroke dan red flags (16 poin) + Critical Error 2"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_dd_07",
+        "gls_sken_bellpalsy_dd_06"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV dan temuan pemeriksaan fisik yang tersedia untuk diberikan kepada peserta bila diminta secara spesifik.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau prosedur yang diperiksa. Penguji tidak memberikan data spontan — peserta harus menunjukkan inisiatif dan kemampuan melakukan/merinci prosedur dengan benar.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital: TD 124/78 mmHg | Nadi 82 x/menit | RR 18 x/menit | Suhu 36,7°C | SpO2 99% RA",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status generalis: compos mentis, kooperatif, cemas ringan, tidak sesak, tidak toksik",
+          "sub": [
+            "Kulit tidak ada vesikel",
+            "Telinga kanan-kiri tidak ada sekret/vesikel, nyeri tekan mastoid negatif",
+            "Parotis tidak membesar",
+            "Jantung-paru-abdomen normal",
+            "Ekstremitas hangat, tidak ada edema"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Status neurologis awal: GCS E4V5M6 = 15, orientasi baik, tidak ada tanda rangsang meningeal, kekuatan ekstremitas 5/5 simetris",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "N VII kanan (pola LMN — INTI SOAL): dahi kanan sulit berkerut, alis kanan sulit diangkat, mata kanan tidak menutup rapat, lipatan nasolabial kanan datar, sudut mulut kanan turun, pipi kanan bocor saat menggembung",
+          "sub": [
+            "Bell phenomenon positif pada mata kanan",
+            "Forehead involvement mendukung Bell palsy (LMN)"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "N VII kiri: normal",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Saraf kranialis lain: pupil isokor reaktif, gerak bola mata penuh tanpa diplopia, sensibilitas wajah normal, palatum simetris, uvula di tengah, lidah midline, bahu kuat",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Motorik/sensorik/koordinasi: motorik 5/5 keempat ekstremitas, sensorik kasar normal, refleks fisiologis simetris, finger-to-nose normal, gait normal",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Mata: mata kanan mudah kering; tidak tampak ulkus kornea pada inspeksi sederhana. Bell phenomenon dapat terlihat saat menutup mata",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Inspeksi Lagoftalmus & Keratitis",
+          "text": "Mata kanan yang tidak menutup penuh (lagoftalmus) berisiko keratitis exposure. Peserta yang melakukan inspeksi mata dan menemukan lagoftalmus/Bell phenomenon akan dinilai memiliki proteksi mata awareness. Peserta yang TIDAK mengecek mata kehilangan poin Pemeriksaan N VII.",
+          "answer_evidence": "BLUEPRINT — Critical Error 3: 'Tidak memberikan proteksi mata pada mata yang sulit menutup'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_procedure_02",
+        "gls_sken_bellpalsy_procedure_08"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Data penunjang yang tersedia beserta interpretasinya, diberikan bila peserta meminta secara spesifik dengan alasan klinis.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang di bawah ini diberikan HANYA bila peserta meminta secara spesifik. Peserta dinilai dari relevansi permintaan, urutan rasional, dan kemampuan interpretasi. Pada Bell palsy klasik dengan neurologis normal, penggunaan imaging tanpa indikasi akan kehilangan poin.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Gula darah sewaktu: 110 mg/dL — normal, menyingkirkan kontribusi diabetes/hiperglikemia",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "HbA1c (bila diminta untuk skrining diabetes): sesuai risiko; tidak rutin pada onset akut tanpa faktor risiko",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Otoskopi: membran timpani tenang, tidak ada vesikel — menyingkirkan otitis media dan Ramsay Hunt",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "CT/MRI kepala: TIDAK rutin pada Bell palsy klasik. Imaging/rujuk bila forehead sparing, defisit neurologis lain, onset gradual/progresif, bilateral, recurrent, massa parotis, trauma, vesikel telinga berat, atau tidak membaik",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "CT/MRI kepala, panel neurologis luas, dan serologi khusus tidak perlu diminta pada Bell palsy klasik onset akut dengan neurologis normal. Peserta yang meminta imaging tanpa indikasi akan kehilangan poin Penunjang Rasional (6).",
+          "answer_evidence": "BLUEPRINT — Penunjang rasional (6 poin)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_dd_07"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Kunci diagnosis rahasia, diagnosis banding utama, dan alasan klinis mendukung/menentang.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Bell palsy kanan derajat sedang, onset <72 jam. Anamnesis mendukung: onset akut 18 jam, sisi kanan, kelemahan dahi/alis/mata/mulut, tanpa kelemahan anggota gerak atau afasia. Pemeriksaan mendukung: dahi kanan sulit berkerut, alis sulit diangkat, mata kanan tidak menutup rapat (Bell phenomenon +), lipatan nasolabial datar, sudut mulut turun, pipi bocor saat menggembung → pola LMN. Motorik ekstremitas 5/5 simetris menyingkirkan lesi sentral.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Stroke sentral (UMN) — mendukung bila ada kelemahan lengan/kaki ipsilateral, baal, afasia, atau forehead sparing; menentang pada kasus ini karena dahi terlibat dan tidak ada defisit neurologis lain",
+          "sub": [],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: Ramsay Hunt syndrome — mendukung bila ada vesikel telinga/kanal auditorius, nyeri telinga berat, gangguan pendengaran; menentang karena tidak ada ruam/lepuh telinga dan nyeri telinga minimal",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: Otitis media/mastoiditis — mendukung bila ada sekret telinga, nyeri tekan mastoid, demam; menentang karena otoskopi tenang dan tidak ada tanda infeksi",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: Tumor parotis / cerebellopontine angle (CPA) — mendukung bila onset gradual/progresif, recurrent, atau unilateral hearing loss; menentang karena onset akut dan tidak ada massa",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Neuropati fasialis diabetik/HIV — mendukung bila ada riwayat DM/HIV; menentang karena onset akut tanpa faktor risiko",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 6: Trauma nervus fasialis — mendukung bila ada riwayat trauma kepala/wajah; menentang karena tidak ada trauma",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Framework LMN vs UMN",
+          "text": "Forehead test (dahi/alis) adalah kunci pembeda: dahi TIDAK bisa berkerut → LMN/perifer (Bell palsy); forehead sparing (alis masih bisa diangkat) → UMN/sentral (stroke). Selalu bandingkan kedua sisi dan skrining defisit neurologis lain (lengan, kaki, bicara).",
+          "answer_evidence": "BLUEPRINT — Critical Error 1: 'Tidak membedakan paresis fasialis sentral vs perifer'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_anatomy_04",
+        "gls_sken_bellpalsy_dd_07",
+        "gls_sken_bellpalsy_dd_06"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana non-farmakologi dan farmakologi yang diharapkan dari peserta di stasiun Bell palsy.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Pendekatan tatalaksana Bell palsy: (1) inisiasi steroid oral sedini mungkin dalam 72 jam onset, (2) proteksi mata prioritas, (3) analgesik sesuai keluhan, (4) antiviral dipertimbangkan pada kasus berat atau curiga herpetik (wajib pada Ramsay Hunt), (5) latihan wajah ringan dan follow-up untuk evaluasi perbaikan. Rujuk bila red flags, gambaran atipikal, atau tidak membaik sesuai waktu yang wajar.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Langkah 1: Steroid oral — prednisolon/prednison 50-60 mg/hari (atau 1 mg/kgBB) selama 5-7 hari, idealnya dalam 72 jam onset. Pertimbangkan proteksi lambung dan monitor gula darah",
+          "sub": [
+            "Kontraindikasi: diabetes tidak terkontrol, tukak peptikum aktif, infeksi sistemik berat"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 2: Proteksi mata (WAJIB): air mata buatan tetes setiap 1-2 jam, salep mata malam, penutup mata saat tidur, edukasi tanda keratitis",
+          "sub": [
+            "Mata merah, nyeri, atau penglihatan kabur → kontrol segera"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 3: Analgesik (parasetamol atau ibuprofen) untuk nyeri belakang telinga",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 4: Antiviral (valasiklovir 1 g 3x/hari selama 7 hari) dipertimbangkan pada paralisis berat atau curiga herpetik; WAJIB pada Ramsay Hunt",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Langkah 5: Latihan wajah ringan (senyum, kerutan dahi, menutup mata) dan follow-up 1 minggu untuk evaluasi perbaikan. Rujuk saraf/mata/THT bila tidak membaik atau ada komplikasi",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Proteksi Mata Wajib",
+          "text": "Mata kanan yang tidak dapat menutup penuh berisiko keratitis exposure, ulkus kornea, dan gangguan penglihatan permanen. Air mata buatan, salep malam, dan penutup saat tidur adalah komponen wajib — kelalaian = critical error.",
+          "answer_evidence": "BLUEPRINT — Critical Error 3: 'Tidak memberikan proteksi mata pada mata yang sulit menutup'"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_drug_03"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk pasien/keluarga, tanda bahaya yang harus disebutkan, dan contoh SOAP untuk Bell palsy.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario Bell palsy:\n\nS: Pasien merasakan wajah kanan mencong sejak 18 jam lalu, makin jelas saat bangun pagi. Sulit menutup mata kanan, minum menetes dari sudut mulut, makanan terkumpul di pipi kanan, sulit bersiul, serta nyeri ringan di belakang telinga kanan. Rasa lidah agak berubah. Tidak ada kelemahan lengan/kaki, baal separuh tubuh, bicara pelo, pandangan ganda, sulit menelan, penurunan kesadaran, kejang, atau sakit kepala hebat. Tidak ada ruam telinga, tidak demam, tidak trauma.\n\nO: TD 124/78, N 82, RR 18, S 36,7°C, SpO2 99%. GCS 15. Tidak ada tanda meningeal. N VII kanan: dahi sulit berkerut, alis sulit diangkat, mata tidak menutup rapat (Bell phenomenon +), lipatan nasolabial datar, sudut mulut turun, pipi bocor saat menggembung. N VII kiri normal. N III/IV/VI/V/IX/X/XII normal. Motorik 5/5 simetris, sensorik kasar normal, gait normal. GDS 110 mg/dL. Otoskopi tenang, tidak ada vesikel.\n\nA: Bell palsy kanan derajat sedang, onset <72 jam, pola LMN. DD: stroke sentral (disingkirkan), Ramsay Hunt (tidak ada vesikel), otitis media (otoskopi tenang), tumor parotis/CPA, neuropati diabetik.\n\nP: Prednisolon 50 mg/hari PO selama 5-7 hari, air mata buatan tetes 4-6x/hari, salep mata malam, penutup mata saat tidur, parasetamol bila perlu, follow-up 1 minggu, rujuk saraf/mata/THT bila tidak membaik atau ada red flags.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi: sebagian besar kasus Bell palsy membaik bertahap dalam minggu-bulan; mata harus dijaga agar tidak kering/luka; minum obat sesuai anjuran; jangan menggosok mata kanan; gunakan tetes mata sesuai jadwal",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera/ke IGD bila muncul:",
+          "sub": [
+            "Kelemahan tangan/kaki",
+            "Bicara tidak jelas seperti stroke",
+            "Sulit menelan atau air liur keluar",
+            "Pandangan ganda",
+            "Sakit kepala hebat",
+            "Ruam atau nyeri telinga berat (curiga Ramsay Hunt)",
+            "Mata merah, nyeri, atau penglihatan kabur (keratitis)",
+            "Kondisi memburuk atau tidak ada perbaikan dalam 2-3 minggu"
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_dd_07",
+        "gls_sken_bellpalsy_dd_06"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian penuh 100 poin yang digunakan penguji — semua item wajib ada.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Total penilaian 100 poin dengan 9 kategori utama. Komponen terbesar: skrining stroke dan red flags (16 poin), pemeriksaan N VII lengkap (18 poin), dan tatalaksana/edukasi (16 poin). Peserta dinilai dari kelengkapan proses klinis, kemampuan membedakan LMN vs UMN, dan kemampuan menjelaskan kondisi pasien. Critical error tidak memiliki poin langsung tetapi dapat menggugurkan kelulusan.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pembukaan, consent, struktur IPM (10 poin)",
+          "sub": [
+            "Sapa pasien/orang tua dan perkenalkan diri (2)",
+            "Konfirmasi identitas pasien (1)",
+            "Jelaskan tujuan pemeriksaan dan minta izin (2)",
+            "Hand hygiene (1)",
+            "Jelaskan pemeriksaan saraf wajah yang akan dilakukan (1)",
+            "Posisikan pasien duduk dengan pencahayaan cukup, jaga privasi (3)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Anamnesis onset dan karakter kelemahan wajah (14 poin)",
+          "sub": [
+            "Onset (kapan mulai, progresi) (2)",
+            "Sisi yang terkena (kanan/kiri) (1)",
+            "Keluhan menutup mata (mata tidak dapat menutup rapat) (3)",
+            "Makan/minum bocor (makanan di pipi, minuman menetes) (3)",
+            "Rasa lidah berubah / pengecapan (2)",
+            "Nyeri telinga atau belakang telinga (2)",
+            "Riwayat trauma, ruam telinga, atau demam (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Skrining stroke dan red flags (16 poin)",
+          "sub": [
+            "Tanyakan kelemahan lengan/kaki (3)",
+            "Tanyakan baal separuh tubuh (2)",
+            "Tanyakan afasia/disartria (bicara pelo) (3)",
+            "Tanyakan diplopia/pandangan ganda (2)",
+            "Tanyakan disfagia/sulit menelan (2)",
+            "Tanyakan vertigo berat (1)",
+            "Tanyakan penurunan kesadaran/kejang (2)",
+            "Tanyakan sakit kepala hebat (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "TTV, head-to-toe, GCS (10 poin)",
+          "sub": [
+            "Minta TTV lengkap (TD, N, RR, S, SpO2) (3)",
+            "Status umum dan tanda toksik (1)",
+            "GCS E4V5M6 / orientasi (2)",
+            "Inspeksi telinga/vesikel (2)",
+            "Inspeksi parotis dan tanda infeksi (1)",
+            "Inspeksi mata dan kornea (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Pemeriksaan N VII lengkap (18 poin)",
+          "sub": [
+            "Mengerutkan dahi dan mengangkat alis (2)",
+            "Tutup mata kuat-kuat (Bell phenomenon) (3)",
+            "Senyum / perlihatkan gigi (2)",
+            "Menggembungkan pipi (2)",
+            "Lipatan nasolabial (simetri) (2)",
+            "Sudut mulut (simetri) (2)",
+            "Bandingkan kanan-kiri secara eksplisit (3)",
+            "Identifikasi pola LMN (dahi terlibat) (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Pemeriksaan saraf kranialis dan neuro lain (12 poin)",
+          "sub": [
+            "N III/IV/VI (pupil, gerak bola mata, diplopia) (2)",
+            "N V (sensibilitas wajah, motorik pengunyah) (2)",
+            "N IX/X (palatum, uvula, gag) (2)",
+            "N XII (lidah midline) (1)",
+            "Motorik ekstremitas (5/5 simetris) (2)",
+            "Sensorik kasar ekstremitas (1)",
+            "Koordinasi dan gait (finger-to-nose, jalan) (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penunjang rasional (6 poin)",
+          "sub": [
+            "GDS / HbA1c bila faktor risiko diabetes (2)",
+            "Otoskopi untuk menyingkirkan otitis/Ramsay Hunt (1)",
+            "TIDAK overuse CT/MRI pada Bell palsy klasik (3)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Diagnosis dan banding (8 poin)",
+          "sub": [
+            "Menyebut Bell palsy LMN kanan (4)",
+            "Menyebut DD stroke (sentral) sebagai pembeda utama (2)",
+            "Menyebut DD Ramsay Hunt, otitis, tumor parotis (2)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Tatalaksana dan edukasi (6 poin)",
+          "sub": [
+            "Steroid oral dini (prednisolon 50-60 mg/hari) dalam 72 jam (4)",
+            "Proteksi mata (air mata buatan, salep malam, penutup saat tidur) (4)",
+            "Analgesik untuk nyeri telinga (1)",
+            "Antiviral dipertimbangkan sesuai indikasi (1)",
+            "Follow-up 1 minggu (1)",
+            "Rujukan bila red flags atau tidak membaik (1)",
+            "Edukasi red flags (stroke, keratitis, Ramsay Hunt) (3)",
+            "Komunikasi empatik (1)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Poin diberikan per sub-item secara parsial. Critical error (lihat s10) tidak memiliki poin langsung tetapi dapat menggugurkan kelulusan meskipun skor angka cukup.",
+          "answer_evidence": "BLUEPRINT — Total poin 110/100, sistem partial credit"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 2,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE adalah tindakan atau kelalaian yang menyebabkan pemotongan nilai besar atau kegagalan stasiun meskipun skor angka terlihat cukup. Pada Bell palsy, critical error terutama terkait kemampuan membedakan lesi perifer vs sentral, skrining stroke, dan proteksi mata.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Tidak membedakan paresis fasialis sentral vs perifer (LMN vs UMN)",
+          "sub": [
+            "Kenapa critical: lesi sentral (stroke) memerlukan tatalaksana emergensi; salah diagnosis Bell palsy pada stroke menyebabkan keterlambatan rujukan dan morbiditas tinggi",
+            "Recovery move: selalu uji dahi/alis (forehead test), bandingkan kanan-kiri, dan skrining defisit neurologis lain (lengan, kaki, bicara) sebelum menyimpulkan LMN"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Tidak memeriksa/menanyakan kelemahan ekstremitas atau gejala stroke",
+          "sub": [
+            "Kenapa critical: skrining stroke adalah komponen keselamatan utama; kelalaian dapat menyebabkan stroke terlewat dengan konsekuensi mortalitas/morbiditas",
+            "Recovery move: tanyakan kelemahan lengan/kaki, baal, afasia, diplopia, disfagia, vertigo berat, penurunan kesadaran, kejang, dan sakit kepala hebat — dan bila ada satupun, default ke stroke dan rujuk emergensi"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Tidak memberikan proteksi mata pada mata yang sulit menutup",
+          "sub": [
+            "Kenapa critical: lagoftalmus menyebabkan keratitis exposure, ulkus kornea, dan gangguan penglihatan permanen jika tidak ditangani",
+            "Recovery move: inspeksi mata kanan untuk lagoftalmus, berikan air mata buatan tetes, salep malam, penutup saat tidur, dan edukasi tanda keratitis (mata merah, nyeri, kabur)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Mendiagnosis Bell palsy pada pasien dengan forehead sparing atau defisit neurologis lain tanpa rujukan",
+          "sub": [
+            "Kenapa critical: forehead sparing menunjukkan lesi UMN/sentral (stroke); defisit neurologis lain menyingkirkan diagnosis Bell palsy idiopatik",
+            "Recovery move: pada pasien dengan forehead sparing atau defisit neurologis lain, jangan diagnosis Bell palsy — rujuk emergensi untuk evaluasi stroke"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Tidak melakukan forehead test (uji dahi/alis) adalah error paling umum di stasiun Bell palsy. Peserta yang hanya melihat 'wajah mencong' tanpa memeriksa dahi sering melewatkan lesi UMN/sentral berbahaya.",
+          "answer_evidence": "BLUEPRINT — Critical Error 1"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_anatomy_04",
+        "gls_sken_bellpalsy_dd_07"
+      ],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji lengkap, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 1,
+      "content": [
+        {
+          "text": "NASKAH PROBANDUS LENGKAP — Pak Fajar, 37 tahun, pegawai kantor, datang bersama istri. Kalimat pembuka: 'Dok, muka saya tiba-tiba mencong sejak kemarin sore.' Cemas, bicara agak kurang jelas karena bibir tidak simetris tetapi isi bicara normal. Bila peserta bertanya: onset 18 jam lalu, makin jelas saat bangun pagi, tidak didahului trauma; sulit menutup mata kanan, air minum menetes dari sudut mulut kanan, sulit bersiul, makanan terkumpul di pipi kanan; nyeri ringan di belakang telinga kanan, rasa lidah agak berubah, TIDAK ada ruam/lepuh telinga, telinga berdenging, demam, sakit kepala hebat; TIDAK ada kelemahan lengan/kaki, baal separuh tubuh, bicara pelo sentral, pandangan ganda, sulit menelan, penurunan kesadaran, kejang; tidak DM/HT/HIV yang diketahui, tidak ada kejadian berulang, tidak sedang hamil.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji:",
+          "sub": [
+            "Berikan informasi HANYA bila peserta bertanya atau menyebutkan pemeriksaan dengan benar — jangan membocorkan data spontan",
+            "Jawab 'tidak' untuk semua pertanyaan red flags stroke (kelemahan lengan/kaki, baal, afasia, diplopia, disfagia, vertigo berat, penurunan kesadaran, kejang, sakit kepala hebat)",
+            "Peserta yang melakukan forehead test (uji dahi/alis) dengan benar → berikan hasil 'dahi kanan sulit berkerut, alis kanan sulit diangkat' = pola LMN",
+            "Peserta yang TIDAK melakukan forehead test → pertegas 'penting untuk membedakan lesi perifer vs sentral, coba minta pasien mengerutkan dahi dan mengangkat alis'",
+            "Peserta yang lupa inspeksi mata → ingatkan 'jangan lupa periksa mata kanan untuk lagoftalmus/Bell phenomenon'",
+            "Peserta yang meresepkan steroid tanpa menyebut proteksi mata → pertegas perlunya proteksi mata",
+            "Catat urutan dan kelengkapan tindakan peserta pada lembar observasi untuk skoring"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Global rating (referensi):",
+          "sub": [
+            "Excellent: alur sistematis, aman, diagnosis kuat (LMN), penunjang rasional, komunikasi empatik, edukasi jelas",
+            "Pass: mayoritas komponen inti dilakukan, tidak ada critical error, diagnosis/tatalaksana cukup aman",
+            "Borderline: ada lubang pada anamnesis/pemeriksaan/edukasi, tetapi tidak membahayakan secara langsung",
+            "Fail: critical error, tidak mengenali red flags, atau diagnosis/tatalaksana tidak aman"
+          ],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "Baugh RF et al. Clinical Practice Guideline: Bell's Palsy. Otolaryngol Head Neck Surg 2013",
+            "de Almeida JR et al. Combined corticosteroid and antiviral treatment for Bell palsy: a systematic review and meta-analysis. JAMA 2009",
+            "PERDOSSI — Panduan Tatalaksana Neuropati Kranialis",
+            "Peitersen E. Bell's palsy: the spontaneous course of 2,500 peripheral facial nerve palsies of different etiologies. Acta Otolaryngol 2002"
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Diagnosis kerja dan distribusi poin hanya untuk objektivitas penilaian.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_sken_bellpalsy_definition_01",
+        "gls_sken_bellpalsy_procedure_02",
+        "gls_sken_bellpalsy_drug_03"
+      ],
+      "bilingual": ""
+    }
+  ]
+}

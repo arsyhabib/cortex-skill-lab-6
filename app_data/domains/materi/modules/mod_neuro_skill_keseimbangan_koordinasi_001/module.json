@@ -1,0 +1,1167 @@
+{
+  "id": "mod_neuro_skill_keseimbangan_koordinasi_001",
+  "title": "Pemeriksaan Gangguan Fungsi Keseimbangan dan Koordinasi",
+  "subtitle": "Modul OSCE neurologi praktis berbasis checklist untuk membedakan gangguan vestibular, proprioseptif, dan serebelum",
+  "domain": "neuro_skill",
+  "batch_id": "batch_4",
+  "source_pdf": "Batch4_File1_Modul_OSCE_6_3_Keseimbangan_Koordinasi.docx",
+  "source_filename": "Batch4_File1_Modul_OSCE_6_3_Keseimbangan_Koordinasi.docx",
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "keseimbangan",
+    "koordinasi",
+    "romberg",
+    "fukuda",
+    "ataksia_serebelum",
+    "vestibular",
+    "dismetria",
+    "finger_to_nose",
+    "stroke_serebelum"
+  ],
+  "summary": [
+    "Modul ini membekali mahasiswa untuk melakukan 9 tes keseimbangan dan koordinasi (Romberg, Sharpened Romberg, Fukuda, Tandem walking, Finger-to-nose, Finger-to-finger, Past pointing, Heel-to-knee-to-toe, dan Rapid alternating movement) secara sistematis dan aman di station OSCE.",
+    "Tes Romberg dan Sharpened Romberg membedakan gangguan proprioseptif dari gangguan vestibular; Fukuda stepping test mengindikasikan gangguan vestibular unilateral bila pergeseran lebih dari 50 cm.",
+    "Tandem walking menilai koordinasi berjalan keseluruhan; finger-to-nose dan finger-to-finger menilai dismetria dan tremor intensi yang mengarah ke lesi serebelum.",
+    "Past pointing test dan rapid alternating movement (pronasi-supinasi cepat) menilai fungsi serebelum, sedangkan heel-to-knee-to-toe menilai ataksia ekstremitas bawah.",
+    "Red flags berupa 5D (Diplopia, Disartria, Disfagia) + vertigo + onset mendadak pada pasien dengan faktor risiko vaskular harus dianggap sebagai lesi sentral/stroke sirkulasi posterior hingga terbukti sebaliknya, dan memerlukan rujukan emergensi."
+  ],
+  "exam_focus": [
+    "Tes Romberg: kaki rapat, lengan menyilang, mata terbuka 30 detik lalu tertutup 30 detik; positif bila jatuh saat mata tertutup (gangguan proprioseptif/vestibular).",
+    "Sharpened Romberg: posisi tandem tumit-jari kaki, mata buka/tutup; tidak stabil dengan mata terbuka mengindikasikan gangguan sentral/serebelum.",
+    "Fukuda stepping test: 50 langkah jalan di tempat mata tertutup; deviasi >50 cm menandakan gangguan vestibular unilateral.",
+    "Tandem walking: berjalan pada garis lurus tumit-ke-jari kaki berlawanan; langkah melebar atau jatuh menandakan gangguan koordinasi/serebelum.",
+    "Finger-to-nose dan finger-to-finger: menilai dismetria dan tremor intensi; bandingkan kanan-kiri selalu.",
+    "Rapid alternating movement (pronasi-supinasi cepat): menilai disdiadokinesia yang merupakan tanda klasik lesi serebelum.",
+    "Heel-to-knee-to-toe: tumit satu kaki ke lutut kontralateral lalu digeser ke arah jari kaki; menilai ataksia ekstremitas bawah.",
+    "Red flags 5D (Diplopia, Disartria, Disfagia, Dysphonia, Drop attack) + onset mendadak + faktor risiko vaskular = curiga stroke sirkulasi posterior; rujuk emergensi (CT/MRI).",
+    "Selalu berada di dekat pasien selama tes untuk mencegah jatuh, dan jelaskan setiap prosedur sebelum melakukannya (informed consent).",
+    "Kesalahan fatal: tidak menjaga keselamatan pasien, tidak mengidentifikasi red flags, dan tidak melaporkan hasil dengan benar."
+  ],
+  "glossary": [
+    {
+      "id": "gls_keseimbangan_vertigo_01",
+      "term": "Vertigo",
+      "def": "Sensasi berputar atau gerakan yang tidak nyata, sering disebabkan oleh gangguan pada sistem vestibular sentral atau perifer.",
+      "type": "clinical",
+      "aliases": [
+        "pusing berputar",
+        "vestibular vertigo"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_dismetria_02",
+      "term": "Dismetria",
+      "def": "Ketidakmampuan untuk mengukur jarak atau skala gerakan, sering terlihat pada gangguan serebelum dan bermanifestasi sebagai undershoot/overshoot saat tes finger-to-nose atau past pointing.",
+      "type": "clinical",
+      "aliases": [
+        "past pointing",
+        "tremor intensi"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_disdiadokinesia_03",
+      "term": "Disdiadokinesia",
+      "def": "Ketidakmampuan untuk melakukan gerakan bergantian dengan cepat dan ritmis (misalnya pronasi-supinasi cepat), tanda klasik disfungsi serebelum.",
+      "type": "clinical",
+      "aliases": [
+        "adiadochokinesia",
+        "dysdiadochokinesia"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_nistagmus_04",
+      "term": "Nistagmus",
+      "def": "Gerakan mata involunter yang berirama, terdiri dari fase lambat dan fase koreksi cepat; nistagmus vertikal atau direction-changing sangat mengarah ke lesi sentral.",
+      "type": "clinical",
+      "aliases": [
+        "nystagmus",
+        "gerakan mata involunter"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_ataksia_05",
+      "term": "Ataksia",
+      "def": "Gangguan koordinasi gerakan yang disebabkan oleh disfungsi serebelum, proprioseptif, atau vestibular; bermanifestasi sebagai langkah melebar, tidak stabil saat tandem walking, atau kegagalan tes heel-to-knee-to-toe.",
+      "type": "clinical",
+      "aliases": [
+        "ataxia",
+        "gangguan koordinasi"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_stroke_serebelum_06",
+      "term": "Stroke Serebelum",
+      "def": "Gangguan aliran darah ke serebelum (kode ICD-10 I63) yang menyebabkan gejala ataksia, dismetria, vertigo, dan dapat berkompresi batang otak; merupakan emergensi neurologis.",
+      "type": "clinical",
+      "aliases": [
+        "cerebellar stroke",
+        "stroke sirkulasi posterior"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_skdi_07",
+      "term": "SKDI (Standar Kompetensi Dokter Indonesia)",
+      "def": "Panduan nasional yang menetapkan kompetensi minimal yang harus dimiliki dokter Indonesia, termasuk level 4A untuk keterampilan pemeriksaan neurologis rutin.",
+      "type": "score",
+      "aliases": [
+        "SKDI",
+        "Standar Kompetensi Dokter Indonesia"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_soap_08",
+      "term": "SOAP",
+      "def": "Format dokumentasi medis terstruktur yang terdiri dari Subjective (keluhan), Objective (temuan pemeriksaan), Assessment (diagnosa), dan Plan (rencana tata laksana).",
+      "type": "procedure",
+      "aliases": [
+        "catatan SOAP",
+        "dokumentasi SOAP"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_romberg_09",
+      "term": "Tes Romberg",
+      "def": "Pemeriksaan keseimbangan statis dengan kaki rapat dan lengan menyilang di dada, yang membandingkan stabilitas dengan mata terbuka versus tertutup; positif jika jatuh saat mata tertutup.",
+      "type": "procedure",
+      "aliases": [
+        "Romberg test",
+        "Romberg sign"
+      ]
+    },
+    {
+      "id": "gls_keseimbangan_fukuda_10",
+      "term": "Fukuda Stepping Test",
+      "def": "Pemeriksaan vestibular di mana pasien berjalan di tempat 50 langkah dengan mata tertutup; deviasi arah atau pergeseran >50 cm mengindikasikan gangguan vestibular unilateral.",
+      "type": "procedure",
+      "aliases": [
+        "Fukuda test",
+        "stepping test"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_keseimbangan_01",
+      "term_id": "Vertigo",
+      "term_en": "Vertigo",
+      "context": "Sensasi berputar yang tidak nyata; bandingkan dengan dizziness (pusing non-rotator)."
+    },
+    {
+      "id": "bil_keseimbangan_02",
+      "term_id": "Dismetria",
+      "term_en": "Dysmetria",
+      "context": "Ketidakmampuan mengukur jarak gerakan, bermanifestasi sebagai undershoot/overshoot pada tes finger-to-nose."
+    },
+    {
+      "id": "bil_keseimbangan_03",
+      "term_id": "Disdiadokinesia",
+      "term_en": "Dysdiadochokinesia",
+      "context": "Kesulitan melakukan gerakan bergantian cepat (pronasi-supinasi); tanda klasik lesi serebelum."
+    },
+    {
+      "id": "bil_keseimbangan_04",
+      "term_id": "Nistagmus",
+      "term_en": "Nystagmus",
+      "context": "Gerakan mata involunter berirama; nistagmus vertikal/direction-changing mengarah ke lesi sentral."
+    },
+    {
+      "id": "bil_keseimbangan_05",
+      "term_id": "Ataksia",
+      "term_en": "Ataxia",
+      "context": "Gangguan koordinasi gerakan akibat disfungsi serebelum, proprioseptif, atau vestibular."
+    },
+    {
+      "id": "bil_keseimbangan_06",
+      "term_id": "Tandem walking",
+      "term_en": "Tandem gait",
+      "context": "Berjalan pada garis lurus dengan tumit menyentuh ujung jari kaki berlawanan; tes sensitif untuk ataksia."
+    },
+    {
+      "id": "bil_keseimbangan_07",
+      "term_id": "Tes Romberg",
+      "term_en": "Romberg test",
+      "context": "Tes keseimbangan statis yang membedakan gangguan proprioseptif dari gangguan vestibular."
+    },
+    {
+      "id": "bil_keseimbangan_08",
+      "term_id": "Rapid alternating movement",
+      "term_en": "Rapid alternating movement (RAM)",
+      "context": "Tes pronasi-supinasi cepat untuk menilai disdiadokinesia dan fungsi serebelum."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_keseimbangan_prosedur_utama_01",
+      "module_id": "mod_neuro_skill_keseimbangan_koordinasi_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Buat ilustrasi medis edukatif gaya clean vector: pemeriksa berdiri di belakang pasien saat melakukan Romberg test. Pasien laki-laki 50 tahun berdiri dengan kaki rapat, lengan menyilang di dada, mata tertutup, pemeriksa siap menahan. Latar klinik sederhana, warna pastel, label 'Romberg test'.",
+      "alt": "Ilustrasi prosedur Romberg test: pemeriksa berdiri di belakang pasien yang berdiri dengan kaki rapat, lengan menyilang di dada, mata tertutup, untuk menilai keseimbangan statis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/prosedur_utama.png"
+    },
+    {
+      "id": "visual_keseimbangan_flowchart_02",
+      "module_id": "mod_neuro_skill_keseimbangan_koordinasi_001",
+      "section_id": "s11",
+      "type": "flowchart",
+      "generation_prompt": "Buat flowchart klinis horizontal dua cabang: 'Vertigo Perifer' (BPPV, neuritis vestibular) vs 'Vertigo Sentral' (stroke serebelum, tumor). Cantumkan red flags sentral: diplopia, disfagia, disartria, ataksia, nistagmus vertikal, onset akut. Gunakan warna hijau untuk perifer dan merah untuk sentral. Gaya clean medical infographic.",
+      "alt": "Diagram alur diagnosis banding vertigo perifer (BPPV, neuritis vestibular) versus vertigo sentral (stroke serebelum) beserta red flags sentral: diplopia, disfagia, disartria, ataksia, nistagmus vertikal, dan onset akut.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/flowchart_vertigo.png"
+    },
+    {
+      "id": "visual_keseimbangan_cerebellar_exam_03",
+      "module_id": "mod_neuro_skill_keseimbangan_koordinasi_001",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Buat ilustrasi 4-panel gaya clean vector untuk cerebellar coordination exam. Panel 1: finger-to-nose test (pasien menyentuh hidung dengan telunjuk). Panel 2: finger-to-finger test (kedua telunjuk bertemu di tengah). Panel 3: rapid alternating movement (pronasi-supinasi cepat). Panel 4: heel-to-knee-to-toe test (tumit kaki kanan ke lutut kiri lalu digeser ke arah jari kaki). Tandai panel yang menunjukkan abnormal: dismetria dan disdiadokinesia dengan ikon silang merah.",
+      "alt": "Ilustrasi empat panel cerebellar coordination exam: finger-to-nose, finger-to-finger, rapid alternating movement, dan heel-to-knee-to-toe, dengan tanda-tanda abnormal dismetria dan disdiadokinesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/cerebellar_exam.png"
+    },
+    {
+      "id": "visual_keseimbangan_posisi_tes_04",
+      "module_id": "mod_neuro_skill_keseimbangan_koordinasi_001",
+      "section_id": "s04",
+      "type": "diagram",
+      "generation_prompt": "Buat diagram posisi 4 tes keseimbangan: (1) Romberg - kaki rapat lengan menyilang, (2) Sharpened Romberg - posisi tandem tumit-jari kaki, (3) Fukuda stepping - jalan di tempat mata tertutup, (4) Tandem walking - tumit ke jari kaki pada garis lurus. Tampilkan pasien dari samping/depan dengan label pada masing-masing posisi. Gaya clean medical vector dengan latar netral.",
+      "alt": "Diagram posisi empat tes keseimbangan: Romberg (kaki rapat), Sharpened Romberg (tandem tumit-jari kaki), Fukuda stepping (jalan di tempat), dan tandem walking (tumit ke jari kaki pada garis lurus).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_keseimbangan_koordinasi_001/assets/posisi_tes.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s01",
+      "type": "content",
+      "source_query": "Detail skenario klinis Tn. Abdul dengan 5D dan red flags stroke sirkulasi posterior",
+      "source_reference": "Universitas Jambi Modul Skills Lab FKIK 2018; Pedoman Tatalaksana Vertigo PERDOSSI 2018",
+      "confidence": "high",
+      "note": "Penambahan detail skenario klinis dan red flags untuk memperkuat konteks OSCE."
+    },
+    {
+      "section_id": "s02",
+      "type": "callout",
+      "source_query": "Kalimat pembuka station OSCE yang efektif untuk pemeriksaan keseimbangan",
+      "source_reference": "Universitas Jambi Modul Skills Lab FKIK 2018",
+      "confidence": "medium",
+      "note": "Penambahan callout keselamatan pasien dan kalimat pembuka station."
+    },
+    {
+      "section_id": "s05",
+      "type": "content",
+      "source_query": "Daftar alat dan fase prosedur utama pemeriksaan keseimbangan",
+      "source_reference": "Universitas Jambi Modul Skills Lab FKIK 2018",
+      "confidence": "high",
+      "note": "Penambahan detail prosedur utama dan alat untuk memperkuat s05."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Clinical reasoning dan diagnosis banding vertigo perifer vs sentral",
+      "source_reference": "Pedoman Tatalaksana Vertigo PERDOSSI 2018; Pemeriksaan Klinis Neurologi Praktis KNI 2018",
+      "confidence": "high",
+      "note": "Penambahan detail clinical reasoning dan diagnosis banding untuk s06."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber, skenario klinis Tn. Abdul dengan red flags stroke sirkulasi posterior, dan 9 tes keseimbangan/koordinasi yang dinilai di station OSCE.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini berfokus pada pemeriksaan gangguan fungsi keseimbangan dan koordinasi, yang merupakan bagian penting dari evaluasi neurologis. Sumber utama modul ini adalah dokumen dari Universitas Jambi yang mencakup halaman 44 hingga 47. Dalam skenario klinis yang disajikan, pasien adalah Tn. Abdul, seorang pria berusia 50 tahun yang mengalami diplopia, vertigo, mual, muntah, disfagia, dan disartria dengan onset satu jam. Pasien juga memiliki riwayat hipertensi dan diabetes mellitus. Gejala-gejala ini merupakan red flag untuk kemungkinan lesi sentral atau stroke sirkulasi posterior.",
+          "tone": "narrative",
+          "source": "§1 Ringkasan super-cepat untuk OSCE"
+        },
+        {
+          "text": "Dalam OSCE, mahasiswa diharapkan untuk melakukan pemeriksaan koordinasi yang diminta dan menyusun laporan akhir yang menyebutkan kecurigaan terhadap lesi sentral dan kebutuhan penanganan emergensi. Sembilan tes utama yang dinilai adalah: Romberg, Sharpened Romberg, Fukuda stepping test, Tandem walking, Finger-to-nose, Finger-to-finger, Past pointing test, Heel-to-knee-to-toe, dan Rapid alternating movement. Mahasiswa juga dinilai atas kemampuan menjaga keselamatan pasien, informed consent, komunikasi terapeutik, dan pelaporan hasil.",
+          "tone": "clinical",
+          "source": "§1 Ringkasan super-cepat untuk OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE:",
+          "sub": [
+            "Tes Romberg",
+            "Sharpened Romberg",
+            "Fukuda stepping test",
+            "Tandem walking",
+            "Finger-to-nose",
+            "Finger-to-finger",
+            "Past pointing test",
+            "Heel-to-knee-to-toe",
+            "Rapid alternating movement"
+          ],
+          "bold": true,
+          "source": "§1 Ringkasan super-cepat untuk OSCE"
+        },
+        {
+          "text": "Skenario Tn. Abdul (50 tahun): diplopia + vertigo + mual/muntah + disfagia + disartria onset 1 jam, dengan riwayat hipertensi dan diabetes mellitus.",
+          "sub": [
+            "5D (Diplopia, Disartria, Disfagia, Dysphonia, Drop attack) mengindikasikan lesi sentral/stroke sirkulasi posterior",
+            "Onset mendadak + faktor risiko vaskular = emergensi neurologis",
+            "Pemeriksaan keseimbangan dan koordinasi harus dilakukan dengan tetap memprioritaskan stabilisasi"
+          ],
+          "bold": true,
+          "source": "§1 Skenario klinis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi Membaca 3 Hari Sebelum OSCE",
+          "text": "Fokus pada red flags dan interpretasi hasil tes. Hafalkan urutan 9 tes dan kalimat pembuka/penutup station.",
+          "answer_evidence": "Modul Skills Lab FKIK Universitas Jambi (2018)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Keselamatan Pasien = Skor Maksimal",
+          "text": "Tip paling penting untuk station ini adalah memastikan keselamatan pasien selama pemeriksaan. Selalu berdiri di dekat/samping pasien, terutama pada tes Romberg, Sharpened Romberg, dan tandem walking.",
+          "answer_evidence": "Panduan OSCE KNI (2018)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "5D = Red Flag Stroke Sirkulasi Posterior",
+          "text": "Pada skenario Tn. Abdul, kombinasi Diplopia + Disartria + Disfagia + Vertigo onset mendadak dengan faktor risiko vaskular (hipertensi, DM) mengindikasikan stroke batang otak/serebelum. Rujuk emergensi untuk CT/MRI.",
+          "answer_evidence": "Pedoman Tatalaksana Vertigo PERDOSSI (2018)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_keseimbangan_vertigo_01",
+        "gls_keseimbangan_stroke_serebelum_06"
+      ],
+      "bilingual": "Section ini memetakan skenario klinis Tn. Abdul (50 tahun) dengan manifestasi 5D dan 9 tes keseimbangan/koordinasi yang menjadi target penilaian OSCE."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Langkah-langkah OSCE dari masuk station sampai keluar, dengan checklist lengkap 12 item, kalimat pembuka, dan kesalahan yang menurunkan nilai.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Dalam OSCE, pemeriksaan gangguan fungsi keseimbangan dan koordinasi dimulai dengan penjelasan tujuan dan prosedur kepada pasien. Mahasiswa harus memastikan bahwa pasien merasa aman dan nyaman selama pemeriksaan. Langkah-langkah pemeriksaan harus dilakukan secara sistematis dan mencakup semua tes yang relevan. Setiap tes memiliki cara pelaksanaan dan interpretasi hasil yang spesifik. Penting untuk melaporkan hasil pemeriksaan dengan jelas, termasuk apakah hasilnya normal atau menunjukkan gangguan tertentu. Kesalahan umum yang harus dihindari termasuk tidak meminta izin sebelum memulai pemeriksaan dan tidak menjaga keselamatan pasien.",
+          "tone": "narrative",
+          "source": "§2 Checklist prioritas penilaian"
+        },
+        {
+          "text": "Urutan langkah OSCE mencakup 12 item: (1) menjelaskan tujuan dan prosedur; (2) mempersiapkan pasien; (3-11) melakukan 9 tes keseimbangan/koordinasi secara berurutan; dan (12) melaporkan hasil pemeriksaan dengan format yang terstruktur. Setiap item memiliki kalimat yang dapat diucapkan untuk membangun rapport, cara melakukan untuk skor maksimal, dan kesalahan spesifik yang menurunkan nilai.",
+          "tone": "clinical",
+          "source": "§2 Checklist prioritas penilaian"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE:",
+          "sub": [
+            "Menjelaskan tujuan dan prosedur kepada pasien",
+            "Mempersiapkan pasien sesuai tes",
+            "Melakukan tes Romberg",
+            "Melakukan sharpened Romberg",
+            "Melakukan Fukuda stepping test",
+            "Melakukan tandem walking",
+            "Melakukan finger-to-nose test",
+            "Melakukan finger-to-finger test",
+            "Melakukan past pointing test",
+            "Melakukan heel-to-knee-to-toe test",
+            "Melakukan rapid alternating movement",
+            "Melaporkan hasil pemeriksaan"
+          ],
+          "bold": true,
+          "source": "§2 Urutan langkah OSCE"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan Langsung Memulai Tanpa Consent",
+          "text": "Selalu jelaskan tujuan dan prosedur, minta izin, dan baru memulai pemeriksaan. Pemeriksaan keseimbangan memiliki risiko jatuh yang nyata.",
+          "answer_evidence": "Pedoman Etik Kedokteran Indonesia; Modul OSCE Universitas Jambi (2018)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat Pembuka Station Paling Efektif",
+          "text": "\"Saya akan memeriksa keseimbangan dan koordinasi Anda. Pemeriksaan ini mungkin membuat Anda sedikit goyah, jadi saya akan berjaga di dekat Anda.\"",
+          "answer_evidence": "Modul Skills Lab FKIK Universitas Jambi (2018)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_keseimbangan_dismetria_02",
+        "gls_keseimbangan_disdiadokinesia_03"
+      ],
+      "bilingual": "Section ini memuat checklist 12 item OSCE yang akan dinilai, dengan kalimat pembuka, cara melakukan untuk skor maksimal, dan kesalahan yang harus dihindari."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis untuk membedakan gangguan vestibular, proprioseptif, dan serebelum, plus identifikasi red flags 5D.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis yang tepat adalah langkah awal yang penting dalam pemeriksaan gangguan keseimbangan dan koordinasi. Pertanyaan harus dirancang untuk mengidentifikasi gejala yang dapat menunjukkan gangguan vestibular, proprioseptif, atau serebelum. Penting untuk menanyakan tentang onset gejala, durasi, dan faktor pemicu. Selain itu, anamnesis harus mencakup pertanyaan tentang riwayat kesehatan sebelumnya, termasuk hipertensi, diabetes, dan riwayat stroke. Red flags seperti diplopia, disartria, dan disfagia harus diidentifikasi karena dapat mengindikasikan lesi sentral yang memerlukan penanganan segera.",
+          "tone": "narrative",
+          "source": "§3 Langkah pemeriksaan rinci dan interpretasi"
+        },
+        {
+          "text": "Empat pertanyaan kunci yang wajib ditanyakan: (1) Apakah Anda mengalami pusing atau vertigo? Kapan dimulai dan apa pemicunya? (2) Apakah Anda memiliki riwayat hipertensi atau diabetes? (3) Apakah Anda mengalami kesulitan menelan atau berbicara? (4) Apakah Anda pernah mengalami gangguan penglihatan seperti penglihatan ganda? Jawaban positif pada pertanyaan 3 dan/atau 4 merupakan red flags yang memerlukan rujukan emergensi.",
+          "tone": "clinical",
+          "source": "§3 Anamnesis kunci"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan anamnesis terstruktur (4 pertanyaan wajib):",
+          "sub": [
+            "Apakah Anda mengalami pusing atau vertigo? Jika ya, kapan dimulai dan apa yang memicunya?",
+            "Apakah Anda memiliki riwayat hipertensi atau diabetes?",
+            "Apakah Anda mengalami kesulitan menelan atau berbicara?",
+            "Apakah Anda pernah mengalami gangguan penglihatan seperti penglihatan ganda?"
+          ],
+          "bold": true,
+          "source": "§3 Anamnesis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Diplopia = Kemungkinan Lesi Sentral",
+          "text": "Penglihatan ganda (diplopia) pada pasien dengan gejala vertigo dan faktor risiko vaskular harus dianggap sebagai red flag lesi sentral/stroke sirkulasi posterior.",
+          "answer_evidence": "Pedoman Tatalaksana Vertigo PERDOSSI (2018)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Disartria = Stroke Serebelum",
+          "text": "Bicara pelo/cadel (disartria) yang onset mendadak sangat mengarah ke stroke serebelum. Rujuk emergensi untuk CT/MRI.",
+          "answer_evidence": "Pemeriksaan Klinis Neurologi Praktis KNI (2018)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Disfagia = Penanganan Segera",
+          "text": "Kesulitan menelan (disfagia) dengan onset akut dapat mengindikasikan keterlibatan batang otak dan berisiko aspirasi. Rujuk untuk penanganan emergensi.",
+          "answer_evidence": "Pedoman Tatalaksana Vertigo PERDOSSI (2018)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Onset Mendadak = Rujukan Emergensi",
+          "text": "Onset gejala yang mendadak (≤1 jam seperti pada Tn. Abdul) dengan red flags merupakan indikasi absolut untuk rujukan emergensi, bukan untuk pemeriksaan rawat jalan.",
+          "answer_evidence": "Panduan Stroke Nasional Indonesia (2018)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_keseimbangan_vertigo_01",
+        "gls_keseimbangan_nistagmus_04"
+      ],
+      "bilingual": "Section ini membekali mahasiswa dengan 4 pertanyaan anamnesis kunci untuk seleksi pasien dan deteksi dini red flags sentral."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pelaksanaan terperinci 9 tes keseimbangan/koordinasi (Romberg, Sharpened Romberg, Fukuda, Tandem walking, Finger-to-nose, Finger-to-finger, Past pointing, Heel-to-knee-to-toe, Rapid alternating movement) dengan cara melakukan dan interpretasi.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik untuk gangguan keseimbangan dan koordinasi melibatkan serangkaian tes yang dirancang untuk menilai fungsi vestibular, proprioseptif, dan serebelum. Setiap tes harus dilakukan dengan hati-hati untuk memastikan keselamatan pasien dan akurasi hasil. Pemeriksa harus siap untuk menahan pasien jika diperlukan, terutama selama tes yang dapat menyebabkan ketidakstabilan. Interpretasi hasil harus dilakukan dengan mempertimbangkan gejala klinis dan riwayat pasien. Pada skenario Tn. Abdul (50 tahun, 5D, faktor risiko vaskular), hasil tes yang mengarah ke gangguan serebelum atau sentral memperkuat kecurigaan stroke sirkulasi posterior.",
+          "tone": "narrative",
+          "source": "§4 Pemeriksaan fisik"
+        },
+        {
+          "text": "Pelajari setiap tes sebagai blok terpisah: posisi awal, instruksi kepada pasien, observasi yang dinilai, nilai normal, dan interpretasi abnormal. Selalu bandingkan kanan-kiri. Selalu berdiri di dekat pasien untuk mencegah jatuh. Catat hasil secara terstruktur (positif/negatif, sisi dominan yang abnormal, derajat gangguan).",
+          "tone": "clinical",
+          "source": "§4 Cara melakukan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tes Romberg:",
+          "sub": [
+            "Cara melakukan: Pasien berdiri dengan kaki rapat, lengan menyilang di dada. Amati selama 30 detik dengan mata terbuka, lalu 30 detik dengan mata tertutup.",
+            "Nilai normal: Pasien tetap stabil pada kedua kondisi",
+            "Interpretasi abnormal: Gangguan proprioseptif atau vestibular jika jatuh saat mata tertutup",
+            "Catatan: Pemeriksa HARUS berdiri di dekat pasien untuk menangkap saat jatuh"
+          ],
+          "bold": true,
+          "source": "§4 Tes Romberg"
+        },
+        {
+          "text": "Sharpened Romberg (Romberg dipertajam):",
+          "sub": [
+            "Cara melakukan: Pasien berdiri dalam posisi tandem, tumit satu kaki menyentuh ujung jari kaki lainnya. Lakukan dengan mata terbuka dan tertutup.",
+            "Nilai normal: Pasien tetap stabil",
+            "Interpretasi abnormal: Gangguan sentral/serebelum jika tidak stabil dengan mata terbuka",
+            "Catatan: Tes yang lebih sensitif dari Romberg standar; risiko jatuh lebih tinggi"
+          ],
+          "bold": true,
+          "source": "§4 Sharpened Romberg"
+        },
+        {
+          "text": "Fukuda Stepping Test:",
+          "sub": [
+            "Cara melakukan: Pasien berdiri dengan mata tertutup dan berjalan di tempat selama 50 langkah.",
+            "Nilai normal: Tidak ada deviasi signifikan, posisi tetap di tempat",
+            "Interpretasi abnormal: Gangguan vestibular unilateral jika bergeser lebih dari 50 cm ke satu sisi",
+            "Catatan: Ruangan harus aman, tanpa benda yang bisa mencederai pasien"
+          ],
+          "bold": true,
+          "source": "§4 Fukuda Stepping Test"
+        },
+        {
+          "text": "Tandem Walking:",
+          "sub": [
+            "Cara melakukan: Pasien berjalan pada garis lurus dengan tumit menyentuh ujung jari kaki berlawanan, ±5-10 langkah.",
+            "Nilai normal: Pasien dapat berjalan lurus tanpa oleng",
+            "Interpretasi abnormal: Gangguan koordinasi atau serebelum jika langkah melebar atau jatuh",
+            "Catatan: Pemeriksa harus mendampingi dari samping, terutama pada pasien usia lanjut"
+          ],
+          "bold": true,
+          "source": "§4 Tandem Walking"
+        },
+        {
+          "text": "Finger-to-Finger Test:",
+          "sub": [
+            "Cara melakukan: Kedua telunjuk pemeriksa dan pasien bertemu di tengah; gerakan lambat-cepat, mata buka lalu tutup.",
+            "Nilai normal: Kedua telunjuk bertemu tepat di tengah secara konsisten",
+            "Interpretasi abnormal: Dismetria jika jari melewati atau kurang dari target; selalu bandingkan kanan-kiri",
+            "Catatan: Posisi pemeriksa konstan untuk menilai presisi jarak"
+          ],
+          "bold": true,
+          "source": "§4 Finger-to-Finger"
+        },
+        {
+          "text": "Finger-to-Nose Test:",
+          "sub": [
+            "Cara melakukan: Telunjuk pasien menyentuh hidung sendiri, dengan gerakan lambat-cepat, mata buka lalu tutup.",
+            "Nilai normal: Pasien dapat menyentuh hidung dengan tepat dan konsisten",
+            "Interpretasi abnormal: Dismetria (undershoot/overshoot) dan tremor intensi yang memburuk saat mata tertutup = serebelum",
+            "Catatan: Amati kualitas gerakan, bukan hanya berhasil tidaknya"
+          ],
+          "bold": true,
+          "source": "§4 Finger-to-Nose"
+        },
+        {
+          "text": "Past Pointing Test:",
+          "sub": [
+            "Cara melakukan: Lengan pasien terangkat ke atas, lalu diturunkan untuk menyentuh telunjuk pemeriksa; mata buka lalu tutup.",
+            "Nilai normal: Pasien menyentuh telunjuk pemeriksa dengan konsisten",
+            "Interpretasi abnormal: Past pointing (jari menyimpang ke satu sisi) menandakan dismetria serebelum ipsilateral",
+            "Catatan: Tutup mata pasien saat akan menyentuh untuk menghilangkan koreksi visual"
+          ],
+          "bold": true,
+          "source": "§4 Past Pointing"
+        },
+        {
+          "text": "Heel-to-Knee-to-Toe Test:",
+          "sub": [
+            "Cara melakukan: Pasien berbaring; tumit satu kaki diletakkan di lutut kontralateral, lalu digeser sepanjang tulang kering ke arah jari kaki.",
+            "Nilai normal: Gerakan lurus dan terkontrol sepanjang tulang kering",
+            "Interpretasi abnormal: Ataksia ekstremitas bawah jika tumit tidak dapat mengikuti garis lurus",
+            "Catatan: Bandingkan kanan-kiri; minta pasien menutup mata untuk tes lebih sensitif"
+          ],
+          "bold": true,
+          "source": "§4 Heel-to-Knee-to-Toe"
+        },
+        {
+          "text": "Rapid Alternating Movement (Disdiadokinesia):",
+          "sub": [
+            "Cara melakukan: Pronasi-supinasi cepat kedua tangan pada paha atau permukaan meja; minta pasien melakukan secepat dan serapi mungkin.",
+            "Nilai normal: Gerakan ritmis, cepat, dan simetris",
+            "Interpretasi abnormal: Disdiadokinesia (tidak ritmis, lambat, tidak simetris) = lesi serebelum ipsilateral",
+            "Catatan: Bandingkan kanan-kiri; minta pasien menutup mata untuk menghilangkan koreksi visual"
+          ],
+          "bold": true,
+          "source": "§4 Rapid Alternating Movement"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips Teknis yang Sering Dilupakan",
+          "text": "Selalu berada di dekat pasien untuk mencegah jatuh, terutama pada tes Romberg, Sharpened Romberg, dan tandem walking. Pemeriksa harus selalu dalam posisi siap menahan.",
+          "answer_evidence": "Modul Skills Lab FKIK Universitas Jambi (2018)"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kondisi Pasien yang Mempengaruhi Pemeriksaan",
+          "text": "Pusing berat, kelemahan umum, atau efek obat (misalnya sedatif) dapat mempengaruhi hasil tes. Tunda pemeriksaan atau interpretasikan secara hati-hati bila kondisi ini ada.",
+          "answer_evidence": "Pemeriksaan Klinis Neurologi Praktis KNI (2018)"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Urutan Pemeriksaan Sistematis",
+          "text": "Mulai dari tes statis (Romberg) → tes langkah (Fukuda, tandem walking) → tes koordinasi ekstremitas atas (finger-to-nose, finger-to-finger, past pointing, rapid alternating movement) → tes koordinasi ekstremitas bawah (heel-to-knee-to-toe). Urutan ini mengurangi risiko jatuh dan kelelahan pasien.",
+          "answer_evidence": "Pedoman Pemeriksaan Neurologis Bickley (2018)"
+        }
+      ],
+      "visual_refs": [
+        "visual_keseimbangan_posisi_tes_04"
+      ],
+      "glossary_refs": [
+        "gls_keseimbangan_romberg_09",
+        "gls_keseimbangan_fukuda_10",
+        "gls_keseimbangan_dismetria_02",
+        "gls_keseimbangan_disdiadokinesia_03",
+        "gls_keseimbangan_ataksia_05"
+      ],
+      "bilingual": "Section ini memuat 9 tes utama (Romberg, Sharpened Romberg, Fukuda, Tandem walking, Finger-to-nose, Finger-to-finger, Past pointing, Heel-to-knee-to-toe, Rapid alternating movement) dengan cara melakukan dan interpretasi klinis."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat, lingkungan, dan tiga fase prosedur (persiapan, pelaksanaan, evaluasi) untuk memastikan pemeriksaan aman dan terstruktur.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Persiapan yang tepat dan penggunaan alat yang sesuai sangat penting dalam pemeriksaan gangguan keseimbangan dan koordinasi. Prosedur ini dibagi menjadi tiga fase: persiapan, pelaksanaan, dan evaluasi. Setiap fase memiliki langkah-langkah yang harus diikuti untuk memastikan pemeriksaan dilakukan dengan aman dan efektif. Alat yang digunakan harus disiapkan sebelumnya, dan pemeriksa harus memastikan bahwa lingkungan aman untuk pasien. Pada skenario Tn. Abdul dengan gejala 5D, persiapan harus mencakup rencana rujukan emergensi dan kontak dokter jaga/unit stroke.",
+          "tone": "narrative",
+          "source": "§5 Persiapan dan alat"
+        },
+        {
+          "text": "Tiga fase prosedur: (1) PERSIAPAN - jelaskan tujuan, minta izin, periksa lingkungan, siapkan alat; (2) PELAKSANAAN - lakukan 9 tes secara berurutan dengan pengawasan ketat; (3) EVALUASI - catat hasil, bandingkan dengan nilai normal, diskusikan dengan pasien, dan tentukan rencana tindak lanjut (rawat inap/rujuk emergensi pada kasus dengan red flags).",
+          "tone": "clinical",
+          "source": "§5 Tiga fase prosedur"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT yang diperlukan:",
+          "sub": [
+            "Stopwatch: Mengukur durasi tes (Romberg 30 detik per fase, Fukuda 50 langkah)",
+            "Tape atau garis lurus: Untuk tandem walking (panjang minimal 3-5 meter)",
+            "Kursi atau pegangan di dekat pasien: Untuk keselamatan pasien bila goyah",
+            "Alas kaki yang aman atau lantai tidak licin",
+            "Ruangan dengan pencahayaan cukup dan tanpa gangguan suara"
+          ],
+          "bold": true,
+          "source": "§5 Daftar alat"
+        },
+        {
+          "text": "FASE PERSIAPAN:",
+          "sub": [
+            "Jelaskan tujuan dan prosedur kepada pasien",
+            "Pastikan lingkungan aman dan bebas dari hambatan",
+            "Siapkan alat yang diperlukan",
+            "Minta pasien melepas sepatu/sandal bila perlu",
+            "Posisi pemeriksa: siap menahan dari samping/belakang"
+          ],
+          "bold": true,
+          "source": "§5 Fase persiapan"
+        },
+        {
+          "text": "FASE PELAKSANAAN:",
+          "sub": [
+            "Lakukan tes Romberg dengan pengawasan ketat",
+            "Lakukan sharpened Romberg dengan posisi tandem",
+            "Lakukan Fukuda stepping test dengan mata tertutup",
+            "Lakukan tandem walking pada garis lurus",
+            "Lakukan finger-to-nose, finger-to-finger, past pointing, heel-to-knee-to-toe, dan rapid alternating movement"
+          ],
+          "bold": true,
+          "source": "§5 Fase pelaksanaan"
+        },
+        {
+          "text": "FASE EVALUASI:",
+          "sub": [
+            "Catat hasil setiap tes dengan detail (positif/negatif, sisi, derajat)",
+            "Bandingkan hasil dengan nilai normal",
+            "Diskusikan hasil dengan pasien",
+            "Tentukan rencana tindak lanjut (observasi/rujuk/konsultasi)",
+            "Pada pasien dengan red flags, langsung komunikasikan rencana rujukan"
+          ],
+          "bold": true,
+          "source": "§5 Fase evaluasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan Pasien di Setiap Fase",
+          "text": "Keselamatan pasien di setiap fase harus menjadi prioritas utama. Selalu lakukan time-out singkat sebelum tes yang berisiko tinggi (Romberg, tandem walking) untuk memastikan pemeriksa siap menahan.",
+          "answer_evidence": "Modul Skills Lab FKIK Universitas Jambi (2018)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Hentikan Prosedur Jika Tidak Stabil",
+          "text": "Hentikan prosedur jika pasien menunjukkan tanda-tanda ketidakstabilan yang berbahaya atau gejala memburuk. Pada Tn. Abdul dengan vertigo + diplopia, jangan paksakan tandem walking bila risiko jatuh terlalu tinggi.",
+          "answer_evidence": "Pemeriksaan Klinis Neurologi Praktis KNI (2018)"
+        }
+      ],
+      "visual_refs": [
+        "visual_keseimbangan_prosedur_utama_01"
+      ],
+      "glossary_refs": [
+        "gls_keseimbangan_romberg_09",
+        "gls_keseimbangan_fukuda_10"
+      ],
+      "bilingual": "Section ini membekali mahasiswa dengan daftar alat dan tiga fase prosedur (persiapan, pelaksanaan, evaluasi) untuk station OSCE yang aman dan terstruktur."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-prosedur, komunikasi hasil ke pasien, dan pendekatan diagnosis banding vestibular perifer vs sentral/serebelum.",
+      "estimated_time_minutes": 12,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan selesai, penting untuk mengevaluasi hasil dan menentukan langkah selanjutnya. Clinical reasoning yang baik melibatkan analisis hasil pemeriksaan untuk menentukan apakah ada indikasi gangguan vestibular, proprioseptif, atau serebelum. Jika ditemukan red flags, seperti diplopia atau disartria, rujukan segera mungkin diperlukan. Diagnosis banding harus dipertimbangkan untuk memastikan bahwa semua kemungkinan penyebab gejala telah dievaluasi. Pada skenario Tn. Abdul (50 tahun, 5D, faktor risiko vaskular), hasil yang mengarah ke gangguan serebelum memperkuat kecurigaan stroke sirkulasi posterior yang memerlukan rujukan emergensi.",
+          "tone": "narrative",
+          "source": "§6 Pasca-prosedur dan clinical reasoning"
+        },
+        {
+          "text": "Pendekatan diagnosis banding: (1) Vestibular perifer (BPPV, neuritis vestibular) - gejala singkat, dipicu posisi, nistagmus horizontal; (2) Vestibular sentral (stroke batang otak/serebelum) - gejala berkelanjutan, tidak dipicu posisi, nistagmus vertikal/direction-changing, red flags 5D. Pada pasien dengan red flags, prioritaskan rujukan CT/MRI emergensi sebelum konfirmasi diagnosis definitif.",
+          "tone": "clinical",
+          "source": "§6 Diagnosis banding"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca prosedur:",
+          "sub": [
+            "Diskusikan hasil pemeriksaan dengan pasien (dengan bahasa yang dapat dimengerti)",
+            "Berikan edukasi tentang pentingnya tindak lanjut",
+            "Rujuk ke spesialis (neurologis) jika ditemukan red flags",
+            "Dokumentasikan hasil pemeriksaan secara lengkap (format SOAP)"
+          ],
+          "bold": true,
+          "source": "§6 Tindakan pasca prosedur"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS Merujuk Segera",
+          "text": "Jika ditemukan diplopia, disartria, disfagia, atau defisit neurologis fokal lain (5D) pada pasien dengan faktor risiko vaskular, rujuk emergensi untuk CT/MRI dan evaluasi stroke. Jangan tunggu diagnosis pasti.",
+          "answer_evidence": "Pedoman Tatalaksana Vertigo PERDOSSI (2018); Panduan Stroke Nasional"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pola Pikir untuk Clinical Reasoning",
+          "text": "Gunakan pola pikir 'apakah ini perifer atau sentral?': perifer = gejala singkat + dipicu posisi + nistagmus horizontal + tanpa defisit neurologis lain; sentral = gejala menetap + onset akut + nistagmus vertikal/direction-changing + defisit neurologis lain (5D, ataksia).",
+          "answer_evidence": "Pemeriksaan Klinis Neurologi Praktis KNI (2018)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_keseimbangan_nistagmus_04",
+        "gls_keseimbangan_stroke_serebelum_06"
+      ],
+      "bilingual": "Section ini membahas clinical reasoning pasca-pemeriksaan dan diagnosis banding vestibular perifer vs sentral, dengan fokus pada identifikasi red flags."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan (CT/MRI, laboratorium) dan prinsip tatalaksana awal, termasuk rujukan emergensi pada kasus dengan red flags.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang dapat membantu mengkonfirmasi diagnosis yang dicurigai berdasarkan hasil pemeriksaan fisik. Prinsip tatalaksana klinis melibatkan pengelolaan gejala dan pencegahan komplikasi lebih lanjut. Pemeriksaan penunjang yang mungkin diperlukan termasuk CT/MRI untuk mengevaluasi kemungkinan stroke serebelum atau lesi sentral lainnya. Tatalaksana harus disesuaikan dengan diagnosis spesifik dan dapat mencakup terapi fisik, pengobatan, atau rujukan ke spesialis. Pada pasien dengan red flags seperti Tn. Abdul, CT/MRI kepala non-kontras harus dilakukan dalam window time yang sesuai protokol stroke.",
+          "tone": "narrative",
+          "source": "§7 Pemeriksaan penunjang dan tatalaksana"
+        },
+        {
+          "text": "Pemeriksaan penunjang utama: (1) CT kepala non-kontras - menyingkirkan perdarahan intraserebral; (2) MRI kepala dengan diffusion-weighted imaging (DWI) - gold standard untuk stroke iskemik akut; (3) Laboratorium: glukosa darah, fungsi ginjal, elektrolit, profil lipid, HbA1c; (4) Pemeriksaan vestibular tambahan (kalori, ENG) bila curiga gangguan vestibular perifer. Tatalaksana awal stroke serebelum meliputi: stabilisasi ABC, kontrol tekanan darah, antiplatelet sesuai indikasi, dan rujukan ke unit stroke.",
+          "tone": "clinical",
+          "source": "§7 Tatalaksana"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang yang relevan:",
+          "sub": [
+            "CT/MRI kepala: menyingkirkan lesi sentral (stroke, tumor, abses)",
+            "Laboratorium: glukosa darah sewaktu, fungsi ginjal, elektrolit, profil lipid, HbA1c",
+            "EKG: menyingkirkan aritmia sebagai sumber emboli",
+            "Pemeriksaan vestibular khusus (kalori, electronystagmography) bila curiga gangguan vestibular perifer, di klinik rawat jalan"
+          ],
+          "bold": true,
+          "source": "§7 Pemeriksaan penunjang"
+        },
+        {
+          "text": "Kapan rujuk dan ke mana:",
+          "sub": [
+            "Rujuk ke IGD/unit stroke jika ditemukan red flags (5D, onset mendadak, defisit neurologis fokal)",
+            "Rujuk ke neurologis jika gejala menetap >2 minggu atau perburukan progresif",
+            "Rujuk ke THT-KL jika curiga gangguan vestibular perifer kronis (BPPV, penyakit Meniere)",
+            "Pada skenario Tn. Abdul: rujuk emergensi, jangan tunggu konfirmasi diagnosis rawat jalan"
+          ],
+          "bold": true,
+          "source": "§7 Kapan rujuk"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan yang WAJIB Disebutkan di Station",
+          "text": "Meski tidak tersedia di station, mahasiswa WAJIB menyebutkan CT/MRI untuk evaluasi stroke serebelum pada pasien dengan red flags 5D. Ini menunjukkan kemampuan clinical reasoning.",
+          "answer_evidence": "Panduan Stroke Nasional Indonesia; Pedoman Tatalaksana Vertigo PERDOSSI (2018)"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Rekomendasi Guideline Nasional",
+          "text": "Pemeriksaan CT/MRI diindikasikan untuk pasien dengan gejala stroke akut (onset <24 jam) dan red flags neurologis. CT non-kontras cukup untuk menyingkirkan perdarahan; MRI DWI lebih sensitif untuk stroke iskemik awal.",
+          "answer_evidence": "Panduan Stroke Nasional Indonesia (2018)"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Betahistine Hanya untuk Vertigo Perifer",
+          "text": "Penggunaan betahistine 16 mg 3x sehari hanya untuk gangguan vestibular perifer (misalnya BPPV, penyakit Meniere). JANGAN berikan betahistine pada pasien dengan curiga stroke serebelum tanpa konfirmasi diagnosis.",
+          "answer_evidence": "Pedoman Tatalaksana Vertigo PERDOSSI (2018)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_keseimbangan_stroke_serebelum_06",
+        "gls_keseimbangan_soap_08"
+      ],
+      "bilingual": "Section ini memuat pemeriksaan penunjang (CT/MRI) dan prinsip tatalaksana, dengan penekanan bahwa rujukan emergensi adalah prioritas pada pasien dengan red flags."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk pasien, safety net, dan contoh SOAP lengkap untuk skenario stroke serebelum.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Dokumentasi SOAP yang lengkap untuk skenario Tn. Abdul: S (Subjective): Pasien Tn. Abdul, 50 tahun, mengeluh pusing berputar, penglihatan ganda, mual/muntah, kesulitan menelan, bicara pelo, onset 1 jam. Riwayat hipertensi dan diabetes mellitus. O (Objective): Kesadaran compos mentis, ditemukan dismetria kanan, tandem gait tidak stabil, nistagmus, mungkin tanda batang otak lain. A (Assessment): Curiga lesi sentral, kemungkinan stroke serebelum/sirkulasi posterior. P (Plan): Rujuk emergensi ke IGD/unit stroke untuk CT/MRI kepala dan tata laksana stroke akut. Edukasi keluarga tentang tanda bahaya stroke.",
+          "tone": "narrative",
+          "source": "§8 Edukasi dan SOAP"
+        },
+        {
+          "text": "Edukasi pasien dan keluarga harus mencakup: pengenalan tanda bahaya stroke (5D + kelemahan separuh badan), pentingnya mencari bantuan medis segera, kontrol faktor risiko vaskular (tekanan darah, gula darah, kolesterol, berhenti merokok), kepatuhan obat, dan jadwal kontrol lanjutan. Safety net: kapan harus kembali ke IGD.",
+          "tone": "clinical",
+          "source": "§8 Edukasi dan safety net"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "POIN EDUKASI untuk pasien dan keluarga:",
+          "sub": [
+            "Pentingnya segera mencari bantuan medis jika mengalami gejala stroke",
+            "Cara mengelola gejala pusing di rumah (duduk/berbaring, hindari mengemudi)",
+            "Pentingnya kontrol faktor risiko seperti hipertensi dan diabetes",
+            "Tanda-tanda yang memerlukan perhatian medis segera",
+            "Pentingnya mengikuti rencana pengobatan yang direkomendasikan",
+            "Kapan harus kembali untuk evaluasi lanjutan"
+          ],
+          "bold": true,
+          "source": "§8 Poin edukasi"
+        },
+        {
+          "text": "SAFETY NET — Kapan Kembali Segera ke IGD:",
+          "sub": [
+            "Jika gejala memburuk atau tidak membaik dalam 24 jam",
+            "Jika mengalami kesulitan bernapas atau menelan",
+            "Jika mengalami kelemahan mendadak pada satu sisi tubuh",
+            "Jika mengalami kehilangan kesadaran atau kejang",
+            "Jika muncul gejala baru (5D, kelemahan separuh badan, gangguan bicara)"
+          ],
+          "bold": true,
+          "source": "§8 Safety net"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk Diagnosis Utama",
+          "text": "Stroke serebelum: I63 (Stroke iskemik, tidak spesifik) atau I63.9 (Stroke iskemik, tidak spesifik). BPPV: H81.1. Migren vestibular: G43. Selalu catat kode ICD-10 yang relevan di dokumentasi.",
+          "answer_evidence": "ICD-10 WHO (2018)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat Edukasi yang Paling Sering Dilupakan",
+          "text": "\"Segera cari bantuan medis jika Anda mengalami gejala stroke.\" Kalimat ini wajib disampaikan pada pasien dengan faktor risiko vaskular karena serangan stroke iskemik pertama meningkatkan risiko serangan berulang.",
+          "answer_evidence": "Panduan Stroke Nasional Indonesia (2018)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_keseimbangan_soap_08",
+        "gls_keseimbangan_stroke_serebelum_06"
+      ],
+      "bilingual": "Section ini memuat contoh SOAP lengkap untuk skenario stroke serebelum dan poin edukasi pasien, termasuk safety net."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Tabel relevansi SKDI untuk beberapa diagnosis terkait, dan mini-skrip dialog OSCE dari pembukaan hingga penutupan station.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Mini-skrip dialog lengkap dari pembukaan sampai penutupan: [DOKTER]: \"Selamat pagi, saya akan melakukan pemeriksaan keseimbangan dan koordinasi Anda. Apakah Anda bersedia?\" [PASIEN]: \"Ya, dokter.\" [DOKTER]: \"Baik, saya akan memulai dengan tes Romberg. Silakan berdiri dengan kaki rapat dan tangan menyilang di dada. Saya akan berada di dekat Anda untuk memastikan keselamatan.\" [PASIEN]: \"Baik, dokter.\" [DOKTER]: \"Terima kasih, hasil pemeriksaan menunjukkan adanya dismetria dan gangguan tandem gait. Saya curiga ada lesi sentral dan akan merujuk Anda untuk evaluasi lebih lanjut.\"",
+          "tone": "narrative",
+          "source": "§9 Mini-skrip komunikasi"
+        },
+        {
+          "text": "Relevansi SKDI: Pemeriksaan neurologis rutin (termasuk keseimbangan dan koordinasi) merupakan kompetensi level 4A yang harus dikuasai dokter umum. Diagnosis banding seperti stroke serebelum (I63, level 3B), BPPV (H81.1, level 4A), dan neuropati perifer (G60, level 3B) merupakan penyakit yang harus dikenali dokter umum sesuai SKDI. Pada pasien dengan red flags, dokter umum harus mampu melakukan rujukan emergensi yang tepat waktu.",
+          "tone": "clinical",
+          "source": "§9 SKDI"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan khusus komunikasi untuk topik ini:",
+          "sub": [
+            "Pastikan pasien merasa aman dan diberi tahu tentang setiap langkah pemeriksaan",
+            "Gunakan kalimat sederhana dan tidak menggunakan jargon medis saat menjelaskan hasil",
+            "Tunjukkan empati, terutama pada pasien dengan gejala akut (Tn. Abdul)",
+            "Selalu tutup dengan meringkas hasil dan rencana tindak lanjut"
+          ],
+          "bold": true,
+          "source": "§9 Komunikasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH Dilewatkan (Fatal Bila Lupa)",
+          "text": "\"Saya akan berada di dekat Anda untuk memastikan keselamatan.\" Kalimat ini menunjukkan perhatian terhadap keselamatan pasien dan menjadi salah satu item penilaian utama di OSCE.",
+          "answer_evidence": "Modul Skills Lab FKIK Universitas Jambi (2018)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara Membuka Station Paling Efektif",
+          "text": "\"Selamat pagi, saya akan melakukan pemeriksaan keseimbangan dan koordinasi Anda.\" Pembuka ini singkat, jelas, dan langsung menunjukkan tujuan station.",
+          "answer_evidence": "Modul Skills Lab FKIK Universitas Jambi (2018)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_keseimbangan_skdi_07"
+      ],
+      "bilingual": "Section ini memuat tabel relevansi SKDI 4A untuk beberapa diagnosis terkait dan mini-skrip dialog OSCE siap ucap."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri 20 item, rencana belajar 3 hari, dan 4 kesalahan fatal yang harus dihindari.",
+      "estimated_time_minutes": 8,
+      "content": [
+        {
+          "text": "Kriteria \"siap OSCE\" mencakup kemampuan untuk melakukan pemeriksaan dengan lancar dan aman, serta kemampuan untuk menginterpretasi hasil dengan tepat. Mahasiswa harus dapat mengidentifikasi red flags dan mengetahui kapan harus merujuk pasien untuk evaluasi lebih lanjut. Latihan mandiri dan persiapan ujian harus difokuskan pada penguasaan langkah-langkah pemeriksaan dan pemahaman tentang kondisi klinis yang relevan.",
+          "tone": "narrative",
+          "source": "§10 Latihan mandiri dan persiapan ujian"
+        },
+        {
+          "text": "Rencana belajar 3 hari: Hari 1 (2 jam) - hafal urutan 12 item checklist dan 9 tes; Hari 2 (3 jam) - praktik dengan teman dalam simulasi OSCE penuh; Hari 3 (2 jam) - latihan menulis laporan interpretasi dan membedakan hasil normal/abnormal. Target: dapat melakukan semua tes dalam waktu <7 menit dan menyebutkan 12 item checklist tanpa melihat.",
+          "tone": "clinical",
+          "source": "§10 Rencana 3 hari"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI (20 item, prioritas TINGGI kecuali alat):",
+          "sub": [
+            "Menjelaskan tujuan dan prosedur kepada pasien — TINGGI",
+            "Mempersiapkan pasien sesuai tes — TINGGI",
+            "Melakukan tes Romberg dengan benar — TINGGI",
+            "Melakukan sharpened Romberg dengan benar — TINGGI",
+            "Melakukan Fukuda stepping test dengan benar — TINGGI",
+            "Melakukan tandem walking dengan benar — TINGGI",
+            "Melakukan finger-to-nose test dengan benar — TINGGI",
+            "Melakukan finger-to-finger test dengan benar — TINGGI",
+            "Melakukan past pointing test dengan benar — TINGGI",
+            "Melakukan heel-to-knee-to-toe test dengan benar — TINGGI",
+            "Melakukan rapid alternating movement dengan benar — TINGGI",
+            "Melaporkan hasil pemeriksaan dengan jelas — TINGGI",
+            "Mengidentifikasi red flags — TINGGI",
+            "Mengetahui kapan harus merujuk pasien — TINGGI",
+            "Menggunakan alat dengan benar — SEDANG",
+            "Menjaga keselamatan pasien selama pemeriksaan — TINGGI",
+            "Menginterpretasi hasil pemeriksaan dengan tepat — TINGGI",
+            "Menyusun rencana tindak lanjut yang sesuai — TINGGI",
+            "Memberikan edukasi kepada pasien — TINGGI",
+            "Mengelola waktu dengan efektif selama OSCE — TINGGI"
+          ],
+          "bold": true,
+          "source": "§10 Checklist latihan"
+        },
+        {
+          "text": "RENCANA BELAJAR 3 HARI:",
+          "sub": [
+            "Hari 1: Target menghafal urutan checklist | Durasi 2 jam | Aktivitas membaca dan menghafal | Kriteria: dapat menyebutkan 12 item checklist tanpa melihat",
+            "Hari 2: Target praktik pemeriksaan dengan teman | Durasi 3 jam | Aktivitas simulasi OSCE | Kriteria: dapat melakukan semua tes dalam waktu <7 menit",
+            "Hari 3: Target latihan laporan interpretasi | Durasi 2 jam | Aktivitas menulis laporan | Kriteria: dapat membedakan hasil normal dan abnormal"
+          ],
+          "bold": true,
+          "source": "§10 Rencana 3 hari"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Menjaga Keselamatan Pasien",
+          "text": "Tidak berdiri di dekat pasien selama tes Romberg, Sharpened Romberg, atau tandem walking → dapat menyebabkan cedera jatuh → skor berkurang signifikan. Selalu berada di dekat pasien.",
+          "answer_evidence": "Modul Skills Lab FKIK Universitas Jambi (2018)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Mengidentifikasi Red Flags",
+          "text": "Tidak mengenali 5D (Diplopia, Disartria, Disfagia) atau onset mendadak → dapat menyebabkan keterlambatan penanganan stroke → outcome pasien buruk. Selalu waspada terhadap gejala sentral.",
+          "answer_evidence": "Panduan Stroke Nasional Indonesia (2018)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Melaporkan Hasil dengan Benar",
+          "text": "Tidak menyebutkan hasil normal/abnormal, sisi dominan, dan interpretasi klinis → dapat menyebabkan kesalahan diagnosis. Selalu catat hasil dengan detail menggunakan format SOAP.",
+          "answer_evidence": "Pemeriksaan Klinis Neurologis Praktis KNI (2018)"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Tidak Menggunakan Alat dengan Benar",
+          "text": "Tidak menyiapkan stopwatch atau tidak menggunakan garis lurus untuk tandem walking → menurunkan skor. Pastikan alat siap sebelum pemeriksaan.",
+          "answer_evidence": "Modul Skills Lab FKIK Universitas Jambi (2018)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": "Section ini memuat checklist latihan 20 item dan rencana belajar 3 hari, dengan 4 kesalahan fatal yang harus dihindari."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Visual yang disarankan, lampiran klinis (kontraindikasi, mini-case, kalimat pembuka), dan referensi modul.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Visual yang tepat dapat membantu mahasiswa memahami langkah-langkah pemeriksaan dan interpretasi hasil dengan lebih baik. Ilustrasi yang jelas dan informatif dapat digunakan sebagai alat bantu belajar yang efektif. Lampiran klinis menyediakan informasi tambahan yang relevan dengan topik pemeriksaan keseimbangan dan koordinasi. Referensi yang digunakan dalam modul ini mencakup panduan nasional dan internasional yang dapat diandalkan.",
+          "tone": "narrative",
+          "source": "§11 Visual, lampiran, dan referensi"
+        },
+        {
+          "text": "Empat visual utama yang disarankan: (1) Ilustrasi prosedur utama pemeriksaan keseimbangan (Romberg), (2) Diagram posisi 4 tes keseimbangan (Romberg, Sharpened Romberg, Fukuda, Tandem walking), (3) Diagram flowchart vertigo perifer vs sentral, (4) Ilustrasi 4-panel cerebellar coordination exam (finger-to-nose, finger-to-finger, rapid alternating movement, heel-to-knee-to-toe).",
+          "tone": "clinical",
+          "source": "§11 Visual"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "VISUAL YANG DISARANKAN:",
+          "sub": [
+            "Visual 1: Ilustrasi prosedur utama pemeriksaan keseimbangan (Romberg)",
+            "Visual 2: Diagram posisi 4 tes keseimbangan",
+            "Visual 3: Diagram flowchart vertigo perifer vs sentral dengan red flags",
+            "Visual 4: Ilustrasi 4-panel cerebellar coordination exam dengan tanda abnormal"
+          ],
+          "bold": true,
+          "source": "§11 Visual yang disarankan"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi / Red Flags:",
+          "sub": [
+            "Diplopia: Indikasi lesi sentral",
+            "Disartria: Indikasi stroke serebelum",
+            "Disfagia: Risiko aspirasi, lesi batang otak",
+            "Onset mendadak: Stroke atau gangguan akut lain",
+            "Kelemahan separuh badan: Stroke iskemik/peredaran"
+          ],
+          "bold": true,
+          "source": "§11 Lampiran A"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah & Respons:",
+          "sub": [
+            "Pusing berat saat tes: Hentikan tes, berikan dukungan fisik, biarkan pasien duduk",
+            "Ketidakstabilan berat: Hentikan pemeriksaan, pindahkan ke posisi aman",
+            "Pasien menolak/menolak melanjutkan: Hormati keputusan, jelaskan risiko, dokumentasikan"
+          ],
+          "bold": true,
+          "source": "§11 Lampiran B"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case:",
+          "sub": [
+            "Skenario Mudah: Tn. Hendra, 45 tahun, kelopak mata turun — Bell's palsy (G51.0)",
+            "Skenario Sedang: Ny. Dewi, 52 tahun, bicara cadel — Stroke serebelum (I63)",
+            "Skenario Sulit: Tn. Surya, 50 tahun, penurunan kesadaran — Meningitis (G00)"
+          ],
+          "bold": true,
+          "source": "§11 Lampiran C"
+        },
+        {
+          "text": "LAMPIRAN D — Kalimat Pembuka Station:",
+          "sub": [
+            "\"Selamat pagi, saya akan melakukan pemeriksaan keseimbangan dan koordinasi Anda.\"",
+            "\"Saya akan memulai dengan tes Romberg.\"",
+            "\"Silakan berdiri dengan kaki rapat dan tangan menyilang di dada.\"",
+            "\"Saya akan berada di dekat Anda untuk memastikan keselamatan.\"",
+            "\"Hasil pemeriksaan menunjukkan adanya dismetria.\"",
+            "\"Saya akan merujuk Anda untuk evaluasi lebih lanjut.\""
+          ],
+          "bold": true,
+          "source": "§11 Lampiran D"
+        },
+        {
+          "text": "REFERENSI:",
+          "sub": [
+            "Universitas Jambi. Modul Skills Lab FKIK. 2018.",
+            "KNI Indonesia. Pemeriksaan Klinis Neurologi Praktis. 2018.",
+            "Thursina C, Dewati E. Pedoman Tatalaksana Vertigo PERDOSSI. 2018.",
+            "ICD-10 WHO. 2018.",
+            "Bickley LS. Bates' Guide to Physical Examination. 12th ed. 2018."
+          ],
+          "bold": true,
+          "source": "§11 Referensi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk Membuat Visual",
+          "text": "\"Buat ilustrasi medis edukatif gaya clean vector: pemeriksa berdiri di belakang pasien saat melakukan Romberg test.\" Gunakan prompt serupa untuk 3 visual lainnya dengan deskripsi detail pada alt text.",
+          "answer_evidence": "Pedoman Visual Cortex Skill Lab 6 (2026)"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Guideline Nasional yang Dirujuk",
+          "text": "Pemeriksaan CT/MRI untuk pasien dengan gejala stroke akut. 2018. Mengikuti rekomendasi PERDOSSI dan Panduan Stroke Nasional Indonesia.",
+          "answer_evidence": "Pedoman Tatalaksana Vertigo PERDOSSI (2018); Panduan Stroke Nasional Indonesia (2018)"
+        }
+      ],
+      "visual_refs": [
+        "visual_keseimbangan_prosedur_utama_01",
+        "visual_keseimbangan_flowchart_02",
+        "visual_keseimbangan_cerebellar_exam_03",
+        "visual_keseimbangan_posisi_tes_04"
+      ],
+      "glossary_refs": [
+        "gls_keseimbangan_skdi_07",
+        "gls_keseimbangan_soap_08"
+      ],
+      "bilingual": "Section ini memuat 4 visual utama, lampiran A-D (kontraindikasi, masalah, mini-case, kalimat pembuka), dan 5 referensi modul."
+    }
+  ]
+}

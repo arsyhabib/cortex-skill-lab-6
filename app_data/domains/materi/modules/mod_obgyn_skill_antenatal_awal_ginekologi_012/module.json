@@ -1,0 +1,1875 @@
+{
+  "id": "mod_obgyn_skill_antenatal_awal_ginekologi_012",
+  "title": "Antenatal Awal dan Ginekologi <20 Minggu",
+  "subtitle": "Pemeriksaan antenatal trimester pertama dengan bimanual sebagai komponen utama untuk kehamilan <20 minggu.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_4",
+  "source_pdf": "Batch4_6.1_Modul_1_Antenatal_Awal_dan_Ginekologi.docx",
+  "source_filename": "Batch4_6.1_Modul_1_Antenatal_Awal_dan_Ginekologi.docx",
+  "topicTags": [
+    "osce_6_1",
+    "antenatal_care",
+    "trimester_1",
+    "pemeriksaan_bimanual",
+    "usia_gestasi",
+    "ket_kehamilan_ektopik",
+    "chadwick_sign",
+    "awal_kehamilan",
+    "anc_awal"
+  ],
+  "summary": [
+    "Pada kehamilan <20 minggu, pemeriksaan antenatal awal berfokus pada konfirmasi kehamilan, deteksi faktor risiko, tanda umum, dan pemeriksaan ginekologi bila ada indikasi; Leopold lengkap belum menjadi fokus utama karena uterus masih kecil di bawah atau setinggi pusat.",
+    "Skenario utama modul ini adalah Ny. Sari, 24 tahun, G1P0A0, hamil 16 minggu menurut HPHT, dating untuk ANC pertama tanpa keluhan, dengan informed consent verbal yang sudah diberikan.",
+    "Urutan alur OSCE yang wajib dihafal: komunikasi (salam, izin, privasi) -> anamnesis -> hitung usia kehamilan dan TP dengan rumus Naegele -> status generalis (TTV, konjungtiva, edema) -> pemeriksaan khusus awal (inspeksi abdomen, TFU, DJJ 16-20 minggu) -> status lokalis ginekologi hanya bila ada indikasi.",
+    "Rumus Naegele untuk taksiran persalinan: TP = HPHT + 7 hari - 3 bulan + 1 tahun; bila siklus tidak teratur atau HPHT tidak jelas, sebut perlu USG dating trimester 1.",
+    "Bimanual adalah komponen utama modul ini: nilai ukuran uterus dalam jari (apakah sesuai usia kehamilan?), posisi (AVF/RVF), konsistensi, nyeri goyang serviks, dan tanda Hegar/ballottement pada kehamilan muda.",
+    "Red flags kehamilan muda yang wajib dikenali: perdarahan pervaginam banyak, nyeri perut unilateral/berat (curiga ektopik), sinkop/akral dingin/takikardia, pusing dan pandangan kabur, demam, muntah berlebihan, dan keputihan berbau dengan lesi.",
+    "Tanda Chadwick (warna livid/biru pada serviks dan vagina) dan tanda Hegar (konsistensi lunak segmen bawah uterus pada kehamilan muda) adalah tanda presumtif yang perlu diutarakan saat OSCE.",
+    "Diagnosis banding trimester 1-2 yang wajib dijelaskan: ancaman abortus (serviks tertutup, kram, perdarahan), abortus komplit (serviks terbuka, jaringan keluar), dan kehamilan ektopik (nyeri unilateral, syok curiga, belum ada gestasi intrauterin)."
+  ],
+  "exam_focus": [
+    "Selalu lakukan informed consent dan privasi sebelum menyentuh pasien atau melakukan pemeriksaan genital; pada kehamilan <20 minggu, status lokalis (inspekulo dan VT) HANYA dilakukan bila ada indikasi dan consent eksplisit.",
+    "Hitung usia kehamilan dan taksiran persalinan (TP) dari HPHT dengan rumus Naegele pada setiap kunjungan awal; bila siklus tidak teratur, sampaikan perlu USG dating trimester 1.",
+    "Selalu lakukan TTV lengkap (TD, nadi, suhu, RR, SpO2), periksa konjungtiva untuk anemia, dan cari edema wajah/tangan yang mengarahkan preeklampsia; suhu >38 C curiga korioamnionitis/infeksi.",
+    "Bimanual adalah kunci modul ini: nilai ukuran uterus (dalam jari) -> bandingkan dengan usia kehamilan -> nilai posisi (AVF/RVF), konsistensi, nyeri goyang serviks, dan tanda Hegar/ballottement; nyeri goyang + amenorea + tes kehamilan positif curiga ektopik.",
+    "Kenali dan sebutkan Tanda Chadwick (serviks livid) dan Tanda Hegar (segmen bawah uterus lunak) sebagai tanda presumtif kehamilan pada pemeriksaan bimanual dan inspekulo.",
+    "Kewaspadaan wajib: pada perdarahan trimester awal, bedakan ancaman abortus (serviks tertutup), abortus komplit (serviks terbuka + jaringan keluar), dan kehamilan ektopik (nyeri unilateral + syok curiga + belum ada gestasi intrauterin) - ketiganya punya tata laksana berbeda.",
+    "Edukasi pasien tentang 7 tanda bahaya trimester 1-2: perdarahan, nyeri perut hebat/unilateral, sakit kepala/pandangan kabur, bengkak wajah/tangan, demam, mual muntah berlebihan, dan keputihan berbau; minta pasien mengulang untuk konfirmasi pemahaman.",
+    "Jangan mengarang hasil laboratorium pada station OSCE; cukup sebutkan bahwa Anda akan memesan darah lengkap, golongan darah, HIV/sifilis/hepatitis B, urinalisis, dan USG dating bila perlu.",
+    "Dokumentasi SOAP lengkap dengan kode ICD-10 (Z34.9 untuk kehamilan normal trimester 1, O09.90 untuk kehamilan risiko tinggi, O00.x untuk ektopik) adalah bukti rekam medis yang sering dinilai di OSCE.",
+    "Ketahuilah 10 penyakit SKDI 4A dan 3B yang terkait modul ini: kehamilan normal (4A), anemia defisiensi besi (4A), abortus (4A/3B), ektopik (3B rujuk), mola (3B rujuk), hiperemesis (4A/3B), preeklampsia (3B rujuk), HIV/sifilis/hepatitis B (3B rujuk)."
+  ],
+  "glossary": [
+    {
+      "id": "gls_antenatal_awal_litotomi_01",
+      "term": "Posisi litotomi",
+      "type": "procedure",
+      "def": "Posisi pasien terlentang dengan tungkai difleksikan dan ditempatkan di penyangga kaki (stirrup), memungkinkan akses ke genitalia eksterna untuk prosedur ginekologi seperti inspekulo dan vaginal toucher.",
+      "aliases": [
+        "dorsal lithotomy",
+        "litotomi"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_consent_02",
+      "term": "Informed consent",
+      "type": "clinical",
+      "def": "Persetujuan tindakan medis yang diberikan pasien setelah mendapatkan penjelasan tentang prosedur, tujuan, rasa tidak nyaman, risiko, manfaat, dan alternatif tindakan; wajib sebelum setiap pemeriksaan atau prosedur invasif.",
+      "aliases": [
+        "informed consent",
+        "persetujuan tindakan medis"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_apd_03",
+      "term": "APD (Alat Pelindung Diri)",
+      "type": "procedure",
+      "def": "Perlengkapan standar tenaga medis: sarung tangan (DTT/steril untuk prosedur, bersih untuk pemeriksaan), masker, kacamata pelindung, dan apron; wajib digunakan sebelum setiap tindakan ginekologi atau kontak dengan area genital/mukosa.",
+      "aliases": [
+        "APD",
+        "personal protective equipment"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_cuci_tangan_04",
+      "term": "Cuci tangan 6 langkah (WHO)",
+      "type": "procedure",
+      "def": "Prosedur kebersihan tangan 6 langkah WHO: telapak-telapak -> punggung tangan -> sela jari -> kunci -> ibu jari -> ujung jari; durasi minimal 20-40 detik dengan sabun dan air mengalir atau handrub berbasis alkohol.",
+      "aliases": [
+        "hand hygiene",
+        "5 momen cuci tangan"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_hpht_05",
+      "term": "HPHT (Hari Pertama Haid Terakhir)",
+      "type": "clinical",
+      "def": "Hari pertama perdarahan haid terakhir yang dipakai untuk menghitung usia kehamilan dan taksiran persalinan dengan rumus Naegele (HPHT + 7 hari - 3 bulan + 1 tahun); valid bila siklus haid teratur 21-35 hari.",
+      "aliases": [
+        "HPHT",
+        "LMP",
+        "first day of last menstrual period"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_chadwick_06",
+      "term": "Tanda Chadwick",
+      "type": "clinical",
+      "def": "Warna kebiruan/ungu (livid) pada serviks, vagina, dan vulva akibat peningkatan vaskularisasi dan kongesti vena pelvis pada kehamilan muda; merupakan tanda presumtif kehamilan yang dapat dilihat pada pemeriksaan inspekulo sejak minggu ke-6 sampai ke-8.",
+      "aliases": [
+        "Chadwick sign",
+        "livide cervicalis"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_hegar_07",
+      "term": "Tanda Hegar",
+      "type": "clinical",
+      "def": "Konsistensi lunak (fluktuasi) pada segmen bawah uterus (antara serviks dan korpus uteri) yang dapat dipalpasi pada kehamilan muda (8-12 minggu) saat pemeriksaan bimanual; merupakan tanda presumtif kehamilan.",
+      "aliases": [
+        "Hegar sign",
+        "softening of isthmus"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_ballottement_08",
+      "term": "Ballottement in toto",
+      "type": "clinical",
+      "def": "Tanda kehamilan di mana janin dapat 'dilempar' dan kembali ke posisi semula saat ditekan melalui dinding vagina atau abdomen pada kehamilan 16-20 minggu; merupakan tanda presumtif kehamilan.",
+      "aliases": [
+        "ballottement"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_bimanual_09",
+      "term": "Pemeriksaan bimanual (VT)",
+      "type": "procedure",
+      "def": "Pemeriksaan ginekologi dengan dua tangan: satu tangan di vagina (jari telunjuk dan tengah) dan tangan lain di abdomen, untuk menilai serviks, korpus uteri (ukuran, posisi, konsistensi), adneksa, dan parametrium; komponen utama pada kehamilan <20 minggu.",
+      "aliases": [
+        "vaginal toucher",
+        "VT",
+        "bimanual examination"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_avf_10",
+      "term": "AVF/RVF (Anteversi/Retroversi Fleksi)",
+      "type": "anatomy",
+      "def": "Posisi uterus dalam panggul: AVF (anteversi fleksi, normal pada 80% wanita) adalah posisi korpus uteri menunduk ke depan di atas kandung kemih; RVF (retroversi fleksi) menunduk ke belakang, dapat menyebabkan kesulitan konsepsi atau nyeri.",
+      "aliases": [
+        "AVF",
+        "RVF",
+        "uterine position"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_ket_11",
+      "term": "KET (Kehamilan Ektopik Terganggu)",
+      "type": "clinical",
+      "def": "Kehamilan yang implantasinya di luar kavum uteri (paling sering di tuba falopii) yang terganggu/ruptur, menyebabkan perdarahan intraabdomen dan syok; ditandai dengan trias amenorea, nyeri perut unilateral, dan perdarahan pervaginam dengan tes kehamilan positif.",
+      "aliases": [
+        "kehamilan ektopik",
+        "ectopic pregnancy",
+        "KEP"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_cmt_12",
+      "term": "Nyeri goyang serviks (CMT)",
+      "type": "clinical",
+      "def": "Nyeri yang timbul saat serviks digoyang/digeser perlahan dengan jari saat pemeriksaan bimanual; tanda klasik kehamilan ektopik atau penyakit radang panggul (PID).",
+      "aliases": [
+        "cervical motion tenderness",
+        "CMT"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_naegele_13",
+      "term": "Rumus Naegele",
+      "type": "procedure",
+      "def": "Rumus untuk menghitung taksiran persalinan dari HPHT: TP = (HPHT + 7 hari) - 3 bulan + 1 tahun; valid untuk siklus haid teratur 28 hari. Bila siklus lebih panjang/pendek, koreksi sesuai selisih hari.",
+      "aliases": [
+        "Naegele's rule",
+        "rumus Naegele"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_inspekulo_14",
+      "term": "Inspekulo",
+      "type": "procedure",
+      "def": "Pemeriksaan dalam dengan spekulum (Cusco bi-valved) untuk melihat dinding vagina, forniks, porsio serviks, dan sekret/fluor; pada kehamilan muda dilakukan hanya bila ada indikasi seperti perdarahan atau keputihan abnormal.",
+      "aliases": [
+        "speculum examination",
+        "inspekulo"
+      ]
+    },
+    {
+      "id": "gls_antenatal_awal_kloasma_15",
+      "term": "Kloasma gravidarum",
+      "type": "clinical",
+      "def": "Hiperpigmentasi pada wajah (forehead, pipi, hidung) akibat peningkatan hormon estrogen, progesteron, dan MSH pada kehamilan; tanda presumtif kehamilan yang dapat muncul sejak trimester 1.",
+      "aliases": [
+        "chloasma",
+        "mask of pregnancy"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_antenatal_awal_01",
+      "term_id": "Hari Pertama Haid Terakhir",
+      "term_en": "First Day of Last Menstrual Period (LMP)",
+      "context": "HPHT adalah dasar perhitungan usia kehamilan dengan rumus Naegele untuk taksiran persalinan."
+    },
+    {
+      "id": "bil_antenatal_awal_02",
+      "term_id": "Kehamilan Ektopik Terganggu",
+      "term_en": "Ruptured Ectopic Pregnancy",
+      "context": "Kondisi kegawatdaruratan obstetri yang ditandai trias amenorea, nyeri unilateral, dan perdarahan dengan syok curiga."
+    },
+    {
+      "id": "bil_antenatal_awal_03",
+      "term_id": "Tanda Chadwick",
+      "term_en": "Chadwick Sign",
+      "context": "Warna livid/biru pada serviks dan vagina akibat peningkatan vaskularisasi; tanda presumtif kehamilan."
+    },
+    {
+      "id": "bil_antenatal_awal_04",
+      "term_id": "Tanda Hegar",
+      "term_en": "Hegar Sign",
+      "context": "Konsistensi lunak pada segmen bawah uterus (8-12 minggu) yang dapat dipalpasi pada bimanual."
+    },
+    {
+      "id": "bil_antenatal_awal_05",
+      "term_id": "Pemeriksaan Bimanual",
+      "term_en": "Bimanual Examination",
+      "context": "Pemeriksaan ginekologi dengan dua tangan untuk menilai serviks, korpus uteri, dan adneksa."
+    },
+    {
+      "id": "bil_antenatal_awal_06",
+      "term_id": "Nyeri Goyang Serviks",
+      "term_en": "Cervical Motion Tenderness (CMT)",
+      "context": "Nyeri saat serviks digoyang pada bimanual; tanda klasik ektopik atau PID."
+    },
+    {
+      "id": "bil_antenatal_awal_07",
+      "term_id": "Inspekulo",
+      "term_en": "Speculum Examination",
+      "context": "Pemeriksaan dengan spekulum untuk melihat serviks dan vagina; hanya bila indikasi pada kehamilan muda."
+    },
+    {
+      "id": "bil_antenatal_awal_08",
+      "term_id": "Vaginal Toucher",
+      "term_en": "Vaginal Touch / Bimanual Exam",
+      "context": "Sama dengan pemeriksaan bimanual; komponen utama diagnosis kehamilan muda."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_antenatal_awal_alur_anc_01",
+      "module_id": "mod_obgyn_skill_antenatal_awal_ginekologi_012",
+      "section_id": "s02",
+      "type": "flowchart",
+      "generation_prompt": "Infografik Bahasa Indonesia, alur pemeriksaan antenatal awal trimester pertama, dari salam, anamnesis, HPHT, TTV, pemeriksaan umum, indikasi pemeriksaan ginekologi, edukasi tanda bahaya, gaya medical education clean A4 portrait.",
+      "alt": "Diagram alur pemeriksaan antenatal awal trimester pertama: komunikasi, anamnesis, hitung usia kehamilan, status generalis, pemeriksaan khusus awal, dan status lokalis bila indikasi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_awal_ginekologi_012/assets/alur_anc_awal.png"
+    },
+    {
+      "id": "visual_antenatal_awal_litotomi_02",
+      "module_id": "mod_obgyn_skill_antenatal_awal_ginekologi_012",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Ilustrasi edukasi klinik, pasien perempuan dewasa di meja ginekologi dengan kain penutup, dokter dan pendamping, penekanan pada privasi dan informed consent, tidak vulgar, gaya textbook.",
+      "alt": "Ilustrasi posisi litotomi pada pemeriksaan ginekologi dengan kain penutup, dokter muda, dan pendamping perempuan untuk menjaga privasi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_awal_ginekologi_012/assets/posisi_litotomi_sopan.png"
+    },
+    {
+      "id": "visual_antenatal_awal_spekulum_03",
+      "module_id": "mod_obgyn_skill_antenatal_awal_ginekologi_012",
+      "section_id": "s05",
+      "type": "diagram",
+      "generation_prompt": "Diagram anatomi potongan sagital panggul perempuan, spekulum memperlihatkan serviks dan forniks, label vagina, serviks, portio, forniks, uterus, gaya medis sederhana.",
+      "alt": "Diagram potongan sagital panggul perempuan yang menunjukkan posisi spekulum saat melihat serviks, forniks, vagina, dan uterus, dengan label dalam Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_awal_ginekologi_012/assets/anatomi_spekulum.png"
+    },
+    {
+      "id": "visual_antenatal_awal_tanda_bahaya_04",
+      "module_id": "mod_obgyn_skill_antenatal_awal_ginekologi_012",
+      "section_id": "s08",
+      "type": "infographic",
+      "generation_prompt": "Poster edukasi ibu hamil: perdarahan banyak, nyeri perut hebat, pingsan, demam, muntah berat, keputihan berbau, segera ke fasilitas kesehatan, Bahasa Indonesia. Gaya clean medical illustration, warna kontras untuk keterbacaan.",
+      "alt": "Poster tanda bahaya kehamilan muda: perdarahan, nyeri perut hebat, pingsan, demam, muntah berat, keputihan berbau, dengan instruksi 'segera ke IGD' dalam Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_awal_ginekologi_012/assets/tanda_bahaya_hamil_muda.png"
+    },
+    {
+      "id": "visual_antenatal_awal_status_generalis_05",
+      "module_id": "mod_obgyn_skill_antenatal_awal_ginekologi_012",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Kolase medis edukatif: pemeriksaan konjungtiva pucat, pemeriksaan edema pretibial, pengukuran tekanan darah ibu hamil, clean clinical illustration.",
+      "alt": "Kolase status generalis ibu hamil: pemeriksaan konjungtiva (anemia), edema pretibial (preeklampsia), dan pengukuran tekanan darah; gaya clean medical illustration.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_antenatal_awal_ginekologi_012/assets/status_generalis.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Jadwal kunjungan ANC berdasarkan WHO ANC 2016 dan SOP fasilitas Indonesia",
+      "source_reference": "WHO Recommendations on Antenatal Care for a Positive Pregnancy Experience, 2016",
+      "confidence": "high",
+      "note": "Jadwal ANC mengikuti standar WHO ANC 2016 dengan kunjungan 4 minggu sekali trimester 1-2, 2-4 minggu trimester 3."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Jadwal tindak lanjut ANC trimester 1, 2, 3 dengan suplementasi dan skrining",
+      "source_reference": "WHO ANC 2016; Permenkes RI tentang Antenatal Care",
+      "confidence": "high",
+      "note": "Jadwal tindak lanjut trimester mengikuti standar WHO ANC 2016."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Format SOAP untuk dokumentasi antenatal awal dan kode ICD-10 yang relevan",
+      "source_reference": "Standar RS Pendidikan Indonesia; ICD-10 WHO 2019",
+      "confidence": "high",
+      "note": "Format SOAP mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "Pola komunikasi OSCE untuk pemeriksaan antenatal awal",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Kalimat komunikasi konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi; kalimat final di station harus disesuaikan dengan skenario."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Cara mempersiapkan pasien untuk status lokalis ginekologi pada kehamilan muda",
+      "source_reference": "Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Pemeriksaan genital (inspekulo, VT) hanya dilakukan bila ada indikasi dan dengan consent eksplisit."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Modul ini memetakan pemeriksaan antenatal awal pada kehamilan <20 minggu: konfirmasi kehamilan, deteksi faktor risiko, status generalis, dan status lokalis ginekologi bila ada indikasi.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul OSCE Blok 6.1 - Pemeriksaan Antenatal Awal dan Ginekologi (<20 Minggu) disusun berbasis checklist kampus FKIK Universitas Jambi, diperkuat dengan standar SKDI 4A Obgyn, WHO ANC 2016, dan WHO Intrapartum Care 2018. Fokus tertinggi adalah urutan tindakan yang dinilai penguji, dengan prioritas komunikasi, keselamatan, teknik inti, interpretasi, dan edukasi.",
+          "tone": "narrative",
+          "source": "S1 Ringkasan File Sumber dan Target OSCE"
+        },
+        {
+          "text": "Skenario utama modul ini digunakan secara konsisten di seluruh dokumen: Ny. Sari, 24 tahun, G1P0A0, hamil 16 minggu menurut HPHT, dating untuk ANC pertama. Tidak ada keluhan, tidak ada perdarahan, tidak ada mual muntah berat. Informed consent verbal sudah diberikan. Identitas ini dipakai di S1, S9, S13, S15, dan Lampiran C.",
+          "tone": "narrative",
+          "source": "S1 Skenario klinis utama"
+        },
+        {
+          "text": "Batas kompetensi modul ini: pada usia kehamilan <20 minggu, pemeriksaan lebih banyak berfokus pada konfirmasi kehamilan, deteksi faktor risiko, tanda umum, dan pemeriksaan ginekologi bila ada indikasi. Leopold lengkap belum menjadi fokus utama karena ukuran uterus dan bagian janin belum optimal dipalpasi.",
+          "tone": "clinical",
+          "source": "S1 Batas skill"
+        },
+        {
+          "text": "Kesalahan fatal yang harus dihindari: tidak menjaga privasi, tidak meminta izin, tidak menjelaskan rasa tidak nyaman, lupa cuci tangan/sarung tangan, melakukan pemeriksaan genital tanpa indikasi/consent, dan tidak menyebut red flags perdarahan/nyeri perut/ektopik.",
+          "tone": "clinical",
+          "source": "S1 Kesalahan fatal OSCE"
+        },
+        {
+          "text": "Target OSCE: mahasiswa mampu melakukan anamnesis kehamilan awal, menghitung usia kehamilan dan taksiran persalinan (TP) dari HPHT, melakukan status generalis, melakukan pemeriksaan khusus awal (inspeksi abdomen, palpasi TFU, auskultasi DJJ pada usia 16-20 minggu), melakukan status lokalis ginekologi (inspeksi, inspekulo, VT) bila ada indikasi, serta mengenali tanda bahaya kehamilan muda yang memerlukan rujukan.",
+          "tone": "clinical",
+          "source": "S1 Target OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alur besar 6 langkah OSCE: (1) komunikasi salam, izin, privasi; (2) anamnesis; (3) hitung usia kehamilan dan TP; (4) status generalis; (5) pemeriksaan khusus awal; (6) status lokalis ginekologi HANYA bila indikasi.",
+          "sub": [
+            "Komunikasi dulu sebelum menyentuh pasien",
+            "Hitung usia kehamilan dengan rumus Naegele",
+            "Cari anemia, hipertensi, edema, preeklampsia pada status generalis",
+            "Status lokalis hanya bila ada indikasi dengan consent"
+          ],
+          "bold": true,
+          "source": "S1 Alur besar 6 langkah"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "Prinsip Utama Modul 012",
+          "text": "Pada usia kehamilan <20 minggu, pemeriksaan lebih banyak berfokus pada konfirmasi kehamilan, deteksi faktor risiko, tanda umum, dan pemeriksaan ginekologi bila ada indikasi. Leopold lengkap belum menjadi fokus utama karena ukuran uterus dan bagian janin belum optimal dipalpasi.",
+          "answer_evidence": "Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi; PROMPT_DOMAIN1_ObGyn_S2.md"
+        },
+        {
+          "tone": "danger",
+          "icon": "[DANGER]",
+          "title": "Red Flags Kehamilan Muda",
+          "text": "Tanda bahaya yang WAJIB dikenali: perdarahan pervaginam banyak, nyeri perut unilateral/berat, sinkop/akral dingin/takikardia, pandangan kabur/sakit kepala hebat, bengkak wajah-tangan, demam, muntah berlebihan, dan keputihan berbau. Curiga ektopik, abortus, mola, atau preeklampsia.",
+          "answer_evidence": "WHO ANC 2016; SKDI 4A Obgyn"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_antenatal_awal_litotomi_01",
+        "gls_antenatal_awal_hpht_05",
+        "gls_antenatal_awal_bimanual_09"
+      ],
+      "bilingual": "Skenario OSCE untuk kehamilan <20 menit: fokus konfirmasi kehamilan, faktor risiko, status generalis, dan bimanual sebagai komponen utama."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Alur 6 langkah dan 7 item checklist OSCE utama yang harus dihafal untuk kehamilan <20 minggu, dengan penekanan bahwa status lokalis hanya dilakukan bila indikasi.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur besar OSCE pada kehamilan <20 minggu mengikuti pola komunikasi -> anamnesis -> usia kehamilan & TP -> status generalis -> pemeriksaan khusus awal -> status lokalis (bila indikasi). Setiap langkah verbalized dengan suara keras, dan pasien/keluarga dilibatkan dalam informed consent.",
+          "tone": "narrative",
+          "source": "S2 Alur Besar OSCE"
+        },
+        {
+          "text": "Checklist penilaian skill lab mencakup 7 item utama: (1-2) salam, perkenalan, identitas; (3) anamnesis lengkap; (4) tentukan usia kehamilan dan TP; (5) status generalis; (6) pemeriksaan ginekologi kehamilan <20 minggu; (7) status lokalis (inspeksi, inspekulo, VT) bila ada indikasi. Tujuh item ini berasal dari file sumber dan telah disusun berurutan.",
+          "tone": "clinical",
+          "source": "S3 Checklist OSCE"
+        },
+        {
+          "text": "Catatan penting: pada kehamilan <20 minggu, Leopold lengkap belum utama. Fokus pada konfirmasi kehamilan, deteksi faktor risiko, tanda umum, dan pemeriksaan ginekologi bila ada indikasi. Status lokalis HANYA dilakukan bila ada keluhan/indikasi seperti perdarahan, keputihan, atau nyeri panggul.",
+          "tone": "clinical",
+          "source": "S3 Catatan batas skill"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Item 1-2: Salam, perkenalan, identitas - bangun kepercayaan dan memastikan pasien benar.",
+          "sub": [
+            "Ucapkan nama, peran, tujuan; konfirmasi nama/usia/alamat pasien",
+            "Identitas benar = keselamatan pasien"
+          ],
+          "bold": false,
+          "source": "S3 Checklist item 1-2"
+        },
+        {
+          "text": "Item 3: Anamnesis (perkawinan, haid, penyakit, persalinan, kebiasaan/obat/jamu) - mencari risiko obstetri, anemia, abortus, ektopik, paparan teratogen.",
+          "sub": [
+            "Tanyakan HPHT, siklus, perdarahan, nyeri, mual, riwayat keguguran/SC/PPH/hipertensi, obat, jamu",
+            "Gunakan bahasa netral dan tidak menghakimi"
+          ],
+          "bold": false,
+          "source": "S3 Checklist item 3"
+        },
+        {
+          "text": "Item 4: Tentukan usia kehamilan dan TP - Naegele: HPHT + 7 hari - 3 bulan + 1 tahun. Jika siklus tidak teratur/lupa HPHT, sebut perlu USG dating trimester 1.",
+          "sub": [
+            "Naegele hanya valid untuk siklus 28 hari teratur",
+            "Koreksi +/- selisih hari untuk siklus lebih panjang/pendek"
+          ],
+          "bold": false,
+          "source": "S3 Checklist item 4"
+        },
+        {
+          "text": "Item 5: Status generalis - cari anemia, hipertensi, edema, penyakit jantung/paru, status gizi.",
+          "sub": [
+            "KU, TB/BB/IMT, konjungtiva, sklera, kloasma, edema",
+            "TTV: TD, nadi, suhu, RR, SpO2",
+            "Auskultasi jantung-paru, palpasi hati-limpa"
+          ],
+          "bold": false,
+          "source": "S3 Checklist item 5"
+        },
+        {
+          "text": "Item 6: Pemeriksaan ginekologi kehamilan <20 minggu - menilai tanda kehamilan awal dan keluhan ginekologis.",
+          "sub": [
+            "Inspeksi abdomen",
+            "Palpasi TFU",
+            "Auskultasi DJJ (16-20 minggu dengan doppler/Pinard)",
+            "Status lokalis bila indikasi"
+          ],
+          "bold": false,
+          "source": "S3 Checklist item 6"
+        },
+        {
+          "text": "Item Status Lokalis: Inspeksi, inspekulo, VT - menilai labium, perineum, uretra, fluor, dinding vagina, forniks, porsio.",
+          "sub": [
+            "Wajib jelaskan prosedur, privasi, sarung tangan, pelumas, gentle",
+            "HANYA bila ada indikasi dan consent"
+          ],
+          "bold": true,
+          "source": "S3 Status lokalis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "Tips Nilai Tinggi - Urutan OSCE",
+          "text": "(1) Jangan langsung pegang perut pasien - mulai dari izin dan privasi. (2) Hitung usia kehamilan dan TP dari HPHT. (3) Konjungtiva, edema, TTV - cari anemia, hipertensi, preeklampsia. (4) Status lokalis hanya bila indikasi. (5) Verbalisasi setiap langkah dengan nada jelas.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md - Modul 012 tips"
+        },
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "Batas Skill Kehamilan <20 Minggu",
+          "text": "Pada kehamilan <20 minggu, Leopold lengkap belum menjadi fokus utama karena ukuran uterus dan bagian janin belum optimal dipalpasi. Fokus pada konfirmasi kehamilan, deteksi faktor risiko, tanda umum, dan pemeriksaan ginekologi bila ada indikasi.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md - Modul 012 karakter unik"
+        },
+        {
+          "tone": "caution",
+          "icon": "[CAUTION]",
+          "title": "Pesan Kunci",
+          "text": "Pada usia kehamilan <20 minggu, Leopold lengkap belum menjadi fokus utama karena ukuran uterus dan bagian janin belum optimal dipalpasi.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md - Modul 012 karakter"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_awal_alur_anc_01"
+      ],
+      "glossary_refs": [
+        "gls_antenatal_awal_consent_02",
+        "gls_antenatal_awal_naegele_13",
+        "gls_antenatal_awal_apd_03"
+      ],
+      "bilingual": "Alur OSCE: komunikasi -> anamnesis -> usia kehamilan -> status generalis -> pemeriksaan awal -> status lokalis (bila indikasi)."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Anamnesis kehamilan awal mencakup konfirmasi kehamilan, riwayat haid, riwayat obstetri, penyakit ibu, dan kebiasaan; empat pertanyaan kunci wajib ditanyakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station antenatal awal memiliki empat fungsi: (1) konfirmasi identitas, (2) konfirmasi kehamilan, (3) deteksi faktor risiko, dan (4) persiapan pemeriksaan. Bahasa yang digunakan harus awam, netral, dan tidak menghakimi, terutama saat menanyakan riwayat keguguran, IMS, atau kekerasan seksual.",
+          "tone": "narrative",
+          "source": "S4 Anamnesis"
+        },
+        {
+          "text": "Prinsip utama anamnesis (diadaptasi dari file sumber): (1) konfirmasi kehamilan (HPHT, gejala awal); (2) riwayat haid, perkawinan, IMS; (3) riwayat kehamilan/persalinan sebelumnya; (4) penyakit ibu, alergi, obat, dan kebiasaan.",
+          "tone": "clinical",
+          "source": "S4 Prinsip utama anamnesis"
+        },
+        {
+          "text": "Empat pertanyaan kunci yang tidak boleh terlewat: (1) Apakah HPHT valid? (2) Apa faktor risiko ibu-janin? (3) Apa tanda bahaya (perdarahan, nyeri, demam)? (4) Apa alergi obat?",
+          "tone": "clinical",
+          "source": "S4 Pertanyaan kunci"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Domain identitas & obstetri dasar: usia, pekerjaan, alamat, G/P/A, usia kehamilan menurut HPHT, keluhan utama. Usia <20 atau >35, paritas tinggi, jarak kehamilan dekat, riwayat obstetri buruk menaikkan risiko.",
+          "sub": [
+            "Usia risiko tinggi: <20 atau >35 tahun",
+            "Paritas >4 atau jarak <2 tahun -> risiko tinggi"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis wajib"
+        },
+        {
+          "text": "Domain riwayat haid: HPHT, siklus teratur/tidak, lama haid, jumlah darah, nyeri haid. HPHT valid bila siklus teratur 21-35 hari. Perdarahan tidak biasa bisa mengaburkan usia gestasi.",
+          "sub": [
+            "Siklus tidak teratur -> koreksi Naegele",
+            "Perdarahan pervaginam pada awal hamil -> pikir abortus/ektopik"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Domain keluhan awal kehamilan: mual muntah, perdarahan, nyeri perut, pusing/lemas, demam, keputihan, BAK nyeri. Perdarahan + nyeri perut perlu pikir abortus/ektopik. Disuria pikir ISK. Keputihan gatal/bau pikir vaginitis/servisitis.",
+          "sub": [
+            "Mual muntah berlebihan + dehidrasi -> hiperemesis",
+            "Keputihan berbau + lesi -> servisitis/IMS"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Domain riwayat kehamilan/persalinan: abortus, prematur, SC, PPH, preeklampsia, bayi kecil/besar, kematian janin/neonatal. Membantu klasifikasi kehamilan risiko tinggi dan rencana rujukan.",
+          "sub": [
+            "Riwayat SC -> pertimbangkan kelahiran pervaginam vs SC ulangan",
+            "Riwayat preeklampsia/PPH -> ANC risiko tinggi"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Domain penyakit ibu: hipertensi, diabetes, jantung, ginjal, asma, epilepsi, TB, HIV, anemia, alergi obat. Penyakit kronik mengubah risiko ibu-janin dan perlu kontrol/rujukan.",
+          "sub": [
+            "Diabetes/hipertensi -> ANC risiko tinggi",
+            "HIV/sifilis/hepatitis B -> terapi ARV/penisilin, rujuk SpOG"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Domain kebiasaan & paparan: rokok, alkohol, obat bebas, jamu, hewan peliharaan, paparan infeksi, pekerjaan berat. Paparan tertentu terkait risiko infeksi, teratogen, anemia, abortus, atau gangguan pertumbuhan janin.",
+          "sub": [
+            "Jamu/obat bebas -> efek teratogen",
+            "Pekerjaan berat/fisik -> risiko abortus/prematur"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Domain status ginekologis: keputihan, nyeri panggul, perdarahan pascakoitus, IMS sebelumnya. Curiga servisitis/IMS/keganasan.",
+          "sub": [
+            "Perdarahan pascakoitus -> curiga lesi serviks",
+            "Lesi ulkus/vesikel -> curiga sifilis/HSV"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Domain pernikahan & keluarga: status suami/keluarga, kehamilan diinginkan/tidak. Dukung kehamilan dan sosial.",
+          "sub": [
+            "Kehamilan tidak diinginkan -> konseling, rujuk",
+            "Kekerasan seksual curiga -> rujuk tim forensik"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis"
+        },
+        {
+          "text": "Domain vaksinasi dan kontrasepsi: TT, hepatitis B, COVID-19, HPV (bila relevan), KB sebelumnya. Perlu sesuai program dan memengaruhi kesuburan.",
+          "sub": [
+            "TT untuk mencegah tetanus neonatorum",
+            "KB hormonal sebelumnya -> evaluasi kesuburan"
+          ],
+          "bold": false,
+          "source": "S4 Tabel pertanyaan anamnesis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "[DANGER]",
+          "title": "Red Flags Wajib Ditanyakan",
+          "text": "(1) Perdarahan pervaginam banyak + pusing/sinkop/takikardia -> kegawatdaruratan. (2) Nyeri perut hebat/unilateral, nyeri bahu, tanda iritasi peritoneum -> curiga ektopik ruptur. (3) Demam, sekret berbau busuk, nyeri goyang serviks/adneksa -> PID. (4) TD tinggi, sakit kepala hebat, pandangan kabur, edema wajah/tangan -> preeklampsia. (5) HPHT tidak jelas -> USG dating.",
+          "answer_evidence": "WHO ANC 2016; SKDI 4A Obgyn"
+        },
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "Cara Berpikir Praktis 4 Pertanyaan Kunci",
+          "text": "(1) Apakah HPHT valid? (2) Apa faktor risiko ibu-janin? (3) Apa tanda bahaya (perdarahan, nyeri, demam)? (4) Apa alergi obat? Keempat pertanyaan ini HARUS ditanyakan dan diucapkan dengan suara keras di station OSCE.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md - Modul 012"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_antenatal_awal_hpht_05",
+        "gls_antenatal_awal_ket_11"
+      ],
+      "bilingual": "Anamnesis kehamilan awal: konfirmasi HPHT, faktor risiko, tanda bahaya, alergi. Empat pertanyaan kunci wajib ditanyakan."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pemeriksaan fisik kehamilan <20 minggu: TTV, inspeksi umum, konjungtiva, kloasma, edema, inspeksi dan palpasi abdomen, auskultasi DJJ 16-20 minggu, auskultasi jantung-paru, palpasi hati-limpa, dan pemeriksaan ginekologi awal (inspekulo, VT) bila ada indikasi.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan tanda vital dan umum pada kehamilan awal: TD, nadi, suhu, pernapasan, SpO2, kesadaran, tampak sakit/tidak, TB, BB, IMT (jika tersedia), inspeksi konjungtiva, sklera, kloasma, dan edema. Pemeriksaan ini menjadi landasan untuk mendeteksi anemia, hipertensi/preeklampsia, dan tanda syok.",
+          "tone": "clinical",
+          "source": "S5 Pemeriksaan Tanda Vital dan Umum"
+        },
+        {
+          "text": "Pemeriksaan abdomen konteks <20 minggu: inspeksi (hiperpigmentasi linea nigra, striae, bekas operasi, bentuk dan simetri), palpasi TFU, nyeri tekan, massa, dan auskultasi DJJ bila usia 16-20 minggu dan alat tersedia. Pada kehamilan 12 minggu, TFU teraba 1-2 jari di atas simfisis; pada 20 minggu, TFU setinggi pusat.",
+          "tone": "clinical",
+          "source": "S5 Pemeriksaan Abdomen"
+        },
+        {
+          "text": "Auskultasi DJJ dengan doppler/Pinard di sekitar umbilikus (usia 16-20 minggu), hitung 60 detik. DJJ mulai terdengar dengan doppler pada usia 10-12 minggu (bila alat sensitif), dengan Pinard pada usia 20 minggu. Nilai normal DJJ 110-160 x/menit, reguler.",
+          "tone": "clinical",
+          "source": "S5 Auskultasi DJJ"
+        },
+        {
+          "text": "Pemeriksaan jantung-paru: auskultasi murmur, irama; auskultasi paru: ronki, wheezing. Palpasi hati dan limpa (bila diperlukan). Pemeriksaan ini mendeteksi penyakit jantung/hipertensi pulmonal, asma, atau pembesaran hati/limpa yang memengaruhi kehamilan.",
+          "tone": "clinical",
+          "source": "S5 Jantung-Paru dan Hati-Limpa"
+        },
+        {
+          "text": "Pemeriksaan ginekologi awal dengan bimanual adalah komponen utama modul ini (satu-satunya modul dengan bimanual SEBAGAI KOMPONEN UTAMA). Pada kehamilan <20 minggu, bimanual menilai: ukuran uterus (berapa jari di atas simfisis), konsistensi (lunak = tanda Hegar), posisi (AVF/RVF), dan nyeri goyang serviks (CMT). Inspekulo menilai warna serviks (Tanda Chadwick, livid/biru pada minggu ke-6-8) dan fluor.",
+          "tone": "clinical",
+          "source": "S5 Pemeriksaan Ginekologi Awal + Bimanual"
+        },
+        {
+          "text": "Pemeriksaan tambahan: inspeksi dan palpasi abdomen, palpasi TFU, auskultasi DJJ 16-20 minggu dengan doppler/Pinard, dan pemeriksaan status lokalis ginekologi (inspeksi, inspekulo, VT) bila ada indikasi. Pada kehamilan <20 minggu tanpa keluhan, status lokalis tidak rutin dilakukan.",
+          "tone": "clinical",
+          "source": "S5 Pemeriksaan khusus awal"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "TTV ibu hamil: TD <140/90 mmHg, nadi 60-100, suhu 36,0-37,5 C, RR 12-20, SpO2 >=95%. Konjungtiva merah muda, sklera tidak ikterik. Kloasma/hiperpigmentasi dapat muncul (normal). Edema fisiologis dapat muncul (ringan).",
+          "sub": [
+            "TD >=140/90 -> curiga hipertensi/preeklampsia",
+            "Nadi >120 -> curiga perdarahan/syok",
+            "Suhu >38 C -> curiga infeksi/korioamnionitis",
+            "Konjungtiva pucat -> anemia",
+            "Edema wajah/tangan + hipertensi -> preeklampsia"
+          ],
+          "bold": false,
+          "source": "S5 Nilai normal TTV"
+        },
+        {
+          "text": "Abdomen pada <20 minggu: TFU teraba 1-2 jari di atas simfisis (12 minggu) sampai setinggi pusat (20 minggu). DJJ mulai terdengar dengan doppler pada 10-12 minggu, dengan Pinard pada 20 minggu. Tidak ada nyeri tekan, tidak ada massa abnormal.",
+          "sub": [
+            "TFU tidak sesuai usia -> curiga kesalahan HPHT, IUGR, atau makrosomia",
+            "TFU tidak teraba -> curiga ektopik atau blighted ovum",
+            "Nyeri tekan -> curiga abortus, ektopik, kista terpuntir",
+            "DJJ tidak terdengar di 16-20 minggu -> evaluasi lebih lanjut, jangan langsung diagnosis IUFD"
+          ],
+          "bold": true,
+          "source": "S5 Nilai normal abdomen"
+        },
+        {
+          "text": "DJJ 110-160 x/menit, reguler. Lokasi: di sekitar umbilikus (usia 16-20 minggu) atau area sesuai posisi. Hitung 60 detik.",
+          "sub": [
+            "DJJ <110 atau >160 -> curiga gawat janin",
+            "DJJ tidak terdengar -> evaluasi usia/alat/posisi dulu"
+          ],
+          "bold": false,
+          "source": "S5 Nilai normal DJJ"
+        },
+        {
+          "text": "Jantung: irama regular, tidak ada murmur patologis. Paru: vesikuler normal. Hati/limpa tidak membesar. Curiga penyakit jantung, paru, hati/limpa yang memengaruhi kehamilan.",
+          "sub": [
+            "Murmur sistolik >2/6 -> curiga penyakit jantung",
+            "Ronki bilateral -> curiga edema paru"
+          ],
+          "bold": false,
+          "source": "S5 Jantung-Paru Hati-Limpa"
+        },
+        {
+          "text": "Payudara pada kehamilan: membesar, areola hiperpigmentasi, putting lebih prominen. Kolostrum dapat keluar di trimester 3. Curiga mastitis, massa (kista, tumor), puting retraksi (keganasan) bila abnormal.",
+          "sub": [
+            "Puting retraksi unilateral baru -> curiga keganasan",
+            "Masse keras tidak nyeri -> curiga tumor"
+          ],
+          "bold": false,
+          "source": "S5 Payudara"
+        },
+        {
+          "text": "Bimanual (VT) pada kehamilan muda: nilai ukuran uterus (dalam jari -> bandingkan usia kehamilan), konsistensi (lunak = tanda Hegar), posisi (AVF/RVF), nyeri goyang serviks (CMT). Tanda Chadwick (serviks livid) dilihat dengan inspekulo.",
+          "sub": [
+            "Nyeri goyang serviks + amenorea + tes kehamilan positif -> curiga ektopik",
+            "Tanda Hegar (segmen bawah uterus lunak) + ballottement -> curiga kehamilan 8-12 minggu",
+            "Tanda Chadwick (serviks livid) -> curiga kehamilan"
+          ],
+          "bold": true,
+          "source": "S5 Bimanual Tanda Kehamilan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "[DANGER]",
+          "title": "Tanda KET (Kehamilan Ektopik Terganggu)",
+          "text": "Trias: (1) amenorea, (2) nyeri perut unilateral, (3) perdarahan pervaginam dengan tes kehamilan positif. Ditambah tanda syok curiga (pucat, takikardia, hipotensi, akral dingin, pingsan). Bimanual: nyeri goyang serviks, uterus tidak sesuai usia, massa adneksa. RUJUK SEGERA ke SpOG.",
+          "answer_evidence": "SKDI 4A Obgyn - Kehamilan ektopik 3B; PROMPT_DOMAIN1_ObGyn_S2.md Modul 012"
+        },
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "Tanda Presumtif Kehamilan pada Bimanual",
+          "text": "(1) Tanda Chadwick: warna livid/biru pada serviks, vagina, dan vulva (terlihat sejak minggu ke-6-8). (2) Tanda Hegar: konsistensi lunak pada segmen bawah uterus (8-12 minggu). (3) Ballottement in toto: janin 'dilempar' kembali ke posisi semula (16-20 minggu). Ketiganya adalah tanda presumtif yang sering diujikan di OSCE.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md - Modul 012 Glossary wajib"
+        },
+        {
+          "tone": "caution",
+          "icon": "[CAUTION]",
+          "title": "Perhatian Nilai DJJ",
+          "text": "DJJ tidak terdengar di usia 16-20 minggu -> pertimbangkan usia/alat/posisi, JANGAN langsung diagnosis IUFD (intrauterine fetal death). Coba ganti posisi doppler, gunakan doppler yang lebih sensitif, atau evaluasi dengan USG.",
+          "answer_evidence": "Panduan Skill Lab FKIK Universitas Jambi; WHO ANC 2016"
+        },
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "Tabel Aturan TFU per Usia Kehamilan",
+          "text": "12 minggu: TFU teraba 1-2 jari di atas simfisis. 16 minggu: TFU pertengahan simfisis-pusat. 20 minggu: TFU setinggi pusat/umbilikus. 24 minggu: TFU 3-4 jari di atas pusat. 28 minggu: TFU sepertiga jarak pusat-xyphoid. 32 minggu: TFU pertengahan pusat-xyphoid. 36 minggu: TFU 3-4 jari di bawah xyphoid. 40 minggu: TFU kembali setinggi 32 minggu (lightening).",
+          "answer_evidence": "Buku Acuan Nasional Pelayanan Kesehatan Maternal dan Neonatal"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_awal_status_generalis_05"
+      ],
+      "glossary_refs": [
+        "gls_antenatal_awal_bimanual_09",
+        "gls_antenatal_awal_chadwick_06",
+        "gls_antenatal_awal_hegar_07",
+        "gls_antenatal_awal_ballottement_08",
+        "gls_antenatal_awal_avf_10",
+        "gls_antenatal_awal_cmt_12"
+      ],
+      "bilingual": "Pemeriksaan fisik kehamilan <20 minggu: TTV, status generalis, inspeksi/palpasi abdomen, DJJ 16-20 minggu, bimanual sebagai komponen utama."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Alat, APD, posisi litotomi, dan urutan prosedur utama dalam 4 fase: persiapan, status generalis, status lokalis ginekologi (bila indikasi), dan penutupan.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Alat yang harus disebutkan minimal 5 (diadaptasi dari file sumber): meja ginekologi (posisi litotomi), spekulum S/M/L, sarung tangan DTT/steril, kasa steril, antiseptik (povidone iodine atau chlorhexidine), pelumas water-based untuk VT, lampu sorot, tensimeter, stetoskop, doppler DJJ, klorin 0,5% untuk dekontaminasi, dan safety box/kantong kuning untuk pembuangan habis pakai.",
+          "tone": "clinical",
+          "source": "S6 Alat"
+        },
+        {
+          "text": "APD yang relevan: sarung tangan (DTT/steril) untuk pemeriksaan genital, masker, apron, kacamata pelindung (bila ada). Wajib dipakai sebelum setiap kontak dengan area genital atau mukosa.",
+          "tone": "clinical",
+          "source": "S6 APD"
+        },
+        {
+          "text": "Cara mempersiapkan pasien (dari file sumber): (1) jelaskan alasan pemeriksaan genital (misalnya ada perdarahan, keputihan, nyeri panggul, atau perlu menilai serviks); (2) minta izin eksplisit, tawarkan pendamping, siapkan privasi; (3) posisi litotomi dengan selimut/kain penutup; (4) cuci tangan, pakai sarung tangan, siapkan lampu dan alat; (5-7) lakukan inspeksi, inspekulo, dan VT secara gentle; (8) setelah selesai, lepas alat secara gentle, dekontaminasi, rapikan pasien, cuci tangan, catat temuan, jelaskan hasil.",
+          "tone": "clinical",
+          "source": "S6 Cara mempersiapkan pasien"
+        },
+        {
+          "text": "Momen cuci tangan (sesuai WHO 5 momen): sebelum kontak dengan pasien; sebelum tindakan aseptik; setelah paparan cairan tubuh; setelah kontak dengan pasien; setelah kontak dengan lingkungan pasien. Cuci tangan 6 langkah WHO dengan sabun dan air mengalir minimal 20-40 detik, atau handrub berbasis alkohol.",
+          "tone": "clinical",
+          "source": "S6 Momen cuci tangan"
+        },
+        {
+          "text": "Prosedur utama dibagi 4 fase: (1) Fase Persiapan: salam, perkenalan, identitas, informed consent, anamnesis, hitung usia kehamilan dan TP, persiapan alat, cuci tangan, APD; (2) Fase Pelaksanaan - Status Generalis: KU, TB/BB, IMT, konjungtiva, kloasma, edema, TTV, auskultasi jantung-paru, palpasi hati-limpa, pemeriksaan kehamilan, inspeksi/palpasi abdomen, auskultasi DJJ 16-20 minggu; (3) Fase Pelaksanaan - Status Lokalis Ginekologi (bila indikasi): inspeksi, inspekulo, VT; (4) Fase Penutupan dan Konfirmasi: konfirmasi kehamilan, dokumentasi SOAP, edukasi, rujukan.",
+          "tone": "clinical",
+          "source": "S7 Prosedur Utama 4 Fase"
+        },
+        {
+          "text": "Catatan klinis (dari file sumber): wajib jelaskan prosedur, siapkan privasi, sarung tangan, pelumas bila perlu, lakukan gentle, dan akhiri dengan edukasi. Jangan melakukan pemeriksaan genital tanpa indikasi dan consent.",
+          "tone": "clinical",
+          "source": "S6 Catatan klinis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Fase Persiapan (6 langkah): (1) Salam, perkenalan, identitas - bangun kepercayaan, konfirmasi data. (2) Informed consent - bahasa awam, jelaskan prosedur, rasa tidak nyaman. (3) Anamnesis - lengkap, dengan bahasa netral. (4) Hitung usia kehamilan dan TP (Naegele). (5) Persiapan alat (untuk status lokalis). (6) Cuci tangan dan APD lengkap.",
+          "sub": [
+            "Keselamatan pasien: Consent, privasi, komunikasi netral",
+            "Informed consent WAJIB sebelum menyentuh area genital"
+          ],
+          "bold": true,
+          "source": "S7 Fase Persiapan"
+        },
+        {
+          "text": "Fase Pelaksanaan - Status Generalis (8 langkah): (1) KU, TB/BB, IMT. (2) Konjungtiva, sklera, kloasma, edema. (3) TTV - TD, nadi, suhu, pernapasan, SpO2. (4) Auskultasi jantung-paru. (5) Palpasi hati-limpa. (6) Pemeriksaan kehamilan (bila relevan). (7) Inspeksi dan palpasi abdomen - TFU, hiperpigmentasi, nyeri tekan, massa. (8) Auskultasi DJJ (bila 16-20 minggu dan alat tersedia).",
+          "sub": [
+            "Cari anemia, hipertensi, edema, preeklampsia, gawat janin",
+            "TFU sesuai usia adalah bukti kehamilan"
+          ],
+          "bold": true,
+          "source": "S7 Fase Pelaksanaan Status Generalis"
+        },
+        {
+          "text": "Fase Pelaksanaan - Status Lokalis Ginekologi (8 langkah, BILA INDIKASI): (1) Jelaskan prosedur dan minta izin eksplisit. (2) Tawarkan pendamping. (3) Posisi litotomi dengan privasi dan drape. (4) Cuci tangan, pakai sarung tangan steril. (5) Inspeksi genitalia eksterna - labium, perineum, uretra, fluor, ulkus, benjolan. (6) Inspekulo - lihat dinding vagina, forniks, porsio, sekret. (7) VT - nilai vagina, porsio, korpus uteri, tanda Hegar, ballottement in toto, parametrium. Lakukan sangat lembut. (8) Setelah selesai: lepas alat gentle, dekontaminasi, rapikan pasien, cuci tangan, catat temuan, jelaskan hasil.",
+          "sub": [
+            "HANYA bila ada indikasi (perdarahan, keputihan, nyeri) dan consent",
+            "Lakukan dengan lembut, hindari tindakan berlebihan"
+          ],
+          "bold": true,
+          "source": "S7 Fase Pelaksanaan Status Lokalis"
+        },
+        {
+          "text": "Fase Penutupan dan Konfirmasi (6 langkah): (1) Konfirmasi kehamilan (HPHT, tanda, USG dating bila perlu). (2) Kesimpulan obstetri - faktor risiko, komplikasi. (3) Dokumentasi SOAP - lengkap. (4) Edukasi keluarga - tanda bahaya, suplemen, ANC, nutrisi. (5) Rujukan - bila faktor risiko/curiga patologi. (6) Penutup station - salam, kesiapan ibu, kontrol.",
+          "sub": [
+            "Dokumentasi, edukasi safety-net, rujukan tepat waktu",
+            "Jangan lupa kode ICD-10 Z34.9 untuk kehamilan normal"
+          ],
+          "bold": true,
+          "source": "S7 Fase Penutupan"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "Catatan Klinis Status Lokalis",
+          "text": "Wajib jelaskan prosedur, siapkan privasi, sarung tangan, pelumas bila perlu, lakukan gentle, dan akhiri dengan edukasi. Pemeriksaan genital (inspekulo, VT) HANYA dilakukan bila ada indikasi dengan consent eksplisit.",
+          "answer_evidence": "Panduan Skill Lab FKIK Universitas Jambi"
+        },
+        {
+          "tone": "danger",
+          "icon": "[DANGER]",
+          "title": "Jangan Lakukan Tanpa Indikasi",
+          "text": "Pada kehamilan <20 minggu tanpa keluhan ginekologis, JANGAN melakukan inspekulo atau VT rutin. Tindakan tanpa indikasi dapat meningkatkan risiko infeksi dan melanggar privasi pasien. Informed consent eksplisit WAJIB.",
+          "answer_evidence": "Panduan Skill Lab FKIK Universitas Jambi; PROMPT_DOMAIN1_ObGyn_S2.md"
+        },
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "Tambahan Standardisasi",
+          "text": "Pemeriksaan genital (inspekulo, VT) hanya dilakukan bila ada indikasi dan dengan consent eksplisit. Pada pasien tanpa keluhan, fokus pada konfirmasi kehamilan, status generalis, dan edukasi.",
+          "answer_evidence": "[DITAMBAHKAN SAAT STANDARDISASI] - Panduan Skill Lab FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_awal_litotomi_02",
+        "visual_antenatal_awal_spekulum_03"
+      ],
+      "glossary_refs": [
+        "gls_antenatal_awal_litotomi_01",
+        "gls_antenatal_awal_apd_03",
+        "gls_antenatal_awal_cuci_tangan_04",
+        "gls_antenatal_awal_inspekulo_14",
+        "gls_antenatal_awal_bimanual_09",
+        "gls_antenatal_awal_consent_02"
+      ],
+      "bilingual": "Alat dan APD: meja ginekologi, spekulum, sarung tangan, antiseptik, doppler, klorin. Prosedur: 4 fase sesuai urutan OSCE."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan pasca-tindakan (dekontaminasi, dokumentasi, edukasi), evaluasi keberhasilan, dan clinical reasoning: 4 pertanyaan kritis dan tabel diagnosis banding kehamilan muda.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-tindakan (diadaptasi dari file sumber): (1) Dekontaminasi alat - klorin 0,5% 10 menit. (2) Buang habis pakai - safety box, kantong kuning. (3) Lepas APD - sarung tangan, masker, apron. (4) Cuci tangan - 6 langkah. (5) Dokumentasi SOAP - lengkap. (6) Edukasi keluarga - tanda bahaya, suplemen, ANC, nutrisi. (7) Penutup - salam, kesiapan ibu, kontrol.",
+          "tone": "clinical",
+          "source": "S8 Tindakan pasca-tindakan"
+        },
+        {
+          "text": "Cara evaluasi keberhasilan prosedur: status generalis terdokumentasi (KU, TTV, konjungtiva, edema, jantung-paru), usia kehamilan dan TP terkonfirmasi, faktor risiko teridentifikasi, status lokalis (bila dilakukan) - porsio, uterus, fluor, dan ibu memahami hasil dan edukasi.",
+          "tone": "clinical",
+          "source": "S8 Evaluasi keberhasilan"
+        },
+        {
+          "text": "Clinical reasoning pada station antenatal awal berfokus pada diagnosis kehamilan, klasifikasi risiko, dan rencana ANC. Alur pikir klinis: (1) Apakah ini kehamilan? -> Konfirmasi HPHT, tanda kehamilan, USG dating. (2) Apa usia gestasi? -> Naegele, USG. (3) Apakah ada faktor risiko? -> Anamnesis mendalam. (4) Apakah ada tanda bahaya? -> Evaluasi, rujukan.",
+          "tone": "clinical",
+          "source": "S9 Clinical Reasoning"
+        },
+        {
+          "text": "Prosedur terkait/varian: ANC rutin (lanjutan kunjungan kehamilan), USG dating (bila HPHT tidak jelas), pemeriksaan Leopold lengkap (untuk kehamilan >24 minggu, lihat modul terpisah), VT (untuk menilai porsio dan uterus), inspekulo (untuk menilai serviks dan vagina), pemeriksaan ginekologi khusus (IVA, Pap smear, swab endoserviks), dan pemeriksaan penunjang (darah lengkap, USG obstetri).",
+          "tone": "clinical",
+          "source": "S8 Prosedur terkait"
+        },
+        {
+          "text": "Jadwal kontrol pasca-ANC: trimester 1 kunjungan setiap 4 minggu, trimester 2 setiap 4 minggu (minggu 16, 20, 24, 28), trimester 3 setiap 2-4 minggu, kapan saja bila ada tanda bahaya. Tambahan: jadwal mengikuti standar WHO ANC 2016 dan SOP fasilitas.",
+          "tone": "clinical",
+          "source": "S8 Jadwal kontrol + [DITAMBAHKAN]"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Diagnosis kehamilan normal: amenore, mual ringan, TFU sesuai usia, DJJ baik (bila 16-20 minggu). Tatalaksana: ANC rutin, edukasi, suplemen.",
+          "sub": [
+            "Kehamilan normal risiko rendah",
+            "ANC 4 minggu sekali"
+          ],
+          "bold": false,
+          "source": "S9 Tabel diagnosis banding"
+        },
+        {
+          "text": "Anemia defisiensi besi: konjungtiva pucat, lemah, Hb rendah pada ANC. Tatalaksana: Hb/darah rutin, terapi besi, edukasi.",
+          "sub": [
+            "Hb <11 g/dL pada ibu hamil -> anemia",
+            "Terapi FeSO4 200 mg 2-3x/hari + asam folat"
+          ],
+          "bold": false,
+          "source": "S9 Tabel diagnosis banding"
+        },
+        {
+          "text": "Abortus spontan komplit/ancaman: perdarahan trimester awal, kram perut, riwayat keluar jaringan. Tatalaksana: nilai stabilitas, perdarahan, serviks, USG; rujuk bila banyak/nyeri.",
+          "sub": [
+            "Serviks tertutup -> ancaman abortus",
+            "Serviks terbuka + jaringan keluar -> abortus komplit"
+          ],
+          "bold": false,
+          "source": "S9 Tabel diagnosis banding"
+        },
+        {
+          "text": "Kehamilan ektopik: nyeri perut unilateral, perdarahan, pingsan, belum terbukti intrauterin. Tatalaksana: red flag, USG, beta-hCG, rujuk emergensi.",
+          "sub": [
+            "Nyeri unilateral + syok curiga -> ektopik ruptur",
+            "JANGAN tunggu hasil USG dulu -> langsung SpOG"
+          ],
+          "bold": true,
+          "source": "S9 Tabel diagnosis banding"
+        },
+        {
+          "text": "Mola hidatidosa: perdarahan, TFU lebih besar dari usia, mual muntah berat, tidak ada DJJ. Tatalaksana: USG, kuretase, rujuk.",
+          "sub": [
+            "TFU > usia kehamilan + tidak ada DJJ -> curiga mola",
+            "Beta-hCG sangat tinggi"
+          ],
+          "bold": false,
+          "source": "S9 Tabel diagnosis banding"
+        },
+        {
+          "text": "Hiperemesis gravidarum: mual muntah berlebihan, dehidrasi, ketosis. Tatalaksana: rawat inap/darah.",
+          "sub": [
+            "Tidak bisa makan/minum sama sekali -> rawat inap",
+            "Ketosis pada urinalisis"
+          ],
+          "bold": false,
+          "source": "S9 Tabel diagnosis banding"
+        },
+        {
+          "text": "Preeklampsia: TD >=140/90, proteinuria, edema, sakit kepala. Tatalaksana: rujuk, MgSO4, antihipertensi.",
+          "sub": [
+            "TD >=140/90 + proteinuria -> preeklampsia",
+            "MgSO4 4 g IV bolus + 1 g/jam maintenance"
+          ],
+          "bold": true,
+          "source": "S9 Tabel diagnosis banding"
+        },
+        {
+          "text": "Vaginitis/vaginosis/duh genital: keputihan, bau, gatal, disuria. Tatalaksana: pH, whiff/KOH, terapi sesuai etiologi.",
+          "sub": [
+            "pH >4,5 + whiff (+) -> bacterial vaginosis",
+            "Pseudohifa KOH -> kandidiasis"
+          ],
+          "bold": false,
+          "source": "S9 Tabel diagnosis banding"
+        },
+        {
+          "text": "ISK bawah pada kehamilan: disuria, frekuensi, urgensi tanpa nyeri pinggang/demam. Tatalaksana: urinalisis, antibiotik aman.",
+          "sub": [
+            "Sulfametoksazol-trimetoprim, amoksisilin, atau fosfomisin",
+            "Hindari fluoroquinolone pada kehamilan"
+          ],
+          "bold": false,
+          "source": "S9 Tabel diagnosis banding"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "[DANGER]",
+          "title": "Pembedaan Ancaman Abortus vs Abortus Komplit vs Ektopik",
+          "text": "Ancaman abortus: serviks tertutup, kram, perdarahan sedang. Abortus komplit: serviks terbuka, jaringan keluar, kram. Kehamilan ektopik: serviks tertutup, nyeri goyang, nyeri unilateral, syok curiga, belum ada gestasi intrauterin. Ketiganya punya tata laksana berbeda - kenali perbedaannya di OSCE.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md - Modul 012 karakter; SKDI 4A Obgyn"
+        },
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "Kapan Harus Merujuk",
+          "text": "(1) Segera (emergency): perdarahan banyak, syok, curiga ektopik, preeklampsia, sepsis. (2) Same day: abortus, mola, hiperemesis, ISK berulang, dehidrasi. (3) Rutin: ANC, skrining. (4) Tunda elektif: tidak relevan untuk kondisi emergensi.",
+          "answer_evidence": "PROMPT_DOMAIN1_ObGyn_S2.md - Modul 012 kapan rujuk"
+        },
+        {
+          "tone": "caution",
+          "icon": "[CAUTION]",
+          "title": "Tambahan Standardisasi - Jadwal ANC",
+          "text": "Jadwal kunjungan ANC mengikuti standar WHO ANC 2016 dan SOP fasilitas. Trimester 1-2: setiap 4 minggu. Trimester 3: setiap 2-4 minggu. Kapan saja: bila ada tanda bahaya (perdarahan, nyeri, demam, dll.).",
+          "answer_evidence": "[DITAMBAHKAN SAAT STANDARDISASI] - WHO ANC 2016"
+        },
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "Preeklampsia pada <20 Minggu",
+          "text": "Preeklampsia biasanya muncul >20 minggu, tetapi bisa juga <20 minggu. Curiga mola atau underlying renal disease bila preeklampsia muncul <20 minggu. Evaluasi USG dan kadar beta-hCG.",
+          "answer_evidence": "ACOG Hypertension in Pregnancy; WHO ANC 2016"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_antenatal_awal_ket_11",
+        "gls_antenatal_awal_cmt_12",
+        "gls_antenatal_awal_avf_10",
+        "gls_antenatal_awal_ballottement_08"
+      ],
+      "bilingual": "Pasca-tindakan: dekontaminasi, dokumentasi, edukasi. Clinical reasoning: 4 pertanyaan kritis (kehamilan, usia gestasi, faktor risiko, tanda bahaya)."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang (darah lengkap, golongan darah, IMS, USG, beta-hCG, urinalisis), tatalaksana suplemen, imunisasi, jadwal ANC, dan manajemen komplikasi pasca-tindakan.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang untuk ANC awal kehamilan <20 minggu: darah lengkap (Hb, leukosit, trombosit), golongan darah + Rh, gula darah (DM gestasional), tes kehamilan (konfirmasi), USG obstetri dating, urinalisis (ISK, proteinuria preeklampsia), tes IMS (HIV, sifilis, hepatitis B), rubella/varicella/hepatitis B, Pap smear/IVA (skrining kanker serviks), beta-hCG serial (curiga ektopik/mola), dan EKG (penyakit jantung, usia >40).",
+          "tone": "clinical",
+          "source": "S10 Pemeriksaan Penunjang"
+        },
+        {
+          "text": "Tindak lanjut dan ANC: kunjungan 4 minggu sekali trimester 1-2, 2-4 minggu trimester 3. Suplemen: Fe 60 mg/hari + asam folat 400 ug/hari, kalsium 1-1,5 g/hari. Nutrisi: diet seimbang, kenaikan BB sesuai IMT. Imunisasi: TT, hepatitis B (bila belum), vaksin influenza (bila musim). Skrining: HIV, sifilis, hepatitis B, gula darah, urinalisis. USG: dating (bila HPHT tidak jelas), anomaly scan (20-24 minggu), pertumbuhan (28-32 minggu).",
+          "tone": "clinical",
+          "source": "S11 Tindak Lanjut dan ANC"
+        },
+        {
+          "text": "Manajemen komplikasi pasca-tindakan: PPH lanjutan (evaluasi, uterotonika, rujuk), infeksi 24-72 jam (antibiotik, evaluasi, rujuk), spasme serviks (tunggu relaksasi, analgesik), nyeri hebat (stop, analgesik), sinkop vasovagal (stop, posisi Trendelenburg), cedera dinding vagina/serviks (kompres, evaluasi, jahit, rujuk), reaksi alergi (hentikan, antihistamin).",
+          "tone": "clinical",
+          "source": "S11 Manajemen Komplikasi"
+        },
+        {
+          "text": "Jadwal tindak lanjut mengikuti standar WHO ANC 2016: trimester 1 (minggu 1-12) kunjungan setiap 4 minggu, suplemen Fe+asam folat, skrining awal; trimester 2 (minggu 13-27) kunjungan setiap 4 minggu, USG anomaly scan, skrining DM; trimester 3 (minggu 28-40) kunjungan setiap 2-4 minggu, perencanaan persalinan, IMD/ASI; kapan saja bila ada tanda bahaya.",
+          "tone": "clinical",
+          "source": "S11 Jadwal Tindak Lanjut + [DITAMBAHKAN]"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Darah lengkap (Hb, leukosit, trombosit): anemia, infeksi, pra-tindakan. Hb >=11 g/dL (ibu hamil).",
+          "sub": [
+            "Anemia ringan: Hb 9-10,9 g/dL",
+            "Anemia sedang: Hb 7-8,9 g/dL",
+            "Anemia berat: Hb <7 g/dL"
+          ],
+          "bold": false,
+          "source": "S10 Tabel penunjang"
+        },
+        {
+          "text": "Gula darah: DM gestasional, riwayat DM. Puasa <95 mg/dL; sewaktu <140 mg/dL.",
+          "sub": [
+            "DM gestasional: puasa >=92 atau 2 jam PP >=153",
+            "TTGO 75 g untuk skrining"
+          ],
+          "bold": false,
+          "source": "S10 Tabel penunjang"
+        },
+        {
+          "text": "USG obstetri (dating): konfirmasi kehamilan, usia gestasi, lokasi intrauterin. Janin intrauterin, usia sesuai.",
+          "sub": [
+            "USG trimester 1: CRL paling akurat",
+            "Diameter kantung kehamilan"
+          ],
+          "bold": false,
+          "source": "S10 Tabel penunjang"
+        },
+        {
+          "text": "USG dating/trimester 1: HPHT tidak jelas, curiga ektopik/mola. Konfirmasi usia dan letak.",
+          "sub": [
+            "Sampai minggu ke-13, CRL paling akurat untuk usia kehamilan",
+            "Kehamilan ektopik: kantung di adneksa, pseudogestational sac"
+          ],
+          "bold": false,
+          "source": "S10 Tabel penunjang"
+        },
+        {
+          "text": "Tes IMS (HIV, sifilis, hepatitis B): skrining pranatal. Non-reaktif.",
+          "sub": [
+            "HIV: ELISA + konfirmasi Western blot",
+            "Sifilis: VDRL/RPR + TPHA",
+            "Hepatitis B: HBsAg"
+          ],
+          "bold": false,
+          "source": "S10 Tabel penunjang"
+        },
+        {
+          "text": "Beta-hCG serial: curiga ektopik/mola. Sesuai usia.",
+          "sub": [
+            "Ektopik: peningkatan abnormal atau plateau",
+            "Mola: peningkatan sangat tinggi"
+          ],
+          "bold": false,
+          "source": "S10 Tabel penunjang"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "Tambahan Standardisasi - Jadwal WHO",
+          "text": "Jadwal tindak lanjut ANC mengikuti standar WHO ANC 2016: Trimester 1 (minggu 1-12): kunjungan setiap 4 minggu, suplemen Fe+asam folat, skrining awal. Trimester 2 (minggu 13-27): kunjungan setiap 4 minggu, USG anomaly scan, skrining DM. Trimester 3 (minggu 28-40): kunjungan setiap 2-4 minggu, perencanaan persalinan, IMD/ASI.",
+          "answer_evidence": "[DITAMBAHKAN SAAT STANDARDISASI] - WHO ANC 2016"
+        },
+        {
+          "tone": "caution",
+          "icon": "[CAUTION]",
+          "title": "Catatan OSCE - Jangan Mengarang Lab",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Cukup sebutkan bahwa Anda akan memesan pemeriksaan tertentu, dengan indikasi yang jelas.",
+          "answer_evidence": "Panduan Skill Lab FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_antenatal_awal_hpht_05"
+      ],
+      "bilingual": "Pemeriksaan penunjang ANC awal: darah lengkap, golongan darah, IMS, USG dating, urinalisis, beta-hCG. Tatalaksana: suplemen Fe+asam folat, imunisasi TT."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Edukasi pasien mencakup 7 tanda bahaya trimester 1-2, nutrisi, dan suplemen. Dokumentasi SOAP lengkap dengan contoh skenario Ny. Sari dan kode ICD-10.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pada ANC awal berfokus pada tanda bahaya, nutrisi, suplementasi, dan perencanaan persalinan. Bahasa yang digunakan harus awam, dan keluarga diminta mengulang untuk konfirmasi pemahaman.",
+          "tone": "narrative",
+          "source": "S12 Edukasi Pasien dan Keluarga"
+        },
+        {
+          "text": "Poin edukasi spesifik (10 poin, diadaptasi dari file sumber): (1) Kehamilan perlu pemeriksaan rutin - ANC 4 minggu sekali. (2) Tanda bahaya - perdarahan, nyeri perut hebat, sakit kepala, pandangan kabur, bengkak, demam, gerak janin berkurang. (3) Nutrisi - diet seimbang, Fe, asam folat, kalsium. (4) Hindari rokok, alkohol, obat bebas, jamu. (5) Aktivitas fisik - boleh, hindari kelelahan/berat. (6) Hubungan seksual - boleh, kecuali ada keluhan. (7) Konseling KB pascasalin. (8) IMD dan ASI eksklusif. (9) Tanda bahaya khusus trimester 1-2. (10) Vaksinasi - TT, hepatitis B.",
+          "tone": "clinical",
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Safety net - kapan harus kembali segera atau ke IGD: perdarahan pervaginam, nyeri perut hebat/unilateral, sakit kepala hebat/pandangan kabur/kejang/TD tinggi, bengkak wajah/tangan/nyeri ulu hati, demam/keluar cairan ketuban/nyeri perut hebat, mual muntah berlebihan dengan dehidrasi, sesak/pucat berat/pingsan.",
+          "tone": "clinical",
+          "source": "S12 Safety net"
+        },
+        {
+          "text": "Contoh SOAP - skenario: Ny. Sari, 24 tahun, G1P0A0, hamil 16 minggu ANC pertama. S: Amenore 16 minggu, mual muntah ringan, tidak ada keluhan. HPHT: 16 minggu lalu. O: TD 110/70, N 80, S 36,8 C, RR 18, SpO2 98%. Konjungtiva tidak pucat, kloasma (+), edema (-). TFU setinggi pusat, tidak ada nyeri tekan. DJJ 140 x/menit dengan doppler. A: G1P0A0, hamil 16 minggu, risiko rendah. P: ANC rutin, suplemen Fe + asam folat, skrining darah, edukasi tanda bahaya, kontrol 4 minggu lagi.",
+          "tone": "clinical",
+          "source": "S13 Contoh SOAP"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan: Z34.9 (Encounter for supervision of normal pregnancy, unspecified), Z34.0 (Encounter for supervision of normal first pregnancy), O09.90 (Supervision of high-risk pregnancy, unspecified trimester), Z32.01 (Encounter for pregnancy test, result positive), O80 (Single spontaneous delivery untuk kehamilan cukup bulan), Z39.0 (Encounter for care and examination of mother immediately after delivery).",
+          "tone": "clinical",
+          "source": "S13 Kode ICD-10"
+        },
+        {
+          "text": "Dokumen/kartu khusus: Buku KIA (Kesehatan Ibu dan Anak), kartu ibu, lembar informed consent (bila tindakan), surat rujukan, hasil laboratorium. Cara mendokumentasikan ANC awal: tanggal dan jam kunjungan, identitas, anamnesis, usia kehamilan dan TP, TTV, status generalis, TFU, DJJ, pemeriksaan penunjang, diagnosis kerja, tatalaksana, tanda tangan.",
+          "tone": "clinical",
+          "source": "S13 Dokumen dan cara dokumentasi"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin edukasi 1: Kehamilan perlu pemeriksaan rutin - ANC 4 minggu sekali.",
+          "sub": [
+            "Kunjungan trimester 1-2: setiap 4 minggu",
+            "Kunjungan trimester 3: setiap 2-4 minggu"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 2: Tanda bahaya - perdarahan, nyeri perut hebat, sakit kepala, pandangan kabur, bengkak, demam, gerak janin berkurang.",
+          "sub": [
+            "7 tanda bahaya trimester 1-2",
+            "Minta keluarga mengulang"
+          ],
+          "bold": true,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 3: Nutrisi - diet seimbang, Fe, asam folat, kalsium.",
+          "sub": [
+            "Fe 60 mg/hari + asam folat 400 ug/hari",
+            "Kalsium 1-1,5 g/hari"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 4: Hindari rokok, alkohol, obat bebas, jamu - risiko teratogen, abortus.",
+          "sub": [
+            "Jamu/obat bebas -> efek teratogen",
+            "Rokok -> BBLR, prematur"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 5: Aktivitas fisik - boleh, hindari kelelahan/berat.",
+          "sub": [
+            "Aktivitas ringan-sedang tetap boleh",
+            "Hindari angkat berat >10 kg"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 6: Hubungan seksual - boleh, kecuali ada keluhan (perdarahan, nyeri).",
+          "sub": [
+            "Hanya dihindari bila ada keluhan",
+            "Komunikasikan dengan pasangan"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 7: Konseling KB pascasalin - di akhir kehamilan.",
+          "sub": [
+            "IUD copper 10 tahun untuk KB jangka panjang",
+            "Implan 3 tahun untuk menyusui"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 8: IMD dan ASI eksklusif - menyusui 6 bulan.",
+          "sub": [
+            "IMD dalam 1 jam setelah lahir",
+            "ASI eksklusif 6 bulan, lanjutkan sampai 2 tahun"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 9: Tanda bahaya khusus trimester 1-2 - keguguran, kehamilan ektopik.",
+          "sub": [
+            "Perdarahan + nyeri perut -> curiga ektopik",
+            "Syok curiga + amenorea -> emergensi"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        },
+        {
+          "text": "Poin edukasi 10: Vaksinasi - TT, hepatitis B, sesuai program.",
+          "sub": [
+            "TT 0,5 mL IM pada kontak pertama",
+            "TT-2: 1 bulan setelah TT-1",
+            "TT-3: 6 bulan setelah TT-2"
+          ],
+          "bold": false,
+          "source": "S12 Poin edukasi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "[DANGER]",
+          "title": "Safety Net Wajib Diberikan",
+          "text": "(1) Perdarahan pervaginam -> abortus/ektopik/mola. (2) Nyeri perut hebat/unilateral -> ektopik/komplikasi. (3) Sakit kepala hebat/pandangan kabur/kejang/TD tinggi -> preeklampsia. (4) Bengkak wajah/tangan/nyeri ulu hati -> preeklampsia. (5) Demam/keluar cairan ketuban/nyeri perut hebat -> infeksi/KPD. (6) Mual muntah berlebihan dengan dehidrasi. (7) Sesak/pucat berat/pingsan -> anemia berat/syok.",
+          "answer_evidence": "WHO ANC 2016; PROMPT_DOMAIN1_ObGyn_S2.md"
+        },
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "Cara Edukasi yang Benar di OSCE",
+          "text": "Bahasa awam: 'Ibu, kehamilan perlu pemeriksaan rutin. Suplemen Fe dan asam folat diminum setiap hari. Tanda bahaya: perdarahan, nyeri perut hebat, sakit kepala, pandangan kabur. Segera kontrol ya, Bu.' Minta keluarga mengulang: 'Bisa tolong ulangi, Bu, kapan harus kembali?' Tunjukkan sikap suportif.",
+          "answer_evidence": "Panduan Skill Lab FKIK Universitas Jambi"
+        },
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "Tambahan Standardisasi - Format SOAP",
+          "text": "Format SOAP mengikuti standar RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas. Subjektif: anamnesis. Objektif: TTV, status generalis, TFU, DJJ. Asesmen: diagnosis kerja. Plan: tatalaksana, edukasi, rujukan, kontrol.",
+          "answer_evidence": "[DITAMBAHKAN SAAT STANDARDISASI] - Standar RS Pendidikan Indonesia"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_awal_tanda_bahaya_04"
+      ],
+      "glossary_refs": [
+        "gls_antenatal_awal_hpht_05"
+      ],
+      "bilingual": "Edukasi: 7 tanda bahaya trimester 1-2. Dokumentasi SOAP: Subjective, Objective, Assessment, Plan dengan kode ICD-10 Z34.9."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "14 penyakit SKDI terkait kehamilan muda (4A mandiri dan 3B rujuk) dan 4 fase mini-skrip komunikasi OSCE (pembukaan, anamnesis, status generalis, status lokalis, penutup).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan penyakit SKDI 4A: kehamilan normal (Z34.9/O80, 4A), anemia defisiensi besi pada kehamilan (O99.0/D64.9, 4A), abortus spontan (O03.x/O20.0, 4A atau 3B), hiperemesis gravidarum (O21.x, 4A atau 3B), kehamilan risiko tinggi (O09.90, 4A atau 3B), vaginitis/vaginosis (N76.x/N77.1, 4A), ISK bawah pada kehamilan (O23.x/N39.0, 4A).",
+          "tone": "clinical",
+          "source": "S14 Tabel SKDI 4A"
+        },
+        {
+          "text": "Kaitan penyakit SKDI 3B (merujuk): kehamilan ektopik (O00.x), mola hidatidosa (O01.x), preeklampsia (O14.x), HIV pada kehamilan (O98.7/B20), sifilis pada kehamilan (O98.1/A51.x), hepatitis B pada kehamilan (O98.4/B18.1).",
+          "tone": "clinical",
+          "source": "S14 Tabel SKDI 3B"
+        },
+        {
+          "text": "Batas kompetensi dokter umum: 4A (mandiri) untuk ANC normal, anemia, ISK, hiperemesis ringan, keputihan, abortus komplit. 3B (merujuk) untuk abortus inkomplit, ektopik, mola, preeklampsia, HIV, sifilis, hepatitis B.",
+          "tone": "clinical",
+          "source": "S14 Batas kompetensi"
+        },
+        {
+          "text": "Mini-skrip komunikasi OSCE: 4 fase utama - (1) Pembukaan Station (30 detik) - salam, perkenalan, izin, privasi; (2) Saat Anamnesis - pertanyaan HPHT, riwayat, keluhan, obat; (3) Saat Pemeriksaan Status Generalis - TTV, konjungtiva, kloasma, edema, palpasi abdomen, DJJ; (4) Saat Status Lokalis (bila dilakukan) - inform VT, evaluasi porsio dan uterus; (5) Penutup Station (30 detik) - kesimpulan, edukasi, rujukan, salam.",
+          "tone": "narrative",
+          "source": "S15 Mini-Skrip"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "[DOKTER]: 'Selamat pagi/siang Ibu Sari, saya dokter muda ... Saya akan melakukan pemeriksaan antenatal awal dan ginekologi. Sebelum mulai saya akan konfirmasi identitas dan menjelaskan prosedurnya.' [PASIEN]: 'Baik, Dok.'",
+          "sub": [
+            "Sapa dengan hormat",
+            "Perkenalkan nama dan peran",
+            "Konfirmasi identitas",
+            "Jelaskan tujuan"
+          ],
+          "bold": false,
+          "source": "S15 Pembukaan Station"
+        },
+        {
+          "text": "[DOKTER]: 'Pemeriksaan ini mungkin sedikit tidak nyaman, tetapi saya akan melakukannya perlahan. Ibu boleh meminta saya berhenti kapan saja. Apakah Ibu sudah memahami penjelasan saya dan bersedia dilakukan pemeriksaan?' [PASIEN]: 'Ya, Dok, saya bersedia.'",
+          "sub": [
+            "Jelaskan rasa tidak nyaman",
+            "Beri kesempatan menolak",
+            "Minta persetujuan eksplisit"
+          ],
+          "bold": true,
+          "source": "S15 Pembukaan Station Informed Consent"
+        },
+        {
+          "text": "[DOKTER]: 'Ibu, kapan hari pertama haid terakhir?' [PASIEN]: '4 bulan lalu, Dok.' [DOKTER]: 'Baik. Ini berarti Ibu hamil sekitar 16 minggu, dengan taksiran persalinan sekitar [tanggal]. Ada keluhan saat ini, Bu? Perdarahan, nyeri, mual muntah?'",
+          "sub": [
+            "Tanyakan HPHT",
+            "Hitung usia kehamilan",
+            "Hitung TP dengan Naegele",
+            "Tanyakan tanda bahaya"
+          ],
+          "bold": false,
+          "source": "S15 Saat Anamnesis"
+        },
+        {
+          "text": "[DOKTER]: 'Ada riwayat keguguran, SC, hipertensi, kencing manis? Ada alergi obat? Merokok, alkohol, jamu?' [PASIEN]: 'Tidak ada, Dok.' [DOKTER]: 'Baik, Bu. Sekarang saya periksa Ibu secara umum.'",
+          "sub": [
+            "Riwayat obstetri",
+            "Penyakit ibu",
+            "Alergi obat",
+            "Kebiasaan"
+          ],
+          "bold": false,
+          "source": "S15 Saat Anamnesis Lanjutan"
+        },
+        {
+          "text": "[DOKTER]: 'Ibu, saya ukur tekanan darah dulu.' [TD 110/70, N 80, S 36,8 C] [DOKTER]: 'Tekanan darah 110/70, nadi 80, suhu 36,8 C. Tanda vital dalam batas normal untuk ibu hamil.'",
+          "sub": [
+            "Ukur TTV",
+            "Sebutkan nilai TTV",
+            "Bandingkan dengan nilai normal"
+          ],
+          "bold": false,
+          "source": "S15 Status Generalis TTV"
+        },
+        {
+          "text": "[DOKTER]: 'Konjungtiva tidak pucat, kloasma (+), edema (-). Status generalis baik.' [Palpasi abdomen] [DOKTER]: 'Tinggi fundus setinggi pusat, sesuai usia 16 minggu. Tidak ada nyeri tekan, tidak ada massa. DJJ 140 x/menit dengan doppler. Fetal status baik.'",
+          "sub": [
+            "Inspeksi konjungtiva, kloasma, edema",
+            "Palpasi abdomen",
+            "Auskultasi DJJ 16-20 minggu"
+          ],
+          "bold": true,
+          "source": "S15 Status Generalis Abdomen"
+        },
+        {
+          "text": "[DOKTER]: 'Karena tidak ada keluhan ginekologis, saya tidak melakukan pemeriksaan dalam. Kalau nanti ada keluhan (perdarahan, keputihan, nyeri), kita lakukan.' (Atau bila melakukan VT) 'Ibu, saya akan melakukan pemeriksaan dalam. Saya pakai sarung tangan steril, posisi litotomi, jaga privasi. Boleh bilang kalau nyeri.'",
+          "sub": [
+            "HANYA bila ada indikasi",
+            "Jelaskan prosedur",
+            "Minta izin eksplisit",
+            "Tawarkan pendamping"
+          ],
+          "bold": true,
+          "source": "S15 Status Lokalis (bila dilakukan)"
+        },
+        {
+          "text": "[DOKTER]: 'Porsio tertutup, uterus sesuai usia, tidak ada fluor abnormal. Normal.' (Setelah selesai) [DOKTER]: 'Pemeriksaan sudah selesai. Ibu hamil 16 minggu, kondisi baik, tidak ada tanda bahaya.'",
+          "sub": [
+            "Verbalisasi temuan",
+            "Bandingkan dengan usia kehamilan",
+            "Jangan menarik kesimpulan tanpa data"
+          ],
+          "bold": false,
+          "source": "S15 Status Lokalis Temuan"
+        },
+        {
+          "text": "[DOKTER]: 'Ibu minum tablet Fe dan asam folat setiap hari. Tanda bahaya: perdarahan, nyeri perut hebat, sakit kepala, pandangan kabur. Segera kontrol ya, Bu. Apakah ada yang ingin ditanyakan?' [PASIEN]: 'Tidak ada, Dok. Terima kasih.' [DOKTER]: 'Sama-sama, Bu. Saya doakan Ibu dan bayi sehat selalu.'",
+          "sub": [
+            "Edukasi suplemen",
+            "Edukasi tanda bahaya",
+            "Minta pertanyaan",
+            "Salam penutup"
+          ],
+          "bold": true,
+          "source": "S15 Penutup Station"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "Tambahan Standardisasi - Pola Komunikasi",
+          "text": "Kalimat di atas adalah pola komunikasi yang konsisten dengan modul OSCE ObGyn FKIK Universitas Jambi. Pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario spesifik (ANC normal, risiko tinggi, atau curiga patologi).",
+          "answer_evidence": "[DITAMBAHKAN SAAT STANDARDISASI] - Modul OSCE ObGyn FKIK Universitas Jambi"
+        },
+        {
+          "tone": "caution",
+          "icon": "[CAUTION]",
+          "title": "Diagnosis Rujukan Segera (SKDI 3B)",
+          "text": "(1) Kehamilan ektopik. (2) Abortus inkomplit dengan perdarahan banyak. (3) Mola hidatidosa. (4) Preeklampsia/eklampsia. (5) HIV positif. (6) Sifilis positif. (7) Hepatitis B positif. (8) Mola dengan komplikasi. (9) Perdarahan banyak. (10) Syok.",
+          "answer_evidence": "SKDI 4A Obgyn - Katalog Kompetensi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_antenatal_awal_hpht_05",
+        "gls_antenatal_awal_ket_11"
+      ],
+      "bilingual": "SKDI 4A: ANC normal, anemia, ISK, hiperemesis ringan. SKDI 3B rujuk: ektopik, mola, preeklampsia, HIV, sifilis, hepatitis B. Mini-skrip 4 fase OSCE."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "20 item checklist latihan mandiri, rencana belajar 3 hari (H-3, H-2, H-1), 10 kesalahan fatal, 5 pengurangan besar, dan 4 recovery move.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Checklist latihan mandiri terdiri dari 20 item yang harus dikuasai dengan bobot TINGGI (18 item) dan SEDANG (2 item). Kriteria 'Siap OSCE': minimal 18 dari 20 item tercentang, dan semua item TINGGI sudah dikuasai.",
+          "tone": "clinical",
+          "source": "S16 Checklist Latihan Mandiri"
+        },
+        {
+          "text": "Rencana belajar 3 hari: Hari 1 (H-3) orientasi dan pemahaman dasar (60 menit) - konsep ANC awal, alur 6 langkah, rumus Naegele. Hari 2 (H-2) latihan urutan checklist dengan timer (90 menit) - anamnesis, status generalis, status lokalis, mini-skrip. Hari 3 (H-1) simulasi OSCE penuh (60 menit) - run-through, identifikasi celah, simulasi skenario alternatif.",
+          "tone": "narrative",
+          "source": "S17 Rencana Belajar 3 Hari"
+        },
+        {
+          "text": "Kesalahan fatal (10 item, dari file sumber + analisis klinis) yang harus dihindari: tidak menjaga privasi, tidak meminta izin, tidak menjelaskan rasa tidak nyaman, lupa cuci tangan/sarung tangan, melakukan pemeriksaan genital tanpa indikasi/consent, tidak menyebut red flags perdarahan/nyeri perut/ektopik, tidak menghitung usia kehamilan dan TP dari HPHT, tidak melakukan status generalis (TD, konjungtiva, edema), tidak dokumentasi SOAP, tidak edukasi keluarga tentang tanda bahaya.",
+          "tone": "clinical",
+          "source": "S18 Kesalahan Fatal"
+        },
+        {
+          "text": "Pengurangan besar (5 item): tidak menyebut diagnosis kerja, tidak menyebut kode ICD-10, tidak menyebut rencana ANC, tidak edukasi tentang tanda bahaya trimester 1-2, tidak membedakan ancaman abortus vs ektopik.",
+          "tone": "clinical",
+          "source": "S18 Pengurangan Besar"
+        },
+        {
+          "text": "Recovery Move (4 pola self-correction): saat informed consent, saat pemeriksaan, saat interpretasi, dan saat dokumentasi. Penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "tone": "clinical",
+          "source": "S18 Recovery Move"
+        },
+        {
+          "text": "Mini-Case latihan (3 skenario + 1 tambahan): Skenario Mudah (ANC normal pada kehamilan muda - Ny. Sari 24 tahun, hamil 16 minggu), Skenario Sedang (anemia curiga pada kehamilan muda), Skenario Sulit (curiga kehamilan ektopik dengan syok), Skenario Tambahan (ANC dengan risiko hipertensi).",
+          "tone": "narrative",
+          "source": "Lampiran C Mini-Case"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Item 1: Salam, perkenalan, identitas. Bobot TINGGI.",
+          "sub": [
+            "Bangun kepercayaan dan memastikan pasien benar",
+            "Identitas benar = keselamatan"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 2: Jelaskan tujuan dan prosedur. Bobot TINGGI.",
+          "sub": [
+            "Bahasa awam, sederhana, tidak menghakimi"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 3: Informed consent (verbal/tertulis). Bobot TINGGI.",
+          "sub": [
+            "Jelaskan prosedur, rasa tidak nyaman, alternatif",
+            "Beri kesempatan menolak"
+          ],
+          "bold": true,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 4: Anamnesis lengkap (HPHT, riwayat, keluhan, obat, alergi). Bobot TINGGI.",
+          "sub": [
+            "Bahasa netral, tidak menghakimi",
+            "Cari faktor risiko"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 5: Hitung usia kehamilan dan TP (Naegele: HPHT + 7 - 3 bulan + 1 tahun). Bobot TINGGI.",
+          "sub": [
+            "Naegele hanya untuk siklus 28 hari teratur",
+            "Koreksi +/- selisih hari"
+          ],
+          "bold": true,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 6: Status generalis - KU, TB/BB, konjungtiva, kloasma, edema. Bobot TINGGI.",
+          "sub": [
+            "Cari anemia, hipertensi, edema",
+            "Kloasma/hiperpigmentasi normal pada kehamilan"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 7: TTV - TD, nadi, suhu, RR, SpO2. Bobot TINGGI.",
+          "sub": [
+            "TD <140/90, nadi 60-100, suhu 36,0-37,5 C, RR 12-20, SpO2 >=95%"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 8: Jantung-paru, palpasi hati-limpa. Bobot TINGGI.",
+          "sub": [
+            "Irama regular, tidak ada murmur",
+            "Paru vesikuler normal"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 9: Inspeksi dan palpasi abdomen - TFU, hiperpigmentasi, massa. Bobot TINGGI.",
+          "sub": [
+            "TFU sesuai usia kehamilan",
+            "Tidak ada nyeri tekan atau massa abnormal"
+          ],
+          "bold": true,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 10: Auskultasi DJJ (bila 16-20 minggu, alat tersedia). Bobot TINGGI.",
+          "sub": [
+            "DJJ 110-160 x/menit, reguler",
+            "Lokasi: sekitar umbilikus (16-20 minggu)"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 11: Status lokalis ginekologi (bila indikasi) - inspeksi, inspekulo, VT. Bobot TINGGI.",
+          "sub": [
+            "HANYA bila ada indikasi",
+            "Lakukan dengan lembut"
+          ],
+          "bold": true,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 12: Privasi dan persetujuan sebelum pemeriksaan genital. Bobot TINGGI.",
+          "sub": [
+            "Tutup area yang tidak diperiksa",
+            "Tawarkan pendamping perempuan"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 13: Cuci tangan dan APD lengkap. Bobot TINGGI.",
+          "sub": [
+            "6 langkah WHO",
+            "Sarung tangan untuk genital"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 14: Dekontaminasi alat (klorin 0,5%). Bobot TINGGI.",
+          "sub": [
+            "Rendam 10 menit",
+            "Safety box untuk jarum"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 15: Dokumentasi SOAP - lengkap, dengan kode ICD-10. Bobot TINGGI.",
+          "sub": [
+            "Z34.9 untuk kehamilan normal trimester 1",
+            "Format RS pendidikan"
+          ],
+          "bold": true,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 16: Edukasi keluarga - tanda bahaya, suplemen, ANC. Bobot TINGGI.",
+          "sub": [
+            "7 tanda bahaya trimester 1-2",
+            "Suplemen Fe+asam folat"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 17: Mengenali tanda bahaya - perdarahan, nyeri, demam, pusing. Bobot TINGGI.",
+          "sub": [
+            "Trias ektopik: amenorea, nyeri unilateral, perdarahan"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 18: Rujuk bila curiga ektopik, mola, preeklampsia. Bobot TINGGI.",
+          "sub": [
+            "Jangan tunggu hasil USG dulu -> langsung SpOG"
+          ],
+          "bold": true,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 19: Penutup station yang sopan. Bobot SEDANG.",
+          "sub": [
+            "Salam, kesiapan ibu, kontrol"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        },
+        {
+          "text": "Item 20: Menyebut kode ICD-10. Bobot SEDANG.",
+          "sub": [
+            "Z34.9 untuk kehamilan normal",
+            "O00.x untuk ektopik"
+          ],
+          "bold": false,
+          "source": "S16 Checklist"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "[DANGER]",
+          "title": "10 Kesalahan Fatal yang Merusak Skor",
+          "text": "(1) Tidak menjaga privasi -> skor hangus. (2) Tidak meminta izin sebelum pemeriksaan genital -> skor hangus. (3) Tidak menjelaskan rasa tidak nyaman -> skor hangus. (4) Lupa cuci tangan/sarung tangan -> skor hangus. (5) Melakukan pemeriksaan genital tanpa indikasi/consent -> skor hangus. (6) Tidak menyebut red flags perdarahan/nyeri perut/ektopik -> skor hangus. (7) Tidak menghitung usia kehamilan dan TP -> skor hangus. (8) Tidak melakukan status generalis -> skor hangus. (9) Tidak dokumentasi SOAP -> skor hangus. (10) Tidak edukasi keluarga -> skor hangus.",
+          "answer_evidence": "S18 FATAL; PROMPT_DOMAIN1_ObGyn_S2.md"
+        },
+        {
+          "tone": "caution",
+          "icon": "[CAUTION]",
+          "title": "5 Pengurangan Besar (Skor Turun)",
+          "text": "(1) Tidak menyebut diagnosis kerja. (2) Tidak menyebut kode ICD-10. (3) Tidak menyebut rencana ANC. (4) Tidak edukasi tentang tanda bahaya trimester 1-2. (5) Tidak membedakan ancaman abortus vs ektopik.",
+          "answer_evidence": "S18 PENGURANGAN BESAR"
+        },
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "4 Pola Recovery Move",
+          "text": "(1) Saat informed consent: 'Mohon maaf, Bu, saya akan mengulang penjelasan prosedur.' (2) Saat pemeriksaan: 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.' (3) Saat interpretasi: 'Ibu, satu hal penting: perdarahan + nyeri perut perlu pikir ektopik, rujuk.' (4) Saat dokumentasi: 'Saya akan menuliskan [poin yang terlewat] di rekam medis.' Jangan panik dan jangan asal jawab saat ditegur.",
+          "answer_evidence": "S18 Recovery Move"
+        },
+        {
+          "tone": "pearl",
+          "icon": "[PEARL]",
+          "title": "Kriteria Siap OSCE",
+          "text": "Bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi. Tidak melewatkan item checklist S16 (minimal 18 dari 20). Bisa menjawab 1-2 pertanyaan penguji (misal: beda ancaman abortus dan ektopik, kapan rujuk) dengan baik.",
+          "answer_evidence": "S17 Kriteria siap OSCE"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_antenatal_awal_hpht_05",
+        "gls_antenatal_awal_ket_11",
+        "gls_antenatal_awal_litotomi_01",
+        "gls_antenatal_awal_bimanual_09"
+      ],
+      "bilingual": "Latihan: 20 item checklist. Rencana 3 hari: H-3 orientasi, H-2 latihan timer, H-1 simulasi penuh. 10 FATAL, 5 pengurangan besar, 4 recovery move."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "5 saran visual dengan prompt AI, referensi utama (WHO ANC 2016, SKDI 4A), Lampiran A (kontraindikasi/red flags), Lampiran B (masalah prosedur), Lampiran C (4 mini-case), Lampiran D (10 kalimat verbal checklist).",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Saran visual dan prompt AI (5 visual, dari file sumber): (1) Alur ANC awal - flowchart; (2) Posisi litotomi sopan - illustration; (3) Anatomi pemeriksaan spekulum - diagram; (4) Tanda bahaya kehamilan muda - infographic; (5) Pemeriksaan konjungtiva dan edema - illustration. Cara pakai: jaga agar gambar bersifat anatomi/edukatif, bukan vulgar, dan gunakan gaya 'medical education illustration'.",
+          "tone": "clinical",
+          "source": "S19 Saran Visual"
+        },
+        {
+          "text": "Referensi utama: PDF Batch 4 File 1: Penuntun Belajar Pemeriksaan Ginekologi - Antenatal dan Leopold (FKIK Universitas Jambi), SKDI 2012 - Pemetaan 4A Obstetri-Ginekologi, WHO Recommendations on antenatal care for a positive pregnancy experience 2016, WHO Intrapartum care for a positive childbirth experience 2018. Catatan: keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "clinical",
+          "source": "REFERENSI RINGKAS"
+        },
+        {
+          "text": "Lampiran A - Kontraindikasi, Red Flags, dan Kondisi Khusus: kehamilan ektopik curiga, abortus aktif dengan perdarahan banyak, mola hidatidosa curiga, preeklampsia, KPD, kehamilan dengan perdarahan aktif, alergi bahan pemeriksaan, pasien menolak, HIV/AIDS dengan komplikasi, fasilitas tidak memadai, kehamilan ektopik ruptur, hiperemesis gravidarum berat, keganasan ginekologi, kekerasan seksual curiga.",
+          "tone": "clinical",
+          "source": "Lampiran A"
+        },
+        {
+          "text": "Lampiran B - Masalah Saat Prosedur dan Respons Aman: nyeri hebat (stop, analgesik, komunikasi), sinkop vasovagal (stop, posisi Trendelenburg), spasme serviks (tunggu relaksasi, analgesik), cedera dinding vagina/serviks (kompres, evaluasi, jahit, rujuk), reaksi alergi (hentikan, antihistamin), perdarahan pasca prosedur, infeksi 24-72 jam, pasien menolak, pingsan/collapse, gangguan cemas berat.",
+          "tone": "clinical",
+          "source": "Lampiran B"
+        },
+        {
+          "text": "Lampiran C - 4 OSCE Mini-Case: (1) Skenario Mudah (ANC Normal pada Kehamilan Muda - Ny. Sari 24 tahun hamil 16 minggu); (2) Skenario Sedang (Anemia Curiga pada Kehamilan Muda); (3) Skenario Sulit (Curiga Kehamilan Ektopik dengan syok); (4) Skenario Tambahan (ANC dengan Risiko Hipertensi).",
+          "tone": "narrative",
+          "source": "Lampiran C"
+        },
+        {
+          "text": "Lampiran D - Checklist Verbal Sebelum Mulai Tindakan: 10 kalimat pola yang harus diucapkan dalam 60-90 detik pertama di station OSCE, mencakup salam, izin, anamnesis, usia kehamilan, status generalis, abdomen/DJJ, dan edukasi.",
+          "tone": "clinical",
+          "source": "Lampiran D"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Visual 1: Alur ANC awal - flowchart 6 langkah. Prompt: 'Infografik Bahasa Indonesia, alur pemeriksaan antenatal awal trimester pertama, dari salam, anamnesis, HPHT, TTV, pemeriksaan umum, indikasi pemeriksaan ginekologi, edukasi tanda bahaya, gaya medical education clean A4 portrait.'",
+          "sub": [
+            "Type: flowchart",
+            "Style: medical education clean",
+            "Output: A4 portrait"
+          ],
+          "bold": false,
+          "source": "S19 Visual 1"
+        },
+        {
+          "text": "Visual 2: Posisi litotomi sopan - illustration dengan penekanan privasi. Prompt: 'Ilustrasi edukasi klinik, pasien perempuan dewasa di meja ginekologi dengan kain penutup, dokter dan pendamping, penekanan pada privasi dan informed consent, tidak vulgar, gaya textbook.'",
+          "sub": [
+            "Type: illustration",
+            "Style: textbook",
+            "Focus: privasi dan informed consent"
+          ],
+          "bold": false,
+          "source": "S19 Visual 2"
+        },
+        {
+          "text": "Visual 3: Anatomi pemeriksaan spekulum - diagram potongan sagital. Prompt: 'Diagram anatomi potongan sagital panggul perempuan, spekulum memperlihatkan serviks dan forniks, label vagina, serviks, portio, forniks, uterus, gaya medis sederhana.'",
+          "sub": [
+            "Type: diagram",
+            "Style: medis sederhana",
+            "Label: vagina, serviks, portio, forniks, uterus"
+          ],
+          "bold": false,
+          "source": "S19 Visual 3"
+        },
+        {
+          "text": "Visual 4: Tanda bahaya kehamilan muda - poster edukasi. Prompt: 'Poster edukasi ibu hamil: perdarahan banyak, nyeri perut hebat, pingsan, demam, muntah berat, keputihan berbau, segera ke fasilitas kesehatan, Bahasa Indonesia. Gaya clean medical illustration, warna kontras untuk keterbacaan.'",
+          "sub": [
+            "Type: infographic",
+            "Style: clean medical illustration",
+            "Bahasa: Indonesia"
+          ],
+          "bold": false,
+          "source": "S19 Visual 4"
+        },
+        {
+          "text": "Visual 5: Pemeriksaan konjungtiva dan edema - kolase medis. Prompt: 'Kolase medis edukatif: pemeriksaan konjungtiva pucat, pemeriksaan edema pretibial, pengukuran tekanan darah ibu hamil, clean clinical illustration.'",
+          "sub": [
+            "Type: illustration",
+            "Style: clean clinical",
+            "Focus: status generalis"
+          ],
+          "bold": false,
+          "source": "S19 Visual 5"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "[DANGER]",
+          "title": "Lampiran A - Kontraindikasi & Red Flags",
+          "text": "(1) Kehamilan ektopik curiga -> rujuk. (2) Abortus aktif dengan perdarahan banyak -> rujuk. (3) Mola hidatidosa curiga -> USG, kuretase, rujuk. (4) Preeklampsia -> rujuk. (5) KPD -> tata, observasi, rujuk. (6) Kehamilan dengan perdarahan aktif -> stabilisasi, evaluasi, rujuk. (7) HIV/AIDS dengan komplikasi -> rujuk. (8) Fasilitas tidak memadai -> rujuk. (9) Kehamilan ektopik ruptur -> emergensi. (10) Hiperemesis gravidarum berat -> rawat inap. (11) Keganasan ginekologi -> rujuk. (12) Kekerasan seksual curiga -> rujuk tim forensik.",
+          "answer_evidence": "Lampiran A - Kontraindikasi, Red Flags"
+        },
+        {
+          "tone": "caution",
+          "icon": "[CAUTION]",
+          "title": "Lampiran B - Masalah Prosedur & Respons",
+          "text": "(1) Nyeri hebat -> stop, analgesik. (2) Sinkop vasovagal -> stop, Trendelenburg. (3) Spasme serviks -> tunggu relaksasi. (4) Cedera dinding vagina/serviks -> kompres, evaluasi, jahit, rujuk. (5) Reaksi alergi -> hentikan, antihistamin. (6) Perdarahan pasca -> evaluasi, uterotonika, rujuk. (7) Infeksi 24-72 jam -> antibiotik, rujuk. (8) Pasien menolak -> berhenti, tenangkan. (9) Pingsan/collapse -> posisi aman, observasi, rujuk. (10) Gangguan cemas berat -> komunikasi, tenangkan.",
+          "answer_evidence": "Lampiran B - Masalah Saat Prosedur"
+        },
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "Mini-Case OSCE - Penting untuk Latihan",
+          "text": "(1) Skenario Mudah: ANC Normal (Ny. Sari 24 tahun hamil 16 minggu) - diagnosis risiko rendah, ANC 4 minggu sekali, suplemen Fe+asam folat. (2) Skenario Sedang: Anemia Curiga - konjungtiva pucat, lemah, pusing, TD borderline -> darah lengkap, terapi besi. (3) Skenario Sulit: Curiga Kehamilan Ektopik - trias amenorea, nyeri unilateral, perdarahan, syok curiga -> stabilisasi, akses IV, USG, rujuk SpOG. (4) Skenario Tambahan: ANC dengan Risiko Hipertensi - TD 150/100, edema, sakit kepala -> evaluasi proteinuria, antihipertensi, konsultasi SpOG, rujuk.",
+          "answer_evidence": "Lampiran C - Mini-Case OSCE"
+        },
+        {
+          "tone": "note",
+          "icon": "[NOTE]",
+          "title": "10 Kalimat Pola Verbal OSCE",
+          "text": "(1) Salam, perkenalan, identitas. (2) Pemeriksaan ini mungkin tidak nyaman, ibu boleh meminta saya berhenti. (3) Tanda tangan di lembar persetujuan. (4) Kapan HPHT, ada keluhan, riwayat, alergi? (5) Hitung usia kehamilan dengan rumus Naegele. (6) Saya periksa secara umum: TD, nadi, suhu, konjungtiva, kloasma, edema. (7) Saya periksa perut: TFU, DJJ. (8) Karena tidak ada keluhan ginekologis, saya tidak melakukan pemeriksaan dalam. (9) Ibu minum Fe dan asam folat setiap hari. Tanda bahaya. (10) Pemeriksaan selesai, ada yang ingin ditanyakan?",
+          "answer_evidence": "Lampiran D - Checklist Verbal"
+        }
+      ],
+      "visual_refs": [
+        "visual_antenatal_awal_alur_anc_01",
+        "visual_antenatal_awal_litotomi_02",
+        "visual_antenatal_awal_spekulum_03",
+        "visual_antenatal_awal_tanda_bahaya_04",
+        "visual_antenatal_awal_status_generalis_05"
+      ],
+      "glossary_refs": [
+        "gls_antenatal_awal_litotomi_01",
+        "gls_antenatal_awal_consent_02",
+        "gls_antenatal_awal_apd_03",
+        "gls_antenatal_awal_cuci_tangan_04",
+        "gls_antenatal_awal_hpht_05",
+        "gls_antenatal_awal_chadwick_06",
+        "gls_antenatal_awal_hegar_07",
+        "gls_antenatal_awal_ballottement_08",
+        "gls_antenatal_awal_bimanual_09",
+        "gls_antenatal_awal_avf_10",
+        "gls_antenatal_awal_ket_11",
+        "gls_antenatal_awal_cmt_12",
+        "gls_antenatal_awal_naegele_13",
+        "gls_antenatal_awal_inspekulo_14",
+        "gls_antenatal_awal_kloasma_15"
+      ],
+      "bilingual": "Visual: 5 saran gambar. Referensi: WHO ANC 2016, SKDI 4A. Lampiran A (kontraindikasi), Lampiran B (masalah prosedur), Lampiran C (4 mini-case), Lampiran D (10 kalimat verbal)."
+    }
+  ]
+}

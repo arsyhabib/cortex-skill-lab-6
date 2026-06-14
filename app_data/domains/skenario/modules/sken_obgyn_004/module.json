@@ -1,0 +1,876 @@
+{
+  "id": "sken_obgyn_004",
+  "title": "Stasiun 4 — Pasien Persalinan dengan Kemajuan Tidak Sesuai dan Perdarahan Pascapersalinan",
+  "subtitle": "Skenario kala II lama dengan ekstraksi vakum dilanjutkan PPH karena retensio/sisa plasenta: menguji syarat vakum aman, resusitasi PPH, identifikasi tissue retained, dan prinsip kuretase pascapersalinan/rujukan.",
+  "domain": "osce_skenario",
+  "batch_id": "batch_2",
+  "source_files": ["SOAL_04_PESERTA_BUTA.md", "SOAL_04_PENDAMPING.md", "SOAL_04_BLUEPRINT.md"],
+  "topicTags": ["osce_skenario", "obgyn", "kala_ii_lama", "distokia", "vakum_ekstraksi", "pph", "kuretase", "emergensi_obstetri", "atonia_uteri", "retensio_plasenta"],
+  "summary": [
+    "Situasi klinis: Ny. Maya Putri, 31 tahun G2P1A0 hamil 40 minggu, kontraksi 10 jam, pembukaan lengkap 1,5-2 jam, mengejan namun progres lambat; merasa kelelahan.",
+    "Skill utama: penilaian kala II lama, syarat/kontraindikasi ekstraksi vakum, APN kala III, pengenalan PPH, resusitasi awal, identifikasi tissue retained (4T), dan prinsip kuretase pascapersalinan atau rujukan emergensi.",
+    "Anamnesis kritis: kontraksi, pembukaan, ketuban, gerak janin, riwayat obstetri (BB anak pertama 3200 g, tidak ada riwayat SC), perdarahan pascapersalinan.",
+    "Pemeriksaan fisik kunci: TTV stabil lalu memburuk (TD 96/60, nadi 116, akral dingin), pembukaan lengkap, kepala di dasar panggul/station +2/+3, syarat vakum terpenuhi, plasenta tidak lengkap, perdarahan 800-1000 mL.",
+    "Diagnosis kerja: kala II lama dengan syarat ekstraksi vakum terpenuhi; setelah persalinan terjadi PPH karena retensio/sisa plasenta.",
+    "Tatalaksana: vakum simulasi aman (cup titik fleksi, traksi searah sumbu, batas gagal), resusitasi PPH (panggil bantuan, 2 jalur IV, cairan, uterotonik, lab/crossmatch, kateter urin, monitor), identifikasi tissue retained dari inspeksi plasenta, eksplorasi/kuretase pascapersalinan oleh operator terlatih atau rujuk emergensi.",
+    "Critical error: melakukan vakum tanpa syarat lengkap atau pada dugaan CPD; mengabaikan PPH dan tidak memanggil bantuan; tidak memeriksa kelengkapan plasenta; kuretase tanpa stabilisasi, consent, asepsis, atau operator mampu.",
+    "Total 100 poin — komponen terbesar: syarat/kontraindikasi vakum (16), tatalaksana resusitasi PPH (14), teknik vakum aman (12), pengenalan PPH (10), dan identifikasi tissue/sisa plasenta (8)."
+  ],
+  "exam_focus": [
+    "Syarat ekstraksi vakum WAJIB lengkap: pembukaan lengkap, ketuban pecah, kepala engaged (station ≥+2), posisi diketahui, tidak ada CPD, informed consent, kandung kemih kosong, operator terlatih, dan fasilitas SC emergensi.",
+    "Cup dipasang pada titik fleksi (tidak di sutura); traksi searah sumbu jalan lahir saat kontraksi; batas gagal 3 tarikan pop-off atau sesuai protokol lokal.",
+    "Setelah bayi lahir, jangan langsung lupa inspeksi plasenta — plasenta tidak lengkap adalah penyebab PPH kedua paling sering (4T: tissue).",
+    "Resusitasi PPH: panggil bantuan, ABC, 2 jalur IV besar, cairan kristaloid hangat, ambil sampel darah + crossmatch, kateter urin, uterotonik sesuai protokol, evaluasi 4T.",
+    "Kuretase pascapersalinan HANYA oleh operator terlatih dengan stabilisasi ibu, analgesia/anestesi, asepsis, antibiotik profilaksis, dan fasilitas mampu; rujuk emergensi bila tidak mampu.",
+    "Critical error: melakukan vakum pada dugaan CPD atau tanpa syarat = morbiditas ibu-janin berat; mengabaikan PPH = syok dan kematian.",
+    "Komunikasi krisis: jelaskan singkat bahwa perdarahan harus ditangani cepat, minta persetujuan tindakan, libatkan keluarga untuk rujukan/donor darah.",
+    "Edukasi pasca-tindakan: Hb ulang, tanda infeksi, involusi uterus, laktasi, konseling kejadian, dan rencana kontrol."
+  ],
+  "glossary": [
+    {
+      "id": "gls_sken_vak_pph_01",
+      "term": "Ekstraksi Vakum (Vacuum Extraction)",
+      "def": "Tindakan operatif obstetri untuk mempersingkat kala II dengan menggunakan cangkir vakum yang dipasang di kepala janin dan traksi searah sumbu jalan lahir saat kontraksi. Syarat mutlak: pembukaan lengkap, ketuban pecah, kepala engaged (station ≥+2), posisi diketahui, tidak ada CPD jelas, kandung kemih kosong, consent, dan akses SC emergensi. Batas gagal sesuai protokol (umumnya 3 tarikan pop-off atau 20-30 menit).",
+      "type": "procedure",
+      "aliases": ["vacuum extraction", "VE", "ekstraksi vakum"]
+    },
+    {
+      "id": "gls_sken_vak_kala_ii_02",
+      "term": "Kala II Lama (Prolonged Second Stage of Labor)",
+      "def": "Persalinan kala II yang memanjang: pada nulipara ≥3 jam dengan anestesi regional atau ≥2 jam tanpa anestesi; pada multipara ≥2 jam dengan anestesi regional atau ≥1 jam tanpa anestesi. Penyebab: his tidak adekuat, malposisi, CPD, distosia bahu iminens. Tatalaksana: evaluasi penyebab, augmentasi, ekstraksi vakum/forsep bila syarat terpenuhi, atau SC.",
+      "type": "clinical",
+      "aliases": ["prolonged second stage", "kala II memanjang"]
+    },
+    {
+      "id": "gls_sken_vak_pph_03",
+      "term": "Perdarahan Pascapersalinan (Postpartum Hemorrhage / PPH)",
+      "def": "Perdarahan ≥500 mL untuk persalinan pervaginam atau ≥1000 mL untuk SC dalam 24 jam pertama. PPH primer terjadi dalam 24 jam, sekunder 24 jam-12 minggu. Penyebab dievaluasi dengan 4T: Tone (atonia uteri), Trauma (robekan jalan lahir), Tissue (sisa plasenta), Thrombin (gangguan koagulasi). Tatalaksana simultan: resusitasi, uterotonik, identifikasi penyebab, dan tindakan definitif.",
+      "type": "clinical",
+      "aliases": ["PPH", "postpartum hemorrhage"]
+    },
+    {
+      "id": "gls_sken_vak_4t_04",
+      "term": "4T dalam Evaluasi PPH",
+      "def": "Mnemonik empat penyebab utama PPH: Tone (atonia uteri, uterus lembek), Trauma (robekan jalan lahir/serviks/vagina/perineum atau ruptura uteri), Tissue (sisa plasenta atau plasenta inkreta/akreta), Thrombin (gangguan koagulasi seperti DIC, HELLP, ITP). Evaluasi simultan dengan resusitasi; identifikasi awal menentukan tata laksana definitif.",
+      "type": "score",
+      "aliases": ["4 T's of PPH", "4T mnemonic"]
+    },
+    {
+      "id": "gls_sken_vak_retensio_05",
+      "term": "Retensio / Sisa Plasenta (Retained Placenta / Tissue)",
+      "def": "Plasenta yang tidak lahir dalam 30 menit setelah bayi lahir pada persalinan aktif, atau sebagian kotiledon/selaput tertinggal. Faktor risiko: atonia, plasenta akreta/inkreta/perkreta, riwayat kuretase atau SC. Diagnosis: inspeksi plasenta tidak lengkap, perdarahan berlanjut setelah uterotonik, atau USG postpartum menunjukkan material echogenic intrauterin. Tatalaksana: eksplorasi manual, kuretase pascapersalinan, atau histerektomi sesuai fasilitas dan kondisi.",
+      "type": "clinical",
+      "aliases": ["retained placenta", "sisa plasenta", "retensio plasenta"]
+    },
+    {
+      "id": "gls_sken_vak_kuretase_06",
+      "term": "Kuretase Pascapersalinan",
+      "def": "Tindakan evakuasi sisa jaringan plasenta/konsepsi dari kavum uteri menggunakan kuret tajam atau suction curettage. Pada skenario PPH, dilakukan SETELAH stabilisasi ibu (resusitasi, uterotonik, darah), dengan anestesi, asepsis, dan antibiotik profilaksis. Hanya oleh operator terlatih di kamar operasi dengan akses SC/histerektomi emergensi. Alternatif: eksplorasi manual dengan tampon uterin.",
+      "type": "procedure",
+      "aliases": ["postpartum curettage", "evakuasi sisa plasenta"]
+    },
+    {
+      "id": "gls_sken_vak_oksitosin_07",
+      "term": "Oksitosin",
+      "def": "Uterotonik utama untuk profilaksis dan tatalaksana PPH. Dosis profilaksis kala III: 10 IU IM dalam 1 menit pasca-bayi lahir. Dosis PPH: 20-40 IU dalam 500-1000 mL kristaloid infus, atau 10 IU IM intrauterine. Catatan: efek samping hipotensi, takikardia, dan retensi air; perlu monitoring TTV.",
+      "type": "drug",
+      "aliases": ["oxytocin", "Syntocinon"]
+    },
+    {
+      "id": "gls_sken_vak_txa_08",
+      "term": "Asam Traneksamat (Tranexamic Acid / TXA)",
+      "def": "Antifibrinolitik yang digunakan sebagai tambahan uterotonik pada PPH. Dosis: 1 g IV dalam 10 menit, dapat diulang setelah 30 menit bila perdarahan berlanjut. Lebih efektif bila diberikan dalam 3 jam pertama setelah onset PPH. Kontraindikasi: gangguan koagulasi aktif, hipersensitivitas. WHO merekomendasikan TXA sebagai bagian dari paket tatalaksana PPH.",
+      "type": "drug",
+      "aliases": ["TXA", "tranexamic acid"]
+    }
+  ],
+  "bilingual": [],
+  "visual_asset_manifest": [],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Tugas OSCE",
+      "summary": "Situasi klinis yang diterima peserta dan daftar tugas yang harus diselesaikan dalam stasiun ini.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Seorang pasien di ruang bersalin mengalami proses persalinan yang perlu dinilai ulang. Anda diminta melakukan penilaian klinis, menentukan kebutuhan tindakan/rujukan yang aman, meminta data objektif, dan menjelaskan rencana kepada pasien/keluarga.",
+          "tone": "narrative",
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Lakukan penilaian klinis terarah, pemeriksaan fisik/penunjang yang relevan, diagnosis kerja, tatalaksana awal, edukasi, dan rencana tindak lanjut.",
+          "tone": "clinical",
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tugas 1: Lakukan penilaian awal ibu-janin dan tentukan masalah utama secara sistematis.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 2: Nilai syarat, kontraindikasi, dan keselamatan tindakan obstetri yang mungkin diperlukan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 3: Minta data pemeriksaan fisik, penunjang, dan monitoring yang relevan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 4: Jika terjadi perdarahan pascapersalinan dalam skenario, lakukan tata laksana awal dan eskalasi yang aman.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        },
+        {
+          "text": "Tugas 5: Sampaikan edukasi dan komunikasi krisis kepada pasien/keluarga secara jelas.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PESERTA_BUTA"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan untuk Peserta",
+          "text": "Gunakan komunikasi klinik nyata: sapa, perkenalkan diri, konfirmasi identitas, jelaskan tujuan, minta izin, dan jaga privasi. Data tidak diberikan otomatis — gali dari probandus atau minta spesifik ke pendamping. Untuk tindakan simulasi (vakum, uterotonik, kuretase), ucapkan indikasi, kontraindikasi, dan prinsip keselamatan/asepsis/asesmen.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_vakum_01", "gls_sken_vak_pph_03"],
+      "bilingual": ""
+    },
+    {
+      "id": "s02",
+      "title": "Struktur Stasiun & Distribusi Nilai",
+      "summary": "Setting stasiun, durasi, skill yang diuji, dan distribusi poin penilaian.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Stasiun ini berlangsung di ruang bersalin/PONED simulasi dengan fasilitas rujukan obstetri. Total durasi 21 menit: 1 menit membaca soal, 15 menit performa, dan 5 menit feedback. Peserta dinilai menggunakan rubrik 100 poin dengan skor proporsional per item. Skenario ini menguji dua kondisi emergensi (kala II lama + PPH) sehingga ekspektasi penilaian tinggi.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Skill yang diuji di stasiun ini:",
+          "sub": [
+            "Penilaian awal ibu-janin dan partograf (TTV, DJJ, kontraksi, status ibu)",
+            "Diagnosis kala II lama dan identifikasi penyebab (his, malposisi, CPD)",
+            "Syarat/kontraindikasi ekstraksi vakum (pembukaan lengkap, ketuban pecah, kepala engaged, posisi, tidak CPD, consent, operator, kandung kemih kosong)",
+            "Teknik vakum aman (cup titik fleksi, traksi searah sumbu, batas gagal, tidak memaksa)",
+            "Penilaian bayi dan APN kala III (APGAR, uterotonik profilaksis, PTT, inspeksi plasenta)",
+            "Pengenalan PPH (estimasi darah, TTV, kontraksi uterus, evaluasi 4T)",
+            "Tatalaksana resusitasi PPH (panggil bantuan, IV, cairan, lab/crossmatch, uterotonik, monitor urine)",
+            "Identifikasi tissue/sisa plasenta (inspeksi plasenta, USG bila stabil)",
+            "Kuretase pascapersalinan atau rujukan aman (kewenangan, asepsis, analgesia, fasilitas mampu)",
+            "Komunikasi krisis dan edukasi (jelaskan keadaan, minta persetujuan, libatkan keluarga)"
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Strategi Waktu OSCE",
+          "text": "1 menit baca → 3 menit penilaian awal & partograf → 3-4 menit syarat vakum & teknik → 3 menit pasca-lahir & kala III → 5-6 menit PPH (resusitasi + 4T + uterotonik) → 2-3 menit kuretase/rujukan & edukasi. Pada PPH, 'panggil bantuan' harus diucapkan paling awal — penguji menilai inisiasi respons.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s03",
+      "title": "Panduan Anamnesis & Naskah Probandus",
+      "summary": "Cara menggunakan file pendamping, naskah pembuka probandus, dan poin anamnesis yang tersedia.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Perankan pasien sesuai naskah. Jangan memberi informasi tersembunyi kecuali peserta menanyakannya dengan relevan. Saat bertindak sebagai penguji, berikan data objektif hanya bila peserta meminta pemeriksaan/penunjang spesifik. Jika peserta melakukan urutan benar, beri respons positif; jika ada kesalahan fatal, catat dan lanjutkan sampai waktu selesai. Gunakan rubrik 100 poin untuk feedback — fokus pada clinical reasoning dan keselamatan.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Naskah pembuka probandus (Ny. Maya Putri, 31 tahun, G2P1A0, hamil 40 minggu): \"Dok, saya capek sekali. Dari tadi disuruh mengejan tapi bayinya belum lahir.\"",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Persalinan: kontraksi teratur sejak 10 jam, pembukaan lengkap 1,5-2 jam, sudah mengejan efektif namun progres lambat.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Ketuban: pecah 3 jam lalu, cairan jernih.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Gerak janin/DJJ: sebelumnya baik; DJJ sekarang perlu dimonitor (signifikansi untuk keputusan vakum).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Riwayat obstetri: anak pertama lahir spontan 3200 g. Tidak ada riwayat SC (penting untuk menyingkirkan ruptura uteri).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Penyakit: tidak ada hipertensi, DM, asma, penyakit jantung.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Alergi/obat: tidak ada alergi.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Setelah bayi lahir: pasien merasa darah keluar terus dan lemas — probandus berubah menjadi pucat/cemas pada skenario perdarahan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_kala_ii_02", "gls_sken_vak_vakum_01"],
+      "bilingual": ""
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik & Temuan Objektif",
+      "summary": "Data TTV dan temuan pemeriksaan fisik yang tersedia untuk diberikan kepada peserta bila diminta.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Temuan berikut diberikan HANYA bila peserta meminta secara spesifik dengan menyebut parameter atau organ yang diperiksa. Peserta dinilai dari relevansi permintaan dan kemampuan interpretasi, bukan dari permintaan buta semua data. Data berubah setelah bayi lahir dan PPH terjadi — peserta harus mampu menilai perburukan klinis.",
+          "tone": "note",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tanda-tanda vital awal (sebelum tindakan): TD 116/74 mmHg | Nadi 98 x/menit | RR 22 x/menit | Suhu 37,1°C | SpO2 99% RA | Lelah namun sadar.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "DJJ sebelum vakum: 150 x/menit, variabilitas simulasi cukup; tidak ada gawat janin berat (artinya indikasi vakum bukan karena fetal distress, melainkan prolonged second stage).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Tanda vital setelah perdarahan: TD 96/60 | Nadi 116 | RR 24 | Pucat | Akral mulai dingin | Estimasi perdarahan 800-1000 mL (sudah memenuhi PPH).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Nyeri: kontraksi dan nyeri jalan lahir 8/10.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Head-to-toe awal: sadar, lelah, konjungtiva tidak sangat pucat sebelum perdarahan, jantung paru tanpa kelainan berat, ekstremitas hangat sebelum perdarahan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Abdomen/kontraksi: kontraksi adekuat 4x/10 menit, uterus sesuai cukup bulan. Kandung kemih harus dikosongkan sebelum tindakan.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pemeriksaan dalam sebelum vakum: pembukaan lengkap, ketuban pecah, kepala di dasar panggul/station +2 sampai +3, posisi oksiput anterior, tidak ada caput/molding berat, panggul klinis adekuat.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Syarat vakum (terpenuhi): janin hidup, kepala engaged, posisi diketahui, pembukaan lengkap, ketuban pecah, tidak ada CPD jelas, operator terlatih, informed consent, kandung kemih kosong, siap rujuk/SC bila gagal.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Setelah bayi lahir: bayi menangis setelah stimulasi, APGAR simulasi 7/9; monitor neonatal.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Kala III/PPH: plasenta lahir TIDAK LENGKAP; ada bagian kotiledon/selaput hilang. Uterus agak lembek lalu membaik dengan masase/uterotonik tetapi perdarahan tetap berlanjut — mengarah tissue retained.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Jalan lahir: tidak ada robekan besar aktif yang menjelaskan seluruh perdarahan; perlu inspeksi serviks/vagina/perineum untuk menyingkirkan trauma.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_vakum_01", "gls_sken_vak_pph_03", "gls_sken_vak_4t_04", "gls_sken_vak_retensio_05"],
+      "bilingual": ""
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Penunjang & Interpretasi",
+      "summary": "Data penunjang yang tersedia beserta interpretasinya, diberikan bila peserta meminta secara spesifik.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Penunjang berikut diberikan hanya bila peserta meminta secara spesifik. Peserta dinilai dari relevansi permintaan dan kemampuan interpretasi klinis, bukan dari jumlah penunjang yang diminta. Pada PPH aktif, fokus pada laboratorium emergensi (Hb, golongan darah, crossmatch, koagulasi) — USG postpartum dan inspeksi plasenta adalah alat diagnostik utama untuk tissue retained.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Partograf: kala II memanjang; sebelumnya fase aktif memadai. Pola menunjukkan progression tidak sesuai waktu normal.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Hb awal: 10,8 g/dL. Setelah perdarahan, Hb belum menggambarkan kehilangan akut — perlu evaluasi klinis dan trend.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Golongan darah/crossmatch: A Rh positif; crossmatch diminta segera untuk antisipasi transfusi.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Koagulasi: PT/aPTT awal normal bila diminta; ulang bila perdarahan masif atau DIC dicurigai.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Fibrinogen: diminta bila tersedia pada PPH berat (penanda DIC).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "USG postpartum (bila stabil): gambaran echogenic material intrauterin sugestif sisa plasenta. Jangan menunda tatalaksana resusitasi untuk menunggu USG jika ibu tidak stabil.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Monitoring: TTV serial tiap 5-15 menit, jumlah perdarahan, urine output dengan kateter urin bila PPH (target ≥0,5 mL/kg/jam).",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Inspeksi plasenta: tidak lengkap; temuan kunci harus didapat dari inspeksi plasenta (kotiledon/selaput hilang).",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Penunjang yang Tidak Perlu",
+          "text": "Pada PPH aktif, kultur darah, panel metabolik lengkap, atau panel toksikologi tidak relevan dan menghabiskan waktu. Jangan menunda resusitasi untuk menunggu USG bila ibu hemodinamik tidak stabil. Fokus pada lab emergensi (golongan darah, crossmatch, Hb serial, koagulasi bila perdarahan masif).",
+          "answer_evidence": "POGI; WHO PPH guidelines"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "JANGAN Kuretase Tanpa Stabilisasi",
+          "text": "Kuretase pascapersalinan tanpa stabilisasi ibu (syok hipovolemik, akses IV, uterotonik) akan memperburuk morbiditas. Selalu: resusitasi → uterotonik → identifikasi penyebab → baru evakuasi. Pada fasilitas tidak mampu, RUJUK EMERGENSI.",
+          "answer_evidence": "ACOG Practice Bulletin; WHO PPH guidelines"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_pph_03", "gls_sken_vak_kuretase_06", "gls_sken_vak_retensio_05"],
+      "bilingual": ""
+    },
+    {
+      "id": "s06",
+      "title": "Diagnosis Kerja & Diagnosis Banding",
+      "summary": "Kunci diagnosis rahasia, diagnosis banding utama, dan alasan klinis mendukung/menentang.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Diagnosis kerja: Kala II lama dengan syarat ekstraksi vakum terpenuhi; setelah persalinan terjadi PPH karena retensio/sisa plasenta. Penegakan: kala II memanjang (multipara ≥1 jam tanpa anestesi, atau ≥2 jam dengan anestesi), syarat vakum lengkap, pasca-lahir plasenta tidak lengkap dengan perdarahan 800-1000 mL dan TTV memburuk (TD 96/60, nadi 116). PPH primer dengan penyebab utama tissue (sisa plasenta), kemungkinan kontribusi atonia yang membaik dengan uterotonik.",
+          "tone": "clinical",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "DD 1: Kala II lama karena his tidak adekuat/CPD/malposisi — mendukung: kala II memanjang. Mendukung vakum: kepala +2/+3, posisi OAP, tidak ada caput/molding berat, panggul klinis adekuat. Menentang CPD: tidak ada molding berat dan kepala engaged; malposisi minor dapat dikoreksi dengan vakum.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 2: PPH atonia uteri — mendukung: uterus agak lembek awal, perdarahan banyak. Menentang: membaik dengan masase/uterotonik, dan plasenta tidak lengkap → penyebab utama adalah tissue, bukan atonia murni.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 3: PPH trauma jalan lahir — mendukung: pasca-persalinan. Menentang: tidak ada robekan besar aktif yang menjelaskan seluruh perdarahan; perlu inspeksi serviks/vagina/perineum.",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 4: PPH karena gangguan koagulasi (DIC) — mendukung: perdarahan masif. Menentang: PT/aPTT awal normal, tidak ada faktor risiko (preeklamsia, solusio, sepsis).",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "DD 5: Ruptura uteri — mendukung: kala II memanjang. Menentang: tidak ada riwayat SC, tidak ada nyeri abdomen berat, TTV sebelum perdarahan stabil, uterus pasca-lahir kontraksi membaik dengan uterotonik. Perlu evaluasi tanda ruptura (nyeri tekan abdomen, darah intra-peritoneal).",
+          "sub": [],
+          "bold": false,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Mnemonik 4T untuk PPH",
+          "text": "Tone (atonia) — uterus lembek, membaik dengan uterotonik? Trauma — robekan serviks/vagina/perineum, ruptura uteri? Tissue — plasenta tidak lengkap, akreta? Thrombin — DIC, koagulopati? Pada skenario ini, Tissue adalah penyebab utama; evaluasi simultan agar tata laksana definitif (kuretase/rujukan) tidak terlambat.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_pph_03", "gls_sken_vak_4t_04", "gls_sken_vak_retensio_05"],
+      "bilingual": ""
+    },
+    {
+      "id": "s07",
+      "title": "Tatalaksana & Farmakoterapi",
+      "summary": "Tatalaksana non-farmakologi dan farmakologi yang diharapkan dari peserta di stasiun ini.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pendekatan tatalaksana dua fase: (1) pra-persalinan → evaluasi syarat vakum dan persiapkan; (2) pasca-persalinan → PPH dengan resusitasi simultan dan identifikasi 4T. Kuretase atau rujukan emergensi adalah tindak lanjut untuk tissue retained. Pada fasilitas tidak mampu, RUJUK.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING + BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Sebelum vakum: evaluasi ABC ibu, DJJ, kemajuan persalinan, syarat vakum (lihat s04), kontraindikasi, informed consent, kosongkan kandung kemih, siapkan alat dan tim/rujukan. Hentikan bila gagal sesuai batas tarikan/pop-off/waktu protokol lokal.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Saat vakum simulasi: pasang cup pada titik fleksi kepala (tidak di sutura, ideal di midline 3 cm dari ubun-ubun kecil anterior/OA); cek tidak menjepit jaringan ibu; traksi searah sumbu jalan lahir saat kontraksi dan ibu mengejan; lepaskan antar kontraksi sesuai alat; hindari gerakan berlebihan; siap episiotomi/rujuk sesuai indikasi.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pascapersalinan: bayi menangis setelah stimulasi, APGAR 7/9; keringkan, hangatkan, kontak kulit; berikan uterotonik profilaksis (Oksitosin 10 IU IM dalam 1 menit pasca-bayi lahir); PTT setelah tanda pelepasan; inspeksi plasenta.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pengenalan PPH: estimasi darah 800-1000 mL; TTV memburuk (TD 96/60, nadi 116, akral dingin, pucat); evaluasi 4T secara simultan. INISIASI: PANGGIL BANTUAN.",
+          "sub": [
+            "Tone: uterus agak lembek, membaik dengan masase/uterotonik.",
+            "Trauma: tidak ada robekan besar; inspeksi jalan lahir negatif signifikan.",
+            "Tissue: plasenta TIDAK LENGKAP → penyebab utama.",
+            "Thrombin: koagulasi awal normal."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Resusitasi PPH: 2 jalur IV besar (≥18G), cairan kristaloid hangat, ambil sampel darah + crossmatch, berikan Oksitosin 20-40 IU dalam 500-1000 mL atau 10 IU IM intrauterine; pertimbangkan Asam Traneksamat (TXA) 1 g IV dalam 10 menit; kateter urin untuk monitoring output; TTV serial tiap 5-15 menit.",
+          "sub": [
+            "Tambahkan uterotonik alternatif bila tidak respon: Misoprostol 800-1000 mcg rektal/sublingual, atau Methylergometrin 0,2 mg IM (kontraindikasi hipertensi).",
+            "Kompres bimanual uterus (bimanual uterine compression) sebagai tindakan mekanik awal."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Tatalaksana tissue retained: eksplorasi manual atau kuretase pascapersalinan sesuai kewenangan dan fasilitas. Kuretase HANYA oleh operator terlatih dengan analgesia/anestesi, asepsis, monitoring perdarahan, antibiotik profilaksis sesuai PPK, atau rujuk emergensi jika fasilitas tidak mampu.",
+          "sub": [],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Komunikasi krisis: jelaskan singkat bahwa perdarahan harus ditangani cepat, minta persetujuan tindakan penyelamatan, libatkan keluarga untuk rujukan/donor darah.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pasca stabil: pantau 24 jam sesuai derajat PPH; Hb ulang setelah stabil, tanda infeksi, involusi uterus, laktasi, konseling kejadian, dan rencana kontrol.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi / Jangan Dilakukan",
+          "text": "JANGAN vakum tanpa syarat lengkap (pembukaan lengkap, ketuban pecah, kepala engaged, posisi, tidak ada CPD, consent, operator, kandung kemih kosong, akses SC). JANGAN lalai DJJ/kondisi ibu sebelum tindakan. JANGAN abaikan PPH — panggil bantuan dan resusitasi simultan. JANGAN kuretase tanpa stabilisasi, consent, asepsis, analgesia, atau operator/fasilitas mampu.",
+          "answer_evidence": "ACOG Operative Vaginal Delivery; WHO PPH guidelines"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_vakum_01", "gls_sken_vak_pph_03", "gls_sken_vak_kuretase_06", "gls_sken_vak_oksitosin_07", "gls_sken_vak_txa_08"],
+      "bilingual": ""
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi, Safety Net & Dokumentasi SOAP",
+      "summary": "Poin edukasi untuk pasien/keluarga, tanda bahaya yang harus disebutkan, dan contoh SOAP.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Contoh dokumentasi SOAP untuk skenario ini:\n\nS: G2P1A0 hamil 40 minggu inpartu kala II; kontraksi 10 jam, pembukaan lengkap 1,5-2 jam, mengejan efektif progres lambat. Pasien lelah dan khawatir. Anak pertama spontan 3200 g.\nO: TTV awal 116/74, 98, RR 22, SpO2 99%. DJJ 150, variabel cukup. Pemeriksaan dalam: pembukaan lengkap, ketuban pecah, kepala +2/+3, OAP, molding minimal, panggul klinis adekuat. Syarat vakum terpenuhi. Bayi lahir dengan vakum, APGAR 7/9. Plasenta TIDAK LENGKAP. Pasca-PPH: TD 96/60, nadi 116, akral dingin, pucat, perdarahan 800-1000 mL. Uterus membaik dengan uterotonik, robekan jalan lahir minor.\nA: Kala II lama dengan syarat vakum terpenuhi; PPH karena retensio/sisa plasenta. Pasca-evakuasi/kuretase (atau rujukan), ibu stabil.\nP: Resusitasi simultan (2 IV, kristaloid hangat, oksitosin 20-40 IU, TXA 1 g, kateter urin), kuretase pascapersalinan oleh SpOG atau rujuk PONEK, monitoring 24 jam, Hb serial, konseling kejadian, edukasi tanda bahaya.",
+          "tone": "clinical",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Edukasi pasca-tindakan: jelaskan bahwa persalinan dibantu vakum, bayi perlu observasi neonatal (riwayat caput, kemungkinan trauma), dan ibu perlu monitoring ketat 24 jam.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi menyusu: inisiasi menyusu dini, ASI eksklusif 6 bulan, posisi dan perlekatan, tangani puting lecet dengan benar.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Edukasi pemulihan: tablet besi, vitamin A, nutrisi kaya protein dan zat besi, istirahat cukup, mobilisasi bertahap, hindari kerja berat 6 minggu.",
+          "sub": [],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Safety net — kembali segera bila: perdarahan banyak dari jalan lahir (≥1 pembalut penuh/jam atau gumpalan besar).",
+          "sub": [
+            "Demam, menggigil, atau bau tidak enak dari lokia.",
+            "Nyeri perut makin berat, bengkak, atau keluar nanah dari luka/lokasi jahitan.",
+            "Sakit kepala hebat, pandangan kabur, kejang, atau tekanan darah tinggi.",
+            "Bayi kuning, lemas, tidak mau menyusu, atau suhu tidak stabil.",
+            "Inkontinensia urin/alvi atau sulit BAK/BAB."
+          ],
+          "bold": true,
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_pph_03", "gls_sken_vak_vakum_01"],
+      "bilingual": ""
+    },
+    {
+      "id": "s09",
+      "title": "Rubrik Penilaian 100 Poin",
+      "summary": "Checklist penilaian penuh 100 poin yang digunakan penguji — semua item wajib ada.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Total penilaian: 100 poin. Komponen utama: penilaian awal ibu-janin (10), diagnosis kala II lama (10), syarat/kontraindikasi vakum (16), teknik vakum aman (12), penilaian bayi dan kala III (8), pengenalan PPH (10), tatalaksana resusitasi PPH (14), identifikasi tissue/sisa plasenta (8), kuretase/rujukan aman (8), edukasi/komunikasi krisis (4). Skor proporsional; <60 = belum aman, 60-74 cukup, 75-84 baik, ≥85 sangat baik.",
+          "tone": "clinical",
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Penilaian awal ibu-janin (10 poin)",
+          "sub": [
+            "TTV, DJJ, kontraksi, status ibu, partograf (10/10).",
+            "Lupa partograf atau DJJ → potong 3-4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Diagnosis kala II lama (10 poin)",
+          "sub": [
+            "Mengenali kala II memanjang dan menyebut penyebab banding (10/10).",
+            "Tidak menyebut penyebab (his/CPD/malposisi) → potong 3-4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Syarat/kontraindikasi vakum (16 poin)",
+          "sub": [
+            "Pembukaan lengkap, ketuban pecah, kepala engaged, posisi diketahui, tidak CPD, consent, operator/fasilitas (16/16).",
+            "Lupa satu syarat utama → potong 4-6 poin; vakum tanpa syarat = critical error."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Teknik vakum aman (12 poin)",
+          "sub": [
+            "Cup di titik fleksi, cek jaringan, traksi searah, batas gagal, tidak memaksa (12/12).",
+            "Traksi kasar atau pop-off berulang → critical error, potong 8-10 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Penilaian bayi dan kala III (8 poin)",
+          "sub": [
+            "Penilaian bayi, uterotonik, PTT, plasenta lengkap (8/8).",
+            "Lupa uterotonik profilaksis atau tidak inspeksi plasenta → potong 4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Pengenalan PPH (10 poin)",
+          "sub": [
+            "Estimasi darah, TTV, kontraksi uterus, 4T (10/10).",
+            "Tidak menyebut evaluasi 4T → potong 4-6 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Tatalaksana resusitasi PPH (14 poin)",
+          "sub": [
+            "Panggil bantuan, IV, cairan, lab/crossmatch, uterotonik, monitor urine (14/14).",
+            "Lupa panggil bantuan atau uterotonik → potong 5-6 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Identifikasi tissue/sisa plasenta (8 poin)",
+          "sub": [
+            "Inspeksi plasenta, USG bila stabil, tidak hanya fokus atonia (8/8).",
+            "Hanya fokus atonia/trauma → potong 4 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Kuretase/rujukan aman (8 poin)",
+          "sub": [
+            "Menyebut kewenangan, asepsis, analgesia/anestesi, fasilitas mampu/rujuk (8/8).",
+            "Kuretase tanpa syarat → critical error, potong 6-8 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Edukasi dan komunikasi krisis (4 poin)",
+          "sub": [
+            "Menjelaskan keadaan, minta persetujuan, libatkan keluarga (4/4).",
+            "Hanya menyebut 1-2 aspek → potong 2 poin."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Cara Skoring",
+          "text": "Skor proporsional per item. Skor <60 = belum aman (perbaikan besar), 60-74 cukup, 75-84 baik, ≥85 sangat baik. Komponen syarat vakum, resusitasi PPH, dan teknik vakum total 42 poin — pelajari syarat/kontraindikasi vakum dan urutan resusitasi PPH dengan baik.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [],
+      "bilingual": ""
+    },
+    {
+      "id": "s10",
+      "title": "Critical Errors & Recovery Moves",
+      "summary": "Tindakan yang secara langsung menggugurkan nilai besar dan cara koreksinya.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Critical error dalam OSCE adalah tindakan atau kelalaian yang menyebabkan pemotongan nilai besar atau kegagalan stasiun. Kenali setiap critical error berikut dan pelajari cara menghindari atau memulihkannya.",
+          "tone": "narrative",
+          "source": "BLUEPRINT"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Critical Error 1: Melakukan vakum tanpa syarat dasar lengkap atau pada dugaan CPD.",
+          "sub": [
+            "Kenapa critical: Vakum pada CPD atau syarat tidak lengkap menyebabkan distosia, cedera kepala (cephalohematoma, perdarahan intrakranial), atau ruptura uteri.",
+            "Recovery move: Hentikan vakum bila pop-off, syarat tidak terpenuhi, atau progres tidak sesuai; panggil SC emergensi jika perlu."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 2: Tidak memantau DJJ/kondisi ibu sebelum tindakan.",
+          "sub": [
+            "Kenapa critical: DJJ adalah penanda kesejahteraan janin; tanpa monitoring, gawat janin tidak terdeteksi. TTV ibu juga menentukan kemampuan ibu menjalani vakum.",
+            "Recovery move: Pantau DJJ kontinu bila memungkinkan, atau tiap 5-15 menit; evaluasi TTV, his, dan kemajuan secara berkala."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 3: Mengabaikan perdarahan pascapersalinan dan tidak memanggil bantuan/resusitasi.",
+          "sub": [
+            "Kenapa critical: PPH adalah penyebab utama kematian ibu; setiap menit keterlambatan resusitasi meningkatkan morbiditas/mortalitas.",
+            "Recovery move: PANGGIL BANTUAN paling awal, mulai 2 jalur IV besar, cairan hangat, uterotonik sesuai protokol, dan identifikasi 4T simultan."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 4: Tidak memeriksa kelengkapan plasenta.",
+          "sub": [
+            "Kenapa critical: Sisa plasenta adalah penyebab utama PPH; tanpa inspeksi, sisa jaringan meningkatkan perdarahan berulang dan infeksi.",
+            "Recovery move: Inspeksi sistematis plasenta (permukaan maternal/fetal, selaput, tali pusat); pertimbangkan eksplorasi/kuretase atau rujukan emergensi."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        },
+        {
+          "text": "Critical Error 5: Melakukan kuretase tanpa stabilisasi, consent, asepsis, analgesia/anestesi, atau fasilitas/operator mampu.",
+          "sub": [
+            "Kenapa critical: Kuretase pada syok hipovolemik akan memperburuk morbiditas; tanpa asepsis/analgesia terjadi infeksi dan nyeri; tanpa operator mampu risiko perforasi uteri.",
+            "Recovery move: Stabilkan ibu dulu (resusitasi, uterotonik, darah), informed consent, lalu kuretase oleh SpOG/operator terlatih; bila tidak mampu, rujuk emergensi."
+          ],
+          "bold": true,
+          "source": "BLUEPRINT"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Error Paling Sering Dilakukan",
+          "text": "Lupa mengucapkan 'panggil bantuan' di awal PPH, dan lupa menyebut uterotonik profilaksis pasca-bayi lahir. Pada PPH, inisiasi respons (panggil bantuan) harus diucapkan paling awal — bukan di akhir. Error kedua: melakukan vakum tanpa menyebut satu pun syarat/kontraindikasi.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_vakum_01", "gls_sken_vak_pph_03", "gls_sken_vak_kuretase_06"],
+      "bilingual": ""
+    },
+    {
+      "id": "s11",
+      "title": "Naskah Lengkap Probandus, Panduan Penguji & Referensi",
+      "summary": "Seluruh naskah probandus, panduan penguji lengkap, dan referensi klinis yang mendasari soal.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Naskah pembuka probandus (Ny. Maya Putri, 31 tahun, G2P1A0, hamil 40 minggu, karyawan swasta): \"Dok, saya capek sekali. Dari tadi disuruh mengejan tapi bayinya belum lahir.\"\n\nRespons sesuai anamnesis (hanya bila ditanya dengan relevan):\n- Persalinan: kontraksi 10 jam, pembukaan lengkap 1,5-2 jam, mengejan efektif progres lambat.\n- Ketuban: pecah 3 jam lalu, jernih.\n- Gerak janin: sebelumnya baik; DJJ perlu monitoring.\n- Riwayat obstetri: anak pertama spontan 3200 g; tidak ada riwayat SC.\n- Penyakit: tidak ada hipertensi, DM, asma, penyakit jantung.\n- Alergi: tidak ada.\n- Setelah bayi lahir: pasien merasa darah keluar terus dan lemas. Pemeran menjadi pucat/cemas pada skenario PPH.\n\nSikap: lelah, takut operasi, butuh penjelasan pendek. Saat perdarahan, pemeran berubah menjadi pucat/cemas — respons membantu menilai inisiasi resusitasi peserta.",
+          "tone": "narrative",
+          "source": "FILE_PENDAMPING"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Panduan penguji:",
+          "sub": [
+            "Berikan TTV dan head-to-toe hanya bila peserta meminta parameter spesifik.",
+            "Berikan DJJ dan kontraksi hanya bila peserta meminta monitoring.",
+            "Berikan data kepala +2/+3 dan OAP hanya bila peserta meminta pemeriksaan dalam dengan indikasi.",
+            "Berikan syarat vakum terpenuhi; jangan sebutkan CPD atau syarat yang tidak terpenuhi tanpa indikasi.",
+            "Berikan APGAR bayi setelah peserta menyebut kelahiran; beri waktu untuk penilaian.",
+            "Pada skenario PPH, berikan data perburukan (TD 96/60, nadi 116) setelah peserta menyebut 'panggil bantuan' dan inisiasi resusitasi; bila peserta tidak menyebut, ingatkan 'ibu tampak makin pucat, TTV memburuk'.",
+            "Inspeksi plasenta TIDAK LENGKAP; bila peserta tidak menyebut, ingatkan 'perdarahan berlanjut, apakah plasenta sudah diperiksa?'.",
+            "Pada tindakan kuretase: ingatkan bahwa perlu operator terlatih dan fasilitas mampu; pada fasilitas tidak mampu, rujuk emergensi."
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Pertanyaan feedback setelah latihan:",
+          "sub": [
+            "Data apa yang paling menentukan diagnosis kerja?",
+            "Pemeriksaan/penunjang apa yang seharusnya diminta rutin pada kasus ini?",
+            "Red flag apa yang harus membuat peserta berhenti dan melakukan eskalasi/rujukan?",
+            "Apakah tindakan yang dipilih aman untuk kondisi pasien saat itu?",
+            "Apa edukasi paling penting yang harus dipahami pasien sebelum pulang/rujuk?"
+          ],
+          "bold": false,
+          "source": "FILE_PENDAMPING"
+        },
+        {
+          "text": "Referensi klinis:",
+          "sub": [
+            "Kementerian Kesehatan RI — Pedoman PONEK dan APN.",
+            "POGI — Pedoman Persalinan Lama dan Ekstraksi Vakum; Penatalaksanaan PPH.",
+            "American College of Obstetricians and Gynecologists (ACOG) — Operative Vaginal Delivery; Postpartum Hemorrhage Practice Bulletin.",
+            "Royal College of Obstetricians and Gynaecologists (RCOG) — Green-top Guideline on Operative Vaginal Delivery; Postpartum Hemorrhage.",
+            "WHO — WHO Recommendations for the Prevention and Treatment of Postpartum Haemorrhage (termasuk TXA dan AMTSL).",
+            "Modul OSCE 6.1 — Ekstraksi Vakum pada Kala II Lama; PPH karena Retensio/Sisa Plasenta; Kuretase Pascapersalinan."
+          ],
+          "bold": false,
+          "source": "BLUEPRINT + FILE_PENDAMPING"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "File Ini Rahasia",
+          "text": "Konten section ini hanya untuk pendamping/penguji. Jangan tampilkan kepada peserta sebelum performa stasiun selesai. Data objektif dan diagnosis kunci diberikan hanya bila peserta meminta spesifik.",
+          "answer_evidence": null
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": ["gls_sken_vak_vakum_01", "gls_sken_vak_kala_ii_02", "gls_sken_vak_pph_03", "gls_sken_vak_4t_04", "gls_sken_vak_retensio_05", "gls_sken_vak_kuretase_06", "gls_sken_vak_oksitosin_07", "gls_sken_vak_txa_08"],
+      "bilingual": ""
+    }
+  ]
+}

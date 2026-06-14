@@ -1,0 +1,16 @@
+{
+  "appName": "Cortex Skill Lab 6",
+  "appVersion": "1.0.0",
+  "theme": "neural",
+  "defaultLanguage": "id",
+  "features": {
+    "offline": true,
+    "pwa": true,
+    "analytics": false
+  },
+  "content": {
+    "totalModules": 40,
+    "domains": 6,
+    "visualAssets": 94
+  }
+}

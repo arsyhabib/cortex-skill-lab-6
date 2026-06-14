@@ -1,0 +1,1493 @@
+{
+  "id": "mod_neuro_skill_anamnesis_neurologi_001",
+  "title": "Anamnesis Kelainan Neurologi (Autoanamnesis, Alloanamnesis, Basic Seven, dan Clinical Reasoning)",
+  "subtitle": "Modul OSCE 6.3 — Skill anamnesis neurologi untuk membedakan defisit global, defisit fokal, nyeri kepala, vertigo, kejang, dan infeksi intrakranial",
+  "domain": "neuro_skill",
+  "batch_id": "batch_2",
+  "source_pdf": "Batch2_File3_Modul_OSCE_6_3_Anamnesis_Kelainan_Neurologi.txt",
+  "source_filename": "Batch2_File3_Modul_OSCE_6_3_Anamnesis_Kelainan_Neurologi.txt",
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "anamnesis_neurologis",
+    "kelainan_sistem_saraf",
+    "nyeri_kepala",
+    "kelemahan_fokal",
+    "kejang",
+    "vertigo",
+    "pola_onset_neuro",
+    "socrates_neuro"
+  ],
+  "summary": [
+    "Anamnesis menentukan 80% diagnosis neurologis — kemampuan menggali Basic Seven + Fundamental Four dengan bahasa awam jauh lebih bernilai daripada hafalan terminologi.",
+    "Fundamental Four = keluhan utama/RPS, riwayat dahulu, riwayat keluarga, riwayat kebiasaan-sosial-ekonomi; Basic Seven untuk RPS = onset, lokasi, kronologis, kualitas/severitas, kuantitas, faktor memperberat/memperingan, gejala penyerta.",
+    "Pilih jenis anamnesis: autoanamnesis untuk pasien sadar dan kooperatif (migren, BPPV); alloanamnesis untuk pasien tidak sadar, gaduh, anak kecil, atau kondisi emergensi (stroke, meningitis).",
+    "AIUEO TIPS WAJIB pada penurunan kesadaran: Alkohol/Acidosis, Insulin/infeksi, Uremia, Epilepsi/elektrolit, Opiat/overdose, Trauma, Infeksi, Psikiatri/poisoning, Stroke/sepsis — ini membantu klasifikasi toksik-metabolik.",
+    "Pola onset adalah kunci neurologi: apoplektik/mendadak (vaskular/kejang), subakut (inflamasi/infeksi/tumor), kronik-progresif (degeneratif/kompresi).",
+    "Defisit neurologis dikelompokkan menjadi 5: global, fokal motorik, fokal sensorik, nervus kranialis, vertigo/koordinasi, fungsi luhur — ini mempercepat lokalisasi lesi dan pemilihan pemeriksaan penunjang.",
+    "Selalu tanya waktu terakhir terlihat normal (TLKW) pada pasien tidak sadar (alloanamnesis) untuk membantu window terapi stroke (4.5 jam untuk trombolisis rt-PA).",
+    "Checklist 9 aspek prioritas harus dipenuhi: salam, identitas, keluhan utama, RPS + Basic Seven, RPD + pengobatan, RKK, kebiasaan-sosial-ekonomi, rangkuman, penutupan (skor maksimal 18 poin)."
+  ],
+  "exam_focus": [
+    "Kemampuan memilih jenis anamnesis (autoanamnesis vs alloanamnesis) berdasarkan skenario dalam 30 detik pertama.",
+    "Skrining red flags sebelum terlalu dalam ke keluhan utama: penurunan kesadaran, kejang, demam, trauma, nyeri kepala mendadak terhebat, defisit fokal, gangguan bicara/menelan, muntah proyektil.",
+    "Penggalian TLKW (Time Last Known Well) pada pasien tidak sadar — krusial untuk window terapi stroke iskemik akut.",
+    "Penggunaan AIUEO TIPS untuk klasifikasi toksik-metabolik pada penurunan kesadaran.",
+    "Penggunaan SNOOP untuk skrining nyeri kepala sekunder: Sudden, Neurologic, Older age, Onset pregnancy, Pattern change.",
+    "Penggalian Basic Seven sesuai keluhan (5 template: kesadaran, nyeri kepala, vertigo, kejang, nyeri punggung) dan Fundamental Four (RPD, RKK, sosial-ekonomi).",
+    "Rangkuman 30 detik ke penguji dengan format: 'Pasien X usia Y, dengan keluhan Z sejak K, disertai L, dengan riwayat M → kesan awal N, rencana O'.",
+    "Penentuan diagnosis kerja + diagnosis banding per skenario dan klasifikasi defisit ke 5 kelompok.",
+    "Kode ICD-10 untuk diagnosis utama: I63.9 (stroke iskemik), I61.9 (stroke perdarahan), G43.0 (migren), H81.1 (BPPV), A17.0 (meningitis TB), G41.9 (status epileptikus).",
+    "Pemetaan SKDI 4A untuk anamnesis neurologi: Tension-type headache, Migren, BPPV, Bell's palsy, Tetanus, HIV/AIDS tanpa komplikasi, Gangguan somatoform, Insomnia."
+  ],
+  "glossary": [
+    {
+      "id": "gls_anamnesis_autoanamnesis_01",
+      "term": "Autoanamnesis",
+      "def": "Wawancara medis yang dilakukan langsung dengan pasien (bukan dengan keluarga/pengantar) untuk menggali keluhan utama, riwayat penyakit, dan informasi klinis lainnya. Memerlukan pasien yang sadar, kooperatif, dan mampu menceritakan kronologis penyakitnya secara koheren.",
+      "type": "procedure",
+      "aliases": [
+        "self-reported history",
+        "direct history taking",
+        "self-history"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_alloanamnesis_02",
+      "term": "Alloanamnesis",
+      "def": "Wawancara medis yang dilakukan dengan orang lain (keluarga, pengantar, saksi mata) karena pasien tidak mampu memberikan informasi secara langsung — biasanya karena penurunan kesadaran, gaduh gelisah, anak kecil, atau gangguan komunikasi.",
+      "type": "procedure",
+      "aliases": [
+        "collateral history",
+        "informant history",
+        "third-party history"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_fundamental_four_03",
+      "term": "Fundamental Four",
+      "def": "Empat komponen utama anamnesis medis: (1) Keluhan utama/Riwayat Penyakit Sekarang (RPS), (2) Riwayat Penyakit Dahulu (RPD), (3) Riwayat Keluarga (RKK), dan (4) Riwayat Kebiasaan-Sosial-Ekonomi. Dalam neurologi, RPS dieksplorasi dengan Basic Seven.",
+      "type": "procedure",
+      "aliases": [
+        "4 komponen anamnesis",
+        "RPS, RPD, RKK, sosial-ekonomi"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_basic_seven_04",
+      "term": "Basic Seven",
+      "def": "Tujuh aspek riwayat penyakit sekarang (RPS) untuk setiap keluhan neurologis: Onset (mendadak vs gradual), Lokasi dan distribusi, Kronologi, Kualitas dan severitas, Kuantitas (frekuensi, durasi), Faktor pemicu/peringan, dan Gejala penyerta. Disebut juga LLQQSTER atau OPQRST dalam literatur lain.",
+      "type": "procedure",
+      "aliases": [
+        "LLQQSTER",
+        "OPQRST",
+        "7 aspek keluhan"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_tlkw_05",
+      "term": "Time Last Known Well (TLKW)",
+      "def": "Waktu terakhir kali pasien terlihat dalam kondisi normal/sehat oleh saksi mata (keluarga, rekan kerja, atau orang yang mengenal pasien). Kritis pada pasien stroke akut untuk menentukan window terapi trombolisis (4.5 jam untuk rt-PA, 24 jam untuk thrombectomy).",
+      "type": "score",
+      "aliases": [
+        "waktu terakhir terlihat normal",
+        "last known well"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_aiueo_tips_06",
+      "term": "AIUEO TIPS",
+      "def": "Mnemonic untuk klasifikasi diagnosis banding penurunan kesadaran toksik-metabolik: A (Alkohol/Acidosis), I (Insulin/Infeksi), U (Uremia), E (Epilepsi/Elektrolit), O (Opiat/Overdose), T (Trauma), I (Infeksi), P (Psikiatri/Poisoning), S (Stroke/Sepsis). Sangat berguna dalam anamnesis pasien tidak sadar.",
+      "type": "score",
+      "aliases": [
+        "AIUEO TIPS mnemonic",
+        "mnemonic penurunan kesadaran"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_snoop_07",
+      "term": "SNOOP",
+      "def": "Mnemonic untuk red flags nyeri kepala sekunder: S (Sudden onset seperti petir — curiga SAH), N (Neurologic deficit — curiga stroke), O (Older age >50 tahun onset baru — curiga tumor/arteritis), O (Onset baru saat kehamilan/nifas — curiga CVT/eclampsia), P (Pattern change/Positional — curiga peningkatan TIK/hipotensi intrakranial).",
+      "type": "score",
+      "aliases": [
+        "SNOOP red flags",
+        "mnemonic nyeri kepala sekunder"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_defisit_global_08",
+      "term": "Defisit Neurologis Global",
+      "def": "Gangguan neurologis yang melibatkan otak luas, bilateral, atau sistemik — bermanifestasi sebagai penurunan kesadaran, delirium, kejang umum, nyeri kepala difus, atau demensia. Penyebab: metabolik, infeksi sistemik, hipoksia, toksik, peningkatan TIK.",
+      "type": "clinical",
+      "aliases": [
+        "defisit global",
+        "global neurological deficit"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_defisit_fokal_09",
+      "term": "Defisit Neurologis Fokal",
+      "def": "Gangguan neurologis yang terbatas pada area tertentu otak atau medula spinalis — bermanifestasi sebagai hemiparesis, defisit sensorik satu sisi, gangguan nervus kranialis, atau afasia. Penyebab: stroke, tumor, abses, lesi demielinasi.",
+      "type": "clinical",
+      "aliases": [
+        "defisit fokal",
+        "focal neurological deficit",
+        "focal neurological sign"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_bells_palsy_10",
+      "term": "Bell's Palsy",
+      "def": "Parese fasialis perifer akut (N. VII) yang menyebabkan kelemahan satu sisi wajah, termasuk kelopak mata yang tidak dapat menutup dan sudut mulut yang turun. Diagnosis banding utama adalah stroke (yang menyebabkan fasialis sentral — dahi masih bisa bergerak).",
+      "type": "clinical",
+      "aliases": [
+        "parese N. VII perifer",
+        "Bell palsy",
+        "facial nerve palsy"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_bppv_11",
+      "term": "BPPV (Benign Paroxysmal Positional Vertigo)",
+      "def": "Vertigo perifer singkat (<5 menit) yang dipicu perubahan posisi kepala, disebabkan oleh debris otokonia di kanalis semisirkularis (paling sering kanal posterior). Diagnosis dengan Dix-Hallpike maneuver, tatalaksana dengan Epley maneuver.",
+      "type": "clinical",
+      "aliases": [
+        "BPPV",
+        "vertigo posisi paroksismal jinak",
+        "positional vertigo"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_tth_12",
+      "term": "Tension-Type Headache (TTH)",
+      "def": "Nyeri kepala primer bilateral seperti diikat, tanpa red flags neurologis, tidak berdenyut, intensitas ringan-sedang, tidak memberat dengan aktivitas rutin. Diagnosis eksklusi setelah menyingkirkan nyeri kepala sekunder.",
+      "type": "clinical",
+      "aliases": [
+        "nyeri kepala tegang",
+        "tension headache",
+        "TTH"
+      ]
+    },
+    {
+      "id": "gls_anamnesis_red_flags_13",
+      "term": "Red Flags Neurologis",
+      "def": "Tanda bahaya yang membutuhkan rujukan emergensi pada keluhan neurologis: penurunan kesadaran (GCS <15), kejang >5 menit, demam + gejala neurologis, trauma kepala baru, nyeri kepala mendadak terhebat (thunderclap), defisit fokal, gangguan bicara/menelan, muntah proyektil.",
+      "type": "clinical",
+      "aliases": [
+        "tanda bahaya neurologis",
+        "red flag signs"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_anamnesis_neuro_01",
+      "term_id": "Anamnesis",
+      "term_en": "History Taking",
+      "context": "Proses wawancara medis untuk menggali keluhan, riwayat penyakit, dan informasi klinis lainnya dari pasien atau keluarga. Dalam OSCE, anamnesis menentukan 80% diagnosis."
+    },
+    {
+      "id": "bil_anamnesis_neuro_02",
+      "term_id": "Autoanamnesis",
+      "term_en": "Self-reported History",
+      "context": "Wawancara langsung dengan pasien. Lawan: alloanamnesis."
+    },
+    {
+      "id": "bil_anamnesis_neuro_03",
+      "term_id": "Alloanamnesis",
+      "term_en": "Collateral History",
+      "context": "Wawancara dengan keluarga/pengantar. Lawan: autoanamnesis."
+    },
+    {
+      "id": "bil_anamnesis_neuro_04",
+      "term_id": "Defisit neurologis",
+      "term_en": "Neurological Deficit",
+      "context": "Gangguan fungsi neurologis yang terdeteksi pada pemeriksaan atau anamnesis, misalnya hemiparesis, baal satu sisi, afasia. Sinonim: neurological impairment, focal neurological sign."
+    },
+    {
+      "id": "bil_anamnesis_neuro_05",
+      "term_id": "Riwayat Penyakit Sekarang (RPS)",
+      "term_en": "History of Present Illness (HPI)",
+      "context": "Kronologi keluhan utama pasien dari onset sampai sekarang. Dalam modul ini dieksplorasi dengan Basic Seven."
+    },
+    {
+      "id": "bil_anamnesis_neuro_06",
+      "term_id": "Riwayat Penyakit Dahulu (RPD)",
+      "term_en": "Past Medical History (PMH)",
+      "context": "Penyakit yang pernah diderita, obat rutin, riwayat operasi, alergi. Pada neurologi: hipertensi, DM, jantung, TBC, HIV, stroke, kejang."
+    },
+    {
+      "id": "bil_anamnesis_neuro_07",
+      "term_id": "Riwayat Keluarga (RKK)",
+      "term_en": "Family History (FH)",
+      "context": "Penyakit yang diderita keluarga dekat, terutama yang memiliki komponen genetik seperti stroke muda, migren, epilepsi, Parkinson, ALS, TBC."
+    },
+    {
+      "id": "bil_anamnesis_neuro_08",
+      "term_id": "Kesadaran",
+      "term_en": "Consciousness / Level of Consciousness",
+      "context": "Derajat responsivitas pasien, dinilai dengan GCS (Glasgow Coma Scale) E4V5M6 = 15 (normal). Penurunan kesadaran = red flag emergensi."
+    },
+    {
+      "id": "bil_anamnesis_neuro_09",
+      "term_id": "Tanda Rangsang Meningeal (TRM)",
+      "term_en": "Meningeal Signs",
+      "context": "Sekelompok manuver pemeriksaan (Kaku Kuduk, Kernig, Brudzinski I/II) untuk mendeteksi iritasi meningeal. Positif pada meningitis, SAH, ensefalitis."
+    },
+    {
+      "id": "bil_anamnesis_neuro_10",
+      "term_id": "Stroke",
+      "term_en": "Cerebrovascular Accident (CVA)",
+      "context": "Gangguan neurologis akut akibat perdarahan atau iskemia serebral. Window terapi trombolisis 4.5 jam dari TLKW."
+    },
+    {
+      "id": "bil_anamnesis_neuro_11",
+      "term_id": "Migren",
+      "term_en": "Migraine",
+      "context": "Nyeri kepala primer berulang unilateral berdenyut, dengan mual/fotofobia, durasi 4-72 jam. Klasifikasi: dengan aura (G43.1) atau tanpa aura (G43.0)."
+    },
+    {
+      "id": "bil_anamnesis_neuro_12",
+      "term_id": "BPPV",
+      "term_en": "Benign Paroxysmal Positional Vertigo",
+      "context": "Vertigo perifer singkat <5 menit dipicu perubahan posisi kepala. Tatalaksana: manuver Epley."
+    },
+    {
+      "id": "bil_anamnesis_neuro_13",
+      "term_id": "Status epileptikus",
+      "term_en": "Status Epilepticus",
+      "context": "Kejang persisten >5 menit atau berulang tanpa pulih sadar di antara serangan. Emergensi neurologis."
+    },
+    {
+      "id": "bil_anamnesis_neuro_14",
+      "term_id": "Meningitis",
+      "term_en": "Meningitis",
+      "context": "Infeksi selaput otak (meninges) oleh bakteri, virus, jamur, atau TBC. Trias: demam + kaku kuduk + penurunan kesadaran. Antibiotik empirik dalam 1 jam."
+    },
+    {
+      "id": "bil_anamnesis_neuro_15",
+      "term_id": "Kode ICD-10",
+      "term_en": "ICD-10 Code",
+      "context": "Kode diagnosis dari International Classification of Diseases versi 10. Contoh: I63.9 (stroke iskemik), G43.0 (migren tanpa aura), A17.0 (meningitis TB)."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_anamnesis_algoritma_keputusan_01",
+      "module_id": "mod_neuro_skill_anamnesis_neurologi_001",
+      "section_id": "s01",
+      "type": "flowchart",
+      "generation_prompt": "Buat diagram pohon keputusan (flowchart) untuk memilih autoanamnesis vs alloanamnesis. Kotak keputusan: Pasien sadar? → Ya → Kooperatif? → Ya → Autoanamnesis. → Tidak → Alloanamnesis. Pasien tidak sadar? → Alloanamnesis ke keluarga/pengantar. Anak <5 tahun? → Alloanamnesis ke orang tua. Warna berbeda untuk masing-masing jalur. Bahasa Indonesia.",
+      "alt": "Diagram pohon keputusan algoritma pemilihan autoanamnesis atau alloanamnesis berdasarkan kesadaran, kooperatif, dan usia pasien untuk anamnesis neurologi.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_anamnesis_neurologi_001/assets/algoritma_keputusan.png"
+    },
+    {
+      "id": "visual_anamnesis_basic_seven_infografis_01",
+      "module_id": "mod_neuro_skill_anamnesis_neurologi_001",
+      "section_id": "s03",
+      "type": "illustration",
+      "generation_prompt": "Buat infografis berisi 7 aspek Basic Seven (Onset, Lokasi, Kronologi, Kualitas, Kuantitas, Faktor pemicu/peringan, Gejala penyerta) dengan ikon berbeda untuk masing-masing aspek. Tambahkan contoh pertanyaan dalam bahasa Indonesia. Layout melingkar atau grid 2x4. Warna pastel medis.",
+      "alt": "Infografis tujuh aspek Basic Seven untuk anamnesis neurologi: onset, lokasi, kronologi, kualitas, kuantitas, faktor pemicu/peringan, gejala penyerta dengan contoh pertanyaan.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_anamnesis_neurologi_001/assets/basic_seven_infografis.png"
+    },
+    {
+      "id": "visual_anamnesis_aiueo_tips_poster_01",
+      "module_id": "mod_neuro_skill_anamnesis_neurologi_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Buat poster mnemonic AIUEO TIPS dengan layout vertikal. Setiap huruf A-I-U-E-O-T-I-P-S di-highlight dengan warna berbeda, diikuti病因 (penyebab) untuk masing-masing: A = Alkohol/Acidosis, I = Insulin/Infeksi, U = Uremia, E = Epilepsi/Elektrolit, O = Opiat/Overdose, T = Trauma, I = Infeksi, P = Psikiatri/Poisoning, S = Stroke/Sepsis. Background putih, font besar, ikon medis sesuai. Bahasa Indonesia.",
+      "alt": "Poster mnemonic AIUEO TIPS untuk klasifikasi toksik-metabolik pada penurunan kesadaran dengan 9 huruf dan etiologi terkait.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_anamnesis_neurologi_001/assets/aiueo_tips_poster.png"
+    },
+    {
+      "id": "visual_anamnesis_snoop_red_flags_01",
+      "module_id": "mod_neuro_skill_anamnesis_neurologi_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Buat poster SNOOP dengan layout 5 kotak horizontal. S = Sudden onset (thunderclap) → curiga SAH. N = Neurologic deficit → curiga stroke. O = Older age >50 → curiga tumor/arteritis. O = Onset pregnancy/puerperium → curiga CVT/eclampsia. P = Pattern change/Positional → curiga peningkatan TIK. Background putih, ikon medis sesuai. Bahasa Indonesia.",
+      "alt": "Poster SNOOP untuk red flags nyeri kepala sekunder: Sudden onset, Neurologic deficit, Older age, Onset pregnancy, Pattern change/Positional.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_anamnesis_neurologi_001/assets/snoop_red_flags.png"
+    },
+    {
+      "id": "visual_anamnesis_vertigo_perifer_sentral_01",
+      "module_id": "mod_neuro_skill_anamnesis_neurologi_001",
+      "section_id": "s04",
+      "type": "diagram",
+      "generation_prompt": "Buat diagram dua kolom. Kolom kiri: BPPV Perifer (durasi detik-menit, pemicu posisi, nistagmus unidirectional, gejala telinga mungkin, defisit neurologis tidak ada). Kolom kanan: Stroke Posterior Sentral (durasi jam-hari persisten, spontan, nistagmus bidirectional, defisit neurologis: diplopia/disartria/hemiparesis, faktor risiko vaskular). Layout side-by-side dengan perbedaan warna. Bahasa Indonesia.",
+      "alt": "Diagram dua kolom pembedaan vertigo perifer (BPPV) versus vertigo sentral (stroke posterior) berdasarkan durasi, pemicu, nistagmus, defisit neurologis, dan faktor risiko.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_anamnesis_neurologi_001/assets/vertigo_perifer_sentral.png"
+    },
+    {
+      "id": "visual_anamnesis_basic_seven_map_01",
+      "module_id": "mod_neuro_skill_anamnesis_neurologi_001",
+      "section_id": "s03",
+      "type": "diagram",
+      "generation_prompt": "Buat mind map dengan pusat 'Basic Seven' dan 7 cabang (Onset, Lokasi, Kronologi, Kualitas, Kuantitas, Faktor, Gejala penyerta). Setiap cabang memiliki 3 sub-cabang contoh: (1) Sakit kepala, (2) Vertigo, (3) Kejang. Warna berbeda untuk masing-masing keluhan. Bahasa Indonesia.",
+      "alt": "Mind map Basic Seven untuk anamnesis neurologi dengan 7 cabang utama dan contoh penerapan untuk 3 keluhan: sakit kepala, vertigo, dan kejang.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_anamnesis_neurologi_001/assets/basic_seven_map.png"
+    },
+    {
+      "id": "visual_anamnesis_timeline_stroke_01",
+      "module_id": "mod_neuro_skill_anamnesis_neurologi_001",
+      "section_id": "s04",
+      "type": "diagram",
+      "generation_prompt": "Buat infografis timeline stroke/penurunan kesadaran: keluarga menjelaskan waktu terakhir normal, onset nyeri kepala, muntah, kelemahan kanan, tidak sadar; timeline horizontal; bahasa Indonesia.",
+      "alt": "Infografis timeline stroke/penurunan kesadaran: TLKW, onset nyeri kepala, muntah, kelemahan kanan, tidak sadar dalam format timeline horizontal.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_anamnesis_neurologi_001/assets/timeline_stroke.png"
+    },
+    {
+      "id": "visual_anamnesis_kejang_witness_01",
+      "module_id": "mod_neuro_skill_anamnesis_neurologi_001",
+      "section_id": "s04",
+      "type": "illustration",
+      "generation_prompt": "Buat ilustrasi saksi mata kejang: awal, gerakan, durasi, mata, lidah, urine, fase pascaiktal; checklist anamnesis. Bahasa Indonesia.",
+      "alt": "Ilustrasi checklist anamnesis saksi mata kejang: awal, gerakan, durasi, mata, lidah, urine, fase pascaiktal.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_anamnesis_neurologi_001/assets/kejang_witness.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s03",
+      "type": "content",
+      "source_query": "AIUEO TIPS untuk klasifikasi toksik-metabolik pada pasien tidak sadar",
+      "source_reference": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + literatur pendidikan kedokteran darurat",
+      "confidence": "high",
+      "note": "Tambahan penjelasan AIUEO TIPS untuk klasifikasi toksik-metabolik pada pasien tidak sadar; bukan dari dokumen asli, tetapi dari mnemonic yang banyak diadopsi dalam pendidikan kedokteran darurat."
+    },
+    {
+      "section_id": "s04",
+      "type": "content",
+      "source_query": "Pertanyaan spesifik untuk 5 keluhan neurologis utama",
+      "source_reference": "Tabel 6-10 asli + PROMPT_DOMAIN3_NeuroPsiki_S2.md",
+      "confidence": "high",
+      "note": "Tambahan pertanyaan spesifik untuk 5 keluhan neurologis utama (kesadaran, nyeri kepala, vertigo, kejang, nyeri punggung) yang disusun berdasarkan dokumen asli Tabel 6-10."
+    },
+    {
+      "section_id": "s05",
+      "type": "content",
+      "source_query": "Prosedur anamnesis 3 fase (persiapan, pelaksanaan, evaluasi)",
+      "source_reference": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + Script OSCE Umum asli",
+      "confidence": "medium",
+      "note": "Tambahan prosedur anamnesis 3 fase (persiapan, pelaksanaan, evaluasi) yang disusun dari dokumen asli Script OSCE Umum."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Diagnosis banding per skenario dan tabel pembedaan vertigo perifer vs sentral",
+      "source_reference": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + literatur neurologi",
+      "confidence": "high",
+      "note": "Tambahan tabel diagnosis banding per skenario dan tabel pembedaan vertigo perifer vs sentral, nyeri kepala primer vs sekunder."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Pemeriksaan penunjang awal dan prinsip tatalaksana awal",
+      "source_reference": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + AHA/ASA Guidelines 2019 + IDSA",
+      "confidence": "high",
+      "note": "Tambahan pemeriksaan penunjang awal (GDS, CT scan, MRI, LP) dan prinsip tatalaksana awal. Window terapi stroke 4.5 jam dari referensi AHA/ASA 2019."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Contoh SOAP untuk 4 skenario dengan kode ICD-10",
+      "source_reference": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + ICD-10 WHO",
+      "confidence": "high",
+      "note": "Tambahan contoh SOAP untuk 4 skenario dengan kode ICD-10 (I63.9, G43.0, H81.1, A17.0)."
+    },
+    {
+      "section_id": "s09",
+      "type": "table",
+      "source_query": "Tabel SKDI 4A dan kode ICD-10 untuk 4 skenario",
+      "source_reference": "Tabel 12 asli + PROMPT_DOMAIN3_NeuroPsiki_S2.md + KKI",
+      "confidence": "high",
+      "note": "Tabel SKDI 4A yang diambil langsung dari Tabel 12 asli, dengan tambahan kode ICD-10 untuk 4 skenario."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "Mini-skrip dialog anamnesis neurologi yang siap ucap",
+      "source_reference": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + referensi klinis",
+      "confidence": "high",
+      "note": "Mini-skrip dialog anamnesis neurologi yang siap ucap untuk 4 skenario, disusun dari dokumen asli + referensi klinis."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Rencana belajar 3 hari dan checklist latihan mandiri",
+      "source_reference": "PROMPT_MASTER_STAGE1 + penyesuaian topik anamnesis neurologi",
+      "confidence": "high",
+      "note": "Rencana belajar 3 hari dan checklist latihan mandiri yang disusun dari PROMPT_MASTER_STAGE1 + penyesuaian topik anamnesis neurologi."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Visual asset requirements dan video rujukan",
+      "source_reference": "Tabel 15-16 asli + PROMPT_DOMAIN3_NeuroPsiki_S2.md",
+      "confidence": "high",
+      "note": "Visual asset requirements dengan deskripsi prompt AI yang diambil dari Tabel 15 asli dan dilengkapi dengan deskripsi lebih detail untuk 8 visual. Video rujukan dari Tabel 16 asli."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber, 4 skenario fiktif konsisten (Tn. Hendra stroke, Nn. Sari migren, Tn. Andi BPPV, An. Rina meningitis TB), dan komponen yang dinilai di station OSCE anamnesis neurologi.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "File sumber modul ini adalah 'Modul OSCE 6.3 — Anamnesis Kelainan Neurologi', File 3 Batch 2, Blok 6.3 OSCE — Ilmu Penyakit Neurologi dan Psikiatri. Peta isi file sumber mencakup 10 seksi utama dan 16 tabel yang harus dipertahankan utuh: (1) Skenario sumber, (2) Kerangka besar anamnesis neurologi, (3) Defisit neurologis, (4) Script OSCE umum, (5) Pertanyaan spesifik berdasarkan keluhan, (6) Checklist OSCE 9 aspek, (7) Pemetaan penyakit SKDI 4A, (8) Template rangkuman ke penguji, (9) Visual/gambar pendukung, (10) Latihan cepat 3 hari. Total estimasi word count dokumen asli adalah ~1.838 kata.",
+          "tone": "narrative",
+          "source": "§1 asli (Skenario sumber)"
+        },
+        {
+          "text": "Empat skenario fiktif digunakan konsisten di seluruh modul untuk melatih transisi dari anamnesis ke arah diagnosis. Skenario 1: Tn. Hendra, 58 tahun, penurunan kesadaran mendadak, nyeri kepala, muntah, hemiparesis kanan, riwayat hipertensi tidak terkontrol → alloanamnesis → curiga stroke perdarahan/iskemik, perdarahan subarakhnoid, peningkatan TIK, ensefalopati hipertensi; ABC dan rujukan emergensi. Skenario 2: Nn. Sari, 26 tahun, nyeri kepala kanan berdenyut, memberat dengan aktivitas/suara, berulang, riwayat keluarga → autoanamnesis → curiga migren; tetap skrining red flags nyeri kepala sekunder. Skenario 3: Tn. Andi, 35 tahun, pusing berputar singkat <5 menit dipicu miring ke kanan/bangun tidur, mual muntah → autoanamnesis → curiga BPPV/vertigo perifer; skrining red flags stroke posterior. Skenario 4: An. Rina, 12 tahun, kejang lama >30 menit, penurunan kesadaran bertahap, nyeri kepala-demam 2 minggu, riwayat TBC putus obat, kaku kuduk positif → alloanamnesis → curiga status epileptikus pascakejang, meningitis/meningoensefalitis/TB meningitis; emergensi.",
+          "tone": "narrative",
+          "source": "§1 asli (Skenario sumber)"
+        },
+        {
+          "text": "Target OSCE station anamnesis neurologi adalah kemampuan melakukan wawancara terstruktur (autoanamnesis/alloanamnesis) yang menghasilkan diagnosis kerja dan rencana pemeriksaan/tindakan. Komponen yang paling sering dinilai penguji adalah: (a) komunikasi pembuka (salam, identitas, izin, penjelasan tujuan), (b) kemampuan memilih jenis anamnesis yang tepat, (c) penggalian Basic Seven secara sistematis, (d) kemampuan menggali red flags sebelum terlalu dalam ke keluhan utama, (e) riwayat dahulu/keluarga/kebiasaan-sosial-ekonomi, (f) rangkuman akhir yang dikonfirmasi ke pasien/keluarga, dan (g) penutupan profesional. Pada pasien tidak sadar (Skenario 1 dan 4), alloanamnesis adalah sumber informasi utama, dan kemampuan menanyakan waktu terakhir terlihat normal sangat bernilai untuk keputusan window terapi stroke.",
+          "tone": "narrative",
+          "source": "§2 asli (Kerangka besar anamnesis neurologi)"
+        },
+        {
+          "text": "Mahasiswa harus menyadari bahwa anamnesis neurologi berbeda dari anamnesis umum: penekanan pada onset mendadak vs gradual, distribusi unilateral vs bilateral, gejala penyerta sistemik (demam, muntah, penurunan BB), dan faktor risiko vaskular (hipertensi, DM, dislipidemia, jantung, merokok). Pada station OSCE, penguji ingin melihat kemampuan mengklasifikasikan keluhan ke dalam salah satu dari 5 kelompok defisit neurologis (global, fokal motorik, fokal sensorik, nervus kranialis, vertigo/koordinasi, fungsi luhur) sebelum memutuskan pemeriksaan penunjang.",
+          "tone": "narrative",
+          "source": "§3 asli (Defisit neurologis)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE station anamnesis neurologi:",
+          "sub": [
+            "Komunikasi pembuka: salam, perkenalan, konfirmasi identitas, penjelasan tujuan, izin",
+            "Pemilihan jenis anamnesis: autoanamnesis (pasien sadar, kooperatif) vs alloanamnesis (pasien tidak sadar, gaduh, anak)",
+            "Penggalian Basic Seven untuk keluhan utama: onset, lokasi, kronologi, kualitas, kuantitas, faktor pemicu/peringan, gejala penyerta",
+            "Skrining red flags sebelum terlalu detail: penurunan kesadaran, kejang, demam, trauma, nyeri kepala mendadak terhebat, defisit fokal, gangguan bicara/menelan, muntah proyektil",
+            "Riwayat dahulu (RPD): hipertensi, DM, dislipidemia, jantung, TBC, HIV, kanker, trauma, operasi, kejang, stroke, obat rutin dan kepatuhan",
+            "Riwayat keluarga (RKK): stroke muda, migren, epilepsi, Parkinson, ALS, penyakit neuromuskular, TBC/infeksi kontak",
+            "Kebiasaan-sosial-ekonomi: merokok, alkohol, NAPZA, tidur, pola makan, olahraga, pekerjaan, paparan toksin, aktivitas seksual berisiko",
+            "Rangkuman dengan bahasa awam dan konfirmasi ke pasien/keluarga",
+            "Penutupan profesional: terima kasih, jelaskan langkah selanjutnya"
+          ],
+          "bold": true,
+          "source": "§2 asli (Kerangka besar anamnesis neurologi)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi 3 Hari Sebelum OSCE",
+          "text": "Strategi membaca modul ini 3 hari sebelum OSCE: hari pertama pahami 4 skenario dan arah diagnosis, hari kedua latih script OSCE umum dan pertanyaan spesifik per keluhan, hari ketiga simulasi penuh dengan peer-asessor menggunakan checklist 9 aspek.",
+          "answer_evidence": "Modul Anamnesis Neurologi OSCE 6.3 — Latihan cepat 3 hari"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "BUKA Red Flags Dulu, BARU Basic Seven",
+          "text": "Tip paling penting untuk station anamnesis neurologi: BUKA dengan skrining red flags, BARU gali Basic Seven. Banyak mahasiswa menghabiskan 4 menit untuk keluhan utama dan lupa bahwa penurunan kesadaran atau defisit fokal butuh rujukan emergensi, bukan anamnesis mendalam.",
+          "answer_evidence": "Modul Anamnesis Neurologi OSCE 6.3"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Standar OSCE Nasional",
+          "text": "Modul ini mengikuti standar OSCE nasional yang menggabungkan Fundamental Four (komponen anamnesis klasik: keluhan utama, RPD, RKK, sosial-ekonomi) dan Basic Seven (kerangka LLQQSTER/OPQRST yang lazim dalam pendidikan kedokteran modern).",
+          "answer_evidence": "Bickley LS, Szilagyi PG. Bates' Guide to Physical Examination and History Taking. 13th ed. 2021."
+        }
+      ],
+      "visual_refs": [
+        "visual_anamnesis_algoritma_keputusan_01"
+      ],
+      "glossary_refs": [
+        "gls_anamnesis_autoanamnesis_01",
+        "gls_anamnesis_alloanamnesis_02",
+        "gls_anamnesis_fundamental_four_03",
+        "gls_anamnesis_basic_seven_04",
+        "gls_anamnesis_tlkw_05",
+        "gls_anamnesis_aiueo_tips_06",
+        "gls_anamnesis_red_flags_13"
+      ],
+      "bilingual": "Section ini memperkenalkan 4 skenario fiktif konsisten (Tn. Hendra, Nn. Sari, Tn. Andi, An. Rina) yang melatih transisi dari anamnesis ke arah diagnosis. Fokus pada pemilihan jenis anamnesis (autoanamnesis vs alloanamnesis) dan klasifikasi 5 kelompok defisit neurologis."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "10 langkah script OSCE umum + Checklist Anamnesis 9 Aspek Prioritas dengan skor 0/1/2 (skor maksimal 18 poin).",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur OSCE station anamnesis neurologi dimulai saat penguji mempersilakan mahasiswa masuk ruangan. Langkah pertama bukan langsung menanyakan keluhan, melainkan salam, perkenalan diri, konfirmasi identitas, penjelasan tujuan, dan izin informed consent. Pada Skenario 1 (Tn. Hendra, penurunan kesadaran) dan Skenario 4 (An. Rina, kejang + meningitis), informed consent diberikan oleh keluarga/pengantar karena pasien tidak mampu berkomunikasi. Setelah izin, tanyakan keluhan utama dengan pertanyaan terbuka, lalu gali Basic Seven sesuai keluhan.",
+          "tone": "narrative",
+          "source": "§4 asli (Script OSCE umum)"
+        },
+        {
+          "text": "Skrining red flags dilakukan sebelum terlalu dalam ke keluhan utama. Pada pasien dengan penurunan kesadaran, tanyakan: (a) waktu terakhir terlihat normal (Time Last Known Well/TLKW — krusial untuk window terapi stroke), (b) pola penurunan kesadaran (mendadak vs bertahap), (c) gejala penyerta (nyeri kepala, muntah, kejang, kelemahan satu sisi, demam, trauma, konsumsi obat/zat). Pada pasien nyeri kepala, skrining SNOOP: Sudden onset (mendadak seperti petir), Neurologic deficit, Older age (>50 tahun onset baru), Onset baru saat kehamilan/nifas, Pattern change/Positional. Pada vertigo, skrining tanda sentral: diplopia, disartria, disfagia, hemiparesis, baal wajah, ataksia berat.",
+          "tone": "narrative",
+          "source": "§5 asli (Pertanyaan spesifik berdasarkan keluhan)"
+        },
+        {
+          "text": "Fase riwayat dilakukan setelah keluhan utama dan Basic Seven: RPD (hipertensi, DM, jantung, TBC, HIV, kanker, trauma, operasi, kejang, stroke, obat rutin dan kepatuhan), RKK (stroke muda, migren, epilepsi, Parkinson, ALS, neuromuskular, TBC/infeksi kontak), dan kebiasaan-sosial-ekonomi (merokok, alkohol, NAPZA, tidur, pola makan, olahraga, pekerjaan, paparan toksin, aktivitas seksual berisiko). Fase penutup adalah rangkuman dengan bahasa awam, konfirmasi ke pasien/keluarga ('Apakah ada yang perlu dikoreksi?'), ucapan terima kasih, dan penjelasan langkah selanjutnya (pemeriksaan fisik, penunjang, atau rujukan).",
+          "tone": "narrative",
+          "source": "§4 asli (Script OSCE umum)"
+        },
+        {
+          "text": "Tips kunci nilai tinggi: (a) Selalu bicara dengan nada setara, tidak menggurui; (b) Konfirmasi identitas di awal — ini skor pertama checklist; (c) Minta izin sebelum menyentuh atau menanyakan pertanyaan sensitif; (d) Skrining red flags sebelum terlalu dalam — kesalahan fatal adalah tidak mengenali pasien yang butuh rujukan emergensi; (e) Rangkum dengan bahasa awam dan konfirmasi ulang ke pasien/keluarga; (f) Tutup dengan ucapan terima kasih dan rencana tindak lanjut yang jelas.",
+          "tone": "narrative",
+          "source": "§4 asli (Script OSCE umum)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan 10 langkah Script OSCE Umum:",
+          "sub": [
+            "Salam dan perkenalan: 'Selamat pagi, saya [nama] mahasiswa kedokteran yang akan melakukan wawancara.'",
+            "Konfirmasi identitas pasien/pengantar dan hubungan pengantar dengan pasien.",
+            "Jelaskan tujuan: 'Saya akan menanyakan kronologi keluhan untuk membantu menentukan kemungkinan penyebab saraf.'",
+            "Mulai dengan keluhan utama, lalu gali Basic Seven sesuai keluhan.",
+            "Gali red flags sebelum terlalu detail: penurunan kesadaran, kejang, demam, trauma, nyeri kepala mendadak terhebat, defisit fokal, gangguan bicara/menelan, muntah proyektil.",
+            "Tanyakan riwayat dahulu: hipertensi, DM, dislipidemia, jantung, TBC, HIV, kanker, trauma, operasi, kejang, stroke, obat rutin dan kepatuhan.",
+            "Tanyakan riwayat keluarga: stroke muda, migren, epilepsi, Parkinson, ALS, penyakit neuromuskular, TBC/infeksi kontak.",
+            "Tanyakan kebiasaan dan sosial: merokok, alkohol, NAPZA, tidur, pola makan, olahraga, pekerjaan, paparan toksin, aktivitas seksual berisiko bila relevan.",
+            "Rangkum: 'Jadi dari cerita Bapak/Ibu, keluhan dimulai..., disertai..., riwayat...' lalu minta koreksi.",
+            "Tutup dengan ucapan terima kasih dan jelaskan pemeriksaan selanjutnya."
+          ],
+          "bold": true,
+          "source": "§4 asli (Script OSCE umum)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Konfirmasi Identitas = WAJIB",
+          "text": "Jangan langsung menggali keluhan utama tanpa konfirmasi identitas dan izin informed consent — ini kesalahan fatal yang langsung menghilangkan poin pertama checklist.",
+          "answer_evidence": "Checklist OSCE 9 Aspek Prioritas No. 1-2 (Tabel 11 asli)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat Pembuka Terbaik",
+          "text": "Kalimat pembuka station anamnesis neurologi yang paling efektif: 'Selamat pagi, saya [nama] mahasiswa kedokteran yang akan melakukan wawancara. Sebelum mulai, boleh saya konfirmasi identitas Bapak/Ibu? Nama Tn. Hendra, 58 tahun, benar? Saya akan menanyakan kronologi keluhan Bapak untuk membantu tim medis memahami kemungkinan penyebab. Wawancara ini akan berlangsung sekitar 8-10 menit. Apakah Bapak/Ibu bersedia?'",
+          "answer_evidence": "Modul Anamnesis Neurologi OSCE 6.3"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Informed Consent Pasien Tidak Sadar",
+          "text": "Pada pasien tidak sadar (Skenario 1 dan 4), informed consent dialihkan ke keluarga/pengantar — tetap dokumentasikan hubungan keluarga dengan pasien.",
+          "answer_evidence": "Praktik kedokteran etika dan hukum informed consent"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_anamnesis_autoanamnesis_01",
+        "gls_anamnesis_alloanamnesis_02",
+        "gls_anamnesis_fundamental_four_03",
+        "gls_anamnesis_basic_seven_04",
+        "gls_anamnesis_tlkw_05",
+        "gls_anamnesis_snoop_07"
+      ],
+      "bilingual": "Section ini mengajarkan 10 langkah Script OSCE Umum dan Checklist 9 Aspek Prioritas (skor 0/1/2, maksimal 18 poin). Konfirmasi identitas di awal adalah item pertama checklist dan kesalahan fatal jika dilewatkan."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci Basic Seven untuk RPS, Fundamental Four untuk riwayat, dan 8 red flags yang WAJIB diskrining pada setiap keluhan neurologis.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis neurologi mengikuti kerangka berpikir berlapis: (1) Red flags (penurunan kesadaran, kejang, demam, trauma, nyeri kepala mendadak terhebat, defisit fokal, gangguan bicara/menelan, muntah proyektil) diskrining dulu karena setiap red flag mengarahkan ke rujukan emergensi, bukan anamnesis mendalam. (2) Keluhan utama + Basic Seven — tujuh aspek (onset, lokasi, kronologi, kualitas/severitas, kuantitas, faktor pemicu/peringan, gejala penyerta) digali sesuai keluhan spesifik (nyeri kepala, vertigo, kejang, nyeri punggung, penurunan kesadaran). (3) Fundamental Four — RPD (faktor risiko vaskular, infeksi, kanker, trauma, obat), RKK (stroke muda, migren, epilepsi, Parkinson, ALS, neuromuskular, TBC), dan kebiasaan-sosial-ekonomi (merokok, alkohol, NAPZA, tidur, pekerjaan).",
+          "tone": "narrative",
+          "source": "§2 asli (Kerangka besar anamnesis neurologi)"
+        },
+        {
+          "text": "Cara berpikir praktis dalam anamnesis neurologi: setiap keluhan harus diklasifikasikan ke dalam salah satu dari 5 kelompok defisit (global, fokal motorik, fokal sensorik, nervus kranialis, vertigo/koordinasi, fungsi luhur) sebelum anamnesis selesai. Klasifikasi ini mempercepat lokalisasi lesi dan pemilihan pemeriksaan penunjang. Penurunan kesadaran → global, curiga stroke luas, ensefalopati metabolik, intoksikasi, atau peningkatan TIK. Hemiparesis → fokal motorik, curiga stroke, lesi traktus kortikospinalis, atau medula spinalis. Baal/kesemutan satu sisi → fokal sensorik, curiga stroke thalamus/korteks sensorik, atau neuropati. Diplopia/disartria/disfagia → nervus kranialis, curiga stroke batang otak atau lesi perifer. Pusing berputar → vertigo/koordinasi, bedakan perifer (BPPV) vs sentral (stroke serebelum). Afasia/memori turun → fungsi luhur, curiga stroke dominan, demensia, atau delirium.",
+          "tone": "narrative",
+          "source": "§3 asli (Defisit neurologis: cara cepat mengelompokkan keluhan)"
+        },
+        {
+          "text": "Red flags WAJIB ditanyakan pada setiap keluhan neurologis, karena kondisi ini tidak bisa ditangani di FKTP dan butuh rujukan emergensi: (1) Penurunan kesadaran (GCS <15) → curiga stroke luas, perdarahan, ensefalopati, intoksikasi; (2) Kejang (terutama >5 menit, berulang, atau pascaiktal tidak sadar) → status epileptikus; (3) Demam + gejala neurologis → meningitis/ensefalitis/abses otak; (4) Trauma kepala baru → perdarahan epidural/subdural; (5) Nyeri kepala mendadak terhebat (thunderclap) → SAH; (6) Defisit fokal (hemiparesis, afasia, hemianopia) → stroke akut, window terapi 4.5 jam; (7) Gangguan bicara/menelan → stroke batang otak, lesi N. IX/X; (8) Muntah proyektil → peningkatan TIK. Setiap red flag harus diakhiri dengan rencana rujukan emergensi, bukan anamnesis mendalam.",
+          "tone": "narrative",
+          "source": "§5 asli (Pertanyaan spesifik berdasarkan keluhan)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Basic Seven — pertanyaan kunci (WAJIB untuk setiap keluhan neurologis):",
+          "sub": [
+            "Onset: mendadak detik-menit, jam, hari, minggu, kronik? Mendadak = vaskular/kejang; subakut = infeksi/tumor; kronik = degeneratif/kompresi.",
+            "Lokasi dan distribusi: sisi kanan/kiri? satu anggota gerak? wajah? dermatom? Membantu diagnosis topis: korteks, batang otak, medula spinalis, saraf perifer.",
+            "Kronologi: gejala pertama apa, lalu apa, membaik/memburuk? Membuat timeline neurologis dan menentukan prioritas emergensi.",
+            "Kualitas dan severitas: nyeri berdenyut/terikat/tertusuk? skala 0-10? durasi kejang? Membedakan migren/TTH/SAH, kejang fokal/general, vertigo.",
+            "Faktor pemicu/peringan: gerakan kepala, cahaya, batuk, mengedan, posisi, obat? BPPV, peningkatan TIK, migrain, radikulopati.",
+            "Gejala penyerta: demam, muntah proyektil, kejang, kelemahan, diplopia, disartria, baal, ataksia, penurunan pendengaran. Red flags dan diagnosis banding."
+          ],
+          "bold": true,
+          "source": "Tabel 4 asli (Pertanyaan wajib Basic Seven)"
+        },
+        {
+          "text": "Fundamental Four — pertanyaan kunci:",
+          "sub": [
+            "RPD: hipertensi, DM, dislipidemia, jantung (fibrilasi atrium), TBC, HIV, kanker, trauma, operasi, kejang, stroke, obat rutin dan kepatuhan",
+            "RKK: stroke muda, migren, epilepsi, Parkinson, ALS, penyakit neuromuskular, TBC/infeksi kontak",
+            "Kebiasaan-sosial-ekonomi: merokok, alkohol, NAPZA, tidur, pola makan, olahraga, pekerjaan, paparan toksin, aktivitas seksual berisiko"
+          ],
+          "bold": true,
+          "source": "§2 asli (Kerangka besar anamnesis neurologi)"
+        },
+        {
+          "text": "Red Flags WAJIB diskrining:",
+          "sub": [
+            "Penurunan kesadaran (GCS <15)",
+            "Kejang >5 menit, berulang, atau pascaiktal tidak sadar",
+            "Demam + gejala neurologis",
+            "Trauma kepala baru",
+            "Nyeri kepala mendadak terhebat (thunderclap)",
+            "Defisit fokal (hemiparesis, afasia, hemianopia)",
+            "Gangguan bicara/menelan",
+            "Muntah proyektil"
+          ],
+          "bold": true,
+          "source": "§5 asli + Tabel 5 asli (Pengelompokan defisit)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Menanyakan TLKW",
+          "text": "Tidak menanyakan waktu terakhir terlihat normal (TLKW) pada pasien tidak sadar — keputusan window terapi stroke (4.5 jam untuk trombolisis) menjadi tidak akurat.",
+          "answer_evidence": "AHA/ASA Guidelines 2019 — Window terapi stroke iskemik"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Thunderclap Headache = SAH",
+          "text": "Tidak menyaring red flags nyeri kepala mendadak terhebat (thunderclap) — risiko melewatkan SAH yang membutuhkan CT scan emergensi dan kemungkinan intervensi neuroradiologi.",
+          "answer_evidence": "ICHD-3 — Thunderclap headache sebagai red flag SAH"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Trias Meningitis",
+          "text": "Mengabaikan demam + kaku kuduk + penurunan kesadaran → meningitis/ensefalitis, emergensi yang butuh antibiotik empirik dalam 1 jam.",
+          "answer_evidence": "IDSA Practice Guidelines for Bacterial Meningitis 2004"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Vertigo Sentral = Stroke Posterior",
+          "text": "Pada vertigo, tidak menyaring tanda sentral (diplopia, disartria, hemiparesis, ataksia berat) → risiko melewatkan stroke posterior yang sering bermanifestasi sebagai vertigo.",
+          "answer_evidence": "Bhattacharyya et al. BPPV Clinical Practice Guideline 2017"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Gangguan Bicara Belum Tentu Afasia",
+          "text": "Pada pasien dengan gangguan bicara, jangan langsung menganggap pasien tidak bisa diajak komunikasi — bisa jadi afasia reseptif; tanyakan dengan kalimat sederhana dan gestur.",
+          "answer_evidence": "Praktik neurologi klinis — komunikasi dengan pasien afasia"
+        }
+      ],
+      "visual_refs": [
+        "visual_anamnesis_basic_seven_infografis_01",
+        "visual_anamnesis_basic_seven_map_01"
+      ],
+      "glossary_refs": [
+        "gls_anamnesis_basic_seven_04",
+        "gls_anamnesis_fundamental_four_03",
+        "gls_anamnesis_tlkw_05",
+        "gls_anamnesis_snoop_07",
+        "gls_anamnesis_defisit_global_08",
+        "gls_anamnesis_defisit_fokal_09",
+        "gls_anamnesis_red_flags_13"
+      ],
+      "bilingual": "Section ini melatih pertanyaan kunci Basic Seven (Onset, Lokasi, Kronologi, Kualitas, Kuantitas, Faktor pemicu/peringan, Gejala penyerta) dan Fundamental Four (RPS, RPD, RKK, Sosial-ekonomi). 8 red flags neurologis WAJIB diskrining pada setiap keluhan."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Pertanyaan terfokus untuk 5 keluhan neurologis utama (penurunan kesadaran, nyeri kepala, vertigo, kejang, nyeri punggung) termasuk AIUEO TIPS untuk klasifikasi toksik-metabolik.",
+      "estimated_time_minutes": 25,
+      "content": [
+        {
+          "text": "Setelah keluhan utama dan Basic Seven digali, anamnesis neurologi memerlukan pertanyaan spesifik yang disesuaikan dengan keluhan pasien. Setiap keluhan memiliki pola tanya yang membantu membedakan diagnosis banding secara efisien. Pada penurunan kesadaran/koma/delirium, fokus pada waktu terakhir terlihat normal (TLKW), pola penurunan kesadaran (mendadak vs bertahap), gejala penyerta sebelum tidak sadar (nyeri kepala, muntah, kejang, demam, trauma, konsumsi obat/zat), dan penggunaan AIUEO TIPS untuk klasifikasi toksik-metabolik. AIUEO TIPS adalah mnemonic yang sangat berguna: Alkohol/Acidosis (etanol, asidosis metabolik), Insulin/Infeksi (hipo/hiperglikemia, sepsis), Uremia (gagal ginjal), Epilepsi/Elektrolit (post-iktal, gangguan Na/K/Ca/Mg), Opiat/Overdose (narkotik, benzodiazepine), Trauma (TBI, perdarahan), Infeksi (meningitis, ensefalitis, abses), Psikiatri/Poisoning (konversi, racun, CO), Stroke/Sepsis (perdarahan/iskemik, syok septik).",
+          "tone": "narrative",
+          "source": "§5 asli (Pertanyaan spesifik berdasarkan keluhan) + Tabel 6 asli"
+        },
+        {
+          "text": "Pada nyeri kepala, tanyakan: onset (mendadak seperti petir atau perlahan? pertama kali atau berulang?), lokasi/kualitas (sebelah, seluruh kepala, seperti berdenyut/diikat/tertusuk?), severitas (skala 0-10, mengganggu aktivitas atau tidak masuk kerja?), pencetus/peringan (aktivitas, cahaya, suara, kurang tidur, makanan, haid, batuk/mengedan, posisi, obat), dan red flags SNOOP (S = Sudden onset seperti petir, N = Neurologic deficit, O = Older age >50 tahun onset baru, O = Onset baru saat kehamilan/nifas, P = Pattern change/Positional). Pada vertigo/pusing berputar, fokus pada: karakter (benar-benar berputar atau hanya melayang/gelap mau pingsan?), durasi (detik-menit dipicu posisi = BPPV, jam-hari = neuritis/Meniere/stroke), pemicu (miring di tempat tidur, menunduk, menengadah, gerak kepala), telinga (tinitus, penurunan pendengaran, penuh di telinga, nyeri telinga), dan red flags sentral (diplopia, disartria, disfagia, hemiparesis, baal wajah, ataksia berat, nyeri kepala hebat, faktor risiko vaskular).",
+          "tone": "narrative",
+          "source": "Tabel 7-8 asli"
+        },
+        {
+          "text": "Pada kejang, tanyakan kepada saksi mata (keluarga yang melihat): bagian tubuh mana yang mulai kejang (fokal vs umum), kaku/kelonjotan (tonik, klonik, tonik-klonik), mata deviasi (ke satu sisi?), durasi (berapa menit, berulang atau tidak, kembali sadar atau tidak; >5 menit emergensi, >30 menit = status epileptikus), fase pascaiktal (bingung, tidur, lemah satu sisi [Todd's paresis], ngompol, lidah tergigit, cedera), pencetus (demam, kurang tidur, alkohol putus, obat, hipoglikemia, trauma, infeksi, TBC/HIV), dan riwayat (kejang sebelumnya, epilepsi, obat anti kejang, stroke, tumor, trauma kepala, keluarga epilepsi). Pada nyeri punggung bawah/radikulopati, tanyakan lokasi/penjalaran (pinggang saja atau menjalar ke bokong-paha-tungkai sesuai dermatom L4/L5/S1?), kualitas (terbakar, tertusuk, kesetrum, baal/kesemutan), pemicu (duduk, jongkok, berjalan, bersin, batuk, mengedan), red flags (inkontinensia urine/alvi, saddle anesthesia, kelemahan progresif, demam, kanker, trauma, BB turun, steroid), dan fungsi (jarak jalan, aktivitas harian, pekerjaan, kebutuhan analgesik).",
+          "tone": "narrative",
+          "source": "Tabel 9-10 asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "5 Keluhan neurologis utama dan pertanyaan spesifiknya:",
+          "sub": [
+            "Penurunan kesadaran/koma/delirium → TLKW, AIUEO TIPS, riwayat hipertensi/DM/jantung/ginjal/hati/TBC/HIV, observasi GCS, tanda fokal, TRM",
+            "Nyeri kepala → onset (mendadak vs gradual), lokasi (unilateral vs difus), kualitas (berdenyut/terikat/tertusuk), pencetus, red flags SNOOP",
+            "Vertigo/pusing berputar → karakter (putar vs melayang), durasi, pemicu posisi, gejala telinga, red flags sentral",
+            "Kejang → saksi mata, onset (fokal vs umum), durasi, fase pascaiktal, pencetus, riwayat kejang/epilepsi",
+            "Nyeri punggung bawah/radikulopati → lokasi/penjalaran dermatom, kualitas, pemicu mekanik, red flags kauda equina"
+          ],
+          "bold": true,
+          "source": "§5 asli (Pertanyaan spesifik berdasarkan keluhan)"
+        },
+        {
+          "text": "AIUEO TIPS untuk klasifikasi toksik-metabolik (WAJIB pada penurunan kesadaran):",
+          "sub": [
+            "Alkohol / Acidosis (etanol, metanol, ketoasidosis diabetik, asidosis laktat)",
+            "Insulin / Infeksi (hipoglikemia, hiperglikemia hiperosmolar, sepsis, malaria)",
+            "Uremia (gagal ginjal akut/kronis, ensefalopati uremikum)",
+            "Epilepsi / Elektrolit (post-iktal, status epileptikus non-konvulsif, hipo/hipernatremia, hipo/hiperkalemia, hipokalsemia, hipomagnesemia)",
+            "Opiat / Overdose (morfin, heroin, benzodiazepine, metadon, intoksikasi obat)",
+            "Trauma (TBI, perdarahan epidural/subdural/intraserebral)",
+            "Infeksi (meningitis bakterial/virus/TB, ensefalitis HSV, abses otak, malaria serebral)",
+            "Psikiatri / Poisoning (konversi, gangguan somatoform, keracunan CO, organofosfat, pestisida)",
+            "Stroke / Sepsis (perdarahan/iskemik, syok septik, disseminated intravascular coagulation)"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + literatur pendidikan kedokteran darurat"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "AIUEO TIPS untuk Semua Pasien Tidak Sadar",
+          "text": "AIUEO TIPS sangat berguna untuk menyusun diagnosis banding pasien tidak sadar — gunakan sebagai checklist mental saat anamnesis dan sebagai cara mengingat etiologi toksik-metabolik.",
+          "answer_evidence": "Mnemonic yang diadopsi luas dalam pendidikan kedokteran darurat"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Benar-benar Berputar atau Hanya Melayang?",
+          "text": "Pada vertigo, tanyakan 'Benar-benar berputar atau hanya melayang/gelap mau pingsan?' — jawaban 'melayang' (lightheadedness) mengarah ke sinkop/ansietas/hipotensi, bukan vertigo vestibuler.",
+          "answer_evidence": "Modul Anamnesis Neurologi OSCE 6.3 — Tabel 8 asli"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Saksi Mata > Pasien Sendiri untuk Kejang",
+          "text": "Pada kejang, saksi mata lebih penting daripada pasien sendiri — pastikan menanyakan ke keluarga yang melihat langsung, karena pasien tidak ingat.",
+          "answer_evidence": "Praktik neurologi klinis — saksi mata kejang"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Saddle Anesthesia = Kauda Equina",
+          "text": "Pada nyeri punggung bawah, tanyakan saddle anesthesia dan inkontinensia — kelalaian dalam menandai ini berarti terlambat mendeteksi sindrom kauda equina (emergensi bedah saraf).",
+          "answer_evidence": "Praktik neurologi dan bedah saraf"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "AIUEO TIPS untuk Edukasi Kedokteran",
+          "text": "AIUEO TIPS adalah mnemonic yang diadopsi luas dalam pendidikan kedokteran darurat untuk membedakan penyebab penurunan kesadaran toksik-metabolik vs struktural; penggunaannya di OSCE menunjukkan kemampuan berpikir klinis yang sistematis.",
+          "answer_evidence": "Literatur pendidikan kedokteran darurat"
+        }
+      ],
+      "visual_refs": [
+        "visual_anamnesis_aiueo_tips_poster_01",
+        "visual_anamnesis_snoop_red_flags_01",
+        "visual_anamnesis_vertigo_perifer_sentral_01",
+        "visual_anamnesis_timeline_stroke_01",
+        "visual_anamnesis_kejang_witness_01"
+      ],
+      "glossary_refs": [
+        "gls_anamnesis_aiueo_tips_06",
+        "gls_anamnesis_snoop_07",
+        "gls_anamnesis_tlkw_05",
+        "gls_anamnesis_bppv_11"
+      ],
+      "bilingual": "Section ini mengajarkan pertanyaan spesifik per keluhan neurologis. AIUEO TIPS wajib untuk klasifikasi toksik-metabolik pada penurunan kesadaran, dan SNOOP untuk skrining nyeri kepala sekunder."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Persiapan non-fisik, alat dokumentasi, dan prosedur anamnesis 3 fase (persiapan, pelaksanaan, evaluasi) yang mengalir dalam 8-10 menit station OSCE.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Anamnesis neurologi tidak memerlukan alat fisik seperti stetoskop atau martil refleks, namun memerlukan persiapan non-fisik yang menentukan kualitas wawancara: pemahaman skenario, kerangka pikir klinis, kemampuan memilih jenis anamnesis, dan kepekaan terhadap red flags. Pada Skenario 1 (Tn. Hendra, penurunan kesadaran) dan Skenario 4 (An. Rina, kejang + meningitis), alloanamnesis adalah sumber utama — keluarga/pengantar harus dipersiapkan untuk memberikan informasi kronologis. Pada Skenario 2 (Nn. Sari, migren) dan Skenario 3 (Tn. Andi, BPPV), autoanamnesis menjadi pilihan utama karena pasien sadar dan kooperatif. Mahasiswa harus mampu menilai situasi dalam 30 detik pertama untuk memutuskan jenis anamnesis.",
+          "tone": "narrative",
+          "source": "§4 asli (Script OSCE umum) + §5 asli (Pertanyaan spesifik)"
+        },
+        {
+          "text": "Prosedur anamnesis neurologi dibagi dalam 3 fase yang mengalir: (1) Fase Persiapan (1-2 menit pertama) — membaca instruksi station, mengidentifikasi skenario, menentukan jenis anamnesis, menyiapkan kerangka pikir (kelompok defisit neurologis, red flags, diagnosis banding). (2) Fase Pelaksanaan (5-7 menit) — salam, identitas, izin, keluhan utama, Basic Seven sesuai keluhan, red flags, Fundamental Four, dan klasifikasi defisit. Pada fase ini, penggunaan kalimat terbuka ('Bisa ceritakan lebih lanjut?', 'Lalu apa yang terjadi?') lebih efektif daripada kalimat tertutup. (3) Fase Evaluasi & Penutupan (1-2 menit terakhir) — rangkuman dengan bahasa awam, konfirmasi ke pasien/keluarga, kesan awal yang sederhana, edukasi singkat, ucapan terima kasih, dan salam penutup.",
+          "tone": "narrative",
+          "source": "§4 asli (Script OSCE umum)"
+        },
+        {
+          "text": "Alat non-fisik yang perlu disiapkan: catatan kecil untuk mencatat waktu, gejala, frasa kunci; template pertanyaan (Basic Seven per keluhan) untuk konsistensi; rencana rujukan ke neurologi/IGD jika ada red flag; dan sikap tenang untuk menghadapi pasien gaduh/curiga. Pada pasien emergensi (Skenario 1 dan 4), tunda anamnesis mendalam sampai ABC stabil; fokus pada TLKW, red flags, dan klasifikasi defisit untuk keputusan rujukan.",
+          "tone": "narrative",
+          "source": "§4 asli (Script OSCE umum)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alat non-fisik yang perlu disiapkan:",
+          "sub": [
+            "Catatan kecil: untuk mencatat waktu, gejala, frasa kunci pasien/keluarga",
+            "Template pertanyaan: Basic Seven per keluhan (5 template: kesadaran, nyeri kepala, vertigo, kejang, nyeri punggung)",
+            "Kerangka klasifikasi: 5 kelompok defisit neurologis (global, fokal motorik, fokal sensorik, nervus kranialis, vertigo/koordinasi, fungsi luhur)",
+            "AIUEO TIPS: mnemonic untuk klasifikasi toksik-metabolik",
+            "Rencana rujukan: kontak neurologi, IGD, ICU jika red flag positif",
+            "Sikap tenang dan terstruktur: hindari panik pada pasien emergensi"
+          ],
+          "bold": true,
+          "source": "§4 asli (Script OSCE umum)"
+        },
+        {
+          "text": "Fase Persiapan (1-2 menit):",
+          "sub": [
+            "Baca instruksi station, identifikasi skenario (Tn. Hendra, Nn. Sari, Tn. Andi, atau An. Rina)",
+            "Tentukan jenis anamnesis: autoanamnesis (sadar, kooperatif) atau alloanamnesis (tidak sadar, gaduh, anak)",
+            "Siapkan kerangka pikir: 5 kelompok defisit neurologis + red flags + AIUEO TIPS (untuk kesadaran)",
+            "Tentukan target diagnosis banding berdasarkan keluhan",
+            "Siapkan kalimat pembuka dan informed consent"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        },
+        {
+          "text": "Fase Pelaksanaan (5-7 menit):",
+          "sub": [
+            "Salam, perkenalan, konfirmasi identitas, penjelasan tujuan, izin",
+            "Tanyakan keluhan utama dengan pertanyaan terbuka",
+            "Gali Basic Seven sesuai keluhan spesifik",
+            "WAJIB: Skrining red flags sebelum terlalu detail",
+            "Riwayat dahulu (RPD): hipertensi, DM, jantung, TBC, HIV, kanker, stroke, kejang, obat, kepatuhan",
+            "Riwayat keluarga (RKK): stroke muda, migren, epilepsi, Parkinson, ALS, TBC",
+            "Kebiasaan-sosial-ekonomi: merokok, alkohol, NAPZA, tidur, pekerjaan, paparan toksin",
+            "Klasifikasikan defisit ke salah satu dari 5 kelompok",
+            "Sampaikan kesan awal secara sederhana ke pasien/keluarga"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        },
+        {
+          "text": "Fase Evaluasi & Penutupan (1-2 menit):",
+          "sub": [
+            "Rangkum dengan bahasa awam: 'Baik Pak/Bu, dari cerita Bapak/Ibu/Keluarga, saya rangkum ya...'",
+            "Konfirmasi: 'Apakah ada yang perlu ditambah atau dikoreksi?'",
+            "Sampaikan kesan awal sederhana: 'Saya melihat kemungkinan XXX, tapi perlu pemeriksaan lebih lanjut untuk memastikan.'",
+            "Edukasi singkat: 'Kondisi ini bisa serius, dan tim medis akan membantu.'",
+            "Jelaskan rencana tindak lanjut: 'Selanjutnya akan dilakukan XXX.'",
+            "Ucapan terima kasih dan salam penutup"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan Pasien di Setiap Fase",
+          "text": "Keselamatan pasien di setiap fase — pada pasien dengan red flag (penurunan kesadaran, kejang, demam, defisit fokal), rujukan emergensi lebih penting daripada anamnesis mendalam.",
+          "answer_evidence": "Prinsip keselamatan pasien"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tanpa Informed Consent",
+          "text": "Memasuki fase pelaksanaan tanpa informed consent atau salam pembuka yang jelas — pasien akan menutup diri, dan Anda kehilangan 30% nilai sebelum wawancara dimulai.",
+          "answer_evidence": "Praktik kedokteran dan etika klinis"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Lupa Fase Evaluasi",
+          "text": "Lupa fase evaluasi — langsung menutup tanpa rangkuman = penguji tidak tahu Anda mendengar apa, dan Anda kehilangan poin sintesis.",
+          "answer_evidence": "Checklist OSCE 9 Aspek Prioritas No. 8 (Tabel 11 asli)"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Persiapan pada Pasien Emergenensi",
+          "text": "Pada pasien emergensi (Skenario 1, 4), persiapan bisa 30% waktu station. Prioritaskan TLKW dan red flags, bukan anamnesis mendalam.",
+          "answer_evidence": "Modul Anamnesis Neurologi OSCE 6.3"
+        }
+      ],
+      "visual_refs": [
+        "visual_anamnesis_algoritma_keputusan_01"
+      ],
+      "glossary_refs": [
+        "gls_anamnesis_autoanamnesis_01",
+        "gls_anamnesis_alloanamnesis_02",
+        "gls_anamnesis_aiueo_tips_06",
+        "gls_anamnesis_red_flags_13"
+      ],
+      "bilingual": "Section ini mengajarkan prosedur anamnesis 3 fase (persiapan, pelaksanaan, evaluasi) yang mengalir dalam 8-10 menit. Pada pasien emergensi, fokus pada TLKW dan red flags, bukan anamnesis mendalam."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Pendekatan 5 kelompok defisit, klasifikasi diagnosis banding per skenario, dan template rangkuman 30 detik ke penguji dengan format standar.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Clinical reasoning pada anamnesis neurologi dimulai dengan pengenalan pola (pattern recognition): setiap keluhan harus diklasifikasikan ke dalam salah satu dari 5 kelompok defisit sebelum anamnesis selesai. Ini bukan sekadar teori, melainkan keterampilan praktis yang mempercepat lokalisasi lesi dan pemilihan pemeriksaan penunjang. Pada Skenario 1 (Tn. Hendra, 58 tahun, penurunan kesadaran + hemiparesis kanan), defisitnya adalah global + fokal motorik → curiga stroke luas, perdarahan intraserebral, atau ensefalopati metabolik dengan defisit fokal. Pada Skenario 2 (Nn. Sari, 26 tahun, nyeri kepala berulang unilateral), defisitnya adalah nyeri kepala primer → curiga migren dengan atau tanpa aura. Pada Skenario 3 (Tn. Andi, 35 tahun, vertigo singkat dipicu posisi), defisitnya adalah vertigo/koordinasi perifer → curiga BPPV dengan skrining sentral negatif. Pada Skenario 4 (An. Rina, 12 tahun, kejang + demam + penurunan kesadaran bertahap), defisitnya adalah global + infeksi intrakranial → curiga meningitis/meningoensefalitis TB.",
+          "tone": "narrative",
+          "source": "§1 asli (Skenario sumber) + §3 asli (Defisit neurologis)"
+        },
+        {
+          "text": "Pendekatan diagnosis banding per skenario. Skenario 1 (penurunan kesadaran + hemiparesis kanan): stroke iskemik, stroke perdarahan, perdarahan subarakhnoid, peningkatan TIK, ensefalopati hipertensi, ensefalopati metabolik, AIUEO TIPS. Red flags: TLKW <4.5 jam → aktivasi code stroke; muntah proyektil → peningkatan TIK; kaku kuduk → SAH. Skenario 2 (nyeri kepala berulang): migren dengan/tanpa aura, tension-type headache, cluster headache, nyeri kepala sekunder (screened SNOOP). Red flags: nyeri kepala mendadak terhebat → SAH; demam + kaku kuduk → meningitis; defisit fokal → stroke. Skenario 3 (vertigo singkat dipicu posisi): BPPV (perifer), neuritis vestibular (perifer), penyakit Meniere (perifer), stroke posterior (sentral), migraine vestibular. Red flags sentral: diplopia, disartria, hemiparesis, ataksia berat, faktor risiko vaskular. Skenario 4 (kejang + demam + penurunan kesadaran): meningitis bakterial, meningitis TB, ensefalitis (HSV, Jepang), abses otak, malaria serebral, status epileptikus pascakejang, HIV ensefalopati. Red flags: TRM positif, GCS menurun, pupil anisokor.",
+          "tone": "narrative",
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + Tabel 14 asli"
+        },
+        {
+          "text": "Rangkuman 30 detik ke penguji adalah komponen skor tertinggi di banyak station OSCE neurologi. Format yang digunakan: 'Pasien [inisial/usia/jenis kelamin] dengan [keluhan utama] sejak [durasi], disertai [gejala penyerta], dengan riwayat [RPD/RKK/sosial-ekonomi]. Kesan awal saya adalah [diagnosis kerja/arah diagnosis], dan saya akan [rencana pemeriksaan/tindakan/observasi/rujukan].' Pada Skenario 1: 'Pasien Tn. Hendra, 58 tahun, mengalami penurunan kesadaran mendadak sejak 1 jam, didahului nyeri kepala, muntah, dan kelemahan anggota gerak kanan, dengan riwayat hipertensi tidak terkontrol. Kesan awal saya adalah gangguan vaskular otak dengan red flags peningkatan TIK/defisit fokal. Saya akan lanjutkan ABC, GCS, gula darah, pemeriksaan neurologi fokal, dan rujuk emergensi.'",
+          "tone": "narrative",
+          "source": "§8 asli (Template rangkuman ke penguji) + Tabel 14 asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pendekatan Clinical Reasoning untuk Anamnesis Neurologi:",
+          "sub": [
+            "Klasifikasikan keluhan ke salah satu dari 5 kelompok defisit (global, fokal motorik, fokal sensorik, nervus kranialis, vertigo/koordinasi, fungsi luhur)",
+            "Tentukan onset (mendadak vs gradual) → vaskular/kejang vs infeksi/tumor vs degeneratif",
+            "Skrining red flags → keputusan rujukan emergensi",
+            "Tentukan arah diagnosis kerja (definitif vs sementara) dan diagnosis banding utama",
+            "Tentukan rencana: observasi, pemeriksaan penunjang, rujukan, atau rawat",
+            "Komunikasikan kesan awal ke pasien/keluarga dengan bahasa awam"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        },
+        {
+          "text": "Format Rangkuman 30 Detik (template):",
+          "sub": [
+            "'Pasien [inisial/usia/jenis kelamin] dengan [keluhan utama] sejak [durasi], disertai [gejala penyerta], dengan riwayat [RPD/RKK/sosial-ekonomi].'",
+            "'Kesan awal saya adalah [diagnosis kerja/arah diagnosis].'",
+            "'Saya akan [rencana pemeriksaan/tindakan/observasi/rujukan].'"
+          ],
+          "bold": true,
+          "source": "Tabel 14 asli (Contoh rangkuman 30 detik)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Selalu Diagnosis Kerja + Banding + Rencana",
+          "text": "Selalu susun diagnosis kerja + diagnosis banding + rencana konfirmasi. Penguji ingin melihat proses berpikir klinis, bukan label akhir.",
+          "answer_evidence": "Praktik clinical reasoning kedokteran"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Bahasa Menakutkan Pasien",
+          "text": "Menyampaikan kesan awal dengan bahasa yang menakutkan pasien ('kemungkinan stroke' tanpa konteks) → pasien/keluarga panik, rapport rusak.",
+          "answer_evidence": "Praktik komunikasi klinis dan etika"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Pendekatan 5 Kelompok Defisit",
+          "text": "Pendekatan 5 kelompok defisit neurologis adalah kerangka yang banyak diadopsi di pendidikan kedokteran modern dan sesuai dengan pendekatan localization-based diagnosis dalam neurologi klasik.",
+          "answer_evidence": "Louis ED, Mayer SA, Rowland LP. Merritt's Neurology. 14th ed. 2021."
+        }
+      ],
+      "visual_refs": [
+        "visual_anamnesis_vertigo_perifer_sentral_01"
+      ],
+      "glossary_refs": [
+        "gls_anamnesis_defisit_global_08",
+        "gls_anamnesis_defisit_fokal_09",
+        "gls_anamnesis_snoop_07",
+        "gls_anamnesis_bppv_11",
+        "gls_anamnesis_red_flags_13"
+      ],
+      "bilingual": "Section ini mengajarkan pendekatan 5 kelompok defisit neurologis dan diagnosis banding per skenario. Format rangkuman 30 detik: 'Pasien X usia Y dengan keluhan Z sejak K, disertai L, dengan riwayat M → kesan awal N, rencana O'."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang awal yang relevan per skenario (GDS, CT scan, MRI, LP) dan prinsip tatalaksana awal dengan window terapi stroke 4.5 jam dan meningitis 1 jam.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada anamnesis neurologi, mahasiswa OSCE tidak diharapkan menghafal dosis obat atau protokol tatalaksana, melainkan mengetahui jenis pemeriksaan penunjang yang relevan dan prinsip tatalaksana awal yang harus dilakukan. Pemeriksaan penunjang awal yang relevan mencakup: (1) Gula darah sewaktu (GDS) — wajib pada semua pasien penurunan kesadaran untuk menyingkirkan hipo/hiperglikemia; (2) CT scan kepala non-kontras — emergensi pada stroke, SAH, trauma kepala, tumor; (3) MRI kepala — pilihan untuk stroke kecil, tumor, ensefalitis, abses; (4) Pungsi lumbal (LP) — untuk meningitis/ensefalitis setelah CT scan; (5) Darah lengkap, elektrolit, fungsi ginjal, fungsi hati, skrining zat — untuk klasifikasi toksik-metabolik; (6) EKG — untuk fibrilasi atrium, sinkop kardiak; (7) Rontgen thoraks — untuk TB paru, metastasis, keganasan; (8) Skrining HIV, VDRL — pada meningitis kronik atau pasien risiko.",
+          "tone": "narrative",
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md + referensi klinis"
+        },
+        {
+          "text": "Prinsip tatalaksana awal yang harus diketahui mahasiswa: (a) Stabilisasi ABC (Airway, Breathing, Circulation) dulu sebelum anamnesis mendalam pada pasien emergensi; (b) Pemeriksaan GCS untuk menentukan tingkat kesadaran; (c) Tanda fokal neurologis untuk membedakan lesi struktural vs metabolik; (d) Tanda rangsang meningeal (TRM) bila curiga meningitis/SAH; (e) Rujukan emergensi ke IGD/rumah sakit tipe B/A bila ada red flag; (f) Konsultasi neurologi untuk kasus yang tidak emergen tapi butuh pencitraan atau evaluasi lanjutan. Pada stroke akut, ingatkan window terapi: trombolisis dengan rt-PA dalam 4.5 jam dari TLKW, thrombectomy dalam 24 jam untuk large vessel occlusion. Pada meningitis bakterial, antibiotik empirik dalam 1 jam dari presentasi menurunkan mortalitas. Pada status epileptikus, benzodiazepin dalam 5 menit, dilanjutkan antikonvulsan iv dalam 20 menit.",
+          "tone": "narrative",
+          "source": "AHA/ASA 2019 + IDSA + ILAE 2016"
+        },
+        {
+          "text": "Pada level mahasiswa OSCE, prinsip tatalaksana awal lebih ditekankan pada kemampuan memutuskan RUJUKAN dan PEMERIKSAAN PENUNJANG, bukan meresepkan obat. Kalimat yang tepat: 'Dengan riwayat ini dan red flag XXX, saya akan merujuk pasien ke IGD untuk CT scan kepala dan penatalaksanaan emergensi' atau 'Saya akan melakukan pemeriksaan GCS, GDS, dan TRM, lalu rujuk emergensi karena tanda peningkatan TIK.'",
+          "tone": "narrative",
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan penunjang awal yang relevan (mahasiswa OSCE):",
+          "sub": [
+            "GDS — wajib pada semua pasien penurunan kesadaran",
+            "CT scan kepala non-kontras — stroke, SAH, trauma, tumor",
+            "MRI kepala — stroke kecil, tumor, ensefalitis, abses",
+            "Pungsi lumbal (LP) — meningitis/ensefalitis setelah CT scan",
+            "Darah lengkap, elektrolit, fungsi ginjal/hati, skrining zat — klasifikasi toksik-metabolik",
+            "EKG — fibrilasi atrium, sinkop kardiak",
+            "Rontgen thoraks — TB paru, metastasis",
+            "Skrining HIV, VDRL — meningitis kronik, pasien risiko"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        },
+        {
+          "text": "Prinsip tatalaksana awal (mahasiswa OSCE):",
+          "sub": [
+            "Stabilisasi ABC (Airway, Breathing, Circulation) dulu pada pasien emergensi",
+            "Pemeriksaan GCS, tanda fokal, TRM sesuai indikasi",
+            "Rujukan emergensi ke IGD/RS tipe B/A bila ada red flag",
+            "Konsultasi neurologi untuk kasus non-emergen",
+            "Window terapi stroke: trombolisis rt-PA <4.5 jam dari TLKW",
+            "Window terapi meningitis: antibiotik empirik dalam 1 jam",
+            "Window terapi status epileptikus: benzodiazepin dalam 5 menit"
+          ],
+          "bold": true,
+          "source": "AHA/ASA 2019 + IDSA 2004 + ILAE 2016"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan Penunjang yang WAJIB Disebutkan",
+          "text": "Pemeriksaan penunjang yang WAJIB disebutkan meski tidak tersedia di station: GDS pada penurunan kesadaran, CT scan pada stroke akut, LP pada meningitis. Ini menunjukkan Anda berpikir klinis.",
+          "answer_evidence": "Praktik klinis neurologi dan darurat"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Window Terapi Stroke Berbasis Bukti",
+          "text": "Window terapi stroke iskemik akut (4.5 jam untuk rt-PA, 24 jam untuk thrombectomy) berbasis bukti dari trial NINDS, ECASS III, dan DAWN/DEFUSE-3.",
+          "answer_evidence": "Powers WJ, Rabinstein AA, et al. Guidelines for Early Management of Acute Ischemic Stroke: 2019 Update. Stroke. 2019;50(12):e344-e418."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Dosis Obat = Bukan Tanggung Jawab Mahasiswa",
+          "text": "Dosis dan protokol tatalaksana spesifik tidak boleh dihafal mahasiswa OSCE — serahkan ke dokter penanggung jawab pasien dan tim medis. [PERLU VERIFIKASI KLINIS]",
+          "answer_evidence": "Batas kompetensi klinis mahasiswa"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_anamnesis_tlkw_05",
+        "gls_anamnesis_red_flags_13"
+      ],
+      "bilingual": "Section ini mengajarkan pemeriksaan penunjang awal (GDS, CT scan, MRI, LP) dan prinsip tatalaksana. Window terapi stroke 4.5 jam dari TLKW berbasis bukti AHA/ASA 2019."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi, safety net kapan kembali ke IGD, dan contoh SOAP lengkap untuk 4 skenario dengan kode ICD-10.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pasien/keluarga pada anamnesis neurologi sering terbatas oleh situasi klinis (pasien tidak sadar, gaduh, atau anak kecil), sehingga fokus edukasi dialihkan ke keluarga/pengantar. Pada pasien sadar (Skenario 2 dan 3), edukasi langsung ke pasien sangat penting. Prinsip edukasi yang harus diterapkan: (1) Bahasa awam — hindari jargon medis yang tidak dipahami; (2) Empati dan validasi — jangan menggurui atau membuat keluarga merasa bersalah; (3) Informasi bertahap — jangan banjiri keluarga dengan banyak informasi sekaligus; (4) Konfirmasi pemahaman — minta keluarga mengulangi penjelasan untuk memastikan mereka paham; (5) Safety net — jelaskan kapan harus kembali ke IGD atau menghubungi dokter.",
+          "tone": "narrative",
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        },
+        {
+          "text": "Safety net adalah komponen kritis yang sering dilupakan mahasiswa: (a) Kapan kembali ke IGD: penurunan kesadaran berulang, kejang berulang, kelemahan satu sisi baru, nyeri kepala mendadak terhebat, demam tidak turun dalam 3 hari, muntah proyektil, kaku kuduk, perubahan perilaku mendadak; (b) Tanda bahaya yang harus diwaspadai keluarga; (c) Kapan ke poli atau FKTP: kontrol rutin setelah出院, kepatuhan obat, modifikasi gaya hidup. Pada pasien migren (Skenario 2), edukasi tentang trigger avoidance (kurang tidur, stres, makanan tertentu, haid) dan penggunaan analgesik yang tepat (triptan dalam 1 jam onset). Pada pasien BPPV (Skenario 3), edukasi tentang manuver Epley dan latihan Brandt-Daroff yang bisa dilakukan di rumah. Pada pasien stroke (Skenario 1), edukasi tentang window terapi, faktor risiko vaskular yang dapat dimodifikasi (hipertensi, DM, merokok, kolesterol), dan tanda peringatan stroke (FAST: Face, Arm, Speech, Time). Pada pasien meningitis (Skenario 4), edukasi tentang kepatuhan OAT jika TB, vaksinasi (Hib, pneumokokus, meningokokus), dan pencegahan kontak serumah.",
+          "tone": "narrative",
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        },
+        {
+          "text": "Dokumentasi SOAP pada anamnesis neurologi harus terstruktur: S (Subjective) — keluhan utama + Basic Seven + Fundamental Four dari anamnesis. O (Objective) — TTV (TD, N, RR, SpO2, suhu), GCS, tanda fokal, TRM, observasi umum. A (Assessment) — diagnosis kerja + diagnosis banding. P (Plan) — pemeriksaan penunjang, tatalaksana awal, edukasi, rujukan. Pada Skenario 1, SOAP akan mendokumentasikan penurunan kesadaran, riwayat hipertensi tidak terkontrol, dan kesan stroke dengan rencana rujukan emergensi.",
+          "tone": "narrative",
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Poin edukasi untuk keluarga/pasien:",
+          "sub": [
+            "Skenario 1 (stroke suspected): FAST (Face, Arm, Speech, Time), window terapi, kepatuhan obat antihipertensi, modifikasi gaya hidup",
+            "Skenario 2 (migren): trigger avoidance, penggunaan analgesik/triptan, hindari kafein berlebihan, tidur cukup",
+            "Skenario 3 (BPPV): manuver Epley, latihan Brandt-Daroff, posisi tidur dengan kepala sedikit elevasi",
+            "Skenario 4 (meningitis TB/ensefalitis): kepatuhan OAT (jika TB), isolasi kontak, tanda bahaya kejang berulang atau penurunan kesadaran"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        },
+        {
+          "text": "Safety net — kapan kembali ke IGD:",
+          "sub": [
+            "Penurunan kesadaran berulang",
+            "Kejang berulang atau >5 menit",
+            "Kelemahan satu sisi baru (defisit fokal)",
+            "Nyeri kepala mendadak terhebat (thunderclap)",
+            "Demam tidak turun dalam 3 hari atau kaku kuduk",
+            "Muntah proyektil atau penurunan kesadaran bertahap",
+            "Perubahan perilaku mendadak, bicara pelo, atau sulit menelan",
+            "Penglihatan ganda atau kelemahan otot progresif"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk 4 Skenario",
+          "text": "Kode ICD-10 untuk diagnosis utama: Skenario 1 (stroke) → I63.9 (stroke iskemik) atau I61.9 (stroke perdarahan); Skenario 2 (migren) → G43.9; Skenario 3 (BPPV) → H81.1; Skenario 4 (meningitis TB) → A17.0 atau G00.9 (meningitis bakterial).",
+          "answer_evidence": "ICD-10 WHO"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Selalu Buka Ruang Pertanyaan",
+          "text": "Kalimat edukasi yang paling sering dilupakan: 'Apakah ada pertanyaan dari Bapak/Ibu/Keluarga?' — menutup dengan membuka ruang pertanyaan menunjukkan empati dan profesionalisme.",
+          "answer_evidence": "Praktik komunikasi klinis"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keluarga dalam Syok = Edukasi Bertahap",
+          "text": "Pada pasien stroke/penurunan kesadaran, keluarga sering dalam kondisi syok — edukasi harus diberikan secara bertahap, singkat, dan terstruktur; jangan terlalu detail di awal.",
+          "answer_evidence": "Praktik empati klinis"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_anamnesis_bppv_11",
+        "gls_anamnesis_tth_12"
+      ],
+      "bilingual": "Section ini mengajarkan edukasi pasien/keluarga dan dokumentasi SOAP. Kode ICD-10: I63.9 (stroke iskemik), I61.9 (stroke perdarahan), G43.9 (migren), H81.1 (BPPV), A17.0 (meningitis TB), G00.9 (meningitis bakterial)."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Tabel SKDI 4A untuk anamnesis neurologi, dialog komunikasi OSCE siap ucap, dan rangkuman 30 detik ke penguji.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Standar Kompetensi Dokter Indonesia (SKDI) untuk anamnesis neurologi mencakup 8 penyakit 4A yang relevan dengan domain ini: Tension-type headache, Migren, BPPV, Bell's palsy, Tetanus, HIV/AIDS tanpa komplikasi, Gangguan somatoform, dan Insomnia. Setiap penyakit memiliki cara muncul dalam soal/anamnesis yang harus dikenali. Tension-type headache: nyeri kepala tegang bilateral seperti diikat; biasanya tanpa red flag neurologis, relevan untuk anamnesis nyeri kepala. Migren: nyeri berdenyut, mual/muntah, foto/phonophobia, bisa ada aura; relevan untuk skenario nyeri kepala berulang. BPPV: vertigo singkat dipicu perubahan posisi kepala; relevan untuk anamnesis vertigo dan pemeriksaan vestibular. Bell's palsy: parese fasialis perifer; relevan untuk pemeriksaan N. VII dan membedakan lesi sentral vs perifer. Tetanus: trismus, spasme, kaku leher tanpa penurunan kesadaran primer; penting sebagai diferensial kaku leher. HIV/AIDS tanpa komplikasi: relevan sebagai faktor risiko infeksi oportunistik neurologis; kasus komplikasi neurologis perlu eskalasi. Gangguan somatoform: keluhan fisik berulang tanpa penjelasan organik memadai; penting dalam wawancara psikiatri dan penilaian fungsi. Insomnia: gangguan mulai tidur, mempertahankan tidur, atau bangun terlalu dini dengan gangguan fungsi siang.",
+          "tone": "narrative",
+          "source": "§7 asli (Pemetaan penyakit SKDI 4A)"
+        },
+        {
+          "text": "Batas aman SKDI: stroke, meningitis, status epileptikus, tumor otak, dan infeksi intrakranial berat tetap wajib dikenali sebagai red flags dan diagnosis banding, tetapi pada praktik nyata umumnya memerlukan rujukan/penanganan emergensi sesuai fasilitas. Mini-skrip dialog anamnesis neurologi yang siap ucap mencakup: Pembukaan (salam, perkenalan, konfirmasi identitas, penjelasan tujuan, izin), Skrining red flags di awal, Penggalian keluhan utama dengan pertanyaan terbuka, Basic Seven sesuai keluhan (5 template: kesadaran, nyeri kepala, vertigo, kejang, nyeri punggung), Fundamental Four, Rangkuman dengan bahasa awam dan konfirmasi, Penutupan profesional.",
+          "tone": "narrative",
+          "source": "Tabel 12-13 asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen dialog OSCE station anamnesis neurologi:",
+          "sub": [
+            "Pembukaan: salam, perkenalan, konfirmasi identitas, penjelasan tujuan, izin",
+            "Skrining red flags di awal: 'Apakah ada penurunan kesadaran, kejang, demam tinggi, atau kelemahan satu sisi?'",
+            "Penggalian keluhan utama dengan pertanyaan terbuka",
+            "Basic Seven sesuai keluhan (5 template: kesadaran, nyeri kepala, vertigo, kejang, nyeri punggung)",
+            "Fundamental Four: RPD, RKK, kebiasaan-sosial-ekonomi",
+            "Rangkuman dengan bahasa awam dan konfirmasi",
+            "Penutupan profesional"
+          ],
+          "bold": true,
+          "source": "PROMPT_DOMAIN3_NeuroPsiki_S2.md"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kalimat WAJIB: TLKW",
+          "text": "Kalimat yang TIDAK BOLEH dilewatkan: 'Kapan terakhir kali [pasien] terlihat normal?' — ini menentukan window terapi stroke dan tidak boleh terlewat pada Skenario 1 dan 4.",
+          "answer_evidence": "AHA/ASA Guidelines 2019"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kalimat WAJIB: Red Flags Stroke",
+          "text": "Kalimat yang TIDAK BOLEH dilewatkan: 'Apakah ada kelemahan satu sisi, baal, bicara pelo, sulit menelan, atau penglihatan ganda?' — ini skrining red flag stroke.",
+          "answer_evidence": "Praktik klinis neurologi"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat Pembuka Universal",
+          "text": "Cara membuka station paling efektif: 'Selamat pagi, saya [nama] mahasiswa kedokteran yang akan melakukan wawancara. Sebelum mulai, boleh saya konfirmasi identitas Bapak/Ibu?'",
+          "answer_evidence": "Modul Anamnesis Neurologi OSCE 6.3"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "SKDI 4A Standar KKI",
+          "text": "SKDI 4A adalah standar kompetensi dokter Indonesia yang diterbitkan oleh Konsil Kedokteran Indonesia (KKI) dan diadopsi dalam kurikulum pendidikan kedokteran.",
+          "answer_evidence": "Konsil Kedokteran Indonesia. Standar Kompetensi Dokter Indonesia (SKDI). Jakarta: KKI; 2012 (update 2019)."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_anamnesis_bells_palsy_10",
+        "gls_anamnesis_bppv_11",
+        "gls_anamnesis_tth_12"
+      ],
+      "bilingual": "Section ini mengajarkan 8 penyakit SKDI 4A untuk anamnesis neurologi dan mini-skrip dialog OSCE siap ucap. Kode ICD-10: I63.9, G43.0, H81.1, A17.0, G00.9, G41.9."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan mandiri 21 item, rencana belajar 3 hari (hari 1 teori, hari 2 praktik, hari 3 simulasi penuh), dan 7 kesalahan fatal yang harus dihindari.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Latihan mandiri untuk station anamnesis neurologi harus mencakup aspek kognitif (tahu urutan dan red flags), komunikatif (bicara dengan nada setara, bahasa awam), dan sintetis (merangkum, menentukan arah diagnosis). Mahasiswa direkomendasikan berlatih minimal 3 sesi @ 30 menit dalam 3 hari sebelum OSCE, dengan peer-asessor yang menggunakan checklist 9 aspek di s02. Sesi 1 fokus pada Basic Seven dan red flags per skenario; sesi 2 fokus pada pemilihan jenis anamnesis (auto vs allo) dan komunikasi; sesi 3 fokus pada full simulation dengan skenario klinis lengkap (Tn. Hendra, Nn. Sari, Tn. Andi, atau An. Rina).",
+          "tone": "narrative",
+          "source": "§10 asli (Latihan cepat tiga hari sebelum OSCE)"
+        },
+        {
+          "text": "Rencana belajar 3 hari disusun sebagai berikut. Hari 1 (target: teori & klasifikasi): Baca modul ini, pahami 4 skenario dan arah diagnosisnya, pahami 5 kelompok defisit neurologis, hafal AIUEO TIPS dan SNOOP. Durasi 90-120 menit. Hari 2 (target: praktik): Latih pertanyaan Basic Seven per skenario pada teman/keluarga (5 repetisi per skenario), perhatikan red flags yang ditemukan, latih rangkuman 30 detik. Durasi 60-90 menit. Hari 3 (target: simulasi penuh): Full simulation dengan peer-asessor menggunakan checklist 9 aspek, masukkan skenario Tn. Hendra atau An. Rina (alloanamnesis) atau Nn. Sari/Tn. Andi (autoanamnesis), latih pembukaan + pelaksanaan + penutupan. Durasi 60-90 menit.",
+          "tone": "narrative",
+          "source": "PROMPT_MASTER_STAGE1 + penyesuaian topik anamnesis neurologi"
+        },
+        {
+          "text": "Kriteria 'siap OSCE': (1) Mampu memilih jenis anamnesis (auto vs allo) yang tepat dalam 30 detik pertama; (2) Mampu menggali Basic Seven secara sistematis sesuai keluhan; (3) Mampu menyaring red flags sebelum terlalu dalam; (4) Mampu merangkum dengan bahasa awam dan mengkonfirmasi ke pasien/keluarga; (5) Mampu menentukan diagnosis kerja dan diagnosis banding per skenario; (6) Mampu menyebutkan rencana (observasi, pemeriksaan penunjang, rujukan); (7) Tidak melakukan kesalahan fatal (lihat danger callouts di bawah).",
+          "tone": "narrative",
+          "source": "PROMPT_MASTER_STAGE1"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Checklist latihan mandiri (21 item, label TINGGI/SEDANG):",
+          "sub": [
+            "[TINGGI] Salam dan memperkenalkan diri saat masuk station",
+            "[TINGGI] Konfirmasi identitas pasien/pengantar sebelum memulai",
+            "[TINGGI] Menjelaskan tujuan wawancara dan jenis pertanyaan yang akan ditanyakan",
+            "[TINGGI] Meminta izin secara eksplisit ('Apakah Bapak/Ibu/Keluarga bersedia?')",
+            "[TINGGI] Memilih jenis anamnesis (autoanamnesis vs alloanamnesis) yang tepat",
+            "[TINGGI] Menanyakan keluhan utama dengan pertanyaan terbuka",
+            "[TINGGI] Menggali Basic Seven sesuai keluhan (onset, lokasi, kronologi, kualitas, kuantitas, faktor, gejala penyerta)",
+            "[TINGGI] Menyaring red flags sebelum terlalu detail (penurunan kesadaran, kejang, demam, trauma, defisit fokal, thunderclap)",
+            "[TINGGI] Menanyakan TLKW (Time Last Known Well) pada pasien tidak sadar",
+            "[TINGGI] Menggunakan AIUEO TIPS untuk klasifikasi toksik-metabolik pada penurunan kesadaran",
+            "[TINGGI] Menggali RPD: hipertensi, DM, jantung, TBC, HIV, kanker, stroke, kejang, obat, kepatuhan",
+            "[TINGGI] Menggali RKK: stroke muda, migren, epilepsi, Parkinson, ALS, TBC",
+            "[TINGGI] Menggali kebiasaan-sosial-ekonomi: merokok, alkohol, NAPZA, tidur, pekerjaan",
+            "[TINGGI] Merangkum dengan bahasa awam dan meminta konfirmasi",
+            "[TINGGI] Menentukan diagnosis kerja dan diagnosis banding",
+            "[TINGGI] Menyebutkan rencana (observasi, pemeriksaan penunjang, rujukan)",
+            "[TINGGI] Menutup wawancara dengan ucapan terima kasih dan salam profesional",
+            "[SEDANG] Menggunakan AIUEO TIPS untuk klasifikasi toksik-metabolik",
+            "[SEDANG] Menggunakan SNOOP untuk skrining nyeri kepala sekunder",
+            "[SEDANG] Mendokumentasikan hasil dalam format SOAP",
+            "[SEDANG] Menyebutkan kode ICD-10 yang relevan untuk skenario"
+          ],
+          "bold": true,
+          "source": "PROMPT_MASTER_STAGE1 + penyesuaian topik anamnesis neurologi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Konfirmasi Identitas",
+          "text": "Tidak konfirmasi identitas — Mengapa fatal: identitas adalah item pertama checklist (2 poin); tanpa konfirmasi, langsung kehilangan 11% nilai. Cara menghindari: biasakan konfirmasi identitas sebagai refleks pertama.",
+          "answer_evidence": "Checklist OSCE 9 Aspek Prioritas (Tabel 11 asli)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Meminta Izin",
+          "text": "Tidak meminta izin (consent) — Mengapa fatal: tindakan klinis tanpa consent = pelanggaran etika dan hukum; penguji langsung memberi nilai 0 pada aspek informed consent. Cara menghindari: selalu ucapkan 'Apakah Bapak/Ibu/Keluarga bersedia?' sebelum memulai.",
+          "answer_evidence": "Etika dan hukum kedokteran"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Menyaring Red Flags",
+          "text": "Tidak menyaring red flags — Mengapa fatal: melewatkan stroke, meningitis, atau status epileptikus = pasien bisa meninggal atau cacat permanen; penguji menilai ini sebagai kemampuan clinical reasoning yang fatal. Cara hindari: gunakan checklist red flags sebelum terlalu detail.",
+          "answer_evidence": "Praktik klinis neurologi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Menanyakan TLKW",
+          "text": "Tidak menanyakan TLKW pada pasien tidak sadar — Mengapa fatal: window terapi stroke iskemik (4.5 jam) tidak bisa ditentukan tanpa TLKW; pasien kehilangan kesempatan trombolisis. Cara hindari: biasakan menanyakan 'Kapan terakhir kali pasien terlihat normal?' pada Skenario 1 dan 4.",
+          "answer_evidence": "AHA/ASA Guidelines 2019"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Menggunakan AIUEO TIPS",
+          "text": "Tidak menggunakan AIUEO TIPS — Mengapa fatal: pada Skenario 1, klasifikasi toksik-metabolik adalah komponen skor utama; tanpa AIUEO TIPS, kesan klinis tidak lengkap. Cara hindari: gunakan AIUEO TIPS sebagai checklist mental pada setiap pasien penurunan kesadaran.",
+          "answer_evidence": "Pendidikan kedokteran darurat"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak Merangkum",
+          "text": "Tidak merangkum — Mengapa fatal: rangkuman adalah item checklist ke-8 (2 poin); tanpa rangkuman, kehilangan 11% nilai dan penguji tidak tahu Anda mendengar apa. Cara hindari: biasakan merangkum dengan bahasa awam dan mengkonfirmasi ke pasien/keluarga.",
+          "answer_evidence": "Checklist OSCE 9 Aspek Prioritas (Tabel 11 asli)"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Vertigo Tanpa Skrining Sentral",
+          "text": "Pada vertigo, tidak menyaring tanda sentral — Mengapa fatal: melewatkan stroke posterior yang bermanifestasi sebagai vertigo = pasien kehilangan window terapi stroke. Cara hindari: selalu tanya diplopia, disartria, disfagia, hemiparesis, baal wajah, ataksia berat pada setiap pasien vertigo.",
+          "answer_evidence": "Bhattacharyya et al. BPPV Clinical Practice Guideline 2017"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "[SEDANG] Tidak Mengklasifikasikan Defisit",
+          "text": "Tidak mengklasifikasikan defisit — pengurang nilai besar: kemampuan mengklasifikasikan keluhan ke 5 kelompok defisit adalah komponen skor utama; tanpa klasifikasi, clinical reasoning tidak tampak.",
+          "answer_evidence": "Praktik clinical reasoning neurologi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "[SEDANG] Terlalu Lama untuk Keluhan Utama",
+          "text": "Terlalu banyak waktu untuk keluhan utama — pengurang nilai: habiskan 4-5 menit untuk keluhan utama, lalu ganti ke RPD/RKK/sosial-ekonomi; jangan gali keluhan utama >5 menit.",
+          "answer_evidence": "Manajemen waktu OSCE"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "[SEDANG] Tidak Menyebutkan Rencana",
+          "text": "Tidak menyebutkan rencana — pengurang nilai: kesan klinis tanpa rencana (observasi, penunjang, rujukan) = kesan terasa menggantung; penguji ingin melihat kemampuan clinical decision making.",
+          "answer_evidence": "Praktik clinical decision making"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_anamnesis_aiueo_tips_06",
+        "gls_anamnesis_snoop_07",
+        "gls_anamnesis_tlkw_05",
+        "gls_anamnesis_red_flags_13"
+      ],
+      "bilingual": "Section ini mengajarkan rencana belajar 3 hari (hari 1 teori 90-120 menit, hari 2 praktik 60-90 menit, hari 3 simulasi penuh 60-90 menit) dan 7 kesalahan fatal yang harus dihindari pada OSCE anamnesis neurologi."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Visual yang disarankan, lampiran klinis (kontraindikasi, masalah & respons, mini-case, kalimat pembuka), dan referensi lengkap AHA/ASA, IDSA, ICHD-3, KKI.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Bagian ini mencakup visual/gambar pendukung yang disarankan untuk memperjelas modul, lampiran klinis (kontraindikasi, masalah & respons, mini-case, kalimat pembuka), dan referensi untuk pendalaman. Visual sangat penting untuk topik anamnesis neurologi karena pola tanya dan alur klinis sulit dijelaskan hanya dengan teks — diagram pohon keputusan, infografis, dan video adalah alat bantu yang sangat efektif. Lampiran A — Kontraindikasi/Red Flags merangkum situasi yang harus menghentikan atau memodifikasi anamnesis. Lampiran B — Masalah & Respons memberikan panduan untuk menghadapi situasi tak terduga (pasien menolak, keluarga emosional, dll.). Lampiran C — Mini-Case menyajikan 4 skenario latihan dengan kunci jawaban untuk menguji pemahaman (sudah ada di s01 dan s06). Lampiran D — Kalimat Pembuka Station memberikan 8 kalimat siap ucap yang bisa langsung digunakan mahasiswa.",
+          "tone": "narrative",
+          "source": "§9 asli (Visual/gambar pendukung dan prompt AI)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Visual yang disarankan dibuat (dengan deskripsi pedagogis):",
+          "sub": [
+            "Algoritma pohon keputusan autoanamnesis vs alloanamnesis — diagram alur berdasarkan kesadaran, kooperatif, usia",
+            "Infografis Basic Seven per keluhan — peta visual 7 aspek dengan contoh pertanyaan",
+            "Poster AIUEO TIPS — mnemonic visual untuk klasifikasi toksik-metabolik",
+            "Infografis SNOOP — mnemonic untuk red flags nyeri kepala sekunder",
+            "Diagram 5 kelompok defisit neurologis — diagram kotak dengan keluhan khas",
+            "Flowchart rangkuman 30 detik — template format 'pasien X dengan Y sejak K, disertai L, dengan riwayat M → kesan N, rencana O'",
+            "Timeline skenario stroke — infografis horizontal dengan TLKW, onset, CT scan, trombolisis",
+            "Diagram perifer vs sentral vertigo — dua kolom dengan fitur pembeda"
+          ],
+          "bold": true,
+          "source": "Tabel 15 asli (Gambar yang disarankan dan prompt AI)"
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi/Red Flags Situasi Khusus Anamnesis:",
+          "sub": [
+            "Pasien tidak sadar → alloanamnesis ke keluarga/pengantar",
+            "Pasien gaduh/curiga → de-eskalasi, jangan konfrontasi",
+            "Pasien anak → libatkan orang tua sebagai sumber informasi utama",
+            "Pasien menolak → hormati hak pasien, dokumentasikan",
+            "Keluarga dalam kondisi syok → edukasi bertahap, singkat"
+          ],
+          "bold": true,
+          "source": "Tabel 11.A Lampiran A"
+        },
+        {
+          "text": "Lampiran B — Masalah & Respons Saat Anamnesis:",
+          "sub": [
+            "Keluarga tidak tahu TLKW → 'Tidak apa-apa, Bu. Kami akan dokumentasikan waktu onset tidak dapat dipastikan dan tetap merujuk Bapak untuk evaluasi.'",
+            "Pasien tidak kooperatif → Ganti ke alloanamnesis: 'Baik, Bu. Saya akan berbicara dengan Ibu/Ayah untuk informasi lebih lanjut.'",
+            "Bahasa tidak dipahami → Minta keluarga bilingual atau juru bahasa; gunakan bahasa isyarat sederhana.",
+            "Pasien bicara pelo/afasia → Gunakan kalimat sederhana, ya/tidak, gestur; sabar, jangan paksa.",
+            "Penguji bertanya 'Apa yang Anda simpulkan?' → Gunakan rangkuman 30 detik.",
+            "Anda lupa urutan Basic Seven → Kembali ke prinsip: Onset → Lokasi → Kronologi → Kualitas → Kuantitas → Faktor → Gejala penyerta.",
+            "Anda bingung memilih auto vs allo → Cek: pasien sadar dan kooperatif? → auto. Pasien tidak sadar, gaduh, anak? → allo.",
+            "Keluarga panik dan tidak bisa jawab → Tenangkan, beri jeda, tawarkan air; mulai dari pertanyaan sederhana."
+          ],
+          "bold": true,
+          "source": "Tabel 11.B Lampiran B"
+        },
+        {
+          "text": "8 Kalimat Pembuka Station Anamnesis Neurologi (Siap Ucap):",
+          "sub": [
+            "'Selamat pagi, Pak/Bu. Perkenalkan, saya [nama], mahasiswa kedokteran yang akan melakukan wawancara hari ini. Sebelum mulai, boleh saya konfirmasi identitas Bapak/Ibu?'",
+            "'Tn. Hendra, 58 tahun, benar? Baik, Pak/Bu. Saya akan menanyakan beberapa hal tentang kronologi keluhan untuk membantu tim medis memahami kemungkinan penyebabnya.'",
+            "'Wawancara akan berlangsung sekitar 8-10 menit. Apakah Bapak/Ibu/Keluarga bersedia?'",
+            "'Sebelum kita masuk ke detail, saya perlu bertanya beberapa hal penting: Kapan terakhir kali Bapak/Ibu terlihat normal? Apakah ada kejang, demam, trauma kepala, atau kelemahan satu sisi?'",
+            "'Baik, Pak/Bu. Bisa ceritakan bagaimana awal mulanya? Apakah keluhan muncul tiba-tiba atau bertahap? Apakah ada gejala penyerta seperti nyeri kepala, muntah, atau kelemahan anggota gerak?'",
+            "'Saya juga perlu menanyakan beberapa hal tentang riwayat kesehatan Bapak/Ibu. Apakah ada riwayat hipertensi, diabetes, sakit jantung, TBC, HIV, atau pernah stroke sebelumnya?'",
+            "'Baik, Pak/Bu/Keluarga, dari cerita Bapak/Ibu, saya rangkum ya. Keluhan utama [XXX] sejak [durasi], disertai [gejala penyerta], dengan riwayat [RPD/RKK]. Kesan awal saya adalah [diagnosis kerja]. Apakah ada yang perlu ditambah atau dikoreksi?'",
+            "'Terima kasih banyak, Pak/Bu/Keluarga, sudah bersedia bercerita. Informasi ini sangat membantu tim medis. Selanjutnya, saya akan [rencana pemeriksaan/rujukan]. Apakah ada pertanyaan dari Bapak/Ibu?'"
+          ],
+          "bold": true,
+          "source": "Tabel 11.C Lampiran D"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk Visual",
+          "text": "Prompt AI untuk membuat visual (lihat Tabel 15 asli): 'Buat infografis berisi timeline stroke/penurunan kesadaran: keluarga menjelaskan waktu terakhir normal, onset nyeri kepala, muntah, kelemahan kanan, tidak sadar; timeline horizontal; bahasa Indonesia.' / 'Buat poster red flags nyeri kepala (SNOOP): sudden onset, neurologic deficit, fever/neck stiffness, older age, pregnancy, cancer/HIV, trauma, progressive; ikon medis jelas.' / 'Buat diagram dua kolom BPPV perifer vs stroke posterior sentral, durasi, pemicu, nistagmus, defisit neurologis, red flags, bahasa Indonesia.' / 'Buat ilustrasi saksi mata kejang: awal, gerakan, durasi, mata, lidah, urine, fase pascaiktal; checklist anamnesis.' / 'Buat mind map Basic Seven neurologi: onset-lokasi-kronologi-kualitas-kuantitas-faktor-gejala penyerta, dengan contoh untuk headache, vertigo, seizure.'",
+          "answer_evidence": "Tabel 15 asli (Gambar yang disarankan dan prompt AI)"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Panduan Klinis Internasional",
+          "text": "Panduan klinis: American Heart Association/American Stroke Association (AHA/ASA) Guidelines for Early Management of Patients with Acute Ischemic Stroke; IDSA Practice Guidelines for Bacterial Meningitis; International Headache Society Classification (ICHD-3); Bhattacharyya et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Otology–Neurotology 2017).",
+          "answer_evidence": "Multiple guideline references — see Referensi lengkap below"
+        }
+      ],
+      "visual_refs": [
+        "visual_anamnesis_algoritma_keputusan_01",
+        "visual_anamnesis_basic_seven_infografis_01",
+        "visual_anamnesis_aiueo_tips_poster_01",
+        "visual_anamnesis_snoop_red_flags_01",
+        "visual_anamnesis_vertigo_perifer_sentral_01",
+        "visual_anamnesis_basic_seven_map_01",
+        "visual_anamnesis_timeline_stroke_01",
+        "visual_anamnesis_kejang_witness_01"
+      ],
+      "glossary_refs": [
+        "gls_anamnesis_basic_seven_04",
+        "gls_anamnesis_aiueo_tips_06",
+        "gls_anamnesis_snoop_07",
+        "gls_anamnesis_tlkw_05"
+      ],
+      "bilingual": "Section ini menyediakan visual asset requirements (8 visual), lampiran klinis (A: kontraindikasi, B: masalah & respons, D: 8 kalimat pembuka), dan referensi lengkap AHA/ASA, IDSA, ICHD-3, ILAE, KKI, Bates, Merritt's Neurology."
+    }
+  ]
+}

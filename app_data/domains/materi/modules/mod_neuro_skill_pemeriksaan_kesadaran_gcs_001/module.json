@@ -1,0 +1,1367 @@
+{
+  "id": "mod_neuro_skill_pemeriksaan_kesadaran_gcs_001",
+  "title": "Pemeriksaan Kesadaran dengan Glasgow Coma Scale (GCS)",
+  "subtitle": "Modul OSCE awam-komprehensif berbasis checklist untuk menilai Eye-Verbal-Motor, memberi rangsang bertahap, menghitung skor, dan melaporkan interpretasi GCS.",
+  "domain": "neuro_skill",
+  "batch_id": "batch_3",
+  "source_pdf": "Batch3_File1_Modul_OSCE_6_3_Pemeriksaan_Kesadaran_GCS.txt",
+  "source_filename": "Batch3_File1_Modul_OSCE_6_3_Pemeriksaan_Kesadaran_GCS.txt",
+  "topicTags": [
+    "osce_6_3",
+    "neurologi",
+    "gcs",
+    "glasgow_coma_scale",
+    "pemeriksaan_kesadaran",
+    "derajat_kesadaran",
+    "penilaian_neurologi",
+    "eye_verbal_motor",
+    "airway_management"
+  ],
+  "summary": [
+    "GCS menilai tiga komponen Eye (E4-E1), Verbal (V5-V1), dan Motor (M6-M1) dengan total skor 3-15 untuk mengukur tingkat kesadaran pasien secara terstandar.",
+    "Interpretasi GCS: 15 = compos mentis, 13-14 = somnolen/letargi, 8-12 = soporo-komatus, 3-7 = koma. GCS ≤ 8 adalah emergensi yang membutuhkan intubasi dan rujukan ICU.",
+    "Stimulus bertahap WAJIB: observasi spontan → panggil suara → rangsang nyeri. Jangan langsung memberi stimulus nyeri tanpa mencoba observasi dan suara terlebih dahulu.",
+    "Pelaporan ke penguji harus dalam format E-V-M-total-interpretasi, BUKAN hanya total GCS. Contoh benar: 'E2 V3 M4, total GCS 9, soporo-komatus'.",
+    "Kondisi Not Testable (NT): intubasi/ETT (V-NT), cedera wajah berat (E-NT), afasia (V-NT), fraktur/kelumpuhan ekstremitas (M-NT) — tulis dan jelaskan alasan, jangan memaksakan skor palsu.",
+    "GCS bukan diagnosis akhir; GCS adalah alat monitoring kesadaran. Diagnosis etiologi (stroke, meningitis, intoksikasi, metabolik) memerlukan anamnesis, pemeriksaan fisik lengkap, dan penunjang.",
+    "Posisi rangsang nyeri yang aman: nail bed pressure, trapezius squeeze, supraorbital notch pressure, atau sternal rub sesuai supervisi lokal — hindari area luka atau sensitif."
+  ],
+  "exam_focus": [
+    "Komponen Eye (E4-E1) — kemampuan membedakan E4 (spontan), E3 (suara), E2 (nyeri), E1 (tidak ada) dengan stimulus bertahap.",
+    "Komponen Verbal (V5-V1) — kemampuan menilai orientasi (V5), bingung (V4), kata acak (V3), suara (V2), tidak ada (V1), dan menulis V-NT untuk intubasi/cedera/afasia.",
+    "Komponen Motor (M6-M1) — kemampuan membedakan M6 (ikut perintah), M5 (lokalisir), M4 (withdrawal), M3 (dekortikasi), M2 (deserebrasi), M1 (tidak ada), dan menulis M-NT untuk fraktur/kelumpuhan.",
+    "Pelaporan E-V-M-total-interpretasi WAJIB, bukan hanya total GCS. Format standar OSCE yang membedakan kelulusan.",
+    "Stimulus bertahap (spontan → suara → nyeri) adalah prinsip utama yang membedakan mahasiswa yang memahami vs yang menghafal.",
+    "Kondisi NT (Not Testable) — intubasi → V-NT, cedera wajah → E-NT, afasia → V-NT, fraktur/kelumpuhan → M-NT. Jangan memaksakan skor.",
+    "Red flags penurunan kesadaran — GCS ≤ 8, kejang berulang, trauma kepala, pupil anisokor, muntah proyektil, TRM positif, hipoglikemia.",
+    "Tindak lanjut pasca-GCS: ABCDE, GDS (Jangan Lupakan Glukosa), defisit fokal, TRM, rujukan/kolaborasi.",
+    "Fisiologi kesadaran: ARAS (Ascending Reticular Activating System), talamus, dan korteks serebri sebagai dasar pemahaman.",
+    "Diagnosis banding dengan mnemonic AEIOU-TIPS: Alcohol, Endocrine, Infection, Overdose, Uremia, Tumor, Insulin, Poisoning, Stroke/Seizure/Shock."
+  ],
+  "glossary": [
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_01",
+      "term": "GCS (Glasgow Coma Scale)",
+      "def": "Glasgow Coma Scale adalah sistem penilaian tingkat kesadaran yang dikembangkan oleh Teasdale dan Jennett (1974) di Universitas Glasgow. Terdiri dari tiga komponen: Eye (E4-E1), Verbal (V5-V1), dan Motor (M6-M1), dengan total skor minimal 3 dan maksimal 15. Skor rendah menunjukkan penurunan kesadaran yang lebih berat, dengan GCS ≤ 8 menunjukkan koma yang memerlukan proteksi jalan napas.",
+      "type": "score",
+      "aliases": [
+        "Skala Koma Glasgow",
+        "GCS",
+        "Skor GCS"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_02",
+      "term": "Compos Mentis",
+      "def": "Keadaan sadar penuh dengan GCS 15 (E4 V5 M6), mampu menjawab pertanyaan orientasi (nama, tempat, waktu) dengan benar dan mengikuti perintah sederhana. Merupakan status kesadaran normal.",
+      "type": "clinical",
+      "aliases": [
+        "Sadar penuh",
+        "Fully conscious",
+        "Alert"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_03",
+      "term": "Somnolen/Letargi",
+      "def": "Penurunan kesadaran ringan dengan GCS 13-14, pasien tampak mengantuk, mudah dibangunkan, namun bila stimulus dihentikan pasien kembali tertidur. Respons terhadap rangsang masih baik.",
+      "type": "clinical",
+      "aliases": [
+        "Somnolence",
+        "Lethargy",
+        "Mengantuk"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_04",
+      "term": "Soporo-Komatus",
+      "def": "Penurunan kesadaran sedang-berat dengan GCS 8-12, pasien sulit dibangunkan, respons terhadap stimulus berkurang, dan membutuhkan rangsang nyeri untuk respons minimal. Perlu evaluasi ABCDE dan observasi ketat.",
+      "type": "clinical",
+      "aliases": [
+        "Stupor to coma",
+        "Soporus"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_05",
+      "term": "Koma",
+      "def": "Keadaan tidak sadar dengan GCS 3-7 (atau ≤ 8), pasien tidak dapat dibangunkan, tidak ada respons membuka mata, tidak ada respons verbal, dan hanya ada respons motorik minimal (atau tidak ada) terhadap rangsang nyeri. GCS ≤ 8 merupakan indikasi intubasi untuk proteksi jalan napas.",
+      "type": "clinical",
+      "aliases": [
+        "Coma",
+        "Tidak sadar"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_06",
+      "term": "ARAS (Ascending Reticular Activating System)",
+      "def": "Jaringan neuron di batang otak (pons, mesensefalon) yang memproyeksikan ke talamus dan korteks serebri, berfungsi untuk mempertahankan kesadaran dan arousal. Lesi pada ARAS menyebabkan penurunan kesadaran sampai koma.",
+      "type": "anatomy",
+      "aliases": [
+        "Sistem Aktivasi Retikuler Ascenden",
+        "SARA",
+        "Ascending Reticular Activating System"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_07",
+      "term": "NT (Not Testable)",
+      "def": "Status 'tidak dapat dinilai' untuk komponen GCS tertentu bila ada kondisi klinis yang mencegah penilaian akurat, seperti intubasi/ETT (V-NT), cedera wajah/edema palpebra berat (E-NT), afasia berat (V-NT), atau fraktur/kelumpuhan ekstremitas (M-NT). Jangan memaksakan skor palsu; laporkan apa yang dapat dinilai dan jelaskan alasannya.",
+      "type": "clinical",
+      "aliases": [
+        "Not Testable",
+        "Tidak dapat dinilai",
+        "E-NT",
+        "V-NT",
+        "M-NT"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_08",
+      "term": "Stimulus Bertahap",
+      "def": "Prinsip rangsang pada pemeriksaan GCS yang dimulai dari stimulus teringan ke terberat: observasi spontan (5-10 detik) → panggil nama/perintah (suara) → rangsang nyeri (nail bed/trapezius/supraorbital). Tujuannya untuk menghormati pasien, menghindari rangsang nyeri yang tidak perlu, dan menangkap respons terbaik.",
+      "type": "procedure",
+      "aliases": [
+        "Graded stimulus",
+        "Tangga stimulus",
+        "Stimulus progression"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_09",
+      "term": "Dekortikasi (M3)",
+      "def": "Pola respons motorik abnormal berupa fleksi adduksi lengan ke dada dengan ekstensi tungkai, menunjukkan lesi di atas talamus (korteks/subkorteks) dengan gangguan traktus kortikospinalis. Berbeda dengan deserebrasi (M2) yang menunjukkan lesi batang otak.",
+      "type": "clinical",
+      "aliases": [
+        "Decorticate posturing",
+        "M3",
+        "Fleksi abnormal"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_10",
+      "term": "Deserebrasi (M2)",
+      "def": "Pola respons motorik abnormal berupa ekstensi adduksi lengan dan ekstensi tungkai (pronasi), menunjukkan lesi di batang otak (pons atau mesensefalon). Prognosis lebih buruk dibanding dekortikasi karena menunjukkan gangguan fungsi batang otak.",
+      "type": "clinical",
+      "aliases": [
+        "Decerebrate posturing",
+        "M2",
+        "Ekstensi abnormal"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_11",
+      "term": "ABCDE",
+      "def": "Algoritme primary survey pada pasien trauma dan emergensi: Airway (jalan napas), Breathing (pernapasan), Circulation (sirkulasi), Disability (neurologis: GCS, pupil), Exposure (paparan: buka pakaian, periksa trauma). Digunakan untuk stabilisasi awal pasien dengan penurunan kesadaran.",
+      "type": "procedure",
+      "aliases": [
+        "Primary survey",
+        "Algoritme ABCDE"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_12",
+      "term": "AEIOU-TIPS",
+      "def": "Mnemonic untuk diagnosis banding penurunan kesadaran: A (Alcohol, Anoxia, Arrhythmia), E (Endocrine, Electrolytes), I (Infection), O (Overdose, Opiates), U (Uremia), T (Tumor, Toxins), I (Insulin), P (Poisoning, Psychiatric), S (Stroke, Seizure, Shock). Membantu mahasiswa untuk berpikir sistematis saat menghadapi pasien dengan penurunan kesadaran.",
+      "type": "clinical",
+      "aliases": [
+        "Mnemonic AEIOU-TIPS",
+        "Diagnosis banding penurunan kesadaran"
+      ]
+    },
+    {
+      "id": "gls_gcs_pemeriksaan_kesadaran_13",
+      "term": "Rangsang Nyeri",
+      "def": "Stimulus yang digunakan untuk menilai respons terburuk pada pasien dengan gangguan kesadaran. Teknik yang aman dan direkomendasikan: nail bed pressure (tekan kuku jari dengan pulpen/alat tumpul), trapezius squeeze (tekan otot trapezius bilateral), supraorbital notch pressure (tekan tepi orbita superior), atau sternal rub (gosok sternum dengan kepalan tangan). Jangan lakukan di area luka, sensitif, atau berlebihan.",
+      "type": "procedure",
+      "aliases": [
+        "Painful stimulus",
+        "Nail bed pressure",
+        "Trapezius squeeze",
+        "Supraorbital notch",
+        "Sternal rub"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_01",
+      "term_id": "Kesadaran",
+      "term_en": "Consciousness",
+      "context": "Kemampuan seseorang untuk terjaga, mengenali rangsangan, dan memberi respons yang sesuai; dalam bahasa Inggris juga disebut 'level of consciousness' atau 'arousal'."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_02",
+      "term_id": "Skala Koma Glasgow (GCS)",
+      "term_en": "Glasgow Coma Scale",
+      "context": "Sistem penilaian tingkat kesadaran yang menggunakan tiga komponen Eye, Verbal, Motor; dikembangkan oleh Teasdale dan Jennett (1974) di Glasgow."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_03",
+      "term_id": "Compos mentis",
+      "term_en": "Fully conscious / Alert",
+      "context": "Keadaan sadar penuh dengan GCS 15, mampu menjawab orientasi (nama, tempat, waktu) dan mengikuti perintah."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_04",
+      "term_id": "Somnolen/Letargi",
+      "term_en": "Somnolence / Lethargy",
+      "context": "Penurunan kesadaran ringan dengan GCS 13-14, tampak mengantuk, mudah dibangunkan."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_05",
+      "term_id": "Soporo-komatus",
+      "term_en": "Stupor to coma",
+      "context": "Penurunan kesadaran sedang-berat dengan GCS 8-12, sulit dibangunkan, butuh rangsang nyeri."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_06",
+      "term_id": "Koma",
+      "term_en": "Coma",
+      "context": "Keadaan tidak sadar dengan GCS ≤ 8, tidak dapat dibangunkan, memerlukan intubasi untuk proteksi jalan napas."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_07",
+      "term_id": "Tanda Rangsang Meningeal (TRM)",
+      "term_en": "Meningeal Signs",
+      "context": "Kaku kuduk, Brudzinski, Kernig yang menunjukkan iritasi meningen (meningitis, SAH)."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_08",
+      "term_id": "Dekortikasi (M3)",
+      "term_en": "Decorticate posturing",
+      "context": "Fleksi abnormal lengan ke dada, menunjukkan lesi di atas talamus."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_09",
+      "term_id": "Deserebrasi (M2)",
+      "term_en": "Decerebrate posturing",
+      "context": "Ekstensi abnormal lengan dan tungkai, menunjukkan lesi batang otak."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_10",
+      "term_id": "Sistem Aktivasi Retikuler Ascenden (ARAS)",
+      "term_en": "Ascending Reticular Activating System (ARAS)",
+      "context": "Jaringan neuron di batang otak yang mempertahankan kesadaran."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_11",
+      "term_id": "Rangsang nyeri",
+      "term_en": "Painful stimulus",
+      "context": "Rangsang untuk menilai respons terburuk (nail bed pressure, trapezius squeeze, supraorbital notch pressure, sternal rub)."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_12",
+      "term_id": "Tidak dapat dinilai (NT)",
+      "term_en": "Not Testable (NT)",
+      "context": "Status komponen GCS yang tidak dapat dinilai karena kondisi klinis (intubasi, cedera, afasia, fraktur)."
+    },
+    {
+      "id": "bil_gcs_pemeriksaan_kesadaran_13",
+      "term_id": "Pupil anisokor",
+      "term_en": "Anisocoria",
+      "context": "Pupil dengan ukuran berbeda antara kanan dan kiri, menunjukkan kemungkinan lesi fokal neurologis."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_gcs_tangga_stimulus_01",
+      "module_id": "mod_neuro_skill_pemeriksaan_kesadaran_gcs_001",
+      "section_id": "s04",
+      "type": "flowchart",
+      "generation_prompt": "Buat infografik tangga stimulus GCS Bahasa Indonesia, A4 portrait, dengan judul 'Tangga Stimulus GCS'. Tampilkan empat anak tangga berurutan dari bawah ke atas: 1) Spontan (E4) - ikon mata terbuka, warna hijau; 2) Suara (E3) - ikon mulut memanggil, warna kuning; 3) Nyeri (E2) - ikon tangan memberi tekanan, warna oranye; 4) Tidak Respon (E1) - ikon mata tertutup X, warna merah. Sertakan label komponen E di setiap tangga. Gaya klinis bersih, profesional, tanpa watermark, dengan font sans-serif dan warna kontras yang jelas untuk kebutuhan OSCE.",
+      "alt": "Infografik tangga stimulus GCS OSCE menampilkan empat tingkat rangsang dari bawah ke atas: Spontan (E4, hijau), Suara (E3, kuning), Nyeri (E2, oranye), dan Tidak Respon (E1, merah) untuk komponen Eye.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_kesadaran_gcs_001/assets/gcs_tangga_stimulus.png"
+    },
+    {
+      "id": "visual_gcs_tabel_skor_01",
+      "module_id": "mod_neuro_skill_pemeriksaan_kesadaran_gcs_001",
+      "section_id": "s04",
+      "type": "table",
+      "generation_prompt": "Buat kartu saku tabel skor GCS, ukuran 10x15 cm, Bahasa Indonesia. Tabel tiga kolom (E, V, M) dengan baris E4-E1, V5-V1, M6-M1. Setiap sel berisi skor, label, dan deskripsi singkat. Warna latar: hijau untuk skor normal (E4, V5, M6), kuning untuk skor gangguan ringan-sedang, merah untuk skor gangguan berat (E1, V1, M1, M2). Sertakan judul 'Glasgow Coma Scale' di atas, total skor di bawah, dan interpretasi warna. Format print-ready dengan font sans-serif 9-10 pt.",
+      "alt": "Kartu saku Tabel Skor GCS E-V-M dengan tiga kolom: Eye (E4-E1), Verbal (V5-V1), Motor (M6-M1), dengan pewarnaan interpretasi hijau-kuning-merah untuk status kesadaran.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_kesadaran_gcs_001/assets/gcs_tabel_skor.png"
+    },
+    {
+      "id": "visual_gcs_posisi_nyeri_01",
+      "module_id": "mod_neuro_skill_pemeriksaan_kesadaran_gcs_001",
+      "section_id": "s05",
+      "type": "illustration",
+      "generation_prompt": "Buat ilustrasi posisi rangsang nyeri yang aman untuk pemeriksaan GCS, A4 landscape. Tampilkan empat lokasi rangsang nyeri pada anatomi manusia: 1) Nail bed pressure - tekan kuku jari telunjuk/tengah dengan pulpen ujung tumpul; 2) Trapezius squeeze - tekan otot trapezius bilateral di antara leher dan bahu; 3) Supraorbital notch pressure - tekan tepi orbita superior dengan ibu jari; 4) Sternal rub - gosok sternum dengan kepalan tangan. Setiap lokasi ditandai dengan lingkaran merah dan label Bahasa Indonesia. Sertakan peringatan 'Jangan lakukan di area luka, sensitif, atau berlebihan' di bagian bawah. Gaya klinis bersih, warna natural, tanpa watermark.",
+      "alt": "Ilustrasi empat posisi rangsang nyeri aman untuk GCS: nail bed pressure pada kuku jari, trapezius squeeze di otot bahu, supraorbital notch pressure di tepi orbita, dan sternal rub di tulang dada, dengan label Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_kesadaran_gcs_001/assets/gcs_posisi_nyeri.png"
+    },
+    {
+      "id": "visual_gcs_aras_diagram_01",
+      "module_id": "mod_neuro_skill_pemeriksaan_kesadaran_gcs_001",
+      "section_id": "s01",
+      "type": "anatomy_3d",
+      "generation_prompt": "Buat diagram neuroanatomi Bahasa Indonesia yang menampilkan jalur Ascending Reticular Activating System (ARAS) dari batang otak ke talamus dan korteks serebri. Tampilkan: 1) Batang otak (pons dan mesensefalon) sebagai asal ARAS, warna biru; 2) Talamus sebagai relay station, warna kuning; 3) Korteks serebri sebagai target akhir, warna hijau. Sertakan panah merah untuk jalur ARAS ascending. Tampilkan lesi pada setiap area dengan efek klinis: lesi ARAS = koma; lesi talamus = gangguan arousal; lesi korteks luas = gangguan kesadaran. Format: diagram sederhana, label Bahasa Indonesia, gaya textbook neurologi, tanpa watermark.",
+      "alt": "Diagram neuroanatomi ARAS-Talamus-Korteks menampilkan jalur Ascending Reticular Activating System dari batang otak (pons, mesensefalon, warna biru) menuju talamus (warna kuning) sebagai relay station, hingga korteks serebri (warna hijau) sebagai target akhir kesadaran.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_kesadaran_gcs_001/assets/gcs_aras_diagram.png"
+    },
+    {
+      "id": "visual_gcs_algoritme_osce_01",
+      "module_id": "mod_neuro_skill_pemeriksaan_kesadaran_gcs_001",
+      "section_id": "s02",
+      "type": "flowchart",
+      "generation_prompt": "Buat flowchart algoritme GCS OSCE dalam satu halaman A4 portrait Bahasa Indonesia. Tampilkan alur dari atas ke bawah: 1) Salam + Informed Consent (kotak hijau); 2) Cuci tangan 6 langkah (kotak hijau); 3) Observasi spontan 5-10 detik (kotak biru); 4) Komponen Eye (E4-E1) dengan percabangan; 5) Komponen Verbal (V5-V1) dengan percabangan; 6) Komponen Motor (M6-M1) dengan percabangan; 7) Hitung total GCS (kotak oranye); 8) Interpretasi (4 cabang: compos mentis, somnolen, soporo-komatus, koma); 9) Tindak lanjut (kotak merah). Warna: hijau untuk persiapan, biru untuk observasi, oranye untuk keputusan, merah untuk tindak lanjut. Gaya klinis bersih, ikon profesional, font sans-serif, tanpa watermark.",
+      "alt": "Flowchart algoritme GCS OSCE satu halaman menampilkan alur lengkap dari salam, informed consent, cuci tangan, observasi spontan, komponen Eye/Verbal/Motor, perhitungan total, interpretasi rentang skor, hingga tindak lanjut klinis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_kesadaran_gcs_001/assets/gcs_algoritme_osce.png"
+    },
+    {
+      "id": "visual_gcs_aetiou_tips_01",
+      "module_id": "mod_neuro_skill_pemeriksaan_kesadaran_gcs_001",
+      "section_id": "s06",
+      "type": "illustration",
+      "generation_prompt": "Buat infografik mnemonic AEIOU-TIPS Bahasa Indonesia, A4 portrait. Tampilkan sembilan huruf besar (A, E, I, O, U, T, I, P, S) dalam bentuk vertikal atau grid, dengan warna berbeda untuk setiap huruf. Setiap huruf disertai daftar penyebab: A = Alcohol, Anoxia, Arrhythmia; E = Endocrine, Electrolytes; I = Infection; O = Overdose, Opiates; U = Uremia; T = Tumor, Toxins; I = Insulin; P = Poisoning, Psychiatric; S = Stroke, Seizure, Shock. Format: mnemonic card, warna kontras, font sans-serif bold untuk huruf, font reguler untuk daftar. Gaya klinis bersih, tanpa watermark, untuk dicetak dan ditempel di ruang skills lab.",
+      "alt": "Infografik mnemonic AEIOU-TIPS untuk diagnosis banding penurunan kesadaran: A (Alcohol, Anoxia, Arrhythmia), E (Endocrine, Electrolytes), I (Infection), O (Overdose, Opiates), U (Uremia), T (Tumor, Toxins), I (Insulin), P (Poisoning, Psychiatric), S (Stroke, Seizure, Shock).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_neuro_skill_pemeriksaan_kesadaran_gcs_001/assets/gcs_aetiou_tips.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Mnemonic AEIOU-TIPS untuk diagnosis banding penurunan kesadaran",
+      "source_reference": "Pendidikan kedokteran darurat dan modul AEIOU-TIPS standar",
+      "confidence": "high",
+      "note": "Mnemonic AEIOU-TIPS ditambahkan untuk membantu diagnosis banding penurunan kesadaran secara sistematis. Umum digunakan dalam pendidikan kedokteran darurat."
+    },
+    {
+      "section_id": "s07",
+      "type": "callout",
+      "source_query": "Rekomendasi guideline nasional dan internasional untuk tatalaksana pasien penurunan kesadaran",
+      "source_reference": "NICE Guideline NG51 dan AHA ACLS Guidelines",
+      "confidence": "high",
+      "note": "Rekomendasi guideline nasional/internasional untuk tatalaksana pasien penurunan kesadaran."
+    },
+    {
+      "section_id": "s07",
+      "type": "content",
+      "source_query": "Panduan nasional Indonesia dan internasional untuk stroke, meningitis, dan emergensi neurologis",
+      "source_reference": "PERDOSSI dan IDSA Practice Guidelines",
+      "confidence": "high",
+      "note": "Panduan nasional Indonesia dan internasional untuk stroke, meningitis, dan emergensi neurologis."
+    },
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Contoh SOAP lengkap pasien stroke iskemik dengan penurunan kesadaran",
+      "source_reference": "Contoh SOAP fiktif untuk latihan OSCE",
+      "confidence": "high",
+      "note": "Contoh SOAP lengkap dengan data pasien fiktif yang konsisten untuk latihan OSCE."
+    },
+    {
+      "section_id": "s10",
+      "type": "callout",
+      "source_query": "Kesalahan fatal yang sering terjadi pada station OSCE Pemeriksaan Kesadaran GCS",
+      "source_reference": "Pengalaman OSCE dan literatur kesalahan umum",
+      "confidence": "high",
+      "note": "Daftar kesalahan fatal dan cara menghindari yang dikompilasi dari pengalaman OSCE dan literatur."
+    },
+    {
+      "section_id": "s11",
+      "type": "visual",
+      "source_query": "Prompt AI untuk generate infografik GCS OSCE",
+      "source_reference": "Image generator: Midjourney, DALL-E, Stable Diffusion",
+      "confidence": "medium",
+      "note": "Prompt AI dalam Bahasa Indonesia untuk membuat visual via image generator (Midjourney, DALL-E, Stable Diffusion)."
+    },
+    {
+      "section_id": "s06",
+      "type": "glossary",
+      "source_query": "Lokalisasi lesi neurologis berdasarkan pola respons motorik GCS",
+      "source_reference": "Modul kampus dan referensi standar neurologi",
+      "confidence": "high",
+      "note": "Penambahan informasi tentang lokalisasi lesi berdasarkan pola respons GCS (M3 = lesi di atas talamus, M2 = lesi batang otak)."
+    },
+    {
+      "section_id": "GLOSSARY",
+      "type": "glossary",
+      "source_query": "Definisi istilah klinis kunci untuk modul GCS",
+      "source_reference": "Modul kampus dan referensi standar",
+      "confidence": "high",
+      "note": "Glosarium 13 istilah klinis kunci yang didefinisikan untuk membantu pemahaman mahasiswa."
+    },
+    {
+      "section_id": "s04",
+      "type": "table",
+      "source_query": "Format terstruktur tabel skor E-V-M GCS untuk hafalan dan referensi",
+      "source_reference": "Modul kampus dan Tabel Skor GCS standar",
+      "confidence": "high",
+      "note": "Tabel E-V-M dalam format terstruktur untuk memudahkan hafalan dan referensi."
+    },
+    {
+      "section_id": "s05",
+      "type": "content",
+      "source_query": "Algoritme ABCDE untuk stabilisasi awal pasien dengan penurunan kesadaran",
+      "source_reference": "ATLS, ACLS, dan Primary Survey standar",
+      "confidence": "high",
+      "note": "Algoritme ABCDE (Airway-Breathing-Circulation-Disability-Exposure) untuk stabilisasi awal pasien."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber, skenario klinis, dan komponen yang dinilai di station OSCE Pemeriksaan Kesadaran GCS.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Modul ini berasal dari Modul kampus Pemeriksaan Kesadaran, Blok 6.3 Neuro-Psikiatri, halaman 18-23, yang merupakan bagian dari penuntun keterampilan klinik OSCE tahun ajaran aktif. File sumber adalah dokumen PDF yang memuat teori singkat tentang fisiologi kesadaran, tabel skor GCS, rubrik penilaian OSCE, serta instruksi pelaporan. Selain itu, modul ini mengintegrasikan SKDI 4A Batch 2 IKA-Geriatri-Neurologi-Psikiatri yang berisi daftar penyakit level 4A relevan untuk konteks awal OSCE. Topik ini masuk dalam Domain 3 (Neurologi dan Psikiatri) dengan fokus pada pemeriksaan fisik neurologis murni (bukan psikiatri), sehingga pendekatan utama adalah observasi-klasifikasi-pelaporan terhadap tiga komponen kesadaran.",
+          "tone": "narrative",
+          "source": "Modul kampus Pemeriksaan Kesadaran hlm. 18-19, 22-23; SKDI 4A Batch 2 Neuro-Psikiatri"
+        },
+        {
+          "text": "Skenario klinis yang paling sering keluar di OSCE Blok 6.3 antara lain: (1) Pasien penurunan kesadaran mendadak di IGD dengan kemungkinan stroke hemoragik atau iskemik; (2) Pasien pasca-kejang yang masih mengantuk dan perlu dinilai apakah fase postiktal atau status epileptikus non-konvulsif; (3) Pasien trauma kepala dengan GCS fluktuatif yang memerlukan observasi ketat; (4) Pasien demam + kaku kuduk dengan suspek meningitis/ensefalitis; (5) Pasien intoksikasi (alkohol, obat) dengan pupil dan respirasi abnormal; dan (6) Pasien gangguan metabolik (hipoglikemia, hiperglikemia, sepsis) dengan kesadaran menurun. Pada station OSCE, mahasiswa akan diminta menilai kesadaran dengan GCS secara bergantian pada pasien simulasi (manusia/standardized patient) atau manikin, lalu melaporkan hasil ke penguji.",
+          "tone": "clinical",
+          "source": "Modul kampus Pemeriksaan Kesadaran hlm. 18-19, 22-23"
+        },
+        {
+          "text": "Yang paling sering dinilai di station ini adalah: (a) kemampuan melakukan salam, identifikasi, dan informed consent secara benar; (b) urutan stimulus bertahap yang benar (spontan → suara → nyeri); (c) kemampuan membedakan respons E, V, M secara akurat; (d) pelaporan GCS dalam format E-V-M-total-interpretasi (BUKAN hanya total); (e) penyebutan kondisi Not Testable (NT) bila ada keterbatasan; (f) tindak lanjut klinis pasca-pemeriksaan (ABCDE, GDS, defisit fokal, TRM, rujukan); dan (g) kemampuan menjawab pertanyaan penguji tentang fisiologi kesadaran (ARAS-talamus-korteks) dan diagnosis banding. Target nilai OSCE station ini adalah kemampuan menilai kesadaran secara sistematis dalam waktu 5-8 menit, dengan pelaporan yang akurat dan langkah tindak lanjut yang aman.",
+          "tone": "clinical",
+          "source": "Rubrik penilaian OSCE hlm. 22-23"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE Pemeriksaan Kesadaran GCS:",
+          "sub": [
+            "Salam, identifikasi, dan informed consent: kemampuan membuka station dengan benar",
+            "Posisi dan keamanan pasien: telentang aman, area wajah/ekstremitas dapat dinilai",
+            "Observasi spontan: apakah mata terbuka sendiri, apakah pasien tampak sadar",
+            "Komponen Eye: observasi → suara → nyeri → catat E4-E1",
+            "Komponen Verbal: orientasi orang-tempat-waktu → klasifikasi V5-V1",
+            "Komponen Motor: perintah sederhana → rangsang nyeri → catat M6-M1",
+            "Pelaporan terstruktur: E-V-M-total-interpretasi",
+            "Penyebutan kondisi NT: intubasi, cedera wajah, afasia, fraktur/kelumpuhan",
+            "Tindak lanjut klinis: ABCDE, GDS, defisit fokal, TRM, rujukan",
+            "Pengetahuan teori: ARAS, talamus, korteks, diagnosis banding"
+          ],
+          "bold": true,
+          "source": "Rubrik penilaian OSCE hlm. 22-23"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi Membaca Modul 3 Hari Sebelum OSCE",
+          "text": "Hari 1: baca teori + konsep ARAS + tabel GCS sampai hafal; Hari 2: latihan pasangan dengan timer, fokus stimulus bertahap dan pelaporan; Hari 3: simulasi full station dengan teman sebagai penguji, koreksi bagian yang sering hilang.",
+          "answer_evidence": "Modul kampus Pemeriksaan Kesadaran hlm. 18-19"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tip Paling Penting: Format Pelaporan GCS",
+          "text": "Selalu laporkan GCS sebagai komponen E-V-M-total-interpretasi, BUKAN hanya total. Penguji akan langsung menilai Anda 'lulus' atau 'tidak' hanya dari format pelaporan ini. Contoh salah: 'GCS 12' → kurang. Contoh benar: 'E2 V3 M4, total GCS 9, soporo-komatus, memerlukan evaluasi ABCDE dan rujukan'.",
+          "answer_evidence": "Rubrik penilaian OSCE hlm. 22-23; Geeky Medics OSCE Guide"
+        }
+      ],
+      "visual_refs": [
+        "visual_gcs_aras_diagram_01"
+      ],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_02",
+        "gls_gcs_pemeriksaan_kesadaran_03",
+        "gls_gcs_pemeriksaan_kesadaran_04",
+        "gls_gcs_pemeriksaan_kesadaran_05",
+        "gls_gcs_pemeriksaan_kesadaran_06",
+        "gls_gcs_pemeriksaan_kesadaran_07",
+        "gls_gcs_pemeriksaan_kesadaran_08",
+        "gls_gcs_pemeriksaan_kesadaran_11"
+      ],
+      "bilingual": "Section ini memetakan file sumber (Modul kampus hlm. 18-23 + SKDI 4A) dan skenario klinis yang paling sering keluar di OSCE Blok 6.3: stroke, pasca-kejang, trauma kepala, meningitis, intoksikasi, metabolik. Target nilai: penilaian kesadaran sistematis dalam 5-8 menit dengan pelaporan E-V-M-total-interpretasi yang akurat."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Langkah-langkah OSCE dari masuk station sampai keluar + checklist lengkap 5 kolom.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur OSCE station Pemeriksaan Kesadaran GCS dirancang agar mahasiswa dapat menyelesaikan pemeriksaan dalam 5-8 menit secara sistematis. Station dimulai dengan fase pembuka (30-60 detik): salam, memperkenalkan diri, mencuci tangan, mengidentifikasi pasien, menjelaskan tujuan pemeriksaan, dan meminta izin. Setelah itu, fase persiapan (30 detik): memposisikan pasien telentang aman, memastikan area wajah dan ekstremitas dapat dinilai dengan jelas, mengamati apakah mata terbuka spontan dan apakah pasien tampak sadar.",
+          "tone": "narrative",
+          "source": "§2 (Alur OSCE) dan §3 (Checklist Inti) asli"
+        },
+        {
+          "text": "Fase pelaksanaan (±4-5 menit) dibagi menjadi tiga komponen utama: Eye, Verbal, dan Motor. Pada komponen Eye, mahasiswa harus mengobservasi apakah mata terbuka spontan; bila tidak, panggil nama atau beri perintah membuka mata; bila tetap tidak, beri rangsang nyeri singkat dan aman (nail bed pressure, trapezius squeeze, atau supraorbital notch). Pada komponen Verbal, tanyakan orientasi nama, tempat, waktu, dan konteks; bila pasien sulit bicara, klasifikasikan respons verbal; bila intubasi atau cedera mulut, tulis V-NT. Pada komponen Motor, beri perintah sederhana berurutan (misalnya 'angkat tangan Anda' lalu 'lepaskan'); bila tidak mengikuti, beri rangsang nyeri dan nilai respons terbaik (M6 ke bawah).",
+          "tone": "clinical",
+          "source": "§5 (Langkah Prosedur) asli"
+        },
+        {
+          "text": "Setelah tiga komponen selesai, fase pelaporan (30-60 detik): jumlahkan E + V + M, lalu laporkan dengan format 'E... V... M..., total ..., interpretasi ...'. Fase penutup (30 detik): sebutkan red flags, langkah lanjutan (ABCDE, cek GDS, oksigenasi, akses IV, monitoring), dan kemungkinan rujukan/kolaborasi. Tips kunci nilai tinggi: (1) ucapkan setiap langkah dengan jelas (think aloud) agar penguji tahu Anda sedang melakukan apa; (2) jangan langsung memberi rangsang nyeri sebelum mencoba observasi dan suara; (3) selalu laporkan per komponen, bukan hanya total; (4) tulis E-NT/V-NT/M-NT jika ada keterbatasan; (5) tutup dengan rencana tindak lanjut, bukan hanya 'GCS 13'; (6) siap menjawab pertanyaan penguji tentang teori ARAS, diagnosis banding, dan tatalaksana awal.",
+          "tone": "evidence",
+          "source": "§2 (Alur OSCE) dan §6 (Interpretasi) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan langkah OSCE Pemeriksaan Kesadaran GCS:",
+          "sub": [
+            "Langkah 1: Masuk station, salam, perkenalkan diri ('Selamat pagi, saya dokter [nama], diizinkan untuk memeriksa Bapak/Ibu?'), cek keamanan, cuci tangan 6 langkah.",
+            "Langkah 2: Identifikasi pasien ('Bapak/Ibu, boleh tahu nama dan tanggal lahir?'), jelaskan tujuan ('Saya akan menilai tingkat kesadaran Anda dengan GCS, prosesnya singkat dan tidak menimbulkan risiko').",
+            "Langkah 3: Minta izin informed consent, posisikan pasien telentang aman, pastikan area wajah dan ekstremitas dapat dinilai.",
+            "Langkah 4: Amati apakah mata terbuka spontan, apakah pasien tampak sadar, apakah ada gerakan spontan (komponen Eye - observasi).",
+            "Langkah 5: Komponen Eye: bila tidak membuka spontan → panggil nama/beri perintah 'Bapak/Ibu, buka mata' → bila tidak respon → beri rangsang nyeri singkat di nail bed, trapezius, atau supraorbital → catat E4/E3/E2/E1.",
+            "Langkah 6: Komponen Verbal: tanyakan orientasi 'Bapak/Ibu, sekarang di mana? Hari apa? Tahun berapa?' → bila tidak nyambung, klasifikasikan jenis respons verbal → catat V5/V4/V3/V2/V1 atau V-NT.",
+            "Langkah 7: Komponen Motor: beri perintah sederhana 'Bapak/Ibu, angkat kedua tangan' lalu 'Lepaskan' → bila tidak mengikuti, beri rangsang nyeri → nilai respons terbaik (M6-M1).",
+            "Langkah 8: Jumlahkan E + V + M → laporkan 'E... V... M..., total GCS ..., interpretasi ...'.",
+            "Langkah 9: Akhiri dengan menyebutkan red flags (GCS ≤ 8, pupil anisokor, dll.) dan langkah lanjutan (ABCDE, GDS, defisit fokal, TRM, rujukan).",
+            "Langkah 10: Cuci tangan, ucapkan terima kasih kepada pasien, dan keluar station dengan sopan."
+          ],
+          "bold": true,
+          "source": "§5 (Langkah Prosedur OSCE) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Jangan Langsung Tindakan Tanpa Consent",
+          "text": "Selalu jelaskan prosedur, dapatkan izin lisan, dan dokumentasikan. Melewatkan informed consent = pengurangan nilai signifikan.",
+          "answer_evidence": "Rubrik penilaian OSCE hlm. 22-23"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat Pembuka Station Paling Efektif",
+          "text": "'Selamat pagi Bapak/Ibu, perkenalkan saya dokter [nama]. Hari ini saya akan melakukan pemeriksaan tingkat kesadaran dengan Glasgow Coma Scale, prosesnya singkat dan tidak menimbulkan risiko. Boleh saya lanjutkan?' Kalimat ini menunjukkan profesionalisme, informed consent, dan kemampuan komunikasi.",
+          "answer_evidence": "Geeky Medics OSCE Guide"
+        }
+      ],
+      "visual_refs": [
+        "visual_gcs_algoritme_osce_01"
+      ],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_02",
+        "gls_gcs_pemeriksaan_kesadaran_03",
+        "gls_gcs_pemeriksaan_kesadaran_04",
+        "gls_gcs_pemeriksaan_kesadaran_05",
+        "gls_gcs_pemeriksaan_kesadaran_07",
+        "gls_gcs_pemeriksaan_kesadaran_08",
+        "gls_gcs_pemeriksaan_kesadaran_09",
+        "gls_gcs_pemeriksaan_kesadaran_10"
+      ],
+      "bilingual": "Section ini menjelaskan alur OSCE 5-8 menit dalam 4 fase: pembuka (salam, identifikasi, informed consent, cuci tangan), persiapan (posisi telentang, observasi spontan), pelaksanaan (Eye-Verbal-Motor dengan stimulus bertahap), pelaporan (E-V-M-total-interpretasi) dan penutup (rencana tindak lanjut)."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis dan red flags yang wajib ditanyakan pada pasien penurunan kesadaran.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada station OSCE Pemeriksaan Kesadaran GCS, anamnesis singkat sangat penting untuk membedakan penyebab penurunan kesadaran dan menentukan langkah selanjutnya. Tidak seperti station anamnesis murni, station ini fokus pada anamnesis kilat (≤2 menit) yang bertujuan untuk: (1) memastikan identitas dan informed consent; (2) menggali onset, durasi, dan pola penurunan kesadaran; (3) mengidentifikasi red flags yang memerlukan rujukan emergensi; (4) mendapatkan informasi yang diperlukan untuk pelaporan ke penguji. Cara berpikir praktisnya: gunakan teknik AMPLE (Allergy, Medication, Past medical history, Last meal, Events) atau SAMPLE (Signs/Symptoms, Allergies, Medications, Past medical history, Last oral intake, Events leading to complaint) sebagai kerangka berpikir kilat, terutama bila ada keluarga yang mendampingi.",
+          "tone": "narrative",
+          "source": "§1 (Cara baca cepat) dan §4 (Anamnesis singkat pada konteks GCS) asli"
+        },
+        {
+          "text": "Pertanyaan kunci yang WAJIB ditanyakan antara lain: (a) 'Apakah pasien memiliki riwayat trauma kepala?' (curiga perdarahan intraserebral/subaraknoid); (b) 'Apakah pasien baru saja kejang?' (curiga postiktal/status epileptikus non-konvulsif); (c) 'Apakah pasien memiliki riwayat diabetes?' (curiga hipoglikemia/hiperglikemia); (d) 'Apakah pasien minum alkohol atau obat-obatan tertentu?' (curiga intoksikasi); (e) 'Apakah ada demam, kaku kuduk, atau sakit kepala hebat?' (curiga meningitis/ensefalitis); dan (f) 'Apakah ada riwayat stroke, hipertensi, atau penyakit jantung?' (curiga stroke). Informasi dari keluarga atau pengantar pasien sangat berharga karena pasien sendiri mungkin tidak dapat menjawab.",
+          "tone": "clinical",
+          "source": "§4 (Anamnesis singkat pada konteks GCS) asli"
+        },
+        {
+          "text": "Setelah anamnesis singkat, mahasiswa harus mensintesis informasi untuk memilih prioritas klinis: apakah pasien perlu stabilisasi ABCDE terlebih dahulu (airway-breathing-circulation-disability-exposure) sebelum pemeriksaan GCS detail, atau apakah GCS bisa langsung dilakukan? Sebagai contoh, pasien dengan GCS ≤ 8 memerlukan proteksi jalan napas segera (intubasi) dan RUJUK, bukan pemeriksaan GCS yang lama. Pada pasien intubasi, komponen verbal menjadi V-NT; pada pasien dengan cedera wajah berat, komponen Eye menjadi E-NT; pada pasien afasia, nilai verbal perlu dievaluasi ulang dengan metode alternatif.",
+          "tone": "clinical",
+          "source": "§7 (Red flags dan batas rujukan) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pertanyaan kunci anamnesis untuk OSCE GCS:",
+          "sub": [
+            "'Bapak/Ibu/[Keluarga], sejak kapan kesadaran pasien menurun? Mendadak atau bertahap?'",
+            "'Apakah ada riwayat trauma kepala, jatuh, atau kecelakaan?'",
+            "'Apakah pasien baru saja kejang atau memiliki riwayat epilepsi?'",
+            "'Apakah ada riwayat diabetes, hipertensi, stroke, atau penyakit jantung?'",
+            "'Apakah pasien minum alkohol atau obat-obatan tertentu secara rutin?'",
+            "'Apakah ada demam, kaku kuduk, atau sakit kepala hebat?'",
+            "'Apakah pasien muntah proyektil atau ada gangguan penglihatan?'",
+            "'Siapa yang pertama kali menemukan pasien tidak sadar? Ada saksi mata kejang?'"
+          ],
+          "bold": true,
+          "source": "§4 (Anamnesis singkat) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "GCS Menurun Cepat atau GCS ≤ 8",
+          "text": "Pasien dengan skor ≤ 8 tidak mampu mempertahankan jalan napas, sehingga intubasi endotrakeal untuk proteksi airway adalah PRIORITAS UTAMA, bukan pemeriksaan GCS yang detail. Rujuk ke ICU/HCU segera.",
+          "answer_evidence": "NICE Guideline NG51 (Sepsis) dan AHA ACLS Guidelines"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kejang Berulang / Status Epileptikus",
+          "text": "Pasien dengan kejang > 5 menit atau kejang berulang tanpa pemulihan kesadaran di antaranya memerlukan tatalaksana status epileptikus (benzodiazepin IV: diazepam 5-10 mg IV atau lorazepam 0,1 mg/kg IV), bukan observasi GCS biasa.",
+          "answer_evidence": "PERDOSSI Tata Laksana Stroke Akut 2023"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Trauma Kepala dengan Tanda Lateralisasi",
+          "text": "Pupil anisokor, hemiparesis, atau postur abnormal (dekortikasi/deserebrasi) memerlukan CT scan kepala emergensi untuk menyingkirkan perdarahan intraserebral/epidural/subdural yang memerlukan tindakan neurokirurgi.",
+          "answer_evidence": "NICE Guideline dan PERDOSSI"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Tanda Rangsang Meningeal Positif",
+          "text": "Kaku kuduk + Brudzinski + Kernig + demam atau sakit kepala hebat memerlukan punksi lumbal (setelah CT scan menyingkirkan peningkatan TIK) untuk menyingkirkan meningitis/ensefalitis/perdarahan subaraknoid.",
+          "answer_evidence": "IDSA Practice Guidelines for Bacterial Meningitis 2016"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Hipoglikemia / Hiperglikemia Berat",
+          "text": "Pasien diabetes dengan penurunan kesadaran memerlukan cek GDS (gula darah sewaktu) segera karena hipoglikemia dapat menyebabkan kerusakan otak permanen dalam 6 jam; berikan dekstrosa 40% IV bolus bila GDS < 60 mg/dL.",
+          "answer_evidence": "NICE Guideline NG51"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Muntah Proyektil + Sakit Kepala Hebat + Penurunan Kesadaran",
+          "text": "Trias klasik peningkatan tekanan intrakranial (TIK) yang memerlukan elevasi kepala 30°, manitol/hipertonik saline, dan CT scan kepala emergensi sebelum kemungkinan herniasi.",
+          "answer_evidence": "PERDOSSI Tata Laksana Stroke Akut 2023"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_11"
+      ],
+      "bilingual": "Anamnesis kilat (≤2 menit) pada station GCS bertujuan untuk: memastikan identitas, menggali onset dan pola penurunan kesadaran, mengidentifikasi red flags, dan mendapatkan informasi untuk pelaporan. Gunakan kerangka AMPLE/SAMPLE sebagai cara berpikir kilat. Red flags utama yang memerlukan rujukan: GCS ≤ 8, kejang berulang, trauma kepala, pupil anisokor, TRM positif, hipoglikemia."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Urutan dan cara melakukan pemeriksaan fisik GCS per komponen (Eye-Verbal-Motor) dengan rangsang bertahap.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan fisik GCS adalah inti dari station OSCE. Setelah salam dan informed consent, posisikan pasien telentang aman dan lakukan observasi spontan 5-10 detik. Mahasiswa harus menghafal TIGA komponen (Eye, Verbal, Motor) dan stimulus bertahap untuk masing-masing. Prinsip utama: selalu mulai dari stimulus teringan ke terberat (spontan → suara → nyeri) untuk menghormati pasien dan menangkap respons terbaik. Setiap komponen dinilai dari respons terbaik yang berhasil diperoleh, bukan respons terburuk.",
+          "tone": "narrative",
+          "source": "§5 (Langkah Prosedur) asli"
+        },
+        {
+          "text": "KOMPONEN EYE (E4-E1): E4 = mata terbuka spontan (tanpa stimulus); E3 = membuka mata terhadap suara (panggil nama atau perintah); E2 = membuka mata terhadap rangsang nyeri (nail bed pressure, trapezius squeeze, supraorbital notch); E1 = tidak membuka mata terhadap stimulus apapun. Pada pasien dengan edema palpebra berat atau cedera wajah yang mencegah pembukaan mata, tulis E-NT. KOMPONEN VERBAL (V5-V1): V5 = orientasi baik (nama, tempat, waktu); V4 = bingung (salah satu orientasi); V3 = kata-kata acak/tidak nyambung; V2 = suara tanpa arti (mengerang); V1 = tidak ada respons verbal. Pada pasien intubasi, cedera mulut berat, atau afasia, tulis V-NT.",
+          "tone": "clinical",
+          "source": "§6 (Detail Skor GCS) asli"
+        },
+        {
+          "text": "KOMPONEN MOTOR (M6-M1): M6 = mengikuti perintah sederhana ('angkat tangan, lepaskan'); M5 = melokalisir nyeri (tangan melewati klavikula menuju lokasi rangsang); M4 = fleksi normal/withdrawal (menarik anggota gerak dari rangsang); M3 = fleksi abnormal/dekortikasi (lengan fleksi kaku, tungkai ekstensi, lesi di atas talamus); M2 = ekstensi abnormal/deserebrasi (lengan dan tungkai ekstensi kaku, lesi batang otak/pons); M1 = tidak ada gerak. Pada pasien dengan fraktur atau kelumpuhan ekstremitas, tulis M-NT untuk sisi cedera. Posisi rangsang nyeri yang aman: nail bed pressure, trapezius squeeze, supraorbital notch, atau sternal rub — hindari area luka, sensitif, atau berlebihan.",
+          "tone": "clinical",
+          "source": "§6 (Detail Skor GCS) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen Eye (E) — mata:",
+          "sub": [
+            "E4 - Spontan: mata terbuka sendiri tanpa stimulus",
+            "E3 - Suara: membuka mata saat dipanggil/diberi perintah",
+            "E2 - Nyeri: membuka mata terhadap rangsang nyeri (nail bed, trapezius, supraorbital)",
+            "E1 - Tidak ada: tidak membuka mata terhadap stimulus apapun",
+            "E-NT (Not Testable): edema palpebra berat, cedera wajah yang mencegah penilaian"
+          ],
+          "bold": true,
+          "source": "§6 (Detail Skor GCS Eye) asli"
+        },
+        {
+          "text": "Komponen Verbal (V) — bicara:",
+          "sub": [
+            "V5 - Orientasi baik: dapat menyebutkan nama, tempat, waktu dengan benar",
+            "V4 - Bingung: salah satu atau lebih orientasi salah",
+            "V3 - Kata acak: bicara tidak nyambung, kata-kata tidak membentuk kalimat",
+            "V2 - Suara: hanya suara tanpa arti (mengerang, erangan)",
+            "V1 - Tidak ada: tidak ada respons verbal",
+            "V-NT (Not Testable): intubasi/ETT, cedera mulut berat, afasia"
+          ],
+          "bold": true,
+          "source": "§6 (Detail Skor GCS Verbal) asli"
+        },
+        {
+          "text": "Komponen Motor (M) — gerak:",
+          "sub": [
+            "M6 - Mengikuti perintah: mampu melakukan perintah sederhana (angkat tangan, lepaskan)",
+            "M5 - Melokalisir nyeri: tangan melewati klavikula menuju lokasi rangsang",
+            "M4 - Fleksi normal/withdrawal: menarik anggota gerak dari rangsang nyeri",
+            "M3 - Fleksi abnormal/dekortikasi: lengan fleksi kaku, tungkai ekstensi (lesi UMN di atas talamus)",
+            "M2 - Ekstensi abnormal/deserebrasi: lengan dan tungkai ekstensi kaku (lesi batang otak/pons)",
+            "M1 - Tidak ada gerak: tidak ada respons motorik terhadap stimulus apapun (koma dalam)",
+            "M-NT (Not Testable): fraktur atau kelumpuhan ekstremitas"
+          ],
+          "bold": true,
+          "source": "§6 (Detail Skor GCS Motor) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips Teknis yang Sering Dilupakan",
+          "text": "(1) Selalu observasi spontan dulu 5-10 detik sebelum memberi stimulus apa pun; (2) Panggil nama dengan suara keras, bukan bisikan; (3) Beri rangsang nyeri di tempat yang aman (nail bed, trapezius, supraorbital) — jangan cubit area dada/perut; (4) Nilai respons terbaik, bukan terburuk; (5) Catat skor E, V, M secara terpisah sebelum menjumlahkan.",
+          "answer_evidence": "Geeky Medics OSCE Guide dan Physiopedia GCS"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kondisi yang Mempengaruhi Pemeriksaan GCS",
+          "text": "(a) Intubasi/ETT → V-NT; (b) Edema palpebra berat/cedera wajah → E-NT; (c) Afasia/demensia berat → V mungkin tidak akurat; (d) Fraktur/kelumpuhan ekstremitas → M-NT untuk sisi cedera; (e) Intoksikasi alkohol/obat → GCS dapat membingungkan; (f) Penggunaan sedasi → tunggu efek sedasi hilang sebelum menilai GCS.",
+          "answer_evidence": "Geeky Medics OSCE Guide; NICE Guideline NG51"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Teknik Rangsang Nyeri yang Aman",
+          "text": "Jangan melakukan rangsang nyeri yang berlebihan atau di area yang sensitif (genital, muka, luka terbuka). Teknik yang aman: nail bed pressure (tekan kuku jari dengan pulpen/alat tumpul), trapezius squeeze (tekan otot trapezius bilateral), supraorbital notch pressure (tekan tepi orbita superior), sternal rub (gosok sternum dengan kepalan tangan). Pilih sesuai supervisi lokal.",
+          "answer_evidence": "Geeky Medics OSCE Guide"
+        }
+      ],
+      "visual_refs": [
+        "visual_gcs_tangga_stimulus_01",
+        "visual_gcs_tabel_skor_01"
+      ],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_07",
+        "gls_gcs_pemeriksaan_kesadaran_08",
+        "gls_gcs_pemeriksaan_kesadaran_09",
+        "gls_gcs_pemeriksaan_kesadaran_10",
+        "gls_gcs_pemeriksaan_kesadaran_13"
+      ],
+      "bilingual": "Section ini membahas detail tiga komponen GCS: Eye (E4-E1, mata), Verbal (V5-V1, bicara), Motor (M6-M1, gerak). Stimulus bertahap: spontan → suara → nyeri (nail bed, trapezius, supraorbital). Perhatikan kondisi NT: intubasi (V-NT), cedera wajah (E-NT), afasia (V-NT), fraktur/kelumpuhan (M-NT)."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat dan langkah prosedur pemeriksaan GCS dalam tiga fase (Persiapan-Pelaksanaan-Evaluasi).",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Pemeriksaan GCS adalah pemeriksaan fisik neurologis yang tidak memerlukan alat invasif dan relatif cepat (±5-8 menit), namun persiapan yang baik sangat penting untuk memastikan hasil yang akurat dan aman. Alat yang diperlukan sangat minimal: (1) tempat tidur periksa atau brankar dengan posisi yang dapat diatur; (2) akses air mengalir dan sabun/handrub alkohol 60% untuk cuci tangan; (3) sarung tangan bersih (opsional, terutama bila ada risiko kontak dengan cairan tubuh); (4) alat pengukur rangsang nyeri (bisa menggunakan ujung pulpen atau jari pemeriksa untuk nail bed pressure, atau kepalan tangan untuk sternal rub); (5) lampu senter kecil (opsional, untuk menilai pupil jika diperlukan sebagai bagian dari Disability assessment). Tidak diperlukan: jarum suntik, alat tulis invasif, atau stetoskop khusus untuk GCS murni (walaupun pemeriksaan tanda vital seperti tekanan darah, denyut nadi, SpO2, dan suhu tubuh adalah bagian integral dari Disability dan Exposure pada primary survey ABCDE).",
+          "tone": "narrative",
+          "source": "§5 (Langkah Prosedur OSCE) asli"
+        },
+        {
+          "text": "Fase Persiapan dimulai dengan salam, memperkenalkan diri, mencuci tangan 6 langkah, mengidentifikasi pasien (nama dan tanggal lahir), menjelaskan tujuan pemeriksaan ('Saya akan menilai tingkat kesadaran Anda dengan Glasgow Coma Scale'), dan meminta informed consent. Setelah itu, posisikan pasien telentang aman dengan kepala dan leher lurus, pastikan area wajah dan ekstremitas dapat dinilai dengan jelas (buka selimut/pakaian yang menutupi area tersebut). Pastikan juga lingkungan aman: tidak ada risiko jatuh dari tempat tidur, keluarga diperkenankan mendampingi untuk informasi, dan siap melakukan rujukan emergensi bila ditemukan red flags.",
+          "tone": "narrative",
+          "source": "§5 (Langkah Prosedur OSCE) asli"
+        },
+        {
+          "text": "Fase Pelaksanaan adalah inti dari pemeriksaan GCS yang terdiri dari tiga komponen (Eye, Verbal, Motor) yang dilakukan secara berurutan. (1) Komponen Eye (±1-2 menit): observasi spontan 5-10 detik → bila E4, lanjut ke Verbal; bila tidak, panggil nama/perintah → bila E3, lanjut; bila tidak, rangsang nyeri nail bed/trapezius/supraorbital → E2 atau E1. (2) Komponen Verbal (±1-2 menit): tanyakan orientasi nama, tempat, waktu → nilai V5 (semua benar), V4 (bingung sebagian), V3 (kata acak), V2 (suara), V1 (tidak ada). Pada pasien intubasi, tulis V-NT. (3) Komponen Motor (±1-2 menit): beri perintah sederhana 'Angkat kedua tangan' lalu 'Lepaskan' → nilai M6; bila tidak, beri rangsang nyeri → nilai M5 (lokalisir), M4 (fleksi normal/withdrawal), M3 (dekortikasi), M2 (deserebrasi), M1 (tidak ada). Pada fraktur/kelumpuhan, tulis M-NT untuk sisi cedera.",
+          "tone": "clinical",
+          "source": "§5 (Langkah Prosedur) dan §6 (Detail Skor GCS) asli"
+        },
+        {
+          "text": "Fase Evaluasi dan Konfirmasi (±1-2 menit): jumlahkan E + V + M → laporkan ke penguji 'E... V... M..., total GCS ..., interpretasi ...'. Konfirmasi apakah ada kondisi NT yang belum dilaporkan, lalu tutup dengan rencana tindak lanjut: evaluasi ABCDE (airway-breathing-circulation-disability-exposure), cek GDS, oksigenasi bila perlu, akses IV, monitoring tanda vital, evaluasi defisit fokal neurologis, evaluasi tanda rangsang meningeal, dan rujukan/kolaborasi sesuai kondisi. Pada GCS ≤ 8, intubasi untuk proteksi jalan napas adalah prioritas utama. Akhiri station dengan mencuci tangan, mengucapkan terima kasih kepada pasien, dan keluar dengan sopan.",
+          "tone": "evidence",
+          "source": "§5 (Langkah Prosedur) dan §6 (Interpretasi) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "ALAT:",
+          "sub": [
+            "Tempat tidur/brankar: posisi aman untuk pasien telentang",
+            "Air mengalir dan sabun/handrub alkohol 60%: cuci tangan 6 langkah",
+            "Sarung tangan bersih (opsional): terutama bila ada risiko kontak cairan tubuh",
+            "Alat pengukur rangsang nyeri: pulpen ujung tumpul (nail bed) atau kepalan tangan (sternal rub)",
+            "Lampu senter kecil (opsional): untuk menilai pupil sebagai bagian Disability",
+            "Jam tangan/timer: mengatur durasi rangsang nyeri (5-10 detik)",
+            "Formulir GCS atau catatan: mencatat skor E, V, M, total"
+          ],
+          "bold": true,
+          "source": "§5 (Langkah Prosedur) asli"
+        },
+        {
+          "text": "FASE PERSIAPAN:",
+          "sub": [
+            "Salam, memperkenalkan diri, cuci tangan 6 langkah",
+            "Identifikasi pasien (nama, tanggal lahir) dan informed consent",
+            "Jelaskan tujuan pemeriksaan GCS",
+            "Posisikan pasien telentang aman, buka area wajah dan ekstremitas",
+            "Pastikan lingkungan aman dan keluarga dapat mendampingi"
+          ],
+          "bold": true,
+          "source": "§5 (Langkah Prosedur) asli"
+        },
+        {
+          "text": "FASE PELAKSANAAN:",
+          "sub": [
+            "Komponen Eye: observasi spontan 5-10 detik → panggil suara → rangsang nyeri → catat E4-E1 atau E-NT",
+            "Komponen Verbal: tanyakan orientasi (nama, tempat, waktu) → nilai V5-V1 atau V-NT",
+            "Komponen Motor: beri perintah sederhana → rangsang nyeri jika perlu → catat M6-M1 atau M-NT"
+          ],
+          "bold": true,
+          "source": "§5 (Langkah Prosedur) asli"
+        },
+        {
+          "text": "FASE EVALUASI:",
+          "sub": [
+            "Jumlahkan E + V + M = total GCS",
+            "Laporkan ke penguji: 'E... V... M..., total GCS ..., interpretasi ...'",
+            "Sebutkan kondisi NT bila ada, dengan alasan klinis",
+            "Tindak lanjut: ABCDE, GDS, defisit fokal, TRM, rujukan",
+            "Cuci tangan, ucapkan terima kasih, keluar station"
+          ],
+          "bold": true,
+          "source": "§5 (Langkah Prosedur) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Keselamatan Pasien di Setiap Fase",
+          "text": "(1) Fase Persiapan — pastikan posisi pasien aman, tidak ada risiko jatuh; (2) Fase Pelaksanaan — rangsang nyeri harus cukup kuat namun tidak berlebihan, jangan lakukan di area luka terbuka atau sensitif; (3) Fase Evaluasi — bila ditemukan GCS ≤ 8 atau red flags, prioritaskan stabilisasi ABC dan rujukan di atas dokumentasi lengkap.",
+          "answer_evidence": "AHA ACLS Guidelines; NICE Guideline NG51"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kondisi yang Harus Menghentikan Prosedur",
+          "text": "(a) Pasien tiba-tiba kejang saat pemeriksaan → hentikan rangsang nyeri, posisikan miring, bersihkan jalan napas, jangan restrain berlebihan; (b) GCS menurun cepat selama pemeriksaan (misal dari 13 ke 8) → panggil bantuan, intubasi jika perlu, rujuk ICU; (c) Muntah proyektil atau tanda herniasi → elevasi kepala 30°, manitol IV, CT scan emergensi; (d) Apnea atau saturasi turun → BVM (bag-valve-mask) dan intubasi segera.",
+          "answer_evidence": "AHA ACLS Guidelines; PERDOSSI Tata Laksana Stroke Akut 2023"
+        }
+      ],
+      "visual_refs": [
+        "visual_gcs_posisi_nyeri_01"
+      ],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_07",
+        "gls_gcs_pemeriksaan_kesadaran_08",
+        "gls_gcs_pemeriksaan_kesadaran_11",
+        "gls_gcs_pemeriksaan_kesadaran_13"
+      ],
+      "bilingual": "Section ini menjelaskan alat minimal untuk GCS (tempat tidur, air mengalir, sabun, pulpen/kepalan untuk nyeri, lampu senter) dan tiga fase: Persiapan (salam, identifikasi, informed consent, posisi telentang), Pelaksanaan (Eye-Verbal-Motor dengan stimulus bertahap), Evaluasi (jumlahkan skor, laporkan E-V-M-total-interpretasi, rencana tindak lanjut)."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Tindakan setelah prosedur GCS dan pendekatan diagnosis banding penurunan kesadaran dengan AEIOU-TIPS.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Setelah pemeriksaan GCS selesai, langkah pasca-prosedur yang WAJIB dilakukan adalah: (1) dokumentasi hasil GCS dalam catatan medik (rekam medis) dengan format E-V-M-total-interpretasi, waktu pemeriksaan, dan identitas pemeriksa; (2) laporan singkat ke dokter penanggung jawab atau pengawas shift tentang hasil GCS, perubahan dari pemeriksaan sebelumnya (bila ada), dan rencana tindak lanjut; (3) evaluasi ABCDE (airway-breathing-circulation-disability-exposure) untuk menentukan apakah diperlukan intervensi emergensi (intubasi, oksigenasi, akses IV); (4) pemeriksaan penunjang sesuai indikasi: GDS (gula darah sewaktu), elektrolit, fungsi ginjal, fungsi hati, darah lengkap, analisa gas darah, CT scan kepala, pungsi lumbal, atau toksikologi; (5) observasi ketat dengan monitoring tanda vital dan GCS serial setiap 15-30 menit pada pasien dengan gangguan kesadaran; (6) komunikasi dengan keluarga tentang kondisi pasien, kemungkinan penyebab, dan rencana tata laksana.",
+          "tone": "narrative",
+          "source": "§6 (Template pelaporan) dan §7 (Red flags) asli"
+        },
+        {
+          "text": "Clinical reasoning untuk pasien dengan penurunan kesadaran dimulai dari pertanyaan: 'Apakah pasien sadar penuh (compos mentis) atau ada penurunan kesadaran?' Jika ada penurunan, tentukan: (a) onset (mendadak vs bertahap); (b) pola (fluktuatif, progresif, atau menetap); (c) gejala penyerta (demam, kejang, sakit kepala, defisit fokal, kaku kuduk, muntah); (d) riwayat penyakit (diabetes, hipertensi, stroke, epilepsi, gangguan psikiatri); dan (e) pengaruh obat/zat (alkohol, sedasi, opioid). Pendekatan diagnosis banding dapat menggunakan kategori 'AEIOU-TIPS' sebagai mnemonic yang mudah diingat: A (Alcohol, Anoxia, Arrhythmia), E (Endocrine, Electrolytes), I (Infection), O (Overdose, Opiates), U (Uremia), T (Tumor, Toxins), I (Insulin), P (Poisoning, Psychiatric), S (Stroke, Seizure, Shock).",
+          "tone": "clinical",
+          "source": "§8 (Diagnosis banding) asli"
+        },
+        {
+          "text": "Lokalisasi lesi berdasarkan pola respons GCS: (1) M3 (dekortikasi) → lesi di atas talamus (korteks/subkorteks); (2) M2 (deserebrasi) → lesi di batang otak (pons, mesensefalon); (3) M1 dengan pupil fixed → lesi otak luas atau kematian batang otak. Tanda lateralisasi (pupil anisokor, hemiparesis) menunjukkan lesi fokal (stroke, perdarahan, tumor). Kapan HARUS merujuk segera: GCS ≤ 8, kejang berulang, trauma kepala dengan penurunan kesadaran, tanda peningkatan TIK, defisit fokal progresif, TRM positif dengan demam, hipoglikemia/hiperglikemia berat, intoksikasi dengan gagal napas, atau pasca-cardiac arrest.",
+          "tone": "clinical",
+          "source": "§7 (Red flags dan batas rujukan) dan §8 (Diagnosis banding) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Tindakan pasca-prosedur GCS:",
+          "sub": [
+            "Dokumentasi GCS dalam rekam medis dengan format E-V-M-total-interpretasi",
+            "Laporan ke dokter penanggung jawab (DPJP) atau pengawas",
+            "Evaluasi ABCDE dan stabilisasi awal bila perlu",
+            "Pemeriksaan penunjang sesuai indikasi (GDS, lab, CT scan)",
+            "Observasi ketat dengan monitoring GCS serial",
+            "Komunikasi dengan keluarga",
+            "Rujukan emergensi sesuai fasilitas dan kondisi"
+          ],
+          "bold": true,
+          "source": "§6 (Template pelaporan) asli"
+        },
+        {
+          "text": "Pendekatan diagnosis banding dengan AEIOU-TIPS:",
+          "sub": [
+            "A — Alcohol, Anoxia, Arrhythmia",
+            "E — Endocrine, Electrolytes",
+            "I — Infection (meningitis, ensefalitis, sepsis)",
+            "O — Overdose, Opiates, O2 (hipoksia)",
+            "U — Uremia, Trauma",
+            "T — Tumor, Toxins",
+            "I — Insulin (hipo/hiper)",
+            "P — Poisoning, Psychiatric",
+            "S — Stroke, Seizure, Shock, SAH"
+          ],
+          "bold": true,
+          "source": "§8 (Diagnosis banding) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kapan HARUS Merujuk Segera",
+          "text": "(1) GCS ≤ 8 — intubasi untuk proteksi jalan napas sebelum transport; (2) GCS menurun cepat — observasi ketat, CT scan kepala, kemungkinan bedah saraf; (3) Kejang > 5 menit atau status epileptikus — tatalaksana status epileptikus (benzodiazepin IV), ICU; (4) Trauma kepala dengan defisit fokal — CT scan kepala, konsultasi bedah saraf; (5) TRM positif dengan demam — pungsi lumbal (setelah CT) untuk meningitis/ensefalitis; (6) Hipoglikemia dengan GDS < 60 — dekstrosa 40% IV bolus, observasi; (7) Post-cardiac arrest — target suhu terapeutik, ICU.",
+          "answer_evidence": "NICE Guideline NG51; AHA ACLS Guidelines; PERDOSSI 2023; IDSA 2016"
+        }
+      ],
+      "visual_refs": [
+        "visual_gcs_aetiou_tips_01"
+      ],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_09",
+        "gls_gcs_pemeriksaan_kesadaran_10",
+        "gls_gcs_pemeriksaan_kesadaran_11",
+        "gls_gcs_pemeriksaan_kesadaran_12"
+      ],
+      "bilingual": "Section pasca-prosedur mencakup dokumentasi GCS dalam format E-V-M-total-interpretasi, evaluasi ABCDE, pemeriksaan penunjang, observasi ketat. Clinical reasoning menggunakan mnemonic AEIOU-TIPS: Alcohol/Anoxia/Arrhythmia, Endocrine/Electrolytes, Infection, Overdose/Opiates, Uremia, Tumor/Toxins, Insulin, Poisoning/Psychiatric, Stroke/Seizure/Shock. Lokalisasi lesi: M3 = lesi di atas talamus, M2 = lesi batang otak."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang dan prinsip tatalaksana klinis pasien dengan penurunan kesadaran.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang pada pasien dengan penurunan kesadaran bertujuan untuk mengidentifikasi penyebab yang dapat diobati (hipoglikemia, hiperglikemia, gangguan elektrolit, infeksi SSP, perdarahan, stroke) dan memantau komplikasi (peningkatan TIK, gagal napas, syok). Prinsip utama: 'Don't Ever Forget Glucose' (DEF) — GDS adalah pemeriksaan penunjang WAJIB PERTAMA pada setiap pasien dengan penurunan kesadaran, karena hipoglikemia adalah penyebab yang paling mudah diobati dan paling cepat menyebabkan kerusakan otak permanen bila tidak ditangani. Setelah GDS, urutan pemeriksaan penunjang tergantung pada suspected diagnosis berdasarkan anamnesis dan pemeriksaan fisik: (a) CT scan kepala non-kontras emergensi untuk stroke, perdarahan, trauma, tumor; (b) pungsi lumbal (setelah CT menyingkirkan peningkatan TIK) untuk meningitis/ensefalitis; (c) panel metabolik lengkap (elektrolit, fungsi ginjal, fungsi hati, glukosa, kalsium); (d) analisa gas darah untuk menilai oksigenasi, ventilasi, dan keseimbangan asam-basa; (e) darah lengkap untuk infeksi, anemia, koagulopati; (f) toksikologi screen (alkohol, opioid, benzodiazepin) sesuai anamnesis; (g) kultur darah bila curiga sepsis; (h) EEG untuk curiga status epileptikus non-konvulsif.",
+          "tone": "narrative",
+          "source": "§7 (Red flags dan batas rujukan) dan §8 (Diagnosis banding) asli"
+        },
+        {
+          "text": "Prinsip tatalaksana awal pasien dengan penurunan kesadaran mengikuti algoritme ABCDE: (1) Airway — pastikan jalan napas paten; pada GCS ≤ 8, pertimbangkan intubasi endotrakeal untuk proteksi; (2) Breathing — berikan oksigen suplementer untuk target SpO2 94-98% (atau 88-92% pada PPOK); (3) Circulation — pasang akses IV (minimal 2 jalur pada kasus emergensi), berikan cairan kristaloid (NaCl 0,9% atau Ringer Laktat) sesuai status volume; (4) Disability — nilai GCS, pupil, defisit fokal, GDS, suhu; (5) Exposure — buka pakaian, periksa ada tidaknya trauma, ruam, atau tanda kekerasan. Setelah ABCDE stabil, tatalaksana spesifik sesuai penyebab: hipoglikemia → dekstrosa 40% IV 25-50 mL; hiperglikemia → insulin dan cairan sesuai protokol DKA/HHS; meningitis/ensefalitis → empirik antibiotik (seftriakson 2 g IV) + asiklovir (pada curiga HSV ensefalitis) sesegera mungkin; stroke iskemik dalam window period → pertimbangkan trombolisis; perdarahan intraserebral → kontrol TD, konsultasi bedah saraf; status epileptikus → benzodiazepin IV (diazepam 5-10 mg atau lorazepam 0,1 mg/kg) diikuti antikonvulsan rumatan.",
+          "tone": "evidence",
+          "source": "NICE Guideline NG51; AHA ACLS Guidelines; PERDOSSI 2023; IDSA 2016"
+        },
+        {
+          "text": "Kapan rujuk dan ke mana: (1) IGD rumah sakit tipe A/B/C untuk semua pasien dengan penurunan kesadaran akut; (2) ICU/HCU untuk GCS ≤ 8 atau pasien yang memerlukan intubasi, monitoring ketat, atau ventilasi mekanik; (3) Stroke unit untuk stroke akut (dengan kode stroke aktif di rumah sakit); (4) Rumah sakit rujukan tipe A/B yang memiliki CT scan, dokter spesialis saraf, dan bedah saraf bila fasilitas terbatas; (5) Pusat rujukan HIV/TB untuk meningitis TB atau meningitis kriptokokus pada pasien HIV/AIDS. Alur rujukan: pasien distabilkan dulu di IGD (ABCDE, GDS, oksigen, akses IV), kemudian diangkut dengan ambulans yang dilengkapi oksigen dan monitor, disertai perawat yang kompeten, dengan surat rujukan yang jelas.",
+          "tone": "clinical",
+          "source": "§7 (Red flags dan batas rujukan) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Contoh algoritme tatalaksana awal (ABCDE):",
+          "sub": [
+            "A - Airway: Jalan napas paten, chin lift/jaw thrust; GCS ≤ 8 → intubasi",
+            "B - Breathing: Oksigen 4-6 L/menit, target SpO2 94-98%",
+            "C - Circulation: Akses IV 2 jalur, NaCl 0,9% 500 mL bolus jika hipotensi",
+            "D - Disability: GCS, pupil, defisit fokal, GDS, suhu",
+            "E - Exposure: Buka pakaian, periksa trauma/ruam/kekerasan"
+          ],
+          "bold": true,
+          "source": "AHA ACLS Guidelines; NICE Guideline NG51"
+        },
+        {
+          "text": "Kapan rujuk dan ke mana:",
+          "sub": [
+            "IGD RS tipe A/B/C: semua pasien penurunan kesadaran akut",
+            "ICU/HCU: GCS ≤ 8, intubasi, monitoring ketat",
+            "Stroke unit: stroke akut dengan kode stroke",
+            "RS tipe A/B dengan CT scan dan dokter spesialis saraf: stroke, perdarahan, tumor",
+            "Pusat rujukan HIV/TB: meningitis TB/kriptokokus"
+          ],
+          "bold": true,
+          "source": "PERDOSSI Tata Laksana Stroke Akut 2023"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "GDS Adalah Pemeriksaan WAJIB Pertama",
+          "text": "Pemeriksaan yang WAJIB disebutkan meski tidak tersedia di station: 'GDS (gula darah sewaktu) adalah pemeriksaan penunjang pertama yang WAJIB dilakukan pada setiap pasien penurunan kesadaran, karena hipoglikemia adalah penyebab yang paling cepat menyebabkan kerusakan otak permanen.' Kalimat ini menunjukkan bahwa Anda memahami prinsip 'Don't Ever Forget Glucose' dan akan mendapat nilai tambah dari penguji.",
+          "answer_evidence": "NICE Guideline NG51; AHA ACLS Guidelines"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Rekomendasi Guideline Nasional/Internasional",
+          "text": "(1) NICE Guideline untuk Tatalaksana Penurunan Kesadaran Akut merekomendasikan GDS sebagai langkah pertama; (2) American Heart Association (AHA) Guidelines untuk ACLS menekankan algoritme ABCDE pada pasien tidak sadar; (3) PERDOSSI merekomendasikan CT scan kepala emergensi pada stroke akut dalam window 4,5-6 jam untuk trombolisis; (4) WHO dan IDSA Guidelines untuk Meningitis merekomendasikan empirik antibiotik dalam 1 jam pertama pada suspek meningitis bakterial.",
+          "answer_evidence": "NICE NG51; AHA ACLS; PERDOSSI 2023; IDSA 2016"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_11"
+      ],
+      "bilingual": "Section ini menjelaskan pemeriksaan penunjang: GDS (WAJIB PERTAMA, prinsip DEF - Don't Ever Forget Glucose), CT scan kepala, panel metabolik, AGD, darah lengkap, toksikologi, pungsi lumbal, EEG. Tatalaksana awal mengikuti algoritme ABCDE. Rujukan: IGD, ICU, stroke unit, atau RS dengan spesialis saraf sesuai indikasi."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi, safety net, dan contoh SOAP lengkap pasien penurunan kesadaran.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi kepada keluarga pasien dengan penurunan kesadaran merupakan komponen penting yang sering dilupakan di OSCE. Keluarga perlu memahami: (1) apa itu GCS dan mengapa skornya penting; (2) apa yang sedang terjadi pada pasien (penurunan kesadaran, observasi, kemungkinan penyebab); (3) apa yang akan dilakukan (pemeriksaan, tatalaksana, observasi); (4) kapan harus khawatir (red flags yang memerlukan kembali ke RS); dan (5) bagaimana keluarga bisa membantu (informasi tentang riwayat penyakit, obat, alergi, dan kejadian yang mendahului penurunan kesadaran). Edukasi dilakukan dengan bahasa yang awam, tanpa jargon medis yang berlebihan, dan dengan empati.",
+          "tone": "narrative",
+          "source": "§6 (Template pelaporan) asli"
+        },
+        {
+          "text": "Dokumentasi SOAP pada pasien penurunan kesadaran harus lengkap dan terstruktur: S (Subjective) berisi keluhan utama (biasanya dari keluarga: 'tidak sadar', 'mengantuk berat', 'tidak bangun'), riwayat penyakit sekarang (onset, durasi, pola, gejala penyerta), riwayat penyakit dahulu (diabetes, hipertensi, stroke, epilepsi), riwayat pengobatan (insulin, antihipertensi, antikonvulsan), alergi, dan riwayat sosial (alkohol, obat). O (Objective) berisi tanda vital (TD, nadi, suhu, pernapasan, SpO2), GCS (E-V-M-total), pupil (ukuran, reaksi cahaya, simetri), defisit fokal (hemiparesis, afasia, gangguan nervus kranialis), tanda rangsang meningeal (kaku kuduk, Brudzinski, Kernig), dan hasil pemeriksaan penunjang. A (Assessment) berisi diagnosis kerja (penurunan kesadaran e.c. stroke iskemik, meningitis, hipoglikemia, dll.) dan diagnosis banding. P (Plan) berisi rencana diagnostik (CT scan, lab, pungsi lumbal), tatalaksana (ABCDE, oksigen, akses IV, obat), observasi (GCS serial, monitoring tanda vital), edukasi (keluarga), dan rujukan (bila perlu).",
+          "tone": "clinical",
+          "source": "§6 (Template pelaporan) asli"
+        },
+        {
+          "text": "Contoh SOAP lengkap (data fiktif konsisten untuk OSCE): S (Subjective): Keluarga pasien mengatakan pasien tidak sadar sejak 2 jam sebelum masuk IGD. Onset mendadak 2 jam SMRS, ditemukan keluarga di lantai rumah, muntah 2x proyektil, tidak ada kejang witnessed, tidak ada trauma kepala. Riwayat penyakit dahulu: Hipertensi (+), diabetes melitus tipe 2 (+), stroke iskemik 1 tahun lalu dengan hemiparesis kanan residual. Pengobatan: Amlodipin 10 mg/hari, metformin 500 mg 2x/hari, aspirin 80 mg/hari. Alergi: tidak diketahui. Sosial: tidak minum alkohol, tidak merokok. O (Objective): Tanda vital TD 180/100 mmHg, nadi 88x/menit reguler, suhu 36,8°C, pernapasan 18x/menit, SpO2 96% dengan nasal kanul 2 L/menit. GCS: E2 V3 M5 = total 10 (soporo-komatus). Pupil: anisokor, kiri 3 mm reaktif, kanan 5 mm lamban. Defisit fokal: hemiparesis kanan (ekstremitas atas 2/5, bawah 3/5), gangguan nervus kranialis VII sentral kanan. TRM: kaku kuduk (+), Brudzinski I (-), Kernig (-). GDS: 180 mg/dL. CT scan kepala: hipodens di area MCA kiri. A (Assessment): Diagnosis kerja - Penurunan kesadaran e.c. stroke iskemik akut sisi kiri (area MCA) dengan hipertensi emergensi dan diabetes melitus tipe 2. Diagnosis banding: Perdarahan intraserebral (sudah disingkirkan dengan CT scan). P (Plan): Diagnostik - Monitoring GCS serial, CT scan ulang 24 jam, panel metabolik, darah lengkap, AGD, EKG. Tatalaksana - ABCDE stabil, O2 nasal kanul 2 L/menit, akses IV 2 jalur, NaCl 0,9% maintenance, kontrol TD (target <180/105 dalam 24 jam pertama, kemudian <140/90), aspirin 80 mg/hari, statins, monitor neurologis ketat. Observasi: GCS setiap 15 menit, tanda vital setiap jam, defisit fokal serial. Edukasi: Keluarga informed tentang diagnosis stroke iskemik, prognosis, kemungkinan komplikasi, dan rencana tatalaksana. Rujukan: Stroke unit / ICU untuk monitoring ketat, konsultasi saraf dan kardiologi.",
+          "tone": "clinical",
+          "source": "Contoh SOAP fiktif untuk latihan OSCE"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "POIN EDUKASI:",
+          "sub": [
+            "Jelaskan bahwa GCS adalah alat monitoring kesadaran, bukan diagnosis akhir",
+            "Informasikan bahwa penyebab penurunan kesadaran perlu dicari dengan pemeriksaan penunjang",
+            "Diskusikan pentingnya observasi ketat dan monitoring GCS serial",
+            "Informasikan bahwa keluarga boleh mendampingi dan memberikan informasi",
+            "Jelaskan kemungkinan tindakan (intubasi, CT scan, pungsi lumbal) sesuai indikasi",
+            "Diskusikan prognosis dan kemungkinan komplikasi"
+          ],
+          "bold": true,
+          "source": "§6 (Template pelaporan) asli"
+        },
+        {
+          "text": "SAFETY NET — Kapan Kembali Segera:",
+          "sub": [
+            "Kesadaran menurun lagi atau GCS turun dari skor sebelumnya",
+            "Kejang berulang atau kejang > 5 menit",
+            "Muntah proyektil atau sakit kepala hebat mendadak",
+            "Demam tinggi dengan kaku kuduk",
+            "Kelemahan anggota gerak baru atau kelumpuhan",
+            "Gangguan napas atau saturasi oksigen turun",
+            "Kelainan pupil (anisokor) yang baru"
+          ],
+          "bold": true,
+          "source": "§7 (Red flags) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10 untuk Diagnosis Utama",
+          "text": "Kode ICD-10 untuk diagnosis utama: R40.20 (Coma, unspecified) atau R40.1 (Stupor) atau R40.0 (Somnolence) untuk deskripsi kesadaran; gunakan kode spesifik untuk etiologi (I63.9 untuk stroke iskemik, I61.9 untuk perdarahan intraserebral, G40.901 untuk status epileptikus, E10-E14 untuk diabetes, I10 untuk hipertensi).",
+          "answer_evidence": "ICD-10 WHO; PERDOSSI 2023"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat Edukasi yang Paling Sering Dilupakan",
+          "text": "'GCS adalah alat monitoring, bukan diagnosis akhir. Kami akan melakukan pemeriksaan penunjang untuk mencari penyebab penurunan kesadaran dan memberikan tatalaksana yang tepat.' Kalimat ini menunjukkan bahwa Anda memahami bahwa GCS adalah bagian dari evaluasi, bukan tujuan akhir.",
+          "answer_evidence": "Modul kampus Pemeriksaan Kesadaran hlm. 18-19"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_04",
+        "gls_gcs_pemeriksaan_kesadaran_05"
+      ],
+      "bilingual": "Section ini mencakup edukasi keluarga (GCS sebagai alat monitoring, red flags untuk kembali ke RS) dan dokumentasi SOAP terstruktur: Subjective (keluhan utama, riwayat), Objective (tanda vital, GCS, pupil, defisit fokal, TRM, penunjang), Assessment (diagnosis kerja + banding), Plan (diagnostik, tatalaksana, observasi, edukasi, rujukan). Kode ICD-10: R40.0 (somnolence), R40.1 (stupor), R40.20 (coma), I63.9 (stroke iskemik), I61.9 (perdarahan intraserebral)."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Tabel SKDI 4A dan dialog komunikasi OSCE siap ucap untuk station Pemeriksaan Kesadaran GCS.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Penyakit SKDI 4A yang relevan dengan modul OSCE Pemeriksaan Kesadaran GCS mencakup daftar penyakit level 4A dari SKDI (Standar Kompetensi Dokter Indonesia) untuk lulusan dokter yang perlu dikenali dan dikelola secara awal di layanan primer atau sebagai bagian dari skenario klinis. Untuk konteks OSCE GCS, penyakit 4A berperan sebagai konteks awal untuk memahami etiologi penurunan kesadaran; kasus gawat tetap memerlukan stabilisasi dan rujukan sesuai fasilitas. Mini-skrip dialog di bawah ini adalah template komunikasi yang siap diucapkan di station OSCE, mencakup pembukaan, informed consent, pelaksanaan pemeriksaan, dan penutupan.",
+          "tone": "narrative",
+          "source": "§8 (Diagnosis banding dan penyakit terkait SKDI 4A) asli"
+        },
+        {
+          "text": "Mini-skrip dialog OSCE Pemeriksaan Kesadaran GCS (contoh pasien simulasi penurunan kesadaran): [Di pintu station, penguji mempersilakan masuk] [DOKTER]: 'Selamat pagi Bapak/Ibu, perkenalkan saya dokter [nama]. Mohon izin, saya akan melakukan pemeriksaan tingkat kesadaran Bapak/Ibu dengan Glasgow Coma Scale. Prosesnya singkat, sekitar 5-8 menit, dan tidak menimbulkan risiko. Apakah Bapak/Ibu bersedia?' [PASIEN/STANDARIZED PATIENT]: 'Silakan, Dok.' (atau keluarga yang menjawab bila pasien tidak sadar) [DOKTER]: 'Mohon maaf sebelumnya, saya cuci tangan dulu untuk menjaga kebersihan. [Cuci tangan 6 langkah] Baik, Bapak/Ibu [nama pasien], boleh tahu nama lengkap dan tanggal lahirnya?' [PASIEN]: '[Menjawab nama dan tanggal lahir]' (atau keluarga yang menjawab) [DOKTER]: 'Terima kasih. Saya akan memposisikan Bapak/Ibu agar lebih mudah diperiksa. [Memosisikan pasien telentang] Baik, sekarang saya akan mengamati respons spontan Bapak/Ibu terlebih dahulu. [Observasi 5-10 detik]' [DOKTER]: 'Bapak/Ibu, apakah saat ini bisa membuka mata? [Menunggu respons] [Jika tidak ada respons] Mohon maaf, saya akan memanggil nama Bapak/Ibu dengan suara keras. Pak [nama], buka mata! [Menunggu respons] [Jika masih tidak ada] Mohon maaf, saya akan memberi sedikit tekanan untuk melihat respons. [Rangsang nyeri nail bed]' [DOKTER]: 'Sekarang, Bapak/Ibu, boleh tahu saat ini Bapak/Ibu di mana? Hari apa ini? Tahun berapa sekarang?' [DOKTER]: 'Baik, sekarang saya minta Bapak/Ibu mengangkat kedua tangan, seperti ini. [Mendemonstrasikan] Lepaskan. [Menunggu] [Jika tidak ada respons] Mohon maaf, saya akan memberi sedikit tekanan. [Rangsang nyeri trapezius]' [DOKTER]: 'Baik, terima kasih Bapak/Ibu atas kerja samanya. Dari pemeriksaan yang saya lakukan, saya mendapatkan: mata membuka terhadap suara E3, bicara disorientasi V4, dan mengikuti perintah M6. Total GCS 13, yang berarti somnolen atau penurunan kesadaran ringan. Saya akan melanjutkan dengan evaluasi tanda vital, pemeriksaan gula darah, evaluasi defisit fokal, dan mencari penyebab penurunan kesadaran. Apakah ada yang ingin ditanyakan?' [PENGUJI]: 'Apa yang dimaksud dengan V4 dan M6?' [DOKTER]: 'V4 berarti pasien bicara kalimat tetapi ada gangguan orientasi, misalnya salah menyebut tempat atau waktu. M6 berarti pasien dapat mengikuti perintah sederhana, seperti mengangkat tangan. Total GCS adalah E3+V4+M6 = 13, yang masuk kategori somnolen atau letargi.' [PENGUJI]: 'Apa red flags pada pasien ini?' [DOKTER]: 'Red flags utama adalah: GCS ≤ 8, kejang berulang, trauma kepala, pupil anisokor, muntah proyektil, tanda rangsang meningeal, dan hipoglikemia. Pasien dengan GCS 13 perlu observasi ketat dan evaluasi penyebab.'",
+          "tone": "clinical",
+          "source": "§6 (Template pelaporan) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan khusus komunikasi untuk topik Pemeriksaan Kesadaran GCS:",
+          "sub": [
+            "Selalu ucapkan salam dan perkenalkan diri",
+            "Jelaskan tujuan pemeriksaan dalam bahasa awam",
+            "Minta informed consent sebelum memulai",
+            "Cuci tangan 6 langkah sebelum kontak dengan pasien",
+            "Beri tahu setiap langkah yang akan dilakukan ('Saya akan memberi sedikit tekanan')",
+            "Laporkan hasil GCS dalam format E-V-M-total-interpretasi",
+            "Tutup dengan rencana tindak lanjut dan tanyakan pertanyaan keluarga",
+            "Siap menjawab pertanyaan penguji tentang teori dan klinis"
+          ],
+          "bold": true,
+          "source": "§6 (Template pelaporan) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kalimat yang TIDAK BOLEH Dilewatkan (Fatal Bila Lupa)",
+          "text": "(1) 'Selamat pagi, perkenalkan saya dokter...' — tanpa salam dan identifikasi, station langsung gagal; (2) 'Boleh saya cuci tangan dulu?' — tanpa cuci tangan, pengurangan nilai besar; (3) 'Total GCS 13, somnolen' — tanpa pelaporan per komponen, pengurangan nilai signifikan; (4) 'Tindak lanjut: ABCDE, GDS, evaluasi defisit fokal' — tanpa rencana tindak lanjut, station terasa tidak lengkap; (5) 'Red flags: GCS ≤ 8, pupil anisokor' — tanpa red flags, station kehilangan poin kritis.",
+          "answer_evidence": "Rubrik penilaian OSCE hlm. 22-23"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara Membuka Station Paling Efektif",
+          "text": "'Selamat pagi Bapak/Ibu, perkenalkan saya dokter [nama]. Mohon izin, saya akan melakukan pemeriksaan tingkat kesadaran Bapak/Ibu dengan Glasgow Coma Scale. Prosesnya singkat, sekitar 5-8 menit, dan tidak menimbulkan risiko. Apakah Bapak/Ibu bersedia?' Kalimat ini lengkap: salam, identifikasi, penjelasan, durasi, risiko, dan informed consent. Penguji akan langsung menilai Anda profesional.",
+          "answer_evidence": "Geeky Medics OSCE Guide"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_03"
+      ],
+      "bilingual": "Section ini memuat mini-skrip dialog OSCE siap ucap: pembukaan (salam, identifikasi, informed consent), pelaksanaan (observasi, stimulus bertahap, pertanyaan orientasi, perintah motorik), pelaporan (E-V-M-total-interpretasi), dan kesiapan menjawab pertanyaan penguji tentang teori (V4, M6, red flags). SKDI 4A relevan: kejang demam, tetanus, HIV/AIDS, tension headache, migren, Bell's palsy, BPPV."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan, rencana belajar 3 hari, dan kesalahan fatal pada station OSCE Pemeriksaan Kesadaran GCS.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kesiapan menghadapi station OSCE Pemeriksaan Kesadaran GCS memerlukan latihan terstruktur yang mencakup hafalan teori, praktik pasangan, dan simulasi full station dengan timer. Kriteria 'siap OSCE' meliputi: (1) Mampu menghafal tabel skor GCS E4-E1, V5-V1, M6-M1 tanpa melihat catatan; (2) Mampu melakukan urutan prosedur salam → cuci tangan → informed consent → observasi → stimulus bertahap → pelaporan → tindak lanjut dalam 5-8 menit; (3) Mampu membedakan M3 (dekortikasi) vs M2 (deserebrasi) dan E3 vs E2 dengan benar; (4) Mampu menghitung total GCS dengan benar dan melaporkan dalam format E-V-M-total-interpretasi; (5) Mampu menyebutkan minimal 5 red flags; (6) Mampu menjawab pertanyaan penguji tentang teori ARAS, diagnosis banding, dan tatalaksana awal; (7) Mampu menuliskan kondisi NT (intubasi, cedera wajah, afasia, fraktur) dengan benar.",
+          "tone": "narrative",
+          "source": "§13 (Rencana latihan 3 hari) asli"
+        },
+        {
+          "text": "Latihan pasangan (peer practice) sangat direkomendasikan: satu mahasiswa berperan sebagai pemeriksa, satu sebagai pasien simulasi (dengan skenario penurunan kesadaran), satu sebagai penguji (menggunakan rubrik penilaian). Rekam video 5-8 menit untuk self-review: perhatikan apakah salam, consent, instruksi, teknik, dan pelaporan sudah lengkap. Lakukan iterasi minimal 3-5 kali untuk setiap skenario hingga terasa natural. Pada simulasi full station (Hari 3), gunakan timer 8 menit, minta teman sebagai penguji yang kritis, dan koreksi bagian yang sering hilang. Konsultasi dengan supervisor untuk memastikan teknik rangsang nyeri (nail bed, trapezius, supraorbital) sesuai dengan standar lokal.",
+          "tone": "clinical",
+          "source": "§13 (Rencana latihan 3 hari) asli"
+        },
+        {
+          "text": "Kesalahan fatal yang sering terjadi di station ini antara lain: (1) langsung memberi rangsang nyeri tanpa mencoba observasi dan suara; (2) melaporkan GCS hanya dengan total tanpa E-V-M; (3) memaksakan skor pada pasien intubasi atau cedera wajah; (4) lupa cuci tangan; (5) tidak menyebutkan red flags; (6) tidak menutup station dengan rencana tindak lanjut; (7) tidak mampu membedakan dekortikasi vs deserebrasi; (8) tidak menjawab pertanyaan penguji dengan percaya diri. Setiap kesalahan fatal harus dikenali dan dihindari melalui latihan berulang.",
+          "tone": "evidence",
+          "source": "§13 (Rencana latihan 3 hari) dan §11 (Lampiran visual) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI:",
+          "sub": [
+            "Hafal tabel E4-E1 dengan benar — TINGGI",
+            "Hafal tabel V5-V1 dengan benar — TINGGI",
+            "Hafal tabel M6-M1 dengan benar — TINGGI",
+            "Mampu membedakan dekortikasi (M3) vs deserebrasi (M2) — TINGGI",
+            "Mampu membedakan E3 (suara) vs E2 (nyeri) — TINGGI",
+            "Mampu menghitung total GCS dengan benar — TINGGI",
+            "Mampu melaporkan E-V-M-total-interpretasi — TINGGI",
+            "Mampu menuliskan kondisi NT (E-NT, V-NT, M-NT) — TINGGI",
+            "Mampu melakukan stimulus bertahap (spontan → suara → nyeri) — TINGGI",
+            "Mampu melakukan rangsang nyeri yang aman (nail bed, trapezius, supraorbital) — TINGGI",
+            "Mampu menyebutkan minimal 5 red flags — TINGGI",
+            "Mampu menjelaskan teori ARAS, talamus, korteks — SEDANG",
+            "Mampu menyebutkan diagnosis banding dengan AEIOU-TIPS — SEDANG",
+            "Mampu membuat rencana tindak lanjut (ABCDE, GDS, defisit fokal, TRM) — TINGGI",
+            "Mampu menjawab pertanyaan penguji dengan percaya diri — SEDANG",
+            "Mampu melakukan cuci tangan 6 langkah — SEDANG",
+            "Mampu melakukan informed consent — SEDANG",
+            "Mampu menutup station dengan sopan — SEDANG",
+            "Latihan pasangan minimal 3-5 kali per skenario — TINGGI",
+            "Simulasi full station dengan timer 8 menit — TINGGI"
+          ],
+          "bold": true,
+          "source": "§13 (Rencana latihan 3 hari) asli"
+        },
+        {
+          "text": "RENCANA 3 HARI:",
+          "sub": [
+            "Hari 1: Target: Paham teori dan hafal tabel GCS | Durasi: 2-3 jam | Aktivitas: Baca modul, buat 1 halaman ringkasan tabel E-V-M, hafal urutan pemeriksaan tanpa melihat catatan | Kriteria: Mampu menyebutkan E4-E1, V5-V1, M6-M1 dengan benar",
+            "Hari 2: Target: Latihan pasangan seperti OSCE | Durasi: 3-4 jam | Aktivitas: Rekam video 5-8 menit, cek salam, consent, instruksi, teknik, dan pelaporan | Kriteria: Mampu melakukan prosedur lengkap dengan stimulus bertahap",
+            "Hari 3: Target: Simulasi full station dengan timer 8 menit | Aktivitas: Minta teman sebagai penguji kritis, koreksi bagian yang sering hilang | Kriteria: Mampu menjawab pertanyaan penguji dengan percaya diri, menyebutkan red flags dan rencana tindak lanjut"
+          ],
+          "bold": true,
+          "source": "§13 (Rencana latihan 3 hari) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "8 Kesalahan Fatal OSCE Pemeriksaan Kesadaran GCS",
+          "text": "(1) Langsung memberi rangsang nyeri tanpa mencoba observasi dan suara; (2) Melaporkan GCS hanya dengan total tanpa E-V-M; (3) Memaksakan skor pada pasien intubasi atau cedera wajah; (4) Lupa cuci tangan; (5) Tidak menyebutkan red flags; (6) Tidak menutup station dengan rencana tindak lanjut; (7) Tidak mampu membedakan dekortikasi (M3) vs deserebrasi (M2); (8) Tidak menjawab pertanyaan penguji dengan percaya diri.",
+          "answer_evidence": "Modul kampus dan pengalaman OSCE"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kriteria 'Siap OSCE'",
+          "text": "Mahasiswa disebut siap OSCE jika mampu: menghafal tabel GCS, melakukan prosedur dalam 5-8 menit, membedakan M3 vs M2, menghitung total dengan benar, melaporkan E-V-M-total-interpretasi, menyebutkan minimal 5 red flags, menjawab pertanyaan penguji, dan menuliskan kondisi NT. Latihan pasangan 3-5 kali per skenario + simulasi full station dengan timer 8 menit adalah metode paling efektif.",
+          "answer_evidence": "Geeky Medics OSCE Guide"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_09",
+        "gls_gcs_pemeriksaan_kesadaran_10"
+      ],
+      "bilingual": "Section ini menyediakan checklist latihan mandiri (20 item dengan prioritas tinggi/sedang), rencana belajar 3 hari (Hari 1: teori & hafalan, Hari 2: latihan pasangan dengan video, Hari 3: simulasi full station), dan 8 kesalahan fatal yang harus dihindari. Kriteria siap OSCE: hafal tabel GCS, prosedur 5-8 menit, bedakan M3 vs M2, laporan E-V-M-total-interpretasi, sebutkan minimal 5 red flags."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Daftar visual yang dibutuhkan, lampiran mini-case, kalimat pembuka station, dan referensi klinis.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Section ini menyediakan daftar kebutuhan visual (infografik tangga stimulus, tabel skor, posisi rangsang nyeri, diagram ARAS, flowchart algoritme, mnemonic AEIOU-TIPS), lampiran mini-case (mudah, sedang, sulit), kalimat pembuka station siap ucap, dan referensi klinis yang digunakan. Visual sangat penting untuk membantu mahasiswa menghafal dan memahami konsep GCS secara visual. Lampiran mini-case memberikan skenario latihan dengan kunci jawaban. Kalimat pembuka station adalah template yang dapat diadaptasi sesuai konteks. Referensi klinis mencakup guideline nasional (PERDOSSI) dan internasional (NICE, AHA, IDSA).",
+          "tone": "narrative",
+          "source": "§10, §11, §12, §14 (Visual, Video, Lampiran, Referensi) asli"
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi/Red Flags: GCS menurun cepat atau GCS ≤ 8 → intubasi + ICU; Kejang berulang atau status epileptikus → benzodiazepin IV; Trauma kepala dengan tanda lateralisasi → CT scan emergensi; Pupil anisokor/fixed dilated → curiga herniasi; Muntah proyektil atau sakit kepala thunderclap → curiga peningkatan TIK/SAH; TRM positif dengan demam → curiga meningitis/ensefalitis; Hipoglikemia (GDS < 60) → dekstrosa 40% IV; Hiperglikemia berat (GDS > 300 dengan ketosis) → protokol DKA/HHS; SpO2 < 90% atau gagal napas → oksigenasi, BVM, intubasi; Hipotensi (TD < 90/60) atau syok → resusitasi cairan, vasopresor. Lampiran B — Masalah & Respons: Pasien tidak kooperatif/agitasi → pendekatan tenang, libatkan keluarga; Pasien intubasi → tulis V-NT; Pasien cedera wajah berat → tulis E-NT; Pasien afasia → metode alternatif ya/tidak; Pasien fraktur/kelumpuhan → tulis M-NT; Pasien intoksikasi alkohol → nilai GDS (hipoglikemia sering), toksikologi; Penguji bertanya teori → jawab dengan mnemonic (AEIOU-TIPS, ARAS).",
+          "tone": "clinical",
+          "source": "§12 (Lampiran visual) dan §7 (Red flags) asli"
+        },
+        {
+          "text": "Lampiran C — OSCE Mini-Case: Skenario Mudah: Pasien laki-laki 45 tahun, penurunan kesadaran ringan pasca-mabuk alkohol. GDS normal, tidak ada trauma. Kunci jawaban: GCS E3 V4 M6 = 13, somnolen, observasi, GDS, toksikologi. Skenario Sedang: Pasien perempuan 60 tahun, penurunan kesadaran mendadak dengan hemiparesis kanan dan afasia. Riwayat hipertensi. Kunci jawaban: GCS E2 V3 M4 = 9, soporo-komatus, curiga stroke, CT scan emergensi, kode stroke. Skenario Sulit: Pasien laki-laki 25 tahun, penurunan kesadaran dengan demam, kaku kuduk, dan ruam petekie. Kunci jawaban: GCS E2 V2 M3 = 7, koma, curiga meningitis bakterial dengan sepsis, pungsi lumbal, empirik antibiotik (seftriakson + deksametason) dalam 1 jam, ICU. Lampiran D — Kalimat Pembuka Station: 'Selamat pagi Bapak/Ibu, perkenalkan saya dokter [nama]. Mohon izin, saya akan melakukan pemeriksaan tingkat kesadaran Bapak/Ibu dengan Glasgow Coma Scale. Prosesnya singkat, sekitar 5-8 menit, dan tidak menimbulkan risiko. Apakah Bapak/Ibu bersedia?' 'Mohon maaf sebelumnya, saya cuci tangan dulu untuk menjaga kebersihan. [Cuci tangan 6 langkah]' dan seterusnya sesuai template dialog lengkap.",
+          "tone": "clinical",
+          "source": "§12 (Lampiran mini-case) dan §6 (Template pelaporan) asli"
+        },
+        {
+          "text": "Referensi: (1) Modul kampus Pemeriksaan Kesadaran, Blok 6.3 Neuro-Psikiatri, halaman 18-23; (2) SKDI 4A Batch 2 IKA-Geriatri-Neurologi-Psikiatri; (3) Teasdale G, Jennett B. 'Assessment of coma and impaired consciousness. A practical scale.' Lancet. 1974;2(7872):81-84 — makalah asli Glasgow Coma Scale; (4) NICE Guideline NG51. 'Sepsis: recognition, diagnosis and early management.' 2016, updated 2024; (5) PERDOSSI. 'Pedoman Tata Laksana Stroke Akut.' 2023; (6) IDSA Practice Guidelines for Bacterial Meningitis. 2004, updated 2016; (7) Geeky Medics. Glasgow Coma Scale (GCS) and Neurological Observations - OSCE Guide; (8) Physiopedia. Glasgow Coma Scale overview; (9) American Heart Association (AHA) ACLS Guidelines untuk pasien tidak sadar; (10) WHO Guidelines untuk tatalaksana meningitis bakterial.",
+          "tone": "evidence",
+          "source": "§14 (Referensi internal dan eksternal) asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kebutuhan Visual:",
+          "sub": [
+            "Infografik Tangga Stimulus GCS: spontan → suara → nyeri → tidak respon, dengan ikon mata (E), mulut (V), tangan (M). Berguna untuk hafalan dan referensi cepat.",
+            "Kartu Hafalan E-V-M: kartu ukuran saku dengan tabel E4-E1, V5-V1, M6-M1 dalam dua sisi. Berguna untuk dibawa saat latihan mandiri.",
+            "Ilustrasi Posisi Rangsang Nyeri: menampilkan lokasi nail bed, trapezius, supraorbital, dan sternum dengan tanda panah. Berguna untuk memastikan teknik yang aman dan direkomendasikan.",
+            "Diagram ARAS-Talamus-Korteks: menampilkan jalur ascending reticular activating system dari batang otak ke talamus dan korteks serebri. Berguna untuk memahami fisiologi kesadaran.",
+            "Flowchart Algoritme GCS OSCE: menampilkan alur dari salam hingga pelaporan dalam satu halaman. Berguna untuk ditempel di ruang skills lab.",
+            "Poster Tabel GCS A3: tabel skor GCS lengkap dengan interpretasi warna (hijau = normal, kuning = gangguan ringan, merah = emergensi). Berguna untuk dinding ruang periksa."
+          ],
+          "bold": true,
+          "source": "§10 (Visual) asli"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi / Red Flags:",
+          "sub": [
+            "GCS menurun cepat atau GCS ≤ 8: intubasi untuk proteksi jalan napas, rujuk ICU",
+            "Kejang berulang atau status epileptikus (kejang > 5 menit): tatalaksana status epileptikus dengan benzodiazepin IV",
+            "Trauma kepala dengan tanda lateralisasi: CT scan kepala emergensi, konsultasi bedah saraf",
+            "Pupil anisokor atau fixed dilated pupils: curiga perdarahan/herniasi, CT scan emergensi",
+            "Muntah proyektil atau sakit kepala thunderclap: curiga peningkatan TIK/SAH, CT scan emergensi",
+            "Tanda rangsang meningeal positif (kaku kuduk + Brudzinski + Kernig): curiga meningitis/ensefalitis, pungsi lumbal",
+            "Hipoglikemia (GDS < 60 mg/dL): dekstrosa 40% IV bolus, observasi",
+            "Hiperglikemia berat (GDS > 300 mg/dL dengan ketosis): protokol DKA/HHS",
+            "Saturasi oksigen < 90% atau gagal napas: oksigenasi, BVM, intubasi",
+            "Hipotensi (TD < 90/60) atau syok: resusitasi cairan, vasopresor"
+          ],
+          "bold": true,
+          "source": "§7 (Red flags) asli"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah & Respons:",
+          "sub": [
+            "Pasien tidak kooperatif atau agitasi: pendekatan tenang, jelaskan prosedur dengan bahasa sederhana, libatkan keluarga",
+            "Pasien intubasi: tulis V-NT, nilai E dan M, laporkan apa yang dapat dinilai",
+            "Pasien cedera wajah berat: tulis E-NT (edema palpebra), nilai V dan M, pertimbangkan CT scan",
+            "Pasien afasia: gunakan metode alternatif (pertanyaan ya/tidak, perintah sederhana), tulis V-NT bila perlu",
+            "Pasien fraktur/kelumpuhan ekstremitas: tulis M-NT untuk sisi cedera, nilai sisi lain",
+            "Pasien intoksikasi alkohol: nilai GDS (hipoglikemia sering terjadi), observasi, toksikologi",
+            "Pasien dengan sedasi: tunggu efek sedasi hilang sebelum menilai GCS, dokumentasikan jenis dan dosis sedasi",
+            "Penguji bertanya teori: jawab dengan percaya diri, gunakan mnemonic (AEIOU-TIPS, ARAS)",
+            "Penguji interupsi: tetap tenang, dengarkan, klarifikasi, lanjutkan"
+          ],
+          "bold": true,
+          "source": "§12 (Lampiran) asli"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case:",
+          "sub": [
+            "Skenario Mudah: Pasien laki-laki 45 tahun, penurunan kesadaran ringan pasca-mabuk alkohol. GDS normal, tidak ada trauma. Kunci jawaban: GCS E3 V4 M6 = 13, somnolen, observasi, GDS, toksikologi.",
+            "Skenario Sedang: Pasien perempuan 60 tahun, penurunan kesadaran mendadak dengan hemiparesis kanan dan afasia. Riwayat hipertensi. Kunci jawaban: GCS E2 V3 M4 = 9, soporo-komatus, curiga stroke, CT scan emergensi, kode stroke.",
+            "Skenario Sulit: Pasien laki-laki 25 tahun, penurunan kesadaran dengan demam, kaku kuduk, dan ruam petekie. Kunci jawaban: GCS E2 V2 M3 = 7, koma, curiga meningitis bakterial dengan sepsis, pungsi lumbal, empirik antibiotik (seftriakson + deksametason) dalam 1 jam, ICU."
+          ],
+          "bold": true,
+          "source": "§12 (Lampiran mini-case) asli"
+        },
+        {
+          "text": "LAMPIRAN D — Kalimat Pembuka Station:",
+          "sub": [
+            "'Selamat pagi Bapak/Ibu, perkenalkan saya dokter [nama]. Mohon izin, saya akan melakukan pemeriksaan tingkat kesadaran Bapak/Ibu dengan Glasgow Coma Scale. Prosesnya singkat, sekitar 5-8 menit, dan tidak menimbulkan risiko. Apakah Bapak/Ibu bersedia?'",
+            "'Mohon maaf sebelumnya, saya cuci tangan dulu untuk menjaga kebersihan. [Cuci tangan 6 langkah]'",
+            "'Bapak/Ibu, boleh tahu nama lengkap dan tanggal lahirnya? Terima kasih, ini untuk memastikan identitas.'",
+            "'Saya akan memposisikan Bapak/Ibu agar lebih mudah diperiksa. [Memosisikan pasien telentang]'",
+            "'Baik, sekarang saya akan mengamati respons spontan Bapak/Ibu terlebih dahulu. [Observasi 5-10 detik]'",
+            "'Bapak/Ibu, apakah saat ini bisa membuka mata? [Menunggu respons]'",
+            "'Mohon maaf, saya akan memanggil nama Bapak/Ibu dengan suara keras. Pak [nama], buka mata! [Menunggu respons]'",
+            "'Mohon maaf, saya akan memberi sedikit tekanan untuk melihat respons. [Rangsang nyeri nail bed]'",
+            "'Sekarang, Bapak/Ibu, boleh tahu saat ini Bapak/Ibu di mana? Hari apa ini? Tahun berapa sekarang?'",
+            "'Bapak/Ibu, angkat kedua tangan, seperti ini. [Mendemonstrasikan] Lepaskan.'",
+            "'Baik, dari pemeriksaan yang saya lakukan, saya mendapatkan: E... V... M..., total GCS ..., yang berarti [interpretasi]. Saya akan melanjutkan dengan [rencana]. Apakah ada yang ingin ditanyakan?'",
+            "'Terima kasih Bapak/Ibu atas kerja samanya. Saya akan melanjutkan dengan evaluasi tanda vital, pemeriksaan gula darah, dan evaluasi defisit fokal.'"
+          ],
+          "bold": true,
+          "source": "§6 (Template pelaporan) asli"
+        },
+        {
+          "text": "REFERENSI:",
+          "sub": [
+            "Modul kampus Pemeriksaan Kesadaran, Blok 6.3 Neuro-Psikiatri, halaman 18-23.",
+            "SKDI 4A Batch 2 IKA-Geriatri-Neurologi-Psikiatri: daftar penyakit 4A relevan untuk integrasi OSCE.",
+            "Teasdale G, Jennett B. 'Assessment of coma and impaired consciousness. A practical scale.' Lancet. 1974;2(7872):81-84. (Makalah asli GCS)",
+            "NICE Guideline NG51. 'Sepsis: recognition, diagnosis and early management.' 2016, updated 2024.",
+            "American Heart Association (AHA). ACLS Guidelines untuk pasien tidak sadar.",
+            "PERDOSSI. 'Pedoman Tata Laksana Stroke Akut.' 2023.",
+            "IDSA Practice Guidelines for Bacterial Meningitis. 2004, updated 2016.",
+            "Geeky Medics. Glasgow Coma Scale (GCS) and Neurological Observations - OSCE Guide.",
+            "Physiopedia. Glasgow Coma Scale overview.",
+            "WHO. Guidelines untuk tatalaksana meningitis bakterial."
+          ],
+          "bold": true,
+          "source": "§14 (Referensi internal dan eksternal) asli"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk Membuat Visual",
+          "text": "Buat infografik medis Bahasa Indonesia, A4 portrait, judul 'Pemeriksaan GCS OSCE', berisi alur stimulus bertahap (spontan → suara → nyeri → tidak respon), tabel skor E4-E1, V5-V1, M6-M1, interpretasi 15/13-14/8-12/3-7, gaya klinis bersih, tanpa watermark. Atau: Buat diagram alur OSCE Pemeriksaan Kesadaran GCS satu halaman, warna klinis, ikon profesional, label Bahasa Indonesia.",
+          "answer_evidence": "Sumber prompt: §10 (Visual) asli"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Referensi Panduan Nasional/Internasional",
+          "text": "(1) Geeky Medics OSCE Guide untuk GCS dan neurological observations sebagai acuan langkah-langkah OSCE; (2) Physiopedia Glasgow Coma Scale untuk overview teori dan validasi GCS; (3) NICE Guideline untuk tatalaksana penurunan kesadaran akut; (4) AHA ACLS Guidelines untuk algoritme ABCDE; (5) PERDOSSI untuk rekomendasi tata laksana stroke akut di Indonesia; (6) IDSA untuk tatalaksana meningitis bakterial.",
+          "answer_evidence": "Geeky Medics, Physiopedia, NICE, AHA, PERDOSSI, IDSA"
+        }
+      ],
+      "visual_refs": [
+        "visual_gcs_tangga_stimulus_01",
+        "visual_gcs_tabel_skor_01",
+        "visual_gcs_posisi_nyeri_01",
+        "visual_gcs_aras_diagram_01",
+        "visual_gcs_algoritme_osce_01",
+        "visual_gcs_aetiou_tips_01"
+      ],
+      "glossary_refs": [
+        "gls_gcs_pemeriksaan_kesadaran_01",
+        "gls_gcs_pemeriksaan_kesadaran_06",
+        "gls_gcs_pemeriksaan_kesadaran_11",
+        "gls_gcs_pemeriksaan_kesadaran_12"
+      ],
+      "bilingual": "Section ini memuat daftar 6 kebutuhan visual (tangga stimulus, tabel skor, posisi nyeri, diagram ARAS, flowchart OSCE, AEIOU-TIPS), 4 lampiran (A: Red Flags, B: Masalah & Respons, C: Mini-Case mudah/sedang/sulit, D: Kalimat Pembuka Station), dan 10 referensi klinis (Modul kampus, SKDI 4A, Teasdale & Jennett 1974, NICE NG51, AHA ACLS, PERDOSSI 2023, IDSA 2016, Geeky Medics, Physiopedia, WHO)."
+    }
+  ]
+}

@@ -1,0 +1,1387 @@
+{
+  "id": "mod_obgyn_skill_iud_copper_t380a_002",
+  "title": "IUD Copper T 380A",
+  "subtitle": "Prosedur insersi IUD Copper T 380A beserta seleksi klien, kontraindikasi, dan edukasi KB komprehensif.",
+  "domain": "obgyn_skill",
+  "batch_id": "batch_1",
+  "source_pdf": "Batch1_6.1_Modul_2_IUD_Copper_T_380A (1).docx",
+  "source_filename": "Batch1_6.1_Modul_2_IUD_Copper_T_380A (1).docx",
+  "topicTags": [
+    "osce_6_1",
+    "kontrasepsi",
+    "iud_copper",
+    "insersi_iud",
+    "keluarga_berencana",
+    "seleksi_klien_kb",
+    "kontraindikasi_iud",
+    "komplikasi_iud",
+    "edukasi_kb",
+    "reproduksi_wanita"
+  ],
+  "summary": [
+    "Modul ini membimbing mahasiswa mengikuti station OSCE IUD Copper T 380A secara end-to-end: konseling informed choice, seleksi klien (singkirkan kehamilan, PID aktif, lesi serviks, anemia), anamnesis 9 pertanyaan, pemeriksaan panggul, prosedur insersi 10 langkah, pencabutan 9 langkah, dan pencabutan alat steril.",
+    "Pada station IUD, yang dinilai bukan hanya teknik memasukkan alat, melainkan seleksi klien yang ketat, asepsis, teknik no-touch, verbalisasi setiap langkah, dan konseling safety-net; tidak menyingkirkan kehamilan atau tidak melakukan antisepsis serviks adalah penyebab utama skor hangus.",
+    "Alur OSCE dalam satu napas: informed choice → salam & konfirmasi identitas → anamnesis seleksi → persiapan (BAK, cuci tangan, APD, litotomi) → pemeriksaan abdomen–genital–spekulum–bimanual → insersi dengan withdrawal technique → potong benang 3–4 cm → dekontaminasi → edukasi & dokumentasi SOAP.",
+    "Pesan kunci untuk pasien: IUD Copper T 380A adalah alat kontrasepsi jangka panjang sampai 10 tahun, non-hormonal, efektif, dan tidak mengganggu ASI, namun tidak melindungi dari IMS/HIV sehingga kondom tetap diperlukan bila ada risiko.",
+    "Komplikasi utama yang wajib dikenali: ekspulsi (IUD terasa keluar atau benang tidak teraba), perforasi uteri (nyeri tajam, hilang tahanan, perdarahan, tanda instabilitas), dan PID pasca-insersi (dalam 3 minggu pertama); ketiganya masuk kategori danger dan memerlukan rujukan segera.",
+    "Manajemen komplikasi intraprosedural mencakup henti tindakan, reposisi, observasi TTV, dan rujukan; manajemen pasca-prosedur mencakup antibiotik untuk PID, stabilisasi untuk perforasi, dan konseling kesuburan kembali untuk pencabutan elektif.",
+    "Dokumentasi SOAP wajib lengkap dengan identitas operator, jenis IUD, nomor batch, kedalaman sonde, panjang benang, hasil pemeriksaan, edukasi, dan kode ICD-10 (Z30.430 insersi, Z30.432 pencabutan, Z30.014 initial prescription, Z30.9 manajemen kontrasepsi).",
+    "Kontraindikasi absolut IUD Copper T 380A antara lain kehamilan, PID aktif, servisitis purulen, kanker serviks, perdarahan abnormal belum terdiagnosis, anemia berat, dan alergi tembaga; kondisi relatif seperti nyeri haid berat, pasangan multipel, dan menyusui memerlukan informed consent yang lebih kuat."
+  ],
+  "exam_focus": [
+    "FATAL: Memasang IUD tanpa menyingkirkan kehamilan (tidak tanya HPHT, tidak ada tes kehamilan) — skor hangus untuk seleksi klien.",
+    "FATAL: Tidak melakukan informed consent, tidak menjaga privasi, tidak cuci tangan, menyentuh dinding vagina dengan sonde/inserter, tidak menggunakan teknik withdrawal, memasang IUD pada PID aktif, memaksa sonde saat tahanan kuat, dan tidak mengenali red flags.",
+    "FATAL: Tidak melakukan dekontaminasi alat setelah tindakan dan tidak mengenali tanda bahaya (perforasi, ektopik, perdarahan).",
+    "PENGURANGAN BESAR: Tidak menyebut diagnosis kerja, tidak menulis dokumentasi SOAP, tidak memberi edukasi safety-net, salah urutan prosedur (mis. sonde sebelum antisepsis), tidak verbalisasi temuan, benang tidak 3–4 cm, tidak membuat kartu IUD, dan tidak menyebut kode ICD-10.",
+    "Selalu sebutkan bahwa Anda menyingkirkan kehamilan sebelum pemasangan (HPHT jelas atau tes kehamilan); penguji sangat memperhatikan hal ini.",
+    "Teknik no-touch saat sonde/inserter harus selalu diucapkan dan divisualisasikan — kontak dengan dinding vagina atau bibir spekulum menyebabkan skor hangus untuk teknik.",
+    "Withdrawal technique: pendorong ditahan, tabung inserter DITARIK (bukan IUD yang didorong); ini memastikan lengan IUD terbuka di fundus uteri.",
+    "Posisi litotomi dengan bokong sedikit melewati tepi meja, drape menutupi perut dan paha, chaperone perempuan, dan pengosongan kandung kemih adalah komponen wajib yang tidak boleh dilewati.",
+    "Cuci tangan 6 langkah WHO (40–60 detik) sebelum dan sesudah tindakan aseptik; sarung tangan steril wajib untuk prosedur insersi.",
+    "Panjang benang IUD yang dipotong adalah 3–4 cm dari OUE — terlalu panjang mengganggu pasangan, terlalu pendek menyulitkan kontrol/pencabutan."
+  ],
+  "glossary": [
+    {
+      "id": "gls_obgyn_iud_insersi_01",
+      "term": "Insersi IUD",
+      "def": "Tindakan klinis pemasangan alat kontrasepsi intrauterin (IUD) ke dalam kavum uteri dengan teknik no-touch dan withdrawal, melewati serviks menggunakan inserter steril. Bertujuan memberikan kontrasepsi jangka panjang (sampai 10 tahun untuk Copper T 380A).",
+      "type": "procedure",
+      "aliases": [
+        "pemasangan IUD",
+        "IUD insertion"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_tenakulum_02",
+      "term": "Tenakulum",
+      "def": "Instrumen bedah ginekologi berupa forsep tajam/tajam-tumpul yang digunakan untuk menjepit serviks dan menstabilkan posisi uterus saat prosedur insersi atau pencabutan IUD, serta saat pemasangan alat kontrasepsi lain.",
+      "type": "anatomy",
+      "aliases": [
+        "tenaculum",
+        "cervical tenaculum"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_sonde_03",
+      "term": "Sonde uterus",
+      "def": "Instrumen tipis steril untuk mengukur kedalaman dan arah kavum uteri sebelum insersi IUD, memberikan 'peta jalan' agar inserter tidak salah arah atau terlalu dalam. Dimasukkan dengan teknik no-touch (tidak menyentuh dinding vagina atau bibir spekulum).",
+      "type": "procedure",
+      "aliases": [
+        "uterine sound",
+        "sonde uterin"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_ekspulsi_04",
+      "term": "Ekspulsi",
+      "def": "Keluarnya IUD dari kavum uteri, baik sebagian (ekspulsi parsial) maupun seluruhnya (ekspulsi total). Ditandai dengan IUD terasa keluar, benang tidak teraba, atau IUD ditemukan di vagina. Insidens meningkat pada nullipara, menstruasi berat, dan pemasangan segera postpartum.",
+      "type": "clinical",
+      "aliases": [
+        "IUD expulsion"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_pid_05",
+      "term": "PID (Pelvic Inflammatory Disease)",
+      "def": "Infeksi traktus genitalia atas wanita yang melibatkan uterus, tuba falopii, dan/atau ovarium, biasanya akibat ascending infection dari IMS (Chlamydia, gonore). Kontraindikasi aktif pemasangan IUD; tanda cardinal: nyeri panggul, CMT positif, nyeri adneksa, demam, discharge purulen.",
+      "type": "clinical",
+      "aliases": [
+        "penyakit radang panggul",
+        "salpingitis"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_litotomi_06",
+      "term": "Posisi litotomi",
+      "def": "Posisi standar pasien untuk prosedur ginekologi: telentang, tungkai fleksi-abduksi pada penyangga, bokong sedikit melewati tepi meja periksa. Memungkinkan akses optimal ke genitalia dan penggunaan spekulum.",
+      "type": "procedure",
+      "aliases": [
+        "lithotomy position"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_informed_consent_07",
+      "term": "Informed consent",
+      "def": "Persetujuan tertulis dari pasien setelah penjelasan lengkap mengenai tujuan, prosedur, rasa tidak nyaman, risiko, manfaat, dan alternatif tindakan. Komponen etik wajib dalam setiap tindakan invasif termasuk insersi IUD.",
+      "type": "procedure",
+      "aliases": [
+        "informed choice",
+        "persetujuan tindakan medis"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_apd_08",
+      "term": "APD (Alat Pelindung Diri)",
+      "def": "Peralatan yang digunakan oleh tenaga kesehatan untuk melindungi diri dari paparan cairan tubuh dan kontaminasi, terdiri dari sarung tangan steril (wajib untuk prosedur IUD), masker, kacamata pelindung, dan apron plastik sesuai risiko tindakan.",
+      "type": "procedure",
+      "aliases": [
+        "PPE",
+        "personal protective equipment"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_cuci_tangan_09",
+      "term": "Cuci tangan 6 langkah WHO",
+      "def": "Prosedur hand hygiene standar WHO selama 40–60 detik dengan sabun dan air mengalir, mencakup telapak, punggung tangan, sela-sela jari, ibu jari, ujung jari, dan pergelangan. Lima momen: sebelum kontak pasien, sebelum tindakan aseptik, setelah paparan cairan tubuh, setelah kontak pasien, dan setelah kontak lingkungan pasien.",
+      "type": "procedure",
+      "aliases": [
+        "hand hygiene WHO",
+        "6 langkah cuci tangan"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_copper_t380a_10",
+      "term": "Copper T 380A",
+      "def": "Alat kontrasepsi intrauterin berbentuk huruf T dengan lilitan kawat tembaga (luas permukaan 380 mm²) pada lengan vertikalnya. Bersifat non-hormonal, efektif sampai 10 tahun, bekerja dengan spermiostasis dan reaksi inflamasi asing terhadap sperma. Merupakan IUD tembaga standar WHO.",
+      "type": "clinical",
+      "aliases": [
+        "IUD Cu T 380A",
+        "TCu380A"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_spekulum_11",
+      "term": "Spekulum vagina",
+      "def": "Instrumen ginekologi berbentuk bilah (Cusco bi-valved atau Graves) yang digunakan untuk membuka dinding vagina agar serviks dan forniks dapat divisualisasikan. Dipilih sesuai ukuran, dihangatkan, dan dimasukkan secara oblique untuk mengurangi ketidaknyamanan.",
+      "type": "anatomy",
+      "aliases": [
+        "vaginal speculum",
+        "cocor bebek"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_cmt_12",
+      "term": "CMT (Chandelier Movement / Cervical Motion Tenderness)",
+      "def": "Tanda klinis pada pemeriksaan bimanual di mana pergerakan serviks menimbulkan nyeri tajam. Tanda klasik PID (penyakit radang panggul) dan kehamilan ektopik; pada pemasangan IUD, CMT positif menjadi kontraindikasi untuk melanjutkan prosedur.",
+      "type": "clinical",
+      "aliases": [
+        "cervical motion tenderness"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_bimanual_13",
+      "term": "Pemeriksaan bimanual",
+      "def": "Pemeriksaan panggul dengan dua tangan: telunjuk dan tengah intravagina, tangan lain di abdomen. Menilai serviks (konsistensi, CMT), uterus (ukuran, posisi, bentuk, nyeri), dan adneksa (massa, nyeri). Wajib sebelum pemasangan IUD untuk menentukan posisi dan menyingkirkan kehamilan.",
+      "type": "procedure",
+      "aliases": [
+        "bimanual examination"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_perforasi_14",
+      "term": "Perforasi uteri",
+      "def": "Komplikasi serius pemasangan IUD berupa robekan dinding uterus oleh sonde atau inserter. Tanda: nyeri tajam hebat, hilang tahanan mendadak, perdarahan, dan tanda instabilitas hemodinamik. Merupakan kedaruratan yang memerlukan rujukan segera untuk laparoskopi/laparotomi.",
+      "type": "clinical",
+      "aliases": [
+        "uterine perforation"
+      ]
+    },
+    {
+      "id": "gls_obgyn_iud_withdrawal_15",
+      "term": "Teknik withdrawal",
+      "def": "Teknik pemasangan IUD di mana pendorong inserter DITAHAN tetap di tempat, sementara tabung inserter DITARIK ke luar sampai pangkal pendorong. Hal ini melepaskan lengan lateral IUD di fundus uteri. Jika dilakukan terbalik (mendorong IUD), posisi IUD bisa salah.",
+      "type": "procedure",
+      "aliases": [
+        "withdrawal technique"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_iud_01",
+      "term_id": "Insersi IUD",
+      "term_en": "IUD insertion",
+      "context": "Tindakan klinis pemasangan alat kontrasepsi intrauterin ke dalam kavum uteri."
+    },
+    {
+      "id": "bil_iud_02",
+      "term_id": "Pencabutan IUD",
+      "term_en": "IUD removal",
+      "context": "Tindakan mengeluarkan IUD dari kavum uteri, biasanya dengan menjepit benang dan menarik perlahan."
+    },
+    {
+      "id": "bil_iud_03",
+      "term_id": "Kehamilan ektopik",
+      "term_en": "Ectopic pregnancy",
+      "context": "Kehamilan yang implantasinya di luar kavum uteri (tersering di tuba falopii) — kedaruratan obstetri."
+    },
+    {
+      "id": "bil_iud_04",
+      "term_id": "Penyakit radang panggul",
+      "term_en": "Pelvic Inflammatory Disease (PID)",
+      "context": "Infeksi traktus genitalia atas; kontraindikasi aktif pemasangan IUD."
+    },
+    {
+      "id": "bil_iud_05",
+      "term_id": "Ekspulsi",
+      "term_en": "IUD expulsion",
+      "context": "Keluarnya IUD dari kavum uteri sebagian atau seluruhnya."
+    },
+    {
+      "id": "bil_iud_06",
+      "term_id": "Sonde uterus",
+      "term_en": "Uterine sound",
+      "context": "Instrumen untuk mengukur kedalaman dan arah kavum uteri sebelum insersi."
+    },
+    {
+      "id": "bil_iud_07",
+      "term_id": "Tenakulum",
+      "term_en": "Tenaculum",
+      "context": "Forsep penjepit serviks untuk stabilisasi uterus saat prosedur."
+    },
+    {
+      "id": "bil_iud_08",
+      "term_id": "Posisi litotomi",
+      "term_en": "Lithotomy position",
+      "context": "Posisi standar ginekologi: telentang, tungkai fleksi-abduksi pada penyangga."
+    },
+    {
+      "id": "bil_iud_09",
+      "term_id": "Informed consent",
+      "term_en": "Informed consent",
+      "context": "Persetujuan tertulis setelah penjelasan tujuan, prosedur, risiko, manfaat, dan alternatif."
+    },
+    {
+      "id": "bil_iud_10",
+      "term_id": "Withdrawal technique",
+      "term_en": "Withdrawal technique",
+      "context": "Pendorong ditahan, tabung inserter DITARIK untuk melepas lengan IUD di fundus."
+    },
+    {
+      "id": "bil_iud_11",
+      "term_id": "Perforasi uteri",
+      "term_en": "Uterine perforation",
+      "context": "Komplikasi robekan dinding uterus oleh sonde/inserter; kedaruratan."
+    },
+    {
+      "id": "bil_iud_12",
+      "term_id": "Pemeriksaan bimanual",
+      "term_en": "Bimanual examination",
+      "context": "Pemeriksaan panggul dua tangan untuk menilai serviks, uterus, dan adneksa."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_iud_anatomi_fundus_01",
+      "module_id": "mod_obgyn_skill_iud_copper_t380a_002",
+      "section_id": "s11",
+      "type": "anatomy_3d",
+      "generation_prompt": "Ilustrasi medis potongan sagital pelvis wanita dengan Copper T 380A IUD terpasang di fundus uteri dan benang keluar melalui serviks. Label Bahasa Indonesia: fundus uteri, kavum uteri, serviks, OUE, vagina, IUD, benang IUD. Gaya clean medical illustration, warna natural, untuk bahan belajar.",
+      "alt": "Ilustrasi potongan sagital pelvis wanita menunjukkan posisi IUD Copper T 380A di fundus uteri dengan lengan horizontal dan benang vertikal keluar melalui orifisium uteri eksternum (OUE) ke vagina.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/anatomi_iud_fundus.png"
+    },
+    {
+      "id": "visual_iud_alat_meja_02",
+      "module_id": "mod_obgyn_skill_iud_copper_t380a_002",
+      "section_id": "s11",
+      "type": "illustration",
+      "generation_prompt": "Infografik alat pemasangan IUD Copper T 380A di meja steril: spekulum Cusco, tenakulum, sonde uterus, inserter IUD dalam kemasan steril, gunting benang, kasa steril, larutan antiseptik, lampu sorot. Label Bahasa Indonesia untuk tiap alat. Gaya clean infographic, warna netral, label jelas.",
+      "alt": "Infografik meja steril berisi alat-alat pemasangan IUD Copper T 380A: spekulum Cusco, tenakulum, sonde uterus, inserter steril, gunting benang, kasa, antiseptik, dan lampu sorot — lengkap dengan label Bahasa Indonesia.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/alat_pemasangan_iud.png"
+    },
+    {
+      "id": "visual_iud_no_touch_03",
+      "module_id": "mod_obgyn_skill_iud_copper_t380a_002",
+      "section_id": "s11",
+      "type": "diagram",
+      "generation_prompt": "Diagram no-touch technique pemasangan IUD pada model panggul, zona steril dan nonsteril, panah gerakan. Gaya clean medical diagram, warna kontras, label Bahasa Indonesia.",
+      "alt": "Diagram teknik no-touch pada pemasangan IUD: sonde dan inserter dijaga tetap steril dengan tidak menyentuh dinding vagina atau bibir spekulum; ditunjukkan zona steril (inserter) versus zona non-steril (dinding vagina).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/teknik_no_touch.png"
+    },
+    {
+      "id": "visual_iud_withdrawal_04",
+      "module_id": "mod_obgyn_skill_iud_copper_t380a_002",
+      "section_id": "s11",
+      "type": "flowchart",
+      "generation_prompt": "Step-by-step 4 panel teknik withdrawal IUD Copper T 380A: Panel 1: inserter masuk sampai leher biru di serviks, pendorong dipegang. Panel 2: pendorong ditahan, tabung ditarik sampai pangkal pendorong. Panel 3: lengan IUD terbuka di fundus. Panel 4: benang keluar, dipotong 3-4 cm. Label Bahasa Indonesia. Gaya clean medical illustration, panah gerakan.",
+      "alt": "Empat panel bertahap teknik withdrawal IUD: (1) inserter masuk dengan leher biru di serviks, (2) pendorong ditahan dan tabung ditarik, (3) lengan IUD terbuka di fundus uteri, (4) benang dipotong 3-4 cm dari OUE.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/teknik_withdrawal.png"
+    },
+    {
+      "id": "visual_iud_kartu_05",
+      "module_id": "mod_obgyn_skill_iud_copper_t380a_002",
+      "section_id": "s11",
+      "type": "table",
+      "generation_prompt": "Template kartu IUD yang akan diberikan kepada pasien: identitas, jenis IUD, tanggal pemasangan, panjang benang, jadwal kontrol, nama operator. Format kartu ukuran dompet.",
+      "alt": "Template kartu IUD portabel berisi kolom identitas pasien, jenis IUD (Copper T 380A), tanggal pemasangan, panjang benang 3-4 cm, jadwal kontrol 1/3/12 bulan, dan nama operator.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/kartu_iud_template.png"
+    },
+    {
+      "id": "visual_iud_decision_flow_06",
+      "module_id": "mod_obgyn_skill_iud_copper_t380a_002",
+      "section_id": "s11",
+      "type": "flowchart",
+      "generation_prompt": "Flowchart keputusan seleksi klien IUD Copper T 380A: hamil? → ya → tunda; PID aktif? → ya → tunda/obati; kanker serviks? → ya → rujuk; anemia berat? → ya → tunda/tata; tidak ada → lanjut pemasangan. Kotak keputusan dengan panah Ya/Tidak, warna hijau untuk lanjut, kuning untuk tunda, merah untuk rujuk.",
+      "alt": "Diagram alur keputusan seleksi klien IUD: pertanyaan hamil, PID, kanker serviks, anemia — masing-masing bercabang menjadi tunda, obati/rujuk, atau lanjut ke pemasangan, dengan kode warna hijau-kuning-merah.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_obgyn_skill_iud_copper_t380a_002/assets/decision_flow_tunda_tolak.png"
+    }
+  ],
+  "ai_additions": [
+    {
+      "section_id": "s08",
+      "type": "content",
+      "source_query": "Kode ICD-10 untuk pemasangan IUD dan follow-up SOAP",
+      "source_reference": "ICD-10 WHO; SOP dokumentasi puskesmas",
+      "confidence": "high",
+      "note": "Daftar kode ICD-10 (Z30.014, Z30.430, Z30.432, Z30.9, O09.90, N94.6) mengikuti ICD-10 WHO; ditambahkan saat standardisasi untuk melengkapi format SOAP."
+    },
+    {
+      "section_id": "s11",
+      "type": "content",
+      "source_query": "Jadwal kontrol pasca-pasang IUD standar BKKBN/CDC",
+      "source_reference": "BKKBN, CDC US SPR 2024, WHO IUD fact sheet 2026",
+      "confidence": "high",
+      "note": "Jadwal kontrol 1 bulan/3 bulan/tahunan mengikuti rekomendasi BKKBN/CDC; ditandai [DITAMBAHKAN SAAT STANDARDISASI] untuk transparansi."
+    },
+    {
+      "section_id": "s06",
+      "type": "content",
+      "source_query": "Manajemen komplikasi intraprosedural dan pasca-prosedur IUD",
+      "source_reference": "CDC US SPR 2024, WHO IUD fact sheet 2026",
+      "confidence": "high",
+      "note": "Tabel lengkap manajemen komplikasi intraprosedural dan pasca-prosedur ditambahkan saat standardisasi untuk melengkapi modul ini."
+    },
+    {
+      "section_id": "s09",
+      "type": "content",
+      "source_query": "Kalimat verbal OSCE untuk station IUD",
+      "source_reference": "Modul OSCE ObGyn FKIK Universitas Jambi",
+      "confidence": "high",
+      "note": "Kalimat di mini-skrip komunikasi dan checklist verbal Lampiran D mengikuti pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi; ditandai [DITAMBAHKAN SAAT STANDARDISASI] untuk transparansi."
+    },
+    {
+      "section_id": "s10",
+      "type": "content",
+      "source_query": "Skenario mini-case OSCE variasi tingkat kesulitan",
+      "source_reference": "Sintesis dari skenario asli + variasi klinis umum",
+      "confidence": "high",
+      "note": "Skenario sedang (Ny. Rini dengan servisitis) dan sulit (Ny. Maya dengan kehamilan + pencabutan IUD) merupakan variasi yang ditambahkan untuk latihan; skenario tambahan Kesulitan Sonde (Ny. Sari) juga tambahan."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Mengarahkan mahasiswa pada konteks station OSCE IUD Copper T 380A: sumber dokumen, kompetensi yang dinilai, dan skenario pasien fiktif konsisten (Ny. Lina, 30 tahun, postpartum menyusui).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Sumber dokumen utama adalah Penuntun Belajar Dasar Keterampilan Klinik IUD (versi internal kampus) yang menjadi acuan checklist skill lab, dan Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi yang mencantumkan insersi dan ekstraksi IUD Copper T 380A sebagai salah satu kompetensi 4A. Materi diperkuat dengan CDC US Selected Practice Recommendations (SPR) 2024 dan CDC US Medical Eligibility Criteria (MEC) 2024, serta WHO Intrauterine Devices fact sheet (2026).",
+          "tone": "narrative",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Modul ini bukan hanya tentang 'memasukkan alat' — yang dinilai adalah seleksi klien, informed consent, asepsis, pemeriksaan panggul, teknik pemasangan, konseling, dan dokumentasi. Pada station OSCE, penguji biasanya memberi skenario dengan identitas pasien, usia, riwayat, dan keluhan, lalu meminta Anda melakukan salah satu dari: konseling KB, seleksi klien IUD, pemasangan IUD, atau pencabutan IUD.",
+          "tone": "narrative",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Peta file sumber menunjukkan bagian Definisi & konsep IUD dipakai untuk §1 dan §3, alur OSCE untuk §2 dan §3, seleksi klien untuk §4, pemeriksaan fisik dan panggul untuk §5 dan §6, daftar alat untuk §6, pemasangan IUD 3 fase untuk §7, pasca pemasangan untuk §8, pencabutan untuk §7 dan §8, edukasi pasien untuk §12, kaitan SKDI 4A untuk §14, mini-skrip untuk §15, checklist latihan untuk §16, bank visual untuk §19, serta Lampiran A (kontraindikasi), B (masalah prosedur), C (mini-case), dan D (checklist verbal 90 detik) yang seluruhnya dipertahankan.",
+          "tone": "clinical",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Skenario klinis utama yang digunakan konsisten di seluruh dokumen adalah Ny. Lina, 30 tahun, G2P1A0, dating ke puskesmas untuk konsultasi KB setelah melahirkan 6 bulan lalu. Menyusui eksklusif, haid belum kembali. Tidak ada keluhan. Ingin KB jangka panjang. Identitas ini digunakan di §1, §9, §13, §15, dan Lampiran C sebagai skenario utama.",
+          "tone": "narrative",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Cuplikan checklist penilaian (diadaptasi): Ceklis pemasangan IUD biasanya mencakup salam & informed consent, anamnesis seleksi klien (HPHT, haid, paritas, IMS/PID, ektopik, anemia), cuci tangan, APD, persiapan alat steril, posisi litotomi, pengosongan kandung kemih, pemeriksaan abdomen, inspeksi genital, spekulum, bimanual (serviks, uterus, adneksa), sonde uterus no-touch, pemasangan dengan withdrawal technique, potong benang 3–4 cm, evaluasi perdarahan, dekontaminasi, dokumentasi SOAP, kartu IUD, edukasi safety-net. Total item sekitar 25–30.",
+          "tone": "clinical",
+          "source": "§1 file sumber"
+        },
+        {
+          "text": "Prinsip utama: pada station IUD, seleksi klien yang ketat, asepsis, teknik no-touch, dan verbalisasi setiap langkah menghasilkan skor tinggi. Banyak mahasiswa gagal karena tidak menyingkirkan kehamilan atau tidak melakukan antisepsis serviks.",
+          "tone": "clinical",
+          "source": "§1 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alur OSCE dalam satu napas: informed choice → salam & konfirmasi identitas → anamnesis seleksi → persiapan (BAK, cuci tangan, APD, litotomi) → pemeriksaan abdomen–genital–spekulum–bimanual → insersi dengan withdrawal technique → potong benang 3–4 cm → dekontaminasi → edukasi & dokumentasi SOAP.",
+          "bold": true,
+          "source": "§2 file sumber"
+        },
+        {
+          "text": "Komponen wajib station: informed choice, anamnesis seleksi (HPHT, haid, paritas, IMS/PID, ektopik, anemia, pasangan multipel, kanker serviks, kemungkinan hamil), BAK, cuci tangan, APD, posisi litotomi, pengosongan kandung kemih, pemeriksaan abdomen, inspeksi genital, spekulum, bimanual, sonde uterus no-touch, insersi withdrawal, potong benang 3–4 cm, evaluasi perdarahan, dekontaminasi, dokumentasi SOAP, kartu IUD, edukasi safety-net.",
+          "sub": [
+            "Skenario utama: Ny. Lina, 30 tahun, G2P1A0, postpartum 6 bulan, menyusui eksklusif, amenore laktasi.",
+            "Pesan kunci untuk pasien: IUD Copper T 380A adalah KB jangka panjang sampai 10 tahun, non-hormonal, efektif, tidak mengganggu ASI, namun tidak melindungi dari IMS/HIV."
+          ],
+          "source": "§2 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Tips nilai tinggi IUD",
+          "text": "Pada station IUD, selalu sebutkan bahwa Anda menyingkirkan kehamilan sebelum pemasangan (HPHT jelas, tes kehamilan bila perlu). Penguji sangat memperhatikan hal ini. Selain itu, teknik no-touch saat sonde/inserter harus diucapkan.",
+          "answer_evidence": "Sumber: CDC US SPR 2024, Modul OSCE ObGyn FKIK Universitas Jambi."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pesan kunci untuk pasien",
+          "text": "Ibu, IUD Copper T 380A adalah alat kontrasepsi jangka panjang (sampai 10 tahun), non-hormonal, efektif, dan tidak mengganggu ASI. IUD tidak melindungi dari IMS/HIV, sehingga tetap perlu kondom bila ada risiko.",
+          "answer_evidence": "Sumber: WHO IUD fact sheet 2026."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_iud_copper_t380a_10",
+        "gls_obgyn_iud_litotomi_06",
+        "gls_obgyn_iud_informed_consent_07"
+      ],
+      "bilingual": "Station OSCE IUD Copper T 380A menilai seleksi klien, informed consent, asepsis, pemeriksaan panggul, teknik pemasangan, konseling, dan dokumentasi SOAP secara terintegrasi."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Menguraikan 26 item checklist pemasangan IUD menjadi langkah praktis dengan kalimat verbal, kesalahan yang menurunkan skor, dan tabel rangkuman seluruhnya.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Item checklist 1–6: konfirmasi informed choice dan konseling KB; salam, perkenalan, konfirmasi identitas; informed consent; privasi dan chaperone; pengosongan kandung kemih; cuci tangan 6 langkah (40–60 detik dengan sabun-air mengalir atau handrub). Tanyakan informed choice, alasan pemilihan, dan keyakinan pasien dengan kalimat: Apakah Ibu sudah mendapat konseling KB dan memilih IUD secara sadar? Apa alasan Ibu memilih IUD? Kesalahan yang menurunkan nilai: langsung memasang tanpa konfirmasi informed choice; tidak konfirmasi identitas; tidak minta persetujuan; tidak ada chaperone untuk genital; lupa BAK; lupa cuci tangan.",
+          "tone": "clinical",
+          "source": "§3 file sumber, tabel checklist"
+        },
+        {
+          "text": "Item 7–12: pakai APD (sarung tangan steril untuk prosedur, masker, apron bila perlu); persiapan alat steril (IUD dalam kemasan steril, spekulum, tenakulum, sonde, gunting benang, kasa, antiseptik, lampu); anamnesis seleksi (HPHT, pola haid, paritas, IMS/PID, ektopik, anemia, pasangan); posisi litotomi dan drape (telentang, tungkai fleksi-abduksi di penyangga, drape menutupi perut dan paha); pemeriksaan abdomen suprapubik; inspeksi genital eksterna (labia, uretra, perineum, lesi, discharge).",
+          "tone": "clinical",
+          "source": "§3 file sumber, tabel checklist"
+        },
+        {
+          "text": "Item 13–18: pemasangan spekulum dan visualisasi serviks (pilih ukuran, hangatkan, masukkan oblique, buka); antisepsis serviks dan vagina 2–3 kali; pemasangan tenakulum dengan hati-hati (jam 12 atau 6); sonde uterus no-touch untuk menentukan posisi dan kedalaman; atur kedalaman pada tabung inserter (geser leher biru); masukkan inserter ke kavum uteri sampai leher biru menyentuh serviks atau terasa tahanan.",
+          "tone": "clinical",
+          "source": "§3 file sumber, tabel checklist"
+        },
+        {
+          "text": "Item 19–22: teknik withdrawal (tahan pendorong, tarik tabung inserter sampai pangkal pendorong untuk melepas lengan IUD); finishing (dorong tabung kembali sampai leher biru menyentuh serviks, tarik sebagian tabung, potong benang 3–4 cm, keluarkan alat); evaluasi perdarahan (lepas tenakulum, tekan bekas jepitan 30–60 detik bila berdarah, keluarkan spekulum); dekontaminasi dan pembuangan (rendam instrumen dalam klorin 0,5% 10 menit; buang habis pakai di safety box atau tempat sampah medis).",
+          "tone": "clinical",
+          "source": "§3 file sumber, tabel checklist"
+        },
+        {
+          "text": "Item 23–26: pelepasan APD dan cuci tangan ulang; dokumentasi SOAP plus kartu IUD (catat jenis IUD, tanggal, nomor batch, panjang benang, hasil pemeriksaan, edukasi, buat kartu IUD untuk pasien); edukasi pasien (efek samping dan safety-net, kapan harus kembali, kapan ke IGD); penutup station (salam, kesiapan pasien, dokumentasi akhir).",
+          "tone": "clinical",
+          "source": "§3 file sumber, tabel checklist"
+        },
+        {
+          "text": "Catatan penting: semua item di atas berasal dari checklist skill lab IUD yang asli; kalimat OSCE adalah pola yang harus diucapkan dengan suara keras (verbalized), bukan hanya di kepala. Daftar ini menjadi 'peta' pengerjaan station dari awal sampai akhir.",
+          "tone": "narrative",
+          "source": "§3 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "26 item checklist dirangkum dalam 6 fase: (1) Pembukaan & informed choice; (2) Persiapan alat dan APD; (3) Anamnesis & posisi; (4) Pemeriksaan fisik dan panggul; (5) Prosedur insersi (no-touch & withdrawal); (6) Dekontaminasi, dokumentasi, edukasi, dan penutup.",
+          "bold": true,
+          "source": "§3 file sumber"
+        },
+        {
+          "text": "Panjang benang yang dipotong 3–4 cm dari OUE, kedalaman sonde uterus biasanya 6–9 cm, dan posisi leher biru pada tabung inserter menjadi penanda kedalaman kavum uteri.",
+          "sub": [
+            "Kesalahan yang menurunkan nilai: menyentuh dinding vagina dengan sonde/inserter; memaksa saat tahanan kuat; tidak evaluasi perdarahan; tidak membuat kartu IUD."
+          ],
+          "source": "§3 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Teknik no-touch wajib diucapkan",
+          "text": "Sonde/inserter TIDAK boleh menyentuh dinding vagina atau bibir spekulum — kontaminasi langsung menurunkan skor untuk komponen teknik. Selalu verbalisasikan: 'Saya masukkan sonde tanpa menyentuh dinding vagina. Kedalaman uterus ... cm.'",
+          "answer_evidence": "Sumber: CDC US SPR 2024."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan verifikasi item checklist",
+          "text": "Semua item di atas berasal dari checklist skill lab IUD yang asli; kalimat OSCE adalah pola yang harus diucapkan dengan suara keras (verbalized), bukan hanya di kepala. Penyesuaian kalimat final mengikuti skenario masing-masing.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_iud_insersi_01",
+        "gls_obgyn_iud_tenakulum_02",
+        "gls_obgyn_iud_sonde_03",
+        "gls_obgyn_iud_litotomi_06",
+        "gls_obgyn_iud_apd_08",
+        "gls_obgyn_iud_cuci_tangan_09",
+        "gls_obgyn_iud_spekulum_11",
+        "gls_obgyn_iud_withdrawal_15"
+      ],
+      "bilingual": "Checklist OSCE IUD mencakup 26 item mulai dari informed choice, anamnesis seleksi, persiapan alat, prosedur insersi, hingga dokumentasi SOAP dan edukasi safety-net."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Mengarahkan pada 9 pertanyaan anamnesis wajib, 4 pertanyaan kunci, dan red flags yang harus disingkirkan sebelum pemasangan IUD.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis pada station IUD berfungsi sebagai seleksi klien: menentukan apakah pasien boleh dipasang IUD Copper T 380A, perlu evaluasi dulu, atau ditunda. Pada OSCE, penyaringan kehamilan adalah poin wajib — banyak penguji memberi skor hangus bila Anda memasang IUD tanpa menyingkirkan kehamilan.",
+          "tone": "narrative",
+          "source": "§4 file sumber"
+        },
+        {
+          "text": "Prinsip utama seleksi klien IUD adalah: (1) Apakah pasien benar-benar memilih IUD (informed choice)? (2) Apakah pasien tidak sedang hamil? (3) Apakah tidak ada infeksi genital atas/servisitis aktif? (4) Apakah tidak ada kelainan perdarahan/serviks yang perlu evaluasi dulu?",
+          "tone": "clinical",
+          "source": "§4 file sumber"
+        },
+        {
+          "text": "Red flags yang wajib ditanyakan atau dicari: kehamilan atau curiga hamil (HPHT tidak jelas, amenore, mual, tes kehamilan samar) → tunda, evaluasi; perdarahan vagina abnormal yang belum terdiagnosis → evaluasi, rujuk; nyeri panggul aktif, demam, atau gejala PID/servisitis → tunda, obati dulu; lesi serviks mencurigakan (ulkus, perdarahan spontan, massa) → rujuk untuk biopsi atau kolposkopi. Tambahan: anemia berat dengan gejala → tunda, tata anemia; riwayat kanker serviks atau rahim yang sudah terdiagnosis → rujuk; nyeri perut hebat akut (bisa ektopik atau PID) → rujuk emergensi.",
+          "tone": "clinical",
+          "source": "§4 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "9 pertanyaan anamnesis wajib: konseling IUD (informed choice), HPHT/pola perdarahan, paritas/riwayat persalinan, kehamilan ektopik, nyeri haid berat, anemia berat, riwayat ISK/IMS/PHS/PID, pasangan multipel/berisiko, kanker atau lesi serviks.",
+          "bold": true,
+          "source": "§4 file sumber"
+        },
+        {
+          "text": "Tindakan bila bermasalah: hamil/tidak pasti → tunda, evaluasi; perdarahan abnormal → evaluasi dulu; postpartum/ASI → ikuti aturan waktu pemasangan sesuai SOP lokal; ektopik → bukan KI absolut tetapi konseling diperkuat; nyeri haid berat → pertimbangkan alternatif KB; anemia Hb <9 → tunda/rujuk; IMS/PID → evaluasi dan obati dulu, rujuk bila berat; pasangan multipel → konseling kondom dan skrining IMS; lesi serviks → rujuk evaluasi.",
+          "sub": [
+            "4 pertanyaan kunci yang tidak boleh terlewat: informed choice, singkirkan hamil, tidak ada infeksi genital atas/servisitis aktif, tidak ada kelainan perdarahan/serviks yang perlu evaluasi dulu."
+          ],
+          "source": "§4 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "FATAL: tidak menyingkirkan kehamilan",
+          "text": "Memasang IUD tanpa menyingkirkan kehamilan (tidak tanya HPHT, tidak ada tes kehamilan, dan tes kehamilan tidak diucapkan) → skor hangus untuk seleksi klien.",
+          "answer_evidence": "Sumber: CDC US MEC 2024, Modul OSCE ObGyn FKIK Universitas Jambi."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Red flag PID aktif",
+          "text": "Nyeri panggul aktif, demam, CMT positif, atau discharge purulen → tunda pemasangan; obati dan evaluasi dulu. Memasang IUD pada PID aktif adalah kesalahan fatal.",
+          "answer_evidence": "Sumber: CDC US MEC 2024."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Catatan pasangan multipel",
+          "text": "Pasangan multipel atau pasangan berisiko IMS bukan kontraindikasi mutlak, tetapi memerlukan konseling kondom, skrining IMS bila tersedia, dan tunda bila ada servisitis/PID aktif.",
+          "answer_evidence": "Sumber: CDC US SPR 2024."
+        }
+      ],
+      "visual_refs": [
+        "visual_iud_decision_flow_06"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_iud_informed_consent_07",
+        "gls_obgyn_iud_pid_05"
+      ],
+      "bilingual": "Seleksi klien IUD harus menyingkirkan kehamilan, PID aktif, servisitis purulen, lesi serviks mencurigakan, anemia berat, dan perdarahan abnormal yang belum terdiagnosis."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "Membahas urutan pemeriksaan TTV → abdomen → genital inspeksi → spekulum → bimanual untuk menyingkirkan kontraindikasi dan menentukan arah/kedalaman uterus.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Pemeriksaan TTV dan umum: TD, nadi, suhu, pernapasan, SpO2. Konjungtiva (pucat → anemia), edema, status gizi. Catat BB untuk dosis atau koreksi bila ada SOP. Nilai normal: TD <120/80 mmHg, nadi 60–100, suhu 36,0–37,5°C, RR 12–20, SpO2 ≥95%; konjungtiva merah muda, tidak pucat.",
+          "tone": "clinical",
+          "source": "§5 H2 TTV file sumber"
+        },
+        {
+          "text": "Interpretasi TTV bila abnormal: TD ≥140/90 → konsul atau tunda elektif; nadi >120 → curiga perdarahan/syok, tunda; suhu >38°C → curiga infeksi, tunda pemasangan; konjungtiva pucat → curiga anemia, cek Hb sebelum pemasangan (Hb <9 → tunda). Kalimat OSCE: Tekanan darah 110/70 mmHg, nadi 80, suhu 36,8°C. Konjungtiva tidak pucat. Tanda vital dalam batas normal.",
+          "tone": "clinical",
+          "source": "§5 H2 TTV file sumber"
+        },
+        {
+          "text": "Pemeriksaan abdomen: inspeksi (bentuk, bekas operasi, massa), auskultasi (bising usus), palpasi (suprafisial → dalam, keempat kuadran, fokus suprapubik), perkusi (asites, massa). Nilai normal: bising usus 5–35 x/menit, tidak ada nyeri tekan, tidak ada massa, suprapubik tidak nyeri, tidak ada massa pelvis. Interpretasi bila abnormal: nyeri suprapubik → curiga sistitis, PID, atau massa pelvis; massa abdomen/pelvis → curiga mioma, kista ovarium, kehamilan; bekas operasi → tanyakan riwayat SC, miomektomi, kuretase.",
+          "tone": "clinical",
+          "source": "§5 H2 Abdomen file sumber"
+        },
+        {
+          "text": "Pemeriksaan genital eksterna dan inspeksi serviks (spekulum): inspeksi genitalia eksterna (labia, uretra, perineum, anus — lesi, ulkus, discharge, massa); spekulum (lihat dinding vagina, forniks, serviks — warna, lesi, discharge, perdarahan). Wajib sebelum pemasangan IUD untuk menyingkirkan servisitis, vaginitis berat, lesi serviks.",
+          "tone": "clinical",
+          "source": "§5 H3 Genital-Spekulum file sumber"
+        },
+        {
+          "text": "Nilai normal genital: labia simetris, tidak ada lesi; serviks merah muda, OUE bulat/garis, lendir bening; tidak ada discharge purulen, tidak ada lesi acetowhite, tidak ada perdarahan. Abnormal: discharge purulen/kuning-hijau → curiga servisitis, swab, tunda; ulkus serviks atau lesi acetowhite → curiga IMS/keganasan, rujuk; serviks mudah berdarah (friable) → curiga servisitis/keganasan; massa serviks → rujuk.",
+          "tone": "clinical",
+          "source": "§5 H3 Genital-Spekulum file sumber"
+        },
+        {
+          "text": "Pemeriksaan bimanual: satu tangan di vagina (telunjuk + tengah), tangan lain di abdomen. Nilai: serviks (konsistensi, nyeri goyang/CMT), uterus (ukuran, posisi, bentuk, nyeri), adneksa (massa, nyeri). Wajib sebelum pemasangan IUD untuk menentukan posisi uterus (anteversi, retroversi), ukuran, dan menyingkirkan kehamilan.",
+          "tone": "clinical",
+          "source": "§5 H4 Bimanual file sumber"
+        },
+        {
+          "text": "Nilai normal bimanual: serviks konsistensi seperti ujung hidung, CMT negatif; uterus ukuran dan posisi normal (anteversi/antefleksi pada mayoritas); adneksa tidak teraba massa, tidak nyeri. Abnormal: uterus membesar, lembek, ballotement (+) → curiga hamil (tes kehamilan); CMT positif + nyeri adneksa + discharge → curiga PID; uterus sangat antefleksi/retroflexi → waspadai kesulitan sonde/inserter; massa adneksa → curiga kista, ektopik (USG).",
+          "tone": "clinical",
+          "source": "§5 H4 Bimanual file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan pemeriksaan: TTV → abdomen → genital (inspeksi) → spekulum → bimanual. Fokus menyingkirkan kondisi kontraindikasi (kehamilan, PID, lesi serviks, anemia) dan menentukan arah/kedalaman uterus.",
+          "bold": true,
+          "source": "§5 file sumber"
+        },
+        {
+          "text": "Kalimat OSCE siap pakai: 'TTV dalam batas normal. Konjungtiva tidak pucat.' / 'Bising usus positif normal. Tidak ada nyeri tekan, tidak ada massa.' / 'Genitalia eksterna: labia simetris, tidak ada lesi, tidak ada discharge abnormal. Spekulum: vagina bersih, serviks merah muda, OUE bulat, lendir bening fisiologis.' / 'Serviks konsistensi normal, CMT negatif. Uterus ukuran normal, anteversi, tidak nyeri, mobile. Adneksa tidak teraba massa, tidak nyeri. Posisi uterus sesuai untuk pemasangan IUD.'",
+          "sub": [
+            "Batas operasional: TD <120/80, nadi 60–100, suhu 36–37,5°C, RR 12–20, SpO2 ≥95%.",
+            "Hb <9 g/dL menjadi batas penundaan pemasangan."
+          ],
+          "source": "§5 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pentingnya bimanual sebelum insersi",
+          "text": "Bimanual adalah langkah wajib untuk menentukan posisi uterus (anteversi, retroversi) dan menyingkirkan kehamilan. Temuan ini memandu arah sonde dan inserter — tanpa bimanual, pemasangan IUD menjadi buta arah.",
+          "answer_evidence": "Sumber: CDC US SPR 2024."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Spekulum wajib sebelum insersi",
+          "text": "Pemasangan spekulum dan inspeksi serviks wajib sebelum pemasangan IUD untuk menyingkirkan servisitis, vaginitis berat, lesi serviks. Spekulum tanpa visualisasi serviks = kehilangan nilai.",
+          "answer_evidence": "Sumber: Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_iud_bimanual_13",
+        "gls_obgyn_iud_spekulum_11",
+        "gls_obgyn_iud_cmt_12"
+      ],
+      "bilingual": "Urutan pemeriksaan fisik untuk station IUD: TTV → abdomen → inspeksi genital → spekulum → bimanual. Tujuannya menyingkirkan kontraindikasi dan memetakan posisi uterus."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Menggabungkan §6 (alat, APD, posisi, momen cuci tangan) dan §7 (3 fase prosedur: persiapan, pelaksanaan 10 langkah pemasangan + 9 langkah pencabutan, evaluasi).",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Alat yang harus disebutkan (minimum 5): IUD Copper T 380A dalam kemasan steril dan inserter/pendorongnya (alat utama); spekulum vagina, tenakulum, sonde uterus, gunting benang, klem, kasa steril (alat prosedur); sarung tangan steril/DTT, larutan antiseptik, lampu pemeriksaan, kontainer steril/DTT (APD dan pencahayaan); larutan klorin 0,5% untuk dekontaminasi, tempat sampah medis, rekam medis dan kartu IUD (penutup); analgesia/pendekatan nyeri sesuai SOP lokal (mengurangi nyeri prosedur). APD: sarung tangan steril (wajib); masker dan kacamata pelindung (bila ada risiko percikan); apron plastik (bila tindakan berisiko tinggi).",
+          "tone": "clinical",
+          "source": "§6 file sumber"
+        },
+        {
+          "text": "Cara mempersiapkan pasien: pengosongan kandung kemih (diminta sebelum prosedur); posisi litotomi (telentang, tungkai fleksi-abduksi di penyangga, bokong sedikit melewati tepi meja periksa); penjelasan tindakan (bahasa awam, tujuan, rasa tidak nyaman, risiko, dan alternatif); informed consent (minta persetujuan setelah penjelasan); privasi (drape menutupi perut dan paha, hanya area genital yang dibuka); chaperone (tawarkan pendamping perempuan).",
+          "tone": "clinical",
+          "source": "§6 file sumber"
+        },
+        {
+          "text": "Momen cuci tangan sesuai WHO: sebelum kontak dengan pasien (momen 1); sebelum tindakan aseptik (momen 2); setelah risiko paparan cairan tubuh (momen 3); setelah kontak dengan pasien (momen 4); setelah kontak dengan lingkungan pasien (momen 5). Cuci tangan 6 langkah dilakukan 40–60 detik dengan sabun dan air mengalir atau handrub.",
+          "tone": "clinical",
+          "source": "§6 file sumber"
+        },
+        {
+          "text": "Fase persiapan prosedur (§7 Fase Persiapan): konfirmasi informed choice (pasien benar-benar memilih IUD); anamnesis seleksi klien (9 pertanyaan wajib, lihat §4); persetujuan tertulis (masukkan ke rekam medis); cuci tangan dan pakai sarung tangan steril; persiapan alat steril di meja steril (IUD tetap dalam kemasan sampai siap dipasang); minta pasien mengosongkan kandung kemih; posisikan litotomi dan pasang drape; pemeriksaan abdomen, inspeksi genital, spekulum, bimanual (konfirmasi layak). Keselamatan pasien fase ini: informed choice, penyaringan kehamilan, dan identifikasi kontraindikasi. Tidak boleh ada pemasangan IUD tanpa ketiga hal ini verbalized.",
+          "tone": "clinical",
+          "source": "§7 Fase Persiapan file sumber"
+        },
+        {
+          "text": "Fase pelaksanaan — 10 langkah pemasangan IUD: (1) cuci tangan, pakai sarung tangan baru, siapkan IUD di kemasan steril (lengan IUD tetap dilipat di dalam tabung inserter); (2) pasang spekulum dan visualisasi serviks; (3) antisepsis (usap vagina/serviks dengan antiseptik 2–3 kali); (4) pemasangan tenakulum (jepit serviks dengan hati-hati, jam 12 atau 6, untuk stabilisasi); (5) sonde uterus no-touch (tentukan posisi dan kedalaman uterus 6–9 cm normal, jangan sentuh dinding vagina/bibir spekulum); (6) atur kedalaman (geser leher biru pada tabung inserter sesuai hasil sonde); (7) masukkan inserter (masukkan tabung inserter sampai leher biru menyentuh serviks/terasa tahanan, mengikuti arah uterus, jangan memaksa); (8) withdrawal (tahan pendorong, tarik tabung inserter sampai pangkal pendorong → lengan IUD terbuka di fundus); (9) finishing (keluarkan pendorong, dorong tabung kembali sampai leher biru menyentuh serviks, tarik sebagian tabung, potong benang 3–4 cm dari OUE, keluarkan alat); (10) evaluasi (lepas tenakulum, tekan bekas jepitan dengan kasa 30–60 detik bila berdarah, keluarkan spekulum, pastikan tidak ada perdarahan aktif).",
+          "tone": "clinical",
+          "source": "§7 Fase Pelaksanaan file sumber"
+        },
+        {
+          "text": "Fase pelaksanaan — 9 langkah pencabutan IUD: (1) jelaskan tindakan dan beri kesempatan bertanya (consent); (2) cuci tangan, pakai sarung tangan steril/DTT (asepsis); (3) lakukan bimanual (gerakan serviks, besar/posisi uterus, adneksa; mengecek nyeri/infeksi/tumor sebelum manipulasi); (4) pasang spekulum untuk melihat serviks dan benang IUD; (5) usap vagina dan serviks dengan antiseptik 2–3 kali; (6) jepit benang dekat serviks dengan klem (pegangan dekat serviks membuat tarikan lebih terkontrol); (7) tarik benang perlahan sampai IUD keluar (jangan menarik kasar; hentikan bila nyeri hebat atau tahanan kuat); (8) tunjukkan IUD pada klien, keluarkan spekulum; (9) dekontaminasi alat, buang bahan, cuci tangan, dokumentasi.",
+          "tone": "clinical",
+          "source": "§7 Fase Pelaksanaan file sumber"
+        },
+        {
+          "text": "Teknik khusus IUD: (1) No-touch technique — sonde/inserter tidak boleh menyentuh dinding vagina atau bibir spekulum untuk mencegah kontaminasi yang bisa menyebabkan PID; (2) Withdrawal technique — pendorong ditahan, tabung inserter DITARIK (bukan IUD yang didorong), memastikan lengan IUD terbuka di fundus uteri; (3) Potong benang 3–4 cm — terlalu panjang mengganggu pasangan, terlalu pendek sulit untuk kontrol/pencabutan; (4) Prinsip 'menuntun, bukan memaksa' — pada IUD prinsipnya menuntun, bukan memaksa (analogii bukan menarik bayi). Keselamatan pasien di fase ini: verbalisasi teknik no-touch dan withdrawal, perhatian terhadap nyeri, dan pengenalan komplikasi intraprosedural (sinkop, perforasi, perdarahan).",
+          "tone": "clinical",
+          "source": "§7 Fase Pelaksanaan file sumber"
+        },
+        {
+          "text": "Fase evaluasi dan konfirmasi: (1) konfirmasi keberhasilan prosedur — pemasangan: benang IUD teraba 3–4 cm dari OUE, tidak ada perdarahan aktif, pasien tidak kesakitan; pencabutan: IUD lengkap keluar (tunjukkan kepada pasien), tidak ada fragmen yang hilang; (2) evaluasi efek samping langsung (perdarahan, nyeri, sinkop); (3) dekontaminasi alat (rendam dalam klorin 0,5% 10 menit; buang habis pakai di safety box atau tempat sampah medis); (4) lepas APD dengan teknik terbalik, cuci tangan ulang; (5) edukasi (efek samping wajar, tanda bahaya, jadwal kontrol); (6) dokumentasi SOAP (lengkap dan jelas); (7) buat kartu IUD untuk pasien (untuk pemasangan); (8) penutupan station (salam penutup, kesiapan pasien untuk turun dari meja periksa). Keselamatan pasien di fase ini: dekontaminasi tepat, dokumentasi, dan edukasi safety-net (kapan harus kembali).",
+          "tone": "clinical",
+          "source": "§7 Fase Evaluasi file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "3 fase prosedur pemasangan/pencabutan IUD: (1) Persiapan → informed choice, anamnesis 9 pertanyaan, persetujuan tertulis, cuci tangan, APD, alat steril, BAK, litotomi, drape, pemeriksaan abdomen/genital/spekulum/bimanual; (2) Pelaksanaan → 10 langkah pemasangan atau 9 langkah pencabutan dengan teknik no-touch dan withdrawal; (3) Evaluasi → keberhasilan, efek samping, dekontaminasi, APD, edukasi, dokumentasi SOAP, kartu IUD, salam penutup.",
+          "bold": true,
+          "source": "§7 file sumber"
+        },
+        {
+          "text": "Catatan klinis sonde: sonde memberi 'peta jalan' agar inserter tidak terlalu dalam atau salah arah. Jangan menyentuh dinding vagina/bibir spekulum. Leher biru pada tabung inserter menjadi penanda kedalaman kavum uteri.",
+          "sub": [
+            "Panjang benang yang dipotong 3–4 cm dari OUE.",
+            "Kedalaman uterus normal 6–9 cm (dikonfirmasi dengan sonde)."
+          ],
+          "source": "§6 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kontraindikasi absolut IUD Copper T 380A",
+          "text": "Kontraindikasi absolut: hamil atau belum bisa diyakini tidak hamil; PID aktif atau nyeri panggul dengan CMT/adneksa nyeri; servisitis purulen/IMS aktif belum diobati; perdarahan vagina abnormal belum terdiagnosis; kanker serviks atau lesi serviks mencurigakan; alergi tembaga (sangat jarang); Wilson disease (sangat jarang); distorsi kavum uteri berat. Pada kondisi ini, jangan pasang IUD.",
+          "answer_evidence": "Sumber: CDC US MEC 2024, WHO IUD fact sheet 2026."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kontraindikasi relatif & kondisi khusus",
+          "text": "Kondisi yang bukan KI absolut tetapi memerlukan informed consent lebih kuat: anemia berat dengan haid banyak (pertimbangkan metode lain, tata anemia); riwayat ektopik (konseling risiko, bukan KI absolut); nyeri haid berat (pertimbangkan IUD hormonal); pasangan multipel/risiko IMS (konseling kondom, skrining IMS); postpartum/menyusui (perlu timing pemasangan sesuai SOP); perforasi atau komplikasi intraprosedural.",
+          "answer_evidence": "Sumber: CDC US MEC 2024."
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Verbalisasi no-touch & withdrawal",
+          "text": "Pada fase pelaksanaan, selalu ucapkan: 'Saya masukkan sonde tanpa menyentuh dinding vagina. Kedalaman uterus ... cm.' dan 'Saya tahan pendorong dan tarik tabung; lengan IUD terbuka di fundus.' Verbalisasi ini menaikkan skor.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan klinis sonde dan inserter",
+          "text": "Sonde memberi 'peta jalan' agar inserter tidak terlalu dalam atau salah arah. Jangan menyentuh dinding vagina/bibir spekulum. Leher biru pada tabung inserter menjadi penanda kedalaman kavum uteri.",
+          "answer_evidence": "Sumber: Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi."
+        }
+      ],
+      "visual_refs": [
+        "visual_iud_alat_meja_02",
+        "visual_iud_no_touch_03",
+        "visual_iud_withdrawal_04"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_iud_insersi_01",
+        "gls_obgyn_iud_tenakulum_02",
+        "gls_obgyn_iud_sonde_03",
+        "gls_obgyn_iud_copper_t380a_10",
+        "gls_obgyn_iud_litotomi_06",
+        "gls_obgyn_iud_spekulum_11",
+        "gls_obgyn_iud_apd_08",
+        "gls_obgyn_iud_cuci_tangan_09",
+        "gls_obgyn_iud_withdrawal_15",
+        "gls_obgyn_iud_bimanual_13"
+      ],
+      "bilingual": "Prosedur pemasangan IUD Copper T 380A mengikuti 3 fase: persiapan (informed choice, alat steril, litotomi), pelaksanaan (10 langkah dengan no-touch & withdrawal), dan evaluasi (dekontaminasi, edukasi, dokumentasi)."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Menggabungkan §8 (tindakan pasca-prosedur, jadwal kontrol, varian prosedur) dan §9 (alur pikir klinis, diagnosis banding, pembedaan tunda vs tolak, kapan rujuk).",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Tindakan pasca-pemasangan IUD (7 langkah): (1) rendam instrumen dalam klorin 0,5% selama 10 menit untuk dekontaminasi; (2) buang bahan habis pakai pada tempat yang benar (safety box untuk jarum, kantong kuning untuk kasa/kapas terkontaminasi); (3) lepas sarung tangan dengan teknik aman dan cuci tangan dengan sabun-air mengalir; (4) buat rekam medis (jenis IUD, tanggal pemasangan, keluhan, hasil pemeriksaan, panjang benang, edukasi, rencana kontrol); (5) lengkapi kartu IUD untuk pasien (berisi identitas, jenis IUD, tanggal pemasangan, panjang benang, jadwal kontrol); (6) edukasi (efek samping wajar, tanda bahaya, jadwal kontrol, dan kontrasepsi cadangan); (7) penutup station (salam, kesiapan pasien).",
+          "tone": "clinical",
+          "source": "§8 file sumber"
+        },
+        {
+          "text": "Tindakan pasca-pencabutan IUD: (1) tunjukkan IUD kepada pasien — konfirmasi alat lengkap keluar; (2) edukasi kesuburan kembali — kesuburan dapat kembali dengan cepat; tawarkan kontrasepsi lain bila belum ingin hamil; (3) konseling prakonsepsi — asam folat 400 µg/hari, skrining pranatal, dll.; (4) dekontaminasi dan dokumentasi sesuai SOP.",
+          "tone": "clinical",
+          "source": "§8 file sumber"
+        },
+        {
+          "text": "Cara evaluasi keberhasilan prosedur: pemasangan — benang teraba 3–4 cm dari OUE, perdarahan minimal, tidak ada nyeri hebat, tidak ada sinkop; pencabutan — IUD lengkap keluar (lengan tidak patah), perdarahan minimal, tidak ada nyeri hebat. Prosedur terkait/varian: pencabutan IUD dengan benang tidak terlihat (gunakan klem spiral, USG untuk konfirmasi, atau rujuk); insersi postpartum (≤48 jam atau ≥4 minggu) sesuai SOP lokal, perlu konseling tambahan; insersi pasca-abortus (boleh langsung, asal tidak ada infeksi); IUD terlepas sebagian/ekspulsi parsial (cabut dan pasang baru, atau ganti metode).",
+          "tone": "clinical",
+          "source": "§8 file sumber"
+        },
+        {
+          "text": "Jadwal kontrol pasca-pasang: 1 bulan — cek benang, keluhan, infeksi; 3 bulan — evaluasi efek samping, kepuasan; 1 tahun, lalu rutin setiap tahun — atau sesuai keluhan; kapan saja — bila ada tanda bahaya. Jadwal kontrol di atas mengikuti rekomendasi BKKBN/CDC umum; pada pasien nyata, jadwal mengikuti SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§8 file sumber"
+        },
+        {
+          "text": "Alur pikir klinis pemasangan IUD: pertanyaan 1 apakah pasien hamil → jika ya, tunda; pertanyaan 2 apakah ada infeksi genital aktif → jika ya, tunda, obati dulu; pertanyaan 3 apakah ada lesi serviks atau kanker → jika ya, rujuk; pertanyaan 4 apakah ada anemia berat → jika ya, tunda, tata anemia dulu; pertanyaan 5 apakah ada kontraindikasi absolut lain → jika ya, pilih metode lain.",
+          "tone": "clinical",
+          "source": "§9 file sumber"
+        },
+        {
+          "text": "Diagnosis banding — kondisi yang perlu dibedakan sebelum pemasangan IUD: kehamilan normal (amenore, mual, uterus membesar lembek, ballotement (+), DJJ (+) bila cukup besar; tes kehamilan (+)); kehamilan ektopik (amenore + nyeri perut unilateral + perdarahan, nyeri adneksa, CMT (+), mungkin syok; tes kehamilan (+) + USG tidak ada kantung intrauterin); PID/salpingitis aktif (nyeri panggul + discharge + demam, CMT (+), nyeri adneksa, suhu naik; skor PID tinggi, tidak ada tanda kehamilan); servisitis purulen (discharge purulen, bau, nyeri, serviks merah, discharge purulen dari OUE; swab Gram diplokokus atau leukosit banyak); mioma uteri (perdarahan haid banyak, massa abdomen, uterus membesar ireguler; USG massa padat); kanker serviks (perdarahan pascakoitus, discharge bau, BB turun, massa serviks, ulkus, mudah berdarah; biopsi atau kolposkopi); anemia defisiensi besi (lemas, pucat, mudah lelah, konjungtiva pucat, Hb rendah, Hb <9 g/dL).",
+          "tone": "clinical",
+          "source": "§9 file sumber"
+        },
+        {
+          "text": "Pembedaan cepat tunda prosedur vs tolak prosedur. Tunda prosedur: pasien memenuhi syarat, tapi perlu tata/evaluasi dulu. Contoh: kehamilan (tunda sampai postpartum atau tes negatif), servisitis aktif (tunda sampai sembuh), anemia (tunda sampai Hb cukup), perdarahan abnormal belum terdiagnosis (tunda sampai evaluasi). Tindak lanjut: obati, evaluasi, lalu pasang. Bersifat sementara dan reversible. Tolak prosedur (pilih metode lain): pasien tidak memenuhi syarat untuk IUD Copper T 380A. Contoh: kanker serviks terdiagnosis, alergi tembaga (sangat jarang), distorsi kavum uteri berat, pasien tidak mau IUD. Tindak lanjut: rujuk ke SpOG atau pilih metode kontrasepsi lain. Bersifat permanen atau menetap.",
+          "tone": "clinical",
+          "source": "§9 file sumber"
+        },
+        {
+          "text": "Kapan harus merujuk: segera (emergency) — syok, perforasi curiga, perdarahan banyak, nyeri hebat akut; same day — curiga ektopik, PID berat, abses, servisitis purulen dengan gejala sistemik; dalam 24–48 jam — anemia berat, lesi serviks mencurigakan, IUD tidak teraba pasca-pasang; rutin — skrining IMS, konseling KB, ANC pascasalin.",
+          "tone": "clinical",
+          "source": "§9 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Manajemen komplikasi intraprosedural: nyeri hebat (berhenti, komunikasi, cek posisi alat, analgesik/anestesi lokal sesuai SOP); sinkop vasovagal (hentikan, posisi Trendelenburg, longgarkan pakaian, observasi TTV); tenakulum berdarah (tekan kasa 30–60 detik); sonde/inserter tidak masuk (jangan paksa, ulangi orientasi bimanual, hentikan/rujuk); kecurigaan perforasi (hentikan, nilai TTV, jangan lanjutkan, rujuk segera); benang terlalu panjang/pendek (potong 3–4 cm); reaksi alergi (hentikan pajanan, antihistamin/adrenalin sesuai SOP, rawat).",
+          "bold": true,
+          "source": "§11 file sumber"
+        },
+        {
+          "text": "Manajemen komplikasi pasca-prosedur: ekspulsi (konsultasi, USG konfirmasi, pasang ulang atau ganti metode, rujuk bila tidak bisa pasang ulang); perforasi uteri (stabilkan, rujuk ke SpOG untuk laparoskopi/laparotomi, selalu emergency); PID pasca-insersi (antibiotik CDC doksisiklin + metronidazol, lepas IUD bila tidak membaik, rujuk bila tidak membaik); kehamilan dengan IUD (lepas IUD bila benang terlihat, evaluasi lokasi kehamilan, eksklusi ektopik, rujuk ke SpOG); kehamilan ektopik dengan IUD (stabilkan, akses IV 2 jalur, lab darah, emergency rujuk untuk laparoskopi); menorrhagia/dismenore (konseling, NSAID, koreksi anemia, pertimbangkan ganti metode); amenore (konseling, biasanya normal pada IUD); spotting/perdarahan ringan (konseling, NSAID, observasi); nyeri panggul kronis (evaluasi penyebab lain, pertimbangkan ganti metode, rujuk ke SpOG).",
+          "sub": [
+            "IUD Copper T 380A efektif sampai 10 tahun; jadwal kontrol 1/3/12 bulan lalu tahunan."
+          ],
+          "source": "§11 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Ekspulsi IUD",
+          "text": "IUD terasa keluar, benang tidak teraba, atau IUD di vagina. Tatalaksana awal: konsultasi, USG konfirmasi, pasang ulang atau ganti metode. Rujuk bila tidak bisa pasang ulang.",
+          "answer_evidence": "Sumber: CDC US SPR 2024."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Perforasi uteri",
+          "text": "Tanda: nyeri perut, perdarahan, IUD tidak teraba, USG/kontras di abdomen. Saat prosedur: nyeri tajam hebat, hilang tahanan mendadak, perdarahan, pasien tidak stabil. Tatalaksana: stabilkan, rujuk ke SpOG untuk laparoskopi/laparotomi. Emergency — selalu rujuk.",
+          "answer_evidence": "Sumber: CDC US MEC 2024, WHO IUD fact sheet 2026."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "PID pasca-insersi",
+          "text": "Onset dalam 3 minggu pertama pasca-insersi. Tanda: nyeri panggul, demam, discharge, CMT (+). Tatalaksana: antibiotik (CDC: doksisiklin + metronidazol), lepas IUD bila tidak membaik. Rujuk bila tidak membaik.",
+          "answer_evidence": "Sumber: CDC US SPR 2024."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Standarisasi jadwal dan manajemen",
+          "text": "Jadwal dan manajemen komplikasi mengikuti rekomendasi BKKBN, CDC US SPR 2024, dan WHO IUD fact sheet 2026. Pada pasien nyata, dosis dan protokol spesifik mengikuti SOP fasilitas.",
+          "answer_evidence": "Sumber: BKKBN, CDC US SPR 2024, WHO IUD fact sheet 2026."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_iud_ekspulsi_04",
+        "gls_obgyn_iud_pid_05",
+        "gls_obgyn_iud_perforasi_14",
+        "gls_obgyn_iud_bimanual_13"
+      ],
+      "bilingual": "Pasca-prosedur IUD mencakup dekontaminasi alat, dokumentasi SOAP, kartu IUD, edukasi safety-net, dan jadwal kontrol 1/3/12 bulan. Komplikasi serius (ekspulsi, perforasi, PID) masuk kategori danger."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Menggabungkan §10 (tabel pemeriksaan penunjang dan ketersediaan) dan §11 (manajemen klinis komplikasi + tindak lanjut).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pemeriksaan penunjang yang relevan untuk station IUD: tes kehamilan (urin/serum) — indikasi setiap wanita usia reproduksi, amenore, atau sebelum pemasangan IUD; nilai normal negatif = tidak hamil (bila HPHT jelas); ketersediaan puskesmas & RS. Darah lengkap (Hb, leukosit, trombosit) — anemia, infeksi, pra-tindakan; Hb ≥9 g/dL (untuk IUD copper); puskesmas & RS. Golongan darah + Rh — ibu hamil, perdarahan, pra-transfusi; puskesmas & RS. USG ginekologi — curiga hamil ektopik, mioma, kista, perdarahan abnormal; konfirmasi ada/tidak massa, kavum uteri, posisi IUD; RS/klinik dengan USG. USG konfirmasi posisi IUD — IUD tidak teraba pasca-pasang atau curiga perforasi; IUD di kavum uteri atau menembus miometrium atau di luar uterus; RS dengan USG.",
+          "tone": "clinical",
+          "source": "§10 file sumber"
+        },
+        {
+          "text": "Pemeriksaan penunjang tambahan: swab vagina (Gram, KOH, saline) — keputihan abnormal, curiga IMS; pH, whiff, clue cells, pseudohifa, diplokokus Gram-negatif; puskesmas & RS. Tes IMS (HIV, sifilis, hepatitis B) — skrining pranatal, IMS curiga; non-reaktif (negatif); puskesmas & RS dengan lab. Tes kehamilan serial/beta-hCG — curiga hamil ektopik atau kehamilan awal; negatif atau kadar sesuai usia kehamilan; puskesmas & RS. Rontgen abdomen/CT scan — curiga IUD migrasi ke abdomen (perforasi); lokasi IUD di luar kavum uteri; RS. Kultur urine — ISK berulang; negatif atau pertumbuhan <10^5 CFU; lab RS.",
+          "tone": "clinical",
+          "source": "§10 file sumber"
+        },
+        {
+          "text": "Yang biasanya tidak tersedia di OSCE station tapi tetap perlu disebutkan: beta-hCG kuantitatif serial untuk curiga ektopik; biopsi serviks untuk lesi curiga ganas; kultur gonore/klamidia (bila tidak tersedia, cukup sebut rencana rujukan). Catatan penting: pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab; cukup sebutkan bahwa Anda akan memesan pemeriksaan tertentu, dengan indikasi yang jelas.",
+          "tone": "clinical",
+          "source": "§10 file sumber"
+        },
+        {
+          "text": "Tatalaksana komplikasi intraprosedural dirangkum dalam tabel (lihat juga Lampiran B): nyeri hebat (berhenti, komunikasi, cek posisi alat, pertimbangkan analgesik/anestesi lokal sesuai SOP); sinkop vasovagal (hentikan, posisi Trendelenburg, longgarkan pakaian, observasi TTV); tenakulum berdarah (tekan kasa 30–60 detik; pastikan berhenti); sonde/inserter tidak masuk (jangan paksa, ulangi orientasi uterus dari bimanual, hentikan/rujuk); kecurigaan perforasi (hentikan, nilai TTV, jangan lanjutkan, rujuk segera); benang terlalu panjang/pendek (potong 3–4 cm, dokumentasikan); reaksi alergi (hentikan pajanan, antihistamin/adrenalin sesuai SOP, rawat).",
+          "tone": "clinical",
+          "source": "§11 file sumber"
+        },
+        {
+          "text": "Tatalaksana komplikasi pasca-prosedur: ekspulsi (konsultasi, USG konfirmasi, pasang ulang atau ganti metode, rujuk bila tidak bisa pasang ulang); perforasi uteri (stabilkan, rujuk ke SpOG untuk laparoskopi/laparotomi, selalu emergency); PID pasca-insersi (antibiotik CDC: doksisiklin + metronidazol, lepas IUD bila tidak membaik, rujuk bila tidak membaik); kehamilan dengan IUD (lepas IUD bila benang terlihat, evaluasi lokasi kehamilan, eksklusi ektopik, rujuk ke SpOG); kehamilan ektopik dengan IUD (stabilkan, akses IV 2 jalur, lab darah, emergency rujuk untuk laparoskopi); menorrhagia/dismenore (konseling, NSAID, koreksi anemia, pertimbangkan ganti metode); amenore (konseling, biasanya normal pada IUD); spotting/perdarahan ringan (konseling, NSAID, observasi); nyeri panggul kronis (evaluasi penyebab lain, pertimbangkan ganti metode, rujuk ke SpOG).",
+          "tone": "clinical",
+          "source": "§11 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kapan hentikan prosedur intraprosedural: pasien tidak mau dilanjutkan; vasovagal dengan penurunan kesadaran; tenakulum tidak berhenti dalam 5 menit; sonde/inserter tidak masuk setelah 3× percobaan; kecurigaan perforasi (selalu); reaksi alergi (selalu); IUD tidak tampak lengkap saat dicabut (selalu); serviks sulit dijangkau gagal setelah 2–3 percobaan; perdarahan berlebihan tidak berhenti dalam 5 menit.",
+          "bold": true,
+          "source": "§11 file sumber + Lampiran B"
+        },
+        {
+          "text": "Jadwal tindak lanjut: 1 bulan pasca-pasang (cek benang, keluhan, tanda infeksi); 3 bulan pasca-pasang (evaluasi efek samping, kepuasan, komplikasi); 1 tahun lalu tahunan (atau sesuai keluhan); kapan saja (bila ada tanda bahaya). Pada pencabutan: konseling kesuburan kembali, asam folat 400 µg/hari, skrining pranatal, KB lain bila belum ingin hamil. IUD Copper T 380A efektif sampai 10 tahun, dapat dilepas lebih awal bila direncanakan hamil atau ganti metode.",
+          "sub": [
+            "Antibiotik PID sesuai CDC: doksisiklin + metronidazol; lepas IUD bila tidak membaik."
+          ],
+          "source": "§11 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Catatan laboratorium OSCE",
+          "text": "Pada station OSCE, bila laboratorium tidak diminta di soal, jangan mengarang hasil lab. Cukup sebutkan bahwa Anda akan memesan pemeriksaan tertentu, dengan indikasi yang jelas.",
+          "answer_evidence": "Sumber: Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kehamilan ektopik dengan IUD",
+          "text": "Stabilkan, akses IV 2 jalur, lab darah, emergency rujuk untuk laparoskopi. Pada pencabutan, IUD tetap di tempat bila lokasi ektopik terkonfirmasi.",
+          "answer_evidence": "Sumber: CDC US SPR 2024, WHO IUD fact sheet 2026."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Standarisasi manajemen",
+          "text": "Jadwal dan manajemen di atas mengikuti rekomendasi BKKBN, CDC US SPR 2024, dan WHO IUD fact sheet 2026. Pada pasien nyata, dosis dan protokol spesifik mengikuti SOP fasilitas.",
+          "answer_evidence": "Sumber: BKKBN, CDC US SPR 2024, WHO IUD fact sheet 2026."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_iud_ekspulsi_04",
+        "gls_obgyn_iud_pid_05",
+        "gls_obgyn_iud_perforasi_14",
+        "gls_obgyn_iud_cmt_12"
+      ],
+      "bilingual": "Pemeriksaan penunjang wajib: tes kehamilan, darah lengkap (Hb ≥9), USG konfirmasi posisi IUD, swab vagina, dan tes IMS sesuai indikasi. Manajemen komplikasi mengikuti protokol CDC/WHO."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Menggabungkan §12 (poin edukasi, safety net, kalimat siap pakai) dan §13 (contoh SOAP lengkap skenario Ny. Lina, kode ICD-10, kartu IUD).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi pasca-pemasangan IUD adalah komponen wajib. Penguji menilai apakah Anda menjelaskan efek samping wajar dan menyebutkan safety-net dengan bahasa awam. Poin edukasi spesifik (minimal 6): kram ringan dan flek dapat terjadi setelah pemasangan; jelaskan apa yang masih wajar sesuai SOP lokal; datang segera bila nyeri perut hebat, demam, keputihan berbau, perdarahan banyak, pingsan, telat haid/curiga hamil, benang tidak teraba, atau IUD terasa keluar; IUD tidak melindungi dari IMS/HIV; gunakan kondom bila ada risiko IMS atau pasangan tidak monogami; pasien boleh kontrol sesuai jadwal fasilitas atau lebih cepat bila ada keluhan; setelah pencabutan, kesuburan dapat kembali cepat; tawarkan kontrasepsi lain bila belum ingin hamil; pada IUD Copper T 380A efektif sampai 10 tahun, kontrol 1 bulan, 3 bulan, lalu tahunan; hubungan seksual boleh setelah beberapa hari atau saat tidak ada perdarahan aktif; tanda benang IUD teraba atau tidak — pasien diajarkan untuk meraba benang sendiri (opsional).",
+          "tone": "clinical",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Safety net — kapan harus kembali segera atau ke IGD (minimal 4): nyeri perut hebat yang tidak hilang dengan istirahat atau makin memberat; demam ≥38°C terutama dalam 3 minggu pertama pasca-pasang; perdarahan banyak >2 softek per jam atau perdarahan yang tidak berhenti; keputihan berbau busuk atau abnormal; telat haid atau curiga hamil — bila IUD terpasang dan terlambat haid, evaluasi kehamilan (termasuk ektopik); benang tidak teraba atau IUD terasa keluar (evaluasi posisi dengan USG); sinkop atau pingsan yang tidak biasa.",
+          "tone": "clinical",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Cara edukasi yang benar di OSCE: bahasa awam — Ibu, kram ringan atau flek beberapa hari setelah pemasangan itu wajar, ya. Tapi kalau ada nyeri hebat, demam, atau perdarahan banyak, langsung ke IGD; minta pasien mengulang — Bisa tolong ulangi, Bu, kapan harus kembali ke IGD?; berikan waktu bertanya — Ada yang ingin ditanyakan, Bu?; tunjukkan sikap empati: tidak menggurui, tidak menghakimi.",
+          "tone": "narrative",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Contoh kalimat edukasi spesifik: (1) IUD sudah terpasang. Benang dipotong sekitar 3–4 cm. Kram ringan atau flek bisa terjadi. Segera kembali bila demam, nyeri perut hebat, perdarahan banyak, keputihan berbau, telat haid, atau IUD terasa keluar. IUD tidak mencegah infeksi menular seksual, jadi gunakan kondom bila ada risiko. (2) IUD Copper T 380A efektif selama 10 tahun, Bu. Kalau ada rencana hamil sebelumnya, atau ganti metode, bisa dilepas kapan saja. Kalau tidak ada keluhan, kontrol 1 bulan, 3 bulan, lalu setahun sekali. (3) Kehamilan dengan IUD jarang terjadi, Bu, tapi kalau sampai terjadi, perlu evaluasi apakah di dalam kandungan atau di luar (ektopik). Segera periksa kalau telat haid.",
+          "tone": "narrative",
+          "source": "§12 file sumber"
+        },
+        {
+          "text": "Contoh SOAP — skenario: Ny. Lina, 30 tahun, G2P1A0, datang untuk pemasangan IUD Copper T 380A. HPHT 4 bulan lalu (amenore karena menyusui), menyusui eksklusif, tidak ada keluhan. S (Subjective): keluhan utama tidak ada, ingin KB IUD; HPHT 4 bulan lalu, menyusui eksklusif, haid belum kembali; riwayat obstetri G2P1A0, persalinan normal 6 bulan lalu, bayi sehat, ASI eksklusif; riwayat KB sebelumnya tidak KB; riwayat IMS/PID tidak ada; riwayat ektopik tidak ada; nyeri haid ringan; alergi obat tidak ada; keluhan tambahan tidak ada perdarahan, tidak ada nyeri panggul, tidak ada demam.",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "O (Objective) SOAP: TTV TD 110/70 mmHg, N 80 x/menit, S 36,5°C, RR 18 x/menit, SpO2 98%; BB 55 kg; konjungtiva tidak pucat. Abdomen suprafisial dan dalam tidak nyeri, tidak ada massa. Genitalia eksterna labia simetris, tidak ada lesi, tidak ada discharge. Spekulum serviks merah muda, OUE multipara (garis), lendir bening fisiologis, tidak ada lesi, tidak ada discharge purulen. Bimanual serviks konsistensi normal, CMT negatif, uterus anteversi, ukuran normal, tidak nyeri, mobile. Adneksa tidak teraba massa, tidak nyeri. Hb (sebelumnya) 12 g/dL. Tes kehamilan urin negatif.",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "A (Assessment) SOAP: G2P1A0, postpartum 6 bulan, menyusui eksklusif, amenore laktasi. Kandidat KB IUD Copper T 380A. Tidak ada kontraindikasi teridentifikasi. P (Plan) SOAP: (1) informed consent: jelaskan tujuan, prosedur, risiko, alternatif, dapatkan persetujuan tertulis; (2) persiapan alat IUD Copper T 380A steril; (3) posisi litotomi, drape, pengosongan kandung kemih; (4) cuci tangan, sarung tangan steril; (5) spekulum, antisepsis vagina/serviks; (6) sonde uterus no-touch, kedalaman 7 cm, posisi anteversi; (7) atur kedalaman pada tabung inserter; (8) masukkan inserter, withdrawal technique; (9) potong benang 3–4 cm dari OUE; (10) evaluasi perdarahan, tekan bekas tenakulum; (11) dekontaminasi, dokumentasi, kartu IUD; (12) edukasi efek samping wajar + safety-net + jadwal kontrol.",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "Kode ICD-10 yang relevan: Z30.014 encounter for initial prescription of intrauterine contraceptive device; Z30.430 encounter for insertion of intrauterine contraceptive device; Z30.432 encounter for removal of intrauterine contraceptive device; Z30.9 encounter for contraceptive management, unspecified; O09.90 supervisi kehamilan risiko tinggi (bila ada faktor risiko); N94.6 dismenore (bila ada keluhan nyeri haid). Dokumen/kartu khusus: kartu IUD (tanggal pemasangan, jenis IUD, panjang benang, jadwal kontrol, nama operator); lembar informed consent (ditandatangani pasien dan saksi); surat rujukan (bila perlu).",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "Cara mendokumentasikan prosedur pemasangan IUD: tanggal dan jam pemasangan; jenis IUD, nomor batch, tanggal kedaluwarsa; identitas operator; catatan posisi litotomi, antisepsis, sonde (kedalaman uterus), IUD terpasang, panjang benang 3–4 cm, perdarahan minimal, pasien kooperatif, edukasi safety net; komplikasi intraprosedural tidak ada atau ada (jelaskan); tanda tangan dokter dan perawat. Format SOAP di atas mengikuti standar puskesmas dan RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas.",
+          "tone": "clinical",
+          "source": "§13 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen SOAP wajib: identitas pasien, TTV, hasil pemeriksaan (abdomen, genital, spekulum, bimanual), Hb, tes kehamilan, jenis IUD, panjang benang, komplikasi intraprosedural, edukasi, dan tanda tangan operator.",
+          "bold": true,
+          "source": "§13 file sumber"
+        },
+        {
+          "text": "Safety net 7 poin untuk pasien IUD: nyeri perut hebat; demam ≥38°C; perdarahan banyak >2 softek/jam; keputihan berbau; telat haid/curiga hamil; benang tidak teraba atau IUD terasa keluar; sinkop tidak biasa.",
+          "sub": [
+            "Kalimat edukasi: 'IUD Copper T 380A efektif sampai 10 tahun, Bu. Kalau ada rencana hamil sebelumnya, atau ganti metode, bisa dilepas kapan saja.'"
+          ],
+          "source": "§12 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pengurangan besar: tidak ada kartu IUD",
+          "text": "Tidak membuat kartu IUD (tanpa kartu, pasien tidak bisa kontrol) → skor turun signifikan. Kartu harus berisi identitas, jenis IUD, tanggal pemasangan, panjang benang, jadwal kontrol, dan nama operator.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Pengurangan besar: tidak menyebut ICD-10",
+          "text": "Tidak menyebut kode ICD-10 diagnosis utama → skor turun. Untuk pemasangan IUD: Z30.430; pencabutan: Z30.432; initial prescription: Z30.014; manajemen kontrasepsi umum: Z30.9.",
+          "answer_evidence": "Sumber: ICD-10 WHO."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Standarisasi SOAP",
+          "text": "Format SOAP di atas mengikuti standar puskesmas dan RS pendidikan; pada pasien nyata, format mengikuti SOP fasilitas. Kalimat edukasi spesifik mengikuti pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi; pada pelaksanaan, kalimat final harus disesuaikan dengan skenario.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        }
+      ],
+      "visual_refs": [
+        "visual_iud_kartu_05"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_iud_copper_t380a_10",
+        "gls_obgyn_iud_informed_consent_07"
+      ],
+      "bilingual": "Edukasi pasca-IUD wajib mencakup efek samping wajar, safety-net, jadwal kontrol, dan keterbatasan IUD (tidak melindungi IMS). Dokumentasi SOAP harus lengkap dengan kode ICD-10 (Z30.430 insersi, Z30.432 pencabutan)."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Menggabungkan §14 (tabel SKDI 4A, batas kompetensi, diagnosis yang harus dirujuk) dan §15 (mini-skrip 5 fase komunikasi: pembukaan, anamnesis, informed consent, prosedur, penutup).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Kaitan penyakit SKDI 4A: kontrasepsi (IUD, pil, suntik, implan) Z30.x level 4A — relevansi konseling, seleksi klien, pemasangan, komplikasi; kehamilan normal (penyaringan hamil) Z34.9 level 4A — tes kehamilan, kriteria 'yakin tidak hamil' sebelum pemasangan; duh genital, servisitis, vaginitis, gonore/nongonore N89.8, N72, N76.x level 4A (3B bila PID) — anamnesis, inspeksi, swab, tatalaksana; salpingitis/PID N73 level 3B (Rujuk) — CMT, nyeri adneksa/uterus, demam, nyeri panggul → tunda/rujuk; anemia defisiensi besi O99.0/D64.9 level 4A (3B bila Hb <8/gagal respons) — Hb <9 → tunda, tata anemia, pertimbangkan metode lain; kanker serviks/lesi serviks mencurigakan C53.x/N87.x level 3B (Rujuk) — lesi berdarah, massa, perdarahan pascakoitus → rujuk; kehamilan ektopik O00.x level 3B (Emergency) — nyeri unilateral, syok → emergency rujuk; dismenore N94.6 level 4A — nyeri haid berat → konseling efek samping copper, pertimbangkan metode lain; mioma uteri D25.x level 3B (Rujuk untuk tatalaksana definitif) — uterus membesar ireguler → USG, rujuk untuk tatalaksana; infeksi saluran kemih bagian bawah N39.0 level 4A — anamnesis disuria, urinalisis, tatalaksana konservatif.",
+          "tone": "clinical",
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Batas kompetensi dokter umum untuk setiap diagnosis: 4A (mandiri) — dokter umum boleh menangani sendiri di layanan primer; 3B (merujuk) — dokter umum boleh melakukan stabilisasi dan tatalaksana awal, wajib merujuk ke SpOG; 2 (merujuk ke spesialis) — hanya spesialis yang menangani; dokter umum hanya boleh melakukan deteksi dini dan rujukan.",
+          "tone": "clinical",
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Catatan diagnosis yang harus dirujuk segera (SKDI 3B): kehamilan ektopik (curiga); PID aktif dengan gejala berat/abses; kanker serviks/lesi curiga ganas; perforasi uteri curiga; perdarahan banyak pascaprosedur; IUD migrasi ke abdomen.",
+          "tone": "clinical",
+          "source": "§14 file sumber"
+        },
+        {
+          "text": "Mini-skrip pembukaan station: Dokter: 'Selamat pagi, Bu Lina. Saya dokter muda yang akan membantu. Sesuai instruksi, saya akan melakukan pemeriksaan dan pemasangan IUD. Tindakan ini bertujuan mencegah kehamilan jangka panjang. Saya akan menjaga privasi Ibu, menggunakan alat steril, dan Ibu boleh meminta saya berhenti bila nyeri. Apakah Ibu bersedia?' Pasien: 'Silakan, Dok.' Dokter: 'Baik. Sebelum saya mulai, saya akan bertanya beberapa hal tentang riwayat Ibu — haid, kehamilan, IMS, anemia, dan alergi obat. Setelah itu saya melakukan pemeriksaan fisik dan panggul. Ibu ada pertanyaan sebelum kita mulai?'",
+          "tone": "narrative",
+          "source": "§15 file sumber"
+        },
+        {
+          "text": "Mini-skrip saat anamnesis seleksi: Dokter: 'Kapan hari pertama haid terakhir Ibu?' Pasien: '4 bulan lalu, Dok. Saya menyusui, haid belum kembali.' Dokter: 'Baik, kemungkinan hamil perlu saya singkirkan dulu. Saya akan melakukan tes kehamilan. Ibu pernah hamil di luar kandungan (ektopik) sebelumnya?' Pasien: 'Tidak pernah, Dok.' Dokter: 'Ibu pernah keputihan berbau, nyeri panggul, atau infeksi menular seksual?' Pasien: 'Tidak ada, Dok.' Dokter: 'Ibu pernah didiagnosis anemia atau Hb rendah? Ada alergi obat?' Pasien: 'Tidak ada, Dok.' Dokter: 'Baik, Bu. Hasil seleksi menunjukkan Ibu kandidat untuk IUD. Saya jelaskan prosedurnya.'",
+          "tone": "narrative",
+          "source": "§15 file sumber"
+        },
+        {
+          "text": "Mini-skrip saat informed consent: Dokter: 'IUD Copper T 380A adalah alat kecil yang dipasang di dalam rahim untuk mencegah kehamilan, efektif sampai 10 tahun. Pemasangan memakan waktu 5–10 menit. Mungkin terasa kram atau tidak nyaman sesaat. Risikonya: kram/flek setelah pemasangan (umum), perdarahan (jarang), ekspulsi (jarang), perforasi (sangat jarang), infeksi (jarang). IUD tidak melindungi dari IMS/HIV. Alternatif: pil, suntik, implan. Ada pertanyaan, Bu?' Pasien: 'Tidak ada, Dok. Saya setuju.' Dokter: 'Mohon tanda tangan di lembar persetujuan, Bu. Saya akan lanjut ke prosedur.'",
+          "tone": "narrative",
+          "source": "§15 file sumber"
+        },
+        {
+          "text": "Mini-skrip saat prosedur pemasangan: Dokter: 'Ibu, silakan ke kamar kecil dulu untuk buang air kecil. Setelah itu, kita masuk ke prosedur. Saya cuci tangan dulu.' (Pasien litotomi, drape) Dokter: 'Saya pakai sarung tangan steril dan siapkan alat. Spekulum masuk, Bu. Tarik napas, rileks. Saya bersihkan vagina dan serviks dengan antiseptik.' (Sonde) Dokter: 'Saya masukkan sonde untuk mengukur kedalaman rahim. Mungkin terasa sedikit kram. Beri tahu saya kalau sakit.' (Inserter + withdrawal) Dokter: 'IUD sudah terpasang di fundus rahim. Sekarang saya potong benang 3–4 cm dari mulut rahim.' (Finishing + evaluasi) Dokter: 'Sudah selesai, Bu. Saya evaluasi — tidak ada perdarahan aktif. Ibu bisa istirahat sebentar sebelum pulang.'",
+          "tone": "narrative",
+          "source": "§15 file sumber"
+        },
+        {
+          "text": "Mini-skrip penutup station (edukasi): Dokter: 'Ibu, IUD sudah terpasang dengan baik. Benang sudah dipotong. Kram ringan atau flek dalam beberapa hari ini wajar, Bu. Segera kembali atau ke IGD kalau ada: nyeri perut hebat, demam, perdarahan banyak, keputihan berbau, telat haid, atau IUD terasa keluar. IUD tidak mencegah IMS, jadi tetap pakai kondom kalau berisiko. Kontrol 1 bulan untuk cek benang. Ada pertanyaan, Bu?' Pasien: 'Tidak ada, Dok. Terima kasih.' Dokter: 'Sama-sama, Bu. Saya doakan Ibu sehat. Kartu IUD dan catatan kontrol sudah saya berikan.'",
+          "tone": "narrative",
+          "source": "§15 file sumber"
+        },
+        {
+          "text": "Catatan perbedaan antara pasien awam vs pasien kooperatif: pasien awam — bahasa lebih sederhana, jelaskan setiap langkah sebelum dilakukan, minta persetujuan verbal lebih sering; pasien kooperatif — bisa lebih ringkas, tetapi tetap verbalisasi temuan dan edukasi; pasien dengan keluhan akut/nyeri — prioritaskan tatalaksana, komunikasi lebih singkat.",
+          "tone": "narrative",
+          "source": "§15 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "5 fase mini-skrip komunikasi OSCE: (1) Pembukaan (salam, informed consent, izin bertanya); (2) Anamnesis seleksi (HPHT, ektopik, IMS, anemia, alergi); (3) Informed consent (tujuan, prosedur, risiko, alternatif, tanda tangan); (4) Prosedur (verbalisasi setiap langkah: BAK, cuci tangan, spekulum, antisepsis, sonde, inserter, withdrawal, potong benang, finishing); (5) Penutup (edukasi safety-net, jadwal kontrol, kartu IUD, salam).",
+          "bold": true,
+          "source": "§15 file sumber"
+        },
+        {
+          "text": "Kalimat verbal kunci 60–90 detik pertama station: (1) Saya memastikan Ibu sudah mendapat konseling dan memilih IUD secara sadar, bukan dipaksa; (2) Saya menanyakan HPHT, pola haid, kemungkinan hamil, riwayat ektopik, nyeri haid berat, anemia, IMS/PID, pasangan berisiko, dan kanker serviks; (3) Saya meminta Ibu mengosongkan kandung kemih, menjaga privasi, menyiapkan chaperone, dan memposisikan litotomi; (4) Saya melakukan pemeriksaan abdomen, inspeksi genital, spekulum, dan bimanual untuk menilai posisi uterus serta menyingkirkan infeksi/tumor/kehamilan; (5) Saya melakukan sonde uterus dengan no-touch technique, mengukur kedalaman, lalu memasang IUD dengan withdrawal technique; (6) Saya memotong benang 3–4 cm, mengevaluasi perdarahan serviks, dekontaminasi alat, cuci tangan, dokumentasi, dan kartu IUD.",
+          "sub": [
+            "Tambahan pencabutan: jelaskan prosedur, risiko (sangat rendah), informed consent; bimanual posisi uterus, spekulum, jepit benang dekat serviks; tarik benang perlahan sampai IUD keluar, tunjukkan kepada Ibu, dokumentasikan."
+          ],
+          "source": "Lampiran D file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Prinsip menunggu persetujuan",
+          "text": "Berhenti sejenak setelah informed consent — penguji sering menilai apakah Anda benar-benar menunggu persetujuan atau langsung bergerak. Tanda tangan lembar persetujuan harus terlihat jelas.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Standarisasi kalimat OSCE",
+          "text": "Kalimat di atas mengikuti pola komunikasi modul OSCE ObGyn FKIK Universitas Jambi; pada pelaksanaan, kalimat final harus disesuaikan dengan skenario. Pencabutan IUD menggunakan pola komunikasi yang sama dengan penyesuaian tujuan.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_iud_informed_consent_07",
+        "gls_obgyn_iud_litotomi_06",
+        "gls_obgyn_iud_insersi_01"
+      ],
+      "bilingual": "Mini-skrip OSCE IUD mengikuti 5 fase: pembukaan, anamnesis seleksi, informed consent, prosedur (verbalized), dan penutup/edukasi. SKDI 4A untuk IUD: kontrasepsi Z30.x, kehamilan normal Z34.9, anemia D64.9, dismenore N94.6."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Menggabungkan §16 (34 item checklist latihan), §17 (rencana belajar 3 hari), §18 (10 FATAL + 8 PENGURANGAN BESAR + 4 Recovery Move), dan Lampiran C (4 skenario latihan).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Skenario mudah (Pemasangan IUD pada Ibu Menyusui): Ny. Lina, 30 tahun, G2P1A0, postpartum 6 bulan, menyusui eksklusif, amenore laktasi. Datang untuk konseling dan pemasangan IUD Copper T 380A. Tidak ada keluhan. Tidak ada riwayat IMS/PID. Hb terakhir 12 g/dL. Pertanyaan pemandu: bagaimana anamnesis seleksi klien; apakah perlu tes kehamilan dan mengapa; bagaimana informed consent yang tepat; apa saja langkah pemasangan; apa edukasi pasca-pasang. Kunci jawaban: anamnesis informed choice, HPHT (amenore karena menyusui), riwayat persalinan, IMS/PID, anemia, ektopik, alergi; tes kehamilan YA untuk menyingkirkan kehamilan pada amenore laktasi, karena ovulasi bisa terjadi sebelum haid pertama; informed consent tujuan (KB jangka panjang), prosedur (5–10 menit, mungkin kram), risiko (kram, perdarahan, ekspulsi, perforasi jarang), alternatif (pil, suntik, implan, IUD hormonal); langkah persiapan alat steril, posisi litotomi, drape, antisepsis, sonde no-touch, inserter, withdrawal, potong benang 3–4 cm, evaluasi; edukasi kram/flek wajar, safety-net (nyeri hebat, demam, perdarahan banyak, dll.), IUD tidak melindungi IMS, kontrol 1 bulan. Jebakan nilai: tidak melakukan tes kehamilan, tidak konseling pasangan, tidak menyebut tanda bahaya.",
+          "tone": "narrative",
+          "source": "Lampiran C Skenario 1 file sumber"
+        },
+        {
+          "text": "Skenario sedang (IUD + Curiga Infeksi): Ny. Rini, 28 tahun, G1P0A0, dating untuk pemasangan IUD Copper T 380A. HPHT 2 minggu lalu. Riwayat keputihan kuning 1 bulan, belum diobati. Tidak ada demam. Ingin IUD sebagai KB jangka panjang. Pertanyaan pemandu: apakah ada kontraindikasi dan mana yang paling penting; pemeriksaan apa yang harus dilakukan; bagaimana tatalaksana awal. Kunci jawaban: kontraindikasi curiga servisitis/vaginitis aktif, perlu evaluasi dan tatalaksana dulu, IUD ditunda; pemeriksaan TTV, inspeksi genital, spekulum (serviks), swab (pH, KOH, saline, Gram), tes kehamilan; tatalaksana awal tunda pemasangan IUD, obati infeksi sesuai hasil swab (kandidiasis antijamur; BV metronidazol; gonore antibiotik sesuai SOP), edukasi pasangan, evaluasi ulang 1–2 minggu, baru pasang IUD bila sudah sembuh. Jebakan nilai: memasang IUD tanpa evaluasi servisitis, hanya mengandalkan anamnesis tanpa swab.",
+          "tone": "narrative",
+          "source": "Lampiran C Skenario 2 file sumber"
+        },
+        {
+          "text": "Skenario sulit (Pencabutan IUD + Kehamilan Ditemukan): Ny. Maya, 35 tahun, G3P2A0, dating untuk pencabutan IUD. IUD terpasang 3 tahun lalu. HPHT 6 minggu lalu, mual muntah ringan. Tes kehamilan di klinik positif. Ingin cabut IUD karena sudah selesai KB-nya. Pertanyaan pemandu: apakah IUD boleh langsung dicabut; pemeriksaan apa yang harus dilakukan; bagaimana informed consent; apakah ada risiko setelah pencabutan. Kunci jawaban: IUD boleh dicabut, tapi perlu informed consent khusus karena ada kehamilan; wajib evaluasi lokasi kehamilan (USG) untuk menyingkirkan kehamilan ektopik. Jika ektopik, IUD tetap di tempat, rujuk emergensi; informed consent cabut IUD bisa dilakukan dengan aman oleh operator terampil, risiko keguguran meningkat sedikit (sekitar 1/4) bila IUD dicabut, tetapi risiko kehamilan yang dilanjutkan dengan IUD (abortus, preterm) lebih tinggi; skenario bila lokasi intrauterin, lakukan pencabutan hati-hati dengan traksi benang, ektopik IUD tidak dicabut, rujuk SpOG. Jebakan nilai: langsung cabut IUD tanpa USG (risiko cabut pada ektopik), tidak informed consent khusus, tidak menyebut risiko keguguran.",
+          "tone": "narrative",
+          "source": "Lampiran C Skenario 3 file sumber"
+        },
+        {
+          "text": "Skenario tambahan: Kesulitan Sonde. Ny. Sari, 32 tahun, dating untuk pemasangan IUD. Saat sonde uterus, ada tahanan kuat dan sonde tidak bisa masuk lebih dari 2 cm. Pasien mulai kesakitan. Pertanyaan pemandu: apa diagnosis kerja yang mungkin; bagaimana tatalaksana aman; apakah prosedur dilanjutkan. Kunci jawaban: diagnosis kerja stenosis serviks, posisi uterus tidak teridentifikasi (anteversi berat/retroversi/antefleksi), atau perforasi awal; tatalaksana hentikan, reposisi uterus dengan bimanual, pertimbangkan analgesik/antispasmodik sesuai SOP, bila tetap tidak masuk, hentikan prosedur; prosedur tidak dilanjutkan, evaluasi lebih lanjut (USG untuk konfirmasi posisi uterus, servisitis, mioma), pasang IUD pada kesempatan kedua bila memungkinkan; jangan memaksa, risiko perforasi. Jebakan nilai: memaksa sonde, tidak evaluasi posisi uterus dengan USG.",
+          "tone": "narrative",
+          "source": "Lampiran C Skenario 4 file sumber"
+        },
+        {
+          "text": "Rencana belajar Hari 1 — Orientasi dan Pemahaman Dasar (60 menit). Target: pahami konsep IUD Copper T 380A dan alur OSCE (§1, §2); hafal 9 pertanyaan seleksi klien (§4) dan 4 pertanyaan kunci; baca §3 dan §6 (alat) sekali penuh. Aktivitas: baca §1 untuk konteks; tulis ulang alur §2 dari ingatan tanpa melihat; tulis ulang 9 pertanyaan seleksi klien di kertas; hafalkan alat-alat utama (§6); pahami teknik no-touch dan withdrawal (lihat §7). Sumber tambahan: CDC US Selected Practice Recommendations 2024; video pembelajaran pemasangan IUD (sumber fakultas/RCOG/CDC, diakses di luar modul ini). Kriteria selesai: bisa menyebutkan alur §2 dan 9 pertanyaan seleksi tanpa melihat catatan.",
+          "tone": "narrative",
+          "source": "§17 Hari 1 file sumber"
+        },
+        {
+          "text": "Rencana belajar Hari 2 — Latihan Teknis dan Verbal (90 menit). Target: hafal langkah pemasangan IUD (§7 Fase Pelaksanaan) dan pencabutan; latihan mini-skrip komunikasi (§15); latihan SOAP (§13) untuk 2 skenario. Aktivitas: latihan di manekin/phantom sambil mengucapkan langkah-langkah dengan suara keras; praktik posisi litotomi, drape, sarung tangan, hand hygiene; praktik sonde no-touch pada phantom (atau model); tulis SOAP untuk skenario dari §13; simulasikan skenario dari Lampiran C dengan teman sebagai 'pasien'. Sumber tambahan: Modul IUD FKIK Universitas Jambi; rekam suara sendiri, review kecepatan bicara. Kriteria selesai: dapat menyelesaikan pemasangan IUD (verbalized) dalam 7–8 menit tanpa terhenti, dan menulis SOAP lengkap untuk 1 skenario dalam 5 menit.",
+          "tone": "narrative",
+          "source": "§17 Hari 2 file sumber"
+        },
+        {
+          "text": "Rencana belajar Hari 3 — Simulasi Penuh dan Evaluasi (60 menit). Target: run-through penuh station (masuk, salam, anamnesis, pemasangan, edukasi, dokumentasi, keluar); identifikasi celah terakhir; simulasi skenario berbeda (3 tingkat kesulitan). Aktivitas: timer 10 menit, simulasi lengkap dari masuk station sampai keluar; review §18 (kesalahan fatal) — pastikan tidak ada yang terlewat; praktik skenario alternatif dari Lampiran C; tidur cukup malam sebelumnya; OSCE bukan dihafal semalam. Sumber tambahan: teman sebagai 'penguji' feedback jujur; rekam video latihan, review postur dan kontak mata.",
+          "tone": "narrative",
+          "source": "§17 Hari 3 file sumber"
+        },
+        {
+          "text": "Kriteria 'siap OSCE': bisa menyelesaikan station dalam batas waktu tanpa melupakan keselamatan, komunikasi, dan dokumentasi; tidak melewatkan item checklist §16 (minimal 30 dari 34); bisa menjawab 1–2 pertanyaan penguji (misal: 'Kapan IUD tidak boleh dipasang?', 'Bagaimana teknik withdrawal?') dengan baik; merasa cukup percaya diri — bukan sempurna, tapi yakin dengan alur. Kriteria 'Siap OSCE' checklist §16: minimal 30 dari 34 item tercentang, dan semua item TINGGI sudah dikuasai.",
+          "tone": "narrative",
+          "source": "§17 file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Kesalahan FATAL (skor hangus/nol untuk station): (1) memasang IUD tanpa menyingkirkan kehamilan; (2) tidak melakukan informed consent; (3) tidak menjaga privasi (tidak menutup area, tidak ada chaperone); (4) tidak cuci tangan; (5) menyentuh dinding vagina/bibir spekulum dengan sonde/inserter; (6) tidak menggunakan teknik withdrawal; (7) memasang IUD pada pasien dengan PID aktif; (8) memaksa sonde/inserter saat tahanan kuat; (9) tidak mengenali tanda bahaya/red flags; (10) tidak melakukan dekontaminasi alat setelah tindakan.",
+          "bold": true,
+          "source": "§18 FATAL file sumber"
+        },
+        {
+          "text": "Kesalahan PENGURANGAN BESAR (skor turun signifikan tapi tidak nol): (1) tidak menyebut diagnosis kerja; (2) tidak menulis dokumentasi SOAP atau dokumentasi tidak lengkap; (3) tidak memberi edukasi safety-net; (4) salah urutan prosedur (mis. sonde sebelum antisepsis); (5) tidak verbalisasi temuan; (6) benang terlalu panjang/pendek (tanpa menyebut 3–4 cm); (7) tidak membuat kartu IUD; (8) tidak menyebut kode ICD-10 diagnosis utama.",
+          "sub": [
+            "Recovery Move: saat anamnesis — 'Mohon maaf, Bu, saya akan mengulang pertanyaan tadi.'; saat prosedur — 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.'; saat edukasi — 'Ibu, satu hal penting yang harus saya tambahkan: ...'; saat dokumentasi — 'Saya akan menuliskan [poin yang terlewat] di rekam medis.'"
+          ],
+          "source": "§18 file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "10 Kesalahan FATAL station IUD",
+          "text": "(1) Memasang IUD tanpa menyingkirkan kehamilan. (2) Tidak informed consent. (3) Tidak menjaga privasi. (4) Tidak cuci tangan. (5) Menyentuh dinding vagina dengan sonde/inserter. (6) Tidak menggunakan withdrawal. (7) Memasang IUD pada PID aktif. (8) Memaksa sonde saat tahanan kuat. (9) Tidak mengenali tanda bahaya. (10) Tidak dekontaminasi alat.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "8 Kesalahan PENGURANGAN BESAR",
+          "text": "(1) Tidak menyebut diagnosis kerja. (2) Tidak menulis dokumentasi SOAP lengkap. (3) Tidak memberi edukasi safety-net. (4) Salah urutan prosedur. (5) Tidak verbalisasi temuan. (6) Benang tidak 3–4 cm. (7) Tidak membuat kartu IUD. (8) Tidak menyebut kode ICD-10.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Recovery Move saat ditegur",
+          "text": "Saat anamnesis: 'Mohon maaf, Bu, saya akan mengulang pertanyaan tadi.' Saat prosedur: 'Baik, Bu, saya menyadari saya melewatkan langkah ... Saya akan melakukannya sekarang.' Saat edukasi: 'Ibu, satu hal penting yang harus saya tambahkan: ...' Saat dokumentasi: 'Saya akan menuliskan [poin yang terlewat] di rekam medis.' Penguji menghargai self-correction. Yang penting: jangan panik dan jangan asal jawab saat ditegur.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan skenario tambahan",
+          "text": "Skenario sedang (Ny. Rini dengan servisitis), sulit (Ny. Maya dengan kehamilan + pencabutan IUD), dan tambahan Kesulitan Sonde (Ny. Sari) merupakan variasi yang ditambahkan untuk latihan.",
+          "answer_evidence": "Sumber: Sintesis dari skenario asli + variasi klinis umum."
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_obgyn_iud_insersi_01",
+        "gls_obgyn_iud_ekspulsi_04",
+        "gls_obgyn_iud_pid_05",
+        "gls_obgyn_iud_perforasi_14"
+      ],
+      "bilingual": "Latihan mandiri IUD mengikuti rencana 3 hari: Hari 1 (orientasi), Hari 2 (latihan teknis & verbal), Hari 3 (simulasi penuh). Kesalahan fatal (10 item) harus dihindari; pengurangan besar (8 item) harus diminimalkan."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Menggabungkan §19 (6 visual + 3 prompt AI + 1 prompt mini-case), Referensi Ringkas, Lampiran A (kontraindikasi absolut/relatif), Lampiran B (masalah prosedur), Lampiran C (4 mini-case), dan Lampiran D (checklist verbal).",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Saran visual dan prompt AI: (1) Anatomi uterus-serviks-IUD — ilustrasi medis uterus potongan sagital dengan Copper T IUD di fundus dan benang keluar melalui serviks; tujuan memahami posisi IUD di fundus uteri dan benang di serviks. (2) Alat pemasangan IUD — infografik alat pemasangan IUD Copper T 380A di meja steril: spekulum, tenakulum, sonde, inserter, gunting benang; tujuan mengenal spekulum, tenakulum, sonde, inserter, gunting benang. (3) Teknik no-touch — diagram no-touch technique pemasangan IUD pada model panggul, zona steril dan nonsteril, panah gerakan; tujuan menghindari kontaminasi saat sonde/inserter.",
+          "tone": "clinical",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Saran visual dan prompt AI lanjutan: (4) Teknik withdrawal — step-by-step 4 panel teknik withdrawal IUD Copper T, pendorong ditahan, tabung ditarik, lengan terbuka di fundus; tujuan mengerti mengapa tabung ditarik sambil pendorong ditahan. (5) Kartu IUD (template) — template kartu IUD yang akan diberikan kepada pasien; tujuan memahami komponen kartu IUD. (6) Decision flow: tunda vs tolak — flowchart keputusan: hamil? PID? kanker? anemia? → tunda/tolak; tujuan menghafal seleksi klien.",
+          "tone": "clinical",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Prompt AI siap-pakai — Prompt 1 (Anatomi IUD di fundus): 'Ilustrasi medis potongan sagital pelvis wanita dengan Copper T 380A IUD terpasang di fundus uteri dan benang keluar melalui serviks. Label Bahasa Indonesia: fundus uteri, kavum uteri, serviks, OUE, vagina, IUD, benang IUD. Gaya clean medical illustration, warna natural, untuk bahan belajar.'",
+          "tone": "clinical",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Prompt AI siap-pakai — Prompt 2 (Alat di meja steril): 'Infografik alat pemasangan IUD Copper T 380A di meja steril: spekulum Cusco, tenakulum, sonde uterus, inserter IUD dalam kemasan steril, gunting benang, kasa steril, larutan antiseptik, lampu sorot. Label Bahasa Indonesia untuk tiap alat. Gaya clean infographic, warna netral, label jelas.'",
+          "tone": "clinical",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Prompt AI siap-pakai — Prompt 3 (Teknik withdrawal): 'Step-by-step 4 panel teknik withdrawal IUD Copper T 380A: Panel 1: inserter masuk sampai leher biru di serviks, pendorong dipegang. Panel 2: pendorong ditahan, tabung ditarik sampai pangkal pendorong. Panel 3: lengan IUD terbuka di fundus. Panel 4: benang keluar, dipotong 3-4 cm. Label Bahasa Indonesia. Gaya clean medical illustration, panah gerakan.'",
+          "tone": "clinical",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Prompt tambahan (mini-case generator): 'Buatkan 3 skenario OSCE IUD Copper T 380A tingkat mudah, sedang, sulit. Setiap skenario berisi: identitas pasien fiktif, keluhan utama, data klinis (HPHT, riwayat, dll.), pertanyaan pemandu, dan kunci jawaban. Berikan variasi skenario (misalnya: pasien menyusui, pasien dengan anemia ringan, pasien dengan riwayat ektopik).'",
+          "tone": "clinical",
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "Referensi ringkas: Penuntun Belajar Dasar Keterampilan Klinik IUD yang diberikan pengguna: seleksi klien, pemeriksaan panggul, pemasangan dan pencabutan IUD Copper T 380A; Panduan Skill Lab Blok 6.1 Reproduksi FKIK Universitas Jambi: insersi dan ekstraksi IUD sebagai kompetensi 4A; SKDI 2012 dan pemetaan SKDI 4A Obgyn yang diberikan pengguna: infeksi genital, PID/salpingitis, kehamilan normal, anemia kehamilan, red flags rujukan; CDC. U.S. Selected Practice Recommendations for Contraceptive Use. 2024; CDC. U.S. Medical Eligibility Criteria for Contraceptive Use. 2024; WHO. Intrauterine devices fact sheet. 2026. Catatan penting: keputusan klinis selalu mengikuti PPK fasilitas, supervisi klinik, dan kondisi pasien individual.",
+          "tone": "clinical",
+          "source": "REFERENSI RINGKAS file sumber"
+        },
+        {
+          "text": "Lampiran A — Kontraindikasi absolut: hamil atau belum bisa diyakini tidak hamil; PID aktif atau nyeri panggul dengan CMT/adneksa nyeri; servisitis purulen/IMS aktif belum diobati; perdarahan vagina abnormal belum terdiagnosis; kanker serviks atau lesi serviks mencurigakan; alergi tembaga (sangat jarang); Wilson disease (sangat jarang); distorsi kavum uteri berat. Kontraindikasi relatif/kondisi khusus: anemia berat dengan haid banyak; riwayat ektopik (bukan KI absolut); nyeri haid berat (bukan KI absolut); pasangan multipel/risiko IMS (bukan KI); postpartum/menyusui (bukan KI, perlu timing tepat). Catatan: daftar ini menggabungkan kontraindikasi absolut (wajib), kontraindikasi relatif (perlu pertimbangan), dan kondisi yang perlu kehati-hatian (bukan KI tetapi memerlukan informed consent yang lebih kuat).",
+          "tone": "clinical",
+          "source": "Lampiran A file sumber"
+        },
+        {
+          "text": "Lampiran B — Masalah prosedur dan respons aman: pasien sangat nyeri (berhenti, komunikasi, cek posisi alat, pertimbangkan analgesia/anestesi sesuai SOP; hentikan bila pasien tidak mau dilanjutkan); vasovagal (hentikan tindakan, posisikan aman, nilai TTV, observasi, panggil bantuan bila berat; segera hentikan bila tidak sadar); tenakulum berdarah (tekan kasa 30–60 detik; hentikan bila tidak berhenti dalam 5 menit); sonde/inserter tidak masuk (jangan paksa, ulangi orientasi uterus dari bimanual, hentikan/rujuk; hentikan bila 3× gagal).",
+          "tone": "clinical",
+          "source": "Lampiran B file sumber"
+        },
+        {
+          "text": "Lampiran B lanjutan: kecurigaan perforasi (hentikan, nilai TTV, jangan lanjutkan, rujuk segera; selalu); benang terlalu panjang/pendek (potong 3–4 cm, perbaiki sebelum pasien pulang); IUD tidak tampak lengkap saat dicabut (jangan abaikan, rujuk/evaluasi imaging sesuai fasilitas; selalu); reaksi alergi (hentikan pajanan, antihistamin/adrenalin sesuai SOP, rawat; selalu); serviks sulit dijangkau (reposisi uterus bimanual atau gunakan tenakulum; hentikan/rujuk bila gagal setelah 2–3 percobaan); kontraksi uterus saat sonde (tunggu relaksasi, analgesik/antispasmodik sesuai SOP; hentikan bila menetap dan menyulitkan); perdarahan berlebihan saat pemasangan (tekan, evaluasi posisi, uterotonika bila atonia, rujuk; hentikan bila tidak berhenti dalam 5 menit); pasien menolak dilanjutkan (berhenti, tenangkan, jelaskan ulang, tawarkan alternatif; selalu).",
+          "tone": "clinical",
+          "source": "Lampiran B file sumber"
+        },
+        {
+          "text": "Lampiran C — 4 skenario latihan (lihat juga s10): Skenario Mudah (Pemasangan IUD pada Ibu Menyusui — Ny. Lina); Skenario Sedang (IUD + Curiga Infeksi — Ny. Rini); Skenario Sulit (Pencabutan IUD + Kehamilan Ditemukan — Ny. Maya); Skenario Tambahan (Kesulitan Sonde — Ny. Sari). Setiap skenario mencakup identitas, keluhan, data klinis, pertanyaan pemandu, kunci jawaban, dan jebakan nilai.",
+          "tone": "narrative",
+          "source": "Lampiran C file sumber"
+        },
+        {
+          "text": "Lampiran D — Checklist verbal 60–90 detik pertama station: (1) 'Saya memastikan Ibu sudah mendapat konseling dan memilih IUD secara sadar, bukan dipaksa.' (2) 'Saya menanyakan HPHT, pola haid, kemungkinan hamil, riwayat ektopik, nyeri haid berat, anemia, IMS/PID, pasangan berisiko, dan kanker serviks.' (3) 'Saya meminta Ibu mengosongkan kandung kemih, menjaga privasi, menyiapkan chaperone, dan memposisikan litotomi.' (4) 'Saya melakukan pemeriksaan abdomen, inspeksi genital, spekulum, dan bimanual untuk menilai posisi uterus serta menyingkirkan infeksi/tumor/kehamilan.' (5) 'Saya melakukan sonde uterus dengan no-touch technique, mengukur kedalaman, lalu memasang IUD dengan withdrawal technique.' (6) 'Saya memotong benang 3–4 cm, mengevaluasi perdarahan serviks, dekontaminasi alat, cuci tangan, dokumentasi, dan kartu IUD.'",
+          "tone": "narrative",
+          "source": "Lampiran D file sumber"
+        },
+        {
+          "text": "Lampiran D tambahan untuk pencabutan IUD: 'Saya jelaskan prosedur pencabutan, risiko (sangat rendah), dan informed consent.' 'Saya melakukan bimanual untuk posisi uterus, pasang spekulum, dan menjepit benang dekat serviks.' 'Saya menarik benang perlahan sampai IUD keluar, tunjukkan kepada Ibu, dan dokumentasikan.' Prinsip: setiap kalimat di atas adalah poin yang biasa dinilai. Berhenti sejenak setelah informed consent — penguji sering menilai apakah Anda benar-benar menunggu persetujuan atau langsung bergerak. Kalimat di atas berasal dari file sumber asli Lampiran D; pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario.",
+          "tone": "narrative",
+          "source": "Lampiran D file sumber"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "6 visual yang direkomendasikan untuk modul ini: (1) Anatomi IUD di fundus; (2) Alat di meja steril; (3) Teknik no-touch; (4) Teknik withdrawal (4 panel); (5) Kartu IUD template; (6) Decision flow tunda vs tolak.",
+          "bold": true,
+          "source": "§19 file sumber"
+        },
+        {
+          "text": "3 prompt AI siap-pakai + 1 prompt mini-case generator: anatomi IUD, alat di meja steril, teknik withdrawal, dan skenario latihan 3 tingkat kesulitan.",
+          "sub": [
+            "Kontraindikasi absolut: hamil, PID aktif, servisitis purulen, perdarahan abnormal belum terdiagnosis, kanker serviks, alergi tembaga, Wilson disease, distorsi kavum uteri berat."
+          ],
+          "source": "§19 + Lampiran A file sumber"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Kontraindikasi absolut IUD",
+          "text": "Hamil/belum bisa diyakini tidak hamil; PID aktif atau nyeri panggul dengan CMT/adneksa nyeri; servisitis purulen/IMS aktif belum diobati; perdarahan vagina abnormal belum terdiagnosis; kanker serviks atau lesi serviks mencurigakan; alergi tembaga; Wilson disease; distorsi kavum uteri berat. Pada kondisi ini, jangan pasang IUD.",
+          "answer_evidence": "Sumber: CDC US MEC 2024, Lampiran A."
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Kecurigaan perforasi saat prosedur",
+          "text": "Nyeri tajam hebat, hilang tahanan mendadak, perdarahan, pasien tidak stabil → hentikan, nilai TTV, jangan lanjutkan, rujuk segera. Selalu hentikan pada kecurigaan perforasi.",
+          "answer_evidence": "Sumber: CDC US SPR 2024, Lampiran B."
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Catatan Lampiran D",
+          "text": "Kalimat di Lampiran D berasal dari file sumber asli; pada pelaksanaan OSCE, kalimat final harus disesuaikan dengan skenario. Prinsip: setiap kalimat adalah poin yang biasa dinilai; berhenti sejenak setelah informed consent.",
+          "answer_evidence": "Sumber: Modul OSCE ObGyn FKIK Universitas Jambi."
+        }
+      ],
+      "visual_refs": [
+        "visual_iud_anatomi_fundus_01",
+        "visual_iud_alat_meja_02",
+        "visual_iud_no_touch_03",
+        "visual_iud_withdrawal_04",
+        "visual_iud_kartu_05",
+        "visual_iud_decision_flow_06"
+      ],
+      "glossary_refs": [
+        "gls_obgyn_iud_insersi_01",
+        "gls_obgyn_iud_tenakulum_02",
+        "gls_obgyn_iud_sonde_03",
+        "gls_obgyn_iud_ekspulsi_04",
+        "gls_obgyn_iud_pid_05",
+        "gls_obgyn_iud_litotomi_06",
+        "gls_obgyn_iud_informed_consent_07",
+        "gls_obgyn_iud_apd_08",
+        "gls_obgyn_iud_cuci_tangan_09",
+        "gls_obgyn_iud_copper_t380a_10",
+        "gls_obgyn_iud_spekulum_11",
+        "gls_obgyn_iud_cmt_12",
+        "gls_obgyn_iud_bimanual_13",
+        "gls_obgyn_iud_perforasi_14",
+        "gls_obgyn_iud_withdrawal_15"
+      ],
+      "bilingual": "Lampiran A (kontraindikasi), Lampiran B (masalah prosedur), Lampiran C (mini-case), dan Lampiran D (checklist verbal) adalah komponen standarisasi OSCE IUD. 6 visual utama dan 4 prompt AI tersedia untuk produksi materi visual."
+    }
+  ]
+}

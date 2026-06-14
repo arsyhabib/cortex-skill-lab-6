@@ -1,0 +1,1282 @@
+{
+  "id": "mod_psikiatri_skill_wawancara_psikiatri_001",
+  "title": "Wawancara dan Pemeriksaan Psikiatri",
+  "subtitle": "Skill OSCE psikiatri: Psychiatric History Taking 8 poin, Mental State Examination 9 domain, dan Diagnosis Multiaksial PPDGJ III untuk skenario sindrom psikotik Tn. Z (27 tahun)",
+  "domain": "psikiatri_skill",
+  "batch_id": "batch_2",
+  "source_pdf": "WAWANCARA_DAN_PEMERIKSAAN_PSIKIATRI.txt",
+  "source_filename": "WAWANCARA_DAN_PEMERIKSAAN_PSIKIATRI.txt",
+  "source_author": "Modul Keterampilan Klinis VI — 6F Kelainan Psikiatri, dr. Attiya Istarini, Sp.KJ & tim (FKIK Universitas Jambi, 2024/2025)",
+  "topicTags": [
+    "osce_6_3",
+    "psikiatri",
+    "wawancara_psikiatri",
+    "mse",
+    "mental_status_examination",
+    "risiko_bunuh_diri",
+    "waham",
+    "halusinasi",
+    "afek_mood",
+    "anamnesis_psikiatri",
+    "insight"
+  ],
+  "summary": [
+    "Gangguan jiwa adalah gangguan fungsi luhur otak (organik atau anorganik) dengan sindroma perilaku-psikologi nyata, menimbulkan distres, dan mengganggu aktivitas kehidupan sehari-hari — bukan 'kegilaan' atau 'kerasukan'.",
+    "Lima jenis pemeriksaan psikiatri: alloanamnesis (keluarga), autoanamnesis (pasien), pemeriksaan langsung fisik (status internus & neurologis), pemeriksaan khusus psikiatri (status mental), dan pemeriksaan tambahan (MMSE, lab, radiologi).",
+    "Proses diagnosis psikiatri mengikuti 4 langkah klinis: siapkan lembar status psikiatri, anamnesis, rencanakan pemeriksaan medis/nonmedis, dan tegakkan diagnosis multiaksial PPDGJ III (5 aksis).",
+    "Psychiatric History Taking mencakup 8 poin: data pribadi, keluhan utama, RPS (onset & faktor presipitasi), RPD (psikiatri/medik/penggunaan zat), riwayat keluarga, riwayat hidup (6 fase), psikoseksual, serta impian/fantasi/nilai.",
+    "Mental State Examination (MSE) mencakup 9 domain: gambaran umum, mood/afek, bicara, persepsi, pikiran (proses & isi), sensorium/kognitif, pengendalian impuls, insight, dan reliabilitas — diobservasi sambil lalu selama wawancara.",
+    "WAJIB cantumkan risk assessment bunuh diri dan kekerasan — kesalahan fatal jika dilewatkan di OSCE psikiatri; gunakan bahasa terbuka dan tidak menghakimi.",
+    "Diagnosis multiaksial PPDGJ III menggunakan 5 aksis: Aksis I (gangguan klinis utama), Aksis II (kepribadian/retardasi mental), Aksis III (kondisi medik umum), Aksis IV (psikososial-lingkungan), Aksis V (fungsi global/GAF).",
+    "Pada skenario Tn. Z (27 tahun, mengamuk, curiga diracuni, takut dibunuh, bicara sendiri) — sindrom psikotik dengan onset gradual 1 tahun dan eksaserbasi 2 bulan; diagnosis banding utama adalah skizofrenia (F20), gangguan waham (F22), mood dengan gejala psikotik, gangguan akibat zat, dan gangguan mental organik.",
+    "Gunakan bahasa non-stigmatis: 'gangguan jiwa' atau 'kondisi yang dialami' — bukan 'gila', 'sakit jiwa', atau 'tidak waras'."
+  ],
+  "exam_focus": [
+    "[FATAL] Tidak menanyakan ide bunuh diri pada pasien psikotik dengan waham persekutorik — pasien bisa pulang dan melakukan percobaan bunuh diri malam itu juga.",
+    "[FATAL] Tidak menanyakan akses senjata/benda tajam di rumah — pada pasien dengan riwayat mengamuk seperti Tn. Z, ini bisa berakibat fatal bagi keluarga.",
+    "[FATAL] Mendiagnosis 'gila' atau menggunakan bahasa stigmatis dalam wawancara — kehilangan rapport, keluarga tidak kooperatif, dan gagal menunjukkan profesionalisme.",
+    "[FATAL] Konfrontasi langsung terhadap waham ('Itu tidak mungkin, Pak, tidak ada yang mau meracuni Bapak') — pasien merasa tidak dipahami, risiko agresivitas meningkat.",
+    "Pastikan keamanan ruangan terlebih dahulu (posisi dekat pintu, jarak aman, pendamping keluarga) sebelum memulai wawancara dengan pasien curiga dan potensial agresif seperti Tn. Z.",
+    "Bedakan mood (subjektif — apa yang dirasakan pasien) dengan afek (objektif — apa yang terlihat pemeriksa) dan catat keduanya secara terpisah di MSE.",
+    "Susun diagnosis multiaksial PPDGJ III lengkap (Aksis I–V) disertai diagnosis kerja dan diagnosis banding — penguji menilai proses berpikir klinis, bukan label akhir.",
+    "Lakukan de-eskalasi verbal (suara rendah, kalimat pendek, validasi perasaan) sebelum mempertimbangkan restraint fisik atau farmakologis pada pasien agitasi.",
+    "Penelusuran RPD harus mencakup riwayat psikiatri, medik (HT, DM, epilepsi, trauma kepala), dan penggunaan zat/alkohol/NAPZA — eksklusi penyebab organik wajib.",
+    "Edukasi keluarga menggunakan bahasa non-stigmatis, hindari konfrontasi waham, tekankan kepatuhan obat, dan identifikasi tanda bahaya untuk dibawa ke IGD RSJ."
+  ],
+  "glossary": [
+    {
+      "id": "gls_psik_gangguan_jiwa_01",
+      "term": "Gangguan jiwa",
+      "def": "Gangguan fungsi luhur otak oleh karena faktor organik atau anorganik dengan gejala klinik nyata dan menimbulkan distres serta ketidakmampuan dalam fungsi sosial. Ditegakkan bila terdapat sindroma perilaku dan psikologi (gangguan fungsi kognitif, afektif, psikomotor), ditemukan kondisi penderitaan/distress, dan timbulnya disabilitas dalam aktivitas kehidupan sehari-hari.",
+      "type": "clinical",
+      "aliases": [
+        "mental disorder",
+        "gangguan mental"
+      ]
+    },
+    {
+      "id": "gls_psik_alloanamnesis_01",
+      "term": "Alloanamnesis",
+      "def": "Anamnesis yang dilakukan kepada keluarga, saudara, atau teman dekat penderita dengan tujuan untuk mendapatkan informasi tentang penderita. Penting pada pasien yang tidak mampu memberikan informasi sendiri (gaduh gelisah, curiga, tidak kooperatif). Pada skenario Tn. Z, istri menjadi sumber alloanamnesis utama.",
+      "type": "procedure",
+      "aliases": [
+        "heteroanamnesis",
+        "anamnesis keluarga",
+        "sumber informasi kolateral"
+      ]
+    },
+    {
+      "id": "gls_psik_autoanamnesis_01",
+      "term": "Autoanamnesis",
+      "def": "Anamnesis yang dilakukan langsung kepada penderita. Pada psikiatri, harus dilakukan meskipun pasien tampak tidak kooperatif, untuk menjaga rapport, validasi, dan memberi kesempatan pasien menceritakan subjektifitasnya sendiri.",
+      "type": "procedure",
+      "aliases": [
+        "anamnesis langsung",
+        "self-report history"
+      ]
+    },
+    {
+      "id": "gls_psik_mse_01",
+      "term": "Mental State Examination (MSE) / Pemeriksaan Status Mental",
+      "def": "Bagian dari pemeriksaan status klinis yang menggambarkan jumlah total observasi pemeriksa dan kesan tentang pasien psikiatri saat wawancara. Modul asli menjabarkan 9 domain: gambaran umum (penampilan, perilaku/aktivitas psikomotor, sikap terhadap pemeriksa), mood dan afek, bicara, gangguan persepsi, pikiran (proses & isi), sensorium dan kognitif (kesadaran, orientasi, daya ingat, konsentrasi, membaca/menulis, visuospasial, pikiran abstrak, informasi/kecerdasan), pengendalian impuls, pertimbangan dan tilikan (insight), dan reliabilitas (judgement).",
+      "type": "procedure",
+      "aliases": [
+        "MSE",
+        "status mental",
+        "Pemeriksaan Status Mental",
+        "ASEPTIC",
+        "AMPSI"
+      ]
+    },
+    {
+      "id": "gls_psik_ppdgj_01",
+      "term": "PPDGJ III (Panduan Penggolongan dan Diagnosis Gangguan Jiwa III)",
+      "def": "Panduan klasifikasi gangguan jiwa di Indonesia (1993), adopsi dari ICD-10 WHO, masih berlaku untuk sistem rujukan nasional. Menggunakan klasifikasi Fxx seperti ICD-10. Membagi gangguan jiwa menjadi 10 klasifikasi utama dan mengajarkan diagnosis multiaksial 5 aksis.",
+      "type": "score",
+      "aliases": [
+        "PPDGJ III",
+        "Panduan Diagnosis Gangguan Jiwa",
+        "Fxx",
+        "ICD-10 Indonesia"
+      ]
+    },
+    {
+      "id": "gls_psik_multiaksial_01",
+      "term": "Diagnosis Multiaksial (PPDGJ III)",
+      "def": "Sistem diagnosis yang menggunakan 5 aksis untuk melatih berpikir biopsikososial: Aksis I (gangguan klinis utama — gangguan klinis atau kondisi lain yang menjadi fokus perhatian klinis), Aksis II (gangguan kepribadian atau retardasi mental), Aksis III (kondisi medik umum), Aksis IV (masalah psikososial dan lingkungan), Aksis V (penilaian fungsi secara global/GAF).",
+      "type": "clinical",
+      "aliases": [
+        "multiaksial",
+        "Aksis I-V",
+        "biopsikososial"
+      ]
+    },
+    {
+      "id": "gls_psik_gaf_01",
+      "term": "GAF (Global Assessment of Functioning)",
+      "def": "Skala 0–100 yang menilai fungsi global pasien: 100 = fungsi superior, 50 = gejala serius, 30 = tidak mampu bekerja, 10 = bahaya diri sendiri. Pada Tn. Z dengan eksaserbasi psikotik, GAF biasanya 20–40.",
+      "type": "score",
+      "aliases": [
+        "GAF",
+        "fungsi global",
+        "Global Assessment of Functioning"
+      ]
+    },
+    {
+      "id": "gls_psik_waham_01",
+      "term": "Waham (Delusion)",
+      "def": "Keyakinan palsu yang dipertahankan dengan tegas meskipun ada bukti bertentangan, dan bukan konsisten dengan latar belakang budaya/agama pasien. Waham dapat berupa persekutorik (curiga diracuni/dianiaya — seperti Tn. Z), kebesaran (grandiositas), kejar, dosa (guilt), hipokondriakal, atau erotomanik.",
+      "type": "clinical",
+      "aliases": [
+        "delusion",
+        "waham persekutorik",
+        "waham kejar",
+        "ide delusi"
+      ]
+    },
+    {
+      "id": "gls_psik_halusinasi_01",
+      "term": "Halusinasi (Hallucination)",
+      "def": "Persepsi sensorik yang terjadi tanpa stimulus eksternal. Halusinasi auditorik (mendengar suara) paling umum pada skizofrenia; visual pada delirium/penyakit organik; taktil (formikasi) pada intoksikasi stimulant; olfaktorik pada epilepsy. Pada Tn. Z, 'bicara sendiri' bisa jadi respons halusinasi auditorik.",
+      "type": "clinical",
+      "aliases": [
+        "hallucination",
+        "halusinasi auditorik",
+        "halusinasi visual",
+        "persepsi abnormal"
+      ]
+    },
+    {
+      "id": "gls_psik_insight_01",
+      "term": "Insight (Tilikan)",
+      "def": "Kesadaran pasien bahwa dirinya memiliki masalah/kondisi yang memerlukan bantuan. Insight baik = mengakui sakit dan mau berobat; insight rendah = menyangkal sakit, menyalahkan orang lain. Pada Tn. Z: insight rendah.",
+      "type": "clinical",
+      "aliases": [
+        "tilikan",
+        "awareness of illness",
+        "insight"
+      ]
+    },
+    {
+      "id": "gls_psik_deescalation_01",
+      "term": "De-eskalasi",
+      "def": "Teknik menurunkan ketegangan/agitasi pasien dengan komunikasi verbal dan non-verbal: suara rendah, kalimat pendek, validasi perasaan, tidak berdebat, posisi tubuh terbuka, memberi pilihan sederhana.",
+      "type": "procedure",
+      "aliases": [
+        "de-eskalasi",
+        "verbal de-escalation",
+        "manajemen agitasi"
+      ]
+    },
+    {
+      "id": "gls_psik_stigma_01",
+      "term": "Stigma (Bahasa Stigmatis)",
+      "def": "Sikap negatif atau diskriminatif terhadap pasien gangguan jiwa, sering bermanifestasi dalam penggunaan bahasa seperti 'gila', 'sakit jiwa', 'tidak waras', 'kerasukan'. Dalam psikiatri modern, gunakan bahasa 'gangguan jiwa' atau 'kondisi yang dialami' — non-stigmatis dan berpusat pada pasien.",
+      "type": "clinical",
+      "aliases": [
+        "stigma",
+        "bahasa stigmatis",
+        "diskriminasi"
+      ]
+    }
+  ],
+  "bilingual": [
+    {
+      "id": "bil_psik_wawancara_01",
+      "term_id": "Alloanamnesis",
+      "term_en": "Alloanamnesis / Collateral History",
+      "context": "Anamnesis kepada keluarga atau saksi untuk mendapatkan informasi objektif tentang pasien, terutama bila pasien sendiri tidak mampu atau tidak kooperatif."
+    },
+    {
+      "id": "bil_psik_wawancara_02",
+      "term_id": "Autoanamnesis",
+      "term_en": "Autoanamnesis / Self-Reported History",
+      "context": "Anamnesis langsung kepada pasien, penting untuk menjaga rapport dan validasi subjektif."
+    },
+    {
+      "id": "bil_psik_wawancara_03",
+      "term_id": "Pemeriksaan Status Mental (MSE)",
+      "term_en": "Mental State Examination (MSE)",
+      "context": "Pemeriksaan khusus psikiatri yang mencakup 9 domain (gambaran umum, mood/afek, bicara, persepsi, pikiran, sensorium/kognitif, impuls, insight, reliabilitas)."
+    },
+    {
+      "id": "bil_psik_wawancara_04",
+      "term_id": "Waham",
+      "term_en": "Delusion",
+      "context": "Keyakinan palsu yang dipertahankan dengan tegas; pada Tn. Z berupa waham persekutorik (meracuni) dan waham kejar (dibunuh)."
+    },
+    {
+      "id": "bil_psik_wawancara_05",
+      "term_id": "Halusinasi",
+      "term_en": "Hallucination",
+      "context": "Persepsi sensorik tanpa stimulus eksternal; auditorik paling umum pada skizofrenia."
+    },
+    {
+      "id": "bil_psik_wawancara_06",
+      "term_id": "Insight / Tilikan",
+      "term_en": "Insight",
+      "context": "Kesadaran pasien bahwa dirinya sakit dan membutuhkan pertolongan."
+    },
+    {
+      "id": "bil_psik_wawancara_07",
+      "term_id": "Diagnosis Multiaksial",
+      "term_en": "Multiaxial Diagnosis",
+      "context": "Sistem PPDGJ III dengan 5 aksis: gangguan klinis utama, kepribadian/retardasi mental, kondisi medik umum, psikososial-lingkungan, fungsi global (GAF)."
+    },
+    {
+      "id": "bil_psik_wawancara_08",
+      "term_id": "GAF (Global Assessment of Functioning)",
+      "term_en": "Global Assessment of Functioning",
+      "context": "Skala 0–100 untuk menilai fungsi global pasien psikiatri; digunakan di Aksis V multiaksial."
+    },
+    {
+      "id": "bil_psik_wawancara_09",
+      "term_id": "De-eskalasi",
+      "term_en": "De-escalation",
+      "context": "Teknik komunikasi verbal dan non-verbal untuk menurunkan ketegangan/agitasi pasien."
+    },
+    {
+      "id": "bil_psik_wawancara_10",
+      "term_id": "PPDGJ III",
+      "term_en": "Indonesian Classification of Mental Disorders III (ICD-10 adaptation)",
+      "context": "Panduan diagnosis gangguan jiwa di Indonesia, adopsi dari ICD-10 WHO (1993), dengan 10 klasifikasi utama."
+    }
+  ],
+  "visual_asset_manifest": [
+    {
+      "id": "visual_psik_wawancara_alur_01",
+      "module_id": "mod_psikiatri_skill_wawancara_psikiatri_001",
+      "section_id": "s02",
+      "type": "flowchart",
+      "generation_prompt": "Infografik vertikal alur 5 jenis pemeriksaan psikiatri (alloanamnesis, autoanamnesis, pemeriksaan langsung fisik, pemeriksaan khusus psikiatri, pemeriksaan tambahan MMSE) dalam format flowchart dengan ikon warna biru-hijau lembut, bahasa Indonesia, gaya edukasi kedokteran modern, komposisi bersih dan profesional, ukuran A4. Hindari citra stigmatis; gunakan figur dokter-pasien dengan pose tenang dan profesional.",
+      "alt": "Flowchart vertikal alur 5 jenis pemeriksaan psikiatri: alloanamnesis (keluarga) → autoanamnesis (pasien) → pemeriksaan langsung fisik → pemeriksaan khusus psikiatri (status mental/MSE) → pemeriksaan tambahan (MMSE, lab, radiologi). Bahasa Indonesia, gaya klinis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_psikiatri_skill_wawancara_psikiatri_001/assets/wawancara_alur_5jenis.png"
+    },
+    {
+      "id": "visual_psik_mse_9domain_01",
+      "module_id": "mod_psikiatri_skill_wawancara_psikiatri_001",
+      "section_id": "s04",
+      "type": "table",
+      "generation_prompt": "Poster A4 'Pemeriksaan Status Mental 9 Domain versi Indonesia' — 9 kotak sejajar: (1) Gambaran Umum, (2) Mood dan Afek, (3) Bicara, (4) Gangguan Persepsi, (5) Pikiran, (6) Sensorium dan Kognitif, (7) Pengendalian Impuls, (8) Pertimbangan dan Tilikan (Insight), (9) Reliabilitas (Judgement). Desain klinis biru-putih, label bahasa Indonesia, format grid 3x3, posisi vertikal, font sans-serif modern.",
+      "alt": "Poster 9 domain Mental State Examination versi Indonesia: (1) Gambaran Umum, (2) Mood dan Afek, (3) Bicara, (4) Gangguan Persepsi, (5) Pikiran, (6) Sensorium dan Kognitif, (7) Pengendalian Impuls, (8) Insight, (9) Reliabilitas. Desain grid 3x3, warna biru-putih klinis.",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_psikiatri_skill_wawancara_psikiatri_001/assets/mse_9domain_poster.png"
+    },
+    {
+      "id": "visual_psik_multiaksial_ppdgj_01",
+      "module_id": "mod_psikiatri_skill_wawancara_psikiatri_001",
+      "section_id": "s06",
+      "type": "diagram",
+      "generation_prompt": "Infografik 5 lapis (Aksis I–V) PPDGJ III dengan contoh untuk kasus Tn. Z (sindrom psikotik). Format Wheel of Function berlapis konsentris, warna akademis biru-emas, label bahasa Indonesia, menyertakan contoh F20 untuk Aksis I (sindrom psikotik). Aksis I di tengah, Aksis II–V di cincin luar berurutan.",
+      "alt": "Diagram berlapis 5 Aksis Diagnosis Multiaksial PPDGJ III dalam format Wheel of Function. Pusat: Aksis I (gangguan klinis utama, contoh sindrom psikotik F20). Cincin: Aksis II (kepribadian/retardasi mental), Aksis III (kondisi medik umum), Aksis IV (psikososial-lingkungan), Aksis V (fungsi global/GAF).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_psikiatri_skill_wawancara_psikiatri_001/assets/multiaksial_ppdgj_wheel.png"
+    },
+    {
+      "id": "visual_psik_10klasifikasi_01",
+      "module_id": "mod_psikiatri_skill_wawancara_psikiatri_001",
+      "section_id": "s06",
+      "type": "diagram",
+      "generation_prompt": "Diagram pohon dengan 10 cabang klasifikasi gangguan jiwa PPDGJ III: (1) organik, (2) zat psikoaktif, (3) skizofrenia & waham, (4) mood/afektif, (5) neurotik-somatoform-stres, (6) kepribadian, (7) perilaku-fisiologis, (8) retardasi mental, (9) perkembangan psikologis, (10) perilaku-emosional anak-remaja. Kode Fxx di setiap cabang (F00–F99), bahasa Indonesia, label jelas, format diagram pohon, warna pastel lembut.",
+      "alt": "Diagram pohon 10 klasifikasi gangguan jiwa PPDGJ III dengan kode Fxx. Cabang 1: organik (F00-F09). Cabang 2: zat psikoaktif (F10-F19). Cabang 3: skizofrenia & waham (F20-F29). Cabang 4: mood/afektif (F30-F39). Cabang 5: neurotik-somatoform-stres (F40-F48). Cabang 6: kepribadian (F60-F69). Cabang 7: perilaku-fisiologis (F50-F59). Cabang 8: retardasi mental (F70-F79). Cabang 9: perkembangan psikologis (F80-F89). Cabang 10: perilaku-emosional anak-remaja (F90-F98).",
+      "status": "pending",
+      "src": "app_data/domains/materi/modules/mod_psikiatri_skill_wawancara_psikiatri_001/assets/ppdgj_10klasifikasi_pohon.png"
+    }
+  ],
+  "ai_additions": [],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Skenario Klinis & Target OSCE",
+      "summary": "Peta file sumber, skenario Tn. Z (27 tahun, sindrom psikotik, mengamuk, curiga diracuni, takut dibunuh, bicara sendiri), dan komponen yang dinilai di station OSCE psikiatri.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "File sumber modul ini adalah 'Wawancara dan Pemeriksaan Psikiatri' dari Modul Keterampilan Klinis VI — 6F Kelainan Psikiatri, Program Studi Kedokteran FKIK Universitas Jambi (dr. Attiya Istarini, Sp.KJ & dr. Mirna M. Iskandar, Sp.N, 2024/2025). File ini berupa modul ajar/pdf yang memuat 5 bagian utama: (A) Tujuan (5 poin), (B) Rencana Pembelajaran (pra-sesi + pertemuan 2), (C) Skenario Klinis Tn. Z, (D) Tinjauan Teori (jenis pemeriksaan psikiatri, proses diagnosis, diagnosis multiaksial PPDGJ III, 10 klasifikasi PPDGJ III), dan (E) Wawancara Psikiatri (Psychiatric History Taking 8 poin + Mental State Examination 9 domain). Modul PDF ini juga mencakup lampiran berupa CHECKLIST PSYCHIATRIC HISTORY TAKING (tabel skor 0/1/2), CHECKLIST FOR PSYCHIATRIC EXAMINATION (16 aspek, skor 0/1/2), Lampiran Status Neurologi (form rekam medis), dan Lampiran Status Psikiatri (form rekam medis psikiatri).",
+          "tone": "narrative",
+          "source": "§A Tujuan (modul asli) + §B Rencana Pembelajaran + §C Skenario Klinis Tn. Z"
+        },
+        {
+          "text": "Skenario klinis yang digunakan konsisten di seluruh modul adalah Tn. Z, laki-laki 27 tahun, dibawa keluarga ke Rumah Sakit Jiwa (RSJ) Jambi dengan keluhan utama: mengamuk besar kepada seluruh keluarga di rumah. Dari alloanamnesis istri Tn. Z, diketahui bahwa: (1) Tn. Z memang sering marah-marah kepada istri dan anaknya sejak 1 tahun yang lalu, tidak terus-menerus terjadi, dan makin memberat sejak 2 bulan terakhir; (2) Tn. Z sering menuduh anaknya ingin meracuninya; (3) Tn. Z sudah tidak mau keluar rumah karena merasa ada orang-orang yang akan membunuhnya; (4) istri Tn. Z sering memergoki Tn. Z sedang berbicara sendiri di kamar, dan belakangan ini semakin sering. Tugas mahasiswa: lakukan pemeriksaan psikiatri, tegakkan diagnosis, dan susun rencana terapi.",
+          "tone": "narrative",
+          "source": "§C Skenario Klinis Tn. Z (modul asli) — verbatim skenario"
+        },
+        {
+          "text": "Skenario ini secara klinis sangat mengarah ke sindrom psikotik dengan onset gradual 1 tahun dan eksaserbasi 2 bulan terakhir. Mahasiswa harus mengeksplorasi tiga hal utama: (1) Gejala psikotik — waham curiga/persekutorik ('anak mau racuni'), waham kejar ('ada yang mau membunuh'), kemungkinan halusinasi auditorik ('bicara sendiri'); (2) Risiko perilaku — mengamuk, kontrol impuls terganggu, kemungkinan akses senjata; (3) Fungsi sosial — menarik diri, bicara sendiri, gangguan rawat diri/kerja.",
+          "tone": "clinical",
+          "source": "§C Skenario Klinis Tn. Z + analisis klinis (modul asli)"
+        },
+        {
+          "text": "Target OSCE station ini adalah kemampuan melakukan wawancara yang aman, sistematis, empatik, tidak menghakimi, dan mengubah informasi menjadi diagnosis multiaksial PPDGJ III (5 aksis), diagnosis banding, dan rencana tata laksana awal/rujukan psikiatri. Komponen yang dinilai penguji biasanya meliputi: salam & informed consent, alloanamnesis keluarga, autoanamnesis pasien, MSE terstruktur, identifikasi gejala psikotik, penilaian risiko bunuh diri/kekerasan, komunikasi empatik, presentasi kasus lisan, dan kelengkapan pengisian status psikiatri.",
+          "tone": "clinical",
+          "source": "§A Tujuan (modul asli) + standar OSCE nasional"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen yang dinilai di OSCE station psikiatri",
+          "sub": [
+            "Komunikasi dasar: salam, identitas, izin, validasi emosi, keamanan ruangan",
+            "Alloanamnesis keluarga (sumber utama pada pasien curiga/agresif seperti Tn. Z)",
+            "Autoanamnesis pasien (untuk validasi & rapport)",
+            "Penggalian keluhan utama, RPS (onset, durasi, progresivitas, faktor presipitasi)",
+            "Penggalian RPD (psikiatri, medik, penggunaan zat/alkohol/NAPZA)",
+            "Penggalian riwayat keluarga, riwayat hidup (prenatal–dewasa), psikoseksual, nilai hidup",
+            "Penggalian risiko (bunuh diri, kekerasan, pengabaian diri) — WAJIB",
+            "Mental State Examination 9 domain",
+            "Diagnosis multiaksial Aksis I–V",
+            "Diagnosis banding (10 klasifikasi PPDGJ III)",
+            "Rencana tata laksana & rujukan",
+            "Pelaporan kasus lisan ke penguji",
+            "Pengisian status psikiatri (Lampiran Status Psikiatri)"
+          ],
+          "bold": true,
+          "source": "§A Tujuan + §E Wawancara Psikiatri (modul asli)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Strategi membaca 5 hari sebelum OSCE psikiatri",
+          "text": "Hari 1 pahami 5 jenis pemeriksaan & alur diagnosis; Hari 2 hafal struktur Psychiatric History Taking 8 poin; Hari 3 hafal MSE 9 domain; Hari 4 latih alloanamnesis dengan teman (skenario Tn. Z); Hari 5 simulasi full station + review kesalahan fatal.",
+          "answer_evidence": "Modul Keterampilan Klinis VI FKIK Universitas Jambi (2024/2025)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Yang paling penting untuk station ini",
+          "text": "Yang dinilai penguji bukan hafalan istilah atau klasifikasi PPDGJ III, melainkan kerapian komunikasi, keamanan, dan kemampuan berpikir klinis multiaksial dari data yang dikumpulkan.",
+          "answer_evidence": "Standar OSCE nasional & modul asli §A"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Standar komunikasi klinis & pendekatan biopsikososial",
+          "text": "Modul ini mengikuti standar komunikasi klinis yang digunakan pada ujian OSCE nasional dan sesuai dengan pendekatan biopsikososial dalam PPDGJ III (adopsi Indonesia dari ICD-10 WHO) untuk skrining dan diagnosis gangguan jiwa.",
+          "answer_evidence": "PPDGJ III (1993); ICD-10 WHO"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_psik_gangguan_jiwa_01",
+        "gls_psik_alloanamnesis_01",
+        "gls_psik_autoanamnesis_01",
+        "gls_psik_mse_01",
+        "gls_psik_ppdgj_01",
+        "gls_psik_multiaksial_01",
+        "gls_psik_gaf_01"
+      ],
+      "bilingual": "Skenario konsentrat: Tn. Z (27 tahun) dengan sindrom psikotik, dibawa keluarga ke RSJ Jambi karena mengamuk, menuduh keluarga meracuni, takut dibunuh, dan bicara sendiri — onset gradual 1 tahun, eksaserbasi 2 bulan. Fokus OSCE: kemampuan wawancara yang aman, empatik, dan berpikir multiaksial."
+    },
+    {
+      "id": "s02",
+      "title": "Alur OSCE & Checklist Penilaian",
+      "summary": "Checklist Psychiatric History Taking 8 poin (skor 0/1/2) dan alur 10 langkah wawancara psikiatri dari AMAN hingga RANGKUM & RENCANA.",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Alur OSCE station psikiatri dimulai sebelum masuk ruang periksa — mahasiswa harus sudah membaca instruksi station, mengidentifikasi pasien fiktif (Tn. Z, 27 tahun, dibawa keluarga dengan kecurigaan psikosis), dan menyiapkan mental frame bahwa ini bukan 'ujian hafalan' melainkan simulasi klinis nyata. Saat masuk, langkah pertama bukan langsung menanyakan gejala, melainkan memastikan keamanan ruangan (duduk dekat pintu, jarak aman, tidak menyudutkan pasien, pendamping keluarga tersedia). Setelah aman, barulah salam, perkenalan diri, konfirmasi identitas, penjelasan tujuan wawancara, dan izin informed consent. Pada pasien curiga dan potensial agresif seperti Tn. Z, informed consent mungkin tidak langsung didapat dari pasien; dalam hal ini keluarga (dalam skenario ini: istri Tn. Z) menjadi mitra informasi utama.",
+          "tone": "narrative",
+          "source": "§B Rencana Pembelajaran + §E.1 Psychiatric History Taking (modul asli)"
+        },
+        {
+          "text": "Setelah rapport terbangun (walau terbatas), masuk ke keluhan utama dengan pertanyaan terbuka: 'Apa yang paling mengganggu Bapak akhir-akhir ini?' Pada Tn. Z, jawaban yang diharapkan adalah keluhan mengamuk, curiga diracuni, takut dibunuh, dan bicara sendiri. Langkah berikutnya adalah menggalikan kronologi (sejak kapan, makin berat atau fluktuatif, faktor pencetus), lalu RPD (riwayat penyakit dahulu) termasuk riwayat psikiatri, medik, dan penggunaan zat/alkohol/NAPZA, riwayat keluarga, dan riwayat hidup (prenatal, masa kanak, remaja, dewasa, psikoseksual, nilai hidup). Pada fase akhir, WAJIB dilakukan penilaian risiko (ide bunuh diri, ide menyakiti orang lain, kekerasan, pengabaian diri), kemudian observasi MSE sambil melanjutkan wawancara. Wawancara ditutup dengan rangkuman, klarifikasi, kesan awal, dan rencana.",
+          "tone": "clinical",
+          "source": "§E.1 Psychiatric History Taking (modul asli) — 8 poin + alur"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Urutan 10 langkah OSCE psikiatri (AMAN → RANGKUM & RENCANA)",
+          "sub": [
+            "1. AMAN — Pastikan keamanan: posisi dekat pintu, jarak aman, pendamping keluarga.",
+            "2. IDENTITAS — Salam, perkenalkan diri, konfirmasi identitas, jelaskan tujuan, minta izin.",
+            "3. KELUHAN — Tanyakan keluhan utama dengan pertanyaan terbuka.",
+            "4. RPS — Kronologi: onset (awitan), durasi, progresivitas, faktor pencetus/presipitasi.",
+            "5. RPD — Riwayat psikiatri, medik, penggunaan zat/alkohol/NAPZA, alergi obat.",
+            "6. RIWAYAT KELUARGA — Gangguan jiwa, bunuh diri, epilepsi, zat, kekerasan, pola relasi.",
+            "7. RIWAYAT HIDUP — Prenatal, perinatal, masa kanak (0–3, 3–11), remaja, dewasa (pekerjaan, perkawinan, pendidikan, militer, agama, sosial, hukum), psikoseksual, keluarga, impian/fantasi/nilai.",
+            "8. RISIKO — Ide bunuh diri, rencana, akses senjata, ide menyakiti orang lain, pengabaian diri — WAJIB.",
+            "9. STATUS MENTAL — MSE 9 domain selama wawancara.",
+            "10. RANGKUM & RENCANA — Rangkum, cek ulang, jelaskan kesan awal dan rencana (diagnosis multiaksial, banding, tata laksana, rujukan)."
+          ],
+          "bold": true,
+          "source": "§E.1 Psychiatric History Taking + alur OSCE (modul asli)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Checklist Psychiatric History Taking 8 Poin (Skor 0/1/2)",
+          "text": "Modul asli menyediakan checklist 8 poin untuk Psychiatric History Taking dengan skor 0/1/2. Aspek: (1) Data pribadi, (2) Keluhan utama, (3) RPS — awitan & faktor presipitasi, (4) RPD — psikiatri, medik, penggunaan zat, (5) Riwayat keluarga, (6) Riwayat hidup 6 fase, (7) Psikoseksual, (8) Impian/fantasi/nilai. Skor 2 = maksimal, 0 = tidak dilakukan. Setiap aspek disertai 'Cara Melakukan Skor Maksimal', 'Kalimat yang Dapat Diucapkan', dan 'Kesalahan yang Menurunkan Nilai'.",
+          "answer_evidence": "Lampiran CHECKLIST PSYCHIATRIC HISTORY TAKING (modul asli)"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kesalahan paling sering di langkah 1 (AMAN)",
+          "text": "Mahasiswa sering langsung duduk menyudutkan pasien tanpa memikirkan keamanan. Pada Tn. Z yang curiga, duduk dengan pintu terbuka di belakang Anda, jarak 1.5–2 meter, dan pastikan keluarga (istri) mendampingi. Ini menentukan apakah wawancara 8 menit berjalan aman atau berakhir tidak terkontrol.",
+          "answer_evidence": "Prinsip de-eskalasi + modul asli §E.1"
+        }
+      ],
+      "visual_refs": [
+        "visual_psik_wawancara_alur_01"
+      ],
+      "glossary_refs": [
+        "gls_psik_alloanamnesis_01",
+        "gls_psik_autoanamnesis_01",
+        "gls_psik_mse_01",
+        "gls_psik_deescalation_01"
+      ],
+      "bilingual": "Alur 10 langkah OSCE psikiatri: AMAN → IDENTITAS → KELUHAN → RPS → RPD → RIWAYAT KELUARGA → RIWAYAT HIDUP → RISIKO (WAJIB) → STATUS MENTAL → RANGKUM & RENCANA. Penilaian risiko bunuh diri dan kekerasan tidak boleh dilewatkan."
+    },
+    {
+      "id": "s03",
+      "title": "Anamnesis & Seleksi Klien",
+      "summary": "Pertanyaan kunci anamnesis psikiatri untuk skenario Tn. Z, 8 poin anamnesis, dan red flags yang WAJIB ditanyakan (termasuk risk assessment bunuh diri dan kekerasan).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Anamnesis psikiatri berbeda signifikan dari anamnesis klinis umum karena informasi yang dikumpulkan tidak hanya keluhan fisik, tetapi juga isi pikiran, persepsi, mood subjektif, insight, dan penilaian risiko. Pada pasien dengan skenario seperti Tn. Z (curiga, berpotensi agresif, bicara sendiri), anamnesis harus membagi waktu antara autoanamnesis singkat dari pasien (untuk menjaga rapport dan validasi) dan alloanamnesis dari keluarga (sumber informasi utama). Alloanamnesis dari istri Tn. Z sangat penting karena pasien curiga dan mungkin tidak kooperatif.",
+          "tone": "narrative",
+          "source": "§E.1 Psychiatric History Taking (modul asli)"
+        },
+        {
+          "text": "Cara berpikir praktis dalam anamnesis psikiatri: (1) Dengarkan dulu, jangan langsung menanyakan diagnosis. Mulailah dari keluhan terbuka, biarkan pasien bicara, dan gunakan teknik facilitasi ('Lalu?', 'Terus?', 'Bisa ceritakan lebih lanjut?'). (2) Sistematis tapi fleksibel. Gunakan kerangka pikir, namun jangan rigid; jika pasien tampak gelisah, berhenti dan validasi. (3) Waspadai stigma. Jangan gunakan kata 'gila', 'sakit jiwa', atau 'tidak waras'. Gunakan 'gangguan jiwa', 'kondisi yang Bapak alami', atau 'keluhan psikologis'. (4) Penilaian risiko TIDAK BOLEH dilewati — ide bunuh diri, rencana, akses alat, dan ide menyakiti orang lain WAJIB ditanyakan dan didokumentasikan, dengan kalimat terbuka yang tidak menghakimi.",
+          "tone": "clinical",
+          "source": "Prinsip komunikasi klinis psikiatri + modul asli"
+        },
+        {
+          "text": "Pada Tn. Z, pertanyaan kunci yang harus diajukan (atau dikonfirmasi dari keluarga) antara lain: keluhan utama (mengamuk, curiga diracuni, takut dibunuh, bicara sendiri), onset dan kronologi (gejala sudah 1 tahun, memburuk 2 bulan), gejala psikotik (waham curiga, waham kejar, kemungkinan halusinasi auditorik), gejala mood (takut, marah, cemas), tidur dan makan (seringkali terganggu pada psikosis), riwayat penggunaan zat (penting untuk eksklusi gangguan akibat zat), riwayat keluarga gangguan jiwa, fungsi sosial (pekerjaan, relasi, rawat diri), akses terhadap senjata/benda tajam di rumah, dan riwayat agresif sebelumnya (apakah pernah memukul, merusak barang).",
+          "tone": "clinical",
+          "source": "§C Skenario Tn. Z (modul asli) + applied anamnesis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Komponen keluhan utama psikiatri (Tanyakan dengan bahasa terbuka)",
+          "sub": [
+            "Perubahan perilaku: onset, durasi, progresivitas",
+            "Gangguan mood: sedih berkepanjangan, gembira berlebihan, iritabel, marah",
+            "Gangguan pikiran: ide aneh, curiga berlebihan, waham",
+            "Gangguan persepsi: halusinasi (auditorik, visual, taktil, olfaktorik)",
+            "Gangguan fungsi: pekerjaan, hubungan sosial, perawatan diri"
+          ],
+          "bold": true,
+          "source": "§E.1 Psychiatric History Taking (modul asli)"
+        },
+        {
+          "text": "Penilaian Risiko (WAJIB di Setiap Wawancara Psikiatri)",
+          "sub": [
+            "Ide bunuh diri: tanyakan LANGSUNG — 'Apakah Bapak/Ibu pernah berpikir untuk mengakhiri hidup?'",
+            "Rencana: 'Apakah ada rencana bagaimana caranya?'",
+            "Akses ke alat: 'Apakah ada senjata, benda tajam, atau obat yang Bapak simpan?'",
+            "Ide menyakiti orang lain: 'Apakah Bapak pernah berpikir ingin menyakiti orang lain?'",
+            "Riwayat kekerasan sebelumnya: 'Pernah mengamuk atau memukul sebelumnya?'",
+            "Pengabaian diri: tidak makan, tidak minum, tidak mandi, tidak minum obat"
+          ],
+          "bold": true,
+          "source": "Risk assessment (modul asli + standar psikiatri)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak menanyakan ide bunuh diri",
+          "text": "Pada pasien psikotik dengan waham persekutorik, tidak menanyakan ide bunuh diri adalah kesalahan fatal — pasien bisa pulang dan melakukan percobaan bunuh diri malam itu juga.",
+          "answer_evidence": "Standar psikiatri nasional & internasional; modul asli"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak menanyakan akses senjata/benda tajam",
+          "text": "Pada pasien dengan riwayat mengamuk seperti Tn. Z, tidak menanyakan akses senjata/benda tajam di rumah bisa berakibat fatal bagi keluarga.",
+          "answer_evidence": "Standar psikiatri; prinsip keselamatan pasien & keluarga"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Bahasa stigmatis dalam wawancara",
+          "text": "Mendiagnosis 'gila' atau menggunakan bahasa stigmatis dalam wawancara menyebabkan kehilangan rapport, keluarga tidak kooperatif, dan Anda gagal menunjukkan profesionalisme.",
+          "answer_evidence": "Prinsip bahasa non-stigmatis; patient-centered care"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Konfrontasi langsung terhadap waham",
+          "text": "Kalimat seperti 'Itu tidak mungkin, Pak, tidak ada yang mau meracuni Bapak' membuat pasien merasa tidak dipahami, dan risiko agresivitas meningkat tajam.",
+          "answer_evidence": "Prinsip de-eskalasi; teknik validasi"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan terlalu cepat menyimpulkan waham sebagai 'khayalan'",
+          "text": "Pada gangguan psikotik, waham adalah realitas subjektif pasien yang harus divalidasi perasaannya tanpa mengiyakan isinya. Validasi ≠ agreement.",
+          "answer_evidence": "Prinsip komunikasi terapeutik psikiatri"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_psik_waham_01",
+        "gls_psik_halusinasi_01",
+        "gls_psik_insight_01",
+        "gls_psik_stigma_01",
+        "gls_psik_deescalation_01"
+      ],
+      "bilingual": "Anamnesis psikiatri = isi pikiran + persepsi + mood subjektif + insight + penilaian risiko. Pada Tn. Z, bagi waktu antara autoanamnesis (rapport) dan alloanamnesis dari istri (informasi objektif utama)."
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Fisik",
+      "summary": "9 domain MSE dari modul asli: gambaran umum, mood/afek, bicara, persepsi, pikiran (proses & isi), sensorium/kognitif, pengendalian impuls, insight, dan reliabilitas — dengan aplikasi pada Tn. Z.",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Mental State Examination (MSE) adalah 'tanda vital' psikiatri — dianalogikan dengan pemeriksaan fisik pada pasien medis. Modul kampus menjabarkan MSE dalam 9 kategori utama (modul asli §E.2): (1) Gambaran umum (penampilan, perilaku/aktivitas psikomotor, sikap terhadap pemeriksa); (2) Mood dan afek; (3) Bicara; (4) Gangguan persepsi; (5) Pikiran (proses/bentuk & isi); (6) Sensorium dan kognitif (kesadaran, orientasi, daya ingat, konsentrasi, membaca/menulis, visuospasial, pikiran abstrak, informasi/kecerdasan); (7) Pengendalian impuls; (8) Pertimbangan dan tilikan (insight); (9) Reliabilitas (judgement).",
+          "tone": "narrative",
+          "source": "§E.2 Pemeriksaan Psikiatri Khusus / MSE (modul asli) — 9 kategori"
+        },
+        {
+          "text": "Pada pasien gaduh gelisah/curiga seperti Tn. Z, MSE dilakukan sambil lalu, tanpa membuat pasien merasa 'diperiksa' atau 'diwawancarai secara formal'. Skill ini membedakan mahasiswa yang hanya hafal istilah dengan mahasiswa yang mampu 'membaca' pasien secara klinis. Banyak komponen MSE diobservasi selama wawancara, tidak perlu 'diperiksa' terpisah.",
+          "tone": "clinical",
+          "source": "Prinsip observasi klinis + modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "9 Domain MSE (Modul Asli) — Aplikasi pada Tn. Z",
+          "sub": [
+            "1. GAMBARAN UMUM — Penampilan: amati saat masuk ruangan (kebersihan, pakaian, tampak lebih muda/tua, ekspresi). Perilaku/aktivitas psikomotor: mondar-mandir, tangan mengepal, gelisah, postur kaku, agresif. Sikap terhadap pemeriksa: curiga, menjawab terbatas, kontak mata minimal, posisi tubuh melawan.",
+            "2. MOOD (subjektif) — Tanyakan: 'Bagaimana perasaan Bapak akhir-akhir ini?' Mood Tn. Z: takut, marah, curiga.",
+            "3. AFEK (objektif) — Amati ekspresi selama wawancara. Catatan: mood = apa yang dirasakan pasien; afek = apa yang terlihat.",
+            "4. BICARA — Amati spontanitas, volume, tempo, artikulasi, koherensi. Tn. Z: bicara spontan, volume cukup, tempo cepat, koherensi menurun saat curiga.",
+            "5. GANGGUAN PERSEPSI — Tanyakan halusinasi/ilusi: 'Apakah pernah mendengar suara saat orang lain tidak mendengar?' Tn. Z: 'bicara sendiri' bisa jadi respons halusinasi auditorik.",
+            "6. PIKIRAN — Proses pikir (flight of ideas, blocking, asosiasi longgar) dan isi pikir (waham curiga, kejar, kebesaran, ide bunuh diri). Tn. Z: waham curiga/persekutorik (meracuni) dan waham kejar (dibunuh) — persisten, tidak goyah logika.",
+            "7. SENSORIUM & KOGNITIF — Kesadaran (GCS), orientasi (waktu/tempat/orang), memori (segera/baru/lama), konsentrasi (kalkulasi, serial 7), bahasa (naming, repetition, comprehension), visuospasial (gambar), abstraksi (proverb), pengetahuan umum.",
+            "8. PENGENDALIAN IMPULS — Tanyakan langsung dan observasi perilaku. Tn. Z: mengamuk → pengendalian impuls terganggu. WAJIB: tanyakan ide menyakiti orang lain, akses senjata.",
+            "9. PERTIMBANGAN & TILIKAN (INSIGHT) — 'Menurut Bapak, apakah kondisi ini perlu bantuan dokter?' Tn. Z: insight rendah. RELIABILITAS (JUDGEMENT) — Kemampuan menilai situasi dan mengambil keputusan wajar. Tn. Z: judgment buruk — keputusan mengamuk tanpa pertimbangan konsekuensi."
+          ],
+          "bold": true,
+          "source": "§E.2 MSE 9 domain (modul asli) + applied to Tn. Z"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Tips teknis yang sering dilupakan",
+          "text": "Banyak komponen MSE diobservasi selama autoanamnesis, tidak perlu 'diperiksa' terpisah. Mencatat 'pasien tampak gelisah' sama berharganya dengan 'psikomotor meningkat'.",
+          "answer_evidence": "Modul asli §E.2 + prinsip observasi klinis"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Jangan memaksa tes kognisi pada pasien curiga dan gaduh",
+          "text": "Pada pasien seperti Tn. Z, jika pasien menolak tes 3 kata, hitung mundur, atau kalkulasi, jangan dipaksa — itu menurunkan trust dan tidak menambah nilai diagnosis pada level mahasiswa.",
+          "answer_evidence": "Prinsip rapport dan de-eskalasi"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Mnemonic MSE: ASEPTIC atau AMPSI",
+          "text": "ASEPTIC = Appearance, Speech, Emotion, Perception, Thought, Insight, Cognition, Risk. AMPSI = Appearance, Mood, Perception, Speech, Insight. Keduanya membantu menghafal 9 domain MSE.",
+          "answer_evidence": "Literatur psikiatri & modul asli"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "CHECKLIST FOR PSYCHIATRIC EXAMINATION (16 aspek, skor 0/1/2)",
+          "text": "Modul asli menyediakan checklist 16 aspek untuk pemeriksaan psikiatri: (1) Penampilan umum, (2) Perilaku dan aktivitas psikomotor, (3) Sikap terhadap pemeriksa, (4) Mood, (5) Afek, (6) Bicara, (7) Gangguan persepsi, (8) Proses pikir, (9) Isi pikir, (10) Orientasi, (11) Kesadaran dan kecerdasan, (12) Daya ingat, (13) Konsentrasi dan perhatian, (14) Pengendalian impuls, (15) Insight, (16) Reliabilitas/judgement. Skor 0 = terganggu berat; 2 = normal/adekuat.",
+          "answer_evidence": "Lampiran CHECKLIST FOR PSYCHIATRIC EXAMINATION (modul asli)"
+        }
+      ],
+      "visual_refs": [
+        "visual_psik_mse_9domain_01"
+      ],
+      "glossary_refs": [
+        "gls_psik_mse_01",
+        "gls_psik_waham_01",
+        "gls_psik_halusinasi_01",
+        "gls_psik_insight_01"
+      ],
+      "bilingual": "MSE = 'tanda vital' psikiatri, 9 domain: (1) Gambaran umum, (2) Mood/Afek, (3) Bicara, (4) Persepsi, (5) Pikiran (proses & isi), (6) Sensorium/Kognitif, (7) Pengendalian Impuls, (8) Insight, (9) Reliabilitas. Bedakan mood (subjektif) vs afek (objektif); catat terpisah."
+    },
+    {
+      "id": "s05",
+      "title": "Persiapan, Alat & Prosedur Utama",
+      "summary": "Daftar alat non-fisik (keamanan, pendamping, status psikiatri), persiapan ruang, dan prosedur 3 fase wawancara psikiatri (Persiapan, Pelaksanaan, Evaluasi & Penutupan).",
+      "estimated_time_minutes": 20,
+      "content": [
+        {
+          "text": "Wawancara psikiatri tidak memerlukan alat fisik seperti stetoskop atau martil refleks, namun memerlukan persiapan non-fisik yang lebih krusial: keamanan, posisi duduk, kemampuan de-eskalasi, dan kerangka pikir klinis. Pada pasien dengan skenario Tn. Z (curiga, berpotensi agresif), persiapan yang matang menentukan apakah wawancara berlangsung 8 menit yang aman atau berakhir dengan situasi yang tidak terkontrol. Mahasiswa sering gagal bukan karena tidak hafal, tetapi karena tidak menyiapkan 'peta kognitif' wawancara sebelum masuk ruangan.",
+          "tone": "narrative",
+          "source": "§B.2 Pertemuan 2 — Sesi skills lab (modul asli)"
+        },
+        {
+          "text": "Prosedur wawancara psikiatri dibagi dalam 3 fase yang mengalir, bukan terpisah kaku: (1) Fase Persiapan (5 menit pertama) — salam, perkenalan, informed consent, pengamatan awal, dan penggalian identitas. Pada pasien yang menolak atau curiga, fase ini bisa lebih panjang; sabar dan tidak memaksa adalah kunci. (2) Fase Pelaksanaan (5–7 menit) — keluhan utama, kronologi, gejala inti, riwayat, risiko, fungsi, dan MSE berjalan paralel. Di sinilah sebagian besar nilai OSCE diberikan; gunakan pertanyaan terbuka dulu, lalu tutup dengan pertanyaan khusus (skrining risiko bunuh diri/kekerasan, skrining zat). (3) Fase Evaluasi & Penutupan (3 menit terakhir) — rangkuman, klarifikasi, kesan awal yang sederhana, edukasi singkat, ucapan terima kasih, dan salam penutup.",
+          "tone": "clinical",
+          "source": "§B.2 Pertemuan 2 + §E Wawancara Psikiatri (modul asli)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Alat non-fisik untuk wawancara psikiatri",
+          "sub": [
+            "Ruang aman: pintu tidak terkunci dari dalam, posisi dokter dekat pintu keluar.",
+            "Pendamping: keluarga (istri Tn. Z) sebagai sumber alloanamnesis dan penjaga emosional.",
+            "Tombol alarm/tim: tersedia di dekat ruangan (di RSJ biasanya ada tombol panik).",
+            "Catatan kecil: untuk mencatat waktu, gejala, dan frasa kunci pasien.",
+            "Lembar status psikiatri (Lampiran modul asli): form rekam medis untuk dokumentasi tertulis.",
+            "Rencana rujukan: kontak psikiater, RSJ terdekat, nomor telepon keluarga."
+          ],
+          "bold": true,
+          "source": "§B.2 Pertemuan 2 (modul asli)"
+        },
+        {
+          "text": "FASE PERSIAPAN (5 menit pertama)",
+          "sub": [
+            "Baca instruksi station, identifikasi skenario (Tn. Z, 27 tahun, psikotik, RSJ Jambi).",
+            "Cek posisi duduk: dokter dekat pintu, jarak aman, tidak menyudutkan pasien.",
+            "Sapa keluarga (istri Tn. Z), perkenalkan diri, jelaskan peran dan tujuan wawancara.",
+            "Dekati pasien dengan tenang, pelan, posisi tubuh terbuka, kontak mata wajar.",
+            "Salam ke pasien: 'Selamat pagi, Pak. Saya dokter [nama], yang akan membantu pemeriksaan hari ini.'",
+            "Jelaskan tujuan dan minta izin: 'Boleh saya bertanya beberapa hal tentang keluhan Bapak?'",
+            "Tanyakan identitas dasar: nama, umur, pekerjaan, tempat tinggal, agama."
+          ],
+          "bold": true,
+          "source": "§E Wawancara Psikiatri (modul asli)"
+        },
+        {
+          "text": "FASE PELAKSANAAN (5–7 menit)",
+          "sub": [
+            "Buka dengan pertanyaan terbuka: 'Apa yang paling mengganggu Bapak akhir-akhir ini?'",
+            "Gali kronologi: 'Kapan mulai? Makin berat atau fluktuatif? Ada peristiwa penting sebelum gejala?'",
+            "Eksplorasi gejala psikotik: waham ('ada yang mau mencelakai/meracuni?'), halusinasi ('mendengar suara?'), gangguan persepsi lain.",
+            "Eksplorasi gejala mood dan cemas: perasaan takut, sedih, marah, cemas, hampa.",
+            "Eksplorasi tidur, makan, energi, perilaku tidak biasa.",
+            "WAJIB: Penilaian risiko bunuh diri & kekerasan (ideasi, rencana, akses senjata, riwayat agresif).",
+            "Gali riwayat: psikiatri sebelumnya, medis, neurologis, trauma kepala, penggunaan zat (alkohol, NAPZA, obat).",
+            "Alloanamnesis keluarga: kronologi objektif, perubahan perilaku, kepatuhan obat, fungsi kerja/sosial, keamanan di rumah.",
+            "Observasi MSE paralel: 9 domain selama wawancara (lihat s04).",
+            "Isi status psikiatri (Lampiran modul asli) — dokumentasi tertulis selama wawancara."
+          ],
+          "bold": true,
+          "source": "§E Wawancara Psikiatri (modul asli)"
+        },
+        {
+          "text": "FASE EVALUASI & PENUTUPAN (3 menit terakhir)",
+          "sub": [
+            "Rangkum dengan bahasa awam: 'Baik Pak, dari cerita Bapak dan keluarga, saya rangkum ya...'",
+            "Konfirmasi ke pasien/keluarga: 'Apakah ada yang perlu ditambah atau dikoreksi?'",
+            "Sampaikan kesan awal secara sederhana: 'Saya melihat Bapak sedang mengalami tekanan yang berat...'",
+            "Edukasi singkat: 'Kondisi ini adalah bagian dari gangguan jiwa yang bisa kami bantu.'",
+            "Jelaskan rencana: konsultasi psikiater, kemungkinan rawat inap, pemeriksaan tambahan.",
+            "Libatkan keluarga: 'Keluarga juga akan saya libatkan, karena dukungan keluarga sangat penting.'",
+            "Akhiri dengan ucapan terima kasih dan salam penutup."
+          ],
+          "bold": true,
+          "source": "§E Wawancara Psikiatri (modul asli)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Selalu ada pendamping keluarga",
+          "text": "Pada pasien Tn. Z yang curiga dan potensial agresif, selalu ada pendamping keluarga (istri atau anggota keluarga lain) di dalam ruangan. Jangan wawancara sendirian.",
+          "answer_evidence": "Prinsip keselamatan klinis; modul asli §E.1"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "Hentikan wawancara jika pasien semakin gelisah atau agresif",
+          "text": "Jika selama wawancara pasien menjadi semakin gelisah, agresif, atau menolak untuk melanjutkan, hentikan wawancara, tenangkan pasien, dan libatkan tim RSJ. Keselamatan adalah prioritas utama.",
+          "answer_evidence": "Prinsip de-eskalasi dan keselamatan; modul asli"
+        },
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Dokumentasi status psikiatri WAJIB",
+          "text": "Dokumentasi dalam status psikiatri (Lampiran modul asli) WAJIB diisi lengkap selama atau setelah wawancara, karena merupakan rekam medis resmi yang akan dibaca oleh psikiater.",
+          "answer_evidence": "Modul asli Lampiran Status Psikiatri; standar rekam medis"
+        }
+      ],
+      "visual_refs": [
+        "visual_psik_wawancara_alur_01"
+      ],
+      "glossary_refs": [
+        "gls_psik_alloanamnesis_01",
+        "gls_psik_deescalation_01",
+        "gls_psik_insight_01"
+      ],
+      "bilingual": "3 fase wawancara psikiatri: (1) Persiapan 5 menit, (2) Pelaksanaan 5–7 menit, (3) Evaluasi & Penutupan 3 menit. Alat non-fisik: ruang aman, pendamping keluarga, tombol alarm, status psikiatri."
+    },
+    {
+      "id": "s06",
+      "title": "Pasca-Prosedur & Clinical Reasoning",
+      "summary": "Cara menyusun diagnosis kerja, diagnosis banding, dan diagnosis multiaksial Aksis I–V sesuai PPDGJ III untuk skenario Tn. Z (sindrom psikotik).",
+      "estimated_time_minutes": 15,
+      "content": [
+        {
+          "text": "Clinical reasoning pada skenario psikiatri dimulai dengan pengenalan pola (pattern recognition): apakah gejala dominan mengarah ke sindrom psikotik, gangguan mood, gangguan anxietas, atau gangguan organik? Pada Tn. Z, pola yang muncul — curiga diracuni, takut dibunuh, bicara sendiri, mengamuk, menarik diri, durasi 1 tahun dengan perburukan 2 bulan — sangat mengarah ke sindrom psikotik, dengan diagnosis banding utama: skizofrenia, gangguan waham, gangguan mood dengan gejala psikotik, gangguan psikotik akibat zat, dan gangguan mental organik. Diagnosis pasti biasanya memerlukan observasi lebih lama, pemeriksaan penunjang (skrining zat, neuroimaging bila ada indikasi), dan konfirmasi psikiater.",
+          "tone": "clinical",
+          "source": "§D Tinjauan Teori (modul asli) — diagnosis multiaksial PPDGJ III"
+        },
+        {
+          "text": "Modul asli (sesuai PPDGJ III) mengajarkan diagnosis multiaksial 5 aksis: Aksis I (gangguan klinis utama — gangguan klinis atau kondisi lain yang menjadi fokus perhatian klinis), Aksis II (gangguan kepribadian atau retardasi mental), Aksis III (kondisi medik umum), Aksis IV (masalah psikososial dan lingkungan), Aksis V (penilaian fungsi secara global — GAF/Global Assessment of Functioning). Pada Tn. Z: Aksis I = sindrom psikotik; pertimbangkan skizofrenia (F20), gangguan waham (F22), atau gangguan mood dengan gejala psikotik; Aksis II = belum dapat dinilai dari data awal (perlu eksplorasi riwayat perkembangan dan kepribadian premorbid); Aksis III = perlu eksklusi penyebab organik (intoksikasi zat, epilepsi, delirium, gangguan tiroid, infeksi, trauma kepala); Aksis IV = konflik keluarga, stressor sosial, dukungan keluarga yang belum optimal; Aksis V = GAF rendah (perlu rawat inap, risiko gangguan fungsi berat).",
+          "tone": "clinical",
+          "source": "§D Diagnosis Multiaksial (modul asli)"
+        },
+        {
+          "text": "Berdasarkan PPDGJ III (Panduan Penggolongan dan Diagnosis Gangguan Jiwa III — adopsi Indonesia dari ICD-10 WHO), gangguan jiwa dibagi menjadi 10 klasifikasi utama: (1) Gangguan mental organik, termasuk gejala, sindroma, dan gangguan yang berkaitan dengan kondisi medis umum; (2) Gangguan mental dan perilaku akibat penggunaan zat psikoaktif; (3) Skizofrenia, gangguan skizotipal, dan gangguan waham; (4) Gangguan mood/afektif; (5) Gangguan neurotik, gangguan somatoform, dan gangguan terkait stres; (6) Gangguan kepribadian dan perilaku dewasa; (7) Sindroma perilaku yang berhubungan dengan gangguan fisiologis dan faktor fisik; (8) Retardasi mental; (9) Gangguan perkembangan psikologis; (10) Gangguan perilaku dan emosional dengan onset usia anak dan remaja.",
+          "tone": "clinical",
+          "source": "§D.4 10 klasifikasi PPDGJ III (modul asli)"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pendekatan Clinical Reasoning untuk Skenario Tn. Z",
+          "sub": [
+            "Identifikasi gejala positif (waham, halusinasi, bicara tidak koheren, perilaku agresif) dan gejala negatif (menarik diri, afek tumpul, alogia, anhedonia, avolition).",
+            "Tentukan onset, durasi, dan progresivitas (akut vs gradual, kronis vs fluktuatif).",
+            "Eksklusi penyebab organik (intoksikasi zat, epilepsi, delirium, gangguan tiroid, infeksi, trauma kepala).",
+            "Eksklusi penyebab zat (alkohol, amfetamin, kanabis, kokain, halusinogen).",
+            "Pertimbangkan faktor pencetus psikososial (konflik keluarga, kehilangan, stressor besar).",
+            "Tentukan Aksis I–V dan fungsi global (GAF).",
+            "Rencanakan pemeriksaan penunjang dan rujukan."
+          ],
+          "bold": true,
+          "source": "§D Tinjauan Teori (modul asli)"
+        },
+        {
+          "text": "Klasifikasi ICD-10/PPDGJ III yang relevan untuk Tn. Z",
+          "sub": [
+            "F20 Skizofrenia (F20.0 paranoid, F20.1 hebefrenik, F20.2 katatonik, F20.3 tak terinci, dst.)",
+            "F22 Gangguan waham (delusional) — waham persisten, fungsi lain relatif terjaga",
+            "F23 Gangguan psikotik akut dan sementara",
+            "F25 Gangguan skizoafektif",
+            "F32 Episode depresi berat (F32.3 dengan gejala psikotik)",
+            "F1x.5 Gangguan psikotik akibat zat psikoaktif",
+            "F00–F09 Gangguan mental organik (delirium, demensia, gangguan psikotik organik)",
+            "F60–F69 Gangguan kepribadian dan perilaku dewasa",
+            "F70–F79 Retardasi mental"
+          ],
+          "bold": true,
+          "source": "PPDGJ III / ICD-10 (modul asli)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Mendiagnosis 'skizofrenia' final di level mahasiswa",
+          "text": "Diagnosis psikiatri memerlukan observasi longitudinal, bukan satu kali wawancara. Jangan tegakkan diagnosis final di level mahasiswa — serahkan ke psikiater.",
+          "answer_evidence": "Prinsip klinis psikiatri; modul asli"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Selalu susun diagnosis kerja + diagnosis banding + rencana konfirmasi",
+          "text": "Penguji ingin melihat proses berpikir klinis, bukan label akhir. Susun diagnosis kerja (sindrom psikotik), diagnosis banding (5–6 kemungkinan), dan rencana konfirmasi (observasi, penunjang, psikiater).",
+          "answer_evidence": "Prinsip clinical reasoning; standar OSCE"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "PPDGJ III vs DSM-5",
+          "text": "Pendekatan multiaksial PPDGJ III (adopsi Indonesia dari ICD-10) masih digunakan secara luas di Indonesia, meskipun DSM-5 (2013) sudah meninggalkan sistem multiaksial. Mahasiswa diharapkan memahami keduanya.",
+          "answer_evidence": "PPDGJ III (1993); DSM-5-TR (APA, 2022)"
+        }
+      ],
+      "visual_refs": [
+        "visual_psik_multiaksial_ppdgj_01",
+        "visual_psik_10klasifikasi_01"
+      ],
+      "glossary_refs": [
+        "gls_psik_ppdgj_01",
+        "gls_psik_multiaksial_01",
+        "gls_psik_gaf_01",
+        "gls_psik_waham_01"
+      ],
+      "bilingual": "Diagnosis multiaksial PPDGJ III 5 aksis: Aksis I (klinis utama), Aksis II (kepribadian/retardasi mental), Aksis III (kondisi medik umum), Aksis IV (psikososial-lingkungan), Aksis V (fungsi global/GAF). 10 klasifikasi PPDGJ III menggunakan kode Fxx (F00–F99)."
+    },
+    {
+      "id": "s07",
+      "title": "Pemeriksaan Penunjang & Tatalaksana",
+      "summary": "Pemeriksaan penunjang yang relevan (lab, radiologi, MMSE, PANSS), prinsip tatalaksana, dan rencana terapi untuk skenario Tn. Z dengan de-eskalasi verbal sebagai lini pertama.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Pada pasien dengan sindrom psikotik seperti Tn. Z, pemeriksaan penunjang di level mahasiswa bertujuan untuk: (1) mengeksklusi penyebab organik/substansi (intoksikasi zat, epilepsi, delirium, gangguan tiroid, infeksi sistemik, trauma kepala), dan (2) menyiapkan data untuk psikiater yang akan menangani selanjutnya. Modul asli menyebutkan 3 jenis pemeriksaan tambahan (langsung, tidak langsung, penunjang): laboratorium (darah lengkap, fungsi tiroid, fungsi hati/ginjal, skrining zat urin), radiologi (CT/MRI kepala bila ada tanda fokal, kejang, atau onset sangat akut), dan pemeriksaan khusus (MMSE, kuesioner depresi/ansietas).",
+          "tone": "clinical",
+          "source": "§D.1 Pemeriksaan tambahan (modul asli)"
+        },
+        {
+          "text": "Prinsip tatalaksana sesuai modul asli: setelah diagnosis ditegakkan, terapi dapat diberikan berupa farmakoterapi, psikoterapi, terapi sosial, terapi okupasional, dan lainnya. Pada level mahasiswa OSCE, farmakoterapi tidak perlu dihafal dosisnya — yang penting adalah menyebutkan kelas obat, indikasi umum, dan rujukan ke psikiater. Antipsikotik atipikal (risperidone, olanzapine, quetiapine, aripiprazole) adalah lini pertama untuk psikosis; pada fase akut dengan agitasi berat, antipsikotik tipikal (haloperidol) + benzodiazepine dapat digunakan di bawah supervisi psikiater. Benzodiazepine (lorazepam, diazepam) berguna untuk agitasi akut dan cemas, dengan perhatian pada risiko jatuh dan depresi napas.",
+          "tone": "clinical",
+          "source": "§D.3 (modul asli) — 'setelah diagnosis ditegakkan, terapi dapat diberikan berupa farmakoterapi, psikoterapi, terapi sosial, terapi okupasional'"
+        },
+        {
+          "text": "Tatalaksana awal pada pasien psikotik-agresif mengikuti prinsip de-eskalasi verbal terlebih dahulu: (1) suara rendah, kalimat pendek, beri pilihan sederhana, (2) jangan berdebat dengan waham, (3) validasi perasaan takut pasien, (4) libatkan keluarga sebagai mitra, (5) bila verbal de-eskalation gagal → physical restraint (di RSJ dengan protokol) atau farmakologi, (6) rujuk/konsultasi psikiatri bila psikosis aktif, risiko kekerasan, bunuh diri, tidak mau makan/minum, tidur berat, disorganisasi berat, atau keluarga tidak mampu menjaga keamanan.",
+          "tone": "clinical",
+          "source": "Prinsip de-eskalasi; modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Pemeriksaan Penunjang yang Relevan untuk Tn. Z",
+          "sub": [
+            "Laboratorium: darah lengkap, fungsi tiroid (TSH, FT4), fungsi hati/ginjal, elektrolit, glukosa darah, skrining zat urin (NAPZA), alkohol.",
+            "Radiologi: CT/MRI kepala bila ada tanda fokal, kejang, onset akut, atau perubahan kesadaran.",
+            "Khusus: MMSE (lihat modul terpisah), kuesioner depresi (BDI/HAM-D), kuesioner ansietas (HAM-A), PANSS (Positive and Negative Syndrome Scale untuk skizofrenia).",
+            "Skrining HIV (psikosis bisa manifestasi HIV ensefalopati).",
+            "Pemeriksaan kehamilan pada wanita usia reproduksi (sebelum obat).",
+            "EKG (QTc sebelum antipsikotik tertentu)."
+          ],
+          "bold": true,
+          "source": "§D.1 Pemeriksaan tambahan (modul asli)"
+        },
+        {
+          "text": "Tatalaksana Awal (Prinsip, Bukan Dosis — Modul Asli)",
+          "sub": [
+            "De-eskalasi verbal → restraint verbal → restraint fisik → farmakoterapi.",
+            "Antipsikotik atipikal lini pertama (risperidone, olanzapine, aripiprazole) — sesuai psikiater.",
+            "Antipsikotik tipikal (haloperidol) untuk agitasi akut — sesuai psikiater.",
+            "Benzodiazepine untuk ansietas/insomnia/agitasi — hati-hati risiko jatuh.",
+            "Konsultasi psikiatri adalah standar pada sindrom psikotik aktif.",
+            "Psikoterapi: CBT untuk psikosis, family therapy, terapi suportif.",
+            "Terapi sosial: rehabilitasi vokasional, dukungan keluarga, komunitas.",
+            "Terapi okupasional: aktivitas terstruktur, kemandirian ADL."
+          ],
+          "bold": true,
+          "source": "§D.3 (modul asli)"
+        },
+        {
+          "text": "Kapan Merujuk/Menjalankan Rawat Inap Segera (Modul Asli)",
+          "sub": [
+            "Psikosis aktif dengan risiko kekerasan (mengamuk ke keluarga).",
+            "Ide bunuh diri dengan rencana.",
+            "Ide menyakiti orang lain dengan akses senjata.",
+            "Tidak mau makan/minum → risiko dehidrasi.",
+            "Tidur tidak lebih dari beberapa jam selama beberapa hari.",
+            "Disorganisasi berat (tidak bisa rawat diri).",
+            "Keluarga tidak mampu menjaga keamanan di rumah (istri Tn. Z kemungkinan besar tidak mampu).",
+            "Onset sangat akut dengan kemungkinan penyebab organik."
+          ],
+          "bold": true,
+          "source": "Modul asli + standar psikiatri"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Pemeriksaan penunjang WAJIB disebutkan",
+          "text": "Skrining zat, fungsi tiroid, dan konsultasi psikiater adalah pemeriksaan penunjang WAJIB disebutkan meski tidak tersedia di station — ini menunjukkan Anda berpikir klinis, bukan hanya menghafal gejala.",
+          "answer_evidence": "Modul asli + standar psikiatri"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Eksklusi penyebab organik sebelum menangani gangguan psikotik primer",
+          "text": "Panduan nasional Indonesia (PPDGJ III) dan internasional (APA, NICE, WFSBP) mengharuskan eksklusi penyebab organik sebelum menangani gangguan psikotik primer.",
+          "answer_evidence": "PPDGJ III; NICE Guidelines; APA Practice Guideline"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Dosis obat tidak dihafal mahasiswa",
+          "text": "Dosis dan rute pemberian antipsikotik tidak boleh dihafal mahasiswa; serahkan ke psikiater dan tim medis. Mahasiswa cukup sebutkan kelas obat dan indikasi umum.",
+          "answer_evidence": "Modul asli §D.3 + standar OSCE"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_psik_gaf_01",
+        "gls_psik_deescalation_01",
+        "gls_psik_multiaksial_01"
+      ],
+      "bilingual": "Pemeriksaan penunjang: lab (darah lengkap, tiroid, hati/ginjal, skrining zat urin), EKG, CT/MRI kepala (bila ada tanda fokal), MMSE, PANSS. Tatalaksana: de-eskalasi verbal → restraint → antipsikotik (kelas) → rujuk psikiater."
+    },
+    {
+      "id": "s08",
+      "title": "Edukasi & Dokumentasi SOAP",
+      "summary": "Poin edukasi keluarga yang WAJIB, safety net tanda bahaya, dan contoh SOAP lengkap untuk Tn. Z (Subjective, Objective, Assessment multiaksial, Plan).",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Edukasi keluarga pada gangguan jiwa merupakan komponen kritis yang sering dilupakan mahasiswa. Keluarga pasien dengan sindrom psikotik (seperti istri Tn. Z) biasanya datang dengan stigma, ketakutan, kemarahan, dan kebingungan — apakah ini 'kutukan', 'kurang iman', atau 'gila'? Tugas mahasiswa adalah memberikan edukasi yang jelas, empatik, non-stigmatis, dan actionable, tanpa mengarahkan diagnosis akhir (yang menjadi wewenang psikiater). Pada skenario Tn. Z, edukasi keluarga mencakup: (1) penjelasan tentang kondisi — bahwa gejala yang dialami adalah bagian dari gangguan jiwa yang bisa ditangani, bukan kesalahan keluarga atau pasien; (2) pentingnya kepatuhan obat — antipsikotik bekerja dengan mengontrol gejala, bukan 'membius'; (3) menghindari konfrontasi terhadap waham; (4) mengenali tanda eksaserbasi; (5) keamanan rumah — singkirkan benda tajam, senjata, bahan berbahaya; (6) peran keluarga sebagai support system — bukan sebagai 'penjaga tahanan' melainkan mitra terapi.",
+          "tone": "clinical",
+          "source": "§D.3 (modul asli) — rencana terapi + edukasi keluarga"
+        },
+        {
+          "text": "Dokumentasi SOAP (Subjective-Objective-Assessment-Plan) pada kasus psikiatri sedikit berbeda dari SOAP medis umum. Subjective mencakup keluhan pasien + alloanamnesis keluarga; Objective mencakup hasil MSE dan tanda vital; Assessment mencakup diagnosis kerja (multiaksial PPDGJ III) dan diagnosis banding; Plan mencakup pemeriksaan penunjang, tatalaksana awal, edukasi, dan rujukan.",
+          "tone": "clinical",
+          "source": "Standar dokumentasi SOAP + modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "POIN EDUKASI KELUARGA (WAJIB DIBERIKAN)",
+          "sub": [
+            "'Gejala yang dialami Pak [Tn. Z] adalah bagian dari gangguan jiwa yang bisa ditangani, bukan tanda kelemahan, kutukan, atau kurang iman.'",
+            "'Kondisi ini memengaruhi cara pikiran dan persepsi, sehingga yang Bapak rasakan/sampaikan terasa nyata bagi beliau, meskipun kami belum bisa memastikannya.'",
+            "'Penting untuk tidak berdebat dengan keyakinan/ketakutan beliau; validasi perasaannya (Saya paham Bapak merasa takut) dan alihkan ke hal yang lebih aman.'",
+            "'Hindari kata gila atau sakit jiwa — gunakan gangguan jiwa atau kondisi yang sedang Bapak alami.'",
+            "'Kepatuhan minum obat adalah kunci; obat mengontrol gejala, bukan membius atau menambah kecanduan.'",
+            "'Singkirkan benda tajam, senjata, bahan kimia, dan obat-obatan dari jangkauan untuk keamanan bersama.'",
+            "'Pantau tanda bahaya: tidur memburuk, makan/minum menurun, agresivitas meningkat, menolak obat, bicara membingungkan → kontrol segera ke RSJ.'",
+            "'Konsultasi rutin dengan psikiater adalah wajib; obat dan dosis akan disesuaikan bertahap.'"
+          ],
+          "bold": true,
+          "source": "Prinsip edukasi keluarga psikiatri; modul asli"
+        },
+        {
+          "text": "SAFETY NET — Kapan Kembali Segera ke IGD RSJ",
+          "sub": [
+            "Ide bunuh diri dengan rencana atau percobaan.",
+            "Mengamuk dengan kekerasan fisik terhadap keluarga atau orang lain.",
+            "Menolak makan/minum ≥2 hari atau dehidrasi berat.",
+            "Tidak tidur ≥3 hari berturut-turut (risiko exhaustion).",
+            "Kejang, penurunan kesadaran, atau gejala neurologis baru.",
+            "Percobaan bunuh diri atau perilaku self-harm."
+          ],
+          "bold": true,
+          "source": "Standar psikiatri emergensi"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Kode ICD-10/PPDGJ III untuk diagnosis kerja Tn. Z",
+          "text": "F20 (skizofrenia) sebagai diagnosis kerja awal, dengan F22 (gangguan waham) atau F23 (gangguan psikotik akut) sebagai diagnosis banding. Klasifikasi final menunggu konfirmasi psikiater.",
+          "answer_evidence": "PPDGJ III (1993); ICD-10 WHO"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Kalimat edukasi yang paling sering dilupakan",
+          "text": "'Kondisi ini bukan salah Bapak, bukan salah keluarga — ini gangguan yang bisa ditangani, dan kami akan menemaninya bersama.' (Empati + actionable.)",
+          "answer_evidence": "Prinsip komunikasi empatik psikiatri"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Edukasi keluarga berbasis komunikasi terapi singkat",
+          "text": "Edukasi keluarga berbasis komunikasi terapi singkat (brief intervention) terbukti meningkatkan kepatuhan obat dan menurunkan kekambuhan pada gangguan jiwa.",
+          "answer_evidence": "Chien et al. (2013). Family intervention for schizophrenia (Cochrane review)"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_psik_gangguan_jiwa_01",
+        "gls_psik_stigma_01",
+        "gls_psik_insight_01",
+        "gls_psik_multiaksial_01"
+      ],
+      "bilingual": "SOAP psikiatri Tn. Z: S = alloanamnesis istri (Tn. Z mengamuk, curiga, bicara sendiri, 1 tahun, memberat 2 bulan). O = MSE (kurang terawat, gelisah, waham curiga/kejar, insight rendah). A = sindrom psikotik F20, banding F22/F23/F1x.5/F00-F09. P = rawat inap, konsultasi psikiater, penunjang, edukasi keluarga."
+    },
+    {
+      "id": "s09",
+      "title": "SKDI 4A & Mini-Skrip Komunikasi",
+      "summary": "Pemetaan penyakit SKDI 4A yang relevan (Gangguan Somatoform, Insomnia, diagnosis banding neurologis) dan dialog lengkap wawancara psikiatri Tn. Z.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "SKDI (Standar Kompetensi Dokter Indonesia) 4A adalah level kemampuan yang harus dicapai dokter saat lulus — kemampuan untuk menegakkan diagnosis dan memberikan terapi awal pada penyakit-penyakit yang umum. Pada modul psikiatri ini, penyakit SKDI 4A yang relevan untuk station wawancara & MSE antara lain: Gangguan Somatoform (F45 — perlu diwawancarai dengan empati; keluhan fisik nyata bagi pasien, tetapi tidak cukup dijelaskan oleh penyakit organik; jangan menuduh pasien berpura-pura) dan Insomnia (G47.0 — wajib digali di hampir semua wawancara psikiatri: sulit mulai tidur, terbangun tengah malam, tidur tidak restoratif, penggunaan kafein/obat/zat, dan gangguan fungsi siang). Penyakit neurologi terkait yang juga relevan sebagai diagnosis banding organik: HIV/AIDS tanpa komplikasi, kejang, delirium, demensia (F00–F03, G30).",
+          "tone": "clinical",
+          "source": "SKDI 2012 + modul asli"
+        },
+        {
+          "text": "Mini-skrip dialog di bawah ini menggambarkan alur wawancara psikiatri yang ideal — bukan transkrip verbatim, melainkan panduan yang bisa diikuti mahasiswa saat OSCE. Dialog ini bisa dimodifikasi sesuai gaya masing-masing, yang penting adalah alur dan kontennya. Perhatikan penggunaan kalimat terbuka, validasi emosi, dan penilaian risiko yang tidak menghakimi. Pada pasien curiga dan gaduh (seperti Tn. Z), kalimat pendek dan tenang lebih efektif daripada kalimat panjang dan argumentatif.",
+          "tone": "narrative",
+          "source": "Modul asli + standar komunikasi klinis"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "Catatan Khusus Komunikasi untuk Topik Ini",
+          "sub": [
+            "Kalimat pendek, tenang, tidak menghakimi.",
+            "Validasi perasaan, bukan辩论 isi waham.",
+            "Penilaian risiko ditanyakan langsung dengan empati.",
+            "Beri waktu pada pasien untuk menjawab (jangan buru-buru).",
+            "Alloanamnesis keluarga untuk melengkapi informasi objektif.",
+            "Bahasa non-stigmatis: 'gangguan jiwa', 'kondisi yang Bapak alami', bukan 'gila'."
+          ],
+          "bold": true,
+          "source": "Prinsip komunikasi klinis psikiatri"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Kalimat yang TIDAK BOLEH dilewatkan",
+          "text": "'Apakah Bapak pernah berpikir untuk mengakhiri hidup?' dan 'Apakah ada senjata atau benda tajam di rumah?' — tanpa dua pertanyaan ini, Anda gagal menilai risiko yang mengancam jiwa.",
+          "answer_evidence": "Standar psikiatri; risk assessment"
+        },
+        {
+          "tone": "pearl",
+          "icon": "💡",
+          "title": "Cara membuka station paling efektif",
+          "text": "'Selamat pagi, Pak [Tn. Z]. Saya dokter [nama]. Sebelum kita mulai, boleh saya jelaskan dulu aturan wawancara kita? Bapak boleh berhenti kapan saja, dan semua yang Bapak ceritakan akan saya jaga kerahasiaannya. Boleh saya mulai dengan menanyakan identitas Bapak?'",
+          "answer_evidence": "Modul asli §E + standar informed consent"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_psik_alloanamnesis_01",
+        "gls_psik_insight_01",
+        "gls_psik_stigma_01",
+        "gls_psik_deescalation_01"
+      ],
+      "bilingual": "SKDI 4A psikiatri: Gangguan Somatoform (F45), Insomnia (G47.0). Diagnosis banding neurologis: HIV/AIDS, kejang, delirium, demensia. Mini-skrip: salam → identitas → keluhan → RPS → gejala inti → risiko (WAJIB) → RPD → riwayat → MSE → rangkum & rencana."
+    },
+    {
+      "id": "s10",
+      "title": "Latihan Mandiri & Persiapan Ujian",
+      "summary": "Checklist latihan 20 item, rencana belajar 3 hari (pra-sesi, pertemuan 2, latihan mandiri), dan kesalahan fatal yang wajib dihindari di OSCE psikiatri.",
+      "estimated_time_minutes": 10,
+      "content": [
+        {
+          "text": "Mahasiswa yang sukses di station OSCE psikiatri bukan yang menghafal paling banyak, melainkan yang latihan paling sering dan paling sadar akan kesalahan fatal. Modul asli menggunakan format praktikum 3 sesi: (1) sesi terbimbing dengan tutor, (2) feedback/evaluasi, (3) ujian OSCE. Kriteria 'siap OSCE' dapat diukur dari: (1) mampu melakukan autoanamnesis singkat 5 menit + alloanamnesis 5 menit tanpa terbata-bata, (2) mampu menyebutkan minimal 8 domain MSE tanpa lupa, (3) mampu menuliskan diagnosis kerja + diagnosis banding + diagnosis multiaksial Aksis I–V dalam 2 menit, (4) mampu menutup wawancara dengan edukasi singkat dan ucapan terima kasih, (5) tidak pernah lupa menanyakan risiko bunuh diri dan kekerasan. Jika 5 kriteria ini terpenuhi, mahasiswa siap menghadapi variasi skenario yang berbeda.",
+          "tone": "narrative",
+          "source": "§B Rencana Pembelajaran (modul asli) — pra-sesi + pertemuan 2"
+        },
+        {
+          "text": "Latihan terbaik adalah simulasi berpasangan (mahasiswa berperan sebagai dokter dan pasien/keluarga) dengan计时. Gunakan teman atau rekam video untuk evaluasi diri. Workplan wajib (modul asli §B.1b) — mahasiswa harus menyiapkan penjelasan dari tiap kata yang terdapat dalam status psikiatri sebelum mengikuti skills lab.",
+          "tone": "note",
+          "source": "Modul asli §B.1b — workplan penjelasan"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "CHECKLIST LATIHAN MANDIRI (20 ITEM — Ditingkatkan dari 16 Aspek MSE Modul Asli)",
+          "sub": [
+            "Mampu melakukan salam, perkenalan, informed consent — TINGGI",
+            "Mampu menanyakan data pribadi (identitas 8 poin) dalam 1 menit — TINGGI",
+            "Mampu membuka keluhan utama dengan pertanyaan terbuka — TINGGI",
+            "Mampu menggali RPS (onset, durasi, progresivitas, faktor presipitasi) — TINGGI",
+            "Mampu menggali RPD (psikiatri, medik, penggunaan zat/alkohol/NAPZA) — TINGGI",
+            "Mampu menggali riwayat keluarga gangguan jiwa — SEDANG",
+            "Mampu menggali riwayat hidup 6 fase (prenatal, kanak, remaja, dewasa, psikoseksual, nilai) — SEDANG",
+            "Mampu mengeksplorasi gejala psikotik (waham, halusinasi) — TINGGI",
+            "Mampu menanyakan ide bunuh diri dengan kalimat yang aman — TINGGI [FATAL]",
+            "Mampu menanyakan akses senjata/benda tajam — TINGGI [FATAL]",
+            "Mampu menanyakan ide menyakiti orang lain — TINGGI [FATAL]",
+            "Mampu melakukan MSE 9 domain — TINGGI",
+            "Mampu menyebutkan diagnosis kerja + 5 diagnosis banding (10 klasifikasi PPDGJ III) — TINGGI",
+            "Mampu menyusun diagnosis multiaksial Aksis I–V (PPDGJ III) — TINGGI",
+            "Mampu memberikan edukasi keluarga singkat dengan bahasa non-stigmatis — TINGGI",
+            "Mampu menutup wawancara dengan rangkuman dan ucapan terima kasih — TINGGI",
+            "Mampu menulis SOAP dalam 5 menit — SEDANG",
+            "Mampu menyebutkan kode ICD-10/Fxx untuk diagnosis utama — SEDANG",
+            "Mampu menyebutkan SKDI 4A yang relevan (somatoform, insomnia) — SEDANG",
+            "Mampu menyebutkan kapan harus merujuk segera (rawat inap, konsultasi psikiatri) — TINGGI"
+          ],
+          "bold": true,
+          "source": "Modul asli + standar OSCE"
+        },
+        {
+          "text": "RENCANA BELAJAR 3 HARI (Mengikuti Pola Modul Asli)",
+          "sub": [
+            "Hari 1 (Pra-sesi): Target: Pahami 5 jenis pemeriksaan + alur diagnosis + PPDGJ III | Durasi: 3–4 jam | Aktivitas: Baca modul 2x, buat workplan penjelasan tiap kata dalam status psikiatri, hafal alur diagnosis multiaksial | Kriteria: Mampu menjelaskan setiap kata di status psikiatri & 5 aksis PPDGJ III tanpa catatan.",
+            "Hari 2 (Pertemuan 2 skills lab): Target: Latihan alloanamnesis + autoanamnesis + MSE + workplan | Durasi: 4–5 jam | Aktivitas: Tatap muka dengan fasilitator Sp.KJ, simulasikan skenario Tn. Z, presentasi workplan, diskusi kasus, feedback | Kriteria: Mampu melakukan 10 menit wawancara + MSE + diagnosis multiaksial tanpa lupa risiko.",
+            "Hari 3 (Latihan mandiri + simulasi): Target: Latihan pelaporan + SOAP + simulasi full | Durasi: 3–4 jam | Aktivitas: Simulasi full station 15 menit (semua aspek), latihan pelaporan 3 menit ke penguji, review kesalahan fatal, rekam video evaluasi | Kriteria: Mampu melalui station penuh dengan ≥80% checklist + pengisi status psikiatri lengkap."
+          ],
+          "bold": true,
+          "source": "§B Rencana Pembelajaran (modul asli)"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak menanyakan ide bunuh diri",
+          "text": "Kesalahan paling fatal di OSCE psikiatri; pasien bisa pulang dan melakukan bunuh diri malam itu juga.",
+          "answer_evidence": "Standar psikiatri; modul asli"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Tidak menanyakan akses senjata/benda tajam",
+          "text": "Pada Tn. Z dengan riwayat mengamuk, ini bisa berakibat fatal bagi keluarga.",
+          "answer_evidence": "Standar psikiatri; keselamatan keluarga"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Bahasa stigmatis dalam wawancara",
+          "text": "Mendiagnosis 'gila' atau menggunakan bahasa stigmatis dalam wawancara — kehilangan rapport, keluarga tidak kooperatif, dan Anda gagal menunjukkan profesionalisme.",
+          "answer_evidence": "Prinsip bahasa non-stigmatis"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Konfrontasi langsung terhadap waham",
+          "text": "Pasien merasa tidak dipahami, risiko agresivitas meningkat.",
+          "answer_evidence": "Prinsip de-eskalasi; validasi"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Memasuki fase pelaksanaan tanpa informed consent",
+          "text": "Pasien menutup diri, kehilangan rapport, kehilangan nilai.",
+          "answer_evidence": "Standar informed consent; modul asli"
+        },
+        {
+          "tone": "danger",
+          "icon": "🚨",
+          "title": "[FATAL] Lupa fase evaluasi (rangkuman & rencana)",
+          "text": "Penguji tidak tahu Anda听懂 apa, kehilangan poin sintesis.",
+          "answer_evidence": "Standar OSCE"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Lupa menanyakan penggunaan zat/alkohol/NAPZA",
+          "text": "Diagnosis jadi kabur, risiko salah ke arah psikotik primer padahal intoksikasi.",
+          "answer_evidence": "Prinsip eksklusi penyebab zat"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Terlalu cepat menyimpulkan waham sebagai 'khayalan'",
+          "text": "Pada gangguan psikotik, waham adalah realitas subjektif pasien yang harus divalidasi perasaannya tanpa mengiyakan isinya.",
+          "answer_evidence": "Prinsip komunikasi terapeutik"
+        },
+        {
+          "tone": "caution",
+          "icon": "⚠️",
+          "title": "Memaksa tes kognisi pada pasien curiga dan gaduh",
+          "text": "Menurunkan trust dan tidak menambah nilai diagnosis pada level mahasiswa.",
+          "answer_evidence": "Prinsip rapport dan de-eskalasi"
+        }
+      ],
+      "visual_refs": [],
+      "glossary_refs": [
+        "gls_psik_stigma_01",
+        "gls_psik_mse_01",
+        "gls_psik_multiaksial_01",
+        "gls_psik_deescalation_01"
+      ],
+      "bilingual": "Kriteria 'siap OSCE': (1) autoanamnesis 5 mnt + alloanamnesis 5 mnt, (2) 8–9 domain MSE, (3) diagnosis kerja + banding + multiaksial dalam 2 mnt, (4) tutup dengan edukasi, (5) TIDAK PERNAH lupa tanya risiko bunuh diri/kekerasan. Latihan: simulasi berpasangan dengan计时, rekam video, workplan tiap kata status psikiatri."
+    },
+    {
+      "id": "s11",
+      "title": "Visual, Lampiran & Referensi",
+      "summary": "Visual yang disarankan (4 item: alur 5 jenis pemeriksaan, MSE 9 domain, multiaksial PPDGJ III, 10 klasifikasi), lampiran A–F (Red Flags, Masalah & Respons, Mini-Case, Kalimat Pembuka, Status Neurologi, Status Psikiatri), dan referensi lengkap.",
+      "estimated_time_minutes": 5,
+      "content": [
+        {
+          "text": "Visual yang efektif untuk modul psikiatri harus menghindari citra stigmatis (misalnya ilustrasi orang dengan wajah marah, tangan terikat, atau gambar yang menyeramkan). Sebaliknya, visual yang baik menampilkan situasi klinis yang tenang, profesional, dan penuh empati — dokter muda berbicara dengan pasien dan keluarga di ruangan yang aman, keluarga mendampingi, atau infografik yang menunjukkan alur. Bahasa Indonesia digunakan pada label agar langsung bisa dipakai mahasiswa. Pada konteks edukasi modern, visual yang bersih dan berwarna netral (biru, putih, hijau lembut) lebih dipercaya daripada visual dramatis.",
+          "tone": "narrative",
+          "source": "Prinsip visualisasi klinis non-stigmatis"
+        },
+        {
+          "text": "Lampiran A (Kontraindikasi & Red Flags) memuat tanda-tanda yang membutuhkan intervensi segera. Lampiran B (Masalah & Respons) memuat respons klinis yang aman terhadap situasi sulit dalam wawancara, seperti pasien diam, pasien menangis, pasien marah, atau pasien bertanya diagnosis. Lampiran C (Mini-Case) memberikan 3 skenario latihan dengan tingkat kesulitan berbeda (termasuk skenario Tn. Z sendiri). Lampiran D (Kalimat Pembuka Station) memberikan 6 kalimat siap ucap yang bisa dipilih mahasiswa saat masuk station. Lampiran E (Lampiran Status Neurologi) dan Lampiran F (Lampiran Status Psikiatri) merupakan form rekam medis verbatim dari modul asli.",
+          "tone": "narrative",
+          "source": "Lampiran A–F modul asli"
+        }
+      ],
+      "bullets": [
+        {
+          "text": "VISUAL YANG DISARANKAN (4 ITEM)",
+          "sub": [
+            "Visual 1 — Alur 5 jenis pemeriksaan psikiatri: Infografik alur alloanamnesis → autoanamnesis → pemeriksaan fisik → pemeriksaan khusus psikiatri → pemeriksaan tambahan (MMSE/lab/radiologi), warna biru-hijau lembut.",
+            "Visual 2 — 9 Domain MSE: Poster A4 'Pemeriksaan Status Mental 9 Domain' (gambaran umum, mood/afek, bicara, persepsi, pikiran, sensorium/kognitif, impuls, insight, reliabilitas), desain klinis biru-putih.",
+            "Visual 3 — Diagnosis Multiaksial PPDGJ III: Infografik 5 lapis (Aksis I–V) dengan contoh untuk kasus Tn. Z, format Wheel of Function, warna akademis.",
+            "Visual 4 — 10 Klasifikasi PPDGJ III: Diagram pohon dengan 10 cabang klasifikasi gangguan jiwa, kode Fxx, bahasa Indonesia, label jelas."
+          ],
+          "bold": true,
+          "source": "§S11 Visual References (modul asli)"
+        },
+        {
+          "text": "LAMPIRAN A — Kontraindikasi & Red Flags",
+          "sub": [
+            "Ide bunuh diri dengan rencana → rawat inap psikiatri segera, pengawasan 1:1, singkirkan alat.",
+            "Ide menyakiti orang lain dengan akses senjata → rawat inap, isolasi senjata, libatkan polisi/keluarga.",
+            "Mengamuk dengan kekerasan fisik → physical restraint sesuai protokol, antipsikotik darurat (haloperidol + lorazepam IM), konsultasi psikiater.",
+            "Menolak makan/minum ≥2 hari → dehidrasi, rawat inap, koreksi hidrasi, parenteral feeding jika perlu.",
+            "Tidur tidak lebih dari beberapa jam selama ≥3 hari → risiko exhaustion, rawat inap, evaluasi psikiater.",
+            "Disorganisasi berat (tidak bisa rawat diri) → rawat inap, perawatan dasar, supervisi.",
+            "Kejang atau penurunan kesadaran → eksklusi penyebab organik (CT kepala, EEG, lab), rawat inap neurologi."
+          ],
+          "bold": true,
+          "source": "Standar psikiatri emergensi + modul asli"
+        },
+        {
+          "text": "LAMPIRAN B — Masalah & Respons",
+          "sub": [
+            "Pasien diam/menolak bicara → Beri waktu, jangan paksa. Tawarkan air. Tanyakan pertanyaan sederhana: 'Apakah Bapak lebih nyaman menulis?'. Validasi: 'Saya paham ini sulit'.",
+            "Pasien menangis → Berhenti bertanya, beri tisu, sentuh bahu (bila budaya sesuai), tunggu sampai tenang. 'Saya di sini, Bapak tidak sendirian.'",
+            "Pasien marah/hostile → Suara rendah, kalimat pendek, 'Saya paham Bapak marah. Saya di sini untuk membantu.' Jangan berdebat. Posisikan diri dekat pintu.",
+            "Pasien bertanya diagnosis → 'Saya melihat Bapak sedang dalam kondisi yang perlu kami evaluasi lebih lanjut. Saya akan berkonsultasi dengan psikiater untuk diagnosis yang tepat.' (Jangan berikan diagnosis final di level mahasiswa.)",
+            "Pasien membawa banyak keluarga → Sambut satu juru bicara, minta keluarga lain menunggu di luar. 'Supaya saya bisa fokus, boleh kita bicara berdua dulu?'",
+            "Alloanamnesis tidak bisa karena keluarga tidak kooperatif → Bersabar, jelaskan tujuan, tawarkan kesempatan berbicara dengan psikiater."
+          ],
+          "bold": true,
+          "source": "Prinsip komunikasi klinis psikiatri + modul asli"
+        },
+        {
+          "text": "LAMPIRAN C — OSCE Mini-Case (3 Skenario)",
+          "sub": [
+            "Skenario Mudah (Ny. Ratna, 28 tahun, insomnia + mood depresi pascacerai, tidak ada ide bunuh diri): Fokus anamnesis mood, tidur, dan fungsi. Diagnosis: Insomnia + Gangguan Depresi Mayor ringan. Kunci: Skrining risiko tetap dilakukan meski pasien 'tampak biasa'.",
+            "Skenario Sedang (Tn. Agus, 35 tahun, tidak tidur, banyak bicara, merasa punya kekuatan luar biasa, boros): Fokus anamnesis mood manik + risiko keuangan. Diagnosis banding: Gangguan Bipolar episode manik. Kunci: Alloanamnesis penting untuk konfirmasi perubahan perilaku.",
+            "Skenario Sulit (Tn. Z, 27 tahun, psikotik agresif): Fokus keselamatan, alloanamnesis keluarga, MSE, dan rujukan. Diagnosis kerja: Sindrom psikotik. Kunci: De-eskalasi verbal, penilaian risiko kekerasan/bunuh diri, bahasa non-stigmatis, edukasi keluarga."
+          ],
+          "bold": true,
+          "source": "Modul asli + variasi klinis"
+        },
+        {
+          "text": "LAMPIRAN D — Kalimat Pembuka Station (6 KALIMAT SIAP UCAP)",
+          "sub": [
+            "1. 'Selamat pagi, Pak [Tn. Z]. Saya dokter [nama], yang akan membantu pemeriksaan hari ini di RSJ Jambi. Boleh saya duduk di sini?'",
+            "2. 'Sebelum kita mulai, saya jelaskan dulu aturan wawancara kita. Bapak boleh berhenti kapan saja, dan semua yang Bapak ceritakan akan saya jaga kerahasiaannya.'",
+            "3. 'Saya akan bertanya beberapa hal tentang keluhan Bapak dan keluarga. Ada yang ingin Bapak tanyakan dulu sebelum kita mulai?'",
+            "4. 'Saya melihat Bapak terlihat gelisah. Saya paham ini situasi yang tidak mudah. Saya di sini untuk membantu.'",
+            "5. 'Boleh saya mulai dengan menanyakan identitas Bapak? Siapa nama lengkap, umur, pekerjaan, status perkawinan?'",
+            "6. 'Apa yang paling mengganggu Bapak akhir-akhir ini?'"
+          ],
+          "bold": true,
+          "source": "Modul asli §E + standar komunikasi klinis"
+        }
+      ],
+      "callouts": [
+        {
+          "tone": "note",
+          "icon": "📌",
+          "title": "Prompt AI untuk membuat visual",
+          "text": "Infografik alur 5 jenis pemeriksaan psikiatri (alloanamnesis, autoanamnesis, pemeriksaan langsung fisik, pemeriksaan khusus psikiatri, pemeriksaan tambahan MMSE), format flowchart dengan ikon warna biru-hijau lembut, bahasa Indonesia, gaya edukasi kedokteran modern, komposisi bersih dan profesional, ukuran A4.",
+          "answer_evidence": "Modul asli §S11"
+        },
+        {
+          "tone": "evidence",
+          "icon": "📊",
+          "title": "Panduan referensi utama",
+          "text": "PPDGJ III (1993, masih berlaku di Indonesia), ICD-10 WHO, DSM-5-TR (APA, 2022), Modul Keterampilan Klinis VI FKIK Universitas Jambi (6E Neuro & 6F Psikiatri).",
+          "answer_evidence": "PPDGJ III; ICD-10 WHO; DSM-5-TR; Modul Keterampilan Klinis VI FKIK Universitas Jambi"
+        }
+      ],
+      "visual_refs": [
+        "visual_psik_wawancara_alur_01",
+        "visual_psik_mse_9domain_01",
+        "visual_psik_multiaksial_ppdgj_01",
+        "visual_psik_10klasifikasi_01"
+      ],
+      "glossary_refs": [
+        "gls_psik_deescalation_01",
+        "gls_psik_ppdgj_01",
+        "gls_psik_mse_01",
+        "gls_psik_multiaksial_01"
+      ],
+      "bilingual": "REFERENSI LENGKAP: (1) PPDGJ III (1993); (2) Modul Keterampilan Klinis VI FKIK Universitas Jambi (2024/2025); (3) Kaplan & Sadock's Synopsis of Psychiatry; (4) NICE Guidelines for Psychosis (2014, update 2023); (5) APA Practice Guideline (2020); (6) DSM-5-TR (2022); (7) SKDI 2012; (8) Chien et al. (2013) Cochrane review on family intervention."
+    }
+  ]
+}
