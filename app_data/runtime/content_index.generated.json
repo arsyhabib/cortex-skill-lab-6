@@ -348,7 +348,8 @@
           "sectionCount": 11,
           "wordCount": 5631
         }
-      ]
+      ],
+      "title": "Domain 1 — Obstetri & Ginekologi"
     },
     {
       "id": "pediatri_skill",
@@ -405,7 +406,8 @@
           "sectionCount": 11,
           "wordCount": 2445
         }
-      ]
+      ],
+      "title": "Domain 2 — Ilmu Kesehatan Anak"
     },
     {
       "id": "geriatri_skill",
@@ -462,7 +464,8 @@
           "sectionCount": 11,
           "wordCount": 1747
         }
-      ]
+      ],
+      "title": "Domain 2 — Geriatri"
     },
     {
       "id": "neuro_skill",
@@ -694,7 +697,8 @@
           "sectionCount": 11,
           "wordCount": 3847
         }
-      ]
+      ],
+      "title": "Domain 3 — Neurologi"
     },
     {
       "id": "psikiatri_skill",
@@ -728,7 +732,8 @@
           "sectionCount": 11,
           "wordCount": 2572
         }
-      ]
+      ],
+      "title": "Domain 3 — Psikiatri"
     },
     {
       "id": "osce_skenario",
@@ -1035,7 +1040,8 @@
           "sectionCount": 11,
           "wordCount": 1808
         }
-      ]
+      ],
+      "title": "Domain 4 — OSCE Skenario"
     }
   ],
   "examSetCount": 0,

@@ -3525,7 +3525,8 @@
       .cortex-library-topbar {
         padding-left: 12px !important;
         padding-right: 12px !important;
-        gap: 8px;
+        gap: 6px !important;
+        padding-bottom: 8px !important;
       }
 
       .cortex-library-topbar .cortex-wallpaper-toggle {
@@ -3541,6 +3542,25 @@
       .cortex-library-topbar .b1-button,
       .cortex-library-topbar .b1-card {
         white-space: nowrap;
+      }
+
+      /* ── Module/page topbar (B1Topbar via B2PageShell): thinner on iPhone ─ */
+      /* B1Topbar renders as first-child of .cortex-page-shell.               */
+      /* Original: padding calc(6px + safe-area-inset-top) 18px 8px → too    */
+      /* tall on iPhone 16 (safe-area ≈ 59px → 73px+ of padding alone).      */
+      .cortex-page-shell > div:first-child {
+        padding-top: env(safe-area-inset-top) !important;
+        padding-bottom: 5px !important;
+        min-height: 32px !important;
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+      }
+
+      /* Subtitle inside topbar: smaller on iPhone to reclaim height */
+      .cortex-page-shell > div:first-child > div:nth-child(2) > div:nth-child(2) {
+        font-size: 9px !important;
+        margin-top: 0 !important;
+        opacity: 0.7;
       }
 
       .b1-card {
@@ -4979,7 +4999,7 @@
 
   <script src="./cortex-app.js?v=2026-06-15-0050" onerror="document.title='ERR:CortexApp'" ></script>
 
-  <script src="./ai_workspace.local.js?v=20260607a"
+  <script src="./ai_workspace.local.js?v=20260615b"
     onerror="window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};"></script>
   <script>
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {

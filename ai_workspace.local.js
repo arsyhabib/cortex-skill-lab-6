@@ -164,3 +164,106 @@ window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
     setTimeout(patchAll, t);
   });
 })();
+
+// ─── AI Workspace Tab Scroll Fix ─────────────────────────────────────────────
+// Root cause: iOS Safari sometimes loses scroll-ability on a container after
+// React re-renders swap its content (tab switch: assistant → visual → audio).
+// The container keeps overflow:auto but iOS treats it as non-scrollable because
+// the compositing layer is stale.
+//
+// Fix: When the AI workspace scroll container changes (tab switch detected via
+// MutationObserver watching class changes), force a repaint cycle that makes
+// iOS re-composite the scroll layer:
+//   1. Temporarily remove overflowY so iOS drops the scroll layer.
+//   2. One rAF later, restore overflowY:'auto' with !important and call
+//      scrollTop = scrollTop to force a scroll-context rebuild.
+//   3. Also ensure -webkit-overflow-scrolling and touch-action are set.
+// ─────────────────────────────────────────────────────────────────────────────
+(function patchAIWorkspaceTabScroll() {
+  'use strict';
+
+  var WORKSPACE_SELECTOR = '[data-screen-label="P20-AIWorkspace"] .cortex-page-scroll';
+  var lastClassName = '';
+  var fixScheduled = false;
+
+  function forceScrollReset(el) {
+    if (!el) return;
+    // Step 1: remove overflow so iOS releases the stale scroll layer
+    el.style.setProperty('overflow-y', 'hidden', 'important');
+    el.style.setProperty('-webkit-overflow-scrolling', 'touch', 'important');
+    el.style.setProperty('touch-action', 'pan-y', 'important');
+
+    requestAnimationFrame(function () {
+      // Step 2: restore scrollability in the next paint frame
+      el.style.removeProperty('overflow-y');
+      el.style.setProperty('overflow-y', 'auto', 'important');
+      // Step 3: nudge scrollTop to force iOS scroll-context rebuild
+      var prev = el.scrollTop;
+      el.scrollTop = prev + 1;
+      el.scrollTop = prev;
+    });
+  }
+
+  function checkAndFix() {
+    if (fixScheduled) return;
+    fixScheduled = true;
+    requestAnimationFrame(function () {
+      fixScheduled = false;
+      var el = document.querySelector(WORKSPACE_SELECTOR);
+      if (!el) return;
+
+      var currentClass = el.className || '';
+      if (currentClass !== lastClassName) {
+        // Class changed → tab switched → repair scroll
+        lastClassName = currentClass;
+        forceScrollReset(el);
+      }
+
+      // Always ensure touch scrolling attributes on non-chat surfaces
+      // (chat surface manages its own layout with overflow:hidden)
+      if (!currentClass.includes('cortex-ai-chat-active')) {
+        el.style.setProperty('-webkit-overflow-scrolling', 'touch', 'important');
+        el.style.setProperty('touch-action', 'pan-y', 'important');
+        // Ensure overflowY is auto if it was hidden (e.g. from chat surface CSS)
+        var computed = window.getComputedStyle(el);
+        if (computed.overflowY === 'hidden' && !el.classList.contains('cortex-ai-chat-active')) {
+          el.style.setProperty('overflow-y', 'auto', 'important');
+        }
+      }
+    });
+  }
+
+  function startScrollWatcher() {
+    var mo = new MutationObserver(function (mutations) {
+      for (var i = 0; i < mutations.length; i++) {
+        var t = mutations[i].target;
+        if (t && t.matches && t.matches(WORKSPACE_SELECTOR)) {
+          checkAndFix();
+          return;
+        }
+        // Also trigger on any child mutations inside the workspace screen
+        if (t && t.closest && t.closest('[data-screen-label="P20-AIWorkspace"]')) {
+          checkAndFix();
+          return;
+        }
+      }
+    });
+
+    mo.observe(document.body, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ['class', 'style'],
+    });
+
+    // Run immediately and at startup intervals
+    checkAndFix();
+    [300, 800, 1500].forEach(function (t) { setTimeout(checkAndFix, t); });
+  }
+
+  if (document.body) {
+    startScrollWatcher();
+  } else {
+    document.addEventListener('DOMContentLoaded', startScrollWatcher);
+  }
+})();
