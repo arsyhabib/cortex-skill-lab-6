@@ -5,15 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>CORTEX Studio</title>
-  <script>
-    if ('caches' in window) {
-      caches.keys().then(function(names) {
-        names.forEach(function(name) {
-          if (name !== 'cortex-shell-launch-v2') caches.delete(name);
-        });
-      });
-    }
-  </script>
+
   <link rel="icon" type="image/svg+xml" sizes="any" href="./assets/pwa/cortex-icon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/pwa/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/pwa/apple-touch-icon.png">
@@ -4521,6 +4513,152 @@
       visibility: visible;
       animation: slide-up 0.2s ease both;
     }
+
+    /* ── High-Performance & Reduced Motion overrides ── */
+    .cortex-reduced-motion {
+      --cortex-theme-blur: 0px !important;
+      --cortex-tilt-x: 0 !important;
+      --cortex-tilt-y: 0 !important;
+      --cortex-depth-x: 0px !important;
+      --cortex-depth-y: 0px !important;
+      --cortex-wallpaper-shift-x: 0px !important;
+      --cortex-wallpaper-shift-y: 0px !important;
+      --cortex-card-tilt-x: 0deg !important;
+      --cortex-card-tilt-y: 0deg !important;
+      --cortex-card-shift-x: 0px !important;
+      --cortex-card-shift-y: 0px !important;
+      --cortex-button-tilt-x: 0deg !important;
+      --cortex-button-tilt-y: 0deg !important;
+      --cortex-button-shift-x: 0px !important;
+      --cortex-button-shift-y: 0px !important;
+    }
+
+    .cortex-reduced-motion *,
+    .cortex-reduced-motion *::after,
+    .cortex-reduced-motion *::before {
+      backdrop-filter: none !important;
+      -webkit-backdrop-filter: none !important;
+    }
+
+    .cortex-reduced-motion .cortex-motion-page>*,
+    .cortex-reduced-motion .cortex-motion-card,
+    .cortex-reduced-motion button {
+      animation-name: buttery-pop-optimized !important;
+      animation-duration: 0.22s !important;
+      animation-delay: 0s !important;
+      animation-fill-mode: both !important;
+      animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1) !important;
+    }
+
+    @keyframes buttery-pop-optimized {
+      0% {
+        opacity: 0;
+        transform: translateY(12px) scale(0.97);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .cortex-reduced-motion .cortex-library-content.cortex-page-enter-forward,
+    .cortex-reduced-motion .cortex-library-content.cortex-page-enter-back {
+      animation-duration: 0.22s !important;
+      animation-name: cortex-page-enter-optimized !important;
+      animation-delay: 0s !important;
+    }
+
+    @keyframes cortex-page-enter-optimized {
+      0% {
+        opacity: 0;
+        transform: translate3d(12px, 0, 0);
+      }
+      100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    .cortex-reduced-motion .cortex-wallpaper-layer,
+    .cortex-reduced-motion .cortex-theme-bubble-orb,
+    .cortex-reduced-motion .cortex-live-ribbon,
+    .cortex-reduced-motion [class*="float"],
+    .cortex-reduced-motion [class*="shimmer"],
+    .cortex-reduced-motion [style*="animation"] {
+      animation: none !important;
+      transform: none !important;
+    }
+
+    .cx-md mark {
+      background: rgba(245, 158, 11, 0.22);
+      color: #fbbf24;
+      border-bottom: 1.5px solid rgba(245, 158, 11, 0.45);
+      padding: 0 4px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .cx-md u {
+      text-decoration: underline;
+      text-decoration-style: solid;
+      text-decoration-color: rgba(192, 132, 252, 0.45);
+      text-underline-offset: 3px;
+    }
+
+    .cx-md sup {
+      font-size: 0.72em;
+      vertical-align: super;
+      line-height: 0;
+      color: #c084fc;
+      font-weight: 600;
+      position: relative;
+      top: -0.2em;
+    }
+
+    .cx-md sub {
+      font-size: 0.72em;
+      vertical-align: sub;
+      line-height: 0;
+      color: #c084fc;
+      font-weight: 600;
+      position: relative;
+      bottom: -0.2em;
+    }
+
+    /* Monochrome specific styles for visibility */
+    .cortex-library-root[data-theme-id="monochrome"] .cortex-chat-bubble {
+      color: #111111 !important;
+    }
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user strong,
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user b {
+      color: #000000 !important;
+    }
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user em,
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user i {
+      color: #222222 !important;
+    }
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user code {
+      background: rgba(0, 0, 0, 0.08) !important;
+      color: #111111 !important;
+      border-color: rgba(0, 0, 0, 0.15) !important;
+    }
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user .cx-md-inline-code {
+      background: rgba(0, 0, 0, 0.08) !important;
+      color: #111111 !important;
+    }
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user a {
+      color: #111111 !important;
+      text-decoration-color: rgba(0, 0, 0, 0.45) !important;
+    }
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user .cx-md-table thead th {
+      background: linear-gradient(180deg, rgba(160, 160, 160, 0.22), rgba(80, 80, 80, 0.18)) !important;
+      color: #111111 !important;
+    }
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user .cx-md-table th,
+    .cortex-library-root[data-theme-id="monochrome"] .cx-md-user .cx-md-table td {
+      border-bottom-color: rgba(0, 0, 0, 0.15) !important;
+      color: #222222 !important;
+    }
   </style>
 
   <script src="./assets/vendor/react.min.js" onerror="document.title='ERR:React'"></script>
@@ -4833,7 +4971,7 @@
   </script>
 
 
-  <script src="./cortex-app.js?v=2026-06-15-0040" onerror="document.title='ERR:CortexApp'" ></script>
+  <script src="./cortex-app.js?v=2026-06-15-0050" onerror="document.title='ERR:CortexApp'" ></script>
 
   <script src="./ai_workspace.local.js?v=20260607a"
     onerror="window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};"></script>
