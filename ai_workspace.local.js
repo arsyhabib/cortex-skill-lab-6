@@ -5,25 +5,27 @@ window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
 // The app defaults to reducedMotion=true on ALL mobile devices (UA check).
 // iPhone/iPad have high-performance A-series GPUs that handle animations fine.
 // Fix: before React initialises the state, write '0' to localStorage for iOS
-// devices (unless the OS prefers-reduced-motion system setting is active, or
-// the user already made an explicit choice).
+// unless the OS prefers-reduced-motion is active OR the USER has explicitly
+// toggled the Settings switch (tracked via cortex.reducedMotionUserChoice key).
 // ─────────────────────────────────────────────────────────────────────────────
 (function autoPerformanceMode() {
   'use strict';
-  var stored = null;
-  try { stored = window.localStorage && window.localStorage.getItem('cortex.reducedMotion'); } catch (e) {}
-  if (stored !== null) return; // user already made an explicit choice — respect it
-
   var ua = (navigator.userAgent || '').toLowerCase();
   var isIOS = /iphone|ipad|ipod/.test(ua);
-  var prefersReduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  if (!isIOS) return; // only override for iOS — other mobiles keep the app default
 
+  var prefersReduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   if (prefersReduced) return; // OS-level accessibility setting → let app honour it
 
-  if (isIOS) {
-    // iPhone/iPad: capable GPU, user hasn't opted-in to reduced motion → full animations
-    try { window.localStorage && window.localStorage.setItem('cortex.reducedMotion', '0'); } catch (e) {}
-  }
+  // Respect only EXPLICIT user choice made via the Settings toggle.
+  // Ignore the value written by the app's own useEffect (which overwrites
+  // 'cortex.reducedMotion' every render — that is NOT a user choice).
+  var userChoice = null;
+  try { userChoice = window.localStorage && window.localStorage.getItem('cortex.reducedMotionUserChoice'); } catch (e) {}
+  if (userChoice !== null) return; // user explicitly toggled in Settings → respect it
+
+  // iPhone/iPad: capable GPU, no explicit user choice → enable full animations
+  try { window.localStorage && window.localStorage.setItem('cortex.reducedMotion', '0'); } catch (e) {}
 })();
 
 // ─── Source Atlas Viewer — Full Container Expansion Fix (v3) ─────────────────
@@ -268,9 +270,15 @@ window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
   }
 
   function applyReducedMotion(on) {
-    try { window.localStorage && window.localStorage.setItem('cortex.reducedMotion', on ? '1' : '0'); } catch (e) {}
+    try {
+      window.localStorage && window.localStorage.setItem('cortex.reducedMotion', on ? '1' : '0');
+      // Mark this as an explicit user choice so autoPerformanceMode respects it next load
+      window.localStorage && window.localStorage.setItem('cortex.reducedMotionUserChoice', '1');
+    } catch (e) {}
     if (on) { document.documentElement.classList.add('cortex-reduced-motion'); }
     else { document.documentElement.classList.remove('cortex-reduced-motion'); }
+    // Call the global React setter so inline-style driven animations update immediately
+    try { if (typeof window.__cortexSetReducedMotion === 'function') window.__cortexSetReducedMotion(on); } catch (e) {}
   }
 
   // Is the toggle thumb currently in the ON position?
