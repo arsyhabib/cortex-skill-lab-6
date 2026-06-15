@@ -2700,6 +2700,33 @@
       color: var(--cortex-theme-text-secondary) !important;
     }
 
+    /* Sidebar rail on light themes: crisp & bright, not foggy. Solid opaque
+       panel (no frosted blur over the scrim), light scrim, and sanitized soft
+       shadows so the lecture-module cards stay clearly visible when choosing. */
+    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-sidebar-drawer {
+      background: var(--cortex-theme-bg, #f6f1e9) !important;
+      border-color: rgba(var(--cortex-ink-rgb), 0.10) !important;
+      box-shadow: 0 18px 40px rgba(var(--cortex-ink-rgb), 0.14) !important;
+      backdrop-filter: none !important;
+      -webkit-backdrop-filter: none !important;
+    }
+    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-sidebar-drawer-backdrop {
+      background: rgba(var(--cortex-ink-rgb), 0.16) !important;
+      backdrop-filter: blur(2px) !important;
+      -webkit-backdrop-filter: blur(2px) !important;
+    }
+    /* Drop the heavy dark drop-shadows on the lecture-module cards (atom
+       buttons) — replace with a faint ink lift so cards read flat & clean. */
+    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-atom-button {
+      box-shadow: 0 6px 16px rgba(var(--cortex-ink-rgb), 0.08) !important;
+    }
+    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-atom-button.is-active,
+    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-atom-button[data-active="true"] {
+      box-shadow:
+        0 0 0 1px var(--cortex-theme-accent-1, rgba(100, 180, 255, 0.4)),
+        0 8px 20px rgba(var(--cortex-ink-rgb), 0.12) !important;
+    }
+
 
     .cortex-wallpaper-layer[data-exhibition="false"] {
       opacity: 0.64;
@@ -5143,7 +5170,7 @@
   </script>
 
 
-  <script src="./cortex-app.js?v=2026-06-16-0053" onerror="document.title='ERR:CortexApp'" ></script>
+  <script src="./cortex-app.js?v=2026-06-16-0054" onerror="document.title='ERR:CortexApp'" ></script>
 
   <script src="./ai_workspace.local.js?v=20260615e"
     onerror="window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};"></script>
