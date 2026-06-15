@@ -2703,7 +2703,9 @@
     /* Sidebar rail on light themes: crisp & bright, not foggy. Solid opaque
        panel (no frosted blur over the scrim), light scrim, and sanitized soft
        shadows so the lecture-module cards stay clearly visible when choosing. */
-    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-sidebar-drawer {
+    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-sidebar-drawer,
+    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-library-nav,
+    :is([data-theme-id="lumina"],[data-theme-id="celadon"],[data-theme-id="quartz"]) .cortex-sidebar-shell {
       background: var(--cortex-theme-bg, #f6f1e9) !important;
       border-color: rgba(var(--cortex-ink-rgb), 0.10) !important;
       box-shadow: 0 18px 40px rgba(var(--cortex-ink-rgb), 0.14) !important;
@@ -5172,7 +5174,7 @@
 
   <script src="./cortex-app.js?v=2026-06-16-0054" onerror="document.title='ERR:CortexApp'" ></script>
 
-  <script src="./ai_workspace.local.js?v=20260615e"
+  <script src="./ai_workspace.local.js?v=20260616a"
     onerror="window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};"></script>
   <script>
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {

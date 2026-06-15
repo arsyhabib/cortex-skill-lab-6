@@ -344,3 +344,83 @@ window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};
   if (document.body) { start(); }
   else { document.addEventListener('DOMContentLoaded', start); }
 })();
+
+// ─── Light themes: radically de-fog the sidebar rail ─────────────────────────
+// The lecture rail uses a dark navy translucent background + heavy backdrop
+// blur (inline in docked mode, CSS in drawer mode). On light themes that reads
+// as a foggy dark-green haze. CSS overrides exist, but React rewrites the inline
+// style on every render and can wipe them mid-frame. This patch forces a solid,
+// opaque, bright panel directly on the DOM with setProperty('important') and
+// re-applies on every mutation (including style changes) — the strongest path.
+// ─────────────────────────────────────────────────────────────────────────────
+(function patchLightSidebarDefog() {
+  'use strict';
+  var LIGHT = ['lumina', 'celadon', 'quartz'];
+
+  function isLight() {
+    try {
+      var t = document.documentElement.dataset.cortexTheme || '';
+      if (LIGHT.indexOf(t) >= 0) return true;
+      var root = document.querySelector('.cortex-library-root');
+      if (root && LIGHT.indexOf(root.getAttribute('data-theme-id')) >= 0) return true;
+    } catch (e) {}
+    return false;
+  }
+
+  function readVar(name, fallback) {
+    try {
+      var v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+      return v || fallback;
+    } catch (e) { return fallback; }
+  }
+
+  function forceSolid(el, bg) {
+    el.style.setProperty('background', bg, 'important');
+    el.style.setProperty('background-image', 'none', 'important');
+    el.style.setProperty('backdrop-filter', 'none', 'important');
+    el.style.setProperty('-webkit-backdrop-filter', 'none', 'important');
+    el.style.setProperty('box-shadow', '0 18px 40px rgba(var(--cortex-ink-rgb,18,46,42),0.14)', 'important');
+    el.dataset.cortexDefog = '1';
+  }
+  function clearSolid(el) {
+    ['background', 'background-image', 'backdrop-filter', '-webkit-backdrop-filter', 'box-shadow'].forEach(function (p) {
+      el.style.removeProperty(p);
+    });
+    delete el.dataset.cortexDefog;
+  }
+
+  function apply() {
+    var light = isLight();
+    var bg = readVar('--cortex-theme-bg', '#f6f1e9');
+    document.querySelectorAll('.cortex-library-nav, .cortex-sidebar-drawer, .cortex-sidebar-shell').forEach(function (el) {
+      if (light) forceSolid(el, bg);
+      else if (el.dataset.cortexDefog) clearSolid(el);
+    });
+    var bd = document.querySelector('.cortex-sidebar-drawer-backdrop');
+    if (bd) {
+      if (light) {
+        bd.style.setProperty('background', 'rgba(var(--cortex-ink-rgb,18,46,42),0.16)', 'important');
+        bd.style.setProperty('backdrop-filter', 'blur(2px)', 'important');
+        bd.style.setProperty('-webkit-backdrop-filter', 'blur(2px)', 'important');
+        bd.dataset.cortexDefog = '1';
+      } else if (bd.dataset.cortexDefog) {
+        ['background', 'backdrop-filter', '-webkit-backdrop-filter'].forEach(function (p) { bd.style.removeProperty(p); });
+        delete bd.dataset.cortexDefog;
+      }
+    }
+  }
+
+  var raf = false;
+  var mo = new MutationObserver(function () {
+    if (!raf) { raf = true; requestAnimationFrame(function () { apply(); raf = false; }); }
+  });
+
+  function start() {
+    mo.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class', 'data-theme-id', 'data-cortex-theme'] });
+    apply();
+    [150, 400, 900, 1800].forEach(function (t) { setTimeout(apply, t); });
+  }
+
+  if (document.body) { start(); }
+  else { document.addEventListener('DOMContentLoaded', start); }
+})();
