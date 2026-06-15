@@ -56,6 +56,7 @@
     }
 
     :root {
+      --cortex-ink-rgb: 255,255,255;
       --cortex-tilt-x: 0;
       --cortex-tilt-y: 0;
       --cortex-depth-x: 0px;
@@ -2566,6 +2567,77 @@
       filter: hue-rotate(60deg) saturate(1.2) brightness(0.8);
     }
 
+    /* Light themes: invert the dark wallpaper into a soft, airy light field
+       while preserving hue via hue-rotate(180deg). Lower opacity keeps it subtle. */
+    .cortex-library-root[data-theme-id="lumina"] .cortex-wallpaper-layer {
+      filter: invert(1) hue-rotate(180deg) brightness(1.08) saturate(0.7) sepia(0.12);
+      opacity: 0.32;
+    }
+
+    .cortex-library-root[data-theme-id="celadon"] .cortex-wallpaper-layer {
+      filter: invert(1) hue-rotate(160deg) brightness(1.06) saturate(0.65);
+      opacity: 0.3;
+    }
+
+    .cortex-library-root[data-theme-id="quartz"] .cortex-wallpaper-layer {
+      filter: invert(1) hue-rotate(200deg) brightness(1.05) saturate(0.7);
+      opacity: 0.32;
+    }
+
+    /* Soften the wallpaper further when a light theme is exhibited full-strength */
+    .cortex-library-root[data-theme-id="lumina"] .cortex-wallpaper-layer[data-exhibition="true"],
+    .cortex-library-root[data-theme-id="celadon"] .cortex-wallpaper-layer[data-exhibition="true"],
+    .cortex-library-root[data-theme-id="quartz"] .cortex-wallpaper-layer[data-exhibition="true"] {
+      opacity: 0.4;
+    }
+
+    /* ── Light-theme text/surface overrides ──────────────────────────────
+       Several static CSS classes hardcode light (lavender/white) text meant
+       for dark backgrounds. On light themes these become unreadable. These
+       overrides are scoped to the three light theme roots ONLY — dark themes
+       are completely untouched. AI markdown (.cx-md) is the most text-heavy
+       surface so it is the priority. */
+    [data-theme-id="lumina"] .cx-md,
+    [data-theme-id="celadon"] .cx-md,
+    [data-theme-id="quartz"] .cx-md,
+    [data-theme-id="lumina"] .cx-md h1, [data-theme-id="lumina"] .cx-md h2,
+    [data-theme-id="lumina"] .cx-md h3, [data-theme-id="lumina"] .cx-md h4,
+    [data-theme-id="celadon"] .cx-md h1, [data-theme-id="celadon"] .cx-md h2,
+    [data-theme-id="celadon"] .cx-md h3, [data-theme-id="celadon"] .cx-md h4,
+    [data-theme-id="quartz"] .cx-md h1, [data-theme-id="quartz"] .cx-md h2,
+    [data-theme-id="quartz"] .cx-md h3, [data-theme-id="quartz"] .cx-md h4,
+    [data-theme-id="lumina"] .cx-md strong, [data-theme-id="lumina"] .cx-md b,
+    [data-theme-id="celadon"] .cx-md strong, [data-theme-id="celadon"] .cx-md b,
+    [data-theme-id="quartz"] .cx-md strong, [data-theme-id="quartz"] .cx-md b,
+    [data-theme-id="lumina"] .cx-md em, [data-theme-id="lumina"] .cx-md i,
+    [data-theme-id="celadon"] .cx-md em, [data-theme-id="celadon"] .cx-md i,
+    [data-theme-id="quartz"] .cx-md em, [data-theme-id="quartz"] .cx-md i {
+      color: var(--cortex-theme-text);
+    }
+
+    /* Inline code: ink-tinted chip with theme text on light themes */
+    [data-theme-id="lumina"] .cx-md code,
+    [data-theme-id="celadon"] .cx-md code,
+    [data-theme-id="quartz"] .cx-md code {
+      background: rgba(var(--cortex-ink-rgb), 0.08);
+      color: var(--cortex-theme-text);
+      border-color: rgba(var(--cortex-ink-rgb), 0.18);
+    }
+
+    /* Code label / muted markdown bits → secondary theme text */
+    [data-theme-id="lumina"] .cx-md .cx-md-code-label,
+    [data-theme-id="celadon"] .cx-md .cx-md-code-label,
+    [data-theme-id="quartz"] .cx-md .cx-md-code-label {
+      color: var(--cortex-theme-text-secondary);
+    }
+
+    /* Native form controls render with the correct light affordances */
+    .cortex-library-root[data-theme-id="lumina"],
+    .cortex-library-root[data-theme-id="celadon"],
+    .cortex-library-root[data-theme-id="quartz"] {
+      color-scheme: light;
+    }
+
     .cortex-wallpaper-layer[data-exhibition="false"] {
       opacity: 0.64;
     }
@@ -5011,7 +5083,7 @@
   </script>
 
 
-  <script src="./cortex-app.js?v=2026-06-15-0051" onerror="document.title='ERR:CortexApp'" ></script>
+  <script src="./cortex-app.js?v=2026-06-15-0052" onerror="document.title='ERR:CortexApp'" ></script>
 
   <script src="./ai_workspace.local.js?v=20260615e"
     onerror="window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};"></script>
